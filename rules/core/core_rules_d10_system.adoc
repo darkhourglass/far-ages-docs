@@ -1,4 +1,4 @@
-Kapitel 1: W10-Regelsystem
+= W10-Regelsystem
 
 Begonnen 01.05.2006
 
@@ -10,7 +10,7 @@ Begonnen 01.05.2006
 
 Überarbeitung 18.05.2020 (Überarbeitung generische Regeln)
 
-Ein allgemeiner Überblick und Einführung in des W10-Erfolgssystem
+== Ein allgemeiner Überblick und Einführung in des W10-Erfolgssystem
 
 Das Würfelsystem von Far Ages ist ein sogenanntes *W10-Erfolgssystem*.
 Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er
@@ -34,7 +34,7 @@ Um eine Probe zu bestehen, ist eine bestimme *Anzahl von Erfolgen*
 nötig. Diese Anzahl orientiert sich im Allgemeinen an der Schwierigkeit
 der Probe, je mehr Erfolge nötig sind, desto schwerer ist die Probe.
 
-Standardmindestwurf
+=== Standardmindestwurf
 
 Der übliche Mindestwurf, an dem sich Attributs-, Standard- und
 Talentproben orientieren, ist 7. Sofern nicht anders angegeben, gilt
