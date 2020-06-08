@@ -1,0 +1,643 @@
+Kapitel 2b: Liste generischer Nachteile
+
+Überarbeitung 18.08.2010 (Überführung in generische Regeln)
+
+Hinweise zu den Einträgen:
+
+*Name:* Der Name des Vor- oder Nachteils.
+
+*Punkte:* Beschreibt die Anzahl der CP, die der Vor- oder Nachteil
+bringt bzw. kostet. Mehrfache Punktekosten stehen für die jeweiligen
+Level, die ein Vor- bzw. Nachteil annehmen kann. Die Level beginnen mit
+dem ersten Wert auf Level 1. Jeder folgende Punktewert steht für den
+nächsten Level. Es immer nur maximal so viele Level, wie Angaben gemacht
+sind. +
+*Beschränkung:* Nur Charaktere, die die angegebenen Voraussetzungen
+erfüllen, dürfen den Vor- bzw. Nachteil kaufen.
+
+*Beschreibung:* beschreibt die Auswirkungen des Vor- bzw. Nachteils.
+
+*_Name:_* Aberglaube**Punkte: **10, 20, 30
+
+*Beschränkung: *-
+
+**Beschreibung: **Aberglauben ist weit verbreitet, sogar oder gerade in
+einer Welt der Magie. Ein Abergläubischer hat meistens vor Gegebenheiten
+Angst, die einem Nicht-Abergläubischen nahezu lächerlich erscheinen.
+Jedoch ist Aberglaube auch gefährlich, wenn zum Beispiel die
+abergläubische Bevölkerung eines Bauerndorfes der Meinung ist, dass ein
+Magier Dämonen anlockt. Andeutungsweise seien dabei Mistgabeln und
+Fackeln erwähnt. Ein Charakter mit diesem Nachteil glaubt ebenfalls fest
+an bestimmte Gegebenheiten und ist davon auch nicht abzubringen. Die
+einzelnen Level zeigen an, wie stark dieser Aberglauben ist, bzw. wie
+weit er den Charakter einschränken würde.
+
+_Level I_ lässt den Charakter an ein oder mehrere harmlose
+nicht-schädliche Dinge glauben, die er unter Druck vermutlich eher
+aufgeben würde, z.B. könnte er daran glauben, dass er eine Kreuzung
+nicht mehr überqueren sollte, wenn eine Schwarze Katze dies vor ihm
+getan hat.
+
+_Level II_ lässt ihn bereits an stärke körperliche oder seelische
+Probleme, wie Unglück oder Wahnsinn, glauben, wenn etwas passiert, dass
+seinem Aberglauben entspricht. Es sollten Ereignisse und Auslöser
+gefunden werden, die einigermaßen regelmäßig vorkommen können.
+
+_Level III_ ist der gefährliche Aberglaube, der sich auf ganze
+Bevölkerungsgruppen auswirken kann, zum Beispiel kann der Abergläubische
+denken, dass jeder Zauberer einen Dämonen aus seinem Hut zaubern kann.
+
+Der Abergläubische wird in jedem Fall auf _Level 3_ gegen den Auslöser
+seiner Ängste, die sein Leben bedrohen, vorgehen und ist nur mit Gewalt
+daran zu hindern.
+
+In allen Fällen ist der SL und der Spieler angehalten, sich
+entsprechende Abergläubische Dinge und Rituale, Talismane usw.
+auszudenken.
+
+*_Name:_* Abhängigkeit[Substanz]*Punkte:* 20, 40, 60
+
+*Beschränkung: *-
+
+**Beschreibung: **Der Charakter ist von einer Substanz abhängig, für
+gewöhnlich eine Droge, die Glückszustände, Ruhezustände, Halluzinationen
+oder ähnliches auslöst. Der Charakter benötigt regelmäßig entsprechende
+Dosen, die seine Sucht befriedigen. Kann er dies nicht erreichen, setzt
+der Entzug ein, der mit körperlicher Schwäche und psychischer
+Instabilität einhergeht. Nervosität und irrationales Denken beherrscht
+den Charakter und als einziges Ziel ist das Beschaffen einer neuen Dosis
+interessant. Die einzelnen Level geben an, in welchen Zeitabschnitten
+der Charakter neue Dosen benötigt:
+
+_Level I_: einmal in der Woche
+
+_Level II_: alle 3 Tage
+
+_Level III_: jeden Tag.
+
+Für jeden Tag, für den der Charakter seine nötige Ration nicht bekommen
+hat, erleidet er einen kumulativen Malus von -1 Würfel. Der SL kann
+Willenskraft-Proben verlangen, um zu überprüfen, ob der Charakter sich
+auf etwas anderes als die Beschaffung seiner Droge zu konzentrieren. Die
+Anzahl der nötigen Erfolge für diese Probe ist die Anzahl der Tage ohne
+die Droge.
+
+*_Name:_* Allergie[Auslöser]**Punkte: **10, 30, 50, 70
+
+*Beschränkung: *-
+
+**Beschreibung: **Der Charakter besitzt eine Allergie gegen einen
+normalerweise harmlosen Stoff, z.B. Blütenstaub, Hausstaub, Milch usw.
+Kommt er mit dem Stoff in Kontakt, so muss er eine Gift(3)-Probe
+bestehen. Die Wirkung des eigentlich harmlosen Stoffes entspricht der
+Wirkung eines Giftes in Abhängigkeit des gekauften Levels:
+
+_Level I:_ Sekundärer Effekt: schwächend, Primärer Effekt: Schaden(1W6)
+
+_Level II:_ Sekundärer Effekt: paralysierend, Primärer Effekt:
+Schaden(2W6)
+
+_Level III:_ Sekundärer Effekt: Halluzinogen, Primärer Effekt:
+Schaden(3W6)
+
+_Level IV:_ Sekundärer Effekt: Schaden(2W6), Primärer Effekt:
+Schaden(4W6)
+
+*_Name:_* Amputiert[Arm, Bein]**Punkte: **60
+
+*Beschränkung: *-
+
+**Beschreibung: **Dem Charakter fehlt ein Gliedmaß. Welches das ist,
+kann der Spieler entscheiden. Die Auswirkungen sind: Fehlt ein Arm, so
+kann der Charakter keine 2H-Waffen benutzen, fehlt ein Bein, so bewegt
+er sich nur noch mit der halben Geschwindigkeit fortbewegen und benötigt
+eine Krücke. Ein verlorenes Gliedmaß reduziert die maximalen
+Attributsstufen von GE und ST um 3, Minimum 1.
+
+*_Name:_* Animosität[Rasse, Gruppierung]**Punkte: **10
+
+*Beschränkung: *-
+
+**Beschreibung: **Jedes Mal wenn der Charakter in Kontakt mit der
+gewählten Rasse oder Gruppe tritt, muss er eine Willenskraft-Probe
+würfeln. Die Anzahl der nötigen Erfolge ist die Anzahl der anwesenden
+Wesen, die die Animosität auslösen. Besteht er diese Probe nicht, so
+tritt seine Abneigung offen zu Tage und er erhält einen Malus von -1 auf
+alle Würfelanzahlen für alle Proben, die soziale Interaktion mit diesen
+Wesen beinhalten.
+
+*_Name:_* Arrogant**Punkte: **10
+
+*Beschränkung:* -
+
+*Beschreibung:* Der Charakter bringt anderen nur eine geringe
+Wertschätzung entgegen und ist von der Wichtigkeit seiner Leistung sehr
+stark überzeugt. Anmaßung und Hochmut sind typische Kennzeichen eines
+arroganten Wesens. Diese können zu verschiedenen Problemen im
+Zusammenspiel mit anderen führen. Der SL sollte den Spieler auffordern,
+diesen Nachteil Rollenspielerisch umzusetzen.
+
+Außerdem kann er, wenn er es für angemessen hält, einen Malus von bis zu
+-2 auf die Würfelanzahl bei Interaktionsproben ansetzen, wenn er der
+Ansicht ist, dass der Charakter in diesem Moment arrogant sein sollte.
+
+*_Name:_* Dunkles Geheimnis**Punkte:** 10
+
+*Beschränkung:* -
+
+**Beschreibung: **In der Vergangenheit des Charakters hat es ein
+Ereignis gegeben, dessen Entdeckung schlimme Folgen für den selbigen
+haben kann. Der Charakter könnte beispielsweise einen Mord verübt haben,
+der jedoch verjährt ist oder seine Familie hatte einen Fall von
+Dämonenverseuchung. Im Gegensatz zu „Illegale Aktivität“ ist dieses
+Geheimnis für den Charakter eine einmalige Angelegenheit gewesen.
+Grundsätzlich sollte eine Aufdeckung dieses Geheimnisses für den
+Charakter ein soziales Stigmata sein.
+
+*_Name:_* Ehrlich**Punkte: **15
+
+*Beschränkung:* -
+
+**Beschreibung: **Ja, dies ist ein Nachteil, denn der Charakter kann
+einfach nicht lügen, zumindest nicht gut. Vom Charakter ausgeführte
+Täuschen-Proben, werden mit einem Malus von -1 auf die Würfe zum Erfolg
+belegt.
+
+*_Name:_* Ehrenkodex**Punkte: **10, 20, 30
+
+*Beschränkung: *-
+
+**Beschreibung: **Der Charakter folgt einem Ehrenkodex, der ihm
+Prinzipien in seinem Leben diktieren. Das sind beispielsweise: „Töte
+niemals einen Unbewaffneten.“, „Befolge immer den Befehl eines
+Ranghöheren“ oder „Vergelte gleiches mit gleichem“. Die Level geben an,
+wie strikt der Charakter sich an diesen Kodex halten muss und mit
+welchen Strafen er rechnen muss, wenn er eine Kodex Regel bricht.
+
+_Level I_: Die Regeln sind nicht in Stein gemeißelt, jedoch kann das
+Ansehen des Charakters leiden, wenn er die Regeln zu oft oder
+absichtlich bricht.
+
+_Level II_: Der Charakter muss für das Brechen einer Regel mit einer
+Bestrafung rechnen, wie z.B. Gefängnisaufenthalt, Buße in Form von
+Peitschenhieben, Läuterung in Form von Questen u.ä..
+
+_Level III_: Die Regeln sind unumstößlich. Der Charakter muss mit einer
+schlimmen Strafe rechnen: Tod, Exil.
+
+*_Name:_* Elementarfokus[Element]*Punkte:* 50
+
+**Beschränkung: **Beruf
+
+*Beschreibung:* Der Charakter muss ein bevorzugtes Element für den
+Elementarfokus wählen: Feuer, Wasser, Erde, Luft. Zu jedem bevorzugten
+Element gibt es Gegenelement. Ein Charakter mit diesem Nachteil kann nie
+einen Zauberspruch aus der Zauberspruchliste seines Gegenelements
+lernen. Folgende Übersicht zeigt welche Gegenelemente zu den jeweiligen
+Elementarfokus existieren:
+
+[cols=",",]
+|===
+|Elementarfokus |Gegenelement
+|Feuer |Wasser
+|Wasser |Feuer
+|Erde |Luft
+|Luft |Erde
+|===
+
+*_Name:_* Fanatismus**Punkte:** 20
+
+*Beschränkung: *-
+
+Beschreibung: Der Charakter folgt einem oder mehreren Grundsätzen, die
+er fanatisch und fatalistisch verfolgt. Opportunitäten existieren für
+ihn nicht, nur insofern, dass er sie vernichten muss. Der Fanatiker
+folgt seinem Kodex ohne zu Hinterfragen. Welche Sichtweisen er vertritt,
+sollte am Anfang des Spiels ausgehandelt werden.
+
+*_Name:_* Feinde**Punkte: **10 bis 50
+
+*Beschränkung: *-
+
+Beschreibung: Der Charakter hat sich im Laufe seines Lebens Feinde
+gemacht. Diese Feinde sind ausschließlich sterblicher Natur, können
+jedoch aus beliebigen Motiven, wie z.B. persönlichen, politischen oder
+wirtschaftlichen Gründen handeln. Der Punktewert steht für die
+Mächtigkeit und/oder für die Anzahl der Feinde. Ein Punktewert von 10
+steht für einen Feind, der dem Charakter spürbar schaden kann, aber
+nicht zwangsläufig körperlich. Es könnte sich zum Beispiel um einen
+niederen Regierungsbeamten handeln, der durch Intrigen den Charakter ins
+Gefängnis zu bringen versucht. 50 Punkte stehen für einen sehr mächtigen
+Feind, der sich dem Tod des Charakters wünscht und über enorme
+Ressourcen verfügt. Das kann der Anführer eines ganzen Staats sein, der
+logischerweise auch sehr viele Anhänger hat, die den Charakter verfolgen
+können. Der SL ist frei darin zwischen diesen beiden Extremen Feinde für
+seine Spieler zuzulassen. Natürlich sollten diese Feinde auch aktiv ins
+Spielgeschehen eingreifen können und dürften Aufhänger für das ein oder
+andere Abenteuer sein. Höhere Punktewerte stehen für übernatürliche
+Feinde, die jedoch nur durch den SL freigegeben werden sollten, da
+solche Kreaturen für den Charakter wohl zu mächtig wären.
+
+*_Name:_* Gefallen**Punkte: **variabel
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter schuldet einer anderen Person einen
+Gefallen. Diese Person kann jederzeit diesen Gefallen einfordern und
+damit gegebenenfalls die Pläne des Charakters durcheinander bringen. Der
+Charakter muss den Gefallen erfüllen, sonst wird die Person alles tun,
+um dem Charakter zu schaden (nicht unbedingt auf körperlicher Ebene).
+Die Punktekosten richten sich nach der Mächtigkeit des Gefallen. Diese
+kann der SL berechnen, in dem er aus jeder Kategorie die Punktekosten
+addiert:
+
+* Art des Gefallens:
+** 10: klein: der Charakter kann das Gewünschte innerhalb weniger
+Minuten erledigen
+** 20: mittel: der Charakter braucht ein paar Stunden bis maximal einen
+Tag
+** 30: groß: der Charakter braucht mindestens 3 Tage
+* Person, die den Gefallen einfordern kann
+** 10: unwichtig: die Person kann nicht viel bewegen oder nur lokal
+begrenzt aktiv werden
+** 20: genau dazwischen: die Person hat bereits einen gewissen Teil
+ihrer Einflusssphäre erschlossen
+** 30: machtvoll: innerhalb der Einflusssphäre hat die Person völlige
+Kontrolle auch über lokale Grenzen hinaus
+* Gefahr, die mit dem Gefallen verbunden ist:
+** 10: keine oder gering: der Charakter muss nicht damit rechnen, ernst
+Folgen davon zu tragen
+** 20: mittel: die Gefahr ist dem Charakter bewusst und kann ihm
+unangenehm werden
+** 30: schwer: die Gefahr ist so groß, dass der Charakter dafür
+Verletzungen oder ähnlich langfristige Lösungen in Kauf nehmen muss,
+jedoch nicht bis zum Tod.
+
+*_Name:_* Gesteigerte Angst[Objekt, Wesen]*Punkte:* 10
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter wählt ein Objekt oder eine Kreatur, die
+natürlicherweise Furcht oder Horror verursacht. Furcht- bzw.
+Horror-Proben sind gegenüber diesem gewählten Objekt oder Wesen mit
+einem Malus von -1 auf die Würfelanzahl belegt. Der Nachteil zählt nur,
+wenn der Charakter etwas wählt, dass realistischerweise oft genug
+vorkommt, um als wirklicher Nachteil gewertet zu werden.
+
+*_Name:_* Grobmotoriker**Punkte:** 15
+
+Beschränkung: -
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 Würfe zum
+Erfolg für alle Akrobatik-Proben (Standardproben).
+
+*_Name:_* Habgierig**Punkte:** 10, 20, 30
+
+*Beschränkung:* -
+
+**Beschreibung: **Wertvolle Gegenstände, Geld und Besitz treiben den
+Charakter an. Nach Möglichkeit wird er immer die Chance nutzen, um
+seinen Besitz zu vergrößern. Immer wenn er in eine solche Situation
+kommt, muss er eine Willenskraft-Probe gegen eine Anzahl von Erfolgen
+würfeln, die der SL anhand der Level bestimmt:
+
+_Level I_: 2 Erfolge
+
+_Level II_: 3 Erfolge
+
+_Level III_: 5 Erfolge
+
+Wird die Probe verpatzt, so muss der Charakter alles daran setzen, um
+den Gegenstand/Gewinn zu erhalten.
+
+Der SL und der Spieler können sich darauf einigen, dass bestimmte
+Gegenstandsgruppen, wie Ausrüstung, Nutztiere, Gebrauchsgegenstände
+nicht dazu gehören. Im Allgemeinen sind Luxusgegenstände mit diesem
+Nachteil eingeschlossen.
+
+*_Name:_* Hässlich**Punkte:** 15
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Verführen-Proben.
+
+*_Name:_* Hänfling**Punkte:** 15
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Einschüchtern-Proben.
+
+*_Name:_* Hass[Rasse, Gruppe, Objekt]*Punkte:* 20
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter hasst aus Überzeugung ein bestimmtes
+Objekt, einen Umstand, eine Person oder eine Gruppe von Personen.
+Jegliche Interaktion mit diesem Objekt ist mit einem Malus von -2 Würfel
+belegt. Geht es darum dem verhassten Etwas Schaden zuzufügen, so sind
+die entsprechenden Würfel um +1 erhöht.
+
+*_Name:_* Hitzkopf**Punkte:** 15
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Willenskraft-Proben.
+
+*_Name:_* Illegale Aktivität**Punkte:** 20
+
+*Beschränkung:* -
+
+Beschreibung: Der Charakter ist Mitglied einer kriminellen Organisation
+oder führt bewusst und mit Absicht Verbrechen durch. Seine Illegale
+Aktivität kann dem Charakter Vorteile bieten, z.B. Kontakte, Einkommen
+oder besondere Ausrüstung. Dies kann der SL bei der Charaktererschaffung
+berücksichtigen. Der Nachteil an sich ist jedoch, sollte diese Aktivität
+jemals publik werden, dann droht dem Charakter Verfolgung, Gefängnis
+oder gar die Hinrichtung.
+
+*_Name:_* Körperliche Fehlbildung**Punkte:** 30
+
+*Beschränkung: *-
+
+Beschreibung: Der Charakter besitzt eine schwere körperliche
+Fehlbildung, z.B. ein verkrüppeltes Bein, ein eingewachsenes Auge usw.
+Er erhält einen Malus von -1 Würfel auf jeweils alle Geschick- und
+Charisma-basierten Proben.
+
+**_Name: _**Kurze Beine**Punkte:** 15
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Springen-Proben.
+
+*_Name:_* Kurzer Schlaf**Punkte:** 30
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter leidet unter kurzem Schlaf. Jedes Mal,
+wenn der Charakter sich schlafen legt, würfelt er einen W10. Würfelt er
+eine 10, dann ist sein Schlaf zu kurz. Er wacht auf, bevor er seine
+Magie- und Trefferpunkte regenerieren konnte.
+
+**_Name: _**Langsam*Punkte:* 15
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Reflex-Proben.
+
+*_Name:_* Magieanfällig**Punkte: **15
+
+*Beschränkung: *-
+
+*Beschreibung:* Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Magieabwehr-Proben.
+
+*_Name:_* Misstrauisch**Punkte:** 10
+
+*Beschränkung:* -
+
+*Beschreibung:* Der Charakter hat Probleme damit, neue Personen oder
+Umstände zu akzeptieren und stehen diesen sofort kritisch gegenüber.
+Deswegen müssen alle Personen, die ihm nicht bekannt sind, einen Malus
+von -1 Würfel auf ihre Überzeugen-Proben hinnehmen, wenn sie mit dem
+Charakter sprechen. Weiterhin gibt sich der Charakter Fremden gegenüber
+verschlossen und ablehnend. Spricht er Fremde an, so muss er für
+Überzeugen-Proben ebenso einen Malus von -1 Würfel hinnehmen.
+
+*_Name:_* Morbide**Punkte: **40
+
+*Beschränkung:* SB 3+
+
+*Beschreibung:* Der Charakter empfindet keine natürlich Furcht und Angst
+mehr vor den Toten. In Form dieses Nachteils bedeutet dies, dass der
+Charakter sogar eine Faszination für die Toten und das Phänomen des
+Todes entwickelt hat. In Situationen, in denen der Charakter mit Diesem
+konfrontiert wird, zeigt er eine ungewöhnliche Reaktion, die auf seine
+Umfeld befremdlich wirkt. Wie sich die Morbidität auswirkt, kann der
+Spieler mit dem SL absprechen. Der Charakter kann beispielsweise sehr
+gefühlskalt wirken, zynisch oder kann sich nur schwer beherrschen den
+Toten nicht sofort zu obduzieren.
+
+Der SL kann NPCs entsprechen reagieren lassen oder den Spieler in
+entsprechende Situationen bringen. Beispielsweise könnte der Charakter
+übersehen, sich das Blut einer Obduktion von der Kleidung zu waschen.
+Der SL kann auch Mali von bis zu -3 Würfel auf soziale Proben gegenüber
+Zuschauern seiner Morbidität ansetzen.
+
+Der Charakter ist jedoch immun gegenüber allen Furcht- und
+Horror-Proben, die aufgrund von Todesphänomenen ausgelöst werden
+könnten. Dies gilt jedoch niemals für jegliche Untoten-Phänomene und
+magisch verursachte Furcht.
+
+**_Name: _**Nachtblindheit*Punkte:* 40
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter ist blind, wenn nur schlechte
+Lichtverhältnisse herrschen, z.B. in der Nacht. Bei sternenklarer Nacht
+verdoppelt sich sein Malus auf visuelle Erkenntnis- und Geschick-Proben
+auf -8. Steht der nur der Mond am Himmel, so gelten die Proben
+automatisch als Patzer. Ähnliches gilt für dunkle Gebiete, wie z.B.
+Höhlen mit geringer Ausleuchtung.
+
+*_Name:_* Neugierig**Punkte:** 10
+
+*Beschränkung:* -
+
+**Beschreibung: **Neugier treibt den Charakter an. Jedes Mal, wenn er in
+eine Situation kommt, in der seine Neugier siegen könnte, z.B. wenn er
+ein Schloss öffnen könnte, oder eine Tür oder länger als es gesund wäre,
+beobachten will, was dort am nächtlichen See aus dem Wasser steigt, muss
+er einen Willenskraft-Probe bestehen, um dies nicht zu tun. Die Anzahl
+der Erfolge kann der SL je nach Situation anpassen.
+
+*_Name:_* Pechvogel**Punkte:** 10, 20
+
+*Beschränkung:* -
+
+**Beschreibung: **Das Pech verfolgt den Charakter. Ständig geht etwas
+schief und läuft nicht so, wie es geplant war. Auf__ Level I__ kann der
+SL einmal am Tag einen W10 würfeln. Zeigt dieser eine 7 oder höher, so
+passiert in dem Moment etwas ungünstiges für den Charakter. Das kann von
+harmlosen, peinlichen Missgeschicken, wie das Umwerfen eines Krugs voll
+Wein, bis zu schwerwiegenden Problemen, wie das plötzliche Auftauchen
+von gefährlichen Verfolgern. Auf _Level II_ ist der Effekt gleich, tritt
+jedoch bereits ab einem Ergebnis von 5 oder mehr ein. Nicht mit
+Glückspilz kombinierbar.
+
+*_Name:_* Pflicht**Punkte:** 20, 30
+
+*Beschränkung:* -
+
+Beschreibung: Der Charakter muss eine bestimmte Aufgabe erfüllen, bzw.
+hat Aufgaben, denen er nachkommen muss, sodass sich seine
+Abenteurertätigkeit durchaus einschränken kann. Einfache Dinge sind z.B.
+einen Bauernhof hüten, auf seine Familie aufpassen, einen wichtigen
+Botengang erledigen usw. Die Level geben an, wie stark die Konsequenzen
+sind, wenn er den Pflichten nicht nachkommt. _Level I_: der Charakter
+wird einen spürbaren Verlust erleiden, z.B. ein hohes finanzielles
+Defizit oder er verliert Ansehen. _Level II_: Der Charakter kann dafür
+mit Gefängnis, Verlust von Ehre etc. bestraft werden.
+
+*_Name:_* Ruf**Punkte:** 10, 20, 30, 40, 50
+
+*Beschränkung:* -
+
+**Beschreibung: **Der Charakter hat sich bereits in einem gewissen
+Umfeld einen Namen gemacht. Die Level geben an, in welchem Gebiet dies
+gilt:
+
+* Level I: ein kleines Dorf mit Umgebung
+* Level II: eine Stadt
+* Level III: eine Hauptstadt
+* Level IV: eine Provinz
+* Level V: ein Land
+
+Der negative Ruf lässt Leute den Charakter erkennen und sich an
+Missetaten oder ähnliches erinnern. Dadurch treten sie ihm deutlich
+ablehnender gegenüber. Befindet sich der Charakter innerhalb des von ihm
+gewählten Gebietes, muss er einmal pro Tag gegenüber einer anderen
+Person, die ihm mindestens neutral gesonnen ist, einen Malus von -3
+Würfel eine der folgenden Standardproben annehmen: Ausfragen,
+Einschüchtern, Täuschen, Überzeugen, Verführen. Der SL bestimmt die
+Situation.
+
+*_Name:_* Schadensanfälligkeit[Schadensart]*Punkte:* +15 pro Level
+
+*Beschränkung:* Rasse, Beruf
+
+**Beschreibung: **Ein Charakter mit diesem Nachteil ist gegen die
+gewählte Schadensart besonders anfällig. Pro Level erhält die
+Angriffsprobe, die diese Schadensart verursacht, einen zusätzlichen
+Würfel +1W10.
+
+[#anchor]####Die Schadensarten werden im Kapitel Kampf aufgeführt.
+
+*_Name:_* Schlechte Kletterer**Punkte:** 15
+
+*Beschränkung: *-
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Klettern-Proben.
+
+*_Name:_* Schlechte Konstitution**Punkte:** 15
+
+*Beschränkung: *-
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Gift- und Krankheits-Proben.
+
+*_Name:_* Schlechter Redner**Punkte:** 15
+
+*Beschränkung:* -
+
+*Beschreibung:* Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Überzeugen-Proben.
+
+*_Name:_* Schlechte Schwimmer**Punkte:** 15
+
+*Beschränkung: *-
+
+**Beschreibung: **Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Schwimmen-Proben.
+
+*_Name:_* Schreckhaft**Punkte:** 15
+
+*Beschränkung:* -
+
+*Beschreibung:* Der Charakter erhält einen Malus von -1 auf die Würfe
+zum Erfolg für alle Furcht-Proben.
+
+*Name:* Spezielle Nahrung[Nahrung]*Punkte:* 20
+
+*Beschränkung:* -
+
+*Beschreibung:* Der Charakter kann sich nur eingeschränkt von bestimmten
+Nahrungsmitteln ernähren. Zu Beginn sollte der Spieler die
+Nahrungsmittel festlegen, die der Charakter verträgt bzw. nicht
+verträgt. Nimmt er dennoch eine Portion zu sich, wirkt es wie ein
+Gift(5) mit Sekundärer Effekt: schwächend, Primärer Effekt:
+Schaden(1W6).
+
+*_Name:_* Stumm**Punkte:** 60
+
+*Beschränkung: *-
+
+Beschreibung: Der Charakter kann nicht sprechen. Das führt dazu, dass er
+einige Zaubersprüche und Talente, die die Stimme erfordern, nicht mehr
+verwenden kann, bzw. im Falle von Zaubersprüchen Mali auf seine
+Spruchzauberei-Probe hinnehmen muss, siehe dazu das Dokument[Magie].
+
+*_Name:_* Tölpel**Punkte:** 15
+
+Beschränkung:
+
+**Beschreibung: **Der Charakter hat einen Malus von -1 auf die Würfe zum
+Erfolg für alle Fallen-Proben.
+
+**_Name: _**Unaufmerksam*Punkte:* 15
+
+Beschränkung:
+
+**Beschreibung: **Der Charakter hat einen Malus von -1 auf die Würfe zum
+Erfolg für alle Entdecken und Suchen-Proben.
+
+**_Name: _**Unbeherrscht*Punkte:* 20
+
+*Beschränkung:* -
+
+Beschreibung: Der Charakter kann seine Wut nicht beherrschen. Immer,
+wenn er provoziert wird, eine (spezielle, vom SL oder dem Spieler
+festgelegte) Stresssituation erlebt, dann muss er eine
+Willenskraft-Probe gegen eine vom SL festgelegte Anzahl von Erfolgen
+bestehen. Die Anzahl lässt sich grob an der Stärke der Provokation
+festmachen, beispielsweise ist eine starke Beleidigung mit 3 bis 4
+Erfolgen zu belegen. Beim Verpatzen verfällt der Charakter in einen
+rasenden Zustand, wo er unkontrolliert versucht, beim Auslöser seiner
+Wut so viel Schaden wie möglich anzurichten. Erst nach 10 Minuten ist
+eine weitere Willenskraft-Probe erlaubt.
+
+*_Name:_* Unruhiger Magen**Punkte:** 15
+
+Beschränkung:
+
+**Beschreibung: **Der Charakter hat einen Malus von -1 auf die Würfe zum
+Erfolg für alle Ekel-Proben.
+
+*_Name:_* Unvorsichtig**Punkte:** 10
+
+*Beschränkung:* -
+
+Beschreibung: Der Charakter ist etwas übermütig und leichtsinnig. Am
+Anfang eines Kampfes muss er eine Willenskraft(2)-Probe. Gelingt ihm
+diese nicht, erhält er zwar +1 auf den Initiativewert, jedoch erhalten
+seine Gegner einen Bonus von +1 Würfel, wenn sie ihn angreifen.
+
+*_Name:_* Verdammt, wo war es noch gleich?*Punkte:* 20
+
+*Beschränkung:* -
+
+*Beschreibung:* Der Charakter ist leicht vergesslich. Jedes Mal, wenn er
+einen Gegenstand aus einem Rucksack, seinen Satteltaschen oder
+Kleidertaschen herausholen will, den er brav auf seinem Charakterbogen
+notiert hat, würfelt er einen W10. Bei der 9 oder 10 hat er diesen
+Gegenstand doch nicht dabei und ihn irgendwo vergessen.
+
+*_Name:_* Verschlechterte Initiative**Punkte:** 10
+
+Beschränkung:
+
+**Beschreibung: **Der Charakter hat einen Malus von -1 auf seinen
+Initiativewert.
+
+*_Name:_* Zu Direkt**Punkte:** 15
+
+Beschränkung:
+
+**Beschreibung: **Der Charakter hat einen Malus von -1 auf die Würfe zum
+Erfolg für alle Ausfragen-Proben.
