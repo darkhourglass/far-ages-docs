@@ -1,16 +1,6 @@
 = W10-Regelsystem
 
-Begonnen 01.05.2006
-
-Überarbeitung 10.03.2007 (W10-Regelsystem 2)
-
-Überarbeitung 06.09.2009 (W10-Regelsystem 2.1)
-
-Überarbeitung 14.08.2010 (Überführung in generische Regeln)
-
-Überarbeitung 18.05.2020 (Überarbeitung generische Regeln)
-
-== Ein allgemeiner Überblick und Einführung in des W10-Erfolgssystem
+== Einführung in des W10-Erfolgssystem
 
 Das Würfelsystem von Far Ages ist ein sogenanntes *W10-Erfolgssystem*.
 Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er
@@ -22,13 +12,16 @@ Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu
 übertreffen gilt. D.h. jeder Würfel, der eine höhere oder gleiche
 Augenzahl zeigt als der geforderte Mindestwurf zählt als *Erfolg*.
 
-Beispiel: Talviin Siebentöter, ein bekannter Skalde, möchte sein
+.Mindestwürfe
+====
+Talviin Siebentöter, ein bekannter Skalde, möchte sein
 Auditorium im Güldenen Schlüssel mit einem kleinen Lied beglücken und
 hofft auf etwas Geld oder ein gutes Freigetränk. Dazu schaut Talviins
 Spieler in die Talentbeschreibung für Kunst[Gesang] in der er findet,
 dass eine Anwendung von diesem Talent einen Mindestwurf von 7 hat.
 Talviin besitzt insgesamt 7 Stufen in diesem Talent und würfelt daher
 mit 7W10. Würfelt er 3, 4, 6, 6, 7, 7, 8 hat Talviin 3 Erfolge!
+====
 
 Um eine Probe zu bestehen, ist eine bestimme *Anzahl von Erfolgen*
 nötig. Diese Anzahl orientiert sich im Allgemeinen an der Schwierigkeit
@@ -37,11 +30,11 @@ der Probe, je mehr Erfolge nötig sind, desto schwerer ist die Probe.
 === Standardmindestwurf
 
 Der übliche Mindestwurf, an dem sich Attributs-, Standard- und
-Talentproben orientieren, ist 7. Sofern nicht anders angegeben, gilt
+Talentproben orientieren, ist *7*. Sofern nicht anders angegeben, gilt
 dieser Mindestwurf für alle Proben. Der Standardmindestwurf wird auch
 als SMW abgekürzt angegeben.
 
-Abkürzungen für Proben
+=== Abkürzungen für Proben
 
 Innerhalb des Far Ages Spielsystems können Proben dieser Art
 grundsätzlich folgenderweise abgekürzt werden:
@@ -88,7 +81,7 @@ Erfolgen zu dem Standardmindestwurf von 7 (siehe dazu Standardprobe
 weiter unten) und nicht eine Willenskraft-Probe zum Mindestwurf 5 mit
 unbekannter Mindestanzahl Erfolge.
 
-Situationsmodifikatoren
+=== Situationsmodifikatoren
 
 Als Situationsmodifikatoren bezeichnet man Boni oder Mali, also
 Erleichterungen bzw. Erschwernisse, für eine Probe.
@@ -99,8 +92,11 @@ Würfelergebnisse einer Probe erhöht bzw. erniedrigt werden.
 
 Dadurch ist es möglich, dass Ergebnisse über 10 erreicht werden können.
 
-Beispiel: Bei einer Probe mit 3W10 ergeben sich die Zahlen 3, 4, 5. Bei
+.Situationsmodifikatoren
+====
+Bei einer Probe mit 3W10 ergeben sich die Zahlen 3, 4, 5. Bei
 einem +2 auf die Würfe zum Erfolg ergeben sich stattdessen 5, 6, 7.
+====
 
 Folgende Modifikatoren sind sowohl in Bezeichnung und Beschreibung im
 System von Far Ages verankert (basierend auf dem Standardmindestwurf):
@@ -134,7 +130,7 @@ gewürfelt wird, müssen alle Modifikatoren zusammenaddiert werden. Es ist
 möglich, dass ein negativer Modifikator einen positiven Modifikator
 aufhebt.
 
-Patzer
+=== Patzer
 
 Jede natürlich gewürfelte 1 bedeutet immer einen Patzer, unabhängig von
 Boni oder Mali auf die Probe. Patzer heben gewürfelte Erfolge auf. Ein
@@ -143,7 +139,7 @@ Gibt es mehr Patzer als Erfolge, also sind alle Erfolge durch Patzer
 eliminiert worden, dann gilt die gesamte Probe als Patzer, was meist
 unangenehme Folgen hat.
 
-Bonuswürfel
+=== Bonuswürfel
 
 Jede natürlich gewürfelte 10 ergibt einen Bonuswürfel. Dieser
 Bonuswürfel ist ein W10, der für die aktuelle Probe zusätzlich unter
@@ -154,45 +150,59 @@ Bevor Patzer ausgewertet werden, werden alle Bonuswürfel ausgewertet.
 Bonuswürfel können auch Patzer und weitere Bonuswürfel ergeben, die
 normal verrechnet werden, solange bis alle Würfel geworfen wurden.
 
-*Hinweis:* Ein Spieler darf jederzeit entscheiden, einen Bonuswürfel
+[NOTE]
+Ein Spieler darf jederzeit entscheiden, einen Bonuswürfel
 nicht auszuführen.
 
-*Hinweis:* Eine natürlich gewürfelte 10 ist kein automatischer Erfolg.
+[NOTE]
+Eine natürlich gewürfelte 10 ist kein automatischer Erfolg.
 
 Situationsmodifikatoren, die die Ergebnisse von Würfelwürfen
 beeinflussen, beeinflussen das Entstehen von Patzern und Bonuswürfeln
 nicht. Ausschließlich natürlich gewürfelte 1er bzw. 10er kommen für die
 Bestimmung zum Tragen.
 
-Beispiel: Für eine Probe mit 4W10 würfelt ein Spieler eine 1, 1, 7, und
+.Patzer und Bonuswürfel
+====
+Für eine Probe mit 4W10 würfelt ein Spieler eine 1, 1, 7, und
 10 wobei der Mindestwurf 7 ist. Die 10 generiert sofort einen
 Bonuswürfel. Der Spieler würfelt mit diesen Bonuswürfel eine 8. Damit
 ist das Gesamtergebnis 1, 1, 7, 8, 10. Dabei sind 7, 8 und 10 über bzw.
 gleich dem Mindestwurf, also Erfolge. Die 1er vernichten jedoch zwei
 Erfolge. Dadurch bleibt für diese Probe nur ein Erfolg übrig.
+====
 
-Beispiel: Wiedermal würfelt ein Spieler. Diesmal bekommt er die
+.Patzer und Bonuswürfel
+====
+Wiedermal würfelt ein Spieler. Diesmal bekommt er die
 Ergebnisse 1, 1, 7, 9 bei einem Mindestwurf von 7. In diesem Fall heben
 beide Einsen die beiden Erfolge auf. Damit bleibt kein Erfolg übrig und
 die Probe gilt Misserfolg. Jedoch kommen keine weiteren negativen Folgen
 hinzu.
+====
 
-Beispiel: Diesmal würfelt jemand mit 3W10: 1, 1, 7 bei einem Wurf mit
+.Patzer und Bonuswürfel
+====
+Diesmal würfelt jemand mit 3W10: 1, 1, 7 bei einem Wurf mit
 Mindestwurf 7. Eine 1 löst die 7 auf und verschwindet. Es bleibt eine 1
 übrig und somit mehr Patzer als Erfolge. Die ganze Probe ist also ein
 Patzer!
+====
 
-Beispiel: Für eine Probe mit Mindestwurf 7 würfelt ein Charakter 5W10
+.Patzer und Bonuswürfel
+====
+Für eine Probe mit Mindestwurf 7 würfelt ein Charakter 5W10
 und erhält die Werte: 1, 3, 7, 9, 10. Der Bonuswürfel wird ausgewertet
 und der Spieler würfelt eine 4. Dadurch ergeben sich die Werte: 1, 3, 4,
 7, 9, 10.
+====
 
 Der Charakter besitzt jedoch noch einen Bonus von +1 auf die Würfe zum
 Erfolg für diese Probe, also ergeben sich 1 (Modifikationen ändern
 Patzer nicht), 4, 8, 10, 11. Die „neue“ 10 ist keine natürlich
 Geworfene, also erhält der Spieler keinen weiteren Bonuswürfel.
 
-Konkurrierende und Einfache Proben
+=== Konkurrierende und Einfache Proben
 
 Proben können jedoch auch von anderen Faktoren beeinflusst werden, denn
 oft genug kann es vorkommen, dass andere Faktoren aktiv die
@@ -219,7 +229,9 @@ Angreifers eliminiert.
 Eine Konkurrierende Probe ist ein Misserfolg für den Angreifer, wenn der
 Verteidiger gleich oder mehr Erfolge gewürfelt hat.
 
-Beispiel: In dieser klassischen Nahkampfsituation kämpfen Kraag, der
+.Proben
+====
+In dieser klassischen Nahkampfsituation kämpfen Kraag, der
 Taurenkrieger und Jagon, der Jäger gegeneinander. Kraag greift Jagon mit
 seinem Nahkampfwaffentalent an und erzielt 4 Erfolge.
 
@@ -227,17 +239,21 @@ Jagon hat mehrere Möglichkeiten diesem Angriff zu begegnen, allerdings
 dazu mehr im Kampf-Kapitel. In diesem Beispiel benutzt Jagon auch sein
 Paradetalent, um Kraags Angriff zu parieren. Er erwürfelt 3 Erfolge.
 Dadurch reduziert sich Kraags Anzahl an Erfolgen von 4 auf 1: 4-3=1.
+====
 
 Es werden beide Proben nach den üblichen Regeln von Patzern und
 Bonuswürfeln ausgewertet. Wenn die Erfolgszahlen jeweils feststehen,
 werden diese verrechnet.
 
-Beispiel: Jagon würfelt gegen seinen Opponenten Kraag im Nahkampf
+.Proben
+====
+Jagon würfelt gegen seinen Opponenten Kraag im Nahkampf
 folgende Ergebnisse: 1, 4, 7 7, 8. Kraag hält dagegen mit 1, 1, 7, 7, 8,
 10. Kraag wertet seinen Bonuswürfel aus und erhält eine weitere 7. Kraag
 hat also nun 5-2=3 Erfolge und Jagon 3-1=2 Erfolge durch seinen Patzer.
 Insgesamt war Jagons Probe nicht erfolgreich, denn 2-3 Erfolge sind
 weniger als 0 und damit kein Erfolg.
+====
 
 Alle nicht-konkurrierende Proben sind *Einfache Proben*. Diese Proben
 führt der Charakter für sich alleine durch, jedoch können die Umstände
@@ -248,14 +264,17 @@ Die Anzahl der Erfolge kann in manchen Fällen interessant sein, wenn der
 Charakter ein genaueres Ergebnis erzielen möchte, bzw. in dieser Probe
 mehrere Ergebnisse mit demselben Talent erreichen möchte.
 
-_Beispiel: Vatriz möchte in der Bibliothek der Nekromanten-Schule etwas
+.Proben
+====
+Vatriz möchte in der Bibliothek der Nekromanten-Schule etwas
 über die Brennenden Seelen herausfinden, eine besonders schreckliche Art
 von Untoten. Dazu benutzt er sein Talent Forschen. Die Brennenden Seelen
 sind nicht allzu unbekannt, deswegen belässt der SL es bei einem Erfolg.
 Vatriz würfelt allerdings gut, und erzielt insgesamt 5 Erfolge. Daher
-beschließt der SL Vatriz Spieler ein paar mehr Informationen zu geben._
+beschließt der SL Vatriz Spieler ein paar mehr Informationen zu geben.
+====
 
-Erfolgsgrade
+=== Erfolgsgrade
 
 Erfolgsgrade beschreiben die Güte einer Probe. Je höher der Erfolgsgrad
 ist, umso besser ist die Probe abgelegt worden. Dies kann zur Folge
@@ -285,17 +304,21 @@ Erfolgsgrade dienen in den Regeldokumenten auch als Abkürzung, so
 formuliert es sich einfacher, einen Guten Erfolg zu fordern als
 „mindestens 5 oder mehr Erfolge“.
 
+.Erfolgsgrade
+====
 Beispiel: Vatriz hatte in dem vorhergehenden Beispiel einen Guten
 Erfolg.
+====
 
+.Erfolgsgrade
+====
 Beispiel: Diesmal hat Kraag gegen Jagon viel Glück. Er erzielt 8 Erfolge
 in seiner Angriffsprobe, während Jagon nur 2 Erfolge erreicht. Damit hat
 Kraag insgesamt 8-2=6 Erfolge und damit über 5 Erfolgen, was ein Guter
 Erfolgsgrad ist.
+====
 
-Attributsproben, Talentproben und Standardproben
-
-Wann mache ich welche Probe?
+=== Wann mache ich welche Probe?
 
 Im Allgemeinen obliegt es dem SL festzulegen, wann ein Spieler eine
 Probe für seinen Charakter ablegen muss. Als Richtlinie hierfür sollte
@@ -315,15 +338,15 @@ Eine weitere Entscheidung in Hinsicht der Art der Probe muss noch
 zusätzlich gefällt werden: ist es eine einfache Probe oder eine
 konkurrierende Probe. Ebenso gilt als Hilfestellung:
 
-"Alles, was keine konkurrierende Probe ist, ist eine Einfache."
+_"Alles, was keine konkurrierende Probe ist, ist eine Einfache."_
 
 und
 
-"Jede konkurrierende Probe beschreibt Vorgänge, die nahezu zeitgleich
+_"Jede konkurrierende Probe beschreibt Vorgänge, die nahezu zeitgleich
 passieren, wobei immer mindestens Zwei, also der Angreifer und der
 Verteidiger, beteiligt sind ODER wenn ein Verteidiger mit der direkte
 Auswirkung einer bewussten Behinderung eines Angreifers konfrontiert
-wird."
+wird."_
 
 Beispielsweise wäre das Erklimmen einer steilen Klippe eine einfache
 Probe, da hier nur das Können des Kletterers gefragt ist, da die Klippe
@@ -332,7 +355,7 @@ nicht bewusst das Klettern erschwert oder behindert.
 Das Ausweichen einer Falle ist jedoch eine konkurrierende Probe, da
 diese in dem Bewusstsein gelegt wurde, andere zu verletzten.
 
-Festlegung des Mindestwurfes und der notwenigen Anzahl der Erfolge
+=== Festlegung des Mindestwurfes und der notwenigen Anzahl der Erfolge
 
 Beide Werte werden im Allgemeinem vom SL festgelegt und müssen den
 Spielern nicht unbedingt mitgeteilt werden. Allerdings war es Intention
@@ -360,7 +383,7 @@ aufgebaut sind. In den Beschreibungen der Standardproben finden sich
 auch meist Vorschläge und Regeln für Modifikatoren, die bei bestimmten
 Situationen die Proben erschweren oder erleichtern.
 
-Attributsproben
+== Attributsproben
 
 Attributsproben sind Proben, die ausschließlich auf die Attribute des
 Charakters abgelegt werden, also auf **Stärke**__, __**Geschick**__,
@@ -373,8 +396,11 @@ direkt in Stufen gemessen. Diese Stufen sind äquivalent zu der Anzahl
 von W10, die für eine Attributsprobe zur Verfügung stehen. Man nennt
 diese auch *Attributsstufe*.
 
-Beispiel: Thalvin hat eine Attributsstufe von 3 in Geschick. Damit kann
+.Attributsproben
+====
+Thalvin hat eine Attributsstufe von 3 in Geschick. Damit kann
 er 3W10 für eine Geschick-Probe nutzen.
+====
 
 Häufig werden Attributsproben angewendet, wenn es keine für die
 Situation passende Standardprobe, bzw. Talentprobe gibt.
@@ -402,16 +428,19 @@ Talent. Zusätzliche Situationsmodifikatoren, wie sich auch bei der
 normalen Anwendung des Talents zur Anwendung kommen würden, gelten in
 diesem Fall natürlich auch.
 
-Talentproben
+== Talentproben
 
 Wann immer ein Spieler (oder auch ein NPC) ein Talent einsetzen will, so
 muss er eine Talentprobe würfeln. Dazu nimmt er so viele W10, wie er
 *Stufen* im Talent besitzt plus die Attributsstufen des verwandten
 Attributes.
 
-Beispiel: Kraag hat eine GE-Attributsstufe von 2 und eine Talentstufe
+.Talentproben
+====
+Kraag hat eine GE-Attributsstufe von 2 und eine Talentstufe
 von 3 in Nahkampfwaffen. Also hat er insgesamt 5W10 zur Verfügung, wenn
 er mit diesem Talent Proben würfelt.
+====
 
 Talentstufen symbolisieren den Fortschritt des Charakters in diesem
 Talent. Je mehr Stufen er hat, desto erfahrener ist er und desto besser
@@ -421,12 +450,15 @@ Jedes Talent hat einen vorgegebenen *Mindestwurf*, bei dem ein W10 einen
 durchschnittlichen Erfolg anzeigt. Diesen Mindestwurf muss man gleich
 oder höher würfeln.
 
-Beispiel: Varrik hat mit seinen Nahkampfkünsten den Ork leider nicht
+.Talentproben
+====
+Varrik hat mit seinen Nahkampfkünsten den Ork leider nicht
 beeindrucken können. Neben einem geschwollenen Auge hat er ein blutenden
 Platzwunde abbekommen. Allerdings besitzt Varrik das Talent
 "Kunst[Zeichnen]" und entscheidet sich spontan ein Phantombild seiner
 Peinigers zu erstellen. Der angegebene Mindestwurf für Kunst[Zeichnen]
 ist 7.
+====
 
 In der Talentbeschreibung findet sich meistens auch eine ungefähre
 Richtlinie, wie man mehrere Erfolge bzw. höhere Erfolgsgrade bei dem
@@ -458,19 +490,25 @@ Die Attributsstufe ist die Basis für die Talente. Jede Stufe, die man in
 dem Talent erwirbt, fügt einen W10 zu dieser Basis hinzu. Die Ungeübten
 Anwendungen verwendet immer die Attributsstufe als Basis gewürfelt.
 
-Beispiel: Ein Charakter besitzt in Geschick eine Attributsstufe von 3.
+.Talentproben
+====
+Ein Charakter besitzt in Geschick eine Attributsstufe von 3.
 Er kann also 3W10 für eine Probe mit nur diesem Attribut einsetzen. Ein
 Talent, das dasselbe Attribut als verwandtes Attributs besitzt und eine
 Stufe von 5 erreicht hat, wird also mit 3+5=8W10 gewürfelt.
+====
 
 Jetzt haben wir einiges mehr über Far Ages gelernt, um einen
 zusammenfassenden Blick auf Varriks Kampf mit dem Ork zu werfen:
 
+.Talentproben
+====
 Beispiel: Wir blicken zurück in die Situation, in der Varrik sich dem
 Ork schlug. Wie bereits beschrieben, hat Varrik seinen Zauberstab zu
 Abwehr erhoben. Da Parade ein Talent ist, die ungeübte Anwendung
 zulässt, schaut Varrik's Spieler in der Talentbeschreibung nach und
 bemerkt den Eintrag: "Ungeübte Anwendung: Ja".
+====
 
 Das zu Parade verwandte Attribut ist Geschick, also schaut Varrik's
 Spieler auf das Geschick seines Charakters. Varrik hat eine
@@ -480,7 +518,7 @@ Der Ork hat keine Waffe, jedoch schwingt er seine Fäuste. Genaueres zu
 dem Kampf, der eine konkurierende Probe ist, findet sich im Dokument
 Kampf.
 
-Standardproben
+== Standardproben
 
 Standardproben sind typische Anwendungen immer wieder auftretende
 Spielmechaniken. Sie decken im Allgemeinen typische Situationen ab, in
@@ -504,27 +542,37 @@ Standardproben können vom SL auf mehrere Weisen verwendet werden:
 * Manche Situationen, zum Beispiel die Begegnung mit anderen Wesen,
 erfordern eine sofortige Probe, wobei die Anzahl der Erfolge direkt
 angegeben ist.
-** Beispiel: Die Charakter treffen auf eine furchteinflößende Kreatur,
+
+.Standardproben
+====
+Die Charakter treffen auf eine furchteinflößende Kreatur,
 die in ihrer Beschreibung beim ersten Anblick eine Furcht(4)-Probe
 erfordert. Dies bedeutet, dass der SL von jedem Spieler eine
 Furcht-Probe verlangen muss, die als bestanden gilt, wenn 4 Erfolge
 erreicht wurden.
+====
+
 * Ebenso hilfreich für den SL ist es, auf Aktionen der Spieler mit der
 Verwendung von Standardproben zu reagieren. Sehr oft lassen sich diese
 Aktionen damit abdecken und die Beschreibungen der Standardproben weiter
 untern kann als Richtlinie für das Festlegen der nötigen Anzahl der
 Erfolge gelten.
+
+.Standardproben
+====
 ** Beispiel: Ein Charakter entscheidet sich, dass er mit einem Händler
 verhandeln will, um einen günstigeren Preis für die gewünschten Waren zu
 erhalten. Der SL entscheidet, dass eine Überzeugen-Probe fällig ist. Für
 sich legt der SL eine Anzahl von Erfolgen fest, an der den Charaktere
 misst.
+====
+
 * Auch NPCs können ihrerseits Standardproben verwenden bzw. gezwungen
 sein, eine solche zu bestehen. Ist das Verhalten der NPCs nicht
 vorgegeben, so kann der SL basieren auf den Spielwerten für die NPCs,
 deren Reaktion so feststellen.
 
-Talente ersetzen Standard-Proben
+=== Talente ersetzen Standard-Proben
 
 Manche Talente geben in ihrer Beschreibung an, dass sie zum Würfeln von
 Standard-Proben benutzt werden können. Dies bedeutet, dass der Charakter
@@ -562,7 +610,7 @@ Wirkung auf den NPC.
 ** Täuschen
 ** Überzeugen
 ** Verführen
-* Sonstige:
+* **Sonstige**:
 ** Verbrennen Widerstehen
 
 Die folgenden Einträge beschreiben die oben aufgelisteten Standardproben
@@ -570,20 +618,22 @@ und ihre Anwendungen. Jeder Eintrag verweist auf ein Attribut. Die
 Stufe, die ein Charakter in diesem Attribut zur Verfügung hat, bestimmt
 die Anzahl W10 mit denen der Charakter die jeweilige Probe würfeln darf.
 
-*Hinweis:* viele der folgenden Beschreibungen benutzen bereits Begriffe
+[NOTE]
+Viele der folgenden Beschreibungen benutzen bereits Begriffe
 aus weiterführenden Regeln, beispielsweise Kampfphasen (was eine
 Zeiteinteilung während des Kampfes ist). Für einen Spieler oder den SL,
 der die Begriffe schon kennt, sind die folgende Erklärungen als
 Zusammenfassung und Übersicht gedacht. Alle unbekannten Begriffe werden
 in den folgenden Kapiteln erklärt.
 
-**Hinweis: **Das Kapitel über Abenteuer enthält Anregungen und Beispiele
+[NOTE]
+Das Kapitel über Abenteuer enthält Anregungen und Beispiele
 wie der SL die nötige Anzahl von Erfolgen bei Standard-Proben festlegen
 kann.
 
-Verteidigungswürfe
+=== Verteidigungswürfe
 
-Ekel, Furcht und Horror
+==== Ekel, Furcht und Horror
 
 *Attribut:* Selbstbeherrschung
 
@@ -633,13 +683,14 @@ Auslöser des Horrors in seinem Blickfeld ist. Zusätzlich verliert er 2
 SP für jeden Erfolg, den er bei dieser Probe hätte würfeln müssen, um
 sie zu bestehen.
 
-**Hinweis: **Nicht immer sind Auslöser für diese Proben deutlich zu
+[NOTE]
+Nicht immer sind Auslöser für diese Proben deutlich zu
 sehen. Manche Zaubersprüche generieren einfach Furcht im Verstand des
 Charakters. Ist die Quelle eines dieser Gefühle nicht genau auszumachen,
 so kann der Charakter vom SL auch in eine zufällige Richtung für eine
 kurze Anzahl von Kampfphasen, z.B. 1W6-viele, geschickt werden.
 
-Gift und Krankheiten
+===== Gift und Krankheiten
 
 *Attribut:* Konstitution
 
@@ -673,7 +724,7 @@ diese Proben nicht erfolgreich abschließt. Die Auswirkungen können auch
 schlimmer oder besser werden bzw. hin- und herwechseln, abhängig davon
 wie der Charakter Misserfolge und Patzer würfelt.
 
-Magieabwehr
+===== Magieabwehr
 
 *Attribut:* Energie
 
@@ -704,22 +755,26 @@ würfelt. Diese werden nur individuell von Gesamterfolgen abgezogen.
 Übrige Erfolge kann der Zauberer neu verteilen, so dass er ein oder
 mehrere Ziele mit mehr Erfolgen angreifen kann.
 
-Beispiel: Ein Zauberspruch benötigt 2 Erfolge pro Ziel und 4 Erfolge als
+.Magieabwehr
+====
+Ein Zauberspruch benötigt 2 Erfolge pro Ziel und 4 Erfolge als
 Basis. Der Magier zielt auf 2 Kreaturen und würfelt 10 Erfolge. Von den
 10 Erfolgen fallen 4 weg, um den Zauberspruch überhaupt zu wirken. Auf
 die zwei Kreaturen verteilt der Zauberer jeweils 3 Erfolge. Mit ihren
 Magieabwehr-Proben müssen sie jeweils 3 Erfolge würfeln, um dem
 Zauberspruch zu überkommen.
+====
 
 Ein Ziel würfelt 3 Erfolge und das andere 1. Das erste Ziel verteidigt
 sich also erfolgreich gegen den Zauberspruch, das Zweite jedoch nicht.
 
-*Hinweis:* Manche Zaubersprüche erlauben eine Magieabwehr-Probe, obwohl
+[NOTE]
+Manche Zaubersprüche erlauben eine Magieabwehr-Probe, obwohl
 sie dem Ziel nicht schaden. In diesem Fall muss der Charakter ebenfalls
 eine Magieabwehr-Probe würfeln. Die Magieabwehr-Probe ist insbesondere
 eine passive Eigenschaft, die jedem Wesen zusteht.
 
-Niederschlag
+===== Niederschlag
 
 *Attribut:* Konstitution
 
@@ -737,13 +792,14 @@ bewusstlos. Er kann in der Kampfphase nach der dritten Kampfphase seiner
 Bewusstlosigkeit kann er wieder agieren, startet jedoch auf dem Boden
 liegend.
 
-**Hinweis: **Eine Niederschlags-Probe wird im Allgemeinen durch
+[NOTE]
+Eine Niederschlags-Probe wird im Allgemeinen durch
 Verletzungen ausgelöst. Eine Verletzung tritt ein, wenn ein Charakter
 durch eine beliebige Schadensquelle genau so viel oder mehr Schaden
 erhält, wie seine WID beträgt. Für Details siehe das Dokument über
 Kampf.
 
-Reflex
+===== Reflex
 
 *Attribut:* Geschick
 
@@ -766,7 +822,7 @@ Effekts, zum Beispiel wird er von der Falle getroffen.
 weitere Probe zu Boden und verliert alle Aktionspunkte für diese
 Kampfphase.
 
-Willenskraft
+===== Willenskraft
 
 *Attribut:* Selbstbeherrschung
 
@@ -781,7 +837,8 @@ die ungewollte Aktion durch. Führt der Charakter gerade selbst eine
 Aktion durch, so wird diese unterbrochen.
 * **Patzer: **Keine zusätzliche Auswirkung.
 
-**Hinweis: **Ein typisches Beispiel, wenn solche Würfe in Spiele kommen,
+[NOTE]
+Ein typisches Beispiel, wenn solche Würfe in Spiele kommen,
 ist, wenn der Charakter einen Nachteil hat, der zu gewissen Handlungen
 zwingt, zum Beispiel ist er kleptomanisch. Sieht er also eine besonders
 begehrenswertes Objekt, dann kann der Spieler verhindern, dass der
@@ -790,9 +847,9 @@ Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell
 möchte, dass sein Charakter dies versucht. Um beispielsweise einen
 Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
 
-Manöver
+=== Manöver
 
-Akrobatik
+==== Akrobatik
 
 *Attribut:* Geschick
 
@@ -826,12 +883,7 @@ alle Aktionspunkte für die aktuelle Kampfphase.
 * *Patzer:* Wie Misserfolg, jedoch ist der Charakter gleichzeitig zu
 Boden gegangen und beginnt die nächste Kampfphase am Boden liegend.
 
-*Hinweis:* um einen Gelegenheitsangriff mit Hilfe einer Akrobatik-Probe
-zu vermeiden ist eine Besondere Fähigkeit nötig, die im Kapitel über
-Fähigkeiten aufgeführt ist. Weitere Regeln zu Gelegenheitsangriffen
-finden sich im Kapitel über den Kampf.
-
-Entdecken und Suchen
+==== Entdecken und Suchen
 
 *Attribut:* Erkenntnis
 
@@ -870,7 +922,7 @@ erst wieder nach 5 Minuten versuchen.
 * **Patzer: **Der Charakter findet nicht, wonach er sucht. Er ist der
 Überzeugung, dass das Gesuchte nicht da ist.
 
-Fallen
+==== Fallen
 
 **Attribut: **Geschick
 
@@ -896,9 +948,10 @@ Für eine Falldistanz von weniger als 3,00 Metern ist nur 1 Erfolg nötig.
 Der Schaden im Fall eines Misserfolgs beträgt 1W6, den keine Rüstung
 abhalten kann.
 
-*Hinweis:* nur Natürliche Rüstung vermindert Fallschaden.
+[NOTE]
+Natürliche Rüstung vermindert Fallschaden.
 
-Klettern
+==== Klettern
 
 *Attribut:* Konstitution
 
@@ -924,7 +977,7 @@ Abschnitt zu erklettern. Er verliert alle Aktionspunkte in der aktuellen
 Kampfphase und kann erst in der nächsten Kampfphase wieder agieren.
 * *Patzer:* Der Charakter fällt. Er muss eine Fallen-Probe würfeln.
 
-Schwimmen
+==== Schwimmen
 
 *Attribut:* Konstitution
 
@@ -941,7 +994,7 @@ vorangekommen. Er verliert alle Aktionspunkte für diese Kampfphase.
 * *Patzer:* Wie Misserfolg, jedoch erhält der Charakter zusätzlich 1W6
 Schaden ohne Rüstungsschutz, weil er Wasser in seine Lungen bekommt.
 
-Springen
+==== Springen
 
 *Attribut:* Geschick
 
@@ -967,9 +1020,9 @@ sicher. Er verliert jedoch alle Aktionspunkte in dieser Kampfphase.
 eine Fallen-Probe. Springt er in die Höhe, so landet er vor dem
 Hindernis und verliert alle Aktionspunkte für diese Kampfrunde.
 
-Soziale Interaktion
+=== Soziale Interaktion
 
-Ausfragen
+==== Ausfragen
 
 *Attribut:* Erkenntnis
 
@@ -997,11 +1050,12 @@ Kneipe laufen, um ein bestimmtes Gerücht zu untersuchen. In diesem Fall
 kann der SL auch diese Standard-Probe verwenden, wobei die Misserfolg
 und Patzer Folgen etwas angepasst werden müssen.
 
-*Hinweis:* Alternativ kann die Probe auch als konkurrierende Probe
+[NOTE]
+Alternativ kann die Probe auch als konkurrierende Probe
 zwischen der Ausfragen-Probe des Charakters und einer Willenskraft-Probe
 gewürfelt werden.
 
-Einschüchtern
+==== Einschüchtern
 
 *Attribut:* Charisma
 
@@ -1024,11 +1078,12 @@ des Charakters.
 * *Patzer:* die Person ist von der Drohung unbeeindruckt und hält gegen
 den Charakter nun einen Groll.
 
-*Hinweis:* Alternativ kann die Probe auch als konkurrierende Probe
+[NOTE]
+Alternativ kann die Probe auch als konkurrierende Probe
 zwischen der Einschüchtern-Probe des Charakters und einer
 Willenskraft-Probe gewürfelt werden.
 
-Täuschen
+==== Täuschen
 
 **Attribut: **Charisma
 
@@ -1044,7 +1099,7 @@ glaubt ihm einfach nicht, bzw. er wird enttarnt.
 * **Patzer: **wie Misserfolg, jedoch provoziert der Charakter damit
 sofort eine stark ablehnende Reaktion.
 
-Überzeugen
+==== Überzeugen
 
 *Attribut:* Charisma
 
@@ -1062,11 +1117,12 @@ von den Argumenten des Charakters nicht davon abbringen.
 * **Patzer: **wie Misserfolg, jedoch provoziert der Charakter damit
 sofort eine stark ablehnende Reaktion.
 
-*Hinweis:* Alternativ kann die Probe auch als konkurrierende Probe
+[NOTE]
+Alternativ kann die Probe auch als konkurrierende Probe
 zwischen der Überzeugen-Probe des Charakters und einer
 Willenskraft-Probe gewürfelt werden.
 
-Verführen
+==== Verführen
 
 *Attribut:* Charisma
 
@@ -1088,13 +1144,14 @@ zum Gespött von Beobachtern, wenn die Ohrfeige sein Gesicht trifft.
 * *Patzer:* die Person nimmt den Versuch persönlich übel und ist auf den
 Charakter ab sofort äußerst schlecht zu sprechen.
 
-*Hinweis:* Alternativ kann die Probe auch als konkurrierende Probe
+[NOTE]
+Alternativ kann die Probe auch als konkurrierende Probe
 zwischen der Verführen-Probe des Charakters und einer Willenskraft-Probe
 gewürfelt werden.
 
-Sonstige
+=== Sonstige
 
-Verbrennen Widerstehen
+==== Verbrennen Widerstehen
 
 *Attribut:* Energie
 
