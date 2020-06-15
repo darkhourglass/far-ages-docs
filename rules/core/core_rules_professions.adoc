@@ -1,7 +1,4 @@
-[#anchor]####[#anchor-1]####[#anchor-2]####[#anchor-3]####[#anchor-4]####[#anchor-5]####Berufe
-in Far Ages
-
-Begonnen 29.05.2020
+= Berufe
 
 Dieses Dokument gibt einer Übersicht mit Hintergrundbeschreibung und
 Regeln für die Berufe, die Charakteren in Far Ages zur Verfügung stehen.
@@ -23,11 +20,11 @@ Ausprägungen haben, z.B. Spruchzauberei[Zauberschule], so gilt, dass
 jede Ausprägung genau einem Talent des SGM 1 entspricht. Manche Berufe
 ermöglichen nur bestimme Ausprägungen. Diese sind konkret aufgezählt.
 
-**Talentliste (SGM 2): **Die Liste verhält sich analog zur Talentliste
+*Talentliste (SGM 2):* Die Liste verhält sich analog zur Talentliste
 (SGM 1), enthält jedoch Talente mit SGM 2 für diesen Beruf. Es gelten
 die gleichen Regeln wie für die Talentliste (SGM 1).
 
-**Attributsbonus: **Die Liste aller Boni auf Attributsstufen, die mit
+*Attributsbonus:* Die Liste aller Boni auf Attributsstufen, die mit
 den initialen Attributsstufen des Charakters verrechnet werden.
 
 *Vorteile*: Die Liste aller Vorteile, die mit diesem Beruf automatisch
@@ -43,34 +40,35 @@ Fähigkeiten, auch wenn er die Voraussetzungen formal nicht erfüllt.
 +7 TP/+5MP) die TP/MP-Steigerungen, die der Charakter durch Wahl dieses
 Berufs durchführen kann.
 
-**Voraussetzungen: **Falls der Beruf bestimmte Voraussetzungen
+*Voraussetzungen:* Falls der Beruf bestimmte Voraussetzungen
 mitbringet (z.B. nur durch bestimmte Rassen lernbar), sind diese hier
 aufgeführt.
 
 *Startausrüstung:* Eine Liste von (meist einfachen) Gegenständen, die
 der Charakter zu Beginn des Spiels erhält.
 
-**Startgeld: **Eine fester oder variabler Wert in Silbermünzen, die der
+*Startgeld:* Eine fester oder variabler Wert in Silbermünzen, die der
 Charakter zu Beginn des Spiels erhält.
 
-**CP: **Die CP-Kosten, die ein Charakter bei der Charaktererschaffung
+*CP:* Die CP-Kosten, die ein Charakter bei der Charaktererschaffung
 investieren muss, um den Beruf zu lernen. Alle CP-Kosten für
 Attributsboni, Vor- und Nachteile, Besondere Fähigkeiten und Talente
 sind in diesen Kosten enthalten.
 
-**Spezielle Berufstalente: **manche Berufe bringen Talente mit, die nur
+*Spezielle Berufstalente:* manche Berufe bringen Talente mit, die nur
 dieser Beruf lernen kann. Die Beschreibungen finden sich hier. i.A. sind
 diese Talente von SGM 1 und entsprechender Liste aufgeführt.
 
+// Template
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-*Attributsbonus: *
+*Attributsbonus:*
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -78,29 +76,31 @@ diese Talente von SGM 1 und entsprechender Liste aufgeführt.
 
 *TP/MP-Steigerung:*
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
+// Template END
 
-Assassine
+
+== Assassine
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):* Hieb Ausweichen, Nahkampfwaffen, Wurfwaffen,
 Schleichen
 
-**Talentliste (SGM 2): **Athletik, Akrobatik, Reflex, Schloss Knacken,
+*Talentliste (SGM 2): **Athletik, Akrobatik, Reflex, Schloss Knacken,
 Verstecken, 1 Wissenstalent
 
-**Attributsbonus: **+1 GE
+*Attributsbonus:* +1 GE
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*: Illegale Aktivität
 
@@ -108,27 +108,27 @@ Verstecken, 1 Wissenstalent
 
 *TP/MP-Steigerung:* +7/+5
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Alchemist
+== Alchemist
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 EN
+*Attributsbonus:* +1 EN
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -136,28 +136,28 @@ Alchemist
 
 *TP/MP-Steigerung:* +5/+7
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Berserker
+== Berserker
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):* Hieb Ausweichen, Nahkampfwaffen, Niederschlag
 widerstehen, Unbewaffneter Kampf
 
-**Talentliste (SGM 2): **Reflex, Athletik, Akrobatik, 1 Wissensgebiet
+*Talentliste (SGM 2):* Reflex, Athletik, Akrobatik, 1 Wissensgebiet
 
-**Attributsbonus: **+1 ST, +1 KO
+*Attributsbonus:* +1 ST, +1 KO
 
-*Vorteile*:. -
+*Vorteile*: -
 
 *Nachteile*: -
 
@@ -165,27 +165,27 @@ widerstehen, Unbewaffneter Kampf
 
 *TP/MP-Steigerung:* +12/+0
 
-*Voraussetzungen: *-
+*Voraussetzungen:* -
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Druide
+== Druide
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 EN
+*Attributsbonus:* +1 EN
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -193,27 +193,27 @@ Druide
 
 *TP/MP-Steigerung:* +3/+9
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Elementarist
+== Elementarist
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 EN
+*Attributsbonus:* +1 EN
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -221,27 +221,27 @@ Elementarist
 
 *TP/MP-Steigerung:* +3/+9
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-Spezielle Berufstalente:
+*Spezielle Berufstalente:*
 
-Hexer
+== Hexer
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):* Spruchzauberei[Wilde Magie]
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 EN
+*Attributsbonus:* +1 EN
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -249,27 +249,27 @@ Hexer
 
 *TP/MP-Steigerung:* +5/+7
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Illusionist
+== Illusionist
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+ 1EN, +1 CH
+*Attributsbonus:* + 1 EN, +1 CH
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -277,27 +277,27 @@ Illusionist
 
 *TP/MP-Steigerung:* +3/+9
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Jäger
+== Jäger
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 GE, +1 ER
+*Attributsbonus:* +1 GE, +1 ER
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -305,27 +305,27 @@ Jäger
 
 *TP/MP-Steigerung:* +7/+5
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Kavalier
+== Kavalier
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 ST, + 1 KO, +1 CH
+*Attributsbonus:* +1 ST, + 1 KO, +1 CH
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -333,27 +333,27 @@ Kavalier
 
 *TP/MP-Steigerung:* +9/+3
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Krieger
+== Krieger
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 ST
+*Attributsbonus:* +1 ST
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -361,27 +361,27 @@ Krieger
 
 *TP/MP-Steigerung:* +9/+3
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Kundschafter
+== Kundschafter
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 GE
+*Attributsbonus:* +1 GE
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -389,27 +389,27 @@ Kundschafter
 
 *TP/MP-Steigerung:* +7/+5
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Magier
+== Magier
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
 *Attributsbonus:* +1 EN
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -417,27 +417,27 @@ Magier
 
 *TP/MP-Steigerung:* +3/+9
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Menestrel
+== Menestrel
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
 *Attributsbonus:* +1 GE, + 1 CH
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -445,27 +445,27 @@ Menestrel
 
 *TP/MP-Steigerung:* +6/+6
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Nekromant
+== Nekromant
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 EN, +1 SB
+*Attributsbonus:* +1 EN, +1 SB
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -473,27 +473,27 @@ Nekromant
 
 *TP/MP-Steigerung:* +3/+9
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Schamane
+== Schamane
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 EN
+*Attributsbonus:* +1 EN
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -501,27 +501,27 @@ Schamane
 
 *TP/MP-Steigerung:* +5/+7
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Scholar
+== Scholar
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
 **Attributsbonus: **+1 EN, + 1 ER
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -529,27 +529,27 @@ Scholar
 
 *TP/MP-Steigerung:* +3/+9
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Schurke
+== Schurke
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 GE
+*Attributsbonus:* +1 GE
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -557,27 +557,27 @@ Schurke
 
 *TP/MP-Steigerung:* +7/+5
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Schütze
+== Schütze
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 GE, +1 ER
+*Attributbonus:* +1 GE, +1 ER
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -585,27 +585,27 @@ Schütze
 
 *TP/MP-Steigerung:* +7/+5
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*
 
-Technomant
+== Technomant
 
 *Beschreibung:*
 
 *Talentliste (SGM 1):*
 
-*Talentliste (SGM 2): *
+*Talentliste (SGM 2):*
 
-**Attributsbonus: **+1 EN
+*Attributsbonus:* +1 EN
 
-*Vorteile*:.
+*Vorteile*:
 
 *Nachteile*:
 
@@ -613,12 +613,12 @@ Technomant
 
 *TP/MP-Steigerung:* +5/+7
 
-*Voraussetzungen: *
+*Voraussetzungen:*
 
 *Startausrüstung:*
 
-*Startgeld: *
+*Startgeld:*
 
-*CP: *
+*CP:*
 
-*Spezielle Berufstalente: *
+*Spezielle Berufstalente:*

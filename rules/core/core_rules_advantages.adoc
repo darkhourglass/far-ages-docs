@@ -1,10 +1,6 @@
-Kapitel 2a: Liste generischer Vorteile
+= Vorteile
 
-Überarbeitung 18.08.2010 (Überführung in generische Regeln)
-
-Überarbeitung 20.05.2020 (Anpassung Charaktererschaffung)
-
-Hinweise zu den Einträgen:
+== Hinweise zu den Einträgen
 
 *Name:* Der Name des Vor- oder Nachteils.
 
@@ -13,30 +9,34 @@ bringt bzw. kostet. Mehrfache Punktekosten stehen für die jeweiligen
 Level, die ein Vor- bzw. Nachteil annehmen kann. Die Level beginnen mit
 dem ersten Wert auf Level 1. Jeder folgende Punktewert steht für den
 nächsten Level. Es immer nur maximal so viele Level, wie Angaben gemacht
-sind. +
+sind.
+
 *Beschränkung:* Nur Charaktere, die die angegebenen Voraussetzungen
 erfüllen, dürfen den Vor- bzw. Nachteil kaufen.
 
 *Beschreibung:* beschreibt die Auswirkungen des Vor- bzw. Nachteils.
 
-*_Name:_* Attraktiv**Punkte: **15
+== Attraktiv
+*Punkte:* 15
 
 *Beschränkung:* -
 
-**Beschreibung: **Der Charakter wirkt besonders attraktiv, was ihn für
+*Beschreibung:* Der Charakter wirkt besonders attraktiv, was ihn für
 das andere Geschlecht seiner Rasse interessant macht. Er erhält einen
 Bonus von +1 auf die Würfe zum Erfolg alle Verführen-Proben
 (Standardprobe).
 
-*_Name:_* Aufmerksam**Punkte: **15
+== Aufmerksam
+*Punkte:* 15
 
 *Beschränkung:* -
 
-**Beschreibung: **Kleine Details und weniger auffällige Dinge springen
+*Beschreibung:* Kleine Details und weniger auffällige Dinge springen
 dem Charakter eher ins Auge. Er erhält einen Bonus von +1 auf die Würfe
 zum Erfolg auf alle Entdecken- und Suchen-Proben (Standardproben).
 
-*_Name:_* Außergewöhnliche Begabung[Talent]*Punkte:* 30
+== Außergewöhnliche Begabung[Talent]
+*Punkte:* 30
 
 *Beschränkung:* -
 
@@ -47,20 +47,22 @@ Weiterhin kann ein Charakter, der ein Talent in SGM 2 hat, dieses Talent
 in SGM 1 aufnehmen. Man kann diesen Vorteil öfters lernen und auch
 mehrmals für ein Talent.
 
-*_Name:_* Beeindruckende Statur**Punkte:** 15
+== Beeindruckende Statur
+*Punkte:* 15
 
-*Beschränkung: *-
+*Beschränkung:* -
 
 *Beschreibung:* Die Statur des Charakters wirkt auf andere besonderes
 einschüchtert, zum Beispiel weil er besonders groß oder kräftig ist. Der
 Charakter erhält einen Bonus von +1 Würfe zum Erfolg auf alle
 Einschüchtern-Proben (Standardprobe).
 
-*_Name:_* Beidhändig**Punkte: **40
+== Beidhändig
+*Punkte:* 40
 
 *Beschränkung:* -
 
-Beschreibung: Der Charakter geht zu den circa 10% derjenigen, die beide
+*Beschreibung:* Der Charakter geht zu den circa 10% derjenigen, die beide
 Hände ohne Einschränkungen nutzen können. Der Charaktere kann auch in
 seiner Zweithand eine Waffe führen, als wäre es seine Haupthand. Man
 geht dabei von dem höchsten Größenwert aus, den seine Rasse tragen kann.
@@ -68,49 +70,55 @@ Zusätzlich erhält er einen Bonus von +1 auf die Würfelanzahl, wenn er
 bei einer auf GE basierenden Attributs- oder Standard-Probe beide Hände
 für das Gelingen der Probe einsetzt bzw. genötigt.
 
-*_Name:_* Blitzschnell**Punkte: **15
+== Blitzschnell
+*Punkte:* 15
 
-*Beschränkung: *-
+*Beschränkung:* -
 
-**Beschreibung: **Die Nerven des Charakters reagieren etwas schneller
+*Beschreibung:* Die Nerven des Charakters reagieren etwas schneller
 als die Anderer. Der Charakter erhält einen Bonus von +1 auf die Würfe
 zum Erfolg für alle Reflex-Proben (Standardprobe).
 
-*_Name:_* Dickschädel**Punkte: **15
+== Dickschädel
+*Punkte:* 15
 
-*Beschränkung: *-
+*Beschränkung:* -
 
-**_Beschreibung: _**Der Charakter erhält einen Bonus von +1 auf die
+*Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die
 Würfe zum Erfolg auf alle Willenskraft-Proben (Standardprobe).
 
-*_Name:_* Dunkelsicht**Punkte: **10
+== Dunkelsicht
+*Punkte:* 10
 
-**Beschränkung: **Rasse
+*Beschränkung:* Rasse
 
-__*Beschreibung:* __Ein Charakter mit diesem Vorteil kann in der Nacht
+*Beschreibung:* Ein Charakter mit diesem Vorteil kann in der Nacht
 oder in der Dunkelheit noch genauso gut sehen wie mit Licht. In einem
 Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator
 in der Dunkelheit werden halbiert
 
-*_Name:_* Dunkelsicht, Perfekt**Punkte: **30
+== Dunkelsicht, Perfekte
+*Punkte:* 30
 
-**Beschränkung: **Rasse
+*Beschränkung:* Rasse
 
-__*Beschreibung:* __Ein Charakter mit diesem Vorteil kann in der Nacht
+*Beschreibung:* Ein Charakter mit diesem Vorteil kann in der Nacht
 oder in der Dunkelheit genauso gut sehen wie mit Licht. In einem Umkreis
 von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der
 Dunkelheit entfallen.
 
-*_Name:_* Effizienter Schlaf**Punkte:** 10
+== Effizienter Schlaf
+*Punkte:*  10
 
-*Beschränkung: *-
+*Beschränkung:* -
 
-**Beschreibung: **Der Charakter benötigt nur 6 Stunden Schlaf, um die
+*Beschreibung:* Der Charakter benötigt nur 6 Stunden Schlaf, um die
 Menge an Magie- und Trefferpunkten zu regenerieren, die sonst nur bei 8
 Stunden Schlaf regeneriert werden können. Der Schlaf muss weiterhin an
 einem Stück erfolgen.
 
-*_Name:_* Einer geht noch!**Punkte: **20
+== Einer geht noch!
+*Punkte:* 20
 
 *Beschränkung:* -
 
@@ -126,11 +134,12 @@ Vorteil zum Tragen kommt: es passiert genau dann, wenn der Charakter das
 erste Mal nach der Charaktererschaffung weniger als 0 TP oder MP
 besitzt.
 
-*_Name:_* Flügel**Punkte: **30
+== Flügel
+*Punkte:* 30
 
 *Beschränkung:* Rasse
 
-**Beschreibung: **Dieser Vorteil kann nur als Rassenfertigkeit oder als
+*Beschreibung:* Dieser Vorteil kann nur als Rassenfertigkeit oder als
 übernatürliche Fähigkeit gewählt werden. Der Charakter erhält Flügel und
 kann damit fliegen und zwar dreimal so schnell, wie er normalerweise auf
 dem Boden rennen würde. Für gewöhnlich kann ein Charakter so viele
@@ -138,27 +147,29 @@ Kampfphasen in der Luft bleiben, die seiner KO-Stufe multipliziert mit
 20 entsprechen. Der Charakter kann das Kampfmanöver Flugangriff
 verwenden.
 
-*_Name:_* Furchtlos**Punkte: **15
+== Furchtlos
+*Punkte:* 15
 
-*Beschränkung: *-
+*Beschränkung:* -
 
-**Beschreibung: **So leicht kann den Charakter nichts erschrecken.**
-**Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg für
+*Beschreibung: *So leicht kann den Charakter nichts erschrecken. Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg für
 alle Furcht-Proben (Standardprobe).
 
-*_Name:_* Geborener Artist**Punkte: **15
+== Geborener Artist
+*Punkte:* 15
 
-*Beschränkung: *-
+*Beschränkung:* -
 
 **Beschreibung: **Der Charakter hat ein herausragendes Körpergefühl.**
 **Der Charakter erhält einen Bonus von ++1 auf die Würfe zum Erfolg auf
 alle Akrobatik-Proben (Standardprobe).
 
-*_Name:_* Gefallen**Punkte: **variabel
+== Gefallen
+*Punkte:* variabel
 
 *Beschränkung:* -
 
-*Beschreibung: * Dieser Vorteil bedeutet, dass eine andere Person (dies
+*Beschreibung:* Dieser Vorteil bedeutet, dass eine andere Person (dies
 kann sowohl ein anderer Spielercharakter als auch ein NPC sein) dem
 Charakter einen Gefallen schuldet. Der Gefallen kann jederzeit
 eingefordert werden und ist danach verbraucht. Die Punktekosten richten
@@ -188,11 +199,12 @@ unangenehm werden
 Verletzungen oder ähnlich langfristige Lösungen in Kauf nimmt, jedoch
 nicht bis zum Tod.
 
-*_Name:_* Glückspilz**Punkte:** 10, 20
+== Glückspilz
+*Punkte:*  10, 20
 
 *Beschränkung:* -
 
-**Beschreibung: **Der Charakter ist vom Glück verwöhnt, denn positive
+*Beschreibung:* Der Charakter ist vom Glück verwöhnt, denn positive
 Zufälle scheinen gerne bei ihm einzutreffen. So findet er eher den
 geheimen Eingang zum Schatzhort durch Stolpern über eine Wurzel als
 seine Kollegen nach 2 Tagen Suche. Auf _Level I _ kann der SL einmal am
@@ -202,22 +214,25 @@ Abenteuerrelevantes oder er kann sich aus einer brenzligen Situation
 befreien. Auf _Level II_ herrscht derselbe Effekt, nur funktioniert das
 Glück bereits ab einer 5 oder mehr. Nicht mit Pechvogel kombinierbar.
 
-*_Name:_* Großes Lungenvolumen**Punkte:** 10
+== Großes Lungenvolumen
+*Punkte:*  10
 
-*Beschränkung: *-
+*Beschränkung:* -
 
 Beschreibung: Der Charakter kann die doppelte Zeit unter Wasser
 verbringen, ohne Atmen zu müssen.
 
-*_Name:_* Geübter Kletterer**Punkte:** 15
+== Geübter Kletterer
+*Punkte:*  15
 
 *Beschränkung:* -
 
-**Beschreibung: **Der Charakter hat schon lange vor seiner
+*Beschreibung:* Der Charakter hat schon lange vor seiner
 Abenteuerkarriere mit dem Klettern angefangen. Er erhält einen Bonus von
 +1 auf die Würfe zum Erfolg auf alle Klettern-Proben (Standardprobe).
 
-*_Name:_* Geübter Schwimmer**Punkte:** 15
+== Geübter Schwimmer
+*Punkte:*  15
 
 *Beschränkung:* -
 
@@ -225,16 +240,18 @@ Beschreibung: Der Charakter fühlt sich im Wasser so wohl wie die Fische.
 Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle
 Schwimmen-Proben (Standardprobe).
 
-*_Name:_* Guter Lügner**Punkte:** 15
+== Guter Lügner
+*Punkte:*  15
 
 *Beschränkung:* -
 
-**Beschreibung: **Der Charakter kann seine Lügen gut tarnen, so dass
+*Beschreibung:* Der Charakter kann seine Lügen gut tarnen, so dass
 andere diese nicht sofort oder gar nicht bemerken. Er erhält einen Bonus
 von +1 auf die Würfe zum Erfolg auf alle Täuschen-Proben
 (Standardprobe).
 
-*_Name:_* Guter Redner**Punkte:** 15
+== Guter Redner
+*Punkte:*  15
 
 *Beschränkung:* -
 
@@ -243,15 +260,17 @@ und Diskussion, so dass andere ihm gerne zuhören. Der Charakter erhält
 einen Bonus von +1 auf die Würfe zum Erfolg auf alle Überzeugen-Proben
 (Standardprobe).
 
-**_Name:_**** **Harter Hund**Punkte: **10, 30, 60
+== Harter Hund
+*Punkte:* 10, 30, 60
 
-*Beschränkung: *-
+*Beschränkung:* -
 
-**Beschreibung: **Der Charakter erhält einen Bonus auf seinen WID-Wert.
+*Beschreibung:* Der Charakter erhält einen Bonus auf seinen WID-Wert.
 Für Level I erhält er einen Bonus von +2, für Level II: +4 und Level III
 +6.
 
-*_Name:_* Ich verdiene meine Brötchen selbst!*Punkte:* 10
+== Ich verdiene meine Brötchen selbst!
+*Punkte:* 10
 
 *Beschränkung:* -
 
@@ -261,11 +280,12 @@ beliebiges Handwerkstalent, z.B. Handwerk[Schmied] als Berufstalent,
 also mit SGM 1, lernen, unabhängig, was seine Berufung sonst für
 Handwerkstalente angibt.
 
-*_Name:_* Infrarotsicht**Punkte:** 20
+== Infrarotsicht
+*Punkte:*  20
 
 *Beschränkung:* Rasse
 
-**Beschreibung: **Der Charakter sieht nicht auf übliche Weise, sondern
+*Beschreibung:* Der Charakter sieht nicht auf übliche Weise, sondern
 kann zwischen den einzelnen Temperaturunterschieden unterscheiden. Warme
 und heiße Objekte erscheinen in diversen Rottönen, je heißer desto
 intensiver. Ebenso erscheinen kalte Objekt in Blautönen. Dies hat den
@@ -276,15 +296,17 @@ ggf. angreifen. In sehr warmen oder sehr kalten Gegenden, in denen kaum
 Temperaturunterschiede herrschen, ist der Charakter hingegen beinahe
 blind.
 
-*_Name:_* Innere Uhr**Punkte:** 10
+== Innere Uhr
+*Punkte:*  10
 
 *Beschränkung:* -
 
-**Beschreibung: **Der Charakter weiß immer genau wie viel Uhr es ist.
+*Beschreibung:* Der Charakter weiß immer genau wie viel Uhr es ist.
 Dazu muss er völlig bei Bewusstsein sein. Fremde Welten und Ebenen
 können diesen Sinn einschränken, bzw. aussetzen.
 
-*_Name:_* Innerer Kompass**Punkte:** 10
+== Innerer Kompass
+*Punkte:* 10
 
 *Beschränkung: *-
 
@@ -292,15 +314,17 @@ können diesen Sinn einschränken, bzw. aussetzen.
 seine Sinne sind getrübt. Fremde Welten und Ebenen können diesen Sinn
 einschränken, bzw. aussetzen.
 
-*_Name:_* Katzenhaft**Punkte: **15
+== Katzenhaft
+*Punkte:* 15
 
-*Beschränkung: *-
+*Beschränkung:* -
 
 *Beschreibung:* Wie eine Katze fällt der Charakter deutlich häufiger auf
 die Füße als andere. Er erhält einen Bonus von +1 auf die Würfe zum
 Erfolg auf alle Fallen-Proben (Standardprobe).
 
-*_Name:_* Leichter Schlaf**Punkte:** 20
+== Leichter Schlaf
+*Punkte:* 20
 
 *Beschränkung:* -
 
@@ -312,24 +336,27 @@ Charakter entfallen die Mali auf Erkenntnis-Proben, die auf Hören
 basieren, wenn er schläft. Der SL sollte auch Tests in oben
 beschriebenen Situationen verlangen.
 
-*_Name:_* Magieresistent**Punkte: **15
+== Magieresistent
+*Punkte:* 15
 
-*Beschränkung: *-
+*Beschränkung:* -
 
 *Beschreibung:* Die Kräfte des Aethers sind dem Charakter eher
 wohlgesonnen. Der Charakter erhält einen Bonus von +1 auf die Würfe zum
 Erfolg auf Magieabwehr-Proben (Standardprobe).
 
-*_Name:_* Mehr Magiepunkte**Punkte:** 20, 40, 60
+== Mehr Magiepunkte
+*Punkte:*  20, 40, 60
 
-*Beschränkung: *-
+*Beschränkung:* -
 
 *Beschreibung:* Der Charakter erhält einen einmaligen und festen Bonus
 auf seine Magiepunkte: Level I: ¼ mehr, Level II: ½ mehr, Level III: ¾
 mehr. Diese Modifikation kommt nur bei der Charaktererschaffung zum
 Tragen. Spätere Verbesserungen sind von dem Modifikator nicht betroffen.
 
-*_Name:_* Mehr Stabilitätspunkte**Punkte:** 20, 40, 60
+== Mehr Stabilitätspunkte
+*Punkte:* 20, 40, 60
 
 *Beschränkung:* -
 
@@ -339,7 +366,8 @@ III: ¾ mehr. Diese Modifikation kommt nur bei der Charaktererschaffung
 zum Tragen. Spätere Verbesserungen sind von dem Modifikator nicht
 betroffen.
 
-*_Name:_* Mehr Trefferpunkte**Punkte:** 20, 40, 60
+== Mehr Trefferpunkte
+*Punkte:* 20, 40, 60
 
 *Beschränkung:* -
 
@@ -348,7 +376,8 @@ auf seine Trefferpunkte: Level I: ¼ mehr, Level II: ½ mehr, Level III: ¾
 mehr. Diese Modifikation kommt nur bei der Charaktererschaffung zum
 Tragen. Spätere Verbesserungen sind von dem Modifikator nicht betroffen.
 
-*_Name:_* Mein nobles Ziel ist es...[Ziel]*Punkte:* 20
+== Mein nobles Ziel ist es...[Ziel]
+*Punkte:* 20
 
 *Beschränkung:* SL
 
@@ -357,7 +386,8 @@ alle Werwesen“ oder „Beschütze alle Kinder“. Immer wenn der Charakter
 eine Probe würfelt, die dieses Ziel unterstützt, erhält er für diese
 Probe einen Bonus von +1 Würfel.
 
-*_Name:_* Natürliche Rüstung**Punkte:** 5, 15, 30
+== Natürliche Rüstung
+*Punkte:* 5, 15, 30
 
 *Beschränkung:* Rasse
 
@@ -367,7 +397,8 @@ natürliche Rüstung verhindert nur körperlichen Schaden und zwar in den
 Kategorien: _Level I_: 1 Punkt, _Level II_: 3 Punkte, _Level III_: 6
 Punkte, jeweils auf jeder Trefferzone.
 
-*_Name:_* Phantastisches Gedächtnis**Punkte:** 60
+== Phantastisches Gedächtnis
+*Punkte:* 60
 
 *Beschränkung:* -
 
@@ -376,11 +407,12 @@ Alle Wissen-Proben, die durch ein Wissenstalent oder eine einfache
 ER-Probe abgedeckt werden, erhalten einen Bonus von +3 Würfel. Andere
 auf ER-basierende Talent können nicht von diesem Bonus profitieren.
 
-*_Name:_* Ruf**Punkte:** 10, 20, 30, 40, 50
+== Ruf
+*Punkte:* 10, 20, 30, 40, 50
 
 *Beschränkung:* -
 
-**Beschreibung: **Der Charakter hat sich bereits in einem gewissen
+*Beschreibung:* Der Charakter hat sich bereits in einem gewissen
 Umfeld einen Namen gemacht. Die Level geben an, in welchem Gebiet dies
 gilt:
 
@@ -398,7 +430,8 @@ Person, die ihm mindestens neutral gesonnen ist, einen Bonus von +3
 Würfel eine der folgenden Standardproben erwirken: Ausfragen,
 Einschüchtern, Täuschen, Überzeugen, Verführen.
 
-_**Nam****e:**_ Schadensresistenz[Schadensart]*Punkte:* 20 pro Level
+== Schadensresistenz [Schadensart]
+*Punkte:* 20 pro Level
 
 *Beschränkung:* Rasse, Beruf
 
@@ -408,9 +441,10 @@ zugefügt wird, reduziert. Von der Schadensprobe, die eine Angriffsprobe
 mit dieser Schadensart verursacht, werden pro Level 5 Schadenspunkte
 abgezogen.
 
-Die Schadensarten werden im Kapitel Kampf aufgeführt.
+Die Schadensarten werden im Kapitel link:core_rules_battlesystem.adoc[Kampf] aufgeführt.
 
-*_Name:_* Sechster Sinn**Punkte:** 20
+== Sechster Sinn
+*Punkte:* 20
 
 *Beschränkung:* -
 
@@ -423,18 +457,20 @@ Eindrücke der nahenden Gefahr andeuten. Beispielsweise könnte sich der
 Charakter unwohl fühlen. Die gewürfelte Anzahl der Erfolge kann den
 Detailgrad beeinflussen.
 
-*_Name:_* Sinn für das Dumme**Punkte:** 20
+== Sinn für das Dumme
+*Punkte:* 20
 
 *Beschränkung:* -
 
-*Beschreibung:* Immer wieder kommen Spielercharaktere durch eigene
+*Beschreibung:* Immer wieder kommen Spieler durch eigene
 Dummheit, Übermut, Unlogik und diverser anderen Unzulänglichkeiten in
-arge Probleme. Charaktere mit diesem Vorteil dürfen vom SL in solchen
+arge Probleme. Spieler, deren Charaktere diesen Vorteil besitzen, dürfen vom SL in solchen
 Situationen einen kleinen, kryptischen Hinweis (zum Beispiel: „Bist Du
 Dir da sicher?“) darauf bekommen, dass ihre aktuellen Aktionen
 vermutlich dumm sind und nicht zu dem erhofften Ergebnis führen werden.
 
-*_Name:_* Starker Magen**Punkte:** 15
+== Starker Magen
+*Punkte:* 15
 
 *Beschränkung:* -
 
@@ -442,7 +478,8 @@ vermutlich dumm sind und nicht zu dem erhofften Ergebnis führen werden.
 gewissen Gleichgültigkeit. Er erhält einen Bonus von +1 auf die Würfe
 zum Erfolg auf alle Ekel-Proben (Standardprobe).
 
-*_Name:_* Sprunggewaltig**Punkte:** 15
+== Sprunggewaltig
+*Punkte:* 15
 
 *Beschränkung:* -
 
@@ -450,7 +487,8 @@ zum Erfolg auf alle Ekel-Proben (Standardprobe).
 trainiert für Sprungbewegungen. Er erhält einen Bonus von +1 auf die
 Würfe zum Erfolg auf alle Springen-Proben (Standardprobe).
 
-*_Name:_* Subtil**Punkte:** 15
+== Subtil
+*Punkte:* 15
 
 *Beschränkung:* -
 
@@ -459,7 +497,8 @@ Leute in ein Gespräch zu verwickeln und sie dazu zu bringen, ihm
 Informationen zu geben. Er erhält einen Bonus von +1 auf die Würfe zum
 Erfolg auf alle Ausfragen-Proben (Standardprobe).
 
-*_Name:_* Überlebensinstinkt**Punkte:** 20
+== Überlebensinstinkt
+*Punkte:* 20
 
 *Beschränkung:* -
 
@@ -472,7 +511,8 @@ gewöhnlich ein Erfolg. Dies kann sich ändern, wenn der Charakter in
 unwirtlicheren Gebieten unterwegs ist. Beispielsweise erfordert das
 Finden von Wasser in der Wüste einen Guten oder Sehr Guten Erfolgsgrad.
 
-*_Name:_* Unverwüstliche Konstitution**Punkte:** 15
+== Unverwüstliche Konstitution
+*Punkte:* 15
 
 *Beschränkung:* -
 
@@ -480,14 +520,16 @@ Finden von Wasser in der Wüste einen Guten oder Sehr Guten Erfolgsgrad.
 effektiv. Der Charakter erhält einen Bonus von +1 auf die Würfe zum
 Erfolg auf alle Gift- und Krankheits-Proben (Standardproben).
 
-*_Name:_* Verbesserte Initiative**Punkte:** 10
+== Verbesserte Initiative
+*Punkte:* 10
 
 *Beschränkung:* -
 
 *Beschreibung:* Der Charakter hat einen Bonus von +1 auf seinen
 Initiativewert.
 
-*_Name:_* Verbündete**Punkte:** 10, 20, 30, 40, 50
+== Verbündete
+*Punkte:* 10, 20, 30, 40, 50
 
 *Beschränkung:* -
 
@@ -508,7 +550,8 @@ sollte also die Verbündeten nicht als nie versiegender Quell an
 Vorteilen darstellen, sondern als lebendige Charaktere mit eigenen
 Sorgen und Nöten.
 
-*_Name:_* Wie gut, dass ich dies dabei habe**Punkte: **10
+== Wie gut, dass ich dies dabei habe
+*Punkte:* 10
 
 *Beschränkung:* -
 
@@ -518,7 +561,8 @@ seinen Satteltaschen oder seinen Kleidertaschen herausholen, den er
 nicht explizit eingesteckt hat, bzw. „vergessen“ hat, diesen
 einzustecken.
 
-*_Name:_* Zweite Identität**Punkte:** 40
+== Zweite Identität
+*Punkte:* 40
 
 *Beschränkung:* -
 
