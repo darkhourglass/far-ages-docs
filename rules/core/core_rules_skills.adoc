@@ -25,7 +25,7 @@ um seine CP dafür aufwenden zu können. Im Falle von Talenten beziehen
 sich die Zahlenangaben immer auf die Talentstufe, nicht auf die
 Gesamtstufe.
 
-Im Normalfall kann man Besondere Fähigkeiten nur einmal lernen.
+Man kann eine Besondere Fähigkeit nur einmal lernen.
 
 == Kampffähigkeiten
 
@@ -111,60 +111,49 @@ Kampfphase einsetzbar.
 
 === Kampfinstinkt
 
-**Voraussetzungen: **Nahkampfwaffen 5, GE 3 +
+*Voraussetzungen:* Nahkampfwaffen 5, GE 3 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Dank dieser Fähigkeit kann ein Charakter bis zu drei
 Gelegenheitsangriffe pro Kampfphase durchführen.
 
-//TODO
-=== Kampfkunst I,II,III, IV
+=== Kampfkunst I
 
-*Voraussetzungen:*
+*Voraussetzungen:* Unbewaffneter Kampf 3
+*CP-Kosten:* 200 +
+*Beschreibung:* Diese Fähigkeiten beschreiben einen Kampfstil, der ohne Waffen geführt wird und über den Unbewaffneten Kampf hinausgeht. Dank intensivem Training wird der Charakter auch ohne Waffen ein gefährlicher Teilnehmer im Kampf.
+Kampfkunst I ermöglicht dem Charakter einen Gegner zu entwaffnen, in dem er die Waffe des Gegners aus der Hand tritt oder schlägt.
+Wählt er diese Option, erhält er einen Malus von -1 auf die Würfe zum Erfolg in seiner Probe auf Unbewaffenten Kampf.
+Ist die jeweilige Probe erfolgreich, dann würfeln beide Kontrahenten anstelle einer Schadensprobe eine ST-Probe gegen den Standardmindestwurf.
+Hat der Entwaffnen-Nutzende mehr Erfolge, so hat er den Gegner entwaffnet.
+Die Waffe fliegt 1W3*1,50 Meter weit weg in eine zufällig bestimmte Richtung. +
+Außerdem darf der Charakter bei Wahl des Kampfmanönvers Raufen und Ringen entscheiden, ob er den halbierten oder gar keinen Schaden verursachen will.  +
+Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
-Kampfkunst I: Unbewaffneter Kampf 3
+=== Kampfkunst II
 
-Kampfkunst II: Unbewaffneter Kampf 6, Kampfkunst I
+*Voraussetzungen:* Unbewaffneter Kampf 6, Kampfkunst I
+*CP-Kosten:* 300 +
+*Beschreibung:* Mit Erlernen dieser Fähigkeit kann der Charakter einen Angriff zum Niederschlag durchführen.
+Dazu wirft er eine Probe auf Unbewaffneten Kampf mit einem Malus von -1 auf die Würfe zum Erfolg.
+Er wirft dann die Schadensprobe wie sonst.
+Zur Bestimmung, ob der Gegner niedergeschlagen wird, wird ein Bonus von +5 angenommen.
+Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
-Kampfkunst III: Unbewaffneter Kampf 9, Kampfkunst II
+=== Kampfkunst III
 
-Kampfkunst IV: Unbewaffenter Kampf 12, Kampfkunst III
-
-CP-Kosten:
-
-Kampfkunst I: 200
-
-Kampfkunst II: 300
-
-Kampfkunst III: 400
-
-Kampfkunst IV: 500
-
-*Beschreibung:* Diese Fähigkeiten beschreiben einen Kampfstil, der ohne
-Waffen geführt wird und über den Unbewaffneten Kampf hinausgeht. Je mehr
-Level der Charakter in dieser Fähigkeit lernt, um so besser und
-gefährlicher wird er auch ohne Waffen. Jedes Level bringt andere
-Fähigkeiten, die wie folgt beschrieben sind:
-
-Level I ermöglicht dem Charakter die Fähigkeit Entwaffnen auf einen
-Gegner anzuwenden, in dem er die Waffe des Gegners aus der Hand tritt
-oder schlägt. Die Abwicklung funktiert analog zu der gleichnamigen
-Fähigkeit in diesem Dokument. Außerdem darf der Charakter bei Wahl des
-Kampfmanönvers Raufen und Ringen entscheiden, ob er den halbierten oder
-gar keinen Schaden verursachen will.
-
-Level II ermöglicht dem Charakter einen Lähmenden Schlag oder einen
-Niederschlag bei einem Angriff im Unbewaffneten Kampf durchzuführen.
-Diese Aktionen sind äquivalent zu den gleichnamigen Fähigkeiten, wie sie
-in diesem Dokument vorgestellt werden, jedoch werden sie ohne Waffen
-ausgeführt.
-
-Level III eleminiert alle negativen Modifikationen, die ein
+*Voraussetzungen:* Unbewaffneter Kampf 9, Kampfkunst II
+*CP-Kosten:* 400 +
+*Beschreibung:* Kampfkunst III eleminiert alle negativen Modifikationen, die ein
 unbewaffenter Charakter im Kampf gegen einen bewaffneten Charakter
-erleidet. Siehe dazu das Dokument[Kampf].
+erleidet. Siehe dazu das Dokument link:core_rules_battlesystem.adoc[Kampf]. +
+Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
-Level IV lässt den Charakter in die Meisterschaft seiner Kampfkunst
-aufsteigen. Er erhält die Möglichkeit einen Todesstoß auszuführen, der
-wie die gleichnamige Fähigkeit abgehandelt wird.
+=== Kampfkunst IV
+
+*Voraussetzungen:* Unbewaffenter Kampf 12, Kampfkunst III
+*CP-Kosten:* 500 +
+*Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Proben in den Talenten Unbewaffneter Kampf, Hieb Ausweichen und Reflex, solange er keine Waffen trägt.+
+Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
 === Kampfrausch I
 
@@ -277,7 +266,7 @@ erweitert dann die Nahkampfwaffen-Probe. Bei einer erfolgreichen
 Nahkampfwaffen-Probe verdoppelt sich der Schadensbonus der eingesetzten
 Waffe für die anliegende Schadensprobe.
 
-=== Niederschlag
+=== Niederschlagen
 
 *Voraussetzungen:* Nahkampfwaffen 5 +
 *CP-Kosten:* 200 +
@@ -287,7 +276,7 @@ erweitern. Dazu muss der Charakter einen Malus von -1 auf die Würfe zum
 Erfolg hinnehmen. Die Schadensprobe für das Nahkampfwaffentalent wird
 normal gewürfelt, jedoch erhält der Angreifer zur Bestimmung des
 Niederschlags für den erhaltenden Schaden einen Bonus von +5 (dieser
-wird nicht zu dem angerichtete Schaden hinzugerechnet!).
+wird nicht zu dem angerichteten Schaden hinzugerechnet!).
 
 .Niederschlag
 ====
@@ -370,7 +359,7 @@ Schild zum Schlag benutzen. Die untenstehende Tabelle gibt Auskunft über
 den Schadensbonus, die ein Schild in Abhängigkeit von seiner Größe
 verursacht.
 
-[cols=",",]
+[cols=",",options="header"]
 |===
 |Größe des Schildes |Schadensbonus
 |3 oder weniger |2W4
@@ -379,15 +368,14 @@ verursacht.
 |6 |2W10
 |===
 
-=== Schnelles Nachladen[Projektilwaffe]
+=== Schnelles Nachladen [Projektilwaffe]
 
 *Voraussetzungen:* Projektilwaffen 5, Waffenfokus[Projektilwaffe] +
 *CP-Kosten:* 200 +
 *Beschreibung:* Ein Charakter mit dieser Fähigkeit ist besonders geübt
 und geschickt darin, seine Projektilwaffen kampfbereit zu machen. Für
-die gewählte Projektilwaffe reduziert sich deren Kampfphasen den man der
-Ausrüstungsliste entnehmen kann, um 1 bis zu einem Minimum von 1. Die
-Fähigkeit kann mehrfach gelernt werden.
+die gewählte Projektilwaffe reduziert sich deren Kampfphasen um 1 bis zu einem Minimum von 1. +
+ Die Fähigkeit kann mehrfach für unterschiedliche Projektilwaffen gelernt werden.
 
 === Schnelle Waffenbereitschaft [Nahkampfwaffe]
 
@@ -396,7 +384,8 @@ Fähigkeit kann mehrfach gelernt werden.
 *Beschreibung:* Ein Charakter mit dieser Fähigkeit kann die gewählte
 Nahkampfwaffe geschickt ziehen und einsatzbereit machen. Die Zahl der
 Kampfphasen, um die Waffe einzusetzen reduziert sich um 1 bis zu einem
-Minimum von 1. Die Fähigkeit kann mehrfach gelernt werden.
+Minimum von 1. +
+Die Fähigkeit kann mehrfach für unterschiedliche Nahkampfwaffen gelernt werden.
 
 === Spektakulärer Angriff [Nahkampfwaffe]
 
@@ -408,7 +397,8 @@ Nahkampfwaffen einsetzen. Erleidet der Gegner Schaden, muss er einen
 dazu führen kann, dass er den Kampf verlässt. Dies kann auch
 Gelegenheitsangriffe provozieren. Wenn es der Angreifer wünscht, kann er
 dem Zurückweichenden folgen, solange dies seine BEW-Rate in dieser Runde
-zulässt.
+zulässt. +
+Die Fähigkeit kann mehrfach für unterschiedliche Nahkampfwaffen gelernt werden.
 
 === Sprungangriff
 
@@ -527,16 +517,14 @@ werden, jedoch immer nur für ein anderes Talent.
 
 *Voraussetzungen:* gewähltes Verteidigungstalent 10, Verteidigungsfokus[gewähltes Talent] +
 *CP-Kosten:* 400 +
-**Beschreibung:****_ _**Wie Verteidigungsfokus, jedoch gewährt der
+*Beschreibung:* Wie Verteidigungsfokus, jedoch gewährt der
 Starke Verteidigungsfokus insgesamt einen Bonus von +2 auf die Würfe zum
 Erfolg.
 
 === Waffenfokus [Nahkampfwaffe]
 
-*Voraussetzungen:* Nahkampfwaffen 5
-
-*CP-Kosten:* 200
-
+*Voraussetzungen:* Nahkampfwaffen 5 +
+*CP-Kosten:* 200 +
 *Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
 Waffe, erhält er einen Bonus von +1 auf die Würfe zum Erfolg. Die
 Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere
@@ -901,7 +889,7 @@ Die Fähigkeit erweitert das Talent Wissen[Arkanes], allerdings darf der
 Charakter die Probe auch mit seinem Talent Wissen[Legenden] oder
 Wissen[Geschichte] würfeln.
 
-=== Fremdsprache[eine Sprache]
+=== Fremdsprache [eine Sprache]
 
 *Voraussetzungen:* Lesen/Schreiben 2 +
 *CP-Kosten:* 100 +
@@ -1105,100 +1093,64 @@ dass andere Magier diese lernen können. Der Zauberer kann nur
 Zaubersprüche niederschreiben, die er gelernt hat. Genaueres siehe
 [Magie].
 
-=== Zauber Festhalten I, II
+=== Zauber Festhalten I
 
-*Voraussetzungen:* für Zauber Festhalten I: Spruchzauberei 6, für Zauber
-Festhalten II: Spruchzauberei 10, Zauber Festalten II +
-*CP-Kosten:* für Zauber Festhalten I: 400, für Zauber Festhalten II: 500 +
-*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer einen
-vorbereiteten Zauberspruch für eine kurze Zeit hinauszuzögern. Jedes
-Mal, wenn er einen Zauberspruch fertig vorbereitet hat, dann kann er
-entscheiden, ob er diesen Zauberspruch nach den üblichen Regeln sofort
-einsetzt oder ob er ihn festhält. Solange er einen Zauberspruch
-festhält, kann er keinen anderen Zauberspruch vorbereiten oder
-aussprechen. Er kann jedoch andere Aktionen durchführen.
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5
+*CP-Kosten:* 400
+*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer einen vorbereiteten Zauberspruch für eine kurze Zeit hinauszuzögern.
+Jedes Mal, wenn er einen Zauberspruch fertig vorbereitet hat, dann kann er entscheiden, ob er diesen Zauberspruch nach den üblichen Regeln sofort einsetzt oder ob er ihn festhält.
+Solange er einen Zauberspruch festhält, kann er keinen anderen Zauberspruch vorbereiten oder aussprechen.
+Er kann jedoch andere Aktionen durchführen.
 
-Um den Zauberspruch zu aktivieren, führt der Zauberer eine
-Spruchzauberei-Probe aus. Der Zauberspruch wirkt dann wie gewohnt.
+Um den Zauberspruch zu aktivieren, führt der Zauberer eine Spruchzauberei-Probe aus. Der Zauberspruch wirkt dann wie gewohnt.
 
-Der Zauberer kann einen Zauberspruch maximal so viele Kampfphasen
-festhalten wie er Stufen im Talent Spruchzauberei besitzt. Spricht er
-den Zauber innerhalb dieser Zeit nicht aus, so verliert der Zauber
-einfach seine Macht und muss neu vorbereitet werden.
+Der Zauberer kann einen Zauberspruch maximal so viele Kampfphasen festhalten wie er Stufen im Talent Spruchzauberei besitzt.
+Spricht er den Zauber innerhalb dieser Zeit nicht aus, so verliert der Zauber einfach seine Macht und muss neu vorbereitet werden.
 
-Zauber Festhalten II erweitert die bisher beschriebenen Effekte soweit,
+Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
+
+=== Zauber Festhalten II
+
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10, Zauber Festhalten I +
+*CP-Kosten:* 500 +
+*Beschreibung:* Zauber Festhalten II erweitert die bisher beschriebenen Effekte von Zauber Festhalten I insoweit,
 dass der Zauberer sogar während der Vorbereitung eines Zaubers diese
 kurzzeitig unterbrechen kann und sie dann weiterführen kann. Er kann
 dies sogar dann einsetzen, wenn er unterbrochen wird und Gefahr läuft zu
-Verbrennen. Besteht ein Zauberer seine Verbrennen Widerstehen -Probe und
+Verbrennen. Besteht ein Zauberer seine Verbrennen Widerstehen-Probe und
 besitzt die Fähigkeit Zauber Festhalten II, so geht der Zauber nicht wie
 sonst verloren, sondern der Zauberer kann innerhalb einer Zeit von
 Stufen in Spruchzauberei vielen Runden die Vorbereitung wieder an dem
 Punkt aufnehmen, an dem er unterbrochen wurde. Macht er dies nicht, so
 verpufft die Zaubermacht wirkungslos.
 
-Die einzige Ausnahme, in der Zauber Festhalten I und II nicht
-funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
+Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
 
-=== Zauberfokus[Magieart]
-//TODO
+=== Zauberfokus [Fokus]
 
 *Voraussetzungen:* Spruchzauberei 5 +
 *CP-Kosten:* 300 +
-*Beschreibung:* Diese Fähigkeit wurde in frühen Tagen benutzt, um den
-Magiern Zugang zu den unterschiedlichen Energieformen der Magie zu
-gewähren. In der heutigen Zeit haben sich jedoch die Zauberschulen
-etabliert, so dass die Fähigkeit den Gebrauch der Magie verbessert und
-dem Namen nach fokussiert.
+*Beschreibung:* Jeder Zauberspruch besitzt einen oder mehrere Foki, z.B. Feuer oder Geist.
+Ein Charakter kann Zauberfokus mehrfach lernen und jedesmal für einen anderen Fokus.
+Spricht der Charakter einen Zauberspruch aus, der mindestens einen Fokus hat, der seinem Zauberfokus entspricht, erhält er einen Bonus von +1 auf die Würfe zum Erfolg für die Spruchzauberei-Probe für diesen Zauberspruch.
+Besitzt ein Zauberspruch mehrheitlich Foki, die der Charakter nicht als Zauberfokus gelernt hat, kann er diesen Bonus nicht geltend machen.
 
-Es gibt folgende Magiearten: Feuer, Wasser, Luft, Erde, Ordnung, Chaos,
-Körper, Geist und Externe. Jede Zauberschule basiert auf einer oder
-mehrerer dieser Magiearten und wenn ein Zauberer diese als Zauberfokus
-wählt, erhält er einen weiteren Würfel, wenn er eine
-Spruchzauberei-Probe für einen Zauber aus der Zauberschule würfelt.
-Außerdem kosten alle zusätzlichen Effekte dieses Zaubers 1 MP weniger.
+.Zauberfokus
+====
+Ein Zauberspruch besitzt die Foki Feuer und Geist. Ein Charakter mit dem Zauberfokus [Feuer] oder [Geist] erhält einen Bonus von +1 auf die Würfe zum Erfolg für seine Spruchzaubereiprobe.
 
-Besteht eine Zauberschule aus mehreren Zauberfoki, so kann der Magier
-alle Zauberfoki lernen, um den kumulierten Bonus zu erhalten. Ein
-zusätzlicher Effekt kann nie weniger als 1 MP kosten.
+Besitzt o.g. Zauberspruch die Zauberfoki Feuer, Erde und Geist, muss der Charakter mindestens zwei dieser Foki als Zauberfokus lernen, um den Bonus geltend zu machen.
+====
 
-Die Zauberschulen bestehen aus folgenden Zauberfoki:
-
-[cols=",",]
-|===
-|Zauberschule |Zauberfoki
-|Elementarismus: Erde (Weg der Erde) |Erde
-|Elementarismus: Feuer (Weg des Feuers) |Feuer
-|Elementarismus: Luft (Weg der Luft) |Luft
-|Elementarismus: Wasser (Weg des Wassers) |Wasser
-|Illusionismus |Geist
-|Schamanismus |Körper
-|Schule des Weißen Zirkels |Ordnung, Externe, Körper
-|Ungeteilter Weg der Elemente |Feuer, Luft, Erde, Wasser
-|Aspektelementarismus: Bewegung |Feuer, Luft
-|Aspektelementarismus: Härte |Erde, Feuer
-|Aspektelementarismus: Stille |Luft, Wasser
-|Aspektelementarismus: Wachstum |Erde, Wasser
-|Kriegsmagie der Ordnung |Ordnung, Externe
-|Kriegsmagie des Chaos |Chaos, Externe
-|Nekromantie |Körper, Externe
-|Psionik |Körper, Geist
-|Schule der Druiden |Körper
-|Universelle Schule |-
-|===
-
-Kein sterblicher Zauberer kann die Zauberfoki Chaos und Ordnung
-gleichzeitig besitzen, wenn er ein Diener eines der Kosmischen
-Prinzipien ist.
+Egal, wie viele Zauberfoki ein Charakter gelernt hat, der Bonus beträgt maximal +1 auf die Würfe zum Erfolg.
 
 === Zauberkombination
 
 *Voraussetzungen:* Spruchzauberei 12, Wissen[Arkanes] 12, Zauberfokus, Zauber Festhalten +
 *CP-Kosten:* 500 +
-*Beschreibung:* Der Charakter kann zwei unterschiedliche Zauber
-gleichzeitig bzw. wie einen Zauberspruch aussprechen. Die
-Zauberkombination ist eine Erweiterung des Spruchzauberei-Talents. Für
-genaue Regeln siehe [Magie].
+*Beschreibung:* Der Charakter kann zwei unterschiedliche Zauber gleichzeitig bzw. wie einen Zauberspruch aussprechen.
+Die Zauberkombination ist eine Erweiterung des Spruchzauberei-Talents.
+Für genaue Regeln siehe das Dokument link:core_rules_magic_skills.adoc[Magie].
 
 === Zauberspiegel
 
@@ -1213,14 +1165,11 @@ Probe würfeln, wie der Angreifer selbst gewürfelt hat. Wiederum lassen
 sich nicht alle Zaubersprüche spiegeln und es gelten Modifikatoren, die
 unter [Magie] zu finden sind.
 
-=== Zauberverformung I, II
+=== Zauberverformung I
 
-*Voraussetzungen:* Zauberverformung I: Spruchzauberei 5, Wissen[Arkanes]
-5, Zauberverformung II: Spruchzauberei 10, Wissen[Arkanes] 10,
-Zauberverformung I
-
-*CP-Kosten:* je 400 +
-**Beschreibung: **Mit dieser Fähigkeit erhält ein Zauberer die Kontrolle
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 400 +
+**Beschreibung:* Mit dieser Fähigkeit erhält ein Zauberer die Kontrolle
 über die Ausdehnung eines Zauberspruches. Jedes Mal wenn der Zauberer
 einen Zauberspruch mit Flächenschaden ausspricht, kann er diese
 entstehende Fläche verformen. Er kann die Fläche in ihrer Gesamtgröße
@@ -1232,19 +1181,25 @@ Um die effektiv kontrollieren zu können, können Spieler und Spielleiter
 die Anzahl der vom Zauberspruch im Normalfall belegten Kacheln mit denen
 nach der Verformung vergleichen.
 
-Beispiel: Ein Zauberspruch hat eine Effektfläche von 6x6 Metern. Dies
+.Zauberverformung
+====
+Ein Zauberspruch hat eine Effektfläche von 6x6 Metern. Dies
 wären 4x4 Kacheln. Insgesamt wird also eine Fläche von 16 Feldern von
 diesem Zauberspruch betroffen. Eine mögliche Verformung wäre eine 3x12
 Meter bzw. 2x8 Kacheln oder eine kegelförmige Ausdehnung von 6 Metern
 (siehe Kegelförmige Waffen im Dokument[Kampf]) durch ein Opfer von einer
 Kachel.
+====
 
 Ein Zauberspruch, der durch Zauberverformung I verändert wurde, erhält
 +1 auf seine POT.
 
-Zauberverformung II eine Erweiterung seiner Vorgängerfähigkeit
-Zauberverformung I. Beide Fähigkeiten können vom Zauberer gleichzeitig
-verwendet werden. Dank Zauberverformung II kann der Zauberer nun
+=== Zauberverformung II
+
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10, Zauberverformung I +
+*CP-Kosten:* 500 +
+*Beschreibung:* Zauberverformung II ist eine Erweiterung seiner Vorgängerfähigkeit
+Zauberverformung I. Dank Zauberverformung II kann der Zauberer nun
 komplexe Flächen schaffen. Er darf weiterhin nur Flächen verkleinern und
 verformen, jedoch nie vergrößern.
 
@@ -1475,22 +1430,10 @@ Gegenstandsgruppe spezialisiert. Stellt er einen Gegenstand aus dieser
 Gruppe her, erhält er einen Bonus von +1 auf die Würfe zum Erfolg in der
 Talentprobe Magischen Gegenstand Herstellen.
 
-=== Sparsames Herstellen I, II [Gegenstandsgruppe]
+=== Sparsames Herstellen I [Gegenstandsgruppe]
 
-Voraussetzungen:
-
-Sparsames Herstellen I: Magischen Gegenstand Herstellen 5,
-Spezialist[Gegenstandgruppe]
-
-Sparsames Herstellen II: Magischen Gegenstand Herstellen 10, Sparsames
-Herstellen I [Gegenstandsgruppe]
-
-*CP-Kosten:*
-
-Sparsames Herstellen I: 500
-
-Sparsames Herstellen II: 500
-
+*Voraussetzungen:* Magischen Gegenstand Herstellen 5, Spezialist[Gegenstandgruppe] +
+*CP-Kosten:* 500+
 *Beschreibung:* Durch geschicktes Haushalten mit den Materialien und
 einige Tricks kann der Charakter Gegenstände der gewählten
 Gegenstandsgruppe billiger herstellen. Er kann seine Produktionskosten
@@ -1498,7 +1441,11 @@ Gegenstandsgruppe billiger herstellen. Er kann seine Produktionskosten
 Reduktion kann nicht auf die Kosten von magischen Kristallen angewendet
 werden.
 
-Auf Level II erhöht sich die Kostenreduktion auf 25%.
+=== Sparsames Herstellen II [Gegenstandsgruppe]
+
+*Voraussetzungen:* Magischen Gegenstand Herstellen 10, Sparsames Herstellen I [Gegenstandsgruppe] +
+*CP-Kosten:* 500
+*Beschreibung:* Auf Level II verringern sich die Produktionskosten um 25% anstelle von 10%.
 
 === Schnelles Herstellen [Gegenstandsgruppe]
 
