@@ -1,40 +1,38 @@
-Die Fähigkeiten: Verfluchen und Fluch Bannen
+= Magische Fähigkeiten
 
-Haupttalent: Spruchzauberei
+== Verfluchen
 
-„Auch wenn ich es beherrsche, ich habe es niemals angewandt. Zu
+[quote, Byhragast „Eisauge“]
+Auch wenn ich es beherrsche, ich habe es niemals angewandt. Zu
 schrecklich erscheinen mir die Konsequenzen. Man muss sich die Frage
 stellen, wozu so etwas erfunden wurde. Fragen sie am besten den Dekan
-für Philosophische Magie und bringen sie Zeit mit.“
+für Philosophische Magie und bringen sie Zeit mit.
 
--Byhragast „Eisauge“
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 15 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Dieses mächtige Fähigkeit wird von einigen wenigen Zauberern beherrscht.
+Der Zauberer kann Personen, Orte, Gegenstände oder Kreaturen mit einem dauerhaften Fluch belegen oder versuchen, einen existierenden Fluch zu bannen.
+Verfluchen erweitert das Spruchzauberei-Talent.
 
-Flüche sind im Endeffekt permanente Verzauberungen von Personen,
-Gegenständen, Wesen oder Orten. Diese Flüche haben meistens jedoch wenig
-mit den bekannten Zaubersprüchen zu tun und ihre Effekte sind sehr
-einzigartig.
+Flüche sind im Endeffekt permanente Verzauberungen von Personen, Gegenständen, Wesen oder Orten.
+Diese Flüche haben meistens jedoch wenig mit den bekannten Zaubersprüchen zu tun und ihre Effekte sind  einzigartig.
 
-Natürlich gibt es da auch die üblichen Ausnahmen wie den Fluch des
-Gestaltwandels, die Lykanthropie.
+Charaktere mit der Fähigkeit Verfluchen verwenden ihr Talent Spruchzauberei um einen kleinen Teil der Macht, die in Flüchen steckt, für ihre Zwecke zu nutzen.
 
-Charaktere mit der Fähigkeit Verfluchen verwenden ihr Talent
-Spruchzauberei um einen kleinen Teil der Macht, die in Flüchen steckt,
-für ihre Zwecke zu nutzen. Die wahren, mächtigen Flüche, wie die der
-Lykanthropie entstehen in den Grundstrukturen des Multiversums und sind
-an kaum beschreibbare Vorgänge gekoppelt.
+Mit Verfluchen kann ein Charakter versuchen, einen Teil dieser Grundstrukturen des Ziels verändern, so dass sie gewünschten Effekten unterliegen.
+Fluch Bannen stellt diese Strukturen wieder her.
 
-Mit Verfluchen kann ein Charakter versuchen, einen Teil dieser
-Grundstrukturen des Ziels verändern, so dass sie gewünschten Effekten
-unterliegen. Fluch Bannen stellt diese Strukturen wieder her.
+Im System von Far Ages unterscheidet man zwischen fünf Arten von Flüchen:
+* Harmloser Fluch
+* Schwacher Fluch
+* Spuk
+* Schwerer Fluch
+* Todesfluch
 
-Im System von Far Ages unterscheidet man zwischen fünf Arten von
-Flüchen: Harmloser Fluch, Schwacher Fluch, Spuk, Schwerer Fluch und
-Todesfluch. Ein Fluch kann Personen und Lebewesen, Gegenstände und Orte
-betreffen. Folgende Tabelle gibt Aufschluss über die nötige Anzahl der
-Erfolge für eine Spruchzaubereiprobe, sowohl auf Verfluchen, als auch
-auf Fluch Bannen.
+Ein Fluch kann Personen und Lebewesen, Gegenstände und Orte betreffen.
+Folgende Tabelle gibt Aufschluss über die nötige Anzahl der Erfolge für eine Spruchzaubereiprobe, sowohl auf Verfluchen, als auch auf Fluch Bannen.
 
-[cols=",,,,",]
+[cols=",,,,",options="header"]
 |===
 | |Person |Lebewesen |Gegenstand |Ort
 |Harmloser Fluch |4 |4 |2 |2
@@ -44,21 +42,18 @@ auf Fluch Bannen.
 |Todesfluch |12 |12 |10 |-
 |===
 
-Erreicht ein Charakter mit einer der beiden Proben die angegebene Anzahl
-an Erfolgen, so tritt die jeweilige Wirkung ein:
+Erreicht ein Charakter mit einer der beiden Proben die angegebene Anzahl an Erfolgen, so tritt die jeweilige Wirkung ein:
 
-__Verfluchen __belegt das Ziel mit einem Fluch der entsprechenden
-Kategorie. Eine Erläuterung findet sich im Anschluss an diesen Absatz.
+_Verfluchen_ belegt das Ziel mit einem Fluch der entsprechenden Kategorie.
+Eine Erläuterung findet sich im Anschluss an diesen Absatz.
 
-_Fluch Bannen_ entfernt den aktuellen Fluch von dem Ziel. Eventuelle
-dauerhafte Auswirkungen können nicht geheilt werden. Gerade Starke und
-Todesflüche verändern den Körper bzw. materielle Gestalt des Ziels, so
-dass auch der Bann des Fluches diese nicht rückgängig macht.
+_Fluch Bannen_ entfernt den aktuellen Fluch von dem Ziel.
+Eventuelle dauerhafte Auswirkungen können nicht geheilt werden.
+Gerade Starke und Todesflüche verändern den Körper bzw. materielle Gestalt des Ziels, so dass auch der Bann des Fluches diese nicht rückgängig macht.
 
-Im Folgenden stellen wir die Kategorien der Flüche anhand von Beispielen
-vor:
+Im Folgenden stellen wir die Kategorien der Flüche anhand von Beispielen vor:
 
-Harmloser Fluch
+=== Harmloser Fluch
 
 Diese Flüche verursachen keinen Schaden oder Leid. Viel mehr sind sie
 eher humoristischer Natur. Umgangssprachlich kann man einen harmlosen
@@ -67,54 +62,40 @@ Fluch als „nervig“ bezeichnen.
 * Person/Lebewesen:
 
 * die Person kann in aufregenden Situationen nur noch rückwärts sprechen
-* ein starkes Nießen plagt den Charakter, wenn er einen bestimmten Duft
-riecht
+* ein starkes Nießen plagt den Charakter, wenn er einen bestimmten Duft riecht
 * dem Charakter folgen immer mindestens 5 Katzen auf Schritt und Tritt
 
 * Gegenstand:
 ** der Gegenstand gibt bei seiner Benutzung einen unangenehmen Geruch ab
-** der Gegenstand verändert bei anderen Gegenständen der gleichen Sorte
-die Farbe, so lange diese in seiner Nähe sind
+** der Gegenstand verändert bei anderen Gegenständen der gleichen Sorte die Farbe, so lange diese in seiner Nähe sind
 ** bevor der Gegenstand funktioniert, benötigt er ein Kommandowort.
 * Ort:
-** während sich Kreaturen an diesem Ort aufhalten, sind ihre Stimmen
-drei Oktaven höher oder tiefer
-** die Temperatur an diesem Ort ist um die 5 Grad höher oder niedriger
-als üblich
-** alle Kreaturen, die diesen Ort betreten, erscheinen als hätten sie
-Elfenohren.
+** während sich Kreaturen an diesem Ort aufhalten, sind ihre Stimmen drei Oktaven höher oder tiefer
+** die Temperatur an diesem Ort ist um die 5 Grad höher oder niedriger als üblich
+** alle Kreaturen, die diesen Ort betreten, erscheinen als hätten sie Elfenohren.
 
-Schwacher Fluch
+=== Schwacher Fluch
 
 Schwache Flüche schränken das Opfer schon etwas ein, jedoch nur in einem
 sehr speziellen Rahmen.
 
 * Person/Lebewesen:
 
-* zu bestimmten Zeiten hat der Charakter einen Malus von -1 auf die
-Würfe zum Erfolg auf eine bestimmte Probe
+* zu bestimmten Zeiten hat der Charakter einen Malus von -1 auf die Würfe zum Erfolg auf eine bestimmte Probe
 * der Charakter besitzt eine außergewöhnliche Augen- oder Hautfarbe
 * der Charakter hat einen starken Haarwuchs
 
-* _Gegenstand:_
-** der Gegenstand funktioniert nicht unter bestimmten Umständen, z.B.
-bei Vollmond, Mittwochs usw.
-** der Gegenstand gibt gegen bestimmte Gruppierungen keinen Bonus,
-sondern einen Malus: z.B. ein magisches Schwert, dass +1 auf alle
-Trefferwürfe gibt, gibt gegen Orks stattdessen -1
-** der Gegenstand hat eine merkwürdige Angewohnheit zu verschwinden:
-immer dann, wenn der Charakter ihn aus dem Rucksack ziehen will, würfelt
-der SL einen W10: bei einer ungeraden Zahl ist Gegenstand bei dem
-letzten Lagerplatz vergessen worden
-* Ort:
-** Kreaturen, die an diesem Ort übernachten, regenerieren nur die Hälfte
-der sonst üblichen TP und MP
-** der Ort zieht ein bestimmtes Ungeziefer, z.B. Ratten besonders stark
-an;
-** Orientierungs- und Navigations-Proben erhalten an diesem Ort einen
-Malus von -2 auf die Würfe zum Erfolg
+* Gegenstand:
+** der Gegenstand funktioniert nicht unter bestimmten Umständen, z.B. bei Vollmond, Mittwochs usw.
+** der Gegenstand gibt gegen bestimmte Gruppierungen keinen Bonus, sondern einen Malus: z.B. ein magisches Schwert, dass +1 auf alle Trefferwürfe gibt, gibt gegen Orks stattdessen -1
+** der Gegenstand hat eine merkwürdige Angewohnheit zu verschwinden: immer dann, wenn der Charakter ihn aus dem Rucksack ziehen will, würfelt der SL einen W10: bei einer ungeraden Zahl ist Gegenstand bei dem letzten Lagerplatz vergessen worden
 
-Spuk
+* Ort:
+** Kreaturen, die an diesem Ort übernachten, regenerieren nur die Hälfte der sonst üblichen TP und MP
+** der Ort zieht ein bestimmtes Ungeziefer, z.B. Ratten besonders stark an
+** Orientierungs- und Navigations-Proben erhalten an diesem Ort einen Malus von -2 auf die Würfe zum Erfolg
+
+=== Spuk
 
 Diese besondere Art von Flüchen betrifft nur Orte. Diese Orte erhalten
 eine vom Verfluchenden bestimmte Erscheinung, zum Beispiel das typische
@@ -129,35 +110,26 @@ Illusionen. Der Spuk kann auch Gegenstände manipulieren, jedoch nur
 indirekt Charaktere schädigen. Der Fluch könnte einen Kronleuchter
 lockern. Wenn die Charaktere unter diesem stehen, dann ist dies legitim.
 
-Starker Fluch
+=== Starker Fluch
 
 Diese Flüche sind sehr schädlich für den Verfluchten und oft auch sein
 Umfeld.
 
 * Person/Kreatur:
-** der Charakter erhält auf eine bestimmte Probe immer einen Malus von
-bis zu -3 auf die Würfe zum Erfolg, üblicherweise eine Talentprobe auf
-eins seiner Berufstalente
-** der Charakter verliert permanent 1+1W3 Stufen (Minimum 1) in einer
-Attributsstufe. Attributsfertigkeiten berechnen sich entsprechend neu
-** der Charakter erhält eine stigmatisierende Erscheinung, die alle
-Charisma-basierten Kommunikations-Proben um bis zu -6 Würfel erschwert.
-* __Gegenstand__^_1_^_:_
+** der Charakter erhält auf eine bestimmte Probe immer einen Malus von bis zu -3 auf die Würfe zum Erfolg, üblicherweise eine Talentprobe auf eins seiner Berufstalente
+** der Charakter verliert permanent 1+1W3 Stufen (Minimum 1) in einer Attributsstufe. Attributsfertigkeiten berechnen sich entsprechend neu
+** der Charakter erhält eine stigmatisierende Erscheinung, die alle Charisma-basierten Kommunikations-Proben um bis zu -6 Würfel erschwert.
+* Gegenstand:
 ** der Gegenstand gibt einen Malus von bis zu -6 Würfel auf seine
 Funktion, z.B. ein Schwert auf Trefferwürfe
-** der Gegenstand greift seinen Besitzer an: bei jeder Benutzung würfelt
-der SL einen W10. Bei einer 1 verliert der Benutzer sofort 1W10+2 TP
-** der Gegenstand funktioniert normal, hat jedoch weitere
-Nebenwirkungen: die Resultate sind immer extrem blutig (Horror-Probe(4)
-für alle Betrachter) oder der Gegenstand benötigt die Aktivierung durch
-befremdliche Rituale (Opferungen von Humanoiden) usw.
+** der Gegenstand greift seinen Besitzer an: bei jeder Benutzung würfelt der SL einen W10. Bei einer 1 verliert der Benutzer sofort 1W10+2 TP
+** der Gegenstand funktioniert normal, hat jedoch weitere Nebenwirkungen: die Resultate sind immer extrem blutig (Horror-Probe(4) für alle Betrachter) oder der Gegenstand benötigt die Aktivierung durch befremdliche Rituale (Opferungen von Humanoiden) usw.
 * Ort:
 ** der Ort lässt rastende Charaktere niemals regenerieren
 ** der Ort zieht einige gefährliche Kreaturen an
-** jedes Handwerk, dass an diesem Ort ausgeführt wird, ist zum
-spektakulären Scheitern verurteilt
+** jedes Handwerk, dass an diesem Ort ausgeführt wird, ist zum spektakulären Scheitern verurteilt
 
-Todesfluch
+=== Todesfluch
 
 Die stärksten Flüche überhaupt sind die Todesflüche. Auch wenn dies der
 Name suggeriert, führen sie nicht unbedingt zu Tod, jedoch verändern sie
@@ -165,46 +137,30 @@ das Leben einer Kreatur oder die Existenz eines Gegenstandes oder Ortes
 so stark, dass diese wie ausgelöscht wirken.
 
 * Person/Kreatur:
-** der Charakter leidet unter einer schwächenden Krankheit, die ihn nach
-1W4+1 Monaten töten. Die Krankheit ist auf natürlichem oder magischem
-Wege nicht zu heilen.
-** der Charakter erhält eine Wunde, die nicht verheilen will. Jeden Tag
-erhält er 2W10+2 Schadenspunkte, die nicht normal geheilt werden können.
-Normale oder magische Heil-Methoden können diese Wunde nicht heilen
+** der Charakter leidet unter einer schwächenden Krankheit, die ihn nach 1W4+1 Monaten töten. Die Krankheit ist auf natürlichem oder magischem Wege nicht zu heilen.
+** der Charakter erhält eine Wunde, die nicht verheilen will. Jeden Tag erhält er 2W10+2 Schadenspunkte, die nicht normal geheilt werden können. Normale oder magische Heil-Methoden können diese Wunde nicht heilen
 ** der Charakter verliert permanent 1+1W8 Stufen auf einen
-Attributsstufe. Die Attributsfertigkeiten werden entsprechend neu
-kalkuliert. Erreicht ein Charakter deswegen eine Attributsstufe von 0,
-so ist er tot.
-* __Gegenstand__^_1_^_:_
-** der Gegenstand benötigt die Energie des Charakters, um zu
-funktionieren. Jede Verwendung kostet den Charakter 1W10 MP oder TP.
-** der Gegenstand treibt den Charakter in den Wahnsinn. Jede Benutzung
-erfordert eine Horror-Probe(8).
-** der Gegenstand, wenn es sich um eine Waffe handelt, greift die
-Freunde des Charakters an
+Attributsstufe. Die Attributsfertigkeiten werden entsprechend neu kalkuliert. Erreicht ein Charakterdeswegen eine Attributsstufe von 0, so ist er tot.
+* Gegenstand:
+** der Gegenstand benötigt die Energie des Charakters, um zu funktionieren. Jede Verwendung kostet den Charakter 1W10 MP oder TP.
+** der Gegenstand treibt den Charakter in den Wahnsinn. Jede Benutzung erfordert eine Horror-Probe(8).
+** der Gegenstand, wenn es sich um eine Waffe handelt, greift die Freunde des Charakters an
 * Ort:
-** Der Ort hindert die Charaktere am Verlassen. Jede Stunde müssen sie
-eine Orientieren-Probe ablegen und mindestens einen Sehr Guten Erfolg
-erreichen, um das Gebiet zu verlassen
-** Der Ort fügt jedem Charakter, der in oder auf ihm rastet, beim
-Aufstehen 2W10+2 Schadenspunkte zu.
-** Der Ort ermöglicht keinerlei Magie. Jede Spruchzauberei-Probe gilt
-automatisch als Zauberpatzer, magische Gegenstände verlieren ihre Magie
-innerhalb des Ortes und technomantische Konstrukte versagen den Dienst
+** Der Ort hindert die Charaktere am Verlassen. Jede Stunde müssen sie eine Orientieren-Probe ablegen und mindestens einen Sehr Guten Erfolg erreichen, um das Gebiet zu verlassen
+** Der Ort fügt jedem Charakter, der in oder auf ihm rastet, beim Aufstehen 2W10+2 Schadenspunkte zu.
+** Der Ort ermöglicht keinerlei Magie. Jede Spruchzauberei-Probe gilt automatisch als Zauberpatzer, magische Gegenstände verlieren ihre Magie innerhalb des Ortes und technomantische Konstrukte versagen den Dienst
 
-^1^Um einen verfluchten Gegenstand ablegen zu können, benötigt der
-Charakter einen Sehr Guten Erfolg in einer Beherrschen-Probe. Gelingt
-diese nicht, so kann der Charakter den Gegenstand nicht freiwillig aus
-der Hand geben bzw. nicht ablegen und nicht mehr benutzen. Gegen eine
-gewalttätige Entfernung des Gegenstandes wehrt er sich mit allen
-Kräften. Die Probe steht ihm einmal in der Woche zu. Dies gilt nur bei
-Gegenständen, die mit einem Starken oder einem Todesfluch belegt sind.
+Um einen verfluchten Gegenstand ablegen zu können, benötigt der Charakter einen Sehr Guten Erfolg in einer Beherrschen-Probe.
+Gelingt diese nicht, so kann der Charakter den Gegenstand nicht freiwillig aus der Hand geben bzw. nicht ablegen und nicht mehr benutzen.
+Gegen eine gewalttätige Entfernung des Gegenstandes wehrt er sich mit allen Kräften.
+Die Probe steht ihm einmal in der Woche zu. Dies gilt nur bei Gegenständen, die mit einem Starken oder einem Todesfluch belegt sind.
 
-Folgende, einzigartige Flüche sind noch bekannt, fallen jedoch unter
-keine Kategorie. Sie können nicht gebannt werden, außer es steht
-explizit dabei.
+Folgende, einzigartige Flüche sind noch bekannt, fallen jedoch unter keine Kategorie.
+Sie können nicht gebannt werden, außer es steht explizit dabei.
 
-Lykanthropie
+=== Lykanthropie
+
+//TODO rework
 
 Die Ursprünge des uralten Fluchs der Lykanthropie liegen in den Aeonen
 der Zeiten verborgen. Legenden berichten, dass er bereits die
@@ -227,7 +183,7 @@ weiteren Einschränkungen leben muss.
 
 Die folgende Tabelle hilft bei der zufälligen Bestimmung einer Werform:
 
-[cols=",",]
+[cols=",",options="header"]
 |===
 |Werform |Würfelwurf: 1W100
 |Bär |1-25
@@ -240,6 +196,7 @@ Die folgende Tabelle hilft bei der zufälligen Bestimmung einer Werform:
 |Wolf |71-100
 |===
 
+//TODO link
 Die Beschreibungen finden sich im Dokument[Bestiarium].
 
 Der Fluch der Lykanthropie kann nicht gebannt werden, jedoch können
@@ -268,7 +225,7 @@ und das Halsband trägt, stemmen sich gegensätzliche, magische Energien
 gegeneinander auf und durchdringen den Körper des Charakters. Dieser
 erhält automatisch 1W10 magischen Schaden.
 
-Ewiger Hunger
+=== Ewiger Hunger
 
 Dieser schreckliche Fluch zwingt den Betroffenen immer mehr zu essen,
 jedoch ohne jemals satt zu werden. Am Anfang kann der Verfluchte noch
@@ -294,20 +251,22 @@ oder durch außergewöhnliche, magische Ereignisse. Ein Verfluchter kann
 innerhalb eines Zeitraums von 6 Monaten von dem Fluch befreit werden,
 danach verwandelt er sich unwiderruflich in einen Verschlinger.
 
-Für die Fluch Bannen-Probe wird der Ewige Hunger als Todesfluch
-angesehen.
+Für die Fluch Bannen-Probe wird der Ewige Hunger als Todesfluch angesehen.
 
-Die Verfremdten
+=== Die Verfremdten
 
 Manche sagen, dass die Vergessenen diesen Fluch über die Kinder der
 Titanen brachten, als diese ihre letzte Heimstädte im Titanengrat
 eroberten.
 
-Der Verfluchte erleidet jeden Monat nach seiner Verfluchung einen
-Attributsschaden von einer Stufe an ER, SB oder CH. Der SL kann dies
-auswählen oder zufällig bestimmen durch einen W6-Wurf: 1-2: EN, 3-4: SB,
-5-6: CH. Attributseigenschaften, Talentboni und Talentwürfel reduzieren
-sich entsprechend.
+Der Verfluchte erleidet jeden Monat nach seiner Verfluchung einen Attributsschaden von einer Stufe an ER, SB oder CH.
+Der SL kann dies auswählen oder zufällig bestimmen durch einen W6-Wurf:
+
+* 1-2: EN
+* 3-4: SB
+* 5-6: CH.
+
+Die jeweiligen Attributseigenschaften und Talentwürfel reduzieren sich entsprechend.
 
 Erreicht einer der Attributsstufen 0, so ist der Charakter nicht tot,
 wie es normalerweise der Fall wäre, sondern wurde zu einem Verfremdten.
@@ -317,6 +276,7 @@ unglaublich rasch und verhärten sich zu unüblichen Klauen. Ihre Haare
 wachsen ebenso, nehmen eine schwarze Farbe an und werden hart und
 borstig.
 
+// TODO move to bestiary
 Sie selbst behalten einen Großteil ihrer Erinnerungen und ihrer
 Fähigkeiten, jedoch ist ihre Persönlichkeit so gut wie ausgelöscht und
 durch die eines Tiers ersetzt worden, wohl gemerkt ein Tier von
@@ -326,8 +286,7 @@ auf, was das Leben in der Zivilisation gebar und verlieren jede
 Fähigkeit zur Beurteilung von Moral, Logik, Werten und Emotionen.
 
 Ihr einziges Ziel ist Überleben und dabei möglichst viel Schaden
-anzurichten. Ihre Wut richtet sich gegen alle Humanoiden, insbesondere
-gegen die Kinder der Titanen und der Drachen.
+anzurichten. Ihre Wut richtet sich gegen alle Humanoiden.
 
 Ein Verfremdter behält alle körperlichen Talente. Talente, die auf CH
 basieren, verliert er. An magische Talente behält er nur Spruchzauberei.
@@ -352,7 +311,7 @@ Hilfe zu spät. Auch wenn die Vergessenen diesen Fluch speziell gegen die
 Kinder der Titanen gerichtet haben, so kann er jedoch jeden Humanoiden
 treffen, der heimisch auf Al'vaha ist.
 
-Wie können Flüche „natürlicherweise“ entstehen?
+=== Wie können Flüche „natürlicherweise“ entstehen?
 
 Flüche entstehen eigentlich nicht so häufig durch die Anwendung des
 Talents Verfluchen, auch wenn seine Existenz dies vermuten lässt. Die
@@ -362,50 +321,40 @@ SL ist dabei frei, seine Flüche selbst zu gestalten. Die Richtlinien in
 diesem Kapitel für die Anwendung des Talents können dafür benutzt werden
 oder auch nicht.
 
-Besondere Fähigkeiten
+==  Zauberbuch Schreiben
 
-Die Fähigkeit: Zauberbuch Schreiben
+[quote, Byhragast „Eisauge“]
+Die Feder ist mächtiger als das Schwert, vorausgesetzt, die Feder weiß, was sie zu schreiben hat.
 
-Haupttalent: Spruchzauberei
+*Voraussetzungen:* Spruchzauberei 3, Lesen/Schreiben 3, Arkane Sprache[eine Sprache] +
+*CP-Kosten:* 300 +
+*Beschreibung:* Diese Fähigkeit ist eine spezielle Form des Herstellens Magischer Gegenstände.
+Nämlich jener in schriftlicher Form, also Spruchrollen und Grimoires.
+Ein Charakter mit dieser Fähigkeit kann Zauber in Spruchrollen bannen, die zu einem einmaligen Gebrauch von Nutzen sind.
+Ebenso kann er Zaubersprüche in Grimoires übertragen, so dass andere Magier diese lernen können.
+Der Zauberer kann nur Zaubersprüche niederschreiben, die er gelernt hat.
 
-„Die Feder ist mächtiger als das Schwert, vorausgesetzt, die Feder weiß,
-was sie zu schreiben hat.“
+Diese Fähigkeit erweitert das Talent Spruchzauberei und ermöglicht es einem Magieanwender, seine Magie in eine Spruchrolle oder ein Grimoire (ein Buch, in dem Zaubersprüche stehen) zu transferieren.
+In diesem Abschnitt werden die Regeln und Anwendungsmöglichkeiten dieser Fähigkeit erläutert.
 
--Byhragast „Eisauge“
-
-Diese Fähigkeit erweitert das Talent Spruchzauberei und ermöglicht es
-einem Magieanwender, seine Magie in eine Spruchrolle oder ein Grimoire
-(ein Buch, in dem Zaubersprüche stehen) zu transferieren. In diesem
-Abschnitt werden die Regeln und Anwendungsmöglichkeiten dieser Fähigkeit
-erläutert.
-
-Um eine *_Spruchrolle herzustellen_*, benötigt der Zauberer Pergament
-und Schreibgerät. Er schreibt nach den Regeln der Fähigkeit „Zauberbuch
-Schreiben“ den Zauber auf dieses Pergament. Dies bedeutet, dass er mit
-diesem Talent POT viele Erfolge mit Spruchzauberei erreichen muss. Es
-handelt sich dabei natürlich um die POT des Zauberspruches, der auf die
-Spruchrolle geschrieben werden soll. Für dieselbe Probe kann auch das
-Talent Magische Gegenstände Herstellen benutzt werden.
+=== Spruchrollen
+Um eine *Spruchrolle herzustellen*, benötigt der Zauberer Pergament und Schreibgerät.
+Er schreibt nach den Regeln der Fähigkeit „Zauberbuch Schreiben“ den Zauber auf dieses Pergament.
+Dies bedeutet, dass er mit diesem Talent POT viele Erfolge mit Spruchzauberei erreichen muss.
+Es handelt sich dabei natürlich um die POT des Zauberspruches, der auf die Spruchrolle geschrieben werden soll.
+Für dieselbe Probe kann auch das Talent Magische Gegenstände Herstellen benutzt werden.
 
 Der Zauberer kann Zusätzliche Effekte für diesen Zauberspruch verwenden.
-Erhöhen diese die POT des Zauberspruches, so muss die Anzahl der Erfolge
-entsprechend ausgerechnet werden.
+Erhöhen diese die POT des Zauberspruches, so muss die Anzahl der Erfolge entsprechend angepasst werden.
 
-Der Zauberer kann jede Sprache verwenden, die er beherrscht. Er kann die
-Spruchrolle in „normaler“ Sprache verfassen, aber auch eine arkane
-Sprache verwenden.
-
-Dies bedeutet, dass man eine Spruchrolle auch ohne das Talent Magische
-Gegenstände Herstellen verzaubern kann. Wir haben diese Anwendung jedoch
-an dieser Stelle erwähnt, da es sich bei Spruchrollen auch um Magische
-Gegenstände handelt.
+Der Zauberer kann jede Sprache verwenden, die er beherrscht.
+Er kann die Spruchrolle in „normaler“ Sprache verfassen, aber auch eine arkane Sprache verwenden.
 
 Der Wert einer Schriftrolle berechnet sich aus POT*50 Silbermünzen.
 
-Gerade für Zauberer ist es interessant zu wissen, wie man ein *_Grimoire
-herstellt_*. Ein Grimoire ist ein mächtiges, magisches Buch, dass
-Zaubersprüche enthält, die von anderen Zauberern gelernt werden können,
-aber auch wie bei einer Spruchrolle ausgesprochen werden können.
+=== Grimoire
+Gerade für Zauberer ist es interessant zu wissen, wie man ein *Grimoire herstellt*.
+Ein Grimoire ist ein mächtiges, magisches Buch, dass Zaubersprüche enthält, die von anderen Zauberern gelernt werden können, aber auch wie bei einer Spruchrolle ausgesprochen werden können.
 
 Als Ausgangsmaterial sind Tinte und ein gebundenes Buch von Nöten. Der
 Zauberer schreibt nach den Regeln der Fähigkeit „Zauberbuch Schreiben“
@@ -437,170 +386,134 @@ Verwüstungen oder ähnliches anrichten.
 Der Wert in Silbermünzen eines verzauberten Grimoire ergibt sich aus der
 Summe über alle POT aller Sprüchen multipliziert mit 500.
 
-Beispiel: Ein Grimoire enthält 4 Zaubersprüche. Davon sind 2 von POT 5,
-1 POT 6 und POT 8. Der Wert berechnet sich daher (2*5 + 6 + 8)*250 =
-12000 Silbermünzen.
+.Grimoire schreiben
+===
+Ein Grimoire enthält 4 Zaubersprüche.
+Davon sind 2 von POT 5, 1 POT 6 und POT 8.
+Der Wert berechnet sich daher (2*5 + 6 + 8)*250 = 12000 Silbermünzen.
+===
 
-Die Fähigkeit: Zauberkombination
+== Zauberkombination
 
-*Haupttalent: Spruchzauberei*
+[quote, Byhragast „Eisauge“]
+Wenn ein Zauberspruch nicht reicht, ist die logische Konsequenz, einen weiteren zu nutzen.
 
-„Wenn ein Zauberspruch nicht reicht, ist die logische Konsequenz, einen
-weiteren zu nutzen.“
+*Voraussetzungen:* Spruchzauberei 12, Wissen[Arkanes] 12, Zauberfokus, Zauber Festhalten +
+*CP-Kosten:* 500 +
+*Beschreibung:* Der Charakter kann zwei unterschiedliche Zauber gleichzeitig bzw. wie einen Zauberspruch aussprechen.
 
--Byhragast „Eisauge“
+Diese das Talent Spruchzauberei erweiternde Fähigkeit ist eines der Mächtigsten überhaupt, denn es lässt Magier die übliche Beschränkung „immer nur ein Zauberspruch gleichzeitig“ umgehen.
+Der Magier kann mit dieser Fähigkeit zwei Zaubersprüche gleichzeitig vorbereiten und auch aussprechen.
 
-Diese das Talent Spruchzauberei erweiternde Fähigkeit ist eines der
-Mächtigsten überhaupt im Spiel, denn es lässt Magier die übliche
-Beschränkung „immer nur ein Zauberspruch gleichzeitig“ umgehen. Der
-Magier kann mit dieser Fähigkeit zwei Zaubersprüche gleichzeitig
-vorbereiten und auch aussprechen.
+Der Zauberer beginnt seine Kampfphase damit, dass er ansagt, dass er Zauberkombination benutzen will und welche er Sprüche kombinieren möchte.
+An dieser Stelle muss er auch ansagen, ob er die Zaubersprüche verkürzen will und/oder Zusätzliche Effekte nutzen möchte.
+In jedem Fall muss er für jeden Zauberspruch die zusätzlichen MP bezahlen.
 
-Der Zauberer beginnt seine Kampfphase damit, dass er ansagt, dass er
-Zauberkombination benutzen will und welche er Sprüche kombinieren
-möchte. An dieser Stelle muss er auch ansagen, ob er die Zaubersprüche
-verkürzen will und/oder Zusätzliche Effekte nutzen möchte. In jedem Fall
-muss er für jeden Zauberspruch die zusätzlichen MP bezahlen.
+Dann beginnt die Vorbereitung nach den üblichen Regeln, jedoch ist natürlich nicht zwangsläufig vorausgesetzt, dass beide Zauber dieselbe Vorbereitungszeit haben.
+Mit der Abwendung von Zauberkombination werden die Zauber gleichzeitig vorbereitet.
 
-Dann beginnt die Vorbereitung nach den üblichen Regeln, jedoch ist
-natürlich nicht zwangsläufig vorausgesetzt, dass beide Zauber dieselbe
-Vorbereitungszeit haben. Mit der Abwendung von Zauberkombination werden
-die Zauber gleichzeitig vorbereitet.
+Man unterscheidet also zwischen zwei Fällen: Haben die Zaubersprüche dieselbe Vorbereitungszeit, sei es durch Verkürzung oder einfach weil sie gleich schnell vorbereitbar sind, dann ist nichts Besonderes zu bemerken.
 
-Man unterscheidet also zwischen zwei Fällen: Haben die Zaubersprüche
-dieselbe Vorbereitungszeit, sei es durch Verkürzung oder einfach weil
-sie gleich schnell vorbereitbar sind, dann ist nichts Besonderes zu
-bemerken.
+Ist ein Zauberspruch schneller vorbereitet, dann muss der Zauberer die Wartezeit ausgleichen, indem er die Vorbereitung des anderen Zauberspruches entsprechend verkürzt oder den kürzeren Zauber so lange mit der Fähigkeit Zauberspruch festhalten bewahren.
 
-Ist ein Zauberspruch schneller vorbereitet, dann muss der Zauberer die
-Wartezeit ausgleichen, indem er die Vorbereitung des Zauberspruches
-entsprechend verkürzt.
+.Zauberkombination
+====
+Zauberspruch A hat 5 Kampfphasen Vorbereitung und Zauberspruch B 7 Kampfphasen.
+Der Zauberer muss also Zauberspruch B um 2 Kampfphasen verkürzen, um Zauberkombination nutzen zu können.
+====
 
-_Beispiel: Zauberspruch A hat 5 Kampfphasen Vorbereitung und
-Zauberspruch B 7 Kampfphasen. Der Zauberer muss also Zauberspruch B um 2
-Kampfphasen verkürzen, um Zauberkombination nutzen zu können._
+Der Charakter muss im Fall von Unterbrechungen für beide Zaubersprüche auf das Talent Verbrennen Widerstehen werfen.
 
-Der Charakter muss im Fall von Unterbrechungen für beide Zaubersprüche
-auf das Talent Verbrennen Widerstehen werfen.
+Sind beide Zaubersprüche fertig vorbereitet, dann spricht der Zauberer sie mit Spruchzauberei aus.
 
-Sind beide Zaubersprüche fertig vorbereitet, dann spricht der Zauberer
-sie mit Spruchzauberei aus.
+Als nötige Anzahl der Erfolge wählt der Zauberer die höchste Anzahl der Erfolge, die einer der beiden Zaubersprüche benötigt.
 
-Als nötige Anzahl der Erfolge wählt der Zauberer die höchste Anzahl der
-Erfolge, die einer der beiden Zaubersprüche benötigt.
-
-Ist die Zauberkombination-Probe ein Patzer, dann muss der Zauberer auf
-Zauberpatzer-Tabelle POT von Zauberspruch A+POT von Zauberspruch B
-würfeln.
+Ist die Zauberkombination-Probe ein Patzer, dann muss der Zauberer auf der Zauberpatzer-Tabelle die POT von beiden Zaubersprüchen addieren
 
 Bei einem Misserfolg gehen beide Zaubersprüche verloren.
 
-Die Zauberkombination-Probe erhält die üblichen Boni aus den
-Zauberschulen, jedoch auch hier nur den jeweils Höchsten von Beiden!
+Die Zauberkombination-Probe erhält die üblichen Boni aus den Zauberschulen, jedoch auch hier nur den jeweils Höchsten von Beiden!
 
-Die Fähigkeiten Gegenzauber und Zauberspiegel können eine
-Zauberkombination normal stoppen.
+Die Fähigkeiten Gegenzauber und Zauberspiegel können eine Zauberkombination normal stoppen.
 
-Die Fähigkeit: Gegenzauber
+== Gegenzauber
 
-„Um Magie zu verstehen, muss man wissen, was ist, wenn sie nicht mehr da
-ist.“
+[quote, Byhragast „Eisauge“]
+„Um Magie zu verstehen, muss man wissen, was ist, wenn sie nicht mehr da ist.“
 
--Byhragast „Eisauge“
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 300 +
+*Beschreibung:* Gegenzauber sind Bannsprüche, die spontan oder in Vorbereitung auf einen gerade ausgesprochenen bzw. festen (z.B. durch die  Fähigkeit Magie Abkoppeln plazierten) Zauberspruch gewirkt werden.
+Diese Fähigkeit wird auf Spruchzauberei angewendet.
 
-Diese Fähigkeit, die Spruchzauberei erweitert, generiert eine Art
-Negativ des Zauberspruches, auf den es angewendet wird. Dieses Negativ
-in Kombination mit dem Zauberspruch hebt diesen auf und macht ihn damit
-unwirksam. Zauberer benutzen diese Fähigkeit, um spontan effiziente
-Bannzauber zu wirken.
+Diese Fähigkeit generiert eine Art Negativ des Zauberspruches, auf den es angewendet wird.
+Dieses Negativ in Kombination mit dem Zauberspruch hebt diesen auf und macht ihn damit unwirksam.
+Zauberer benutzen diese Fähigkeit, um spontan effiziente Bannzauber zu wirken.
 
-Um Gegenzauber anzuwenden, muss ein Zauberspruch, egal ob dieser von
-einem anderen Zauberer ausgeht oder von einer Falle oder einem
-Gegenstand, vom Magier in einem Umkreis von 9 Metern sein Ziel finden.
+Um Gegenzauber anzuwenden, muss ein Zauberspruch, egal ob dieser von einem anderen Zauberer ausgeht oder von einer Falle oder einem Gegenstand, vom Magier in einem Umkreis von 9 Metern sein Ziel finden.
 Der Magier muss den Zauber wahrnehmen können.
 
-Gegenzauber kann auf zwei Arten angewendet werden. Entweder sagt ein
-Zauberer per Kampfmanöver Defensiv Zaubern an, dass er andere
-Zaubersprüche kontern möchte oder er nutzt Gegenzauber als Spontane
-Aktion.
+Gegenzauber kann auf zwei Arten angewendet werden.
+Entweder sagt ein Zauberer per Kampfmanöver Defensiv Zaubern an, dass er andere Zaubersprüche kontern möchte oder er nutzt Gegenzauber als spontane Aktion.
 
-Im ersten Fall bleibt der Zauberer solange beim Defensiv Zaubern, wie er
-wünscht. Er kann dann pro Kampfphase diese Fähigkeit einmal für einen
-Zauberspruch einsetzen, der von einem Zauberer im eigenen
-Wahrnehmungsbereich ausgesprochen wird, d.h. dieser macht eine
-Spruchzauberei-Probe.
+Im ersten Fall bleibt der Zauberer solange beim Defensiv Zaubern, wie er wünscht.
+Er kann dann pro Kampfphase diese Fähigkeit einmal für einen Zauberspruch einsetzen, der von einem Zauberer im eigenen Wahrnehmungsbereich ausgesprochen wird, d.h. dieser macht eine Spruchzauberei-Probe.
 
-Im zweiten Fall unterbricht der Zauberer seine derzeitige Handlung (wenn
-er eine durchführt) und benutzt diese Fähigkeit gegen eine
-Spruchzauberei-Probe, die in der aktuellen Kampfphase durchgeführt wird.
-Er kann auch das Vorbereiten eines Zauberspruches unterbrechen, erleidet
-jedoch dann Verbrennen.
+Im zweiten Fall unterbricht der Zauberer seine derzeitige Handlung (wenn er eine durchführt) und benutzt diese Fähigkeit gegen eine Spruchzauberei-Probe, die in der aktuellen Kampfphase durchgeführt wird.
+Er kann auch das Vorbereiten eines Zauberspruches unterbrechen, erleidet jedoch dann Verbrennen.
 
-Außerdem erhält er einen Malus von -2 auf die Würfe zum Erfolg auf die
-Spruchzauberei-Probe zum Gegenzauber.
+Außerdem erhält er einen Malus von -2 auf die Würfe zum Erfolg auf die Spruchzauberei-Probe zum Gegenzauber.
 
-In jedem Fall führt er nachdem der gegnerische Zauberer seine
-Spruchzauberei-Probe abgelegt hat, eine Probe in Gegenzauber durch.
+In jedem Fall führt er nachdem der gegnerische Zauberer seine Spruchzauberei-Probe abgelegt hat, eine Probe in Gegenzauber durch.
 
-Die Fähigkeit wirkt und hebt den gegnerischen Zauber auf genau dann wenn
-die Gegenzauber-Probe genauso viele oder mehr Erfolge erzielte, wie die
-Spruchzauberei-Probe des Gegners. Es ist dabei unerheblich, wie viele
-Erfolge der Gegner zum Wirken des Zaubers wirklich benötigt hätte.
+Die Fähigkeit wirkt und hebt den gegnerischen Zauber auf genau dann wenn die Gegenzauber-Probe genauso viele oder mehr Erfolge erzielte, wie die Spruchzauberei-Probe des Gegners.
+Es ist dabei unerheblich, wie viele Erfolge der Gegner zum Wirken des Zaubers wirklich benötigt hätte.
 
-Würfelt der Charakter weniger Erfolge, dann war der Gegenzauber nicht
-erfolgreich und der Zauber wirkt normal.
+Würfelt der Charakter weniger Erfolge, dann war der Gegenzauber nicht erfolgreich und der Zauber wirkt normal.
 
 Gegenzauber benötigen nie Vorbereitung.
 
-Die Fähigkeit: Zauberspiegel
+== Zauberspiegel
 
-*Haupttalent: Spruchzauberei*
+[quote, Byhragast „Eisauge“]
+Schlagt eure Feinde mit ihren eigenen Waffen.
 
-„Schlagt eure Feinde mit ihren eigenen Waffen.“
+*Voraussetzungen:* Spruchzauberei 12, Wissen[Arkanes] 9, Gegenzauber +
+*CP-Kosten:* 500 +
+*Beschreibung:* Diese mächtige Fähigkeit lässt auf den Charakter gewirkte Zaubersprüche auf den Zaubernden zurückprallen.
+Man kann keine Zauberfallen reflektieren, da es da kein erfassbares Wesen gibt, von dem der Zauber ausgeht. Wie bei Gegenzauber muss man entsprechend viele Erfolge bei der Probe würfeln, wie der Angreifer selbst gewürfelt hat.
 
--Byhragast „Eisauge“
+Diese das Talent Spruchzauberei erweiternde Fähigkeit erlaubt es dem Charakter einen Zauberspruch, der auf ihn gezaubert wurde, zurück zu werfen.
+Er kann, im Gegensatz zu Gegenzauber, auch einen Zauberspruch zurückwerfen, der auf eine Fläche wirkt, in der er sich befinden.
+Jedoch kann der Zauberer nur Zaubersprüche zurückwerfen, die von einem lebenden (bzw. bewussten) Zauberer (also auch einem Untoten) ausgegangen sind.
+Zauber aus magischen Fallen, Gegenständen und Konstrukten kann der Zauberer nicht zurückwerfen, denn diesen Dingen fehlt die bewusste Präsenz, die für diese Fähigkeit nötig ist.
 
-Diese das Talent Spruchzauberei erweiternde Fähigkeit erlaubt es dem
-Charakter einen Zauberspruch, der auf ihn gezaubert wurde, zurück zu
-werfen. Er kann, im Gegensatz zu Gegenzauber, auch einen Zauberspruch
-zurückwerfen, der auf eine Fläche wirkt, in der er sich befinden. Jedoch
-kann der Zauberer nur Zaubersprüche zurückwerfen, die von einem lebenden
-(bzw. bewussten) Zauberer (also auch einem Untoten) ausgegangen sind.
-Zauber aus magischen Fallen, Gegenständen und Konstrukten kann der
-Zauberer nicht zurückwerfen, denn diesen Dingen fehlt die bewusste
-Präsenz, die für diese Fähigkeit nötig ist.
+In Bezug auf die Behandlung der Fähigkeit innerhalb der Kampfphase verfahre man mit dieser Fähigkeit wie bei Gegenzauber.
 
-In Bezug auf die Behandlung der Fähigkeit innerhalb der Kampfphase
-verfahre man mit dieser Fähigkeit wie bei Gegenzauber.
+Würfelt der Zauberer nun auf Spruchzauberei, dann muss er die Anzahl der Erfolge gleich oder höher erreichen, die sein Kontrahent zum Aussprechen seines Zauber gewürfelt hat.
+Dabei ist es auch hier unerheblich, ob die Anzahl höher liegt, als eigentlich benötigt.
 
-Würfelt der Zauberer nun auf Spruchzauberei, dann muss er die Anzahl der
-Erfolge gleich oder höher erreichen, die sein Kontrahent zum Aussprechen
-seines Zauber gewürfelt hat. Dabei ist es auch hier unerheblich, ob die
-Anzahl höher liegt, als eigentlich benötigt.
+Ist dies geschafft, dann wird der Zauberspruch zurückgeworfen.
+Das Ziel ist der Ausgangspunkt.
+Für Zauber mit Flächenwirkung gilt der Zaubernde als Mittelpunkt für den Radius.
+Es sind für das Zurückwerfen keine weiteren Proben nötig.
+Die Effekte treten sofort ein, nur eben auf einer anderen Seite als man zuvor erwartet hatte.
 
-Ist dies geschafft, dann wird der Zauberspruch zurückgeworfen. Das Ziel
-ist der Ausgangspunkt. Für Zauber mit Flächenwirkung gilt der Zaubernde
-als Mittelpunkt für den Radius. Es sind für das Zurückwerfen keine
-weiteren Proben nötig! Die Effekte treten sofort ein, nur eben auf einer
-anderen Seite als man zuvor erwartet hatte.
+Erlaubt der Zauberspruch jedoch Magieabwehr-Proben, dann kann der Gelinkte versuchen, mit einer Magieabwehr-Probe seinen eigenen Zauberspruch zu kontern.
+Dies allerdings gegen die zuvor geworfene Zauberspiegel-Probe.
 
-Erlaubt der Zauberspruch jedoch Magieabwehr-Proben, dann kann der
-Gelinkte versuchen, mit einer Magieabwehr-Probe seinen eigenen
-Zauberspruch zu kontern. Dies allerdings gegen die Zauberspiegel-Probe.
-
-Ebenso kann der Zauberer einen durch Zauberspiegel reflektierten
-Zauberspruch selber reflektieren, wenn er die Fähigkeit auch besitzt.
-Jedoch ist die Anzahl der Erfolge dann nicht mehr die der
-Spruchzauberei-Probe, sondern die der jeweils letzten
-Zauberspiegel-Probe.
+Ebenso kann der Zauberer einen durch Zauberspiegel reflektierten Zauberspruch selber reflektieren, wenn er die Fähigkeit auch besitzt.
+Jedoch ist die Anzahl der Erfolge dann nicht mehr die der Spruchzauberei-Probe, sondern die der jeweils letzten Zauberspiegel-Probe.
 
 Ebenso kann er Gegenzauber anwenden.
 
-Die Fähigkeit: Magie Abkoppeln
+== Magie Abkoppeln
 
-Mit dieser das Spruchzauberei-Talent erweiternden Fähigkeit können
-Zauberer ihre Magie an einem Punkt verankern. Das bedeutet, sie
-erschaffen einen kleinen Kanal zwischen dem Aether und dieser Realität,
+*Voraussetzungen:* Spruchzauberei 7 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Mit dieser das Spruchzauberei-Talent erweiternden Fähigkeit können Zauberer ihre Magie an einem Punkt verankern.
+Auf diese Weise werden vorallem magische Fallen hergestellt.
+Das bedeutet, sie erschaffen einen kleinen Kanal zwischen dem Aether und dieser Realität,
 in dem sie einen gerade gesprochenen Zauberspruch hineinlegen. Mit Hilfe
 dieser Fähigkeit wird dieser Kanal verschlossen und mit einem
 sogenannten Auslöser belegt.
@@ -726,3 +639,231 @@ Feld unterdrücken.
 Der Erschaffer der Falle kann die Falle entschärfen, in dem er eine
 Magie Abkoppeln-Probe gegen die Anzahl der Erfolge in POT des
 Zauberspruches besteht.
+
+== Durchschlagender Zauber
+
+*Voraussetzungen:* Spruchzauberei 8 +
+*CP-Kosten:* 300+ +
+*Beschreibung:* Diese Fähigkeit hilft einem Zauberer dabei, die
+gegnerische Verteidigung gegen Zauber besser zu durchdringen. Bei jedem
+Zauberspruch, den der Zauberer ausspricht und der Magieabwehr-Proben
+zulässt, erhalten die Magieabwehr-Proben einen Malus von -1 Würfel. Die
+Fähigkeit kann nicht auf Zaubersprüche angewendet werden, die der
+Zauberer durch Magie Abkoppeln verankert hat oder die er aus einem
+Gegenstand oder von einer Spruchrolle wirkt. Ebenso hat die Fähigkeit
+keine Wirkung bei Zaubersprüchen, die keine Magieabwehr-Proben zulassen.
+
+Die Fähigkeit kann mehrmals gelernt werden: jede Stufe erhöht sich der
+Malus um -1 Würfel. Die CP-Kosten steigen kumulativ um 100 CP pro
+Erlernung.
+
+== Gelegenheitszauber
+
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Gelegenheitszauber sind das magische Äquivalent zu
+Gelegenheitsangriffen und erfordern ein hohes Wissen über magische
+Vorgänge. Ein Zauberer kann immer dann einen Gelegenheitszauber wirken,
+wenn ein Gegner in der Bedrohungszone des Zauberers einen
+Gelegenheitsangriff provoziert. Der Zauberer kann dann sofort einen
+Zauberspruch gegen diesen Gegner wirken. Der Zauberspruch muss dazu als
+Ziel eine Kreatur anvisieren und mindestens die Reichweite Berührung
+haben. Außerdem muss der Zauberer dafür sorgen, dass der Zauberspruch
+auf 0 Kampfphasen verkürzt wird. Ein Zauberer, der gerade einen
+Zauberspruch vorbereitet, kann wie bei Gelegenheitsangriffen diese
+Fähigkeit nicht einsetzen.
+
+== In Tiergestalt Zaubern
+
+*Voraussetzungen:* Spruchzauberei 5, Zauberschule[Schamanismus] 8, Grossvater hatte so komische Augen... +
+*CP-Kosten:* 500 +
+*Beschreibung:* Mit dieser Fähigkeit kann ein Zauberer, insbesondere ein
+Schamane, weiterhin sein Spruchzauberei-Talent verwenden, wenn er sich
+in Tiergestalt befindet.
+
+== Meditation
+
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 200 +
+*Beschreibung:* Mit Hilfe dieser Fähigkeit kann der Charakter auch
+außerhalb seiner Schlafphasen Magiepunkte regenerieren. Um die Fähigkeit
+zu nutzen, benötigt der Charakter Ruhe und Entspannung, man kann es also
+nicht mitten im Kampf oder im Schankraum einsetzen. Der Charakter kann
+für 10 Minuten meditieren und darf dann EN*4 MP zu seinem aktuellen
+MP-Pool addieren (bis zu seinem Maximum). Diese Fähigkeit kann er einmal
+in 24 Stunden einsetzen.
+
+== Meister der Elemente
+
+*Voraussetzungen:* Spruchzauberei[Elementarist] 10 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Ein Elementarist mit dieser Fähigkeit beherrscht die
+Elementarmagie so exzellent, dass er mit den Elementen beliebig spielen
+kann. Er kann bei einem beliebigen Zauberspruch aus einer Zauberschule
+des Elementarismus, den er aussprechen möchte, der eine Energieart
+enthält, diese gegen eine andere Energieart austauschen. Als zulässige
+Energiearten gelten hierbei Feuer, Frost, Säure und Schock.
+
+Beispiel: Der durch den Feuerball verursachte Feuerschaden könnte durch
+diese Fähigkeit in Frostschaden oder Säureschaden oder Schockschaden
+umgewandelt werden.
+
+Üblicherweise verändert sich in diesem Moment auch die visuelle Wirkung
+des Zaubers gemäß der neuen Energieart.
+
+Ein Zauberspruch, der durch diese Fähigkeit verändert wurde, erhält +2
+auf seine POT.
+
+== Spontane Verzauberung
+
+*Voraussetzung:* Magische Gegenstände Herstellen 10 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer Gegenstände
+für eine kurze Dauer mit magischer Energie zu füllen. Dabei kann der
+Zauberer nur Gegenstände verzaubern, die mit den im Dokument[Magie]
+vorgestellten Prägungen versehen werden können. Der Zauberer kann keine
+Gegenstände spontan in solche verzaubern, die ein Rezept benötigten.
+Beispielsweise könnte der Zauberer einem Schwert den Effekt _Amorph_ für
+kurze Zeit verleihen.
+
+Um dies zu tun, würfelt der Zauberer eine Probe auf Magische Gegenstände
+Herstellen gegen die übliche Anzahl von Erfolgen, die nötig sind, um
+einen Gegenstand mit dem Effekt zu prägen. Im Falle von _Amorph_ wäre
+dies eine 4 gewesen.
+
+Ist die Probe erfolgreich, so erhält der Gegenstand den Effekt für 1W4-1
+Stunden (Minimum 1). Die variable Anzahl soll zeigen, dass solche
+magische Energien sehr flüchtig und instabil sind.
+
+Der Zauberer kann auch mehrere Effekte auf einmal prägen und addiert
+dazu einfach die Anzahlen der Erfolge der einzelnen Effekte zusammen. Er
+kann allerdings nicht die Effekte nacheinander prägen, sondern muss alle
+Effekte in einer Probe geprägt haben. Spontan Verzauberte Gegenstände
+können solange sie unter dem Einfluss dieser Fähigkeit stehen, nicht
+weiter verzaubert werden, weder spontan noch normal.
+
+Die Anwendung dieser Fähigkeit benötigt ein kurzes Ritual, in dem sich
+der Zauberer mit dem gewählten Gegenstand auf die gewünschten Effekte
+konzentrieren muss. Das Ritual dauert mindestens 15 Minuten und wird mit
+der Talentprobe abgeschlossen. Ein Misserfolg kostet den Zauberer sofort
+1W10 MP aufgrund der Erschöpfung. Ein Patzer kostet 2W10 MP und zerstört
+den Gegenstand.
+
+== Unausweichlicher Zauber
+
+*Voraussetzungen:* Spruchzauberei 12 +
+*CP-Kosten:* 100+ +
+*Beschreibung:* Diese Fähigkeit betrifft jeden Zauberspruch, den der
+Zauberer selbst ausspricht, der in seiner Beschreibung Reflex- oder
+Willenskraft-Proben verlangt, um die Wirkung des Zaubers zu umgehen oder
+zu verringern. Bei Zaubersprüchen unter dem Einfluss dieser Fähigkeit
+erhöht sich die Anzahl an Erfolgen, um die Reflex- oder Willenskraft
+-Probe zu bestehen, um 1.
+
+Die Fähigkeit kann nicht auf Zauber angewendet werden, die der Zauberer
+aus Gegenständen oder von Spruchrollen wirkt.
+
+Die Fähigkeit kann mehrmals gelernt werden. Jedes Mal erhöht sich die
+Anzahl der nötigen Erfolge um 1. Jede Erlernung kostet kumulativ 100 CP
+zusätzlich.
+
+== Zauber Festhalten I
+
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 400 +
+*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer einen vorbereiteten Zauberspruch für eine kurze Zeit hinauszuzögern.
+Jedes Mal, wenn er einen Zauberspruch fertig vorbereitet hat, dann kann er entscheiden, ob er diesen Zauberspruch nach den üblichen Regeln sofort einsetzt oder ob er ihn festhält.
+Solange er einen Zauberspruch festhält, kann er keinen anderen Zauberspruch vorbereiten oder aussprechen.
+Er kann jedoch andere Aktionen durchführen.
+
+Um den Zauberspruch zu aktivieren, führt der Zauberer eine Spruchzauberei-Probe aus. Der Zauberspruch wirkt dann wie gewohnt.
+
+Der Zauberer kann einen Zauberspruch maximal so viele Kampfphasen festhalten wie er Stufen im Talent Spruchzauberei besitzt.
+Spricht er den Zauber innerhalb dieser Zeit nicht aus, so verliert der Zauber einfach seine Macht und muss neu vorbereitet werden.
+
+Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
+
+== Zauber Festhalten II
+
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10, Zauber Festhalten I +
+*CP-Kosten:* 500 +
+*Beschreibung:* Zauber Festhalten II erweitert die bisher beschriebenen Effekte von Zauber Festhalten I insoweit,
+dass der Zauberer sogar während der Vorbereitung eines Zaubers diese
+kurzzeitig unterbrechen kann und sie dann weiterführen kann. Er kann
+dies sogar dann einsetzen, wenn er unterbrochen wird und Gefahr läuft zu
+Verbrennen. Besteht ein Zauberer seine Verbrennen Widerstehen-Probe und
+besitzt die Fähigkeit Zauber Festhalten II, so geht der Zauber nicht wie
+sonst verloren, sondern der Zauberer kann innerhalb einer Zeit von
+Stufen in Spruchzauberei vielen Runden die Vorbereitung wieder an dem
+Punkt aufnehmen, an dem er unterbrochen wurde. Macht er dies nicht, so
+verpufft die Zaubermacht wirkungslos.
+
+Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
+
+== Zauberfokus [Fokus]
+
+*Voraussetzungen:* Spruchzauberei 5 +
+*CP-Kosten:* 300 +
+*Beschreibung:* Jeder Zauberspruch besitzt einen oder mehrere Foki, z.B. Feuer oder Geist.
+Ein Charakter kann Zauberfokus mehrfach lernen und jedesmal für einen anderen Fokus.
+Spricht der Charakter einen Zauberspruch aus, der mindestens einen Fokus hat, der seinem Zauberfokus entspricht, erhält er einen Bonus von +1 auf die Würfe zum Erfolg für die Spruchzauberei-Probe für diesen Zauberspruch.
+Besitzt ein Zauberspruch mehrheitlich Foki, die der Charakter nicht als Zauberfokus gelernt hat, kann er diesen Bonus nicht geltend machen.
+
+.Zauberfokus
+====
+Ein Zauberspruch besitzt die Foki Feuer und Geist. Ein Charakter mit dem Zauberfokus [Feuer] oder [Geist] erhält einen Bonus von +1 auf die Würfe zum Erfolg für seine Spruchzaubereiprobe.
+
+Besitzt o.g. Zauberspruch die Zauberfoki Feuer, Erde und Geist, muss der Charakter mindestens zwei dieser Foki als Zauberfokus lernen, um den Bonus geltend zu machen.
+====
+
+Egal, wie viele Zauberfoki ein Charakter gelernt hat, der Bonus beträgt maximal +1 auf die Würfe zum Erfolg.
+
+== Zauberverformung I
+
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 400 +
+*Beschreibung:* Mit dieser Fähigkeit erhält ein Zauberer die Kontrolle
+über die Ausdehnung eines Zauberspruches. Jedes Mal wenn der Zauberer
+einen Zauberspruch mit Flächenschaden ausspricht, kann er diese
+entstehende Fläche verformen. Er kann die Fläche in ihrer Gesamtgröße
+nicht erweitern, wohl aber verkleinern. Die veränderte Zielfläche muss
+eine einfache, zusammenhängende, geometrische Fläche sein wie ein
+Rechteck, Quadrat, Kreis, Dreieck (Kegel) oder Trapez.
+
+Um die effektiv kontrollieren zu können, können Spieler und Spielleiter
+die Anzahl der vom Zauberspruch im Normalfall belegten Kacheln mit denen
+nach der Verformung vergleichen.
+
+.Zauberverformung
+====
+Ein Zauberspruch hat eine Effektfläche von 6x6 Metern. Dies
+wären 4x4 Kacheln. Insgesamt wird also eine Fläche von 16 Feldern von
+diesem Zauberspruch betroffen. Eine mögliche Verformung wäre eine 3x12
+Meter bzw. 2x8 Kacheln oder eine kegelförmige Ausdehnung von 6 Metern
+(siehe Kegelförmige Waffen im Dokument[Kampf]) durch ein Opfer von einer
+Kachel.
+====
+
+Ein Zauberspruch, der durch Zauberverformung I verändert wurde, erhält
++1 auf seine POT.
+
+== Zauberverformung II
+
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10, Zauberverformung I +
+*CP-Kosten:* 500 +
+*Beschreibung:* Zauberverformung II ist eine Erweiterung seiner Vorgängerfähigkeit
+Zauberverformung I. Dank Zauberverformung II kann der Zauberer nun
+komplexe Flächen schaffen. Er darf weiterhin nur Flächen verkleinern und
+verformen, jedoch nie vergrößern.
+
+Die Beschränkung, dass nur einfache, zusammenhängende, geometrische
+Flächen geformt werden dürfen, wird in folgender Weise verändert: die
+Fläche muss weiterhin zusammenhängend sein (d.h. jede betroffene Kachel
+muss mindestens eine Kante mit einer anderen betroffenen Kachel
+gemeinsam haben), jedoch kann der Zauberer einzelne Kacheln aus der
+Zielfläche herausnehmen. Dadurch ist es zum Beispiel möglich,
+Verbündete, die in der Zielfläche des Zauberspruches stehen, von seiner
+Wirkung auszunehmen.
+
+Ein Zauberspruch, der mit Zauberverformung II verändert wurde, erhält +2
+aus seine POT (nicht kumulativ mit der Erhöhung aus Zauberverformung I).

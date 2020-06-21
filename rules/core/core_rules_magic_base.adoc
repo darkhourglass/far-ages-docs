@@ -1200,8 +1200,7 @@ Beispiel: Ein Aspektelementarist verzaubert einen seiner Kameraden mit
 +7 auf alle Trefferzonen. Zaubert der Elementarist diesen Zauberspruch
 noch einmal auf denselben Charakter, bleibt es bei dem Bonus von +7. Es
 wird nicht +14 daraus. Selbstverständlich gilt der +7-Bonus zusätzlich
-auf natürliche oder getragene Rüstung. Letzterer darf auch magisch sein,
-siehe dazu Kapitel III.I. in diesem Dokument.
+auf natürliche oder getragene Rüstung..
 
 Beispiel: Der obige Charakter mit seiner Verzauberung wird mit
 „Holzhaut“ aus dem Schamanismus bezaubert. Diese gewährt einen Bonus von
@@ -1846,6 +1845,7 @@ muss er Feuerball für Elementarismus noch einmal lernen.
 * Ein Magier, der Wilde Magie lernt, muss die gleichen Einschränkungen
 wie im vorherigen Punkt beschrieben hinnehmen, jedoch umgekehrt.
 
+//TODO
 Runenmagie
 
 „Alt und erwürdig ist die Runenmagie.“
@@ -2229,70 +2229,7 @@ abgelaufen, da die Technomanten aufgrund von Mechanisierung günstiger
 produzieren können und der Herstellungsprozess weniger aufwendige
 Materialien und Verarbeitung benötigt.
 
-==== Von Materialkosten
-
-Materialkosten werden in Silbermünzen dargestellt, jedoch stellt sich
-durchaus die Frage, ob ein magischer Gegenstand nur aus Silbermünzen
-besteht. Dies tut er selbstverständlich nicht und für die Integrität der
-Welt von Far Ages ist es äußerst entscheidend, dass der SL den
-Herstellungsprozess für seine magischen Gegenstände mit den hohen Kosten
-in Einklang bringt.
-
-Die abstrakte Beschreibung wurde deswegen gewählt, damit ein SL schnell
-die Kosten und den Wert eines Gegenstandes einschätzen und mit anderen
-Gegenständen vergleichen kann. Um die Herstellung von magischen
-Gegenständen sowohl durch Spielercharaktere wie auch durch andere
-Zauberer interessanter und konsistenter zu beschreiben, bietet dieser
-Abschnitt einige Möglichkeiten an, die ein SL nutzen kann, um die hohen
-Kosten für die Herstellung zu rechtfertigen und auch darzustellen.
-
-*Magische Kristalle* gehören zu dem Standardinventar eines jeden
-Magieschmiedes. In fast jedem Herstellungsprozess von magischen
-Gegenständen findet man eine Angabe zu magischen Kristallen, die als der
-Teil der üblichen Herstellungskosten erübrigt werden müssen. Diese
-Kristalle sind diejenigen, die den aktiven Teil der Energieversorgung
-übernehmen. Sie sind also essentiell, unersetzlich und werden damit in
-der Motivation, die Materialkosten zu erklären, nicht weiter betrachtet.
-
-Jedoch lassen sich magische Kristalle auch weiter als mögliche
-Materialen für die hohen Herstellungskosten rechtfertigen: die
-Herstellung von magischen Gegenständen gleicht in gewisser Weise der
-Spruchzauberei. Denn die Verzauberung eines Gegenstandes ist
-vergleichbar mit einem permanenten Zauberspruch, jedoch wird die
-Verzauberung viel stärker mit der Struktur des Gegenstandes verwoben als
-ein Zauberspruch mit dessen Ziel. Daher kann man Zaubersprüche auch
-bannen, während magische Gegenstände ihren Dienst nur im Falle von
-spezieller Antimagie versagen.
-
-Um die starke Bindung von Gegenstand und Verzauberung darzustellen,
-könnten alle Materialkosten in magischen Kristallen aufgebracht werden –
-bis auf die festen Ausnahmen, in denen spezielle Materialen zusätzlich
-angegeben sind. Mit Ausnahme der Energielieferanten werden diese
-magischen Kristalle weiterverarbeitet, zum Beispiel zu Pulver gemalen
-oder geschmolzen und in der Esche zu dem Material des Gegenstandes
-geschmiedet. Dies simuliert, dass die zusätzliche magische Energie, die
-diese Kristalle innehaben, dazu benutzt wird, um die Verbindung zwischen
-dem aetherischen Abbild der Verzauberung und dem materiellen Gegenstand
-so zu festigen, dass der magische Gegenstand entsteht.
-
-Als *Fokus* beschreibt man in der Spruchzauberei einen Gegenstand, der
-dem Zauberer hilft, magische Energie anstatt durch seinen Körper durch
-eben diesen Fokus zu kanalisieren. Dies ermöglicht es einem Zauberer auf
-Gesten und Zauberformel zu verzichten, die ihm helfen, seinen Körper dem
-Aether zu öffnen.
-
-In der Herstellung von magischen Gegenständen existiert ein ähnliches
-Konzept. Ein Zauberer kann eine Verzauberung in einem Fokus kanalisieren
-und diesen Fokus auf einen zu verzaubernden Gegenstand anwenden.
-Regeltechnisch verändert dieses Vorgehen nichts. Als Erklärungshilfe für
-die Materialkosten sind Foki jedoch geeignet, denn sie sind es, die
-diese Menge an Geld verbrauchen. Für ein Verzauberung eines Schwertes
-beispielsweise mit einer bestimmten Prägung benötigt es einen Stein mit
-einem hohem Anteil von Adamit, einem seltenen Metall und dies in einer
-bestimmten Größe. Dieser Stein kann durchaus die Materialkosten
-erläutern. Ein Fokus kann immer nur für einen Herstellungsprozess
-verwendet werden. Für eine neue Verzauberung muss ein neuer Fokus
-beschafft werden.
+Eine Anleitung zur Herstellung magischen Gegenständen findet sich im Dokument link:core_rules_magic_talents.adoc[Magische Talente] im Eintrag Magische Gegenstände herstellen.
 
 ==== Identifikation von Gegenständen
 
