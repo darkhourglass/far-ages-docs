@@ -1,5 +1,273 @@
 = Magische Fähigkeiten
 
+== Durchschlagender Zauber I
+
+*Voraussetzungen:* Spruchzauberei 8 +
+*CP-Kosten:* 300 +
+*Beschreibung:* Diese Fähigkeit hilft einem Zauberer dabei, die gegnerische Verteidigung gegen Zauber besser zu durchdringen.
+Bei jedem Zauberspruch, den der Zauberer ausspricht und der Magieabwehr-Proben zulässt, erhalten die Magieabwehr-Proben einen Malus von -2 Würfel.
+Die Fähigkeit kann nicht auf Zaubersprüche angewendet werden, die der Zauberer durch Magie Abkoppeln verankert hat oder die er aus einem Gegenstand oder von einer Spruchrolle wirkt.
+Ebenso hat die Fähigkeit keine Wirkung bei Zaubersprüchen, die keine Magieabwehr-Proben zulassen.
+
+== Durchschlagender Zauber II
+
+*Voraussetzungen:* Spruchzauberei 12, Durchschlagender Zauber I +
+*CP-Kosten:* 400 +
+*Beschreibung:* Der Malus auf die Magie-Abwehrproben steigt auf -4 Würfel.
+
+== Elementemeisterschaft [Energieart]
+
+*Voraussetzungen:* Spruchzauberei 10 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Ein Zauberer mit dieser Fähigkeit beherrscht die Elementarmagie so exzellent, dass er mit den Elementen beliebig spielen kann.
+Er kann bei einem beliebigen Zauberspruch, den er aussprechen möchte, der eine Energieart enthält, diese gegen  die Energieart, für die er die Fähigkeit gelernt hat, austauschen.
+Als zulässige Energiearten gelten hierbei Feuer, Frost, Säure und Schock.
+
+.Elementemeisterschaft
+====
+Ein Charakter besitzt die Besondere Fähigkeit Energiemeisterschaft [Säure].
+Der durch den Zauberspruch Feuerball verursachte Feuerschaden könnte durch diese Fähigkeit in Säureschaden umgewandelt werden.
+====
+
+Üblicherweise verändert sich in diesem Moment auch die visuelle Wirkung des Zaubers gemäß der neuen Energieart.
+
+Ein Zauberspruch, der durch diese Fähigkeit verändert wurde, erhält +2 auf seine POT.
+
+Die Fähigkeit kann nicht auf Zauber angewendet werden, die der Zauberer aus Gegenständen oder von Spruchrollen wirkt.
+
+Ein Charakter kann diese Fähigkeit mehrfach für unterschiedliche Energiearten lernen.
+
+== Gelegenheitszauber
+
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Gelegenheitszauber sind das magische Äquivalent zu
+Gelegenheitsangriffen und erfordern ein hohes Wissen über magische
+Vorgänge. Ein Zauberer kann immer dann einen Gelegenheitszauber wirken,
+wenn ein Gegner in der Bedrohungszone des Zauberers einen
+Gelegenheitsangriff provoziert. Der Zauberer kann dann sofort einen
+Zauberspruch gegen diesen Gegner wirken. Der Zauberspruch muss dazu als
+Ziel eine Kreatur anvisieren und mindestens die Reichweite Berührung
+haben. Außerdem muss der Zauberer dafür sorgen, dass der Zauberspruch
+auf 0 Kampfphasen verkürzt wird. Ein Zauberer, der gerade einen
+Zauberspruch vorbereitet, kann wie bei Gelegenheitsangriffen diese
+Fähigkeit nicht einsetzen.
+
+== Gegenzauber
+
+[quote, Byhragast „Eisauge“]
+„Um Magie zu verstehen, muss man wissen, was ist, wenn sie nicht mehr da ist.“
+
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 300 +
+*Beschreibung:* Gegenzauber sind Bannsprüche, die spontan oder in Vorbereitung auf einen gerade ausgesprochenen bzw. festen (z.B. durch die  Fähigkeit Magie Abkoppeln plazierten) Zauberspruch gewirkt werden.
+Diese Fähigkeit wird auf Spruchzauberei angewendet.
+
+Diese Fähigkeit generiert eine Art Negativ des Zauberspruches, auf den es angewendet wird.
+Dieses Negativ in Kombination mit dem Zauberspruch hebt diesen auf und macht ihn damit unwirksam.
+Zauberer benutzen diese Fähigkeit, um spontan effiziente Bannzauber zu wirken.
+
+Um Gegenzauber anzuwenden, muss ein Zauberspruch, egal ob dieser von einem anderen Zauberer ausgeht oder von einer Falle oder einem Gegenstand, vom Magier in einem Umkreis von 9 Metern sein Ziel finden.
+Der Magier muss den Zauber wahrnehmen können.
+
+Gegenzauber kann auf zwei Arten angewendet werden.
+Entweder sagt ein Zauberer per Kampfmanöver Defensiv Zaubern an, dass er andere Zaubersprüche kontern möchte oder er nutzt Gegenzauber als spontane Aktion.
+
+Im ersten Fall bleibt der Zauberer solange beim Defensiv Zaubern, wie er wünscht.
+Er kann dann pro Kampfphase diese Fähigkeit einmal für einen Zauberspruch einsetzen, der von einem Zauberer im eigenen Wahrnehmungsbereich ausgesprochen wird, d.h. dieser macht eine Spruchzauberei-Probe.
+
+Im zweiten Fall unterbricht der Zauberer seine derzeitige Handlung (wenn er eine durchführt) und benutzt diese Fähigkeit gegen eine Spruchzauberei-Probe, die in der aktuellen Kampfphase durchgeführt wird.
+Er kann auch das Vorbereiten eines Zauberspruches unterbrechen, erleidet jedoch dann Verbrennen.
+
+Außerdem erhält er einen Malus von -2 auf die Würfe zum Erfolg auf die Spruchzauberei-Probe zum Gegenzauber.
+
+In jedem Fall führt er nachdem der gegnerische Zauberer seine Spruchzauberei-Probe abgelegt hat, eine Probe in Gegenzauber durch.
+
+Die Fähigkeit wirkt und hebt den gegnerischen Zauber auf genau dann wenn die Gegenzauber-Probe genauso viele oder mehr Erfolge erzielte, wie die Spruchzauberei-Probe des Gegners.
+Es ist dabei unerheblich, wie viele Erfolge der Gegner zum Wirken des Zaubers wirklich benötigt hätte.
+
+Würfelt der Charakter weniger Erfolge, dann war der Gegenzauber nicht erfolgreich und der Zauber wirkt normal.
+
+Gegenzauber benötigen nie Vorbereitung.
+
+== In Tiergestalt Zaubern
+
+*Voraussetzungen:* Spruchzauberei 5 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Mit dieser Fähigkeit kann ein Zauberer, insbesondere ein Schamane, weiterhin sein Spruchzauberei-Talent verwenden, wenn er sich in Tiergestalt befindet.
+
+== Magie Abkoppeln
+
+*Voraussetzungen:* Spruchzauberei 7 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Mit dieser das Spruchzauberei-Talent erweiternden Fähigkeit können Zauberer ihre Magie an einem Punkt verankern.
+Auf diese Weise werden vorallem magische Fallen hergestellt.
+Das bedeutet, sie erschaffen einen kleinen Kanal zwischen dem Aether und dieser Realität,
+in dem sie einen gerade gesprochenen Zauberspruch hineinlegen. Mit Hilfe
+dieser Fähigkeit wird dieser Kanal verschlossen und mit einem
+sogenannten Auslöser belegt.
+
+Sobald dieser Auslöser betätigt wird, öffnet sich der Kanal und entlässt
+den Zauberspruch. Da der Kanal unbeweglich ist, wird diese Fähigkeit
+dazu benutzt, um Magische Fallen herzustellen. Der Zauberer erschafft
+sich also einen magischen Stolperdraht, um beispielsweise neugierige
+Diebe mit einem Feuerball aus seinem Labor zu vertreiben, selbst wenn er
+nicht da ist.
+
+Um so einen Magischen Kanal zu kreieren, würfelt der Charakter eine
+Probe auf das Talent Spruchzauberei. Dabei genügt ein durchschnittlicher
+Erfolg, um einen den Kanal zu erschaffen. Nun muss der Zauberer den
+Zauberspruch in den Kanal hineinlegen.
+
+Dies tut er, indem er den Zauberspruch wie gewohnt ausspricht und zwar
+auf den Kanal. Zaubersprüche, die das Ziel „Selbst“ oder „Berührung“
+haben, können nicht verwendet werden. Zauber mit Flächenschaden haben
+immer als Mittelpunkt den Standort des Kanals, auch wenn diese Zauber
+eine Reichweitenangabe besitzen.
+
+Zauber, die nur eine Reichweitenangabe und ein Ziel betreffen, können
+ohne Einschränkungen verwendet werden.
+
+In diesem Moment muss der Zauberer auch Zusätzliche Effekte mit MP einsetzen, denn diese Effekte werden mitgespeichert und gelten als verwendet, wenn der Zauber ausgelöst wird.
+Das Verkürzen von Vorbereitungszeit hat in diesem Fall keine Bedeutung.
+Ebenso entfallen Magieabwehr-Proben bei Erstellung der Falle.
+
+Ist der Zauberspruch erfolgreich ausgesprochen worden, dann wurde er im
+Kanal gespeichert. Der Zauberer hat jetzt seine Stufe in Spruchzauberei
+viele Minuten Zeit, um den Auslöser zu kreieren. Schafft er es nicht in
+dieser Zeit, dann verschwindet die Energie des Zaubers im Aether und die
+Anwendung war umsonst.
+
+Die bei der Spruchzauberei-Probe gewürfelten Erfolge muss der Zauberer sich merken.
+
+Dieser Auslöser muss innerhalb von Stufe des Talents*1,50 Metern um den Kanal platziert werden.
+
+Diesen Auslöser charakterisieren zwei Eigenschaften:
+
+* Wer oder Was löst den Zauber aus?
+* Womit löst er den Zauber aus?
+
+Dazu benötigt der Zauberer einen weiteren Wurf auf das Talent Spruchzauberei.
+Es entscheidet nur der Erfolgsgrad, wie die magische Falle wirkt.
+
+[cols=",",options="header"]
+|===
+|Erfolgsgrad |Effekt
+
+|Durchschnittlich |Ein Durchschnittlicher Erfolg lässt den Auslöser an
+der entsprechenden Position genau dann losgehen, wenn ein lebendes
+Wesen, dass nicht der Zauberer selbst ist, genau diesen Auslöser
+berührt. Das Wesen wird Ziel des Zaubers, sollte dieser ein Ziel
+erfordern. Der Zauberer darf ein Passwort festlegen, das, falls laut
+ausgesprochen, die Fall nicht auslöst.
+
+|Gut |Wie Durchschnittlich, jedoch kann der Zauberer den Auslöser um bis
+zu 3,00x3,00 Metern ausdehnen, so dass das Betreten einer größeren
+Fläche die Falle auslöst.
+
+|Sehr Gut |Wie Gut. Der Zauberer kann bis zu 10 Lebewesen bestimmen, die
+die Falle nicht auslösen. Die auslösende Fläche steigt auf 6,00x6,00
+Meter.
+
+|Ausgezeichnet |Wie Sehr Gut. Der Zauberer kann auf Wunsch die Falle nur
+durch eine bestimmte Kreaturengruppen auslösen lassen. Die Falle kann
+nun auch von Konstrukten, Untoten und Dämonen ausgelöst werden.
+
+|Meisterhaft |Wie Ausgezeichnet. Der Zauberer kann eine oder mehrere
+bestimmte Kreaturengruppen explizit ausschließen.
+|===
+
+Damit ist die magische Falle fertig.
+
+Mit Aether Wahrnehmung können andere Kreaturen die Falle und den Auslöser entdecken.
+Ein normale Suche nach Fallen führt hier zu keinem Erfolg.
+
+Um die Falle mit Aether Wahrnehmung zu entdecken, gilt die normale
+Regel, dass der Suchende die POT des im Kanals gespeicherten Zaubers
+überwürfeln muss. Gelingt dies, erkennt er auch den Auslöser. Ein Guter
+Erfolg kann weitere Details über den Auslöser verraten, zum Beispiel
+durch welche Handlung er ausgelöst wird oder wer in auslöst.
+
+Wird eine Falle ausgelöst, so wird der Auslösende Ziel des Zaubers,
+sofern der Zauberspruch ein Ziel hat. Im Falle eines ungerichteten
+Zaubers (zum Beispiel eines mit Flächenschaden) entfacht der Zauber
+seine Wirkung am Standort des Kanals.
+
+Der Zauberspruch trifft das Ziel nach den üblichen Regeln. Sollte ihm
+eine Magieabwehr-Probe zustehen, dann wird diese normal gewürfelt. Die
+Erfolge werden von den Erfolgen der Spruchzauberei-Probe des Zauberers
+abgezogen und wenn dann noch genug übrig sind, um den Zauberspruch nach
+den üblichen Regeln zu wirken, dann ist der Zauber erfolgreich.
+
+Beispiel: Ein Zauberer möchte die Tür zu seinem Arbeitszimmer mit dem
+Befehl: Schlaf!-Zauber aus dem Weg des Geistes schützen. Bei der
+Spruchzauberei-Probe gelingen ihm 6 Erfolge. Des Nachts schleicht sich
+ein Dieb herein, der die Falle nicht entdeckt und sie auslöst. Befehl:
+Schlaf! Gewährt eine Magieabwehr-Probe und ist erfolgreich, wenn der
+Zauberer mindestens 3 Erfolge gewürfelt hat. Der Dieb kann der Falle
+also nun entgehen, wenn er bei der Magieabwehr-Probe 4 oder mehr Erfolge
+würfelt.
+
+Ist die Falle einmal installiert, dann bleibt sie dort, bis sie entweder
+vom Zauberer entfernt wird oder ausgelöst wird. Jeder Falle kann nur
+einmal ausgelöst werden. Sie verbraucht keine MP und ihr können keine MP
+entzogen werden.
+
+Um eine magische Falle zu entschärfen, muss einem Charakter ein
+passender Bann-Spruch gelingen oder die Falle durch ein Anti-Magisches
+Feld unterdrücken.
+
+Der Erschaffer der Falle kann die Falle entschärfen, in dem er eine
+Magie Abkoppeln-Probe gegen die Anzahl der Erfolge in POT des
+Zauberspruches besteht.
+
+== Meditation
+
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 200 +
+*Beschreibung:* Mit Hilfe dieser Fähigkeit kann der Charakter auch
+außerhalb seiner Schlafphasen Magiepunkte regenerieren. Um die Fähigkeit
+zu nutzen, benötigt der Charakter Ruhe und Entspannung, man kann es also
+nicht mitten im Kampf oder im Schankraum einsetzen. Der Charakter kann
+für 10 Minuten meditieren und darf dann EN*4 MP zu seinem aktuellen
+MP-Pool addieren (bis zu seinem Maximum). Diese Fähigkeit kann er einmal
+in 24 Stunden einsetzen.
+
+== Spontane Verzauberung
+
+*Voraussetzung:* Magische Gegenstände Herstellen 10 +
+*CP-Kosten:* 500 +
+*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer Gegenstände
+für eine kurze Dauer mit magischer Energie zu füllen. Dabei kann der
+Zauberer nur Gegenstände verzaubern, die mit den im Dokument[Magie]
+vorgestellten Prägungen versehen werden können. Der Zauberer kann keine
+Gegenstände spontan in solche verzaubern, die ein Rezept benötigten.
+Beispielsweise könnte der Zauberer einem Schwert den Effekt _Amorph_ für
+kurze Zeit verleihen.
+
+Um dies zu tun, würfelt der Zauberer eine Probe auf Magische Gegenstände
+Herstellen gegen die übliche Anzahl von Erfolgen, die nötig sind, um
+einen Gegenstand mit dem Effekt zu prägen. Im Falle von _Amorph_ wäre
+dies eine 4 gewesen.
+
+Ist die Probe erfolgreich, so erhält der Gegenstand den Effekt für 1W4-1
+Stunden (Minimum 1). Die variable Anzahl soll zeigen, dass solche
+magische Energien sehr flüchtig und instabil sind.
+
+Der Zauberer kann auch mehrere Effekte auf einmal prägen und addiert
+dazu einfach die Anzahlen der Erfolge der einzelnen Effekte zusammen. Er
+kann allerdings nicht die Effekte nacheinander prägen, sondern muss alle
+Effekte in einer Probe geprägt haben. Spontan Verzauberte Gegenstände
+können solange sie unter dem Einfluss dieser Fähigkeit stehen, nicht
+weiter verzaubert werden, weder spontan noch normal.
+
+Die Anwendung dieser Fähigkeit benötigt ein kurzes Ritual, in dem sich
+der Zauberer mit dem gewählten Gegenstand auf die gewünschten Effekte
+konzentrieren muss. Das Ritual dauert mindestens 15 Minuten und wird mit
+der Talentprobe abgeschlossen. Ein Misserfolg kostet den Zauberer sofort
+1W10 MP aufgrund der Erschöpfung. Ein Patzer kostet 2W10 MP und zerstört
+den Gegenstand.
+
 == Verfluchen
 
 [quote, Byhragast „Eisauge“]
@@ -321,6 +589,21 @@ SL ist dabei frei, seine Flüche selbst zu gestalten. Die Richtlinien in
 diesem Kapitel für die Anwendung des Talents können dafür benutzt werden
 oder auch nicht.
 
+== Unausweichlicher Zauber I
+
+*Voraussetzungen:* Spruchzauberei 8 +
+*CP-Kosten:* 400+ +
+*Beschreibung:* Die Fähigkeit kann bei jedem Zauberspruch angewendet werden, der in seiner Beschreibung Reflex- oder Willenskraft-Proben verlangt, um die Wirkung des Zaubers zu umgehen oder zu verringern.
+Das Ziel erhält einen Malus von -1 auf die Würfe zum Erfolg für die Reflex- bzw. Willenskraftproben.
+
+Die Fähigkeit kann nicht auf Zauber angewendet werden, die der Zauberer aus Gegenständen oder von Spruchrollen wirkt.
+
+== Unausweichlicher Zauber II
+
+*Voraussetzungen:* Spruchzauberei 12, Unausweichlicher Zauber I +
+*CP-Kosten:* 400+ +
+*Beschreibung:* Der Malus auf die Würfe zum Erfolg bei Reflex- oder Willenskraftproben steigt auf -2.
+
 ==  Zauberbuch Schreiben
 
 [quote, Byhragast „Eisauge“]
@@ -393,6 +676,52 @@ Davon sind 2 von POT 5, 1 POT 6 und POT 8.
 Der Wert berechnet sich daher (2*5 + 6 + 8)*250 = 12000 Silbermünzen.
 ===
 
+== Zauber Festhalten I
+
+*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
+*CP-Kosten:* 400 +
+*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer einen vorbereiteten Zauberspruch für eine kurze Zeit hinauszuzögern.
+Jedes Mal, wenn er einen Zauberspruch fertig vorbereitet hat, dann kann er entscheiden, ob er diesen Zauberspruch nach den üblichen Regeln sofort einsetzt oder ob er ihn festhält.
+Solange er einen Zauberspruch festhält, kann er keinen anderen Zauberspruch vorbereiten oder aussprechen.
+Er kann jedoch andere Aktionen durchführen.
+
+Um den Zauberspruch zu aktivieren, führt der Zauberer eine Spruchzauberei-Probe aus. Der Zauberspruch wirkt dann wie gewohnt.
+
+Der Zauberer kann einen Zauberspruch maximal so viele Kampfphasen festhalten wie er Stufen im Talent Spruchzauberei besitzt.
+Spricht er den Zauber innerhalb dieser Zeit nicht aus, so verliert der Zauber einfach seine Macht und muss neu vorbereitet werden.
+
+Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
+
+== Zauber Festhalten II
+
+*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10, Zauber Festhalten I +
+*CP-Kosten:* 500 +
+*Beschreibung:* Zauber Festhalten II erweitert die bisher beschriebenen Effekte von Zauber Festhalten I insoweit, dass der Zauberer sogar während der Vorbereitung eines Zaubers diese kurzzeitig unterbrechen kann und sie später weiterführen kann.
+Er kann dies sogar dann einsetzen, wenn er unterbrochen wird und Gefahr läuft zu Verbrennen.
+Besteht ein Zauberer seine Verbrennen Widerstehen-Probe und besitzt die Fähigkeit Zauber Festhalten II, so geht der Zauber nicht wie sonst verloren.
+Der Zauberer kann innerhalb einer Zeit von 5 Kampfphasen die Vorbereitung wieder an dem Punkt aufnehmen, an dem er unterbrochen wurde.
+Macht er dies nicht, so verpufft die Zaubermacht wirkungslos.
+
+Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
+
+== Zauberfokus [Fokus]
+
+*Voraussetzungen:* Spruchzauberei 5 +
+*CP-Kosten:* 300 +
+*Beschreibung:* Jeder Zauberspruch besitzt einen oder mehrere Foki, z.B. Feuer oder Geist.
+Ein Charakter kann Zauberfokus mehrfach lernen und jedesmal für einen anderen Fokus.
+Spricht der Charakter einen Zauberspruch aus, der mindestens einen Fokus hat, der seinem Zauberfokus entspricht, erhält er einen Bonus von +1 auf die Würfe zum Erfolg für die Spruchzauberei-Probe für diesen Zauberspruch.
+Besitzt ein Zauberspruch mehrheitlich Foki, die der Charakter nicht als Zauberfokus gelernt hat, kann er diesen Bonus nicht geltend machen.
+
+.Zauberfokus
+====
+Ein Zauberspruch besitzt die Foki Feuer und Geist. Ein Charakter mit dem Zauberfokus [Feuer] oder [Geist] erhält einen Bonus von +1 auf die Würfe zum Erfolg für seine Spruchzaubereiprobe.
+
+Besitzt o.g. Zauberspruch die Zauberfoki Feuer, Erde und Geist, muss der Charakter mindestens zwei dieser Foki als Zauberfokus lernen, um den Bonus geltend zu machen.
+====
+
+Egal, wie viele Zauberfoki ein Charakter gelernt hat, der Bonus beträgt maximal +1 auf die Würfe zum Erfolg.
+
 == Zauberkombination
 
 [quote, Byhragast „Eisauge“]
@@ -436,43 +765,6 @@ Die Zauberkombination-Probe erhält die üblichen Boni aus den Zauberschulen, je
 
 Die Fähigkeiten Gegenzauber und Zauberspiegel können eine Zauberkombination normal stoppen.
 
-== Gegenzauber
-
-[quote, Byhragast „Eisauge“]
-„Um Magie zu verstehen, muss man wissen, was ist, wenn sie nicht mehr da ist.“
-
-*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
-*CP-Kosten:* 300 +
-*Beschreibung:* Gegenzauber sind Bannsprüche, die spontan oder in Vorbereitung auf einen gerade ausgesprochenen bzw. festen (z.B. durch die  Fähigkeit Magie Abkoppeln plazierten) Zauberspruch gewirkt werden.
-Diese Fähigkeit wird auf Spruchzauberei angewendet.
-
-Diese Fähigkeit generiert eine Art Negativ des Zauberspruches, auf den es angewendet wird.
-Dieses Negativ in Kombination mit dem Zauberspruch hebt diesen auf und macht ihn damit unwirksam.
-Zauberer benutzen diese Fähigkeit, um spontan effiziente Bannzauber zu wirken.
-
-Um Gegenzauber anzuwenden, muss ein Zauberspruch, egal ob dieser von einem anderen Zauberer ausgeht oder von einer Falle oder einem Gegenstand, vom Magier in einem Umkreis von 9 Metern sein Ziel finden.
-Der Magier muss den Zauber wahrnehmen können.
-
-Gegenzauber kann auf zwei Arten angewendet werden.
-Entweder sagt ein Zauberer per Kampfmanöver Defensiv Zaubern an, dass er andere Zaubersprüche kontern möchte oder er nutzt Gegenzauber als spontane Aktion.
-
-Im ersten Fall bleibt der Zauberer solange beim Defensiv Zaubern, wie er wünscht.
-Er kann dann pro Kampfphase diese Fähigkeit einmal für einen Zauberspruch einsetzen, der von einem Zauberer im eigenen Wahrnehmungsbereich ausgesprochen wird, d.h. dieser macht eine Spruchzauberei-Probe.
-
-Im zweiten Fall unterbricht der Zauberer seine derzeitige Handlung (wenn er eine durchführt) und benutzt diese Fähigkeit gegen eine Spruchzauberei-Probe, die in der aktuellen Kampfphase durchgeführt wird.
-Er kann auch das Vorbereiten eines Zauberspruches unterbrechen, erleidet jedoch dann Verbrennen.
-
-Außerdem erhält er einen Malus von -2 auf die Würfe zum Erfolg auf die Spruchzauberei-Probe zum Gegenzauber.
-
-In jedem Fall führt er nachdem der gegnerische Zauberer seine Spruchzauberei-Probe abgelegt hat, eine Probe in Gegenzauber durch.
-
-Die Fähigkeit wirkt und hebt den gegnerischen Zauber auf genau dann wenn die Gegenzauber-Probe genauso viele oder mehr Erfolge erzielte, wie die Spruchzauberei-Probe des Gegners.
-Es ist dabei unerheblich, wie viele Erfolge der Gegner zum Wirken des Zaubers wirklich benötigt hätte.
-
-Würfelt der Charakter weniger Erfolge, dann war der Gegenzauber nicht erfolgreich und der Zauber wirkt normal.
-
-Gegenzauber benötigen nie Vorbereitung.
-
 == Zauberspiegel
 
 [quote, Byhragast „Eisauge“]
@@ -506,317 +798,6 @@ Ebenso kann der Zauberer einen durch Zauberspiegel reflektierten Zauberspruch se
 Jedoch ist die Anzahl der Erfolge dann nicht mehr die der Spruchzauberei-Probe, sondern die der jeweils letzten Zauberspiegel-Probe.
 
 Ebenso kann er Gegenzauber anwenden.
-
-== Magie Abkoppeln
-
-*Voraussetzungen:* Spruchzauberei 7 +
-*CP-Kosten:* 500 +
-*Beschreibung:* Mit dieser das Spruchzauberei-Talent erweiternden Fähigkeit können Zauberer ihre Magie an einem Punkt verankern.
-Auf diese Weise werden vorallem magische Fallen hergestellt.
-Das bedeutet, sie erschaffen einen kleinen Kanal zwischen dem Aether und dieser Realität,
-in dem sie einen gerade gesprochenen Zauberspruch hineinlegen. Mit Hilfe
-dieser Fähigkeit wird dieser Kanal verschlossen und mit einem
-sogenannten Auslöser belegt.
-
-Sobald dieser Auslöser betätigt wird, öffnet sich der Kanal und entlässt
-den Zauberspruch. Da der Kanal unbeweglich ist, wird diese Fähigkeit
-dazu benutzt, um Magische Fallen herzustellen. Der Zauberer erschafft
-sich also einen magischen Stolperdraht, um beispielsweise neugierige
-Diebe mit einem Feuerball aus seinem Labor zu vertreiben, selbst wenn er
-nicht da ist.
-
-Um so einen Magischen Kanal zu kreieren, würfelt der Charakter eine
-Probe auf das Talent Spruchzauberei. Dabei genügt ein durchschnittlicher
-Erfolg, um einen den Kanal zu erschaffen. Nun muss der Zauberer den
-Zauberspruch in den Kanal hineinlegen.
-
-Dies tut er, indem er den Zauberspruch wie gewohnt ausspricht und zwar
-auf den Kanal. Zaubersprüche, die das Ziel „Selbst“ oder „Berührung“
-haben, können nicht verwendet werden. Zauber mit Flächenschaden haben
-immer als Mittelpunkt den Standort des Kanals, auch wenn diese Zauber
-eine Reichweitenangabe besitzen.
-
-Zauber, die nur eine Reichweitenangabe und ein Ziel betreffen, können
-ohne Einschränkungen verwendet werden.
-
-In diesem Moment muss der Zauberer auch Zusätzliche Effekte mit MP
-einsetzen, denn diese Effekte werden mitgespeichert und gelten als
-verwendet, wenn der Zauber ausgelöst wird. Das Verkürzen von
-Vorbereitungszeit hat in diesem Fall keine Bedeutung.
-
-Magieabwehr-Proben entfallen.
-
-Ist der Zauberspruch erfolgreich ausgesprochen worden, dann wurde er im
-Kanal gespeichert. Der Zauberer hat jetzt seine Stufe in Spruchzauberei
-viele Minuten Zeit, um den Auslöser zu kreieren. Schafft er es nicht in
-dieser Zeit, dann verschwindet die Energie des Zaubers im Aether und die
-Anwendung war umsonst.
-
-Die bei der Spruchzauberei-Probe gewürfelten Erfolge muss der Zauberer
-sich merken.
-
-Dieser Auslöser muss innerhalb von Stufe des Talents*1,50 Metern um den
-Kanal platziert werden.
-
-Diesen Auslöser charakterisieren zwei Eigenschaften:
-
--Wer oder Was löst den Zauber aus?
-
--Womit löst er den Zauber aus?
-
-Dazu benötigt der Zauberer einen weiteren Wurf auf das Talent
-Spruchzauberei. Es entscheidet nur der Erfolgsgrad, wie die magische
-Falle wirkt.
-
-[cols=",",]
-|===
-|Erfolgsgrad |Effekt
-
-|Durchschnittlich |Ein Durchschnittlicher Erfolg lässt den Auslöser an
-der entsprechenden Position genau dann losgehen, wenn ein lebendes
-Wesen, dass nicht der Zauberer selbst ist, genau diesen Auslöser
-berührt. Das Wesen wird Ziel des Zaubers, sollte dieser ein Ziel
-erfordern. Der Zauberer darf ein Passwort festlegen, das, falls laut
-ausgesprochen, die Fall nicht auslöst.
-
-|Gut |Wie Durchschnittlich, jedoch kann der Zauberer den Auslöser um bis
-zu 3,00x3,00 Metern ausdehnen, so dass das Betreten einer größeren
-Fläche die Falle auslöst.
-
-|Sehr Gut |Wie Gut. Der Zauberer kann bis zu 10 Lebewesen bestimmen, die
-die Falle nicht auslösen. Die auslösende Fläche steigt auf 6,00x6,00
-Meter.
-
-|Ausgezeichnet |Wie Sehr Gut. Der Zauberer kann auf Wunsch die Falle nur
-durch eine bestimmte Kreaturengruppen auslösen lassen. Die Falle kann
-nun auch von Konstrukten, Untoten und Dämonen ausgelöst werden.
-
-|Meisterhaft |Wie Ausgezeichnet. Der Zauberer kann eine oder mehrere
-bestimmte Kreaturengruppen explizit ausschließen.
-|===
-
-Damit ist die magische Falle fertig.
-
-Mit Aether Wahrnehmung können andere Kreaturen die Falle und den
-Auslöser wahrnehmen. Ein normale Suche nach Fallen führt hier zu keinem
-Erfolg.
-
-Um die Falle mit Aether Wahrnehmung zu entdecken, gilt die normale
-Regel, dass der Suchende die POT des im Kanals gespeicherten Zaubers
-überwürfeln muss. Gelingt dies, erkennt er auch den Auslöser. Ein Guter
-Erfolg kann weitere Details über den Auslöser verraten, zum Beispiel
-durch welche Handlung er ausgelöst wird oder wer in auslöst.
-
-Wird eine Falle ausgelöst, so wird der Auslösende Ziel des Zaubers,
-sofern der Zauberspruch ein Ziel hat. Im Falle eines ungerichteten
-Zaubers (zum Beispiel eines mit Flächenschaden) entfacht der Zauber
-seine Wirkung am Standort des Kanals.
-
-Der Zauberspruch trifft das Ziel nach den üblichen Regeln. Sollte ihm
-eine Magieabwehr-Probe zustehen, dann wird diese normal gewürfelt. Die
-Erfolge werden von den Erfolgen der Spruchzauberei-Probe des Zauberers
-abgezogen und wenn dann noch genug übrig sind, um den Zauberspruch nach
-den üblichen Regeln zu wirken, dann ist der Zauber erfolgreich.
-
-Beispiel: Ein Zauberer möchte die Tür zu seinem Arbeitszimmer mit dem
-Befehl: Schlaf!-Zauber aus dem Weg des Geistes schützen. Bei der
-Spruchzauberei-Probe gelingen ihm 6 Erfolge. Des Nachts schleicht sich
-ein Dieb herein, der die Falle nicht entdeckt und sie auslöst. Befehl:
-Schlaf! Gewährt eine Magieabwehr-Probe und ist erfolgreich, wenn der
-Zauberer mindestens 3 Erfolge gewürfelt hat. Der Dieb kann der Falle
-also nun entgehen, wenn er bei der Magieabwehr-Probe 4 oder mehr Erfolge
-würfelt.
-
-Ist die Falle einmal installiert, dann bleibt sie dort, bis sie entweder
-vom Zauberer entfernt wird oder ausgelöst wird. Jeder Falle kann nur
-einmal ausgelöst werden. Sie verbraucht keine MP und ihr können keine MP
-entzogen werden.
-
-Um eine magische Falle zu entschärfen, muss einem Charakter ein
-passender Bann-Spruch gelingen oder die Falle durch ein Anti-Magisches
-Feld unterdrücken.
-
-Der Erschaffer der Falle kann die Falle entschärfen, in dem er eine
-Magie Abkoppeln-Probe gegen die Anzahl der Erfolge in POT des
-Zauberspruches besteht.
-
-== Durchschlagender Zauber
-
-*Voraussetzungen:* Spruchzauberei 8 +
-*CP-Kosten:* 300+ +
-*Beschreibung:* Diese Fähigkeit hilft einem Zauberer dabei, die
-gegnerische Verteidigung gegen Zauber besser zu durchdringen. Bei jedem
-Zauberspruch, den der Zauberer ausspricht und der Magieabwehr-Proben
-zulässt, erhalten die Magieabwehr-Proben einen Malus von -1 Würfel. Die
-Fähigkeit kann nicht auf Zaubersprüche angewendet werden, die der
-Zauberer durch Magie Abkoppeln verankert hat oder die er aus einem
-Gegenstand oder von einer Spruchrolle wirkt. Ebenso hat die Fähigkeit
-keine Wirkung bei Zaubersprüchen, die keine Magieabwehr-Proben zulassen.
-
-Die Fähigkeit kann mehrmals gelernt werden: jede Stufe erhöht sich der
-Malus um -1 Würfel. Die CP-Kosten steigen kumulativ um 100 CP pro
-Erlernung.
-
-== Gelegenheitszauber
-
-*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10 +
-*CP-Kosten:* 500 +
-*Beschreibung:* Gelegenheitszauber sind das magische Äquivalent zu
-Gelegenheitsangriffen und erfordern ein hohes Wissen über magische
-Vorgänge. Ein Zauberer kann immer dann einen Gelegenheitszauber wirken,
-wenn ein Gegner in der Bedrohungszone des Zauberers einen
-Gelegenheitsangriff provoziert. Der Zauberer kann dann sofort einen
-Zauberspruch gegen diesen Gegner wirken. Der Zauberspruch muss dazu als
-Ziel eine Kreatur anvisieren und mindestens die Reichweite Berührung
-haben. Außerdem muss der Zauberer dafür sorgen, dass der Zauberspruch
-auf 0 Kampfphasen verkürzt wird. Ein Zauberer, der gerade einen
-Zauberspruch vorbereitet, kann wie bei Gelegenheitsangriffen diese
-Fähigkeit nicht einsetzen.
-
-== In Tiergestalt Zaubern
-
-*Voraussetzungen:* Spruchzauberei 5, Zauberschule[Schamanismus] 8, Grossvater hatte so komische Augen... +
-*CP-Kosten:* 500 +
-*Beschreibung:* Mit dieser Fähigkeit kann ein Zauberer, insbesondere ein
-Schamane, weiterhin sein Spruchzauberei-Talent verwenden, wenn er sich
-in Tiergestalt befindet.
-
-== Meditation
-
-*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Mit Hilfe dieser Fähigkeit kann der Charakter auch
-außerhalb seiner Schlafphasen Magiepunkte regenerieren. Um die Fähigkeit
-zu nutzen, benötigt der Charakter Ruhe und Entspannung, man kann es also
-nicht mitten im Kampf oder im Schankraum einsetzen. Der Charakter kann
-für 10 Minuten meditieren und darf dann EN*4 MP zu seinem aktuellen
-MP-Pool addieren (bis zu seinem Maximum). Diese Fähigkeit kann er einmal
-in 24 Stunden einsetzen.
-
-== Meister der Elemente
-
-*Voraussetzungen:* Spruchzauberei[Elementarist] 10 +
-*CP-Kosten:* 500 +
-*Beschreibung:* Ein Elementarist mit dieser Fähigkeit beherrscht die
-Elementarmagie so exzellent, dass er mit den Elementen beliebig spielen
-kann. Er kann bei einem beliebigen Zauberspruch aus einer Zauberschule
-des Elementarismus, den er aussprechen möchte, der eine Energieart
-enthält, diese gegen eine andere Energieart austauschen. Als zulässige
-Energiearten gelten hierbei Feuer, Frost, Säure und Schock.
-
-Beispiel: Der durch den Feuerball verursachte Feuerschaden könnte durch
-diese Fähigkeit in Frostschaden oder Säureschaden oder Schockschaden
-umgewandelt werden.
-
-Üblicherweise verändert sich in diesem Moment auch die visuelle Wirkung
-des Zaubers gemäß der neuen Energieart.
-
-Ein Zauberspruch, der durch diese Fähigkeit verändert wurde, erhält +2
-auf seine POT.
-
-== Spontane Verzauberung
-
-*Voraussetzung:* Magische Gegenstände Herstellen 10 +
-*CP-Kosten:* 500 +
-*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer Gegenstände
-für eine kurze Dauer mit magischer Energie zu füllen. Dabei kann der
-Zauberer nur Gegenstände verzaubern, die mit den im Dokument[Magie]
-vorgestellten Prägungen versehen werden können. Der Zauberer kann keine
-Gegenstände spontan in solche verzaubern, die ein Rezept benötigten.
-Beispielsweise könnte der Zauberer einem Schwert den Effekt _Amorph_ für
-kurze Zeit verleihen.
-
-Um dies zu tun, würfelt der Zauberer eine Probe auf Magische Gegenstände
-Herstellen gegen die übliche Anzahl von Erfolgen, die nötig sind, um
-einen Gegenstand mit dem Effekt zu prägen. Im Falle von _Amorph_ wäre
-dies eine 4 gewesen.
-
-Ist die Probe erfolgreich, so erhält der Gegenstand den Effekt für 1W4-1
-Stunden (Minimum 1). Die variable Anzahl soll zeigen, dass solche
-magische Energien sehr flüchtig und instabil sind.
-
-Der Zauberer kann auch mehrere Effekte auf einmal prägen und addiert
-dazu einfach die Anzahlen der Erfolge der einzelnen Effekte zusammen. Er
-kann allerdings nicht die Effekte nacheinander prägen, sondern muss alle
-Effekte in einer Probe geprägt haben. Spontan Verzauberte Gegenstände
-können solange sie unter dem Einfluss dieser Fähigkeit stehen, nicht
-weiter verzaubert werden, weder spontan noch normal.
-
-Die Anwendung dieser Fähigkeit benötigt ein kurzes Ritual, in dem sich
-der Zauberer mit dem gewählten Gegenstand auf die gewünschten Effekte
-konzentrieren muss. Das Ritual dauert mindestens 15 Minuten und wird mit
-der Talentprobe abgeschlossen. Ein Misserfolg kostet den Zauberer sofort
-1W10 MP aufgrund der Erschöpfung. Ein Patzer kostet 2W10 MP und zerstört
-den Gegenstand.
-
-== Unausweichlicher Zauber
-
-*Voraussetzungen:* Spruchzauberei 12 +
-*CP-Kosten:* 100+ +
-*Beschreibung:* Diese Fähigkeit betrifft jeden Zauberspruch, den der
-Zauberer selbst ausspricht, der in seiner Beschreibung Reflex- oder
-Willenskraft-Proben verlangt, um die Wirkung des Zaubers zu umgehen oder
-zu verringern. Bei Zaubersprüchen unter dem Einfluss dieser Fähigkeit
-erhöht sich die Anzahl an Erfolgen, um die Reflex- oder Willenskraft
--Probe zu bestehen, um 1.
-
-Die Fähigkeit kann nicht auf Zauber angewendet werden, die der Zauberer
-aus Gegenständen oder von Spruchrollen wirkt.
-
-Die Fähigkeit kann mehrmals gelernt werden. Jedes Mal erhöht sich die
-Anzahl der nötigen Erfolge um 1. Jede Erlernung kostet kumulativ 100 CP
-zusätzlich.
-
-== Zauber Festhalten I
-
-*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
-*CP-Kosten:* 400 +
-*Beschreibung:* Diese Fähigkeit ermöglicht es einem Zauberer einen vorbereiteten Zauberspruch für eine kurze Zeit hinauszuzögern.
-Jedes Mal, wenn er einen Zauberspruch fertig vorbereitet hat, dann kann er entscheiden, ob er diesen Zauberspruch nach den üblichen Regeln sofort einsetzt oder ob er ihn festhält.
-Solange er einen Zauberspruch festhält, kann er keinen anderen Zauberspruch vorbereiten oder aussprechen.
-Er kann jedoch andere Aktionen durchführen.
-
-Um den Zauberspruch zu aktivieren, führt der Zauberer eine Spruchzauberei-Probe aus. Der Zauberspruch wirkt dann wie gewohnt.
-
-Der Zauberer kann einen Zauberspruch maximal so viele Kampfphasen festhalten wie er Stufen im Talent Spruchzauberei besitzt.
-Spricht er den Zauber innerhalb dieser Zeit nicht aus, so verliert der Zauber einfach seine Macht und muss neu vorbereitet werden.
-
-Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
-
-== Zauber Festhalten II
-
-*Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10, Zauber Festhalten I +
-*CP-Kosten:* 500 +
-*Beschreibung:* Zauber Festhalten II erweitert die bisher beschriebenen Effekte von Zauber Festhalten I insoweit,
-dass der Zauberer sogar während der Vorbereitung eines Zaubers diese
-kurzzeitig unterbrechen kann und sie dann weiterführen kann. Er kann
-dies sogar dann einsetzen, wenn er unterbrochen wird und Gefahr läuft zu
-Verbrennen. Besteht ein Zauberer seine Verbrennen Widerstehen-Probe und
-besitzt die Fähigkeit Zauber Festhalten II, so geht der Zauber nicht wie
-sonst verloren, sondern der Zauberer kann innerhalb einer Zeit von
-Stufen in Spruchzauberei vielen Runden die Vorbereitung wieder an dem
-Punkt aufnehmen, an dem er unterbrochen wurde. Macht er dies nicht, so
-verpufft die Zaubermacht wirkungslos.
-
-Die einzige Ausnahme, in der Zauber Festhalten I und II nicht funktionieren, ist ein erfolgreicher Niederschlag gegen den Zauberer.
-
-== Zauberfokus [Fokus]
-
-*Voraussetzungen:* Spruchzauberei 5 +
-*CP-Kosten:* 300 +
-*Beschreibung:* Jeder Zauberspruch besitzt einen oder mehrere Foki, z.B. Feuer oder Geist.
-Ein Charakter kann Zauberfokus mehrfach lernen und jedesmal für einen anderen Fokus.
-Spricht der Charakter einen Zauberspruch aus, der mindestens einen Fokus hat, der seinem Zauberfokus entspricht, erhält er einen Bonus von +1 auf die Würfe zum Erfolg für die Spruchzauberei-Probe für diesen Zauberspruch.
-Besitzt ein Zauberspruch mehrheitlich Foki, die der Charakter nicht als Zauberfokus gelernt hat, kann er diesen Bonus nicht geltend machen.
-
-.Zauberfokus
-====
-Ein Zauberspruch besitzt die Foki Feuer und Geist. Ein Charakter mit dem Zauberfokus [Feuer] oder [Geist] erhält einen Bonus von +1 auf die Würfe zum Erfolg für seine Spruchzaubereiprobe.
-
-Besitzt o.g. Zauberspruch die Zauberfoki Feuer, Erde und Geist, muss der Charakter mindestens zwei dieser Foki als Zauberfokus lernen, um den Bonus geltend zu machen.
-====
-
-Egal, wie viele Zauberfoki ein Charakter gelernt hat, der Bonus beträgt maximal +1 auf die Würfe zum Erfolg.
 
 == Zauberverformung I
 
