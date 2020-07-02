@@ -117,40 +117,57 @@ Dahingehend haben die Technomanten auch wieder die Nase vorne, denn sie können 
 
 == Regeln
 
-On nun in den Städten des Bündnis-Staates oder in einer ganz anderen Welt, es ist es praktisch unmöglich nicht mit technomanten Geräten in Kontakt zu treten.
+Ob nun in den Städten des Bündnis-Staates oder in einer ganz anderen Welt, es ist es praktisch unmöglich nicht mit technomanten Geräten in Kontakt zu treten.
 Ebenso besteht die Möglichkeit, dass ein Spieler einen Technomanten-Charakter spielt.
 In diesem Kapitel möchten wir eine Vielzahl von technomantischen Geräten und Konstrukten vorstellen. Dabei gelten als Geräte diejenigen Produkte, die nicht eigenständig agieren können und von einem lebenden Wesen bedient werden müssen, während Konstrukte eigenständig agieren können.
+
+=== Das Talent Technomantie
+
+*Voraussetzungen:* Aether Wahrnehmung 5, Wissen[Arkanes] 5, Artefaktkunde, Mechanik, Beruf: Technomant +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* EN +
+*Kampfphasen:* V +
+*Beschreibung:* Dieses Talent bündelt die ganze Vielseitigkeit und Macht, die die Technomanten einzigartig machen. Technomanten dürfen mit diesem Talent eine Reihe von Proben würfeln:
+
+* eine Wissen-Probe auf Gebiete Ingenieur, Mechanik, Maschinen und Konstrukte.
+* Erschaffen von technomantischen Geräte und Konstrukten
+* Als Ersatz für Spruchzauberei, um einen Zauberspruch von einer Spruchrolle oder Zauberstecken zu wirken. Dies kann nur eingesetzt werden, um ein technomantisches Gerät oder Konstrukt zu erschaffen.
+* Kontrolle ung Programmierungen von technomatischen Konstrukten
+* Proben auf Technomantischen Gegenstand verwenden (alternativ zum gleichnamingen Talten)
+* Magische Kristalle kalibrieren, analog zu Spruchzauberei (vgl. das Dokument link:core_rules_magic_base.adoc[Magie])
+
+Außerdem verwenden Technomanten dieses Talent wie Spruchzauberei, jedoch ausschließlich für die Zauber aus der Zauberspruchliste link:../../compendiums/spelllists/compendium_spelllist_technomancy.adoc[Technomantie].
 
 === Voraussetzungen für die Konstruktion von Technomantischen Gegenständen
 
 Ähnlich wie bei dem Herstellungsprozess von magischen Gegenständen, muss ein Technomant bestimmte Voraussetzungen erfüllen, bevor er ein Gerät oder ein Konstrukt herstellen kann.
 
-* _Talent:_ ein Charakter benötigt immer das Talent Technomantie.
+* *Talent:* ein Charakter benötigt immer das Talent Technomantie.
 
-* _Wissen:_ wie magische Gegenstände benötigen technomantische Gegenstände in manchen Fällen die Kenntnis eines Zauberspruches (oder mehrerer).
+* *Wissen:* wie magische Gegenstände benötigen technomantische Gegenstände in manchen Fällen die Kenntnis eines Zauberspruches (oder mehrerer).
 Technomanten müssen diese Zaubersrpüche nicht selbst kennen, jedoch müssen sie in der Lage sein, sie zu wirken.
 Üblicherweise wird dies durch einen Zauberstecken, eine Spruchrolle oder einen dafür angeheuerten Magier bewerkstelligt.
 
-* _Material:_ Der Technomant muss die Grundmaterialen zur Verfügung haben, die für den technomantischen Gegenstand nötig sind.
+* *Material:* Der Technomant muss die Grundmaterialen zur Verfügung haben, die für den technomantischen Gegenstand nötig sind.
 Dies sind beispielsweise vorgefertigte Einzelteile wie Zahnräder, Rohre, Schrauben, Stahlteile usw.
 Die Materialkosten ergeben sich entweder durch direkte Angabe oder durch Halbierung des Gesamtwertes des Gegenstandes.
 Ein Gegenstand, der in fertiger Form 1000 Silbermünzen wert ist, benötigt also 500 Silbermünzen, um erschaffen zu werden.
 
-* _Zeit:_ Das Herstellen eines Gegenstandes ist eine aufwendige und langwidrige Angelegenheit.
+* *Zeit:* Das Herstellen eines Gegenstandes ist eine aufwendige und langwidrige Angelegenheit.
 Der Charakter muss diese Zeit aufbringen, d.h. er muss die Anzahl an Tagen, Stunden oder Minuten wirklich an diesem Gegenstand arbeiten und kann keine anderen Aktivitäten (außer Essen, Trinken, Schlafen usw.) durchführen.
 
-* _Ort:_ Der Charakter benötigt einen Ort, der es ermöglicht, den Gegenstand herzustellen.
+* *Ort:* Der Charakter benötigt einen Ort, der es ermöglicht, den Gegenstand herzustellen.
 Überlichweise ist dies ein Laboratorium, welches ruhig und sicher vor der Außenwelt ist (bzw. die Außenwelt ist sicher vor dem Laboratorium).
-Der Charakter sollte nicht gestört werden.
 
-* _Berührung:_ Wenn der Charakter eine Probe mit seinem Talent Technomantie würfelt, so muss er den entsprechenden Gegenstand berühren können.
+* *Berührung:* Wenn der Charakter eine Probe mit seinem Talent Technomantie würfelt, so muss er den entsprechenden Gegenstand berühren können.
 
 === Das Talent Technomantie
 
 Wann immer in einer Beschreibung oder einer Regelerläuterung von einer Technomantie-Probe die Rede, so ist eine Probe auf dieses Talent gemeint.
 In den meisten Fällen bezieht sich dies auf eine Konstruktionsprobe für ein technomantisches Erzeugnis oder aber auch auf die Verwendung eines Technomanten-Zauberspruches.
 
-Mit dem Talent Technomantie lassen sich jedoch auch *_Magische Kristalle konfigurieren_*, so dass sie ihre MP abgeben können.
+Mit dem Talent Technomantie lassen sich jedoch auch *Magische Kristalle konfigurieren*, so dass sie ihre MP abgeben können.
 Diese Regeln sind äquivalent zu der gleichen Anwendung des Talentes Magische Gegenstände Herstellen, wie im Dokument link:core_rules_magic_talents.adoc[Magische Talente] im Kapitel Magische Gegenstände herstellen beschrieben.
 
 === Misserfolge bei der Technomantie-Probe
@@ -158,12 +175,13 @@ Diese Regeln sind äquivalent zu der gleichen Anwendung des Talentes Magische Ge
 Ein Misserfolg bei der Technomantie-Probe bedeutet, dass der Hersteller einen Fehler gemacht hat, jedoch das Projekt noch retten kann.
 Er muss dazu 25% der Produktionskosten reinvestieren und benötigt 50% mehr Zeit.
 Er muss die Probe in Technomantie am Ende dieser Zeit wiederholen.
-Die Probe wird unter denselben Bedingungen gewürfelt, wie es Regeln beschreiben.
+Die Probe wird unter denselben Bedingungen gewürfelt.
 Eine solche Probe kann auch wieder ein Misserfolg oder gar ein Patzer werden.
 
 === Patzer bei der Technomantie-Probe
 
-Auch ein Technomant kann Fehler bei der Konstruktion machen. In Falle eines Patzers kann der SL die untenstehende Tabelle konsultieren, um die Folgen dieses Patzers zu ermitteln:
+Auch ein Technomant kann Fehler bei der Konstruktion machen.
+In Falle eines Patzers kann der SL die untenstehende Tabelle konsultieren, um die Folgen dieses Patzers zu ermitteln:
 
 [cols=",",options="header"]
 |===
@@ -197,26 +215,18 @@ Mit einer gefährlichen Fehlfunktion könnte das Projektil des Feuerstabes statt
 ==== Der Gegenstand/Das Konstrukt ist eine einzige Fehlfunktion
 
 Nichts an diesem Gerät funktioniert richtig.
-Auch dies kann von harmlos bis gefährlich reichen.
 Bei Konstrukten ist dieses Ergebnis grundsätzlich gefährlich, denn diese Konstrukte lassen sich nicht kontrollieren oder programmieren (entsprechende Sprüche aus der Technomantenliste funktionieren einfach nicht).
 Die Konstrukte werden ausserdem direkt mit einem Amoklauf beginnen (vorausgesetzt, sie können sich fortbewegen).
 
-== Technomantische Geräte
+=== Technomantische Geräte
 
-//TODO link
-Eine große Sammlung von technomantischen Geräten findet sich in der Dokumentensammlung Kompendium Technomantischer Gegenstände.
-Diese Sammlung umfasst Einträge, die nach einem bestimmten Schema aufgebaut sind.
-Dieses Schema soll hier vorgestellt werden:
+Eine große Sammlung von technomantischen Geräten findet sich in link:../../compendiums/technomancy/compendium_technomancy_devices.adoc[Kompendium Technomantischer Gegenstände].
+Diese Sammlung umfasst Einträge, die nach einem folgendem Schema aufgebaut sind:
 
-=== Darstellung der Einträge
-
-Jeder Eintrag ist mit dem Namen des Gerätes bzw. Konstruktes überschrieben und es folgt eine Beschreibung des Eintrages.
-
-Zusätzlich dazu finden sich bei jedem Eintrag folgende Felder:
-
-*Materialkosten:* Diese Kosten in Silbermünzen muss der Technomant aufwenden, um das Gerät bauen zu können.
-Üblicherweise sind die Kosten allgemein gehalten, jedoch kann es sein, dass zusätzliche Aufteilungen für spezielle Materialien gemacht werden, z.B. für Magische Kristalle oder exotische Metalle.
+*Materialkosten:* Diese Kosten muss der Technomant aufwenden, um das Gerät bauen zu können.
+Üblicherweise sind die Kosten in Silbermünzen angegeben, jedoch kann es sein, dass zusätzliche Aufteilungen für spezielle Materialien gemacht werden, z.B. für Magische Kristalle oder exotische Metalle.
 Alle Kosten müssen addiert und ausgegeben werden.
+Im Normalfall betragen die Materialkosten die Hälfte des Gesamtwerts.
 
 *Konstruktionszeit:* Die Arbeitszeit, die der Technomant aufwenden muss, um das Gerät zu bauen.
 Dabei geht man davon aus, dass die Zeit am Stück (ggf. mit Unterbrechungen für Schlaf und Essen) verbraucht wird.
@@ -224,86 +234,61 @@ Dabei geht man davon aus, dass die Zeit am Stück (ggf. mit Unterbrechungen für
 *Zaubersprüche:* Manche Geräte benötigen die Kenntnis von Zaubersprüchen.
 Diese Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat, z.B. einen Zauberstab.
-Letzeres wird sogar von den Technomanten bei der Herstellung häufig umgesetzt.
-Im Falle einer Spruchrolle oder Bekanntheit muss eine Spruchzauberei-Probe erfolgen.
 
 *Erfolge:* Um die Konstruktion eines Geräts abzuschließen ist eine Technomantie-Probe nötig.
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
-Bei einem Misserfolg muss der Technomant 25% der Materialkosten und 10% der Konstruktionszeit zusätzlich aufwenden, um die Probe wiederholen zu können.
 
-Im Falle von komplizierten Geräten oder den meisten Konstrukten, sind mehrere Proben innerhalb der Arbeitszeit nötig.
-Für jede Einzelne gelten die oben beschriebenen Folgen bei Misserfolg bzw. Patzer.
-
-*Benutzung:* Diese Zahl steht für die Anzahl an Erfolgen, die ein Technomant üblicherweise mit Technomantisches Gerät Benutzen würfeln muss, um die Funktionsweise des Gerätes bzw. Konstruktes herauszufinden.
+*Benutzung:* Diese Zahl steht für die Anzahl an Erfolgen, die ein Charakter üblicherweise mit Technomantisches Gerät Benutzen würfeln muss, um die Funktionsweise des Gerätes bzw. Konstruktes herauszufinden.
 Hat er diese Anzahl einmal erreicht, so kann er das Gerät benutzen.
-
-Die Anzahl kann auch dazu dienen, um nicht-Technomanten das Gerät bedienen zu lassen.
-Jedoch müssen diese immer mindestens das Doppelte mit Technomantisches Gerät Benutzen erreichen und jedes Mal würfeln, wenn sie das Gerät verwenden wollen.
 
 Die Benutzung eines Technomantischen Gerätes (nicht unbedingt eines Konstruktes) lässt sich mit dem Kampfmanöver Gegenstand Verwenden abwickeln.
 
 *Preis:* Der durchschnittliche Endpreis für das Gerät bzw. Konstrukt.
 
-Einige Einträge verlangen die Kenntnis eines Zauberspruches, um den Effekt durch das Gerät simulieren zu lassen.
-In diesem Fall muss der Technomant entweder den Zauber selber beherrschen, von einer Spruchrolle oder einem Grimoire ablesen oder einen Zauberer selbst bitten, ihm bei der Arbeit behilflich zu sein.
+=== Technomantische Konstrukte
 
-Andere Einträge simulieren zwar typische (oder untypische), magische Effekte, benötigen aber keine Kenntnis eines Zauberspruches.
-In diesem Fall wird alle Magie bzw. deren Simulation durch die Technomantie-Probe dargestellt.
-
-== Technomantische Konstrukte
-
-Die meisten technomantischen Konstrukte findet man in zwei Verwendungsgebieten: der Industrie, wo Arbeiten aufkommen, die für Humanoide zu schwierig oder zu gefährlich sind, oder in der Kriegsmaschinerie.
-
-Dieser Abschnitt stellt die Regeln für doe typischen technomantischen Konstrukte vor, die von den Technomanten hergestellt werden.
-
-//TODO links
-Eine ausführliche Sammlung von Konstrukten findet sich im Kompendium Technomantischer Gegenstände.
-Dieses Kompendium umfasst ausserdem alle Materialen aus dem Dokument[Bestiarium].
+Dieser Abschnitt stellt die Regeln für die typischen technomantischen Konstrukte vor, die von den Technomanten hergestellt werden.
+Eine ausführliche Sammlung von Konstrukten findet sich im link:../../compendiums/technomancy/compendium_technomancy_constructs.adoc[Kompendium Technomantischer Konstrukte].
 
 Alle Konstrukte besitzen wie Gerät die Einträge *Materialkosten*, *Konstruktionszeit*, *Zaubersprüche*, *Erfolge* und *Preis*.
 Diese Einträge sind auch identisch zu behandeln.
-Als weitere Informationen kommt im Eintrag Erfolge die *Grundkomplexität* (siehe unten) für die Programmierung hinzu, die in Klammern dahinter steht.
 Der Punkt Benutzung entfällt, da Konstrukte nur auf Befehle ihrer Befehlshaber reagieren oder durch bestimmte Zauber aus der Zauberliste der Technomantie.
 
-*Protokoll und Modus:* Dieser Eintrag gibt die Kombination aus dem Protokoll und dem Modus an..
+*Protokoll und Modus:* Dieser Eintrag gibt die Kombination aus dem Protokoll und dem Modus an.
 
-//TODO: Komplexität?
-*Programmierungschwierigkeit*: Dieser Eintrag gibt die nötige Gesamtanzahl der Erfolge an, die ein Technomant erreichen muss, um den Golem mit der gegebenen Grundkomplexität und der aus Protokoll und Modus entstehenden Komplexität zu programmieren.
+*Programmierungschwierigkeit*: Dieser Eintrag gibt die nötige Gesamtanzahl der Erfolge an, die ein Technomant erreichen muss, um den Golem mit der aus Protokoll und Modus entstehenden Komplexität zu programmieren.
 
-=== Protokolle
+==== Protokoll und Modus
 
 Jedes Konstrukt besitzt ein Protokoll und einen Modus.
-Dieses Protokoll ist eine Reihe von Befehlen, die es durchführen kann.
-Diese Protokolle geben insbesondere an, wie sich die Konstrukte neuer Einflüsse anpassen können und welche Reaktionen sie darauf parat haben.
-Im folgenden stellen wir vier allgemeine Protokolle vor, die bestimmte, typische Verhaltensweisen beschreiben.
-Wie die Verhaltensweise in außergewöhnlichen Situationen aussieht, kann der SL nach eigenem Ermessen festlegen, sollte die Protokolle jedoch als Richtlinie ansehen. +
-Weiterhin gibt es drei Modi, die bestimmen, wie stark das Konstrukt an sein Protokoll gebunden ist bzw. wie genau der Technomant bei dessen Programmierung gewesen ist.
-Ein Modus beschreibt, wie gut und flexibel ein Konstrukt auf besondere Situationen reagieren kann.
+Ein Protokoll besteht aus einer Reihe von Befehlen, die das Konstrukt durchführen darf.
+Modi hingegen bestimmen, wie stark das Konstrukt an sein Protokoll gebunden ist bzw. wie genau der Technomant bei dessen Programmierung gewesen ist.
+Ein Modus beschreibt daher, wie gut und flexibel ein Konstrukt auf besondere Situationen reagieren kann.
 
-Diese könnten durch Zaubersprüche wie Konstrukt Programmieren (Technomantie 9) geändert werden.
+Protolle könnten durch Zaubersprüche wie Konstrukt Programmieren (Technomantie 9) geändert werden.
 Der SL kann zulassen, dass die Änderung der Protokolle bezüglich einer bestimmten Tätigkeit geändert werden können.
-
 Eine einzelne Anwendung des Zaubers kann jedoch nicht den Modus ändern.
 Wenn also der Technomant eine Programmänderung im Protokoll verursacht, die nicht zum Modus des Golems passt, kann es passieren, dass der Golem den Befehl ignoriert.
 Die genaue Auslegung sollte dem SL überlassen sein und von Situation zu Situation angepasst werden.
 Der SL kann erlauben, dass sich der Modus nach mehreren, gezielen Programmänderungen verändert werden kann.
 
-==== Protokoll: Kämpfer, Komplexität: 4
+===== Protokoll: Kämpfer, Komplexität: 4
 
-Das Kämpferprotokoll bestimmt einen offensiven Kampfstil.
-Konstrukte mit diesem Protkoll nutzen ihre Waffen und ihr Kampfpotenzial möglichst effizient gegen Gegner aus.
-Weiterhin sind Kämpfer in der Lage auf Angriffe, die gegen sie gerichtet sind, angemessen zu
-reagieren.
+Das Kämpferprotokoll ist auf einen offensiven Kampfstil ausgelegt und findet sich meist in Konstrukten, die für den direkten Angriff konzipiert wurden.
+Konstrukte mit diesem Protkoll nutzen ihre Waffen und ihr Kampfpotenzial möglichst effizient gegen alle Gegner aus.
+Weiterhin sind Kämpfer in der Lage auf Angriffe, die gegen sie gerichtet sind, angemessen zu reagieren.
 Ein Kämpfer kann außerdem erkennen, welche Ziele er angreifen soll und welche nicht.
 Typischerweise sind solche Ziele und Nicht-Ziele als Beschreibungen im Protokoll verhanden.
-Die Meistem dieser Beschreibungen sind sehr einfach und dennoch exakt: “Greife alle Diener von Lord Farrow an” ist nicht sehr genau, da ein Golem so etwas nicht unterscheiden kann.
-“Greife niemand in roter Kleidung an.” oder “Greife niemandem mit diesem Wappen auf der Kleidung an” ist schon etwas genauer, schützt jedoch vor Verwechselungen nicht.
+In der Regel sind diese Beschreibungen sehr einfach.
+Entscheidend ist ihre Genauigkeit.
+“Greife alle Diener von Lord Farrow an” ist nicht sehr genau, da ein Golem dies nicht unterscheiden kann.
+“Greife niemand in roter Kleidung an.” oder “Greife niemandem mit diesem Wappen auf der Kleidung an” ist genau genug, schützt jedoch vor Verwechselungen nicht.
 
 Kämpfer können außerdem komplexe, für Kampfhandlungen notwendige Befehle verstehen, so zum Beispiel: “Zerstöre die Artilleriestellung auf dem Hügel und greife dann die Bogenschützen in roter Kleidung von hinten an.”
 
-==== Protokoll: Wächter, Komplexität: 4
+===== Protokoll: Wächter, Komplexität: 4
 
-Ein Konstrukt mit dem Wächterprotokoll sind denen mit Kämpferprotokoll nicht unähnlich, jedoch sind sie sehr viel stärker defensiv eingestellt.
+Konstrukte mit dem Wächterprotokoll sind denen mit Kämpferprotokoll nicht unähnlich, jedoch sind sie viel stärker defensiv eingestellt.
 Eine typische Anwendung für Wächter ist die Verteidigung eines Bereiches, einer Person oder eines Gegenstandes.
 Dabei können Wächter meistens sehr komplexe Verteidiungsstrategien unterstützen.
 So ist es durchaus legitim, dass Wächter selbstständig die Sicherheitsbestimmungen eines schutzbefohlenen Objektes überprüfen und je nach Sicherheitsverletzung unterschiedlich reagieren.
@@ -311,92 +296,78 @@ Beispielsweise könnte ein Wächtergolem bei einer offensichtlichen Übermacht z
 
 Wächter können wie Kämpfer darauf programmiert werden, bestimmte Personen anhand von äußerlichen Merkmalen zu unterschieden, so dass sie bei der Bewachung ignoriert werden.
 
-==== Protokoll: Arbeiter, Komplexität: 5
+===== Protokoll: Arbeiter, Komplexität: 5
 
-Das Arbeiterprotokoll ist im Vergleich zu dem Kämpfer- bzw.Wächterprotokoll ähnlich komplex gestrickt.
+Das Arbeiterprotokoll ist im Vergleich zu dem Kämpfer- und Wächterprotokoll ähnlich komplex gestrickt.
 Tatsächlich beruhen Arbeiter auch auf Kämpfern und Wächtern, allerdings wurden ihre kämpferischen Fähigkeiten gelöscht, um durch die ebenso aufwändigen Arbeitsprozesse ersetzt zu werden.
-Tatsächlich ist jedes Arbeiterprotokoll einzigartig bzw. indiviuell für eine bestimmte Art von Arbeitsgolem geschrieben worden.
-So könnte beispielsweise ein Erntegolem nichts mit dem Arbeitsprotokoll eines Holzfällergolems anfangen.
+Jedes Arbeiterprotokoll ist einzigartig bzw. indiviuell für eine bestimmte Art von Arbeitsgolem geschrieben worden.
+Daher können beispielsweise Erntegolems nichts mit dem Arbeitsprotokoll von Holzfällergolems anfangen.
 
-Ebenso reagieren Arbeiter nicht auf Angriffe und können sich bestenfalls rudimentär verteidigen.
-Außerdem können sie nicht willentlich ein Wesen angreifen.
-Neu einprogrammierte Angriffs- oder Verteidigungsbefehle können durchaus unbeachtet bleiben, wenn dem Golem die Ausstattung dazu fehlt.
+Arbeiter reagieren nicht auf Angriffe und können sich bestenfalls rudimentär verteidigen.
+Außerdem können sie nicht willentlich andere angreifen.
+Einprogrammierte Angriffs- oder Verteidigungsbefehle können durchaus unbeachtet bleiben, wenn dem Golem die Ausstattung dazu fehlt.
 
 Ein spezielles Arbeitsprotokoll enthält immer alle nötigen Befehle, um die für jeweilige Arbeit nötigen Vorgänge komplett abzuwickeln.
 Üblicherweise sind Arbeiter in der Lage unterschiedliche Arbeitsbedingungen zu erkennen und in bestimmten Fällen entscheiden, welches Arbeitsgerät besser geeignet ist.
 So könnte beispielsweise ein Bergwerksgolem erkennen, wann er sich vorwärts graben kann und wann er zuerst Schutt aus dem Weg räumen muss.
 
-==== Protokoll: Steuerung, Komplexität: 6
+===== Protokoll: Steuerung, Komplexität: 6
 
 Konstrukte mit dem Steuerungsprotokoll sind Maschinen, die dazu programmiert sind, andere Maschinen oder Fahrzeuge zu steuern.
-Diese Konstrukte sind hochspezialisiert und sind meistens nur für die eine Aufgabe konstruiert und nicht für andere programmierbar.
-Die Gründe, warum solche Maschinen hergestellt werden, ist einfach: zum einen sind die Maschinen genauer und auch unermüdlicher als Humanoide und zum anderen sind sie präziser.
-Ein gutes Beispiel dafür sind die Segellosen Schiffe , in denen auch solche programmierten Maschinen eingebaut sind, die feinste Nuancen im Kesseldruck messen können und regulieren können.
+Sie sind hochspezialisiert und sind meistens nur für die eine Aufgabe konstruiert und nicht für andere programmierbar.
+Die Gründe, warum solche Maschinen hergestellt werden, sind, dass die Maschinen genauer und auch unermüdlicher als Humanoide.
+Ein gutes Beispiel dafür sind die Segellosen Schiffe, in denen auch solche programmierten Maschinen eingebaut sind, die feinste Nuancen im Kesseldruck messen und regulieren können.
 
 Einige geschickte Technomanten nutzen Steuerungsprotokolle auch, um Golems bestimmte Routineaufgaben zu übertragen, die durch die anderen Protokolle nicht geregelt sind.
-So könnte ein entsprechend gebauter bzw.umgebauter Golem eine regelmäßige Patroillie durch das Labor eines Magier halten und diverse Verzauberungen aufrecht erhalten, in dem er magische Zutaten aus einem Regal heraus nimmt und diese in entsprechende Zauberergefäße füllt.
+So könnte ein entsprechend ausgerüsteter Golem eine regelmäßige Patroillie durch das Labor eines Magier halten und diverse Verzauberungen aufrecht erhalten, in dem er magische Zutaten aus einem Regal heraus nimmt und diese in entsprechende Zauberergefäße füllt.
 
-==== Modus: Starr, Komplexität: 2
+===== Modus: Starr, Komplexität: 2
 
 Ein Konstrukt in diesem Modus folgt seiner Programmierung stur und ist fast durch nichts davon abzubringen.
 Neue Situationen, die nicht im Protokoll abgefangen werden, kann das Konstrukt mehr schlecht als recht innerhalb seiner normalen Funktion meistern – meistens gar nicht.
 Dieser Modus wird oft verwendte, wenn klar ist, dass das Konstrukt nicht viele neue spontane Herausforderungen haben wird.
 Typischerweise agiert ein Konstrukt mit diesem Modus sehr viel eher wie eine Maschine.
 
-==== Modus: Flexibel, Komplexität: 4
+===== Modus: Flexibel, Komplexität: 4
 
 Ein Konstrukt in diesem Modus kann sich auf neue Situationen innerhalb seine Arbeitsgebietes einfacher einstellen.
 Es kann beispielsweise verschiedene Produktionsabläufe auf neue, unbekannte Materialien anwenden.
 Außerdem kann es ohne Programmieränderung auf ähnliche Arbeitsabläufe umgestellt werden und auch innerhalb der vorgesehenen Arbeit diese anwenden.
 Das Konstrukt kann außerdem erkennen, dass ein Arbeitsablauf zur Zeit nicht möglich ist, beispielsweise könnte ein Holzfällergolem erkennen, dass er kein Metall durchsägen kann, auch wenn man ihm ein Metallstück als Holz unterschiebt.
 
-Allerdings bietet dieser Modus keine anwendungsfremden Aktionen.
-So kann ein Holzfällergolem seine Äxte und Sägen nicht zum organisierten Angriff nutzen und kann sich auch nicht gut verteidigen.
+Allerdings bietet dieser Modus weiterhin keine anwendungsfremden Aktionen.
 
-==== Modus: Improvisation, Komplexität: 8
+===== Modus: Improvisation, Komplexität: 8
 
 Als für einen Technomanten am schwersten zu programmierenden Modus ist der der Improvisation.
 Ein Konstrukt mit dieser Modus ist schon beinahe als selbstständiges Wesen anzusehen, auch wenn es ihm an Intuition und Gefühl mangelt.
 Das Konstrukt vermag im Gegensatz zu dem Modus: Flexibel auch anwendungsfremde Situationen neu zu interpretieren.
-So wäre es durchaus möglich, dass der bereits öfters erwähnte Holzfällergolem mit diesem Modus in der Lage wäre, sein Protokoll so zu nutzen, dass er zum Angriff übergehen könnte.
+So ist es durchaus möglich, dass der bereits öfters erwähnte Holzfällergolem mit diesem Modus in der Lage wäre, sein Protokoll so zu nutzen, dass er zum Angriff übergehen könnte.
 
 Inwiefern ein Konstrukt seine Arbeitsmethoden für anwendungsfremde Aktionen verwenden kann, liegt in der Veranwortung des SL.
 Logischerweise können Konstrukte nicht über ihre gegebenen Möglichkeiten hinauswachsen, es ist also unmöglich einem Konstrukt das Schwimmen beizubringen, wenn seine Konstruktion diese Tätigkeit nicht zulässt.
 
-=== Befehlshaber
-
-Jedes technomantische Konstrukt wird üblicherweise mit einem (oder mehreren) Befehlshaber verbunden.
-Ein Befehlshaber ist ein Humanoid, der dem Konstrukt bestimmte Befehle geben kann, die es dann befolgt.
-Dabei muss der Befehlshaber die Befehle aussprechen, sich in adequater Reichweite befinden (maximal 12 Meter vom Konstrukt entfernt) und das Konstrukt muss diese verarbeiten können.
-Üblicherweise sind diese Befehle einfache Worte.
-Jedes Konstrukt versteht einige typische Befehle und natürlich spezielle Befehle, die aus seiner Aufgabe resultieren.
-
-Das Konstrukt ist auf besondere Weise mit dem Befehlshaber verbunden und kann ihn identifizieren, ohne dass dieser ein bestimmtes Erkennungsmerkmal tragen muss.
-Das Konstrukt wird weiterhin nicht gegen den Befehlshaber vorgehen, selbst wenn dieser ein Zeichen an sich trägt, dass ihn als “Feind” identifizieren würde: bei obrigen Beispiel im Kampfprotokoll könnte der Befehlshaber also einen roten Wambs tragen und der Golem würde ihn nicht angreifen.
-
-Jedes Konstrukt versteht den Befehl seines aktuellen Befehlshaber, einen neuen Befehlshaber zu akzeptieren.
-
-=== Protokolle als imperative Befehlsfolge
+===== Protokolle als imperative Befehlsfolge
 
 Wer sich mit Script- und Programmiersprachen unserer Welt auskennt, kennt den Begriff der imperativen Befehlsfolge.
 Für alle anderen sei hier angemerkt, was dieser Ausdruck im Groben bedeutet.
-Imperative Befehlsfolgen werden Schritt-für-Schritt, also Befehl für Befehl ausgeführt.
+Imperative Befehlsfolgen werden Schritt für Schritt, also Befehl für Befehl ausgeführt.
 So verhält es sich auch mit den Protokollen der Golems.
-Diese besitzen einen bestimmten Befehlssatz aus dem ein Programm geschrieben werden kann, das dann Schritt-für-Schritt (also imperativ) abgearbeitet wird.
+Diese besitzen einen bestimmten Befehlssatz aus dem ein Programm geschrieben werden kann, das dann abgearbeitet wird.
 
-Innerhalb des Programmes ist es möglich Schleifen, Abzweigungen und Sprünge zu vollführen.
+Innerhalb des Programmes ist es möglich Schleifen, Abzweigungen und Sprünge durchzuführen.
 
 Ein typischer Befehle könnten bespielsweise sein: “Bewege Dich zu einem Ort X”.
 Innerhalb des Programmes wird sowas üblicherweise anders dargestellt, z.B. durch “geheZu(X)”, wo bei geheZu() als Prozedur (ein Befehl) verstanden wird, während X ein sogenannter Parameter ist, also eine genaue Spezifizierung, damit der Golem weiss, wohin er gehen muss.
 
-Es könnte also Golems geben die eine solche Befehlsliste besitzen:geheZu(Ort), greifeAn(Ziel), beendeAngriff(Ziel), betäube(Ziel), greifeHeimlichAn(Ziel), etc.
+Es könnte also Golems geben die eine solche Befehlsliste besitzen: geheZu(Ort), greifeAn(Ziel), beendeAngriff(Ziel), betäube(Ziel), greifeHeimlichAn(Ziel), etc.
 
 Wir wollen an dieser Stelle nicht in diese Materie eintauchen, denn die Kombination der Protokolle und Modi dürfte mit der Intutition des SL für die meisten Situationen ausreichen.
 Allerdings kann diese Form der Interpretation von Konstruktintelligenz für Spielleiter und Spieler, die in diesem Gebiet erfahren sind, interessant sein, indem Technomanten-Charaktere ihre beabsichtigen Programme (oder signifikante Abschnitte) in solchen Befehlssätzen verfassen.
 
-=== Schwierigkeit der Programmierung
+==== Programmierschwierigkeit
 
-Einem Golem oder anderen Konstrukt ein Programm zu geben, ist in zwei Situationen möglich: zum einen bei der Konstruktion durch einen Technomanten und zum anderen durch den Zauberspruch Konstrukt Programmieren (Technomantie 9).
+Einem Golem oder anderen Konstrukten ein Programm zu geben, ist in zwei Situationen möglich: zum einen bei der Konstruktion durch einen Technomanten und zum anderen durch den Zauberspruch Konstrukt Programmieren (Technomantie 9).
 
 In der ersten Situation ist die einzige Voraussetzung, dass der Konstrukteur das Programm festlegt.
 Dieses besteht aus den bereits vorgestellten Protokollen und Modi.
@@ -404,11 +375,11 @@ Nach der Konstruktionsprobe (die Technomantie-Probe, die die Anzahl von Erfolgen
 
 Scheitert diese Probe, so ist das Konstrukt nicht funktionsfähig, denn es hat kein funktionierendes Programm.
 Ist die Probe gar ein Patzer, so haben sich schwerwiegende Fehler, Paradoxien und Logikbrüche in die Programmierung eingeschlichen.
-Diese führen zu einer Art Amoklauf des Konstruktes.
+Diese führen zum Amoklauf des Konstruktes.
 
 Beide Missgeschicke führen zu der zweiten Möglichkeit, ein Konstrukt zu programmieren, denn sie ist die einzige Möglichkeit ein Konstrukt nach dessen Erschaffung noch zu beeinflussen: die Anwendung des Zauberspruches Konstrukt Programmieren (Technomantie 9).
 
-In jedem Fall müssen Protokolle und Modi festgelegt werden, um die Anzahl der Erfolge für die Technomantie-Probe zu ermitteln. Diese errechnen sich aus drei Faktoren:
+In jedem Fall bestimmt sich die Anzahl der Erfolge für die Technomantie-Probe aus folgenden drei Faktoren:
 
 * *Grundkomplexität:* Jedes Konstrukt besitzt eine individuelle Grundkomplexität für seine Programmierung.
 Diese hängt von den Erfolgen ab, die es zur Konstruktion benötigt.
@@ -418,7 +389,7 @@ Sie beträgt diese Zahl geteilt durch 2 (abgerundet, Minimum 1).
 
 * *Moduskomplexität:* Wie jedes Protokoll hat auch jeder Modus seine eigene Komplexität.
 
-Die Addition aller drei Werte ergibt die nötigte Anzahl der Erfolge für die erfolgreiche Programmierung bzw. Umprogrammierung.
+Die Addition dieser drei Werte ergibt die nötigte Anzahl der Erfolge für die erfolgreiche Programmierung bzw. Umprogrammierung.
 Dabei muss für jeden Programmierversuch immer die volle Komplexität berechnet werden, auch wenn beispielsweise nur eine Komponente (z.B. nur der Modus) geändert werden soll.
 
 .Programmierschwierigkeit
@@ -433,15 +404,28 @@ Der Modus Flexibel erfordert weitere 4 Erfolge.
 Insgesamt ergeben sich also 4+4+4=12 benötigte Erfolge.
 ====
 
+==== Befehlshaber
+
+Jedes technomantische Konstrukt wird üblicherweise mit einem (oder mehreren) Befehlshaber verbunden.
+Ein Befehlshaber ist ein Humanoid, der dem Konstrukt bestimmte Befehle geben kann, die es dann befolgt.
+Dabei muss der Befehlshaber die Befehle aussprechen, sich in adequater Reichweite befinden (maximal 12 Meter vom Konstrukt entfernt) und das Konstrukt muss diese verarbeiten können.
+Üblicherweise sind diese Befehle einfache Worte.
+Jedes Konstrukt versteht einige typische Befehle und natürlich spezielle Befehle, die aus seiner Aufgabe resultieren.
+
+Das Konstrukt ist auf besondere Weise mit dem Befehlshaber verbunden und kann ihn identifizieren, ohne dass dieser ein bestimmtes Erkennungsmerkmal tragen muss.
+Das Konstrukt wird weiterhin nicht gegen den Befehlshaber vorgehen, selbst wenn dieser ein Zeichen an sich trägt, dass ihn als “Feind” identifizieren würde: bei obrigen Beispiel im Kampfprotokoll könnte der Befehlshaber also einen roten Wambs tragen und der Golem würde ihn nicht angreifen.
+
+Jedes Konstrukt versteht den Befehl seines aktuellen Befehlshaber, einen neuen Befehlshaber zu akzeptieren.
+
 === Allgemeine Merkmale von Golems und Konstrukten
 
-Die folgenden Beschreibungen enthalten grobe Beschreibungen und typische Merkmale der vorgestellten Konstrukte.
+Die folgenden Beschreibungen enthalten typische Merkmale von Konstrukten.
 Der SL sollte sich bei der Beschreibung, die er selbst ließt und die er nachher seinen Spielern gibt, immer vor Augen halten, dass Golems und Konstrukte Maschinen sind, die durch Magie angetrieben werden.
 Die meisten Technomanten im bauen grundsätzlich mit Metallen und stellen die Einzelteile in großen Schmieden und Metallwerkstätten her.
 
 Als zusätzliche Ausschmückung für eine Beschreibung kann sich der SL einige typische Elemente noch herausgreifen und an die jeweiligen Golems (im folgenden benutzen wir den Begriff Golem äquivalent zu Konstrukt) herausstellen:
 
-* *Metallischer Körper:* Ganz klar ist der Körper eines Golems aus Metall.
+* *Metallischer Körper:* Im Normalfall ist der Körper eines Golems aus Metall.
 Die geschmiedeten Einzelteile bedecken die sensiblen Mechaniken im Inneren des Golems, sowie dessen magische Komponenten.
 Weiterhin stellte sich die Frage, wie diese auf dem Chassis festgemacht sind: verschweist, genietet oder mit Bändern festgemacht?
 
@@ -467,7 +451,7 @@ Weiterhin können in Golems diverse technomantische Geräte eingebaut werden, di
 
 In diesem Abschnitt wollen wir einen kurzen Überblick über die Entstehung eines technomantischen Gerätes oder Konstruktes geben, sowie die Aufteilung der Arbeiten der Technomanten betrachten.
 
-Innerhalb der “Gesellschaft” der Technomanten gibt es eine gewisse Rangordnung, die auf Erfahrung beruht.
+Innerhalb der Organisation der Technomanten gibt es eine gewisse Rangordnung, die auf Erfahrung beruht.
 Diese Rangordnung bestimmt, welche Technomanten welche Arbeiten übernehmen dürfen.
 Die Erfahrung der Technomanten kennzeichnet sich innerhalb des Far Ages-Regelsystems in ihren Fähigkeiten und Talentstufen.
 Der SL kann diese Aufteilung auch als Richtlinie für Spieler-Technomanten nehmen, um deren Befähigung im Umgang mit technomantischem Gerät einschätzen zu können.
@@ -501,14 +485,13 @@ In kleineren Städten findet man bestensfalls pro 1000 Einwohner eine Werkstatt 
 Es ist durchaus üblich, dass sich in bestimmten Gegenden mit entsprechendem Kundenstamm die Technomanten auf bestimmte Produkte spezialisieren.
 
 Die Verfügbarkeit der Rohmaterialien bestimmt dann die Dauer der Konstruktion (und in vielen Fällen überhaupt die Durchführbarkeit).
-Dabei kann man grob die Materialien in drei Kategorien einteilen:magische Kristalle, mechnische und “normale” Materialien, sowie verzauberte Komponenten.
+Dabei kann man grob die Materialien in drei Kategorien einteilen: magische Kristalle, mechnische und “normale” Materialien, sowie verzauberte Komponenten.
 
-Magische Kristalle sind die üblicherweise seltensten und wichtigsten Komponenten, den sie dienen der Energieversorgung und werden für die Einbettung magischer Effekte benötigt.
+Magische Kristalle sind die üblicherweise seltensten und wichtigsten Komponenten, denn sie dienen der Energieversorgung und werden für die Einbettung magischer Effekte benötigt.
 Die Technomanten besitzen einige Fabriken, in denen Effekte des Aethers simuliert werden, so dass sich an deren Verdichtungen Kristalle bilden, jedoch ist das Verfahren noch sehr gefährlich und benötigt die Aufsicht geübter Magier.
 Daher sind die meisten Technomanten noch auf die Lieferungen von natürlich gewachsenen, magischen Kristallen angewiesen.
 
-Mechanische und normale Komponenten beinhalten eine große und weite Auswahl an unzähligen Komponenten.
-Typische Komponenten sind Zahnräder, Hebelmechanismen, hydraulische Komponenten, Gewichte und auch Platten, Gerüste und Rahmen für die Geräte und Konstrukte.
+Typische mechanische Komponenten sind Zahnräder, Hebelmechanismen, hydraulische Komponenten, Gewichte und auch Platten, Gerüste und Rahmen für die Geräte und Konstrukte.
 Alle diese Dinge werden in Großschmieden hergestellt, die tagtäglich Unmengen dieser Materialien produzieren.
 Die Fabriken sind üblicherweise hochgeradig auf ein Produkt, bzw. eine verwandte Produktpalette spezialisiert.
 Sie beschäftigen je nach Region eine Armee von Arbeitern oder sind durch technomantische Konstrukte zu einem Großteil automatisiert.
@@ -707,9 +690,6 @@ Um vom Standardschema abweichende Konstruktionen darzustellen, werden die zusät
 Grundsätzlich gilt, dass man nur der Größenkategorie des Golems entsprechende Arme und Beine hinzufügen kann.
 Dabei verbrauchen die Modifikationen Konstruktionspunkte der Kategorie Zusätze und ersetzen die Konstruktionspunktverteilung für die jeweilige Kategorie Arme oder Beine (Das Einsetzen von Raupen oder Rädern gilt auch als Modifikation der Beine).
 
-//TODO link
-Für eine Auflistung der Modifikationen siehe die Dokumentensammlung Kompendium Technomantischer Gegenstände.
-
 === Modifikationen
 
 Wie in den vorhergehenden Abschnitten schon erwähnt, gibt es die Möglichkeit einen Golem sehr individuell zu gestalten.
@@ -717,8 +697,7 @@ Die sogenannten Modifikationen stellen diese Möglichkeit dar.
 Eine Modifikation wird im Endeffekt wie ein eigenständiger technomantischer (manchmal auch magischer) Gegenstand behandelt, der von einem Technomanten hergestellt wird und dann mit einem Golem verbunden bzw. in diesen eingebaut wird.
 Daher werden Modifikationen auch wie Technomantische Geräte behandelt.
 
-//TODO LINK
-Im Kompendium Technomantischer Gegenstände findet sich eine umfangreiche Liste, in der die Modifikationen aufgelistet sind.
+Im link:../../compendiums/technomancy/compendium_technomancy_modifications.adoc[Kompendium Technomantischer Modifikationen] findet sich eine umfangreiche Liste, in der die Modifikationen aufgelistet sind.
 
 === Darstellung der Einträge
 
@@ -1012,8 +991,7 @@ Im Endeffekt wurden die Gerät so gestaltet, dass sie für ihren Effekt exakt di
 Dies bedeutet jedoch nicht, dass sie völlig ohne magische Kristalle hergestellt werden können.
 Die exakte Abrechnung von MP aus einem Speicher wurde der Einfachheit weggelassen, zum Beispiel bei dem Feuerentfacherer.
 
-//TODO LINK
-Betrachtet man sich die Einträge in dem Kompendium Technomantischer Gegenstände, so besitzt jedes Gerät bei seinen Materialkosten einen Eintrag mit magischen Kristallen.
+Betrachtet man sich die Einträge in dem link:../../compendiums/technomancy/compendium_technomancy_devices.adoc[Kompendium Technomantischer Gegenstände], so besitzt jedes Gerät bei seinen Materialkosten einen Eintrag mit magischen Kristallen.
 
 Jedes Gerät und jedes Konstrukt wird mit Hilfe von magischer Energie angetrieben und diese wird traditionell von magischen Kristallen bereitsgestellt.
 
