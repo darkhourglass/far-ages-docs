@@ -480,34 +480,31 @@ Was geschieht nun, wenn ein bestimmtes, technomantisches Produkt hergestellt wer
 
 Diese Frage lässt sich recht offensichtlich in Abhängigkeit von zwei Faktoren beantwortet: zum einen die angestrebte Verwendung für das Produkt und dessen Verfügbarkeit.
 In größeren Städten befinden sich Werkstätten und Produktionsstandorte für technomantische Waren.
-In kleineren Städten findet man bestensfalls pro 1000 Einwohner eine Werkstatt für “typische” Gerätschaften.
+In kleineren Städten findet man bestensfalls pro 1000 Einwohner eine Werkstatt für einfache Geräte.
 
 Es ist durchaus üblich, dass sich in bestimmten Gegenden mit entsprechendem Kundenstamm die Technomanten auf bestimmte Produkte spezialisieren.
 
 Die Verfügbarkeit der Rohmaterialien bestimmt dann die Dauer der Konstruktion (und in vielen Fällen überhaupt die Durchführbarkeit).
-Dabei kann man grob die Materialien in drei Kategorien einteilen: magische Kristalle, mechnische und “normale” Materialien, sowie verzauberte Komponenten.
+Dabei kann man grob die Materialien in drei Kategorien einteilen: magische Kristalle, mechnische und normale (d.h. nicht magische) Materialien, sowie verzauberte Komponenten.
 
 Magische Kristalle sind die üblicherweise seltensten und wichtigsten Komponenten, denn sie dienen der Energieversorgung und werden für die Einbettung magischer Effekte benötigt.
 Die Technomanten besitzen einige Fabriken, in denen Effekte des Aethers simuliert werden, so dass sich an deren Verdichtungen Kristalle bilden, jedoch ist das Verfahren noch sehr gefährlich und benötigt die Aufsicht geübter Magier.
 Daher sind die meisten Technomanten noch auf die Lieferungen von natürlich gewachsenen, magischen Kristallen angewiesen.
 
-Typische mechanische Komponenten sind Zahnräder, Hebelmechanismen, hydraulische Komponenten, Gewichte und auch Platten, Gerüste und Rahmen für die Geräte und Konstrukte.
+Typische mechanische Komponenten sind Zahnräder, Hebelmechanismen, hydraulische Gerätschaften, Gewichte und auch Platten, Gerüste und Rahmen für Konstrukte.
 Alle diese Dinge werden in Großschmieden hergestellt, die tagtäglich Unmengen dieser Materialien produzieren.
 Die Fabriken sind üblicherweise hochgeradig auf ein Produkt, bzw. eine verwandte Produktpalette spezialisiert.
 Sie beschäftigen je nach Region eine Armee von Arbeitern oder sind durch technomantische Konstrukte zu einem Großteil automatisiert.
 Letztere benötigen eher die Aufsicht von Technomanten und beschäftigen nur ein Drittel der anderen Fabriken.
 
 Verzauberte Komponenten imitieren Zaubereffekte oder legen magische Auren um Konstrukte.
-Da die wenigsten Technomanten eine umfassende magische Ausbildung absolvieren, müssen die Verzauberungen von Magier
-vorgenommen werden.
-Am häufigsten arbeiten dabei die Technomanten mit Elementaristen zusammen, die für ihre Dienste bezahlt werden und
-meistens festangestellt sind.
-Eine weitere Möglichkeit für die Technomanten an ihre Verzauberungen zu kommen, ist, dass sie Zauberstecken oder Spruchrollen benutzen, die ihnen von Zauberern hergestellt werden (dies ist der primäre Grund, weswegen Technomanten Spruchzauberei als Berufstalent besitzen).
+Da die wenigsten Technomanten eine umfassende magische Ausbildung absolvieren, müssen die Verzauberungen von Magier vorgenommen werden.
+Am häufigsten arbeiten dabei die Technomanten mit Elementaristen zusammen, die für ihre Dienste bezahlt werden und meistens festangestellt sind.
+Eine weitere Möglichkeit für die Technomanten an ihre Verzauberungen zu kommen, ist, dass sie Zauberstecken oder Spruchrollen benutzen, die ihnen von Zauberern hergestellt werden.
 
 Nachdem der lange Weg der Materialbeschaffung gegangen ist, muss das Konstrukt zusammengesetzt werden.
 Hierbei entscheidet wiederum sehr stark die Situation.
-Eine “kleine” Auftragsarbeit eines ortsansässigen Händlers kann einen einzelnen Technomanten in seiner Werkstatt
-beschäftigen.
+Eine “kleine” Auftragsarbeit eines ortsansässigen Händlers kann einen einzelnen Technomanten in seiner Werkstatt beschäftigen.
 Größere Geräte oder Konstrukte können noch die Hilfe von bis zu 4 Assistenten erfordern.
 Wahrhaftig komplizierte und aufwendige Konstrukte, wie große Golems, werden üblicherweise in größeren Gruppen hergestellt, die unterschiedliche Aufgaben übernehmen.
 
@@ -516,8 +513,7 @@ Es gelang zwar den Golems eine Art Standardprogramm (immer Modus: Einfach) in de
 
 Das System von Far Ages möchte nicht zu spezifisch in technische, bzw. technomantische Details eingehen.
 Daher sind die Konstruktionszeiten, Kosten und die Schwierigkeit allgemein gehalten.
-Mit den Hinweisen und Beschreibungen in diesem Kapitel kann der SL die Arbeitsvorgänge eines
-technomantischen Schaffensprozess beschreiben und, wenn das Interesse besteht, seinen Spielern Richtlinien für eigene technomantische Arbeiten geben.
+Mit den Hinweisen und Beschreibungen in diesem Kapitel kann der SL die Arbeitsvorgänge eines technomantischen Schaffensprozess beschreiben und, wenn das Interesse besteht, seinen Spielern Richtlinien für eigene technomantische Arbeiten geben.
 Das spätere Kapitel zum Thema Baukasten in diesem Dokument bietet außerdem sowohl für SL als auch für Spieler eine Möglichkeit, die existierenden “Schemata” für technomantische Konstrukte zu erweitern.
 
 === Optional: Teamarbeit
@@ -544,13 +540,13 @@ Ein Scheitern führt zu denselben Ergebnissen.
 
 In diesem Kapitel stellen wir wie angekündigt Mittel und Wege vor, um technomantische Geräte und Konstrukte variabler und individueller darzustellen.
 Kernstück des Ganzen ist sicherlich die Konstruktion von Golems.
-Wir verallgemeinern die Golems noch einen weiteren Schritt weiter und teilen das Konstrukt in seine Bestandteile auf, die modular kombiniert und ersetzt werden können.
+Wir verallgemeinern Golems noch einen weiteren Schritt weiter und teilen das Konstrukt in seine Bestandteile auf, die modular kombiniert und ersetzt werden können.
 
 === Golems modifizieren
 
 Golems gehören zu den berühmtesten Konstrukten, die von Technomanten gebaut werden.
 Dabei denkt man berechtigterweise oft an große Maschinen, die eine grobe humanoide Form besitzen, jedoch können Golems auch völlig andere Formen haben.
-Die unter dem Term Technomantischem Konstrukt vorgestellten Maschinen sind im Grunde genommen alles Golems, allerdings assoziert man mit einem Golem ein nahezu humanoides Wesen.
+Die unter dem Term Technomantischem Konstrukt vorgestellten Maschinen sind im Grunde genommen alle Golems, auch wenn man mit einem Golem ein nahezu humanoides Erscheinungsbild assoziiert.
 Im Rahmen dieses Kapitels wollen wir diese Assoziation auch nicht überschreiten, sondern beschäftigen uns intensiv mit den Golems im “klassischen” Sinne.
 
 Idee hinter diesem Kapitel ist das bereits erklärte “Zusammenbasteln” von Golems.
@@ -559,16 +555,15 @@ Zu diesen Einzelteilen gehört der *Torso*, die *Arme*, die *Beine* und die *Zus
 Es folgt nun eine kurze Beschreibung für jedes Einzelteil:
 
 ==== Torso
-Den Torso sollte nicht mit dem Torso als Trefferzone gleichgesetzt werden, denn er dient hier bei als “Chassis”, also als Grundgerüst, auf dem der Golem geschaffen wird.
+Den Torso dient bei als “Chassis”, also als Grundgerüst, auf dem der Golem geschaffen wird.
 Ein Torso kann fast wie ein Massenprodukt wahrgenommen werden und es gibt typische Konventionen für diese Einzelteile.
-Zuerst gibt es drei Größenkategorien, nämlich GK 5, 6 und 7.
+Torsos werden in Größenkategorien eingeteilt, die analog zu den vorgestellten Größenkategorien aus dem Dokument link:core_rules_battlesystem.adoc[Kampf] sind.
 Dabei sind 5 und 6 die üblichen Größenkategorien, in denen sich die Golems bewegen.
-Beispielsweise gehört ein hier vorgestellter Schlachtengolem in die GK 5, ein Großer Schlachtengolem in die GK 6.
-Die GK 7 (oder auch ggf. 8, jedoch ist dies hier nicht abgedeckt) beinhaltet große Kriegsmaschinen, die im Normalfall Unikate sind.
+Beispielsweise gehört ein hier vorgestellter Schlachtengolem in die GK 6, ein Großer Schlachtengolem in die GK 7.
 
 Von der Größe des Torso hängen direkt die maximalen Dimensionen der Arme, Beine und Zusätze ab.
 Diese Dimensionen werden wie bei Gegenständen in *Konstruktionspunkten* (KP) gemessen.
-Ein Technomant wählt also einen Torso und hat dann je nach Einzelteilgruppe eine begrenzte Auswahl für mögliche Module.
+Ein Technomant wählt also einen Torso und hat dann je nach Einzelteilgruppe eine begrenzte Auswahl für mögliche weitere Module.
 Bei der Zusammenstellung ist er da bis auf die Maxima an Punkten frei.
 Einige Einschränkungen können noch die einzelnen Einzelteilgruppen geben, siehe dazu deren Beschreibung im folgenden Abschnitt.
 
@@ -606,12 +601,11 @@ Zum Beispiel hat ein Wächtergolem einen Schwert- und einen Schildarm.
 Man ist natürlich nicht gezwungen eine Waffe und einen Schild zu nehmen, so hat ein Schildgolem zwei Schildarme (dies wäre auch ein Gegenspiel für Golems mit zwei gleichen Armen) und die meisten Schlachtengolems besitzen zwei Angriffsarme.
 
 ==== Beine
-Die *Beine* werden hier jedoch als eine Einheit zusammengefasst.
-Ein Golem kann keine zwei unterschiedlichen Beine haben.
-Unter den Begriff Beine fallen auch andere Fortbewegungsmöglichkeiten für den Golem so zum Beispiel Räder oder Raupen.
+Die *Beine* werden als eine Einheit zusammengefasst, denn ein Golem kann keine zwei unterschiedlichen Beine haben.
+Unter den Begriff Beine fallen auch andere Fortbewegungsmöglichkeiten wie zum Beispiel Räder oder Raupen.
 
 ==== Zusätze
-*Zusätze* sind eine Art freier Pool.
+*Zusätze* sind ein freier Pool.
 Man kann diese Punkte beliebig verteilen und kombieren und für jede Einzelteilgruppe verteilen.
 Diese Punkte stellen kleine, von den “großen” Einzelteilen abhängige, Module dar, die auf die Funktionen des Golems erweitern.
 So zum Beispiel kann ein Schlachtengolem auf seinen Axtarm einen kleinen Flammenwerfer tragen.
@@ -630,7 +624,8 @@ Im Falle eines Patzer kann das Ergebnis jedoch nicht so ausfallen, dass das Kons
 
 Jeder Golem muss eine Energiezelle haben, die in den Torso eingebaut wird.
 Eine Energiezelle ist ein gesondertes technomatisches Gerät, das speziell dafür konzipiert wurde, Golems mit Energie in Form von MP zu versorgen.
-Diese Energiezelle besteht üblicherweise aus mehreren Magischen Kristallen (Groß), die 250 MP enthalten. Die Anzahl der Kristalle ist von GK des Konstruktes abhängig.
+Diese Energiezelle besteht üblicherweise aus mehreren Magischen Kristallen (Groß), die 250 MP enthalten.
+Die Anzahl der Kristalle ist von GK des Konstruktes abhängig.
 
 [cols=",,,,,,",options="header"]
 |===
@@ -666,19 +661,19 @@ Eine Energiezelle, die für ein Konstrukt der entsprechenden GK nach den in der 
 Diese Zelle kann in einen Torso eines Golems eingesetzt werden, ohne dass sich die Konstruktionspunkte für Zusätze reduzieren.
 Zusätzliche bzw. größere Energiezellen verbrauchen Konstruktionspunkte und sind unter Modifikationen geführt.
 
-Eine fertige, unabhängig Energiezelle kostet den Wert der Kristalle plus Konstruktionskosten, alles multipliziert mit 2.
+Eine fertige Energiezelle kostet den Wert der Kristalle plus Konstruktionskosten, alles multipliziert mit 2.
 Wird die Energiezelle direkt in Verbindung mit einem Torso geschaffen, so sind ihre Konstruktionskosten.
 
 Die Konstruktion der Energiezelle funktioniert wie die Konstruktion eines technomantischen Gerätes der Technomant muss die Materialkosten und die Kosten für die Kristalle aufbringen und die Energiezelle in der Konstruktionszeit zusammensetzen.
-Am Ende der Konstruktionszeit macht er eine Technomantie-Probe gegen die gegebene Anzahl der Erfolge. Es gelten die üblichen Regeln für Patzer und Misserfolge bei Technomantie-Proben.
+Am Ende der Konstruktionszeit macht er eine Technomantie-Probe gegen die gegebene Anzahl der Erfolge.
+Es gelten die üblichen Regeln für Patzer und Misserfolge bei Technomantie-Proben.
 
 Die Energiezelle selbst regeneriert in ihrer Standardausführung keine MP.
 Die einzelnen Kristalle können jedoch durch einen Technomanten einfach ausgetauscht werden (eine Technomantie-Probe gegen 3 Erfolge).
-Dazu muss der Golem natürlich abgestaltet sein.
 
 === Von Armen und Beinen
 
-Die meisten Golems besitzen die eine oder andere Fortbewegungsmethode sowie die Möglichkeit ihr Arbeitswerkzeug zu verwenden.
+Die meisten Golems besitzen eine Fortbewegungsmethode sowie die Möglichkeit ihr Arbeitswerkzeug zu verwenden.
 Der hauptsächliche Grund, warum Golems eine humanoide Ähnlichkeit aufweisen, ist, dass die Technomanten anhand der humanoiden Anatomie und Bewegungsabläufe die zugrundlegende Mechanik entwickelt haben.
 Erst später ergaben sich die Notwendigkeiten in speziellen Umgebungen andere Bewegungsmechanismen zu entwickeln.
 So findet man in den Bergen beispielsweise Golems, die auf sechs spinnenartigen Beinen durch das unwegsame Gelände klettern.
@@ -694,8 +689,8 @@ Dabei verbrauchen die Modifikationen Konstruktionspunkte der Kategorie Zusätze 
 
 Wie in den vorhergehenden Abschnitten schon erwähnt, gibt es die Möglichkeit einen Golem sehr individuell zu gestalten.
 Die sogenannten Modifikationen stellen diese Möglichkeit dar.
-Eine Modifikation wird im Endeffekt wie ein eigenständiger technomantischer (manchmal auch magischer) Gegenstand behandelt, der von einem Technomanten hergestellt wird und dann mit einem Golem verbunden bzw. in diesen eingebaut wird.
-Daher werden Modifikationen auch wie Technomantische Geräte behandelt.
+Eine Modifikation wird im Endeffekt wie ein eigenständiger technomantischer (manchmal auch magischer) Gegenstand behandelt, der von einem Technomanten hergestellt wird und dann in einen Golem eingebaut wird.
+Daher werden Modifikationen wie Technomantische Geräte behandelt.
 
 Im link:../../compendiums/technomancy/compendium_technomancy_modifications.adoc[Kompendium Technomantischer Modifikationen] findet sich eine umfangreiche Liste, in der die Modifikationen aufgelistet sind.
 
@@ -714,7 +709,7 @@ Zusätzlich dazu finden sich bei jedem Eintrag folgende Felder:
 *Erfolge:* wie bei Technomantischen Geräten
 
 *Kategorie:* gibt an, wo die Modifikation eingebaut wird, also von welchem Pool letztendlich die Konstruktionspunkte abgezogen werden.
-Die Kategorien sind Arme, Beine und Zusätze
+Die Kategorien sind Arme, Beine und Zusätze.
 
 *Konstruktionspunkte:* gibt an, wie viele Konstruktionspunkte vebraucht werden
 
@@ -723,9 +718,8 @@ Die Kategorien sind Arme, Beine und Zusätze
 *Preis:* wie bei Technomantischen Geräten
 
 Während der Konstruktion der Modifikation gelten die üblichen Regeln für die Konstruktion Technomantischer Geräte.
-Eine fertige Modifikation muss dann noch in den Golem eingesetzt werden.
-Dazu muss der Technomant eine Technomantie-Probe gegen die Anzahl der Erfolge unter dem Eintrag Einbau
-würfeln.
+Eine fertige Modifikation muss dann noch in den Golem installiert werden.
+Dazu muss der Technomant eine Technomantie-Probe gegen die Anzahl der Erfolge unter dem Eintrag Einbau würfeln.
 Besteht er sie, so wurde die Modifikation erfolgreich installiert und der Golem kann sie (aktiv oder passiv) benutzen.
 Ein Misserfolg oder ein Patzer folgt den üblichen Regeln.
 
@@ -735,9 +729,9 @@ Der Standardgolem wird durch ein Metallchassis gehalten, in dieses werden seine 
 Diese Panzerung gibt dem Golem seinen Rüstungsschutz, seinen Widerstand und auch seine Geschwindigkeit.
 Manche Materialien gewähren weiterhin spezielle Verteidigungsmechanismen, wie z.B. Schadensresistenzen oder aber auch andere Nachteile wie Schadensanfälligkeiten.
 
-=== Regeln für Einsatz von anderen Materialien
+==== Regeln für Einsatz von anderen Materialien
 
-Im Kompendium Technomantischer Gegenstände findet sich eine Liste mit Materialien, die sich als Alternative zu dem Stahlkonstrukt anbieten.
+Im Kompendium Technomantischer Gegenstände findet sich eine Liste mit link:../../compendiums/technomancy/compendium_technomancy_materials.adoc[Materialien], die sich als Alternative zu dem Stahlkonstrukt anbieten.
 Dabei ist die regeltechnische Verwendung von Materialien einfach, denn sie ist den Modifikationen ähnlich.
 Ein Eintrag in dem entsprechenden Dokument ist wie folgt aufgebaut:
 
@@ -757,7 +751,7 @@ Besondere Materialien, die durch einen Misserfolg zerstört wurden, müssen durc
 
 === Standardprofil eines Golems
 
-Ein Golem-Torso besitzt abhängig von seiner GK ein Standardprofil, das erst durch Materialien oder Modifikationen verändert wird.
+Ein Golem-Torso besitzt abhängig von seiner GK ein Standardprofil, das durch Materialien oder Modifikationen verändert wird.
 
 ==== Attributsstufen
 
@@ -789,7 +783,7 @@ Für genauere Erläuterungen siehe in der Dokumentensammlung Bestiarium unter Ko
 
 ==== Attributseigenschaften
 
-Abhängig von seiner GK hat eine Golem Attributseigenschaften, die aus der folgenden Tabelle entnommen werden können.
+Abhängig von seiner GK hat der Golem Attributseigenschaften, die aus der folgenden Tabelle entnommen werden können.
 
 [cols=",,,,,,,,,,,",options="header"]
 |===
@@ -876,8 +870,8 @@ Diese Angabe beschreibt die größte Ausdehnung dieses Golems in eben diese Dime
 
 Jeder Golem besitzt initialie Fähigkeiten, die seine Aufgaben beschreiben.
 Auch wenn Golems nicht wie lebende Kreaturen lernen, so werden seine Fähigkeiten durch Talentstufen beschrieben.
-Diese ergeben sich aus seiner Programmieren, die wiederun durch die Kombination eines Protokolles und des Modus beschrieben wird.
-Aus dieser Kombination ergibt sich ausserdem welche Talente der Golem besitzt und auf welchen Stufen.
+Diese ergeben sich aus seiner Programmieren, die wiederum durch die Kombination eines Protokolles und des Modus beschrieben wird.
+Aus dieser Kombination ergibt sich, welche Talente der Golem besitzt und auf welchen Stufen.
 Die Stufen sind von der Größenkategorie unabhängig.
 
 Die Stufen werden wie folgt bestimmt:
@@ -890,7 +884,7 @@ Die Stufen werden wie folgt bestimmt:
 |Improvisation |5
 |===
 
-Zu diesen Talentstufen kommen die üblichen Basisstufen, die sich aus den Attributswerten des Golems ergeben hinzu.
+Zu diesen Talentstufen kommen die üblichen Basisstufen, die sich aus den Attributswerten des Golems ergeben, hinzu.
 Besitzt er keinen Attributswert zu einem Talent, so kann er nur mit seinen Talentstufen darauf würfeln.
 
 Anhand des Protokolles ergeben sich nun die verfügbaren Talente:
@@ -904,16 +898,16 @@ Anhand des Protokolles ergeben sich nun die verfügbaren Talente:
 a|
 Hieb Ausweichen
 
-Nahkampfwaffen [Schwere]*
+Nahkampfwaffen^1^
 
-Projektilwaffen [Schwere]*
+Projektilwaffen^1^
 
-Unbewaffneter Kampf**
+Unbewaffneter Kampf^2^
 
 a|
 Hieb Ausweichen
 
-Nahkampfwaffen^
+Nahkampfwaffen^1^
 
 Parade
 
@@ -937,7 +931,7 @@ Waffen und jeder Golem hat pro Waffe ein Talent.
 
 ^2^trägt der Golem keine Waffe, so greift er mit diesem Talent an.
 
-^3^gilt nur, wenn der Golem einen Schild(durch Modifikationen erhalten) trägt.
+^3^gilt nur, wenn der Golem einen Schild (durch Modifikationen erhalten) trägt.
 
 ^4^Das Handwerk, welches der Golem ausführen soll: meistens abhängig von seinen Modifikationen.
 
@@ -945,9 +939,6 @@ Waffen und jeder Golem hat pro Waffe ein Talent.
 
 Bestimmte Modifikationen können die Talentstufen eines Golems erhöhen oder ihm sogar neue Talente zur Verfügung stellen.
 Die Talentstufen dieser Talente ergeben sich nach beschriebenen Regeln.
-
-//TODO link
-Weitere Eigenschaften und Regeln für Golems und Konstrukte finden sich im Bestiarium.
 
 == Neue Technomantische Geräte bauen
 
@@ -960,7 +951,7 @@ Seid ihr euch sicher, dass ihr dies bauen wollt?
 
 Neben den vielseitigen existierenden technomantischen Geräten und der flexiblen Gestaltung von Konstrukten und Golems, könnten Technomanten-Spieler auf die Idee kommen, ein eigenes Gerät oder Konstrukt entwickeln zu wollen, dessen Fähigkeiten von den Existierenden nicht abgedeckt werden.
 
-In diesem Abschnitt sollten für dieses komplexes Thema keine festen Regeln vorgestellt werden, sondern vielmehr Richtlinien, die den SL dabei unterstützen sollen, ein solches Vorhaben seiner Spieler in entsprechende von ihm vorgesehene Bahnen lenken zu können.
+In diesem Abschnitt werden für dieses komplexes Thema keine festen Regeln vorgestellt, sondern vielmehr Richtlinien, die den SL dabei unterstützen sollen, ein solches Vorhaben seiner Spieler in entsprechende von ihm vorgesehene Bahnen lenken zu können.
 Dabei orientieren sich die Richtlinien ungefähr an denen, die benutzt wurden, um die existierenden Geräte zu erstellen.
 
 Der SL kann mit seinen Spieler folgende Fragen bzw. Punkte abarbeiten,

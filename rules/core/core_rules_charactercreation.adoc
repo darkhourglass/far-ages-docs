@@ -78,7 +78,7 @@ nach Kampagnen-Hintergrund eine andere Auswahl zur Verfügung. Daher
 beschreibt dieses Kapitel nur den allgemeinen Umgang mit diesen
 Elementen der Spielwelt und die zugrunde liegenden Mechanismen.
 
-Jeder Charakter gehört einem *Volk* an. In den unterschiedlichen
+Jeder Charakter gehört einem link:core_rules_races.adoc[*Volk*] an. In den unterschiedlichen
 Universen und Welten von Far Ages können viele unterschiedliche Völker
 leben und jede hat gewisse Eigenschaften und Eigenheiten. Diese sind
 sowohl kultureller, psychologischer und erscheinungsbildmäßiger Natur,
@@ -91,7 +91,7 @@ Manche Völker haben CP-Kosten. Möchte ein Spieler ein solches Volk
 spielen, muss er die CP-Kosten von seinen Aktuellen Charakterpunkten
 abziehen.
 
-Der Begriff *Beruf* wird in Far Ages etwas weiter definiert als man es
+Der Begriff link:core_rules_professions.adoc[*Beruf*] wird in Far Ages etwas weiter definiert als man es
 vielleicht gewohnt ist. Mit Beruf ist hier wahrhaftig der Ursprung des
 Wortes, die Berufung, gemeint. Ein Beruf in Far Ages ist nicht nur eine
 Ansammlung von Talenten, die mit ihm verbunden sind, sondern ist eine
@@ -104,7 +104,7 @@ Talente ein Charakter lernen kann.
 Berufe haben im allgemeinen auch CP-Kosten, die wie bei der Wahl der
 Rasse von den initialen Charakterpunkten bezahlt werden müssen.
 
-Der *Hintergrund* eines Charakters beschreibt die Herkunft des
+Der link:core_rules_backrounds.adoc[*Hintergrund*] eines Charakters beschreibt die Herkunft des
 Charakters, zum Teil seine Vergangenheit und seine Gegenwart. Mit dem
 Hintergrund kommen ein paar Fähigkeiten hinzu, sowie auch manchmal
 Nachteile. Manche Berufe lassen nur Leute aus einem bestimmten sozialen
@@ -126,7 +126,7 @@ erschaffen wurde. Werte über 10 sind wortwörtlich un- bzw.
 übermenschlich.
 
 Jede Attributsstufe steht für einen W10, der bei einer Probe auf dieses
-Attribut (siehe Dokument[W10-Regelsystem] unter Attributsproben und
+Attribut (siehe Dokument link:core_rules_d10_system.adoc[W10-Regelsystem] unter Attributsproben und
 Standardproben) verwendet werden kann.
 
 Darüber hinaus bestimmen die Attributsstufen sogenannte
@@ -166,7 +166,7 @@ Talentstufe von 1 besitzt), erhält einen *Steigerungsmodifikator* (SGM).
 * *SGM 1* beschreibt *Berufstalente*, also Talente, die von dem Beruf
 favorisiert sind und insbesondere von diesem Beruf benutzt und gelernt
 werden.
-* **SGM 2 **beschreibt Talente, die nahe verwandt sind mit dem Beruf und
+* *SGM 2* beschreibt Talente, die nahe verwandt sind mit dem Beruf und
 seinen Talent. Sie werden regulär nicht gelehrt, aber ein Charakter der
 ähnliche Talente beherrscht, kann sie einfacher lernen.
 * *SGM 3* beinhaltet Talente, die nur wenig mit dem Beruf zu tun hat und
@@ -179,7 +179,7 @@ SGM 3.
 Der Steigerungsmodifikator wird nach die benötigten CP pro Steigerung
 der Talentstufe beeinflussen.
 
-=== Berechnung von Talentstufen
+=== Initiale Talentstufen
 
 Anders als Attribute starten alle Talentstufen immer auf 0. Zur
 Charaktererschaffung erhält ein Charakter jedoch 4 freie Talentstufen,
@@ -464,21 +464,6 @@ jeweils nur die Attributsstufe 1. Daher hat er nur (1+1)*5 = 10 SP.
 |20 |+24,00 |2W12+2W10 |46 |23
 |===
 
-=== Steigerungen von Attributseigenschaften
-
-Attributseigenschaften lassen sich im Normalfall nicht direkt steigern.
-Stattdessen steigen die abhängigen Werte direkt, wenn eine
-Attributsstufe gesteigert wird.
-
-Wenn Vor- oder Nachteile Attributseigenschaften beeinflussen, dann
-greifen diese immer erst nach Einberechnung der Attributsstufe.
-
-Eine weite Ausnahme sind TP/MP Steigerungen, die durch den Beruf
-bestimmt werden (siehe spätere Kapitel zum Thema Steigern). Diese sind
-Wertbonus, die permanent zum TP bzw. MP-Pool eines Charakters
-hinzuaddiert werden. Diese werden immer nach Berechnung von
-Attributsstufen und Vor- und Nachteilen addiert.
-
 == Ausarbeitung des Charakters
 
 Dieses Kapitel beschreibt weitere Aspekte der Charaktererschaffung, die
@@ -569,11 +554,22 @@ diesem Vor- bzw. Nachteil.
 eine Probe (z.B. Boni und Mali auf eine Standardprobe) oder eine andere
 Eigenschaft (wie z.B. eine Schadensresistenz) beeinflussen, werden alle
 Boni und Mali zu einem einzigen Modifikator zusammengefasst.
+Hebt sich der Modifikator auf, d.h. +/-0, werden Vor- und Nachteile nicht aufgeschrieben.
 
-Beispiel: Ein Charakter erhält aufgrund seiner Rasse von Vorteil
+.Kombination von Vor- und Nachteilen
+====
+Ein Charakter erhält aufgrund seiner Rasse von Vorteil
 Schadensresistenz[Feuer] auf Level 1 und aufgrund seines Berufes
 Schadenresistenz[Feuer] auf Level 1. Insgesamt macht dies eine
 Schadenresistenz[Feuer] auf Level 2.
+====
+
+.Kombination von Vor- und Nachteilen
+====
+Durch eine Kombination von Beruf und Rasse erhält ein Charakter den Vorteil Dickschädel (+1 auf die Würfe zum Erfolg für alle Willenskraftproben) und den Nachteil Hitzkopf (-1 auf die Würfe zum Erfolg für alle Willenskraftproben).
+Insgesamt ergibt sich also eine Modifikation von +/-0.
+In diesem Fall werden beide Eigenschaft nicht aufgeschrieben.
+====
 
 == Charakterentwicklung
 
@@ -612,6 +608,13 @@ auf Stufe 3 steigern. Dies kostet Michael 2*100 = 200 CP. Durch die
 Steigerung ändern sich sofort abhängige Attributseigenschaften und die
 Würfelanzahlen für Talente mit dem verwandten Attribut GE.
 ====
+
+=== Steigerungen von Attributseigenschaften
+
+Attributseigenschaften lassen sich im Normalfall nicht direkt steigern.
+Stattdessen steigen die abhängigen Werte direkt, wenn eine Attributsstufe gesteigert wird.
+
+Wenn Vor- oder Nachteile Attributseigenschaften beeinflussen, dann greifen diese immer erst nach Einberechnung der Attributsstufe.
 
 === Trefferpunkte und Magiepunkte steigern
 
@@ -814,3 +817,78 @@ Die Quintessenz des Rollenspiel sollte ja das Rollenspiel selber sein,
 also die Verkörperung der gewählten Charaktere. Der SL kann gerne die
 Bemühungen seiner Spieler honorieren, die gemäß ihrer Rollen agieren,
 mit all ihren Vorzüge und Fehlern.
+
+== Erweitere Regeln
+
+Die vorherigen Kapitel haben alles zusammengefasst, was nötig ist, um einen Charakter im Multiversum von Far Ages zu erschaffen und auf Abenteuer zu schicken.
+Hier stellen wir zusätzliche Regeln vor, die die Charaktererschaffung erweitert bzw. Möglichkeiten bietet, den Charakter noch weiter zu individualisieren.
+Es liegt in der Entscheidung des Spielleiters, welche Regeln er für seine Spieler und seine Welt anwenden möchte.
+
+=== Mischvölker
+
+Zur Charaktererschaffung und bei Wahl des Volkes, kann der Spieler entscheiden, ob er diese Option anwenden möchte.
+Der Charakter stammt dann von zwei Elternteilen aus unterschiedlichen Völkern ab.
+Typische Archetypen sind Halb-Elfen oder Halb-Orks, bei denen ein Elternteil aus dem Volk der Menschen stammt, das andere von den Elfen bzw. Orks.
+Andere Kombination sind durchaus denkbar, das System gibt keine Beschränkungen vor.
+So sind ist Halb-Taure / Zwerg, Halb-Ork / Elf oder Halb-Dämon / Satyre völlig denkbar.
+Der SL darf natürlich jederzeit eine Kombination verbieten.
+
+Um ein Mischvolk zu spielen, wählt der Spieler zuerst wie gewöhnt das Volk (z.b. Elf) und bezahlt diese Wahl mit den angewiesenen CP.
+Jeder Eintrag in der Liste der Mischvölker kostet auch CP.
+Hat der Spieler einen passenden Eintrag gefunden, bezahlt er diesen mit den angegebenen CP.
+
+Analog zu Völker besitzen auch Mischvölker Boni zu Attributsstufen, Vorteile und Nachteile.
+Wie bei der Kombination von Volk, Beruf und Hintergrund werden diese Kategorien zusammen addiert.
+Kumulative Vor- oder Nachteile folgen den üblichen Regeln.
+
+//TODO
+.Mischvölker
+====
+Ein Spieler möchte einen Halb-Drachen / Elf erschaffen.
+Als Volk wählt er daher Elf für XX CP.
+Die Kosten für Halb-Drachen (Wyrm) betragen YY CP.
+Somit muss der Spieler insgesamt XX+YY=ZZ CP ausgeben. +
+Seine Attributsstufen (ohne Berücksichtigung von Beruf und Hintergrund) ergeben sich wie folgt: TODO. +
+Die Kombination beider Vorteile ergibt TODO. +
+Ebenso ergibt sich folgende Liste aus Nachteilen: TODO
+====
+
+Die komplette Liste der Mischvölker findet sich hier: link:../advanced/advanced_rules_half_blood.adoc[Mischvölker].
+
+=== Blutlinien
+
+link:../advanced/advanced_rules_bloodlines.adoc[Blutlinien]
+
+=== Schicksalspfade
+
+Pfade des Schicksals schließen die Lücke zwischen der initialen Charakterdarstellung aus der Kombination Völk, Beruf und Hintergrund mit dem erfahren Abenteurer, der durch seine Taten über dieses hinausgewachsen ist.
+
+Im Gegensatz zu Mischvölkern oder Blutlinien, die bereits vorgestellt wurden, werden Schicksalspfade nicht bei der Charaktererschaffung ausgewählt.
+Stattdessen muss der Charakter die angegebenen Voraussetzungen erfüllen.
+Sobald er dies tut, kann er den Schicksalspfad lernen, in dem er die angegeben CP einmal ausgibt.
+Dieser Vorgang ist vergleichbar mit dem Erlernen einer Besonderen Fähigkeit.
+
+Jeder Charakter kann nur einen Schicksalspfad lernen und ein Schicksalspfad kann niemals verlernt werden.
+
+Schicksalspfade werden wie Talente oder Attribute in Stufen gemessen.
+Die initiale Erlernung gilt als Stufe 1.
+Jede weitere Stufe kostet *100CP* multipliziert mit der Anzahl der bereits gelernten Stufen.
+
+Pro Stufe kann der Charakter aus der je Schicksalspfad angebenen Liste von Fähigkeiten eine dieser auswählen und lernt diese sofort.
+
+//TODO
+.Schicksalspfade
+====
+Me'ander möchte nach einem langen und intensivem Studium der Magie den Schicksalspfad des Erzmagier beschreiten.
+Dazu prüft sein Spieler die Voraussetzungen dieses Schicksals.
+Es ist X, Y und Z.
+Me'ander erfüllt diese Anforderungen womit für den Einsatz X CP Me'ander zum Erzmagier wird. +
+Er lernt damit die erste Stufe Erzmagier und kann sich aus der Liste eine Fähigkeit aussuchen.
+Dabei muss er die Voraussetzungen beachten und wählt daher TODO. +
+Später gibt Me'ander 100 CP aus um Stufe 2 Erzmagier zu lernen.
+Analog wählt er eine Fähigkeit aus. +
+Etwas später in seinem Leben ist Me'ander bereits Erzmagier der Stufe 4 und möchte Stufe 5 erlernen. Er muss daher (1+2+3+4) * 100 = 1000 CP ausgeben.
+====
+
+Die komplette Liste der Schicksalspfade finde sich hier:
+link:../advanced/advanced_rules_paragon_paths.adoc[Schicksalspfade].
