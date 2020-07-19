@@ -1431,7 +1431,10 @@ Weg der Musik |
 a|
 Weg der Schatten |
 
-|Wilde Magie |* |* siehe Regeln für Wilde Magie
+|Technomantie | * | * siehe Regeln für link:core_rules_technomancy.adoc[Technomantie]
+
+|Wilde Magie |* | * siehe Regeln für <<Wilde Magie>>
+|Runenmagie | Weg der Runen |
 |TODO | |
 |===
 
@@ -1647,6 +1650,7 @@ Das Dokument link:core_rules_technomancy.adoc[Technomantie] erweitert die Techno
 In dem Dokument finden sich Regeln und Ideen zum Entwickeln eigener technomantischer Gegenständ sowie eine große Liste von unterschiedlichen Gegenständen von Feuerstäben bis Schlachtengolems.
 
 ==== Wilde Magie
+[[anchor_wild_magic]]
 
 [quote, Byhragast „Eisauge“]
 Hütet euch vor der Wilden Magie. Sie ist wie ein ungebändigtes Pferd,
@@ -1844,6 +1848,73 @@ Wilde Magie gelernt, und lernt nun Spruchzauberei[Elementarismus], so
 muss er Feuerball für Elementarismus noch einmal lernen.
 * Ein Magier, der Wilde Magie lernt, muss die gleichen Einschränkungen
 wie im vorherigen Punkt beschrieben hinnehmen, jedoch umgekehrt.
+
+==== Runenmagie
+[[anchor_rune_magic]]
+
+[quote, Byhragast „Eisauge“]
+"Achtet auf die Zeichen an der Tür, sie könnten euch zu Asche verbrennen."
+
+Die Magie der Runen ist so alt, dass selbst die Drachen nicht mehr wissen, wann sie zuerst erschaffen wurde.
+Runenmagie funktioniert sehr ähnlich wie die Spruchzauberei über arkane Sprache, vielleicht ist sie sogar der eigentliche Vorläufer.
+Im Gegensatz zu arkaner Sprache, die die Energie des Aethers durch den Körper des Magiers kanalisiert, wirkt die Runenmagie durch einen physikalischen Fokus, der eben jene Rune trägt.
+
+Ein Runenmagier "schreibt" somit seine Magie in Form von Runen auf einen Gegenstand oder eine Oberfläche und aktiviert diese nach bestimmten Kriterien.
+In Sinne der Regeln lernt ein Charakter Runenmagie wie eine Zauberschule über das Spruchzauberei-Talent und den link:../../compendiums/spelllists/compendium_spelllist_runes.adoc[Weg der Runen].
+Die Einträge in dieser Zauberspruchliste folgen dem üblichen Aufbau und den Regeln für Zaubersprüche.
+
+Es gelten dabei folgende, zusätzliche Regeln:
+
+* Jeder Eintrag in der Zauberspruchliste repräsentiert eine Rune, die ein Runenmagier nach den üblichen Regeln lernen kann. Sobald er eine Rune gelernt hat, kann er sie nach den hier aufgeführten Regeln einsetzen.
+* Jede Rune muss auf einen Gegenstand oder ein Objekt *geschrieben* werden. Die angegebene Vorbereitungszeit beschreibt diesen Prozess. Im Gegensatz zu anderen Zaubersprüchen, kann diese Vorbereitungszeit nicht verkürzt werden.
+* Erlaubt die Rune zusätzliche Effekte, müssen diese beim Vorgangen des Schreibens berücksichtig werden.
+* Jede Rune kann durch den Runenmagier selbst oder analog zu Magie Abkoppeln (siehe link:core_rules_magic_skills.adoc[Magische Fähigkeiten]) unter bestimmten Umständen ausgelöst werden. Der Runenmagier muss nicht Magie Abkoppeln lernen.
+* Wird eine Rune ausgelöst, wird die Spruchzauberei-Probe nach den üblichen Regeln gewürfelt. Möchte ein Runenmeister eine Rune bewusst auslösen, so muss er den Gegenstand, der die Rune trägt, berühren. Wird eine Rune aufgrund einer eingetreten Bedingung ausgelöst, ist es nicht relevant, ob der Runenmeister anwesend ist. Um die Stufen zu bestimmen, werden immer die Stufen des Runenmeisters genommen, die er beim Schreiben der Rune hatte. Es können nur *aktive* Runen ausgelöst werden.
+* Wurde eine Rune ausgelöst, gilt diese als *inaktiv* und kann nicht wieder ausgelöst werden.
+* Eine inaktive Rune kann von einem Runenmagier wieder aktiviert werden. Dazu muss er pro angebener POT der Rune 5 MP aufwenden. Diese MP können aus seinem eigenen MP-Pool stammen oder aus einem Magiespeicher. Nur der Runenmagier, der die Rune zuerst geschrieben hat, kann dies ohne weitere Proben durchführen.
+* Inaktive Runen aktivieren sich ohne weiteres Zutun nach POT*Stunden selbst, sofern ihre Beschreibung dies nicht explizit ausschließt.
+* Ein Runenmagier kann ein fremde, inaktive Rune aktivieren, in dem er die o.g. MP aufwendet. Zusätzlich muss er eine Spruchzauberei-Probe ablegen, so als würde er die Rune schreiben. Hat er die Rune selbst gelernt, erhält keine Modifikatoren auf diese Probe. Kennt er die Rune hingegen nicht, so erhält die Probe einen Malus von *-2 auf die Würfe zum Erfolg*.
+* Ein Runenmagier kann seine eigenen, aktiven Runen jederzeit deaktivieren und aktivieren. Solange diese Runen nicht ausgelöst wurden, können sie ohne MP-Aufwand wieder aktiviert werden.
+* Um eine Rune permanent auszuschalten, muss man diese *bannen*. Eine gebannte Rune kann nie wieder aktiviert werden. Es muss eine komplette neue Rune geschrieben werden. Ein Runenmagier kann seine eigenen Runen jederzeit bannen.
+* Ein Runenmagier kann eine fremde Rune bannen, in dem eine Spruchzauberei-Probe ablegt, so als würde er die Rune schreiben. Ein Runenmagier kann ausschließlich Runen bannen, die er gelernt hat.
+
+Sofern nicht explizit in ihrer Beschreibung ausgeschlossen, kann eine Rune auf jeden Gegenstand geschrieben werden. Manche Runen können nur auf bestimmte Gegenstandstypen (z.B. Waffen, Rüstungen etc.) und Materialien (z.B. Stein, Metall, etc.) geschrieben werden.
+
+Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier bestimmte Voraussetzungen erfüllen, im allgemeinen Wissen in Form von Talenten. Folgende Tabelle gibt dazu eine Übersicht.
+
+
+|===
+|Gegenstand oder Material|Benötigte Talente und Stufe|Bemerkung
+
+|Waffen, Metall
+|Handwerk[Schmieden] 1, Wissen[Waffen] 1
+|
+
+|Waffen, Holz
+|Handwerk[Schnitzen] 1, Wissen[Rüstung] 1
+|
+
+|Rüstung, Metall
+|Handwerk[Schmieden] 1, Wissen[Rüstung] 1
+|
+
+|Rüstung, Holz
+|Handwerk[Schnitzen] 1, Wissen[Rüstung] 1
+|
+
+|Oberflächen, Stoff
+|Handwerk[Weben] 1
+|
+
+|Oberflächen, Stein
+|Handwerk[Steinmetz] 1
+|
+
+|Oberflächen, Holz
+|Handwerk[Schnitzen] 1
+|
+|===
+
 
 === Regeln im Umgang mit magischen Gegenständen
 

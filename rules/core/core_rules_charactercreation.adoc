@@ -826,12 +826,14 @@ Es liegt in der Entscheidung des Spielleiters, welche Regeln er für seine Spiel
 
 === Mischvölker
 
-Zur Charaktererschaffung und bei Wahl des Volkes, kann der Spieler entscheiden, ob er diese Option anwenden möchte.
+Zur Charaktererschaffung und bei Wahl des Volkes, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
+
 Der Charakter stammt dann von zwei Elternteilen aus unterschiedlichen Völkern ab.
 Typische Archetypen sind Halb-Elfen oder Halb-Orks, bei denen ein Elternteil aus dem Volk der Menschen stammt, das andere von den Elfen bzw. Orks.
 Andere Kombination sind durchaus denkbar, das System gibt keine Beschränkungen vor.
 So sind ist Halb-Taure / Zwerg, Halb-Ork / Elf oder Halb-Dämon / Satyre völlig denkbar.
 Der SL darf natürlich jederzeit eine Kombination verbieten.
+Ein Charakter kann immer nur einem Mischvolk angehören.
 
 Um ein Mischvolk zu spielen, wählt der Spieler zuerst wie gewöhnt das Volk (z.b. Elf) und bezahlt diese Wahl mit den angewiesenen CP.
 Jeder Eintrag in der Liste der Mischvölker kostet auch CP.
@@ -857,7 +859,18 @@ Die komplette Liste der Mischvölker findet sich hier: link:../advanced/advanced
 
 === Blutlinien
 
-link:../advanced/advanced_rules_bloodlines.adoc[Blutlinien]
+Zur Charaktererschaffung und bei Wahl des Volkes, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
+
+Im Stammbaum des Charakters befindet sich ein (oder mehrere) ungewöhnlicher Vorfahr aus einem anderen Volk oder sogar übernatürlicher Abstammung. Dessen besondere und vielleicht einzigartige Attribute liegen der Familie sprichwörtlich im Blut, wobei nicht jeder (und vielleicht nur der Charakter selbst) diese Eigenschaften manifestiert.
+
+Blutlinien werden wie Talente in Stufen gelernt und ein Charakter muss die CP der ersten Stufe der Blutlinie bei der Charaktererschaffung lernen.
+Der Charakter kann immer nur einer Blutlinie angehören.
+
+Danach kostet jede Stufe *100 CP* multipliziert mit der Anzahl der bereits gelernten Stufen.
+
+Jede Stufe bringt eine Eigenschaft mit sich, die der Charakter mit Erlernen der Stufe sofort beherrscht. Stufen müssen in angegebener Reihenfolge gelernt werden und jede Blutlinie hat eine maximale Stufe. Wird diese erlernt, kann man keine CP mehr in diese investieren und neuen Stufen lernen.
+
+Die komplette Liste der Blutlinien findet sich hier: link:../advanced/advanced_rules_bloodlines.adoc[Blutlinien]
 
 === Schicksalspfade
 
@@ -868,13 +881,13 @@ Stattdessen muss der Charakter die angegebenen Voraussetzungen erfüllen.
 Sobald er dies tut, kann er den Schicksalspfad lernen, in dem er die angegeben CP einmal ausgibt.
 Dieser Vorgang ist vergleichbar mit dem Erlernen einer Besonderen Fähigkeit.
 
-Jeder Charakter kann nur einen Schicksalspfad lernen und ein Schicksalspfad kann niemals verlernt werden.
-
 Schicksalspfade werden wie Talente oder Attribute in Stufen gemessen.
 Die initiale Erlernung gilt als Stufe 1.
-Jede weitere Stufe kostet *100CP* multipliziert mit der Anzahl der bereits gelernten Stufen.
+Jede weitere Stufe kostet *100 CP* multipliziert mit der Anzahl der bereits gelernten Stufen.
 
 Pro Stufe kann der Charakter aus der je Schicksalspfad angebenen Liste von Fähigkeiten eine dieser auswählen und lernt diese sofort.
+
+Ein Charakter kann immer nur einen Schicksalspfad lernen.
 
 //TODO
 .Schicksalspfade
@@ -892,3 +905,8 @@ Etwas später in seinem Leben ist Me'ander bereits Erzmagier der Stufe 4 und mö
 
 Die komplette Liste der Schicksalspfade finde sich hier:
 link:../advanced/advanced_rules_paragon_paths.adoc[Schicksalspfade].
+
+==== Optional: Anzahl der Schicksalspfade
+
+Die Anzahl der Schicksalspfade ist im System von Far Ages durch die Regeln auf einen Schicksalspfad pro Charakter beschränkt.
+Der SL kann natürlich beliebig diese Beschränkungen aufheben.
