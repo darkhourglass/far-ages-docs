@@ -293,11 +293,11 @@ Erfolgsgrade an:
 |Anzahl der Erfolge |Erfolgsgrad |Erfolgsgrad in Zahlen
 |0 |Misserfolg |0
 |1 |Durchschnitt |1
-|5 |Gut |2
-|10 |Sehr Gut |3
-|15 |Ausgezeichnet |4
-|20 |Meisterhaft |5
-|25+ |Heldenhaft |6
+|4 |Gut |2
+|8 |Sehr Gut |3
+|12 |Ausgezeichnet |4
+|16 |Meisterhaft |5
+|20+ |Heldenhaft |6
 |===
 
 Erfolgsgrade dienen in den Regeldokumenten auch als Abkürzung, so
@@ -667,7 +667,7 @@ zum Erfolg.
 fliehen. Er verwendet alle seine Aktionspunkte auf die Flucht bis die
 Quelle seiner Furcht aus seinem Blickfeld verschwunden ist.
 
-**Horror: **Viel stärker als die Furcht ist die Erkenntnis, dass manche
+*Horror:* Viel stärker als die Furcht ist die Erkenntnis, dass manche
 Dinge eigentlich nicht existieren dürften. Kosmische Schrecken,
 unnatürliche Ereignisse und zur Wirklichkeit gewordene Alpträume kreuzen
 selten, aber wenn dann äußerst prägend, das Leben eines Abenteurers.
@@ -1085,7 +1085,7 @@ Willenskraft-Probe gewürfelt werden.
 
 ==== Täuschen
 
-**Attribut: **Charisma
+*Attribut:* Charisma
 
 Die Wahrheit sagen ist nicht immer von Vorteil oder gar gesund. Wenn ein
 Charakter einen anderen Charakter belügen will oder ihm gegenüber einen

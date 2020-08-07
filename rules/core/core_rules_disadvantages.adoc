@@ -406,7 +406,7 @@ Höhlen mit geringer Ausleuchtung.
 == Neugierig
 *Punkte:* 10 +
 *Beschränkung:* - +
-**Beschreibung: **Neugier treibt den Charakter an. Jedes Mal, wenn er in
+*Beschreibung:* Neugier treibt den Charakter an. Jedes Mal, wenn er in
 eine Situation kommt, in der seine Neugier siegen könnte, z.B. wenn er
 ein Schloss öffnen könnte, oder eine Tür oder länger als es gesund wäre,
 beobachten will, was dort am nächtlichen See aus dem Wasser steigt, muss
@@ -464,12 +464,17 @@ Situation.
 == Schadensanfälligkeit [Schadensart]
 *Punkte:* +15 pro Level +
 *Beschränkung:* Rasse, Beruf +
-*Beschreibung:* Ein Charakter mit diesem Nachteil ist gegen die
-gewählte Schadensart besonders anfällig. Pro Level erhält die
-Angriffsprobe, die diese Schadensart verursacht, einen zusätzlichen
-Würfel +1W10.
+*Beschreibung:* Ein Charakter mit diesem Nachteil ist gegen die gewählte Schadensart besonders anfällig.
+Pro Level erhält die Angriffsprobe, die diese Schadensart verursacht, einen zusätzlichen Würfel +1W10.
 
 Die Schadensarten werden im Kapitel link:core_rules_battlesystem.adoc[Kampf] aufgeführt.
+
+.Schadensanfälligkeit
+====
+Ein Charakter wählt den Nachteil Schadenanfälligkeit [Frost] auf Level 1.
+Eine Angriffprobe, die die Schadensart Frost verursacht, wird mit 5 Würfeln gewürfelt.
+Richtet sich diese Angriffsprobe gegen den Charakter, wird sie mit 5 + 1 = 6 Würfeln geworfen.
+====
 
 == Schlechte Kletterer
 *Punkte:* 15 +
