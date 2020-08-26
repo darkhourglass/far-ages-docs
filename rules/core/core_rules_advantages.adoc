@@ -29,7 +29,7 @@ Er erhält einen Bonus von +1 auf die Würfe zum Erfolg alle Verführen-Proben (
 Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Entdecken- und Suchen-Proben (Standardproben).
 
 == Außergewöhnliche Begabung[Talent]
-*Punkte:* 30 +
+*Punkte:* 20 +
 *Beschränkung:* - +
 *Beschreibung:* Mit diesem Vorteil kann ein Charakter die Klasse von seinen Talenten ändern.
 Er kann das gewählte Talent von SGM 3 auf SGM 2 verbessern, so dass er es trotz seines Berufes einfacher lernen kann.
@@ -105,7 +105,7 @@ Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg für alle Fur
 *Punkte:* 15 +
 *Beschränkung:* - +
 **eschreibung:* Der Charakter hat ein herausragendes Körpergefühl.
-Der Charakter erhält einen Bonus von ++1 auf die Würfe zum Erfolg auf alle Akrobatik-Proben (Standardprobe).
+Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Akrobatik-Proben (Standardprobe).
 
 == Gefallen
 *Punkte:* variabel +
@@ -171,6 +171,17 @@ Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Übe
 *Beschreibung:* Der Charakter erhält einen Bonus auf seinen WID-Wert.
 Für Level I erhält er einen Bonus von +2, für Level II: +4 und Level III +6.
 
+== Homunkulus
+*Punkte:* 20 +
+*Beschränkung:* Beruf +
+*Beschreibung:* Ein Homunkulus ist ein kleines, aus den Energien des Aethers geformtes Wesen, welches dem Charakter treu ergeben ist.
+Ein Homunkulus kann jede Gestalt bis einer GK 3 annehmen.
+In jeder dieser Gestalten erkennt man jedoch, dass irgendetwas "nicht stimmt", d.h. spätenstens auf den zweiten Blick bemerkt ein Betrachter, dass der Homunkulus kein normales Wesen dieser Gestalt ist. +
+Der Homunkulus kann auf Wunsch seines Besitzers jederzeit in den Aether zurückkehren und sich wieder manifestieren. Dies erfolgt immer in Sichtweite des Besitzer. +
+Befindet sich der Homunkulus nicht im Aether, kann er sich maximal 100 Meter von seinem Besitzer entfernen. Kann der Homunkulus die Distanz nicht halten, kehrt er in den Aether zurück. +
+Er kehrt ebenso in den Aether zurück, wenn er getötet wird. In den beiden letzten Fällen muss der Besitzer 20 MP ausgeben, um den Homunkulus zu beschwören. +
+Der Homunkulus versteht jede natürliche Sprache, jedoch nur sein Besitzer kann den Homunkulus verstehen. Außerdem nimmt der Homunkulus nur Befehle seines Besitzers entgegen.
+
 == Ich verdiene meine Brötchen selbst!
 *Punkte:* 10 +
 *Beschränkung:* - +
@@ -204,6 +215,21 @@ Fremde Welten und Ebenen können diesen Sinn einschränken, bzw. aussetzen.
 *Beschränkung:* - +
 *Beschreibung:* Wie eine Katze fällt der Charakter deutlich häufiger auf die Füße als andere.
 Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Fallen-Proben (Standardprobe).
+
+== Kiemen, Einfache
+*Punkte:* 10 +
+*Beschränkung:* Rasse +
+*Beschreibung:* Der Charakter kann unter Wasser normal atmen.
+Er muss jedoch regelmäßig Luft holen und dabei mindestens 10 Minuten über Wasser bleiben. +
+Wie oft er Luft holen muss, wird durch seine KO-Stufe bestimmt.
+Pro einer Stufe in seinem KO-Attribut kann der Charakter 4 Stunden unter Wasser bleiben. +
+Der Charakter kann nicht unter Wasser schlafen.
+
+== Kiemen
+*Punkte:* 25 +
+*Beschränkung:* Rasse +
+*Beschreibung:* Der Charakter kann unter Wasser normal atmen.
+Er muss nicht zur Oberfläche zurückkehren um regelmäßig Luft holen.
 
 == Leichter Schlaf
 *Punkte:* 20 +
@@ -258,6 +284,14 @@ Diese natürliche Rüstung verhindert nur körperlichen Schaden und zwar pro Lev
 *Beschreibung:* Der Charakter besitzt ein photographisches Gedächtnis.
 Alle Wissen-Proben, die durch ein Wissenstalent oder eine einfache ER-Probe abgedeckt werden, erhalten einen Bonus von +3 Würfel.
 Andere auf ER-basierende Talent können nicht von diesem Bonus profitieren.
+
+== Reittier
+*Punkte:* 15, 30 +
+*Beschränkung:* Beruf (Level II) +
+*Beschreibung:* Der Charakter besitzt ein Reitteir, z.B. ein Pferd. Mit Level I dieses Vorteils wurde das Reittier für exakt die Aufgabe des Reitens trainiert.
+D.h. es ist das Tragen eines Sattels und Geschirr gewöhnt, trägt ohne Widerwillen einen Reiter und versteht seine Kommandos.
+Weitergehende Stresssituationen ist das Reittier nicht gewöhnt. Es nimmt nie aktiv an Kampfsituationen teil und versucht im Normalfall zu fliehen. +
+Mit Level II hingegen hat das Reittier Stresssituationen trainiert (z.B. den Kampf) und bleibt ruhig. Es kann an Kämpfen teilnehmen. Darüber hinaus ist das Reittier auf Level II ein Tiergefährte für den Charakter.
 
 == Ruf
 *Punkte:* 10, 20, 30, 40, 50 +
@@ -315,6 +349,17 @@ Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Springen-Proben
 *Beschränkung:* - +
 *Beschreibung:* Der Charakter versteht es außergewöhnlich gut, andere Leute in ein Gespräch zu verwickeln und sie dazu zu bringen, ihm Informationen zu geben.
 Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Ausfragen-Proben (Standardprobe).
+
+== Tiergefährte
+*Punkte:* 15, 30 +
+*Beschränkung:* Beruf +
+*Beschreibung:* Der Charakter hat im Laufe seines Lebens zu einem Tier eine besondere Beziehung aufgebaut, dieses vielleicht von Geburt an gehütet.
+Das Tier ist dem Charakter treu ergeben, jedoch sollte der Charakter dieses Vertrauen nicht missbrauchen.
+Das Tier kann immer nur in seinen natürlichen Grenzen agieren, es besitzt also keine außergewöhnlichen Fähigkeiten. +
+Beide besitzen eine leichte emphatische Verbindung, so dass sie wissen, wo der jeweils andere sich befindet und was der andere gerade möchte oder benötigt. +
+Einmal pro Tag mit dem Einsatz von 5 MP kann der Charakter seinen Tiergefährten rufen.
+Dieser macht sich auf Weg, um den Charakter zu treffen, wobei er den Weg ganz normal zurücklegen muss. Ein Hinderniss, welches das Treffen vermeidet, wird dem Charakter bei Erreichen dieses Hindernisses mitgeteilt. +
+Es kann jedoch Kommandos gelernt haben, die auch komplexere Aufgaben beinhalten. Auf Level I kann der Charakter einen Tiergefährten bis GK 4 besitzen, auf Level II bis GK 6.
 
 == Überlebensinstinkt
 *Punkte:* 20 +

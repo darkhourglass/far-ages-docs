@@ -143,7 +143,6 @@ auf dem Tier sitzt.
 *Verwandtes Attribut:* ST +
 *Kampfphasen:* S +
 *Beschreibung:* Erlaubt einen Schild zur Verteidigung gegen Nahkampfattacken zu nutzen.
-
 Das Talent kann nur verwendet werden, wenn der Charakter einen Schild
 verwendet. Nur einmal pro Kampfphase einsetzbar.
 
@@ -162,16 +161,13 @@ Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampfphasen:* V +
-*Beschreibung:* Solange der Charakter eine Wurfwaffe führt, darf er
-alle Angriffsproben im Fernkampf mit diesem Talent würfeln. Die Anzahl
-Kampfphasen hängt von der gewählten Waffe ab und ist der Ausrüstungsliste zu entnehmen.
+*Beschreibung:* Solange der Charakter eine Wurfwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
+Die Anzahl Kampfphasen hängt von der gewählten Waffe ab und ist der Ausrüstungsliste zu entnehmen.
 
 == Schurkische Talente
 
-Diese Kategorie beschreibt Talente, die auf Heimlichkeit und Geschick
-basieren. Auch wenn der Name “Schurke” eine gewisse Illegalität
-beinhaltet, so sind diese Talente nicht zwangsläufig nur für dubiose
-Gestalten gedacht.
+Diese Kategorie beschreibt Talente, die auf Heimlichkeit und Geschick basieren.
+Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind diese Talente nicht zwangsläufig nur für dubiose Gestalten gedacht.
 
 === Akrobatik
 
@@ -193,14 +189,11 @@ Auslöser einer entschärften Falle betätigt wird, wird kein Effekt
 ausgelöst. In einigen Fällen ist Werkzeug nötig, in anderen Fällen ist
 eine kontrollierte Zündung nötig. In den Beschreibungen der Fallen ist
 die Anzahl der Erfolge, die nötig sind, um die Falle zu entschärfen,
-angegeben.
-
+angegeben. +
 Ein Misserfolg verhindert die erfolgreiche Entschärfung, der Charakter
 muss mindestens 10 Minuten warten, bis er es wieder versuchen kann. Ein
-Patzer löst die Falle sofort aus.
-
-Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen. Dieses Talent
-kann nur bei nicht-magische Fallen angewendet werden.
+Patzer löst die Falle sofort aus. +
+Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen. Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
 === Fallen Stellen
 
@@ -208,12 +201,11 @@ kann nur bei nicht-magische Fallen angewendet werden.
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
 *Kampfphasen:* 10 +
-*Beschreibung:* Mit diesem Talent kann der Charakter Fallen zusammenbauen und aufstellen. Die dazu nötigen Anzahl der Erfolge findet man in der Beschreibung der Fallen.
-
-Wirft der Charakter einen Misserfolg, so muss er mindestens 10 Minuten warten, bevor er versuchen kann, die Falle erneut aufzustellen. Ein Patzer zerstört die Falle.
-
-Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen. Dieses Talent
-kann nur bei nicht-magische Fallen angewendet werden.
+*Beschreibung:* Mit diesem Talent kann der Charakter Fallen zusammenbauen und aufstellen. Die dazu nötigen Anzahl der Erfolge findet man in der Beschreibung der Fallen. +
+Wirft der Charakter einen Misserfolg, so muss er mindestens 10 Minuten warten, bevor er versuchen kann, die Falle erneut aufzustellen.
+Ein Patzer zerstört die Falle. +
+Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
+Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
 === Reflex
 
@@ -229,12 +221,9 @@ kann nur bei nicht-magische Fallen angewendet werden.
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampfphasen:* W +
-*Beschreibung:* Der Charakter muss ansagen, wenn er schleichen will, also wenn er sich leise und unbemerkt fortbewegen will.
-
-Die Anzahl der Erfolge legt die nötige Anzahl von Erfolgen fest, die ein anderer Charakter mit einer Entdecken-Probe benötigt, um den schleichenden Charakter zu bemerken.
-
-Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine.
-
+*Beschreibung:* Der Charakter muss ansagen, wenn er schleichen will, also wenn er sich leise und unbemerkt fortbewegen will. +
+Die Anzahl der Erfolge legt die nötige Anzahl von Erfolgen fest, die ein anderer Charakter mit einer Entdecken-Probe benötigt, um den schleichenden Charakter zu bemerken. +
+Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine. +
 Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort Entdecken-Proben von allen Kreaturen in der näheren Umgebung provoziert.
 
 === Schloss Knacken
@@ -247,12 +236,10 @@ Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Pa
 benötigt er in der Regel einen Dietrich. Unterschiedliche Schlösser
 können unterschiedliches Werkzeug benötigen. Für jedes Schloss sollte
 der SL eine Anzahl von Erfolgen festlegen, die nötig sind, um das
-Schloss zu öffnen.
-
+Schloss zu öffnen. +
 Bei einem Misserfolg gelingt es dem Charakter nicht, das Schloss zu
 knacken, er muss 1 Minute warten, bevor er es nochmal versuchen kann.
-Bei einem Patzer bricht er sein Werkzeug entzwei.
-
+Bei einem Patzer bricht er sein Werkzeug entzwei. +
 Dieses Talent geht von einer leisen und heimlichen Aktion aus. Damit
 schließt sich Sprengstoff oder Troll als „Dietrich“ aus. Magisch
 verschlossene Türen lassen sich damit nicht öffnen.
@@ -273,8 +260,7 @@ Mindestwurf bleibt unverändert. Der SL verlangt 2 Erfolge, um einen
 Gegenstand zu ergattern. Den ersten Erfolg benötigt er, um den
 Gegenstand zu ergattern, den anderen, um nicht bemerkt zu werden.
 Größere oder besser geschützte Gegenstände erfordern im allgemeinen mehr
-Erfolge.
-
+Erfolge. +
 Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht
 erreichen konnte, ein Patzer lässt den Dieb auf frischer Tat auffliegen.
 

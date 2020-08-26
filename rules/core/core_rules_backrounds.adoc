@@ -54,7 +54,7 @@ Der Charakter nutzt seinen Beruf vielleicht zu seinem Vorteil am Hof oder er beg
 *Beschreibung:* Das Leben hat es nicht einfach gemeint.
 Der Charakter wuchs in ärmlichen Verhältnissen auf oder hat in den letzten Jahren kein regelmäßiges Einkommen erhalten.
 Seine Lebensverhältnisse sind bestenfalls einfach und wenn er regelmäßig etwas Warmes zu Essen bekommt, dann schätzt er sich glücklich. +
-*Bonus:* Startkapital * 0.5, +1 KO +
+*Bonus:*  +1 KO, Startkapital * 0.5 +
 *CP:* 10
 
 == Barbar
@@ -62,8 +62,8 @@ Seine Lebensverhältnisse sind bestenfalls einfach und wenn er regelmäßig etwa
 *Beschreibung:* Der Charakter stammt vielleicht aus einer wenig bevölkerten und meinst unwirtlichen Gegend, in der das tägliche Überleben und das Recht des Stärkeren zählt.
 Das weiche Leben der Stadt mit einem Dach über dem Kopf ist dem Charakter fremd, er ist gewöhnt, sein Essen selbst zu jagen und erlegen.
 Er kommt aus einer meist stammesorientieren Gesellschaft, in der er die Rolle eines Kämpfers übernimmt. +
-*Bonus:* Startkapital * 0.5, +1 ST, Wissen[Überleben] SGM 2, Wissen[Natur]
-SGM 2 +
+*Bonus:* +1 ST, Wissen[Überleben] SGM 2, Wissen[Natur]
+SGM 2, Startkapital * 0.5 +
 *CP:* 30 +
 
 == Bettler
@@ -71,8 +71,8 @@ SGM 2 +
 *Beschreibung:* Der Charakter hat nichts, außer dem, was er am Körper trägt.
 Er ist auf die Milde Gabe seiner Mitmenschen (oder anderer) angewiesen, die nicht selten mit Abscheu, Verachtung oder Ekel auf ihn hinabsehen.
 Seine Ernährung und Hygiene lassen zu Wünschen übrig. Er hat gelernt, alleine zu überleben und die notwendigen Dinge dazu zu erbetteln. +
-*Bonus:* Startkapital = 1, +1 GE, Konversation SGM 2,
-Wissen[Überleben] SGM 2 +
+*Bonus:* +1 GE, Konversation SGM 2,
+Wissen[Überleben] SGM 2, Startkapital = 1 +
 *CP:* 20
 
 == Eigenbrötler
@@ -80,8 +80,7 @@ Wissen[Überleben] SGM 2 +
 *Beschreibung:* Selten sucht ein Charakter mit diesem Hintergrund die gesellschaftliche Nähe, meistens nur im Notfall.
 Über andere und ihre alltäglichen Verhaltensweisen kann er sich nur wundern, was oft auf Gegenseitigkeit beruht.
 Als Ausgleich hat er sehr viel Zeit, um sich um die Dinge zu kümmern, die er wirklich als wichtig sieht. +
-*Bonus:* Ein Wissensgebiet SGM 1 oder 2 Wissensgebiete auf SGM 2 (jeweils
-außer Arkanes) +
+*Bonus:* Ein Wissensgebiet SGM 1 oder 2 Wissensgebiete auf SGM 2 (außer Arkanes) +
 *CP:* 20
 
 == Farmer
@@ -94,20 +93,20 @@ Dazu zählen vielseitige Varianten wie der Anbau von Getreide, zahlreiche Nutzpf
 == Freibeuter
 
 *Beschreibung:* +
-*Bonus:* +
-*CP:*
+*Bonus:* +1 GE, Reiten oder Parade oder Wissen[Segeln] auf SGM 1 +
+*CP:* 40
 
 == Gelehrter
 
 *Beschreibung:* +
-*Bonus:* +
-*CP:*
+*Bonus:* +1 ER, 2 Wissensgebiete auf SGM 1 +
+*CP:* 60
 
 == Gildenmitglied
 
 *Beschreibung:* +
-*Bonus:* +
-*CP:*
+*Bonus:* 1 Handwerkstalent oder 1 Kunsttalent auf SGM 1, Lesen/Schreiben und Konversation auf SGM 2 +
+*CP:* 40
 
 == Glücksritter
 

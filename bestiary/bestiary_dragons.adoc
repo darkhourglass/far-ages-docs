@@ -52,10 +52,16 @@ Der normalerweise auftretende visuelle Effekt bei der Anwendung von Aether Wahrn
 *Beschreibung:*
 
 === Beute markieren
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* ER 6 +
+*Attribut:* ER +
+*Machtstufe:* 3 +
+*Beschreibung:* Mit dieser Fähigkeit kann der Drache eine beliebige andere, lebene Kreatur (damit keine Untoten oder Konstrukte) mit einem magischen Anker markieren, so dass der Drache die Anwesenheit und genaue Position der Kreatur spüren kann. +
+Um ein Wesen zu markieren, muss der Drache 5 MP ausgeben und eine konkurrierende Probe gegen ER oder SB bestehen (jenachdem welche Stufe beim Ziel höher ist). +
+Ein einfacher Erfolg reicht aus, um das Wesen zu markieren, jedoch weiß das Wesen in diesem Momant um sein Schicksal. Erst ein Guter Erfolg lässt die Markierung subtil genug entstehen. +
+Solange die Kreatur markiert ist, weiß der Drache in einem Umkreis von 100 Meilen immer genau, wo die Kreatur ist und kann sie erspüren. +
+Wenn der Drache Trefferwürfe gegen die Kreatur ausführt, erhält er einen Bonus von +1 auf die Würfe zum Erfolg. +
+Der Drache kann immer nur eine Kreatur markieren. Er kann eine Markierung jedoch auch jederzeit aufheben. +
+Eine erfolgreiche Probe mit mindestens Sehr Gutem Erfolg in Aether Wahrnehmung zeigt (sowohl beim Drachen als auch beim Opfer) eine magische Verbindung, die durch einen glühenden Faden dargestellt wird, welcher im Aether verschwindet.
 
 === Drachenatem [Schadensart]
 *Voraussetzungen:* Elementaraffinität +
@@ -156,11 +162,21 @@ Der Drache kann diese Fähigkeit einmal lernen. Zu jedem Element gibt es ein Geg
 Er kann damit das Kampfmanöver Luftangriff durchführen.
 Seine Bewegungsrate fliegend beträgt BEW * 3.
 
-=== Formwandeln
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+=== Formwandeln [Form]
+*Voraussetzungen:* EN 5, CH 8 +
+*Attribut:* - +
+*Machtstufe:* 5 +
+*Beschreibung:* Ein Drache mit dieser Fähigkeit kann seine Gestalt wandeln, um so beinahe unerkannt zu bleiben.
+Die Fähigkeit kann mehrfach gelernt werden, jeweils einmal pro gewünschter Form.
+Möchte ein Drache seine Gestalt wandeln, so muss er 10 MP ausgeben.
+Der Drache nimmt sofort die Gestalt auf unbestimmte Zeit an.
+Er kann in seine normale Gestalt jederzeit zurückkehren. +
+Der Drachen kann nur natürliche Formen wählen, die maximal 4 Größenkategorieren von seiner aktuellen GK abweisen.
+Er kann keine Form von Untoten, Konstrukte, Dämonen oder Scheusalen wählen.
+Im Fall einer humanoiden Form kann der Drache keine Mischvölker oder besondere Blutlinien wählen.
+Der Drache kann keine existierende Form eines Individuums (z.B. einen konkreten Menschen wie den Bürgermeister von Rom) annehmen. +
+In seiner gewandelten Form kann der Drache alle Drachenfähigkeiten nutzen, so als wäre seine Gestalt nicht gewandelt. Allerdings muss der Drache eine Form wählen, die Flügel hat, um zu fliegen. Seine Drachenschuppen und Panzer bieten den passenden Schutz, auch wenn die Form keine offensichtliche, natürliche Panzerung aufweist. +
+Drachen wählen gerne humanoide Formen wie Elfen oder Menschen, um in die verschiedensten Gesellschaften einzuwandern - zu welchen Zweck auch immer.
 
 === Gift
 *Voraussetzungen:* +
