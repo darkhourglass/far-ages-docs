@@ -153,6 +153,12 @@ Seine Attributsstufen ergeben dann:
 ST: 2, GE: 4, KO: 1, ER: 3, EN: 2, SB: 2, CH: 2
 ====
 
+Während der Charaktererschaffung darf keine Attributsstufe auf 0 oder weniger fallen.
+Das bedeutet, wenn ein Charakter eine Kombination aus Volk, Hintergrund und Beruf wählt, die ein oder mehrere Attribute auf 0 oder weniger reudzieren würde, hat er zwei Möglichkeiten:
+
+* Er kann die Kombination von Volk, Hintergrund und Beruf verändern, um die Attributsstufen auf 1 oder höher zu bringen.
+* Pro Attributsstufe kann er 20 CP bezahlen, um das Attribut auf Stufe 1 zu bringen. Dies ist kumulativ zu zahlen, d.h. sollte beispielsweise eine Attributsstufe auf -1 fallen, so sind 40 CP insgesamt nötig.
+
 == Talente
 
 Berufe und Talente sind eng miteinander verknüpft. Ihr Fortschreiten,

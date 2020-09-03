@@ -609,7 +609,7 @@ Die Fähigkeit kann nicht auf Zauber angewendet werden, die der Zauberer aus Geg
 [quote, Byhragast „Eisauge“]
 Die Feder ist mächtiger als das Schwert, vorausgesetzt, die Feder weiß, was sie zu schreiben hat.
 
-*Voraussetzungen:* Spruchzauberei 3, Lesen/Schreiben 3, Arkane Sprache[eine Sprache] +
+*Voraussetzungen:* Spruchzauberei 3, Lesen/Schreiben 1, Wissen [Arkanes] 1 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Diese Fähigkeit ist eine spezielle Form des Herstellens Magischer Gegenstände.
 Nämlich jener in schriftlicher Form, also Spruchrollen und Grimoires.
@@ -670,11 +670,11 @@ Der Wert in Silbermünzen eines verzauberten Grimoire ergibt sich aus der
 Summe über alle POT aller Sprüchen multipliziert mit 500.
 
 .Grimoire schreiben
-===
+====
 Ein Grimoire enthält 4 Zaubersprüche.
 Davon sind 2 von POT 5, 1 POT 6 und POT 8.
 Der Wert berechnet sich daher (2*5 + 6 + 8)*250 = 12000 Silbermünzen.
-===
+====
 
 == Zauber Festhalten I
 

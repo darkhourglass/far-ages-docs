@@ -50,6 +50,22 @@ Die unten angebenden Regeln beziehen sich jedoch nicht explizit auf das Verwende
 Typische Begriffe, wie von der Seite angreifen, in den Rücken fallen, lassen sich direkt übertragen.
 An einigen Beispielen nutzen wir die Anschaulichkeit der Miniaturen, um das Spielprinzip zu erläutern.
 
+== Beginn des Kampfes
+
+[quote, Gratak „Eisenbieger“]
+Ein Kampf endet meistens genauso wie er anfangen hat.
+
+Der Beginn des Kampfs ist der Zeitpunkt, an dem die Abfolge von Kampfphasen beginnt.
+Der Auslöser ist sicherlich aus der Handlung des Abenteuers herauszufiltern, und sollte keinen Regeln unterliegen.
+
+Das System von Far Ages unterscheidet jedoch zwischen zwei Möglichkeiten einen Kampf zu beginnen: Kampf, den beiden Seiten initialisiert und dem Kampf, den eine Seite initialisiert.
+
+Die erste Variante ist am einfachsten erläutert, denn in diesem Fall haben beide (ggf. natürlich auch mehrere) Parteien ihre Waffen gezogen und Vorbereitungen getroffen und es kommt direkt zur ersten Kampfphase.
+
+Die zweite Variante basiert auf der Annahme, dass eine Partei von der anderen überrascht wurde bzw. plötzlich zum Kampf gezwungen.
+In diesem Fall spricht man von einem *Überraschungsangriff*.
+Dieser wird ausführlich in einem späteren Kapitel besprochen.
+
 == Ablauf eines Kampfes
 
 In der Realität ist ein Kampf ein schwer kontrollierbares System aus Ereignissen, die oft gleichzeitig passieren.
@@ -112,22 +128,6 @@ Weiterhin lässt sich dieses Modell auch benutzen, um lang anhaltende Aktionen, 
 In diesem Fall beginnt die Aktion mit der ersten Kampfphase, in der der Charakter anfängt zu singen, und endet mit der Kampfphase, in der der Charakter seinen Gesang beendet.
 
 Die folgenden Kapitel beschreiben nun die Einzelheiten der Schritte.
-
-=== Beginn des Kampfes
-
-[quote, Gratak „Eisenbieger“]
-Ein Kampf endet meistens genauso wie er anfangen hat.
-
-Der Beginn des Kampfs ist der Zeitpunkt, an dem die Abfolge von Kampfphasen beginnt.
-Der Auslöser ist sicherlich aus der Handlung des Abenteuers herauszufiltern, und sollte keinen Regeln unterliegen.
-
-Das System von Far Ages unterscheidet jedoch zwischen zwei Möglichkeiten einen Kampf zu beginnen: Kampf, den beiden Seiten initialisiert und dem Kampf, den eine Seite initialisiert.
-
-Die erste Variante ist am einfachsten erläutert, denn in diesem Fall haben beide (ggf. natürlich auch mehrere) Parteien ihre Waffen gezogen und Vorbereitungen getroffen und es kommt direkt zur ersten Kampfphase.
-
-Die zweite Variante basiert auf der Annahme, dass eine Partei von der anderen überrascht wurde bzw. plötzlich zum Kampf gezwungen.
-In diesem Fall spricht man von einem *Überraschungsangriff*.
-Dieser wird ausführlich in einem späteren Kapitel besprochen.
 
 === Kampfphasen, Aktionen und Initiative
 
@@ -198,7 +198,34 @@ Führt er gerade eine Aktion weiter und wählt dann warten, so gilt die Aktion a
 Wählt er warten, so kann er erst in der nächsten Kampfphase neue Aktionen ansagen.
 Während er wartet kann er jedoch auf Aktionen anderer wie gewohnt reagieren.
 
-=== Was ist eine Aktion?
+=== Initiative und Initiativereihenfolge
+
+Die *Initiative* eines Charakter bestimmt, wann er in einer Kampfphase dran ist, wenn mehrere Kampfteilnehmer ihre Aktionen durchführen wollen.
+
+.Initiative
+====
+Im obigen Beispiel haben wir bereits gesehen, dass in Kampfphase 5 alle drei Kampfteilnehmer gleichzeitig dran sind, sie können in dieser Kampfphase jeder eine Aktion durchführen.
+Wer zuerst agiert, bestimmt nun die Initiativereihenfolge.
+====
+
+Die *Initiativereihenfolge* ergibt sich aus den Initiative-Werten der Kampfteilnehmer.
+Wer einen höheren INI-Wert hat, agiert vor denen, mit niedrigeren INI-Werten.
+
+.Initiativereihenfolge
+====
+Die Initiativereihenfolge für Kampfphase 5 aus dem obigen Beispiel ist daher Aghotharu, Kraag, Me'ander.
+====
+
+Sind zwei Initiativewerte gleich, so entscheiden im Fall, dass beide Kampfteilnehmer aus derselben Kampfpartei sind, die beiden Kampfteilnehmer, wer zuerst agieren darf und im Fall, dass beide aus unterschiedlichen Kampfparteien stammen, ein Würfelwurf.
+
+Es gibt Möglichkeiten, den INI-Wert zu beeinflussen. Rüstung, die der Charakter trägt, reduziert diesen Wert.
+Die nennt man einen sogenannten *Initiative-Malus*.
+Der INI-Wert kann durch einen Initiative-Malus einen negativen Wert erreichen, der in der Initiativereihenfolge entsprechend eingeordnet wird.
+
+Es noch diverse andere Faktoren, wie zum Beispiel das Wirken von Magie oder Vor- oder Nachteile, die den INI-Wert beeinflussen.
+Diese müssen alle ausgewertet werden bevor die endgültige Initiativereihenfolge steht.
+
+=== Aktionen
 
 Bisher wurde das Wort Aktion ohne konkrete Bedeutung benutzt.
 Als Aktion in einem Kampf nach dem System von Far Ages bezeichnen wir eine Handlung der Art:
@@ -288,33 +315,6 @@ Es kann dann zu negativen Folgen für den Abbrecher kommen, was jedoch von der S
 
 Kampfteilnehmer, die eine Aktion abbrechen, können in derselben Kampfphase normalerweise neue Aktionen ansagen.
 Dies bezeichnet man als Aktionen ändern.
-
-=== Initiative und Initiativereihenfolge
-
-Die *Initiative* eines Charakter bestimmt, wann er in einer Kampfphase dran ist, wenn mehrere Kampfteilnehmer ihre Aktionen durchführen wollen.
-
-.Initiative
-====
-Im obigen Beispiel haben wir bereits gesehen, dass in Kampfphase 5 alle drei Kampfteilnehmer gleichzeitig dran sind, sie können in dieser Kampfphase jeder eine Aktion durchführen.
-Wer zuerst agiert, bestimmt nun die Initiativereihenfolge.
-====
-
-Die *Initiativereihenfolge* ergibt sich aus den Initiative-Werten der Kampfteilnehmer.
-Wer einen höheren INI-Wert hat, agiert vor denen, mit niedrigeren INI-Werten.
-
-.Initiativereihenfolge
-====
-Die Initiativereihenfolge für Kampfphase 5 aus dem obigen Beispiel ist daher Aghotharu, Kraag, Me'ander.
-====
-
-Sind zwei Initiativewerte gleich, so entscheiden im Fall, dass beide Kampfteilnehmer aus derselben Kampfpartei sind, die beiden Kampfteilnehmer, wer zuerst agieren darf und im Fall, dass beide aus unterschiedlichen Kampfparteien stammen, ein Würfelwurf.
-
-Es gibt Möglichkeiten, den INI-Wert zu beeinflussen. Rüstung, die der Charakter trägt, reduziert diesen Wert.
-Die nennt man einen sogenannten *Initiative-Malus*.
-Der INI-Wert kann durch einen Initiative-Malus einen negativen Wert erreichen, der in der Initiativereihenfolge entsprechend eingeordnet wird.
-
-Es noch diverse andere Faktoren, wie zum Beispiel das Wirken von Magie oder Vor- oder Nachteile, die den INI-Wert beeinflussen.
-Diese müssen alle ausgewertet werden bevor die endgültige Initiativereihenfolge steht.
 
 == Nahkampf und Unbewaffneter Kampf
 

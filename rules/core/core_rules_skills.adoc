@@ -54,7 +54,7 @@ Attacke durchführen und sich dann in derselben Kampfphase bewegen (auch
 maximal seine halbierte BEW). Er kann sich damit aus einem Kampf lösen,
 ohne die Kampfmanöver Flucht oder Zurückweichen benutzen zu müssen.
 
-Seine Bewegung führen n beiden Fällen zu keinem Gelegenheitsangriff.
+Seine Bewegung führen in beiden Fällen zu keinem Gelegenheitsangriff.
 
 === Barriere
 
@@ -118,7 +118,7 @@ Gelegenheitsangriffe pro Kampfphase durchführen.
 
 === Kampfkunst I
 
-*Voraussetzungen:* Unbewaffneter Kampf 3
+*Voraussetzungen:* Unbewaffneter Kampf 3 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeiten beschreiben einen Kampfstil, der ohne Waffen geführt wird und über den Unbewaffneten Kampf hinausgeht. Dank intensivem Training wird der Charakter auch ohne Waffen ein gefährlicher Teilnehmer im Kampf.
 Kampfkunst I ermöglicht dem Charakter einen Gegner zu entwaffnen, in dem er die Waffe des Gegners aus der Hand tritt oder schlägt.
@@ -131,7 +131,7 @@ Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schad
 
 === Kampfkunst II
 
-*Voraussetzungen:* Unbewaffneter Kampf 6, Kampfkunst I
+*Voraussetzungen:* Unbewaffneter Kampf 6, Kampfkunst I +
 *CP-Kosten:* 300 +
 *Beschreibung:* Mit Erlernen dieser Fähigkeit kann der Charakter einen Angriff zum Niederschlag durchführen.
 Dazu wirft er eine Probe auf Unbewaffneten Kampf mit einem Malus von -1 auf die Würfe zum Erfolg.
@@ -141,7 +141,7 @@ Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schad
 
 === Kampfkunst III
 
-*Voraussetzungen:* Unbewaffneter Kampf 9, Kampfkunst II
+*Voraussetzungen:* Unbewaffneter Kampf 9, Kampfkunst II +
 *CP-Kosten:* 400 +
 *Beschreibung:* Kampfkunst III eleminiert alle negativen Modifikationen, die ein
 unbewaffenter Charakter im Kampf gegen einen bewaffneten Charakter
@@ -150,7 +150,7 @@ Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schad
 
 === Kampfkunst IV
 
-*Voraussetzungen:* Unbewaffenter Kampf 12, Kampfkunst III
+*Voraussetzungen:* Unbewaffenter Kampf 12, Kampfkunst III +
 *CP-Kosten:* 500 +
 *Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Proben in den Talenten Unbewaffneter Kampf, Hieb Ausweichen und Reflex, solange er keine Waffen trägt.+
 Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
@@ -837,7 +837,7 @@ erhöht die Dauer um 5 Minuten.
 === Alchemie
 
 *Voraussetzungen:* Wissen[Pflanzen] 5, Handwerk[Brauen] 5 oder Wissen[Arkanes] 5 +
-*CP-Kosten:* 300 +
+*CP-Kosten:* 200 +
 *Beschreibung:* Die Alchemie ist die alte Kunst des Tränkebrauens und
 des Mischens von diversen Zutaten zu einer wirksamen Substanz. Dies
 könnte ein Heiltrank, ein Schlaftrank oder Schießpulver sein. Der
@@ -852,15 +852,6 @@ Fehlen dieser Voraussetzungen erhöhen, ebenso für schwierige Experimente
 oder Gemische. Im Dokument[Magie] finden sich außerdem
 Herstellungsrezepte für diverse Tränke sowie die spielrelevanten
 Mindestwürfe.
-
-=== Arkane Sprache
-
-*Voraussetzungen:* Lesen/Schreiben 1, Wissen[Arkanes] 1, Energie 2 +
-*CP-Kosten:* 100 +
-*Beschreibung:* Zauberer benutzen diese Fähigkeit, um magische Texte,
-z.B. Grimoire und Spruchrollen, zu lesen. Diese Fähigkeit ermöglicht nur
-das Lesen und Verstehen von Zaubersprüchen, nicht das Binden von
-Zaubersprüchen in beispielsweise eine Spruchrolle.
 
 === Artefaktkunde
 

@@ -84,18 +84,18 @@ Verstecken +
 == Alchemist
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* +
-*Talentliste (SGM 2):* +
-*Attributsbonus:* +1 EN +
-*Vorteile*: +
-*Nachteile*: +
-*Besondere Fähigkeiten:* +
+*Talentliste (SGM 1):* Handwerk [Brauen], Hieb Ausweichen, Fallen Entschärfen, Forschen, Wissen [Arkanes], Wissen [Pflanzen], Verborgenes Entdecken, Wurfwaffen +
+*Talentliste (SGM 2):* Aether Wahrnehmung, Lesen/Schreiben, Spruchzauberei [Alchemie], Verbrennen Widerstehen +
+*Attributsbonus:* +1 GE, +1 EN +
+*Vorteile*: - +
+*Nachteile*: Schadensanfälligkeit [Feuer] I +
+*Besondere Fähigkeiten:* Alchemie +
 *TP/MP-Steigerung:* +5/+7 +
-*Voraussetzungen:* +
-*Startausrüstung:* +
-*Startgeld:* +
-*CP:*
-*Spezielle Berufstalente:*
+*Voraussetzungen:* - +
+*Startausrüstung:* Alchmieausrüstung, einfache Roben, Lederschürze, Augenschutz, Handschuhe, Dolch +
+*Startgeld:* 4W6 +
+*CP:* 65 +
+*Spezielle Berufstalente:* Bomben herstellen
 
 == Berserker
 
@@ -133,18 +133,18 @@ widerstehen, Unbewaffneter Kampf, Reflex, Athletik +
 == Duellist
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* +
-*Talentliste (SGM 2):* +
-*Attributsbonus:* +
-*Vorteile*: +
-*Nachteile*: +
-*Besondere Fähigkeiten:* +
-*TP/MP-Steigerung:* +
-*Voraussetzungen:* +
-*Startausrüstung:* +
-*Startgeld:* +
-*CP:* +
-*Spezielle Berufstalente:*
+*Talentliste (SGM 1):* Akrobatik, Konversation , Nahkampfwaffen, Parade, Reflex, 1 freies Wissenstalent +
+*Talentliste (SGM 2):* Athletik, Hieb Ausweichen , Niederschlag Widerstehen, Verborgenes Entdecken +
+*Attributsbonus:* +1 GE, +1 CH +
+*Vorteile*: - +
+*Nachteile*: - +
+*Besondere Fähigkeiten:* Akrobatischer Angriff oder Entwaffen +
+*TP/MP-Steigerung:* +9/+3 +
+*Voraussetzungen:* GE 2 +
+*Startausrüstung:* Rapier, Lederweste, elegante Kleidung, Rucksack +
+*Startgeld:* 4W6 +
+*CP:* 60 +
+*Spezielle Berufstalente:* -
 
 == Elementarist
 
@@ -160,23 +160,23 @@ widerstehen, Unbewaffneter Kampf, Reflex, Athletik +
 *Startausrüstung:* Stab, Robe, persönliches Grimoire, Federkil, Tinte, Rucksack +
 *Startgeld:* 4W6 +
 *CP:* 0 +
-*Spezielle Berufstalente:*
+*Spezielle Berufstalente:* -
 
 == Hexer
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Spruchzauberei[Wilde Magie] +
-*Talentliste (SGM 2):* +
+*Talentliste (SGM 1):* Aether Wahrnehmung, Spruchzauberei[Wilde Magie], Verbrennen Widerstehen, Willenskraft, Wissen [Arkanes], 1 freies Wissenstalent +
+*Talentliste (SGM 2):* Hieb Ausweichen, Lesen/Schreiben Schleichen, Verborgenes Entdecken, Verstecken, Wissen [Überleben] +
 *Attributsbonus:* +1 EN +
-*Vorteile*: +
-*Nachteile*: +
+*Vorteile*: - +
+*Nachteile*: - +
 *Besondere Fähigkeiten:* +
 *TP/MP-Steigerung:* +5/+7 +
-*Voraussetzungen:* +
-*Startausrüstung:* +
-*Startgeld:* +
-*CP:* +
-*Spezielle Berufstalente:*
+*Voraussetzungen:* EN 2 +
+*Startausrüstung:* Stab, Dolch, Reisekleidung, Rucksack +
+*Startgeld:* 4W6 +
+*CP:* 30 +
+*Spezielle Berufstalente:* -
 
 == Illusionist
 
@@ -202,12 +202,12 @@ widerstehen, Unbewaffneter Kampf, Reflex, Athletik +
 *Attributsbonus:* +1 GE, +1 ER +
 *Vorteile*: - +
 *Nachteile*: - +
-*Besondere Fähigkeiten:* - +
+*Besondere Fähigkeiten:* Spuren Lesen +
 *TP/MP-Steigerung:* +7/+5 +
 *Voraussetzungen:* - +
 *Startausrüstung:* Langbogen, Köcher mit 10 Pfeilen, Kurzschwert, Lederrüstung, Wetterfeste Kleidung +
 *Startgeld:* 2W6 +
-*CP:* 65 +
+*CP:* 75 +
 *Spezielle Berufstalente:* -
 
 == Kavalier
@@ -218,7 +218,7 @@ widerstehen, Unbewaffneter Kampf, Reflex, Athletik +
 *Attributsbonus:* +1 ST, + 1 KO +
 *Vorteile*: Reittier II +
 *Nachteile*: - +
-*Besondere Fähigkeiten:* +
+*Besondere Fähigkeiten:* - +
 *TP/MP-Steigerung:* +9/+3 +
 *Voraussetzungen:* ST 2 +
 *Startausrüstung:* Lanze, Nahkampfwaffe, Pflege und Versorgungsmittel für sein Reittier, Wetterfeste Kleidung, Lederrüstung +
@@ -252,9 +252,22 @@ Der Charakter kann eine der folgenden Spezialisierungen wählen und die gelistet
 
 == Kundschafter
 
+
+Athletik
+Nahkampfwaffen
+Niederschlag Widerstehen
+Fallen Entschärfen
+Fallen Stellen
+Reflex
+Schloss Knacken
+
+Forschen
+
+
 *Beschreibung:* +
-*Talentliste (SGM 1):* +
-*Talentliste (SGM 2):* +
+*Talentliste (SGM 1):* Hieb Ausweichen, Projektilwaffen, Schleichen, Wissen [Überleben] Kundschafterspezialisierung I +
+*Talentliste (SGM 2):* Reiten, Tierfreundschaft, Verborgenes Entdecken
+Kundschafterspezialisierung II, 1 freies Handwerkstalent +
 *Attributsbonus:* +1 GE +
 *Vorteile*: +
 *Nachteile*: +
@@ -265,6 +278,20 @@ Der Charakter kann eine der folgenden Spezialisierungen wählen und die gelistet
 *Startgeld:* +
 *CP:* +
 *Spezielle Berufstalente:*
+
+=== Kundschafterspezialisierung I
+Der Charakter kann eine der folgenden Spezialisierungen wählen und die gelisteten Talente mit SGM 1 aufschreiben:
+
+* X: Athletik, Nahkampfwaffen, Niederschlag Widerstehen, Wissen [Militärtaktiken]
+* Y: Fallen Stellen, Forschen, Schloss Knacken, Wissen [Natur]
+* Z: Akrobatik, Fallen entschärfen, Schloss knacken, Reflex
+
+=== Kundschafterspezialisierung II
+Der Charakter kann passend zu Kundschafterspezialisierung I folgende Liste an Talenten mit SGM 2 aufschreiben.
+
+* X
+* Y
+* Z
 
 == Magus
 
@@ -290,7 +317,7 @@ Der Charakter kann eine der folgenden Spezialisierungen wählen und die gelistet
 *Attributsbonus:* +1 GE, + 1 CH +
 *Vorteile*: - +
 *Nachteile*: - +
-*Besondere Fähigkeiten:* +
+*Besondere Fähigkeiten:* - +
 *TP/MP-Steigerung:* +6/+6 +
 *Voraussetzungen:* CH 2 +
 *Startausrüstung:* Lederrüstung, Gute Kleidung, Rucksack, Musikinstrument, 1 Geschichtsbuch +
@@ -314,7 +341,7 @@ Der Charakter kann eine der folgenden Spezialisierungen wählen und die gelistet
 *CP:* 50 +
 *Spezielle Berufstalente:* -
 
-== Runenschmeid
+== Runenschmied
 
 *Beschreibung:* +
 *Talentliste (SGM 1):* +
@@ -349,18 +376,18 @@ Der Charakter kann eine der folgenden Spezialisierungen wählen und die gelistet
 == Scholar
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* +
-*Talentliste (SGM 2):* +
-*Attributsbonus:* +1 EN, + 1 ER +
-*Vorteile*: +
-*Nachteile*: +
-*Besondere Fähigkeiten:* +
+*Talentliste (SGM 1):* Forschen, Lesen/Schreiben, Konversation, Technomantisches Gerät Benutzen, Verborgenes Entdecken, Willenskraft, 2 freie Wissenstalente +
+*Talentliste (SGM 2):* Aether Wahrnehmung, Hieb Ausweichen, 2 freie Wissenstalente +
+*Attributsbonus:* +1 EN, +1 ER +
+*Vorteile*: - +
+*Nachteile*: - +
+*Besondere Fähigkeiten:* Artefaktkunde +
 *TP/MP-Steigerung:* +3/+9 +
-*Voraussetzungen:* +
-*Startausrüstung:* +
-*Startgeld:* +
-*CP:* +
-*Spezielle Berufstalente:*
+*Voraussetzungen:* ER 2 +
+*Startausrüstung:* Reisekleidung, Rucksack, 3 Bücher über unterschiedliche Wissensgebiete, Tinte, Papier +
+*Startgeld:* 4W6 +
+*CP:* 90  +
+*Spezielle Berufstalente:* -
 
 == Schurke
 
