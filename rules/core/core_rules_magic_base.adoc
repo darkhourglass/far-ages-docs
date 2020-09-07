@@ -715,7 +715,7 @@ immun gegen dieses Zauber. +
 *Magieabwehr?:* Nein +
 *Fokus:* Feuer +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:*5 +
+*Anzahl der Erfolge:* 5 +
 *Reichweite:* 15,00 Meter +
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* Sofort +
@@ -1031,49 +1031,33 @@ und 3 zu Patzern werden, wodurch die gesamte Probe ein Patzer wird und
 es muss ein Zauberpatzer (siehe unten) gewürfelt werden.
 ====
 
-=== Zaubersprüche von Spruchrollen wirken
+==== Zaubersprüche von Spruchrollen wirken
 
-Spruchrollen sind einmalig einsetzbar und ermöglichen den Einsatz von
-Magie auch für nicht-Zauberer. Möchte ein Charakter eine Spruchrolle
-einsetzen, dann muss er das Talent Lesen/Schreiben und zusätzlich die
-Fähigkeit Arkane Sprache[Sprache] besitzen, je nachdem in welcher
-Sprache die Spruchrolle geschrieben ist. Für gewöhnlich ist darauf keine
-Probe nötig, jedoch muss der Charakter in der Lage sein, den Text des
-Zauberspruches laut vorzulesen.
+Spruchrollen sind einmalig einsetzbar und ermöglichen den Einsatz von Magie auch für nicht-Zauberer.
+Möchte ein Charakter eine Spruchrolle einsetzen, dann muss er die Talente Lesen/Schreiben und Wissen [Arkanes] auf mindestens Stufe 1 besitzen.
+Für gewöhnlich ist darauf keine Probe nötig, jedoch muss der Charakter in der Lage sein, den Text des Zauberspruches laut vorzulesen.
 
-Im Falle einer arkanen Schrift, die seiner Zauberschule angehört, kann
-der Charakter die Spruchrolle benutzen, um den Zauberspruch gemäß den
-Regeln zu lernen, sobald er die Voraussetzungen erfüllt.
-
-Der Anwender benötigt keine Vorbereitung und in diesem speziellen Fall
-kann ein Charakter eine Energie-Probe als ungeübte Anwendung des
-Talentes Spruchzauberei durchführen, sollte er das Talent nicht
-besitzen.
+Der Anwender benötigt keine Vorbereitung und in diesem speziellen Fall kann ein Charakter eine Energie-Probe als ungeübte Anwendung des Talentes Spruchzauberei durchführen, sollte er das Talent nicht besitzen.
 
 Des Weiteren entfällt die Beschränkung durch die Maximale Magiepotenz.
-Jedoch kann der Charakter für den Zauberspruch keine zusätzlichen
-Effekte nutzen.
+Jedoch kann der Charakter für den Zauberspruch keine zusätzlichen Effekte nutzen.
 
-Im Fall des Erfolges wirkt der Zauberspruch sofort. Benötigt der
-Zauberspruch eine bestimmte Zahl von Erfolgen oder ist seine Effizienz
-von der gewürfelten Anzahl an Erfolgen abhängig, gelten die üblichen
-Regeln für die Spruchzauberei-Probe, bzw. die Energie-Probe.
+Im Fall des Erfolges wirkt der Zauberspruch sofort.
+Benötigt der Zauberspruch eine bestimmte Zahl von Erfolge oder ist seine Effektivität von der gewürfelten Anzahl an Erfolgen abhängig, gelten die üblichen Regeln für die Spruchzauberei-Probe, bzw. die Energie-Probe.
 
-Ein Patzer verursacht Verbrennen wie gewohnt, jedoch entsteht kein
-Zauberpatzer.
+Ein Patzer verursacht Verbrennen wie gewohnt, jedoch entsteht kein Zauberpatzer.
 
-Nach der Benutzung, wobei irrelevant ist, ob der Zauber erfolgreich war
-oder nicht, löst sich die Zauberspruchrolle effektvoll auf.
+Nach der Benutzung, wobei irrelevant ist, ob der Zauber erfolgreich war oder nicht, löst sich die Zauberspruchrolle effektvoll auf.
+
+Der Charakter kann die Spruchrolle auch benutzen, um den Zauberspruch gemäß den Regeln zu lernen, sobald er die Voraussetzungen erfüllt.
 
 ==== Zaubersprüche aus einem Grimoire wirken
 
-Zaubersprüche in einem Grimoire können auf besonders machtvolle Weise
-benutzt werden. Ein Grimoire funktioniert nämlich wie eine Spruchrolle,
-d.h. ein Anwender, der die Arkane Sprache lesen kann, braucht die
-Sprüche nur vorzulesen, die Vorbereitung entfällt und würfelt direkt die
-Spruchzauberei-Probe oder eine Energie-Probe, sollte er das Talent nicht
-besitzen. Die Zaubersprüche verbrauchen sich jedoch nicht! Wie bei
-Spruchrollen kann der Anwender keine zusätzlichen Effekte wirken.
+Zaubersprüche in einem Grimoire können auf besonders machtvolle Weise benutzt werden.
+Ein Grimoire funktioniert nämlich wie eine Spruchrolle, d.h. ein Anwender, der die Arkane Sprache lesen kann, braucht die Sprüche nur vorzulesen, die Vorbereitung entfällt und würfelt direkt die Spruchzauberei-Probe oder eine Energie-Probe, sollte er das Talent nicht besitzen.
+
+Die Zaubersprüche verbrauchen sich jedoch nicht!
+Wie bei Spruchrollen kann der Anwender keine zusätzlichen Effektewirken.
 
 ==== Zaubersprüche aus Zauberstecken wirken
 
@@ -1253,7 +1237,7 @@ magischer oder technomantischer Natur, aufrechtzuerhalten
 Der magische Kristall eines Gegenstands ist also wie eine Batterie zu
 betrachten. Manche Gegenstände ermöglichen es, diese Batterie
 auszutauschen, jedoch hat sich eine andere Technik durchgesetzt: Magier
-können magische Kristalle in Gegenständen mit eigenen MP ausstatten
+= können magische Kristalle in Gegenständen mit eigenen MP ausstatten
 (also sie wieder aufladen) oder können diese magische Energie auch für
 sich selbst nutzen. Wie dies genau funktioniert, wird in den folgenden
 Abschnitten erläutert.
@@ -1435,6 +1419,7 @@ Weg der Schatten |
 
 |Wilde Magie |* | * siehe Regeln für <<Wilde Magie>>
 |Runenmagie | Weg der Runen |
+|Alchemie | Universelle Schule|
 |TODO | |
 |===
 
@@ -1562,7 +1547,7 @@ Deren Anzahl der Erfolge sinkt dann mindestens um 3.
 Als Illusionen gelten alle Zaubersprüche, die in den Zauberspruchlisten
 die zusätzliche Beschreibung (Illusion) in ihrem Namen beinhalten.
 
-=== Die Magie der Musik
+==== Die Magie der Musik
 
 [quote, Byhragast „Eisauge“]
 „Nicht nur die Magier verwenden Magie. Die Magie der Musik ist erstaunlich mächtig und vielseitig.“
@@ -1633,12 +1618,13 @@ Das Talent wird außerdem für Spruchzauberei-Proben verwendet.
 Techmantische Zaubersprüche gelten für alle Regel-Belange als Spruchzauberei.
 Das Talent Technomantie kann nicht als Voraussetzung für andere Talente oder Besondere Fähigkeiten genutzt werden, die das Talent Spruchzauberei beinhalten.
 
-
 Ansonsten gilt, dass ein Technomant seine Zauber genauso vorbereiten muss, wie ein Zauberer.
 Er kann weiterhin auf die übliche Weise die Vorbereitungszeit verkürzen und zusätzliche Effekte verwenden.
 Ebenso kann er in der Vorbereitung unterbrochen werden und muss aufpassen, dass ihn das Verbrennen nicht trifft.
 
 Patzer werden nach den üblichen Regeln abgehandelt.
+
+Technomantische Zaubersprüche können auf Spruchrollen oder in Grimoire geschrieben werden und von diesen gewirkt werden.
 
 Das Dokument link:core_rules_technomancy.adoc[Technomantie] erweitert die Technomantie in Far Ages um die technische Seite dieser Art der Magie.
 In dem Dokument finden sich Regeln und Ideen zum Entwickeln eigener technomantischer Gegenständ sowie eine große Liste von unterschiedlichen Gegenständen von Feuerstäben bis Schlachtengolems.
@@ -1909,6 +1895,9 @@ Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier 
 |
 |===
 
+==== Alchemie
+
+TODO
 
 === Regeln im Umgang mit magischen Gegenständen
 
