@@ -34,16 +34,16 @@ von Talentproben im Dokument Würfelsystem.
 
 *Verwandtes Attribut:* das verwandte Attribut des Talents.
 
-*Kampfphasen:* die Angabe, wie viele Kampfphasen das Talent zur
-Ausführung benötigt. Die Angabe ist in diesem Dokument entweder:
+*Kampf:* hier wird angegeben, wie das Talent bzw. dessen ungeübte Anwendung in einer Kampfrunde verwendet werden kann.
+Die Angabe ist in diesem Dokument entweder:
 
-* eine feste Zahl
-* “V” wie variabel (siehe dazu dann die Talentbeschreibung)
-* “W” wie weiterführend. Dies bedeutet, dass das Talent an keine feste
-Kampfphasenzahl gebunden ist, sondern so lange dauert, wie der Benutzer
-es braucht.
-* „S“ wie Spontane Aktion
-* “-” für nicht im Kampf benutzbar.
+* "A": Das Talent ist eine Aktion
+* “M”: Das Talent ist ein Bewegungs- oder Kampfmanöver
+* "W": wie weiterführend.
+Dies bedeutet, dass das Talent an keine feste Kampfrunden gebunden ist, sondern so lange dauert, wie der Benutzer es braucht.
+* "R": Das Talent ist eine Reaktion.
+* "F": Das Talent ist eine Freie Aktion.
+* “-”: Das Talent ist nicht im Kampf benutzbar.
 
 *Beschreibung:* Beschreibung und Regeln für die Anwendung des Talentes.
 
@@ -60,7 +60,7 @@ Kampf verbunden, betreffen jedoch hohe körperliche Belastungen.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* KO +
-*Kampfphasen:* W +
+*Kampf:* W +
 *Beschreibung:* Mit diesem Talent können die Standardproben Klettern und
 Schwimmen gewürfelt werden.
 
@@ -69,7 +69,7 @@ Schwimmen gewürfelt werden.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* S +
+*Kampf:* R +
 *Beschreibung:* Im Nahkampf kann der Charakter versuchen, einem
 wahrgenommenen Angriff auszuweichen. Dies ist ein Verteidigungstalent. +
 Nur einmal pro Kampfphase einsetzbar.
@@ -79,43 +79,34 @@ Nur einmal pro Kampfphase einsetzbar.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ST +
-*Kampfphasen:* V +
-*Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er
-alle Angriffsproben im Nahkampf mit diesem Talent würfeln. Die Anzahl
-Kampfphasen hängt von der gewählten Waffe ab und ist der
-Ausrüstungsliste zu entnehmen.
+*Kampf:* A +
+*Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
 
 === Niederschlag Widerstehen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* KO +
-*Kampfphasen:* S +
-*Beschreibung:* Mit diesem Talent können Niederschlagsproben gewürfelt
-werden.
+*Kampf:* F +
+*Beschreibung:* Mit diesem Talent können Niederschlagsproben gewürfelt werden.
 
 === Parade
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* S
-*Beschreibung:* Im Nahkampf kann sich der Charakter mit einer getragenen
-Nahkampfwaffe verteidigen. Dieses Talent ist ein Verteidigungstalent, mit dem sich ein Charakter im
-Nahkampf gegen Angreifer wehren kann. Er muss dazu eine Waffe in einer
-Hand halten.
-
-Nur einmal pro Kampfphase einsetzbar.
+*Kampf:* R
+*Beschreibung:* Im Nahkampf kann sich der Charakter mit einer getragenen Nahkampfwaffe verteidigen.
+Dieses Talent ist ein Verteidigungstalent, mit dem sich ein Charakter im Nahkampf gegen Angreifer wehren kann.
+Er muss dazu eine Waffe in einer Hand halten.
 
 === Projektilwaffen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* V +
-*Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er
-alle Angriffsproben im Fernkampf mit diesem Talent würfeln. Die Anzahl
-Kampfphasen hängt von der gewählten Waffe ab und ist der Ausrüstungsliste zu entnehmen.
+*Kampf:* A +
+*Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln..
 
 === Reiten
 
@@ -123,45 +114,36 @@ Kampfphasen hängt von der gewählten Waffe ab und ist der Ausrüstungsliste zu 
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
 *Kampfphasen:* W +
-*Beschreibung:* Der Charakter kann auf einem als Reittier ausgewiesenem
-Tier reiten. Dies geschieht üblicherweise automatisch, ohne, dass eine
-Probe nötig ist, und zwar sobald der Charakter mindestens eine Stufe in
-diesem Talent hat. Für ungewöhnliche und stressige Situationen muss der
-Charakter jedoch eine Probe ablegen, um zu verhindern, dass das Tier
-durchgeht oder er von diesem herunterfällt. Solche Situationen können
-Kampfgetümmel sein (wenn das Tier nicht entsprechend trainiert ist), das
-Springen über ein Hindernis, Galopp über unwegsames Gelände und
-ähnliches. In diesen Fällen übernimmt dieses Talent die Funktion von
-Körperbeherrschungs-Proben für das Reittier und den Reiter, solange er
-auf dem Tier sitzt.
+*Beschreibung:* Der Charakter kann auf einem als Reittier ausgewiesenem Tier reiten.
+Dies geschieht üblicherweise automatisch, ohne, dass eine Probe nötig ist, und zwar sobald der Charakter mindestens eine Stufe in diesem Talent hat.
+Für ungewöhnliche und stressige Situationen muss der Charakter jedoch eine Probe ablegen, um zu verhindern, dass das Tier durchgeht oder er von diesem herunterfällt.
+Solche Situationen können Kampfgetümmel sein (wenn das Tier nicht entsprechend trainiert ist), das Springen über ein Hindernis, Galopp über unwegsames Gelände und ähnliches.
+In diesen Fällen übernimmt dieses Talent die Funktion von Körperbeherrschungs-Proben für das Reittier und den Reiter, solange er auf dem Tier sitzt.
 
 === Schildverteidigung
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ST +
-*Kampfphasen:* S +
+*Kampf:* R +
 *Beschreibung:* Erlaubt einen Schild zur Verteidigung gegen Nahkampfattacken zu nutzen.
-Das Talent kann nur verwendet werden, wenn der Charakter einen Schild
-verwendet. Nur einmal pro Kampfphase einsetzbar.
+Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 
 === Unbewaffneter Kampf
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* 1 +
-*Beschreibung:* Mit diesem Talent kann sich der Charakter auch ohne
-Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
+*Kampf:* A +
+*Beschreibung:* Mit diesem Talent kann sich der Charakter auch ohne Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
 
 === Wurfwaffen
 
 *Mindestwurf:* SWM +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* V +
+*Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Wurfwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
-Die Anzahl Kampfphasen hängt von der gewählten Waffe ab und ist der Ausrüstungsliste zu entnehmen.
 
 == Schurkische Talente
 
@@ -173,7 +155,7 @@ Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind d
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* W +
+*Kampf:* W +
 *Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Akrobatik, Fallen und Springen gewürfelt werden.
 
 === Fallen Entschärfen
@@ -181,26 +163,24 @@ Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind d
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* 10 +
-*Beschreibung:* Wenn ein Charakter eine Falle entdeckt hat, dann kann er
-mit diesem Talent versuchen, sie zu entschärfen. Selbst wenn der
-Auslöser einer entschärften Falle betätigt wird, wird kein Effekt
-ausgelöst. In einigen Fällen ist Werkzeug nötig, in anderen Fällen ist
-eine kontrollierte Zündung nötig. In den Beschreibungen der Fallen ist
-die Anzahl der Erfolge, die nötig sind, um die Falle zu entschärfen,
-angegeben. +
-Ein Misserfolg verhindert die erfolgreiche Entschärfung, der Charakter
-muss mindestens 10 Minuten warten, bis er es wieder versuchen kann. Ein
-Patzer löst die Falle sofort aus. +
-Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen. Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
+*Kampf:* - +
+*Beschreibung:* Wenn ein Charakter eine Falle entdeckt hat, dann kann er mit diesem Talent versuchen, sie zu entschärfen.
+Selbst wenn der Auslöser einer entschärften Falle betätigt wird, wird kein Effekt ausgelöst.
+In einigen Fällen ist Werkzeug nötig, in anderen Fällen ist eine kontrollierte Zündung nötig.
+In den Beschreibungen der Fallen ist die Anzahl der Erfolge, die nötig sind, um die Falle zu entschärfen, angegeben. +
+Ein Misserfolg verhindert die erfolgreiche Entschärfung, der Charakter muss mindestens 10 Minuten warten, bis er es wieder versuchen kann.
+Ein Patzer löst die Falle sofort aus. +
+Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
+Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
 === Fallen Stellen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampfphasen:* 10 +
-*Beschreibung:* Mit diesem Talent kann der Charakter Fallen zusammenbauen und aufstellen. Die dazu nötigen Anzahl der Erfolge findet man in der Beschreibung der Fallen. +
+*Kampf:* - +
+*Beschreibung:* Mit diesem Talent kann der Charakter Fallen zusammenbauen und aufstellen.
+Die dazu nötigen Anzahl der Erfolge findet man in der Beschreibung der Fallen. +
 Wirft der Charakter einen Misserfolg, so muss er mindestens 10 Minuten warten, bevor er versuchen kann, die Falle erneut aufzustellen.
 Ein Patzer zerstört die Falle. +
 Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
@@ -211,7 +191,7 @@ Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* S +
+*Kampf:* F +
 *Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Reflex werfen.
 
 === Schleichen
@@ -219,7 +199,7 @@ Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* W +
+*Kampfn:* M +
 *Beschreibung:* Der Charakter muss ansagen, wenn er schleichen will, also wenn er sich leise und unbemerkt fortbewegen will. +
 Die Anzahl der Erfolge legt die nötige Anzahl von Erfolgen fest, die ein anderer Charakter mit einer Entdecken-Probe benötigt, um den schleichenden Charakter zu bemerken. +
 Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine. +
@@ -230,117 +210,92 @@ Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Pa
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* 10 +
-*Beschreibung:* Der Charakter kann diverse Schlösser knacken. Dazu
-benötigt er in der Regel einen Dietrich. Unterschiedliche Schlösser
-können unterschiedliches Werkzeug benötigen. Für jedes Schloss sollte
-der SL eine Anzahl von Erfolgen festlegen, die nötig sind, um das
-Schloss zu öffnen. +
-Bei einem Misserfolg gelingt es dem Charakter nicht, das Schloss zu
-knacken, er muss 1 Minute warten, bevor er es nochmal versuchen kann.
+*Kampfphasen:* - +
+*Beschreibung:* Der Charakter kann diverse Schlösser knacken.
+Dazu benötigt er in der Regel einen Dietrich.
+Unterschiedliche Schlösser können unterschiedliches Werkzeug benötigen.
+Für jedes Schloss sollte der SL eine Anzahl von Erfolgen festlegen, die nötig sind, um das Schloss zu öffnen. +
+Bei einem Misserfolg gelingt es dem Charakter nicht, das Schloss zu knacken, er muss 10 Minuten warten, bevor er es nochmal versuchen kann.
 Bei einem Patzer bricht er sein Werkzeug entzwei. +
-Dieses Talent geht von einer leisen und heimlichen Aktion aus. Damit
-schließt sich Sprengstoff oder Troll als „Dietrich“ aus. Magisch
-verschlossene Türen lassen sich damit nicht öffnen.
+Dieses Talent geht von einer leisen und heimlichen Aktion aus.
+Damit schließt sich Sprengstoff oder Troll als „Dietrich“ aus.
+Magisch verschlossene Türen lassen sich damit nicht öffnen.
 
 === Taschendiebstahl
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* 3 +
-*Beschreibung:* Mit diesem Talent kann ein Charakter ein ungefähr
-handgroßes Objekt unbemerkt dem Besitzer entwenden. Wie kreativ und
-heimlich der Charakter vorgeht, kann er selbst entscheiden und sollte
-sein Verhalten der jeweiligen Situation anpassen. Der SL kann die Anzahl
-der Erfolge entsprechend modifizieren. Als typische Situation wäre der
-übliche unbemerkte Taschendiebstahl auf dem belebten Marktplatz. Der
-Mindestwurf bleibt unverändert. Der SL verlangt 2 Erfolge, um einen
-Gegenstand zu ergattern. Den ersten Erfolg benötigt er, um den
-Gegenstand zu ergattern, den anderen, um nicht bemerkt zu werden.
+*Kampf:* A +
+*Beschreibung:* Mit diesem Talent kann ein Charakter ein ungefähr handgroßes Objekt unbemerkt dem Besitzer entwenden.
+Wie kreativ und heimlich der Charakter vorgeht, kann er selbst entscheiden und sollte sein Verhalten der jeweiligen Situation anpassen.
+Der SL kann die Anzahl der Erfolge entsprechend modifizieren.
+Als typische Situation wäre der übliche unbemerkte Taschendiebstahl auf dem belebten Marktplatz.
+Der Mindestwurf bleibt unverändert.
+Der SL verlangt 2 Erfolge, um einen Gegenstand zu ergattern.
+Den ersten Erfolg benötigt er, um den Gegenstand zu ergattern, den anderen, um nicht bemerkt zu werden.
 Größere oder besser geschützte Gegenstände erfordern im allgemeinen mehr
 Erfolge. +
-Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht
-erreichen konnte, ein Patzer lässt den Dieb auf frischer Tat auffliegen.
+Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreichen konnte, ein Patzer lässt den Dieb auf frischer Tat auffliegen.
 
 === Verborgenes Entdecken
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
-*Kampfphasen:* 1 +
-*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben
-des Typs Entdecken und Suchen würfeln.
+*Kampfphasen:* M +
+*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Entdecken und Suchen würfeln.
 
 === Verstecken
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* 3 +
-*Beschreibung:* Der Charakter beherrscht es sich einer Umgebung gut
-anzupassen, so dass er die gegebenen Objekte nutzen kann, um sich darin,
-darunter, dahinter oder darüber zu verstecken. Seine gewürfelte Anzahl
-an Erfolgen bestimmt die benötigte Anzahl von Erfolgen von jedem, der
-ihn entdecken will. Daher müssen die Kreaturen, die ihn entdecken
-wollen, mit ihren Entdecken-Proben diese Anzahl um mindestens einen
-Erfolg übertreffen. Dabei kann der SL die Würfelanzahl je nach Situation
-anpassen, wenn es schwerer wird sich zu verstecken.
+*Kampf:* M +
+*Beschreibung:* Der Charakter beherrscht es sich einer Umgebung gut anzupassen, so dass er die gegebenen Objekte nutzen kann, um sich darin, darunter, dahinter oder darüber zu verstecken. Seine gewürfelte Anzahl an Erfolgen bestimmt die benötigte Anzahl von Erfolgen von jedem, der ihn entdecken will.
+Daher müssen die Kreaturen, die ihn entdecken wollen, mit ihren Entdecken-Proben diese Anzahl um mindestens einen Erfolg übertreffen.
+Dabei kann der SL die Würfelanzahl je nach Situation anpassen, wenn es schwerer wird sich zu verstecken.
 
 == Soziale Talente
 
-Diese Kategorie von Talenten umfasst Talente, die zur sozialen
-Interaktion mit NPCs oder auch anderen Spielercharakteren dienen.
-Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in
-einem sozialen Gefüge definieren, so zum Beispiel sein Handwerk.
+Diese Kategorie von Talenten umfasst Talente, die zur sozialen Interaktion mit NPCs oder auch anderen Spielercharakteren dienen.
+Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozialen Gefüge definieren, so zum Beispiel sein Handwerk.
 
 === Handwerk [ein Handwerk]
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* KO +
-*Kampfphasen:* -  +
-*Beschreibung:* Dieses Talent kann mehrfach gelernt werden. Welche
-Handwerke gelernt werden können, kann auch von der Berufung des
-Charakter abhängen. Die Ausprägung kann beispielsweise folgendermaßen
-ausfallen: Grobschmied, Feinschmied, Waffenschmied, Tischler, Maurer,
-Dachdecker, Metallgießer, Bauer, Fleischer... Die Spieler und der SL
-können sich weitere Handwerke ausdenken, wenn Bedarf besteht. Ein
-Handwerk kann nur ausgeführt werden, wenn die entsprechenden Werkzeuge
-und Materialien vorhanden sind. Das Talent beinhaltet auch das Wissen
-des jeweiligen Handwerks. Die Anzahl der Erfolge für das Ausführen des
-Handwerks hängt vom Ziel ab. Mehr Erfolge können die Qualität der Arbeit
-erhöhen. Schlechte Bedingungen, wie z.B. schlechtes Werkzeug, schlechtes
-Material usw. reduzieren die Würfelanzahl dieser Probe.
+*Kampf:* -  +
+*Beschreibung:* Dieses Talent kann mehrfach gelernt werden.
+Welche Handwerke gelernt werden können, kann auch von der Berufung des
+Charakter abhängen.
+Die Ausprägung kann beispielsweise folgendermaßen ausfallen: Grobschmied, Feinschmied, Waffenschmied, Tischler, Maurer, Dachdecker, Metallgießer, Bauer, Fleischer...
+Die Spieler und der SL können sich weitere Handwerke ausdenken, wenn Bedarf besteht.
+Ein Handwerk kann nur ausgeführt werden, wenn die entsprechenden Werkzeuge und Materialien vorhanden sind.
+Das Talent beinhaltet auch das Wissen des jeweiligen Handwerks.
+Die Anzahl der Erfolge für das Ausführen des Handwerks hängt vom Ziel ab.
+Mehr Erfolge können die Qualität der Arbeit erhöhen.
+Schlechte Bedingungen, wie z.B. schlechtes Werkzeug, schlechtes Material usw. reduzieren die Würfelanzahl dieser Probe.
 
 === Kunst [eine Kunst]
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* CH +
-*Kampfphasen:* W +
-*Beschreibung:* Ein Charakter mit diesem Talent beherrscht die Kunst, in
-der er das Talent gewählt hat, z.B.: Musik, Tanz, Schauspiel, Gesang,
-Malen/Zeichnen, Poesie, Gaukelei. Dieses Talent kann öfters gelernt
-werden. Welche Ausprägungen gelernt werden können, hängt auch vom Beruf
-des Charakter ab. Ein Erfolg bietet eine zufriedenstellende Darbietung
-der Kunst, erst mehrere Erfolge lassen etwas Besonderes entstehen, wofür
-andere auch bereit sind, Geld zu zahlen.
-
-Das Talent kann teilweise hilfreich sein, um andere, kunstferne Zwecke
-zu unterstützen, die nicht durch andere Talente abgedeckt werden. Der SL
-kann daher entscheiden, ob höhere Erfolgsgrade einem Charakter eventuell
-einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe
-verhilft, oder um kunstferne Aktionen durchzuführen. Zum Beispiel könnte
-ein guter Zeichner eine Unterschrift oder ein Siegel versuchen zu
-fälschen.
+*Kampf:* W +
+*Beschreibung:* Ein Charakter mit diesem Talent beherrscht die Kunst, in der er das Talent gewählt hat, z.B.: Musik, Tanz, Schauspiel, Gesang, Malen/Zeichnen, Poesie, Gaukelei. D
+Ein Erfolg bietet eine zufriedenstellende Darbietung der Kunst, erst mehrere Erfolge lassen etwas Besonderes entstehen, wofür andere auch bereit sind, Geld zu zahlen.
+Das Talent kann teilweise hilfreich sein, um andere, kunstferne Zwecke zu unterstützen, die nicht durch andere Talente abgedeckt werden.
+Der SL kann daher entscheiden, ob höhere Erfolgsgrade einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft, oder um kunstferne Aktionen durchzuführen.
+Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuchen zu fälschen.
 
 === Konversation
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
-*Kampfphasen:* W +
+*Kampf:* W +
 *Beschreibung:* Der Charakter kann mit diesem Talent alle Standardproben des Typs Einschüchtern, Täuschen, Überzeugen und Verführen würfeln.
 
 === Tierfreundschaft
@@ -348,29 +303,25 @@ fälschen.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* CH +
-*Kampfphasen:* 3 +
-*Beschreibung:* Charaktere mit diesem Talent haben eine besondere Nähe
-zu Tieren entwickelt, so dass diese auf sie besser reagieren. Trifft der
-Charakter auf ein fremdes Tier, so kann benötigt er 5 oder mehr Erfolge.
-Bei einem wilden und fremden Tier sind mindestens 10 Erfolge nötig. Das
-Talent zählt nicht für monströse und magische Tiere. Eine erfolgreiche
-Probe bedeutet, dass das Tier dem Charakter gegenüber neutral ist. Drei
-weitere erfolgreiche Proben im Laufe von drei folgenden Tagen bedeuten,
-dass das Tier freundlich gesinnt ist und bei zwölf entsprechenden Proben
-ist das Tier sogar loyal. Das Talent wirkt jedoch nicht ewig, daher sind
-regelmäßige, monatliche Proben nötig.
+*Kampf:* A +
+*Beschreibung:* Charaktere mit diesem Talent haben eine besondere Nähe zu Tieren entwickelt, so dass diese auf sie besser reagieren.
+Eine erfolgreiche Probe bedeutet, dass das Tier dem Charakter gegenüber neutral ist.
+Drei weitere erfolgreiche Proben im Laufe von drei folgenden Tagen bedeuten, dass das Tier freundlich gesinnt ist und bei zwölf entsprechenden Proben ist das Tier sogar loyal.
+Das Talent wirkt jedoch nicht ewig, daher sind regelmäßige, monatliche Proben nötig.
+Trifft der Charakter auf ein fremdes Tier, so kann benötigt er 5 oder mehr Erfolge.
+Bei einem wilden und fremden Tier sind mindestens 10 Erfolge nötig.
+Das Talent zählt nicht für monströse und magische Tiere.
 
 == Wissenstalente
 
-Wissenstalente denken intellektuelle Leistungen des Charakters ab, sowie
-dessen Wissen als auch dieses Wissen zu erlernen.
+Wissenstalente denken intellektuelle Leistungen des Charakters ab, sowie dessen Wissen als auch dieses Wissen zu erlernen.
 
 === Forschen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
-*Kampfphasen:* - +
+*Kampf:* - +
 *Beschreibung:* Dieses Talent ermöglicht es dem Charakter durch intensive Suche in Büchereien, Bibliotheken, Gemeindearchiven, Datenbanken und ähnlichen Einrichtungen gezielt Wissen zusammenzutragen.
 Ist die Information selten, sehr speziell oder gar obskur,dann kann der SL die Erfolgsanzahl nach oben anpassen.
 Der Erfolgsgrad kann auch den Detailgrad einer Information verbessern.
@@ -378,16 +329,11 @@ Weiterhin kann der Charakter mit diesem Talent Ausfragen-Proben würfeln.
 
 .Forschen
 ====
-Ein Charakter möchte in der Bibliothek des Hohen Hofs der
-Technomantie etwas über die Verarbeitung von magischem Metall
-herausfinden. Will er allgemeinen Informationen ist er bei der Gilde
-relativ richtig, daher ist ein Erfolg angemessen. Möchte er dann
-spezielle Informationen über dieses Material haben, z.B. bei welchem
-Golem genau es verwendet wurde, so kann der SL mehr Erfolge ansetzen.
-Sehr genaues und eventuell verborgenes („zwischen den Zeilen
-verstecktes“) Wissen, z.B. die Kontrollwörter für den Golem, erfordern
-dann einen noch mehr Erfolge. Meistens sind solche Informationen an
-anderen Orten und in anderen Wälzern versteckt.
+Ein Charakter möchte in der Bibliothek des Hohen Hofs der Technomantie etwas über die Verarbeitung von magischem Metall herausfinden.
+Will er allgemeinen Informationen ist er bei der Gilde relativ richtig, daher ist ein Erfolg angemessen.
+Möchte er dann spezielle Informationen über dieses Material haben, z.B. bei welchem Golem genau es verwendet wurde, so kann der SL mehr Erfolge ansetzen.
+Sehr genaues und eventuell verborgenes („zwischen den Zeilen verstecktes“) Wissen, z.B. die Kontrollwörter für den Golem, erfordern dann einen noch mehr Erfolge.
+Meistens sind solche Informationen an anderen Orten und in anderen Wälzern versteckt.
 ====
 
 Im Allgemeinen gilt: Wissen, was an einem Ort nicht gefunden werden kann, weil es dort nicht hinterlegt ist, kann auch nicht gewürfelt werden.
@@ -399,30 +345,23 @@ Weiterhin darf der Charakter mit diesem Talent alle Standard-Proben des Typs Aus
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampfphasen:* W +
-*Beschreibung:* Dieses Talent betrifft nur die Muttersprache. Je
-komplexer die Aufgabe ist, desto höhere Erfolgsgrade können angesetzt
-werden. Beispielsweise könnte ein umfangreicher, wissenschaftlicher Text
-erst mit einem Guten Erfolg völlig erfasst bzw. verfasst werden, während
-ein Brief an den besten Freund keinen Wurf im ganzen erfordern würde.
-Starke Ablenkung von außen, Lärm, Unruhe oder ein Kampf belegt die Würfe
-zum Erfolg mit einem Malus von mindestens -2. Weitere Anpassungen
-obliegen dem SL.
+*Kampfphasen:* - +
+*Beschreibung:* Dieses Talent betrifft nur die Muttersprache.
+Je komplexer die Aufgabe ist, desto höhere Erfolgsgrade können angesetzt werden.
+Beispielsweise könnte ein umfangreicher, wissenschaftlicher Text erst mit einem Guten Erfolg völlig erfasst bzw. verfasst werden, während ein Brief an den besten Freund keinen Wurf im ganzen erfordern würde.
+Starke Ablenkung von außen, Lärm, Unruhe oder ein Kampf belegt die Würfe zum Erfolg mit einem Malus von mindestens -2.
+Weitere Anpassungen obliegen dem SL.
 
 === Technomantisches Gerät Benutzen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
-*Kampfphasen:* V +
-*Beschreibung:* Über die Jahrhunderte hinweg haben die Technomanten
-viele unterschiedliche Geräte entwickelt, die ebenso vielen Zwecken
-dienen. Für viele Uneingeweihte sind diese Apparaturen ein Buch mit
-sieben Siegeln. Ein Charakter mit diesem Talent kann technomantische
-Gerätschaften bedienen, und zwar so, dass er weiß, was er tut. Die
-ungeübte Anwendung soll zeigen, dass es nicht schwer ist Hebel umzulegen
-und Knöpfe zu drücken. Ungeübte Anwender sollten sich des Risikos stets
-bewusst sein.
+*Kampf:* A +
+*Beschreibung:* Über die Jahrhunderte hinweg haben die Technomanten viele unterschiedliche Geräte entwickelt, die ebenso vielen Zwecken dienen. Für viele Uneingeweihte sind diese Apparaturen ein Buch mit sieben Siegeln.
+Ein Charakter mit diesem Talent kann technomantische Gerätschaften bedienen, und zwar so, dass er weiß, was er tut.
+Die ungeübte Anwendung soll zeigen, dass es nicht schwer ist Hebel umzulegen und Knöpfe zu drücken.
+Ungeübte Anwender sollten sich des Risikos stets bewusst sein.
 
 Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auch Angriffsproben, die üblicherweise mit anderen Talenten geführten werden, substituieren, wenn sie technomantische Waffen damit führen.
 
@@ -433,92 +372,52 @@ Die Anzahl der Kampfphasen ist von dem Gerät selbst abhängig, ähnlich der Ver
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampfphasen:* 1 +
-*Beschreibung:* Der Charakter besitzt auf einem Spezialgebiet besondere
-Kenntnisse, so dass er darüber entsprechendes Wissen abfragen kann. Ein
-Wurf auf dieses Talent deckt, je nach Erfolgsgrad eine Information auf,
-die aus dem jeweiligen Spezialgebiet stammt. Der SL kann dem Spieler
-diese Information mitteilen, in dem er eine detaillierte Beschreibung
-gibt, die entweder aus der Quelle im Spielmaterial stammt oder
-improvisiert ist. Für gewöhnlich werden jedoch keine Spielwerte
-weitergegeben, z.B. “diese Pflanze enthält ein Gift der Stärke 7” oder
-“das Wesen vor euch besitzt normalerweise 140 TP”, sondern solche
-Informationen werden ungefähr so ausgedrückt: “Die Pflanze enthält ein
-starkes Gift” und “Das Wesen ist sehr zäh und hält viele Treffer aus.”
+*Kampf:* M +
+*Beschreibung:* Der Charakter besitzt auf einem Spezialgebiet besondere Kenntnisse, so dass er darüber entsprechendes Wissen abfragen kann.
+Ein Wurf auf dieses Talent deckt, je nach Erfolgsgrad eine Information auf, die aus dem jeweiligen Spezialgebiet stammt.
+Der SL kann dem Spieler diese Information mitteilen, in dem er eine detaillierte Beschreibung gibt, die entweder aus der Quelle im Spielmaterial stammt oder improvisiert ist.
+Für gewöhnlich werden jedoch keine Spielwerte weitergegeben, z.B. “diese Pflanze enthält ein Gift der Stärke 7” oder “das Wesen vor euch besitzt normalerweise 140 TP”, sondern solche Informationen werden ungefähr so ausgedrückt: “Die Pflanze enthält ein starkes Gift” und “Das Wesen ist sehr zäh und hält viele Treffer aus.”.
 Jede weitere Dramatisierung ist natürlich angemessen.
 
-Folgende Wissensgebiete sind beispielweise erlernbar. Welches
-Wissensgebiet ein Charakter lernen kann, hängt von seinem Beruf ab:
-Architektur und Ingenieurwesen, Arkanes, Astronomie, Außerweltliche,
-Geschichte, Geographie, Gewölbe, Legenden, Lokales, Mathematik, Monster,
-Pflanzen, Tiere, Untote, Volk, Waffen und Rüstung.
+Folgende Wissensgebiete sind beispielweise erlernbar:
+Architektur und Ingenieurwesen, Arkanes, Astronomie, Außerweltliche, Geschichte, Geographie, Gewölbe, Legenden, Lokales, Mathematik, Monster, Pflanzen, Tiere, Untote, Volk, Waffen und Rüstung.
 
-Der SL und die Spieler können sich auch weitere Wissensgebiete
-ausdenken, wenn sie diese für nützlich halten.
+Der SL und die Spieler können sich auch weitere Wissensgebiete ausdenken, wenn sie diese für nützlich halten.
 
-Wissen [Arkanes] kann nicht als freies Wissensgebiet bei der
-Charaktererschaffung gewählt werden.
+Wissen [Arkanes] kann nicht als freies Wissensgebiet bei der Charaktererschaffung gewählt werden.
 
-Für die Wissensgebiete Lokales und Volk müssen zusätzliche
-Einschränkungen gewählt werden, nämliche über welche Lokalität das
-Wissen vorhanden ist (z.B. eine Stadt) oder über welches Volk (wähle ein
-Volk: Menschen, Zwerge, Elfen, usw...).
+Für die Wissensgebiete Lokales und Volk müssen zusätzliche Einschränkungen gewählt werden, nämliche über welche Lokalität das Wissen vorhanden ist (z.B. eine Stadt) oder über welches Volk (wähle ein Volk: Menschen, Zwerge, Elfen, usw...).
 
 == Magische Talente
 
-Diese Talenten werden vor allem von zaubernden Berufungen benötigt. Sie
-bilden die Grundausrüstung für die Ausübung der Magie.
+Diese Talenten werden vor allem von zaubernden Berufungen benötigt.
+Sie bilden die Grundausrüstung für die Ausübung der Magie.
 
 === Aether Wahrnehmung
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampfphasen:* 3 +
-*Beschreibung:* Mit diesem Talent kann der Charakter in den Aether
-schauen, der parallel zu allen anderen Dimensionen liegt. Magische
-Gegenstände, magische Aktivitäten, Wesen und Zauber geben eine Art
-Strahlung ab, die sich im Aether als ungefähres Abbild manifestiert.
-Diese ungewohnten Eindrücke können nur mit entsprechender Übung
-interpretiert werden. Um einen magischen Effekt zu entdecken, muss die
-Anzahl der Erfolge die POT des Effekt überwürfeln bzw. im Fall eines
-Wesens, dass im Aetheraum lebt, dessen Energie-Attributsstufe.
+*Kampf:* A +
+*Beschreibung:* Mit diesem Talent kann der Charakter in den Aether schauen, der parallel zu allen anderen Dimensionen liegt.
+Magische Gegenstände, magische Aktivitäten, Wesen und Zauber geben eine Art Strahlung ab, die sich im Aether als ungefähres Abbild manifestiert.
+Diese ungewohnten Eindrücke können nur mit entsprechender Übung interpretiert werden. Um einen magischen Effekt zu entdecken, muss die Anzahl der Erfolge die POT des Effekt überwürfeln bzw. im Fall eines Wesens, dass im Aetheraum lebt, dessen Energie-Attributsstufe.
 
-Der Charakter erhält im Falle eines magischen Gegenstandes oder
-technomantischen Gerätes keine Auskunft über die exakte Wirkungsweise,
-sondern nur ob der Gegenstand verzaubert ist oder nicht (erreicht sein
-Wurf nicht die nötige Anzahl von Erfolgen, erscheint der Gegenstand ihm
-gewöhnlich). Der SL kann zusätzliche Informationen wie eine ungefähre
-Machteinschätzung (z.B. schwache Strahlung, starke Strahlung,
-überwältigende Strahlung etc.) oder eine grobe Richtung der verwendeten
-Magie (z.B. “Der Gegenstand scheint mit Feuermagie verzaubert zu sein”)
-nach eigenem Ermessen geben.
+Der Charakter erhält im Falle eines magischen Gegenstandes oder technomantischen Gerätes keine Auskunft über die exakte Wirkungsweise, sondern nur ob der Gegenstand verzaubert ist oder nicht (erreicht sein Wurf nicht die nötige Anzahl von Erfolgen, erscheint der Gegenstand ihm gewöhnlich).
+Der SL kann zusätzliche Informationen wie eine ungefähre Machteinschätzung (z.B. schwache Strahlung, starke Strahlung, überwältigende Strahlung etc.) oder eine grobe Richtung der verwendeten Magie (z.B. “Der Gegenstand scheint mit Feuermagie verzaubert zu sein”) nach eigenem Ermessen geben.
 
-Der Charakter kann dieses Talent auch einsetzten, um für eine Weile in
-den Aether zu schauen. Dazu muss er mindestens einen durchschnittlichen
-Erfolg würfeln. Er kann dann so viele Runden in den Aether schauen, wie
-er Stufen in diesem Talent hat. Er entdeckt Aktivitäten automatisch, die
-eine POT bzw. eine EN-Stufe hat, die kleiner oder gleich als seiner
-Stufe in Aether Wahrnehmung ist.
+Der Charakter kann dieses Talent auch einsetzten, um für eine Weile in den Aether zu schauen.
+Dazu muss er mindestens einen durchschnittlichen Erfolg würfeln.
+Er kann dann so viele Runden in den Aether schauen, wie er Stufen in diesem Talent hat. Er entdeckt Aktivitäten automatisch, die eine POT bzw. eine EN-Stufe hat, die kleiner oder gleich als seiner Stufe in Aether Wahrnehmung ist.
 
-Charaktere, die Aether Wahrnehmung benutzen, können nur auf
-ausgezeichnete magischem Wege geblendet werden.
+Charaktere, die Aether Wahrnehmung benutzen, können nur auf ausgezeichnete magischem Wege geblendet werden.
 
-In der Interpretation der Eindrücke kann der SL frei entscheiden, ob der
-Charakter bei zu wenig Erfolgen vielleicht einen ungefähren Eindruck von
-dem erhält, was er beobachten und untersuchen möchte. Zum Beispiel wäre
-es möglich, Teilinformationen abzufragen, wie Art der Magie (Feuer,
-Nekromantie, etc.) oder ungefähre Macht (POT des Zauberspruches oder
-Befähigung des Verursachers).
+In der Interpretation der Eindrücke kann der SL frei entscheiden, ob der Charakter bei zu wenig Erfolgen vielleicht einen ungefähren Eindruck von dem erhält, was er beobachten und untersuchen möchte.
+Zum Beispiel wäre es möglich, Teilinformationen abzufragen, wie Art der Magie (Feuer, Nekromantie, etc.) oder ungefähre Macht (POT des Zauberspruches oder Befähigung des Verursachers).
 
-Ein Patzer kann zu völlig falschen Eindrücken führen, die der Charakter
-jedoch nicht als solche erkennt.
+Ein Patzer kann zu völlig falschen Eindrücken führen, die der Charakter jedoch nicht als solche erkennt.
 
-Grundsätzlich ist jede Verwendung von Ather Wahrnehmung mit einem
-kleinen, visuellen Effekt versehen, beispielsweise ein leichtes Glühen
-um die Augen oder die Augen werden komplett weiß oder ein untersuchter
-Gegenstand wird von einem leichten Schimmern erfasst, dessen Ursprung in
-den Augen des Charakter liegt.
+Grundsätzlich ist jede Verwendung von Ather Wahrnehmung mit einem kleinen, visuellen Effekt versehen, beispielsweise ein leichtes Glühen um die Augen oder die Augen werden komplett weiß oder ein untersuchter Gegenstand wird von einem leichten Schimmern erfasst, dessen Ursprung in den Augen des Charakter liegt.
 
 === Spruchzauberei [Zauberschule]
 [[anchor-spellcasting]]
@@ -526,31 +425,23 @@ den Augen des Charakter liegt.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* EN +
-*Kampfphasen:* V +
-*Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der
-jeweils gewählten Zauberschule zu wirken. Er kann das Talent öfters
-lernen, jeweils mit der Ausprägung einer anderen Schule.
+*Kampf:* A +
+*Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der jeweils gewählten Zauberschule zu wirken.
 
-Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer
-Zauberschule zu wirken, muss man diesen vorbereiten. Die Beschreibung
-des Magieeffekts gibt außerdem Auskunft über die notwendige Anzahl von
-Erfolgen, um den Effekt erfolgreich auszusprechen. Bei einem Misserfolg
-muss der Zaubernde sofort eine Probe in Verbrennen Widerstehen ablegen,
-bei einem Patzer kommt es zu einem Zauberpatzer.
+Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen vorbereiten.
+Die Beschreibung des Magieeffekts gibt außerdem Auskunft über die notwendige Anzahl von Erfolgen, um den Effekt erfolgreich auszusprechen.
+Bei einem Misserfolg muss der Zaubernde sofort eine Probe in Verbrennen Widerstehen ablegen, bei einem Patzer kommt es zu einem Zauberpatzer.
 
-Das Dokument Magie bietet eine umfassende Beschreibung des
-Zaubervorgangs und beschreibt, in welchen Situationen die ungeübte
-Anwendung zulässig ist.
+Das Dokument Magie bietet eine umfassende Beschreibung des Zaubervorgangs und beschreibt, in welchen Situationen die ungeübte Anwendung zulässig ist.
 
-Weiterhin bietet das Dokument eine Liste von Zauberschulen, die
-besondere Regeln mit sich bringen und welche Zauberlisten gelernt werden
+Weiterhin bietet das Dokument eine Liste von Zauberschulen, die besondere Regeln mit sich bringen und welche Zauberlisten gelernt werden
 
 === Verbrennen Widerstehen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
-*Kampfphasen:* S +
+*Kampf:* F +
 *Beschreibung:* Mit diesem Talent kann der Charakter Verbrennen Widerstehen Proben werfen.
 
 === Willenskraft
@@ -558,5 +449,5 @@ besondere Regeln mit sich bringen und welche Zauberlisten gelernt werden
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* SB +
-*Kampfphasen:* S +
+*Kampf:* F +
 *Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Willenskraft werfen.

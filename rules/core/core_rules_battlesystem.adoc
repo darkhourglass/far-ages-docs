@@ -70,188 +70,79 @@ Dieser wird ausführlich in einem späteren Kapitel besprochen.
 
 In der Realität ist ein Kampf ein schwer kontrollierbares System aus Ereignissen, die oft gleichzeitig passieren.
 Dies lässt jedoch schwer für ein Spiel, welches an einem Tisch stattfindet, umsetzen.
-Daher ist der Ablauf eines Kampfes in *Kampfphasen* unterteilt.
-Kampfphasen sind ein paar Augenblicke, in denen unterschiedliche Ereignisse stattfinden können und die abstrakte Maßeinheit dienen.
+Daher ist der Ablauf eines Kampfes in *Kampfrunden* unterteilt.
+Kampfrunden sind ein paar Augenblicke, in denen unterschiedliche Ereignisse stattfinden können und die abstrakte Maßeinheit dienen.
 
-Jede mögliche Aktion eines Teilnehmers an einem Kampf dauert eine bestimmte Anzahl von Kampfphasen.
-Je komplizierter oder aufwändiger eine Aktion ist, umso mehr Kampfphasen dauert sie an.
-Das Anlegen einer Rüstung dauert zum Beispiel deutlich länger als das Ziehen eines Schwertes geschweige denn das Schwingen eines Schwertes.
+In jeder Kampfrunde stehen jedem Teilnehmer unterschiedliche Aktionen und Manöver zur Verfügung.
+Hat jeder Teilnehmer seine Aktionen in einer Kampfrunde durchgeführt, ist diese vorbei und eine neue Kampfrunde beginnt. Ein Kampf ist beendet, wenn in einer Kampfrunde kein Teilnehmer Aktionen durchführen kann oder möchte.
 
-Grundsätzlich ist die Idee hinter dem Kampfsystem vom Far Ages, dass die Kampfteilnehmer ihre Aktionen immer dann ausspielen, wenn eine Kampfphase endet, in der die Komplettierung ihrer Aktion stattfindet.
+=== Ablauf der Kampfrunde
 
-Charaktere, die lange für ihre Aktionen brauchen (mehr Kampfphasen brauchen, bis sie etwas durchgeführt haben), sind entsprechend weniger häufig am Zug als Charaktere, die kurze Aktionen verwenden.
+Jede Kampfrunde läuft nach dem gleichen Schema ab:
 
-Am besten erklärt sich diese Idee an einem Beispiel.
-Folgende Tabelle zeigt drei Charaktere, die an einem Kampf teilnehmen.
+1. Initiative bestimmen
+2. Aktionen durchführen
 
-[cols=",,,",options="header"]
-|===
-|Kampfphase a|
-Athogharu
-(Initiative: 6)
-a|
-Kraag
-(Initiative: 5)
-a|
-Me'ander
-(Initiative: 3)
-|1 |Attacke |Attacke |Vorbereitung eines Zauberspruches
-|2 |Attacke | |
-|3 |Attacke |Bewegung |
-|4 |Bewegung |Attacke |
-|5 |Spruchzauberei | |
-|6 |Kampfmanöver |Attacke |Bewegung
-|7 |Attacke | |
-|8 |Attacke |Bewegung |Vorbereitung eines Zauberspruches
-|9 |Attacke | |
-|10 |Attacke |Spruchzauberei |
-|===
+Die folgenden Unterkapitel beschreiben die einzelnen Schritte im Detail.
 
-* Kampfphase 1: Athogharu ist als Einziger mit seiner Aktion fertig und attackiert.
-Me'ander beginnt mit der Vorbereitung eines Zauberspruches, die vier Kampfphasen in Anspruch nimmt.
-* Kampfphase 2: Sowohl Athogharu als auch Kraag sind in Kampfphase 2 mit ihrer Attacke
-an der Reihe. Ihre Initiative entscheidet in diesem Moment, wer zuerst darf.
-Athogharu hat die Höhere, daher darf er zuerst attackieren.
-* Kampfphase 3: Athogharu führt eine Attacke durch, danach Kraag eine Bewegung.
-* Kampfphase 4: Keiner der Charaktere ist mit einer Aktion fertig, daher geht man direkt zu Kampfphase 5 über.
-* Kampfphase 5: An dieser Stelle sind sowohl Athogharu, Kraag und Me'ander mit ihrern Aktionen fertig.
-Anhand der Initiativereihenfolge wird festgestellt, wer seine Aktion zuerst ausspielen darf.
-* Kampfphase 6: Hier darf sich nur Me'ander bewegen.
-* Kampfphase 7: Wiederum sind alle Teilnehmer mit ihren Aktionen fertig.
-Wieder entscheidet die Initiativereihenfolge, er zuerst darf.
-* Kampfphase 8: Kraag darf eine Bewegung ausspielen, während Athogharu eine Attacke
-beginnt und Me'ander mit der Vorbereitung eines Zauberspruches.
-* Kampfphase 9: Nur Athogharu ist mit seiner Attacke fertig, darf diese also ausspielen.
-* Kampfphase 10: Wiederum sind alle Drei fertig und spielen nach der Initiativereihenfolge ihre Aktionen aus.
+==== Initiative bestimmen
 
-Weiterhin lässt sich dieses Modell auch benutzen, um lang anhaltende Aktionen, wie zum Beispiel den Gesang eines Barden, darzustellen.
-In diesem Fall beginnt die Aktion mit der ersten Kampfphase, in der der Charakter anfängt zu singen, und endet mit der Kampfphase, in der der Charakter seinen Gesang beendet.
+Zu Beginn jeder Kampfphase bestimmt jeder Teilnehmer seinen Initiativewert.
+Dieser berechnet sich aus dem festen Initiativewert (INI) des Teilnehmers, ggf. zusätzlichen Boni oder Mali, z.B. dem Vorteil Verbesserte Initiative und einem Würfelwurf von 2W10.
 
-Die folgenden Kapitel beschreiben nun die Einzelheiten der Schritte.
-
-=== Kampfphasen, Aktionen und Initiative
-
-==== Kampfphasen
-
-Wie bereits beschrieben ist eine *Kampfphase* ein bestimmter, aber nicht näher definierter Anteil an Sekunden, die eine abstrakte Zeiteinheit in einem Kampf darstellt.
-Wie das Beispiel in der Einleitung zu diesem Kapitel gezeigt hat, ist es sinnvoll, einen Überblick über den Verlauf der Kampfphasen zu halten.
-Dies kann der SL über eine entsprechende Tabelle machen oder die Kampfphasen hochzählen und dies beispielsweise mit einem Würfel auf dem Spieltisch allgemein anzeigen.
-
-Pro Kampfphase hat jeder Kampfteilnehmer folgende Möglichkeiten aus denen er wählen kann, vorausgesetzt er kann bewusst am Kampf teilnehmen:
-
-1. Eine Aktion ansagen (Anfang der Kampfphase)
-2. Eine Aktion durchführen (Ende der Kampfhase)
-3. Eine Aktion vorbereiten
-4. Eine Aktion weiterführen
-5. Warten
-
-Am Anfang einer Kampfphase kann jeder Charakter eine *Aktion ansagen*.
-Um dies tun zu können, muss der Charakter entweder eine aktuelle Aktion unterbrechen, wenn diese Aktion dies erlaubt oder zur Zeit keine Aktion aktiv haben.
-Es ist wichtig, darauf zu achten, dass diese Ansagen am Anfang einer Kampfphase gemacht werden.
-Sobald der erste Teilnehmer eine Aktion durch- oder weiterführt (siehe unten) können für diese
-Kampfphasen keine weiteren Ansagen mehr gemacht werden.
-Aktionen Ansagen kostet selbst keine Kampfphase.
-Die Kampfphase, in der einen Aktion angesagt wurde, kann auch genutzt werden, um die Aktion vorzubereiten, weiterzuführen oder durchzuführen, siehe dazu die folgenden Abschnitte.
-
-.Aktionen ansagen
-====
-Zu Beginn der Kampfphase 4 aus dem vorherigen Beispiel hatten Athogharu und Kraag keine Aktionen aktiv, die letzten Aktionen wurden in Kampfphase 3 abgeschlossen.
-Athogharu und Kraag haben also mit Beginn von Kampfphase 4 die Möglichkeit neue Aktionen anzusagen.
-Wie aus dem Beispiel hervorgeht, möchte Athogharu ein Kampfmanöver durchführen und Kraag eine Attacke.
-
-Me'ander ist gerade beschäftigt und kann daher keine neue Ansage machen.
-====
-
-Am Ende einer Kampfphase kann jeder Charakter einen *Aktion durchführen*.
-Diese Aktion muss komplett sein, das heißt, der Charakter hat die nötige Anzahl von Kampfphasen diese Aktion vorbereitet bzw. weitergeführt.
-Ist dies nicht der Fall, so kann ein Charakter keine Aktion durchführen.
-Es gibt Aktionen, die am Anfang einer Kampfphase angesagt und am Ende derselben Kampfphase durchgeführt werden können.
-
-Wer wann seine Aktion durchführen kann, bestimmt die Initiativereihenfolge, siehe dazu später in diesem Kapitel.
-
-.Aktionen durchführen
-====
-Im obigen Beispiel sind am Ende von Kampfphase 5 alle drei Teilnehmer mit Aktionen aus vorherigen Kampfphasen fertig und können diese in Abhängigkeit von der Initiativereihenfolge ausführen.
-====
-
-Aktionen, die mehrere Kampfphasen benötigen, werden am Anfang jeder Kampfphase durch *Aktionen vorbereiten* behandelt.
-Die Kampfteilnehmer, die in eine solche Aktion verwickelt sind, müssen die Vorbereitung fortsetzen, außer sie sind in der Lage diese abzubrechen, siehe dazu jedoch weiter unten unter dem Punkt Aktionen abbrechen.
-Grundsätzlich gilt, dass eine Aktion, für die nicht ausreichend Kampfphasen aufgewendet wurden, nicht durchgeführt werden kann.
-
-.Aktionen vorbereiten
-====
-Me'ander ist im Beispiel von Kampfphase 1 bis 4 damit beschäftigt, einen Zauberspruch vorzubereiten, den er in der Kampfphase 5 aussprechen will.
-Während der Kampfphasen 1 bis 4 kann er nichts anderes tun.
-====
-
-Als Unterscheidung zu Aktionen vorbereiten kommt *Aktionen weiterführen* ins Spiel.
-Manche Aktionen werden in einer Kampfphase begonnen und haben einen Effekt solange wie sie wirken.
-In der Einführung zu diesem Kapitel wurde als Beispiel ein singender Barde genannt.
-Derartige Aktionen werden behandelt, wie alle anderen Aktionen auch.
-Es muss eine Ansage für eine solche Aktion stattfinden und für jede Kampfphase, in der diese Aktion Geltung haben soll, muss Aktion weiterführen gewählt werden.
-Eine Probe auf solche Aktionen wird üblicherweise in der ersten Kampfphase ihrer Wirkung (also am Ende derselben Kampfphase, in der die Aktion angesagt wurde) gewürfelt.
-Sollte es nicht anders erwähnt sein, ist der Abbruch einer solchen Aktion jederzeit möglich.
-
-Möchte ein Charakter in einer Kampfphase nichts machen, so kann er *warten*.
-Er kann diese Option nicht wählen, wenn er eine Aktion vorbereitet oder weiterführt.
-Führt er gerade eine Aktion weiter und wählt dann warten, so gilt die Aktion als abgebrochen.
-Wählt er warten, so kann er erst in der nächsten Kampfphase neue Aktionen ansagen.
-Während er wartet kann er jedoch auf Aktionen anderer wie gewohnt reagieren.
-
-=== Initiative und Initiativereihenfolge
-
-Die *Initiative* eines Charakter bestimmt, wann er in einer Kampfphase dran ist, wenn mehrere Kampfteilnehmer ihre Aktionen durchführen wollen.
-
-.Initiative
-====
-Im obigen Beispiel haben wir bereits gesehen, dass in Kampfphase 5 alle drei Kampfteilnehmer gleichzeitig dran sind, sie können in dieser Kampfphase jeder eine Aktion durchführen.
-Wer zuerst agiert, bestimmt nun die Initiativereihenfolge.
-====
-
-Die *Initiativereihenfolge* ergibt sich aus den Initiative-Werten der Kampfteilnehmer.
-Wer einen höheren INI-Wert hat, agiert vor denen, mit niedrigeren INI-Werten.
-
-.Initiativereihenfolge
-====
-Die Initiativereihenfolge für Kampfphase 5 aus dem obigen Beispiel ist daher Aghotharu, Kraag, Me'ander.
-====
-
-Sind zwei Initiativewerte gleich, so entscheiden im Fall, dass beide Kampfteilnehmer aus derselben Kampfpartei sind, die beiden Kampfteilnehmer, wer zuerst agieren darf und im Fall, dass beide aus unterschiedlichen Kampfparteien stammen, ein Würfelwurf.
-
-Es gibt Möglichkeiten, den INI-Wert zu beeinflussen. Rüstung, die der Charakter trägt, reduziert diesen Wert.
+Rüstung, die der Charakter trägt, reduziert außerdem seinen INI-Wert.
 Die nennt man einen sogenannten *Initiative-Malus*.
-Der INI-Wert kann durch einen Initiative-Malus einen negativen Wert erreichen, der in der Initiativereihenfolge entsprechend eingeordnet wird.
+Der INI-Wert kann durch einen Initiative-Malus einen negativen Wert erreichen, der entsprechend das Gesamtergebnis beeinflusst.
 
-Es noch diverse andere Faktoren, wie zum Beispiel das Wirken von Magie oder Vor- oder Nachteile, die den INI-Wert beeinflussen.
-Diese müssen alle ausgewertet werden bevor die endgültige Initiativereihenfolge steht.
+Basierend auf dem Ergebnis aller Teilnehmer wird die Initiativereihenfolge bestimmt.
+Der Teilnehmer mit dem höchsten Wert darf zuerst seine Aktionen durchführen, danach kommt der Teilnehmer mit dem zweithöchsten Wert dran und so weiter.
 
-=== Aktionen
+Haben zwei Teilnehmer den gleichen Initiativewert, bestimmt der höchste Initiativebonus die Reihenfolge. Ist auch dieser gleich, würfen beide Teilnehmer solange einen W10, bis einer von Ihnen ein höheren Ergebnis hat. Diese Werte werden nicht zu dem bereits bestimmten Initiativewert hinzuaddiert.
 
-Bisher wurde das Wort Aktion ohne konkrete Bedeutung benutzt.
-Als Aktion in einem Kampf nach dem System von Far Ages bezeichnen wir eine Handlung der Art:
+.Initiative bestimmen
+====
+In einem Trainingskampf treten die Schüler Kraag, Me'ander und Teliskin gegeneinder an.
+Kraags INI ist 2, Me'anders 3 und Teliskin hat einen Initiative-Bonus von 1.
+Jeder würfelt mit 2W10 und erhält folgende Ergebnisse: +
+Kraag: 9 +
+Me'ander: 4 +
+Teliskin: 10 +
+Mit der Addition der  jeweiligen INI-Werte ergeben sich folgende Gesamtwerte: +
+Kraag: 11 +
+Me'ander: 7 +
+Teliskin: 11 +
+In diesem Fall haben Kraag und Teliskin den gleichen Initiativewert von 11.
+Kraags Initiativebonus ist jedoch höher.
+Damit ergibt sich folgende Initiativereihenfolge: Kraag, Teliskin, Me'ander.
+====
+
+===== Optional: Feste Initiativereihenfolge
+
+Als Alternative zu dem vorgestellten System kann die Initiativereihenfolge einmalig bei Kampfbeginn festgelegt werden.
+Dadurch ist jeder Teilnehmer während des Kampf in jeder Kampfrunde zur gleiche Zeit am Zug.
+Diese Vereinfachung ist vorallem dazu gedacht, den Ablauf des Kampfs schneller zu durchzuführen.
+
+==== Aktionen durchführen
+
+Sobald die Initiativereihenfolge es erlaubt, darf ein Kampfteilnehmer seine Aktionen durchführen.
+Pro Kampfrunde hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur Verfügung:
+
+* max. 1 Aktion
+* max. 1 Bewegungs- oder Kampfmanöver
+* max. 1 Reaktion
+* beliebige Freie Aktionen
+
+Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion bzw. Kombination aus o.g. Aktionen, mit Ausnahme der Reaktion.
+
+Als *Aktion* in einem Kampf nach dem System von Far Ages bezeichnen wir eine Handlung der Art:
 
 1. Talenteinsatz
-2. Bewegungs- oder Kampfmanöver
-3. Vorbereitung von Zaubersprüchen
+2. Vorbereitung von Zaubersprüchen
+3. Weiterführen von längereren Aktionen
 
-*Talenteinsatz* beschreibt, dass der handelnde Charakter ein Talent
-verwendet, also eine Probe mit einem Talent ablegen möchte.
-Jedes Talent hat in seiner Beschreibung einen Eintrag „Kampfphasen“.
-Dieser Eintrag ist eine Zahl, welche die Anzahl der Kampfphasen angibt, die insgesamt benötigt werden, um das Talent einzusetzen.
-Dies beinhaltet Ansagen und Durchführen der Aktion in den jeweiligen Ansagen.
-
-.Talente sind Aktionen
-====
-Ein Talent benötigt 2 Kampfphasen.
-In Kampfphase 3 sagt ein Charakter den Einsatz dieses Talentes an.
-Am Ende von Kampfphase 4 kann er es durchführen, denn er hat insgesamt 2 Kampfphasen aufgewendet, um das Talent einzusetzen.
-====
+*Talenteinsatz* beschreibt, dass der handelnde Charakter ein Talent verwendet, also eine Probe mit einem Talent ablegen möchte.
 
 Unter Talenteinsatz fällt auch die ungeübte Anwendung von Talenten.
-
-Die benötigen Kampfphasen bei einem Talent können auch von den Umständen
-abhängigen, mit bei denen das Talent eingesetzt wird.
-In diesem Fall ist der Eintrag unter Kampfphasen als variabel gekennzeichnet.
 Dies betrifft insbesondere die folgenden Angriffstalente:
 
 * Nahkampfwaffen
@@ -260,61 +151,48 @@ Dies betrifft insbesondere die folgenden Angriffstalente:
 * Unbewaffneter Kampf
 * Spruchzauberei
 
-Die Kampfphasen, die diese Talente für ihren Einsatz benötigen, hängt von den verwendeten Waffen ab.
-Nahkampf- und Wurfwaffen können nach einer Aufwendung von angegebenen Kampfphasen eingesetzt werden, ausgeführt durch die entsprechende Angriffsprobe.
-Projektilwaffen müssen geladen werden, ihre Kampfphasenangabe beschreibt diesen Ladevorgang bis
-zum Abfeuern.
-Wie bei den anderen Waffen ist eine Waffe nach dieser Anzahl Kampfphasen kampfbereit und kann mit der Angriffsprobe verwendet werden.
-
 Unter *Bewegung-* bzw. *Kampfmanöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen, Sprinten oder einen Sturmangriff durchführen.
-Manöver besitzen normalerweise auch eine Angabe wie viele Kampfphasen sie benötigen, um sie durchzuführen.
-Im Falle einer konstanten Handlung, wie z.B. Rennen, dauert dieses Manöver meistens solange, wie der Charakter rennen möchte, bis er etwas anderes ansagt.
-
+Manöver besitzen normalerweise auch eine Angabe wie viele Kampfphasen sie benötigen, um sie durchzuführen. +
 Manche Manöver interagieren auch mit Talenten, so dass sie nur mit eben solchen angewendet werden können.
 Meistens verändern sie dadurch die für das Talent benötigte Kampfphasen oder verändern die Schwierigkeit die Talentprobe zu bestehen.
-
-Manöver müssen wie der Einsatz von Talenten angesagt werden.
-Die Kombination von Manövern und Talenten, die zusammen ausgeführt werden müssen, müssen auch gemeinsam angesagt werden.
+Manöver müssen mit dem Einsatz von Talenten angesagt werden.
+Die Kombination von Manövern und Talenten, die zusammen ausgeführt werden müssen, müssen auch gemeinsam angesagt werden. +
+Eine Aktion kann gegen ein weiteres Manöver eingetauscht werden.
+Entscheidet sich ein Charakter für diese Option hat er formal 2 Bewegungs- bzw. Kampfmanöver in seiner Kampfrunde zur Verfügung.
+Umgekehrt ist dies jedoch nicht möglich.
 
 Zaubersprüche benötigen eine spezielle Behandlung im Regelsystem von Far Ages.
 Daher wird das *Vorbereiten von Zaubersprüchen* in diesem Moment extra erwähnt.
 Bevor ein Zauberspruch ausgesprochen werden kann, formt ein Zauberer ihn aus dem Aether, dem magischen Zwischenreich zwischen den Dimensionen.
-Diese Zeit wird in Form von Kampfphasen bei der Beschreibung des Zauberspruches angegeben.
-
-Generell gilt, die Spruchzauberei-Probe in der letzten benötigten Kampfphasen gewürfelt wird.
-
-Zaubersprüche, die eine Vorbereitung von 0 bzw. 1 haben, können sofort mit Ansage der Spruchzauberei-Probe am Ende derselben Kampfphase ausgesprochen werden.
-
+Diese Zeit wird in Form von Aktionen bei der Beschreibung des Zauberspruches angegeben.
+Generell gilt, die Spruchzauberei-Probe in der letzten benötigten Kampfrunde gewürfelt wird.
+Zaubersprüche, die eine Vorbereitung von 0 bzw. 1 haben, können sofort mit Ansage der Spruchzauberei-Probe in derselben Kampfrunde ausgesprochen werden.
 Dazu jedoch mehr im Kapitel Magie im Kampf und im Dokument link:core_rules_magic_base.adoc[Magie].
 
-=== Freie Aktionen
+Neben dem Vorbereiten von Zauberspüchen können auch anderen Aktionen länger dauern als eine Kampfrunde.
+In diesem Fall spricht man vom *Weiterführen*.
+Charaktere, die mit entsprechend längeren Aktionen beschäftigt sind und diese nicht abbrechen möchten, müssen ihre Aktion zum Weiterführen werden.
 
-Freie Aktionen beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
-Freie Aktionen kosten den Charakter keine Kampfphase oder Vorbereitung.
+*Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
 Grundsätzlich kann der Charakter also beliebig viele Freie Aktionen durchführen, allerdings kann die Anzahl bestimmter Freier Aktionen limitiert sein.
 Freie Aktionen können nur angewendet werden, wenn der Charakter an der Reihe ist.
 
-=== Spontane Aktionen
+*Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen Initiativereihenfolge ausführen kann, d.h. wenn er ereigentlich nicht dran.
+Typische Reaktionen ist die Verwendung von Talenten wie Hieb Ausweichen, Schildverteidigung oder Parade.
 
-Spontane Aktionen sind Aktionen, die ein Charakter außerhalb der normalen Kampfphasenabfolge ausführen kann.
-Diese Aktionen kann man als Reaktion auf andere Ereignisse zu verstehen.
-Typische Spontane Aktionen ist die Verwendung von Talenten wie Hieb Ausweichen, Schildverteidigung oder Parade.
-
-Grundsätzlich können Spontane Aktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
+Grundsätzlich können Realktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
 Charaktere, die angegriffen werden und in der Lage sind, Hieb Ausweichen einzusetzen, dürfen dieses Talent einsetzen.
-Die jeweiligen Beschreibungen geben Auskunft, ob Spontane Aktionen andere Aktionen, die vorbereitet oder weitergeführt werden, unterbrechen.
+Die jeweiligen Beschreibungen geben Auskunft, ob Reaktionen andere Aktionen, die vorbereitet oder weitergeführt werden, unterbrechen.
 
-=== Aktionen ändern oder abbrechen
+=== Aktionen abbrechen
 
 Es kann vorkommen, dass Kampfteilnehmer aufgrund von anderen Ereignissen im Kampf zu der Ansicht kommen, dass sie ihre aktuell vorbereitete Aktion nicht mehr durchführen wollen.
-Beispielsweise könnte ein Zauberer einen Zauberspruch, den er gerade vorbereitet, abbrechen wollen, weil im Verlauf der letzten Kampfphasen sein Ziel außer Sicht ging oder ein Teilnehmer ging durch einen Querschläger zu Boden, weswegen sein Kontrahent die aktuelle Attacke lieber gegen einen anderen nahestehenden Kampfteilnehmer richten will.
+Beispielsweise könnte ein Zauberer einen Zauberspruch, den er gerade vorbereitet, abbrechen wollen, weil im Verlauf der letzten Kampfrunden sein Ziel außer Sicht ging oder ein Teilnehmer ging durch einen Querschläger zu Boden, weswegen sein Kontrahent die aktuelle Attacke lieber gegen einen anderen nahestehenden Kampfteilnehmer richten will.
 
 Aktionen können in ihrer Vorbereitung oder auch am Ende ihrer Vorbereitung, also zur Durchführung, geändert oder abgebrochen werden, vorausgesetzt, diese Aktion erlaubt einen frühzeitigen Abbruch.
-Wenn eine Aktion abgebrochen wird, so muss dies geschehen, wenn in einer Kampfphase Aktionen angesagt werden.
 Es kann dann zu negativen Folgen für den Abbrecher kommen, was jedoch von der Situation abhängig ist und keinen allgemeinen Regeln unterliegt.
 
-Kampfteilnehmer, die eine Aktion abbrechen, können in derselben Kampfphase normalerweise neue Aktionen ansagen.
-Dies bezeichnet man als Aktionen ändern.
+Je nach Aktion kann das Abbrechen selbst eine Aktion sein, ein Manöver oder gar eine Freie Aktion.
 
 == Nahkampf und Unbewaffneter Kampf
 
@@ -324,15 +202,18 @@ Eine Projektilwaffe verursacht ihren Schaden also nicht an dem Ort, wo sie "stat
 
 Im allgemeinen gilt, dass eine konkurrierende Probe im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er darf nicht gelähmt, paralysiert oder ohnmächtig sein.
 
-Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Talente nutzen, dies sind zum Beispiel Hieb Ausweichen, Schildverteidigung und Parade.
+Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Reaktionen nutzen, dies sind zum Beispiel die Talente Hieb Ausweichen, Schildverteidigung und Parade.
 
-Jedoch gilt, solange der Charakter fähig ist auszuweichen, so kann er dies mit einer Attributsprobe auf Geschick tun. Trägt er einen Schild, so kann er auch die ungeübte Anwendung des Talents Schildverteidigung versuchen.
+Jedoch gilt, solange der Charakter fähig ist auszuweichen, so kann er dies mit einer Attributsprobe auf Geschick tun.
+Trägt er einen Schild, so kann er auch die ungeübte Anwendung des Talents Schildverteidigung versuchen.
 
 Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine einfache Probe seitens des Angreifers gewürfelt und es gilt die Anzahl an Erfolgen, die er gewürfelt hat.
 
-Welche Gegner ein Charakter angreifen kann, bestimmt seine *Bedrohungszone*. Die nebenstehende Abbildung zeigt die Bedrohungszonen eines Charakters der Größenkategorie 5 in grauer Farbe.
+Welche Gegner ein Charakter angreifen kann, bestimmt seine *Bedrohungszone*.
+Die nebenstehende Abbildung zeigt die Bedrohungszonen eines Charakters der Größenkategorie 5 in grauer Farbe.
 
-Ein Charakter kann keine Charaktere in seinem Rücken angreifen, außer er dreht sich um. Dies jedoch gilt als Kampfmanöver und kann Gelegenheitsangriffe provozieren.
+Ein Charakter kann keine Charaktere in seinem Rücken angreifen, außer er dreht sich um.
+Dies jedoch gilt als Kampfmanöver und kann Gelegenheitsangriffe provozieren.
 
 Größere Wesen haben meistens auch größere Bedrohungszonen, das heißt, sie haben vermutlich längere Arme, Tentakel oder ähnliches, mit denen sie ihre Gegner erreichen können.
 Daher gilt, dass jede Größenkategorie von 7 oder höher einen zusätzlichen Halbring pro Größenkategorie um die Basis der Kreatur hat.
@@ -734,801 +615,557 @@ Das Geschoss springt dann (1W4+ST-Stufe)*1,50 Meter (also 1W4+ ST-Stufe Kacheln)
 === Kegelförmige Waffen
 
 Manche Kreaturen, Zaubersprüche und Waffen haben einen sogenannten kegelförmigen Flächenschaden.
-Wie bei einem Radius ist dieser Kegel mit
-einer Reichweitenangabe versehen. Ein Kegel beginnt an der vollen Front
-der Basis der Kreatur. Pro 1,50 Meter erhöht sich der Kegel in gerader
-Linie von seinem Ursprung um jeweils eine Reihe von Feldern.
+Wie bei einem Radius ist dieser Kegel mit einer Reichweitenangabe versehen.
+Ein Kegel beginnt an der vollen Front der Basis der Kreatur.
+Pro 1,50 Meter erhöht sich der Kegel in gerader Linie von seinem Ursprung um jeweils eine Reihe von Feldern.
 
 Pro Reihe erhält der Kegel an seiner Seite jeweils ein weiteres Feld.
-Die folgende Zeichnung illustriert das Prinzip für einen Kegel von 4,50
-Metern.
+Die folgende Zeichnung illustriert das Prinzip für einen Kegel von 4,50 Metern.
 
-Wie bei einer Waffe mit Flächenschaden kann man auch hier mit einer
-Reflex-Probe ausweichen, um den Schaden abzuwenden oder zu halbieren.
-Diese Form von Angriffen werden mit unterschiedlichen Talenten oder
-Attributen gewürfelt, meistens mit Spruchzauberei oder Projektilwaffen,
-je nach Art des Angriffes.
+Wie bei einer Waffe mit Flächenschaden kann man auch hier mit einer Reflex-Probe ausweichen, um den Schaden abzuwenden oder zu halbieren.
+Diese Form von Angriffen werden mit unterschiedlichen Talenten oder Attributen gewürfelt, meistens mit Spruchzauberei oder Projektilwaffen, je nach Art des Angriffes.
 
 == Berittener Kampf
 
-Ein Charakter auf einem Reittier kann im Kampf agieren, wie jeder andere
-Charakter auch. Sein Reittier gibt ihm eine verbesserte Position
-gegenüber Angriffen und er hat zusätzliche Kampfkraft, wenn das Tier
-entsprechend ausgebildet ist. Folgende Vor- und Nachteile hat ein
-Berittener:
+Ein Charakter auf einem Reittier kann im Kampf agieren, wie jeder andere Charakter auch. Sein Reittier gibt ihm eine verbesserte Position gegenüber Angriffen und er hat zusätzliche Kampfkraft, wenn das Tier entsprechend ausgebildet ist.
+Folgende Vor- und Nachteile hat ein Berittener:
 
-* Gegen Nahkampfattacken hat gilt er als ein Ziel, das Deckung hat. Pro
-Größenkategorie, die das Reittier größer ist als der Charakter, erhält
-dieser 25% Deckung, bis zu einem Maximum von 75%.
-* Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden
-Kämpfende, so kann der SL Boni für Höhenunterschiede geben. Ist das
-Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann
-muss der Charakter eine Nahkampfwaffe tragen, die eine erhöhte
-Nahkampfreichweite hat. Ist das Reittier noch größer, kann der Reiter
-keine Nahkampfangriffe führen.
+* Gegen Nahkampfattacken hat gilt er als ein Ziel, das Deckung hat.
+Pro Größenkategorie, die das Reittier größer ist als der Charakter, erhält dieser 25% Deckung, bis zu einem Maximum von 75%.
+* Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende, so kann der SL Boni für Höhenunterschiede geben.
+Ist das Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann muss der Charakter eine Nahkampfwaffe tragen, die eine erhöhte Nahkampfreichweite hat.
+Ist das Reittier noch größer, kann der Reiter keine Nahkampfangriffe führen.
 * Der Reiter gilt als zusätzliche Trefferzone für das Reittier.
 Fernangriffe werden auf das Reittier wie gewohnt ausgeführt.
-* Fern- wie Nahkampfangriffe können durch das Kampfmanöver Gezielter
-Schuss bzw. Schlag den Reiter oder das Reittier angreifen.
-* Wird das Reittier durch einen Angriff niedergeschlagen, so fällt der
-Reiter mit dem Reittier. Er erhält dadurch Fallschaden nach den üblichen
-Regeln, jedoch mindestens 1W6. Dasselbe gilt, wenn der Reiter selbst
-niedergeschlagen wird.
-* Das Reittier des Charakters muss auf den Kampf geschult sein, um
-selbstständig Gegner zu attackieren und um das Kampfgetümmel mühelos
-ertragen. Ist das Tier nicht geschult, so muss der Charakter eine
-Reiten-Probe (in diesem Fall: keine Aktion) ablegen. Die Anzahl der
-Erfolge ergibt sich aus der Anzahl der Kämpfenden in direkter Nähe des
-Charakters, Freunde wie Feinde. Misslingt die Probe, so zählt die Probe
-als Aktion, der Charakter kann in der folgenden Kampfphase nichts tun.
+* Fern- wie Nahkampfangriffe können durch das Kampfmanöver Gezielter Schuss bzw. Schlag den Reiter oder das Reittier angreifen.
+* Wird das Reittier durch einen Angriff niedergeschlagen, so fällt der Reiter mit dem Reittier.
+Er erhält dadurch Fallschaden nach den üblichen Regeln, jedoch mindestens 1W6.
+Dasselbe gilt, wenn der Reiter selbst niedergeschlagen wird.
+* Das Reittier des Charakters muss auf den Kampf geschult sein, um selbstständig Gegner zu attackieren und um das Kampfgetümmel mühelos ertragen.
+Ist das Tier nicht geschult, so muss der Charakter eine Reiten-Probe ablegen.
+Die Anzahl der Erfolge ergibt sich aus der Anzahl der Kämpfenden in direkter Nähe des Charakters, Freunde wie Feinde.
+Misslingt die Probe, so verliert der Charakter seine Aktion für diese Kampfrunde.
 Gelingt sie, hat er das Pferd unter Kontrolle und kann normal agieren.
 
 == Spruchzauberei
 
-Die Zauberei ist ein komplexes und umfassendes Thema, dessen Gesamtheit
-sich im Dokument[Magie] befindet. Dieser Abschnitt beschäftigt sich
-daher mit den wichtigsten Kampfsituationen, in die ein Zaubernder
-geraten kann.
+Die Zauberei ist ein komplexes und umfassendes Thema, dessen Gesamtheit sich im Dokument link:core_rules_magic_base.adoc[Magie] befindet.
+Dieser Abschnitt beschäftigt sich daher mit den wichtigsten Kampfsituationen, in die ein Zaubernder geraten kann.
 
 === Vorbereiten von Zaubersprüchen
 
-Der grundsätzliche Ablauf des Aussprechen eines Zauberspruches ist das
-sogenannte *Vorbereiten* und das schlussendliche Wirken der Magie. Eine
-Vorbereitung ist daher von Nöten, da die magischen Energien nicht in
-fertigen Zaubern vorliegen und der Zauberer seine Zauber erst einmal
-zusammensetzen muss. Dieser Vorgang ist unterschiedlich ritualisiert,
-einige Zauber benötigen Beschwörungsgesänge, andere wiederum das
-Rezitieren magischer Formeln, wieder andere erfordern Gesten oder
-bestimmte Handlungen und Zutaten.
+Der grundsätzliche Ablauf des Aussprechen eines Zauberspruches ist das sogenannte *Vorbereiten* und das schlussendliche Wirken der Magie.
+Eine Vorbereitung ist daher von Nöten, da die magischen Energien nicht in fertigen Zaubern vorliegen und der Zauberer seine Zauber erst einmal zusammensetzen muss.
+Dieser Vorgang ist unterschiedlich ritualisiert, einige Zauber benötigen Beschwörungsgesänge, andere wiederum das Rezitieren magischer Formeln, wieder andere erfordern Gesten oder bestimmte Handlungen und Zutaten.
 
-Diese ganzen Möglichkeiten werden als Vorbereitung zusammengefasst, die
-sich über eine jeweils vom Zauberspruch abhängige Zahl von Kampfphasen
-ausdrückt. Das Dokument[Magie] bietet im Übrigen auch Möglichkeiten,
-diese Anzahl zu verringern.
+Diese ganzen Möglichkeiten werden als Vorbereitung zusammengefasst, die sich über eine jeweils vom Zauberspruch abhängige Zahl von Kampfrunden ausdrückt.
+Das Dokument link:core_rules_magic_base.adoc[Magie] beschreibt auch Möglichkeiten, diese Anzahl zu verringern.
 
-Am Anfang einer Kampfphase kann ein Magier das Vorbereiten eines Zaubers
-ansagen. Er muss dazu den Namen des Zauberspruches, eventuell ein Ziel,
-falls dies gefordert ist, und die Dauer der Vorbereitung nennen.
+Am Anfang seiner Kampfrunde kann ein Magier das Vorbereiten eines Zaubers ansagen.
+Er muss dazu den Namen des Zauberspruches, eventuell ein Ziel, falls dies gefordert ist, und die Dauer der Vorbereitung nennen.
 
-Ist die Dauer der Vorbereitung beispielsweise 3, dann gilt die
-Kampfphase, in der der Zauber angekündigt wurde, bereits als erste
-Kampfphase des Vorbereitens.
+Ist die Dauer der Vorbereitung beispielsweise 3, dann gilt die Kampfrunde, in der der Zauber angekündigt wurde, bereits als erste Kampfrunde des Vorbereitens.
 
-Das Vorbereiten selbst benötigt keinen Wurf. Wichtig ist hierbei, dass
-Vorbereiten eine Aktion ist. Der Zauberer kann also in einer Kampfphase
-immer nur den Zauber vorbereiten. Er kann keine anderen Aktionen
-durchführen und auch keine weiteren Zauber beginnen.
+Das Vorbereiten selbst benötigt keinen Wurf.
+Wichtig ist hierbei, dass Vorbereiten eine Aktion ist.
+Der Zauberer kann also in einer Kampfrunde immer nur den Zauber vorbereiten.
+Er kann keine anderen Aktionen durchführen und auch keine weiteren Zauber beginnen.
+Er kann jedoch Manöver ausführen, jedoch dies nur eingeschränkt, da Manöver das Vorbereiten des Zauberspruches unterbrechen können.
+Dasselbe gilt für bestimmte Reaktionen.
 
-Es gilt, dass in der letzten Kampfphase des Vorbereitens der
-Zauberspruch fertig ist und in auch diesen Kampfphase ausgesprochen
-werden kann.
+Es gilt, dass in der letzten Kampfrunde des Vorbereitens der Zauberspruch fertig ist und in auch diesen Kampfphase ausgesprochen werden kann.
 
 === Das Talent Spruchzauberei
 
-Einen Zauber wirkt man mit dem Talent Spruchzauberei. Dieses Talent kann
-sowohl eine Einfache Probe als auch eine Konkurrierende Probe sein.
-Manche Zaubersprüche lassen eine Magieabwehr-Probe zu. In diesem Fall
-kann sich das Ziel des Zauberspruches gegen dessen Auswirkungen wehren
-und das Talent Spruchzauberei wird als Konkurrierende Probe nach den
-üblichen Regeln der Kalkulation der Anzahl der Erfolge gewürfelt.
+Einen Zauber wirkt man mit dem Talent Spruchzauberei.
+Dieses Talent kann sowohl eine Einfache Probe als auch eine Konkurrierende Probe sein.
+Manche Zaubersprüche lassen eine Magieabwehr-Probe zu.
+In diesem Fall kann sich das Ziel des Zauberspruches gegen dessen Auswirkungen wehren und das Talent Spruchzauberei wird als Konkurrierende Probe nach den üblichen Regeln der Kalkulation der Anzahl der Erfolge gewürfelt.
 
-In allen anderen Fällen gilt das Talent als Einfache Probe. Wann was
-angemessen ist, verrät die Beschreibung der Zaubersprüche.
+In allen anderen Fällen gilt das Talent als Einfache Probe.
+Wann was angemessen ist, verrät die Beschreibung der Zaubersprüche.
 
-Ein Zauber ist genau dann erfolgreich, wenn er die vorgegeben Anzahl von
-Erfolgen (oftmals einfach eine minimale Anzahl) mit seiner
-Spruchzauberei-Probe erreicht hat. Erlangt er nicht die erforderlichen
-Erfolge und ist die Probe insgesamt kein Patzer, dann passiert einfach
-nichts, auch kein Verbrennen. Im Falle eines Patzers siehe Zauberpatzer
-im Dokument link:core_rules_magic_base.adoc[Magie].
+Ein Zauber ist genau dann erfolgreich, wenn er die vorgegeben Anzahl von Erfolgen (oftmals einfach eine minimale Anzahl) mit seiner Spruchzauberei-Probe erreicht hat.
+Erlangt er nicht die erforderlichen Erfolge und ist die Probe insgesamt kein Patzer, dann passiert einfach nichts, auch kein Verbrennen.
+Im Falle eines Patzers siehe Zauberpatzer im Dokument link:core_rules_magic_base.adoc[Magie].
 
 Im Falle des Erfolgs tritt der Effekt des Zauberspruches direkt ein.
 
 === Erzwungenes Unterbrechen der Vorbereitung
 
-Während der Vorbereitung ist es natürlich möglich, dass der Zauberer
-unterbrochen wird. Dies wird sogar von halbwegs intelligenten Gegnern
-besonders verfolgt, denn die wenigstens warten ab, bis die
-Beschwörungsgesänge, die angedeuteten grünen Wolken und die düster
-gemurmelten Worte des Magiers sich in gleißende Magie entlädt und auf
-die Unglücklichen niederprasselt.
+Während der Vorbereitung ist es natürlich möglich, dass der Zauberer unterbrochen wird.
+Dies wird sogar von halbwegs intelligenten Gegnern besonders verfolgt, denn die wenigstens warten ab, bis die Beschwörungsgesänge, die angedeuteten grünen Wolken und die düster gemurmelten Worte des Magiers sich in gleißende Magie entlädt und auf die Unglücklichen niederprasselt.
 
-Somit kann ein Magier, der zu einer Aktion oder dem Verwenden eines
-Talents gezwungen wird, die Vorbereitung für den Zauber verlieren.
+Somit kann ein Magier, der zu einer Aktion oder dem Verwenden eines Talents gezwungen wird, die Vorbereitung für den Zauber verlieren.
 
-Die Anwendung eines Talents beinhaltet in diesem Fall auch Talente, die
-als Verteidigungstalente gedacht sind. Davon sind insbesondere Hieb
-Ausweichen, Schildverteidigung usw. betroffen. In diesem Fall gelten die
-ungeübten Anwendungen dieser Talent ebenso.
+Die Anwendung eines Talents beinhaltet in diesem Fall auch Talente, die als Verteidigungstalente gedacht sind.
+Davon sind insbesondere Hieb Ausweichen, Schildverteidigung usw. betroffen. In diesem Fall gelten die ungeübten Anwendungen dieser Talent ebenso.
 
-Ebenso enthalten sind alle Kampfmanöver, außer mit halbierter
-Geschwindigkeit Rennen.
+Ebenso enthalten sind alle Kampfmanöver, außer mit halbierter Geschwindigkeit Rennen.
 
-Wird der Zauberer zu einer solchen Anwendung gezwungen, ist die
-Vorbereitung verloren! Das heißt, wenn der Charakter den Zauberspruch
-aussprechen möchte, dann muss er von vorne beginnen.
+Wird der Zauberer zu einer solchen Anwendung gezwungen, ist die Vorbereitung verloren! Das heißt, wenn der Charakter den Zauberspruch aussprechen möchte, dann muss er von vorne beginnen.
 
-Im Allgemeinen bedeutet ein Niederschlag immer den Verlust der
-Vorbereitung!
+Im Allgemeinen bedeutet ein Niederschlag immer den Verlust der Vorbereitung!
 
-Eine Unterbrechung zieht immer die Gefahr des Verbrennens mit sich, es
-mit eine Probe auf Verbrennen Widerstehen gewürfelt werden.
+Eine Unterbrechung zieht immer die Gefahr des Verbrennens mit sich, es mit eine Probe auf Verbrennen Widerstehen gewürfelt werden.
 
 === Freiwilliges Abbrechen eines Zauberspruches
 
-Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, (in seiner
-Kampfphase) freiwillig aufgeben kann, ohne dabei Verbrennen zu erleiden.
+Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, (in seiner Kampfrunde) freiwillig aufgeben kann, ohne dabei Verbrennen zu erleiden.
 Das freiwillige Abbrechen gilt als eine Aktion.
 
 == Bewegungsmanöver
 
-Bewegungsmanöver sind Kampfmanöver, die sich mit Bewegung beschäftigen.
-Wird von Kampfmanövern gesprochen, so sind auch Bewegungsmanöver
-gemeint.
-
-=== Sturmangriff
-
-Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen
-besonders schwungvollen Angriff durchzuführen. Dazu benutzt er das
-Kampfmanöver Sprinten mit allen dazugehörigen Regeln. Er muss mindestens
-½ BEW und maximal seine volle BEW von seinem Gegner in gerader Linie
-entfernt sein. Diese Linie darf nicht blockiert sein durch Hindernisse
-oder andere Kreaturen. Außerdem darf der Charakter in keinen Nahkampf
-gebunden sein.
-
-Er führt das Kampfmanöver aus, bewegt er sich zum Gegner hin und kann
-sofort eine Angriffsprobe machen, ohne, dass diese zusätzliche
-Kampfphasen kostet (oder anders formuliert, die Angriffsbewegung kostet
-immer exakt 1 Kampfphase). Die Attacke erhält für die Schadensberechnung
-einen Bonus von +ST des Charakters.
-
-Bewegt sich der Charakter durch die Bedrohungszonen anderer Kreaturen,
-so provoziert er Gelegenheitsangriffe.
-
-=== Flucht
-
-Flucht stellt neben Zurückweichen eine Möglichkeit dar, sich aus dem
-einem Nahkampf zurückzuziehen.
-
-Setzt der Charakter Flucht ein, so bewegt er sich von seinem Gegner
-weg, so als würde er das Kampfmanöver Sprinten einsetzen. Die
-Fluchtrichtung ist beliebig, darf jedoch nicht durch einen Gegner
-versperrt sein.
-
-Setzt ein Charakter dieses Kampfmanöver ein, löst er
-Gelegenheitsangriffe aus.
-
-Flucht dauert mindestens eine Kampfphase an und ist wie Sprinten zu
-behandeln.
-
-=== Rennen
-
-Der Charakter kann mit diesen Manövern seine Position im Kampfgeschehen
-ändern. Dabei kommt es auf seine Bewegung(BEW) an. Möchte der Charakter
-Rennen, so kann er dem BEW-Wert entsprechend viele Meter innerhalb
-einer Kampfphase zurücklegen.
-
-Rennen kann als Aktion fortgeführt werden. Pro Kampfphase legt der
-Charakter Meter seinen BEW-Wert entsprechend zurück. Ein Charakter muss
-die komplette BEW nicht ausnutzen, wenn er dieses Kampfmanöver
-einsetzet.
-
-=== Sprinten
-
-Anstelle von Rennen kann ein Charakter auch Sprinten und damit die
-doppelte Distanz zurücklegen, die er normalerweise in Rennen zurücklegen
-würde. Sprinten ist jedoch gefährlicher als Rennen, denn der Charakter
-lässt seine Deckung außer Acht. Charaktere, die in einer Kampfphase
-sprinten, müssen einen Malus von -2 auf die Würfe zum Erfolg für
-Verteidigungsproben hinnehmen.
-
-Ein Charakter kann während er sprintet, sich maximal um 45 Grad pro
-Kampfphase drehen.
-
-Ein Charakter kann außerdem nur so viele Kampfphasen am Stück sprinten,
-wie er Stufen in KO hat. Danach muss er mindestens eine Kampfphase lang
-warten, bevor er wieder Sprinten ansagen kann.
-
-=== Zurückweichen
-
-Dieses Manöver ermöglicht (und neben Flucht nur dieses) es einem
-Charakter sich aus einem Nahkampf zurückzuziehen. Als Nahkampf gilt
-hierfür jede Kampfsituation zwischen mindestens zwei Kontrahenten, in
-der mindestens eine Angriffsprobe gewürfelt wurde.
-
-Zurückweichen ist meistens dann nützlich, wenn man einer Übermacht oder
-einem starken Gegner gegenüber steht.
-
-Ein Charakter kann in einer Runde, in der er _Zurückweichen_ einsetzen,
-sich gemäß seiner Bewegungsrate in Gehen (normaler BEW-Wert geteilt
-durch 2) rückwärts aus dem Kampf zu bewegen. In diesem Fall provoziert
-der Charakter keinen Gelegenheitsangriff, wenn er die Bedrohungszone des
-Gegners verlässt, vor dem er zurückweicht, allerdings provoziert er
-Gelegenheitsangriffe, wenn er durch seine Zurückweichen-Bewegung in
-feindliche Bedrohungszonen eintritt. Die normale Regel der Provokation
-von Gelegenheitsangriffen ist also im Fall von Zurückweichen verändert.
-
-Weiterhin ist der Einsatz dieses Manövers gegenüber Kreaturen mit großer
-Bedrohungszone gefährlich, denn die Bewegung, die durch Zurückweichen
-innerhalb der Bedrohungszone ausgeführt wird, kann auch zu einem
-Gelegenheitsangriff führen.
-
-Zurückweichen ist dauert eine Kampfphase. Zurückweichen ist nicht
-möglich, wenn der Charakter in seinem Rücken einen Gegner hat.
-
-Zurückweichen dauert eine Kampfphase an und ist wie Rennen zu behandeln.
-
-== Regeln zu Bewegungsmanövern
-
-Es ist möglich bei Bewegungsmanövern zu springen, Ducken, in Deckung
-hechten usw. Der SL kann in diesem Fall eine Athletik-Probe verlangen.
-
-Beide Kampfmanöver können nicht verwendet werden, wenn der Charakter in
-der Kampfrunde, in der er die Manöver einsetzten will, in einen Nahkampf
-verwickelt wird oder sich bereits in einem befindet.
-
-Um einem Nahkampf zu entkommen, stehen die Kampfmanöver Zurückweichen
-und Flucht zur Verfügung. Diese, sowie Rennen, stehen als Kampfmanöver
-nicht zur Verfügung, wenn Sprinten eingesetzt wurde.
-
-=== Bewegung durch besetzte Gebiete
-
-Ein Gebiet (ein oder mehrere Kacheln) gilt als besetzt, sobald eine
-beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem
-Bewusstsein ist. Paralysierte oder ohnmächtige Kreaturen nehmen zwar den
-Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen
-auch keine weiteren Felder.
-
-Ein Charakter, der Rennen oder Sprinten einsetzt, darf ein oder mehrere
-Kacheln nicht durchqueren oder betreten, wenn ein feindlich gesonnenes
-Wesen diese besetzt. Freundlich gesonnene Wesen können den Charakter
-vorbeilassen, jedoch muss dieser pro Feld, dass auf diese Weise
-freigegeben wird, die doppelte BEW investieren. Kann er in einer Runde
-die belegten Felder nicht durchqueren, endet seine Bewegung direkt vor
-der jeweiligen Kreatur.
-
-Kleine Kreaturen der Größenkategorie 1 oder 2 nehmen zwar ein Feld ein,
-können es jedoch nicht besetzen. Dazu sind sie zu klein. Sie können auch
-nur Kreaturen angreifen, die sich auf ihrem Feld befinden. Kreaturen
-dieser Größe dürfen auch ohne Einschränkungen besetzte Felder
-durchqueren. Sie provozieren jedoch wie gehabt Gelegenheitsangriffe.
-
-Wenn der SL es zulässt, können auch andere Charaktere von größeren
-Kreaturen besetzte Felder, durchqueren. Diese Kreaturen müssen
-mindestens zwei Größenkategorien größer sein, als der Charakter. Er
-provoziert dabei jedoch wie gewohnt Gelegenheitsangriffe.
-
-=== Bewegungen über schwieriges Gelände
-
-Die Kampfmanöver Rennen und Sprinten können über schwieriges Gelände
-führen. Das beinhaltet einmalige Hindernisse wie niedrige Mauern, Gräben
-und ähnliches. Dieses wird mit einer Athletik-Probe abgehandelt.
-Schwieriges Gelände, dass von einem Charakter durchquert werden kann,
-ist beispielweise eine Geröllhalde, matschiger Lehm, Dornengestrüpp oder
-ein hüfthoher Wasserstrom.
-
-Jedes Gelände, durch das ein Charakter nicht ohne Anstrengung oder
-Vorsicht bewegen kann, zählt als schwieriges Gelände. Der Charakter kann
-sich nur mit Rennen durch ein solches Gelände fortbewegen. Sprinten
-schlägt automatisch fehl.
-
-Er muss außerdem pro Kampfphase, die er sich durch das schwierige
-Gelände bewegt, eine Athletik -Probe bestehen oder gilt als
-niedergeschlagen. Dies kann zu Gelegenheitsangriffen führen.
-
-Nutzt der Charakter jedoch nur eine halbierte BEW fällt diese Athletik
--Probe weg und der Charakter kann das Gebiet gefahrlos durchqueren.
-
-Weiterhin kann sich ein Charakter durch enge Gänge und ähnliches
-hindurch zwängen. Der Gang darf maximal 1,50 Meter (eine Kachel)
-schmaler sein, als die Front des Charakters. Er kann dann nur das
-Kampfmanöver Rennen benutzen und dies nur mit halbierter BEW (ohne
-Proben allerdings). Tut er dies, so kann er sich durch die Enge zwängen.
-
-=== Diagonale Bewegung (nur bei Kachelplänen)
-
-Diagonale Bewegung verbraucht etwas mehr BEW als Bewegung in eine gerade
-Richtung. Jeder zweite Diagonalschritt, also jeder Schritt mit einem
-geraden Index, benötigt 2 Felder (3,00 Meter) anstatt 1. Bei einer
-Bewegung von 6 Feldern (9,00 Metern) bedeutet dies, dass der Charakter
-nur 4 Kacheln diagonal zurücklegen kann.
-
-=== Rennen und Sprinten mit Rüstung
-
-Schwere Rüstung behindert nicht nur die Initiative und die
-Geschicklichkeit der Charaktere in gewissen Situationen, sondern auch
-die Bewegungsrate. Die Angabe findet sich in der Ausrüstungsliste. Der
-Malus wird immer von der BEW des Charakters abgezogen, bevor ein
-Modifikator angewendet wird.
-
-.Bewegung mit Rüstung
-====
-Ein Charakter hat eine BEW von 9,00 Metern. Er trägt eine
-Rüstung mit einem Malus von 1,50 Meter. Damit ist seine aktuelle BEW
-7,50 Meter. Sprinten kann er daher nur 15,00 Meter.
-====
-
-=== Rennen und Sprinten provoziert Gelegenheitsangriffe
-
-Ein Charakter, der durch Rennen oder Sprinten in die Bedrohungszone
-eines Gegner gelangt, provoziert genau dann einen Gelegenheitsangriff,
-wenn er sich innerhalb dieser weiterbewegt oder sich aus dieser
-hinausbewegt. Das Betreten zum Angriff einer Bedrohungszone führt zu
-keinem Gelegenheitsangriff.
-
-.Bewegung und Gelegenheitsangriffe
-====
-Ein Charakter bewegt sich von außerhalb der Bedrohungszone
-auf das Kästchen A. Dies provoziert keinen Gelegenheitsangriff, denn es
-ist eine Bewegung in die Bedrohungszone. Bewegt sich selber Charakter
-jedoch auf das Kästchen B, vielleicht um eine bessere
-Angriffsmöglichkeit zu haben, so provoziert dies einen
-Gelegenheitsangriff.
-====
-
-Würde sich der auf A stehende Charakter nicht nach B bewegen, sondern an
-einen Punkt außerhalb der Bedrohungszone, so provoziert er auch einen
-Gelegenheitsangriff, da er sich aus der Bedrohungszone herausbewegt.
-
-=== Umdrehen
-
-Während der Charakter rennt oder sprintet, kann er beliebig die Richtung
-wechseln. Da die Ausrichtung eines Charakters im Nahkampf wegen Seiten-
-und Rückenangriffen wichtig ist und auch die Ausrichtung zum Einsatz von
-Fernkampfwaffen, sollten die Spieler darauf achten. Grundsätzlich gilt,
-dass Charaktere, die nicht am Zug sind, sich nicht umdrehen können!
-
-Ein Charakter, der in einen Nahkampf verwickelt ist, kann sich auch
-umdrehen. Dazu muss er dies als Bewegungs- bzw. Kampfmanöver ansagen.
-Umdrehen kostet eine Kampfphase und provoziert Gelegenheitsangriffe.
-
-== Kampfmanöver
-
-Kampfmanöver sind Aktionen, die wie der Einsatz von Talenten oder
-Zaubersprüchen angesagt werden müssen. Wie bereits beschrieben, können
-sie unabhängig von Talenten oder auch in Kombination mit einem Talent
-eingesetzt werden, in Abhängigkeit vom Kampfmanöver selbst. Die
-folgenden Einträge beschreiben die möglichen Kampfmanöver in dem System
-von Far Ages. Es wird im Spiel sicherlich irgendwann Situationen geben,
-in denen keins der vorgestellten Kampfmanöver das beschreibt, was ein
-Charakter tun möchte. In diesem Fall kann der SL die Kampfmanöver
-sicherlich als Richtlinie verwenden, um die Situation passend
-darzustellen.
-
-=== Aggressiver Kampfstil
-
-Angriff ist manchmal die beste Verteidigung. Der Charakter geht stark in
-die Offensive und vernachlässigt die Defensive.
-
-Er erhält einen Bonus von +2 Würfel für alle Nahkampfangriffswürfe, aber
-auch einen Malus von -2 Würfel auf alle Verteidigungstalente.
-
-Dieses Manöver kann nicht eingesetzt werden, um Angriffe von
-Fernkampfwaffen oder Zaubern zu verbessern.
-
-Dieses Kampfmanöver kann weiterführend eingesetzt werden, in jeder
-Kampfphase gelten die Boni und Mali. Während der Durchführung eines
-Aggressiven Kampfstiles ist es nicht möglich, Zauber vorzubereiten.
+Das folgende Kapitel beschreibt alle Bewegungsmänover, die im Regelsystem von Far Ages vorgesehen sind.
+Sofern nicht anders angemerkt, gilt ein solcher Eintrag als ein Bewegungs- oder Kampfmanöver, dass in einer Kampfrunde eingesetzt werden kann.
+Manche Bewegungs- und Kampfmanöver besitzen zusätzliche Voraussetzungen, die erfüllt sein müssen, bevor sie eingesetzt werden können.
 
 === Berittener Angriff
 
-Benutzt ein Charakter ein Reittier im Kampf, so kann er dieses spezielle
-Kampfmanöver zum Angriff anwenden. Er muss dafür mindestens die Hälfte
-der BEW seines Reittieres von seinem Ziel entfernt sein, um den
-passenden Anlauf zu bekommen. Der Weg zum Ziel muss in gerader, freier
-Linie erreichbar sein, ansonsten kann der Angriff nicht durchgeführt
-werden. Mit diesem Kampfmanöver wird dann das Reittier bewegt.
+Benutzt ein Charakter ein Reittier im Kampf, so kann er dieses spezielle Kampfmanöver zum Angriff anwenden.
+Er muss dafür mindestens die Hälfte der BEW seines Reittieres von seinem Ziel entfernt sein, um den passenden Anlauf zu bekommen.
+Der Weg zum Ziel muss in gerader, freier Linie erreichbar sein, ansonsten kann der Angriff nicht durchgeführt werden.
+Mit diesem Manöver wird dann das Reittier bewegt.
 
 Als Angriffstalent kann der Reiter Nahkampfwaffen einsetzen.
 
-Er muss eine Lanze führen, um den Angriff effizient ausführen zu können,
-bzw. eine Waffe, die eine passende Länge hat. Normalerweise sind alle
-Waffen als solche ausgezeichnet, wenn sie sich zu einem berittenen
+Er muss eine Lanze führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
+Normalerweise sind alle Waffen als solche ausgezeichnet, wenn sie sich zu einem berittenen
 Angriff eignen.
 
-Der Angreifer darf zu seiner ST-Stufe für die Schadensprobe die ST-Stufe
-seines Reittieres hinzuaddieren.
+Der Angreifer verdoppelt für die Schadensprobe seine ST-Stufe und darf die ST-Stufe seines Reittieres hinzuaddieren.
+Sollte der Charakter die Angriffsprobe und damit seine Aktion nicht einsetzen können, verfällt dieser Bonus.
 
-Dieses Kampfmanöver kann nur in Verbindung mit einem passenden
-Angriffstalent, normalerweise Nahkampfwaffen eingesetzt werden.
+=== Flucht
+
+Flucht stellt neben Zurückweichen eine Möglichkeit dar, sich aus dem einem Nahkampf zurückzuziehen.
+
+Setzt der Charakter Flucht ein, so bewegt er sich von seinem Gegner weg, so als würde er das Kampfmanöver Sprinten einsetzen.
+Die Fluchtrichtung ist beliebig, darf jedoch nicht durch einen Gegner versperrt sein.
+
+Setzt ein Charakter dieses Kampfmanöver ein, löst er Gelegenheitsangriffe aus.
+
+Flucht dauert mindestens eine Kampfrunde an und ist wie Sprinten zu behandeln.
+
+=== Luftangriff
+
+Dieser Angriff steht nur Wesen zur Verfügung, die fliegen können.
+Mit diesem Manöver heben sie sich in die Luft und stürzen auf ihre Gegner herab bzw. können andere Gegner, die sich in der Luft befinden angreifen.
+Nach dem Angriff können sie sich direkt wieder zurückziehen.
+
+Das Manöver kann nur ausgeführt werden, wenn das Wesen in keinen Kampf gebunden ist.
+
+Die zurückgelegte Strecke kann maximal die Hälfte der BEW des Angreifers sein.
+Dabei wird die Luftbewegung genommen.
+Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW wieder fortbewegen.
+
+Dieses Kampfmanöver kann in nur in Verbindung mit einem Nahkampfangriff durchgeführt werden.
+
+=== Rennen
+
+Der Charakter kann mit diesen Manövern seine Position im Kampfgeschehen ändern.
+Dabei kommt es auf seine Bewegung(BEW) an.
+Möchte der Charakter Rennen, so kann er dem BEW-Wert entsprechend viele Meter innerhalb einer Kampfrunde zurücklegen.
+Ein Charakter muss die komplette BEW nicht ausnutzen, wenn er dieses Kampfmanöver einsetzet.
+
+=== Sturmangriff
+
+Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
+Er muss mindestens ½ BEW und maximal seine volle BEW von seinem Gegner in gerader Linie entfernt sein.
+Diese Linie darf nicht blockiert sein durch Hindernisse oder andere Kreaturen.
+Außerdem darf der Charakter in keinen Nahkampf gebunden sein.
+
+Er führt das Kampfmanöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
+Der Angreifer verdoppelt für die Schadensprobe seine ST-Stufe.
+Sollte der Charakter die Angriffsprobe und damit seine Aktion nicht einsetzen können, verfällt dieser Bonus.
+
+Bewegt sich der Charakter durch die Bedrohungszonen anderer Kreaturen, so provoziert er Gelegenheitsangriffe.
+
+=== Sprinten
+
+Anstelle von Rennen kann ein Charakter auch Sprinten und damit die doppelte Distanz zurücklegen, die er normalerweise in Rennen zurücklegen würde.
+Sprinten ist jedoch gefährlicher als Rennen, denn der Charakter lässt seine Deckung außer Acht.
+Charaktere, die in einer Kampfrunde sprinten, müssen einen Malus von -2 auf die Würfe zum Erfolg für Verteidigungsproben hinnehmen.
+
+Ein Charakter kann während er sprintet, sich maximal um 45 Grad pro Kampfphase drehen.
+
+Ein Charakter kann außerdem nur so viele Kampfrunden am Stück sprinten, wie er Stufen in KO hat.
+Danach muss er mindestens eine Kampfrunden lang warten, bevor er wieder Sprinten ansagen kann.
+
+=== Umdrehen
+
+Während der Charakter rennt oder sprintet, kann er beliebig die Richtung wechseln.
+Da die Ausrichtung eines Charakters im Nahkampf wegen Seiten- und Rückenangriffen wichtig ist und auch die Ausrichtung zum Einsatz von Fernkampfwaffen, sollten die Spieler darauf achten.
+Grundsätzlich gilt, dass Charaktere, die nicht am Zug sind, sich nicht umdrehen können!
+
+Ein Charakter, der in einen Nahkampf verwickelt ist, kann sich auch umdrehen.
+Dazu muss er dies als Bewegungs- bzw. Kampfmanöver ansagen (es gilt als Rennen, auch wenn keine BEW eingesetzt wird).
+Umdrehen provoziert Gelegenheitsangriffe.
+
+=== Zurückweichen
+
+Dieses Manöver ermöglicht (und neben Flucht nur dieses) es einem Charakter sich aus einem Nahkampf zurückzuziehen, d.h. er muss in einen Nahkampf gebunden sein.
+
+Zurückweichen ist meistens dann nützlich, wenn man einer Übermacht oder einem starken Gegner gegenüber steht.
+
+Ein Charakter kann in einer Runde, in der er Zurückweichen einsetzen, sich gemäß seiner Bewegungsrate geteilt durch 2 rückwärts aus dem Kampf zu bewegen.
+In diesem Fall provoziert der Charakter keinen Gelegenheitsangriff, wenn er die Bedrohungszone des Gegners verlässt, vor dem er zurückweicht, allerdings provoziert er Gelegenheitsangriffe, wenn er durch seine Zurückweichen-Bewegung in feindliche Bedrohungszonen eintritt.
+Die normale Regel der Provokation von Gelegenheitsangriffen ist also im Fall von Zurückweichen verändert.
+
+Weiterhin ist der Einsatz dieses Manövers gegenüber Kreaturen mit großer Bedrohungszone gefährlich, denn die Bewegung, die durch Zurückweichen innerhalb der Bedrohungszone ausgeführt wird, kann auch zu einem Gelegenheitsangriff führen.
+
+Zurückweichen ist nicht möglich, wenn der Charakter in seinem Rücken einen Gegner hat.
+
+==== Regeln zu Bewegungen
+
+In diesem Kapitel werden zusätzliche Regeln für die alle Manöver vorgestellt, bei denen ein Charakter sich bewegt, d.h. seine BEW einsetzt, z.B. Rennen.
+
+===== Besetzte Gebiete
+
+Ein Gebiet (ein oder mehrere Kacheln) gilt als besetzt, sobald eine beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem Bewusstsein ist.
+Paralysierte oder ohnmächtige Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
+
+Ein Charakter darf ein oder mehrere Kacheln nicht durchqueren oder betreten, wenn ein feindlich gesonnenes Wesen diese besetzt.
+Freundlich gesonnene Wesen können den Charakter vorbeilassen, jedoch muss dieser pro Feld, dass auf diese Weise freigegeben wird, die doppelte BEW investieren.
+Kann er in einer Runde die belegten Felder nicht durchqueren, endet seine Bewegung direkt vor der jeweiligen Kreatur.
+
+Kleine Kreaturen der Größenkategorie 1 oder 2 nehmen zwar ein Feld ein, können es jedoch nicht besetzen.
+Dazu sind sie zu klein.
+Sie können auch nur Kreaturen angreifen, die sich auf ihrem Feld befinden.
+Kreaturen dieser Größe dürfen auch ohne Einschränkungen besetzte Felder durchqueren.
+Sie provozieren jedoch wie gehabt Gelegenheitsangriffe.
+
+Wenn der SL es zulässt, können auch andere Charaktere von größeren Kreaturen besetzte Felder, durchqueren.
+Diese Kreaturen müssen mindestens zwei Größenkategorien größer sein, als der Charakter.
+Er provoziert dabei jedoch wie gewohnt Gelegenheitsangriffe.
+
+===== Schwieriges Gelände
+
+Bewegungen können durch oder über schwieriges Gelände führen.
+Das beinhaltet einmalige Hindernisse wie niedrige Mauern, Gräben und ähnliches.
+Dieses wird mit einer Athletik-Probe abgehandelt.
+Schwieriges Gelände, dass von einem Charakter durchquert werden kann, ist beispielweise eine Geröllhalde, matschiger Lehm, Dornengestrüpp oder ein hüfthoher Wasserstrom.
+
+Jedes Gelände, durch das ein Charakter nicht ohne Anstrengung oder Vorsicht bewegen kann, zählt als schwieriges Gelände.
+Der Charakter kann sich nur mit Rennen durch ein solches Gelände fortbewegen.
+Sprinten schlägt automatisch fehl.
+
+Er muss außerdem pro Kampfrunde, die er sich durch das schwierige Gelände bewegt, eine Athletik-Probe bestehen oder gilt als niedergeschlagen.
+Dies kann zu Gelegenheitsangriffen führen.
+
+Nutzt der Charakter jedoch nur eine halbierte BEW fällt diese Athletik-Probe weg und der Charakter kann das Gebiet gefahrlos durchqueren.
+
+Weiterhin kann sich ein Charakter durch enge Gänge und ähnliches hindurch zwängen.
+Der Gang darf maximal 1,50 Meter (eine Kachel) schmaler sein, als die Front des Charakters.
+Er kann dann nur das Kampfmanöver Rennen benutzen und dies nur mit halbierter BEW (ohne Proben allerdings).
+Tut er dies, so kann er sich durch die Enge zwängen.
+
+===== Diagonale Bewegung (nur bei Kachelplänen)
+
+Diagonale Bewegung verbraucht etwas mehr BEW als Bewegung in eine gerade Richtung.
+Jeder zweite Diagonalschritt, also jeder Schritt mit einem geraden Index, benötigt 2 Felder (3,00 Meter) anstatt 1.
+Bei einer Bewegung von 6 Feldern (9,00 Metern) bedeutet dies, dass der Charakter nur 4 Kacheln diagonal zurücklegen kann.
+
+===== Rennen und Sprinten mit Rüstung
+
+Schwere Rüstung behindert nicht nur die Initiative und die Geschicklichkeit der Charaktere in gewissen Situationen, sondern auch die Bewegungsrate.
+Die Angabe findet sich in der Ausrüstungsliste.
+Der Malus wird immer von der BEW des Charakters abgezogen, bevor ein Modifikator angewendet wird.
+
+.Bewegung mit Rüstung
+====
+Ein Charakter hat eine BEW von 9,00 Metern.
+Er trägt eine Rüstung mit einem Malus von 1,50 Meter.
+Damit ist seine aktuelle BEW 7,50 Meter.
+Sprinten kann er daher nur 15,00 Meter.
+====
+
+===== Provokation von Gelegenheitsangriffe
+
+Ein Charakter, der Bewegungen in die Bedrohungszone eines Gegner gelangt, provoziert genau dann einen Gelegenheitsangriff, wenn er sich innerhalb dieser weiterbewegt oder sich aus dieser hinausbewegt.
+Das Betreten zum Angriff einer Bedrohungszone führt zu keinem Gelegenheitsangriff.
+
+.Bewegung und Gelegenheitsangriffe
+====
+Ein Charakter bewegt sich von außerhalb der Bedrohungszone auf das Kästchen A.
+Dies provoziert keinen Gelegenheitsangriff, denn es ist eine Bewegung in die Bedrohungszone.
+Bewegt sich selber Charakter jedoch auf das Kästchen B, vielleicht um eine bessere Angriffsmöglichkeit zu haben, so provoziert dies einen Gelegenheitsangriff.
+====
+
+Würde sich der auf A stehende Charakter nicht nach B bewegen, sondern an einen Punkt außerhalb der Bedrohungszone, so provoziert er auch einen Gelegenheitsangriff, da er sich aus der Bedrohungszone herausbewegt.
+
+== Kampfmanöver
+
+Die folgenden Einträge beschreiben die möglichen Kampfmanöver in dem System von Far Ages.
+Es wird im Spiel sicherlich irgendwann Situationen geben, in denen keins der vorgestellten Kampfmanöver das beschreibt, was ein Charakter tun möchte.
+In diesem Fall kann der SL die Kampfmanöver sicherlich als Richtlinie verwenden, um die Situation passend darzustellen.
+Analog zu Bewegungsmanövern kann ein Charakter pro Kampfrunde ein Kampfmanöver (oder ein Bewegungsmanöver) einsetzen.
+
+=== Aggressiver Kampfstil
+
+Angriff ist manchmal die beste Verteidigung.
+Der Charakter geht stark in die Offensive und vernachlässigt die Defensive.
+
+Er erhält einen Bonus von +2 Würfel für alle Nahkampfangriffswürfe, aber auch einen Malus von -2 Würfel auf alle Verteidigungswürfe.
+
+Dieses Manöver kann nicht eingesetzt werden, um Angriffe von Fernkampfwaffen oder Zaubern zu verbessern.
+
+Dieses Kampfmanöver kann weiterführend eingesetzt werden, in jeder Kampfrunde gelten die Boni und Mali.
+Während der Durchführung eines Aggressiven Kampfstiles ist es nicht möglich, Zauber vorzubereiten.
 
 === Blocken
 
-Dieses Manöver wird benutzt, um einen Kontrahenten im Nahkampf in seiner
-Bewegung einzuschränken. Dazu muss der Charakter, der dieses Manöver
-ausführt entweder einen Schild oder eine Waffe von mindestens der Größe
-6 benutzen. Der Charakter würfelt anstelle seinen üblichen
-Angriffswürfen im Nahkampf eine Nahkampfwaffenprobe, die jedoch keinen
-Schaden verursacht.
+Dieses Manöver wird benutzt, um einen Kontrahenten im Nahkampf in seiner Bewegung einzuschränken.
+Dazu muss der Charakter, der dieses Manöver ausführt entweder einen Schild oder eine Waffe von mindestens der Größe 6 benutzen.
+Der Charakter würfelt anstelle seinen üblichen Angriffswürfen im Nahkampf eine Nahkampfwaffenprobe, die jedoch keinen Schaden verursacht.
 
-Ist der Angriff erfolgreich, so erhält der Gegner einen Malus von -1 auf
-seine Würfelanzahl für Angriffsproben für seine nächste Kampfphase.
+Ist der Angriff erfolgreich, so erhält der Gegner einen Malus von -1 auf seine Würfelanzahl für Angriffsproben für seine nächste Kampfphase.
 
-Am Anfang der nächsten Kampfphase ist der Initiative-Wert des Gegners um
-2 verringert.
+Am Anfang der nächsten Kampfrunde ist der Initiative-Wert des Gegners um 2 verringert.
 
-Das Manöver lässt sich nur gegen ein Wesen ausführen, dass maximal eine
-Größenkategorie größer ist als man selbst.
+Das Manöver lässt sich nur gegen ein Wesen ausführen, dass maximal eine Größenkategorie größer ist als man selbst.
 
-Blocken benötigt eine Kampfphase und provoziert einen
-Gelegenheitsangriff, allerdings nicht für dem geblockten Gegner.
+Blocken provoziert einen Gelegenheitsangriff, allerdings nicht für dem geblockten Gegner.
 
 === Defensiv Zaubern
 
-Defensiv Zaubern ist ein spezielles Kampfmanöver, was nur Charakteren
-mit den Talenten Gegenzauber und Zauberspiegel zur Verfügung steht. Ein
-Charakter, der dieses Kampfmanöver ankündigt, erhält bei der Verwendung
-von diesen meist spontan genutzten Fähigkeiten keinen Malus auf seine
-Spruchzauberei, da er sich auf einen magischen Angriff vorbereitet.
+Defensiv Zaubern ist ein spezielles Kampfmanöver, was nur Charakteren mit den Talenten Gegenzauber und Zauberspiegel zur Verfügung steht.
+Ein Charakter, der dieses Kampfmanöver ankündigt, erhält bei der Verwendung von diesen meist spontan genutzten Fähigkeiten keinen Malus auf seine Spruchzauberei, da er sich auf einen magischen Angriff vorbereitet.
 
-Beim Defensiv Zaubern kann der Charakter in dieser Kampfphase keine
-andere Aktion außer Gegenzauber oder Zauberspiegel nutzen bzw. ansagen.
+Beim Defensiv Zaubern kann der Charakter in dieser Kampfphase keine andere Aktion außer Gegenzauber oder Zauberspiegel nutzen bzw. ansagen.
 
-Dieses Kampfmanöver kann solange weitergeführt werden, bis der Charakter
-es abbricht.
+Dieses Kampfmanöver kann solange weitergeführt werden, bis der Charakter es abbricht.
 
 === Gegenstand verwenden
 
-Ein Charakter kann einen Gegenstand verwenden, der nicht durch eine
-Standartprobe oder Talentprobe verwendet wird, zum Beispiel einen
-Heiltrank trinken. Die Angaben der Kampfphasen beziehen sich auf
-eventuelles Ziehen bzw. Suchen und sofortiges Verwenden des Gegenstandes
+Ein Charakter kann einen Gegenstand verwenden, der nicht durch eine Standardprobe oder Talentprobe verwendet wird, zum Beispiel einen Heiltrank trinken.
+Die Angaben der Aktionen beziehen sich auf eventuelles Ziehen bzw. Suchen und sofortiges Verwenden des Gegenstandes.
 
 [cols=",",options="header"]
 |===
-|Situation |Kampfphasen
-|Gegenstand wird in der Hand gehalten |1
-|Gegenstand befindet sich am Gürtel |2
-|Gegenstand wird auf dem Rucksack geholt |3
+|Situation |Aktionen
+|Gegenstand wird in der Hand gehalten |Freie Aktion
+|Gegenstand befindet sich am Gürtel |Bewegungsmanöver
+|Gegenstand wird auf dem Rucksack geholt |Aktion
 |===
 
-Der SL kann im Fall einer Suche im Rucksack eine ER-Probe verlangen, ob
-der Charakter den Gegenstand findet. Eventuelle Nachteile können das
-Finden des Gegenstandes beeinflussen.
+Der SL kann im Fall einer Suche im Rucksack eine ER-Probe verlangen, ob der Charakter den Gegenstand findet.
+Eventuelle Nachteile können das Finden des Gegenstandes beeinflussen.
 
 Dieses Manöver provoziert einen Gelegenheitsangriff.
 
 === Gezielter Schlag, Gezielter Schuss
 
-Der Charakter kann entweder mit Nahkampftalenten oder mit
-Fernkampftalenten versuchen einen gezielten Treffer bei einem Gegner zu
-erlangen. Dazu sagt er an, wenn welche Trefferzone, er zu treffen
-beabsichtigt.
+Der Charakter kann entweder mit Nahkampftalenten oder mit Fernkampftalenten versuchen einen gezielten Treffer bei einem Gegner zu erlangen.
+Dazu sagt er an, wenn welche Trefferzone, er zu treffen beabsichtigt.
 
-Der Angriffswurf ist mit einem Malus von *-2 auf die Würfe zu Erfolg*
-belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag
-oder Schuss darstellt.
+Der Angriffswurf ist mit einem Malus von *-2 auf die Würfe zu Erfolg* belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag oder Schuss darstellt.
 
-Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone
-getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
-Eventuell kann dadurch auch Rüstung umgangen werden, da Rüstung nicht
-immer alle Trefferzonen abdeckt.
+Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
+Eventuell kann dadurch auch Rüstung umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
 
-Der SL kann natürlich jederzeit die Ausführung eines Gezielten Schlages
-oder Schusses verbieten, wenn das jeweilige Körperteil einfach nicht
-erreichbar ist. So sollte es einem Zwerg im Nahkampf nicht möglich sein,
-einen Oger auf den Kopf zu treffen.
+Der SL kann natürlich jederzeit die Ausführung eines Gezielten Schlages oder Schusses verbieten, wenn das jeweilige Körperteil einfach nicht erreichbar ist.
+So sollte es einem Zwerg im Nahkampf nicht möglich sein, einen Oger auf den Kopf zu treffen.
 
-Dieses Manöver kann nur in Kombination mit einer Aktion verwendet
-werden, die entweder eine Nah- oder Fernkampfattacke beinhaltet. Das
-Manöver selbst ist keine Aktion, muss aber mit dem jeweiligen Talent
-gewählt werden.
-
-=== Luftangriff
-
-Dieser Angriff steht nur Wesen zur Verfügung, die fliegen können. Mit
-diesem Kampfmanöver heben sie sich in die Luft und stürzen auf ihre
-Gegner herab bzw. können andere Gegner, die sich in der Luft befinden
-angreifen. Nach dem Angriff können sie sich direkt wieder zurückziehen.
-
-Das Manöver kann nur ausgeführt werden, wenn das Wesen in keinen Kampf
-gebunden ist und kann nur gegen einen Opponenten geführt werden, dessen
-Initiative niedriger ist, als die Eigene. Wurde der Luftangriff
-angekündigt und die Initiativereihenfolge ergibt eine Verletzung der
-letzten Bedingung, dann wird aus dem Luftangriff ein normaler Angriff
-und das attackierende Wesen befindet sich im Nahkampf.
-
-Ist die Initiative höher, dann fliegt der Angreifer auf seinen Gegner
-zu. Diese Strecke kann maximal die Hälfte der Kampfbewegungsrate des
-Angreifers sein. Dabei wird die Luftbewegung genommen. Nachdem die
-Attacke (und eventuelle Talentbedingte Gegenattacken) ausgeführt wurde,
-kann sich der fliegende Angreifer sich mit der verbleibenden Hälfte
-seiner Kampfbewegungsrate wieder fortbewegen.
-
-Dieses Kampfmanöver kann in nur in Verbindung mit einem Nahkampfangriff
-durchgeführt werden.
+Dieses Manöver kann nur in Kombination mit einer Aktion verwendet werden, die entweder eine Nah- oder Fernkampfattacke beinhaltet.
 
 === Raufen und Ringen
 
-Im Unbewaffnetem Kampf können Kontrahenten, sofern sie beide keine
-Waffen nutzen, wählen, ob sie Raufen und Ringen wollen. Es kann nur
-derjenige Raufen und Ringen einsetzen, der die höhere Initiative hat.
-Hat er diese nicht, so verfällt seine Aktion, trotz Ansage. Er kann dann
-nach den üblichen Regeln eine andere Aktion für die Kampfphase wählen.
+Im Unbewaffnetem Kampf können Kontrahenten, sofern sie beide keine Waffen nutzen, wählen, ob sie Raufen und Ringen wollen.
 
-Hat er die höhere Initiative, macht er eine normale Probe auf
-Unbewaffneten Kampf. Ist diese erfolgreich, verursacht er halbierten
-Schaden. Die beiden Kontrahenten würfeln dann konkurrierende ST-Proben.
+Zum Einsatz des Manövers macht er eine normale Probe auf Unbewaffneten Kampf.
+Ist diese erfolgreich, verursacht er halbierten Schaden.
+Die beiden Kontrahenten würfeln dann konkurrierende ST-Proben.
 Derjenige, der mehr Erfolge gewürfelt hat, hat den Gegner im Griff.
-Keiner kann in den folgenden Kampfphasen die Kampfmanöver Zurückweichen
-oder Flucht benutzen.
+Keiner kann in der aktuellen und folgenden Kampfrunden die Kampfmanöver Zurückweichen oder Flucht benutzen.
 
-Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner
-Aktion-Phase eine weitere konkurrierende ST-Probe ablegen und diese
-gewinnen. Um den Griff zu halten, muss der Angreifer dieselbe Probe
-mitmachen. Es kann also pro Kampfphase immer eine Probe gewürfelt werden
-und je nachdem, wer gewinnt, das Ergebnis folgern.
+Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfrunde eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
+Dieser Versuch gilt als Aktion und nicht als Manöver.
+Um den Griff zu halten, muss der Angreifer dieselbe Probe mitmachen.
+Es kann also pro Kampfphase immer eine Probe gewürfelt werden und je nachdem, wer gewinnt, das Ergebnis folgen.
 
-Raufen und Ringen muss in Kombination mit einem Angriff im Unbewaffneten
-Kampf angesagt werden.
-
-=== Rüstung anlegen
-
-Das Anlegen von Rüstung ist meistens ein andauernder Prozess. Um eine
-Rüstung anzulegen, benötigt ein Charakter mindestens drei Kampfphasen
-pro angefangene 1 Punkt GK der Rüstung. Umgekehrt, also die Rüstung
-auszuziehen, gilt dasselbe. Schilde werden jedoch im Rahmen dieses
-Kampfmanövers wie Waffen behandelt.
-
-Dieses Kampfmanöver provoziert einen Gelegenheitsangriff.
+Raufen und Ringen muss in Kombination mit einem Angriff im Unbewaffneten Kampf verwendet werden.
 
 === Unterstützen
 
-Mit diesem Manöver kann der Charakter (der Unterstützer) einen anderen
-Charakter im Nahkampf zur Seite stehen. Wenn er dieses Manöver
-ankündigt, muss er einen Gegner wählen, mit dem sich der zu
-unterstützende Charakter im Nahkampf befindet.
+Mit diesem Manöver kann der Charakter (der Unterstützer) einen anderen Charakter im Nahkampf zur Seite stehen.
+Wenn er dieses Manöver ankündigt, muss er einen Gegner wählen, mit dem sich der zu unterstützende Charakter im Nahkampf befindet.
 
-Der Unterstützer muss sich auf einem Feld in direkter Berührung mit dem
-Gegner und seinem Kameraden befinden.
+Der Unterstützer muss sich auf einem Feld in direkter Berührung mit dem Gegner und seinem Kameraden befinden.
 
-Er selbst kann in der Runde nicht angreifen, jedoch erhält der
-Unterstützte einen Bonus von *+1 auf die Würfe zum Erfolg* für seine
-nächste Angriffsprobe.
+Er selbst kann in der Runde nicht angreifen, jedoch erhält der Unterstützte einen Bonus von *+1 auf die Würfe zum Erfolg* für seine nächste Angriffsprobe.
 
-Der Unterstützer muss mindestens eine Kampfphase aufwenden, in der seine
-Unterstützung gültig ist. Solange er unterstützt, kann er keine anderen
-Aktionen ansagen, ansonsten wird die Unterstützung abgebrochen.
+Solange er unterstützt, kann er keine anderen Aktionen durchführen, ansonsten wird die Unterstützung abgebrochen.
 
 === Verteidigungsstellung
 
-Mit diesem Manöver begibt sich der Charakter in eine defensive Haltung,
-die es den Gegnern erschweren soll, ihn ihm Nahkampf zu treffen.
-Nachteil dabei ist, dass der Charakter sich selber auch ihm Angriff
-schwächt.
+Mit diesem Manöver begibt sich der Charakter in eine defensive Haltung, die es den Gegnern erschweren soll, ihn ihm Nahkampf zu treffen.
+Nachteil dabei ist, dass der Charakter sich selber auch ihm Angriff schwächt.
 
-Geht der Charakter in Verteidigungsstellung, dann erhält er für Talente,
-die er zur Verteidigung gegen Nahkampfattacken einsetzen kann, einen
-Bonus von +2 Würfel. Gleichzeitig erhält er jedoch einen Malus von -2
-Würfel auf alle Angriffsproben.
+Geht der Charakter in Verteidigungsstellung, dann erhält er für Talente, die er zur Verteidigung gegen Nahkampfattacken einsetzen kann, einen Bonus von +2 Würfel.
+Gleichzeitig erhält er jedoch einen Malus von -2 Würfel auf alle Angriffsproben.
 
-Der Charakter kann dieses Manöver auch einsetzen, wenn er bereits im
-Nahkampf ist.
+Der Charakter kann dieses Manöver auch einsetzen, wenn er bereits im Nahkampf ist.
 
-Dieses Kampfmanöver kann über so viele Kampfphasen weitergeführt werden,
-wie der Charakter dies wünscht. Er kann dabei jedoch keine anderen
-weiteren Kampfmanöver oder Zauber vorbereiten ansagen, ohne die
-Verteidigungsstellung abzubrechen. Er kann jedoch normal attackieren.
+Dieses Kampfmanöver kann über so viele Kampfphasen weitergeführt werden, wie der Charakter dies wünscht.
+Er kann dabei jedoch keine anderen weiteren Kampfmanöver oder Zauber vorbereiten ansagen, ohne die Verteidigungsstellung abzubrechen.
+Er kann jedoch normal attackieren.
 
-=== Waffen ziehen
+=== Waffen oder Schild ziehen
 
-Hält der Charakter in einer Kampfsituation keine Waffe bereit, dann kann
-das unangenehme Folgen für ihn haben. Das Ziehen einer Waffe, die am
-Körper getragen wird, gilt als Aktion, die unterschiedlich viele
-Kampfphasen dauern kann, je nachdem wie viele oder welche Waffen der
-Charakter ziehen möchte.
+Hält der Charakter in einer Kampfsituation keine Waffe bereit, dann kann das unangenehme Folgen für ihn haben.
+Das Ziehen einer Waffe bzw. Schilds, die am Körper getragen wird, gilt als Aktion, die unterschiedliche Aktionen kosten, je nachdem wie viele oder welche Waffen der Charakter ziehen möchte.
 
 [cols=",",options="header"]
 |===
 |Situation |Kampfphasen zum Ziehen
-|Ziehen einer Einhandwaffe |1
-|Ziehen einer Zweihandwaffe |2
-|Waffe befindet sich auf dem Rücken des Charakters |+1
+|Ziehen einer Einhandwaffe |Bewegungsmanöver
+|Ziehen eines Schilds |Bewegungsmanöver
+|Ziehen einer Zweihandwaffe |Aktion
+|Waffe/Schild befindet sich auf dem Rücken des Charakters |Bewegungsmanöver und Aktion
 |===
 
 Dieses Kampfmanöver provoziert einen Gelegenheitsangriff.
 
 === Zurückdrängen
 
-Mit diesem Manöver kann der Charakter seinen Gegner versuchen
-zurückzudrängen und in eine defensive Stellung zu zwingen. Der
-angreifende Charakter führt seinen Angriff normal mit Nahkampfwaffen
-aus. Dann würfeln die Kontrahenten eine konkurrierende ST-Probe. Pro
-Erfolgsgrad des Angreifers muss der Verteidiger 1,50 Meter
-zurückweichen. Diese Bewegung wird behandelt, als hätte der Verteidiger
-das Kampfmanöver Zurückweichen eingesetzt.
+Mit diesem Manöver kann der Charakter seinen Gegner versuchen zurückzudrängen und in eine defensive Stellung zu zwingen.
+Der angreifende Charakter führt seinen Angriff normal mit Nahkampfwaffen aus.
+Dann würfeln die Kontrahenten eine konkurrierende ST-Probe.
+Pro Erfolgsgrad des Angreifers muss der Verteidiger 1,50 Meter zurückweichen.
+Diese Bewegung wird behandelt, als hätte der Verteidiger das Kampfmanöver Zurückweichen eingesetzt.
 
-Hat der Verteidiger mehr Erfolge, war das Zurückdrängen nicht
-erfolgreich und es passiert nichts.
+Hat der Verteidiger mehr Erfolge, war das Zurückdrängen nicht erfolgreich und es passiert nichts.
 
-Grundsätzlich provoziert dieser Angriff Gelegenheitsangriffe gegenüber
-anderen Kontrahenten.
+Grundsätzlich provoziert dieser Angriff Gelegenheitsangriffe gegenüber anderen Kontrahenten.
 
-Wird der Verteidiger in eine Bedrohungszone zurückgedrängt, so
-provoziert er ebenso Gelegenheitsangriffe.
+Wird der Verteidiger in eine Bedrohungszone zurückgedrängt, so provoziert er ebenso Gelegenheitsangriffe.
 
-Zurückdrängen kann nur in Verbindung mit einer Nahkampfattacke genutzt
-werden.
+Zurückdrängen kann nur in Verbindung mit einer Nahkampfattacke genutzt werden.
 
 == Besondere Situationen
 
 === Bedrängt
 
-Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 andere
-Charakter ihn im Nahkampf attackieren. Ein bedrängter Charakter erhält
+Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 andere Charakter ihn im Nahkampf attackieren. Ein bedrängter Charakter erhält
 *-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
 
-Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie
-attackieren, solange sie dies im Nahkampf tun. Also gelten auch diagonal
-attackierende Gegner zu der Rechnung.
+Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
+Es gelten auch diagonal attackierende Gegner zu der Rechnung.
 
-Größere Kreaturen (GK 6 oder mehr) sind von kleineren Kreaturen schwerer
-zu bedrängen. Ist eine Kreatur eine Größenkategorie kleiner, so bedrängt
-sie die größere Kreatur nur dann, wenn sie einen Kollegen gleicher GK
-dabei hat. Eine Kreatur der Größenkategorie 6 ist also erst von 6
-Kreaturen der Größenkategorie 5 bedrängt. Dies setzt sich fort und zwar
-ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der
-Größenkategorie 5 bedrängt usw.
+Größere Kreaturen (GK 6 oder mehr) sind von kleineren Kreaturen schwerer zu bedrängen.
+Ist eine Kreatur eine Größenkategorie kleiner, so bedrängt sie die größere Kreatur nur dann, wenn sie einen Kollegen gleicher GK dabei hat.
+Eine Kreatur der Größenkategorie 6 ist also erst von 6 Kreaturen der Größenkategorie 5 bedrängt.
+Dies setzt sich fort und zwar ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der Größenkategorie 5 bedrängt usw.
 
 === Benommen
 
-Ein Charakter, der durch eine Verletzung oder einen anderen Umstand den
-Zustand „Benommen“ erhält, steht kurz vor einer Ohnmacht, ist jedoch
-noch in der Lage, einige Aktionen durchzuführen.
+Ein Charakter, der durch eine Verletzung oder einen anderen Umstand den Zustand „Benommen“ erhält, steht kurz vor einer Ohnmacht, ist jedoch noch in der Lage, einige Manöver durchzuführen.
 
-Er kann Aktionen, außer Zaubersprüche vorbereiten, normal einsetzen,
-jedoch wird seine BEW-Rate halbiert und er erhält einen Malus von *-1
+Er kann keine Aktionen einsetzen, seine BEW-Rate ist halbiert und er erhält einen Malus von *-1
 auf die Würfe zum Erfolg*.
 
-Die Benommenheit dauert normalerweise eine bestimmte Kampfphasenzahl.
-Sollte diese nicht gegeben sein, so dauert die Benommenheit
-1W10-KO-Stufe Kampfphasen des Charakters an (Minimum 1).
+Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfrunden.
+Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfrunden des Charakters an (Minimum 1).
 
 === Erschöpft
 
-Ein erschöpfter Charakter kann in einer Kampfphase nur Kampfmanöver
-verwenden. Seine BEW-Rate wird halbiert.
+Ein erschöpfter Charakter kann in einer Kampfphase nur Kampfmanöver verwenden.
+Seine BEW-Rate wird halbiert.
 
-Die Erschöpfung dauert üblicherweise mindestens eine Stunde. In dieser
-Stunde muss der Charakter sich komplett ruhig verhalten und sich
-schlicht ausruhen, bis dieser Status aufgehoben ist.
+Die Erschöpfung dauert üblicherweise mindestens eine Stunde.
+In dieser Stunde muss der Charakter sich komplett ruhig verhalten und sich schlicht ausruhen, bis dieser Status aufgehoben ist.
 
 === Gelegenheitsangriffe
 
-Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfphase, die
-durch unterschiedliche Situationen ausgelöst werden können. Diese
-Angriffe werden grundsätzlich mit dem Talent Nahkampfwaffen gewürfelt,
-dessen Anwendung in diesem Moment als Spontane Aktion gilt.
+Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfrunde, die durch unterschiedliche Situationen ausgelöst werden können.
+Diese Angriffe werden grundsätzlich mit dem Talent Nahkampfwaffen oder Unbewaffener Angriff gewürfelt, dessen Anwendung in diesem Moment als Freie Aktion gilt.
 
-Jeder Charakter hat pro Kampfphase nur einen Gelegenheitsangriff frei.
-Provozieren jedoch mehr Gegner Gelegenheitsangriffe, so kann der
-Charakter diese nicht mehr ausführen, wenn er seinen einen
-Gelegenheitsangriff bereits durchgeführt hat.
+Jeder Charakter hat pro Kampfrunde nur einen Gelegenheitsangriff frei.
+Provozieren jedoch mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese nicht mehr ausführen, wenn er seinen einen Gelegenheitsangriff bereits durchgeführt hat.
 
-Der Charakter muss eine Nahkampfwaffe bereit halten, um einen
-Gelegenheitsangriff durchführen zu können.
+Der Charakter muss eine Nahkampfwaffe bereit halten, um einen Gelegenheitsangriff mit dem Talent Nahkampfwaffen durchführen zu können.
 
-Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die
-sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das
-heißt, sie stehen in der Bedrohungszone des Charakters.
+Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das heißt, sie stehen in der Bedrohungszone des Charakters.
 
 Folgende Situationen lassen einen Gelegenheitsangriff zu:
 
 * Der Gegner benutzt die Kampfmanöver Flucht oder Zurückweichen.
-* Der Gegner benutzt das Bewegungsmanöver Rennen oder Sprinten und
-durchquert die Bedrohungszone eines gegnerischen Charakters. Nur dieser
-darf dann einen Gelegenheitsangriff durchführen. Dies gilt nicht, wenn
-der Gegner den Charakter angreift.
-* Der Charakter wechselt im Kampf seine Waffen/Rüstung oder benutzt
-einen Gegenstand (z.B. einen Heiltrank).
+* Der Gegner benutzt das Bewegungsmanöver Rennen oder Sprinten und durchquert die Bedrohungszone eines gegnerischen Charakters.
+Nur dieser darf dann einen Gelegenheitsangriff durchführen.
+Dies gilt nicht, wenn der Gegner den Charakter angreift.
+* Der Charakter wechselt im Kampf seine Waffen/Rüstung oder benutzt einen Gegenstand (z.B. einen Heiltrank).
 * Der Charakter lädt eine Fernkampfwaffe nach.
 * Der Charakter dreht sich um.
-* Der Gegner führt das Kampfmanöver Zurückdrängen oder Blocken gegen
-einen anderen Charakter durch.
-* Der Gegner würfelt einen Patzer in einer der folgenden
-Standard-Proben: Fallen, Athletik, Niederschlag, Reflex.
-* Der Charakter würfelt einen Patzer bei den Talenten Nahkampfwaffen,
-Projektilwaffen oder Wurfwaffen.
+* Der Gegner führt das Kampfmanöver Zurückdrängen oder Blocken gegen einen anderen Charakter durch.
+* Der Gegner würfelt einen Patzer in einer der folgenden Standard-Proben: Fallen, Athletik, Niederschlag, Reflex.
+* Der Charakter würfelt einen Patzer bei den Talenten Nahkampfwaffen, Projektilwaffen oder Wurfwaffen.
 * Ein Unbewaffneter greift einen bewaffneten Gegner an.
 
-Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich
-im allgemeinen nicht dagegen verteidigen.
+Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich im allgemeinen nicht dagegen verteidigen.
+
+=== Gebunden
+
+Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben einem Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
+Der Ausgang dieser Probe ist dabei nicht relevant.
 
 === Kampfunfähig
 
-Kampfunfähige Charaktere können gar keine Aktionen oder Kampfmanöver
-mehr durchführen. Sie sind beispielsweise niedergeschlagen worden.
+Kampfunfähige Charaktere können gar keine Aktionen oder Kampfmanöver mehr durchführen.
+Sie sind beispielsweise niedergeschlagen worden.
 
-Kampfunfähige Charakter können üblicherweise wieder aufstehen, sobald
-sie an der Reihe sind. Beachte allerdings, dass kampfunfähige Charaktere
-immer am Ende der Initiative-Reihenfolge stehen.
+Kampfunfähige Charakter können üblicherweise wieder aufstehen, sobald sie an der Reihe sind.
+Beachte allerdings, dass kampfunfähige Charaktere immer am Ende der Initiative-Reihenfolge stehen.
 
-Aufstehen gilt als eine Aktion, die Gelegenheitsangriffe provoziert. Ein
-benommener Charakter, der kampfunfähig wurde, kann erst aufstehen, wenn
-die Benommenheit endet.
+Aufstehen gilt als eine Aktion, die Gelegenheitsangriffe provoziert.
+Ein benommener Charakter, der kampfunfähig wurde, kann erst aufstehen, wenn die Benommenheit endet.
 
 === Ohnmächtig
 
-Ein Charakter kann aufgrund einer schweren Verletzung oder dem Erreichen
-von 0 oder weniger TP ohnmächtig werden. Ein ohnmächtiger Charakter
-kann, wie der Name vermuten lässts, nicht machen, weder Aktionen noch
-Kampfmanöver und auch keine sonstigen Proben würfeln.
+Ein Charakter kann aufgrund einer schweren Verletzung oder dem Erreichen von 0 oder weniger TP ohnmächtig werden.
+Ein ohnmächtiger Charakter kann, wie der Name vermuten lässts, nicht machen, weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
 
 === Patzerwürfe bei den Angriffsproben
 
-Wenn ein Charakter einen Patzer in einer Angriffsprobe würfelt, so kann
-es passieren, dass dies zu unangenehmen Folgen führen kann. Ein Patzer
-provoziert grundsätzlich einen Gelegenheitsangriff.
+Wenn ein Charakter einen Patzer in einer Angriffsprobe würfelt, so kann es passieren, dass dies zu unangenehmen Folgen führen kann.
+Ein Patzer provoziert grundsätzlich einen Gelegenheitsangriff.
 
-Manche Waffen generieren weitere Folgen, welche in einem späteren
-Kapitel beschrieben werden.
+Manche Waffen generieren weitere Folgen, welche in einem späteren Kapitel beschrieben werden.
 
 === Überraschungsangriffe
 
-Hinterhalte sind typische Situationen für Überraschungsangriffe. Der
-Überraschte kann in der ersten Kampfphase keine Aktionen ansagen.
-Verteidigungstalente erhalten einen Malus von -1 auf die Würfe zum
-Erfolg.
+Hinterhalte sind typische Situationen für Überraschungsangriffe.
+Der Überraschte kann in der ersten Kampfrunde keine Aktionen ansagen.
+Verteidigungstalente erhalten einen Malus von -1 auf die Würfe zum Erfolg.
 
 === Umzingelt
 
-Dies ist eine denkbar ausweglose und meistens tödliche Situation. Ein
-umzingelter Charakter hat an beiden Seiten, im kompletten Rücken und
-direkt vor sich einen Gegner stehen, bzw. wie bei Bedrängt von der
-Größenkategorie abhängig viele. Eine Flucht ist damit nicht möglich. Wie
-bei Bedrängt erhält er einen Malus von -2 auf die Würfe zum Erfolg.
+Dies ist eine denkbar ausweglose und meistens tödliche Situation.
+Ein umzingelter Charakter hat an beiden Seiten, im kompletten Rücken und direkt vor sich einen Gegner stehen, bzw. wie bei Bedrängt von der Größenkategorie abhängig viele.
+Eine Flucht ist damit nicht möglich.
+Wie bei Bedrängt erhält er einen Malus von -2 auf die Würfe zum Erfolg.
 
 == Schaden, Schadensresistenz und Rüstung
 
-Nach der Bestimmung der Erfolge einer Angriffsprobe kommt die
-Kalkulation des Schadens ins Spiel. Im allgemeinen lässt sich sagen: je
-mehr Erfolge gemacht wurden, desto mehr Schaden ist theoretisch möglich.
+Nach der Bestimmung der Erfolge einer Angriffsprobe kommt die Kalkulation des Schadens ins Spiel.
+Im allgemeinen lässt sich sagen: je mehr Erfolge gewürfelt wurden, desto mehr Schaden ist theoretisch möglich.
 
-Die Quelle des Schadens kann im Übrigen sehr vielfältig sein und
-beschränkt sich nicht nur auf den Kampf. Ein Charakter kann auch Schaden
-davon erhalten, dass er im Wald unvorsichtigerweise in eine Bärenfalle
-tappt.
+Die Quelle des Schadens kann im Übrigen sehr vielfältig sein und beschränkt sich nicht nur auf den Kampf.
+Ein Charakter kann auch Schaden davon erhalten, dass er im Wald unvorsichtigerweise in eine Bärenfalle tappt.
 
-In allen nicht-Kampf Situationen ist dann meistens ein Ablauf anstelle
-von Angriffswürfe angegeben und wie Schadenswürfel zustande kommen. Die
-Regeln in diesem Kapitel treffen jedoch auch auf diese Situationen zu.
+In allen nicht-Kampf Situationen ist dann meistens ein Angriffswurf angegeben und wie Schadenswürfel zustande kommen.
+Die Regeln in diesem Kapitel treffen jedoch auch auf diese Situationen zu.
 
 === Schaden
 
-Eine erfolgreiche Angriffsprobe mit den Talenten Nahkampfwaffen,
-Projektilwaffen, Wurfwaffen, Unbewaffneter Kampf und deren ungeübter
-Anwendung führt zu einem *Treffer*. Fallen würfeln auch eine
-Angriffsprobe und können damit auch Treffer erzeugen. Eine erfolgreiche
-Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die Anzahl der
-möglichen Effekte vielseitiger sind.
+Eine erfolgreiche Angriffsprobe mit den Talenten Nahkampfwaffen, Projektilwaffen, Wurfwaffen, Unbewaffneter Kampf und deren ungeübter Anwendung führt zu einem *Treffer*.
+Fallen würfeln auch eine Angriffsprobe und können damit auch Treffer erzeugen.
+Eine erfolgreiche Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die Anzahl der möglichen Effekte vielseitiger sind.
 
-Ein Treffer verursacht *Schaden*, der sich je nach Art des Treffers
-anders berechnet. Wichtig ist dabei die Anzahl der Erfolge der
-Angriffsprobe, im Folgenden abgekürzt durch *AnzE*, sowie die
-Attributsstufe von ST oder EN sowie der *Schadensbonus*, abgekürzt SB.
+Ein Treffer verursacht *Schaden*, der sich je nach Art des Treffers anders berechnet.
+Wichtig ist dabei die Anzahl der Erfolge der Angriffsprobe, im Folgenden abgekürzt durch *AnzE*, sowie die Attributsstufe von ST oder EN sowie der *Schadensbonus*, abgekürzt SB.
+
 Folgende Übersicht gibt Auskunft über die Berechnungen:
-
-Schaden bei Angriffen mit...
 
 * Nahkampfwaffen (Einhändige Waffen): *AnzE + ST + SB*
 * Nahkampfwaffen (Zweihändige Waffen): *AnzE + (ST*2) + SB*
@@ -1539,9 +1176,9 @@ Schaden bei Angriffen mit...
 * Natürliche Waffen: *AnzE + ST + SB*
 * Spruchzauberei: *AnzE + EN + SB*
 
-Man nennt eine solche Probe auch den *Schadenswurf*. Das Endergebnis
-sind die *Schadenspunkte*. Speziell der Eintrag unter Spruchzauberei
-wird als *Magieschadenswurf* bezeichnet.
+Man nennt eine solche Probe auch den *Schadenswurf*.
+Das Endergebnis sind die *Schadenspunkte*.
+Speziell der Eintrag unter Spruchzauberei wird als *Magieschadenswurf* bezeichnet.
 
 .Schadenswürfe
 ====
@@ -1559,34 +1196,25 @@ Damit kann er 4+5+3W8 Schadenspunkte verursachen.
 ====
 
 Beachte, dass im Unbewaffneten Kampf der Schadensbonus durch die Attributseigenschaft Schaden im Unbewaffneten Kampf (SUW) bestimmt wird.
-Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über
-das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die
-Schadenberechnung für Natürliche Waffen.
+Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für Natürliche Waffen.
 Der Schadensbonus im Nahkampf und Fernkampf ist der Schadensbonus der eingesetzte Waffe.
 
-Nachdem der Gesamtschaden ermittelt wurde, werden Rüstung und
-Schadensresistenzen angezogen. Schadensresistenzen bieten zusätzliche
-Reduzierungen gegenüber einer bestimmten *Schadensart*.
-Schadensresistenzen kommen natürlicherweise nur dann zum Tragen, wenn
-die verursachten Schadenspunkte aus einer Quelle stammt, die diesen
-Schaden verursacht.
+Nachdem der Gesamtschaden ermittelt wurde, werden Rüstung und Schadensresistenzen angezogen.
+Schadensresistenzen bieten zusätzliche Reduzierungen gegenüber einer bestimmten *Schadensart*.
+Schadensresistenzen kommen natürlicherweise nur dann zum Tragen, wenn die verursachten Schadenspunkte aus einer Quelle stammt, die diesen Schaden verursacht.
 
-Grundsätzlich wird _zuerst der Rüstungsschutz_ angewandt und _dann die
-Schadensresistenz_.
+Grundsätzlich wird _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensresistenz_.
 
-Rüstungsschutz oder einfach Rüstung bieten entsprechende Rüstungen, die
-der Charakter am Körper trägt. Die Rüstungspunkte, die die Rüstung
-gewährt, werden vom Gesamtschaden abgezogen. Es gibt Situationen, in
-denen Rüstung keinen Schutz bietet.
+Rüstungsschutz oder einfach Rüstung bieten entsprechende Rüstungen, die der Charakter am Körper trägt.
+Die Rüstungspunkte, die die Rüstung gewährt, werden vom Gesamtschaden abgezogen.
+Es gibt Situationen, in denen Rüstung keinen Schutz bietet.
 
 Schadenspunkte werden von den Trefferpunkten des Charakter abgezogen.
-Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem
-Erhalten von Schadenspunkten. Beide Aussagen sind äquivalent.
+Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalten von Schadenspunkten.
+Beide Aussagen sind äquivalent.
 
-Der SL kann jederzeit eine andere Standardtrefferzone festlegen, wenn er
-der Ansicht ist, dass die Charaktere den Torso nicht treffen können. So
-kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als
-Standardtrefferzone für den Menschen die Beine des Drachen haben.
+Der SL kann jederzeit eine andere Standardtrefferzone festlegen, wenn er der Ansicht ist, dass die Charaktere den Torso nicht treffen können.
+So kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als Standardtrefferzone für den Menschen die Beine des Drachen haben.
 
 === Kritischer Treffer
 
@@ -1600,58 +1228,42 @@ Erziehlt Kraag mit seiner Waffe, die einen Schadensbonus von 2W6 besitzt, einen 
 
 === Tödlicher und nicht-tödlicher Schaden
 
-Weiterhin ist zwischen tödlichem und nicht-tödlichem Schaden zu
-unterscheiden. Im Endeffekt gelten für tödlichen Schaden alle bisherigen
-Regeln, jedoch mit folgenden Einschränkungen:
+Weiterhin ist zwischen tödlichem und nicht-tödlichem Schaden zu unterscheiden.
+Im Endeffekt gelten für tödlichen Schaden alle bisherigen Regeln, jedoch mit folgenden Einschränkungen:
 
 * nicht-tödlicher Schaden reduziert die TP eines Charakters maximal auf 0, aber niemals darunter.
 * nicht-tödlicher Schaden verursacht keine Verletzungen(siehe unten), aber kann zu Niederschlägen führen.
 
-Grundsätzlich gilt, dass alles, egal ob Waffe, Zauberspruch, Zähne oder
-Klaue tödlichen Schaden verursacht. Nicht-tödlicher Schaden wird genau
-dann verursacht, wenn es explizit dabei steht.
+Grundsätzlich gilt, dass alles, egal ob Waffe, Zauberspruch, Zähne oder Klaue tödlichen Schaden verursacht.
+Nicht-tödlicher Schaden wird genau dann verursacht, wenn es explizit dabei steht.
 
-Für folgende Fälle wird jedoch automatisch nicht-tödlicher Schaden
-angenommen und nur im Falle einer Erwähnung tödlicher Schaden
-verursacht:
+Für folgende Fälle wird jedoch automatisch nicht-tödlicher Schaden angenommen und nur im Falle einer Erwähnung tödlicher Schaden verursacht:
 
 * Im waffenlosen Kampf verursacht ein Charakter immer nicht-tödlichen Schaden, wenn keine natürlichen Waffen zum Einsatz kommen.
 * Illusionen verursachen immer nicht-tödlichen Schaden, außer der Zauberspruch erwähnt explizit tödlichen Schaden.
 
-Ein Charakter, der mit einer tödlichen Schaden austeilenden
-Nahkampfwaffe ausgestattet ist, kann mit der Ansage der Aktionen für die
-aktuelle Kampfphase festlegen, ob er nicht-tödlichen Schaden austeilen
-möchte.
+Ein Charakter, der mit einer tödlichen Schaden austeilenden Nahkampfwaffe ausgestattet ist, kann mit der Durchführung der Aktionen für die aktuelle Kampfrunde festlegen, ob er nicht-tödlichen Schaden austeilen möchte.
 
 Mit einer Projektilwaffe oder einer Wurfwaffe gelten dieselben Regeln.
 
-Alle anderen Formen der Attacke, die tödlichen Schaden austeilen, können
-keinen nicht-tödlichen Schaden verursachen.
+Alle anderen Formen der Attacke, die tödlichen Schaden austeilen, können keinen nicht-tödlichen Schaden verursachen.
 
-Waffen, die nicht-tödlichen Schaden verursachen, können keinen tödlichen
-Schaden verursachen.
+Waffen, die nicht-tödlichen Schaden verursachen, können keinen tödlichen Schaden verursachen.
 
 === Schadensarten
 
-Bisher haben wir Schaden sehr allgemein gefasst und unterschiedliche
-Quellen des Schadens nicht bedacht. Tatsächlich ist der Schaden, der
-nicht speziell ausgezeichnet ist, einfach normaler, körperlicher
-Schaden. Das heißt, er äußert sich in Wunden, Narben, Blutverlust und
-ähnlichem.
+Bisher haben wir Schaden sehr allgemein gefasst und unterschiedliche Quellen des Schadens nicht bedacht.
+Tatsächlich ist der Schaden, der nicht speziell ausgezeichnet ist, einfach normaler, körperlicher Schaden.
+Das heißt, er äußert sich in Wunden, Narben, Blutverlust und ähnlichem.
 
-Jedoch gibt es noch andere Schadensarten, die durch unterschiedliche
-Situationen hervorgerufen werden können.
+Jedoch gibt es noch andere Schadensarten, die durch unterschiedliche Situationen hervorgerufen werden können.
 
-Meistens findet man bei der Angabe des Schadens eine Angabe über die
-Schadensart. Wird keine Schadensart angebenden, dann handelt es sich um
-körperlichen Schaden.
+Meistens findet man bei der Angabe des Schadens eine Angabe über die Schadensart.
+Wird keine Schadensart angebenden, dann handelt es sich um körperlichen Schaden.
 
-Ist eine spezielle Schadensart angegeben, dann hat der erlittene Schaden
-meistens eine zusätzliche Wirkung auf den betroffenen Charakter, die
-weiter unter beschrieben wird.
+Ist eine spezielle Schadensart angegeben, dann hat der erlittene Schaden meistens eine zusätzliche Wirkung auf den betroffenen Charakter, die weiter unter beschrieben wird.
 
-Entweder besteht eine Schadensquelle aus einer Schadensart oder ist aus
-mehreren zusammengesetzt, zum Beispiel:
+Entweder besteht eine Schadensquelle aus einer Schadensart oder ist aus mehreren zusammengesetzt, zum Beispiel:
 
 - Breitschwert: 2W6 Schaden
 
@@ -1660,85 +1272,67 @@ mehreren zusammengesetzt, zum Beispiel:
 .Schadensarten
 ====
 Kraag greift diesmal mit einem verzauberten Breitschwert an.
-Bei seiner Angriffsprobe im Nahkampf erreicht er 5 Erfolge. Seine
-Attributsstufe in Stärke beträgt 4 und der Schadenbonus seiner Waffe ist
-2W6 normaler Schaden und +2W4 Magieschaden. Er würfelt mit den 2W6 eine
-6 und mit den 2W3 eine 3. Also verursacht seiner Angriff 5+4+6 = 15
-Punkte normalen Schaden und 3 Magieschaden. Trägt der Untote eine
-normale Rüstung mit 5 Punkten Rüstungsschutz, werden nur 15 – 5 = 10
-normaler Schaden verursacht, plus 3 Magieschaden.
+Bei seiner Angriffsprobe im Nahkampf erreicht er 5 Erfolge.
+Seine Attributsstufe in Stärke beträgt 4 und der Schadenbonus seiner Waffe ist 2W6 normaler Schaden und +2W4 Magieschaden.
+Er würfelt mit den 2W6 eine 6 und mit den 2W3 eine 3.
+Also verursacht seiner Angriff 5+4+6 = 15 Punkte normalen Schaden und 3 Magieschaden.
+Trägt der Untote eine normale Rüstung mit 5 Punkten Rüstungsschutz, werden nur 15 – 5 = 10 normaler Schaden verursacht, plus 3 Magieschaden.
 
-Besitzt der Untote nun eine Schadensresistenz (Magie) oder eine magische
-Rüstung, die auch Magieschaden reduziert, würden auch die 3
-Magieschadenspunkte entsprechend reduziert.
+Besitzt der Untote nun eine Schadensresistenz (Magie) oder eine magische Rüstung, die auch Magieschaden reduziert, würden auch die 3 Magieschadenspunkte entsprechend reduziert.
 ====
 
 Schadensresistenzen wirken sich immer nur auf die eine Schadensart aus.
 
-Folgende Schadensarten sind in den Grundregeln abgedeckt. Sofern nicht
-anders angegeben, reduzieren die Schadenspunkte die TP eines Charakters
-und normale Rüstung reduziert den Schaden. Wird ein Guter Erfolg bei der
-Angriffsprobe erzielt, tritt ein zusätzlicher Effekt ein.
+Folgende Schadensarten sind in den Grundregeln abgedeckt.
+Sofern nicht anders angegeben, reduzieren die Schadenspunkte die TP eines Charakters und normale Rüstung reduziert den Schaden.
+Wird ein Guter Erfolg bei der Angriffsprobe erzielt, tritt ein zusätzlicher Effekt ein.
 
 ==== Feuer
 
-Das Feuer ist eine zerstörerische und unbändige Kraft, die solange
-konsumiert, bis nichts mehr da ist. Feuerschaden kann viele Quellen
-haben, vom Lagerfeuer bis zum Waldbrand, viele Zaubersprüche nutzen die
-Kraft des Feuers oder auch Kreaturen und Konstrukte, die Feuer spucken.
+Das Feuer ist eine zerstörerische und unbändige Kraft, die solange konsumiert, bis nichts mehr da ist.
+Feuerschaden kann viele Quellen haben, vom Lagerfeuer bis zum Waldbrand, viele Zaubersprüche nutzen die Kraft des Feuers oder auch Kreaturen und Konstrukte, die Feuer spucken.
 
-Als zusätzlicher Effekt wird der Charakter entzündet und erleidet für
-1W10 Kampfphasen am Anfang jeder Kampfphase 1W3 Feuerschaden.
+Als zusätzlicher Effekt wird der Charakter entzündet und erleidet für 1W10 Kampfphasen am Anfang jeder Kampfphase 1W3 Feuerschaden.
 
 ==== Frost
 
-Eiskalt und lebensfeindlich ist der Frost. Er lässt sogar den Atem
-gefrieren und das Blut in den Adern stillstehen. Frost-Schaden kommt
-natürlicherweise in besonders kalten Gebieten vor, wie zum Beispiel die
-Eiswüsten nördlich von Kchrun.
+Eiskalt und lebensfeindlich ist der Frost.
+Er lässt sogar den Atem gefrieren und das Blut in den Adern stillstehen.
+Frost-Schaden kommt natürlicherweise in besonders kalten Gebieten vor, wie zum Beispiel die Eiswüsten nördlich von Kchrun.
 
-Als zusätzlichen Effekt erleidet der Charakter einen Kälteschock und
-erleidet für 1W10 Kampfphasen einen Malus von -5 auf einen INI-Wert.
+Als zusätzlichen Effekt erleidet der Charakter einen Kälteschock und erleidet für 1W10 Kampfphasen einen Malus von -5 auf einen INI-Wert.
 
 ==== Säure
 
-Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende
-Säuren oder Gase, die Materialien, wie Metalle, Textilien, Leder und
-auch Haut und Augen angreifen. Ätzende Gase werden von dieser Regel auch
-betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten
-assoziiert wird. Manche der Säuren gehören zum Verdauungsprozess einer
-Kreatur oder sind ein Abwehrmechanismus.
+Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende Säuren oder Gase, die Materialien, wie Metalle, Textilien, Leder und auch Haut und Augen angreifen.
+Ätzende Gase werden von dieser Regel auch betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten assoziiert wird.
+Manche der Säuren gehören zum Verdauungsprozess einer Kreatur oder sind ein Abwehrmechanismus.
 
-Als zusätzlicher Effekt wird der Charakter weiter verätzt und erleidet
-für 1W10 Kampfphasen am Anfang jeder Kampfphase 1W3 Säureschaden.
+Als zusätzlicher Effekt wird der Charakter weiter verätzt und erleidet für 1W10 Kampfphasen am Anfang jeder Kampfphase 1W3 Säureschaden.
 
 ==== Schock
 
-Schock-Schaden ist elektrisierende Energie, die durch den Körper ihrer
-Opfer fließt und diese lähmt. Typische Quellen sind Blitzschläge,
-natürliche, wie magische, bestimmte technomantische Spielzeuge und
-diverse Phänomene, die auf statischer Ladung beruhen.
+Schock-Schaden ist elektrisierende Energie, die durch den Körper ihrer Opfer fließt und diese lähmt.
+Typische Quellen sind Blitzschläge, natürliche, wie magische, bestimmte technomantische Spielzeuge und diverse Phänomene, die auf statischer Ladung beruhen.
 
-Als zusätzlichen Effekt erleidet der Charakter einen körperlichen
-Schock, er ist für eine Kampfphase benommen.
+Als zusätzlichen Effekt erleidet der Charakter einen körperlichen Schock, er ist für eine Kampfphase benommen.
 
 ==== Magie
 
-Kanalisierte, magische Energie verursacht diese Art von Schaden. Sehr
-häufig ist dies bei Zaubersprüchen der Fall und bei einigen magischen
-Phänomenen.
+Kanalisierte, magische Energie verursacht diese Art von Schaden.
+Sehr häufig ist dies bei Zaubersprüchen der Fall und bei einigen magischen Phänomenen.
 
-Magischer Schaden umgeht jede normale Rüstung. Es gibt jedoch
-verzauberte Rüstungen, die auch solchen Schaden abhalten. Es existiert
-kein zusätzlicher Effekt bei einem Guten Erfolg.
+Magischer Schaden umgeht jede normale Rüstung.
+Es gibt jedoch verzauberte Rüstungen, die auch solchen Schaden abhalten.
+Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
 ==== Mental
 
-Kosmischen Grauen bevölkert das Multiversum. Mentaler Schaden greift nie
-die TP des Charakters an, sondern die Stabilitätspunkte (SP). Der
-mentale Schaden wird normal ausgewürfelt und dann von den SP abgezogen.
-Gegen diese Art von Schaden schützt keine normale Rüstung. Es existiert
-kein zusätzlicher Effekt bei einem Guten Erfolg.
+Kosmischen Grauen bevölkert das Multiversum.
+Mentaler Schaden greift nie die TP des Charakters an, sondern die Stabilitätspunkte (SP).
+Der mentale Schaden wird normal ausgewürfelt und dann von den SP abgezogen.
+Gegen diese Art von Schaden schützt keine normale Rüstung.
+Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
 ==== Übersicht der Schadensarten
 [cols=",,,",options="header"]
@@ -1754,31 +1348,22 @@ kein zusätzlicher Effekt bei einem Guten Erfolg.
 
 == Trefferpunkte
 
-Trefferpunkte sind ein Maß für die körperliche Verfassung des
-Charakters. Je weniger Trefferpunkte ein Charakter hat, umso schlechter
-steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er
-nähert sich dem Tod. Wie viele Trefferpunkte ein Charakter hat, ergibt
-sich aus den Regeln im Dokument[Charaktererschaffung] oder Vor- und
-Nachteile.
+Trefferpunkte sind ein Maß für die körperliche Verfassung des Charakters.
+Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er nähert sich dem Tod.
+Wie viele Trefferpunkte ein Charakter hat, ergibt sich aus den Regeln im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] oder Vor- und Nachteile.
 
-Sinkt die Anzahl von Trefferpunkten auf einen Wert kleiner oder gleich
-0, so wird der Charakter ohnmächtig. Erreicht ein Charakter einen Wert
-von -10 TP oder weniger, so ist er tot.
+Sinkt die Anzahl von Trefferpunkten auf einen Wert kleiner oder gleich 0, so wird der Charakter ohnmächtig.
+Erreicht ein Charakter einen Wert von -10 TP oder weniger, so ist er tot.
 
-Durch Zauber ist es zum Beispiel möglich *temporäre Trefferpunkte* zu
-bekommen. Diese Trefferpunkte werden als ein zusätzlicher Pool von TP
-geführt. Schaden wird immer zuerst aus diesem Pool subtrahiert. Sinkt
-der Wert der temporären TP in diesem Pool auf 0, so passiert dem
-Charakter nichts, außer, dass dieser zusätzliche Pool nun ausgedient hat
-und ab sofort wieder seine regulären TP benutzt werden.
+Durch Zauber ist es zum Beispiel möglich *temporäre Trefferpunkte* zu bekommen.
+Diese Trefferpunkte werden als ein zusätzlicher Pool von TP geführt.
+Schaden wird immer zuerst aus diesem Pool subtrahiert.
+Sinkt der Wert der temporären TP in diesem Pool auf 0, so passiert dem Charakter nichts, außer, dass dieser zusätzliche Pool nun ausgedient hat und ab sofort wieder seine regulären TP benutzt werden.
 
-Überschüssige TP aus einem temporären TP-Pool werden von den regulären
-TP (oder von anderen temporären Pools) abgezogen.
+Überschüssige TP aus einem temporären TP-Pool werden von den regulären TP (oder von anderen temporären Pools) abgezogen.
 
-Temporäre TP können nicht genutzt werden, um einen Charakter zu heilen,
-aus einer Ohnmacht zu befreien oder wiederzubeleben. Sie können jedoch
-einen ohnmächtigen Charakter insoweit helfen, dass sie eventuelle
-Trefferpunktverluste auffangen.
+Temporäre TP können nicht genutzt werden, um einen Charakter zu heilen, aus einer Ohnmacht zu befreien oder wiederzubeleben.
+Sie können jedoch einen ohnmächtigen Charakter insoweit helfen, dass sie eventuelle Trefferpunktverluste auffangen.
 
 == Trefferzonen
 
@@ -1795,77 +1380,53 @@ Ein gezielter Angriff -siehe Kampfmanöver- kann so gezielt werden, dass er die 
 
 Schadensresistenzen gelten immer für alle Trefferzonen.
 
-Rüstungen bedecken nur teilweise den Körper. Man spricht bei der
-Einteilung dabei von *Trefferzonen*.
+Rüstungen bedecken nur teilweise den Körper.
+Man spricht bei der Einteilung dabei von *Trefferzonen*.
 
-Im allgemeinen kann vorausgesetzt werden, dass, wenn keine explizite
-Trefferzone durch den Angriff attackiert wurde, z.B. durch das
-Kampfmanöver Gezielter Schlag/Schuss, dann wurde die Trefferzone Torso
-getroffen. Diese hat meistens den höchsten Rüstungsschutz, wenn eine
-Körperrüstung getragen wird. Wenn ein Charakter gegen ein besonders
-großes Wesen kämpft, kann es sein, dass er an den Torso nicht herankommt
-und stattdessen die Beine oder ähnliches trifft. Dies kann der SL von
-Situation zu Situation frei entscheiden.
+Im allgemeinen kann vorausgesetzt werden, dass, wenn keine explizite Trefferzone durch den Angriff attackiert wurde, z.B. durch das Kampfmanöver Gezielter Schlag/Schuss, dann wurde die Trefferzone Torso getroffen.
+Diese hat meistens den höchsten Rüstungsschutz, wenn eine Körperrüstung getragen wird.
+Wenn ein Charakter gegen ein besonders großes Wesen kämpft, kann es sein, dass er an den Torso nicht herankommt und stattdessen die Beine oder ähnliches trifft.
+Dies kann der SL von Situation zu Situation frei entscheiden.
 
-Der Torso gilt als *Standardtrefferzone* bei humanoiden, gleichgroßen
-Gegnern.
+Der Torso gilt als *Standardtrefferzone* bei humanoiden, gleichgroßen Gegnern.
 
 .Trefferzonen
 ====
-Aus obigen Beispiel von Kraags Kampf ergab sich ein
-Gesamtschaden von 15. Der Verteidiger besitzt keine Schadensresistenz,
-aber dafür eine Lederrüstung mit 4 Rüstungspunkten am Torso. Da der
-Angriff vorhin nicht explizit gegen eine andere Trefferzone geführt
-wurde, erhält der Verteidiger die 4 Punkte Rüstungsschutz. Also erleidet
-er 15-4 = 11 Schadenspunkte.
+Aus obigen Beispiel von Kraags Kampf ergab sich ein Gesamtschaden von 15.
+Der Verteidiger besitzt keine Schadensresistenz, aber dafür eine Lederrüstung mit 4 Rüstungspunkten am Torso.
+Da der Angriff vorhin nicht explizit gegen eine andere Trefferzone geführt wurde, erhält der Verteidiger die 4 Punkte Rüstungsschutz.
+Also erleidet er 15-4 = 11 Schadenspunkte.
 ====
 
 == Verletzungen
 
-Als *Verletzung* bezeichnet man einen starken Verlust von Treffpunkten,
-der durch einen einzigen Angriff verursacht wurde. Eine Verletzung ist
-beispielsweise eine blutende Wunde oder ein gebrochener Knochen oder gar
-schlimmeres.
+Als *Verletzung* bezeichnet man einen starken Verlust von Treffpunkten, der durch einen einzigen Angriff verursacht wurde.
+Eine Verletzung ist beispielsweise eine blutende Wunde oder ein gebrochener Knochen oder gar Schlimmeres.
 
-Zuerst muss die Trefferzone bestimmt werden, bei der die Verletzung zum
-Tragen kommt. Wurde der Angriff gegen eine spezielle Trefferzone
-geführt, so wird diese genommen. Ansonsten gilt die Standardtrefferzone
-für das getroffene Wesen. Im Falle eines Angriffs in den Rücken, gilt
-der Rücken als Trefferzone, sollte kein Gezielter Angriff auf ein
-anderes Körperteil durchgeführt worden sein. Der SL findet am Ende
-dieses Abschnittes Anregungen, wie er diese Voraussetzung in
-Situationen, in denen diese Vorbelegung nicht passend zu sein scheint,
-anders belegen kann.
+Zuerst muss die Trefferzone bestimmt werden, bei der die Verletzung zum Tragen kommt.
+Wurde der Angriff gegen eine spezielle Trefferzone geführt, so wird diese genommen.
+Ansonsten gilt die Standardtrefferzone für das getroffene Wesen.
+Im Falle eines Angriffs in den Rücken, gilt der Rücken als Trefferzone, sollte kein Gezielter Angriff auf ein anderes Körperteil durchgeführt worden sein.
+Der SL findet am Ende dieses Abschnittes Anregungen, wie er diese Voraussetzung in Situationen, in denen diese Vorbelegung nicht passend zu sein scheint, anders belegen kann.
 
-Die wichtigste Eigenschaft, die in diesem Kapitel zur Geltung kommt, ist
-der auf Konstitution basierende Widerstand (WID). Der Widerstand
-bestimmt, wie leicht (oder wie schwer) eine Kreatur zu verwunden ist. Je
-höher der Wert ist, umso schwerer ist es auch, der Kreatur Verletzungen
-zuzufügen.
+Die wichtigste Eigenschaft, die in diesem Kapitel zur Geltung kommt, ist der auf Konstitution basierende Widerstand (WID).
+Der Widerstand bestimmt, wie leicht (oder wie schwer) eine Kreatur zu verwunden ist.
+Je höher der Wert ist, umso schwerer ist es auch, der Kreatur Verletzungen zuzufügen.
 
-Übertrifft der durch einen einzelnen Angriff (oder einer anderen Quelle,
-die Schaden an einer Kreatur verursacht) angerichtete Schaden (also nach
-Abzug von Rüstungspunkten und Schadensresistenzen) den Wert in WID, so
-erleidet er eine Verletzung. Eine Verletzung kann in ihrer Schwere und
-Gefährlichkeit für den Betroffenen unterschiedlich stark sein. Auch hier
-gilt ein einfaches Prinzip, denn je höher der TP-Verlust ist, umso
-stärker ist Gefahr, die von der Verletzung ausgeht.
+Übertrifft der durch einen einzelnen Angriff (oder einer anderen Quelle, die Schaden an einer Kreatur verursacht) angerichtete Schaden (also nach Abzug von Rüstungspunkten und Schadensresistenzen) den Wert in WID, so erleidet er eine Verletzung.
+Eine Verletzung kann in ihrer Schwere und Gefährlichkeit für den Betroffenen unterschiedlich stark sein.
+Auch hier gilt ein einfaches Prinzip, denn je höher der TP-Verlust ist, umso stärker ist Gefahr, die von der Verletzung ausgeht.
 
-Die Verletzung kumuliert sich auf einer Trefferzone immer weiter, je
-öfter sie getroffen wird. Jedes Mal, wenn ein Angriff Schaden über dem
-WID des Ziels verursacht, so erhält die jeweilige Trefferzone eine
-Verletzung. Dies sollte sich der Spieler des Charakters immer notiert
-haben.
+Die Verletzung kumuliert sich auf einer Trefferzone immer weiter, je öfter sie getroffen wird.
+Jedes Mal, wenn ein Angriff Schaden über dem WID des Ziels verursacht, so erhält die jeweilige Trefferzone eine Verletzung.
+Dies sollte sich der Spieler des Charakters immer notiert haben.
 
-Eine Trefferzone ist abhängig von der Anzahl ihrer Verletzungen stärker
-beeinträchtigt. Man spricht dabei vom *Verletzungsgrad*. Dieser
-bestimmt, welche Auswirkungen ein Verletzung hat, sobald weiterer
-Schaden über dem WID hinzukommt. Denn je mehr Verletzungen eine Kreatur
-bereits hinnehmen musste, umso schwerer wird es für sie, weitere
-Verletzungen zu überstehen.
+Eine Trefferzone ist abhängig von der Anzahl ihrer Verletzungen stärker beeinträchtigt.
+Man spricht dabei vom *Verletzungsgrad*.
+Dieser bestimmt, welche Auswirkungen ein Verletzung hat, sobald weiterer Schaden über dem WID hinzukommt.
+Denn je mehr Verletzungen eine Kreatur bereits hinnehmen musste, umso schwerer wird es für sie, weitere Verletzungen zu überstehen.
 
-Der Bezeichnung her ist der Verletzungsgrad synonym für die Anzahl der
-Verletzungen auf einer Trefferzone.
+Der Bezeichnung her ist der Verletzungsgrad synonym für die Anzahl der Verletzungen auf einer Trefferzone.
 
 Der Verletzungsgrad wird wie folgt beschrieben:
 
@@ -1887,108 +1448,82 @@ Der Verletzungsgrad wird wie folgt beschrieben:
 |6 |Tödlich |-8
 |===
 
-Die Spalte Modifikatoren beschreibt einen generellen Malus auf die
-Würfelanzahl, die ein entsprechender Verletzungsgrad einem Charakter
-kumulativ auferlegt.
+Die Spalte Modifikatoren beschreibt einen generellen Malus auf die Würfelanzahl, die ein entsprechender Verletzungsgrad einem Charakter kumulativ auferlegt.
 
 .Verletzungen
 ====
-Ein Charakter mit einem WID von 12 erhält auf seine
-Standardtrefferzone Torso eine erste Verletzung durch 14 Schadenspunkte.
-Der Verletzungsgrad für den Torso des Charakters beträgt nun
-Oberflächlich. Dies bedeutet noch keine Mali auf die Würfe zum Erfolg.
-Erhält derselbe Charakter einen weiteren Treffer auf dieselbe
-Trefferzone, der insgesamt 12 oder mehr Schadenspunkte verursacht, so
-klettert der Verletzungsgrad auf Leicht und der Charakter hat ab dann
-einen verletzungsbedingten Malus von -1 auf die Würfelanzahl.
+Ein Charakter mit einem WID von 12 erhält auf seine Standardtrefferzone Torso eine erste Verletzung durch 14 Schadenspunkte.
+Der Verletzungsgrad für den Torso des Charakters beträgt nun Oberflächlich.
+Dies bedeutet noch keine Mali auf die Würfe zum Erfolg.
+Erhält derselbe Charakter einen weiteren Treffer auf dieselbe Trefferzone, der insgesamt 12 oder mehr Schadenspunkte verursacht, so klettert der Verletzungsgrad auf Leicht und der Charakter hat ab dann einen verletzungsbedingten Malus von -1 auf die Würfelanzahl.
 ====
 
 === Höhere Verletzungsgrade durch höheren Schaden
 
-Wenn ein Charakter deutlich höheren Schaden als seinen WID erhält, kann
-er direkt einen höheren Verletzungsgrad erhalten und entsprechend eine
-schwierigere Niederschlags-Probe ablegen müssen. Für jedes ganzzahlige
-Vielfache des WID erhält der Charakter einen Verletzungsgrad mehr, bis
-hin zu tödlich.
+Wenn ein Charakter deutlich höheren Schaden als seinen WID erhält, kann er direkt einen höheren Verletzungsgrad erhalten und entsprechend eine schwierigere Niederschlags-Probe ablegen müssen.
+Für jedes ganzzahlige Vielfache des WID erhält der Charakter einen Verletzungsgrad mehr, bis hin zu tödlich.
 
 .Höhere Verletzungsgrade
 ====
-Ein Charakter hat einen WID von 10 und hat bereits eine
-Oberflächliche Verletzung an einer Trefferzone. Nun erhält er durch
-einen Angriff weitere 22 Schadenspunkte auf diese Trefferzone, was
-seinem WID*2 entspricht und damit zwei weitere Verletzungsgrade. Der
-Charakter erhält damit eine Mittelschwere Verletzung.
+Ein Charakter hat einen WID von 10 und hat bereits eine Oberflächliche Verletzung an einer Trefferzone.
+Nun erhält er durch einen Angriff weitere 22 Schadenspunkte auf diese Trefferzone, was seinem WID*2 entspricht und damit zwei weitere Verletzungsgrade.
+Der Charakter erhält damit eine Mittelschwere Verletzung.
 ====
 
 === Optional: Blutende Wunden
 
-Am Anfang jeder Kampfphase nach Erhalt einer Verletzung vom
-Verletzungsgrad Mittelschwer oder höher verliert der Charakter pro
-Blutende Wunde 1W3 TP ohne Rüstungsschutz. Wird er den Regeln nach
-ohnmächtig, hört die Blutung nicht auf.
+Am Anfang jeder Kampfrunde nach Erhalt einer Verletzung vom Verletzungsgrad Mittelschwer oder höher verliert der Charakter pro Blutende Wunde 1W3 TP ohne Rüstungsschutz.
+Wird er den Regeln nach ohnmächtig, hört die Blutung nicht auf.
 
 === Optional: Besonders starke Verletzungen
 
-Die Verletzungsgrade ab Mittelschwer können weitere negative Folgen
-haben, sofern der SL dies wünscht. Die folgende Tabelle gibt Auskunft
-über mögliche weitere Folgen.
+Die Verletzungsgrade ab Mittelschwer können weitere negative Folgen haben, sofern der SL dies wünscht.
+Die folgende Tabelle gibt Auskunft über mögliche weitere Folgen.
 
 [cols=",",options="header"]
 |===
 |Verletzungsgrad |Zusätzliche Folgen
 
-|Mittelschwer |Der Charakter ist 1 Kampfphase lang benommen.
+|Mittelschwer |Der Charakter ist 1 Kampfrunde lang benommen.
 
-|Schwer |Der Charakter ist 1W6 Kampfphasen lang benommen.
+|Schwer |Der Charakter ist 1W6 Kampfrunden lang benommen.
 
 |Gefährlich |Der Charakter wird sofort ohnmächtig (TP sind 0).
 
-|Tödlich |Der Charakter stirbt sofort (TP sind bei -10) oder verliert
-ein Körperteil (bei Trefferzone Arme oder Beine).
+|Tödlich |Der Charakter stirbt sofort (TP sind bei -10) oder verliert ein Körperteil (bei Trefferzone Arme oder Beine).
 |===
 
 === Variationen bei Trefferzonen
 
-Trefferzonen können jedoch auch variieren. Manche Wesen besitzen andere
-bzw. zusätzliche Trefferzonen:
+Trefferzonen können jedoch auch variieren.
+Manche Wesen besitzen andere bzw. zusätzliche Trefferzonen:
 
-* Der Unterleib eines Centauren ist sein Pferdekörper. Treffer auf
-diesen werden mit der Tabelle für Verletzungen am Torso gewürfelt. Der
-Einfachheit halber gilt der Pferdekörper und der Menschliche Torso als
-eine Trefferzone.
-* Völker mit Flügeln haben zusätzliche Trefferzonen, nämliche ihre
-Flügel. Diese können nur attackiert werden, wenn der Gegner dem
-Charakter in den Rücken fällt. Wird ein Flügel getroffen, dann bestimmt
-man Verletzungen über die Verletzungstabelle der Arme.
-* Nicht-Humanoide haben auch Trefferzonen. Diese unzähligen Variationen
-aufzuzählen wäre sehr müßig, aber der SL kann sich durch die unteren
-Beispiele inspirieren lassen:
+* Der Unterleib eines Centauren ist sein Pferdekörper.
+Treffer auf diesen werden mit der Tabelle für Verletzungen am Torso gewürfelt.
+Der Einfachheit halber gilt der Pferdekörper und der Menschliche Torso als eine Trefferzone.
+* Völker mit Flügeln haben zusätzliche Trefferzonen, nämliche ihre Flügel.
+Diese können nur attackiert werden, wenn der Gegner dem Charakter in den Rücken fällt.
+Wird ein Flügel getroffen, dann bestimmt man Verletzungen über die Verletzungstabelle der Arme.
+* Nicht-Humanoide haben auch Trefferzonen.
+Diese unzähligen Variationen aufzuzählen wäre sehr müßig, aber der SL kann sich durch die unteren Beispiele inspirieren lassen:
 ** Pferd: Kopf, Torso, Beine
 ** Schnecke: Kopf, Torso
 ** Qualle: Kopf, Arme (sehr viele davon sogar)
 ** Schleim: keine
 
-Es ist durchaus möglich, dass manche Kreaturen, z.B. die oben genannte
-Qualle durch den Verlust eines Armes nicht sofort sterben, obwohl dies
-eine tödliche Wunde nach optionalen Regeln wäre. Dabei ist zu bedenken,
-dass die Tabellen für humanoide Kreaturen aufgestellt wurden, deren
-durchschnittliche Anzahl an Gliedmaßen denen der Menschen nahe kommt.
+Es ist durchaus möglich, dass manche Kreaturen, z.B. die oben genannte Qualle durch den Verlust eines Armes nicht sofort sterben, obwohl dies eine tödliche Wunde nach optionalen Regeln wäre.
+Dabei ist zu bedenken, dass die Tabellen für humanoide Kreaturen aufgestellt wurden, deren durchschnittliche Anzahl an Gliedmaßen denen der Menschen nahe kommt.
 
-Daher ist es legitim, manche Effekte der Verletzungen zu ignorieren: die
-Qualle würde vielleicht den Arm verlieren, aber ihre TP würde nicht
-sofort auf -10 reduziert.
+Daher ist es legitim, manche Effekte der Verletzungen zu ignorieren: die Qualle würde vielleicht den Arm verlieren, aber ihre TP würde nicht sofort auf -10 reduziert.
 
 === Optional: Vereinfachung von Trefferzonen
 
-Die Aufteilung in Trefferzonen für Charaktere und für diverse
-Gegenspieler kann viel Extra-Management beinhalten. Diese optionale
-Regel ermöglicht daher eine einfachere Behandlung der Berechnung von
-Rüstungsschutz und Verletzungen.
+Die Aufteilung in Trefferzonen für Charaktere und für diverse Gegenspieler kann viel Extra-Management beinhalten.
+Diese optionale Regel ermöglicht daher eine einfachere Behandlung der Berechnung von Rüstungsschutz und Verletzungen.
 
 Folgende Änderungen gelten bei Anwendung dieser Regel:
 
-* Alle Verletzungsregeln werden normal angewendet, jedoch kumulieren sich Verletzungsgrade auf dem Charakter, also gäbe es nur eine
-Trefferzone
+* Alle Verletzungsregeln werden normal angewendet, jedoch kumulieren sich Verletzungsgrade auf demCharakter, also gäbe es nur eine Trefferzone
 * Unterschiedliche Rüstungswerte für Trefferzonen werden nicht betrachtet.
 * Rüstungen, die den Torso bedecken, bleiben unverändert
 * Arm- und Beinschienen haben keine Effekt und werden als Teil der Torso-Rüstung betrachtet
@@ -2005,16 +1540,11 @@ Damit beträgt sein Rüstungsschutz 12 und sein INI-Malus -2.
 
 == Niederschlag
 
-Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer
-Verletzung einen *Niederschlag* erleiden kann. Dies bedeutet, dass der
-Charakter durch den körperlichen Schock, der durch eine Verletzung
-ausgelöst wird, zu Boden geht, weil ihm "Schwarz vor Augen" wird oder
-weil er durch die Wucht des Angriffes niedergeschmettert wird.
+Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer Verletzung einen *Niederschlag* erleiden kann.
+Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht, weil ihm "Schwarz vor Augen" wird oder weil er durch die Wucht des Angriffes niedergeschmettert wird.
 
-Immer wenn der Charakter eine Verletzung mit Verletzungsgrad
-Oberflächlich oder höher erhält, besteht die Gefahr, dass er
-niedergeschlagen wird. Um dies zu prüfen, muss der Charakter eine
-Niederschlags-Probe ablegen.
+Immer wenn der Charakter eine Verletzung mit Verletzungsgrad Oberflächlich oder höher erhält, besteht die Gefahr, dass er niedergeschlagen wird.
+Um dies zu prüfen, muss der Charakter eine Niederschlags-Probe ablegen.
 
 Die Anzahl der nötigen Erfolge wie folgt kalkuliert:
 
@@ -2036,45 +1566,34 @@ Niederschlags-Probe bestimmt.
 
 .Niederschlag
 ====
-In einem Kampf wird Elias, ein menschlicher Kämpfer, von einem
-Gegner angegriffen, der bei seinem Angriff 26 Schadenspunkte erreicht.
-Sein Angriff war gezielt auf den Kopf von Elias, der jedoch einen
-Eisenhelm auf hatte, der ihm 3 Punkte Rüstungsschutz lieferte. Somit
-verursacht der Treffer 23 Schadenspunkte. Mit einem Widerstand von 12
-ist der Charakter schon sehr zäh, aber 23 Schadenspunkte sind dennoch zu
-viel.
+In einem Kampf wird Elias, ein menschlicher Kämpfer, von einem Gegner angegriffen, der bei seinem Angriff 26 Schadenspunkte erreicht.
+Sein Angriff war gezielt auf den Kopf von Elias, der jedoch einen Eisenhelm auf hatte, der ihm 3 Punkte Rüstungsschutz lieferte.
+Somit verursacht der Treffer 23 Schadenspunkte.
+Mit einem Widerstand von 12 ist der Charakter schon sehr zäh, aber 23 Schadenspunkte sind dennoch zu viel.
 
-Der Verletzungsgrad ist nur Oberflächlich, womit Elias eine
-Niederschlags-Probe gegen zwei Erfolge bestehen muss.
+Der Verletzungsgrad ist nur Oberflächlich, womit Elias eine Niederschlags-Probe gegen zwei Erfolge bestehen muss.
 
-Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad Leicht und
-die Niederschlags-Probe hätte gegen 3 Erfolge gewürfelt werden müssen.
+Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad Leicht und die Niederschlags-Probe hätte gegen 3 Erfolge gewürfelt werden müssen.
 ====
 
-Misslingt die Niederschlagsprobe, dass gilt der Charakter als
-niedergeschlagen und ist *kampfunfähig*.
+Misslingt die Niederschlagsprobe, dass gilt der Charakter als niedergeschlagen und ist *kampfunfähig*.
 
 Er kann jedoch wieder aufstehen, aber erst, wenn er an der Reihe ist.
-Hat er in der Kampfphase, in der er niedergeschlagen wurde, noch eine
-Aktion frei, dann kann er diese nutzen, um aufzustehen. Hat er keine
-mehr übrig, dann muss er bis zur nächsten Runde warten. Beachte, dass
-kampfunfähige Charaktere immer am Ende der Initiative-Reihenfolge
-stehen. Auch dann ist das Aufstehen eine Aktion.
+Hat er in der Kampfrunde, in der er niedergeschlagen wurde, noch eine Aktion frei, dann kann er diese nutzen, um aufzustehen.
+Hat er keine mehr übrig, dann muss er bis zur nächsten Runde warten.
+Beachte, dass kampfunfähige Charaktere immer am Ende der Initiative-Reihenfolge stehen.
+Auch dann ist das Aufstehen eine Aktion.
 
-In beiden Fällen ist ein Charakter, der aufgestanden ist, nicht mehr
-kampfunfähig, kann sich also verteidigen.
+In beiden Fällen ist ein Charakter, der aufgestanden ist, nicht mehr kampfunfähig, kann sich also verteidigen.
 
 == Regeneration und Heilung
 
 === Regeneration
 
-Verlorene TP und MP können regeneriert werden. Dies geschieht für
-gewöhnlich nur, wenn der Charakter sich ausruht, bzw. schläft. Schläft
-der Charakter für mindestens 8 Stunden ungestört, bzw., ruht sich für
-diesen Zeitraum aus, dann erhält er einen von seiner Attribute-Stufe
-abhängigen Wert und addiert die Zahl zu seinen aktuellen TP bzw. MP.
-Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm TP
-und MP zustehen.
+Verlorene TP und MP können regeneriert werden.
+Dies geschieht für gewöhnlich nur, wenn der Charakter sich ausruht, bzw. schläft.
+Schläft der Charakter für mindestens 8 Stunden ungestört, bzw., ruht sich für diesen Zeitraum aus, dann erhält er einen von seiner Attribute-Stufe abhängigen Wert und addiert die Zahl zu seinen aktuellen TP bzw. MP.
+Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm TP und MP zustehen.
 
 Folgende Tabelle gibt Aufschluss über die Regeneration:
 
@@ -2088,16 +1607,14 @@ Folgende Tabelle gibt Aufschluss über die Regeneration:
 
 === Regeneration bei Ohnmacht
 
-Erreicht ein Charakter 0 oder weniger TP, dann regeneriert er einmalig
-KO*2 TP innerhalb von 6 Kampfphasen. Erreicht er dadurch keinen TP über
-0, so bleibt er ohnmächtig.
+Erreicht ein Charakter 0 oder weniger TP, dann regeneriert er einmalig KO*2 TP innerhalb von 6 Kampfphasen.
+Erreicht er dadurch keinen TP über 0, so bleibt er ohnmächtig.
 
 === Heilung von Verletzungen
 
-Die Heilung von Verletzungen ist vom Verletzungsgrad abhängig. Je
-stärker eine Trefferzone verletzt ist, umso länger dauert die Heilung.
-Die folgende Tabelle gibt Auskunft über die nötigen Voraussetzungen,
-wann eine Verletzung heilen kann:
+Die Heilung von Verletzungen ist vom Verletzungsgrad abhängig.
+Je stärker eine Trefferzone verletzt ist, umso länger dauert die Heilung.
+Die folgende Tabelle gibt Auskunft über die nötigen Voraussetzungen, wann eine Verletzung heilen kann:
 
 [cols=",,,",options="header"]
 |===
@@ -2120,81 +1637,57 @@ Handwerk[Arzt] benötigt
 |Tödlich |84 Tage |Ja |12
 |===
 
-Die Verletzungsgrade Oberflächlich und Leicht können ohne den Eingriff
-eines ausgebildeten Arztes geheilt werden und zwar nach Ablauf der
-gegeben Zeit, also 1 bzw. 3 Tage. Dennoch kann ein Arzt diese
-Verletzungen behandeln, in dem er einen Erfolg in einer
-Handwerk[Arzt]-Probe erreicht. Dadurch halbiert sich die Heilungsdauer.
+Die Verletzungsgrade Oberflächlich und Leicht können ohne den Eingriff eines ausgebildeten Arztes geheilt werden und zwar nach Ablauf der gegeben Zeit, also 1 bzw. 3 Tage.
+Dennoch kann ein Arzt diese Verletzungen behandeln, in dem er einen Erfolg in einer Handwerk[Arzt]-Probe erreicht.
+Dadurch halbiert sich die Heilungsdauer.
 
-Die höheren Verletzungsgrade benötigen die Behandlung eines Arztes, um
-in der angegeben Zeit zu heilen. Ist kein Arzt zur Stelle, dauert die
-Heilung doppelt so lange. Manche Wunden heilen nicht oder bringen
-weitere Nachteile, wenn kein Arzt sie versorgt.
+Die höheren Verletzungsgrade benötigen die Behandlung eines Arztes, um in der angegeben Zeit zu heilen.
+Ist kein Arzt zur Stelle, dauert die Heilung doppelt so lange.
+Manche Wunden heilen nicht oder bringen weitere Nachteile, wenn kein Arzt sie versorgt.
 
-Scheitert eine Probe, so kann ein Charakter erst nach 24 Stunden noch
-einmal versuchen, die Verletzung zu heilen.
+Scheitert eine Probe, so kann ein Charakter erst nach 24 Stunden noch einmal versuchen, die Verletzung zu heilen.
 
 === Heilung von Blutenden Wunden
 
-Wird die optionale Regel von Blutenden Wunden benutzt, so können diese
-wie folgt geheilt werden. Ein Heiler kann eine Blutende Wunde stoppen,
-in dem er für jede Blutende Wunde, die der Charakter erlitten hat, 2
-Erfolge in Handwerk[Arzt] erreicht. Um dies zu tun, muss er die Wunde
-mit einem Pressumschlag versehen können. Er muss jede Blutende Wunde in
-einer einzelnen Handwerk[Arzt]-Probe behandeln.
+Wird die optionale Regel von Blutenden Wunden benutzt, so können diese wie folgt geheilt werden.
+Ein Heiler kann eine Blutende Wunde stoppen, in dem er für jede Blutende Wunde, die der Charakter erlitten hat, 2 Erfolge in Handwerk[Arzt] erreicht.
+Um dies zu tun, muss er die Wunde mit einem Pressumschlag versehen können.
+Er muss jede Blutende Wunde in einer einzelnen Handwerk[Arzt]-Probe behandeln.
 
 === Verunreinigungen der Wunden
 
-Nicht immer können Verletzungen sauber verpflegt werden. Der SL kann für
-solche „Feldarbeiten“ die zur Verfügung stehenden Würfel für die
-Handwerk[Arzt]-Probe um 1-3 Erfolge reduzieren, wenn nicht ausreichende
-Ausrüstung, Hygiene oder auch Ruhe vorhanden ist.
+Nicht immer können Verletzungen sauber verpflegt werden.
+Der SL kann für solche „Feldarbeiten“ die zur Verfügung stehenden Würfel für die Handwerk[Arzt]-Probe um 1-3 Erfolge reduzieren, wenn nicht ausreichende Ausrüstung, Hygiene oder auch Ruhe vorhanden ist.
 
 === Magische Heilung
 
 Im Allgemeinen bietet die Welt von Far Ages auch *magische Heilung* an.
-Dies sind meistens Zaubersprüche, die zielgerichtet entweder bestimmte
-Verletzungsgrade heilen oder eine bestimmte Anzahl von TP regenerieren.
+Dies sind meistens Zaubersprüche, die zielgerichtet entweder bestimmte Verletzungsgrade heilen oder eine bestimmte Anzahl von TP regenerieren.
 Solche Zauber sind mächtig und sind nicht allen Magiern zugänglich.
-Unter magische Heilung fällt auch die Verwendung von Heiltränken oder
-ähnlichen alchemistischen Erzeugnissen.
+Unter magische Heilung fällt auch die Verwendung von Heiltränken oder ähnlichen alchemistischen Erzeugnissen.
 
 === Verlorene Gliedmaßen
 
-*Verlorene Gliedmaßen* müssen nicht zwangsläufig das Ende eines
-Charakter bedeutet. Zwar ist ein Krieger ohne Schwertarm wohl kaum mehr
-nützlich, aber es gibt Mittel und Wege, dies auszugleichen. Der Spieler
-sollte immer zuerst die Rollenspieltechnische Herausforderung annehmen,
-denn ein auch solche Ereignisse gehören zu dem Gefahrenpotenzial des
-Abenteurer Lebens.
+*Verlorene Gliedmaßen* müssen nicht zwangsläufig das Ende eines Charakter bedeutet.
+Zwar ist ein Krieger ohne Schwertarm wohl kaum mehr nützlich, aber es gibt Mittel und Wege, dies auszugleichen.
+Der Spieler sollte immer zuerst die Rollenspieltechnische Herausforderung annehmen, denn ein auch solche Ereignisse gehören zu dem Gefahrenpotenzial des Abenteurer Lebens.
 
-Um regeltechnisch solche Verluste darzustellen, gibt es einige
-Richtlinien, an denen sich der SL bedienen kann und es steht ihm frei,
-diese zu erweitern:
+Um regeltechnisch solche Verluste darzustellen, gibt es einige Richtlinien, an denen sich der SL bedienen kann und es steht ihm frei, diese zu erweitern:
 
-* *ein verlorener Arm* bedeutet, dass der Charakter keine Waffen mehr
-benutzen kann, die zwei Hände zur Benutzung brauchen, z.B. Bögen,
-Armbrüste, Zweihänder. Ebenso kann er nicht mehr zwei Waffen
-gleichzeitig oder eine Waffe und ein Schild gleichzeitig nutzen. Auf
-Geschick und Stärke basierende Proben, die zwei Arme und Hände
-erfordern, erfordern einen Sehr Guten Erfolg, um zu gelingen.
-* *ein verlorenes Bein* wirkt sich deutlich schlimmer aus. Der Charakter
-wird eine Krücke oder Prothese (s.u.) benötigen. Im Fall einer Krücke
-fällt der benutzte Arm ebenfalls zur Benutzung weg. Generell kann sich
-der Charakter nur noch mit halbierten Bewegungsraten fortbewegen.
-Niederschlags-Proben erfordern immer mindestens einen Guten Erfolg, auch
-wenn der erlittene Schaden weniger Erfolge erfordert.
+* *ein verlorener Arm* bedeutet, dass der Charakter keine Waffen mehr benutzen kann, die zwei Hände zur Benutzung brauchen, z.B. Bögen, Armbrüste, Zweihänder.
+Ebenso kann er nicht mehr zwei Waffen gleichzeitig oder eine Waffe und ein Schild gleichzeitig nutzen.
+Auf Geschick und Stärke basierende Proben, die zwei Arme und Hände erfordern, erfordern einen Sehr Guten Erfolg, um zu gelingen.
+* *ein verlorenes Bein* wirkt sich deutlich schlimmer aus.
+Der Charakter wird eine Krücke oder Prothese (s.u.) benötigen.
+Im Fall einer Krücke fällt der benutzte Arm ebenfalls zur Benutzung weg.
+Generell kann sich der Charakter nur noch mit halbierten Bewegungsraten fortbewegen.
+Niederschlags-Proben erfordern immer mindestens einen Guten Erfolg, auch wenn der erlittene Schaden weniger Erfolge erfordert.
 
-*Prothesen* sind Ersatzgliedmaßen von geringer bis fantastischer
-Qualität. Ein Beispiel für eine geringe Qualität ist das altbekannte
-Holzbein, wobei man dabei immerhin eine Hand wieder frei hat. Ebenso als
-Pendant zum Arm gibt es improvisierte Greifwerkzeuge wie Haken. Manche
-Krieger benutzen auch spezielle Waffen, die sie sich auf ihre Prothese
-schrauben oder anbinden.
+*Prothesen* sind Ersatzgliedmaßen von geringer bis fantastischer Qualität.
+Ein Beispiel für eine geringe Qualität ist das altbekannte Holzbein, wobei man dabei immerhin eine Hand wieder frei hat.
+Ebenso als Pendant zum Arm gibt es improvisierte Greifwerkzeuge wie Haken.
+Manche Krieger benutzen auch spezielle Waffen, die sie sich auf ihre Prothese schrauben oder anbinden.
 
-Von wortwörtlich fantastischer Qualität sind Prothesen technomantischen
-Ursprungs. Diese Geräte werden mit der körpereigenen Magie angetrieben
-und verhalten sich wie das alte Glied. Zumindest im Idealfall, man kann
-sich vorstellen, dass ein solches kompliziertes und auch noch teilweise
-magisches Konstrukt Fehler anfällig ist oder durch starke, magische
-Felder und Entladungen beeinträchtigt werden kann.
+Von wortwörtlich fantastischer Qualität sind Prothesen technomantischen Ursprungs.
+Diese Geräte werden mit der körpereigenen Magie angetrieben und verhalten sich wie das alte Glied.
+Zumindest im Idealfall, man kann sich vorstellen, dass ein solches kompliziertes und auch noch teilweise magisches Konstrukt Fehler anfällig ist oder durch starke, magische Felder und Entladungen beeinträchtigt werden kann.

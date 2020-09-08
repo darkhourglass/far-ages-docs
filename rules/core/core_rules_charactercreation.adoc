@@ -224,8 +224,7 @@ hohem Geschick sind Artisten, agile Fechter und gute Diebe. Ein Krieger
 benötigt Geschick, um seine Gegner mit seiner Waffe zu treffen und
 umgekehrt den Attacken derselbigen auszuweichen.
 
-Von Geschick sind die Attributseigenschaften *Bewegung* und *Initiative*
-abgeleitet.
+Von Geschick sind die Attributseigenschaften *Bewegung* und *Initiativebonus* abgeleitet.
 
 *Stärke(ST):* Die körperliche Kraft eines Charakters misst sich in
 diesem Attribut. Ein Charakter mit hohen Werten kann schwere Lasten
@@ -253,7 +252,7 @@ getrennter Eigenschaften basiert auf der Annahme, dass man nicht nur
 Beobachtung und Erfahrung benötigt, sondern auch die entsprechende
 Interpretation des Gesehenen.
 
-Von diesem Attribut ist *Initiative* abhängig.
+Von diesem Attribut ist *Initiativebonus* abhängig.
 
 *Energie(EN):* Die Kraft der Seele, die innere Macht und Magie eines
 Charakters ist in diesem Attribut enthalten. Auch wenn Magier dieses
@@ -306,20 +305,18 @@ Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der
 Basis-Bewegung (siehe Größentabelle) und dem BEW-Bonus. Beides wird in
 Metern gemessen und daher einfach addiert.
 
-*Initiativewert(INI-Wert)(Geschick+Erkenntnis):* Die Initiative
-bestimmt die Kampfreihenfolge innerhalb einer Kampfphase.
+*Initiativebonus (INI) (Geschick+Erkenntnis):* Die Initiative bestimmt die Kampfreihenfolge innerhalb einer Kampfphase.
 
-Der Initiative-Wert wird wie folgt berechnet: Man addiert die
-Attributsstufen, die man in Geschick und Erkenntnis hat.
+Der Initiative-Wert wird wie folgt berechnet: Man addiert die Attributsstufen, die man in Geschick und Erkenntnis hat.
 
-Das Ergebnis ist dann der *Initiativewert*.
+Das Ergebnis ist dann der *Initiativebonus*.
 
-Wie dieser Initiativewert genutzt wird, siehe das Dokument link:core_rules_battlesystem.adoc[Kampf].
+Wie dieser Initiativebonus genutzt wird, siehe das Dokument link:core_rules_battlesystem.adoc[Kampf].
 
-.Initiativewert
+.Initiativebonus
 ====
-Michaels Charakter hat Geschick 2 und Erkenntnis 1. Zusammen
-ergibt dies 3 und somit ist 3 sein Initiativewert.
+Michaels Charakter hat Geschick 2 und Erkenntnis 1.
+Zusammen ergibt dies 3 und somit ist 3 sein Initiativebonus.
 ====
 
 *Maximale Traglast(MaxTL)(Stärke):* Dieser Wert gibt an, wie viel

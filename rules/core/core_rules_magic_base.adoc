@@ -3,11 +3,9 @@
 == Was ist Magie?
 
 [quote, Byhragast „Eisauge“, Oberster Lehrmeister der Elementaristenschule in Tohobor zu den Anfängerschülern des Jahrgangs 3153]
-Was ist Magie? Ha! Würde ich einen von euch fragen, so bekäme ich
-Antworten über fliegende Schiffe, gewoben aus blauen Wolken, Feuerbälle,
-Dämonen und viele andere Dinge, die viel Lärm und Ärger machen. Ich sage
-euch, diese Welt ist von Magie durchzogen, so sehr, dass eure
-ungeschulten Augen sie in all ihrer Pracht und Einfachheit übersehen.
+Was ist Magie? Ha!
+Würde ich einen von euch fragen, so bekäme ich Antworten über fliegende Schiffe, gewoben aus blauen Wolken, Feuerbälle, Dämonen und viele andere Dinge, die viel Lärm und Ärger machen.
+Ich sage euch, diese Welt ist von Magie durchzogen, so sehr, dass eure ungeschulten Augen sie in all ihrer Pracht und Einfachheit übersehen.
 
 Magie ist die ureigene Kraft des Kosmos, die alles und jeden
 durchdringt. Die Magie muss nicht immer sichtbar sein, so wie wir uns
@@ -677,16 +675,13 @@ gleichen. Kreaturen, die nicht mehr auf der Seite des Lebens stehen.
 == Regeln
 
 [quote, Byhragast „Eisauge“]
-Regeln? Ohja, davon gibt es viele. Meistens erscheinen sie uns unnötig
-und überflüssig, jedoch merkt auf, denn Regeln sind oft daraus
-entstanden, weil andere gebrochen wurden.
+Regeln? Ohja, davon gibt es viele.
+Meistens erscheinen sie uns unnötig und überflüssig, jedoch merkt auf, denn Regeln sind oft daraus entstanden, weil andere gebrochen wurden.
 
 === Allgemeiner Einsatz von Zaubersprüchen und Magische Talenten
 
-Wir wollen die Funktionsweise eines Zauberspruches und damit die
-allgemeine Vorgehensweise beim Zaubern erläutern. Dazu betrachten wir
-nun drei beispielhafte Zaubersprüche, an denen wir dann die einzelnen
-Begriffe erläutern.
+Wir wollen die Funktionsweise eines Zauberspruches und damit die allgemeine Vorgehensweise beim Zaubern erläutern.
+Dazu betrachten wir nun drei beispielhafte Zaubersprüche, an denen wir dann die einzelnen Begriffe erläutern.
 
 *Name:* Verwirren +
 *POT:* 5 +
@@ -697,13 +692,12 @@ Begriffe erläutern.
 *Reichweite:* 9 Meter +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* 1W8 +
-*Effekt:* Der Chaosmagier flüstert kryptische Worte vor sich her und
-während der Beschwörung erscheinen tanzende bunte Lichter um ihn herum.
-Am Ende der Beschwörung rasen diese Lichter in das Opfer hinein. Das
-Opfer wird verwirrt und greift die nächststehende Person rücksichtslos
-an. Es verliert bis dato eventuelle Vorbereitungen. Das Ziel des Zaubers
-muss eine lebende und denkende Kreatur sein. Untote und Konstrukte sind
-immun gegen dieses Zauber. +
+*Effekt:* Der Magier flüstert kryptische Worte und während der Beschwörung erscheinen tanzende bunte Lichter um ihn herum.
+Am Ende der Beschwörung rasen diese Lichter in das Opfer hinein.
+Das Opfer wird verwirrt und greift die nächststehende Person rücksichtslos an.
+Es verliert bis dato eventuelle Vorbereitungen.
+Das Ziel des Zaubers muss eine lebende und denkende Kreatur sein.
+Untote und Konstrukte sind immun gegen dieses Zauber. +
 *Zusätzliche Effekte:* +
 +10 MP: Das Opfer greift einen nahestehenden Verbündeten an +
 +15 MP, +1 POT: Das Opfer greift ein Ziel an, dass der Magier bestimmt +
@@ -743,7 +737,7 @@ Der Zauber verursacht 2W6 Feuerschaden. +
 *Effekt:* Während der Beschwörung murmelt der Magier alte und schwere Worte und seine von seinen Händen ausgehend nimmt seine (oder die des Ziels) Haut eine matte, metallene Farbe an.
 Für die Dauer des Zauberspruches erhöht sich der Rüstungsschutz auf allen Trefferzonen um +7 Punkte. +
 *Zusätzliche Effekte:* +
-+3MP: Dauer: +1 Kampfphase +
++3MP: Dauer: +1 Kampfrunde +
 +5MP, +1POT: Erhöht den RS-Bonus um +1 +
 
 ==== Erläuterung der Einträge
@@ -755,280 +749,213 @@ Jeder Zauberspruch hat einen Namen.
 Die Magiepotenz(POT) ist eine Angabe über die Macht des Zauberspruches.
 
 *Fokus:*
-Jeder Zauberspruch hat mindestens einen Zauberfokus und kann beliebig
-viele haben. Viele Besondere Fähigkeiten für Magier basieren auf
-Zauberfoki und der Verbesserung der Spruchzauberei.
+Jeder Zauberspruch hat mindestens einen Zauberfokus und kann beliebig viele haben.
+Viele Besondere Fähigkeiten für Magier basieren auf Zauberfoki und der Verbesserung der Spruchzauberei.
 
 *Vorbereitung:*
-Diese Zahl ist die Anzahl der Kampfphasen, die der Charakter zur
-Vorbereitung des Zauberspruches braucht. Die Vorbereitung beginnt mit
-der ersten Kampfphase und endet in der Letzten dieser Kampfphasen
-inklusive der Spruchzauberei-Probe.
+Diese Zahl ist die Anzahl der Kampfrunden, die der Charakter zur Vorbereitung des Zauberspruches braucht.
+Die Vorbereitung beginnt mit der ersten Kampfrunde und endet in der Letzten dieser Kampfrunde inklusive der Spruchzauberei-Probe.
 
-Es ist möglich die Kampfphasenanzahl für die Vorbereitung zu verkürzen.
-Dies kostet zusätzliche MP. Nur wenn die Kampfphasenanzahl zusätzlich
-das Kürzel \(R) enthält, welches für Ritual steht, so ist die Verkürzung
-nicht möglich.
+Es ist möglich die Anzahl für die Vorbereitung zu verkürzen.
+Dies kostet zusätzliche MP.
+Nur wenn die Vorbereitung das Kürzel \(R) enthält, welches für Ritual steht, so ist die Verkürzung nicht möglich.
 
 *Anzahl der Erfolge*:
-Dies ist die benötigte Anzahl an Erfolgen, die der Charakter mit seinem
-Talent Spruchzauberei benötigt, um den Zauber korrekt zu wirken,
+Dies ist die benötigte Anzahl an Erfolgen, die der Charakter mit seinem Talent Spruchzauberei benötigt, um den Zauber korrekt zu wirken.
 
 *Reichweite*:
-Diese beiden Angaben definieren das Aktionsfeld des Zauberspruches. Die
-Reichweite ist normalerweise in Metern angegeben. Wie bei Bewegungsraten
-kann man Reichweiten in Kacheln umrechnen.
+Diese beiden Angaben definieren das Aktionsfeld des Zauberspruches.
+Die Reichweite ist normalerweise in Metern angegeben.
+Wie bei Bewegungsraten kann man Reichweiten in Kacheln umrechnen.
 
-Die Reichweite definiert, wie weit das Ziel (eins oder mehrere) maximal
-vom Zauberenden entfernt sein darf, um vom Zauberspruch betroffen zu
-sein.
+Die Reichweite definiert, wie weit das Ziel (eins oder mehrere) maximal vom Zauberenden entfernt sein darf, um vom Zauberspruch betroffen zu sein.
 
 Die Einträge *Berührung* und *Selbst* stehen für spezielle Reichweiten.
-Berührung heißt, dass der Zauberer das Ziel mit seiner Hand berühren
-muss (der Zauber und das Ziel stehen nebeneinander bzw. an angrenzenden
-Kachel.) und Selbst ist die „Reichweite“, wenn der Zauberspruch auf den
-Zauberer selbst angewendet wird. Die Einträge Selbst und Berührung
-implizieren immer ein Ziel.
+Berührung heißt, dass der Zauberer das Ziel mit seiner Hand berühren muss (der Zauber und das Ziel stehen nebeneinander bzw. an angrenzenden Kachel) und Selbst ist die „Reichweite“, wenn der Zauberspruch auf den Zauberer selbst angewendet wird.
+Die Einträge Selbst und Berührung implizieren immer ein Ziel.
 
 Zaubersprüche, die eine *Reichweitenangabe* und als *Anzahl der Ziele* 1 besitzen können von dem Zauberer auch mit der Reichweite Selbst oder Berührung gezaubert werden, wenn er dies wünscht.
 
 *Anzahl der Ziele:*
-Die Anzahl der Ziele ist im allgemeinen eine Zahl. Innerhalb der
-Reichweite des Zauberspruches kann der Magier daher entsprechend viele
-Ziele durch eine Zauberwirkung anvisieren.
+Die Anzahl der Ziele ist im allgemeinen eine Zahl.
+Innerhalb der Reichweite des Zauberspruches kann der Magier daher entsprechend viele Ziele durch eine Zauberwirkung anvisieren.
 
-Manche Zauber, wie der obige Feuerball, treffen jedoch ein Gebiet. Es
-werden folgende Flächenangeben unterschieden:
+Manche Zauber, wie der obige Feuerball, treffen jedoch ein Gebiet.
+Es werden folgende Flächenangeben unterschieden:
 
-Der *Radius* mit einer Größenangabe in Metern wird von einem
-Mittelpunkt, der innerhalb der Reichweite des Zauberspruches liegt,
-gemessen.
+Der *Radius* mit einer Größenangabe in Metern wird von einem Mittelpunkt, der innerhalb der Reichweite des Zauberspruches liegt, gemessen.
 
-Der **Kegel **beginnt i.A. in Front des Magiers. Pro 1,50 Meter erhöht
-sich der Kegel in gerader Linie von seinem Ursprung um jeweils eine
-Reihe von Feldern.
+Der *Kegel* beginnt i.A. in Front des Magiers.
+Pro 1,50 Meter erhöht sich der Kegel in gerader Linie von seinem Ursprung um jeweils eine Reihe von Feldern.
 
-Die *Linie* beginnt i.A. in Front des Magiers und belegt alle 1,50x,1,50
-Kacheln bis zum Ende der Angabe in Metern.
+Die *Linie* beginnt i.A. in Front des Magiers und belegt alle 1,50x,1,50 Kacheln bis zum Ende der Angabe in Metern.
 
-Alle legalen Ziele innerhalb dieser Flächen werden von dem Effekt des
-Zauberspruches getroffen.
+Alle legalen Ziele innerhalb dieser Flächen werden von dem Effekt des Zauberspruches getroffen.
 
 *Dauer*:
-Dies ist Anzahl in Kampfphasen, die der Effekt des Zaubers wirkt. Mit
-der Spruchzauberei-Probe beginnt die erste Kampfphase. Ist die Zeit
-abgelaufen endet der Zauber. Zauber, die als Eintrag „Sofort“ in dieser
-Spalte stehen haben, wirken direkt nach der Spruchzauberei-Probe und
-sind dann vorbei.
+Dies ist Anzahl in Kampfrunden, die der Effekt des Zaubers wirkt.
+Mit der Spruchzauberei-Probe beginnt die erste Kampfrunde.
+Ist die Zeit abgelaufen endet der Zauber.
+Zauber, die als Eintrag „Sofort“ in dieser Spalte stehen haben, wirken direkt nach der Spruchzauberei-Probe und sind dann vorbei.
 
 *Magieabwehr*:
-Dieses Feld gibt an, ob der Zauberspruch mit einer Magieabwehr-Probe
-erlaubt ist. Die Einträge sind „Ja“ für eine Möglichkeit zur Magieabwehr
-oder „Nein“. Üblicherweise erlauben nur Zaubersprüche eine
-Magieabwehr-Probe, wenn diese direkt gegen eine einzelne Kreatur bzw.
-mehrere Kreaturen gerichtet sind. Zaubersprüche, die Flächenschaden
-verursachen und damit nicht explizit gegen bestimmte Kreaturen gewirkt
-werden, sind üblicherweise nicht betroffen.
+Dieses Feld gibt an, ob der Zauberspruch mit einer Magieabwehr-Probe erlaubt ist.
+Die Einträge sind „Ja“ für eine Möglichkeit zur Magieabwehr oder „Nein“.
+Üblicherweise erlauben nur Zaubersprüche eine Magieabwehr-Probe, wenn diese direkt gegen eine einzelne Kreatur bzw.mehrere Kreaturen gerichtet sind.
+Zaubersprüche, die Flächenschaden verursachen und damit nicht explizit gegen bestimmte Kreaturen gewirkt werden, sind üblicherweise nicht betroffen.
 
-Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“
-beziehen sich darauf, dass der Zauberspruch unterschiedliche Ziele
-ansprechen kann, zum Beispiel „Selbst/Berührung“. In diesem Fall
-benötigt man, wählt man die Reichweite „Selbst“ keine Magieabwehr-Probe
-(als Daumenregel gilt, dass man für einen Zauberspruch, den man auf sich
-selbst freiwillig wirkt, keine Magieabwehr-Probe würfeln muss), wirkt
-man den Zauberspruch auf ein anderes Wesen, also per Berührung, schon.
+Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“ beziehen sich darauf, dass der Zauberspruch unterschiedliche Ziele ansprechen kann, zum Beispiel „Selbst/Berührung“.
+In diesem Fall benötigt man, wählt man die Reichweite „Selbst“ keine Magieabwehr-Probe (als Daumenregel gilt, dass man für einen Zauberspruch, den man auf sich selbst freiwillig wirkt, keine Magieabwehr-Probe würfeln muss).
+Wirkt man den Zauberspruch auf ein anderes Wesen, also per Berührung, schon.
 
 *Effekt*:
-Dieser Abschnitt beschreibt den Effekt des Zauberspruches, der eintritt,
-wenn ein Treffer gelandet wurde. Man folge einfach dessen Beschreibung.
+Dieser Abschnitt beschreibt den Effekt des Zauberspruches, der eintritt, wenn ein Treffer gelandet wurde.
+Man folge einfach dessen Beschreibung.
 
 *Zusätzliche Effekte*:
-Fast jeder Zauberspruch kann mit Effekten verbessert werden. Diese sind
-individuell vom Zauberspruch abhängig und kosten im Regelfall
-zusätzliche MP. Durch den Einsatz dieser zusätzlichen Effekte ändert
-sich normalerweise nicht die Vorbereitungszeit. Verbessert werden können
-jedoch alle anderen Kriterien für einen Zauberspruch.
+Fast jeder Zauberspruch kann mit Effekten verbessert werden.
+Diese sind individuell vom Zauberspruch abhängig und kosten im Regelfall zusätzliche MP.
+Durch den Einsatz dieser zusätzlichen Effekte ändert sich normalerweise nicht die Vorbereitungszeit.
+Verbessert werden können jedoch alle anderen Kriterien für einen Zauberspruch.
 
-Hervorzuheben ist noch, dass einige Verbesserungen die POT des
-Zauberspruches erhöhen. Dadurch kann es möglich sein, dass der Zauberer
-sie nicht mehr aussprechen kann oder noch mehr MP investieren muss.
-Zusätzlich erhöht sich die Gefahr durch eventuelles Verbrennen und
-Zauberpatzer.
+Hervorzuheben ist noch, dass einige Verbesserungen die POT des Zauberspruches erhöhen.
+Dadurch kann es möglich sein, dass der Zauberer sie nicht mehr aussprechen kann oder noch mehr MP investieren muss.
+Zusätzlich erhöht sich die Gefahr durch eventuelles Verbrennen und Zauberpatzer.
 
 ==== Ablauf des Zauberns
 
-Interessant für den Spieler ist das Zaubern im Kampf bzw. unter Druck,
-wenn es auf Zeit, also Runden, ankommt. In anderen Fällen, wenn der
-Magier viel Zeit und Ruhe hat, sind die folgenden Regeln nach Ermessen
-des SL anzuwenden.
+Interessant für den Spieler ist das Zaubern im Kampf bzw. unter Druck, wenn es auf Zeit, also Runden, ankommt.
+In anderen Fällen, wenn der Magier viel Zeit und Ruhe hat, sind die folgenden Regeln nach Ermessen des SL anzuwenden.
 
 Im Dokument link:core_rules_battlesystem.adoc[Kampf] wurde bereits das Wichtigstes über das *Vorbereiten* und das *Verbrennen* beschrieben.
-Ebenso ordnet sich damit die Zauberei in das allgemeine Schema der Kampfphase ein.
+Ebenso ordnet sich damit die Zauberei in das allgemeine Schema der Kampfrunde ein.
 Der Vollständigkeit halber werden wir an dieser Stelle den Prozess zusammenfassen und die Details, die im  link:core_rules_battlesystem.adoc[Kampf] keinen Einzug erhielten, hier einbauen.
 Für regeltechnische Details bezüglich der Kampfsituation siehe dazu das entsprechende Dokument.
 
-Wie beschrieben, beginnt das Aussprechen eines Zaubers mit dem (Ansagen
-des) *Vorbereiten*. Dies die Anzahl von Kampfphasen, die der
-Zauberspruch benötigt, bis er ausgesprochen werden kann. Ist die
-Vorbereitung komplett abgeschlossen, so muss die Spruchzauberei-Probe
-für den Zauberspruch in der letzten Kampfphase des Vorbereitens
-erfolgen.
+Wie beschrieben, beginnt das Aussprechen eines Zaubers mit dem (Ansagen des) *Vorbereiten*.
+Dies die Anzahl von Kampfrunden, die der Zauberspruch benötigt, bis er ausgesprochen werden kann.
+Ist die Vorbereitung komplett abgeschlossen, so muss die Spruchzauberei-Probe für den Zauberspruch in der letzten Kampfrunde des Vorbereitens erfolgen.
 
 Es gilt: Ein Zauberspruch kostet im allgemeinen keine Magiepunkte.
-Kosten entstehen nur durch zusätzliche Effekte und durch Verkürzen der
-Vorbereitung.
+Kosten entstehen nur durch zusätzliche Effekte und durch Verkürzen der Vorbereitung.
 
-Daraus folgt, dass ein Zauberspruch, der in der vorgegeben
-Kampfphasenanzahl vorbereitet wird, keine MP kostet, außer man nutzt
-zusätzliche Effekte.
+Daraus folgt, dass ein Zauberspruch, der in der vorgegeben Anzahl von Kampfrunden vorbereitet wird, keine MP kostet, außer man nutzt zusätzliche Effekte.
 
-Zu Beginn der Vorbereitung muss der Zauberer festlegen, welche
-zusätzlichen Effekte er benutzen möchte und ob er die Vorbereitung
-verkürzen möchte.
+Zu Beginn der Vorbereitung muss der Zauberer festlegen, welche zusätzlichen Effekte er benutzen möchte und ob er die Vorbereitung verkürzen möchte.
 
-Von den zusätzlichen Effekten hängt nämlich teilweise die POT ab und
-aufgrund derer die Kosten für die *Verkürzung der Vorbereitung*.
+Von den zusätzlichen Effekten hängt nämlich teilweise die POT ab und aufgrund derer die Kosten für die *Verkürzung der Vorbereitung*.
 
-Die Kosten für die Verkürzung berechnen sich sehr leicht, in dem der
-Zauberer einfach für jede Kampfphase, um die er die Vorbereitung
-verkürzen will, POT-viele MP ausgibt.
+Die Kosten für die Verkürzung berechnen sich sehr leicht, in dem der Zauberer einfach für jede Kampfrunde, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt.
 
 .Zusätzliche Effekte, Verkürzen und MP
 ====
-Wir betrachten den Feuerball aus dem Beispiel von oben. Ein
-Zauberer mit 30 MP möchte den Zauberspruch zuerst um 2W6 Schadenspunkte
-verstärken. Das kostet 5 MP und erhöht die POT des Zaubers um 1 auf 6.
-Der Zauberspruch benötigt 3 Kampfphasen zur Vorbereitung. Der Zauberer
-möchte dies auf eine Kampfphase verkürzen, gibt also 2*POT = 2*6 = 12
-weitere MP aus. Insgesamt hat ihn der Zauberspruch nun 17 MP gekostet,
-also hat er noch 30-17=13 MP übrig.
+Wir betrachten den Feuerball aus dem Beispiel von oben.
+Ein Zauberer mit 30 MP möchte den Zauberspruch zuerst um 2W6 Schadenspunkte verstärken.
+Das kostet 5 MP und erhöht die POT des Zaubers um 1 auf 6.
+Der Zauberspruch benötigt 3 Kampfrunden zur Vorbereitung.
+Der Zauberer möchte dies auf eine Kampfrunde verkürzen, gibt also 2*POT = 2*6 = 12 weitere MP aus.
+Insgesamt hat ihn der Zauberspruch nun 17 MP gekostet, also hat er noch 30-17=13 MP übrig.
 ====
 
-Das Maximum zum Verkürzen der Vorbereitung ist die benötigte
-Kampfphasenanzahl auf 1 zu reduzieren. Damit lässt ein Zauberspruch
-sofort mit seiner Ansage zur Vorbereitung in derselben Kampfphase
-aussprechen.
+Das Maximum zum Verkürzen der Vorbereitung ist die benötigte Kampfkundenanzahl auf 1 zu reduzieren.
+Damit lässt ein Zauberspruch sofort mit seiner Ansage zur Vorbereitung in derselben Kampfkunde aussprechen.
 
-Die Spruchzauberei-Probe wird als Einfache Probe gewürfelt, außer es ist
-eine Magieabwehr-Probe erlaubt. Dann ist wird eine Konkurrierende Probe
-gewürfelt.
+Die Spruchzauberei-Probe wird als Einfache Probe gewürfelt, außer es ist eine Magieabwehr-Probe erlaubt.
+Dann ist wird eine Konkurrierende Probe gewürfelt.
 
 ===== Verbrennen
 
-In jedem Fall, in dem die Vorbereitung eines Zauberspruches schief geht,
-besteht die Gefahr des *Verbrennens*. Verbrennen Widerstehen ist ein
-Talent, die Energie-Probe seine Ungeübte Anwendung. Die Anzahl der
-Erfolge ist die POT des Zauberspruches, der unterbrochen wurde. Besteht
-der Charakter eine dieser Proben nicht, so erhält er POTW3 magischen
-Schaden.
+In jedem Fall, in dem die Vorbereitung eines Zauberspruches schief geht, besteht die Gefahr des *Verbrennens*. Verbrennen Widerstehen ist ein Talent, die Energie-Probe seine Ungeübte Anwendung.
+Die Anzahl der Erfolge ist die POT des Zauberspruches, der unterbrochen wurde.
+Besteht der Charakter eine dieser Proben nicht, so erhält er POTW3 magischen Schaden.
 
-Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, (in seiner Kampfphase) freiwillig aufgeben kann, ohne dabei Verbrennen zu erleiden.
-In der Kampfphase, in der er die Vorbereitung freiwillig aufgibt, kann er keine weiteren Aktionen durchführen.
+Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, (in seiner Kampfrunde) freiwillig aufgeben kann, ohne dabei Verbrennen zu erleiden.
+Dies den Zauberer kostet eine Aktion in seiner Kampfrunde.
 
 ===== Zauberpatzer
 
-Würfelt ein Zauberer bei seiner Spruchzauberei-Probe einen Patzer, dann
-tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein. Wie stark und
-gefährlich dieser werden kann, hängt von der POT des verpatzten
-Zauberspruches ab. Dazu addiert man die POT und die Anzahl der Patzer
-aus der Probe und betrachtet diese Tabelle:
+[quote, Byhragast „Eisauge“]
+„Achtet darauf, dass ihre eure Gedanken beisammen haltet.
+Ansonsten droht euch das Schicksal des armen Habryn...
+ja, richtig, das war das, mit den vielen Tentakeln letzte Woche.
+
+Würfelt ein Zauberer bei seiner Spruchzauberei-Probe einen Patzer, dann tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein.
+Wie stark und gefährlich dieser werden kann, hängt von der POT des verpatzten Zauberspruches ab.
+Dazu addiert man die POT und die Anzahl der Patzer aus der Probe und betrachtet diese Tabelle:
 
 [cols=",",options="header"]
 |===
 |Ergebnis Anzahl Patzer + POT | Effekt
-|Ergebnis kleiner 5 |Glück gehabt! Der Zauber entlädt seine Energie in
-die Luft um den Zauberer herum. Bunte Schemen tanzen herum und kleine
-Glöckchen klingen in den Ohren der Umstehenden. Aber sonst geschieht
-nichts.
+|Ergebnis kleiner 5 |Glück gehabt! Der Zauber entlädt seine Energie in die Luft um den Zauberer herum.
+Bunte Schemen tanzen herum und kleine Glöckchen klingen in den Ohren der Umstehenden. Aber sonst geschiehtnichts.
 
-|5-8 |Der Zauberer erlebt einen sachten Schlag magischer Energie. Er
-erhält 1W6 Schock-Schaden. Nimmt er Schaden, so blutet seine Nase.
+|5-8 |Der Zauberer erlebt einen sachten Schlag magischer Energie.
+Ererhält 1W6 Schock-Schaden.
+Nimmt er Schaden, so blutet seine Nase.
 
 |9-11 |Es gibt einen lauten Knall, der in einem Radius von 6 Metern alle
-Geräusche übertönt. Der Zauberer und alle anderen Kreaturen, die hören
-können, sind für 1W6 Runden paralysiert.
+Geräusche übertönt.
+Der Zauberer und alle anderen Kreaturen, die hören können, sind für 1W6 Runden paralysiert.
 
 |12-16 |Der Zauberspruch transformiert sich zu einer rasenden Energie,
-die sich in einem plötzlichen Schub dunkler Schatten entlädt. Es
-scheint, als würde die Luft in einem Radius von 6 Metern um den Zauberer
-aufbrechen und aus einer unheimlichen Zwischenwelt greifen
-schattenhaften Arme nach allem Lebenden. Jede Kreatur und der Zauberer
-erleiden sofort 1W6+2 Magischen Schaden. Alle, die dadurch TP verlieren,
-müssen eine Furcht-Probe mit Mindestwurf x ablegen, wobei x die Anzahl
-der verlorenen TP darstellt.
+die sich in einem plötzlichen Schub dunkler Schatten entlädt.
+Esscheint, als würde die Luft in einem Radius von 6 Metern um den Zaubereraufbrechen und aus einer unheimlichen Zwischenwelt greifen schattenhaften Arme nach allem Lebenden.
+Jede Kreatur und der Zauberererleiden sofort 1W6+2 Magischen Schaden.
+Alle, die dadurch TP verlieren,müssen eine Furcht-Probe mit Mindestwurf x ablegen, wobei x die Anzahlder verlorenen TP darstellt.
 
-|17-18 |Die Energie verzerrt die Struktur des Magiers. Er erhält sofort
-3W6 magischen Schaden. Erleidet er dadurch eine Verletzung, so
-verwandelt sich eine Stelle seines Körpers (SL-Entscheid) in Kristall.
+|17-18 |Die Energie verzerrt die Struktur des Magiers.
+Er erhält sofort3W6 magischen Schaden. Erleidet er dadurch eine Verletzung, soverwandelt sich eine Stelle seines Körpers (SL-Entscheid) in Kristall.
 Für den Zauberer fühlt sich diese Stelle taub, dumpf und fremd an.
-Gemeine SL nutzen Finger oder Hände oder das Gesicht, um den Charakter
-für sein Leben zu zeichnen.
+Gemeine SL nutzen Finger oder Hände oder das Gesicht, um den Charakter für sein Leben zu zeichnen.
 
-|19 |Den Zauberer umgeben plötzlich wabernde Entitäten aus purer
-Energie. Für einen Moment öffnet sich ein Spalt in eine fremde
-Höllendimension und konfrontiert den Charakter mit einem kleinen Stück
-des Kosmischen Horrors. Er verliert sofort 1W12 SP.
+|19 |Den Zauberer umgeben plötzlich wabernde Entitäten aus purer Energie.
+Für einen Moment öffnet sich ein Spalt in eine fremdeHöllendimension und konfrontiert den Charakter mit einem kleinen Stückdes Kosmischen Horrors.
+Er verliert sofort 1W12 SP.
 
 |20 a|
-Polymorph! Der Zauberer verwandelt sich in ein Tier. Der SL würfelt
-einen 1W6:
+Polymorph! Der Zauberer verwandelt sich in ein Tier.
+Der SL würfelt einen 1W6:
 
 1-Schaf, 2-Huhn, 3-Eichhörnchen, 4-Schlange, 5-Hase, 6-Papagei.
 
-Gnädige SL können dies durch eine Fluchbannung oder einen starken
-Magiebann aufheben lassen.
+Gnädige SL können dies durch eine Fluchbannung oder einen starken Magiebann aufheben lassen.
 
-|21 |Der Zauberspruch öffnet ein unkontrolliertes Portal in eine
-beliebige Sphäre, dass 1W6+3 Kampfphasen geöffnet bleibt. Jede Runde
-besteht die Chance, dass irgendwelche Wesen dieses Portal
-durchschreiten. Der SL würfelt einen W10. Ab einer 7 passieren 1W3 Wesen
-das Portal. Jede Kampfphasen nach der Öffnung steigt diese Chance um +1.
-Was dies für Wesen sind, bleibt dem SL überlassen. Tatsache ist, dass
-diese Wesen nicht begeistert sein werden, in einer anderen Dimension
-festzuhängen.
+|21 |Der Zauberspruch öffnet ein unkontrolliertes Portal in einebeliebige Sphäre, dass 1W6+3 Kampfrunden geöffnet bleibt.
+Jede Rundebesteht die Chance, dass irgendwelche Wesen dieses Portal durchschreiten.
+Der SL würfelt einen W10.
+Ab einer 7 passieren 1W3 Wesen das Portal.
+Jede Kampfrunde nach der Öffnung steigt diese Chance um +1.
+Was dies für Wesen sind, bleibt dem SL überlassen.
+Tatsache ist, dass diese Wesen nicht begeistert sein werden, in einer anderen Dimension festzuhängen.
 
-|22+ |Der Charakter erleidet einen effektvollen und pompösen Tod. Der SL
-soll seiner Kreativität freien Lauf lassen. Der Charakter kann nicht
-wiederbelebt werden, außer der SL ist sehr, sehr gnädig.
+|22+ |Der Charakter erleidet einen effektvollen und pompösen Tod.
+Der SL soll seiner Kreativität freien Lauf lassen.
+Der Charakter kann nicht wiederbelebt werden, außer der SL ist sehr, sehr gnädig.
 |===
 
-[quote, Byhragast „Eisauge“]
-„Achtet darauf, dass ihre eure Gedanken beisammen haltet. Ansonsten
-droht euch das Schicksal des armen Habryn... ja, richtig, das war das,
-mit den vielen Tentakeln letzte Woche.
-
 ==== Optional: MaxPOT temporär erhöhen
-Mit dieser optionalen Regel kann ein Zauberer temporär seine *MaxPOT
-erhöhen*, um einen Zauberspruch auszusprechen, für den er normalerweise
-zu wenig Maximale Magiepotenz hat – für einen Preis.
+Mit dieser optionalen Regel kann ein Zauberer temporär seine *MaxPOT erhöhen*, um einen Zauberspruch auszusprechen, für den er normalerweise zu wenig Maximale Magiepotenz hat – für einen Preis.
 
-Die Erhöhung der Maximalen Magiepotenz muss mit dem Ansagen des
-Zauberspruches (also inklusive Zusätzlicher Effekte und Verkürzen)
-genannt werden.
+Die Erhöhung der Maximalen Magiepotenz muss mit dem Ansagen des Zauberspruches (also inklusive Zusätzlicher Effekte und Verkürzen) genannt werden.
 
-Die POT gilt solange als erhöht, wie der Zauberer vorbereitet und die
-Spruchzauberei-Probe durchführt. Spätestens dann endet die Erhöhung. Die
-Erhöhung endet auch bei Unterbrechungen der Vorbereitung. Kommt es zum
-Verbrennen oder zu einem Zauberpatzer, zählt die erhöhte POT.
+Die POT gilt solange als erhöht, wie der Zauberer vorbereitet und die Spruchzauberei-Probe durchführt.
+Spätestens dann endet die Erhöhung.
+Die Erhöhung endet auch bei Unterbrechungen der Vorbereitung.
+Kommt es zum Verbrennen oder zu einem Zauberpatzer, zählt die erhöhte POT.
 
-Dadurch ist es möglich, Zauber mit höherer POT auszusprechen, jedoch ist
-dies gefährlich. Denn für jeden Punkt in der obigen Differenz wird bei
-der Spruchzauberei-Probe ein Misserfolg zu einem Patzer. Daher wird die
-Gefahr, dass die Probe an sich ein Patzer wird, vergrößert.
+Dadurch ist es möglich, Zauber mit höherer POT auszusprechen, jedoch ist dies gefährlich.
+Denn für jeden Punkt in der obigen Differenz wird bei der Spruchzauberei-Probe ein Misserfolg zu einem Patzer.
+Daher wird die Gefahr, dass die Probe an sich ein Patzer wird, vergrößert.
 
-Ein Zauberer kann natürlich auch freiwillig die POT erhöhen, ohne, dass
-dies von Nöten wäre. Eine erhöhte POT kann je nach Zauberspruch auch so
-bestimmte Effekte verbessern.
+Ein Zauberer kann natürlich auch freiwillig die POT erhöhen, ohne, dass dies von Nöten wäre.
+Eine erhöhte POT kann je nach Zauberspruch auch so bestimmte Effekte verbessern.
 
 .MaxPOT temporär erhöhen
 ====
-Ein Zauberer möchte einen Zauberspruch mit POT 8 aussprechen,
-hat aber nur eine Maximale Magiepotenz von 6. Er muss also seine Max-POT
-um 2 Punkte erhöhen. Das heißt, dass zwei seiner Misserfolge bei der
-Spruchzauberei-Probe zu Patzern werden. Bei einer Spruchzauberei-Probe
-mit 5 Würfeln hieße dies bei einem Ergebnis von: 9,7,4,3,1, dass die 4
-und 3 zu Patzern werden, wodurch die gesamte Probe ein Patzer wird und
-es muss ein Zauberpatzer (siehe unten) gewürfelt werden.
+Ein Zauberer möchte einen Zauberspruch mit POT 8 aussprechen, hat aber nur eine Maximale Magiepotenz von 6.
+Er muss also seine Max-POT um 2 Punkte erhöhen.
+Das heißt, dass zwei seiner Misserfolge bei der Spruchzauberei-Probe zu Patzern werden.
+Bei einer Spruchzauberei-Probe mit 5 Würfeln hieße dies bei einem Ergebnis von: 9,7,4,3,1, dass die 4 und 3 zu Patzern werden, wodurch die gesamte Probe ein Patzer wird und es muss ein Zauberpatzer gewürfelt werden.
 ====
 
 ==== Zaubersprüche von Spruchrollen wirken
@@ -1061,62 +988,48 @@ Wie bei Spruchrollen kann der Anwender keine zusätzlichen Effektewirken.
 
 ==== Zaubersprüche aus Zauberstecken wirken
 
-Zauberstecken sind unterschiedlich geformte und meist kunstvoll
-gestaltete Stäbe, die einen oder mehrere Zaubersprüche enthalten können.
-Diese Zauber sind im Gegensatz zu einer Spruchrolle nicht zwangsläufig
-nur einmal einsetzbar. Entweder ist eine feste Anzahl an Anwendungen
-bzw. MP vorgegeben oder der Zauber lädt sich wieder auf.
+Zauberstecken sind unterschiedlich geformte und meist kunstvoll gestaltete Stäbe, die einen oder mehrere Zaubersprüche enthalten können.
+Diese Zauber sind im Gegensatz zu einer Spruchrolle nicht zwangsläufig nur einmal einsetzbar.
+Entweder ist eine feste Anzahl an Anwendungen bzw. MP vorgegeben oder der Zauber lädt sich wieder auf.
 
-Wenn nicht anders erwähnt, muss der Anwender dann eine
-Spruchzauberei-Probe oder eine Energie-Probe ablegen. Manche
-Zauberstecken bzw. magische Gegenstände entfachen ihre Wirkung einfach
-auf Kommando.
+Wenn nicht anders erwähnt, muss der Anwender dann eine Spruchzauberei-Probe oder eine Energie-Probe ablegen.
+Manche Zauberstecken bzw. magische Gegenstände entfachen ihre Wirkung einfach auf Kommando.
 
 Zauberstecken vernichten sich jedoch nicht bei der Benutzung.
 
-Bei einem Patzer tritt das normale Verbrennen ein. Es muss ein
-Zauberpatzer-Ergebnis berechnet werden. Bei Ergebnis von 17 oder mehr,
-wird der Zauberstecken überladen und explodiert. Dadurch werden alle
-Zaubersprüche freigesetzt und zwar an Ort und Stelle. Variable Erfolge
-betragen dann 2W10+POT. Weitere Effekte treten nicht ein.
+Bei einem Patzer tritt das normale Verbrennen ein.
+Es muss ein Zauberpatzer-Ergebnis berechnet werden.
+Bei Ergebnis von 17 oder mehr, wird der Zauberstecken überladen und explodiert.
+Dadurch werden alle Zaubersprüche freigesetzt und zwar an Ort und Stelle.
+Variable Erfolge betragen dann 2W10+POT.
+Weitere Effekte treten nicht ein.
 
 ==== Zauberformeln
 
-Zauberformeln sind ritualisierte Konzentrationsübungen, die es einem
-Zauberer ermöglichen, die Energie des Aethers durch seinen Geist in
-einen Zauberspruch zu binden. Diese Zauberformeln sind zum Beispiel
-essentieller Teil einer Spruchrolle, denn meistens sind sie in arkaner
-Sprache formuliert.
+Zauberformeln sind ritualisierte Konzentrationsübungen, die es einem Zauberer ermöglichen, die Energie des Aethers durch seinen Geist in einen Zauberspruch zu binden.
+Diese Zauberformeln sind zum Beispiel essentieller Teil einer Spruchrolle, denn meistens sind sie in arkaner Sprache formuliert.
 
-Jeder Zauberer benötigt für jeden Zauberspruch die Zauberformel (es gibt
-Wesen, die auch ohne Zauberformel zaubern können, jedoch sind dies
-üblicherweise keine Spielercharaktere). Die Zauberformel ist formell
-Teil der Spruchzauberei-Probe und bedarf keiner weiteren Regel. Im
-allgemeinen geht man davon aus, dass ein Zauberer eine Zauberformel
-spricht, wenn er eine Spruchzauberei-Probe ablegt.
+Jeder Zauberer benötigt für jeden Zauberspruch die Zauberformel (es gibt Wesen, die auch ohne Zauberformel zaubern können, jedoch sind dies üblicherweise keine Spielercharaktere).
+Die Zauberformel ist formell Teil der Spruchzauberei-Probe und bedarf keiner weiteren Regel.
+Im allgemeinen geht man davon aus, dass ein Zauberer eine Zauberformel spricht, wenn er eine Spruchzauberei-Probe ablegt.
 
 ==== Gesten
 
-Genau wie Zauberformeln helfen Gesten einem Zauberer den Zauberspruch zu
-formen. Gesten sind wie Zauberformeln Teil der Spruchzauberei-Probe und
-es wird angenommen, jeder Zauberer benutzt Gesten für seine
-Zaubersprüche.
+Genau wie Zauberformeln helfen Gesten einem Zauberer den Zauberspruch zu formen.
+Gesten sind wie Zauberformeln Teil der Spruchzauberei-Probe und es wird angenommen, jeder Zauberer benutzt Gesten für seine Zaubersprüche.
 
 ==== Zutaten
 
-Manche Zaubersprüche benötigen Zutaten, um gewirkt zu werden. Der Magier
-muss alle Zutaten bei der Spruchzauberei-Probe parat haben. Unabhängig
-vom Erfolg der Zauberspruchprobe werden die Zutaten verbraucht.
+Manche Zaubersprüche benötigen Zutaten, um gewirkt zu werden.
+Der Magier muss alle Zutaten bei der Spruchzauberei-Probe parat haben.
+Unabhängig vom Erfolg der Zauberspruchprobe werden die Zutaten verbraucht.
 
-Besitzt der Magier keine passenden Zutaten zum Zeitpunkt der
-Spruchzauberei-Probe, wird diese automatisch als Misserfolg gewertet.
+Besitzt der Magier keine passenden Zutaten zum Zeitpunkt der Spruchzauberei-Probe, wird diese automatisch als Misserfolg gewertet.
 
 ==== Zaubersprüche ohne Gesten und Zauberformeln
 
-Wenn der SL es wünscht, oder wenn es die Situation sinnvollerweise
-erfordert, kann der Zauberer auch ohne Gesten und Zauberformeln den
-Zauber aussprechen. Jedoch muss er dafür Mali auf die
-Spruchzauberei-Probe hinnehmen:
+Wenn der SL es wünscht, oder wenn es die Situation sinnvollerweise erfordert, kann der Zauberer auch ohne Gesten und Zauberformeln den Zauber aussprechen.
+Jedoch muss er dafür Mali auf die Spruchzauberei-Probe hinnehmen:
 
 * der Charakter kann keine Gesten ausführen: -4 Würfel
 * der Charakter kann keine Zauberformeln aufsagen: -4 Würfel
@@ -1237,7 +1150,7 @@ magischer oder technomantischer Natur, aufrechtzuerhalten
 Der magische Kristall eines Gegenstands ist also wie eine Batterie zu
 betrachten. Manche Gegenstände ermöglichen es, diese Batterie
 auszutauschen, jedoch hat sich eine andere Technik durchgesetzt: Magier
-= können magische Kristalle in Gegenständen mit eigenen MP ausstatten
+können magische Kristalle in Gegenständen mit eigenen MP ausstatten
 (also sie wieder aufladen) oder können diese magische Energie auch für
 sich selbst nutzen. Wie dies genau funktioniert, wird in den folgenden
 Abschnitten erläutert.
@@ -1452,18 +1365,24 @@ Die nachfolgenden Unterkapitel erläutern weitere Besonderheiten der jeweiligen 
 Elementaristen besitzen eine große Auswahl an Zaubersprüche, die sich aus den Elementen Feuer, Wasser, Luft und Erde zusammensetzen.
 Jedes Element besitzt seine eigene Zauberspruchliste.
 
-Mit Lernen der ersten Talentstufe Spruchzauberei[Elementarismus] muss
-der Elementarist sich für ein bevorzugtes Element aus der Liste Feuer,
-Wasser, Lust und Erde entscheiden. Man spricht dabei vom Elementarfokus
-(vgl. Liste der Nachteile). Zu jedem bevorzugtem Element gibt es ein
-Gegenelement. Der Elementarist kann keine Zauberspruche aus der
-Zauberspruchliste des Gegenelements lernen.
+Mit Lernen der ersten Talentstufe Spruchzauberei[Elementarismus] muss der Elementarist sich für ein bevorzugtes Element aus der Liste Feuer, Wasser, Lust und Erde entscheiden.
+Man spricht dabei vom Elementarfokus.
+Zu jedem bevorzugtem Element gibt es ein Gegenelement, welches aus der folgenden Tabelle entnommen werden kann.
 
-Aspekte im Elementarismus beschreiben die Kombination aus (mindestens) 2
-Grundelementen, so bildet zum Beispiel Feuer und Erde den Aspekt der
-Härte. Die Aspekte bringen neue und mächtigere Zauber mit sich. Um eine
-Zauberspruchliste aus dem Aspektelementarismus lernen zu können, muss
-der Elementarist die folgenden Voraussetzungen erfüllen:
+[cols=",", options="header"]
+|===
+|Elementarfokus |Gegenelement
+|Feuer |Wasser
+|Wasser |Feuer
+|Erde |Luft
+|Luft |Erde
+|===
+
+Der Elementarist kann keine Zauberspruche aus der Zauberspruchliste des Gegenelements lernen.
+
+Aspekte im Elementarismus beschreiben die Kombination aus (mindestens) 2 Grundelementen, so bildet zum Beispiel Feuer und Erde den Aspekt der Härte.
+Die Aspekte bringen neue und mächtigere Zauber mit sich.
+Um eine Zauberspruchliste aus dem Aspektelementarismus lernen zu können, muss der Elementarist die folgenden Voraussetzungen erfüllen:
 
 [cols=",", options="header"]
 |===
@@ -1482,9 +1401,7 @@ Zaubersprüche aus Weg des Wasser, Weg der Luft
 Zaubersprüche aus Weg des Erde, Weg der Wasser
 |===
 
-Ein sehr erfahrener Elementarist kann den Pfad des Schicksals Meister
-der Ungeteilten Elemente wählen, um die Zauberspruchliste Weg der
-Ungeteilten Elemente zu lernen.
+Ein sehr erfahrener Elementarist kann den Pfad des Schicksals Meister der Ungeteilten Elemente wählen, um die Zauberspruchliste Weg der Ungeteilten Elemente zu lernen.
 
 ==== Illusionismus und Trugbilder der Magie
 
