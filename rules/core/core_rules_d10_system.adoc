@@ -826,26 +826,20 @@ Kampfphase.
 
 *Attribut:* Selbstbeherrschung
 
-Diese Verteidigungsprobe muss gewürfelt werden, wenn der Charakter mit
-seinem Willen ringt. Üblicherweise möchte ein Effekt, eine Situation
-oder eine Charaktereigenschaft den Charakter zu etwas drängen, was der
-Spieler nicht will. Um dies abzuwehren, muss eine Willenskraft-Probe
-abgelegt werden.
+Diese Verteidigungsprobe muss gewürfelt werden, wenn der Charakter mit seinem Willen ringt oder sich besondern konzentrieren muss, z.B. um die Vorbereitung eines Zauberspruches zu halten.
+Üblicherweise möchte ein Effekt, eine Situation oder eine Charaktereigenschaft den Charakter zu etwas drängen, was der Spieler nicht will.
+Um dies abzuwehren, muss eine Willenskraft-Probe abgelegt werden.
 
-* *Misserfolg:* Der Charakter gibt sofort dem Drang nach und er führt
-die ungewollte Aktion durch. Führt der Charakter gerade selbst eine
-Aktion durch, so wird diese unterbrochen.
+* *Misserfolg:* Der Charakter gibt sofort dem Drang nach und er führt die ungewollte Aktion durch.
+Führt der Charakter gerade selbst eine Aktion durch, so wird diese unterbrochen.
 * *Patzer:* Keine zusätzliche Auswirkung.
 
 [NOTE]
-Ein typisches Beispiel, wenn solche Würfe in Spiele kommen,
-ist, wenn der Charakter einen Nachteil hat, der zu gewissen Handlungen
-zwingt, zum Beispiel ist er kleptomanisch. Sieht er also eine besonders
-begehrenswertes Objekt, dann kann der Spieler verhindern, dass der
-Charakter versucht es zu stehlen. Dazu ist die Willenskraft-Probe nötig.
-Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell
-möchte, dass sein Charakter dies versucht. Um beispielsweise einen
-Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
+Ein typisches Beispiel, wenn solche Würfe in Spiele kommen, ist, wenn der Charakter einen Nachteil hat, der zu gewissen Handlungen zwingt, zum Beispiel ist er kleptomanisch.
+Sieht er also eine besonders begehrenswertes Objekt, dann kann der Spieler verhindern, dass der Charakter versucht es zu stehlen.
+Dazu ist die Willenskraft-Probe nötig.
+Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell möchte, dass sein Charakter dies versucht.
+Um beispielsweise einen Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
 
 === Manöver
 
@@ -1155,29 +1149,19 @@ gewürfelt werden.
 
 *Attribut:* Energie
 
-In jedem Fall, in dem die Vorbereitung eines Zauberspruches schief geht,
-besteht die Gefahr des *Verbrennens*. Dies ist das Resultat der
-Beschwörung des Zaubers, der nicht fertig ausgesprochen wurde und damit
-die benötigten Energien nicht korrekt abgeleitet werden können. Dieser
-"Druck" an magischen Energien kanalisiert und entlädt sich im Körper des
-Zauberers.
+In jedem Fall, in dem die Vorbereitung eines Zauberspruches schief geht, besteht die Gefahr des *Verbrennens*.
+Dies ist das Resultat der Beschwörung des Zaubers, der nicht fertig ausgesprochen wurde und damit die benötigten Energien nicht korrekt abgeleitet werden können.
+Dieser "Druck" an magischen Energien kanalisiert und entlädt sich im Körper des Zauberers.
 
-Dieser Vorgang ist sehr gefährlich, fast so gefährlich wie ein
-Magiepatzer, denn er kann den Zauberer töten.
+Kommt der Zauberer in eine solche Situation, dann muss er entweder einer Energie-Probe oder eine Verbrennen Widerstehen-Probe bestehen.
+Dazu ist das Talent Verbrennen Widerstehen bzw. eine Ungeübte Anwendung als Energie-Probe zu verwenden.
+Die Anzahl der Erfolge ist die POT des Zauberspruches, der unterbrochen wurde.
 
-Kommt der Zauberer in eine solche Situation, dann muss er entweder einer
-Energie-Probe oder eine Verbrennen Widerstehen-Probe bestehen.
-Verbrennen Widerstehen ist ein Talent, die Energie-Probe seine Ungeübte
-Anwendung. Die Anzahl der Erfolge ist die POT des Zauberspruches, der
-unterbrochen wurde.
-
-Besteht der Charakter eine dieser Proben nicht, so erhält er POT*W3
-magischen Schaden.
+Besteht der Charakter eine dieser Proben nicht, so erhält er POT*W3 magischen Schaden.
 
 Folgende Situationen führen zu einer Verbrennen Widerstehen-Probe:
 
 * Der Zauberer würfelt einen Patzer bei der Spruchzauberei-Probe
-* Der Zauberer wird während der Vorbereitung zur Verwendung eines
-Talents oder Kampfmanövers (außer Rennen mit halber Geschwindingkeit)
+* Der Zauberer wird während der Vorbereitung zur Verwendung eines Talents oder Kampfmanövers (außer Rennen mit halber Geschwindingkeit)
 gezwungen
 * Der Zauberer wird während der Vorbereitung niedergeschlagen

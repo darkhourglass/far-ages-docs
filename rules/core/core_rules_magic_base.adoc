@@ -822,30 +822,37 @@ Hervorzuheben ist noch, dass einige Verbesserungen die POT des Zauberspruches er
 Dadurch kann es möglich sein, dass der Zauberer sie nicht mehr aussprechen kann oder noch mehr MP investieren muss.
 Zusätzlich erhöht sich die Gefahr durch eventuelles Verbrennen und Zauberpatzer.
 
-==== Ablauf des Zauberns
+==== Vorbereiten von Zaubersprüchen
 
-Interessant für den Spieler ist das Zaubern im Kampf bzw. unter Druck, wenn es auf Zeit, also Runden, ankommt.
-In anderen Fällen, wenn der Magier viel Zeit und Ruhe hat, sind die folgenden Regeln nach Ermessen des SL anzuwenden.
+Der grundsätzliche Ablauf des Aussprechen eines Zauberspruches ist das sogenannte *Vorbereiten* und das schlussendliche Wirken der Magie.
+Eine Vorbereitung ist von Nöten, da die magischen Energien nicht in fertigen Zaubern vorliegen und der Zauberer seine Zauber erst einmal zusammensetzen muss.
+Dieser Vorgang ist unterschiedlich ritualisiert, einige Zauber benötigen Beschwörungsgesänge, andere wiederum das Rezitieren magischer Formeln, wieder andere erfordern Gesten oder bestimmte Handlungen und Zutaten.
 
-Im Dokument link:core_rules_battlesystem.adoc[Kampf] wurde bereits das Wichtigstes über das *Vorbereiten* und das *Verbrennen* beschrieben.
-Ebenso ordnet sich damit die Zauberei in das allgemeine Schema der Kampfrunde ein.
-Der Vollständigkeit halber werden wir an dieser Stelle den Prozess zusammenfassen und die Details, die im  link:core_rules_battlesystem.adoc[Kampf] keinen Einzug erhielten, hier einbauen.
-Für regeltechnische Details bezüglich der Kampfsituation siehe dazu das entsprechende Dokument.
+Am Anfang seiner Kampfrunde kann ein Magier das Vorbereiten eines Zaubers ansagen.
+Er muss dazu den Namen des Zauberspruches, eventuell ein Ziel, falls dies gefordert ist, und die Dauer der Vorbereitung nennen.
 
-Wie beschrieben, beginnt das Aussprechen eines Zaubers mit dem (Ansagen des) *Vorbereiten*.
-Dies die Anzahl von Kampfrunden, die der Zauberspruch benötigt, bis er ausgesprochen werden kann.
-Ist die Vorbereitung komplett abgeschlossen, so muss die Spruchzauberei-Probe für den Zauberspruch in der letzten Kampfrunde des Vorbereitens erfolgen.
+Ist die Dauer der Vorbereitung beispielsweise 3, dann gilt die Kampfrunde, in der der Zauber angekündigt wurde, bereits als erste Kampfrunde des Vorbereitens.
+
+Das Vorbereiten selbst benötigt keinen Wurf.
+Wichtig ist hierbei, dass Vorbereiten und das Weiterführen einer Vorbereitung eine Aktion ist.
+Der Zauberer kann also in einer Kampfrunde immer nur den Zauber vorbereiten.
+Er kann keine anderen Aktionen durchführen und auch keine weiteren Zauber beginnen.
+Er kann jedoch Manöver und Reaktionen ausführen.
+
+Es gilt, dass in der letzten Kampfrunde des Vorbereitens der Zauberspruch fertig ist und in auch diesen Kampfphase ausgesprochen werden kann.
+
+==== Zusätzliche Effekte, Verkürzen und MP
 
 Es gilt: Ein Zauberspruch kostet im allgemeinen keine Magiepunkte.
 Kosten entstehen nur durch zusätzliche Effekte und durch Verkürzen der Vorbereitung.
 
 Daraus folgt, dass ein Zauberspruch, der in der vorgegeben Anzahl von Kampfrunden vorbereitet wird, keine MP kostet, außer man nutzt zusätzliche Effekte.
 
-Zu Beginn der Vorbereitung muss der Zauberer festlegen, welche zusätzlichen Effekte er benutzen möchte und ob er die Vorbereitung verkürzen möchte.
+Zu Beginn der Vorbereitung muss der Zauberer festlegen, welche *zusätzlichen Effekte* er benutzen möchte und ob er die Vorbereitung verkürzen möchte.
 
-Von den zusätzlichen Effekten hängt nämlich teilweise die POT ab und aufgrund derer die Kosten für die *Verkürzung der Vorbereitung*.
+Von den zusätzlichen Effekten hängt teilweise die POT ab und aufgrund derer die Kosten für die *Verkürzung der Vorbereitung*.
 
-Die Kosten für die Verkürzung berechnen sich sehr leicht, in dem der Zauberer einfach für jede Kampfrunde, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt.
+Die Kosten für die Verkürzung berechnen sich, in dem der Zauberer für jede Kampfrunde, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt.
 
 .Zusätzliche Effekte, Verkürzen und MP
 ====
@@ -861,16 +868,45 @@ Das Maximum zum Verkürzen der Vorbereitung ist die benötigte Kampfkundenanzahl
 Damit lässt ein Zauberspruch sofort mit seiner Ansage zur Vorbereitung in derselben Kampfkunde aussprechen.
 
 Die Spruchzauberei-Probe wird als Einfache Probe gewürfelt, außer es ist eine Magieabwehr-Probe erlaubt.
-Dann ist wird eine Konkurrierende Probe gewürfelt.
+Dann wird eine Konkurrierende Probe gewürfelt.
 
-===== Verbrennen
+==== Spruchzauberei-Probe
 
-In jedem Fall, in dem die Vorbereitung eines Zauberspruches schief geht, besteht die Gefahr des *Verbrennens*. Verbrennen Widerstehen ist ein Talent, die Energie-Probe seine Ungeübte Anwendung.
-Die Anzahl der Erfolge ist die POT des Zauberspruches, der unterbrochen wurde.
-Besteht der Charakter eine dieser Proben nicht, so erhält er POTW3 magischen Schaden.
+Einen Zauber wirkt man mit dem Talent Spruchzauberei.
+Dieses Talent kann sowohl eine Einfache Probe als auch eine Konkurrierende Probe sein.
+Manche Zaubersprüche lassen eine Magieabwehr-Probe zu.
+In diesem Fall kann sich das Ziel des Zauberspruches gegen dessen Auswirkungen wehren und das Talent Spruchzauberei wird als Konkurrierende Probe nach den üblichen Regeln der Kalkulation der Anzahl der Erfolge gewürfelt.
+
+In allen anderen Fällen gilt das Talent als Einfache Probe.
+Wann was angemessen ist, verrät die Beschreibung der Zaubersprüche.
+
+Ein Zauber ist genau dann erfolgreich, wenn er die vorgegeben Anzahl von Erfolgen (oftmals einfach eine minimale Anzahl) mit seiner Spruchzauberei-Probe erreicht hat.
+Erlangt er nicht die erforderlichen Erfolge und ist die Probe insgesamt kein Patzer, dann passiert einfach nichts, auch kein Verbrennen.
+Im Falle eines Patzers siehe Zauberpatzer.
+
+Im Falle des Erfolgs tritt der Effekt des Zauberspruches direkt ein.
+
+==== Unterbrechen der Vorbereitung und Verbrennen
+
+Während der Vorbereitung ist es natürlich möglich, dass der Zauberer unterbrochen wird.
+Dies wird sogar von halbwegs intelligenten Gegnern besonders verfolgt, denn die wenigstens warten ab, bis die Beschwörungsgesänge, die angedeuteten grünen Wolken und die düster gemurmelten Worte des Magiers sich in gleißende Magie entlädt und auf die Unglücklichen niederprasselt.
+
+Somit kann ein Magier, der zu einer anderen Aktion als Vorbereiten bzw. Weiterführen oder dem Verwenden eines Talents gezwungen wird, die Vorbereitung für den Zauber verlieren.
+
+Die Anwendung eines Talents beinhaltet in diesem Fall auch Verteidigungstalente wie Hieb Ausweichen, Schildverteidigung usw. sowie deren ungeübten Anwendungen.
+
+Der Zauberer kann im Fall einer Unterbrechnung versuchen, seine Konzentration zu halten.
+Dazu würfelt er eine *Willenskraft-Probe* gegen die POT des Zauberspruches.
+Bei einem Erfolg behält er die Vorbereitung und kann diese in seiner Kampfrunde weiterführen.
+Bei einem Misserfolg oder Patzer muss er eine *Verbrennen Widerstehen-Probe* ausführen.
+Siehe zu beiden Proben das Dokument link:core_rules_d10_system.adoc[W10-Regelsystem].
+
+Im Allgemeinen bedeutet ein Niederschlag immer den automatischen Verlust der Vorbereitung.
+
+==== Freiwilliges Abbrechen eines Zauberspruches
 
 Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, (in seiner Kampfrunde) freiwillig aufgeben kann, ohne dabei Verbrennen zu erleiden.
-Dies den Zauberer kostet eine Aktion in seiner Kampfrunde.
+Das freiwillige Abbrechen gilt als eine Aktion.
 
 ===== Zauberpatzer
 
