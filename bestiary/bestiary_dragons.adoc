@@ -21,6 +21,7 @@
 *Voraussetzungen:* - +
 *Attribut:* ER +
 *Machtstufe:* 1 +
+*Aktion:* F +
 *Beschreibung:* Der Drache besitzt eine natürliche Begabung, um in den Aether zu sehen.
 Die Anwendung erfolgt analog zu dem gleichnamigen Talent link:../rules/core/core_rules_talents_base.adoc[Aether Wahrnehmung].
 Der Drache nutzt dabei ausschließlich seine Attributsstufe in ER und benötigt keine Aufwendung von Kampfphasen.
@@ -28,33 +29,70 @@ Für Drachen ist die Aether Wahrnehmung somit eine Freie Aktion.
 Der normalerweise auftretende visuelle Effekt bei der Anwendung von Aether Wahrnehmung tritt bei Drachen nicht auf.
 
 === Aura der Ergebenheit
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* CH 8 +
+*Attribut:* CH +
+*Machtstufe:* 5 +
+*Aktion:* M +
+*Beschreibung:*  Ein Drache mit dieser Fähigkeit kann eine Aura von 15 Metern Radius um sich herum ausstrahlen, die andere Lebewesen wörtlich vor ihm auf die Knie fallen lässt.
+
+Um die Fähigkeit einzusetzen, muss der Drache 10 MP einsetzen und CH-Probe ablegen.
+Jedes Lebewesen, somit keine Untoten oder Konstrukte, im gegebenen Umkreis, welches mindestens 1 GK kleiner ist als der Drache, den Drachen sehen kann und selbst kein Drache ist, muss ebenso eine CH-Probe ablegen.
+Erreicht es weniger Erfolge als der Drache, fällt es vor dem Drachen auf die Knie.
+Das Lebewesen gilt als kampfunfähig.
+
+Die Aura der Ergebenheit dauert soviele Kampfrunden an, wie der Drache es wünscht.
+Pro Kampfrunde muss er jedoch als Freie Aktion 2 MP einsetzen, um die Aura aufrecht zu erhalten.
+Greift der Drache an, wird die Aura automatisch beendet.
 
 === Aura der Furcht
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* CH 8, SB 8 +
+*Attribut:* CH +
+*Machtstufe:* 7 +
+*Aktion:* M +
+*Beschreibung:* Ein Drache mit dieser Fähigkeit kann eine Aura von 15 Metern Radius um sich herum ausstrahlen, die andere Lebewesen mit überwältigender Furcht trifft.
+
+Um die Fähigkeit einzusetzen, muss der Drache 10 MP einsetzen und CH-Probe ablegen.
+Jedes Lebewesen, somit keine Untoten oder Konstrukte, im gegebenen Umkreis, welches mindestens 1 GK kleiner ist als der Drache, den Drachen sehen kann und selbst kein Drache ist, muss ebenso eine Furcht-Probe ablegen, wobei sie mindestens gleich viele Erfolge erreichen müssen, um die Probe zu bestehen.
+
+Die Aura der Furcht dauert soviele Kampfrunden an, wie der Drache es wünscht.
+Pro Kampfrunde muss er jedoch als Freie Aktion 5 MP einsetzen, um die Aura aufrecht zu erhalten.
+Alle Lebewesen müssen zu Beginn einer Kampfrunde, in der die Aura aktiv bleibt, die Furcht-Probe erneut würfeln, jedoch mit je einem Erfolg weniger als in der Runde zuvor.
+Greift der Drache an, wird die Aura automatisch beendet.
 
 === Aura des Schreckens
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* CH 10, SB 10 +
+*Attribut:* CH +
+*Machtstufe:* 9 +
+*Aktion:* M +
+*Beschreibung:* Ein Drache mit dieser Fähigkeit kann eine Aura von 15 Metern Radius um sich herum ausstrahlen, die andere Lebewesen mit überwältigenden Horror trifft.
+
+Um die Fähigkeit einzusetzen, muss der Drache 25 MP einsetzen und CH-Probe ablegen.
+Jedes Lebewesen, somit keine Untoten oder Konstrukte, im gegebenen Umkreis, welches mindestens 1 GK kleiner ist als der Drache, den Drachen sehen kann und selbst kein Drache ist, muss ebenso eine Horror-Probe ablegen, wobei sie mindestens gleich viele Erfolge erreichen müssen, um die Probe zu bestehen.
+
+Die Aura des Schreckends dauert soviele Kampfrunden an, wie der Drache es wünscht.
+Pro Kampfrunde muss er jedoch als Freie Aktion 10 MP einsetzen, um die Aura aufrecht zu erhalten.
+Alle Lebewesen müssen zu Beginn einer Kampfrunde, in der die Aura aktiv bleibt, die Horror-Probe erneut würfeln, jedoch mit je einem Erfolg weniger als in der Runde zuvor.
+Greift der Drache an, wird die Aura automatisch beendet.
 
 === Beherrschung
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* SB 8 +
+*Attribut:* SB +
+*Machtstufe:* 6 +
+*Aktion:* A +
+*Beschreibung:* Durch pure Kraft seines Willens kann ein Drache mit dieser Fähigkeit andere Wesen seinen Willen aufzwingen und sie wie eine Marionette steuern.
+
+Um die Fähigkeit einzusetzen, muss der Drache 10 MP aufwenden und gegen das Ziel eine konkurrierende SB-Probe würfeln.
+Erzielt er mehr Erfolge, so muss das Ziel für jeden Erfolg, den der Drache mehr gewürfelt hat, eine Kampfrunde exakt das tun, was der Drache wünscht.
+
+Die einzige Ausnahme ist, dass das Ziel keine Aktionen durchführen wird, die für es selbst verletzend oder gar tödlich sind. Es würde sich also nicht von einer Klippe stürzen, wenn der Drache dies befiehlt.
+
+Die Beherrschung endet außerdem, wenn der Drache die Sichtlinie zu dem Ziel verliert.
 
 === Beute markieren
 *Voraussetzungen:* ER 6 +
 *Attribut:* ER +
 *Machtstufe:* 3 +
+*Aktion:* M +
 *Beschreibung:* Mit dieser Fähigkeit kann der Drache eine beliebige andere, lebene Kreatur (damit keine Untoten oder Konstrukte) mit einem magischen Anker markieren, so dass der Drache die Anwesenheit und genaue Position der Kreatur spüren kann. +
 Um ein Wesen zu markieren, muss der Drache 5 MP ausgeben und eine konkurrierende Probe gegen ER oder SB bestehen (jenachdem welche Stufe beim Ziel höher ist). +
 Ein einfacher Erfolg reicht aus, um das Wesen zu markieren, jedoch weiß das Wesen in diesem Momant um sein Schicksal. Erst ein Guter Erfolg lässt die Markierung subtil genug entstehen. +
@@ -67,6 +105,7 @@ Eine erfolgreiche Probe mit mindestens Sehr Gutem Erfolg in Aether Wahrnehmung z
 *Voraussetzungen:* Elementaraffinität +
 *Attribut:* EN +
 *Machtstufe:* 1+ +
+*Aktion:* A +
 *Beschreibung:* Drachen sind in der Lage aus ihrem Maul eine vernichtende Welle von Energie zu speien.
 Dies entspricht einer kegelförmige Waffe mit einer Grundreichweite von 3,00 Meter pro 1 Punkt GK.
 Ein Drache der GK 7 hätte also mit seinem Drachenodem eine Reichweite von 21,00 Metern.
@@ -96,6 +135,7 @@ Nach Verwendung der Attacke muss der Drache 5 Kampfphasen warten, bevor er den D
 *Voraussetzungen:* - +
 *Attribut:* - +
 *Machtstufe:* 1 bis 6 +
+*Aktion:* - +
 *Beschreibung:* Drachen haben eine lange Evolution hinter sich.
 Ein Teil dieses Fortschrittes beinhaltet das Leben bzw. das Reisen im Weltraum (siehe dazu auch Nahrungssubstitution und Raumflug).
 Der Drachentraum stellt eine besondere Art der Erholung für Drachen dar, die normalerweise nicht schlafen müssen (sie regenerieren ihre TP und MP anders, siehe dazu Regeneration).
@@ -127,6 +167,7 @@ Die meisten Drachen mit dieser seltenen Fähigkeit wählen als Traumpartner auss
 *Voraussetzungen:* Drachenschuppen 1 +
 *Attribut:* - +
 *Machtstufe:* 3 +
+*Aktion:* N/A +
 *Beschreibung:* Die Undurchdringbarkeit eines Drachenpanzers ist legendär.
 Immer wenn ein Drache eine Verletzung erhält, verursacht diese Verletzung einen Verletzungsgrad weniger.
 
@@ -134,12 +175,14 @@ Immer wenn ein Drache eine Verletzung erhält, verursacht diese Verletzung einen
 *Voraussetzungen:* - +
 *Attribut:* - +
 *Machtstufe:* 1 +
+*Aktion:* N/A +
 *Beschreibung:* Pro Machtstufe erhält der Drache einen natürlichen Rüstungsschutz von 5 gegenüber physischen Schäden auf allen Trefferzonen.
 
 === Elementaraffinität [Element]
 *Voraussetzungen:* - +
 *Attribut:* - +
 *Machtstufe:* 0 +
+*Aktion:* N/A +
 *Beschreibung:* Ein Drache kann diese Fähigkeit lernen, um sich auf eine bestimmte, elementaren Energie zu spezialisieren.
 Diese Fähigkeit beeinflusst viele weitere der hier auf geführe Fähigkeiten.
 Bei dem Erlernen der Fähigkeit ist eines der magischen Elemente Feuer, Wasser, Erde oder Luft zu wählen.
@@ -158,6 +201,7 @@ Der Drache kann diese Fähigkeit einmal lernen. Zu jedem Element gibt es ein Geg
 *Voraussetzungen:* besitzt nicht Levitation +
 *Attribut:* - +
 *Machtstufe:* 1 +
+*Aktion:* M +
 *Beschreibung:* Der Drache besitzt Flügel und kann somit fliegen.
 Er kann damit das Kampfmanöver Luftangriff durchführen.
 Seine Bewegungsrate fliegend beträgt BEW * 3.
@@ -166,6 +210,7 @@ Seine Bewegungsrate fliegend beträgt BEW * 3.
 *Voraussetzungen:* EN 5, CH 8 +
 *Attribut:* - +
 *Machtstufe:* 5 +
+*Aktion:* A +
 *Beschreibung:* Ein Drache mit dieser Fähigkeit kann seine Gestalt wandeln, um so beinahe unerkannt zu bleiben.
 Die Fähigkeit kann mehrfach gelernt werden, jeweils einmal pro gewünschter Form.
 Möchte ein Drache seine Gestalt wandeln, so muss er 10 MP ausgeben.
@@ -179,15 +224,20 @@ In seiner gewandelten Form kann der Drache alle Drachenfähigkeiten nutzen, so a
 Drachen wählen gerne humanoide Formen wie Elfen oder Menschen, um in die verschiedensten Gesellschaften einzuwandern - zu welchen Zweck auch immer.
 
 === Gift
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* - +
+*Attribut:* - +
+*Machtstufe:* 3, 5 oder 7 +
+*Aktion:* M +
+*Beschreibung:* Mit dieser Fähigkeit kann der Drache ein Wesen, dass sich mit ihm in Nahkampf befindet, zu vergiften.
+
+Um die Fähigkeit einzusetzen, muss der Drache 5 MP ausgeben.
+Je nach Machtstufe muss das Ziel eine Gift(3), Gift(5) oder Gift(7) Probe ablegen.
 
 === Hortgespühr
 *Voraussetzungen:* - +
 *Attribut:* ER +
 *Machtstufe:* 1 +
+*Aktion:* M +
 *Beschreibung:* Ein Drache mit dieser Fähigkeit spürt instinktiv Eindringlinge in seinem Hort und weiß ob Gegenstände fehlen.
 Um das Hortgespühr zu aktivieren, muss der Drache permanent 5 MP einsetzen.
 Als Hort gilt dann ein abgeschlossener Raum, den er als seine Heimat ansieht, z.B. ein Höhlensystem, eine Bergspitze oder ein Krater. +
@@ -203,6 +253,7 @@ Der Drache kann jederzeit den Hort aufgeben und erhält die eingesetzten 5 MP zu
 *Voraussetzungen:* - +
 *Attribut:* - +
 *Machtstufe:* 2 +
+*Aktion:* N/A +
 *Beschreibung:* Drachen mit dieser Fähigkeit sind immun gegen alle Gifte.
 Das heißt, sie bestehen jede Verteidigungs-Probe gegen Gift automatisch.
 Ausnahme sind jedoch Gifte, die explizit nur gegen Drachen wirken.
@@ -211,6 +262,7 @@ Ausnahme sind jedoch Gifte, die explizit nur gegen Drachen wirken.
 *Voraussetzungen:* - +
 *Attribut:* - +
 *Machtstufe:* 2 +
+*Aktion:* N/A +
 *Beschreibung:* Drachen mit dieser Fähigkeit sind immun gegen alle Gifte.
 Das heißt, sie bestehen jede Verteidigungs-Probe gegen Krankheiten automatisch.
 Ausnahme sind jedoch Krankheiten, die explizit nur gegen Drachen wirken.
@@ -219,6 +271,7 @@ Ausnahme sind jedoch Krankheiten, die explizit nur gegen Drachen wirken.
 *Voraussetzungen:* besitzt nicht Fliegen +
 *Attribut:* - +
 *Machtstufe:* 2 +
+*Aktion:* M +
 *Beschreibung:* Manche Drachen verwenden nicht ihre Flügel, um zu fliegen, sondern generieren einen einzigartigen, magischen Effekt, der sie durch die Luft gleiten lässt. +
 Ein Drache mit dieser Fähigkeit kann analog zu Fliegen das Kampfmanöver Luftangriff durchführen und fliegt mit seiner BEW*3.
 Zusätzlich kann der Drache beliebig in der Luft anhalten und an Ort und Stelle verweilen ohne landen zu müssen. +
@@ -228,6 +281,7 @@ Auch wenn es sich um einen magischen Effekt handelt, kann dieser nicht gebannt w
 *Voraussetzungen:* Raumflug +
 *Attribut:* EN +
 *Machtstufe:* 6 +
+*Aktion:* A +
 *Beschreibung:* Bewegt sich ein Drache durch den Weltraum mit Hilfe des Raumfluges, so kann er unter der Aufwendung von 50 MP eine Art interstellaren Teleport durchführen, den sogenannten Lichtsprung.
 Dazu muss sich der Drache auf eine ihm bekannte Stelle im Weltraum konzentrieren (z.B. ein Sternensystem, den Orbit eines Planeten, eine bestimmten Nebel, etc.).
 Gelingt ihm dann eine EN-Probe mit einem Sehr Guten Erfolg, so versetzt er sich augenblicklich an diese Stelle.
@@ -235,21 +289,41 @@ Die Drachen nutzen diese Fähigkeit, um interstellare Flüge deutlich zu verkür
 Der Drache kann sich an einen 10 Lichtjahre entfernten Punkt im Weltraum versetzen.
 
 === Magie unterdrücken
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* EN 8 +
+*Attribut:* EN +
+*Machtstufe:* 3, 5, 7, 9 +
+*Aktion:* M +
+*Beschreibung:* Ein Drache mit dieser Fähigkeit kann den Fluss der Energien des Aethers kurzfristig stören und damit die magischen Aktivitäten in seinem direkten Umfeld stören.
+
+Nutzt der Drache die Fähigkeit, würfelt er eine konkurrierende EN-Probe gegen alle Wesen im Umkreis von 15 Metern um ihn herum.
+Wie bei allen konkurrierenden Umgebungseffekten wirft jedes andere Wesen eine eigene EN-Probe.
+Jedes Wesen, das weniger Erfolge als der Drache hat, muss je nach Machtstufe folgenden Malus auf alle Spruchzauberei-Proben hinnehmen:
+
+* *Machtstufe 3:* -1 auf die Würfe zum Erfolg
+* *Machtstufe 5:* -2 auf die Würfe zum Erfolg
+* *Machtstufe 7:* -3 auf die Würfe zum Erfolg
+* *Machtstufe 9:* -4 auf die Würfe zum Erfolg
+
+Die Wirkung dieser Fähigkeit hält eine Kampfrunde an.
 
 === Magie widerstehen
-*Voraussetzungen:* +
-*Attribut:* +
-*Machtstufe:* +
-*Beschreibung:*
+*Voraussetzungen:* EN 8 +
+*Attribut:* EN +
+*Machtstufe:* 3, 5, 7, 9 +
+*Aktion:* N/A +
+*Beschreibung:* Der Drache ist besonders resistent gegenüber magischen Attacken.
+Je nach Machtstufe erhält er einen Bonus auf jede Magieabwehr-Probe:
+
+* *Machtstufe 3:* +1 auf die Würfe zum Erfolg
+* *Machtstufe 5:* +2 auf die Würfe zum Erfolg
+* *Machtstufe 7:* +3 auf die Würfe zum Erfolg
+* *Machtstufe 9:* +4 auf die Würfe zum Erfolg
 
 === Nahrungssubstitution
 *Voraussetzungen:* Aether Wahrnehmung +
 *Attribut:* - +
 *Machtstufe:* 3 +
+*Aktion:* N/A +
 *Beschreibung:* Im Zuge der Entwicklung zu einer Rasse von Sternenfahrern haben die Drachen aufgrund der langen Reisen durch den Weltraum eine Möglichkeit entwickelt, ihren Bedarf an Nahrung durch Magie zu substituieren.
 Ein Drache muss keine Nahrung (Essen und Wasser) zu sich nehmen, allerdings benötigt er stetigen Zugang zum Aether.
 Ein Anti-Magisches Feld oder eine Ebene ohne Magie zwingt den Drachen dazu, normale Nahrung zu sich zu nehmen.
@@ -258,6 +332,7 @@ Ein Anti-Magisches Feld oder eine Ebene ohne Magie zwingt den Drachen dazu, norm
 *Voraussetzungen:* ER 8 +
 *Attribut:* - +
 *Machtstufe:* 7 +
+*Aktion:* N/A +
 *Beschreibung:* Ein Drache mit dieser Fähigkeit besitzt ein übernatürliches Gespür für den physikalischen Raum.
 Der Drache ignoriert alle negativen Modifikatoren auf Angriffswürfe, die durch Deckung entstehen.
 Ausschließlich perfekte Deckung gewährt den üblichen Schutz.
@@ -266,6 +341,7 @@ Ausschließlich perfekte Deckung gewährt den üblichen Schutz.
 *Voraussetzungen:* Flug, Nahrungssubstitution +
 *Attribut:* - +
 *Machtstufe:* 5 +
+*Aktion:* N/A +
 *Beschreibung:* Sobald ein Drache die Atmoshäre eines Planeten verlässt und den Weltraum erreicht, setzt automatisch seine Fähigkeit des Raumfluges ein.
 Der Drache generiert ein Feld aus unsichtbarer Energie um seinen Körper herum, das ihn vor jeglichen lebensfeindlichen Umständen des Weltraums schützt und eine lebensfähige Atmosphäre schafft.
 Dieses Feld hat keine Auswirkungen auf Angriffe, gegen diese muss sich der Drache normal verteidigen.
@@ -285,6 +361,7 @@ Ein Drache im Weltraum könnte also beliebig lange überleben.
 *Voraussetzungen:* - +
 *Attribut:* KO +
 *Machtstufe:* 3 +
+*Aktion:* F +
 *Beschreibung:* Drachen heilen körperliche Wunden äußerst schnell.
 Mit dem Einsatz von 5 MP kann der Drache 2W10 TP sofort heilen.
 Der Einsatz der Regeneration benötigt 1 Kampfphase.
@@ -294,12 +371,14 @@ Erreicht ein Drache durch Regeneration seine vollen TP, kann pro weitere 5 MP ei
 *Voraussetzungen:* Schadensresistenz [Schadensart] +
 *Attribut:* - +
 *Machtstufe:* 7 +
+*Aktion:* N/A +
 *Beschreibung:* Der Drache ist gegenüber der gewählten Schadenart immun, d.h. jeder Schaden dieser Art aus beliebiger Quelle wird auf 0 reudziert.
 
 === Schadensresistenz [Schadensart]
 *Voraussetzungen:* Energieaffinität +
 *Attribut:* - +
 *Machtstufe:* 2 +
+*Aktion:* N/A +
 *Beschreibung:* Der Drache erhält pro 2 Machtstufen eine Schadensresistenz von 10 Punkten gegenüber der gewählten Schadensart.
 Er kann dabei jede Schadensart wählen, die auf Basis seiner Energieaffinität nicht als Gegenelement vorliegt.
 Der Drache kann für unterschiedliche Schadensarten diese Eigenschaft mehrfach lernen.
@@ -314,6 +393,7 @@ Er kann daher für diese Fähigkeit nur die Schadensarten Feuer, Frost und Säur
 *Voraussetzungen:* EN 5 +
 *Attribut:* EN +
 *Machtstufe:* 5 +
+*Aktion:* A +
 *Beschreibung:* Mit dieser Fähigkeit kann der Drache einen Weg der Magie lernen und wie Zauberer über sein EN-Attribut Spruchzauberei-Proben ablegen.
 Der Drache lernt keine Zauberschulen wie Elementarimus, sondern nur die einzelnen Wege, wie z.b. Weg des Feuers.
 Er kann diese Fähigkeit mehrfach lernen mit jeweils einem anderen Weg. +
@@ -325,14 +405,23 @@ Drachen brauchen Zaubersprüche nicht mit CP zu lernen.
 *Voraussetzungen:* CH 8 +
 *Attribut:* - +
 *Machtstufe:* 3 +
+*Aktion:* F +
 *Beschreibung:* Der Drache versteht jede Sprache, die von anderen intelligenten Wesen gesprochen wird.
 Tiere und übernatürliche Wesen (wie Dämonen) sind dabei ausgeschlossen.
 Wenn er mit diesen Wesen spricht, kann er für den Einsatz 5 MP für 30 Minuten seine Worte in der passenden Sprache artikulieren.
+
+=== Untrügliche Sicht
+*Voraussetzungen:* EN 8, Perfekte Sicht, Unverlistbare Instinkte +
+*Attribut:* - +
+*Machtstufe:* 5 +
+*Aktion:* N/A +
+*Beschreibung:* Der Drache durchschaut jede Illusion automatisch.
 
 === Unsterblich
 *Voraussetzungen:* - +
 *Attribut:* - +
 *Machtstufe:* 8 +
+*Aktion:* N/A +
 *Beschreibung:* Der Drache wird faktisch unsterblich.
 Er stirbt nicht an Altersschwäche oder wird mit fortschreitendem Alter schwächer oder senil.
 Allerdings kann er natürlich durch körperliche Gewalteinwirkung sterben.
@@ -342,6 +431,7 @@ Magische Alterungseffekte haben auf den Drachen keine Wirkung.
 *Voraussetzungen:* Perfekte Sicht +
 *Attribut:* - +
 *Machtstufe:* 6 +
+*Aktion:* N/A +
 *Beschreibung:* Der Drache geht sehr bewusst mit seinen Urinstinken um und ist daher sehr viel offener für die Eindrücke aus seinem Unterbewusstsein.
 Schon die kleinste Veränderung seiner Umgebung macht ihn aufmerksam.
 Deswegen ist es unmöglich diesen Drachen zu überlisten.
@@ -354,6 +444,7 @@ Ein Drache kann jedoch Opfer von Gelegenheitsangriffen werden.
 *Voraussetzungen:* EN 10 +
 *Attribut:* EN +
 *Machtstufe:* 10 +
+*Aktion:* A +
 *Beschreibung:* Der Drache lernt die Fähigkeit Verfluchen, vgl. link:../rules/core/core_rules_magic_skills.adoc[Magische Fähigkeiten].
 Es gelten die dort beschriebenen Regeln.
 Der Attributsstufe in EN des Drachen ersetzt das Spruchzauberei-Talent in der Anwendung dieser Fähigkeit.
@@ -364,6 +455,7 @@ Diese MP regenerieren sich nach den üblichen Regeln.
 *Voraussetzungen:* - +
 *Attribut:* - +
 *Machtstufe:* 5 +
+*Aktion:* N/A +
 *Beschreibung:* Drachen erleben in ihrem Leben viel und auf ihren Reisen durch den Weltraum sehen sie Dinge, die außerhalb der sterblichen Vorstellungskraft liegen.
 Dinge, von denen sie nicht sprechen und das gutem Grund: die reine Existenz solcher Dinge dürfte den Verstand der meisten Sterblichen überfordern.
 Aus diesem Grund sind Drachen mit dieser Fähigkeit gegen die Auswirkungen von Furcht-Probe immun, das heißt, Drachen müssen gar nicht erst würfeln, sie bestehen jede Furcht-Probe automatisch.
@@ -376,6 +468,7 @@ In der Schwärze zwischen den Sternen gibt es wahrlich grauenhafte Schrecken.
 *Voraussetzungen:* EN 10 +
 *Attribut:* EN +
 *Machtstufe:* 7 +
+*Aktion:* A +
 *Beschreibung:* Ein Drache mit dieser Fähigkeit kann in einem Umkreis von 10 Kilometern um seine Position herum das Wetter einmalig ändern.
 Ein sonniger Tag kann somit schnell zu einer regnerischen und stürmigen Angelegenheit werden. +
 Dazu benötigt der Drache eine erfolgreiche EN-Probe.

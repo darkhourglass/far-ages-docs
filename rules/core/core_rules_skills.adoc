@@ -33,26 +33,15 @@ Man kann eine Besondere Fähigkeit nur einmal lernen.
 
 *Voraussetzungen:* Akrobatik 5, Nahkampfwaffen 5 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeit befähigt einen Kämpfer einen Gegner mit
-waghalsigen Manövern zu attackieren. Der Charakter, der einen
-Akrobatischen Angriff durchführen will, muss dazu eine Nahkampfwaffe,
-deren Größe seiner Zweithand entspricht, führen (oder wenn er mit
-Zweiwaffenkampf attackiert, zwei passende Nahkampfwaffen) und darf
-maximal 1/4 seiner Maximalen Traglast bei sich tragen.
+*Beschreibung:* Diese Fähigkeit befähigt einen Kämpfer einen Gegner mit waghalsigen Manövern zu attackieren.
+Der Charakter, der einen Akrobatischen Angriff durchführen will, muss dazu eine Nahkampfwaffe, deren Größe seiner Zweithand entspricht, führen (oder wenn er mit Zweiwaffenkampf attackiert, zwei passende Nahkampfwaffen) und darf maximal 1/4 seiner Maximalen Traglast bei sich tragen.
 
-Ein Akrobatischer Angriff kann angesagt werden, wenn der Charakter
-entweder das Kampfmanöver Angriffsbewegung nutzen möchte oder sich
-bereits im Nahkampf befindet.
+Ein Akrobatischer Angriff kann angesagt werden, wenn der Charakter entweder das Kampfmanöver Angriffsbewegung nutzen möchte oder sich bereits im Nahkampf befindet.
 
-Im Fall der Angriffsbewegung kann sich der Charakter nach der Attacke in
-derselben Kampfphase weiterbewegen, bis hin zu seiner halbierten BEW
-(solange er innerhalb der Kampfphase nicht bereits seine BEW verbraucht
-hat).
+Im Fall der Angriffsbewegung kann sich der Charakter nach der Attacke in derselben Kampfrunde weiterbewegen, bis hin zu seiner halbierten BEW, solange ernicht bereits seine BEW verbraucht hat.
 
-Wenn der Charakter bereits im Nahkampf gebunden ist, so kann er eine
-Attacke durchführen und sich dann in derselben Kampfphase bewegen (auch
-maximal seine halbierte BEW). Er kann sich damit aus einem Kampf lösen,
-ohne die Kampfmanöver Flucht oder Zurückweichen benutzen zu müssen.
+Wenn der Charakter bereits im Nahkampf gebunden ist, so kann er eine Attacke durchführen und sich dann in derselben Kampfrunde bewegen (auch maximal seine halbierte BEW).
+Er kann sich damit aus einem Kampf lösen, ohne die Kampfmanöver Flucht oder Zurückweichen benutzen zu müssen.
 
 Seine Bewegung führen in beiden Fällen zu keinem Gelegenheitsangriff.
 
@@ -60,17 +49,14 @@ Seine Bewegung führen in beiden Fällen zu keinem Gelegenheitsangriff.
 
 *Voraussetzungen:* Schildverteidigung 10 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Am Anfang einer Kampfphase kann ein Charakter mit dieser
-Fähigkeit ansagen, ob er diese nutzen möchte. Tut er dies, so nimmt er
-eine besonders mächtige Verteidigungsstellung ein. Dazu muss er
-allerdings einen Schild in der Hand halten. Er kann jeden Angriff im
-Nahkampf mit seinem Talent Schildverteidigung versuchen abzuwehren, egal
-wie oft er angriffen in dieser Kampfphase wird.
+*Beschreibung:* Am Anfang einer Kampfrunde kann ein Charakter mit dieser Fähigkeit ansagen, ob er diese nutzen möchte.
+Tut er dies, so nimmt er eine besonders mächtige Verteidigungsstellung ein.
+Dazu muss er allerdings einen Schild in der Hand halten.
+Er kann jeden Angriff im Nahkampf mit seinem Talent Schildverteidigung versuchen abzuwehren, egal wie oft er angriffen in dieser Kampfrunde wird.
 
-Er kann Barriere beliebig lange weiterführen. Während dieser Zeit darf
-er jedoch keine Angriffe ansagen (er kann jedoch Gelegenheitsangriffe
-durchführen) oder Zaubersprüche vorbereiten. Er kann nur das
-Bewegungsmanöver Rennen einsetzen, dieses jedoch nur mit halbierter BEW.
+Er kann Barriere beliebig lange weiterführen.
+Während dieser Zeit darf er jedoch keine Angriffe ansagen (er kann jedoch Gelegenheitsangriffe durchführen) oder Zaubersprüche vorbereiten.
+Er kann nur das Bewegungsmanöver Rennen einsetzen, dieses jedoch nur mit halbierter BEW.
 
 === Durchschlagender Treffer [Waffe]
 
@@ -102,19 +88,15 @@ zufällig bestimmte Richtung.
 
 *Voraussetzungen:* Nahkampfwaffen 5, Parade 5 oder Schildverteidigung 5 +
 *CP-Kosten:* 500 +
-*Beschreibung:* Nach einer erfolgreichen Parade oder einer erfolgreichen
-Schildverteidigung - je nach Wahl der Fähigkeit - kann der Charakter,
-wenn er eine Nahkampfwaffe in der Hand hält, eine zusätzliche Attacke
-mit dieser Waffe gegen den Opponenten führen. Der Angriff kann nur gegen
-diesen Gegner geführt werden und die Fähigkeit ist auch nur einmal pro
-Kampfphase einsetzbar.
+*Beschreibung:* Nach einer erfolgreichen Parade oder einer erfolgreichen Schildverteidigung - je nach Wahl der Fähigkeit - kann der Charakter, wenn er eine Nahkampfwaffe in der Hand hält, eine zusätzliche Attacke mit dieser Waffe gegen den Opponenten führen.
+Der Angriff kann nur gegen diesen Gegner geführt werden.
 
 === Kampfinstinkt
 
-*Voraussetzungen:* Nahkampfwaffen 5, GE 3 +
+*Voraussetzungen:* Nahkampfwaffen 5 +
 *CP-Kosten:* 100 +
-*Beschreibung:* Dank dieser Fähigkeit kann ein Charakter bis zu drei
-Gelegenheitsangriffe pro Kampfphase durchführen.
+*Beschreibung:* Dank dieser Fähigkeit kann ein Charakter mehr Gelegenheitsangriffe pro Kampfrunde durchführen.
+Die Anzahl der Gelegenheitsangriffe wird berechnet aus seinen Stufen in (GE + ER) / 2 (minimal 1).
 
 === Kampfkunst I
 
@@ -159,67 +141,49 @@ Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schad
 
 *Voraussetzungen:* - +
 *CP-Kosten:* 200 +
-*Beschreibung:* Am Anfang eines Kampfs kann ein Charakter mit dieser
-Fähigkeit sich in einen Kampfrausch versetzten. Der Charakter erhält
-dadurch im Nahkampf einen einmaligen Bonus von +2 auf alle
-Schadenswürfel. Jedoch erhält er auch einen Malus von -1 auf alle Würfe
-zum Erfolg bei Verteidigungswürfen. Ein Kampfrausch dauert so viele
-Kampfphasen, wie der Charakter Stufen in seinem KO-Attribut hat.. Danach
-ist der Kampfrausch automatisch vorbei (der Charakter kann einen
-Kampfrausch nicht freiwillig abbrechen). Während des Rausches kann der
-Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten
-und Springen verwenden und auch keine Talente außer Kampftalente. Am
-Ende des Kampfrausches ist der Charakter für 5 – KO (Minimum 1)
-Kampfphasen erschöpft.
+*Beschreibung:* Am Anfang eines Kampfs kann ein Charakter mit dieser Fähigkeit sich in einen Kampfrausch versetzten.
+Der Charakter erhält dadurch im Nahkampf einen einmaligen Bonus von +2 auf alle Schadenswürfel.
+Jedoch erhält er auch einen Malus von -1 auf alle Würfe zum Erfolg bei Verteidigungswürfen.
+Ein Kampfrausch dauert so viele Kampfrunden, wie der Charakter Stufen in seinem KO-Attribut hat.
+Danach ist der Kampfrausch automatisch vorbei (der Charakter kann einen Kampfrausch nicht freiwillig abbrechen).
+Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten und Springen verwenden und auch keine Talente außer Kampftalente.
+Am Ende des Kampfrausches ist der Charakter für 5 – KO (Minimum 1) Kampfrunden erschöpft.
 
 === Kampfrausch II
 
 *Voraussetzungen:* Kampfrausch I +
 *CP-Kosten:* 200 +
-*Beschreibung:* Die Fähigkeit verbessert Kampfrausch I. Die
-Schadenswürfel des rasenden Charakters erhalten nun einen Bonus von +4,
-während die Verteidigungstalente einen Malus von -2 erhalten.
+*Beschreibung:* Die Fähigkeit verbessert Kampfrausch I.
+Die Schadenswürfel des rasenden Charakters erhalten nun einen Bonus von +4, während die Verteidigungstalente einen Malus von -2 erhalten.
 
-Immer wenn der Charakter einen Gegner besiegt oder sogar getötet hat,
-muss er sich ein neues Ziel suchen. Dieses Ziel ist nächste Kreatur, die
-der Rasende erreichen kann. Handelt es sich dabei um ein Ziel, das der
-Rasende normalerweise nicht angreifen will (z.B. weil es Verbündeter ist
-oder ein Ziel mit niedriger Priorität), muss der Rasende eine
-Willenskraft-Probe bestehen oder muss das Ziel angreifen. Der Rasende
-kann nur direkt angreifen, er kann nicht um Ziele herumlaufen, um sie
-von hinten zu attackieren.
+Immer wenn der Charakter einen Gegner besiegt oder sogar getötet hat, muss er sich ein neues Ziel suchen.
+Dieses Ziel ist die nächste Kreatur, die der Rasende erreichen kann. Handelt es sich dabei um ein Ziel, das der Rasende normalerweise nicht angreifen will (z.B. weil es Verbündeter ist oder ein Ziel mit niedriger Priorität), muss der Rasende eine Willenskraft-Probe bestehen oder muss das Ziel angreifen.
+Der Rasende kann nur direkt angreifen, er kann nicht um Ziele herumlaufen, um sie von hinten zu attackieren.
 
-Die Dauer der Raserei verbessert sich auf 2*KO Kampfphasen, bevor die
-Erschöpfung eintritt.
+Die Dauer der Raserei verbessert sich auf 2*KO Kampfrunden, bevor die Erschöpfung eintritt.
 
 === Kampfrausch III
 
 *Voraussetzungen:* Kampfrausch II +
 *CP-Kosten:* 200 +
-*Beschreibung:* Die Fähigkeit wirkt, wenn der Charakter sich in einen
-Kampfrausch versetzt. Es gelten die beschriebenen Regeln für Kampfrausch
-I und II. Ein Charakter im Berserkerrausch muss er immer die direkteste
-Art und den direktesten Weg wählen, um an den Gegner heranzukommen. Der
-Charakter kann nur Nahkampfwaffen verwenden. Er kann im nur Hieb
-Ausweichen zur Verteidigung benutzen. Es gelten die Boni und Mali aus
-Raserei.
+*Beschreibung:* Die Fähigkeit wirkt, wenn der Charakter sich in einen Kampfrausch versetzt.
+Es gelten die beschriebenen Regeln für Kampfrausch I und II.
+Ein Charakter im Berserkerrausch muss er immer die direkteste Art und den direktesten Weg wählen, um an den Gegner heranzukommen.
+Der Charakter kann nur Nahkampfwaffen verwenden.
+Er kann im nur Hieb Ausweichen zur Verteidigung benutzen.
+Es gelten die Boni und Mali aus Raserei.
 
-Zusätzlich erhält der Charakter einen Bonus von +2 auf alle Würfe zum
-Erfolg für das Talent Nahkampfwaffen und einen Bonus 2*ST auf die
-Schadenswürfe.
+Zusätzlich erhält der Charakter einen Bonus von +2 auf alle Würfe zum Erfolg für das Talent Nahkampfwaffen und einen Bonus 2*ST auf die Schadenswürfe.
 
-Während sich der Charakter im Rausch befindet, ist immun gegenüber
-Ekel-, Furcht- und Horror-Proben.
+Während sich der Charakter im Rausch befindet, ist immun gegenüber Ekel-, Furcht- und Horror-Proben.
 
 Am Ende des Kampfes muss der Charakter eine Willenskraft-Probe ablegen.
-Die nötige Anzahl der Erfolge ist die Anzahl der Gegner geteilt durch 2,
-die er bekämpft und besiegt hat. Misslingt die Probe, muss er
-weiterkämpfen! Das heißt, er sucht sich die nächsten lebenden Ziele aus,
-die mit unter seine Freunde sein können. Er bleibt dabei im
-Berserkerrausch.
+Die nötige Anzahl der Erfolge ist die Anzahl der Gegner geteilt durch 2, die er bekämpft und besiegt hat.
+Misslingt die Probe, muss er weiterkämpfen!
+Das heißt, er sucht sich die nächsten lebenden Ziele aus, die mit unter seine Freunde sein können.
+Er bleibt dabei im Kampfrausch.
 
-Die Dauer der Raserei verbessert sich auf 3*KO Kampfphasen, bevor die
-Erschöpfung eintritt.
+Die Dauer der Raserei verbessert sich auf 3*KO Kampfrunden, bevor die Erschöpfung eintritt.
 
 === Kampfreflexe
 
@@ -292,29 +256,20 @@ den Widerstand nicht übertreffen.
 
 *Voraussetzungen:* Hieb Ausweichen 10, Verbessertes Hieb Ausweichen, ER 5 +
 *CP-Kosten:* 500 +
-*Beschreibung:* Charaktere mit dieser Fähigkeit dürfen, wenn sie Opfer
-eines Angriffs mit Projektilwaffen werden, ihr Hieb Ausweichen-Talent
-einsetzen, wodurch die Projektilwaffen-Probe zu einer Konkurrierenden
-Probe wird. Diese Fähigkeit ist nur einmal pro Kampfphase einsetzbar und
-nur gegen Angriffe, die der Charakter wahrnehmen kann. Die Fähigkeit
-kann unter gleichen Umständen für Wurfwaffenangriffe, die auf den
-Charakter gezielt sind, verwendet werden.
+*Beschreibung:* Charaktere mit dieser Fähigkeit dürfen, wenn sie Opfer eines Angriffs mit Projektilwaffen werden, ihr Hieb Ausweichen-Talent einsetzen, wodurch die Projektilwaffen-Probe zu einer Konkurrierenden Probe wird.
+Diese Fähigkeit ist nur einmal pro Kampfrunde einsetzbar und nur gegen Angriffe, die der Charakter wahrnehmen kann.
+Die Fähigkeit kann unter gleichen Umständen für Wurfwaffenangriffe, die auf den Charakter gezielt sind, verwendet werden.
 
 === Projektilhagel
 
 *Voraussetzungen:* Projektilwaffen 8 +
 *CP-Kosten:*: 400 +
-*Beschreibung:* Mit dieser Fähigkeit kann ein Charakter mit einer
-Projektilwaffe mit einem Angriff mehrere Schüsse abgeben. Führt der
-Charakter in einer Kampfphase eine Projektilwaffen-Probe gegen ein Ziel
-aus, so kann er mit dieser Fähigkeit am Ende seiner Kampfphase eine
-weitere Angriffsprobe mit seiner Projektilwaffe ausführen.
+*Beschreibung:* Mit dieser Fähigkeit kann ein Charakter mit einer Projektilwaffe mit einem Angriff mehrere Schüsse abgeben.
+Führt der Charakter in einer Kampfrunde eine Projektilwaffen-Probe gegen ein Ziel aus, so kann er mit dieser Fähigkeit in seiner Kampfrunde direkt eine weitere Angriffsprobe mit seiner Projektilwaffe ausführen.
 
-Er kann dabei das gleiche Ziel attackieren oder ein anderes, welches
-jedoch maximal 6,00 Meter von dem vorherigen Ziel entfernt sein kann.
+Er kann dabei das gleiche Ziel attackieren oder ein anderes, welches jedoch maximal 6,00 Meter von dem vorherigen Ziel entfernt sein kann.
 
-Diese zusätzliche Probe wird mit einem Malus von -1 auf die Würfe zum
-Erfolg gewürfelt.
+Diese zusätzliche Probe wird mit einem Malus von -1 auf die Würfe zum Erfolg gewürfelt.
 
 === Rundumschlag
 
@@ -372,19 +327,16 @@ verursacht.
 
 *Voraussetzungen:* Projektilwaffen 5, Waffenfokus[Projektilwaffe] +
 *CP-Kosten:* 200 +
-*Beschreibung:* Ein Charakter mit dieser Fähigkeit ist besonders geübt
-und geschickt darin, seine Projektilwaffen kampfbereit zu machen. Für
-die gewählte Projektilwaffe reduziert sich deren Kampfphasen um 1 bis zu einem Minimum von 1. +
- Die Fähigkeit kann mehrfach für unterschiedliche Projektilwaffen gelernt werden.
+*Beschreibung:* Ein Charakter mit dieser Fähigkeit ist besonders geübt und geschickt darin, seine Projektilwaffen kampfbereit zu machen.
+Für die gewählte Projektilwaffe reduziert sich das Nachladen auf eine Freie Aktion.
+Die Fähigkeit kann mehrfach für unterschiedliche Projektilwaffen gelernt werden.
 
 === Schnelle Waffenbereitschaft [Nahkampfwaffe]
 
-*Voraussetzungen:* Nahkampfwaffen10, Waffenfokus[Nahkampfwaffe] +
+*Voraussetzungen:* Nahkampfwaffen 10, Waffenfokus[Nahkampfwaffe] +
 *CP-Kosten:* 200 +
-*Beschreibung:* Ein Charakter mit dieser Fähigkeit kann die gewählte
-Nahkampfwaffe geschickt ziehen und einsatzbereit machen. Die Zahl der
-Kampfphasen, um die Waffe einzusetzen reduziert sich um 1 bis zu einem
-Minimum von 1. +
+*Beschreibung:* Ein Charakter mit dieser Fähigkeit kann die gewählte Nahkampfwaffe geschickt ziehen und einsatzbereit machen.
+Für die gewählte Nahkampfwaffe reduziert sich das Ziehen auf eine Freie Aktion.
 Die Fähigkeit kann mehrfach für unterschiedliche Nahkampfwaffen gelernt werden.
 
 === Spektakulärer Angriff [Nahkampfwaffe]
@@ -452,14 +404,10 @@ unterschiedliche Waffen.
 
 *Voraussetzungen:* Hieb Ausweichen 5 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeit erweitert das Talent Hieb Ausweichen
-permanent. Es bleibt einmal pro Kampfphase einsetzbar. Wenn der
-Charakter, der dieses Talent einsetzt, sich erfolgreich verteidigt, kann
-er als Spontane Aktion 1,50 Meter zurückweichen. Dieser Schritt muss
-legal sein, d.h. der Weg darf nicht blockiert sein. Dies provoziert beim
-Gegner keinen Gelegenheitsangriff, jedoch können Gegner, die in
-Kampfreichweite im Ausweichbereich sind, Gelegenheitsangriffe
-durchführen.
+*Beschreibung:* Diese Fähigkeit erweitert das Talent Hieb Ausweichen permanent.
+Wenn der Charakter, der dieses Talent einsetzt, sich erfolgreich verteidigt, kann er als Freie Aktion 1,50 Meter zurückweichen.
+Dieser Schritt muss legal sein, d.h. der Weg darf nicht blockiert sein.
+Dies provoziert beim Gegner keinen Gelegenheitsangriff, jedoch können Gegner, die in Kampfreichweite im Ausweichbereich sind, Gelegenheitsangriffe durchführen.
 
 === Verbesserte Initiative
 
@@ -573,20 +521,13 @@ Waffe, erhält er einen Bonus von +3 auf die Schadensprobe.
 
 *Voraussetzungen:* Nahkampfwaffen 12, Gegenangriff, Starker Waffenfokus[Nahkampfwaffe] +
 *CP-Kosten:* 500 +
-*Beschreibung:* Wirbelnde Klinge ist eine sehr mächtige Fähigkeit, mit
-dem Charakter mehrere Gegner gleichzeitig abwehren und gegen diese auch
-Angriffe führen kann. Die Fähigkeit erweitert das Talent Nahkampfwaffen.
+*Beschreibung:* Wirbelnde Klinge ist eine sehr mächtige Fähigkeit, mit dem Charakter mehrere Gegner gleichzeitig abwehren und gegen diese auch Angriffe führen kann.
+Die Fähigkeit erweitert das Talent Nahkampfwaffen.
 
-Der Charakter kann dieses Talent mit Wirbelnde Klinge zur Verteidigung
-einsetzen, jedoch darf er für den Rest der Kampfphase kein anderes
-Verteidigungstalent mehr einsetzten und er kann auch keine regulären
-Attacken mehr ausführen. Er kann gegen beliebig viele Gegner mit dem
-Talent verteidigen, solange er sie unter den üblichen Regeln sehen kann.
-Bei einer erfolgreichen Verteidigung darf er mit diesem Talent einen
-Gegenangriff durchführen, d.h. Er würfelt mit Nahkampfwaffen einen
-Angriff aus, jedoch maximal einmal pro Gegner und verteidigtem Angriff.
-Er darf diesen Angriff auch nur gegen den Angreifer führen, gegen den er
-sich verteidigt hat.
+Der Charakter kann dieses Talent mit Wirbelnde Klinge zur Verteidigung einsetzen, jedoch darf er für den Rest der Kampfrunde kein anderes Verteidigungstalent mehr einsetzten und er kann auch keine regulären Attacken mehr ausführen.
+Er kann gegen beliebig viele Gegner mit dem Talent verteidigen, solange er sie unter den üblichen Regeln sehen kann.
+Bei einer erfolgreichen Verteidigung darf er mit diesem Talent einen Gegenangriff durchführen, d.h. er würfelt mit Nahkampfwaffen einen Angriff aus, jedoch maximal einmal pro Gegner und verteidigtem Angriff.
+Er darf diesen Angriff auch nur gegen den Angreifer führen, gegen den er sich verteidigt hat.
 
 === Zielgenauigkeit [Projektilwaffen]
 
@@ -612,12 +553,8 @@ oder schlechter war.
 
 *Voraussetzungen:* Nahkampfwaffen 8, Waffenfokus[Waffe] +
 *CP-Kosten:* 400 +
-*Beschreibung:* Führt der Charakter eine Nahkampfwaffe, für die er diese
-Fähigkeit gelernt hat, kann er am Ende seiner Kampfphase, in der er eine
-reguläre Attacke mit der geführten Waffe ausgeführt hat, erneut eine
-Angriffsprobe gegen das gleiche Ziel durchführen. Es können keine
-anderen Ziele angegriffen werden. Die zusätzliche Attacke erhält einen
-Malus von -1 auf die Würfe zum Erfolg.
+*Beschreibung:* Führt der Charakter eine Nahkampfwaffe, für die er diese Fähigkeit gelernt hat, kann er in seiner Kampfrunde, in der er eine reguläre Attacke mit der geführten Waffe ausgeführt hat, erneut eine Angriffsprobe gegen das gleiche Ziel durchführen.
+Es können keine anderen Ziele angegriffen werden. Die zusätzliche Attacke erhält einen Malus von -1 auf die Würfe zum Erfolg.
 
 Diese Fähigkeit kann mehrfach für andere Waffen gelernt werden.
 
@@ -625,14 +562,10 @@ Diese Fähigkeit kann mehrfach für andere Waffen gelernt werden.
 
 *Voraussetzungen:* Nahkampfwaffen 4 +
 *CP-Kosten:* 300 +
-*Beschreibung:* Diese Fähigkeit ermöglicht es einem Charakter mit zwei
-Waffen gleichzeitig (wenn auch in unterschiedlichen Händen) zu kämpfen.
-Um die Fähigkeit nutzen zu können, darf er in seiner Zweithand keine
-größere Waffe als es ihm durch seine Größenkategorie erlaubt ist
-benutzen.
+*Beschreibung:* Diese Fähigkeit ermöglicht es einem Charakter mit zwei Waffen gleichzeitig (wenn auch in unterschiedlichen Händen) zu kämpfen.
+Um die Fähigkeit nutzen zu können, darf er in seiner Zweithand keine größere Waffe als es ihm durch seine Größenkategorie erlaubt ist benutzen.
 
-Die üblichen Mali von auf die Attacke mit der Haupthand bzw. Zweithand
-reduzieren sich auf -2/-4 Würfel.
+Die üblichen Mali von auf die Attacke mit der Haupthand bzw. Zweithand reduzieren sich auf -2/-4 Würfel.
 
 === Zweiwaffenkampf, Verbesserter
 
@@ -794,17 +727,11 @@ legitim.
 
 *Voraussetzungen:* Überzeugen 5 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeit erweitert das Talent Überzeugen. Es
-dient dazu einen Gegner, ob im Kampf (im Kampf dauert diese
-Überzeugen-Probe 1 Kampfphase) oder im Redegefecht zu reizen und dazu zu
-unüberlegten Handlungen zu bewegen. Das Talent Überzeugen wird in
-Verwendung mit Verspotten wird gegen eine Beherrschen-Proben des Opfers
-geworfen. Für einen Durchschnittlichen Erfolg erhält das Opfer einen
-Malus von -1 auf alle Würfe zum Erfolg für eine Anzahl an Kampfphasen
-gleich der Stufe des Überzeugen-Talents geteilt durch 2 (abgerundet,
-Minimum 1). Hat der verspottende Charakter einen Guten Erfolg gewürfelt,
-beträgt der Malus -2, bei einem Sehr Guten -3 bis max. -4 bei einem
-Hervorragenden Erfolg.
+*Beschreibung:* Diese Fähigkeit erweitert das Talent Überzeugen.
+Es dient dazu einen Gegner, ob im Kampf (im Kampf dauert diese Überzeugen-Probe 1 Kampfrunde) oder im Redegefecht zu reizen und dazu zu unüberlegten Handlungen zu bewegen.
+Das Talent Überzeugen wird in Verwendung mit Verspotten wird gegen eine Beherrschen-Proben des Opfers geworfen.
+Für einen Durchschnittlichen Erfolg erhält das Opfer einen Malus von -1 auf alle Würfe zum Erfolg für eine Anzahl an Kampfrunden gleich der Stufe des Überzeugen-Talents geteilt durch 2 (abgerundet, Minimum 1).
+Hat der verspottende Charakter einen Guten Erfolg gewürfelt, beträgt der Malus -2, bei einem Sehr Guten -3 bis max. -4 bei einem Hervorragenden Erfolg.
 
 === Verwirren
 
@@ -831,20 +758,14 @@ erhöht die Dauer um 5 Minuten.
 
 *Voraussetzungen:* Wissen[Pflanzen] 5, Handwerk[Brauen] 5 oder Wissen[Arkanes] 5 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Die Alchemie ist die alte Kunst des Tränkebrauens und
-des Mischens von diversen Zutaten zu einer wirksamen Substanz. Dies
-könnte ein Heiltrank, ein Schlaftrank oder Schießpulver sein. Der
-Charakter kann auch unbekannte Substanzen am Geruch, Geschmack, Aussehen
-etc. erkennen und eventuell klassifizieren. Dem Charakter sind weiterhin
-verschiedene Rezepte und Untersuchungsmethode für alchemistische
-Erzeugnisse bekannt. Für eine präzise Herstellung oder Untersuchung
-benötigt der Charakter jedoch meistens ein Labor und entsprechende
-Zutaten. Die notwendigen Proben werden mit dem Handwerk[Brauen]-Talent
-(oder Wissen[Arkanes]) gewürfelt. Der SL kann Erfolgsgrade für das
-Fehlen dieser Voraussetzungen erhöhen, ebenso für schwierige Experimente
-oder Gemische. Im Dokument[Magie] finden sich außerdem
-Herstellungsrezepte für diverse Tränke sowie die spielrelevanten
-Mindestwürfe.
+*Beschreibung:* Die Alchemie ist die alte Kunst des Tränkebrauens und des Mischens von diversen Zutaten zu einer wirksamen Substanz.
+Dies könnte ein Heiltrank, ein Schlaftrank oder Schießpulver sein.
+Der Charakter kann auch unbekannte Substanzen am Geruch, Geschmack, Aussehen etc. erkennen und eventuell klassifizieren.
+Dem Charakter sind weiterhin verschiedene Rezepte und Untersuchungsmethode für alchemistische Erzeugnisse bekannt.
+Für eine präzise Herstellung oder Untersuchung benötigt der Charakter jedoch ein Labor und entsprechende Zutaten.
+Die notwendigen Proben werden mit dem Handwerk[Brauen]-Talent (oder Wissen[Arkanes]) gewürfelt.
+Ein Charakter mit dieser Fähigkeit benötigt nicht das Talent Magische Gegenstände Herstellen, um Tränke herzustellen.
+Der SL kann Erfolgsgrade für das Fehlen dieser Voraussetzungen erhöhen, ebenso für schwierige Experimente oder Gemische.
 
 === Artefaktkunde
 
@@ -944,25 +865,17 @@ zum Bestehen der Talentprobe hinnehmen.
 
 *Voraussetzungen:*, Kunst[Schauspiel] 5, Wissen[Legenden] 5, Zauberschule[Illusionismus] 5 oder Zauberschule[Menestrel] 1, Minnegesang +
 *CP-Kosten:* 500 +
-*Beschreibung:* Die alte Kunst des Geschichten Erzählens, bzw. des
-Legenden Erzählens ist nur noch wenigen bekannt. Diese Fähigkeit ist
-nicht einfach nur geschicktes Erzählen, sondern mit diesem Talent lässt
-der Charakter die Geschichte lebendig werden und zieht das Publikum so
-in seinen Bann.
+*Beschreibung:* Die alte Kunst des Geschichten Erzählens, bzw. des Legenden Erzählens ist nur noch wenigen bekannt.
+Diese Fähigkeit ist nicht einfach nur geschicktes Erzählen, sondern mit diesem Talent lässt der Charakter die Geschichte lebendig werden und zieht das Publikum so in seinen Bann.
 
-Der Charakter kann zusätzlich Illusionsmagie benutzen, um daraus eine
-tolle Aufführung zu machen. Eigentlicher Kern ist seine Stimme, die von
-allen gehört und verstanden werden muss, damit die Fähigkeit wirkt.
+Der Charakter kann zusätzlich Illusionsmagie benutzen, um daraus eine tolle Aufführung zu machen.
+Eigentlicher Kern ist seine Stimme, die von allen gehört und verstanden werden muss, damit die Fähigkeit wirkt.
 
-Für jeden Erfolg im Talent Kunst[Schauspiel] kann der Charakter 10
-Zuhörer insoweit beeinflussen, dass sie ihn auf keinen Fall angreifen.
-Das mag in einer Theatervorstellung nicht von Nutzen sein, dort wirkt
-das Talent Minnegesang, sowie eventuelle Illusionseffekte. Auf einer
-Straße in Mitten eines Raubüberfalls ist dieser Effekt sehr viel
-nützlicher. Im Kampf benötigt das Talent mindestens 4 Kampfphasen. Der
-SL kann im allgemeinen erlauben, dass die Benutzung des Talents dazu
-führt, dass der Charakter bei den überzeugten Personen für einen
-gewissen Zeitraum einen Bonus auf alle Kommunikationsproben erhält.
+Für jeden Erfolg im Talent Kunst[Schauspiel] kann der Charakter 10 Zuhörer insoweit beeinflussen, dass sie ihn auf keinen Fall angreifen.
+Das mag in einer Theatervorstellung nicht von Nutzen sein, dort wirkt das Talent Minnegesang, sowie eventuelle Illusionseffekte.
+Auf einer Straße in Mitten eines Raubüberfalls ist dieser Effekt sehr viel nützlicher.
+Im Kampf benötigt das Talent mindestens 4 Kampfrunden.
+Der SL kann im allgemeinen erlauben, dass die Benutzung des Talents dazu führt, dass der Charakter bei den überzeugten Personen für einen gewissen Zeitraum einen Bonus auf alle Kommunikationsproben erhält.
 
 === Mechanik
 
