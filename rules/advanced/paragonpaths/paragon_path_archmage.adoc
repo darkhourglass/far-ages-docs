@@ -1,0 +1,89 @@
+= Erzmagier
+
+[quote, Ashken Wyldgast, Erzmagier]
+Wissen ist Macht.
+
+== Beschreibung
+
+
+== Voraussetzungen
+
+Um Erzmagier Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen erfüllen:
+
+* Spruchzauberei 8
+* Wissen[Arkanes] 8
+* Aether Wahrnehmung 4
+* Mindestens zwei unterschiedliche Zauberschulen auf Stufe 5
+* Kennt mindestens eine Zauberspruch mit POT 9 oder mehr
+
+== Stufen lernen
+
+Erzmagier können ohne weitere Einschränkungen Stufen lernen.
+
+== Stufe 1
+
+Auf Stufe 1 lernt ein Erzmagier immer die Fähigkeit Aetherfeuer.
+
+== Maximale Stufe
+
+Der Schicksalspfad des Erzmagiers gibt keine maximale Stufe vor.
+
+== Fähigkeiten
+
+Folgende Fähigkeiten können Erzmagier pro Stufe lernen, vorausgesetzt, sie erfüllen die weiteren Voraussetzungen.
+
+=== Aetherfeuer
+*Voraussetzungen:* Erzmagier 1 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* EN +
+*Kampf:* A +
+*Beschreibung:*
+
+=== Aethertransfusion
+*Voraussetzungen:* Erzmagier 3 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* - +
+*Kampf:* M +
+*Beschreibung:* Der Erzmagier hat Verständnis für die Ströme der Magie im Aether perfektioniert.
+Einmal pro Tag kann der Erzmagier die Aethertransfusion als Kampfmanöver einsetzen.
+Er regeneriert sofort 3W10 MP.
+Die Fähigkeit kann mehrmals gelernt werden.
+Jedes Mal erhält der Erzmagier eine zusätzliche, tägliche Anwendung und die regenerierten MP steigen um 1W10.
+
+=== Arkane Macht
+*Voraussetzungen:* Erzmagier 1 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Das Verständnis des Erzmagiers für die Komplexität von Zaubersprüchen wird geschärft.
+Der Erzmagier erhält einen permanenten Bonus auf seine Attributseigenschaften MaxPOT von +1 und MP von +20.
+Er kann diese Fähigkeit mehrfach lernen, die Effekte sind kumulativ.
+
+=== Arkaner Wille
+*Voraussetzungen:* Erzmagier 5 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Mit Erlernen dieser Fähigkeit addiert der Erzmagier seine Stufen im Talent Erzmagier zu allen Magieabwehr-Proben.
+
+=== Mächtiger Gegenzauber
+*Voraussetzungen:* Erzmagier 5 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* EN +
+*Kampf:* R +
+*Beschreibung:*
+
+=== Zauberverständnis [Zauberspruch]
+*Voraussetzungen:* Erzmagier 1, Zauberspruch wurde gelernt +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Durch das intensive Studieren eines Zauberspruches ist der Erzmagier so vertraut mit diesem, dass sein Ausprechen zu einer Leichtigkeit wird.
+Für den gewählten Zauberspruch reduziert sich die Vorbereitung auf 1 Kampfrunde.
+Die Fähigkeit kann mehrfach gelernt werden, jedoch immer für einen anderen Zauberspruch.
