@@ -1,5 +1,7 @@
 = Kampf
 
+:toc:
+
 == Einleitung
 
 [quote, Gratak „Eisenbieger“, Veteran und Ausbilder beim 3.Regiment des Hauses der Gekreuzten Klingen]
@@ -1188,13 +1190,6 @@ Waffen, die nicht-tödlichen Schaden verursachen, können keinen tödlichen Scha
 === Schadensarten
 
 Bisher haben wir Schaden sehr allgemein gefasst und unterschiedliche Quellen des Schadens nicht bedacht.
-Tatsächlich ist der Schaden, der nicht speziell ausgezeichnet ist, einfach normaler, körperlicher Schaden.
-Das heißt, er äußert sich in Wunden, Narben, Blutverlust und ähnlichem.
-
-Jedoch gibt es noch andere Schadensarten, die durch unterschiedliche Situationen hervorgerufen werden können.
-
-Meistens findet man bei der Angabe des Schadens eine Angabe über die Schadensart.
-Wird keine Schadensart angebenden, dann handelt es sich um körperlichen Schaden.
 
 Ist eine spezielle Schadensart angegeben, dann hat der erlittene Schaden meistens eine zusätzliche Wirkung auf den betroffenen Charakter, die weiter unter beschrieben wird.
 
@@ -1221,6 +1216,15 @@ Schadensresistenzen wirken sich immer nur auf die eine Schadensart aus.
 Folgende Schadensarten sind in den Grundregeln abgedeckt.
 Sofern nicht anders angegeben, reduzieren die Schadenspunkte die TP eines Charakters und normale Rüstung reduziert den Schaden.
 Wird ein Guter Erfolg bei der Angriffsprobe erzielt, tritt ein zusätzlicher Effekt ein.
+
+==== Physisch oder körperlich
+
+Als physicher oder körperlicher Schaden wird jeder Schaden bezeichnet, der durch fassbare Gegenstände oder Objekte entsteht.
+Dies können Waffen sein, Fäuste eines Trolls oder eine Kanonenkugel sein.
+Ebenso zählt der harte Fußboden als Objekt, auf den der Charakter fällt, wenn er stolpert.
+
+Sofern nicht anders angegeben, gilt jeder Schaden als körperlicher Schaden.
+Dieser Schaden wird von den TP abgezogen und es schützt normale Rüstung.
 
 ==== Feuer
 
@@ -1252,33 +1256,53 @@ Typische Quellen sind Blitzschläge, natürliche, wie magische, bestimmte techno
 
 Als zusätzlichen Effekt erleidet der Charakter einen körperlichen Schock, er ist für eine Kampfphase benommen.
 
+==== Aetherisch
+
+Aetherischer Schaden greif nicht den Körper des Ziels, sondern seine Verbindung zum Aether selbst an.
+Durch wird dem Opfer die Energie entzogen, die es ihm erlaubt, Zauber zu wirken.
+
+Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
+Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
+
 ==== Magie
 
 Kanalisierte, magische Energie verursacht diese Art von Schaden.
 Sehr häufig ist dies bei Zaubersprüchen der Fall und bei einigen magischen Phänomenen.
 
-Magischer Schaden umgeht jede normale Rüstung.
-Es gibt jedoch verzauberte Rüstungen, die auch solchen Schaden abhalten.
+Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
 Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
 ==== Mental
 
-Kosmischen Grauen bevölkert das Multiversum.
-Mentaler Schaden greift nie die TP des Charakters an, sondern die Stabilitätspunkte (SP).
+Kosmisches Grauen bevölkert das Multiversum.
+Mentaler Schaden greift nicht die TP des Charakters an, sondern die Stabilitätspunkte (SP).
 Der mentale Schaden wird normal ausgewürfelt und dann von den SP abgezogen.
+
 Gegen diese Art von Schaden schützt keine normale Rüstung.
 Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
+
+==== Nekrotisch
+
+Nekrotischer Schaden entsteht aus der dunkeln und lebensfeindlichen Energie von Ebon.
+Nur wenige Lebewesen überstehen Schaden aus dieser Quelle mit weniger als nur körperlichen Schaden.
+
+Gegen diese Art von Schaden schützt keine normale Rüstung.
+
+Als zusätzlicher Effekt erleidet der Charakter 1W6 SP Schaden.
 
 ==== Übersicht der Schadensarten
 [cols=",,,",options="header"]
 |===
 |Schadensart |Pool |Normale Rüstung schützt |Zusätzlicher Effekt
+|Physisch |TP |Ja |Nein
 |Feuer |TP |Ja |Ja
 |Frost |TP |Ja |Ja
 |Säure |TP |Ja |Ja
 |Schock |TP |Ja |Ja
+|Aetherisch |MP |Nein |Nein
 |Magie |TP |Nein |Nein
 |Mental |SP |Nein |Nein
+|Nekrotisch |TP |Nein |Ja
 |===
 
 == Trefferpunkte
@@ -1527,22 +1551,26 @@ In beiden Fällen ist ein Charakter, der aufgestanden ist, nicht mehr kampfunfä
 
 Verlorene TP und MP können regeneriert werden.
 Dies geschieht für gewöhnlich nur, wenn der Charakter sich ausruht, bzw. schläft.
-Schläft der Charakter für mindestens 8 Stunden ungestört, bzw., ruht sich für diesen Zeitraum aus, dann erhält er einen von seiner Attribute-Stufe abhängigen Wert und addiert die Zahl zu seinen aktuellen TP bzw. MP.
-Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm TP und MP zustehen.
+Abhängig von seiner Ruhezeit regeneriert ein Charakter unterschiedlich viele TP und MP.
 
 Folgende Tabelle gibt Aufschluss über die Regeneration:
 
 [cols=",,",options="header"]
 |===
 |Ruheperiode |TP Regeneration |MP Regeneration
-|1 Stunde |KO |EN
-|8 Stunden |KO*3 |EN*3
+|15 Minuten |1W10 |1W10
+|1 Stunde |KO/2 1W10 |EN/2 1W10
+|8 Stunden |KO 1W10 | EN 1W10
 |24 Stunden |Vollständig |Vollständig
 |===
 
+Der Charakter würfelt die angegebene Würfel und addiert die Augen zusammen.
+Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm maximale TP und MP zustehen.
+
+
 === Regeneration bei Ohnmacht
 
-Erreicht ein Charakter 0 oder weniger TP, dann regeneriert er einmalig KO*2 TP innerhalb von 6 Kampfphasen.
+Erreicht ein Charakter 0 oder weniger TP, dann regeneriert er einmalig 1W10 TP nach Ablauf von 6-KO (min. 1) Kampfrunden.
 Erreicht er dadurch keinen TP über 0, so bleibt er ohnmächtig.
 
 === Heilung von Verletzungen

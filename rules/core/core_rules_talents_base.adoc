@@ -2,35 +2,23 @@
 
 == Hinweise zu den Einträgen
 
-*Kategorie:* Die generischen Talente sind in Kategorien aufgeteilt,
-die grob beschreiben, wofür das Talent gut ist, bzw. in welchen Bereich
-es am ehesten fällt. Dies hat keinen spieltechnischen Effekt, hilft
-jedoch der Übersicht. Kampagnenspezifische Talente können sich auch in
-diese Kategorien einordnen.
+*Kategorie:* Die generischen Talente sind in Kategorien aufgeteilt, die grob beschreiben, wofür das Talent gut ist, bzw. in welchen Bereich es am ehesten fällt.
+Dies hat keinen spieltechnischen Effekt, hilft jedoch der Übersicht.
+Kampagnenspezifische Talente können sich auch in diese Kategorien einordnen.
 
-* *Kampftalente:* Diese Talente beschreiben die Fähigkeiten des
-Charakters im Kampf, seine Geübtheit im Kampf mit Waffen und der Abwehr
-von Angriffen.
-* *Schurkische Talente:* In dieser Kategorie finden sich Talente, die
-Heimlichkeit und Geschick favorisieren. Nicht ausschließlich für
-Schurken geeignet.
-* *Soziale Talente:* beinhaltet Talente zur sozialen Interaktion und
-Talente, die im gemeinschaftlichen Umfeld zu finden, zum Beispiel das
-Handwerk.
-* *Wissenstalente:* Talente in dieser Kategorie symbolisieren das Wissen
-des Charakters und seinen Umgang mit diesem.
-* *Magische Talente:* diese Kategorie beinhaltet den Umgang des
-Charakters mit den verschiedenen Aspekten der Magie.
+* *Kampftalente:* Diese Talente beschreiben die Fähigkeiten des Charakters im Kampf, seine Geübtheit im Kampf mit Waffen und der Abwehr von Angriffen.
+* *Schurkische Talente:* In dieser Kategorie finden sich Talente, die Heimlichkeit und Geschick favorisieren.
+Nicht ausschließlich für Schurken geeignet.
+* *Soziale Talente:* beinhaltet Talente zur sozialen Interaktion und Talente, die im gemeinschaftlichen Umfeld zu finden, zum Beispiel das Handwerk.
+* *Wissenstalente:* Talente in dieser Kategorie symbolisieren das Wissen des Charakters und seinen Umgang mit diesem.
+* *Magische Talente:* diese Kategorie beinhaltet den Umgang des Charakters mit den verschiedenen Aspekten der Magie.
 
-*Name:* der Name des Talents. Proben, die dieses Talent betreffen,
-werden in der bekannten Schreibweise angeben, diesen Namen verwendet.
+*Name:* der Name des Talents. Proben, die dieses Talent betreffen, werden in der bekannten Schreibweise angeben, diesen Namen verwendet.
 
-*Mindestwurf:* der Mindestwurf, der für dieses Talent gilt. Für
-generische Talente ist das immer der Standardmindestwurf.
+*Mindestwurf:* der Mindestwurf, der für dieses Talent gilt. Für generische Talente ist das immer der Standardmindestwurf.
 
-*Ungeübte Anwendung:* Ja oder Nein: Ja, wenn das Talent ungeübt
-angewendet werden kann, Nein, wenn nicht. Siehe dazu die Beschreibung
-von Talentproben im Dokument Würfelsystem.
+*Ungeübte Anwendung:* Ja oder Nein: Ja, wenn das Talent ungeübt angewendet werden kann, Nein, wenn nicht.
+Siehe dazu die Beschreibung von Talentproben im Dokument Würfelsystem.
 
 *Verwandtes Attribut:* das verwandte Attribut des Talents.
 
@@ -53,24 +41,13 @@ Diese Kategorie beinhaltet alle wichtigen Talente, die benötigt werden, um in e
 Ein Charakter, der im Kampf geschult ist, wird hier die meisten Talente finden, die er benötigt.
 Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch hohe körperliche Belastungen.
 
-=== Athletik
-
-*Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* KO +
-*Kampf:* W +
-*Beschreibung:* Mit diesem Talent können die Standardproben Klettern und
-Schwimmen gewürfelt werden.
-
 === Hieb Ausweichen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampf:* R +
-*Beschreibung:* Im Nahkampf kann der Charakter versuchen, einem
-wahrgenommenen Angriff auszuweichen. Dies ist ein Verteidigungstalent. +
-Nur einmal pro Kampfphase einsetzbar.
+*Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 
 === Nahkampfwaffen
 
@@ -94,9 +71,8 @@ Nur einmal pro Kampfphase einsetzbar.
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampf:* R
-*Beschreibung:* Im Nahkampf kann sich der Charakter mit einer getragenen Nahkampfwaffe verteidigen.
-Dieses Talent ist ein Verteidigungstalent, mit dem sich ein Charakter im Nahkampf gegen Angreifer wehren kann.
-Er muss dazu eine Waffe in einer Hand halten.
+*Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
+Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 
 === Projektilwaffen
 
@@ -104,7 +80,7 @@ Er muss dazu eine Waffe in einer Hand halten.
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampf:* A +
-*Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln..
+*Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
 
 === Reiten
 
@@ -124,7 +100,7 @@ In diesen Fällen übernimmt dieses Talent die Funktion von Körperbeherrschungs
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ST +
 *Kampf:* R +
-*Beschreibung:* Erlaubt einen Schild zur Verteidigung gegen Nahkampfattacken zu nutzen.
+*Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 
 === Unbewaffneter Kampf
@@ -153,8 +129,8 @@ Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind d
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampf:* W +
-*Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Akrobatik, Fallen und Springen gewürfelt werden.
+*Kampf:* M +
+*Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Akrobatik gewürfelt werden.
 
 === Fallen Entschärfen
 
@@ -183,6 +159,14 @@ Wirft der Charakter einen Misserfolg, so muss er mindestens 10 Minuten warten, b
 Ein Patzer zerstört die Falle. +
 Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
 Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
+
+=== Klettern
+
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* KO +
+*Kampf:* M +
+*Beschreibung:* Mit diesem Talent können die Standardproben Klettern gewürfelt werden.
 
 === Reflex
 
@@ -218,6 +202,22 @@ Bei einem Patzer bricht er sein Werkzeug entzwei. +
 Dieses Talent geht von einer leisen und heimlichen Aktion aus.
 Damit schließt sich Sprengstoff oder Troll als „Dietrich“ aus.
 Magisch verschlossene Türen lassen sich damit nicht öffnen.
+
+=== Springen
+
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* GE +
+*Kampf:* M +
+*Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Springen gewürfelt werden.
+
+=== Schwimmen
+
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* KO +
+*Kampf:* M +
+*Beschreibung:* Mit diesem Talent können die Standardproben Schwimmen gewürfelt werden.
 
 === Taschendiebstahl
 
@@ -259,6 +259,14 @@ Dabei kann der SL die Würfelanzahl je nach Situation anpassen, wenn es schwerer
 Diese Kategorie von Talenten umfasst Talente, die zur sozialen Interaktion mit NPCs oder auch anderen Spielercharakteren dienen.
 Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozialen Gefüge definieren, so zum Beispiel sein Handwerk.
 
+=== Einschüchtern
+
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* CH +
+*Kampf:* W +
+*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Einschüchtern würfeln.
+
 === Handwerk [ein Handwerk]
 
 *Mindestwurf:* SMW +
@@ -266,8 +274,7 @@ Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozia
 *Verwandtes Attribut:* KO +
 *Kampf:* -  +
 *Beschreibung:* Dieses Talent kann mehrfach gelernt werden.
-Welche Handwerke gelernt werden können, kann auch von der Berufung des
-Charakter abhängen.
+Welche Handwerke gelernt werden können, kann auch von der Berufung des Charakter abhängen.
 Die Ausprägung kann beispielsweise folgendermaßen ausfallen: Grobschmied, Feinschmied, Waffenschmied, Tischler, Maurer, Dachdecker, Metallgießer, Bauer, Fleischer...
 Die Spieler und der SL können sich weitere Handwerke ausdenken, wenn Bedarf besteht.
 Ein Handwerk kann nur ausgeführt werden, wenn die entsprechenden Werkzeuge und Materialien vorhanden sind.
@@ -288,13 +295,13 @@ Das Talent kann teilweise hilfreich sein, um andere, kunstferne Zwecke zu unters
 Der SL kann daher entscheiden, ob höhere Erfolgsgrade einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft, oder um kunstferne Aktionen durchzuführen.
 Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuchen zu fälschen.
 
-=== Konversation
+=== Täuschen
 
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
 *Kampf:* W +
-*Beschreibung:* Der Charakter kann mit diesem Talent alle Standardproben des Typs Einschüchtern, Täuschen, Überzeugen und Verführen würfeln.
+*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Täuschen würfeln.
 
 === Tierfreundschaft
 
@@ -309,6 +316,14 @@ Das Talent wirkt jedoch nicht ewig, daher sind regelmäßige, monatliche Proben 
 Trifft der Charakter auf ein fremdes Tier, so kann benötigt er 5 oder mehr Erfolge.
 Bei einem wilden und fremden Tier sind mindestens 10 Erfolge nötig.
 Das Talent zählt nicht für monströse und magische Tiere.
+
+=== Überzeugen
+
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* CH +
+*Kampf:* W +
+*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Überzeugen würfeln.
 
 == Wissenstalente
 
@@ -363,7 +378,12 @@ Ungeübte Anwender sollten sich des Risikos stets bewusst sein.
 
 Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auch Angriffsproben, die üblicherweise mit anderen Talenten geführten werden, substituieren, wenn sie technomantische Waffen damit führen.
 
-Die Anzahl der Kampfphasen ist von dem Gerät selbst abhängig, ähnlich der Verwendung von Waffen.
+=== Überleben
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* ER +
+*Kampf:* A +
+*Beschreibung:* tba
 
 === Wissen [Spezialgebiet]
 
@@ -378,13 +398,80 @@ Für gewöhnlich werden jedoch keine Spielwerte weitergegeben, z.B. “diese Pfl
 Jede weitere Dramatisierung ist natürlich angemessen.
 
 Folgende Wissensgebiete sind beispielweise erlernbar:
-Architektur und Ingenieurwesen, Arkanes, Astronomie, Außerweltliche, Geschichte, Geographie, Gewölbe, Legenden, Lokales, Mathematik, Monster, Pflanzen, Tiere, Untote, Volk, Waffen und Rüstung.
+
+|===
+|Name |Voraussetzungen |Beschreibung
+
+|Architektur und Ingenieurwesen
+|-
+|Column 3, row 1
+
+|Arkanes
+|Beruf (?)
+|Column 3, row 2
+
+|Astronomie
+|-
+|Column 3, row 3
+
+|Außerweltliche
+|-
+|Column 3, row 4
+
+|Geschichte
+|-
+|Column 3, row 5
+
+|Geographie
+|-
+|Column 3, row 6
+
+|Gewölbe
+|-
+|Column 3, row 7
+
+|Gifte
+|-
+|Column 3, row 8
+
+|Legenden
+|-
+|Column 3, row 9
+
+|Lokales
+|-
+|Column 3, row 10
+
+|Mathematik
+|-
+|Column 3, row 10
+
+|Monster
+|-
+|Column 3, row 10
+
+|Pflanzen
+|-
+|Column 3, row 10
+
+|Tiere
+|-
+|Column 3, row 10
+
+|Untote
+|-
+|Column 3, row 10
+
+|Völker
+|-
+|Column 3, row 10
+
+|Waffen und Rüstung
+|-
+|Column 3, row 10
+|===
 
 Der SL und die Spieler können sich auch weitere Wissensgebiete ausdenken, wenn sie diese für nützlich halten.
-
-Wissen [Arkanes] kann nicht als freies Wissensgebiet bei der Charaktererschaffung gewählt werden.
-
-Für die Wissensgebiete Lokales und Volk müssen zusätzliche Einschränkungen gewählt werden, nämliche über welche Lokalität das Wissen vorhanden ist (z.B. eine Stadt) oder über welches Volk (wähle ein Volk: Menschen, Zwerge, Elfen, usw...).
 
 == Magische Talente
 
@@ -416,6 +503,15 @@ Zum Beispiel wäre es möglich, Teilinformationen abzufragen, wie Art der Magie 
 Ein Patzer kann zu völlig falschen Eindrücken führen, die der Charakter jedoch nicht als solche erkennt.
 
 Grundsätzlich ist jede Verwendung von Ather Wahrnehmung mit einem kleinen, visuellen Effekt versehen, beispielsweise ein leichtes Glühen um die Augen oder die Augen werden komplett weiß oder ein untersuchter Gegenstand wird von einem leichten Schimmern erfasst, dessen Ursprung in den Augen des Charakter liegt.
+
+=== Disziplin
+
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* SB +
+*Kampf:* F +
+*Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Ekel und Furcht werfen.
+Horror-Proben können mit diesem Talent nicht gewürfelt werden.
 
 === Spruchzauberei [Zauberschule]
 [[anchor-spellcasting]]
