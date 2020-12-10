@@ -274,7 +274,7 @@ Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozia
 *Verwandtes Attribut:* KO +
 *Kampf:* -  +
 *Beschreibung:* Dieses Talent kann mehrfach gelernt werden.
-Welche Handwerke gelernt werden können, kann auch von der Berufung des Charakter abhängen.
+Welche Handwerke gelernt werden können, kann auch von der Berufung des Charakters abhängen.
 Die Ausprägung kann beispielsweise folgendermaßen ausfallen: Grobschmied, Feinschmied, Waffenschmied, Tischler, Maurer, Dachdecker, Metallgießer, Bauer, Fleischer...
 Die Spieler und der SL können sich weitere Handwerke ausdenken, wenn Bedarf besteht.
 Ein Handwerk kann nur ausgeführt werden, wenn die entsprechenden Werkzeuge und Materialien vorhanden sind.
@@ -401,6 +401,10 @@ Folgende Wissensgebiete sind beispielweise erlernbar:
 
 |===
 |Name |Voraussetzungen |Beschreibung
+
+|Alchemie
+|-
+|Column 3, row 1
 
 |Architektur und Ingenieurwesen
 |-

@@ -1,0 +1,129 @@
+= Braumeister
+
+== Beschreibung
+
+== Voraussetzungen
+
+Um Braumeister Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen erfüllen:
+
+* Handwerk [Brauen] auf Stufe 3
+* Wissen [Alchemie] auf Stufe 3
+* Fähigkeit Alchemie
+
+== Stufen lernen
+
+Braumeister können ohne weitere Einschränkungen Stufen lernen
+
+== Stufe 1
+
+Auf Stufe 1 lernt der Braumeister immer Braumeisterexpertise und y
+
+== Maximale Stufe
+
+Der Schicksalspfad des Braumeisters gibt keine maximale Stufe vor.
+
+== Fähigkeiten
+
+=== Braumeisterexpertise
+*Voraussetzungen:* Braumeister 1 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Braumeister erhält ein tieferes Verständnis für die alchemistischen Geheimnisse.
+Folgende Talente sind für ihn ab sofort Berufstalente:
+
+* Disziplin
+* Spruchzauberei [Alchemie]
+* Wissen [Pflanzen]
+* Wissen [Gifte]
+* Wähle außerdem ein weitere Spruchzauberei-Talent aus der Liste: Weg des Feuers, Weg des Wassers, Weg der Erde oder Weg der Luft
+
+=== Exquisiter Tropfen [Getränk]
+*Voraussetzungen:* Braumeister 1, Handwerk [Brauen] 5 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Neben den Geheimnissen der Alchimie kann der Braumeister auch die Meisterung des profanen Genusses erlernen.
+Mit Erlernen dieser Fähigkeit muss der Braumeister ein bestimmtes, nicht-magisches Getränk festlegen.
+In Abstimmung mit dem SL kann zur Vereinfachung auch eine Gruppe gewählt werden, wie z.B. Biere.
+Der Braumeister besitzt nun Wissen, um das Getränk perfekt zu brauen.
+Er benötigt wie bei der Herstellung von anderen Gegenständen Zeit und Ressourcen.
+Beides ist jedoch um 25% reduziert.
+Weiterhin erziehlt jede reguläre Portion (z.B. eine Flasche, ein Fass) 25% mehr des üblichen Verkaufspreises.
+Der Braumeister kann diese Fähigkeit mehrfach lernen, jedes Mal für ein anderes Getränk.
+
+=== Improvisiertes Brauen
+*Voraussetzungen:* Braumeister 4 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Durch sein tiefgreifendes Wissen über Substanzen und Materialien, kann der Braumeister den Brauvorgang improvisieren, in dem er Zutaten flexibel ersetzt.
+Pro hergestellten Trank kann der Braumeister eine nicht-magische Zutat beliebig ersetzen und erhält das identische Ergebnis.
+
+=== Mächtiger Effekt
+*Voraussetzungen:* Braumeister 4 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Stellt der Braumeister einen Trank her, dessen Effekt in Würfel oder Zahlen gemessen wird, wird diese Zahl um 50% erhöht.
+In Fall von Würfeln um mindesten 1 Würfel.
+
+=== Schnelles Brauen I
+*Voraussetzungen:*  Braumeister 2 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Braumeister ist mit dem Brauen von Tränken und alchemistischen Gebräuen so vertraut, dass die benötigte Arbeitszeit zur Herstellung dieser Gegenstände um 25% sinkt.
+
+=== Schnelles Brauen II
+*Voraussetzungen:*  Braumeister 5, Schnelles Brauen I +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Die benötigte Arbeitszeit zur Herstellung von Tränken sinkt um weitere 25%.
+
+=== Schnelles Brauen III
+*Voraussetzungen:*  Braumeister 9, Schnelles Brauen II +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:*  - +
+*Verwandtes Attribut:*  - +
+*Kampf:* - +
+*Beschreibung:* Die benötigte Arbeitszeit zur Herstellung von Tränken sinkt um weitere 25%.
+
+=== Schnelle Verwendung I
+*Voraussetzungen:* Braumeister 2 +
+*Mindestwurf:*  - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* F / R +
+*Beschreibung:* Einmal pro Kampfrunde kann der Braumeister als Freie Aktion oder als Reaktion einen Trank trinken - normalerweise gilt dies als Kampfmanöver.
+Er muss den Trank irgendwo am Körper tragen.
+Tränke im Rucksack müssen nach den üblichen Regeln herausgesucht werden.
+
+=== Schnelle Verwendung II
+*Voraussetzungen:* Braumeister 7 +
+*Mindestwurf:*  - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* M +
+*Beschreibung:* Einmal pro Kampfrunde kann der Braumeister als Kampfmänöver einem beliebigen, direkt neben ihm stehenden Charakter einen Trank einflößen.
+Er muss den Trank irgendwo am Körper tragen.
+Tränke im Rucksack müssen nach den üblichen Regeln herausgesucht werden.
+Der Zielcharakter verliert keinerlei Aktionen.
+Die Effekte des Tranks treten entsprechend der üblichen Regeln ein.
+Möchte sich ein Charakter gegen das Einflößen wehren, wird eine konkurrierende Unbewaffneter Kampf-Probe gewürfelt.
+Erhält der Braumeister mehr Erfolge, ist die Anwendung der Fähigkeit erfolgreich.
+
+=== Verlängerter Effekt
+*Voraussetzungen:* Braumeister 3 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Stellt der Braumeister einen Trank her, dessen Effekt über eine bestimmte Zeit wirkt, wird diese Wirkungsdauer um 25% erhöht.
