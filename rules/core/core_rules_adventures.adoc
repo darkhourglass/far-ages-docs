@@ -778,3 +778,88 @@ Finanzen:
 Bänker10% des Einlagerungswertes
 
 Pfandleiher50-75% des Gesamtwertes
+
+
+
+=== Regeneration bei Ohnmacht
+
+Erreicht ein Charakter 0 oder weniger TP, dann regeneriert er einmalig 1W10 TP nach Ablauf von 6-KO (min. 1) Kampfrunden.
+Erreicht er dadurch keinen TP über 0, so bleibt er ohnmächtig.
+
+=== Heilung von Verletzungen
+
+Die Heilung von Verletzungen ist vom Verletzungsgrad abhängig.
+Je stärker eine Trefferzone verletzt ist, umso länger dauert die Heilung.
+Die folgende Tabelle gibt Auskunft über die nötigen Voraussetzungen, wann eine Verletzung heilen kann:
+
+[cols=",,,",options="header"]
+|===
+|Verletzungsgrad a|
+Natürliche Heilung
+
+{empty}[Zeit]
+
+a|
+Handwerk[Arzt] benötigt
+
+{empty}[Ja/Nein]
+
+|Anzahl der Erfolge bei Handwerk[Arzt]
+|Oberflächlich |1 Tag |Nein |1
+|Leicht |3 Tage |Nein |1
+|Mittelschwer |5 Tage |Ja |2
+|Schwer |21Tage |Ja |5
+|Gefährlich |42 Tage |Ja |8
+|Tödlich |84 Tage |Ja |12
+|===
+
+Die Verletzungsgrade Oberflächlich und Leicht können ohne den Eingriff eines ausgebildeten Arztes geheilt werden und zwar nach Ablauf der gegeben Zeit, also 1 bzw. 3 Tage.
+Dennoch kann ein Arzt diese Verletzungen behandeln, in dem er einen Erfolg in einer Handwerk[Arzt]-Probe erreicht.
+Dadurch halbiert sich die Heilungsdauer.
+
+Die höheren Verletzungsgrade benötigen die Behandlung eines Arztes, um in der angegeben Zeit zu heilen.
+Ist kein Arzt zur Stelle, dauert die Heilung doppelt so lange.
+Manche Wunden heilen nicht oder bringen weitere Nachteile, wenn kein Arzt sie versorgt.
+
+Scheitert eine Probe, so kann ein Charakter erst nach 24 Stunden noch einmal versuchen, die Verletzung zu heilen.
+
+
+
+=== Verunreinigungen der Wunden
+
+Nicht immer können Verletzungen sauber verpflegt werden.
+Der SL kann für solche „Feldarbeiten“ die zur Verfügung stehenden Würfel für die Handwerk[Arzt]-Probe um 1-3 Erfolge reduzieren, wenn nicht ausreichende Ausrüstung, Hygiene oder auch Ruhe vorhanden ist.
+
+=== Magische Heilung
+
+Im Allgemeinen bietet die Welt von Far Ages auch *magische Heilung* an.
+Dies sind meistens Zaubersprüche, die zielgerichtet entweder bestimmte Verletzungsgrade heilen oder eine bestimmte Anzahl von TP regenerieren.
+Solche Zauber sind mächtig und sind nicht allen Magiern zugänglich.
+Unter magische Heilung fällt auch die Verwendung von Heiltränken oder ähnlichen alchemistischen Erzeugnissen.
+
+=== Verlorene Gliedmaßen
+
+*Verlorene Gliedmaßen* müssen nicht zwangsläufig das Ende eines Charakter bedeutet.
+Zwar ist ein Krieger ohne Schwertarm wohl kaum mehr nützlich, aber es gibt Mittel und Wege, dies auszugleichen.
+Der Spieler sollte immer zuerst die Rollenspieltechnische Herausforderung annehmen, denn ein auch solche Ereignisse gehören zu dem Gefahrenpotenzial des Abenteurer Lebens.
+
+Um regeltechnisch solche Verluste darzustellen, gibt es einige Richtlinien, an denen sich der SL bedienen kann und es steht ihm frei, diese zu erweitern:
+
+* *ein verlorener Arm* bedeutet, dass der Charakter keine Waffen mehr benutzen kann, die zwei Hände zur Benutzung brauchen, z.B. Bögen, Armbrüste, Zweihänder.
+Ebenso kann er nicht mehr zwei Waffen gleichzeitig oder eine Waffe und ein Schild gleichzeitig nutzen.
+Auf Geschick und Stärke basierende Proben, die zwei Arme und Hände erfordern, erfordern einen Sehr Guten Erfolg, um zu gelingen.
+* *ein verlorenes Bein* wirkt sich deutlich schlimmer aus.
+Der Charakter wird eine Krücke oder Prothese (s.u.) benötigen.
+Im Fall einer Krücke fällt der benutzte Arm ebenfalls zur Benutzung weg.
+Generell kann sich der Charakter nur noch mit halbierten Bewegungsraten fortbewegen.
+Niederschlags-Proben erfordern immer mindestens einen Guten Erfolg, auch wenn der erlittene Schaden weniger Erfolge erfordert.
+
+*Prothesen* sind Ersatzgliedmaßen von geringer bis fantastischer Qualität.
+Ein Beispiel für eine geringe Qualität ist das altbekannte Holzbein, wobei man dabei immerhin eine Hand wieder frei hat.
+Ebenso als Pendant zum Arm gibt es improvisierte Greifwerkzeuge wie Haken.
+Manche Krieger benutzen auch spezielle Waffen, die sie sich auf ihre Prothese schrauben oder anbinden.
+
+Von wortwörtlich fantastischer Qualität sind Prothesen technomantischen Ursprungs.
+Diese Geräte werden mit der körpereigenen Magie angetrieben und verhalten sich wie das alte Glied.
+Zumindest im Idealfall, man kann sich vorstellen, dass ein solches kompliziertes und auch noch teilweise magisches Konstrukt Fehler anfällig ist oder durch starke, magische Felder und Entladungen beeinträchtigt werden kann.
+

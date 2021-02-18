@@ -4,7 +4,7 @@
 
 *Kategorie:* Die generischen Talente sind in Kategorien aufgeteilt, die grob beschreiben, wofür das Talent gut ist, bzw. in welchen Bereich es am ehesten fällt.
 Dies hat keinen spieltechnischen Effekt, hilft jedoch der Übersicht.
-Kampagnenspezifische Talente können sich auch in diese Kategorien einordnen.
+Kampagnen-spezifische Talente können sich auch in diese Kategorien einordnen.
 
 * *Kampftalente:* Diese Talente beschreiben die Fähigkeiten des Charakters im Kampf, seine Geübtheit im Kampf mit Waffen und der Abwehr von Angriffen.
 * *Schurkische Talente:* In dieser Kategorie finden sich Talente, die Heimlichkeit und Geschick favorisieren.
@@ -42,7 +42,6 @@ Ein Charakter, der im Kampf geschult ist, wird hier die meisten Talente finden, 
 Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch hohe körperliche Belastungen.
 
 === Hieb Ausweichen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -50,7 +49,6 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 *Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 
 === Nahkampfwaffen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ST +
@@ -58,7 +56,6 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
 
 === Niederschlag Widerstehen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* KO +
@@ -66,7 +63,6 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 *Beschreibung:* Mit diesem Talent können Niederschlagsproben gewürfelt werden.
 
 === Parade
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -75,7 +71,6 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 
 === Projektilwaffen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -83,7 +78,6 @@ Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 *Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
 
 === Reiten
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
@@ -95,7 +89,6 @@ Solche Situationen können Kampfgetümmel sein (wenn das Tier nicht entsprechend
 In diesen Fällen übernimmt dieses Talent die Funktion von Körperbeherrschungs-Proben für das Reittier und den Reiter, solange er auf dem Tier sitzt.
 
 === Schildverteidigung
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ST +
@@ -104,7 +97,6 @@ In diesen Fällen übernimmt dieses Talent die Funktion von Körperbeherrschungs
 Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 
 === Unbewaffneter Kampf
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -112,7 +104,6 @@ Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 *Beschreibung:* Mit diesem Talent kann sich der Charakter auch ohne Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
 
 === Wurfwaffen
-
 *Mindestwurf:* SWM +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -125,15 +116,14 @@ Diese Kategorie beschreibt Talente, die auf Heimlichkeit und Geschick basieren.
 Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind diese Talente nicht zwangsläufig nur für dubiose Gestalten gedacht.
 
 === Akrobatik
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampf:* M +
 *Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Akrobatik gewürfelt werden.
 
+[[ref_talents_disarmtraps]]
 === Fallen Entschärfen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
@@ -147,8 +137,8 @@ Ein Patzer löst die Falle sofort aus. +
 Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
 Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
+[[ref_talents_settraps]]
 === Fallen Stellen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
@@ -161,7 +151,6 @@ Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispi
 Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
 === Klettern
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* KO +
@@ -169,15 +158,14 @@ Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 *Beschreibung:* Mit diesem Talent können die Standardproben Klettern gewürfelt werden.
 
 === Reflex
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampf:* F +
 *Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Reflex werfen.
 
+[[ref_talents_sneak]]
 === Schleichen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -188,7 +176,6 @@ Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleic
 Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort Entdecken-Proben von allen Kreaturen in der näheren Umgebung provoziert.
 
 === Schloss Knacken
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
@@ -204,7 +191,6 @@ Damit schließt sich Sprengstoff oder Troll als „Dietrich“ aus.
 Magisch verschlossene Türen lassen sich damit nicht öffnen.
 
 === Springen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -212,7 +198,6 @@ Magisch verschlossene Türen lassen sich damit nicht öffnen.
 *Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Springen gewürfelt werden.
 
 === Schwimmen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* KO +
@@ -220,7 +205,6 @@ Magisch verschlossene Türen lassen sich damit nicht öffnen.
 *Beschreibung:* Mit diesem Talent können die Standardproben Schwimmen gewürfelt werden.
 
 === Taschendiebstahl
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
@@ -236,8 +220,8 @@ Größere oder besser geschützte Gegenstände erfordern im allgemeinen mehr
 Erfolge. +
 Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreichen konnte, ein Patzer lässt den Dieb auf frischer Tat auffliegen.
 
+[[ref_talents_discoverhidden]]
 === Verborgenes Entdecken
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
@@ -245,7 +229,6 @@ Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreich
 *Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Entdecken und Suchen würfeln.
 
 === Verstecken
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
@@ -260,19 +243,18 @@ Diese Kategorie von Talenten umfasst Talente, die zur sozialen Interaktion mit N
 Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozialen Gefüge definieren, so zum Beispiel sein Handwerk.
 
 === Einschüchtern
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
 *Kampf:* W +
 *Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Einschüchtern würfeln.
 
+[[ref_talents_craft]]
 === Handwerk [ein Handwerk]
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* KO +
-*Kampf:* -  +
+*Kampf:* - +
 *Beschreibung:* Dieses Talent kann mehrfach gelernt werden.
 Welche Handwerke gelernt werden können, kann auch von der Berufung des Charakters abhängen.
 Die Ausprägung kann beispielsweise folgendermaßen ausfallen: Grobschmied, Feinschmied, Waffenschmied, Tischler, Maurer, Dachdecker, Metallgießer, Bauer, Fleischer...
@@ -283,28 +265,27 @@ Die Anzahl der Erfolge für das Ausführen des Handwerks hängt vom Ziel ab.
 Mehr Erfolge können die Qualität der Arbeit erhöhen.
 Schlechte Bedingungen, wie z.B. schlechtes Werkzeug, schlechtes Material usw. reduzieren die Würfelanzahl dieser Probe.
 
+[[ref_talents_art]]
 === Kunst [eine Kunst]
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* CH +
 *Kampf:* W +
-*Beschreibung:* Ein Charakter mit diesem Talent beherrscht die Kunst, in der er das Talent gewählt hat, z.B.: Musik, Tanz, Schauspiel, Gesang, Malen/Zeichnen, Poesie, Gaukelei. D
+*Beschreibung:* Ein Charakter mit diesem Talent beherrscht die Kunst, in der er das Talent gewählt hat, z.B.: Musik, Tanz, Schauspiel, Gesang, Malen/Zeichnen, Poesie, Gaukelei.
 Ein Erfolg bietet eine zufriedenstellende Darbietung der Kunst, erst mehrere Erfolge lassen etwas Besonderes entstehen, wofür andere auch bereit sind, Geld zu zahlen.
 Das Talent kann teilweise hilfreich sein, um andere, kunstferne Zwecke zu unterstützen, die nicht durch andere Talente abgedeckt werden.
 Der SL kann daher entscheiden, ob höhere Erfolgsgrade einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft, oder um kunstferne Aktionen durchzuführen.
 Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuchen zu fälschen.
 
 === Täuschen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
 *Kampf:* W +
 *Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Täuschen würfeln.
 
+[[ref_talents_animalfriendship]]
 === Tierfreundschaft
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* CH +
@@ -317,8 +298,8 @@ Trifft der Charakter auf ein fremdes Tier, so kann benötigt er 5 oder mehr Erfo
 Bei einem wilden und fremden Tier sind mindestens 10 Erfolge nötig.
 Das Talent zählt nicht für monströse und magische Tiere.
 
+[[ref_talents_persuade]]
 === Überzeugen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
@@ -330,7 +311,6 @@ Das Talent zählt nicht für monströse und magische Tiere.
 Wissenstalente denken intellektuelle Leistungen des Charakters ab, sowie dessen Wissen als auch dieses Wissen zu erlernen.
 
 === Forschen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
@@ -354,7 +334,6 @@ Im Allgemeinen gilt: Wissen, was an einem Ort nicht gefunden werden kann, weil e
 Weiterhin darf der Charakter mit diesem Talent alle Standard-Proben des Typs Ausfragen würfen.
 
 === Lesen/Schreiben
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
@@ -366,7 +345,6 @@ Starke Ablenkung von außen, Lärm, Unruhe oder ein Kampf belegt die Würfe zum 
 Weitere Anpassungen obliegen dem SL.
 
 === Technomantisches Gerät Benutzen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
@@ -378,6 +356,7 @@ Ungeübte Anwender sollten sich des Risikos stets bewusst sein.
 
 Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auch Angriffsproben, die üblicherweise mit anderen Talenten geführten werden, substituieren, wenn sie technomantische Waffen damit führen.
 
+[[ref_talents_survival]]
 === Überleben
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
@@ -385,8 +364,8 @@ Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auc
 *Kampf:* A +
 *Beschreibung:* tba
 
+[[ref_talents_knowledge]]
 === Wissen [Spezialgebiet]
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
@@ -483,7 +462,6 @@ Diese Talenten werden vor allem von zaubernden Berufungen benötigt.
 Sie bilden die Grundausrüstung für die Ausübung der Magie.
 
 === Aether Wahrnehmung
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
@@ -508,8 +486,8 @@ Ein Patzer kann zu völlig falschen Eindrücken führen, die der Charakter jedoc
 
 Grundsätzlich ist jede Verwendung von Ather Wahrnehmung mit einem kleinen, visuellen Effekt versehen, beispielsweise ein leichtes Glühen um die Augen oder die Augen werden komplett weiß oder ein untersuchter Gegenstand wird von einem leichten Schimmern erfasst, dessen Ursprung in den Augen des Charakter liegt.
 
+[[ref_talents_discipline]]
 === Disziplin
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* SB +
@@ -517,9 +495,8 @@ Grundsätzlich ist jede Verwendung von Ather Wahrnehmung mit einem kleinen, visu
 *Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Ekel und Furcht werfen.
 Horror-Proben können mit diesem Talent nicht gewürfelt werden.
 
+[[ref_talents_spellcasting]]
 === Spruchzauberei [Zauberschule]
-[[anchor-spellcasting]]
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* EN +
@@ -535,15 +512,14 @@ Das Dokument Magie bietet eine umfassende Beschreibung des Zaubervorgangs und be
 Weiterhin bietet das Dokument eine Liste von Zauberschulen, die besondere Regeln mit sich bringen und welche Zauberlisten gelernt werden
 
 === Verbrennen Widerstehen
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
 *Kampf:* F +
 *Beschreibung:* Mit diesem Talent kann der Charakter Verbrennen Widerstehen Proben werfen.
 
+[[ref_talents_willpower]]
 === Willenskraft
-
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* SB +

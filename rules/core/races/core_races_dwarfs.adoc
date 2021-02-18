@@ -1,10 +1,32 @@
 = Zwerge
 
 *Attributsbonus:* +1 KO, + 1 SB, -1 CH +
-*Vorteile:* Dickschädel, Infrarotsicht, Innerer Kompass +
-*Nachteile:* Kurze Beine +
 *Größe:* 4 +
 *Sonstiges:* - +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten +
-*CP:* 40 +
+*CP:* 30 +
+
+== Eigenschaften
+
+=== Bollwerk
+Zwerge erhalten Bonus von +2 auf ihre Attributseigenschaft xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[Widerstand].
+
+=== Infrarotsicht
+Der Charakter sieht nicht auf übliche Weise, sondern kann zwischen den einzelnen Temperaturunterschieden unterscheiden.
+Warme und heiße Objekte erscheinen in diversen Rottönen, je heißer, desto intensiver.
+Ebenso erscheinen kalte Objekt in Blautönen. +
+Dies hat den Vorteil, dass warme Objekte vor kaltem Hintergrund besonders gut zu erkennen sind (oder umgekehrt).
+Daher kann der Charakter selbst bei absoluter Dunkelheit und bis 50 Meter Entfernung uneingeschränkt sehen. +
+In sehr warmen oder sehr kalten Gegenden, in denen kaum Temperaturunterschiede herrschen, ist der Charakter hingegen beinahe blind.
+
+=== Kräftiger Körperbau
+Zwerge gelten für die Bestimmung ihrer Primar/Sekundärhand und Rüstung als Kreaturen der xref:../core_rules_charactercreation.adoc#ref_characters_sizecategories[Größe] 5.
+
+=== Zwergische Begabung
+Zwerge lernen eines der folgenden Talente mit SGM 1: xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen], xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk], xref:../core_rules_talents_base.adoc#ref_talents_discipline[Disziplin] oder xref:../core_rules_talents_base.adoc#ref_talents_willpower[Willenskraft]. +
+Die Wahl muss zur Charaktererfassung final getroffen werden.
+
+=== Zwergische Resistenz
+Zwerge erhalten einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_poisonsickness[Gift bzw. Krankheits]-Proben.
+Um der Wirkung von Alkohol zu widerstehen, erhöht sich der Bonus auf +2.

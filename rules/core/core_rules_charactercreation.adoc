@@ -1,49 +1,39 @@
 = Charaktererschaffung
 
-Dieses Dokument beschreibt die Erstellung eines Spielercharakters im
-Regelsystem von Far Ages. Es erklärt die Begriffe der Rasse, Berufung,
-Attribute, Talente und Stufen. Weiterhin werden für weitere Abenteuer
-die Regeln zum Steigern aufgeführt.
+Dieses Dokument beschreibt die Erstellung eines Spielercharakters im Regelsystem von Far Ages.
+Es erklärt die Begriffe des Volkes, Berufung, Attribute, Talente und Stufen.
+Weiterhin werden für weitere Abenteuer die Regeln zum Steigern aufgeführt.
 
 == Charakterpunkte
 
-Charakterpunkte (*CP*) sind eine simple Maßeinheit für die Erfahrung und
-Fähigkeiten, die Charakter im Laufe seiner Abenteurerkarriere erwerben
-kann. Charakterpunkte können für viele Steigerungen und Verbesserungen
-des Charakters eingesetzt werden, z.B. Steigern von Attributen oder
-Talentstufen, oder Erlernen von neuen Fähigkeiten und Zaubersprüchen.
+Charakterpunkte (*CP*) sind eine simple Maßeinheit für die Erfahrung und Fähigkeiten, die Charakter im Laufe seiner Abenteurerkarriere erwerben kann.
+Charakterpunkte können für viele Steigerungen und Verbesserungen des Charakters eingesetzt werden, z.B. Steigern von Attributen oder Talentstufen, oder Erlernen von neuen Fähigkeiten und Zaubersprüchen.
 
-Bereits zu Beginn der Charaktererschaffung werden die ersten CP verteilt
-und können für diese eingesetzt werden.
+Bereits zu Beginn der Charaktererschaffung werden die ersten CP verteilt und können für diese eingesetzt werden.
 
 Dabei besitzt ein Charakter immer zwei Pools:
 
-*Aktuelle Charakterpunkte:* sind diejenigen Punkte, die ein Charakter
-derzeit zur Verfügung hat, um Steigerungen durchzuführen. Werden diese
-CP verwendet bzw. ausgegeben, reduziert sich die Anzahl in diesem Pool
-entsprechend.
+*Aktuelle Charakterpunkte:* sind diejenigen Punkte, die ein Charakter derzeit zur Verfügung hat, um Steigerungen durchzuführen.
+Werden diese CP verwendet bzw. ausgegeben, reduziert sich die Anzahl in diesem Pool entsprechend.
 
-*Gesamtcharakterpunkte:* auf diesen Pool werden immer alle Charakter
-aufgerechnet, in dem Moment, in dem der Charakter diese erhält. Diese
-Punkte werden nie ausgegeben oder reduziert, sondern ausschließlich
-addiert.
+*Gesamtcharakterpunkte:* auf diesen Pool werden immer alle Charakter aufgerechnet, in dem Moment, in dem der Charakter diese erhält.
+Diese
+Punkte werden nie ausgegeben oder reduziert, sondern ausschließlich addiert.
 
 .Charakterpunkte-Pools
 ====
 Ein Charakter hat bereits Erfahrung und besitzt derzeit 200
-aktuelle Charakterpunkte und 500 Gesamtcharakterpunkte. Am Ende des
-aktuellen Abenteuers erhält er 100 CP. Damit verfügt er über 300
-aktuelle Charakterpunkte und 600 Gesamtcharakterpunkte. Danach führt er
-einen Steigerung einer Talentstufe für 200 CP durch. Dadurch reduzieren
-sich die aktuellen Charakterpunkte auf insgesamt 100. Er hat weiterhin
-600 Gesamtcharakterpunkte.
+aktuelle Charakterpunkte und 500 Gesamtcharakterpunkte.
+Am Ende des aktuellen Abenteuers erhält er 100 CP.
+Damit verfügt er über 300 aktuelle Charakterpunkte und 600 Gesamtcharakterpunkte.
+Danach führt er einen Steigerung einer Talentstufe für 200 CP durch.
+Dadurch reduzieren sich die aktuellen Charakterpunkte auf insgesamt 100.
+Er hat weiterhin 600 Gesamtcharakterpunkte.
 ====
 
 [NOTE]
-Gesamtcharakterpunkte können auch als Maß verwendet werden,
-um zwei unterschiedliche Charaktere (Spieler- wie Nicht-Spieler) direkt
-zu vergleichen. Ein Charakter mit 1000 Charakterpunkten ist deutlich
-stärker als ein Charakter mit nur 100 Gesamtcharakterpunkten.
+Gesamtcharakterpunkte können auch als Maß verwendet werden, um zwei unterschiedliche Charaktere (Spieler- wie Nicht-Spieler) direkt zu vergleichen.
+Ein Charakter mit 1000 Charakterpunkten ist deutlich stärker als ein Charakter mit nur 100 Gesamtcharakterpunkten.
 
 === Initiale Charakterpunkte
 
@@ -292,19 +282,17 @@ Im Folgenden werden nun die Attributseigenschaften beschrieben und ihnen
 entsprechende Werte zugeordnet. Die Attributseigenschaften ergeben sich
 direkt aus den Attributsstufen.
 
-*Bewegungsbonus(BEW-Bonus)(Geschick):* Jede Kreatur kann sich in über
-einen begrenzte Zeitraum hinweg eine vorgebende Entfernung weit bewegen.
-In Far Ages wird diese Entfernung in Metern gemessen. Charaktere mit
-einer hohen Attributsstufe in Geschick bewegen sich schneller und weiter
-als weniger geschickte Charaktere.
+[[ref_secondary_movementbonus]]
+*Bewegungsbonus(BEW-Bonus)(Geschick):* Jede Kreatur kann sich in über einen begrenzte Zeitraum hinweg eine vorgebende Entfernung weit bewegen.
+In Far Ages wird diese Entfernung in Metern gemessen.
+Charaktere mit einer hohen Attributsstufe in Geschick bewegen sich schneller und weiter als weniger geschickte Charaktere.
 
-Wie hoch der BEW-Bonus ist, kann man der Tabelle am Ende dieses
-Abschnittes entnehmen.
+Wie hoch der BEW-Bonus ist, kann man der Tabelle am Ende dieses Abschnittes entnehmen.
 
-Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der
-Basis-Bewegung (siehe Größentabelle) und dem BEW-Bonus. Beides wird in
-Metern gemessen und daher einfach addiert.
+Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der Basis-Bewegung (siehe Größentabelle) und dem BEW-Bonus.
+Beides wird in Metern gemessen und daher einfach addiert.
 
+[[ref_secondary_inibonus]]
 *Initiativebonus (INI) (Geschick+Erkenntnis):* Die Initiative bestimmt die Kampfreihenfolge innerhalb einer Kampfphase.
 
 Der Initiative-Wert wird wie folgt berechnet: Man addiert die Attributsstufen, die man in Geschick und Erkenntnis hat.
@@ -319,10 +307,9 @@ Michaels Charakter hat Geschick 2 und Erkenntnis 1.
 Zusammen ergibt dies 3 und somit ist 3 sein Initiativebonus.
 ====
 
-*Maximale Traglast(MaxTL)(Stärke):* Dieser Wert gibt an, wie viel
-Pfund der Charakter mit sich herumtragen kann, ohne dabei Abzüge zu
-erhalten. Der Wert berechnet sich durch die Attributsstufe von Stärke
-multipliziert mit 15, also ST*15.
+[[ref_secondary_maxcarringcapacity]]
+*Maximale Traglast(MaxTL)(Stärke):* Dieser Wert gibt an, wie viel Pfund der Charakter mit sich herumtragen kann, ohne dabei Abzüge zu erhalten.
+Der Wert berechnet sich durch die Attributsstufe von Stärke multipliziert mit 15, also ST*15.
 
 .Maximale Traglast
 ====
@@ -330,117 +317,96 @@ Michaels Charakter hat eine Stärke-Stufe von 3 und kann damit
 3*15 = 45 Pfund tragen.
 ====
 
-Übersteigt das Gesamtgewicht der Gegenstände, die der Charakter mit sich
-herumträgt diesen Wert, dann verringert sich seine Bewegungsrate. Pro
-angefangene 10 Pfund verliert der Charakter 1,50 Meter seiner
+Übersteigt das Gesamtgewicht der Gegenstände, die der Charakter mit sich herumträgt diesen Wert, dann verringert sich seine Bewegungsrate.
+Pro angefangene 10 Pfund verliert der Charakter 1,50 Meter seiner
 Bewegungsrate.
 
-Ein Langschwert wiegt um die 2 bis 2,5 Pfund, eine Ritterüstung um die
-60. Kettenhemden wiegen 16 bis 28 Pfund.
+Ein Langschwert wiegt um die 2 bis 2,5 Pfund, eine Ritterüstung um die 60.
+Kettenhemden wiegen 16 bis 28 Pfund.
 
-*Schaden im Unbewaffneten Kampf(SUK)(Stärke):* Diese
-Attributseigenschaft gibt an, welche Würfel geworfen werden müssen, wenn
-der Charakter mit Fäusten, Füßen oder ähnlichen körperlichen
-Extremitäten angreift. Je stärker ein Charakter ist, umso höher ist der
-potenzielle Schaden. Welche Würfel für welche Attributsstufe zur
-Verfügung stehen, kann man der Tabelle am Ende dieses Abschnittes
-entnehmen.
+[[ref_secondary_unarmedbonus]]
+*Schaden im Unbewaffneten Kampf(SUK)(Stärke):* Diese Attributseigenschaft gibt an, welche Würfel geworfen werden müssen, wenn der Charakter mit Fäusten, Füßen oder ähnlichen körperlichen Extremitäten angreift.
+Je stärker ein Charakter ist, umso höher ist der potenzielle Schaden.
+Welche Würfel für welche Attributsstufe zur Verfügung stehen, kann man der Tabelle am Ende dieses Abschnittes entnehmen.
 
 .Schaden im Unbewaffneten Kampf
 ====
-Wie bereits oben gesehen hat Michaels Charakter hat Stärke von
-3. Nach der Tabelle verursacht er also einen Schaden im Unbewaffneten
-Kampf von 1W4.
+Wie bereits oben gesehen hat Michaels Charakter hat Stärke von 3.
+Nach der Tabelle verursacht er also einen Schaden im Unbewaffneten Kampf von 1W4.
 ====
 
-*Trefferpunkte(TP)(Stärke + Konstitution):* Trefferpunkte (kurz TP)
-sind eine Art Puffer für den Charakter bis zu seinem Tod. Durch
-Gewalteinwirkung verliert der Charakter im Normalfall Trefferpunkte.
+[[ref_secondary_hitpoints]]
+*Trefferpunkte(TP)(Stärke + Konstitution):* Trefferpunkte (kurz TP) sind eine Art Puffer für den Charakter bis zu seinem Tod.
+Durch Gewalteinwirkung verliert der Charakter im Normalfall Trefferpunkte.
 Erreichen seine TP den Wert 0, so ist der Charakter bewusstlos.
 Für Details siehe dazu im Dokument link:core_rules_battlesystem.adoc[Kampf] das Kapitel Trefferpunkte.
 Dort werden alle wichtigen Regeln bezüglich TP behandelt.
 
-Die Trefferpunkte eines Charakters berechnen zu Beginn des Spiels wie
-folgt: Der Charakter addiert seine Attributsstufen in Stärke und
-Konstitution und multipliziert das Ergebnis mit 5: (ST+KO)*5
+Die Trefferpunkte eines Charakters berechnen zu Beginn desSpiels wie folgt: Der Charakter addiert seine Attributsstufen in Stärke und Konstitution und multipliziert das Ergebnis mit 5: (ST+KO)*5
 
 .Trefferpunkte
 ====
-Beispiel: Der Charakter von Michael besitzt eine Attributsstufe von 3 in
-Stärke und 3 in Konstitution. Daher ist 3 + 3 = 6. 6 multipliziert mit 5
-ergibt 30.
+Der Charakter von Michael besitzt eine Attributsstufe von 3 in Stärke und 2 in Konstitution.
+Daher hat der Charakter (3+2)*5 = 25 TP.
 ====
 
-*Widerstand(WID)(Konstitution):* Die Zahl WID gibt an, wie viel
-Schaden der Charakter durch eine Schadensprobe einstecken kann, bevor er
-niedergeschlagen wird. Ein Charakter, der niedergeschlagen wurde, ist
-kampfunfähig und somit ein leichtes Ziel für Gegner.
+[[ref_secondary_threshold]]
+*Widerstand(WID)(Konstitution):* Die Zahl WID gibt an, wie viel Schaden der Charakter durch eine Schadensprobe einstecken kann, bevor er niedergeschlagen wird.
+Ein Charakter, der niedergeschlagen wurde, ist kampfunfähig und somit ein leichtes Ziel für Gegner.
 
-Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in
-der Tabelle am Ende des Dokumentes.
+Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in der Tabelle am Ende des Dokumentes.
 
-*Magiepunkte(MP)(Energie):* Zaubersprüche in Far Ages werden mit
-Magiepunkten (MP) bezahlt. Jeder Zauberspruch kann theoretisch ohne MP
-ausgesprochen werden, jedoch benötigt er dann mehr Zeit. MP sind für den
-Charakter somit eine Art "Ausdaueranzeige" für seine Zauberei.
+[[ref_secondary_magicpoints]]
+*Magiepunkte(MP)(Energie):* Zaubersprüche in Far Ages werden mit Magiepunkten (MP) bezahlt.
+Jeder Zauberspruch kann theoretisch ohne MP ausgesprochen werden, jedoch benötigt er dann mehr Zeit.
+MP sind für den Charakter somit eine Art "Ausdaueranzeige" für seine Zauberei.
 
-Sehr ausführliche Beschreibungen und Beispiele finden sich im Dokument
-link:core_rules_magic_base.adoc[Magie], außerdem weitere Anwendungsgebiete von Magiepunkten.
+Sehr ausführliche Beschreibungen und Beispiele finden sich im Dokument link:core_rules_magic_base.adoc[Magie], außerdem weitere Anwendungsgebiete von Magiepunkten.
 
-Fällt die Zahl der MP auf 0, so ist der Charakter bewusstlos. Fällt der
-Wert sogar unter 0, so ist der Charakter tot. Also achtet auch eure
-Magie, auch wenn ihr keine Magier seit.
-
-Die Magiepunkte berechnen sich wie folgt: Attributsstufe in Energie
-multipliziert mit 10: EN*10.
+Die Magiepunkte berechnen sich wie folgt: Attributsstufe in Energie multipliziert mit 10: EN*10.
 
 .Magiepunkte
 ====
-Michaels Charakter ist kein großer Magier und sollte es nicht
-werden. Seine Attributsstufe in Energie ist 1. Damit hat 10 MP.
+Michaels Charakter ist kein großer Magier und sollte es nicht werden.
+Seine Attributsstufe in Energie ist 1.
+Damit hat sein Charakter 10 MP.
 ====
 
-*Maximale Magiepotenz(MaxPOT)(Energie):* Jeder Zauberspruch besitzt
-eine Magiepotenz (POT). Dieser Wert zeigt an, wie stark der Zauberspruch
-ist. Zauber der POT 2 oder POT 3 sind sehr schwache, einfache
-Zaubersprüche, die Lehrlinge lernen, um ihre ersten Erfahrungen mit
-Magie zu machen. Zaubersprüche mit POT 10 sind mächtige Rituale, die es
-vermögen, gewaltige Energien freizusetzen. Vom der Attributsstufe in
-Energie ist es abhängig, was für Zaubersprüche ein Charakter aussprechen
-kann. Die Maximale Magiepotenz ist daher die Grenze bis zu der der
-Charakter Zaubersprüche aussprechen kann. Ein Zauber mit einer höheren
-POT als der maximalen Magiepotenz ist also für den Charakter zuerst
-unerreichbar, jedoch gibt es auch da nicht gerade ungefährliche
-Möglichkeiten, dies zu umgehen.
+[[ref_secondary_maxmagicpotential]]
+*Maximale Magiepotenz(MaxPOT)(Energie):* Jeder Zauberspruch besitzt eine Magiepotenz (POT).
+Dieser Wert zeigt an, wie stark der Zauberspruch ist.
+Zauber der POT 2 oder POT 3 sind sehr schwache, einfache Zaubersprüche, die Lehrlinge lernen, um ihre ersten Erfahrunge mit Magie zu machen.
+Zaubersprüche mit POT 10 sind mächtige Rituale, die es vermögen, gewaltige Energien freizusetzen.
 
-Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in
-der Tabelle am Ende des Dokumentes.
+Vom der Attributsstufe in Energie ist es abhängig, welche Zaubersprüche ein Charakter aussprechen kann. +
+Die Maximale Magiepotenz ist daher die Grenze bis zu der der Charakter Zaubersprüche aussprechen kann.
+Ein Zauber mit einer höheren POT als der maximalen Magiepotenz ist also für den Charakter zuerst unerreichbar, jedoch gibt es auch da nicht gerade ungefährliche Möglichkeiten, dies zu umgehen.
+
+Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in der Tabelle am Ende des Dokumentes.
 
 .Maximale Magiepotenz
 ====
-Auch hier kann Michaels Charakter keine großer Held sein.
-Seine Attributsstufe in Energie ist nur 1. Daher ist seine MaxPOT 5.
+Auch hier kann Michaels Charakter kein großer Held sein.
+Seine Attributsstufe in Energie ist nur 1.
+Daher ist seine MaxPOT 5.
 ====
 
-*Stabilitätspunkte(SP)(Selbstbeherrschung+Charisma):* Der Verstand ist
-zerbrechlich, auch der von Helden und das Mulitversum ist voller
-unergründlicher Geheimnisse, die das Gemüt eines Sterblichen stark
-schädigen können. Die Stabilitätspunkte (kurz SP) stehen für die
-geistige Gesundheit des Charakters. Je mehr er hat, desto besser ist es
-um seinen Verstand bestellt. Ein Verlust von SP kann zu bleibenden
-Schäden in der Psyche führe und der Wahnsinn ist nahe, wenn man auf 0 SP
-zu geht.
+[[ref_secondary_stabilitypoints]]
+*Stabilitätspunkte(SP)(Selbstbeherrschung+Charisma):* Der Verstand ist zerbrechlich, auch der von Helden und das Mulitversum ist voller unergründlicher Geheimnisse, die das Gemüt eines Sterblichen stark schädigen können.
+Die Stabilitätspunkte (kurz SP) stehen für die geistige Gesundheit des Charakters.
 
-Die Anzahl der SP, die ein Charakter am Anfang besitzt, berechnet sich
-wie folgt: Der Charakter addiert seine Werte in Selbstbeherrschung und
-Charisma und multipliziert das Ergebnis mit 5: (SB+CH)*5.
+Je mehr er hat, desto besser ist es um seinen Verstand bestellt.
+Ein Verlust von SP kann zu bleibenden Schäden in der Psyche führe und der Wahnsinn ist nahe, wenn man auf 0 SP zu geht.
+
+Die Anzahl der SP, die ein Charakter am Anfang besitzt, berechnet sich wie folgt: Der Charakter addiert seine Werte in Selbstbeherrschung und Charisma und multipliziert das Ergebnis mit 5: (SB+CH)*5.
 
 .Stabilitätspunkte
 ====
-Michaels Charakter hat in Selbstbeherrschund und Charisma
-jeweils nur die Attributsstufe 1. Daher hat er nur (1+1)*5 = 10 SP.
+Michaels Charakter hat in Selbstbeherrschund und Charisma jeweils nur die Attributsstufe 1.
+Daher hat er nur (1+1)*5 = 10 SP.
 ====
 
+[[ref_secondary_overviewtable]]
 .Attributseigenschaften
 [cols=",,,,", options="header"]
 |===
@@ -472,6 +438,7 @@ jeweils nur die Attributsstufe 1. Daher hat er nur (1+1)*5 = 10 SP.
 Dieses Kapitel beschreibt weitere Aspekte der Charaktererschaffung, die
 mit Attributen und Talenten noch nicht abdeckt sind.
 
+[[ref_characters_sizecategories]]
 === Größenkategorien
 
 Jede Rasse bringt eine Größenkategorie mit sich. Diese ist eine relativ
@@ -590,6 +557,7 @@ Allgemeinen nicht kategorisieren, jedoch braucht ein Rollenspiel wie Far
 Ages ein möglichst einfaches und einheitliches System, um die
 Entwicklung der Charaktere darzustellen.
 
+[[ref_characters_cp_attributsprimary]]
 === Attribute steigern
 
 Das Steigern von Attributen repräsentiert eine Verbesserung des
@@ -612,6 +580,7 @@ Steigerung ändern sich sofort abhängige Attributseigenschaften und die
 Würfelanzahlen für Talente mit dem verwandten Attribut GE.
 ====
 
+[[ref_characters_cp_attributssecondary]]
 === Steigerungen von Attributseigenschaften
 
 Attributseigenschaften lassen sich im Normalfall nicht direkt steigern.
@@ -619,6 +588,7 @@ Stattdessen steigen die abhängigen Werte direkt, wenn eine Attributsstufe geste
 
 Wenn Vor- oder Nachteile Attributseigenschaften beeinflussen, dann greifen diese immer erst nach Einberechnung der Attributsstufe.
 
+[[ref_characters_cp_tp_and_mp]]
 === Trefferpunkte und Magiepunkte steigern
 
 Steigert ein Charakter seine Attribute nach den oben gegebenen
@@ -649,6 +619,7 @@ Eine dritte Steigerung kostet 3*100 = 300 CP und erhöht auf 59 TP und 25
 MP.
 ====
 
+[[ref_characters_cp_talents]]
 === Talente steigern
 
 Das Steigern von Talenten erfolgt schrittweise durch Erhöhen der
@@ -667,6 +638,7 @@ kostet, 5*100*1 = 500 CP. Ein Talent mit SGM 2 von Talentstufe 3 auf 5
 zu steigern, kostet 4*100*2 + 5*100*2 = 1400 CP.
 ====
 
+[[ref_characters_cp_newtalents]]
 ==== Neue Talente lernen
 
 Um ein neues Talent (also ein Talent, in dem man zuvor die Talentstufe 0
@@ -689,24 +661,21 @@ niedrigsten SGM aus dieser Liste.
 * Trifft keiner dieser Punkte zu, lernt der Charakter dieses Talent mit
 SGM 3.
 
+[[ref_characters_cp_skills]]
 === Besondere Fähigkeiten
 
-Besondere Fähigkeiten erweitern vorhandene Talente um eine außergewöhnliche Anwendung
-oder eine Spezialisierung. Ein Charakter hat eine Fähigkeit oder er hat
-sie nicht, d.h. Fähigkeiten werden einmal gelernt und bieten dauerhaft
-ihre Vorteile an. Fähigkeiten haben daher auch keine Stufen wie Talente.
-Üblicherweise wird auch nicht auf Fähigkeiten gewürfelt, sondern auf die
-Talente, die von den Fähigkeiten erweitert werden.
+Besondere Fähigkeiten erweitern vorhandene Talente um eine außergewöhnliche Anwendung oder eine Spezialisierung.
+Ein Charakter hat eine Fähigkeit oder er hat sie nicht, d.h. Fähigkeiten werden einmal gelernt und bieten dauerhaft ihre Vorteile an.
+
+Üblicherweise wird auch nicht auf Fähigkeiten gewürfelt, sondern auf die Talente, die von den Fähigkeiten erweitert werden.
 
 Um eine Fähigkeit zu erlernen, muss ein Charakter zuerst ihre
-Voraussetzungen erfüllen, das sind üblicherweise Stufen in einem oder
-mehreren Talenten oder auch der Besitz von anderen Fähigkeiten. Hat der
-Charakter die Voraussetzungen erfüllt, kann er die angegebenen CP
-ausgeben und besitzt nun die Besondere Fähigkeit.
+Voraussetzungen erfüllen, das sind üblicherweise Stufen in einem oder mehreren Talenten oder auch der Besitz von anderen Fähigkeiten.
+Hat der Charakter die Voraussetzungen erfüllt, kann er die angegebenen CP ausgeben und besitzt nun die Besondere Fähigkeit.
 
-Eine detaillierte Beschreibung mit allen nötigen Angaben findet sich im
-Dokument link:core_rules_skills.adoc[Besondere Fähigkeiten].
+Eine detaillierte Beschreibung mit allen nötigen Angaben findetsich im Dokument link:core_rules_skills.adoc[Besondere Fähigkeiten].
 
+[[ref_characters_cp_spells]]
 === Erlernen von Zaubersprüchen
 
 Viele Berufe bringen das Wissen um Zaubersprüche mit. Die Zaubersprüche
@@ -721,10 +690,9 @@ Wie im Dokument Magie erklärt, lässt sich die POT des Zauberspruches
 erhöhen, doch dies zählt hierbei nicht, denn jeder Zauber hat eine
 Basis-POT und diese ist zum Erlernen des Zauberspruches relevant.
 
-Ein Charakter kann keinen Zauberspruch lernen, dessen POT höher ist als
-die eigene Maximale Magiepotenz (MaxPOT).
+Ein Charakter kann keinen Zauberspruch lernen, dessen POT höher ist als die eigene Maximale Magiepotenz (MaxPOT).
 
-Alle anderen Zaubersprüche kosten *POT*10* CP.
+Alle anderen Zaubersprüche kosten *POT*100* CP.
 
 == Vergabe von Charakterpunkten
 

@@ -16,7 +16,7 @@ Ziel des Kampfsystems ist es, ein möglichst effizientes und auch spannendes Sys
 == Darstellungsmöglichkeiten des Kampfes
 
 Gerade bei Kämpfen, bei denen sich viele Kreaturen beteiligen, kann man leicht die Übersicht verlieren.
-Daher macht es Sinn, sich für Kämpfe bestimmte Darstellungen zu überlegen.
+Daher ist es sinnvoll, sich für Kämpfe bestimmte Darstellungen zu überlegen.
 Dazu soll dieser kurze Abschnitt hoffentlich die nötige Inspiration geben.
 
 In der *Erzähldarstellung* berichtet jeder Charakter was er tut, ebenso der SL für die anderen Beteiligten.
@@ -136,6 +136,7 @@ Pro Kampfrunde hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur V
 
 Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion bzw. Kombination aus o.g. Aktionen, mit Ausnahme der Reaktion.
 
+[[ref_battle_action]]
 Als *Aktion* in einem Kampf nach dem System von Far Ages bezeichnen wir eine Handlung der Art:
 
 1. Talenteinsatz
@@ -153,6 +154,7 @@ Dies betrifft insbesondere die folgenden Angriffstalente:
 * Unbewaffneter Kampf
 * Spruchzauberei
 
+[[ref_battle_movefightaction]]
 Unter *Bewegung-* bzw. *Kampfmanöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen, Sprinten oder einen Sturmangriff durchführen.
 Manöver besitzen normalerweise auch eine Angabe wie viele Kampfphasen sie benötigen, um sie durchzuführen. +
 Manche Manöver interagieren auch mit Talenten, so dass sie nur mit eben solchen angewendet werden können.
@@ -163,6 +165,7 @@ Eine Aktion kann gegen ein weiteres Manöver eingetauscht werden.
 Entscheidet sich ein Charakter für diese Option hat er formal 2 Bewegungs- bzw. Kampfmanöver in seiner Kampfrunde zur Verfügung.
 Umgekehrt ist dies jedoch nicht möglich.
 
+[[ref_battle_preparespells]]
 Zaubersprüche benötigen eine spezielle Behandlung im Regelsystem von Far Ages.
 Daher wird das *Vorbereiten von Zaubersprüchen* in diesem Moment extra erwähnt.
 Bevor ein Zauberspruch ausgesprochen werden kann, formt ein Zauberer ihn aus dem Aether, dem magischen Zwischenreich zwischen den Dimensionen.
@@ -174,10 +177,12 @@ Neben dem Vorbereiten von Zauberspüchen können auch anderen Aktionen länger d
 In diesem Fall spricht man vom *Weiterführen*.
 Charaktere, die mit entsprechend längeren Aktionen beschäftigt sind und diese nicht abbrechen möchten, müssen ihre Aktion zum Weiterführen werden.
 
+[[ref_battle_freeactions]]
 *Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
 Grundsätzlich kann der Charakter also beliebig viele Freie Aktionen durchführen, allerdings kann die Anzahl bestimmter Freier Aktionen limitiert sein.
 Freie Aktionen können nur angewendet werden, wenn der Charakter an der Reihe ist.
 
+[[ref_battle_reactions]]
 *Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen Initiativereihenfolge ausführen kann, d.h. wenn er ereigentlich nicht dran.
 Typische Reaktionen ist die Verwendung von Talenten wie Hieb Ausweichen, Schildverteidigung oder Parade.
 
@@ -273,6 +278,7 @@ Dafür sind Möglichkeiten natürlich sehr umfangreich und daher möchten wir un
 
 Der SL ist natürlich frei in seiner Entscheidung, welche Modifikatoren er für sein Spiel anwenden will.
 
+[[ref_battle_coverage]]
 ==== Deckung
 
 Als Deckung können alle Gegenstände und Lebewesen dienen, die den verteidigenden Charakter bis zu einem gewissen Maß verdecken.
@@ -285,11 +291,12 @@ Für diese Art von Deckung muss der Angreifer einen Malus von *-1 auf die Würfe
 Er steht vielleicht hinter einer mindestens hüfthohen Mauer oder duckt sich hinter einem Busch.
 Der Malus beträgt hierbei *-2 auf die Würfe zum Erfolg.*
 * *Starke Deckung:* Der Verteidiger ist bis zu 75% verdeckt. Der Malus beträgt dann *-3 auf die Würfe zum Erfolg.*
-* *Total Deckung:* Ist der Verteidiger nicht mehr zu sehen, kann er auch nicht getroffen werden.
+* *Totale Deckung:* Ist der Verteidiger nicht mehr zu sehen, kann er auch nicht getroffen werden.
 Blindes Zuschlagen auf einen Punkt, an dem ein Gegner vermutet wird, kann je nach Situation durch den SL mit einen Malus von *-4 oder mehr auf die Würfe zum Erfolg* belegt werden.
 
 Es ist durchaus möglich für unterschiedliche Materialien und Sichtverhältnisse im Zusammenhang mit Deckung mehr oder weniger Mali zu verteilen.
 
+[[ref_battle_dakrness]]
 ==== Dunkelheit
 
 Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürfe zusätzlich erschweren:
@@ -297,7 +304,7 @@ Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürf
 * Sternenklare Nacht, Fackelschein: -1 auf die Würfe zum Erfolg
 * Nacht, nur Mond: -2 auf die Würfe zum Erfolg
 * Nacht ohne Mond: -3 auf die Würfe zum Erfolg
-* Absolute Dunkelheit: gilt als Totale Deckung
+* Absolute Dunkelheit: -4 auf die Würfe zum Erfolg
 
 ==== Höhenunterschiede
 
@@ -366,9 +373,9 @@ Ist die Waffe 4 oder mehr Punkte größer, so beträgt der Bonus *+4*.
 
 Waffenunterschiede kommen nur zum Tragen, wenn beide Kontrahenten Waffen einsetzen.
 
-==== Diagonal Schlagen
+==== Diagonal schlagen
 
-Die grau unterlegten Kacheln der Abbildung zeigen die Positionen an, auf die ein Charakter diagonal schlagen kann. Gegner, die auf diesen Felder stehen, sind schwerer zu attackieren.
+Die grau unterlegten Kacheln der Abbildung zeigen die Positionen an, auf die ein Charakter diagonal schlagen kann. Gegner, die auf diesen Feldern stehen, sind schwerer zu attackieren.
 
 Waffen, deren Größe 5 oder kleiner sind, können diesen Gegner schwerer erreichen, so dass der Charakter einen Malus von *-1 auf seine Würfelanzahl* erhält.
 Waffen, die größer sind, also beispielsweise Speere oder Bihänder, erhalten diesen Malus nicht und können normal verwendet werden.
@@ -685,7 +692,8 @@ Setzt ein Charakter dieses Kampfmanöver ein, löst er Gelegenheitsangriffe aus.
 
 Flucht dauert mindestens eine Kampfrunde an und ist wie Sprinten zu behandeln.
 
-=== Luftangriff
+[[ref_maneuver_airattack]]
+=== Flugangriff
 
 Dieser Angriff steht nur Wesen zur Verfügung, die fliegen können.
 Mit diesem Manöver heben sie sich in die Luft und stürzen auf ihre Gegner herab bzw. können andere Gegner, die sich in der Luft befinden angreifen.
@@ -981,39 +989,7 @@ Wird der Verteidiger in eine Bedrohungszone zurückgedrängt, so provoziert er e
 
 Zurückdrängen kann nur in Verbindung mit einer Nahkampfattacke genutzt werden.
 
-== Besondere Situationen
-
-=== Bedrängt
-
-Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 andere Charakter ihn im Nahkampf attackieren. Ein bedrängter Charakter erhält
-*-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
-
-Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
-Es gelten auch diagonal attackierende Gegner zu der Rechnung.
-
-Größere Kreaturen (GK 6 oder mehr) sind von kleineren Kreaturen schwerer zu bedrängen.
-Ist eine Kreatur eine Größenkategorie kleiner, so bedrängt sie die größere Kreatur nur dann, wenn sie einen Kollegen gleicher GK dabei hat.
-Eine Kreatur der Größenkategorie 6 ist also erst von 6 Kreaturen der Größenkategorie 5 bedrängt.
-Dies setzt sich fort und zwar ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der Größenkategorie 5 bedrängt usw.
-
-=== Benommen
-
-Ein Charakter, der durch eine Verletzung oder einen anderen Umstand den Zustand „Benommen“ erhält, steht kurz vor einer Ohnmacht, ist jedoch noch in der Lage, einige Manöver durchzuführen.
-
-Er kann keine Aktionen einsetzen, seine BEW-Rate ist halbiert und er erhält einen Malus von *-1 auf die Würfe zum Erfolg*.
-
-Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfrunden.
-Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfrunden des Charakters an (Minimum 1).
-
-=== Erschöpft
-
-Ein erschöpfter Charakter kann in einer Kampfphase nur Kampfmanöver verwenden.
-Seine BEW-Rate wird halbiert.
-
-Die Erschöpfung dauert üblicherweise mindestens eine Stunde.
-In dieser Stunde muss der Charakter sich komplett ruhig verhalten und sich schlicht ausruhen, bis dieser Status aufgehoben ist.
-
-=== Gelegenheitsangriffe
+== Gelegenheitsangriffe
 
 Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfrunde, die durch unterschiedliche Situationen ausgelöst werden können.
 Diese Angriffe werden grundsätzlich mit dem Talent Nahkampfwaffen oder Unbewaffener Angriff gewürfelt, dessen Anwendung in diesem Moment als Freie Aktion gilt.
@@ -1021,7 +997,7 @@ Diese Angriffe werden grundsätzlich mit dem Talent Nahkampfwaffen oder Unbewaff
 Jeder Charakter hat pro Kampfrunde nur einen Gelegenheitsangriff frei.
 Provozieren jedoch mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese nicht mehr ausführen, wenn er seinen einen Gelegenheitsangriff bereits durchgeführt hat.
 
-Der Charakter muss eine Nahkampfwaffe bereit halten, um einen Gelegenheitsangriff mit dem Talent Nahkampfwaffen durchführen zu können.
+Der Charakter muss eine Nahkampfwaffe bereithalten, um einen Gelegenheitsangriff mit dem Talent Nahkampfwaffen durchführen zu können.
 
 Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das heißt, sie stehen in der Bedrohungszone des Charakters.
 
@@ -1041,28 +1017,75 @@ Dies gilt nicht, wenn der Gegner den Charakter angreift.
 
 Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich im allgemeinen nicht dagegen verteidigen.
 
+== Besondere Situationen
+
+[[ref_condition_corned]]
+=== Bedrängt
+
+Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 andere Charakter ihn im Nahkampf attackieren. Ein bedrängter Charakter erhält
+*-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
+
+Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
+Es gelten auch diagonal attackierende Gegner zu der Rechnung.
+
+Größere Kreaturen (GK 6 oder mehr) sind von kleineren Kreaturen schwerer zu bedrängen.
+Ist eine Kreatur eine Größenkategorie kleiner, so bedrängt sie die größere Kreatur nur dann, wenn sie einen Kollegen gleicher GK dabei hat.
+Eine Kreatur der Größenkategorie 6 ist also erst von 6 Kreaturen der Größenkategorie 5 bedrängt.
+Dies setzt sich fort und zwar ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der Größenkategorie 5 bedrängt usw.
+
+[[ref_condition_dazed]]
+=== Benommen
+
+Ein Charakter, der durch eine Verletzung oder einen anderen Umstand den Zustand „Benommen“ erhält, steht kurz vor einer Ohnmacht, ist jedoch noch in der Lage, einige Manöver durchzuführen.
+
+Er kann keine Aktionen einsetzen, seine BEW-Rate ist halbiert und er erhält einen Malus von *-1 auf die Würfe zum Erfolg*.
+
+Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfrunden.
+Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfrunden des Charakters an (Minimum 1).
+
+[[ref_condition_blind]]
+=== Blind
+//TODO
+
+[[ref_condition_exhausted]]
+=== Erschöpft
+
+Ein erschöpfter Charakter kann in einer Kampfrunde nur Kampfmanöver verwenden.
+Seine BEW-Rate wird halbiert.
+
+Die Erschöpfung dauert üblicherweise mindestens eine Stunde.
+In dieser Stunde muss der Charakter sich komplett ruhig verhalten und sich schlicht ausruhen, bis dieser Status aufgehoben ist.
+
+[[ref_condition_bondedincombat]]
 === Gebunden
 
 Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben einem Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
 Der Ausgang dieser Probe ist dabei nicht relevant.
 
+[[ref_condition_disabled]]
 === Kampfunfähig
 
 Kampfunfähige Charaktere können gar keine Aktionen oder Kampfmanöver mehr durchführen.
 Sie sind beispielsweise niedergeschlagen worden.
 
-Kampfunfähige Charakter können üblicherweise wieder aufstehen, sobald sie an der Reihe sind.
+Kampfunfähige Charaktere können üblicherweise wieder aufstehen, sobald sie an der Reihe sind.
 Beachte allerdings, dass kampfunfähige Charaktere immer am Ende der Initiative-Reihenfolge stehen.
 
 Aufstehen gilt als eine Aktion, die Gelegenheitsangriffe provoziert.
 Ein benommener Charakter, der kampfunfähig wurde, kann erst aufstehen, wenn die Benommenheit endet.
 
+[[ref_condition_unconscious]]
 === Ohnmächtig
 
 Ein Charakter kann aufgrund einer schweren Verletzung oder dem Erreichen von 0 oder weniger TP ohnmächtig werden.
-Ein ohnmächtiger Charakter kann, wie der Name vermuten lässts, nicht machen, weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
+Ein ohnmächtiger Charakter kann weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
+Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen, z.B. aufstehen.
 
-=== Patzerwürfe bei den Angriffsproben
+[[ref_condition_invisible]]
+=== Unsichtbar
+//TODO
+
+=== Patzer bei einer Angriffsprobe
 
 Wenn ein Charakter einen Patzer in einer Angriffsprobe würfelt, so kann es passieren, dass dies zu unangenehmen Folgen führen kann.
 Ein Patzer provoziert grundsätzlich einen Gelegenheitsangriff.
@@ -1090,7 +1113,7 @@ Im allgemeinen lässt sich sagen: je mehr Erfolge gewürfelt wurden, desto mehr 
 Die Quelle des Schadens kann im Übrigen sehr vielfältig sein und beschränkt sich nicht nur auf den Kampf.
 Ein Charakter kann auch Schaden davon erhalten, dass er im Wald unvorsichtigerweise in eine Bärenfalle tappt.
 
-In allen nicht-Kampf Situationen ist dann meistens ein Angriffswurf angegeben und wie Schadenswürfel zustande kommen.
+In Situationen außerhalb des Kampfes ist dann meistens ein Angriffswurf angegeben und wie Schadenswürfel zustande kommen.
 Die Regeln in diesem Kapitel treffen jedoch auch auf diese Situationen zu.
 
 === Schaden
@@ -1146,12 +1169,26 @@ Rüstungsschutz oder einfach Rüstung bieten entsprechende Rüstungen, die der C
 Die Rüstungspunkte, die die Rüstung gewährt, werden vom Gesamtschaden abgezogen.
 Es gibt Situationen, in denen Rüstung keinen Schutz bietet.
 
-Schadenspunkte werden von den Trefferpunkten des Charakter abgezogen.
+Schadenspunkte werden von den Trefferpunkten des Charakters abgezogen.
 Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalten von Schadenspunkten.
 Beide Aussagen sind äquivalent.
 
 Der SL kann jederzeit eine andere Standardtrefferzone festlegen, wenn er der Ansicht ist, dass die Charaktere den Torso nicht treffen können.
-So kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als Standardtrefferzone für den Menschen die Beine des Drachen haben.
+So kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als Standard-Trefferzone für den Menschen die Beine des Drachen haben.
+
+[[ref_battle_naturalarmor]]
+=== Natürliche Rüstung
+Manche Wesen besitzen natürliche Rüstung, z.B. durch besonders dicke Haut, Schuppen oder harte Panzer.
+Natürliche Rüstung wird analog zu getragener Rüstung in Punkten gemessen und zählt unter Umständen nur für bestimmte Trefferzonen.
+Der durch natürliche Rüstung gewährte Schutz ist kumulativ zu getragener Rüstung und zählt, sofern nicht anders angeben, als Schutz vor physischen Schaden.
+
+.Natürliche Rüstung
+====
+Oley, ein xref:./races/core_races_chelonias.adoc[Chelonia], besitzt für seine Trefferzone Torso 3 Punkte natürliche Rüstung.
+Er trägt einen Brustpanzer aus Stahl, der seinem Torso 5 Punkte Rüstungsschutz gewährt.
+Außerdem führt einen Schild mit 3 Punkten Rüstungsschutz. +
+Damit beträgt sein gesamter Rüstungschutz für seinen Torso 3+5+3 = 11.
+====
 
 === Kritischer Treffer
 
@@ -1305,25 +1342,7 @@ Als zusätzlicher Effekt erleidet der Charakter 1W6 SP Schaden.
 |Nekrotisch |TP |Nein |Ja
 |===
 
-== Trefferpunkte
-
-Trefferpunkte sind ein Maß für die körperliche Verfassung des Charakters.
-Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er nähert sich dem Tod.
-Wie viele Trefferpunkte ein Charakter hat, ergibt sich aus den Regeln im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] oder Vor- und Nachteile.
-
-Sinkt die Anzahl von Trefferpunkten auf einen Wert kleiner oder gleich 0, so wird der Charakter ohnmächtig.
-Erreicht ein Charakter einen Wert von -10 TP oder weniger, so ist er tot.
-
-Durch Zauber ist es zum Beispiel möglich *temporäre Trefferpunkte* zu bekommen.
-Diese Trefferpunkte werden als ein zusätzlicher Pool von TP geführt.
-Schaden wird immer zuerst aus diesem Pool subtrahiert.
-Sinkt der Wert der temporären TP in diesem Pool auf 0, so passiert dem Charakter nichts, außer, dass dieser zusätzliche Pool nun ausgedient hat und ab sofort wieder seine regulären TP benutzt werden.
-
-Überschüssige TP aus einem temporären TP-Pool werden von den regulären TP (oder von anderen temporären Pools) abgezogen.
-
-Temporäre TP können nicht genutzt werden, um einen Charakter zu heilen, aus einer Ohnmacht zu befreien oder wiederzubeleben.
-Sie können jedoch einen ohnmächtigen Charakter insoweit helfen, dass sie eventuelle Trefferpunktverluste auffangen.
-
+[[ref_battle_hitzones]]
 == Trefferzonen
 
 [quote, Unbekannt]
@@ -1433,6 +1452,13 @@ Der Charakter erhält damit eine Mittelschwere Verletzung.
 
 Am Anfang jeder Kampfrunde nach Erhalt einer Verletzung vom Verletzungsgrad Mittelschwer oder höher verliert der Charakter pro Blutende Wunde 1W3 TP ohne Rüstungsschutz.
 Wird er den Regeln nach ohnmächtig, hört die Blutung nicht auf.
+
+=== Optional: Heilung von blutenden Wunden
+
+Wird die optionale Regel von blutenden Wunden benutzt, so können diese wie folgt geheilt werden.
+Ein Heiler kann eine Blutende Wunde stoppen, in dem er für jede Blutende Wunde, die der Charakter erlitten hat, 2 Erfolge in Handwerk[Arzt] erreicht.
+Um dies zu tun, muss er die Wunde mit einem Pressumschlag versehen können.
+Er muss jede Blutende Wunde in einer einzelnen Handwerk[Arzt]-Probe behandeln.
 
 === Optional: Besonders starke Verletzungen
 
@@ -1544,113 +1570,3 @@ Beachte, dass kampfunfähige Charaktere immer am Ende der Initiative-Reihenfolge
 Auch dann ist das Aufstehen eine Aktion.
 
 In beiden Fällen ist ein Charakter, der aufgestanden ist, nicht mehr kampfunfähig, kann sich also verteidigen.
-
-== Regeneration und Heilung
-
-=== Regeneration
-
-Verlorene TP und MP können regeneriert werden.
-Dies geschieht für gewöhnlich nur, wenn der Charakter sich ausruht, bzw. schläft.
-Abhängig von seiner Ruhezeit regeneriert ein Charakter unterschiedlich viele TP und MP.
-
-Folgende Tabelle gibt Aufschluss über die Regeneration:
-
-[cols=",,",options="header"]
-|===
-|Ruheperiode |TP Regeneration |MP Regeneration
-|15 Minuten |1W10 |1W10
-|1 Stunde |KO/2 1W10 |EN/2 1W10
-|8 Stunden |KO 1W10 | EN 1W10
-|24 Stunden |Vollständig |Vollständig
-|===
-
-Der Charakter würfelt die angegebene Würfel und addiert die Augen zusammen.
-Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm maximale TP und MP zustehen.
-
-
-=== Regeneration bei Ohnmacht
-
-Erreicht ein Charakter 0 oder weniger TP, dann regeneriert er einmalig 1W10 TP nach Ablauf von 6-KO (min. 1) Kampfrunden.
-Erreicht er dadurch keinen TP über 0, so bleibt er ohnmächtig.
-
-=== Heilung von Verletzungen
-
-Die Heilung von Verletzungen ist vom Verletzungsgrad abhängig.
-Je stärker eine Trefferzone verletzt ist, umso länger dauert die Heilung.
-Die folgende Tabelle gibt Auskunft über die nötigen Voraussetzungen, wann eine Verletzung heilen kann:
-
-[cols=",,,",options="header"]
-|===
-|Verletzungsgrad a|
-Natürliche Heilung
-
-{empty}[Zeit]
-
-a|
-Handwerk[Arzt] benötigt
-
-{empty}[Ja/Nein]
-
-|Anzahl der Erfolge bei Handwerk[Arzt]
-|Oberflächlich |1 Tag |Nein |1
-|Leicht |3 Tage |Nein |1
-|Mittelschwer |5 Tage |Ja |2
-|Schwer |21Tage |Ja |5
-|Gefährlich |42 Tage |Ja |8
-|Tödlich |84 Tage |Ja |12
-|===
-
-Die Verletzungsgrade Oberflächlich und Leicht können ohne den Eingriff eines ausgebildeten Arztes geheilt werden und zwar nach Ablauf der gegeben Zeit, also 1 bzw. 3 Tage.
-Dennoch kann ein Arzt diese Verletzungen behandeln, in dem er einen Erfolg in einer Handwerk[Arzt]-Probe erreicht.
-Dadurch halbiert sich die Heilungsdauer.
-
-Die höheren Verletzungsgrade benötigen die Behandlung eines Arztes, um in der angegeben Zeit zu heilen.
-Ist kein Arzt zur Stelle, dauert die Heilung doppelt so lange.
-Manche Wunden heilen nicht oder bringen weitere Nachteile, wenn kein Arzt sie versorgt.
-
-Scheitert eine Probe, so kann ein Charakter erst nach 24 Stunden noch einmal versuchen, die Verletzung zu heilen.
-
-=== Heilung von Blutenden Wunden
-
-Wird die optionale Regel von Blutenden Wunden benutzt, so können diese wie folgt geheilt werden.
-Ein Heiler kann eine Blutende Wunde stoppen, in dem er für jede Blutende Wunde, die der Charakter erlitten hat, 2 Erfolge in Handwerk[Arzt] erreicht.
-Um dies zu tun, muss er die Wunde mit einem Pressumschlag versehen können.
-Er muss jede Blutende Wunde in einer einzelnen Handwerk[Arzt]-Probe behandeln.
-
-=== Verunreinigungen der Wunden
-
-Nicht immer können Verletzungen sauber verpflegt werden.
-Der SL kann für solche „Feldarbeiten“ die zur Verfügung stehenden Würfel für die Handwerk[Arzt]-Probe um 1-3 Erfolge reduzieren, wenn nicht ausreichende Ausrüstung, Hygiene oder auch Ruhe vorhanden ist.
-
-=== Magische Heilung
-
-Im Allgemeinen bietet die Welt von Far Ages auch *magische Heilung* an.
-Dies sind meistens Zaubersprüche, die zielgerichtet entweder bestimmte Verletzungsgrade heilen oder eine bestimmte Anzahl von TP regenerieren.
-Solche Zauber sind mächtig und sind nicht allen Magiern zugänglich.
-Unter magische Heilung fällt auch die Verwendung von Heiltränken oder ähnlichen alchemistischen Erzeugnissen.
-
-=== Verlorene Gliedmaßen
-
-*Verlorene Gliedmaßen* müssen nicht zwangsläufig das Ende eines Charakter bedeutet.
-Zwar ist ein Krieger ohne Schwertarm wohl kaum mehr nützlich, aber es gibt Mittel und Wege, dies auszugleichen.
-Der Spieler sollte immer zuerst die Rollenspieltechnische Herausforderung annehmen, denn ein auch solche Ereignisse gehören zu dem Gefahrenpotenzial des Abenteurer Lebens.
-
-Um regeltechnisch solche Verluste darzustellen, gibt es einige Richtlinien, an denen sich der SL bedienen kann und es steht ihm frei, diese zu erweitern:
-
-* *ein verlorener Arm* bedeutet, dass der Charakter keine Waffen mehr benutzen kann, die zwei Hände zur Benutzung brauchen, z.B. Bögen, Armbrüste, Zweihänder.
-Ebenso kann er nicht mehr zwei Waffen gleichzeitig oder eine Waffe und ein Schild gleichzeitig nutzen.
-Auf Geschick und Stärke basierende Proben, die zwei Arme und Hände erfordern, erfordern einen Sehr Guten Erfolg, um zu gelingen.
-* *ein verlorenes Bein* wirkt sich deutlich schlimmer aus.
-Der Charakter wird eine Krücke oder Prothese (s.u.) benötigen.
-Im Fall einer Krücke fällt der benutzte Arm ebenfalls zur Benutzung weg.
-Generell kann sich der Charakter nur noch mit halbierten Bewegungsraten fortbewegen.
-Niederschlags-Proben erfordern immer mindestens einen Guten Erfolg, auch wenn der erlittene Schaden weniger Erfolge erfordert.
-
-*Prothesen* sind Ersatzgliedmaßen von geringer bis fantastischer Qualität.
-Ein Beispiel für eine geringe Qualität ist das altbekannte Holzbein, wobei man dabei immerhin eine Hand wieder frei hat.
-Ebenso als Pendant zum Arm gibt es improvisierte Greifwerkzeuge wie Haken.
-Manche Krieger benutzen auch spezielle Waffen, die sie sich auf ihre Prothese schrauben oder anbinden.
-
-Von wortwörtlich fantastischer Qualität sind Prothesen technomantischen Ursprungs.
-Diese Geräte werden mit der körpereigenen Magie angetrieben und verhalten sich wie das alte Glied.
-Zumindest im Idealfall, man kann sich vorstellen, dass ein solches kompliziertes und auch noch teilweise magisches Konstrukt Fehler anfällig ist oder durch starke, magische Felder und Entladungen beeinträchtigt werden kann.

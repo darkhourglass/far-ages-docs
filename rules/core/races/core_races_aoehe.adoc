@@ -1,10 +1,18 @@
 = Aoehe
 
 *Attributsbonus:* -1 ST, +1 GE, +1 ER +
-*Vorteile:* Aufmerksam, Flügel +
-*Nachteile:* Schadensanfälligkeit [Frost] I +
 *Größe:* 5 +
-*Sonstiges:* - +
 *Generation:* 4 oder höher +
 *Progenitor:* Hrafass +
 *CP:* 40 +
+
+== Eigenschaften
+
+=== Adleraugen
+Aoehe erhalten einen Bonus von +1 auf die Würfe zum Erfolg xref:../core_rules_d10_system.adoc#ref_base_roll_search[Entdecken und Suchen].
+
+=== Flügel
+Ein Aoehe besitzt Flügel und kann damit fliegen.
+Er bewegt sich fliegend dreimal so schnell, wie er normalerweise auf dem Boden rennen würde (d.h. seine BEW multipliziert mit 3).
+Für gewöhnlich kann ein Charakter so viele Kampfphasen in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
+Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_maneuver_airattack[Flugangriff] verwenden.

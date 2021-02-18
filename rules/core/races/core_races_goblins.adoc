@@ -1,13 +1,22 @@
 = Goblins
 
 *Attributsbonus:* -1 ST, +2 GE, -1 KO, -1 CH +
-*Vorteile:* Dunkelsicht, Geborener Artist, Geborener Kletterer +
-*Nachteile:* Hänfling +
 *Größe:* 4 +
-*Sonstiges:* Klein und Gemein +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 35 +
+*CP:* 10 +
 
-== Klein und Gemein
-Was Goblins an körperlicher Stärke gegenüber den meisten (größeren) Völkern fehlt, machen sie durch Geschick, Cleverness und manchmal Hinterlist wett. Jeder Schadenswurf gegen ein Wesen, dessen GK größer ist als der des Goblins, erhält einen Bonus von +3. Dieser Bonus gilt nicht gegenüber Wesen, die immun gegen Überraschungsangriffe sind wie z.B. Untote oder Konstrukte.
+== Eigenschaften
+
+=== Dunkelsicht
+Ein Charakter mit dieser Eigenschaft kann in der Nacht oder in der Dunkelheit noch genauso gut sehen wie mit Licht.
+In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] werden halbiert.
+
+=== Eins mit der Dunkelheit
+Goblins sind an das Leben in der Dunkelheit perfekt angepasst.
+Sie erhalten in Dunkelheit immer einen Bonus von +1 auf die Würfe zum Erfolg auf alle Proben in xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen].
+
+=== Klein und Gemein
+Was Goblins an körperlicher Stärke gegenüber den meisten (größeren) Völkern fehlt, machen sie durch Geschick, Cleverness und manchmal Hinterlist wett.
+Jeder Schadenswurf gegen ein Wesen, dessen GK größer ist als der des Goblins, erhält einen Bonus von +3.
+Dieser Bonus gilt nicht gegenüber Wesen, die immun gegen xref:../core_rules_skills.adoc#ref_skills_backstab[Hinterhältiger Angriffe] sind wie z.B. Untote oder Konstrukte.

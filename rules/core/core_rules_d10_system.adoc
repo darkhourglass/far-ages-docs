@@ -385,10 +385,7 @@ Situationen die Proben erschweren oder erleichtern.
 
 == Attributsproben
 
-Attributsproben sind Proben, die ausschließlich auf die Attribute des
-Charakters abgelegt werden, also auf *Stärke*, *Geschick*,
-*Konstitution*, *Erkenntnis*, *Energie*,
-*Selbstbeherrschung* und *Charisma*.
+Attributsproben sind Proben, die ausschließlich auf die Attribute des Charakters abgelegt werden, also auf *Stärke*, *Geschick*, *Konstitution*, *Erkenntnis*, *Energie*, *Selbstbeherrschung* und *Charisma*.
 
 Wie viele Würfel für eine Attributsprobe zur Verfügung stehen, hängen
 von den jeweiligen Attributen des Charakters an. Die Attribute werden
@@ -398,125 +395,58 @@ diese auch *Attributsstufe*.
 
 .Attributsproben
 ====
-Thalvin hat eine Attributsstufe von 3 in Geschick. Damit kann
-er 3W10 für eine Geschick-Probe nutzen.
+Thalvin hat eine Attributsstufe von 3 in Geschick.
+Damit kann er 3W10 für eine Geschick-Probe nutzen.
 ====
 
-Häufig werden Attributsproben angewendet, wenn es keine für die
-Situation passende Standardprobe, bzw. Talentprobe gibt.
-
-Aktionen, bei denen der Charakter üblicherweise ein Talent benutzt,
-dieses aber nicht besitzt, oder einsetzen kann, erfordern dann eine
-Attributsprobe auf das mit dem Talent *verwandte Attribut*, wenn das
-Talent eine *ungeübte Anwendung* zu lässt. Zur genauen
-Begriffserläuterung siehe Talentproben.
-
-Beispiel: Varrik, der Elementarist, hat sein Leben lang keine Ausbildung
-in Nahkampf gehabt, besitzt somit auch keinerlei Erfahrung, wie man den
-Zauberstab, den er in der Hand hält, richtig schwingt (ja, den Stab aus
-Holz). Das interessiert jedoch den wütenden Ork, der Varrik beschimpft
-hat, beim Kartenspiel zu mogeln, herzlich wenig. Er stürmt nämlich
-gerade auf Yarrik zu. Das Talent Parade erlaubt eine ungeübte Anwendung
-und das verwandte Attribut ist Geschick. Varrik's Spieler überprüft
-Varrik's Attributsstufe in Geschick und bemerkt, dass Varrik 2W10
-aufgrund diese Stufe würfeln kann, um sich mit seinem Zaubererstab zu
-verteidigen.
-
-Für derartige Attributsproben steht der Mindestwurf und die Anzahl der
-Erfolge meist fest, denn sie basieren auf den Regeln für das jeweilige
-Talent. Zusätzliche Situationsmodifikatoren, wie sich auch bei der
-normalen Anwendung des Talents zur Anwendung kommen würden, gelten in
-diesem Fall natürlich auch.
+Häufig werden Attributsproben angewendet, wenn es keine für die Situation passende Standardprobe, bzw. Talentprobe gibt.
 
 == Talentproben
 
-Wann immer ein Spieler (oder auch ein NPC) ein Talent einsetzen will, so
-muss er eine Talentprobe würfeln. Dazu nimmt er so viele W10, wie er
-*Stufen* im Talent besitzt plus die Attributsstufen des verwandten
-Attributes.
+Wann immer ein Spieler (oder auch ein NPC) ein Talent einsetzen will, so muss er eine Talentprobe würfeln.
+Dazu nimmt er so viele W10, wie er *Stufen* im Talent besitzt plus die Attributsstufen des verwandten Attributes.
 
 .Talentproben
 ====
-Kraag hat eine GE-Attributsstufe von 2 und eine Talentstufe
-von 3 in Nahkampfwaffen. Also hat er insgesamt 5W10 zur Verfügung, wenn
-er mit diesem Talent Proben würfelt.
+Kraag hat eine GE-Attributsstufe von 2 und eine Talentstufe von 3 in Nahkampfwaffen.
+Also hat er insgesamt 5W10 zur Verfügung, wenn er mit diesem Talent Proben würfelt.
 ====
 
-Talentstufen symbolisieren den Fortschritt des Charakters in diesem
-Talent. Je mehr Stufen er hat, desto erfahrener ist er und desto besser
-sind seine Chancen, Erfolge zu erzielen.
-
-Jedes Talent hat einen vorgegebenen *Mindestwurf*, bei dem ein W10 einen
-durchschnittlichen Erfolg anzeigt. Diesen Mindestwurf muss man gleich
-oder höher würfeln.
+Jedes Talent hat einen vorgegebenen *Mindestwurf*, bei dem ein W10 einen durchschnittlichen Erfolg anzeigt.
+Diesen Mindestwurf muss man gleich oder höher würfeln.
 
 .Talentproben
 ====
-Varrik hat mit seinen Nahkampfkünsten den Ork leider nicht
-beeindrucken können. Neben einem geschwollenen Auge hat er ein blutenden
-Platzwunde abbekommen. Allerdings besitzt Varrik das Talent
-"Kunst[Zeichnen]" und entscheidet sich spontan ein Phantombild seiner
-Peinigers zu erstellen. Der angegebene Mindestwurf für Kunst[Zeichnen]
-ist 7.
+Varrik hat mit seinen Nahkampfkünsten den Ork leider nicht beeindrucken können.
+Neben einem geschwollenen Auge hat er eine blutenden Platzwunde abbekommen.
+Allerdings besitzt Varrik das Talent "Kunst[Zeichnen]" und entscheidet sich spontan ein Phantombild seiner Peinigers zu erstellen.
+Der angegebene Mindestwurf für Kunst[Zeichnen] ist 7.
 ====
 
-In der Talentbeschreibung findet sich meistens auch eine ungefähre
-Richtlinie, wie man mehrere Erfolge bzw. höhere Erfolgsgrade bei dem
-Talent anwendet, bzw. was sie nützen.
+In der Talentbeschreibung findet sich meistens auch eine ungefähre Richtlinie, wie man mehrere Erfolge bzw. höhere Erfolgsgrade bei dem Talent anwendet, bzw. was sie bewirken.
 
-Eine ausführliche Beschreibung aller generischen Talente findet sich im
-Dokument Talente.
+Eine ausführliche Beschreibung aller generischen Talente findet sich im Dokument link:core_rules_talents_base.adoc[Talente].
 
-Spieler und NPCs können unter Umständen auch Talente anwenden, die sie
-nicht besitzen. Dazu kommen die Regeln für die *ungeübte Anwendung* und
-das *verwandte Attribut* zum Tragen.
+Spieler und NPCs können unter Umständen auch Talente anwenden, die sie nicht besitzen.
+Dazu kommen die Regeln für die *ungeübte Anwendung* zum Tragen.
 
-Eine *ungeübte Anwendung* beschreibt, dass man die Fähigkeit, die in
-einem Talent steckt, anwenden kann, ohne sie jedoch gelernt zu haben.
-Das heißt, man besitzt dieses Talent nicht, kann aber dennoch versuchen
-es anzuwenden. Dies ist zum Beispiel bei vielen Talenten möglich, die
-eine starke visuelle Komponente haben, so dass man sich die Grundzüge
-bei Anwendern des Talentes abschauen könnte.
+Eine *ungeübte Anwendung* beschreibt, dass man die Fähigkeit, die in einem Talent steckt, anwenden kann, ohne sie jedoch gelernt zu haben.
+Das heißt, man besitzt dieses Talent nicht, kann aber dennoch versuchen es anzuwenden.
+In den Talentbeschreibungen findet sich immer eine Angabe, ob dieses Talent eine ungeübte Anwendung zulässt oder nicht.
+Dies ist mit einem schlichten "Ja" oder "Nein" dargestellt.
+Die Attributsstufe des *verwandten Attributs* ist die Basis für die Probe in der ungeübten Anwendung.
 
-In den Talentbeschreibungen findet sich immer eine Angabe, ob dieses
-Talent eine ungeübte Anwendung zulässt oder nicht. Dies ist mit einem
-schlichten "Ja" oder "Nein" dargestellt.
-
-Jedes Talent hat ein *verwandtes Attribut*. Wie hoffentlich nicht anders
-erwartet findet man die Angabe des verwandten Attributs auch in der
-Talentbeschreibung. Jedes Talent hat immer nur ein verwandtes Attribut.
-
-Die Attributsstufe ist die Basis für die Talente. Jede Stufe, die man in
-dem Talent erwirbt, fügt einen W10 zu dieser Basis hinzu. Die Ungeübten
-Anwendungen verwendet immer die Attributsstufe als Basis gewürfelt.
-
-.Talentproben
+.Ungeübte Anwendung
 ====
-Ein Charakter besitzt in Geschick eine Attributsstufe von 3.
-Er kann also 3W10 für eine Probe mit nur diesem Attribut einsetzen. Ein
-Talent, das dasselbe Attribut als verwandtes Attributs besitzt und eine
-Stufe von 5 erreicht hat, wird also mit 3+5=8W10 gewürfelt.
+Varrik, der Elementarist, hat sein Leben lang keine Ausbildung in Nahkampf gehabt, besitzt somit auch keinerlei Erfahrung, wie man den Zauberstab, den er in der Hand hält, richtig schwingt (ja, den Stab aus Holz).
+Das interessiert jedoch den wütenden Ork, der Varrik beschimpft hat, beim Kartenspiel zu mogeln, herzlich wenig.
+Er stürmt nämlich gerade auf Yarrik zu.
+Das Talent Parade erlaubt eine ungeübte Anwendung und das verwandte Attribut ist Geschick.
+Varrik's Spieler überprüft Varrik's Attributsstufe in Geschick und bemerkt, dass Varrik 2W10 aufgrund diese Stufe würfeln kann, um sich mit seinem Zaubererstab zu verteidigen.
 ====
 
-Jetzt haben wir einiges mehr über Far Ages gelernt, um einen
-zusammenfassenden Blick auf Varriks Kampf mit dem Ork zu werfen:
-
-.Talentproben
-====
-Beispiel: Wir blicken zurück in die Situation, in der Varrik sich dem
-Ork schlug. Wie bereits beschrieben, hat Varrik seinen Zauberstab zu
-Abwehr erhoben. Da Parade ein Talent ist, die ungeübte Anwendung
-zulässt, schaut Varrik's Spieler in der Talentbeschreibung nach und
-bemerkt den Eintrag: "Ungeübte Anwendung: Ja".
-====
-
-Das zu Parade verwandte Attribut ist Geschick, also schaut Varrik's
-Spieler auf das Geschick seines Charakters. Varrik hat eine
-durchschnittliche Attributsstufe von 2, also darf er 2W10 würfeln.
-
-Der Ork hat keine Waffe, jedoch schwingt er seine Fäuste. Genaueres zu
-dem Kampf, der eine konkurierende Probe ist, findet sich im Dokument
-Kampf.
+Für derartige Attributsproben steht der Mindestwurf und die Anzahl der Erfolge meist fest, denn sie basieren auf den Regeln für das jeweilige Talent.
+Zusätzliche Situationsmodifikatoren, wie sich auch bei der normalen Anwendung des Talents zur Anwendung kommen würden, gelten in diesem Fall natürlich auch.
 
 == Standardproben
 
@@ -600,6 +530,7 @@ Das Kapitel über link:core_rules_adventures.adoc[Abenteuer] enthält Anregungen
 
 === Verteidigungswürfe
 
+[[ref_base_roll_fearhorror]]
 ==== Ekel, Furcht und Horror
 
 *Attribut:* Selbstbeherrschung
@@ -638,6 +569,7 @@ Nicht immer sind Auslöser für diese Proben deutlich zu sehen.
 Manche Zaubersprüche generieren einfach Furcht im Verstand des Charakters.
 Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfrunden, z.B. 1W6-viele, geschickt werden.
 
+[[ref_base_roll_poisonsickness]]
 ===== Gift und Krankheiten
 
 *Attribut:* Konstitution
@@ -663,6 +595,7 @@ Diese wird unter denselben Bedingungen (also Mindestwurf und nötige Anzahl an E
 Der Charakter ist solange von dem Gift bzw. der Krankheit betroffen, wie er diese Proben nicht erfolgreich abschließt.
 Die Auswirkungen können auch schlimmer oder besser werden bzw. hin- und herwechseln, abhängig davon wie der Charakter Misserfolge und Patzer würfelt.
 
+[[ref_base_roll_magicdefense]]
 ===== Magieabwehr
 
 *Attribut:* Energie
@@ -702,6 +635,7 @@ Manche Zaubersprüche erlauben eine Magieabwehr-Probe, obwohl sie dem Ziel nicht
 In diesem Fall muss der Charakter ebenfalls eine Magieabwehr-Probe würfeln.
 Die Magieabwehr-Probe ist insbesondere eine passive Eigenschaft, die jedem Wesen zusteht.
 
+[[ref_base_roll_knockdown]]
 ===== Niederschlag
 
 *Attribut:* Konstitution
@@ -720,6 +654,7 @@ Eine Niederschlags-Probe wird im Allgemeinen durch Verletzungen ausgelöst.
 Eine Verletzung tritt ein, wenn ein Charakter durch eine beliebige Schadensquelle genau so viel oder mehr Schaden erhält, wie seine WID beträgt.
 Für Details siehe das Dokument über Kampf.
 
+[[ref_base_roll_reflex]]
 ===== Reflex
 
 *Attribut:* Geschick
@@ -735,6 +670,7 @@ Dies ist beispielsweise dann der Fall, wenn der Charakter von einer Falle angegr
 * *Misserfolg:* Der Charakter erleidet sofort die negativen Folgen des Effekts, zum Beispiel wird er von der Falle getroffen.
 * *Patzer:* Wie Misserfolg, jedoch geht der Charakter zusätzlich ohne weitere Probe zu Boden und verliert alle Aktionspunkte für diese Kampfphase.
 
+[[ref_base_roll_willpower]]
 ===== Willenskraft
 
 *Attribut:* Selbstbeherrschung
@@ -756,6 +692,7 @@ Um beispielsweise einen Nachteil bewusst auszuspielen, kann die Probe einfach ig
 
 === Manöver
 
+[[ref_base_roll_acrobatics]]
 ==== Akrobatik
 
 *Attribut:* Geschick
@@ -776,6 +713,7 @@ Der SL kann dann eine nötige Anzahl von Erfolgen festlegen oder aufgrund der Si
 * *Misserfolg:* Der Charakter schafft seine Aktion nicht, er verliert alle Aktionspunkte für die aktuelle Kampfphase.
 * *Patzer:* Wie Misserfolg, jedoch ist der Charakter gleichzeitig zu Boden gegangen und beginnt die nächste Kampfphase am Boden liegend.
 
+[[ref_base_roll_search]]
 ==== Entdecken und Suchen
 
 *Attribut:* Erkenntnis
@@ -809,6 +747,7 @@ Er kann es erst wieder nach 5 Minuten versuchen.
 * *Patzer:* Der Charakter findet nicht, wonach er sucht.
 Er ist der Überzeugung, dass das Gesuchte nicht da ist.
 
+[[ref_base_roll_falling]]
 ==== Fallen
 
 *Attribut:* Geschick
@@ -829,6 +768,7 @@ Der Schaden im Fall eines Misserfolgs beträgt 1W6, den keine Rüstung abhalten 
 [NOTE]
 Natürliche Rüstung vermindert Fallschaden.
 
+[[ref_base_roll_climbing]]
 ==== Klettern
 
 *Attribut:* Konstitution
@@ -850,6 +790,7 @@ Er verliert alle Aktion und Manöver in der aktuellen Kampfrunde und kann erst i
 * *Patzer:* Der Charakter fällt.
 Er muss eine Fallen-Probe würfeln.
 
+[[ref_base_roll_swimming]]
 ==== Schwimmen
 
 *Attribut:* Konstitution
@@ -864,6 +805,7 @@ Grundsätzlich kann der SL eine Schwimmen-Probe auch in regelmäßigen Abstände
 Er verliert alle Aktionen und Manöver für diese Kampfrunde.
 * *Patzer:* Wie Misserfolg, jedoch erhält der Charakter zusätzlich 1W6 Schaden ohne Rüstungsschutz, da er Wasser in seine Lungen bekommt.
 
+[[ref_base_roll_jumping]]
 ==== Springen
 
 *Attribut:* Geschick
@@ -884,6 +826,7 @@ Dies kann direkt unangenehme Folgen haben, wie z.B. eine Fallen-Probe. Springt e
 
 === Soziale Interaktion
 
+[[ref_base_roll_questing]]
 ==== Ausfragen
 
 *Attribut:* Erkenntnis
@@ -906,6 +849,7 @@ In diesem Fall kann der SL auch diese Standardprobe verwenden, wobei die Misserf
 [NOTE]
 Die Probe kann auch als konkurrierende Probe zwischen der Ausfragen-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
 
+[[ref_base_roll_intimidate]]
 ==== Einschüchtern
 
 *Attribut:* Charisma
@@ -924,6 +868,7 @@ Ein Erfolg in der Probe bedeutet, dass der Charakter die Person erfolgreich dazu
 [NOTE]
 Die Probe kann auch als konkurrierende Probe zwischen der Einschüchtern-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
 
+[[ref_base_roll_decieve]]
 ==== Täuschen
 
 *Attribut:* Charisma
@@ -936,6 +881,7 @@ Die Ausfragen-Probe wird hier als eine Befragung über die wahren Motive des Cha
 * *Misserfolg:* der Charakter kann die Täuschung nicht durchsetzen, man glaubt ihm einfach nicht, bzw. er wird enttarnt.
 * *Patzer:* wie Misserfolg, jedoch provoziert der Charakter damit sofort eine stark ablehnende Reaktion.
 
+[[ref_base_roll_persuade]]
 ==== Überzeugen
 
 *Attribut:* Charisma
@@ -953,6 +899,7 @@ Die Probe kann auch als konkurrierende Probe zwischen der Überzeugen-Probe des 
 
 === Sonstige
 
+[[ref_base_roll_resistburning]]
 ==== Verbrennen Widerstehen
 
 *Attribut:* Energie
@@ -970,6 +917,65 @@ Besteht der Charakter eine dieser Proben nicht, so erhält er POT*W3 magischen S
 Folgende Situationen führen zu einer Verbrennen Widerstehen-Probe:
 
 * Der Zauberer würfelt einen Patzer bei der Spruchzauberei-Probe
-* Der Zauberer wird während der Vorbereitung zur Verwendung eines Talents oder Kampfmanövers (außer Rennen mit halber Geschwindingkeit)
+* Der Zauberer wird während der Vorbereitung zur Verwendung eines Talents oder Kampfmanövers (außer Rennen mit halber Geschwindigkeit)
 gezwungen
 * Der Zauberer wird während der Vorbereitung niedergeschlagen
+
+== Energiepunktepools
+
+*Energiepunktepools* bzw. *Punktepools* stellen im System von Far Ages verschiedene Aspekte der Verfassung eines Charakters dar.
+Sie werden in Zahlen gemessen und je geringer diese sind, um so gefährlicher wird es für den Charakter.
+Erreicht ein Pool den Wert 0 befindet sich der betreffende Charakter üblicherweise in einer lebensbedrohenden Lage, er steht an der *Todesschwelle*.
+Dieses Kapitel erläutert die verschiedenen Pools und beschreibt Regeln.
+
+Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden sich die Regeln zu Ermittlung der Pools für jeden Charakter.
+
+=== Trefferpunkte
+
+*Trefferpunkte (TP)* sind ein Maß für die körperliche Verfassung des Charakters.
+Sie können als eine Mischung auch der physischen Unversehrtheit und Ausdauer des Charakter interpretiert werden.
+Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er nähert sich dem Tod.
+
+Der Verlust von TP kann aus sehr vielen unterschiedlichen Situation entstehen, die Häufigste ist das Erhalten von Verletzungen, z.B. aus dem link:core_rules_battlesystem.adoc[Kampf].
+
+In sehr wenigen Fällen besitzt eine Kreatur keinen TP-Pool.
+Solche Wesen sind vollständig immun gegen jeden Schaden, der vom TP-Pool abgerechnet wird.
+
+=== Magiepunkte
+
+=== Stabilitätspunkte
+
+=== Temporäre Punkte
+
+Durch Zauber ist es zum Beispiel möglich *temporäre Punkte* zu bekommen.
+Dies ist für jeden der vorgestellten Pools möglich.
+Temporäre Punkte müssen als ein zusätzlicher Pool geführt werden.
+Es wird immer zuerst aus diesem Pool subtrahiert, wenn der Pool verwendet wird.
+Sinkt der Wert der temporären Punkte in diesem Pool auf 0, so passiert dem Charakter nichts, außer, dass dieser zusätzliche Pool nun ausgedient hat und ab sofort wieder seine regulären Punkte benutzt werden.
+
+Überschüssige Punkte aus einem temporären Pool werden von den regulären abgezogen.
+
+Temporäre Punkte können nicht genutzt werden, um einen Charakter zu heilen, aus einer Ohnmacht zu befreien oder wiederzubeleben.
+Sie können jedoch einen ohnmächtigen Charakter insoweit helfen, dass sie eventuelle Verluste auffangen.
+
+=== Regeneration
+
+Verlorene TP und MP können regeneriert werden.
+Dies geschieht für gewöhnlich nur, wenn der Charakter sich ausruht, bzw. schläft.
+Abhängig von seiner Ruhezeit regeneriert ein Charakter unterschiedlich viele TP und MP.
+
+Folgende Tabelle gibt Aufschluss über die Regeneration:
+
+[cols=",,",options="header"]
+|===
+|Ruheperiode |TP Regeneration |MP Regeneration
+|15 Minuten |1W10 |1W10
+|1 Stunde |KO/2 1W10 |EN/2 1W10
+|8 Stunden |KO 1W10 | EN 1W10
+|24 Stunden |Vollständig |Vollständig
+|===
+
+Der Charakter würfelt die angegebene Würfel und addiert die Augen zusammen.
+Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm maximale TP und MP zustehen.
+
+=== Todesschwellen
