@@ -29,8 +29,8 @@ Man kann eine Besondere Fähigkeit nur einmal lernen.
 
 == Kampffähigkeiten
 
+[[ref_skills_acrobatic_attack]]
 === Akrobatischer Angriff
-
 *Voraussetzungen:* Akrobatik 5, Nahkampfwaffen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit befähigt einen Kämpfer einen Gegner mit waghalsigen Manövern zu attackieren.
@@ -46,7 +46,6 @@ Er kann sich damit aus einem Kampf lösen, ohne die Kampfmanöver Flucht oder Zu
 Seine Bewegung führen in beiden Fällen zu keinem Gelegenheitsangriff.
 
 === Barriere
-
 *Voraussetzungen:* Schildverteidigung 10 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Am Anfang einer Kampfrunde kann ein Charakter mit dieser Fähigkeit ansagen, ob er diese nutzen möchte.
@@ -59,47 +58,39 @@ Während dieser Zeit darf er jedoch keine Angriffe ansagen (er kann jedoch Geleg
 Er kann nur das Bewegungsmanöver Rennen einsetzen, dieses jedoch nur mit halbierter BEW.
 
 === Durchschlagender Treffer [Waffe]
-
 *Voraussetzungen:* Angriffstalent passend zu Waffe 10, Waffenfokus[Waffe] +
 *CP-Kosten:* 300 +
-*Beschreibung:* Diese Fähigkeit kann ein Charakter bei einem Nahkampf-
-oder Projektilwaffenangriff einsetzen. Tut er dies, muss er einen Malus
-von -1 Erfolgen auf seine Anzahl von Erfolgen bei der Angriffsprobe
-hinnehmen. Jeder Erfolg, der zum Schaden führt, verringert den
-Rüstungsschutz, den der Verteidiger auf der Trefferzone für diesen
-Angriff hat, um 1. Dies gilt für jede Art von Rüstung, außer sie ist
-explizit dagegen geschützt.
+*Beschreibung:* Diese Fähigkeit kann ein Charakter bei einem Nahkampf- oder Projektilwaffenangriff einsetzen.
+Tut er dies, muss er einen Malus von -1 Erfolgen auf seine Anzahl von Erfolgen bei der Angriffsprobe hinnehmen.
+Jeder Erfolg, der zum Schaden führt, verringert den Rüstungsschutz, den der Verteidiger auf der Trefferzone für diesen Angriff hat, um 1.
+Dies gilt für jede Art von Rüstung, außer sie ist explizit dagegen geschützt.
 
+[[ref_skills_disarm]]
 === Entwaffnen
-
 *Voraussetzungen:* Parade 5, Nahkampfwaffen 5 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Mit dieser Fähigkeit kann der Charakter versuchen, einem
-anderen Charakter die Waffe aus der Hand zu schlagen. Er kann diese
-Fähigkeit sowohl bei einer Parade als auch bei einer Nahkampfattacke
-verwenden. Wählt er eine der Optionen erhält er einen Malus von -1 auf
-die Würfe zum Erfolg. Ist die jeweilige Probe erfolgreich, dann würfeln
-beide anstelle einer Schadensprobe eine ST-Probe gegen den
-Standardmindestwurf. Hat der Entwaffnen-Nutzende mehr Erfolge, so hat er
-den Gegner entwaffnet. Die Waffe fliegt 1W3*1,50 Meter weit weg in eine
-zufällig bestimmte Richtung.
+*Beschreibung:* Mit dieser Fähigkeit kann der Charakter versuchen, einem anderen Charakter die Waffe aus der Hand zu schlagen.
+Er kann diese Fähigkeit sowohl bei einer Parade als auch bei einer Nahkampfattacke
+verwenden.
+Wählt er eine der Optionen, erhält er einen Malus von -1 auf die Würfe zum Erfolg.
+Ist die jeweilige Probe erfolgreich, dann würfeln beide Kontrahenten anstelle einer Schadensprobe eine ST-Probe gegen den Standardmindestwurf.
+Hat der Entwaffnen-Nutzende mehr Erfolge, so hat er den Gegner entwaffnet.
+Die Waffe fliegt 1W3*1,50 Meter weit weg in eine zufällig bestimmte Richtung.
 
 === Gegenangriff [Parade oder Schildverteidigung]
-
 *Voraussetzungen:* Nahkampfwaffen 5, Parade 5 oder Schildverteidigung 5 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Nach einer erfolgreichen Parade oder einer erfolgreichen Schildverteidigung - je nach Wahl der Fähigkeit - kann der Charakter, wenn er eine Nahkampfwaffe in der Hand hält, eine zusätzliche Attacke mit dieser Waffe gegen den Opponenten führen.
 Der Angriff kann nur gegen diesen Gegner geführt werden.
 
 === Kampfinstinkt
-
 *Voraussetzungen:* Nahkampfwaffen 5 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Dank dieser Fähigkeit kann ein Charakter mehr Gelegenheitsangriffe pro Kampfrunde durchführen.
 Die Anzahl der Gelegenheitsangriffe wird berechnet aus seinen Stufen in (GE + ER) / 2 (minimal 1).
 
+[[ref_skills_martial_I]]
 === Kampfkunst I
-
 *Voraussetzungen:* Unbewaffneter Kampf 3 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeiten beschreiben einen Kampfstil, der ohne Waffen geführt wird und über den Unbewaffneten Kampf hinausgeht. Dank intensivem Training wird der Charakter auch ohne Waffen ein gefährlicher Teilnehmer im Kampf.
@@ -111,8 +102,8 @@ Die Waffe fliegt 1W3*1,50 Meter weit weg in eine zufällig bestimmte Richtung. +
 Außerdem darf der Charakter bei Wahl des Kampfmanönvers Raufen und Ringen entscheiden, ob er den halbierten oder gar keinen Schaden verursachen will.  +
 Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
+[[ref_skills_martial_II]]
 === Kampfkunst II
-
 *Voraussetzungen:* Unbewaffneter Kampf 6, Kampfkunst I +
 *CP-Kosten:* 300 +
 *Beschreibung:* Mit Erlernen dieser Fähigkeit kann der Charakter einen Angriff zum Niederschlag durchführen.
@@ -121,8 +112,8 @@ Er wirft dann die Schadensprobe wie sonst.
 Zur Bestimmung, ob der Gegner niedergeschlagen wird, wird ein Bonus von +5 angenommen.
 Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
+[[ref_skills_martial_III]]
 === Kampfkunst III
-
 *Voraussetzungen:* Unbewaffneter Kampf 9, Kampfkunst II +
 *CP-Kosten:* 400 +
 *Beschreibung:* Kampfkunst III eleminiert alle negativen Modifikationen, die ein
@@ -130,15 +121,15 @@ unbewaffenter Charakter im Kampf gegen einen bewaffneten Charakter
 erleidet. Siehe dazu das Dokument link:core_rules_battlesystem.adoc[Kampf]. +
 Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
+[[ref_skills_martial_IV]]
 === Kampfkunst IV
-
 *Voraussetzungen:* Unbewaffenter Kampf 12, Kampfkunst III +
 *CP-Kosten:* 500 +
 *Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Proben in den Talenten Unbewaffneter Kampf, Hieb Ausweichen und Reflex, solange er keine Waffen trägt.+
 Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
 
+[[ref_skills_berserk_i]]
 === Kampfrausch I
-
 *Voraussetzungen:* - +
 *CP-Kosten:* 200 +
 *Beschreibung:* Am Anfang eines Kampfs kann ein Charakter mit dieser Fähigkeit sich in einen Kampfrausch versetzten.
@@ -149,8 +140,8 @@ Danach ist der Kampfrausch automatisch vorbei (der Charakter kann einen Kampfrau
 Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten und Springen verwenden und auch keine Talente außer Kampftalente.
 Am Ende des Kampfrausches ist der Charakter für 5 – KO (Minimum 1) Kampfrunden erschöpft.
 
+[[ref_skills_berserk_ii]]
 === Kampfrausch II
-
 *Voraussetzungen:* Kampfrausch I +
 *CP-Kosten:* 200 +
 *Beschreibung:* Die Fähigkeit verbessert Kampfrausch I.
@@ -162,8 +153,8 @@ Der Rasende kann nur direkt angreifen, er kann nicht um Ziele herumlaufen, um si
 
 Die Dauer der Raserei verbessert sich auf 2*KO Kampfrunden, bevor die Erschöpfung eintritt.
 
+[[ref_skills_berserk_iii]]
 === Kampfrausch III
-
 *Voraussetzungen:* Kampfrausch II +
 *CP-Kosten:* 200 +
 *Beschreibung:* Die Fähigkeit wirkt, wenn der Charakter sich in einen Kampfrausch versetzt.
@@ -186,7 +177,6 @@ Er bleibt dabei im Kampfrausch.
 Die Dauer der Raserei verbessert sich auf 3*KO Kampfrunden, bevor die Erschöpfung eintritt.
 
 === Kampfreflexe
-
 *Voraussetzungen:* Akrobatik 8, ER 4 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Ein Charakter mit dieser Fähigkeit kann
@@ -195,7 +185,6 @@ Gelegenheitsangriffe üblicherweise Einfache Proben sind. Gegen einen
 Charakter mit dieser Fähigkeit werden sie also Konkurrierenden Proben.
 
 === Kavallerie Angriff
-
 *Voraussetzungen:* Reiten 5, Nahkampfwaffen 8, Stabiler Sitz, Niederreiten +
 *CP-Kosten:* 500 +
 *Beschreibung:* Der Charakter muss das Kampfmanöver Sturmangriff ansagen
@@ -207,7 +196,6 @@ gleichen Bedingungen angreifen. Der Angriff kann nur so lange
 weitergeführt werden, wie die BEW des Reittiers es zulässt.
 
 === Lähmender Schlag
-
 *Voraussetzungen:* Nahkampfwaffen 5 oder Unbewaffneter Kampf 5 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Ein Charakter mit dieser Fähigkeit kann eine harte
@@ -221,7 +209,6 @@ benommen. Erleidet er eine Verletzung, so ist er sogar für 1W6 Runden
 benommen. Zum Zustand Benommenheit siehe das Dokument[Kampf].
 
 === Niederreiten
-
 *Voraussetzungen:* Reiten 5, Nahkampfwaffen 5, Stabiler Sitz +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit kann nur angewandt werden, wenn der
@@ -231,7 +218,6 @@ Nahkampfwaffen-Probe verdoppelt sich der Schadensbonus der eingesetzten
 Waffe für die anliegende Schadensprobe.
 
 === Niederschlagen
-
 *Voraussetzungen:* Nahkampfwaffen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Anstatt einer normalen Nahkampfattacke kann der
@@ -253,7 +239,6 @@ den Widerstand nicht übertreffen.
 ====
 
 === Projektil Ausweichen
-
 *Voraussetzungen:* Hieb Ausweichen 10, Verbessertes Hieb Ausweichen, ER 5 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Charaktere mit dieser Fähigkeit dürfen, wenn sie Opfer eines Angriffs mit Projektilwaffen werden, ihr Hieb Ausweichen-Talent einsetzen, wodurch die Projektilwaffen-Probe zu einer Konkurrierenden Probe wird.
@@ -261,7 +246,6 @@ Diese Fähigkeit ist nur einmal pro Kampfrunde einsetzbar und nur gegen Angriffe
 Die Fähigkeit kann unter gleichen Umständen für Wurfwaffenangriffe, die auf den Charakter gezielt sind, verwendet werden.
 
 === Projektilhagel
-
 *Voraussetzungen:* Projektilwaffen 8 +
 *CP-Kosten:*: 400 +
 *Beschreibung:* Mit dieser Fähigkeit kann ein Charakter mit einer Projektilwaffe mit einem Angriff mehrere Schüsse abgeben.
@@ -272,7 +256,6 @@ Er kann dabei das gleiche Ziel attackieren oder ein anderes, welches jedoch maxi
 Diese zusätzliche Probe wird mit einem Malus von -1 auf die Würfe zum Erfolg gewürfelt.
 
 === Rundumschlag
-
 *Voraussetzungen:* Nahkampfwaffen 8 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Diese Fähigkeit erweitert das Nahkampfwaffen-Talent. Der
@@ -287,7 +270,6 @@ Verteidigungswurf für sich allein und der Schaden wird auch individuell
 ermittelt.
 
 === Rüstungsgewohnheit [Rüstung]
-
 *Voraussetzungen:* - +
 *CP-Kosten:* 100 +
 **Beschreibung: **Ein Charakter, der diese Fähigkeit lernt, hat sich an
@@ -304,7 +286,6 @@ einem Minimum von 0. Die Rüstungsgewohnheit kann für eine Rüstungsart
 mehrmals gelernt werden.
 
 === Schildschlag
-
 *Voraussetzungen:* Schildverteidigung 5, Nahkampfwaffen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Der Charakter kann seinen Schild wie eine Nahkampfwaffe
@@ -324,7 +305,6 @@ verursacht.
 |===
 
 === Schnelles Nachladen [Projektilwaffe]
-
 *Voraussetzungen:* Projektilwaffen 5, Waffenfokus[Projektilwaffe] +
 *CP-Kosten:* 200 +
 *Beschreibung:* Ein Charakter mit dieser Fähigkeit ist besonders geübt und geschickt darin, seine Projektilwaffen kampfbereit zu machen.
@@ -332,7 +312,6 @@ Für die gewählte Projektilwaffe reduziert sich das Nachladen auf eine Freie Ak
 Die Fähigkeit kann mehrfach für unterschiedliche Projektilwaffen gelernt werden.
 
 === Schnelle Waffenbereitschaft [Nahkampfwaffe]
-
 *Voraussetzungen:* Nahkampfwaffen 10, Waffenfokus[Nahkampfwaffe] +
 *CP-Kosten:* 200 +
 *Beschreibung:* Ein Charakter mit dieser Fähigkeit kann die gewählte Nahkampfwaffe geschickt ziehen und einsatzbereit machen.
@@ -340,7 +319,6 @@ Für die gewählte Nahkampfwaffe reduziert sich das Ziehen auf eine Freie Aktion
 Die Fähigkeit kann mehrfach für unterschiedliche Nahkampfwaffen gelernt werden.
 
 === Spektakulärer Angriff [Nahkampfwaffe]
-
 *Voraussetzungen:* Nahkampfwaffen 8, Waffenfokus[Nahkampfwaffe] +
 *CP-Kosten:* 400 +
 *Beschreibung:* Der Charakter kann diese Fähigkeit als Erweiterung von
@@ -353,7 +331,6 @@ zulässt. +
 Die Fähigkeit kann mehrfach für unterschiedliche Nahkampfwaffen gelernt werden.
 
 === Sprungangriff
-
 *Voraussetzungen:* Waffenloser Kampf 8 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Mit dieser Fähigkeit kann ein Charakter im Waffenlosen
@@ -375,7 +352,6 @@ wenn der Zurückweichende sich in deren Bedrohungszonen bewegt. Das
 Zurückweichen provoziert beim Angreifer keinen Gelegenheitsangriff.
 
 === Stabiler Sitz
-
 *Voraussetzungen:* Reiten 3, Niederschlag Widerstehen 3 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Wenn der Charakter im Sattel eines Reittieres sitzt,
@@ -383,7 +359,6 @@ erhält er einen Bonus von +1 auf die Würfe zum Erfolg, wenn er eine
 Niederschlag Widerstehen-Probe abgelegen muss.
 
 === Todesstoß [Nahkampfwaffe]
-
 *Voraussetzungen:* Nahkampfwaffen[Waffe] 12, Starker Waffenfokus[Waffe], Spektakulärer Angriff, ST 8 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Mit dieser Fähigkeit kanalisiert der Charakter nicht nur
@@ -401,7 +376,6 @@ Diese Fähigkeit kann mehrmals gelernt werden, jeweils für
 unterschiedliche Waffen.
 
 === Verbessertes Hieb Ausweichen
-
 *Voraussetzungen:* Hieb Ausweichen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit erweitert das Talent Hieb Ausweichen permanent.
@@ -410,7 +384,6 @@ Dieser Schritt muss legal sein, d.h. der Weg darf nicht blockiert sein.
 Dies provoziert beim Gegner keinen Gelegenheitsangriff, jedoch können Gegner, die in Kampfreichweite im Ausweichbereich sind, Gelegenheitsangriffe durchführen.
 
 === Verbesserte Initiative
-
 *Voraussetzungen:* - +
 *CP-Kosten:* 100+ +
 *Beschreibung:* Äquivalent zu dem gleichnamigen Vorteil, erhöht diese
@@ -418,7 +391,6 @@ Fähigkeit den Initiative-Wert eines Charakters dauerhaft um +1. Diese
 Fähigkeit kann öfter gelernt werden, wodurch sich die Boni addieren.
 
 === Verbesserte Schildverteidigung
-
 *Voraussetzungen:* Schildverteidigung 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit erweitert das Talent Schildverteidigung
@@ -430,21 +402,24 @@ jedoch können Gegner, die in Kampfreichweite im Ausweichbereich sind,
 Gelegenheitsangriffe durchführen.
 
 === Verbessertes Schnelles Nachladen
-
 *Voraussetzungen:* Projektilwaffen 10, Schnelles Nachladen +
 *CP-Kosten:* 200 +
 *Beschreibung:* Mit dieser Fähigkeit provoziert das Nachladen einer
 Projektilwaffe durch den Charakter keinen Gelegenheitsangriff mehr.
 
 === Verbesserte Schnelle Waffenbereitschaft
-
 *Voraussetzungen:* Nahkampfwaffen 10, Schnelle Waffenbereitschaft +
 *CP-Kosten:* 200 +
 *Beschreibung:* Mit dieser Fähigkeit provoziert das Ziehen einer Waffe
 durch den Charakter keinen Gelegenheitsangriff mehr.
 
-=== Verbesserter Zweiwaffenkampf
+[[ref_skills_improved_charge]]
+=== Verbesserter Sturmangriff
+*Voraussetzungen:* Nahkampfwaffen 3
+*CP-Kosten:* 100 +
+*Beschreibung:* Mit dieser Fähigkeit provoziert das Ausführen des Kampfmanövers xref:core_rules_battlesystem.adoc#ref_maneuver_charge[Sturmangriff] durch den Charakter keinen Gelegenheitsnagriff mehr.
 
+=== Verbesserter Zweiwaffenkampf
 *Voraussetzungen:* Nahkampfwaffen 8, Zweiwaffenkampf +
 *CP-Kosten:* 400 +
 *Beschreibung:* Diese Fähigkeit funktioniert genau wie die
@@ -452,7 +427,6 @@ Zweiwaffenkampf-Fähigkeit, jedoch reduzieren sich die Mali auf -1/-2
 Würfel auf die Angriffsproben mit der Haupt- bzw. Zweithand.
 
 === Verteidigungsfokus [Verteidigungstalent]
-
 *Voraussetzungen:* gewähltes Verteidigungstalent 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen Bonus von +1
@@ -462,15 +436,14 @@ Parade und Schildverteidigung. Die Fähigkeit kann mehrfach gelernt
 werden, jedoch immer nur für ein anderes Talent.
 
 === Verteidigungsfokus, Starker [Verteidigungstalent]
-
 *Voraussetzungen:* gewähltes Verteidigungstalent 10, Verteidigungsfokus[gewähltes Talent] +
 *CP-Kosten:* 400 +
 *Beschreibung:* Wie Verteidigungsfokus, jedoch gewährt der
 Starke Verteidigungsfokus insgesamt einen Bonus von +2 auf die Würfe zum
 Erfolg.
 
+[[ref_skills_weaponfocus_melee]]
 === Waffenfokus [Nahkampfwaffe]
-
 *Voraussetzungen:* Nahkampfwaffen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
@@ -478,8 +451,8 @@ Waffe, erhält er einen Bonus von +1 auf die Würfe zum Erfolg. Die
 Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere
 Waffe.
 
+[[ref_skills_weaponfocus_projectile]]
 === Waffenfokus [Projektilwaffe]
-
 *Voraussetzungen:* Projektilwaffen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
@@ -487,8 +460,8 @@ Waffe, erhält er einen Bonus von +1 auf die Würfe zum Erfolg. Die
 Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere
 Waffe.
 
+[[ref_skills_weaponfocus_throwing]]
 === Waffenfokus [Wurfwaffe]
-
 *Voraussetzungen:* Wurfwaffen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
@@ -497,28 +470,24 @@ Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere
 Waffe.
 
 === Waffenfokus, Starker [Nahkampfwaffe]
-
 *Voraussetzungen:* Nahkampfwaffen 10, Waffenfokus[Waffe] +
 *CP-Kosten:* 400 +
 *Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
 Waffe, erhält er einen Bonus von +3 auf die Schadensprobe.
 
 === Waffenfokus, Starker [Projektilwaffe]
-
 *Voraussetzungen:* Projektilwaffen 10, Waffenfokus[Waffe] +
 *CP-Kosten:* 400 +
 *Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
 Waffe, erhält er einen Bonus von +3 auf die Schadensprobe.
 
 === Waffenfokus, Starker [Wurfwaffe]
-
 *Voraussetzungen:* Wurfwaffen 10, Waffenfokus[Waffe] +
 *CP-Kosten:* 400 +
 *Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
 Waffe, erhält er einen Bonus von +3 auf die Schadensprobe.
 
 === Wirbelnde Klinge [Nahkampfwaffe]
-
 *Voraussetzungen:* Nahkampfwaffen 12, Gegenangriff, Starker Waffenfokus[Nahkampfwaffe] +
 *CP-Kosten:* 500 +
 *Beschreibung:* Wirbelnde Klinge ist eine sehr mächtige Fähigkeit, mit dem Charakter mehrere Gegner gleichzeitig abwehren und gegen diese auch Angriffe führen kann.
@@ -530,7 +499,6 @@ Bei einer erfolgreichen Verteidigung darf er mit diesem Talent einen Gegenangrif
 Er darf diesen Angriff auch nur gegen den Angreifer führen, gegen den er sich verteidigt hat.
 
 === Zielgenauigkeit [Projektilwaffen]
-
 *Voraussetzungen:* Projektilwaffen 6 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Der Charakter kann einen einzelnen Misserfolg bei einer
@@ -540,7 +508,6 @@ bereits neugewürfelt wurden. Das neue Ergebnis zählt, egal ob es besser
 oder schlechter war.
 
 === Zielgenauigkeit [Wurfwaffen]
-
 *Voraussetzungen:* Wurfwaffen 6 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Der Charakter kann einen einzelnen Misserfolg bei einer
@@ -550,7 +517,6 @@ bereits neugewürfelt wurden. Das neue Ergebnis zählt, egal ob es besser
 oder schlechter war.
 
 === Zusätzlicher Angriff [Nahkampfwaffe]
-
 *Voraussetzungen:* Nahkampfwaffen 8, Waffenfokus[Waffe] +
 *CP-Kosten:* 400 +
 *Beschreibung:* Führt der Charakter eine Nahkampfwaffe, für die er diese Fähigkeit gelernt hat, kann er in seiner Kampfrunde, in der er eine reguläre Attacke mit der geführten Waffe ausgeführt hat, erneut eine Angriffsprobe gegen das gleiche Ziel durchführen.
@@ -559,7 +525,6 @@ Es können keine anderen Ziele angegriffen werden. Die zusätzliche Attacke erh�
 Diese Fähigkeit kann mehrfach für andere Waffen gelernt werden.
 
 === Zweiwaffenkampf
-
 *Voraussetzungen:* Nahkampfwaffen 4 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Diese Fähigkeit ermöglicht es einem Charakter mit zwei Waffen gleichzeitig (wenn auch in unterschiedlichen Händen) zu kämpfen.
@@ -568,7 +533,6 @@ Um die Fähigkeit nutzen zu können, darf er in seiner Zweithand keine größere
 Die üblichen Mali von auf die Attacke mit der Haupthand bzw. Zweithand reduzieren sich auf -2/-4 Würfel.
 
 === Zweiwaffenkampf, Verbesserter
-
 *Voraussetzungen:* Nahkampfwaffen 8, Zweiwaffenkampf +
 *CP-Kosten:* 400 +
 *Beschreibung:* Es gelten die Regeln aus Zweiwaffenkampf. Die üblichen
@@ -578,47 +542,39 @@ sich auf -1/-2 Würfel.
 == Schurkenfähigkeiten
 
 === Chamäleon
-
 *Voraussetzungen:* Verstecken 10, Schleichen 10 +
 *CP-Kosten:* 500 +
-*Beschreibung:* Diese Fähigkeit ist eine besonders Mächtige, da sie
-teilweise mit Magie zusammenhängt. Der Charakter aktiviert die Fähigkeit
-mit einer Verstecken- oder Schleichen-Probe und dem Aufwand von 10 MP.
-Der Charakter bleibt dann unter dem Effekt dieser Fähigkeit, bis er sie
-willentlich aufhebt oder er Schaden nimmt oder er einen Angriff
-durchführt bzw. Zauberspruch ausspricht.
+*Beschreibung:* Diese Fähigkeit ist eine besonders Mächtige, da sie teilweise mit Magie zusammenhängt.
+Der Charakter aktiviert die Fähigkeit mit einer Verstecken- oder Schleichen-Probe und dem Aufwand von 10 MP.
+Der Charakter bleibt dann unter dem Effekt dieser Fähigkeit, bis er sie willentlich aufhebt oder er Schaden nimmt oder er einen Angriff durchführt bzw. Zauberspruch ausspricht.
 
-Jeder andere Charakter, der einen auf Erkenntnisbasierende Probe
-würfelt, um den Charakter zu entdecken muss einen Malus von -4 auf
-seinen Würfe zum Erfolg hinnehmen. Nach außen hin erscheint der
-Charakter verschwommen, seine Haut, sogar seine Kleidung und auch seine
-Ausrüstung nimmt den Farbe der Umgebung an. Der Effekt dehnt sich aber
-nie auf andere Kreaturen aus.
+Jeder andere Charakter, der einen auf Erkenntnisbasierende Probe würfelt, um den Charakter zu entdecken muss einen Malus von -4 auf seinen Würfe zum Erfolg hinnehmen.
+Nach außen hin erscheint der Charakter verschwommen, seine Haut, sogar seine Kleidung und auch seine Ausrüstung nimmt den Farbe der Umgebung an. Der Effekt dehnt sich aber nie auf andere Kreaturen aus.
 
 === Fallenspezialist
-
 *Voraussetzungen:* Fallen Entschärfen 4, Fallen Stellen 4 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen Bonus von +1
-auf die Würfe zum Erfolg in den Talenten Fallen Entschärfen und Fallen
-Stellen.
+*Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen Bonus von +1 auf die Würfe zum Erfolg in den Talenten Fallen Entschärfen und Fallen Stellen.
 
 === Geheimtürspezialist
-
 *Voraussetzungen:* Verborgenes Erkennen 3 +
 *CP-Kosten:* 100 +
-*Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen
-Bonus von +1 auf die Würfe zum Erfolg in dem Talent Verborgenes
-Erkennen, wenn er explizit nach Geheimtüren sucht.
+*Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen Bonus von +1 auf die Würfe zum Erfolg in dem Talent Verborgenes Erkennen, wenn er explizit nach Geheimtüren sucht.
+
+[[ref_skills_trip]]
+=== Stolperfalle
+*Voraussetzungen:* Nahkampfwaffen 3 oder Unbewaffneter Kampf 3, GE 2 +
+*CP-Kosten:* 100 +
+*Beschreibung:* Würfelt der Charakter eine Angriffprobe mit Nahkampfwaffen oder Unbewaffneter Kampf gegen einen Gegner, kann er sich im Falle eines Erfolgs entscheiden, keinen Schadenswurf durchzuführen.
+Tut er dies, verliert der Gegner seine verbliebenen Aktionen in dieser Kampfphase.
 
 [[ref_skills_backstab]]
 === Hinterhältiger Angriff
-
 *Voraussetzungen:* Nahkampfwaffen 2, Schleichen 2 +
 *CP-Kosten:* 100+ +
 *Beschreibung:* Im Kampf kann der Charakter einen Hinterhältigen Angriff gegen einen Gegner führen, der die Schwächen des Gegners ausnutzt, um mehr Schaden zu verursachen.
 
-Um einen Hinterhältigen Angriff durchzuführen, muss der Charakter sein Opfer aus dem toten Winkel oder von den Seiten angreifen oder einen Charakter angreifen, der bereits im Nahkampf gebunden ist, bei dem ein Verbünderter beteiligt ist.
+Um einen Hinterhältigen Angriff durchzuführen, muss der Charakter sein Opfer aus dem toten Winkel oder von den Seiten angreifen oder einen Charakter angreifen, der bereits im Nahkampf gebunden ist, bei dem ein Verbündeter beteiligt ist.
 
 Ein erfolgreicher, hinterhältiger Angriff addiert zu der Schadensprobe einen Bonus von +1W6 hinzu.
 Der Bonus zählt nur auf Nahkampfangriffe.
@@ -628,7 +584,6 @@ Jede Stufe erhöht den Bonus um +1W6.
 Die CP-Kosten steigen kumulativ um 100 CP pro Erlernung.
 
 === Schlossspezialist
-
 *Voraussetzungen:* Schlösser Öffnen 4 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen
@@ -637,7 +592,6 @@ Bonus von +1 auf die Würfe zum Erfolg in dem Talent Schlösser Öffnen.
 == Soziale Fähigkeiten
 
 === Agitation
-
 *Voraussetzungen:* Verspotten, Überzeugen 5 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Geschickte Redner, Aristokraten, Diplomaten und
@@ -660,7 +614,6 @@ die Überzeugen-Probe festgelegt werden: Durchschnittlicher Erfolg: +1,
 Guter Erfolg +2, Sehr Guter Erfolg: +3, Ausgezeichneter Erfolg: +4.
 
 === Empathie
-
 *Voraussetzungen:* Verborgenes Erkennen 5, Erkenntnis 3 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Diese Fähigkeit ermöglicht es dem Charakter bei seinem
@@ -677,7 +630,6 @@ wurden, bzw. je besser der Erfolgsgrad ist, desto eher werden Details
 klar.
 
 === Etikette
-
 *Voraussetzungen:* Konversation 5 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Diese Fähigkeit gestattet es dem Charakter zu
@@ -699,7 +651,6 @@ Bonus von +1 auf die Würfe zum Erfolg gegenüber den Charakteren
 anwenden.
 
 === Mob Beeinflussen
-
 *Voraussetzungen:* Überzeugen 10, Wissen[Lokales] 5, Agitation, CH 4 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Einfache Leute wollen einfache Worte. Zumindest in der
@@ -725,7 +676,6 @@ wenigen Worten zu beschreiben. Beispielsweise ist “Tötet den König”
 legitim.
 
 === Verspotten
-
 *Voraussetzungen:* Überzeugen 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit erweitert das Talent Überzeugen.
@@ -735,7 +685,6 @@ Für einen Durchschnittlichen Erfolg erhält das Opfer einen Malus von -1 auf al
 Hat der verspottende Charakter einen Guten Erfolg gewürfelt, beträgt der Malus -2, bei einem Sehr Guten -3 bis max. -4 bei einem Hervorragenden Erfolg.
 
 === Verwirren
-
 *Voraussetzungen:* Überzeugen 5 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Diese Fähigkeit erlaubt es dem Charakter seinen
@@ -755,8 +704,8 @@ erhöht die Dauer um 5 Minuten.
 
 == Wissensfähigkeiten
 
+[[ref_skills_alchemy]]
 === Alchemie
-
 *Voraussetzungen:* Wissen[Alchemie] 2, Handwerk[Brauen] 2 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Die Alchemie ist die alte Kunst des Tränkebrauens und des Mischens von diversen Zutaten zu einer wirksamen Substanz.
@@ -769,7 +718,6 @@ Ein Charakter mit dieser Fähigkeit benötigt nicht das Talent Magische Gegenst�
 Der SL kann Erfolgsgrade für das Fehlen dieser Voraussetzungen erhöhen, ebenso für schwierige Experimente oder Gemische.
 
 === Artefaktkunde
-
 *Voraussetzungen:* Wissen[Arkanes] 5, Wissen[Legenden] 2, Wissen[Geschichte] 2 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Artefaktkunde ist eine Fähigkeit, die das Wissen um
@@ -796,7 +744,6 @@ Charakter die Probe auch mit seinem Talent Wissen[Legenden] oder
 Wissen[Geschichte] würfeln.
 
 === Fremdsprache [eine Sprache]
-
 *Voraussetzungen:* Lesen/Schreiben 2 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Jede Sprache, die nicht die Muttersprache ist, gilt als
@@ -806,7 +753,6 @@ mit einer anderen Sprache. Proben werden mit dem Talent Lesen/Schreiben
 gewürfelt.
 
 === Runenlehre
-
 *Voraussetzungen:* Wissen[Geschichte] 3, Wissen[Arkanes] 6 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Runen sind ein altes Mittel, um Informationen weiter zu
@@ -824,7 +770,6 @@ Siehe das Dokument link:core_rules_magic_skills.adoc[Magische Fähigkeiten].
 == Sonstige Fähigkeiten
 
 === Eins mit dem Land
-
 *Voraussetzungen:* Wissen[Geographie] 10, Wissen[Tiere] 5, Wissen[Pflanzen] 5, Orientierung +
 *CP-Kosten:* 500 +
 *Beschreibung:* Diese Fähigkeit ist wie Chamäleon teilweise magisch. Der
@@ -840,7 +785,6 @@ modifiziert werden. Generell kann der Charakter mit dem Talent auch
 „Zustand“ des Lands und seiner Bewohner feststellen.
 
 === Experte [Handwerk]
-
 *Voraussetzungen:* gewähltes Handwerk 5 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Ein Charakter kann diese Fähigkeit für ein bestimmtes
@@ -851,7 +795,6 @@ Diese Fähigkeit kann öfters gelernt werden, jedoch nur mit
 unterschiedlichen Handwerken.
 
 === Feldscherer
-
 *Voraussetzungen:* Handwerk[Arzt] 4 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Der Charakter besitzt Erfahrungen im Verbinden und
@@ -863,7 +806,6 @@ Voraussetzungen hat. Er muss keine erhöhte Anzahl von nötigen Erfolgen
 zum Bestehen der Talentprobe hinnehmen.
 
 === Geschichte Erzählen
-
 *Voraussetzungen:*, Kunst[Schauspiel] 5, Wissen[Legenden] 5, Zauberschule[Illusionismus] 5 oder Zauberschule[Menestrel] 1, Minnegesang +
 *CP-Kosten:* 500 +
 *Beschreibung:* Die alte Kunst des Geschichten Erzählens, bzw. des Legenden Erzählens ist nur noch wenigen bekannt.
@@ -879,7 +821,6 @@ Im Kampf benötigt das Talent mindestens 4 Kampfrunden.
 Der SL kann im allgemeinen erlauben, dass die Benutzung des Talents dazu führt, dass der Charakter bei den überzeugten Personen für einen gewissen Zeitraum einen Bonus auf alle Kommunikationsproben erhält.
 
 === Mechanik
-
 *Voraussetzungen:* Wissen[Architektur und Ingenieur] 2, Handwerk[Schmied] 2 +
 *CP-Kosten:* 300 (100 für Technomanten) +
 *Beschreibung:* Diese Fähigkeit ist unter Ingenieuren und Technomanten
@@ -896,7 +837,6 @@ mit Handwerk[Schmied] (ggf. für Holzkonstruktionen Handwerk[Zimmermann])
 oder Wissen[Architektur und Ingenieur] gewürfelt, je nach SL-Entscheid.
 
 === Minnegesang
-
 *Voraussetzungen:* Kunst[Musik] 5, Kunst[Gesang] 5, Kunst[Schauspiel] 5 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Minnesänger und Sängerinnen sind eine alte,
@@ -913,7 +853,6 @@ anspruchsvoll ist oder der Minnesänger beim Publikum unbeliebt ist oder
 Sprache zu verstehen, in der gesungen wird.
 
 === Navigation
-
 *Voraussetzungen:* Wissen[Geographie] 5, Orientierung, Erkenntnis 8 +
 *CP-Kosten:* 300 +
 *Beschreibung:* Navigation wird benutzt, um beispielsweise Schiffe auf
@@ -928,7 +867,6 @@ nicht alle nötigen Instrumente hat oder wenn er durch unbekannte Gebiete
 navigieren muss.
 
 === Orientierung [Gebiet]
-
 *Voraussetzungen:* Beobachten 5, Wissen[Geographie] 2 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Der Charakter hat eine gute Orientierung, so dass er
@@ -945,7 +883,6 @@ Charakters eingeschränkt sind. Jeder Erfolg hält den Charakter 5-30
 Minuten auf dem richtigen Kurs.
 
 === Psychologie
-
 *Voraussetzungen:* Handwerk[Arzt] 5, Empathie, Überzeugen 5 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Diese Fähigkeit erlaubt es einem Charakter mit
@@ -953,7 +890,6 @@ Hilfe seines Handwerk[Arzt]-Talentes gemäß den Regeln im
 Dokument[Wahnsinn] Geisteskrankheiten und Traumata zu heilen.
 
 === Spuren Lesen
-
 *Voraussetzungen:* Verborgens Erkennen 5 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Der Charakter kann Spuren in der Wildnis folgen und sie
@@ -964,7 +900,6 @@ widriges Gelände erhöht den Erfolgsgrad. Mit der Fähigkeit können
 natürlich auch nicht nicht-tierische Spuren verfolgt werden.
 
 === Tierempathie
-
 *Voraussetzungen:* Tierfreundschaft 5, Erkenntnis 3 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Diese Fähigkeit funktioniert genauso wie die Fähigkeit
@@ -972,7 +907,6 @@ Empathie, jedoch wirkt sie nur auf Tiere und sie erweitert das Talent
 Tierfreundschaft.
 
 === Tierpflege
-
 *Voraussetzungen:* Tierfreundschaft 3, Wissen[Tiere] 3 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Der Charakter kann domestizierte Tiere so pflegen, dass
@@ -984,7 +918,6 @@ Tierpflege erweitert Tierfreundschaft und kann dazu genutzt werden, um
 einem Tier die korrekte Pflege zukommen zu lassen.
 
 === Tiertraining [Tier]
-
 *Voraussetzungen:* Tierfreundschaft 6, Wissen[Tiere] 6, Tierpflege +
 *CP-Kosten:* 200 +
 *Beschreibung:* Der Charakter kann die gewählte Tierart trainieren.
@@ -1020,7 +953,6 @@ lernen, wenn man bei jedem Lernvorgang eine andere Gegenstandsgruppe
 wählt.
 
 === Spezialist [Gegenstandsgruppe]
-
 *Voraussetzungen:* Magischen Gegenstand Herstellen 5 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Der Charakter ist durch lange Übung auf eine
@@ -1029,7 +961,6 @@ Gruppe her, erhält er einen Bonus von +1 auf die Würfe zum Erfolg in der
 Talentprobe Magischen Gegenstand Herstellen.
 
 === Sparsames Herstellen I [Gegenstandsgruppe]
-
 *Voraussetzungen:* Magischen Gegenstand Herstellen 5, Spezialist[Gegenstandgruppe] +
 *CP-Kosten:* 500+
 *Beschreibung:* Durch geschicktes Haushalten mit den Materialien und
@@ -1040,13 +971,11 @@ Reduktion kann nicht auf die Kosten von magischen Kristallen angewendet
 werden.
 
 === Sparsames Herstellen II [Gegenstandsgruppe]
-
 *Voraussetzungen:* Magischen Gegenstand Herstellen 10, Sparsames Herstellen I [Gegenstandsgruppe] +
 *CP-Kosten:* 500
 *Beschreibung:* Auf Level II verringern sich die Produktionskosten um 25% anstelle von 10%.
 
 === Schnelles Herstellen [Gegenstandsgruppe]
-
 *Voraussetzungen:* Magischen Gegenstand Herstellen 5, Spezialist[Gegenstandsgruppe] +
 *CP-Kosten:* 500 +
 *Beschreibung:* Der Charakter kann Gegenstände der gewählten

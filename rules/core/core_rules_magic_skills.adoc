@@ -41,17 +41,12 @@ Ein Charakter kann diese Fähigkeit mehrfach für unterschiedliche Energiearten 
 
 *Voraussetzungen:* Spruchzauberei 10, Wissen[Arkanes] 10 +
 *CP-Kosten:* 500 +
-*Beschreibung:* Gelegenheitszauber sind das magische Äquivalent zu
-Gelegenheitsangriffen und erfordern ein hohes Wissen über magische
-Vorgänge. Ein Zauberer kann immer dann einen Gelegenheitszauber wirken,
-wenn ein Gegner in der Bedrohungszone des Zauberers einen
-Gelegenheitsangriff provoziert. Der Zauberer kann dann sofort einen
-Zauberspruch gegen diesen Gegner wirken. Der Zauberspruch muss dazu als
-Ziel eine Kreatur anvisieren und mindestens die Reichweite Berührung
-haben. Außerdem muss der Zauberer dafür sorgen, dass der Zauberspruch
-auf 0 Kampfphasen verkürzt wird. Ein Zauberer, der gerade einen
-Zauberspruch vorbereitet, kann wie bei Gelegenheitsangriffen diese
-Fähigkeit nicht einsetzen.
+*Beschreibung:* Gelegenheitszauber sind das magische Äquivalent zu Gelegenheitsangriffen und erfordern ein hohes Wissen über magische Vorgänge.
+Ein Zauberer kann immer dann einen Gelegenheitszauber wirken, wenn ein Gegner in der Bedrohungszone des Zauberers einen Gelegenheitsangriff provoziert.
+Der Zauberer kann dann sofort einen Zauberspruch gegen diesen Gegner wirken.
+Der Zauberspruch muss dazu als Ziel eine Kreatur anvisieren und mindestens die Reichweite Berührung haben.
+Außerdem muss der Zauberer dafür sorgen, dass der Zauberspruch auf 0 Kampfrunden verkürzt wird.
+Ein Zauberer, der gerade einen Zauberspruch vorbereitet, kann wie bei Gelegenheitsangriffen diese Fähigkeit nicht einsetzen.
 
 == Gegenzauber
 
@@ -90,11 +85,19 @@ Würfelt der Charakter weniger Erfolge, dann war der Gegenzauber nicht erfolgrei
 
 Gegenzauber benötigen nie Vorbereitung.
 
+== Hinterhältiger Zauber
+*Voraussetzungen:* Spruchzauberei 1, Hinterhältiger Angriff +
+*CP-Kosten:* 200 +
+*Beschreibung:* Ein Zauberer mit dieser Fähigkeit verbindet arkane Macht mit dem Wissen von Schurken, um die Schwächen seiner Gegner effektiv auszunutzten.
+Wenn der Charakter eine Spruchzauberei-Probe als Angriffsprobe würfelt und dabei die Vorbindungen für einen Hinterhältigen Angriff erfüllt, addiert er die Schadenswürfel aus dieser Fähigkeit zu der Schadensprobe seiner Zauberspruches hinzu.
+Dies gilt nur, wenn der Zauberspruch eine Schadensprobe beinhaltet und als Ziel eine Kreatur hat.
+Ein Zauberspruch, der mehr als ein Ziel hat, kann dadurch nicht profitieren.
+
 == In Tiergestalt Zaubern
 
 *Voraussetzungen:* Spruchzauberei 5 +
 *CP-Kosten:* 500 +
-*Beschreibung:* Mit dieser Fähigkeit kann ein Zauberer, insbesondere ein Schamane, weiterhin sein Spruchzauberei-Talent verwenden, wenn er sich in Tiergestalt befindet.
+*Beschreibung:* Mit dieser Fähigkeit kann ein Zauberer weiterhin sein Spruchzauberei-Talent verwenden, wenn er sich in Tiergestalt befindet.
 
 == Magie Abkoppeln
 

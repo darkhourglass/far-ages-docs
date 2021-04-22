@@ -1,0 +1,45 @@
+= Würfelverbesserung
+
+
+|===
+|Aktuelle Stufe |Würfel |Nächste Stufe |Neue Würfel
+
+|1
+|1W2
+|2
+|1W3
+
+|2
+|1W3
+|3
+|1W4
+
+|3
+|1W4
+|4
+|1W6
+
+|4
+|1W6
+|5
+|1W8
+
+|5
+|1W8
+|6
+|1W10
+
+|6
+|1W10
+|7
+|1W12
+
+|7
+|1W12
+|4+ ^1^
+|2W6
+|===
+
+^1^ Der Charakter erhält bei einer Würfelverbesserung von Stufe 7 keine Stufe 8, sondern anstelle von 1W12 2W6 als neue Würfel.
+Diese gelten als Würfel der Stufe 4, es wurde daher die Anzahl der Würfel geändert.
+Die 2W6 werden bei einer weiteren Stufenverbesserung als zwei Würfel der Stufe 4 betrachtet.

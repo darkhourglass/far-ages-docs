@@ -1,10 +1,19 @@
 = Trolle
 
-*Attributsbonus:* +2 ST, -1 GE, +1 KO, -1 CH +
-*Vorteile:* Beeindruckende Statur, Mehr Trefferpunkte I +
-*Nachteile:* Grobmotoriker, Schadensanfälligkeit [Feuer] I +
+*Attributsbonus:* +1 ST, -1 GE, +2 KO, -1 CH +
 *Größe:* 6 +
-*Sonstiges:* - +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten +
-*CP:* 35 +
+*CP:* 50 +
+
+== Eigenschaften
+
+=== Schnelle Wundheilung
+Erhalten Trolle eine xref:../core_rules_battlesystem.adoc#ref_battle_bleeding_wounds[Blutende Wunde], so heilt diese nach sofort 1 Kampfrunde und versucht maximal einmal Schaden.
+Weiterhin halbieren sich alle Heilungsperiod für Verletzungen.
+
+=== Spontane Regeneration
+Einmal pro Tag als xref:../core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion] darf ein Troll KO-viele W10 würfeln, um verlorene TP zu heilen.
+Die erreichte Augenzahl stellt sofort entsprechend viel TP wieder her, jedoch nie über die maximalen TP hinaus.

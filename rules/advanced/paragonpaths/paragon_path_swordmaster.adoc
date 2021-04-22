@@ -4,10 +4,147 @@
 
 == Voraussetzungen
 
+Um Schwertmeister Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen erfüllen:
+
+* xref:../../core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 3
+* xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] 3
+* xref:../../core/core_rules_skills.adoc#ref_skills_weaponfocus_melee[Waffenfokus] für eine einhändige Klingenwaffe
+
 == Stufen lernen
 
+Der Schwertmeister kann ohne Einschränkungen Stufen in diesem Schicksalspfad lernen.
+
 == Stufe 1
+
+Der Schwertmeister lernt auf Stufe 1 eine der folgenden Fähigkeiten:
+
+* <<ref_swordmaster_disarm>>
+* <<ref_swordmaster_provoke>>
+* <<ref_swordmaster_trip>>
 
 == Maximale Stufe
 
 == Fähigkeiten
+
+[[ref_swordmaster_agile_warrior]]
+=== Agiler Kämpfer
+*Voraussetzungen:* Schwertmeister 2 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Schwertmeister verlässt sich im Kampf auf Beweglichkeit vor purer Stärke.
+Mit dem Erlernen dieser Fähikeit erhält einen einmaligen Bonus auf seine xref:../../core/core_rules_charactercreation.adoc#ref_secondary_inibonus[Initiative] von +4.
+
+[[ref_swordmaster_disarm]]
+=== Entwaffnen
+*Voraussetzungen:* Schwertmeister 1 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Schwertmeister lernt, sofern er diese nicht bereits kennt, die Fähigkeit xref:../../core/core_rules_skills.adoc#ref_skills_disarm[Entwaffnen].
+Er erhält bei einer Probe zum Entwaffnen nicht den in der Fähigkeit angegebenen Malus auf die Würfe zum Erfolg.
+Darüber hinaus darf er pro konkurrierender ST-Probe zur Bestätigung der Entwaffung entscheiden, ob das Attribut ST oder GE genutzt wird.
+Diese Entscheidung gilt auch für seinen Kontrahenten.
+
+[[ref_swordmaster_challange]]
+=== Herausforderung
+*Voraussetzungen:* Schwertmeister 3, Provokation +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Hat der Schwertmeister erfolgreich einen Gegner durch <<ref_swordmaster_provoke>> beeinflusst, kann er direkt nach der Probe entscheiden, ob er stattdessen eine Herausforderung aussprechen möchte.
+Entscheidet er sich dafür, reduziert sich der Malus aus Provokation um 1, d.h. wenn der Malus z.B. -2 beträgt und der Schwertmeister diese Fähigkeit einsetzt, reduziert sich der Malus auf -1.
+Außerdem muss der Gegner seine nächste xref:../../core/core_rules_battlesystem.adoc#ref_battle_action[Aktion] und xref:../../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] verwenden, um möglichst nahe an den Schwertmeister heranzukommen und anzugreifen.
+
+.Herausforderung
+====
+Bei einer Probe auf <<ref_swordmaster_provoke>> erhält der Schwertmeister einen xref:../../core/core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Guten Erfolg].
+Ohne den Einsatz von Herausforderung beträgt der Malus auf die Würfe zum Erfolg -2.
+Bei dem Einsatz dieser Fähigkeit reduziert sich diese Malus auf -1, allerdings ist der betroffene Gegner gezwungen, den Schwertmeister anzugreifen.
+====
+
+[[ref_swordmaster_combattraining]]
+=== Kampftraining des Schwertmeisters
+*Voraussetzungen:* Schwertmeister 2 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Durch intensives Training verbessert der Schwertmeister seinen Kampfstil immer weiter.
+Er kann diese Fähigkeit mehrfach lernen und jedes mal einen der folgenden Boni erhalten:
+
+* Seine TP erhöhen sich permanent um 10 Punkte
+* Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_base_roll_acrobatics[Akrobatik]-Proben.
+* Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_base_roll_reflex[Reflex]-Proben
+* TODO
+* TODO
+
+Die Boni sind kumulativ.
+
+[[ref_swordmaster_provoke]]
+=== Provokation
+*Voraussetzungen:* Schwertmeister 1 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* M +
+*Beschreibung:* Der Schwertmeister lernt, seine Gegner durch gezielte Provokation aus der Fassung zu bringen und sie zu Fehlern zu zwingen.
+Einmal pro Kampfphase als Einsatz einer xref:../../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsaktion] kann er einen Gegner im Umkreis von 6 Metern versuchen zu provozieren.
+Der Betroffene muss den Schwertmeister sehen und hören können. +
+Der Schwertmeister würfelt dazu eine konkurrierende xref:../../core/core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen]-Probe.
+Bei einem Erfolg erhält der Provozierte einen Malus von -1 auf die Würfe zum Erfolg auf alle Proben für eine Anzahl von Runden, die der CH-Stufe des Schwertmeisters entspricht.
+Für jeden weiteren xref:../../core/core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Erfolgsgrad] erhöht sich der Malus um weitere -1.
+
+.Provokation
+====
+Der Schwertmeister versucht einen Kontrahenten im Kampf zu provozieren.
+Bei einer konkurrierenden Überzeugen-Probe würfelt der Schwertmeister 5 Erfolge und der Kontrahent nur 1 Erfolg.
+Damit ist die Probe ein xref:../../core/core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Guter Erfolg].
+Insgesamt erhält der Kontrahent einen Malus von -2 auf die Würfe zum Erfolg.
+====
+
+[[ref_swordmaster_riposte]]
+=== Riposte
+*Voraussetzungen:* Schwertmeister 5, Parade 5 +
+*Mindestwurf:* SMG +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* GE +
+*Kampf:* R +
+*Beschreibung:* Der Schwertmeister lernt ein neues Talent Riposte auf Stufe 1.
+Er kann Riposte als xref:../../core/core_rules_d10_system.adoc#ref_core_defendingroll[Verteidigungstalent] einsetzen, wobei es den Regeln des Talents xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] folgt.
+Riposte kann auch mit <<ref_swordmaster_multiple_parade, Mehrfacher Parade>> verwendet werden.
+Verteidigt sich der Schwertmeister mit Riposte erfolgreich gegen eine xref:../../core/core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] im Nahkampf, darf er sofort einen xref:../../core/core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadenswurf] gegen den Angreifer würfeln.
+Dabei wird die Anzahl der Erfolge angenommen, die der Schwertmeister bei der Riposte-Probe mehr gewürfelt hat, als sein Angreifer.
+Es gelten die normalen Regeln für Schadensproben.
+
+.Riposte
+====
+Ein Angreifer erzielt gegen den Schwertmeister in einer Probe 4 Erfolge.
+Der Schwertmeister verteidigt sich mit Riposte erfolgreich mit 6 Erfolgen.
+Er würfelt sofort eine Schadensprobe mit 2 Erfolgen und dem Schadensbonus seiner Waffe.
+====
+
+[[ref_swordmaster_trip]]
+=== Stolperfalle
+*Voraussetzungen:* Schwertmeister 1 +
+*Mindestwurf:* -  +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Schwertmeister lernt, sofern er diese nicht bereits kennt, die Fähigkeit xref:../../core/core_rules_skills.adoc#ref_skills_trip[Stolperfalle].
+Zusätzlich zu den regulären Auswirkungen, würfeln der Schwertmeister und Kontrahent eine konkurrierende GE-Probe.
+Ist der Schwertmeister erfolgreich, fällt sein Kontrahent hin und gilt als xref:../../core/core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig].
+
+[[ref_swordmaster_multiple_parade]]
+=== Mehrfache Parade
+*Voraussetzungen:* Schwertmeister 3 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Schwertmeister erhält pro Kampfrunde eine zusätzliche xref:../../core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktion], die er ausschließlich für den Einsatz des Talents xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] verwenden kann.
+Er kann diese Fähigkeit nicht nutzen, wenn er xref:../../core/core_rules_battlesystem.adoc#ref_condition_corned[Bedrängt] ist. +
+

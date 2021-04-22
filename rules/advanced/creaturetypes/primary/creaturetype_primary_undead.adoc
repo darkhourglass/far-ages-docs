@@ -1,0 +1,142 @@
+= Untote
+
+[[ref_undead_rules]]
+== Regeln
+
+[[ref_undead_creation]]
+=== Untote erschaffen
+* Um einen Untoten zu erschaffen, benötigt es einen toten Körper einer vormals link:../secondary/creaturetype_secondary_living.adoc[lebenden] Kreatur.
+Der primäre Kreaturentyp ist typischerweise nicht relevant, außer dieser verbietet explizit das Erschaffen einer untoten Kreatur verbietet.
+Untote verlieren den sekundären Typ Lebend.
+* Jeder Untote besitzt eine <<ref_undead_powerlevel>>[Machtstufe].
+Machtstufen beschrieben die Stärke von Untoten auf einer abstrakten Ebene und haben vorallem Einfluss, wie unabhängig ein Untoter agieren kann und welche Zaubersprüche auf Ihn wirken.
+* Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_create_undead.adoc[Tabelle].
+* Je nachdem welchen Untoten ein Nekromant erschaffen möchte, ist zunächst dessen Machtstufe zu ermitteln, entweder als Angabe im xref:../../../../bestiary/index.adoc#ref_bestiary_undead[Bestiarium] oder anhand o.g. Tabelle.
+Er muss dazu den angegebenen Zauberspruch beherrschen und erfolgreich aussprechen.
+* Sofern nicht anders angegeben, steht der Untote nicht sofort unter der Kontrolle des Schöpfers.
+
+[[ref_undead_powerlevel]]
+=== Machtstufen
+Machtstufen von Untoten werden in Zahlen von 0 aufsteigend gemessen.
+Dabei gibt es kein Maximum, jedoch spiegeln bestimmte Machtstufen deutliche Sprünge in den Fähigkeiten der Untoten wieder.
+So ist ein Untoter der Machtstufe 0 der primitivste Typ, der konstante Kontrolle benötigt und nur wenige Fähigkeiten besitzt.
+Auf der anderen Seite sind Untote ab Machtstufe 10, sowie 11 und mehr, autonome, teilweise vollständige Persönlichkeiten mit erschreckendem Verstand und einer großen Vielfalt an Fähigkeiten.
+
+Abhängig von der Machtstufe entfalten sich die Fähigkeiten eines Untoten.
+Die Übersicht findet sich in dieser link:../../../tables/table_create_undead.adoc[Tabelle].
+Die Einträge werden im folgenden beschrieben.
+
+[[ref_undead_powerlevel_steps]]
+==== Attributs- und Talentstufen
+Abhängig von seiner Machtstufe besitzt ein Untoter Attributsstufen bzw. Talentstufen basierend auf seinem Profil als lebende Kreatur.
+Sofern nicht anders angegeben, werden die Attribusstufen von ST, GE und KO übernommen.
+
+Die Attribute ER, EN, SB und CH bestehen folgende Optionen:
+
+* *"-"* bzw. *"Keine Angabe"*: Gerade primitive Untote besitzen keine nennenswerte Persönlichkeit und freien Willen mehr.
+Bestimmte Attribute sind daher ohne Stufe angegeben.
+Eine genaue Beschreibung zu diesem Fall findet sich in denn <<ref_undead_general_rules>>[Allgemeinen Regeln].
+
+* *Maximale Stufe:* Die Stufe ist auf das angebene Maximum festgelegt.
+War die Stufe zu Lebzeiten höher, wird sie passend auf das Maximum abgesengt.
+
+* *1/2 Original:* Die Stufe in diesem Attribut wird halbiert (abgerundet, mindestens 1).
+
+* *Original:* Die Stufe in diesem Attribut wird ohne Veränderung übernommen.
+
+Abhängige Attributseigenschaften werden, falls nicht anders angegeben, neuberechnet nach den üblichen xref:../../../core/core_rules_charactercreation.adoc[Regeln].
+
+[[ref_undead_powerlevel_pools]]
+==== Punktepools
+Ebenso wie Attributs- und Talentstufen können die Punktepools TP, MP und SP modifiziert sein.
+
+* *"-"* bzw. *"Keine Angabe"*: Der Untote besitzt diesen Punktepool nicht.
+Er verliert somit nie Punkte und kann diese auch nicht einsetzen.
+
+* *1/2 Original:* Der Untote besitzt 1/2 Punkte des jeweiligen, originalen Punktepools (abgerundet, mindestens 1).
+
+* *Original:* Der Untote besitzt in diesem Punktepool seine originalen Punkte.
+
+[[ref_undead_powerlevel_personality]]
+==== Persönlichkeit
+Die Angabe Persönlichkeit beschreibt die Flexibilität und Varianz im Handeln des Untoten.
+Die unterschiedlichen Kategorien sind im Folgenden beschrieben:
+
+* *Keine:* Die meisten Untoten haben keine Persönlichkeit, d.h. sie besitzen keine Erinnerung an ihre frühere Existenz.
+Im Normalfall benötigen sie vollständige Kontrolle und weichen nie von ihren Befehlen ab.
+Der Untote ignoriert außerdem jegliche Gefahren und nimmt jeden Schaden entgegen.
+Untote ohne Persönlichkeit können keine Sprache verwenden, sie können bestenfalls im klassischen Sinne Stöhnen und Röcheln.
+* *Rudimentär:* Untote mit rudimentärer Persönlichkeit weisen ungefähr die Intelligenz von Tieren auf.
+Sie weichen nur insoweit von Befehlen ab, um direkten Schaden auszuweichen und besitzen ein Bewusstsein für Gefahren aus Ihrer Umwelt und weichen diesen aktiv aus.
+Darüber hinaus ist jedoch normalerweise vollständige Kontrolle nötig, damit sie ihre Aufgaben erledigen.
+Rudimentäre Persönlichkeiten verstehen nur einfache Befehle und haben kein taktisches Verständnis.
+Die Untoten beherrschen nur wenige Worte und können keine Sätze bilden.
+* *Teilweise:* Der Untote kann komplexe Befehlen folgen, benötigt aber im allgemeinen Kontrolle.
+Er kann auf Gefahren regieren und verhält sich taktisch, um seine Befehle auszuführen.
+Untote mit dieser Persönlichkeit beherrschen komplexe Sätze, an die sie aus ihrem früheren Leben bruchstückhaft erinnern.
+* *Komplex:* Der Untote besitzt eine fast vollständige Persönlichkeit und bruchstückhafte Erinnerungen an sein früheres Leben.
+Seine Handlungen sind im Allgemeinen nur beschränkt durch Befehle, die durch einen Schöpfer auferlegt werden.
+Der Untote ist außerdem aufmerksam genug, dass er grundsätzlich Gefahren erkennt und auch taktisch handeln kann.
+Untote mit dieser Persönlichkeit beherrschen Sprache soweit, dass sie Zauber wirken können.
+* *Vollständig:* Der Untote besitzt die vollständige Persönlichkeit und Erinnerungen an sein früheres Leben.
+Je nachdem kann er bestimmte Fähigkeiten hingewinnen oder verlieren.
+Er gilt nach allen Regeln als eigenständige Person.
+Untote mit vollständiger Persönlichkeit benötigen keine Kontrolle und beherrschen jede Sprache aus ihrem früheren Leben.
+
+[[ref_undead_powerlevel_control]]
+==== Kontrolle
+Die Einträge zur Kontrolle beschreiben, ob der Untote durch einen Nekromanten bzw. einem Magieanwender mit Mitteln wie dem Zauberspruch link:../../../../compendiums/spells/spell_control_undead_1.adoc[Untoten kontrollieren I] usw. kontrolliert werden muss.
+Die unterschiedlichen Ausprägungen sind:
+
+* *Keine:* Dieser Untote benötigt keine Kontrolle und agiert völlig selbstständig.
+* *Teilweise:* Der Untote kann mit einmal gegeben Befehlen alleine gelassn werden.
+Es besteht keine Notwendigkeit für den Schöpfer in der Nähe zu bleiben.
+* *Vollständig:* Der Untote muss konstant in der Nähe (d.h. max. 24 Meter Umkreis) des Schöpfers sein.
+Ist dies nicht gegeben, erstarrt der Untote und führt keine Aktionen mehr aus.
+
+[[ref_undead_powerlevel_decay]]
+==== Zerfall
+Die meisten Untoten zerfallen automatisch nach einer bestimmten Zeit zu Staub.
+Dies bedeutet, dass die Magie, welche sie erschaffen hat, aufgebraucht ist und die Leiche verlässt.
+Ein Untoter, der zerfallen ist, kann nicht wieder aus dem gleichen Körper neuerschaffen werden.
+
+* *Nie:* Dieser Untote wird nie automatisch zerfallen.
+* *Konkrekte Zeitangabe:* Der Untote zerfällt automatisch nach Ablauf dieser Zeit zu Staub.
+
+Um Zerfall aufzuhalten, sind üblicherweise weitere magische Aktionen nötig, wie z.B. der Einsatz des Zauberspruches link:../../../../compendiums/spells/spell_preserve_undead.adoc[Untoten präservieren].
+
+[[ref_undead_general_rules]]
+=== Allgemeine Regeln
+
+In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Untote von anderen Wesen abweichen.
+
+* Alle Untoten sind gegen die Effekte folgender Proben immun, d.h. sie bestehen diese Proben automatisch:
+** xref:../../../core/core_rules_d10_system.adoc#ref_base_roll_poisonsickness[Gift und Krankheiten]
+** xref:../../../core/core_rules_d10_system.adoc#ref_base_roll_fearhorror[Furcht, Horror und Ekel]
+* Untote sind gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
+Beispielsweise kann kein Untoter verspottet werden oder zur Raserei gezwungen werden.
+* Untote erleiden weniger Nachteile durch besondere Schadensarten:
+** Feuerschaden wirkt normal, jedoch verursachen brennende Kleider keinen zusätzlichen Schaden (außer bei brennbaren Untoten).
+** Schockschaden wird grundsätzlich halbiert und Untote können dadurch nicht paralysiert werden.
+** Frostschaden wird grundsätzlich halbiert und Untote erleiden keinen Malus.
+** Säureschaden wirkt normal, allerdings ist es Untoten egal, ob ihr Gesicht etc. weggeätzt wird. Sie erleiden keine Mali.
+** Magieschaden wirkt normal.
+** Mentaler Schaden wirkt grundsätzlich nie.
+* Untote sind immun gegenüber folgenden xref:../../../core/core_rules_battlesystem.adoc#ref_conditions[Besonderen Situationen] im Kampf:
+** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig]
+** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_exhausted[Erschöpft]
+** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_blind[Blind]
+** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_dazed[Benommen]
+** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_unconscious[Ohnmächtig]
+* Untote können perfekt in Dunkelheit oder grellen Licht sehen, daher gelten die Modifikatoren für xref:../../../core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] nicht.
+* Untote verlieren nie SP oder werden wahnsinnig.
+* Untote sind immun gegenüber Zaubersprüchen und Effekten, die ihren Körper verwandeln.
+* Grundsätzlich braucht kein Untoter Nahrung, jedoch gibt es manche Untote, die in regelmäßigen Abständen „essen“ müssen, um zu agieren.
+Für gewöhnlich regenerieren Untote auch keine TP und MP, da sie nicht schlafen.
+Mächtige Untote regenerieren TP und MP meistens durch die erwähnte Nahrung.
+* Untote können zwar durch genug Krafteinschaft xref:../../../core/core_rules_battlesystem.adoc#ref_battle_knockdown[niedergeschlagen] werden, allerdings erhalten sie nie xref:../../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
+Selbst zerstückelte Untote können noch agieren.
+Erst die Reduzierung auf 0 TP vernichtet Untote endgültig.
+Dabei gilt, dass Untote sofort zerstört werden, wenn ihre TP das erste Mal auf 0 sinken.
+Verletzungen können Untote nicht auf 0 TP reduzieren oder sie „töten“.
+Untote der Machtstufe 10 oder höher werden für gewöhnlich vernichtet, wenn ihr Kopf abgeschlagen wird.

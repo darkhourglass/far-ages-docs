@@ -4,24 +4,28 @@
 *Talentliste (SGM 1):* Hieb Ausweichen, Reflex, Schurkischer Kampfstil I, Schurkenspezialisierung +
 *Talentliste (SGM 2):* Lesen/Schreiben, Schurkischer Kampfstil II, Verborgenes Entdecken, 1 freies Wissenstalent +
 *Attributsbonus:* +1 GE +
-*Vorteile*: - +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* Hinterhältiger Angriff +
 *TP/MP-Steigerung:* +7/+5 +
 *Voraussetzungen:* GE 2 +
 *Startausrüstung:* Kurzschwert, 1 Wurfmesser, Diebeswerkzeuge, Leichte Lederrüstung +
-*Startgeld:* 4W6 +
 *CP:* 50 +
-*Spezielle Berufstalente:* -
 
+== Eigenschaften
+
+[[ref_rogue_backstab]]
+=== Hinterhältiger Angriff
+Ein Schurke lernt die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_backstab[Hinterhältiger Angriff] auf Stufe 1 zu Beginn des Spiels ohne zusätzliche CP-Kosten.
+
+[[ref_rogue_style_I]]
 === Schurkischer Kampfstil I
 Der Charakter kann Nahkampfwaffen, Projektilwaffen, Wurfwaffen oder Unbewaffneter Kampf als SGM 1 Talent wählen.
 
+[[ref_rogue_style_II]]
 === Schurkischer Kampfstil II
 Der Charakter kann  Nahkampfwaffen, Projektilwaffen, Wurfwaffen oder Unbewaffneter Kampf als SGM 2 Talent wählen.
-Das Talent darf nicht gleiche sein, wie in Kampfstil I gewählt.
+Das Talent darf nicht das gleiche Talent sein, welches durch die Eigenschaft <<Schurkischer Kampfstil I>> gewählt wurde.
 
-=== Schurkenspezialisierung I
+[[ref_rogue_specialisatoin]]
+=== Schurkenspezialisierung
 Der Charakter aus folgenden Kombinationen eine wählen und als SGM 1 Talente aufschreiben:
 
 * *Fallensteller*: Fallen Entschärfen, Fallen Stellen, Schleichen, Verstecken, Wissen [Überleben]

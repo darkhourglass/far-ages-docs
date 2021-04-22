@@ -2,6 +2,8 @@
 
 *Attributsbonus:* -1 ST, +1 GE, +1 ER +
 *Größe:* 5 +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Hrafass +
 *CP:* 40 +
@@ -14,5 +16,5 @@ Aoehe erhalten einen Bonus von +1 auf die Würfe zum Erfolg xref:../core_rules_d
 === Flügel
 Ein Aoehe besitzt Flügel und kann damit fliegen.
 Er bewegt sich fliegend dreimal so schnell, wie er normalerweise auf dem Boden rennen würde (d.h. seine BEW multipliziert mit 3).
-Für gewöhnlich kann ein Charakter so viele Kampfphasen in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
+Ein Aoehe kann so viele Kampfrunden in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
 Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_maneuver_airattack[Flugangriff] verwenden.

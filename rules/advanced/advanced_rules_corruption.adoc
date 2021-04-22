@@ -53,17 +53,17 @@ Weitere Auswirkungen von Korruptionspunkten sind situationsabhängig, zum Beispi
 === Korruptionen erhalten
 
 Korruptionen bzw. Mutationen sind die körperlichen oder auch geistigen Veränderungen, die permanent den Charakter zeichnen.
-Insbesondere körperliche Mutationen können auf andere verstöhrend wirken und zeichnen den Charakter als _anders_ - auf die schlechte Art.
+Insbesondere körperliche Mutationen können auf andere verstörend wirken und zeichnen den Charakter als _anders_ (auf die schlechte Art).
 Geistige Mutationen sind nicht sofort sichtbar, aber sie ändern die Verhaltensweisen des Charakters grundlegend, so dass andere ihn bestenfalls als exzentrisch wahrnehmen.
 
 Man erhält sie im Normalfall auf folgende Arten:
 
 * Ein Charakter verliert SP und erreicht mit seinen aktuellen SP einen Wert, der unter seinen aktuellen Korruptionspunkten liegt.
 * In Abstimmung mit dem SL darf der Charakter bestehende Korruptionspunkte in eine Korruption tauschen.
-* Ein Effekt im Spiel, zum Beispiel ein Zauberspruch oder eine Fähigkeit erlaubt dem Charakter (sowohl freiwillig und wie unfreiwillig), Korruptionspunkte in Korruptionen zu tauschen.
+* Ein Effekt im Spiel, zum Beispiel ein Zauberspruch oder eine Fähigkeit erlaubt dem Charakter (sowohl freiwillig und wie unfreiwillig), Korruptionspunkte in link:./corruptions/corruption_general.adoc[Korruptionen] zu tauschen.
 
 Pro erhaltener Korruption verliert der Charakter 1 Korruptionspunkt.
-Mache Korruptionen gewähren sogar mehr als einen Korruptionspunkt zu tilgen.
+Manche Korruptionen gewähren sogar mehr als einen Korruptionspunkt zu tilgen.
 
 == Varianten von Korruption
 
@@ -86,16 +86,13 @@ Verliert er nun genug SP, um auf einem Wert von 7 oder weniger SP zu landen, gil
 Diese Regeln können optional betrachtet werden.
 In diesem Fall gibt es immer nur die allgemeinen Korruptionspunkte und Korruptionen.
 
-=== Aetherisch
+Folgende Korruptionen stehen außerdem zur Verfügung:
 
-=== Blutgier
-
-=== Dämonisch (Allgemein)
-
-=== Dämonisch (Chaos)
-
-=== Dämonisch (Ordnung)
-
-=== Nekrotisch
-
-=== Wahnsinn
+* link:./corruptions/corruption_aetherial.adoc[Aetherisch]
+* link:./corruptions/corruption_bloodrage.adoc[Blutgier]
+* link:./corruptions/corruption_demonic_general.adoc[Dämonisch (Allgemein)]
+* link:./corruptions/corruption_demonic_chaos.adoc[Dämonisch (Chaos)]
+* link:./corruptions/corruption_demonic_order.adoc[Dämonisch (Ordnung)]
+* link:./corruptions/corruption_mechanical.adoc[Mechanisch]
+* link:./corruptions/corruption_necrotic.adoc[Nekrotisch]
+* link:./corruptions/corruption_madness.adoc[Wahnsinn]

@@ -8,9 +8,10 @@ eine bestimmte Anzahl von zehnseitigen Würfeln (abgekürzt W10). Diese
 Anzahl ermittelt sich meist direkt aus seiner Talentstufe und/oder einer
 Attributsstufe.
 
-Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu
-übertreffen gilt. D.h. jeder Würfel, der eine höhere oder gleiche
-Augenzahl zeigt als der geforderte Mindestwurf zählt als *Erfolg*.
+[[ref_core_miniumroll]][[ref_core_sucessrole]]
+Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu übertreffen gilt. D.h. jeder Würfel, der eine höhere oder gleiche Augenzahl zeigt als der geforderte Mindestwurf zählt als *Erfolg*.
+[[ref_core_failurerole]]
+Wird der Mindestwurf nicht erreicht und ist kein <<ref_core_botches,Patzer>> gilt dieser als *Misserfolg*.
 
 .Mindestwürfe
 ====
@@ -23,10 +24,10 @@ Talviin besitzt insgesamt 7 Stufen in diesem Talent und würfelt daher
 mit 7W10. Würfelt er 3, 4, 6, 6, 7, 7, 8 hat Talviin 3 Erfolge!
 ====
 
-Um eine Probe zu bestehen, ist eine bestimme *Anzahl von Erfolgen*
-nötig. Diese Anzahl orientiert sich im Allgemeinen an der Schwierigkeit
-der Probe, je mehr Erfolge nötig sind, desto schwerer ist die Probe.
+Um eine Probe zu bestehen, ist eine bestimme *Anzahl von Erfolgen* nötig.
+Diese Anzahl orientiert sich im Allgemeinen an der Schwierigkeit der Probe, je mehr Erfolge nötig sind, desto schwerer ist die Probe.
 
+[[ref_core_standardminimumroll]]
 === Standardmindestwurf
 
 Der übliche Mindestwurf, an dem sich Attributs-, Standard- und
@@ -63,8 +64,7 @@ Reflex-Probe würde also so abgekürzt:
 
 Reflex (5)
 
-Ist ein besonderer Erfolgsgrad (siehe weiter unten) gefordert, so kann
-dieser auch angegeben sein:
+Ist ein besonderer <<ref_core_tiers_of_sucess, Erfolgsgrad>> gefordert, so kann dieser auch angegeben sein:
 
 Reflex (Gut)
 
@@ -81,6 +81,7 @@ Erfolgen zu dem Standardmindestwurf von 7 (siehe dazu Standardprobe
 weiter unten) und nicht eine Willenskraft-Probe zum Mindestwurf 5 mit
 unbekannter Mindestanzahl Erfolge.
 
+[[ref_core_situationalmodifiers]]
 === Situationsmodifikatoren
 
 Als Situationsmodifikatoren bezeichnet man Boni oder Mali, also
@@ -124,12 +125,12 @@ Erfolg ist erst bei einer 10 oder mehr gegeben.
 Modifikator, der -4 oder schlechter beträgt, sind ohne weitere Hilfe (+x
 auf die Würfe zum Erfolg aus deren Quellen) nicht zu schaffen.
 
-Situationsmodifikatoren jeder Art sind kumulativ. Es kann daher sein,
-dass mehrere Situationsmodifikatoren gleichzeitig gelten. Bevor
-gewürfelt wird, müssen alle Modifikatoren zusammenaddiert werden. Es ist
-möglich, dass ein negativer Modifikator einen positiven Modifikator
-aufhebt.
+Situationsmodifikatoren jeder Art sind kumulativ.
+Es kann daher sein, dass mehrere Situationsmodifikatoren gleichzeitig gelten.
+Bevor gewürfelt wird, müssen alle Modifikatoren zusammenaddiert werden.
+Es ist möglich, dass ein negativer Modifikator einen positiven Modifikator aufhebt.
 
+[[ref_core_botches]]
 === Patzer
 
 Jede natürlich gewürfelte 1 bedeutet immer einen Patzer, unabhängig von
@@ -139,6 +140,7 @@ Gibt es mehr Patzer als Erfolge, also sind alle Erfolge durch Patzer
 eliminiert worden, dann gilt die gesamte Probe als Patzer, was meist
 unangenehme Folgen hat.
 
+[[core_core_bonus_dice]]
 === Bonuswürfel
 
 Jede natürlich gewürfelte 10 ergibt einen Bonuswürfel. Dieser
@@ -202,32 +204,23 @@ Erfolg für diese Probe, also ergeben sich 1 (Modifikationen ändern
 Patzer nicht), 4, 8, 10, 11. Die „neue“ 10 ist keine natürlich
 Geworfene, also erhält der Spieler keinen weiteren Bonuswürfel.
 
-=== Konkurrierende und Einfache Proben
 
-Proben können jedoch auch von anderen Faktoren beeinflusst werden, denn
-oft genug kann es vorkommen, dass andere Faktoren aktiv die
-Erfolgsaussichten verändern. Für gewöhnlich sind dies Versuche, den
-Erfolg des Würfelnden zu vermindern. Wir sprechen dann von
-*Konkurrierenden Proben*. Bei Konkurrierenden Proben gibt es immer einen
-*Angreifer* und einen *Verteidiger*, wobei diese Begriffe nicht
-unbedingt den blutigen Kampf oder die Auseinandersetzung zwischen zwei
-Wesen bezeichnen müssen.
+[[ref_core_concurrentrolls]]
+=== Konkurrierende Proben
 
-Der Angreifer ist derjenige (oder dasjenige), von dem eine Aktion
-ausgeht, die den Verteidiger direkt betrifft. Der Angreifer würfelt eine
-Probe auf das Talent oder Attribut nach den normalen Regeln und bestimmt
-seine Erfolge. Dies nennt man auf die *Angriffsprobe*. Der Verteidiger
-legt dann ebenfalls eine Probe ab, die zu dem vom Angreifer benutzten
-Talent passt, und bestimmt seine Erfolge. Man nennt diese Probe eine
-*Verteidigungsprobe*.
+Proben können jedoch auch von anderen Faktoren beeinflusst werden, denn oft genug kann es vorkommen, dass andere Faktoren aktiv die Erfolgsaussichten verändern.
+Für gewöhnlich sind dies Versuche, den Erfolg des Würfelnden zu vermindern.
+Wir sprechen dann von *Konkurrierenden Proben*.
+Bei Konkurrierenden Proben gibt es immer einen *Angreifer* und einen *Verteidiger*, wobei diese Begriffe nicht unbedingt den blutigen Kampf oder die Auseinandersetzung zwischen zwei Wesen bezeichnen müssen.
 
-Die Anzahl der Erfolge für den Angreifer ergibt sich dann aus der
-Rechnung: Seine Anzahl minus der der Anzahl der Erfolge des
-Verteidigers, wobei jeder Erfolg des Verteidigers nur einen Erfolg des
-Angreifers eliminiert.
+Der Angreifer ist derjenige (oder dasjenige), von dem eine Aktion ausgeht, die den Verteidiger direkt betrifft. Der Angreifer würfelt eine Probe auf das Talent oder Attribut nach den normalen Regeln und bestimmt seine Erfolge.
+[[ref_core_attackingroll]]Dies nennt man auf die *Angriffsprobe*.
+Der Verteidiger legt dann ebenfalls eine Probe ab, die zu dem vom Angreifer benutzten Talent passt, und bestimmt seine Erfolge.
+[[ref_core_defendingroll]]Man nennt diese Probe eine *Verteidigungsprobe*.
 
-Eine Konkurrierende Probe ist ein Misserfolg für den Angreifer, wenn der
-Verteidiger gleich oder mehr Erfolge gewürfelt hat.
+Die Anzahl der Erfolge für den Angreifer ergibt sich dann aus der Rechnung: Seine Anzahl minus der der Anzahl der Erfolge des Verteidigers, wobei jeder Erfolg des Verteidigers nur einen Erfolg des Angreifers eliminiert.
+
+Eine Konkurrierende Probe ist ein Misserfolg für den Angreifer, wenn der Verteidiger gleich oder mehr Erfolge gewürfelt hat.
 
 .Proben
 ====
@@ -255,6 +248,9 @@ Insgesamt war Jagons Probe nicht erfolgreich, denn 2-3 Erfolge sind
 weniger als 0 und damit kein Erfolg.
 ====
 
+[[ref_core_singlerolls]]
+=== Einfache Proben
+
 Alle nicht-konkurrierende Proben sind *Einfache Proben*. Diese Proben
 führt der Charakter für sich alleine durch, jedoch können die Umstände
 dazu führen, dass er eine bestimmte Anzahl von Erfolgen von der Probe
@@ -274,19 +270,15 @@ Vatriz würfelt allerdings gut, und erzielt insgesamt 5 Erfolge. Daher
 beschließt der SL Vatriz Spieler ein paar mehr Informationen zu geben.
 ====
 
+[[ref_core_tiers_of_sucess]]
 === Erfolgsgrade
 
-Erfolgsgrade beschreiben die Güte einer Probe. Je höher der Erfolgsgrad
-ist, umso besser ist die Probe abgelegt worden. Dies kann zur Folge
-haben, dass der Charakter, der diese Probe abgelegt hat, einen
-zusätzlichen Vorteil aus dem Bestehen der Probe schlägt. Welcher
-Erfolgsgrad mit einer Probe erreicht wurde, hängt von der gewürfelten
-Anzahl der Erfolge ab, nachdem alle Bonuswürfel und Patzer ausgewertet
-wurden und im Falle von Konkurrierenden Proben die durch den Verteidiger
-eliminierten Erfolge abgezogen wurden.
+Erfolgsgrade beschreiben die Güte einer Probe.
+Je höher der Erfolgsgrad ist, umso besser ist die Probe abgelegt worden.
+Dies kann zur Folge haben, dass der Charakter, der diese Probe abgelegt hat, einen zusätzlichen Vorteil aus dem Bestehen der Probe schlägt.
+Welcher Erfolgsgrad mit einer Probe erreicht wurde, hängt von der gewürfelten Anzahl der Erfolge ab, nachdem alle Bonuswürfel und Patzer ausgewertet wurden und im Falle von Konkurrierenden Proben die durch den Verteidiger eliminierten Erfolge abgezogen wurden.
 
-Die folgende Tabelle gibt eine Übersicht über die Grenzen der
-Erfolgsgrade an:
+Die folgende Tabelle gibt eine Übersicht über die Grenzen der Erfolgsgrade an:
 
 [cols=",,",]
 |===
@@ -300,14 +292,11 @@ Erfolgsgrade an:
 |20+ |Heldenhaft |6
 |===
 
-Erfolgsgrade dienen in den Regeldokumenten auch als Abkürzung, so
-formuliert es sich einfacher, einen Guten Erfolg zu fordern als
-„mindestens 5 oder mehr Erfolge“.
+Erfolgsgrade dienen in den Regeldokumenten auch als Abkürzung, so formuliert es sich einfacher, einen Guten Erfolg zu fordern als „mindestens 5 oder mehr Erfolge“.
 
 .Erfolgsgrade
 ====
-Beispiel: Vatriz hatte in dem vorhergehenden Beispiel einen Guten
-Erfolg.
+Beispiel: Vatriz hatte in dem vorhergehenden Beispiel einen Guten Erfolg.
 ====
 
 .Erfolgsgrade
@@ -448,6 +437,7 @@ Varrik's Spieler überprüft Varrik's Attributsstufe in Geschick und bemerkt, da
 Für derartige Attributsproben steht der Mindestwurf und die Anzahl der Erfolge meist fest, denn sie basieren auf den Regeln für das jeweilige Talent.
 Zusätzliche Situationsmodifikatoren, wie sich auch bei der normalen Anwendung des Talents zur Anwendung kommen würden, gelten in diesem Fall natürlich auch.
 
+[[ref_base_rolls_standard]]
 == Standardproben
 
 Standardproben sind typische Anwendungen immer wieder auftretenden Spielmechaniken.
@@ -528,6 +518,7 @@ Alle unbekannten Begriffe werden in den folgenden Kapiteln erklärt.
 [NOTE]
 Das Kapitel über link:core_rules_adventures.adoc[Abenteuer] enthält Anregungen und Beispiele wie der SL die nötige Anzahl von Erfolgen bei Standard-Proben festlegen kann.
 
+[[ref_base_rolls_defense]]
 === Verteidigungswürfe
 
 [[ref_base_roll_fearhorror]]
@@ -921,6 +912,7 @@ Folgende Situationen führen zu einer Verbrennen Widerstehen-Probe:
 gezwungen
 * Der Zauberer wird während der Vorbereitung niedergeschlagen
 
+[[ref_base_rules_pools]]
 == Energiepunktepools
 
 *Energiepunktepools* bzw. *Punktepools* stellen im System von Far Ages verschiedene Aspekte der Verfassung eines Charakters dar.
@@ -930,6 +922,7 @@ Dieses Kapitel erläutert die verschiedenen Pools und beschreibt Regeln.
 
 Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden sich die Regeln zu Ermittlung der Pools für jeden Charakter.
 
+[[ref_base_rules_pools_tp]]
 === Trefferpunkte
 
 *Trefferpunkte (TP)* sind ein Maß für die körperliche Verfassung des Charakters.
@@ -941,10 +934,13 @@ Der Verlust von TP kann aus sehr vielen unterschiedlichen Situation entstehen, d
 In sehr wenigen Fällen besitzt eine Kreatur keinen TP-Pool.
 Solche Wesen sind vollständig immun gegen jeden Schaden, der vom TP-Pool abgerechnet wird.
 
+[[ref_base_rules_pools_mp]]
 === Magiepunkte
 
+[[ref_base_rules_pools_sp]]
 === Stabilitätspunkte
 
+[[ref_base_rules_pools_temporary]]
 === Temporäre Punkte
 
 Durch Zauber ist es zum Beispiel möglich *temporäre Punkte* zu bekommen.
@@ -958,6 +954,7 @@ Sinkt der Wert der temporären Punkte in diesem Pool auf 0, so passiert dem Char
 Temporäre Punkte können nicht genutzt werden, um einen Charakter zu heilen, aus einer Ohnmacht zu befreien oder wiederzubeleben.
 Sie können jedoch einen ohnmächtigen Charakter insoweit helfen, dass sie eventuelle Verluste auffangen.
 
+[[ref_base_rules_pools_regeneration]]
 === Regeneration
 
 Verlorene TP und MP können regeneriert werden.
@@ -970,12 +967,14 @@ Folgende Tabelle gibt Aufschluss über die Regeneration:
 |===
 |Ruheperiode |TP Regeneration |MP Regeneration
 |15 Minuten |1W10 |1W10
-|1 Stunde |KO/2 1W10 |EN/2 1W10
-|8 Stunden |KO 1W10 | EN 1W10
+|1 Stunde |KO 1W10 |EN 1W10
+|8 Stunden |2*KO 1W10 | 2*EN 1W10
 |24 Stunden |Vollständig |Vollständig
 |===
 
 Der Charakter würfelt die angegebene Würfel und addiert die Augen zusammen.
 Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm maximale TP und MP zustehen.
+
+SP können im Normalfall nicht regeneriert werden.
 
 === Todesschwellen

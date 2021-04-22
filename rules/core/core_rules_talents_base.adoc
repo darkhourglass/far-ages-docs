@@ -41,6 +41,7 @@ Diese Kategorie beinhaltet alle wichtigen Talente, die benötigt werden, um in e
 Ein Charakter, der im Kampf geschult ist, wird hier die meisten Talente finden, die er benötigt.
 Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch hohe körperliche Belastungen.
 
+[[ref_talents_evade]]
 === Hieb Ausweichen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -48,6 +49,7 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 *Kampf:* R +
 *Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 
+[[ref_talents_meleeweapons]]
 === Nahkampfwaffen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -55,6 +57,7 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
 
+[[ref_talents_resist_throwdown]]
 === Niederschlag Widerstehen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -62,6 +65,7 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 *Kampf:* F +
 *Beschreibung:* Mit diesem Talent können Niederschlagsproben gewürfelt werden.
 
+[[ref_talents_parade]]
 === Parade
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -70,6 +74,7 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 *Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 
+[[ref_talents_projectileweapons]]
 === Projektilwaffen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -77,6 +82,7 @@ Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
 
+[[ref_talents_riding]]
 === Reiten
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
@@ -88,6 +94,7 @@ Für ungewöhnliche und stressige Situationen muss der Charakter jedoch eine Pro
 Solche Situationen können Kampfgetümmel sein (wenn das Tier nicht entsprechend trainiert ist), das Springen über ein Hindernis, Galopp über unwegsames Gelände und ähnliches.
 In diesen Fällen übernimmt dieses Talent die Funktion von Körperbeherrschungs-Proben für das Reittier und den Reiter, solange er auf dem Tier sitzt.
 
+[[ref_talents_shield_defense]]
 === Schildverteidigung
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -96,6 +103,7 @@ In diesen Fällen übernimmt dieses Talent die Funktion von Körperbeherrschungs
 *Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 
+[[ref_talents_unarmed_combat]]
 === Unbewaffneter Kampf
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -103,6 +111,7 @@ Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 *Kampf:* A +
 *Beschreibung:* Mit diesem Talent kann sich der Charakter auch ohne Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
 
+[[ref_talents_throwingweapons]]
 === Wurfwaffen
 *Mindestwurf:* SWM +
 *Ungeübte Anwendung:* Ja +
@@ -115,6 +124,7 @@ Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 Diese Kategorie beschreibt Talente, die auf Heimlichkeit und Geschick basieren.
 Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind diese Talente nicht zwangsläufig nur für dubiose Gestalten gedacht.
 
+[[ref_talents_acrobatics]]
 === Akrobatik
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -150,6 +160,7 @@ Ein Patzer zerstört die Falle. +
 Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
 Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
+[[ref_talents_climb]]
 === Klettern
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -157,6 +168,7 @@ Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 *Kampf:* M +
 *Beschreibung:* Mit diesem Talent können die Standardproben Klettern gewürfelt werden.
 
+[[ref_talents_reflex]]
 === Reflex
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -175,6 +187,7 @@ Die Anzahl der Erfolge legt die nötige Anzahl von Erfolgen fest, die ein andere
 Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine. +
 Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort Entdecken-Proben von allen Kreaturen in der näheren Umgebung provoziert.
 
+[[ref_talents_lockpick]]
 === Schloss Knacken
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
@@ -190,6 +203,7 @@ Dieses Talent geht von einer leisen und heimlichen Aktion aus.
 Damit schließt sich Sprengstoff oder Troll als „Dietrich“ aus.
 Magisch verschlossene Türen lassen sich damit nicht öffnen.
 
+[[ref_talents_jump]]
 === Springen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -197,6 +211,7 @@ Magisch verschlossene Türen lassen sich damit nicht öffnen.
 *Kampf:* M +
 *Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Springen gewürfelt werden.
 
+[[ref_talents_swim]]
 === Schwimmen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -204,6 +219,7 @@ Magisch verschlossene Türen lassen sich damit nicht öffnen.
 *Kampf:* M +
 *Beschreibung:* Mit diesem Talent können die Standardproben Schwimmen gewürfelt werden.
 
+[[ref_talents_pickpocket]]
 === Taschendiebstahl
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
@@ -228,6 +244,7 @@ Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreich
 *Kampfphasen:* M +
 *Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Entdecken und Suchen würfeln.
 
+[[ref_talents_hide]]
 === Verstecken
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -242,6 +259,7 @@ Dabei kann der SL die Würfelanzahl je nach Situation anpassen, wenn es schwerer
 Diese Kategorie von Talenten umfasst Talente, die zur sozialen Interaktion mit NPCs oder auch anderen Spielercharakteren dienen.
 Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozialen Gefüge definieren, so zum Beispiel sein Handwerk.
 
+[[ref_talents_intimidate]]
 === Einschüchtern
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -277,6 +295,7 @@ Das Talent kann teilweise hilfreich sein, um andere, kunstferne Zwecke zu unters
 Der SL kann daher entscheiden, ob höhere Erfolgsgrade einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft, oder um kunstferne Aktionen durchzuführen.
 Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuchen zu fälschen.
 
+[[ref_talents_deceive]]
 === Täuschen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -310,6 +329,7 @@ Das Talent zählt nicht für monströse und magische Tiere.
 
 Wissenstalente denken intellektuelle Leistungen des Charakters ab, sowie dessen Wissen als auch dieses Wissen zu erlernen.
 
+[[ref_talents_research]]
 === Forschen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -333,6 +353,7 @@ Im Allgemeinen gilt: Wissen, was an einem Ort nicht gefunden werden kann, weil e
 
 Weiterhin darf der Charakter mit diesem Talent alle Standard-Proben des Typs Ausfragen würfen.
 
+[[ref_talents_read_write]]
 === Lesen/Schreiben
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
@@ -344,6 +365,7 @@ Beispielsweise könnte ein umfangreicher, wissenschaftlicher Text erst mit einem
 Starke Ablenkung von außen, Lärm, Unruhe oder ein Kampf belegt die Würfe zum Erfolg mit einem Malus von mindestens -2.
 Weitere Anpassungen obliegen dem SL.
 
+[[ref_talents_use_technomantic_device]]
 === Technomantisches Gerät Benutzen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
@@ -376,83 +398,7 @@ Der SL kann dem Spieler diese Information mitteilen, in dem er eine detaillierte
 Für gewöhnlich werden jedoch keine Spielwerte weitergegeben, z.B. “diese Pflanze enthält ein Gift der Stärke 7” oder “das Wesen vor euch besitzt normalerweise 140 TP”, sondern solche Informationen werden ungefähr so ausgedrückt: “Die Pflanze enthält ein starkes Gift” und “Das Wesen ist sehr zäh und hält viele Treffer aus.”.
 Jede weitere Dramatisierung ist natürlich angemessen.
 
-Folgende Wissensgebiete sind beispielweise erlernbar:
-
-|===
-|Name |Voraussetzungen |Beschreibung
-
-|Alchemie
-|-
-|Column 3, row 1
-
-|Architektur und Ingenieurwesen
-|-
-|Column 3, row 1
-
-|Arkanes
-|Beruf (?)
-|Column 3, row 2
-
-|Astronomie
-|-
-|Column 3, row 3
-
-|Außerweltliche
-|-
-|Column 3, row 4
-
-|Geschichte
-|-
-|Column 3, row 5
-
-|Geographie
-|-
-|Column 3, row 6
-
-|Gewölbe
-|-
-|Column 3, row 7
-
-|Gifte
-|-
-|Column 3, row 8
-
-|Legenden
-|-
-|Column 3, row 9
-
-|Lokales
-|-
-|Column 3, row 10
-
-|Mathematik
-|-
-|Column 3, row 10
-
-|Monster
-|-
-|Column 3, row 10
-
-|Pflanzen
-|-
-|Column 3, row 10
-
-|Tiere
-|-
-|Column 3, row 10
-
-|Untote
-|-
-|Column 3, row 10
-
-|Völker
-|-
-|Column 3, row 10
-
-|Waffen und Rüstung
-|-
-|Column 3, row 10
-|===
+Die verfügbaren Spezialgebiete können aus folgender xref:../tables/table_talents_knowledge_topics.adoc[Tabelle] entnommen werden.
 
 Der SL und die Spieler können sich auch weitere Wissensgebiete ausdenken, wenn sie diese für nützlich halten.
 
@@ -461,6 +407,7 @@ Der SL und die Spieler können sich auch weitere Wissensgebiete ausdenken, wenn 
 Diese Talenten werden vor allem von zaubernden Berufungen benötigt.
 Sie bilden die Grundausrüstung für die Ausübung der Magie.
 
+[[ref_talents_aether_perception]]
 === Aether Wahrnehmung
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
@@ -509,8 +456,9 @@ Bei einem Misserfolg muss der Zaubernde sofort eine Probe in Verbrennen Widerste
 
 Das Dokument Magie bietet eine umfassende Beschreibung des Zaubervorgangs und beschreibt, in welchen Situationen die ungeübte Anwendung zulässig ist.
 
-Weiterhin bietet das Dokument eine Liste von Zauberschulen, die besondere Regeln mit sich bringen und welche Zauberlisten gelernt werden
+Weiterhin bietet das Dokument eine Liste von xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic_overview[Zauberschulen], die besondere Regeln mit sich bringen und angeben, welche Zauberlisten gelernt werden können.
 
+[[ref_talents_resist_spellburning]]
 === Verbrennen Widerstehen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +

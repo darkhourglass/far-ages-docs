@@ -1,0 +1,31 @@
+= Sternenelfen
+
+*Attributsbonus:* +1 GE, -1 KO, +2 EN, +1 CH +
+*Größe:* 5 +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
+*Generation:* 4 oder höher +
+*Progenitor:* unbekannt +
+*CP:* 120 +
+
+== Eigenschafen
+
+Sternenelfen erhalten die Eigenschaften xref:core_races_elves_general.adoc#ref_elven_senses[Elfische Sinne] und xref:core_races_elves_general.adoc#ref_elven_intuition[Elfische Intuition], aber nicht xref:core_races_elves_general.adoc#ref_elven_skill[Elfische Begabung].
+
+=== Arkane Macht
+Sternenelfen stehen der Magie und den Energien des Aethers deutlich näher als all ihre Verwandten und viele andere Völker.
+Ein Sternenelf erhält einen Bonus von +1 MaxPot und seine MP erhöhen sich um 20 Punkte.
+
+=== Intuitives Zauberwissen
+Sternenelfen lernen arkane Zauber viel leichter als andere.
+Die Kosten für das xref:../core_rules_charactercreation.adoc#ref_characters_cp_spells[Erlernen von Zaubersprüchen] werden reduziert um den Faktor -2 auf die Magiepotenz des Zauberspruchen.
+Ein Zauberspruch kosten minimal 100 CP.
+
+.Intuitives Zauberwissen
+====
+Ein Zauberspruch mit eine Magiepotenz 7 kostet nach normalen Regeln 7*100 = 700 CP.
+Durch die Eigenschaft Intuitives Zauberwissen kostet der Zauberspruch für Sternenelfen nur (7-2)*100 = 500 CP.
+====
+
+=== Magieanfällig
+Sternenelfen erleiden einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_magicdefense[Magieabwehr]-Proben.

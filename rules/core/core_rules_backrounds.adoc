@@ -9,6 +9,10 @@ Diese sind als Vorschläge zu sehen, die sowohl von der Kampagne wie von den Spi
 *Bonus:* der Bonus, der durch diesen Hintergrund entsteht.
 Wie auch immer dieser Bonus aussieht, er kommt direkt bei der Charaktererschaffung einmalig zum Tragen.
 
+*Startkapital:* Das Stadtkapital in Silbermünzen, welches der Charakter zu Beginn des Spiels erhält.
+Dies kann ein variabler Wert, angegeben in Form von Würfel sein, oder eine feste Zahl.
+Handelt es sich um einen Wert, der erwürfelt werden muss, muss dieser Wurf vor Spielbeginn erfolgen.
+
 *CP:* Angabe der CP, die bei der Charaktererschaffung ausgegeben werden muss
 
 == Abenteurer
@@ -18,6 +22,7 @@ Er lebt für den Nervenkitzel, sei es die Suche nach lange vergessenen Schätzen
 Seine Dienste mag er gelegentlich dem Zahlenden zur Verfügung stellen.
 (Dieser Hintergrund wird implizit für Charakter angenommen, die keine CP für den Hintergrund ausgeben möchten). +
 *Bonus:* - +
+*Startkapital:* TODO +
 *CP:* 0
 
 == Adeliger
@@ -27,7 +32,8 @@ Seine Jugend konnte er im Vergleich zu den meisten Anderen im Luxus verbringen, 
 Seine gesellschaftliche Position mag noch Verpflichtungen mit sich bringen, wie z.B. eine Position am Hof des Herrschers oder eine arrangierte Heirat.
 Sein Beruf ist oft mit seiner Aufgabe im Adelshaus verbunden, meistens auch aus reinem Prestige.
 Manche Adeligen jedoch verfolgen mit ihrem Beruf die Distanzierung von ihrem Leben in der hohen Gesellschaft. +
-*Bonus:* +1 CH, Reiten SGM 1, Startkapitel * 4 +
+*Bonus:* +1 CH, Reiten SGM 1 +
+*Startkapital:* TODO +
 *CP:* 60
 
 == Arbeiter
@@ -37,6 +43,7 @@ Viele Arbeiter findet man in großen Städten oder dem Umland auf Farmen und gro
 Dort übernehmen Arbeiter viele unterschiedliche Aufgaben, wie im Hafen Waren verladen, Erntegüter auf Farmen von den Feldern holen oder in Fabriken und Werkstätten die schweren Maschinen bedienen.
 Ein Arbeiter sucht meistens einen Ausweg aus seinem eintönigen und kräftezehrenden Alltag. +
 *Bonus:* +1 ST +
+*Startkapital:* TODO +
 *CP:* 20
 
 == Aristokrat
@@ -46,7 +53,8 @@ Sein Stand adelig sein, muss es aber nicht.
 Er kann auch aus einer großen Handelsoligarchien stammen.
 Seine Tätigkeiten drehen sich oft um geschicktes Verhandeln schwieriger Geschäfte, Diplomatie und Politik.
 Der Charakter nutzt seinen Beruf vielleicht zu seinem Vorteil am Hof oder er begleitet eine Karawane exotischer Güter zu seinem nächsten Handelspartner. +
-*Bonus:* Konversation SGM 1, Startkapital * 2 +
+*Bonus:* Konversation SGM 1 +
+*Startkapital:* TODO +
 *CP:* 30
 
 == Arm
@@ -54,7 +62,8 @@ Der Charakter nutzt seinen Beruf vielleicht zu seinem Vorteil am Hof oder er beg
 *Beschreibung:* Das Leben hat es nicht einfach gemeint.
 Der Charakter wuchs in ärmlichen Verhältnissen auf oder hat in den letzten Jahren kein regelmäßiges Einkommen erhalten.
 Seine Lebensverhältnisse sind bestenfalls einfach und wenn er regelmäßig etwas Warmes zu Essen bekommt, dann schätzt er sich glücklich. +
-*Bonus:*  +1 KO, Startkapital * 0.5 +
+*Bonus:*  +1 KO +
+*Startkapital:* TODO +
 *CP:* 10
 
 == Barbar
@@ -63,7 +72,8 @@ Seine Lebensverhältnisse sind bestenfalls einfach und wenn er regelmäßig etwa
 Das weiche Leben der Stadt mit einem Dach über dem Kopf ist dem Charakter fremd, er ist gewöhnt, sein Essen selbst zu jagen und erlegen.
 Er kommt aus einer meist stammesorientieren Gesellschaft, in der er die Rolle eines Kämpfers übernimmt. +
 *Bonus:* +1 ST, Wissen[Überleben] SGM 2, Wissen[Natur]
-SGM 2, Startkapital * 0.5 +
+SGM 2 +
+*Startkapital:* TODO +
 *CP:* 30 +
 
 == Bettler
@@ -71,8 +81,8 @@ SGM 2, Startkapital * 0.5 +
 *Beschreibung:* Der Charakter hat nichts, außer dem, was er am Körper trägt.
 Er ist auf die Milde Gabe seiner Mitmenschen (oder anderer) angewiesen, die nicht selten mit Abscheu, Verachtung oder Ekel auf ihn hinabsehen.
 Seine Ernährung und Hygiene lassen zu Wünschen übrig. Er hat gelernt, alleine zu überleben und die notwendigen Dinge dazu zu erbetteln. +
-*Bonus:* +1 GE, Konversation SGM 2,
-Wissen[Überleben] SGM 2, Startkapital = 1 +
+*Bonus:* +1 GE, Konversation SGM 2, Wissen[Überleben] SGM 2+
+*Startkapital:* 1 +
 *CP:* 20
 
 == Eigenbrötler
@@ -81,95 +91,111 @@ Wissen[Überleben] SGM 2, Startkapital = 1 +
 Über andere und ihre alltäglichen Verhaltensweisen kann er sich nur wundern, was oft auf Gegenseitigkeit beruht.
 Als Ausgleich hat er sehr viel Zeit, um sich um die Dinge zu kümmern, die er wirklich als wichtig sieht. +
 *Bonus:* Ein Wissensgebiet SGM 1 oder 2 Wissensgebiete auf SGM 2 (außer Arkanes) +
+*Startkapital:* TODO +
 *CP:* 20
 
 == Farmer
 
 *Beschreibung:* Der Charakter ist auf einem landwirtschaftlichen Betriebe groß geworden, hat dort viele Jahre gearbeitet oder selbst betrieben.
 Dazu zählen vielseitige Varianten wie der Anbau von Getreide, zahlreiche Nutzpflanzen, Obst oder Gemüse. Ebenso dazu zählen die verschiedensten Nutztiere wie Kühe, Schweine oder Hühner. Charaktere mit diesem Hintergrund sind harte Arbeit und lange Tage gewöhnt. +
-*Bonus:* +1 KO, Startkapitel * 0.5 +
+*Bonus:* +1 KO +
+*Startkapital:* TODO +
 *CP:* 10
 
 == Freibeuter
 
 *Beschreibung:* +
 *Bonus:* +1 GE, Reiten oder Parade oder Wissen[Segeln] auf SGM 1 +
+*Startkapital:* TODO +
 *CP:* 40
 
 == Gelehrter
 
 *Beschreibung:* +
 *Bonus:* +1 ER, 2 Wissensgebiete auf SGM 1 +
+*Startkapital:* TODO +
 *CP:* 60
 
 == Gildenmitglied
 
 *Beschreibung:* +
 *Bonus:* 1 Handwerkstalent oder 1 Kunsttalent auf SGM 1, Lesen/Schreiben und Konversation auf SGM 2 +
+*Startkapital:* TODO +
 *CP:* 40
 
 == Glücksritter
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Händler
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Handwerker
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Künstler
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Lehrling
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Militia
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Navigator
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Seemann
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Soldat
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Söldner
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*
 
 == Stammesangehöriger
 
 *Beschreibung:* +
 *Bonus:* +
+*Startkapital:* TODO +
 *CP:*

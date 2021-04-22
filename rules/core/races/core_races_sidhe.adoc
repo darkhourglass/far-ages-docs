@@ -1,10 +1,24 @@
 = Sidhe
 
-*Attributsbonus:* +
-*Vorteile:* +
-*Nachteile:* +
+*Attributsbonus:* +1 GE, +1 CH+
 *Größe:* 2 +
-*Sonstiges:* +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Alberon +
-*CP:* +
+*CP:* 50 +
+
+== Eigenschaften
+
+=== Flügel
+Ein Sidhe besitzt Flügel und kann damit fliegen.
+Er bewegt sich fliegend dreimal so schnell, wie er normalerweise auf dem Boden rennen würde (d.h. seine BEW multipliziert mit 3).
+Ein Aoehe kann so viele Kampfrunden in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
+Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_maneuver_airattack[Flugangriff] verwenden.
+
+=== Feenmagie
+Sidhe lernen zu Beginn des Spiels 3 xref:../../core/core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkane Tricks], welche sie aus den folgenden Zauberspruchlisten frei wählen können: xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_druids.adoc[Magie der Druiden], xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_schamanism.adoc.adoc[Schamanismu], xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofbody.adoc.adoc[Weg des Körpers] oder xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofspirit.adoc.adoc[Weg des Geistes].
+Sie verwenden ihre EN-Stufe zur Spruchzauberei-Probe, falls sie das passende Talent nicht beherrschen.
+
+=== Tarnung
+Befindet sich ein Sidhe in einer natürlichen Umgebung (also z.B. in einem Wald, aber nicht in einem Stall aus Holz), erhält er einen Bonus von +1 auf die Würfe zum Erfolg für alle xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]-Proben.

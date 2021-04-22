@@ -1,10 +1,26 @@
 = Gnome
 
 *Attributsbonus:* -1 ST, -1 KO, +2 EN, +1 CH +
-*Vorteile:* Dunkelsicht, Mehr Magiepunkte I +
-*Nachteile:* Hänfling, Magieanfällig +
 *Größe:* 4 +
-*Sonstiges:* - +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 30 +
+*CP:* 60 +
+
+== Eigenschaften
+
+=== Dunkelsicht
+Ein Charakter mit dieser Eigenschaft kann in der Nacht oder in der Dunkelheit noch genauso gut sehen wie mit Licht.
+In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] werden halbiert.
+
+=== Intuitive Magie
+Alle Gnome besitzen ein intuitives Bewusstsein für Magie und können deswegen auch ohne Ausbildung magische Effekt hervorrufen.
+Zur Charaktererschaffung lernt ein Gnom einen xref:../core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkanen Trick] aus einer beliebigen Zauberschule.
+Er verwendet zur xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe seine EN-Stufen, außer er lernt die passende Zauberschule als Talent.
+
+=== Magieanfällig
+Gnome erleiden einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_magicdefense[Magieabwehr]-Proben.
+
+=== Mehr Magiepunkte
+Gnome erhalten einen Bonus von 10 MP auf ihren xref:../core_rules_charactercreation.adoc#ref_secondary_magicpoints[Magiepunkte]-Pool.

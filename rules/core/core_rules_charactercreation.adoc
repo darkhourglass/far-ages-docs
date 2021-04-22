@@ -37,250 +37,199 @@ Ein Charakter mit 1000 Charakterpunkten ist deutlich stärker als ein Charakter 
 
 === Initiale Charakterpunkte
 
-Zu Beginn einer Spielrunde sollten sich Spieler und Spielleiter auf eine
-Anzahl von initialen Charakterpunkten einigen. Je mehr man wählt, umso
-stärkere Charaktere stehen von Beginn an zur Verfügung.
+Zu Beginn einer Spielrunde sollten sich Spieler und Spielleiter auf eine Anzahl von initialen Charakterpunkten einigen.
+Je mehr man wählt, umso stärkere Charaktere stehen von Beginn an zur Verfügung.
 
-Da das Charaktersystem von Far Ages frei und offen sein möchte und keine
-Vorgaben den Spielgruppen aufdrücken möchte, wird an dieser Stelle kein
-fester Wert vorgegeben.
+Da das Charaktersystem von Far Ages frei und offen sein möchte und keine Vorgaben den Spielgruppen aufdrücken möchte, wird an dieser Stelle kein fester Wert vorgegeben.
 
-Je nachdem auf welchen Wert sich die Gruppe geeinigt hat, werden als
-erstes diese CP in die Pools Aktuelle Charakterpunkte und
+Je nachdem auf welchen Wert sich die Gruppe geeinigt hat, werden als Erstes diese CP in die Pools Aktuelle Charakterpunkte und
 Gesamtcharakterpunkte geschrieben.
 
-Wie im Laufe des Dokuments beschrieben, können während der
-Charaktererschaffung Nachteile für einen Charakter gewählt werden, die
-Charakterpunkte zusätzlich erbringen, anstatt sie zu verbrauchen.
-Während der Charaktererschaffung ist zu beachten, dass auf diese Weise
-gekaufte CP ausschließlich für diese gebraucht werden können. Durch
-Nachteile erkaufte CP werden niemals auf Aktueller oder
-Gesamtcharakterpunkte gerechnet.
+Wie im Laufe des Dokuments beschrieben, können während der Charaktererschaffung Nachteile für einen Charakter gewählt werden, die Charakterpunkte zusätzlich erbringen, anstatt sie zu verbrauchen.
+Während der Charaktererschaffung ist zu beachten, dass auf diese Weise gekaufte CP ausschließlich für diese gebraucht werden können.
+Durch Nachteile erkaufte CP werden niemals auf Aktueller oder Gesamtcharakterpunkte gerechnet.
 
-Sollten durch Nachteile erhaltene CP am Ende der Charaktererschaffung
-übrigbleiben, so verfallen diese für den Rest des Spiels.
+Sollten durch Nachteile erhaltene CP am Ende der Charaktererschaffung übrigbleiben, so verfallen diese für den Rest des Spiels.
 
 === Wahl des Volks, des Berufs und des Hintergrundes
 
-Jeder Charakter wird zu Beginn der Charaktererschaffung durch drei
-Elemente bestimmt: Volk, Beruf und Hintergrund. Einem Spieler steht je
-nach Kampagnen-Hintergrund eine andere Auswahl zur Verfügung. Daher
-beschreibt dieses Kapitel nur den allgemeinen Umgang mit diesen
-Elementen der Spielwelt und die zugrunde liegenden Mechanismen.
+Jeder Charakter wird zu Beginn der Charaktererschaffung durch drei Elemente bestimmt: Volk, Beruf und Hintergrund.
+Einem Spieler steht je nach Kampagnen-Hintergrund eine andere Auswahl zur Verfügung.
+Daher beschreibt dieses Kapitel nur den allgemeinen Umgang mit diesen Elementen der Spielwelt und die zugrunde liegenden Mechanismen.
 
-Jeder Charakter gehört einem link:core_rules_races.adoc[*Volk*] an. In den unterschiedlichen
-Universen und Welten von Far Ages können viele unterschiedliche Völker
-leben und jede hat gewisse Eigenschaften und Eigenheiten. Diese sind
-sowohl kultureller, psychologischer und erscheinungsbildmäßiger Natur,
-als auch im Sinne von regeltechnischer Vor- und Nachteile. Manche
-sind vielleicht magiebegabter als andere, dafür körperlich schwächer.
-Rassen bringen Modifikationen von Attributen oder eigene Vor- und
+Jeder Charakter gehört einem link:core_rules_races.adoc[*Volk*] an.
+In den unterschiedlichen Universen und Welten von Far Ages können viele unterschiedliche Völker leben und jede hat gewisse Eigenschaften und Eigenheiten.
+Diese sind sowohl kultureller, psychologischer und physischer Natur, als auch im Sinne von regeltechnischer Vor- und Nachteile.
+Völker bringen Modifikationen von Attributen oder eigene Vor- und
 Nachteile mit.
 
-Manche Völker haben CP-Kosten. Möchte ein Spieler ein solches Volk
-spielen, muss er die CP-Kosten von seinen Aktuellen Charakterpunkten
-abziehen.
+Die meisten Völker besitzen CP-Kosten.
+Möchte ein Spieler ein solches Volk spielen, muss er die CP-Kosten von seinen initialen Charakterpunkten abziehen.
 
-Der Begriff link:core_rules_professions.adoc[*Beruf*] wird in Far Ages etwas weiter definiert als man es
-vielleicht gewohnt ist. Mit Beruf ist hier wahrhaftig der Ursprung des
-Wortes, die Berufung, gemeint. Ein Beruf in Far Ages ist nicht nur eine
-Ansammlung von Talenten, die mit ihm verbunden sind, sondern ist eine
-eigenständige Geschichte.
+Der Begriff link:core_rules_professions.adoc[*Beruf*] wird in Far Ages etwas weiter definiert, als man es vielleicht gewohnt ist.
+Mit Beruf ist hier wahrhaftig der Ursprung des Wortes, die Berufung, gemeint.
+Ein Beruf in Far Ages ist nicht nur eine Ansammlung von Talenten, die mit ihm verbunden sind, sondern ist eine eigenständige Geschichte.
 
-Ähnlich zu Völkern, können Berufe Modifikatoren für Attribute mitbringen,
-sowie Vor- und Nachteile. Vor allem bestimmen sie initial, welche
-Talente ein Charakter lernen kann.
+Ähnlich zu Völkern, können Berufe Modifikatoren für Attribute mitbringen, sowie Vor- und Nachteile.
+Vor allem bestimmen sie initial, welche Talente ein Charakter lernen kann.
 
-Berufe haben im allgemeinen auch CP-Kosten, die wie bei der Wahl der
-Rasse von den initialen Charakterpunkten bezahlt werden müssen.
+Berufe haben normalerweise auch CP-Kosten, die wie bei der Wahl des Volkes von den initialen Charakterpunkten bezahlt werden müssen.
 
-Der link:core_rules_backrounds.adoc[*Hintergrund*] eines Charakters beschreibt die Herkunft des
-Charakters, zum Teil seine Vergangenheit und seine Gegenwart. Mit dem
-Hintergrund kommen ein paar Fähigkeiten hinzu, sowie auch manchmal
-Nachteile. Manche Berufe lassen nur Leute aus einem bestimmten sozialen
-Umfeld zu.
+Der link:core_rules_backrounds.adoc[*Hintergrund*] eines Charakters beschreibt seine Herkunft, zum Teil seine Vergangenheit und seine Gegenwart.
+Mit dem Hintergrund kommen ein paar Fähigkeiten hinzu, sowie auch manchmal Nachteile.
+Manche Berufe lassen nur Leute aus einem bestimmten sozialen Umfeld zu.
 
-Wie zuvor gilt, wenn ein Hintergrund CP-Kosten mit sich bringt, müssen
-diese von initialen Charakterpunkten bezahlt werden.
+Wie zuvor gilt, wenn ein Hintergrund CP-Kosten mit sich bringt, müssen diese von initialen Charakterpunkten bezahlt werden.
 
-=== Attribute und initiale Attributsstufen
+== Attribute
 
-*Attribute* sind Werte, die den Charakter als Körper und Geist
-beschreiben. So steht beispielsweise das Attribut _Stärke_ für die
-körperliche Kraft des Charakters, ein starker Charakter wird einen
-schweren Stein eher heben können, als ein anderer. Die Attribute werden
-in *Attributsstufen* beschrieben. Diese sind in Zahlen angegeben und
-sind im Normalfall 1 oder höher. Im System von Far Ages ist eine
-Attributsstufe von 2-3 durchschnittlich für einen Charakter, der gerade
-erschaffen wurde. Werte über 10 sind wortwörtlich un- bzw.
-übermenschlich.
+*Attribute* sind Werte, die den Charakter als Körper und Geist beschreiben.
+So steht beispielsweise das Attribut _Stärke_ für die körperliche Kraft des Charakters, ein starker Charakter wird einen schweren Stein eher heben können, als ein anderer.
 
-Jede Attributsstufe steht für einen W10, der bei einer Probe auf dieses
-Attribut (siehe Dokument link:core_rules_d10_system.adoc[W10-Regelsystem] unter Attributsproben und
-Standardproben) verwendet werden kann.
+Die Attribute werden in *Attributsstufen* gemessen.
+Diese sind in Zahlen von 1 oder höher angegeben.
+Im System von Far Ages ist eine Attributsstufe von 2-3 durchschnittlich für einen Charakter, der gerade erschaffen wurde.
+Werte über 10 sind wortwörtlich un- bzw.übermenschlich.
 
-Darüber hinaus bestimmen die Attributsstufen sogenannte
-*Attributseigenschaften*. Diese Attributseigenschaften sind weitere
-Elemente des Spiels, die helfen, den Charakter weiter zu beschreiben und
-seine Grenzen und Möglichkeiten darzustellen. Aus dem Attribut Stärke
-folgt zum Beispiel die Maximale Traglast, eine Zahl, die bestimme, wie
-viel ein Charakter mit sich herumschleppen kann.
+Jede Attributsstufe steht für einen W10, der bei einer Probe auf dieses Attribut (siehe Dokument link:core_rules_d10_system.adoc[W10-Regelsystem] unter Attributsproben und Standardproben) verwendet werden kann.
 
-=== Berechnung von Attributsstufen
+Darüber hinaus bestimmen die Attributsstufen sogenannte *Attributseigenschaften*.
+Diese Attributseigenschaften sind weitere Elemente des Spiels, die helfen, den Charakter weiter zu beschreiben und seine Grenzen und Möglichkeiten darzustellen.
+Aus dem Attribut Stärke folgt zum Beispiel die Maximale Traglast, eine Zahl, die bestimme, wie viel ein Charakter mit sich herumschleppen kann.
 
-In jedem der Attribute, die später genauer beschrieben werden, startet
-ein neuer Charakter mit der *Attributsstufe 2*. Durch seine Wahl der
-Rasse, des Berufs und seinem Hintergrund erhält er mehrere Boni auf
-diese Attributsstufen. Diese kann er sofort verrechnen. Mehrere Boni auf
-dasselbe Attribut sind kumulativ.
+[[ref_characters_initialattributes]]
+=== Berechnung von initialen Attributsstufen
+
+In jedem der Attribute, die später genauer beschrieben werden, startet ein neuer Charakter mit einer festen Attributsstufe.
+Durch seine Wahl der Rasse, des Berufs und seinem Hintergrund erhält er mehrere Boni auf diese Attributsstufen.
+Diese kann er sofort verrechnen.
+Mehrere Boni auf dasselbe Attribut sind kumulativ.
+
+Zuerst wird ein Attribut des Charakters festgelegt, welches auf *Attributsstufe 3* beginnt.
+Danach werden zwei Attribute festlegt, welche auf *Attributsstufe 1* beginnen.
+Alle anderen Attribute starten mit *Stufe 2*.
 
 .Initiale Attributsstufen
 ====
-Ein Charakter wählt eine Rasse mit +1 auf Geschick, -1
-Konstitution, +1 Erkenntnis. Seine Berufung gibt ihm noch +1 Geschick.
+Ein Charakter wählt eine Rasse mit +1 auf Geschick, -1 Konstitution, +1 Erkenntnis.
+Seine Berufung gibt ihm noch +1 Geschick.
+Als Attribut mit Stufe 3 wählt er KO.
+Auf Stufe 1 sollten die Attribute ER und CH starten.
 Seine Attributsstufen ergeben dann:
 
-ST: 2, GE: 4, KO: 1, ER: 3, EN: 2, SB: 2, CH: 2
+ST: 2, GE: 4, KO: 2, ER: 2, EN: 2, SB: 2, CH: 1
 ====
 
 Während der Charaktererschaffung darf keine Attributsstufe auf 0 oder weniger fallen.
-Das bedeutet, wenn ein Charakter eine Kombination aus Volk, Hintergrund und Beruf wählt, die ein oder mehrere Attribute auf 0 oder weniger reudzieren würde, hat er zwei Möglichkeiten:
+Das bedeutet, wenn ein Charakter eine Kombination aus Volk Hintergrund und Beruf wählt, die ein oder mehrere Attribute auf 0 oder weniger reduzieren würde, hat er zwei Möglichkeiten:
 
 * Er kann die Kombination von Volk, Hintergrund und Beruf verändern, um die Attributsstufen auf 1 oder höher zu bringen.
-* Pro Attributsstufe kann er 20 CP bezahlen, um das Attribut auf Stufe 1 zu bringen. Dies ist kumulativ zu zahlen, d.h. sollte beispielsweise eine Attributsstufe auf -1 fallen, so sind 40 CP insgesamt nötig.
+* Pro Attributsstufe kann er 20 CP bezahlen, um das Attribut auf Stufe 1 zu bringen.
+Dies ist kumulativ zu zahlen, d.h. sollte beispielsweise eine Attributsstufe auf -1 fallen, so sind 40 CP insgesamt nötig.
 
 == Talente
 
-Berufe und Talente sind eng miteinander verknüpft. Ihr Fortschreiten,
-ihre „Macht“ wird gemessen und zwar in *Talentstufen*. Talentstufen
-werden wie Attributsstufen in Zahlen ab 1 gemessen und jede Zahl steht
-für 1W10, der für die Talentprobe verwendet werden kann.
+Berufe und Talente sind eng miteinander verknüpft.
+Ihr Fortschreiten, ihre „Macht“ wird gemessen und zwar in *Talentstufen*.
+Talentstufen werden wie Attributsstufen in Zahlen ab 1 dargestellen und jede Zahl steht für 1W10, der für die Talentprobe verwendet werden kann.
 
-Jedes Talent, welches ein Charakter kennt (damit mindestens eine
-Talentstufe von 1 besitzt), erhält einen *Steigerungsmodifikator* (SGM).
+Jedes Talent, welches ein Charakter kennt (damit mindestens eine Talentstufe von 1 besitzt), erhält einen *Steigerungsmodifikator* (SGM).
 
-* *SGM 1* beschreibt *Berufstalente*, also Talente, die von dem Beruf
-favorisiert sind und insbesondere von diesem Beruf benutzt und gelernt
-werden.
-* *SGM 2* beschreibt Talente, die nahe verwandt sind mit dem Beruf und
-seinen Talent. Sie werden regulär nicht gelehrt, aber ein Charakter der
-ähnliche Talente beherrscht, kann sie einfacher lernen.
-* *SGM 3* beinhaltet Talente, die nur wenig mit dem Beruf zu tun hat und
-sie sind daher schwierig zu lernen.
+* *SGM 1* beschreibt *Berufstalente*, also Talente, die von dem Beruf favorisiert sind und insbesondere von diesem Beruf benutzt und gelernt werden.
+* *SGM 2* beschreibt Talente, die nahe verwandt sind mit dem Beruf und seinen Talent.
+Sie werden regulär nicht gelehrt, aber ein Charakter der ähnliche Talente beherrscht, kann sie einfacher lernen.
+* *SGM 3* beinhaltet Talente, die nur wenig mit dem Beruf zu tun hat und sie sind daher schwierig zu lernen.
 
-Durch die Wahl des Berufs erhält der Charakter eine bestimmte Anzahl von
-Talenten mit SGM 1 und SGM 2. Alle anderen Talente sind implizit immer
-SGM 3.
+Durch die Wahl des Berufs erhält der Charakter eine bestimmte Anzahl von Talenten mit SGM 1 und SGM 2.
+Alle anderen Talente sind implizit immer SGM 3.
 
-Der Steigerungsmodifikator wird nach die benötigten CP pro Steigerung
-der Talentstufe beeinflussen.
+Der Steigerungsmodifikator wird nach die benötigten CP pro Steigerung der Talentstufe beeinflussen.
 
+[[ref_characters_initialtalents]]
 === Initiale Talentstufen
 
-Anders als Attribute starten alle Talentstufen immer auf 0. Zur
-Charaktererschaffung erhält ein Charakter jedoch *4 freie Talentstufen*,
-die auf die Talente, welche durch seine Berufswahl mit SGM 1 und SGM 2
-gekennzeichnet wurden, verteilt werden können.
+Anders als Attribute starten alle Talentstufen immer auf 0.
+Zur Charaktererschaffung erhält ein Charakter jedoch *4 freie Talentstufen*, die auf die Talente, welche durch seine Berufswahl mit SGM 1 und SGM 2 gekennzeichnet wurden, verteilt werden können.
 
-Pro Talent kann nur eine Talentstufe auf diesem Wege gesetzt werden. Für
-Talente mit SGM 2 müssen 2 der freien Talentstufen eingesetzt werden.
+Pro Talent kann nur eine Talentstufe auf diesem Wege gesetzt werden.
+Für Talente mit SGM 2 müssen 2 der freien Talentstufen eingesetzt werden.
 
-Sind alle freien Talentstufen verbraucht, müssen weitere Talentstufen
-nach den normalen Steigerungsregeln mit CP gekauft werden. Über diesen
-Weg können auch höhere Talentstufen gekauft werden.
+Sind alle freien Talentstufen verbraucht, müssen weitere Talentstufen nach den normalen Steigerungsregeln mit CP gekauft werden.
+Über diesen Weg können auch höhere Talentstufen gekauft werden.
 
 .Talentstufen
 ====
 Ein Charakter hat das Talent Nahkampfwaffen und Ausweichen als
-Berufstalente (also SGM 1) sowie das Talent Wissen[Schmiedekunst] mit
-SGM 2. Mit dem Einsatz von je 1 freien Talentstufe kann der Charakter
-Nahkampfwaffen und Ausweichen jeweils auf Talentstufe 1 lernen. Mit dem
-Einsatz der verbleibenden 2 Talentstufen kann er nun auch dieses Talent
-mit Talentstufe 1 versehen.
+Berufstalente (also SGM 1) sowie das Talent Wissen[Schmiedekunst] mit SGM 2.
+Mit dem Einsatz von je 1 freien Talentstufe kann der Charakter Nahkampfwaffen und Ausweichen jeweils auf Talentstufe 1 lernen.
+Mit dem Einsatz der verbleibenden 2 Talentstufen kann er nun auch dieses Talent mit Talentstufe 1 versehen.
 ====
 
-Die Anzahl der Würfel pro Talent besteht nun aus der Summer der
-Talentstufen und der Attributsstufe im verwandten Attribut.
+Die Anzahl der Würfel pro Talent besteht nun aus der Summer der Talentstufen und der Attributsstufe im verwandten Attribut.
 
-== Attribute, Attributsstufen und Attributseigenschaften
+== Attribute
 
-In dem System von Far Ages werden sieben Attribute benutzt, die den
-Charakter beschreiben und das Fundament für ihn bilden. Es folgt eine
-kurze Beschreibung:
+In dem System von Far Ages werden sieben Attribute benutzt, die den Charakter beschreiben und das Fundament für ihn bilden. Es folgt eine kurze Beschreibung:
 
-**Geschick(GE): **Dieses Attribut gibt die Fingerfertigkeit, die
-Schnelligkeit und die Zielgenauigkeit des Charakters an. Charaktere mit
-hohem Geschick sind Artisten, agile Fechter und gute Diebe. Ein Krieger
-benötigt Geschick, um seine Gegner mit seiner Waffe zu treffen und
-umgekehrt den Attacken derselbigen auszuweichen.
+[[ref_attribute_dexterity]]
+=== Geschick
+Dieses Attribut gibt die Fingerfertigkeit, die Schnelligkeit und die Zielgenauigkeit des Charakters an.
+Charaktere mit hohem Geschick sind Artisten, agile Fechter und gute Diebe.
+Ein Krieger benötigt Geschick, um seine Gegner mit seiner Waffe zu treffen und umgekehrt den Attacken derselbigen auszuweichen.
 
-Von Geschick sind die Attributseigenschaften *Bewegung* und *Initiativebonus* abgeleitet.
+Von Geschick sind die Attributseigenschaften <<ref_secondary_movementbonus,Bewegung>> und <<ref_secondary_inibonus,Initiativebonus>> abgeleitet.
 
-*Stärke(ST):* Die körperliche Kraft eines Charakters misst sich in
-diesem Attribut. Ein Charakter mit hohen Werten kann schwere Lasten
-tragen und heben, verursacht mehr Schaden im Kampf und wird einfacher
-mit schweren Waffen umgehen können.
+[[ref_attribute_strength]]
+=== Stärke (ST)
+Die körperliche Kraft eines Charakters misst sich in diesem Attribut.
+Ein Charakter mit hohen Werten kann schwere Lasten tragen und heben, verursacht mehr Schaden im Kampf und wird einfacher mit schweren Waffen umgehen können.
 
-Die Attributseigenschaften *Schaden im Unbewaffneten Kampf*, *Maximale
-Traglast* und *Trefferpunkte* sind von diesem Attribut abhängig.
+Die Attributseigenschaften <<ref_secondary_unarmedbonus,Schaden im Unbewaffneten Kampf>>, <<ref_secondary_maxcarringcapacity,Maximale Traglast>> und <<ref_secondary_hitpoints,Trefferpunkte>> sind von diesem Attribut abhängig.
 
-*Konstitution(KO):* Dieses Attribut gibt an, wie robust der Körper des
-Charakters ist. Ausdauer und Widerstand sind weitere charakterisierende
-Begriffe. Ein Charakter mit hoher Konstitution ist gegen Krankheiten
-resistenter, kann über längere Zeit körperliche Anstrengungen
-unternehmen und regeneriert Wunden schneller.
+[[ref_attribute_constitution]]
+=== Konstitution (KO)
+Dieses Attribut gibt an, wie robust der Körper des Charakters ist.
+Ausdauer und Widerstand sind weitere charakterisierende Begriffe.
+Ein Charakter mit hoher Konstitution ist gegen Krankheiten resistenter, kann über längere Zeit körperliche Anstrengungen unternehmen und regeneriert Wunden schneller.
 
-Abhängige Attributseigenschaften sind *Trefferpunkte* und
-*Widerstand*.
+Abhängige Attributseigenschaften sind <<ref_secondary_hitpoints,Trefferpunkte>> und <<ref_secondary_threshold,Widerstand>>.
 
-*Erkenntnis(ER):* Dieses Attribut symbolisiert die Aufnahmefähigkeit
-des Charakters von äußeren Einflüssen und auch die Fähigkeit innere
-Schlussfolgerungen zu ziehen. So ist ein Charakter mit hohem Wert in
-diesem Attribut ein guter Beobachter, kann aber auch komplexe
-Gedankengänge durchführen. Die Zusammenführung dieser eigentlich zwei
-getrennter Eigenschaften basiert auf der Annahme, dass man nicht nur
-Beobachtung und Erfahrung benötigt, sondern auch die entsprechende
-Interpretation des Gesehenen.
+[[ref_attribute_perception]]
+=== Erkenntis (ER)
+Dieses Attribut symbolisiert die Aufnahmefähigkeit des Charakters von äußeren Einflüssen und auch die Fähigkeit innere Schlussfolgerungen zu ziehen.
+So ist ein Charakter mit hohem Wert in diesem Attribut ein guter Beobachter, kann aber auch komplexe Gedankengänge durchführen.
+Die Zusammenführung dieser eigentlich zwei getrennter Eigenschaften basiert auf der Annahme, dass man nicht nur Beobachtung und Erfahrung benötigt, sondern auch die entsprechende Interpretation des Gesehenen.
 
-Von diesem Attribut ist *Initiativebonus* abhängig.
+Von diesem Attribut ist <<ref_secondary_inibonus,Initiativebonus>> abhängig.
 
-*Energie(EN):* Die Kraft der Seele, die innere Macht und Magie eines
-Charakters ist in diesem Attribut enthalten. Auch wenn Magier dieses
-Attribut favorisieren, so ist es auch für Charaktere, die keine Magie
-anwenden, von Bedeutung. Denn indirekt wird jeder von der Magie
-beeinflusst und auch ein Nicht-Magier kann die Energie in seinem Inneren
-nutzen.
+[[ref_attribute_energy]]
+=== Energie (EN)
+Die Kraft der Seele, die innere Macht und Magie eines Charakters ist in diesem Attribut enthalten.
+Auch wenn Magier dieses Attribut favorisieren, so ist es auch für Charaktere, die keine Magie anwenden, von Bedeutung.
+Denn indirekt wird jeder von der Magie beeinflusst und auch ein Nicht-Magier kann die Energie in seinem Inneren nutzen.
 
-Von diesem Attribut sind *Magiepunkte* und *Maximale Magiepotenz*
-abhängig.
+Von diesem Attribut sind <<ref_secondary_magicpoints,Magiepunkte>> und <<ref_secondary_magicpoints,Maximale Magiepotenz>> abhängig.
 
-*Selbstbeherrschung(SB):* Selbstdisziplin, Konzentration und
-Eigenkontrolle charakterisieren dieses Attribut. Selbstbeherrschte
-Charaktere kommen mit Stresssituationen besser zurecht und können "über
-den eigenen Schatten" springen. Charaktere, die dem Jähzorn verfallen
-sind, können sich mit diesem Attribut beherrschen, vorausgesetzt, es ist
-hoch genug. Ebenso ist dieses Attribut ein Maßstab für die mentale
-Stabilität, auch Synonym für die *Stabilitätspunkte*.
+[[ref_attribute_selfcontrol]]
+=== Selbstbeherrschung (SB)
+Selbstdisziplin, Konzentration und Eigenkontrolle charakterisieren dieses Attribut.
+Selbstbeherrschte Charaktere kommen mit Stresssituationen besser zurecht und können "über den eigenen Schatten" springen.
+Charaktere, die dem Jähzorn verfallen sind, können sich mit diesem Attribut beherrschen, vorausgesetzt, es ist hoch genug.
+Ebenso ist dieses Attribut ein Maßstab für die mentale Stabilität, auch Synonym für die <<ref_secondary_stabilitypoints,Stabilitätspunkte>>.
 
-Denn das Multiversum von Far Ages bietet für das sterbliche Auge neben
-wahren Wundern auch unermessliche Schrecken. Die Attributseigenschaft
-*Stabilitätspunkte* zeigt an, wie gesund der Verstand des Charakters
-noch ist.
+[[ref_attribute_charisma]]
+=== Charisma (CH)
+Dieses Attribut beschreibt die Ausstrahlung des Charakters, nicht das Aussehen.
+Ein charismatischer Charakter muss nicht zwangsläufig schön sein.
+Das Attribut repräsentiert viel eher den Eindruck, den der Charakter hinterlässt.
+Charismatische Charaktere sind überzeugende Redner, denen die Leute zu hören und die es oft auch leichter haben, auf Fremde zuzugehen.
 
-*Charisma(CH):* Dieses Attribut beschreibt die Ausstrahlung des
-Charakters, nicht das Aussehen. Ein charismatischer Charakter muss nicht
-zwangsläufig schön sein. Das Attribut repräsentiert viel eher den
-Eindruck, den der Charakter hinterlässt. Charismatische Charaktere sind
-überzeugende Redner, denen die Leute zu hören und die es oft auch
-leichter haben, auf Fremde zuzugehen.
-
-Von diesem Attribut ist die Zahl der *Stabilitätspunkte* abhängig.
+Von diesem Attribut ist die Zahl der <<ref_secondary_stabilitypoints,Stabilitätspunkte>> abhängig.
 
 === Bestimmung der Attributseigenschaften
 
-Im Folgenden werden nun die Attributseigenschaften beschrieben und ihnen
-entsprechende Werte zugeordnet. Die Attributseigenschaften ergeben sich
-direkt aus den Attributsstufen.
+Im Folgenden werden nun die Attributseigenschaften beschrieben und ihnen entsprechende Werte zugeordnet.
+Die Attributseigenschaften ergeben sich direkt aus den Attributsstufen.
 
 [[ref_secondary_movementbonus]]
 *Bewegungsbonus(BEW-Bonus)(Geschick):* Jede Kreatur kann sich in über einen begrenzte Zeitraum hinweg eine vorgebende Entfernung weit bewegen.
@@ -435,19 +384,16 @@ Daher hat er nur (1+1)*5 = 10 SP.
 
 == Ausarbeitung des Charakters
 
-Dieses Kapitel beschreibt weitere Aspekte der Charaktererschaffung, die
-mit Attributen und Talenten noch nicht abdeckt sind.
+Dieses Kapitel beschreibt weitere Aspekte der Charaktererschaffung, die mit Attributen und Talenten noch nicht abdeckt sind.
 
 [[ref_characters_sizecategories]]
 === Größenkategorien
 
-Jede Rasse bringt eine Größenkategorie mit sich. Diese ist eine relativ
-abstrakte Zahl, um es diesen Aspekt übersichtlich zu halten. Eine
-Kreatur mit einer Größenkategorie von 5 ist kleiner als eine Kreatur der
-Größenkategorie 6. Die Größenkategorie ist für einige Mechanismen im
-Kampf entscheidet und welche Ausrüstung der Charakter tragen kann. Die
-folgende Tabelle gibt Aufschluss über die Größenkategorie und damit
-zusammenhängende Spielwerte.
+Jede Rasse bringt eine Größenkategorie mit sich.
+Diese ist eine relativ abstrakte Zahl, um es diesen Aspekt übersichtlich zu halten.
+Eine Kreatur mit einer Größenkategorie von 5 ist kleiner als eine Kreatur der Größenkategorie 6. D
+ie Größenkategorie ist für einige Mechanismen im Kampf entscheident und welche Ausrüstung der Charakter tragen kann.
+Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusammenhängende Spielwerte.
 
 .Größenkategorien
 [cols=",,,,", options="header"]
@@ -467,71 +413,42 @@ zusammenhängende Spielwerte.
 
 *Benötigt pro Feld zwei Bewegungsmanöver
 
-*Basisbewegung:* dieser Wert beschreibt eine Distanz, die eine Kreatur
-der jeweiligen Größe innerhalb einer Kampfphase zurücklegen kann. Dieser
-Wert kann jedoch noch durch zusätzliche Modifikatoren beeinflusst
-werden. Die Basisbewegung bezieht sich nur auf die Bewegung am Boden,
-unterschiedliche Fortbewegungsmethoden (z.B. Flug) werden separat
-behandelt.
+*Basisbewegung:* dieser Wert beschreibt eine Distanz, die eine Kreatur der jeweiligen Größe innerhalb einer Kampfphase zurücklegen kann.
+Dieser Wert kann jedoch noch durch zusätzliche Modifikatoren beeinflusst werden.
+Die Basisbewegung bezieht sich nur auf die Bewegung am Boden, unterschiedliche Fortbewegungsmethoden (z.B. Flug) werden separat behandelt.
 
-*Primärhand / Sekundärhand:* Waffen (bzw. allgemein Gegenstände) werden
-ebenso abstrakt in Größen eingeteilt. Dies simuliert, dass Kreaturen in
-Abhängigkeit von ihrer eigenen Größe auch nur Gegenstände bestimmter
-Größe effektiv benutzen können.
+*Primärhand / Sekundärhand:* Waffen (bzw. allgemein Gegenstände) werden ebenso abstrakt in Größen eingeteilt.
+Dies simuliert, dass Kreaturen in Abhängigkeit von ihrer eigenen Größe auch nur Gegenstände bestimmter Größe effektiv benutzen können.
 
-*Am Körper getragene Rüstung:* Wie auch Waffen sind Rüstungen mit
-Größenwerten versehen.
+*Am Körper getragene Rüstung:* Wie auch Waffen sind Rüstungen mit Größenwerten versehen.
 
 === Kaufen von Nachteilen
 
-Nachteile können genutzt werden, um weitere CP zur Charaktererschaffung
-zu erhalten. Sie können allerdings ausschließlich für diese verwendet
-werden und werden nie mit Aktuellen Charakterpunkten oder
-Gesamtcharakterpunkten verrechnet.
+Nachteile können genutzt werden, um weitere CP zur Charaktererschaffung zu erhalten.
+Sie können allerdings ausschließlich für diese verwendet werden und werden nie mit aktuellen Charakterpunkten oder Gesamtcharakterpunkten verrechnet.
 
-Nachteile können eine schlechte Charaktereigenschaft sein (Gier) oder
-eine äußerst unangenehme Begleiterscheinung seines Abenteuerlebens, z.B.
-ein schuldiger Gefallen.
-
-Die Kosten für einen Nachteil sind zusätzliche CP, angezeigt durch ein
-voranstehendes Pluszeichen (+).
+Nachteile können eine schlechte Charaktereigenschaft sein (Gier) oder eine äußerst unangenehme Begleiterscheinung seinesAbenteuerlebens, z.B. ein schuldiger Gefallen.
 
 === Kaufen von Vorteilen
 
-Der Kauf von Vorteilen funktioniert genauso wie der Kauf von Nachteilen,
-nur mit dem Unterschied, dass die Kosten durch die initialen CP zu
-begleichen sind.
-
-Eine Liste von generischen Vor- bzw. Nachteilen findet sich in
-Zusammenschluss mit diesem Dokument. Jede Kampagne kann eigene Listen
-mit sich bringen, die weitere Vor- und Nachteile bieten.
+Der Kauf von Vorteilen funktioniert genauso wie der Kauf von Nachteilen, nur mit dem Unterschied, dass die Kosten durch die initialen CP zu begleichen sind.
 
 === Kombination von Vor- und Nachteilen
 
-Je nach Wahl von Rasse, Beruf und Hintergrund kann es vorkommen, dass
-Vor- oder Nachteile doppelt vorkommen oder sich gegenseitig
-ausschließen.
+Je nach Wahl von Volk, Beruf und Hintergrund kann es vorkommen, dass Vor- oder Nachteile doppelt vorkommen oder sich gegenseitig ausschließen.
 
-* Additive Vor- oder Nachteile werden kumulativ kombiniert. Additive
-Vor- und Nachteile erkennt man daran, dass sie in unterschiedlichen
-Leveln (üblicherweise in Zahlen von 1 bis 3 oder mehr gemessen)
-vorkommen. Erhält der Charakter aus zwei Quellen denselben Vor- oder
-Nachteil, der in Leveln gemessen wird, addieren sich die beiden Level.
-* Gleiche Vor- oder Nachteile, die keinen Level haben, werden nur einmal
-aufgeschrieben. Der Charakter profitiert bzw. leidet nur einmal unter
-diesem Vor- bzw. Nachteil.
-* Wenn ein Vorteil und ein Nachteil jeweils dasselbe Attribut, Talent,
-eine Probe (z.B. Boni und Mali auf eine Standardprobe) oder eine andere
-Eigenschaft (wie z.B. eine Schadensresistenz) beeinflussen, werden alle
-Boni und Mali zu einem einzigen Modifikator zusammengefasst.
+* Additive Vor- oder Nachteile werden kumulativ kombiniert.
+Additive Vor- und Nachteile erkennt man daran, dass sie in unterschiedlichen Leveln (üblicherweise in Zahlen von 1 bis 3 oder mehr gemessen) vorkommen.
+Erhält der Charakter aus zwei Quellen denselben Vor- oder Nachteil, der in Leveln gemessen wird, addieren sich die beiden Level.
+* Gleiche Vor- oder Nachteile, die keinen Level haben, werden nur einmal aufgeschrieben.
+Der Charakter profitiert bzw. leidet nur einmal unter diesem Vor- bzw. Nachteil.
+* Wenn ein Vorteil und ein Nachteil jeweils dasselbe Attribut, Talent, eine Probe (z.B. Boni und Mali auf eine Standardprobe) oder eine andere Eigenschaft (wie z.B. eine Schadensresistenz) beeinflussen, werden alle Boni und Mali zu einem einzigen Modifikator zusammengefasst.
 Hebt sich der Modifikator auf, d.h. +/-0, werden Vor- und Nachteile nicht aufgeschrieben.
 
 .Kombination von Vor- und Nachteilen
 ====
-Ein Charakter erhält aufgrund seiner Rasse von Vorteil
-Schadensresistenz[Feuer] auf Level 1 und aufgrund seines Berufes
-Schadenresistenz[Feuer] auf Level 1. Insgesamt macht dies eine
-Schadenresistenz[Feuer] auf Level 2.
+Ein Charakter erhält aufgrund seiner Rasse von Vorteil Schadensresistenz[Feuer] auf Level 1 und aufgrund seines Berufes Schadenresistenz[Feuer] auf Level 1.
+Insgesamt macht dies eine Schadenresistenz[Feuer] auf Level 2.
 ====
 
 .Kombination von Vor- und Nachteilen
@@ -543,41 +460,27 @@ In diesem Fall werden beide Eigenschaft nicht aufgeschrieben.
 
 == Charakterentwicklung
 
-Im Laufe eines Lebens geschieht vieles und jeder wird wissen, dass auch
-ein starker Lernprozess das Leben eines jeden Einzelnen prägt, wobei die
-natürlich bei einigen mehr, bei anderen weniger zutreffend ist.
+Im Laufe eines Lebens geschieht vieles und jeder wird wissen, dass auch ein starker Lernprozess das Leben eines jeden Einzelnen prägt, wobei die natürlich bei einigen mehr, bei anderen weniger zutreffend ist.
 
-Jedoch trifft es auf jeden Fall auch auf die Charaktere zu. Auch sie
-lernen aufgrund ihrer Abenteuer, bzw. aufgrund der vom SL präsentieren
-Aufgaben und können das Gelernte einsetzen, um ihre eigenen Fertigkeiten
-zu verbessern.
-
-Natürlich ist ein Lernprozess sehr individuell und lässt sich im
-Allgemeinen nicht kategorisieren, jedoch braucht ein Rollenspiel wie Far
-Ages ein möglichst einfaches und einheitliches System, um die
-Entwicklung der Charaktere darzustellen.
+Jedoch trifft es auf jeden Fall auch auf die Charaktere zu.
+Auch sie lernen aufgrund ihrer Abenteuer, bzw. aufgrund der vom SL präsentieren Aufgaben und können das Gelernte einsetzen, um ihre eigenen Fertigkeiten zu verbessern.
 
 [[ref_characters_cp_attributsprimary]]
 === Attribute steigern
 
-Das Steigern von Attributen repräsentiert eine Verbesserung des
-Charakters auf körperlicher oder geistiger Ebene. Um genau zu sein, so
-steigert der Charakter seine Attributsstufen Dadurch erhält er auch die
-entsprechenden, verbesserten Attributseigenschaften.
+Das Steigern von Attributen repräsentiert eine Verbesserung des Charakters auf körperlicher oder geistiger Ebene.
 
 Steigerungen von Attributsstufen können nur schrittweise erfolgen.
-D.h. möchte man eine Attributsstufe mehr als einmal auf einen Schlag
-steigern, so muss man jede Steigerung einzeln mit CP bezahlen.
+D.h. möchte man eine Attributsstufe mehr als einmal auf einen Schlag steigern, so muss man jede Steigerung einzeln mit CP bezahlen.
 
-Jede Steigerung eines Attributs um eine Stufe kostet die aktuelle Stufe
-multipliziert mit *100 CP*.
+Jede Steigerung eines Attributs um eine Stufe kostet die aktuelle Stufe multipliziert mit *100 CP*.
 
 .Steigern von Attributsstufen
 ====
 Michael möchte im laufenden Spiel Rnagos Geschick von Stufe 2
-auf Stufe 3 steigern. Dies kostet Michael 2*100 = 200 CP. Durch die
-Steigerung ändern sich sofort abhängige Attributseigenschaften und die
-Würfelanzahlen für Talente mit dem verwandten Attribut GE.
+auf Stufe 3 steigern.
+Dies kostet Michael 2*100 = 200 CP.
+Durch die Steigerung ändern sich sofort abhängige Attributseigenschaften und die Würfelanzahlen für Talente mit dem verwandten Attribut GE.
 ====
 
 [[ref_characters_cp_attributssecondary]]
@@ -591,75 +494,57 @@ Wenn Vor- oder Nachteile Attributseigenschaften beeinflussen, dann greifen diese
 [[ref_characters_cp_tp_and_mp]]
 === Trefferpunkte und Magiepunkte steigern
 
-Steigert ein Charakter seine Attribute nach den oben gegebenen
-Richtlinien, so erhöhen sich natürlich auch die Attributseigenschaften
-zu dem jeweiligen Attribut.
+Steigert ein Charakter seine Attribute nach den oben gegebenen Richtlinien, so erhöhen sich natürlich auch die Attributseigenschaften zu dem jeweiligen Attribut.
 
-Die meisten Attributseigenschaften sind nur auf diese Weise steigerbar,
-jedoch kann ein Charakter auch TP und MP abhängig von seinem Beruf
-steigern, ohne dafür seinen KO- bzw. EN-Wert zu erhöhen. Die Werte sind
-unter dem Eintrag *TP/MP-Steigerung* angegeben.
+Die meisten Attributseigenschaften sind nur auf diese Weise steigerbar, jedoch kann ein Charakter auch TP und MP abhängig von seinem Beruf steigern, ohne dafür seinen KO- bzw. EN-Wert zu erhöhen.
+Die Werte sind unter dem Eintrag *TP/MP-Steigerung* angegeben.
 
-Der kann der Charakter entsprechend seines Berufs seine TP und MP
-steigern (SP können auf diese Weise i.A. nicht gesteigert werden). Er
-addiert die gegebene Zahl von TP und MP zu seinem aktuellen Wert hinzu
-und kann diese Punkte normal nutzen.
+Der kann der Charakter entsprechend seines Berufs seine TP und MP steigern (SP können auf diese Weise i.A. nicht gesteigert werden).
+Er addiert die gegebene Zahl von TP und MP zu seinem aktuellen Wert hinzu und kann diese Punkte normal nutzen.
 
-Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der
-vorhergegangenen TP/MP-Steigerungen.
+Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der vorhergegangenen TP/MP-Steigerungen.
 
 .TP und MP steigern
 ====
-Michaels Charakter besaß zu Beginn aufgrund seiner
-Attributsstufen 30 TP und 10 MP. Der gewählte Beruf bietet eine
-TP/MP-Steigerung +7/+5. Michaels gibt für die erste Steigerung 100 CP
-aus und schon erhöhen sich die TP auf 45 und die MP auf 15. Die zweite
-Steigerung kostet bereits 2*100 = 200 CP und erhöht auf 52 TP und 20 MP.
-Eine dritte Steigerung kostet 3*100 = 300 CP und erhöht auf 59 TP und 25
-MP.
+Michaels Charakter besaß zu Beginn aufgrund seiner Attributsstufen 30 TP und 10 MP.
+Der gewählte Beruf bietet eine TP/MP-Steigerung +7/+5.
+Michael gibt für die erste Steigerung 100 CP aus und schon erhöhen sich die TP auf 45 und die MP auf 15.
+Die zweiteSteigerung kostet bereits 2*100 = 200 CP und erhöht auf 52 TP und 20 MP.
+Eine dritte Steigerung kostet 3*100 = 300 CP und erhöht auf 59 TP und 25 MP.
 ====
 
 [[ref_characters_cp_talents]]
 === Talente steigern
 
 Das Steigern von Talenten erfolgt schrittweise durch Erhöhen der
-Talentstufen. Jede Stufe steht für einen weiteren W10, der zu den Würfen
-zum Erfolg hinzugenommen wird.
+Talentstufen.
+Jede Stufe steht für einen weiteren W10, der zu den Würfen zum Erfolg hinzugenommen wird.
 
-Jede neue Stufe kostet die vorherige Stufe multipliziert mit *100 CP*
-multipliziert mit dem SGM. Jede Stufe muss einzeln bezahlt werden. Ein
-Charakter kann also ein Talent nicht von 3 direkt auf Stufe 5 steigern,
-sondern muss zuerst Stufe 4 bezahlen und dann Stufe 5.
+Jede neue Stufe kostet die vorherige Stufe multipliziert mit *100 CP* multipliziert mit dem SGM.
+Jede Stufe muss einzeln bezahlt werden.
+Ein Charakter kann also ein Talent nicht von 3 direkt auf Stufe 5 steigern, sondern muss zuerst Stufe 4 bezahlen und dann Stufe 5.
 
 .Talente steigern
 ====
-Ein Talent mit SGM 1 von Talentstufe 4 auf 5 zu steigern
-kostet, 5*100*1 = 500 CP. Ein Talent mit SGM 2 von Talentstufe 3 auf 5
-zu steigern, kostet 4*100*2 + 5*100*2 = 1400 CP.
+Ein Talent mit SGM 1 von Talentstufe 4 auf 5 zu steigern kostet, 5*100*1 = 500 CP.
+Ein Talent mit SGM 2 von Talentstufe 3 auf 5 zu steigern, kostet 4*100*2 + 5*100*2 = 1400 CP.
 ====
 
 [[ref_characters_cp_newtalents]]
 ==== Neue Talente lernen
 
-Um ein neues Talent (also ein Talent, in dem man zuvor die Talentstufe 0
-hatte) zu lernen, ist jedoch etwas mehr Einsatz erforderlich, bzw. mehr
-CP. Wenn der Charakter ein Talent neu lernt, erhält er es auf Stufe 1.
-Um dies zu erhalten, sind jedoch immer 200 CP multipliziert mit dem SGM
-nötig.
+Um ein neues Talent (also ein Talent, in dem man zuvor die Talentstufe 0 hatte) zu lernen, ist jedoch etwas mehr Einsatz erforderlich, bzw. mehr CP.
+Wenn der Charakter ein Talent neu lernt, erhält er es auf Stufe 1.
+Um dies zu erhalten, sind jedoch immer 200 CP multipliziert mit dem SGM nötig.
 
-Der SGM eines neues Talents, sofern nicht bekannt, ergibt nach folgenden
-Maßgaben:
+Der SGM des neues Talents, sofern nicht bekannt, ergibt nach folgenden Maßgaben:
 
-* Das Talent befindet sich in der Berufsbeschreibung in der Liste der
-Talente SGM 1 oder SGM 2.
-* Das Talent enthält als Voraussetzung den Beruf des Charakters in
-seiner Beschreibung. In diesem Fall lernt der Charakter das Talent immer
-mit SGM 1.
-* Das Talent enthält eine Liste von Talenten bzw. Talentstufen, die der
-Charakter erfüllen muss. Der Charakter lernt das Talent zu dem
-niedrigsten SGM aus dieser Liste.
-* Trifft keiner dieser Punkte zu, lernt der Charakter dieses Talent mit
-SGM 3.
+* Das Talent befindet sich in der Berufsbeschreibung in der Liste der Talente SGM 1 oder SGM 2.
+* Das Talent enthält als Voraussetzung den Beruf des Charakters in seiner Beschreibung.
+In diesem Fall lernt der Charakter das Talent immer mit SGM 1.
+* Das Talent enthält eine Liste von Talenten bzw. Talentstufen, die der Charakter erfüllen muss.
+Der Charakter lernt das Talent zu dem niedrigsten SGM aus dieser Liste.
+* Trifft keiner dieser Punkte zu, lernt der Charakter dieses Talent mit SGM 3.
 
 [[ref_characters_cp_skills]]
 === Besondere Fähigkeiten
@@ -678,17 +563,13 @@ Eine detaillierte Beschreibung mit allen nötigen Angaben findetsich im Dokument
 [[ref_characters_cp_spells]]
 === Erlernen von Zaubersprüchen
 
-Viele Berufe bringen das Wissen um Zaubersprüche mit. Die Zaubersprüche
-werden zwar durch das Talent "Spruchzauberei" benutzt, müssen aber
-zusätzlich gelernt, also mit CP bezahlt werden. Da Zaubersprüche keine
-Stufen in dem Sinne wie Talente haben, sind ihre Kosten einmalig.
+Viele Berufe bringen das Wissen um Zaubersprüche mit.
+Die Zaubersprüche werden zwar durch das Talent "Spruchzauberei" benutzt, müssen aber zusätzlich gelernt, also mit CP bezahlt werden.
+Da Zaubersprüche keine Stufen in dem Sinne wie Talente haben, sind ihre Kosten einmalig.
 
-Die CP-Kosten richten sich nach der Magiepotenz (abgekürzt POT) des
-Zauberspruches.
+Die CP-Kosten richten sich nach der Magiepotenz (abgekürzt POT) des Zauberspruches.
 
-Wie im Dokument Magie erklärt, lässt sich die POT des Zauberspruches
-erhöhen, doch dies zählt hierbei nicht, denn jeder Zauber hat eine
-Basis-POT und diese ist zum Erlernen des Zauberspruches relevant.
+Wie im Dokument Magie erklärt, lässt sich die POT des Zauberspruches erhöhen, doch dies zählt hierbei nicht, denn jeder Zauber hat eine Basis-POT und diese ist zum Erlernen des Zauberspruches relevant.
 
 Ein Charakter kann keinen Zauberspruch lernen, dessen POT höher ist als die eigene Maximale Magiepotenz (MaxPOT).
 
@@ -696,86 +577,59 @@ Alle anderen Zaubersprüche kosten *POT*100* CP.
 
 == Vergabe von Charakterpunkten
 
-Die Vergabe von CP obliegt der Verantwortung des SL und sollte wenig
-reguliert sein, denn jeder SL sollte selbst entscheiden können, wie groß
-die Gefahren in seinem Abenteuer für seine Gruppe sind.
+Die Vergabe von CP obliegt der Verantwortung des SL und sollte wenig reguliert sein, denn jeder SL sollte selbst entscheiden können, wie groß die Gefahren in seinem Abenteuer für seine Gruppe sind.
 
-Aber einige gute "PI mal Daumen"-Regeln wollen wir an dieser Stelle als
-Orientierung angeben.
+Aber einige gute "PI mal Daumen"-Regeln wollen wir an dieser Stelle als Orientierung angeben.
 
 === Wieviel und wie oft?
 
-Bewährt hat sich die Vergabe von CP am Ende einer Spielsitzung oder am
-Ende eines Abenteuers, wenn alle Gefahren überstanden sind, bzw. eine
-Pause eingelegt wird.
+Bewährt hat sich die Vergabe von CP am Ende einer Spielsitzung oder am Ende eines Abenteuers, wenn alle Gefahren überstanden sind, bzw. eine Pause eingelegt wird.
 
-Dabei ist die Menge von der Quantität und der Qualität der Gefahren
-(jeglicher Natur) zu bestimmen.
+Dabei ist die Menge von der Quantität und der Qualität der Gefahren (jeglicher Natur) zu bestimmen.
 
-Dabei kann sich der SL am leichtesten an den Gesamt-CP der Charaktere
-orientieren. Es zählt hierbei der Durchschnitt der Gruppe. Die Werte der
-Belohnungen sind absolut und werden pro Charakter verteilt.
+Dabei kann sich der SL am leichtesten an den Gesamt-CP der Charaktere orientieren.
+Es zählt hierbei der Durchschnitt der Gruppe.
+Die Werte der Belohnungen sind absolut und werden pro Charakter verteilt.
 
 === Gefahren durch Monster und Gegner
 
-Jede Kreatur, die man im Bestiarium findet, besitzt ebenfalls einen
-Gesamt-CP-Wert. Dieser Wert steht für die Gefährlichkeit des Monsters
-und orientiert sich an dessen Talentstufen, Attributsstufen und
-Fähigkeiten. Mit den Richtlinien in dem Kapitel kann der SL auch für
-individuell erstellte Gegner deren einen Gesamt-CP-Wert berechnen.
+Jede Kreatur, die man im Bestiarium findet, besitzt ebenfalls einen Gesamt-CP-Wert.
+Dieser Wert steht für die Gefährlichkeit des Monsters und orientiert sich an dessen Talentstufen, Attributsstufen und
+Fähigkeiten.
+Mit den Richtlinien in dem Kapitel kann der SL auch für individuell erstellte Gegner deren einen Gesamt-CP-Wert berechnen.
 
-Wird der Gegner besiegt, erhalten sie den CP für diese Tat. Besiegen ist
-diesem Fall ein mehrdeutiger Begriff, denn es geht hierbei nicht nur um
-das schlichte Töten, sondern um den Umgang mit der Gefahr. Charaktere
-können sich auch entscheiden, dass sie einen potenziellen Gegner nicht
-attackieren, sondern versuchen, ihm durch Heimlichkeit zu entkommen.
+Wird der Gegner besiegt, erhalten sie den CP für diese Tat. Besiegen ist diesem Fall ein mehrdeutiger Begriff, denn es geht hierbei nicht nur um das schlichte Töten, sondern um den Umgang mit der Gefahr.
+Charaktere können sich auch entscheiden, dass sie einen potenziellen Gegner nicht attackieren, sondern versuchen, ihm durch Heimlichkeit zu entkommen.
 Oder die entgehen einer Situation durch Diplomatie.
 
-In beiden Fällen kann der SL den CP -Wert hinzuaddieren, bzw. nur die
-Hälfte, ein Drittel usw. nach Einschätzung der Situation.
+In beiden Fällen kann der SL den CP-Wert hinzuaddieren, bzw. nur die Hälfte, ein Drittel usw. nach Einschätzung der Situation.
 
-So kann ein gewagtes, diplomatisches Manöver, welches dazu führte, dass
-der Barbarenstamm aus Kchurn davon absah, ein kleines Dorf zu plündern,
-als vollwertig zu einem erfolgreichen Kampf gesehen werden.
+So kann ein gewagtes, diplomatisches Manöver, welches dazu führte, dass der Barbarenstamm aus Kchurn davon absah, ein kleines Dorf zu plündern, als vollwertig zu einem erfolgreichen Kampf gesehen werden.
 
-Ebenso das kreative Umgehen von Wachen: Suchen nach anderen
-Möglichkeiten und Wegen, um an ihnen vorbei zu kommen, Schleichen,
-Ablenkungsmanöver oder ähnliches kann als vollwertig betrachtet werden.
+Ebenso das kreative Umgehen von Wachen: Suchen nach anderen Möglichkeiten und Wegen, um an ihnen vorbei zu kommen, Schleichen, Ablenkungsmanöver oder ähnliches kann als vollwertig betrachtet werden.
 
-Kreaturen, deren Gesamt-CP-Wert um 50% geringer ist als der der
-Charaktere, bringen gar keinen Bonus, denn sie sind einfach zu schwach,
-um den Charakteren Erfahrung zu bieten.
+Kreaturen, deren Gesamt-CP-Wert um 50% geringer ist als der der Charaktere, bringen gar keinen Bonus, denn sie sind einfach zu schwach, um den Charakteren Erfahrung zu bieten.
 
 === Schätze und Entdeckungen
 
-Das Auffinden alter Schätze, Artefakten, Wissen und geheimen Orten ist
-sicherlich auch eine Tat, die Abenteurer weiterbringt. Zumal diese
-Entdeckungen auch nicht einfach sein sollten. Man kann beispielweise
-einen festen Prozentsatz (zum Beispiel 10%) des Wertes des Gegenstandes
-als CP-Belohnungen werten. Grundsätzlich sollten jedoch CP-Belohnungen
-für einen einzelnen Gegenstand niemals höher sein als die Hälfte der
-gesamten CP-Belohnung für das Abenteuer.
+Das Auffinden alter Schätze, Artefakten, Wissen und geheimen Orten ist sicherlich auch eine Tat, die Abenteurer weiterbringt.
+Zumal diese Entdeckungen auch nicht einfach sein sollten. Man kann beispielweise einen festen Prozentsatz (zum Beispiel 10%) des Wertes des Gegenstandes als CP-Belohnungen werten.
+Grundsätzlich sollten jedoch CP-Belohnungen für einen einzelnen Gegenstand niemals höher sein als die Hälfte der gesamten CP-Belohnung für das Abenteuer.
 
 === Zwischenetappen
 
 Es ist sicherlich einfacher, wenn man als SL ein Abenteuer in
-Einzelschritte unterteilt und diesen CP-Belohnungen zu ordnet. Diese
-"Etappensiege" können dann auch als Fortschritt des Charaktere im
-Abenteuer gewertet werden.
+Einzelschritte unterteilt und diesen CP-Belohnungen zu ordnet.
+Diese "Etappensiege" können dann auch als Fortschritt des Charaktere im Abenteuer gewertet werden.
 
 .Eine mögliche Zusammenstellung von Zwischenetappen
 ====
-- Die Charaktere haben erfolgreich die kryptischen Anweisungen einer
-uralten Schriftrolle entziffert und haben nun ein Portal mit den
-entsprechenden Zielkoordinaten einstellen können: 50 CP pro Charakter
+- Die Charaktere haben erfolgreich die kryptischen Anweisungen einer uralten Schriftrolle entziffert und haben nun ein Portal mit den entsprechenden Zielkoordinaten einstellen können: 50 CP pro Charakter
 
-- Die Charakter haben daraufhin eine abstruse, künstliche Dimension
-betreten, in der sie weiterhin Anweisungen der Schriftrolle folgen, die
-sie zu einem mysteriösen Schloss führen: insgesamt 100 CP.
+- Die Charakter haben daraufhin eine abstruse, künstliche Dimension betreten, in der sie weiterhin Anweisungen der Schriftrolle folgen, die sie zu einem mysteriösen Schloss führen: insgesamt 100 CP.
 
 - Die Charaktere haben das Schloss betreten und stellen den bösen
-Hausherrn, einen Halb-Dämonen, der mit der Schriftrolle allzu neugierige
-Schatzsucher in diese Dimension lockt, um sie zu verspeisen: insgesamt
+Hausherrn, einen Halb-Dämonen, der mit der Schriftrolle allzu neugierige Schatzsucher in diese Dimension lockt, um sie zu verspeisen: insgesamt
 500 CP
 
 - Die Charaktere entkommen dem Todesfluch des Halb-Dämon, der die
@@ -784,10 +638,7 @@ künstliche Dimension einstürzen lässt: 25 CP pro Charakter.
 
 === Gutes Rollenspiel
 
-Die Quintessenz des Rollenspiel sollte ja das Rollenspiel selber sein,
-also die Verkörperung der gewählten Charaktere. Der SL kann gerne die
-Bemühungen seiner Spieler honorieren, die gemäß ihrer Rollen agieren,
-mit all ihren Vorzüge und Fehlern.
+Die Quintessenz des Rollenspiel sollte ja das Rollenspiel selber sein, also die Verkörperung der gewählten Charaktere. Der SL kann gerne die Bemühungen seiner Spieler honorieren, die gemäß ihrer Rollen agieren, mit all ihren Vorzüge und Fehlern.
 
 == Erweitere Regeln
 

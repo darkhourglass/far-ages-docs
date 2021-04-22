@@ -4,12 +4,77 @@
 *Talentliste (SGM 1):* Aether Wahrnehmung, Handwerk [Arzt], Spruchzauberei [Schamanismus], Verbrennen Widerstehen, Willenskraft, Wissen [Pflanzen] +
 *Talentliste (SGM 2):* Hieb Ausweichen, Konversation, Verborgenes Erkennen, Wurfwaffen, Wissen [Alchemie], Wissen [Überleben] +
 *Attributsbonus:* +1 EN +
-*Vorteile*: - +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* +
 *TP/MP-Steigerung:* +5/+7 +
 *Voraussetzungen:* EN 2 +
 *Startausrüstung:* Robe, Fetisch, Wurfaxt, Wanderstab, Arztkoffer +
-*Startgeld:* 2W6 +
-*CP:* 25 +
-*Spezielle Berufstalente:*
+*CP:* 40 +
+
+== Eigenschaften
+
+=== Schutzgeist
+
+Schamanen gehen eine enge spirituelle Bindung mit der Welt um sich ein.
+Diese Bindung symbolisiert sich in der Manifestierung eines Schutzgeistes, der den Schamamen dauerhaft begleitet. +
+Im Normalfall ist der Geist unsichtbar und existiert nur im Aether.
+Er besitzt keinen Körper und kann damit keinen Einfluss auf die physische Welt nehmen.
+Jedoch gewährt seine Anwesenheit dem Schamenen besondere Fähigkeiten. +
+Für Schutzgeister gelten folgenden Regeln:
+
+* Zu Beginn der Charaktererschaffung muss der Schamane einen Schutzgeist aus unten stehender Liste auswählen. Die Entscheidung ist final.
+* Solange der Geist im Umkreis von 15 Metern um den Schamanen sich befindet, kann der Schamane die Fähigkeiten des Geistes nutzen.
+* Befindet sich der Geist außerhalb des Umkreises, kann der Schamane eine xref:../core_rules_battlesystem.adoc#ref_battle_action[Aktion] aufwänden, um den Geist herbeizurufen.
+//TODO ref körperlos
+* Der Geist ist körperlos und kann durch physische Attacken nicht verwundet werden. Ausschließlich Angriffe oder Zauber, die auf körperlose Wesen zielen, können Ihn betreffen. Verliert der Geist durch einen solchen Angriff mindestens 1 TP, ist der Geist für 24 Stunden gebannt. Nach Ablauf dieser Zeit kann er Schamane ihn wieder beschören.
+* Der Geist besitzt keine Sprache, aber er und der Schamane können telepathisch miteinander kommunizieren. Im Normalfall folgt der Geist den Worten des Schamanen.
+* Wenn der Schamane sich konzentriert, kann er durch die Augen des Geistes sehen. Während er dies tut, kann er keine eigenen Aktionen durchführen und gilt als xref:../core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig].
+
+==== Elementare Geister
+
+Elementare Geister sind Schutzgeister, die aus den Sphären der Elemente stammen.
+Sie gehören jeweils einem Element an und gewähren jeweils andere Fähigkeiten:
+
+* Erde: +2 xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_acid[Säure]
+* Feuer: +3 xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer]
+* Wasser: +1 xref:../core_rules_charactercreation.adoc#ref_secondary_maxmagicpotential[MaxPOT], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_frost[Frost]
+* Luft: +3,00 xref:../core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_shock[Schock]
+
+Jeder elementare Geist lehrt den Schamanen außerdem einen xref:../core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkanen Trick] aus einer der folgenden Listen abhängig vom Element des Geistes:
+
+* Erde: xref:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde]
+* Feuer: xref:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers]
+* Wasser: xref:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc.adoc[Weg des Wassers]
+* Luft: xref:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft]
+
+Der Schamane kann diesen Zauberspruch mit xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei [Schamanismus]] aussprechen.
+Sollte er später xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei [Elementarismus]] lernen, kann er zwischen den Talenten entscheiden, welches er zum Würfeln der Spruchzauberei-Probe verwenden möchte.
+
+Ein elementarer Schutzgeist manifestiert sich üblicherweise immer in Gestalt seines Elements, z.B. als Flamme oder Welle.
+Dabei nimmt er unterschiedliche Gestalten an, die von verschiedenen Tieren bis abstrakten, geometrischen Formen reichen.
+
+==== Feengeist
+
+Feengeister stammen aus dem xref:../core_rules_magic_base.adoc#ref_magic_lore_empyreum[Empyreum], dem Rand des Aethers, der Ursprung der xref:../core_rules_magic_base.adoc#ref_magic_types_wild_magic[Wilden Magie] ist.
+Neben schrecklichen Wesen wie Dämonen ist das Empyreum auch Heimat der Feen, der Kinder xref:../../../lore/progenitors/lore_progenitors_alberon.adoc[Alberons]. Feengeister manifestieren sich in verschiedenen verwandten Wesen, wie zum Beispiel Irrlichtern oder Nymphen. +
+Feengeister bieten dam Schamanen folgende Fähigkeiten:
+
+* Der Schamane erhält einen Bonus von 10 MP auf seinen xref:../core_rules_charactercreation.adoc#ref_secondary_magicpoints[Magiepunkte]-Pool
+* Der Schamane erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_reflex[Reflex]-Proben.
+* 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_magic[Magie]
+
+==== Tiergeister
+
+Tiergeister symbolisieren die Verbundenheit des Schamanen mit der natürlichen Welt.
+Jeder Tiergeist manifestiert sich als geisterhafte Erscheinung des jeweiligen Tieres und bietet dem Schamanen folgende Fähigkeiten:
+
+* Wildschwein: xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] aus SGM 1, xref:../core_rules_skills.adoc#ref_skills_improved_charge[Verbesserter Sturmangriff]
+* Wolf:
+* Hirsch:
+* Rabe:
+
+Jeder Tiergeist lehrt den Schamenen einen xref:../core_rules_skills.adoc[Besondere Fähigkeit].
+Der Schamane benötigt in diesem Fall nicht die Voraussetzungen erfüllen und lernt die Fähigkeit sofort.
+
+=== Vertraute Umgebung
+Zur Charaktererschaffung muss ein Schamane einen Geländetyp wählen, z.B. Gebirge, Wald, Sumpf etc..
+In dem gewählten Geländetyp erleidet er nie Einschränkungen auf seine xref:../core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] durch schwieriges Gelände.
+Magische Effekte, die diese Attributseigenschaft beeinflussen, wirken jedoch normal.

@@ -47,7 +47,7 @@ Der Charakter erhält einen Bonus von +1 Würfe zum Erfolg auf alle Einschüchte
 *Beschränkung:* - +
 *Beschreibung:* Der Charakter geht zu den circa 10% derjenigen, die beide Hände ohne Einschränkungen nutzen können.
 Der Charaktere kann auch in seiner Zweithand eine Waffe führen, als wäre es seine Haupthand.
-Man geht dabei von dem höchsten Größenwert aus, den seine Rasse tragen kann.
+Man geht dabei von dem höchsten Größenwert aus, den sein Volk tragen kann.
 Zusätzlich erhält er einen Bonus von +1 auf die Würfelanzahl, wenn er bei einer auf GE basierenden Attributs- oder Standard-Probe beide Hände für das Gelingen der Probe einsetzt bzw. genötigt.
 
 == Blitzschnell
@@ -169,16 +169,6 @@ Der Homunkulus versteht jede natürliche Sprache, jedoch nur sein Besitzer kann 
 *Beschreibung:* Der Charakter hat vor seinem Abenteurerleben eine einfache Ausbildung in einem “profanen” Beruf genossen.
 Er kann ein beliebiges Handwerkstalent, z.B. Handwerk[Schmied] als Berufstalent, also mit SGM 1, lernen, unabhängig, was seine Berufung sonst für Handwerkstalente angibt.
 
-== Infrarotsicht
-*Punkte:*  20 +
-*Beschränkung:* Rasse +
-*Beschreibung:* Der Charakter sieht nicht auf übliche Weise, sondern kann zwischen den einzelnen Temperaturunterschieden unterscheiden.
-Warme und heiße Objekte erscheinen in diversen Rottönen, je heißer desto intensiver.
-Ebenso erscheinen kalte Objekt in Blautönen.
-Dies hat den Vorteil, dass warme Objekte vor kaltem Hintergrund besonders gut zu erkennen sind.
-Daher kann der Charakter selbst bei absoluter Dunkelheit und bis 50 Meter Entfernung sein Gegenüber uneingeschränkt sehen und ggf. angreifen.
-In sehr warmen oder sehr kalten Gegenden, in denen kaum Temperaturunterschiede herrschen, ist der Charakter hingegen beinahe blind.
-
 == Innere Uhr
 *Punkte:*  10 +
 *Beschränkung:* - +
@@ -196,21 +186,6 @@ Fremde Welten und Ebenen können diesen Sinn einschränken, bzw. aussetzen.
 *Beschränkung:* - +
 *Beschreibung:* Wie eine Katze fällt der Charakter deutlich häufiger auf die Füße als andere.
 Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Fallen-Proben (Standardprobe).
-
-== Kiemen, Einfache
-*Punkte:* 10 +
-*Beschränkung:* Rasse +
-*Beschreibung:* Der Charakter kann unter Wasser normal atmen.
-Er muss jedoch regelmäßig Luft holen und dabei mindestens 10 Minuten über Wasser bleiben. +
-Wie oft er Luft holen muss, wird durch seine KO-Stufe bestimmt.
-Pro einer Stufe in seinem KO-Attribut kann der Charakter 4 Stunden unter Wasser bleiben. +
-Der Charakter kann nicht unter Wasser schlafen.
-
-== Kiemen
-*Punkte:* 25 +
-*Beschränkung:* Rasse +
-*Beschreibung:* Der Charakter kann unter Wasser normal atmen.
-Er muss nicht zur Oberfläche zurückkehren um regelmäßig Luft holen.
 
 == Leichter Schlaf
 *Punkte:* 20 +
@@ -253,12 +228,6 @@ Spätere Verbesserungen sind von dem Modifikator nicht betroffen.
 *Beschreibung:* Der Charakter verfolgt ein höheres Ziel, z.B. „Vernichte alle Werwesen“ oder „Beschütze alle Kinder“.
 Immer wenn der Charakter eine Probe würfelt, die dieses Ziel unterstützt, erhält er für diese Probe einen Bonus von +1 Würfel.
 
-== Natürliche Rüstung
-*Punkte:* 10 je Level +
-*Beschränkung:* Rasse +
-*Beschreibung:* Die Rasse des Charakter besitzt eine dicke Haut zum Beispiel aus Schuppen, Fell, Chitin oder anderem harten Material.
-Diese natürliche Rüstung verhindert nur körperlichen Schaden und zwar pro Level 2 Punkte auf jeweils auf jeder Trefferzone.
-
 == Phantastisches Gedächtnis
 *Punkte:* 60 +
 *Beschränkung:* - +
@@ -266,13 +235,15 @@ Diese natürliche Rüstung verhindert nur körperlichen Schaden und zwar pro Lev
 Alle Wissen-Proben, die durch ein Wissenstalent oder eine einfache ER-Probe abgedeckt werden, erhalten einen Bonus von +3 Würfel.
 Andere auf ER-basierende Talent können nicht von diesem Bonus profitieren.
 
+[[ref_advantage_mount]]
 == Reittier
-*Punkte:* 15, 30 +
+*Punkte:* 15
 *Beschränkung:* Beruf (Level II) +
-*Beschreibung:* Der Charakter besitzt ein Reitteir, z.B. ein Pferd. Mit Level I dieses Vorteils wurde das Reittier für exakt die Aufgabe des Reitens trainiert.
+*Beschreibung:* Der Charakter besitzt ein Reittier, z.B. ein Pferd.
+Das Tier wurde für exakt die Aufgabe des Reitens trainiert.
 D.h. es ist das Tragen eines Sattels und Geschirr gewöhnt, trägt ohne Widerwillen einen Reiter und versteht seine Kommandos.
-Weitergehende Stresssituationen ist das Reittier nicht gewöhnt. Es nimmt nie aktiv an Kampfsituationen teil und versucht im Normalfall zu fliehen. +
-Mit Level II hingegen hat das Reittier Stresssituationen trainiert (z.B. den Kampf) und bleibt ruhig. Es kann an Kämpfen teilnehmen. Darüber hinaus ist das Reittier auf Level II ein Tiergefährte für den Charakter.
+Weitergehende Stresssituationen ist das Reittier jedoch nicht gewöhnt. Es nimmt nie aktiv an Kampfsituationen teil und versucht im Normalfall zu fliehen. +
+Die maximale GK des Reittiers beträgt die GK dies Besitzers + 1.
 
 == Ruf
 *Punkte:* 10, 20, 30, 40, 50 +
@@ -331,6 +302,7 @@ Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Springen-Proben
 *Beschreibung:* Der Charakter versteht es außergewöhnlich gut, andere Leute in ein Gespräch zu verwickeln und sie dazu zu bringen, ihm Informationen zu geben.
 Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Ausfragen-Proben (Standardprobe).
 
+[[ref_advantage_animalcompandion]]
 == Tiergefährte
 *Punkte:* 15, 30 +
 *Beschränkung:* Beruf +
@@ -340,7 +312,8 @@ Das Tier kann immer nur in seinen natürlichen Grenzen agieren, es besitzt also 
 Beide besitzen eine leichte emphatische Verbindung, so dass sie wissen, wo der jeweils andere sich befindet und was der andere gerade möchte oder benötigt. +
 Einmal pro Tag mit dem Einsatz von 5 MP kann der Charakter seinen Tiergefährten rufen.
 Dieser macht sich auf Weg, um den Charakter zu treffen, wobei er den Weg ganz normal zurücklegen muss. Ein Hinderniss, welches das Treffen vermeidet, wird dem Charakter bei Erreichen dieses Hindernisses mitgeteilt. +
-Es kann jedoch Kommandos gelernt haben, die auch komplexere Aufgaben beinhalten. Auf Level I kann der Charakter einen Tiergefährten bis GK 4 besitzen, auf Level II bis GK 6.
+Es kann jedoch Kommandos gelernt haben, die auch komplexere Aufgaben beinhalten.
+Auf Level I kann der Charakter einen Tiergefährten bis GK 4 besitzen, auf Level II bis GK 6.
 
 == Überlebensinstinkt
 *Punkte:* 20 +

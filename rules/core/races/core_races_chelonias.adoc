@@ -2,7 +2,8 @@
 
 *Attributsbonus:* -1 GE, +2 KO +
 *Größe:* 5 +
-*Sonstiges:* - +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* TBA (Allschwinge) +
 *CP:* 50 +
@@ -33,4 +34,4 @@ Daher erhalten Chelonia einen Malus von -1 auf ihren xref:../core_rules_characte
 Chelonias können ihre Arme, Beine und Kopf in ihren Panzer einziehen.
 Dazu können sie einmal pro Kampfrunde ein xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen, um Arme, Beine und Kopf in den Panzer einzuziehen oder ausziehen. +
 Sind seine Extremitäten eingezogen, gilt er als xref:../core_rules_battlesystem.adoc#ref_condition_blind[Blind] und xref:../core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig]. +
-Für die Dauer dieser Zeit gelten jedoch seine Trefferzonen Arme, Beine und Kopf als hinter xref:../core_rules_battlesystem.adoc#ref_battle_coverage[Totaler Deckung] und profitieren von dem natürlichen Rüstungsschutz seines Panzers in Höhe von 8 Punkten.
+Für die Dauer dieser Zeit gelten jedoch seine Trefferzonen Arme, Beine und Kopf als hinter xref:../core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[Totaler Deckung] und profitieren von dem natürlichen Rüstungsschutz seines Panzers in Höhe von 8 Punkten.

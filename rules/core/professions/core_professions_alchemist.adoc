@@ -4,12 +4,45 @@
 *Talentliste (SGM 1):* Handwerk [Brauen], Hieb Ausweichen, Fallen Entschärfen, Forschen, Wissen [Arkanes], Wissen [Alchemie], Verborgenes Entdecken, Wurfwaffen +
 *Talentliste (SGM 2):* Aether Wahrnehmung, Lesen/Schreiben, Spruchzauberei [Alchemie], Verbrennen Widerstehen +
 *Attributsbonus:* +1 GE, +1 EN +
-*Vorteile*: - +
-*Nachteile*: Schadensanfälligkeit [Feuer] I +
-*Besondere Fähigkeiten:* Alchemie +
 *TP/MP-Steigerung:* +5/+7 +
 *Voraussetzungen:* - +
 *Startausrüstung:* Alchmieausrüstung, einfache Roben, Lederschürze, Augenschutz, Handschuhe, Dolch +
-*Startgeld:* 4W6 +
 *CP:* 65 +
-*Spezielle Berufstalente:* Bomben herstellen
+
+== Eigenschafen
+
+[[ref_alchemist_alchemy]]
+=== Alchemie
+Alchemisten lernen zu Beginn des Spiels die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_alchemy[Alchemie] ohne dabei die Voraussetzungen erfüllen zu müssen.
+
+[[ref_alchemist_create_bombs]]
+=== Bomben herstellen
+Der Alchemist lernt die besondere Fähigkeit Bomben herzustellen.
+Bomben im Sinne dieser Fähigkeit sind kleine, mit alchemistischer Mixtur, gefüllte Behälter, die einen bestimmten Effekt in einem Umkreis bei Auslösung verursachen.
+Die Auslösung erfolgt im Allgemeinen durch Werfen und bei Aufprall.
+
+Um eine Bombe herzustellen, wählt der Alchemist einen Zauberspruch aus der Zauberschule xref:../core_rules_magic_base.adoc#ref_magic_types_alchemy[Alchemie], den er gelernt hat.
+Dieser Zauberspruch muss als Ziel mindestens eine Kreatur sein, dabei gilt auch "Selbst" als valide.
+Eine fertige Bombe wird als xref:../core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_aoe[Wurfwaffe mit Radius] mit einer xref:../core_rules_battlesystem.adoc#ref_battle_rules_ranged_combat_baserange[Grundreichweite] von 12 Metern behandelt.
+Der Radius beträgt immer 3 Meter, auch wenn der eigentliche Effekt keinen Radius hatte.
+Anstelle einer Spruchzauberei-Probe würfelt der Alchemist eine Wurfwaffen-Probe und behandelt den Bombenwurf so als hätte er den entsprechenden Zauberspruch ausgesprochen.
+Dieser wirkt nun in dem Effektradius der Bombe.
+
+Einmal pro Tag darf der Alchemist eine Bombe ohne Materialkosten herstellen.
+Ansonsten kosten Bomben pro POT des gewählten Zauberspruches 1000 Goldmünzen.
+
+[[ref_alchemist_poison_resist]]
+=== Giftresistent
+Ein Alchemist erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_poisonsickness[Gift]-Proben.
+
+[[ref_alchemist_potion_knowledge]]
+=== Wissen über Substanzen
+Der Alchemist kann aufgrund von Geruch, Aussehen und Geschmack so ziemlich jede Flüssigkeit identifizieren.
+Er muss dazu die zu identifizierende Flüssigkeit untersuchen und eine Probe auf Wissen[Alchemie] würfeln.
+
+Dabei gilt, dass nicht-magische Flüssigkeiten im Allgemeinen einen xref:../core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Durchschnittlichen Erfolg] erfordern, um identifiziert zu werden.
+Exotische, nicht-magische Flüssigkeiten können nach Ermessen des SL einen Guten Erfolg erfordern.
+Das Identifizieren von magischen Tränken folgt den üblichen xref:../core_rules_magic_base.adoc#ref_magic_items_identification[Regeln], es wird jedoch das o.g. Talent verwendet.
+
+Sofern nicht anders angegeben, erfolgt die Identifikation sofort.
+Sollte der Alchemist die Flüssigkeit nicht identifizieren können, kann er es erst nach Ablauf von 24 Stunden noch einmal versuchen.

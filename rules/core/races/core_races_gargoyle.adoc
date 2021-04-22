@@ -1,0 +1,34 @@
+= Gargoyle
+
+*Attributsbonus:* +2 ST, -1 GE, +1 KO, -1 CH +
+*Größe:* 4 +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
+*Generation:* 4 oder höher +
+*Progenitor:* unbekannt +
+*CP:* 60 +
+
+== Eigenschaften
+
+[[ref_gargoyle_freeze]]
+=== Erstarren
+Gargoyle besitzen die außergewöhnliche Eigenschaft, ihren Körper zum Erstarren zu bringen, so dass man sie von Statuen nicht unterscheiden kann.
+Um diesen Zustand zu erreichen, muss der Gargoyle ein xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen können.
+Jegliche Mimik, Bewegung und subtile Motorik wird unterdrückt.
+Gleichzeit wird die Haut noch fester und rauer, womit sie noch mehr Stein gleicht. +
+In diesem Zustand hat der Gargoyle keine Einschränkungen auf seine üblichen Sinne, auch seine Atmung funktioniert normal. Er kann keine Aktionen durchführen. Sein natürlicher Rüstungsschutz aus <<ref_gargoyle_hardasstone>> erhöht sich auf 10 Rüstungspunkte auf allen Treffenzonen. +
+Wechselt der Gargoyle in diese Form, würfelt er eine xref:../core_rules_talents_base.adoc#ref_talents_hide[Verstecken]-Probe mit einem Bonus von +4 auf die Würfe zum Erfolg.
+Jeder zukünftige Beobachter muss gegen die in dieser Probe gewürfelten Erfolge eine konkurrierende xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Entdecken] bestehen, um den Gargoyle von einer Statue zu unterscheiden. +
+Das Erstarren endet, wenn der Gargoyle eine Aktion durchführt oder spätestens nach 24 Stunden.
+
+[[ref_gargoyle_hardasstone]]
+=== Hart wie Stein
+Die steinerne Haut eines Gargoyles erwährt ihm 3 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_naturalarmor[Natürlichen Rüstungsschutz] auf allen Trefferzonen.
+
+[[ref_gargoyle_resilient]]
+=== Resistent
+Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_poisonsickness[Gift und Krankheits]-Proben.
+
+[[ref_gargoyle_unbreakable]]
+=== Unverwüstlich
+Der Charakter erhält einen Bonus von +2 xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID].

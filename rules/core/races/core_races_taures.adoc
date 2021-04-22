@@ -1,10 +1,21 @@
 = Tauren
 
-*Attributsbonus:* +2 ST, -1 EN, +1 SB +
-*Vorteile:* Beeindruckende Statur, Mehr Trefferpunkte I +
-*Nachteile:* Schlechter Kletterer, Schlechter Schwimmer +
+*Attributsbonus:* +2 ST, +1 KO, -1 EN +
 *Größe:* 6 +
-*Sonstiges:* - +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten +
-*CP:* 45 +
+*CP:* 60 +
+
+== Eigenschaften
+
+=== Außergewöhnliche Konstitution
+Ihr muskulöser und stämmiger Körperbau lässt Tauren auch schwere Verletzungen besser aushalten.
+Ein Taure besitzt einen Bonus von 25% auf seine TP.
+
+=== Machtvolle Präsenz
+Taure dürfen sich von dem Würfel einer xref:../core_rules_d10_system.adoc#ref_base_roll_intimidate[Einschüchtern] entscheiden, ob sie die Probe auf Basis ihrer ST- oder CH-Stufe würfen wollen. +
+Besitzt er das Talent xref:../core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern], so kann er diese Entscheidung ebenso treffen. Die Talentstufen werden zum gewählten Attribut addiert. +
+Außerdem gewährt diese Eigenschaft einen Bonus von +1 auf die Würfe zum Erfolg auf alle Einschüchtern-Proben, wenn die betroffene Kreatur die Größe 6 oder niedriger hat.
+

@@ -1,0 +1,31 @@
+= Nachtelfen
+
+*Attributsbonus:* +1 GE, -1 KO, +1 ER, +1 CH +
+*Größe:* 5 +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
+*Generation:* 4 oder höher +
+*Progenitor:* unbekannt +
+*CP:* 70 +
+
+== Eigenschaften
+
+Nachtelfen erhalten die Eigenschaften xref:core_races_elves_general.adoc#ref_elven_senses[Elfische Sinne] und xref:core_races_elves_general.adoc#ref_elven_intuition[Elfische Intuition], aber nicht xref:core_races_elves_general.adoc#ref_elven_skill[Elfische Begabung].
+
+=== Wir sind die Nacht
+Nachtelfen sind perfekt an xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] gewöhnt, so dass sie nie negative Modifikatoren durch diese erleiden.
+Ausschließlich Absolute Dunkelheit belegt Nachtelfen mit einem Modifikator von -1 auf die Würfe zum Erfolg. +
+Auf der anderen Seite sind ihre Augen gegenüber Licht besonders empfindlich.
+Es gelten folgende Modifikatoren:
+
+* Normales Tageslicht oder Fackellicht führt nicht zu Einschränkungen
+* Helles Sonnenlicht (z.B. an einem sonnigen Nachmittag): -1 auf die Würfe zum Erfolg
+* Grelles Sonnenlicht wie an einem Mittag im Hochsommer oder in der Wüste: -2 auf die Würfe zum Erfolg
+
+Künstliches Licht kann nach Ermessen des SL ebenfalls entsprechende Modifikatoren mit sich bringen.
+
+Zaubersprüche, die durch Licht blenden und als Effekt negative Modifikatoren auf erlegen, sind um -1 auf die Würfe zum Erfolg effektiver gegen Nachtelfen.
+
+=== Was die Dunkelheit uns lehrt
+Nachtelfen lernen das Talent xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] mit SGM 1.
+Besitzt ein Nachtelf den Fähigkeit xref:../core_rules_skills.adoc#ref_skills_backstab[Hinterhältiger Angriff] erhält er einen Bonus von +1 auf die Schadensproben pro Stufe in dieser Fähigkeit.

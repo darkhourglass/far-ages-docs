@@ -2,14 +2,33 @@
 
 *Beschreibung:* +
 *Talentliste (SGM 1):* Akrobatik, Hieb Ausweichen, Projektilwaffen, Reflex, Verborgenes Erkennen, Wurfwaffen +
-*Talentliste (SGM 2):* Athlethik, Handwerk [Bogen und Pfeile], Reiten, Schleichen, Verstecken, 1 freies Wissentalent +
+*Talentliste (SGM 2):* Athletik, Handwerk [Bogen und Pfeile], Reiten, Schleichen, Verstecken, 1 freies Wissentalent +
 *Attributbonus:* +1 GE, +1 ER +
-*Vorteile*: - +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* - +
 *TP/MP-Steigerung:* +7/+5 +
 *Voraussetzungen:* GE 2 +
 *Startausrüstung:* Komposit-Bogen, Köcher mit 20 Pfeilen, Lederrüstung, 10 Wurfmesser, Rucksack +
-*Startgeld:* 4W6 +
 *CP:* 50 +
-*Spezielle Berufstalente:* -
+
+== Eigenschaften
+
+[[ref_archer_focus_shot]]
+=== Fokussierter Schuss
+Der Schütze fokussiert seine Konzentration auf den einen Schuss (oder Wurf), um auch schwer zu treffende Ziele anzugreifen.
+Bei einer Angriffsprobe auf xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] kann der Schütze ein xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen, um einen Bonus von +1 auf die Würfe zum Erfolg zu erhalten.
+
+[[ref_archer_improvised_volley]]
+=== Improvisierte Salve
+Der Schütze versucht mit der Hilfe seiner schnellen Reflexe in kurzer Zeit 2 Projektile zu verschießen.
+In seiner Kampfphase, wenn er eine Angriffsprobe auf xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] erfolgreich durchgeführt hat, darf er für den Einsatz eines xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] eine weitere, identische Angriffsprobe gegen das gleiche Ziel würfeln. +
+Diese Probe erhält einen Malus vpn -2 auf die Würfe zum Erfolg.
+Die Bedingung ist auch erfüllt, wenn die erste Probe getroffen, aber keinen Schaden verursacht hat. +
+Diese Fähigkeit kann nicht in Kombination mit <<ref_archer_focus_shot>> verwendet werden.
+
+[[ref_archer_trick_shot]]
+=== Trickschuss
+Mit einem Trickschuss demonstriert der Schütze seine überragenden Fähigkeiten mit Pfeil und Bogen (oder vergleichbaren Waffen).
+Führt der Schütze einen xref:../core_rules_battlesystem.adoc#ref_maneuver_battle_aimed_attack[Gezielten Schuss] mit einem der Talente xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], darf er entscheiden, ob er Trickschuss einsetzt. +
+Tut er dies, entfällt der Malus von -2 auf die Würfe zum Erfolg auf die Angriff-Probe für den gezielten Schuss.
+Im Fall einer erfolgreichen Probe, wird keine Schadensprobe gewürfelt, stattdessen erhält das Ziel 1 xref:../core_rules_battlesystem.adoc#ref_battle_damage_physical[physischen], xref:../core_rules_battlesystem.adoc#ref_battle_nondeadly_damage[nicht-tödlichen] Schaden auf die entsprechende Trefferzone, der durch keine Rüstung reduziert werden kann.
+
+

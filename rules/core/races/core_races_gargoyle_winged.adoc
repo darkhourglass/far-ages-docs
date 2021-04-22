@@ -1,0 +1,16 @@
+= Gargoyle, geflügelte
+
+*Attributsbonus:* +2 ST, -1 GE, +1 KO, -1 CH +
+*Größe:* 4 +
+*Generation:* 4 oder höher +
+*Progenitor:* unbekannt +
+*CP:* 70 +
+
+== Eigenschaften
+
+Geflügelte Gargoyle erhalten die Eigenschaften xref:core_races_gargoyle.adoc#ref_gargoyle_freeze[Erstarren], xref:core_races_gargoyle.adoc#ref_gargoyle_hardasstone[Hard wie Stein] und xref:core_races_gargoyle.adoc#ref_gargoyle_resilient[Resistent].
+
+=== Flügel
+Ein geflügelter Gargoyle bewegt sich fliegend zweimal so schnell, wie er normalerweise auf dem Boden rennen würde (d.h. seine BEW multipliziert mit 2.
+Er kann so viele Kampfrunden in der Luft bleiben, die seiner KO-Stufe multipliziert mit 30 entsprechen.
+Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_maneuver_airattack[Flugangriff] verwenden.

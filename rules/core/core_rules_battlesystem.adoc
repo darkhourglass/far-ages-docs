@@ -78,6 +78,7 @@ Kampfrunden sind ein paar Augenblicke, in denen unterschiedliche Ereignisse stat
 In jeder Kampfrunde stehen jedem Teilnehmer unterschiedliche Aktionen und Manöver zur Verfügung.
 Hat jeder Teilnehmer seine Aktionen in einer Kampfrunde durchgeführt, ist diese vorbei und eine neue Kampfrunde beginnt. Ein Kampf ist beendet, wenn in einer Kampfrunde kein Teilnehmer Aktionen durchführen kann oder möchte.
 
+[[ref_battle_battleround]]
 === Ablauf der Kampfrunde
 
 Jede Kampfrunde läuft nach dem gleichen Schema ab:
@@ -200,6 +201,7 @@ Es kann dann zu negativen Folgen für den Abbrecher kommen, was jedoch von der S
 
 Je nach Aktion kann das Abbrechen selbst eine Aktion sein, ein Manöver oder gar eine Freie Aktion.
 
+[[ref_battle_rules_melee_and_unarmed]]
 == Nahkampf und Unbewaffneter Kampf
 
 Nahkampf beschreibt die direkte Auseinandersetzung mit dem Kontrahenten.
@@ -270,6 +272,7 @@ Für alle diese Angriffe kommen die nun folgenden Modifikatoren in Frage.
 
 Sobald zwei Gegner im Nahkampf Angriffs- und Verteidigungswürfe ausgeführt haben, gelten sie als *im Kampf gebunden*.
 
+[[ref_battle_modifiers_melee]]
 === Nahkampfmodifikatoren
 
 Für die Würfe zum Erfolg im Nahkampf kann der SL folgende Modifikatoren ansetzen.
@@ -278,7 +281,7 @@ Dafür sind Möglichkeiten natürlich sehr umfangreich und daher möchten wir un
 
 Der SL ist natürlich frei in seiner Entscheidung, welche Modifikatoren er für sein Spiel anwenden will.
 
-[[ref_battle_coverage]]
+[[ref_battle_modifiers_coverage]]
 ==== Deckung
 
 Als Deckung können alle Gegenstände und Lebewesen dienen, die den verteidigenden Charakter bis zu einem gewissen Maß verdecken.
@@ -296,7 +299,7 @@ Blindes Zuschlagen auf einen Punkt, an dem ein Gegner vermutet wird, kann je nac
 
 Es ist durchaus möglich für unterschiedliche Materialien und Sichtverhältnisse im Zusammenhang mit Deckung mehr oder weniger Mali zu verteilen.
 
-[[ref_battle_dakrness]]
+[[ref_battle_modifiers_darkness]]
 ==== Dunkelheit
 
 Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürfe zusätzlich erschweren:
@@ -306,6 +309,7 @@ Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürf
 * Nacht ohne Mond: -3 auf die Würfe zum Erfolg
 * Absolute Dunkelheit: -4 auf die Würfe zum Erfolg
 
+[[ref_battle_modifiers_height]]
 ==== Höhenunterschiede
 
 Charaktere können sich aus verschiedenen Höhen attackieren.
@@ -314,6 +318,7 @@ Der Vorteil ist, dass derjenige, der höher steht, einen entsprechenden Vorteil 
 Dabei gilt, dass die Kontrahenten etwa gleich groß sein sollten.
 Der SL kann bei "ausgeglichenen" Größenunterschieden diese Regel weglassen.
 
+[[ref_battle_modifiers_size]]
 ==== Größenunterschiede
 
 Nicht nur die Rassen unterscheiden sich stark in der Größe, sondern auch die Kämpfe zwischen Charakteren und Monstern.
@@ -354,6 +359,7 @@ Die folgende Tabelle gibt Übersicht über die verschiedenen Größenkategorien.
 |10 |
 |===
 
+[[ref_battle_modifiers_weapondifference]]
 ==== Waffenunterschiede
 
 Im Nahkampf werden verschiedene Waffengattungen durch Modifikatoren aufgrund der Größe der verwendeten Waffen dargestellt.
@@ -373,6 +379,7 @@ Ist die Waffe 4 oder mehr Punkte größer, so beträgt der Bonus *+4*.
 
 Waffenunterschiede kommen nur zum Tragen, wenn beide Kontrahenten Waffen einsetzen.
 
+[[ref_battle_modifiers_diagonal]]
 ==== Diagonal schlagen
 
 Die grau unterlegten Kacheln der Abbildung zeigen die Positionen an, auf die ein Charakter diagonal schlagen kann. Gegner, die auf diesen Feldern stehen, sind schwerer zu attackieren.
@@ -380,6 +387,7 @@ Die grau unterlegten Kacheln der Abbildung zeigen die Positionen an, auf die ein
 Waffen, deren Größe 5 oder kleiner sind, können diesen Gegner schwerer erreichen, so dass der Charakter einen Malus von *-1 auf seine Würfelanzahl* erhält.
 Waffen, die größer sind, also beispielsweise Speere oder Bihänder, erhalten diesen Malus nicht und können normal verwendet werden.
 
+[[ref_battle_modifiers_back]]
 ==== Angriffe auf die Seite und den Rücken
 
 Angriffe auf die Seiten und den Rücken eines Charakters sind besonders gefährlich, denn er kann sich gegen diese nur schwer verteidigen.
@@ -401,6 +409,7 @@ Der Charakter würfelt eine Reflex-Probe und erhält glücklicherweise 5 Erfolge
 Dadurch erleidet er nur 5 Schadenspunkte.
 ====
 
+[[ref_battle_modifiers_2weapons]]
 ==== Kampf mit zwei Waffen
 
 Ein Charakter kann auch mit zwei Nahkampfwaffen in den Kampf ziehen, um eine weitere Attacke durchführen zu können.
@@ -417,6 +426,7 @@ Beide Attacken können regulär verteidigt werden.
 
 Die Attacke mit der Hauptwaffe erhält einen Malus von *-3 auf die Würfelanzahl*, die Attacke mit der Zweitwaffe *-6*.
 
+[[ref_battle_modifiers_offhand]]
 ==== Zu große Waffen in der Zweithand
 
 Ein Charakter kann auch in seiner Zweithand Waffen der Größe seiner Haupthand tragen.
@@ -425,6 +435,7 @@ Trägt er also eine größere Waffe, so erhält er einen Malus von *-1 auf die W
 Damit wird simuliert, dass ein Charakter seine Waffe in die „falsche“ Hand bekommt.
 Kämpft er mit zwei Waffen, so sind die Mali kumulativ.
 
+[[ref_battle_modifiers_reach]]
 ==== Waffen mit erhöhter Nahkampfreichweite
 
 Manche Waffen, wie Speere, sind besonders lang, so dass sie den Kontrahenten auf Abstand halten können, bzw. diese angreifen können.
@@ -436,6 +447,7 @@ Allerdings können Gelegenheitsangriffe nur dann mit solchen Waffen geführt wer
 Mit Waffen dieser Größe erhält man im Allgemeinen auch keinen Malus auf einen diagonalen Angriff.
 Allerdings erhält man aufgrund der Unhandlichkeit einen Malus von *-2 die Würfelanzahl* für die Angriffsproben, die auf das vordere Kästchen und die Seiten geführt werden.
 
+[[ref_battle_modifiers_missingweapon]]
 ==== Der Kampf zwischen einem Gegner mit Waffen und einem Unbewaffneten
 
 Diese Situation ist meistens für den Unbewaffneten von Nachteil.
@@ -443,6 +455,7 @@ Dieser erhält für seine Angriffswürfe einen Malus von *-2 Würfe zum Erfolg*.
 Dies gilt, wenn der Unbewaffnete das Talent Unbewaffneter Kampf einsetzt.
 Außerdem löst der Angriff des Unbewaffneten einen Gelegenheitsangriff aus.
 
+[[ref_battle_modifiers_melee_summary]]
 ==== Zusammenfassung
 
 Die folgende Tabelle fasst die Boni und Mali zusammen:
@@ -485,6 +498,7 @@ Würfe zum Erfolg
 
 ^1^Diese Modifikationen gelten nur im Nahkampf/Unbewaffnetem Kampf.
 
+[[ref_battle_rules_ranged_combat]]
 == Fernkampf
 
 Als Fernkampfwaffen zählen Projektilwaffen wie Bögen und Armbrüste, sowie Wurfwaffen wie Wurfbeile.
@@ -494,7 +508,9 @@ Als Richtlinie gilt, dass jede Waffe, die in der Ausrüstungsliste mit einer Rei
 Alle diese Waffenarten werden als Einfache Probe gewürfelt, bis auf die Ausnahmen, die durch Talente oder Fähigkeiten explizit erwähnt werden.
 Die folgenden Regeln gelten für die Angriffsprobe in jedem Fall.
 
-Die eben erwähnten Reichweitenangabe besteht aus einer Zahl. Diese Zahl beschreibt die sogenannte *Grundreichweite* in Metern.
+[[ref_battle_rules_ranged_combat_baserange]]
+Die eben erwähnten Reichweitenangabe besteht aus einer Zahl.
+Diese Zahl beschreibt die sogenannte *Grundreichweite* in Metern.
 
 Innerhalb dieser Grundreichweite kann jedes Ziel, welches für den Schützen sichtbar ist, beschossen werden, ohne, dass durch die Entfernung Modifikatoren eintreten.
 Der Schütze kann aber versuchen, auch weiter entfernte Ziele zu treffen.
@@ -542,12 +558,14 @@ Damit ergeben sich 2+4*2 = 10 Erfolge, die der Schütze mindestens erreichen mus
 Eine Fernangriffsprobe, die diese Mindestanzahl erreicht oder übertrifft, gilt als erfolgreiche Probe und die Schadensprobe wird wie gehabt gewürfelt.
 Erreicht eine Fernangriffsprobe hingegen diese Mindestanzahl nicht, so gilt die Probe als Misserfolg.
 
+[[ref_battle_modifiers_ranged]]
 === Fernkampfmodifikatoren
 
 Für die Angriffswürfe gelten folgende Modifikatoren wie im Nahkampf:Deckung, Dunkelheit, Höhenunterschiede und Größenunterschiede werden äquivalent behandelt.
 
 Weitere Modifikatoren sind:
 
+[[ref_battle_modifiers_ranged_increment]]
 ==== Reichweite
 
 Pro Inkrement erhält der Schütze einen Malus von *-1 Würfel* auf seine Angriffsprobe.
@@ -563,6 +581,7 @@ Das zweite Ziel jedoch steht 56 Meter entfernt, also zwei Inkremente ohne die Gr
 Ziel 3 steht vier Inkremente entfernt. Also beträgt der Malus hier -4 Würfel.
 ====
 
+[[ref_battle_modifiers_ranged_fire_in_crowd]]
 ==== Kampfgetümmel
 
 Befindet sich ein Ziel im Kampf mit 2 oder mehr Opponenten, so muss der Schütze einen Malus von *-2 auf die Würfe zum Erfolg* auf seine Angriffsprobe hinnehmen, da er das Ziel aufgrund der Kampfhandlungen nicht genau anvisieren kann.
@@ -573,16 +592,19 @@ Würfle dann die Schadenswürfe wie gehabt.
 
 Charaktere, die sich in besonders schwerem Kampfgetümmel befinden, z.B. 8 oder mehr Kampfteilnehmer in unmittelbarer Nähe, besitzen Starke Deckung (-3 auf die Würfe zum Erfolg).
 
+[[ref_battle_modifiers_ranged_moving_and_firing]]
 ==== Nicht-Stationäres Feuern
 
 Ein Charakter mit einer Fernkampfwaffe erhält einen Malus von *-1 auf die Würfelanzahl* bei der Angriffsprobe, wenn er das Kampfmanöver Rennen in der vorherigen Kampfphase verwendet hat.
 Der Malus beträgt *-2 Würfel*, wenn er vorher das Kampfmanöver Sprinten eingesetzt hat.
 
+[[ref_battle_modifiers_ranged_moving_targets]]
 ==== Feuern auf Nicht-Stationäre Ziele
 
 Feuert ein Charakter eine Fernkampfwaffe auf ein Ziel ab, das sich in derselben Kampfphase bewegt, so erhält er abhängig von der Geschwindigkeit des Ziels einen Malus auf die Würfelanzahl für seine Angriffsprobe.
 Hat sich das Ziel mit dem Kampfmanöver Rennen fortbewegt, beträgt der Malus *-1 Würfel*, hat das Ziel Sprinten benutzt, beträgt der Malus *-2 Würfel*.
 
+[[ref_battle_modifiers_ranged_mounted]]
 ==== Fernkampfwaffen auf dem Rücken eines Reittieres
 
 Ein Charakter kann vom Rücken eines Reittieres nur Fernkampfwaffen benutzen, die eine Größe von 4 oder weniger haben (Größe 5 für alle Charaktere, die in die Größenkategorie 6 fallen).
@@ -591,10 +613,12 @@ Hat sich das Reittier bewegt, dann erhält er folgende Mali auf seine Würfelanz
 * *-2 Würfel*, wenn das Tier das Kampfmanöver Rennen eingesetzt hat
 * *-4 Würfel*, wenn das Tier das Kampfmanöver Sprinten eingesetzt hat
 
+[[ref_battle_rules_throwingweapons]]
 == Wurfwaffen
 
 Typische Wurfwaffen wie Wurfäxte oder Wurfdolche werden wie Projekilwaffen behandelt, nur werden sie mit dem Talent Wurfwaffen abgehandelt.
 
+[[ref_battle_rules_throwingweapons_aoe]]
 === Wurfwaffen mit Flächenschaden
 
 Einige Wurfwaffen verursachen Flächenschaden, in dem sie beim Einschlag beispielsweise explodieren.
@@ -620,6 +644,7 @@ Der SL wirft einen W8 und bestimmt damit eine Zufallsrichtung, in die das Gescho
 
 Das Geschoss springt dann (1W4+ST-Stufe)*1,50 Meter (also 1W4+ ST-Stufe Kacheln) weiter und explodiert dort.
 
+[[ref_battle_rules_throwingweapons_cone]]
 === Kegelförmige Waffen
 
 Manche Kreaturen, Zaubersprüche und Waffen haben einen sogenannten kegelförmigen Flächenschaden.
@@ -633,16 +658,20 @@ Die folgende Zeichnung illustriert das Prinzip für einen Kegel von 4,50 Metern.
 Wie bei einer Waffe mit Flächenschaden kann man auch hier mit einer Reflex-Probe ausweichen, um den Schaden abzuwenden oder zu halbieren.
 Diese Form von Angriffen werden mit unterschiedlichen Talenten oder Attributen gewürfelt, meistens mit Spruchzauberei oder Projektilwaffen, je nach Art des Angriffes.
 
+[[ref_battle_mounted_combat]]
 == Berittener Kampf
 
-Ein Charakter auf einem Reittier kann im Kampf agieren, wie jeder andere Charakter auch. Sein Reittier gibt ihm eine verbesserte Position gegenüber Angriffen und er hat zusätzliche Kampfkraft, wenn das Tier entsprechend ausgebildet ist.
+Ein Charakter auf einem Reittier kann im Kampf agieren, wie jeder andere Charakter auch.
+Sein Reittier gibt ihm eine verbesserte Position gegenüber Angriffen und er hat zusätzliche Kampfkraft, wenn das Tier entsprechend ausgebildet ist.
+
 Folgende Vor- und Nachteile hat ein Berittener:
 
 * Gegen Nahkampfattacken hat gilt er als ein Ziel, das Deckung hat.
 Pro Größenkategorie, die das Reittier größer ist als der Charakter, erhält dieser 25% Deckung, bis zu einem Maximum von 75%.
-* Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende, so kann der SL Boni für Höhenunterschiede geben.
+* Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende aus, so gelten Boni für Höhenunterschiede.
+Dabei wird die GK des Reittieres zur Ermittlerung herangezogen.
 Ist das Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann muss der Charakter eine Nahkampfwaffe tragen, die eine erhöhte Nahkampfreichweite hat.
-Ist das Reittier noch größer, kann der Reiter keine Nahkampfangriffe führen.
+Ist das Reittier noch größer, kann der Reiter keine Nahkampfangriffe ausführen.
 * Der Reiter gilt als zusätzliche Trefferzone für das Reittier.
 Fernangriffe werden auf das Reittier wie gewohnt ausgeführt.
 * Fern- wie Nahkampfangriffe können durch das Kampfmanöver Gezielter Schuss bzw. Schlag den Reiter oder das Reittier angreifen.
@@ -651,9 +680,12 @@ Er erhält dadurch Fallschaden nach den üblichen Regeln, jedoch mindestens 1W6.
 Dasselbe gilt, wenn der Reiter selbst niedergeschlagen wird.
 * Das Reittier des Charakters muss auf den Kampf geschult sein, um selbstständig Gegner zu attackieren und um das Kampfgetümmel mühelos ertragen.
 Ist das Tier nicht geschult, so muss der Charakter eine Reiten-Probe ablegen.
-Die Anzahl der Erfolge ergibt sich aus der Anzahl der Kämpfenden in direkter Nähe des Charakters, Freunde wie Feinde.
+Die Anzahl der Erfolge ergibt sich aus der Anzahl der Kämpfenden um Umkreis von 3 Metern um den Charakter, Freunde wie Feinde.
 Misslingt die Probe, so verliert der Charakter seine Aktion für diese Kampfrunde.
 Gelingt sie, hat er das Pferd unter Kontrolle und kann normal agieren.
+* Das Reittier verwendet die Initiative des Reiters.
+Seine Aktionen werden daher zum Zeitpunkt der Kampfphase durchgeführt, wenn der Reiter am Zuge ist.
+Sein eigener xref:./core_rules_charactercreation.adoc#ref_secondary_inibonus[INI]-Wert zählt in diesem Fall nicht.
 
 == Spruchzauberei
 
@@ -714,6 +746,7 @@ Dabei kommt es auf seine Bewegung(BEW) an.
 Möchte der Charakter Rennen, so kann er dem BEW-Wert entsprechend viele Meter innerhalb einer Kampfrunde zurücklegen.
 Ein Charakter muss die komplette BEW nicht ausnutzen, wenn er dieses Kampfmanöver einsetzet.
 
+[[ref_maneuver_charge]]
 === Sturmangriff
 
 Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
@@ -900,6 +933,7 @@ Eventuelle Nachteile können das Finden des Gegenstandes beeinflussen.
 
 Dieses Manöver provoziert einen Gelegenheitsangriff.
 
+[[ref_maneuver_battle_aimed_attack]]
 === Gezielter Schlag, Gezielter Schuss
 
 Der Charakter kann entweder mit Nahkampftalenten oder mit Fernkampftalenten versuchen einen gezielten Treffer bei einem Gegner zu erlangen.
@@ -1017,6 +1051,7 @@ Dies gilt nicht, wenn der Gegner den Charakter angreift.
 
 Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich im allgemeinen nicht dagegen verteidigen.
 
+[[ref_conditions]]
 == Besondere Situationen
 
 [[ref_condition_corned]]
@@ -1085,6 +1120,7 @@ Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen, z
 === Unsichtbar
 //TODO
 
+[[ref_condition_failure]]
 === Patzer bei einer Angriffsprobe
 
 Wenn ein Charakter einen Patzer in einer Angriffsprobe würfelt, so kann es passieren, dass dies zu unangenehmen Folgen führen kann.
@@ -1092,12 +1128,14 @@ Ein Patzer provoziert grundsätzlich einen Gelegenheitsangriff.
 
 Manche Waffen generieren weitere Folgen, welche in einem späteren Kapitel beschrieben werden.
 
+[[ref_condition_surprise]]
 === Überraschungsangriffe
 
 Hinterhalte sind typische Situationen für Überraschungsangriffe.
 Der Überraschte kann in der ersten Kampfrunde keine Aktionen ansagen.
 Verteidigungstalente erhalten einen Malus von -1 auf die Würfe zum Erfolg.
 
+[[ref_condition_surrounded]]
 === Umzingelt
 
 Dies ist eine denkbar ausweglose und meistens tödliche Situation.
@@ -1105,7 +1143,8 @@ Ein umzingelter Charakter hat an beiden Seiten, im kompletten Rücken und direkt
 Eine Flucht ist damit nicht möglich.
 Wie bei Bedrängt erhält er einen Malus von -2 auf die Würfe zum Erfolg.
 
-== Schaden, Schadensresistenz und Rüstung
+[[ref_battle_damage]]
+== Schaden
 
 Nach der Bestimmung der Erfolge einer Angriffsprobe kommt die Kalkulation des Schadens ins Spiel.
 Im allgemeinen lässt sich sagen: je mehr Erfolge gewürfelt wurden, desto mehr Schaden ist theoretisch möglich.
@@ -1116,7 +1155,8 @@ Ein Charakter kann auch Schaden davon erhalten, dass er im Wald unvorsichtigerwe
 In Situationen außerhalb des Kampfes ist dann meistens ein Angriffswurf angegeben und wie Schadenswürfel zustande kommen.
 Die Regeln in diesem Kapitel treffen jedoch auch auf diese Situationen zu.
 
-=== Schaden
+[[ref_battle_damagerolls]]
+=== Schadenswürfe
 
 Eine erfolgreiche Angriffsprobe mit den Talenten Nahkampfwaffen, Projektilwaffen, Wurfwaffen, Unbewaffneter Kampf und deren ungeübter Anwendung führt zu einem *Treffer*.
 Fallen würfeln auch eine Angriffsprobe und können damit auch Treffer erzeugen.
@@ -1159,11 +1199,9 @@ Beachte, dass im Unbewaffneten Kampf der Schadensbonus durch die Attributseigens
 Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für Natürliche Waffen.
 Der Schadensbonus im Nahkampf und Fernkampf ist der Schadensbonus der eingesetzte Waffe.
 
-Nachdem der Gesamtschaden ermittelt wurde, werden Rüstung und Schadensresistenzen angezogen.
-Schadensresistenzen bieten zusätzliche Reduzierungen gegenüber einer bestimmten *Schadensart*.
-Schadensresistenzen kommen natürlicherweise nur dann zum Tragen, wenn die verursachten Schadenspunkte aus einer Quelle stammt, die diesen Schaden verursacht.
-
-Grundsätzlich wird _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensresistenz_.
+[[ref_battle_armor]]
+=== Rüstung
+Nachdem der Gesamtschaden ermittelt wurde, werden Rüstung und xref:ref_battle_damageresistence[Schadensresistenzen] abgezogen.
 
 Rüstungsschutz oder einfach Rüstung bieten entsprechende Rüstungen, die der Charakter am Körper trägt.
 Die Rüstungspunkte, die die Rüstung gewährt, werden vom Gesamtschaden abgezogen.
@@ -1175,6 +1213,13 @@ Beide Aussagen sind äquivalent.
 
 Der SL kann jederzeit eine andere Standardtrefferzone festlegen, wenn er der Ansicht ist, dass die Charaktere den Torso nicht treffen können.
 So kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als Standard-Trefferzone für den Menschen die Beine des Drachen haben.
+
+[[ref_battle_damageresistence]]
+=== Schadensresitenz
+Schadensresistenzen bieten zusätzliche Reduzierungen gegenüber einer bestimmten xref:ref_battle_damage_types[Schadensart].
+Schadensresistenzen kommen natürlicherweise nur dann zum Tragen, wenn die verursachten Schadenspunkte aus einer Quelle stammt, die diesen Schaden verursacht.
+
+Grundsätzlich wird _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensresistenz_.
 
 [[ref_battle_naturalarmor]]
 === Natürliche Rüstung
@@ -1190,6 +1235,7 @@ Außerdem führt einen Schild mit 3 Punkten Rüstungsschutz. +
 Damit beträgt sein gesamter Rüstungschutz für seinen Torso 3+5+3 = 11.
 ====
 
+[[ref_battle_criticalhit]]
 === Kritischer Treffer
 
 Jede Angriffsprobe, die einen Sehr Guten Erfolgsgrad aufweißt, gilt als *Kritischer Treffer*.
@@ -1200,6 +1246,7 @@ Der die Anzahl der Würfel des Schadensbonus wird in diesem Fall verdoppelt.
 Erziehlt Kraag mit seiner Waffe, die einen Schadensbonus von 2W6 besitzt, einen kritischen Treffer, verdoppelt sich der Schadensbonus auf 4W6.
 ====
 
+[[ref_battle_nondeadly_damage]]
 === Tödlicher und nicht-tödlicher Schaden
 
 Weiterhin ist zwischen tödlichem und nicht-tödlichem Schaden zu unterscheiden.
@@ -1224,6 +1271,7 @@ Alle anderen Formen der Attacke, die tödlichen Schaden austeilen, können keine
 
 Waffen, die nicht-tödlichen Schaden verursachen, können keinen tödlichen Schaden verursachen.
 
+[[ref_battle_damage_types]]
 === Schadensarten
 
 Bisher haben wir Schaden sehr allgemein gefasst und unterschiedliche Quellen des Schadens nicht bedacht.
@@ -1254,6 +1302,7 @@ Folgende Schadensarten sind in den Grundregeln abgedeckt.
 Sofern nicht anders angegeben, reduzieren die Schadenspunkte die TP eines Charakters und normale Rüstung reduziert den Schaden.
 Wird ein Guter Erfolg bei der Angriffsprobe erzielt, tritt ein zusätzlicher Effekt ein.
 
+[[ref_battle_damage_physical]]
 ==== Physisch oder körperlich
 
 Als physicher oder körperlicher Schaden wird jeder Schaden bezeichnet, der durch fassbare Gegenstände oder Objekte entsteht.
@@ -1263,29 +1312,33 @@ Ebenso zählt der harte Fußboden als Objekt, auf den der Charakter fällt, wenn
 Sofern nicht anders angegeben, gilt jeder Schaden als körperlicher Schaden.
 Dieser Schaden wird von den TP abgezogen und es schützt normale Rüstung.
 
+[[ref_battle_damage_fire]]
 ==== Feuer
 
 Das Feuer ist eine zerstörerische und unbändige Kraft, die solange konsumiert, bis nichts mehr da ist.
 Feuerschaden kann viele Quellen haben, vom Lagerfeuer bis zum Waldbrand, viele Zaubersprüche nutzen die Kraft des Feuers oder auch Kreaturen und Konstrukte, die Feuer spucken.
 
-Als zusätzlicher Effekt wird der Charakter entzündet und erleidet für 1W10 Kampfphasen am Anfang jeder Kampfphase 1W3 Feuerschaden.
+Als zusätzlicher Effekt wird der Charakter entzündet und erleidet für 1W6 Kampfphasen am Anfang jeder Kampfphase 1W3 Feuerschaden.
 
+[[ref_battle_damage_frost]]
 ==== Frost
 
 Eiskalt und lebensfeindlich ist der Frost.
 Er lässt sogar den Atem gefrieren und das Blut in den Adern stillstehen.
 Frost-Schaden kommt natürlicherweise in besonders kalten Gebieten vor, wie zum Beispiel die Eiswüsten nördlich von Kchrun.
 
-Als zusätzlichen Effekt erleidet der Charakter einen Kälteschock und erleidet für 1W10 Kampfphasen einen Malus von -5 auf einen INI-Wert.
+Als zusätzlichen Effekt erleidet der Charakter einen Kälteschock und erleidet für 1W6 Kampfphasen einen Malus von -5 auf einen INI-Wert.
 
+[[ref_battle_damage_acid]]
 ==== Säure
 
 Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende Säuren oder Gase, die Materialien, wie Metalle, Textilien, Leder und auch Haut und Augen angreifen.
 Ätzende Gase werden von dieser Regel auch betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten assoziiert wird.
 Manche der Säuren gehören zum Verdauungsprozess einer Kreatur oder sind ein Abwehrmechanismus.
 
-Als zusätzlicher Effekt wird der Charakter weiter verätzt und erleidet für 1W10 Kampfphasen am Anfang jeder Kampfphase 1W3 Säureschaden.
+Als zusätzlicher Effekt wird der Charakter weiter verätzt und erleidet für 1W6 Kampfphasen am Anfang jeder Kampfphase 1W3 Säureschaden.
 
+[[ref_battle_damage_shock]]
 ==== Schock
 
 Schock-Schaden ist elektrisierende Energie, die durch den Körper ihrer Opfer fließt und diese lähmt.
@@ -1293,6 +1346,7 @@ Typische Quellen sind Blitzschläge, natürliche, wie magische, bestimmte techno
 
 Als zusätzlichen Effekt erleidet der Charakter einen körperlichen Schock, er ist für eine Kampfphase benommen.
 
+[[ref_battle_damage_aether]]
 ==== Aetherisch
 
 Aetherischer Schaden greif nicht den Körper des Ziels, sondern seine Verbindung zum Aether selbst an.
@@ -1301,6 +1355,7 @@ Durch wird dem Opfer die Energie entzogen, die es ihm erlaubt, Zauber zu wirken.
 Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
 Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
+[[ref_battle_damage_magic]]
 ==== Magie
 
 Kanalisierte, magische Energie verursacht diese Art von Schaden.
@@ -1309,6 +1364,7 @@ Sehr häufig ist dies bei Zaubersprüchen der Fall und bei einigen magischen Ph�
 Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
 Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
+[[ref_battle_damage_mental]]
 ==== Mental
 
 Kosmisches Grauen bevölkert das Multiversum.
@@ -1318,6 +1374,7 @@ Der mentale Schaden wird normal ausgewürfelt und dann von den SP abgezogen.
 Gegen diese Art von Schaden schützt keine normale Rüstung.
 Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
+[[ref_battle_damage_necrotic]]
 ==== Nekrotisch
 
 Nekrotischer Schaden entsteht aus der dunkeln und lebensfeindlichen Energie von Ebon.
@@ -1376,6 +1433,7 @@ Da der Angriff vorhin nicht explizit gegen eine andere Trefferzone geführt wurd
 Also erleidet er 15-4 = 11 Schadenspunkte.
 ====
 
+[[ref_battle_wounds]]
 == Verletzungen
 
 Als *Verletzung* bezeichnet man einen starken Verlust von Treffpunkten, der durch einen einzigen Angriff verursacht wurde.
@@ -1448,6 +1506,7 @@ Nun erhält er durch einen Angriff weitere 22 Schadenspunkte auf diese Trefferzo
 Der Charakter erhält damit eine Mittelschwere Verletzung.
 ====
 
+[[ref_battle_bleeding_wounds]]
 === Optional: Blutende Wunden
 
 Am Anfang jeder Kampfrunde nach Erhalt einer Verletzung vom Verletzungsgrad Mittelschwer oder höher verliert der Charakter pro Blutende Wunde 1W3 TP ohne Rüstungsschutz.
@@ -1523,6 +1582,7 @@ Dazu trägt er eine Kettenhaube mit Rüstungsschutz 5 und INI-Malus -1.
 Damit beträgt sein Rüstungsschutz 12 und sein INI-Malus -2.
 ====
 
+[[ref_battle_knockdown]]
 == Niederschlag
 
 Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer Verletzung einen *Niederschlag* erleiden kann.

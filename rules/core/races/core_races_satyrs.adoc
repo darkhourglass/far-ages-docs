@@ -1,10 +1,21 @@
 = Satyre
 
 *Attributsbonus:* +1 GE, +1 SB +
-*Vorteile:* Mehr Stabilitätspunkte I, Schadensresistenz [Mental] I +
-*Nachteile:* Zu Direkt +
 *Größe:* 5 +
-*Sonstiges:* - +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten +
-*CP:* 45 +
+*CP:* 40 +
+
+== Eigenschaften
+
+=== Mentale Rüstung
+Die Psyche eines Satyre ist äußerst robust und gegen den korrumpierenden Einfluss des Wahnsinns gewappnet.
+Ein Satyre besitzt 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_armor[Rüstung] für die Schadensart xref:../core_rules_battlesystem.adoc#ref_battle_damage_mental[Mental].
+
+=== Spirituelle Unterstützung
+Satyre besitzen eine beruhigende Aura, die andere Lebewesen mit Selbstbewusstsein füllt und sie in schweren Zeiten unterstützt.
+Der Satyre kann einmal am Tag diese Eigenschaft als xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen.
+Pro Stufe in SB kann er ein Lebewesen im Umkreis von 6 Metern einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_fearhorror[Furcht und Horror]-Proben verleihen.
+Der Bonus verbleibt für jeweils eine Stunde.
