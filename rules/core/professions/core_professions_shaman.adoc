@@ -1,11 +1,11 @@
 = Schamane
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Handwerk [Arzt], Spruchzauberei [Schamanismus], Verbrennen Widerstehen, Willenskraft, Wissen [Pflanzen] +
+*Talentliste (SGM 1):* Aether Wahrnehmung, Disziplin, Handwerk [Arzt], Spruchzauberei [Schamanismus], Verbrennen Widerstehen, Wissen [Pflanzen] +
 *Talentliste (SGM 2):* Hieb Ausweichen, Konversation, Verborgenes Erkennen, Wurfwaffen, Wissen [Alchemie], Wissen [Überleben] +
 *Attributsbonus:* +1 EN +
 *TP/MP-Steigerung:* +5/+7 +
-*Voraussetzungen:* EN 2 +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Robe, Fetisch, Wurfaxt, Wanderstab, Arztkoffer +
 *CP:* 40 +
 
@@ -17,14 +17,15 @@ Schamanen gehen eine enge spirituelle Bindung mit der Welt um sich ein.
 Diese Bindung symbolisiert sich in der Manifestierung eines Schutzgeistes, der den Schamamen dauerhaft begleitet. +
 Im Normalfall ist der Geist unsichtbar und existiert nur im Aether.
 Er besitzt keinen Körper und kann damit keinen Einfluss auf die physische Welt nehmen.
-Jedoch gewährt seine Anwesenheit dem Schamenen besondere Fähigkeiten. +
+Jedoch gewährt seine Anwesenheit dem Schamanen besondere Fähigkeiten. +
 Für Schutzgeister gelten folgenden Regeln:
 
-* Zu Beginn der Charaktererschaffung muss der Schamane einen Schutzgeist aus unten stehender Liste auswählen. Die Entscheidung ist final.
+* Zu Beginn der Charaktererschaffung muss der Schamane einen Schutzgeist aus unten stehender Liste auswählen.
+Die Entscheidung ist final.
 * Solange der Geist im Umkreis von 15 Metern um den Schamanen sich befindet, kann der Schamane die Fähigkeiten des Geistes nutzen.
-* Befindet sich der Geist außerhalb des Umkreises, kann der Schamane eine xref:../core_rules_battlesystem.adoc#ref_battle_action[Aktion] aufwänden, um den Geist herbeizurufen.
-//TODO ref körperlos
-* Der Geist ist körperlos und kann durch physische Attacken nicht verwundet werden. Ausschließlich Angriffe oder Zauber, die auf körperlose Wesen zielen, können Ihn betreffen. Verliert der Geist durch einen solchen Angriff mindestens 1 TP, ist der Geist für 24 Stunden gebannt. Nach Ablauf dieser Zeit kann er Schamane ihn wieder beschören.
+* Befindet sich der Geist außerhalb des Umkreises, kann der Schamane eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] aufwänden, um den Geist herbeizurufen.
+* Der Geist ist link:../../advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] und kann durch physische Attacken nicht verwundet werden. Ausschließlich Angriffe oder Zauber, die auf körperlose Wesen zielen, können Ihn betreffen.
+Verliert der Geist durch einen solchen Angriff mindestens 1 TP, ist der Geist für 24 Stunden gebannt. Nach Ablauf dieser Zeit kann er Schamane ihn wieder beschwören.
 * Der Geist besitzt keine Sprache, aber er und der Schamane können telepathisch miteinander kommunizieren. Im Normalfall folgt der Geist den Worten des Schamanen.
 * Wenn der Schamane sich konzentriert, kann er durch die Augen des Geistes sehen. Während er dies tut, kann er keine eigenen Aktionen durchführen und gilt als xref:../core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig].
 
@@ -53,7 +54,7 @@ Dabei nimmt er unterschiedliche Gestalten an, die von verschiedenen Tieren bis a
 
 ==== Feengeist
 
-Feengeister stammen aus dem xref:../core_rules_magic_base.adoc#ref_magic_lore_empyreum[Empyreum], dem Rand des Aethers, der Ursprung der xref:../core_rules_magic_base.adoc#ref_magic_types_wild_magic[Wilden Magie] ist.
+Feengeister stammen aus dem xref:../core_rules_magic_base.adoc#ref_magic_lore_empyreum[Empyreum], dem Rand des Aethers, der Ursprung der xref:../core_rules_magic_base.adoc#ref_magic_schools_wild_magic[Wilden Magie] ist.
 Neben schrecklichen Wesen wie Dämonen ist das Empyreum auch Heimat der Feen, der Kinder xref:../../../lore/progenitors/lore_progenitors_alberon.adoc[Alberons]. Feengeister manifestieren sich in verschiedenen verwandten Wesen, wie zum Beispiel Irrlichtern oder Nymphen. +
 Feengeister bieten dam Schamanen folgende Fähigkeiten:
 

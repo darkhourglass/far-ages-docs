@@ -115,20 +115,23 @@ Die meisten Zauberschulen müssen daher hohe Gebühren für die Ausbildung verla
 
 Dahingehend haben die Technomanten auch wieder die Nase vorne, denn sie können es sich leisten, die Gebühren klein zu halten.
 
+[[ref_technomancy_rules]]
 == Regeln
 
 Ob nun in den Städten des Bündnis-Staates oder in einer ganz anderen Welt, es ist es praktisch unmöglich nicht mit technomanten Geräten in Kontakt zu treten.
 Ebenso besteht die Möglichkeit, dass ein Spieler einen Technomanten-Charakter spielt.
 In diesem Kapitel möchten wir eine Vielzahl von technomantischen Geräten und Konstrukten vorstellen. Dabei gelten als Geräte diejenigen Produkte, die nicht eigenständig agieren können und von einem lebenden Wesen bedient werden müssen, während Konstrukte eigenständig agieren können.
 
+[[ref_technomancy_talent_technomancy]]
 === Das Talent Technomantie
 
-*Voraussetzungen:* Aether Wahrnehmung 5, Wissen[Arkanes] 5, Artefaktkunde, Mechanik, Beruf: Technomant +
+*Voraussetzungen:* Aether Wahrnehmung 3, Wissen[Arkanes] 3, Mechanik +
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* EN +
 *Kampfphasen:* V +
-*Beschreibung:* Dieses Talent bündelt die ganze Vielseitigkeit und Macht, die die Technomanten einzigartig machen. Technomanten dürfen mit diesem Talent eine Reihe von Proben würfeln:
+*Beschreibung:* Dieses Talent bündelt die ganze Vielseitigkeit und Macht, die die Technomanten einzigartig machen.
+Technomanten dürfen mit diesem Talent eine Reihe von Proben würfeln:
 
 * eine Wissen-Probe auf Gebiete Ingenieur, Mechanik, Maschinen und Konstrukte.
 * Erschaffen von technomantischen Geräte und Konstrukten
@@ -139,6 +142,7 @@ In diesem Kapitel möchten wir eine Vielzahl von technomantischen Geräten und K
 
 Außerdem verwenden Technomanten dieses Talent wie Spruchzauberei, jedoch ausschließlich für die Zauber aus der Zauberspruchliste link:../../compendiums/spelllists/compendium_spelllist_technomancy.adoc[Technomantie].
 
+[[ref_technomancy_prequisites_creating]]
 === Voraussetzungen für die Konstruktion von Technomantischen Gegenständen
 
 Ähnlich wie bei dem Herstellungsprozess von magischen Gegenständen, muss ein Technomant bestimmte Voraussetzungen erfüllen, bevor er ein Gerät oder ein Konstrukt herstellen kann.
@@ -162,7 +166,8 @@ Der Charakter muss diese Zeit aufbringen, d.h. er muss die Anzahl an Tagen, Stun
 
 * *Berührung:* Wenn der Charakter eine Probe mit seinem Talent Technomantie würfelt, so muss er den entsprechenden Gegenstand berühren können.
 
-=== Das Talent Technomantie
+[[ref_technomancy_technomancy_roll]]
+=== Technomantie-Probe
 
 Wann immer in einer Beschreibung oder einer Regelerläuterung von einer Technomantie-Probe die Rede, so ist eine Probe auf dieses Talent gemeint.
 In den meisten Fällen bezieht sich dies auf eine Konstruktionsprobe für ein technomantisches Erzeugnis oder aber auch auf die Verwendung eines Technomanten-Zauberspruches.
@@ -170,6 +175,7 @@ In den meisten Fällen bezieht sich dies auf eine Konstruktionsprobe für ein te
 Mit dem Talent Technomantie lassen sich jedoch auch *Magische Kristalle konfigurieren*, so dass sie ihre MP abgeben können.
 Diese Regeln sind äquivalent zu der gleichen Anwendung des Talentes Magische Gegenstände Herstellen, wie im Dokument link:core_rules_talents_magic.adoc[Magische Talente] im Kapitel Magische Gegenstände herstellen beschrieben.
 
+[[ref_technomancy_technomancy_roll_mishap]]
 === Misserfolge bei der Technomantie-Probe
 
 Ein Misserfolg bei der Technomantie-Probe bedeutet, dass der Hersteller einen Fehler gemacht hat, jedoch das Projekt noch retten kann.

@@ -78,20 +78,21 @@ Kampfrunden sind ein paar Augenblicke, in denen unterschiedliche Ereignisse stat
 In jeder Kampfrunde stehen jedem Teilnehmer unterschiedliche Aktionen und Manöver zur Verfügung.
 Hat jeder Teilnehmer seine Aktionen in einer Kampfrunde durchgeführt, ist diese vorbei und eine neue Kampfrunde beginnt. Ein Kampf ist beendet, wenn in einer Kampfrunde kein Teilnehmer Aktionen durchführen kann oder möchte.
 
-[[ref_battle_battleround]]
-=== Ablauf der Kampfrunde
+[[ref_battle_battlephase]]
+=== Ablauf der Kampfphase
 
-Jede Kampfrunde läuft nach dem gleichen Schema ab:
+Jede Kampfphase läuft nach dem gleichen Schema ab:
 
-1. Initiative bestimmen
-2. Aktionen durchführen
+1. <<ref_battle_battlephase_initiative, Initiative bestimmen>>
+2. <<ref_battle_battleround_actions, Aktionen durchführen>>
 
 Die folgenden Unterkapitel beschreiben die einzelnen Schritte im Detail.
 
-==== Initiative bestimmen
+[[ref_battle_battlephase_initiative]]
+=== Initiative bestimmen
 
 Zu Beginn jeder Kampfphase bestimmt jeder Teilnehmer seinen Initiativewert.
-Dieser berechnet sich aus dem festen Initiativewert (INI) des Teilnehmers, ggf. zusätzlichen Boni oder Mali, z.B. dem Vorteil Verbesserte Initiative und einem Würfelwurf von 2W10.
+Dieser berechnet sich aus dem festen Initiativebonus (INI) des Teilnehmers, ggf. zusätzlichen Boni oder Mali, z.B. dem Vorteil Verbesserte Initiative und einem Würfelwurf von 2W10.
 
 Rüstung, die der Charakter trägt, reduziert außerdem seinen INI-Wert.
 Die nennt man einen sogenannten *Initiative-Malus*.
@@ -119,15 +120,16 @@ Kraags Initiativebonus ist jedoch höher.
 Damit ergibt sich folgende Initiativereihenfolge: Kraag, Teliskin, Me'ander.
 ====
 
-===== Optional: Feste Initiativereihenfolge
+==== Optional: Feste Initiative-Reihenfolge
 
-Als Alternative zu dem vorgestellten System kann die Initiativereihenfolge einmalig bei Kampfbeginn festgelegt werden.
-Dadurch ist jeder Teilnehmer während des Kampf in jeder Kampfrunde zur gleiche Zeit am Zug.
-Diese Vereinfachung ist vorallem dazu gedacht, den Ablauf des Kampfs schneller zu durchzuführen.
+Als Alternative zu dem vorgestellten System kann die Initiative-Reihenfolge einmalig bei Kampfbeginn festgelegt werden.
+Dadurch ist jeder Teilnehmer während des Kampfes in jeder Kampfphase zur gleichen Zeit am Zug.
+Diese Vereinfachung ist vor allem dazu gedacht, den Ablauf des Kampfs schneller zu durchzuführen.
 
-==== Aktionen durchführen
+[[ref_battle_battleround_actions]]
+=== Aktionen durchführen
 
-Sobald die Initiativereihenfolge es erlaubt, darf ein Kampfteilnehmer seine Aktionen durchführen.
+Sobald die Initiativreihenfolge es erlaubt, darf ein Kampfteilnehmer seine Aktionen durchführen.
 Pro Kampfrunde hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur Verfügung:
 
 * max. 1 Aktion
@@ -137,69 +139,243 @@ Pro Kampfrunde hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur V
 
 Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion bzw. Kombination aus o.g. Aktionen, mit Ausnahme der Reaktion.
 
-[[ref_battle_action]]
-Als *Aktion* in einem Kampf nach dem System von Far Ages bezeichnen wir eine Handlung der Art:
+[[ref_battle_actions]]
+=== Aktionen
+Als *Aktion* in einem Kampf nach dem System von Far Ages bezeichnen wir eine komplexe Handlung, die üblicherweise die Aufmerksamkeit des Charakters voll erfordert.
+Jeder Charakter kann pro Kampfphase eine Aktion durchführen, daher muss er sich zwischen den folgenden Optionen entscheiden.
 
-1. Talenteinsatz
-2. Vorbereitung von Zaubersprüchen
-3. Weiterführen von längereren Aktionen
+[[ref_battle_actions_attack]]
+==== Angriff
+Mit dieser Aktion initiiert der Charakter einen Nahkampf mit einem Gegner in unmittelbarer Reichweite.
 
-*Talenteinsatz* beschreibt, dass der handelnde Charakter ein Talent verwendet, also eine Probe mit einem Talent ablegen möchte.
+Der Charakter darf *nicht* bereits im <<ref_condition_bondedincombat, Kampf gebunden>> sein.
+Er kann maximal die Hälfe seiner BEW entfernt sein und muss diese einsetzen, um sich auf den Gegner zu zubewegen.
+Er muss außerdem eine Angriffsprobe würfeln.
+Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
 
-Unter Talenteinsatz fällt auch die ungeübte Anwendung von Talenten.
-Dies betrifft insbesondere die folgenden Angriffstalente:
+Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als im Kampf gebunden.
 
-* Nahkampfwaffen
-* Projektilwaffen
-* Wurfwaffen
-* Unbewaffneter Kampf
-* Spruchzauberei
+Bewegt sich der Charakter nicht und nutzt ein Talent, wie xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], gilt der Angriff ausschließlich als <<ref_battle_actions_usetalent, Talenteinsatz>>.
+Dasselbe gilt, wenn er selbst im Kampf gebunden ist und zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwendet.
 
-[[ref_battle_movefightaction]]
-Unter *Bewegung-* bzw. *Kampfmanöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen, Sprinten oder einen Sturmangriff durchführen.
-Manöver besitzen normalerweise auch eine Angabe wie viele Kampfphasen sie benötigen, um sie durchzuführen. +
-Manche Manöver interagieren auch mit Talenten, so dass sie nur mit eben solchen angewendet werden können.
-Meistens verändern sie dadurch die für das Talent benötigte Kampfphasen oder verändern die Schwierigkeit die Talentprobe zu bestehen.
-Manöver müssen mit dem Einsatz von Talenten angesagt werden.
-Die Kombination von Manövern und Talenten, die zusammen ausgeführt werden müssen, müssen auch gemeinsam angesagt werden. +
-Eine Aktion kann gegen ein weiteres Manöver eingetauscht werden.
-Entscheidet sich ein Charakter für diese Option hat er formal 2 Bewegungs- bzw. Kampfmanöver in seiner Kampfrunde zur Verfügung.
-Umgekehrt ist dies jedoch nicht möglich.
+Besondere Angriffe sind in den folgenden Unterkapiteln aufgeführt.
 
-[[ref_battle_preparespells]]
+[[ref_battle_actions_attack_mountedattack]]
+===== Berittener Angriff
+Benutzt ein Charakter ein Reittier im Kampf, so gelten die vorgestellten Regeln für den <<ref_battle_actions_attack>> und die Folgenden:
+
+Anstelle seiner BEW wird die BEW des Reittiers verwendet.
+
+Er muss eine xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_meleeweapons_mountedattack[passende Waffe] führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
+
+[[ref_battle_actions_attack_airattack]]
+===== Flugangriff
+Dieser Angriff steht nur Wesen zur Verfügung, die fliegen können.
+Mit dieser Aktion heben sie sich in die Luft und stürzen auf ihre Gegner herab oder können andere Gegner, die sich in der Luft befinden angreifen.
+
+Die zurückgelegte Strecke kann maximal die Hälfte der BEW des Angreifers sein.
+Dabei wird die Luftbewegung genommen.
+Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW wieder fortbewegen.
+
+[[ref_battle_actions_continueaction]]
+==== Aktion weiterführen
+Neben dem Vorbereiten von Zaubersprüchen können auch anderen Aktionen länger dauern als eine Kampfrunde.
+In diesem Fall spricht man vom *Weiterführen*.
+Charaktere, die mit entsprechend längeren Aktionen beschäftigt sind und diese nicht abbrechen möchten, müssen ihre Aktion zum Weiterführen werden.
+
+[[ref_battle_actions_aimedattack]]
+==== Gezielter Schlag / Gezielter Schuss
+Der Charakter kann mit einer Angriffsprobe im Nahkampf oder Fernkampf versuchen, einen gezielten Treffer bei einem Gegner zu erlangen.
+Dazu sagt er die Trefferzone an, die er zu treffen beabsichtigt, vorausgesetzt er kann diese sehen.
+
+Der Angriffswurf ist mit einem Malus von *-2 auf die Würfe zu Erfolg* belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag oder Schuss darstellt.
+
+Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
+Es kann dadurch auch Rüstung umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
+
+[[ref_battle_actions_brawl]]
+==== Raufen und Ringen
+Im xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] können Charakter Raufen und Ringen.
+
+Zum Einsatz würfelt der Charakter eine reguläre Probe auf Unbewaffneten Kampf.
+Ist diese erfolgreich, verursacht er halbierten <<ref_battle_damagerolls, Schaden>>.
+Die beiden Kontrahenten würfeln nun eine konkurrierende ST-Probe.
+Derjenige, der mehr Erfolge gewürfelt hat, hat den Gegner im Griff.
+Dieser gilt als <<ref_condition_immobile, gefangen>>.
+
+Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfrunde eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
+Dieser Versuch gilt als das Manöver <<ref_battle_move_standup, befreien>>.
+Es kann also pro Kampfphase immer eine Probe gewürfelt werden und je nachdem, wer gewinnt, das Ergebnis folgen.
+
+[[ref_battle_actions_usetalent]]
+==== Talent einsetzen (Aktion)
+Der Charakter darf ein Talent einsetzen, welches im Kampf als Manöver gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft].
+
+[[ref_battle_actions_support]]
+==== Unterstützen
+Mit dieser Aktion kann der Charakter (der Unterstützer) einen anderen, befreundeten Charakter bei einer Probe zur Seite stehen.
+
+Der Unterstützer muss sich in Sicht- und Hörreichweite des zu Unterstützenden befinden. Der Unterstützte erhält einen Bonus von *+1 auf die Würfe zum Erfolg* für seine Probe.
+
+Um bei einer Talentprobe zu unterstützen, muss der Unterstützer das Talent selbst beherrschen.
+
+[[ref_battle_actions_preparespells]]
+==== Zauber vorbereiten
 Zaubersprüche benötigen eine spezielle Behandlung im Regelsystem von Far Ages.
 Daher wird das *Vorbereiten von Zaubersprüchen* in diesem Moment extra erwähnt.
 Bevor ein Zauberspruch ausgesprochen werden kann, formt ein Zauberer ihn aus dem Aether, dem magischen Zwischenreich zwischen den Dimensionen.
 Diese Zeit wird in Form von Aktionen bei der Beschreibung des Zauberspruches angegeben.
 Generell gilt, die Spruchzauberei-Probe in der letzten benötigten Kampfrunde gewürfelt wird.
-Dazu jedoch mehr im Kapitel Magie im Kampf und im Dokument link:core_rules_magic_base.adoc[Magie].
+Die vollständigen Regeln finden sich unter xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[Zaubersprüche vorbereiten].
 
-Neben dem Vorbereiten von Zauberspüchen können auch anderen Aktionen länger dauern als eine Kampfrunde.
-In diesem Fall spricht man vom *Weiterführen*.
-Charaktere, die mit entsprechend längeren Aktionen beschäftigt sind und diese nicht abbrechen möchten, müssen ihre Aktion zum Weiterführen werden.
+[[ref_battle_movefightaction]]
+=== Bewegungsmanöver
+Unter den Begriff *Bewegungmanöver* oder auch *Kampfmanöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen.
+Pro Kampfphase steht einem Charakter maximal ein Bewegungsmanöver zu.
+Er muss sich daher zwischen den folgenden Aktionen entscheiden.
+
+[[ref_battle_move_standup]]
+==== Aufstehen / Befreien
+Befindet sich der Charakter in der Kampfphase in einer <<ref_conditions, Situation>>, die es ihm erlaubt, sich zu befreien oder aufzustehen, kann er dieses Manöver einsetzen, um sich aufzurichten.
+
+Je nach Situation kann allerdings eine zusätzliche Probe nötig sein.
+
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+
+[[ref_battle_move_readyitem]]
+==== Gegenstand vorbereiten
+Um einen Gegenstand zu <<ref_battle_freeactions_useitem, verwenden>>, muss sich dieser in der Hand des Charakters befinden.
+Mit diesem Manöver kann der Charakter einen Gegenstand in eine freie Hand nehmen, wenn dieser die folgende Bedingung erfolgt.
+
+Der Gegenstand muss sich entweder am Körper des Charakters oder im Abstand von maximal 1,50 Metern befinden.
+
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+
+[[ref_battle_move_usetalent]]
+==== Talent einsetzen (Manöver)
+Der Charakter darf ein Talent einsetzen, welches im Kampf als Manöver gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik] oder xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen].
+
+[[ref_battle_move_useBEW]]
+==== Rennen
+Der Charakter kann in dieser Kampfphase seine BEW-Rate verwenden.
+Es gelten die üblichen Regeln für <<ref_battle_rules_movement, Bewegung>>.
+
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+
+Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
 [[ref_battle_freeactions]]
+=== Freie Aktionen
 *Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
-Grundsätzlich kann der Charakter also beliebig viele Freie Aktionen durchführen, allerdings kann die Anzahl bestimmter Freier Aktionen limitiert sein.
+Grundsätzlich kann der Charakter also beliebig viele Freie Aktionen durchführen, allerdings darf er jede konkrete Freie Aktion nur einmal pro Kampfphase anwenden, zum Beispiel kann der Charakter einen Heiltrank trinken  oder seinen Zauberstecken verwenden.
+Beide Aktionen fallen unter <<ref_battle_freeactions_useitem, Gegenstand verwenden>>, daher muss er sich für eines von beiden entscheiden.
 Freie Aktionen können nur angewendet werden, wenn der Charakter an der Reihe ist.
 
-[[ref_battle_reactions]]
-*Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen Initiativereihenfolge ausführen kann, d.h. wenn er ereigentlich nicht dran.
-Typische Reaktionen ist die Verwendung von Talenten wie Hieb Ausweichen, Schildverteidigung oder Parade.
-
-Grundsätzlich können Realktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
-Charaktere, die angegriffen werden und in der Lage sind, Hieb Ausweichen einzusetzen, dürfen dieses Talent einsetzen.
-Die jeweiligen Beschreibungen geben Auskunft, ob Reaktionen andere Aktionen, die vorbereitet oder weitergeführt werden, unterbrechen.
-
-=== Aktionen abbrechen
-
-Es kann vorkommen, dass Kampfteilnehmer aufgrund von anderen Ereignissen im Kampf zu der Ansicht kommen, dass sie ihre aktuell vorbereitete Aktion nicht mehr durchführen wollen.
-Beispielsweise könnte ein Zauberer einen Zauberspruch, den er gerade vorbereitet, abbrechen wollen, weil im Verlauf der letzten Kampfrunden sein Ziel außer Sicht ging oder ein Teilnehmer ging durch einen Querschläger zu Boden, weswegen sein Kontrahent die aktuelle Attacke lieber gegen einen anderen nahestehenden Kampfteilnehmer richten will.
+[[ref_battle_freeactions_cancelaction]]
+==== Aktionen abbrechen
+Es kann vorkommen, dass Kampfteilnehmer aufgrund von anderen Ereignissen im Kampf zu der Ansicht kommen, dass sie ihre aktuell vorbereitete <<ref_battle_actions_continueaction, Aktion>> nicht mehr durchführen wollen.
+Beispielsweise könnte ein Zauberer einen Zauberspruch, den er gerade vorbereitet, abbrechen wollen, weil im Verlauf der letzten Kampfphase sein Ziel außer Sicht ging oder ein Teilnehmer ging durch einen Querschläger zu Boden, weswegen sein Kontrahent die aktuelle Attacke lieber gegen einen anderen nahestehenden Kampfteilnehmer richten will.
 
 Aktionen können in ihrer Vorbereitung oder auch am Ende ihrer Vorbereitung, also zur Durchführung, geändert oder abgebrochen werden, vorausgesetzt, diese Aktion erlaubt einen frühzeitigen Abbruch.
 Es kann dann zu negativen Folgen für den Abbrecher kommen, was jedoch von der Situation abhängig ist und keinen allgemeinen Regeln unterliegt.
 
-Je nach Aktion kann das Abbrechen selbst eine Aktion sein, ein Manöver oder gar eine Freie Aktion.
+[[ref_battle_freeactions_readyaction]]
+==== Aktion abwarten
+Als freie Aktion darf ein Charakter zu Beginn der Kampfphase ansagen, dass seine <<ref_battle_actions, Aktion>> an ein bestimmtes Ereignis gebunden ist.
+Tritt das Ergebnis ein, ist der Charakter sofort dran, auch wenn seine Initiative schlechter ist.
+Tritt das Ereignis jedoch nicht ein, wird der Charakter wie am Ende der Initiativereihenfolge behandelt.
+
+Nach ermessen des SLs dürfen auch die Kombinationen aus <<ref_battle_actions, Aktion>> und <<ref_battle_movefightaction, Manöver>> oder <<ref_battle_complexactions, komplexe Aktion>> abgewartet werden.
+
+[[ref_battle_freeactions_dropitem]]
+==== Gegenstand fallenlassen
+Als freie Aktion darf ein Charakter jeden Gegenstand, den er bereits in den Händen hält, fallen lassen.
+
+[[ref_battle_freeactions_useitem]]
+==== Gegenstand verwenden
+Ein Charakter kann einen Gegenstand verwenden, der nicht durch eine Attributs- oder Talentprobe zum Einsatz erfordert.
+Dies kann zum Beispiel ein Heiltrank sein.
+Ein Zauberstecken zählt dabei nicht, denn dieser wird durch das Talent Spruchzauberei eingesetzt.
+Die Verwendung und der Effekt des Gegenstandes ist im Normalfall in der Beschreibung zu finden.
+
+[[ref_battle_freeactions_quickstep]]
+==== Schneller Schritt
+Hat der Charakter in der aktuellen Kampfphase nicht eines der Manöver <<ref_battle_move_useBEW>> oder <<ref_battle_complexactions_sprint>> eingesetzt und ist er nicht im <<ref_condition_bondedincombat, Kampf gebunden>>, darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
+
+Dieser Schritt folgt den Regeln für <<ref_battle_rules_movement, Bewegung>>, verursacht aber keinen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+
+[[ref_battle_freeactions_speak]]
+==== Sprechen
+Der Charakter kann eine freie Aktion nutzen, um zu Sprechen.
+In der Kürze der Kampfphase sind dabei maximal 10 Worte oder 1 Satz erlaubt.
+
+[NOTE]
+Je nach Ermessen des SLs und Abstimmung in der Gruppe dürfen Charaktere auch längere Sätze verwenden.
+Die Vorgabe kann als grobe Richtlinie verstanden werden.
+
+[[ref_battle_reactions]]
+=== Reaktionen
+*Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen Initiativereihenfolge ausführen kann, also wenn er er eigentlich nicht dran.
+Typische Reaktionen sind Talente wie Hieb Ausweichen, Schildverteidigung oder Parade.
+
+Grundsätzlich können Reaktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
+Charaktere, die angegriffen werden und in der Lage sind, Hieb Ausweichen einzusetzen, dürfen dieses Talent einsetzen.
+Die jeweiligen Beschreibungen geben Auskunft, ob Reaktionen andere Aktionen, die vorbereitet oder weitergeführt werden, unterbrechen.
+
+In jeder Kampfphase besitzt ein Charakter im Normalfall genau eine Reaktion.
+
+[[ref_battle_reaction_dogde]]
+==== Ducken
+Muss der Charakter in seiner Kampfphase einen beliebigen xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] würfeln, kann er als Reaktion sich ducken.
+In diesem Fall erhält er einen Bonus von +2 auf die Würfe zum Erfolg.
+Das betroffene Attribut ist dabei unerheblich.
+
+[[ref_battle_reaction_usetalent]]
+==== Talent einsetzen (Reaktion)
+Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen].
+
+[[ref_battle_complexactions]]
+=== Komplexe Aktionen
+Als *komplexe Aktionen* werden Manöver bezeichnet, die in einer Kampfphase sehr viel Aufmerksamkeit eines Charakters erfordern.
+Komplexe Aktionen erfordern den Einsatz der <<ref_battle_actions, Aktion>> und des <<ref_battle_movefightaction, Bewegungsmanövers>>, welches ein Charakter im Normalfall zur Verfügung hat.
+
+[[ref_battle_complexactions_sprint]]
+==== Sprinten
+Der Charakter kann in dieser Kampfphase seine doppelte BEW-Rate verwenden.
+Es gelten die üblichen Regeln für <<ref_battle_rules_movement, Bewegung>>.
+
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+
+Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
+
+[[ref_battle_complexactions_charge]]
+==== Sturmangriff
+Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
+Er muss mindestens die Hälfte seiner BEW-Rate und maximal seine volle BEW-Rate von seinem Gegner in gerader Linie entfernt sein.
+Diese Linie darf nicht durch Hindernisse oder andere Kreaturen blockiert sein.
+Außerdem darf der Charakter nicht im <<ref_condition_bondedincombat, Kampf gebunden>> sein.
+
+Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
+Seine
+
+Bewegt sich der Charakter durch die Bedrohungszonen anderer Kreaturen, so provoziert er <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
+
+Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
+
+[[ref_battle_actions_retreat]]
+==== Zurückweichen / Flucht
+Neben Angriff ist auch manchmal die Flucht die beste Verteidigung, wenn man einer Übermacht oder einem starken Gegner gegenüber steht.
+
+Ist ein Charakter im <<ref_condition_bondedincombat, Kampf gebunden>>, kann er diese Aktion wählen, um sich aus dem Kampf zurückzuziehen.
+
+Ein Charakter kann in einer Runde, in der er Zurückweichen einsetzen, seine gesamte BEW-Rate einsetzen, um sich von seinem Kontrahenten zu entfernen.
+In diesem Fall provoziert der Charakter keinen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>, wenn er sich die durch Bedrohungszonen seiner Gegner bewegt.
+Dies gilt für alle Gegner, mit denen der Charakter im Kampf gebunden ist.
+Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
+
+Der Charakter provoziert allerdings nach regulären Regeln <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>, wenn er sich während seiner Bewegung durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszone>> anderer Gegner bewegt.
+
+Die Bewegung des Charakters darf nicht in der Bedrohungszone eines Gegners enden.
 
 [[ref_battle_rules_melee_and_unarmed]]
 == Nahkampf und Unbewaffneter Kampf
@@ -217,11 +393,13 @@ Trägt er einen Schild, so kann er auch die ungeübte Anwendung des Talents Schi
 
 Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine einfache Probe seitens des Angreifers gewürfelt und es gilt die Anzahl an Erfolgen, die er gewürfelt hat.
 
+[[ref_battle_rules_melee_and_unarmed_zoneofcontroll]]
+=== Bedrohungszone
 Welche Gegner ein Charakter angreifen kann, bestimmt seine *Bedrohungszone*.
 Die nebenstehende Abbildung zeigt die Bedrohungszonen eines Charakters der Größenkategorie 5 in grauer Farbe.
+//TODO image
 
-Ein Charakter kann keine Charaktere in seinem Rücken angreifen, außer er dreht sich um.
-Dies jedoch gilt als Kampfmanöver und kann Gelegenheitsangriffe provozieren.
+Ein Charakter kann keine Charaktere in seinem Rücken angreifen.
 
 Größere Wesen haben meistens auch größere Bedrohungszonen, das heißt, sie haben vermutlich längere Arme, Tentakel oder ähnliches, mit denen sie ihre Gegner erreichen können.
 Daher gilt, dass jede Größenkategorie von 7 oder höher einen zusätzlichen Halbring pro Größenkategorie um die Basis der Kreatur hat.
@@ -268,9 +446,7 @@ Sie können auch nur Kreaturen angreifen, die sich auf demselben Kästchen befin
 
 Innerhalb dieser Bedrohungszonen kann der Charakter jedes Wesen im Nahkampf und Unbewaffneten Kampf angreifen.
 Ebenso erhält er für bestimmte Aktionen seiner Gegner Gelegenheitsangriffe, wenn diese innerhalb seiner Bedrohungszonen stehen.
-Für alle diese Angriffe kommen die nun folgenden Modifikatoren in Frage.
-
-Sobald zwei Gegner im Nahkampf Angriffs- und Verteidigungswürfe ausgeführt haben, gelten sie als *im Kampf gebunden*.
+Für alle diese Angriffe kommen die nun folgenden Modifikatoren infrage.
 
 [[ref_battle_modifiers_melee]]
 === Nahkampfmodifikatoren
@@ -321,43 +497,27 @@ Der SL kann bei "ausgeglichenen" Größenunterschieden diese Regel weglassen.
 [[ref_battle_modifiers_size]]
 ==== Größenunterschiede
 
-Nicht nur die Rassen unterscheiden sich stark in der Größe, sondern auch die Kämpfe zwischen Charakteren und Monstern.
+Nicht nur die Völker unterscheiden sich stark in der Größe, sondern auch die Kämpfe zwischen Charakteren und Monstern.
 Drachen und viele Dämonen sind verdammt groß.
 Diese Größenunterschiede werden im System von Far Ages in den Größenkategorien dargestellt, in die jede Rasse eingeordnet wird.
 
 Im Nahkampf, Fernkampf und Unbewaffnetem Kampf muss ein Angreifer einen Modifikator auf seine Angriffswürfe hinnehmen, der sich aus der Differenz zwischen seiner Größenkategorie und der seines Gegners errechnet.
-Ist der Gegner kleiner, so wird die Differenz als Malus auf die Würfelanzahl gewertet, ist der Gegner größer, so wird sie als Bonus auf die Würfelanzahl gewertet. Insgesamt kann der Angriffswurf um *-9 bis +9 auf die Würfelanzahl* modifiziert werden.
+Ist der Gegner kleiner, so wird die Differenz als Malus auf die Würfe zum Erfolg gewertet, ist der Gegner größer, so wird sie als Bonus auf die Würfe zum Erfolg gewertet.
+Insgesamt kann der Angriffswurf um maximal *-4 bis +4* modifiziert werden.
 
 .Größenunterschiede
 ====
 Ein Mensch (Größenkategorie 5) kämpft gegen einen Zwerg (Größenkategorie 4).
 Die Differenz ist 1.
-Da der Zwerg kleiner ist als der Mensch, muss der Mensch für seine Angriffswürfe einen Malus von -1 Würfel hinnehmen.
-Umgekehrt kann der Zwerg jedoch einen Bonus von +1 Würfel bei seinem Angriff auf den Menschen geltend machen.
+Da der Zwerg kleiner ist als der Mensch, muss der Mensch für seine Angriffswürfe einen Malus von -1 auf die Würfe zum Erfolg hinnehmen.
+Umgekehrt kann der Zwerg jedoch einen Bonus von +1 bei seinem Angriff auf den Menschen geltend machen.
 ====
 
 .Größenunterschiede
 ====
 Ein Zwerg (Größenkategorie 4) kämpft gegen einen Lindwurm (Größenkategorie 7).
-Der Zwerg erhält gegen den Lindwurm einen Bonus von +3 Würfel auf seine Angriffsprobe, während der Lindwurm einen Malus von -3 Würfeln auf seine Angriffsprobe erhält.
+Der Zwerg erhält gegen den Lindwurm einen Bonus von +3 auf die Würfe zum Erfolg auf seine Angriffsprobe, während der Lindwurm einen Malus von -3 auf seine Angriffsprobe erhält.
 ====
-
-Die folgende Tabelle gibt Übersicht über die verschiedenen Größenkategorien.
-
-[cols=",",options="header"]
-|===
-|Größenkategorie |Beispiele
-|1 |
-|2 |
-|3 |
-|4 |Zwerge,
-|5 |Menschen, Elfen, Orks
-|6 |Trolle
-|7 |Lindwurm, Junger Drache
-|8 |
-|9 |
-|10 |
-|===
 
 [[ref_battle_modifiers_weapondifference]]
 ==== Waffenunterschiede
@@ -384,8 +544,7 @@ Waffenunterschiede kommen nur zum Tragen, wenn beide Kontrahenten Waffen einsetz
 
 Die grau unterlegten Kacheln der Abbildung zeigen die Positionen an, auf die ein Charakter diagonal schlagen kann. Gegner, die auf diesen Feldern stehen, sind schwerer zu attackieren.
 
-Waffen, deren Größe 5 oder kleiner sind, können diesen Gegner schwerer erreichen, so dass der Charakter einen Malus von *-1 auf seine Würfelanzahl* erhält.
-Waffen, die größer sind, also beispielsweise Speere oder Bihänder, erhalten diesen Malus nicht und können normal verwendet werden.
+Alle Waffen erhalten einen Malus von *-1 auf die Würfelanzahl* der Angriffsprobe, wenn sie nicht explizit für das xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_meleeweapons_diagonal[diagonale Schlagen geeignet] sind.
 
 [[ref_battle_modifiers_back]]
 ==== Angriffe auf die Seite und den Rücken
@@ -440,12 +599,11 @@ Kämpft er mit zwei Waffen, so sind die Mali kumulativ.
 
 Manche Waffen, wie Speere, sind besonders lang, so dass sie den Kontrahenten auf Abstand halten können, bzw. diese angreifen können.
 Mit solchen Waffen kann ein Charakter Gegner angreifen, die in gerader Linie vor ihm stehen und 1,50 Meter (eine Kachel) entfernt stehen.
-Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine Bedrohungszone hinaus gehen würde.
+Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszone>> hinaus gehen würde.
 
-Allerdings können Gelegenheitsangriffe nur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
+Allerdings können <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>> nur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
 
-Mit Waffen dieser Größe erhält man im Allgemeinen auch keinen Malus auf einen diagonalen Angriff.
-Allerdings erhält man aufgrund der Unhandlichkeit einen Malus von *-2 die Würfelanzahl* für die Angriffsproben, die auf das vordere Kästchen und die Seiten geführt werden.
+Um diese Eigenschaft nutzen zu können, muss die Waffen dafür xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_meleeweapons_range[geeignet] sein.
 
 [[ref_battle_modifiers_missingweapon]]
 ==== Der Kampf zwischen einem Gegner mit Waffen und einem Unbewaffneten
@@ -464,7 +622,7 @@ Die folgende Tabelle fasst die Boni und Mali zusammen:
 |===
 |Modifikation |Situation |Modifikator wird angewandt auf:
 
-|-1 bis -3 |Ziel hat bis zu 25% bis 75% Deckung |Angriffswürfe, Würfezum Erfolg
+|-1 bis -3 |Ziel hat bis zu 25% bis 75% Deckung |Angriffswürfe, Würfe zum Erfolg
 
 |-4 oder mehr |Ziel hat 75%+ Deckung |Angriffswürfe, Würfe zum Erfolg
 
@@ -474,11 +632,11 @@ Die folgende Tabelle fasst die Boni und Mali zusammen:
 
 |+1 bis +2 |Höhenunterschiede |Angriffswürfe, Würfelanzahl
 
-|-9 bis +9 |Größenunterschiede |Angriffswürfe, Würfelanzahl
+|-4 bis +4 |Größenunterschiede |Angriffswürfe, Würfe zum Erfolg
 
 |+2 oder +4 |Waffenunterschiede |Angriffs- und Verteidigungswürfe^1^, Würfelanzahl
 
-|-1 |Diagonal Schlagen |Angriffswürfe, Würfelanzahl
+|-1 |Diagonal schlagen |Angriffswürfe, Würfelanzahl
 
 |-1 |Angriffe auf die Seite |Verteidigungswürfe^1^, Würfe zum Erfolg
 
@@ -509,7 +667,7 @@ Alle diese Waffenarten werden als Einfache Probe gewürfelt, bis auf die Ausnahm
 Die folgenden Regeln gelten für die Angriffsprobe in jedem Fall.
 
 [[ref_battle_rules_ranged_combat_baserange]]
-Die eben erwähnten Reichweitenangabe besteht aus einer Zahl.
+Die eben erwähnten Angaben an Reichweiten besteht aus einer Zahl.
 Diese Zahl beschreibt die sogenannte *Grundreichweite* in Metern.
 
 Innerhalb dieser Grundreichweite kann jedes Ziel, welches für den Schützen sichtbar ist, beschossen werden, ohne, dass durch die Entfernung Modifikatoren eintreten.
@@ -522,12 +680,12 @@ Die Grundreichweite ist kein Inkrement.
 ====
 Ein Bogen hat eine Grundreichweite von 25 Metern.
 Alle sichtbaren und gedeckten Ziele innerhalb eines Radius von 25 Metern um den Schützen können ohne Modifikatoren beschossen werden.
-Ziele innerhalb einem Radius von 26 bis 50 Metern sind schwerer zu treffen.
-Ziele innerhalb des Abschnittes 51 bis 75 Meter noch schwerer und so weiter.
+Ziele in Reichweite von 26 bis 50 Metern sind schwerer zu treffen, Ziele innerhalb von 51 bis 75 Meter noch schwerer und so weiter.
 ====
 
 Welche Modifikatoren bestehen und welche weiteren Einschränkungen für Fernkampfangriffe besteht, erklären die folgenden Abschnitte.
 
+[[ref_battle_rules_ranged_combat_minimalsuccesses]]
 === Mindestanzahl von Erfolgen
 
 Auch wenn Fernkampf im Allgemeinen durch eine einfache Probe simuliert wird, so benötigt jede Fernkampfprobe eine Mindestanzahl von Erfolgen, um erfolgreich zu sein.
@@ -547,7 +705,7 @@ Der erste Gegner steht 17 Meter entfernt.
 Damit steht er noch innerhalb der Grundreichweite, womit die Mindestanzahl von Erfolgen 2 beträgt.
 
 Der zweite Gegner befindet sich bereits 56 Meter entfernt und steht damit zweimal die Grundreichweite plus sechs Meter entfernt.
-Insgesamt muss der Schütze nun dreimal die Grundreichweite überwinden, benötigt also mindestens 2+2*2 = 6 Erfolge.
+Insgesamt muss der Schütze daher dreimal die Grundreichweite überwinden, benötigt also mindestens 2+2*2 = 6 Erfolge.
 
 Der dritte Gegner steht sehr weit entfernt.
 Die Distanz beträgt ganze 120 Meter.
@@ -627,7 +785,7 @@ Der Flächenschaden ist dabei in einem *Radius* in Metern angegeben.
 Stellt man den Kampf mit Kachelplänen dar, dann wählt man sich eine Kachel als Zielort aus.
 Alle benachbarten Kacheln des Zielorts sind betroffen, sowohl die, die direkt angrenzen, als auch die, die diagonal angrenzen.
 Dies entspricht einem Wirkungsradius von 1,50 Metern, sowie für jede volle 1,50 ein weiterer Ring aus Kacheln.
-Die folgende Abbildung zeigt beispielhaft einen Radius von 1,50 Metern (dunkelgrau) und von 3,00 Metern (hellgrau) um einen Einschlagspunkt (schwarz).
+Die folgende Abbildung zeigt beispielhaft einen Radius von 1,50 Metern (dunkelgrau) und von 3,00 Metern (hellgrau) um einen Einschlagpunkt (schwarz).
 
 Es ist grundsätzlich ein Erfolg nötig, um den Zielpunkt zu treffen, wobei die Angriffsprobe unter den vorgestellten Regeln für Fernkampfangriffe gewürfelt wird.
 
@@ -669,7 +827,7 @@ Folgende Vor- und Nachteile hat ein Berittener:
 * Gegen Nahkampfattacken hat gilt er als ein Ziel, das Deckung hat.
 Pro Größenkategorie, die das Reittier größer ist als der Charakter, erhält dieser 25% Deckung, bis zu einem Maximum von 75%.
 * Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende aus, so gelten Boni für Höhenunterschiede.
-Dabei wird die GK des Reittieres zur Ermittlerung herangezogen.
+Dabei wird die GK des Reittieres zur Ermittlung herangezogen.
 Ist das Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann muss der Charakter eine Nahkampfwaffe tragen, die eine erhöhte Nahkampfreichweite hat.
 Ist das Reittier noch größer, kann der Reiter keine Nahkampfangriffe ausführen.
 * Der Reiter gilt als zusätzliche Trefferzone für das Reittier.
@@ -687,181 +845,62 @@ Gelingt sie, hat er das Pferd unter Kontrolle und kann normal agieren.
 Seine Aktionen werden daher zum Zeitpunkt der Kampfphase durchgeführt, wenn der Reiter am Zuge ist.
 Sein eigener xref:./core_rules_charactercreation.adoc#ref_secondary_inibonus[INI]-Wert zählt in diesem Fall nicht.
 
+[[ref_battle_mounted_spellcasting]]
 == Spruchzauberei
 
 Die Zauberei ist ein komplexes und umfassendes Thema, dessen Gesamtheit sich im Dokument link:core_rules_magic_base.adoc[Magie] befindet.
 
-== Bewegungsmanöver
+[[ref_battle_rules_movement]]
+== Regeln zu Bewegungen
 
-Das folgende Kapitel beschreibt alle Bewegungsmänover, die im Regelsystem von Far Ages vorgesehen sind.
-Sofern nicht anders angemerkt, gilt ein solcher Eintrag als ein Bewegungs- oder Kampfmanöver, dass in einer Kampfrunde eingesetzt werden kann.
-Manche Bewegungs- und Kampfmanöver besitzen zusätzliche Voraussetzungen, die erfüllt sein müssen, bevor sie eingesetzt werden können.
+In diesem Kapitel werden zusätzliche Regeln für die alle Manöver vorgestellt, bei denen ein Charakter sich bewegt.
+Diese gelten insbesondere für <<ref_battle_move_useBEW>> und <<ref_battle_complexactions_sprint>>.
 
-=== Berittener Angriff
-
-Benutzt ein Charakter ein Reittier im Kampf, so kann er dieses spezielle Kampfmanöver zum Angriff anwenden.
-Er muss dafür mindestens die Hälfte der BEW seines Reittieres von seinem Ziel entfernt sein, um den passenden Anlauf zu bekommen.
-Der Weg zum Ziel muss in gerader, freier Linie erreichbar sein, ansonsten kann der Angriff nicht durchgeführt werden.
-Mit diesem Manöver wird dann das Reittier bewegt.
-
-Als Angriffstalent kann der Reiter Nahkampfwaffen einsetzen.
-
-Er muss eine Lanze führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
-Normalerweise sind alle Waffen als solche ausgezeichnet, wenn sie sich zu einem berittenen
-Angriff eignen.
-
-Der Angreifer verdoppelt für die Schadensprobe seine ST-Stufe und darf die ST-Stufe seines Reittieres hinzuaddieren.
-Sollte der Charakter die Angriffsprobe und damit seine Aktion nicht einsetzen können, verfällt dieser Bonus.
-
-=== Flucht
-
-Flucht stellt neben Zurückweichen eine Möglichkeit dar, sich aus dem einem Nahkampf zurückzuziehen.
-
-Setzt der Charakter Flucht ein, so bewegt er sich von seinem Gegner weg, so als würde er das Kampfmanöver Sprinten einsetzen.
-Die Fluchtrichtung ist beliebig, darf jedoch nicht durch einen Gegner versperrt sein.
-
-Setzt ein Charakter dieses Kampfmanöver ein, löst er Gelegenheitsangriffe aus.
-
-Flucht dauert mindestens eine Kampfrunde an und ist wie Sprinten zu behandeln.
-
-[[ref_maneuver_airattack]]
-=== Flugangriff
-
-Dieser Angriff steht nur Wesen zur Verfügung, die fliegen können.
-Mit diesem Manöver heben sie sich in die Luft und stürzen auf ihre Gegner herab bzw. können andere Gegner, die sich in der Luft befinden angreifen.
-Nach dem Angriff können sie sich direkt wieder zurückziehen.
-
-Das Manöver kann nur ausgeführt werden, wenn das Wesen in keinen Kampf gebunden ist.
-
-Die zurückgelegte Strecke kann maximal die Hälfte der BEW des Angreifers sein.
-Dabei wird die Luftbewegung genommen.
-Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW wieder fortbewegen.
-
-Dieses Kampfmanöver kann in nur in Verbindung mit einem Nahkampfangriff durchgeführt werden.
-
-=== Rennen
-
-Der Charakter kann mit diesen Manövern seine Position im Kampfgeschehen ändern.
-Dabei kommt es auf seine Bewegung(BEW) an.
-Möchte der Charakter Rennen, so kann er dem BEW-Wert entsprechend viele Meter innerhalb einer Kampfrunde zurücklegen.
-Ein Charakter muss die komplette BEW nicht ausnutzen, wenn er dieses Kampfmanöver einsetzet.
-
-[[ref_maneuver_charge]]
-=== Sturmangriff
-
-Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
-Er muss mindestens ½ BEW und maximal seine volle BEW von seinem Gegner in gerader Linie entfernt sein.
-Diese Linie darf nicht blockiert sein durch Hindernisse oder andere Kreaturen.
-Außerdem darf der Charakter in keinen Nahkampf gebunden sein.
-
-Er führt das Kampfmanöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
-Der Angreifer verdoppelt für die Schadensprobe seine ST-Stufe.
-Sollte der Charakter die Angriffsprobe und damit seine Aktion nicht einsetzen können, verfällt dieser Bonus.
-
-Bewegt sich der Charakter durch die Bedrohungszonen anderer Kreaturen, so provoziert er Gelegenheitsangriffe.
-
-=== Sprinten
-
-Anstelle von Rennen kann ein Charakter auch Sprinten und damit die doppelte Distanz zurücklegen, die er normalerweise in Rennen zurücklegen würde.
-Sprinten ist jedoch gefährlicher als Rennen, denn der Charakter lässt seine Deckung außer Acht.
-Charaktere, die in einer Kampfrunde sprinten, müssen einen Malus von -2 auf die Würfe zum Erfolg für Verteidigungsproben hinnehmen.
-
-Ein Charakter kann während er sprintet, sich maximal um 45 Grad pro Kampfphase drehen.
-
-Ein Charakter kann außerdem nur so viele Kampfrunden am Stück sprinten, wie er Stufen in KO hat.
-Danach muss er mindestens eine Kampfrunden lang warten, bevor er wieder Sprinten ansagen kann.
-
-=== Umdrehen
-
-Während der Charakter rennt oder sprintet, kann er beliebig die Richtung wechseln.
-Da die Ausrichtung eines Charakters im Nahkampf wegen Seiten- und Rückenangriffen wichtig ist und auch die Ausrichtung zum Einsatz von Fernkampfwaffen, sollten die Spieler darauf achten.
-Grundsätzlich gilt, dass Charaktere, die nicht am Zug sind, sich nicht umdrehen können!
-
-Ein Charakter, der in einen Nahkampf verwickelt ist, kann sich auch umdrehen.
-Dazu muss er dies als Bewegungs- bzw. Kampfmanöver ansagen (es gilt als Rennen, auch wenn keine BEW eingesetzt wird).
-Umdrehen provoziert Gelegenheitsangriffe.
-
-=== Zurückweichen
-
-Dieses Manöver ermöglicht (und neben Flucht nur dieses) es einem Charakter sich aus einem Nahkampf zurückzuziehen, d.h. er muss in einen Nahkampf gebunden sein.
-
-Zurückweichen ist meistens dann nützlich, wenn man einer Übermacht oder einem starken Gegner gegenüber steht.
-
-Ein Charakter kann in einer Runde, in der er Zurückweichen einsetzen, sich gemäß seiner Bewegungsrate geteilt durch 2 rückwärts aus dem Kampf zu bewegen.
-In diesem Fall provoziert der Charakter keinen Gelegenheitsangriff, wenn er die Bedrohungszone des Gegners verlässt, vor dem er zurückweicht, allerdings provoziert er Gelegenheitsangriffe, wenn er durch seine Zurückweichen-Bewegung in feindliche Bedrohungszonen eintritt.
-Die normale Regel der Provokation von Gelegenheitsangriffen ist also im Fall von Zurückweichen verändert.
-
-Weiterhin ist der Einsatz dieses Manövers gegenüber Kreaturen mit großer Bedrohungszone gefährlich, denn die Bewegung, die durch Zurückweichen innerhalb der Bedrohungszone ausgeführt wird, kann auch zu einem Gelegenheitsangriff führen.
-
-Zurückweichen ist nicht möglich, wenn der Charakter in seinem Rücken einen Gegner hat.
-
-==== Regeln zu Bewegungen
-
-In diesem Kapitel werden zusätzliche Regeln für die alle Manöver vorgestellt, bei denen ein Charakter sich bewegt, d.h. seine BEW einsetzt, z.B. Rennen.
-
-===== Besetzte Gebiete
-
-Ein Gebiet (ein oder mehrere Kacheln) gilt als besetzt, sobald eine beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem Bewusstsein ist.
-Paralysierte oder ohnmächtige Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
+[[ref_battle_rules_movement_occupiedspaces]]
+=== Besetzte Gebiete
+Ein Gebiet gilt als *besetzt*, sobald eine beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem Bewusstsein ist.
+<<ref_condition_disabled, Paralysierte>> oder <<ref_condition_unconscious, ohnmächtige>> Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
 
 Ein Charakter darf ein oder mehrere Kacheln nicht durchqueren oder betreten, wenn ein feindlich gesonnenes Wesen diese besetzt.
 Freundlich gesonnene Wesen können den Charakter vorbeilassen, jedoch muss dieser pro Feld, dass auf diese Weise freigegeben wird, die doppelte BEW investieren.
-Kann er in einer Runde die belegten Felder nicht durchqueren, endet seine Bewegung direkt vor der jeweiligen Kreatur.
+Kann er in einer Kampfphase die belegten Felder nicht durchqueren, endet seine Bewegung direkt vor der jeweiligen Kreatur.
 
 Kleine Kreaturen der Größenkategorie 1 oder 2 nehmen zwar ein Feld ein, können es jedoch nicht besetzen.
 Dazu sind sie zu klein.
 Sie können auch nur Kreaturen angreifen, die sich auf ihrem Feld befinden.
 Kreaturen dieser Größe dürfen auch ohne Einschränkungen besetzte Felder durchqueren.
-Sie provozieren jedoch wie gehabt Gelegenheitsangriffe.
+Sie provozieren jedoch wie gehabt <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>.
 
 Wenn der SL es zulässt, können auch andere Charaktere von größeren Kreaturen besetzte Felder, durchqueren.
 Diese Kreaturen müssen mindestens zwei Größenkategorien größer sein, als der Charakter.
 Er provoziert dabei jedoch wie gewohnt Gelegenheitsangriffe.
 
-===== Schwieriges Gelände
-
+[[ref_battle_rules_movement_difficultterrian]]
+=== Schwieriges Gelände
 Bewegungen können durch oder über schwieriges Gelände führen.
-Das beinhaltet einmalige Hindernisse wie niedrige Mauern, Gräben und ähnliches.
-Dieses wird mit einer Athletik-Probe abgehandelt.
-Schwieriges Gelände, dass von einem Charakter durchquert werden kann, ist beispielweise eine Geröllhalde, matschiger Lehm, Dornengestrüpp oder ein hüfthoher Wasserstrom.
+Als allgemeine Regel gilt, dass jedes Gelände, durch das ein Charakter sich nicht ohne Anstrengung oder Vorsicht bewegen kann, als schwieriges Gelände zählt.
+Das beinhaltet beispielsweise einmalige Hindernisse wie niedrige Mauern, Gräben und vergleichbares, allerdings auch eine Geröllhalde, matschiger Lehm, Dornengestrüpp oder ein hüfthoher Wasserstrom.
 
-Jedes Gelände, durch das ein Charakter nicht ohne Anstrengung oder Vorsicht bewegen kann, zählt als schwieriges Gelände.
-Der Charakter kann sich nur mit Rennen durch ein solches Gelände fortbewegen.
-Sprinten schlägt automatisch fehl.
+Charakter, die unterschiedliche Bewegungsoptionen haben, wie zum Beispiel ein Reittier oder die Fähigkeit zu Fliegen, können unterschiedlich betroffen sein durch schwieriges Gelände.
+Fliegende Charakter sind vielleicht von dichtem Unterholz betroffen, denn sie fliegen einfach drüber.
+Allerdings könnten Sie durch niedrig hängende, dichte Äste behindert werden, während Charaktere am Boden drunterher laufen können.
 
-Er muss außerdem pro Kampfrunde, die er sich durch das schwierige Gelände bewegt, eine Athletik-Probe bestehen oder gilt als niedergeschlagen.
-Dies kann zu Gelegenheitsangriffen führen.
+Weiterhin gilt auch das Durchqueren eines niedrigen Ganges oder einer Tür als schwieriges Gelände.
 
-Nutzt der Charakter jedoch nur eine halbierte BEW fällt diese Athletik-Probe weg und der Charakter kann das Gebiet gefahrlos durchqueren.
+Solange ein Charakter sich im schwierigen Gelände bewegt, ist seine BEW-Rate halbiert.
 
-Weiterhin kann sich ein Charakter durch enge Gänge und ähnliches hindurch zwängen.
-Der Gang darf maximal 1,50 Meter (eine Kachel) schmaler sein, als die Front des Charakters.
-Er kann dann nur das Kampfmanöver Rennen benutzen und dies nur mit halbierter BEW (ohne Proben allerdings).
-Tut er dies, so kann er sich durch die Enge zwängen.
+[NOTE]
+Der SL kann nach Ermessen eine xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik]- oder xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]-Probe verlangen, um zu prüfen, ob Charaktere erfolgreich durch das Gelände navigieren können.
 
-===== Diagonale Bewegung (nur bei Kachelplänen)
+[[ref_battle_rules_movement_diagionalmovement]]
+=== Diagonale Bewegung (nur bei Kachelplänen)
+Wird mit quadratischen Kachelplänen gespielt, ist die diagonale Bewegung formal länger als die gerade Bewegung.
+Der Einfachheit halber wird dieser Unterschied in den Regeln ignoriert.
 
-Diagonale Bewegung verbraucht etwas mehr BEW als Bewegung in eine gerade Richtung.
-Jeder zweite Diagonalschritt, also jeder Schritt mit einem geraden Index, benötigt 2 Felder (3,00 Meter) anstatt 1.
-Bei einer Bewegung von 6 Feldern (9,00 Metern) bedeutet dies, dass der Charakter nur 4 Kacheln diagonal zurücklegen kann.
+[[ref_battle_rules_movement_provoke_attack_of_opportunity]]
+=== Provokation von Gelegenheitsangriffe
 
-===== Rennen und Sprinten mit Rüstung
-
-Schwere Rüstung behindert nicht nur die Initiative und die Geschicklichkeit der Charaktere in gewissen Situationen, sondern auch die Bewegungsrate.
-Die Angabe findet sich in der Ausrüstungsliste.
-Der Malus wird immer von der BEW des Charakters abgezogen, bevor ein Modifikator angewendet wird.
-
-.Bewegung mit Rüstung
-====
-Ein Charakter hat eine BEW von 9,00 Metern.
-Er trägt eine Rüstung mit einem Malus von 1,50 Meter.
-Damit ist seine aktuelle BEW 7,50 Meter.
-Sprinten kann er daher nur 15,00 Meter.
-====
-
-===== Provokation von Gelegenheitsangriffe
-
-Ein Charakter, der Bewegungen in die Bedrohungszone eines Gegner gelangt, provoziert genau dann einen Gelegenheitsangriff, wenn er sich innerhalb dieser weiterbewegt oder sich aus dieser hinausbewegt.
+Ein Charakter, der Bewegungen in die Bedrohungszone eines Gegners gelangt, provoziert genau dann einen Gelegenheitsangriff, wenn er sich innerhalb dieser weiterbewegt oder sich aus dieser hinausbewegt.
 Das Betreten zum Angriff einer Bedrohungszone führt zu keinem Gelegenheitsangriff.
 
 .Bewegung und Gelegenheitsangriffe
@@ -873,192 +912,27 @@ Bewegt sich selber Charakter jedoch auf das Kästchen B, vielleicht um eine bess
 
 Würde sich der auf A stehende Charakter nicht nach B bewegen, sondern an einen Punkt außerhalb der Bedrohungszone, so provoziert er auch einen Gelegenheitsangriff, da er sich aus der Bedrohungszone herausbewegt.
 
-== Kampfmanöver
-
-Die folgenden Einträge beschreiben die möglichen Kampfmanöver in dem System von Far Ages.
-Es wird im Spiel sicherlich irgendwann Situationen geben, in denen keins der vorgestellten Kampfmanöver das beschreibt, was ein Charakter tun möchte.
-In diesem Fall kann der SL die Kampfmanöver sicherlich als Richtlinie verwenden, um die Situation passend darzustellen.
-Analog zu Bewegungsmanövern kann ein Charakter pro Kampfrunde ein Kampfmanöver (oder ein Bewegungsmanöver) einsetzen.
-
-=== Aggressiver Kampfstil
-
-Angriff ist manchmal die beste Verteidigung.
-Der Charakter geht stark in die Offensive und vernachlässigt die Defensive.
-
-Er erhält einen Bonus von +2 Würfel für alle Nahkampfangriffswürfe, aber auch einen Malus von -2 Würfel auf alle Verteidigungswürfe.
-
-Dieses Manöver kann nicht eingesetzt werden, um Angriffe von Fernkampfwaffen oder Zaubern zu verbessern.
-
-Dieses Kampfmanöver kann weiterführend eingesetzt werden, in jeder Kampfrunde gelten die Boni und Mali.
-Während der Durchführung eines Aggressiven Kampfstiles ist es nicht möglich, Zauber vorzubereiten.
-
-=== Blocken
-
-Dieses Manöver wird benutzt, um einen Kontrahenten im Nahkampf in seiner Bewegung einzuschränken.
-Dazu muss der Charakter, der dieses Manöver ausführt entweder einen Schild oder eine Waffe von mindestens der Größe 6 benutzen.
-Der Charakter würfelt anstelle seinen üblichen Angriffswürfen im Nahkampf eine Nahkampfwaffenprobe, die jedoch keinen Schaden verursacht.
-
-Ist der Angriff erfolgreich, so erhält der Gegner einen Malus von -1 auf seine Würfelanzahl für Angriffsproben für seine nächste Kampfphase.
-
-Am Anfang der nächsten Kampfrunde ist der Initiative-Wert des Gegners um 2 verringert.
-
-Das Manöver lässt sich nur gegen ein Wesen ausführen, dass maximal eine Größenkategorie größer ist als man selbst.
-
-Blocken provoziert einen Gelegenheitsangriff, allerdings nicht für dem geblockten Gegner.
-
-=== Defensiv Zaubern
-
-Defensiv Zaubern ist ein spezielles Kampfmanöver, was nur Charakteren mit den Talenten Gegenzauber und Zauberspiegel zur Verfügung steht.
-Ein Charakter, der dieses Kampfmanöver ankündigt, erhält bei der Verwendung von diesen meist spontan genutzten Fähigkeiten keinen Malus auf seine Spruchzauberei, da er sich auf einen magischen Angriff vorbereitet.
-
-Beim Defensiv Zaubern kann der Charakter in dieser Kampfphase keine andere Aktion außer Gegenzauber oder Zauberspiegel nutzen bzw. ansagen.
-
-Dieses Kampfmanöver kann solange weitergeführt werden, bis der Charakter es abbricht.
-
-=== Gegenstand verwenden
-
-Ein Charakter kann einen Gegenstand verwenden, der nicht durch eine Standardprobe oder Talentprobe verwendet wird, zum Beispiel einen Heiltrank trinken.
-Die Angaben der Aktionen beziehen sich auf eventuelles Ziehen bzw. Suchen und sofortiges Verwenden des Gegenstandes.
-
-[cols=",",options="header"]
-|===
-|Situation |Aktionen
-|Gegenstand wird in der Hand gehalten |Freie Aktion
-|Gegenstand befindet sich am Gürtel |Bewegungsmanöver
-|Gegenstand wird auf dem Rucksack geholt |Aktion
-|===
-
-Der SL kann im Fall einer Suche im Rucksack eine ER-Probe verlangen, ob der Charakter den Gegenstand findet.
-Eventuelle Nachteile können das Finden des Gegenstandes beeinflussen.
-
-Dieses Manöver provoziert einen Gelegenheitsangriff.
-
-[[ref_maneuver_battle_aimed_attack]]
-=== Gezielter Schlag, Gezielter Schuss
-
-Der Charakter kann entweder mit Nahkampftalenten oder mit Fernkampftalenten versuchen einen gezielten Treffer bei einem Gegner zu erlangen.
-Dazu sagt er an, wenn welche Trefferzone, er zu treffen beabsichtigt.
-
-Der Angriffswurf ist mit einem Malus von *-2 auf die Würfe zu Erfolg* belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag oder Schuss darstellt.
-
-Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
-Eventuell kann dadurch auch Rüstung umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
-
-Der SL kann natürlich jederzeit die Ausführung eines Gezielten Schlages oder Schusses verbieten, wenn das jeweilige Körperteil einfach nicht erreichbar ist.
-So sollte es einem Zwerg im Nahkampf nicht möglich sein, einen Oger auf den Kopf zu treffen.
-
-Dieses Manöver kann nur in Kombination mit einer Aktion verwendet werden, die entweder eine Nah- oder Fernkampfattacke beinhaltet.
-
-=== Raufen und Ringen
-
-Im Unbewaffnetem Kampf können Kontrahenten, sofern sie beide keine Waffen nutzen, wählen, ob sie Raufen und Ringen wollen.
-
-Zum Einsatz des Manövers macht er eine normale Probe auf Unbewaffneten Kampf.
-Ist diese erfolgreich, verursacht er halbierten Schaden.
-Die beiden Kontrahenten würfeln dann konkurrierende ST-Proben.
-Derjenige, der mehr Erfolge gewürfelt hat, hat den Gegner im Griff.
-Keiner kann in der aktuellen und folgenden Kampfrunden die Kampfmanöver Zurückweichen oder Flucht benutzen.
-
-Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfrunde eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
-Dieser Versuch gilt als Aktion und nicht als Manöver.
-Um den Griff zu halten, muss der Angreifer dieselbe Probe mitmachen.
-Es kann also pro Kampfphase immer eine Probe gewürfelt werden und je nachdem, wer gewinnt, das Ergebnis folgen.
-
-Raufen und Ringen muss in Kombination mit einem Angriff im Unbewaffneten Kampf verwendet werden.
-
-=== Unterstützen
-
-Mit diesem Manöver kann der Charakter (der Unterstützer) einen anderen Charakter im Nahkampf zur Seite stehen.
-Wenn er dieses Manöver ankündigt, muss er einen Gegner wählen, mit dem sich der zu unterstützende Charakter im Nahkampf befindet.
-
-Der Unterstützer muss sich auf einem Feld in direkter Berührung mit dem Gegner und seinem Kameraden befinden.
-
-Er selbst kann in der Runde nicht angreifen, jedoch erhält der Unterstützte einen Bonus von *+1 auf die Würfe zum Erfolg* für seine nächste Angriffsprobe.
-
-Solange er unterstützt, kann er keine anderen Aktionen durchführen, ansonsten wird die Unterstützung abgebrochen.
-
-=== Verteidigungsstellung
-
-Mit diesem Manöver begibt sich der Charakter in eine defensive Haltung, die es den Gegnern erschweren soll, ihn ihm Nahkampf zu treffen.
-Nachteil dabei ist, dass der Charakter sich selber auch ihm Angriff schwächt.
-
-Geht der Charakter in Verteidigungsstellung, dann erhält er für Talente, die er zur Verteidigung gegen Nahkampfattacken einsetzen kann, einen Bonus von +2 Würfel.
-Gleichzeitig erhält er jedoch einen Malus von -2 Würfel auf alle Angriffsproben.
-
-Der Charakter kann dieses Manöver auch einsetzen, wenn er bereits im Nahkampf ist.
-
-Dieses Kampfmanöver kann über so viele Kampfphasen weitergeführt werden, wie der Charakter dies wünscht.
-Er kann dabei jedoch keine anderen weiteren Kampfmanöver oder Zauber vorbereiten ansagen, ohne die Verteidigungsstellung abzubrechen.
-Er kann jedoch normal attackieren.
-
-=== Waffen oder Schild ziehen
-
-Hält der Charakter in einer Kampfsituation keine Waffe bereit, dann kann das unangenehme Folgen für ihn haben.
-Das Ziehen einer Waffe bzw. Schilds, die am Körper getragen wird, gilt als Aktion, die unterschiedliche Aktionen kosten, je nachdem wie viele oder welche Waffen der Charakter ziehen möchte.
-
-[cols=",",options="header"]
-|===
-|Situation |Kampfphasen zum Ziehen
-|Ziehen einer Einhandwaffe |Bewegungsmanöver
-|Ziehen eines Schilds |Bewegungsmanöver
-|Ziehen einer Zweihandwaffe |Aktion
-|Waffe/Schild befindet sich auf dem Rücken des Charakters |Bewegungsmanöver und Aktion
-|===
-
-Dieses Kampfmanöver provoziert einen Gelegenheitsangriff.
-
-=== Zurückdrängen
-
-Mit diesem Manöver kann der Charakter seinen Gegner versuchen zurückzudrängen und in eine defensive Stellung zu zwingen.
-Der angreifende Charakter führt seinen Angriff normal mit Nahkampfwaffen aus.
-Dann würfeln die Kontrahenten eine konkurrierende ST-Probe.
-Pro Erfolgsgrad des Angreifers muss der Verteidiger 1,50 Meter zurückweichen.
-Diese Bewegung wird behandelt, als hätte der Verteidiger das Kampfmanöver Zurückweichen eingesetzt.
-
-Hat der Verteidiger mehr Erfolge, war das Zurückdrängen nicht erfolgreich und es passiert nichts.
-
-Grundsätzlich provoziert dieser Angriff Gelegenheitsangriffe gegenüber anderen Kontrahenten.
-
-Wird der Verteidiger in eine Bedrohungszone zurückgedrängt, so provoziert er ebenso Gelegenheitsangriffe.
-
-Zurückdrängen kann nur in Verbindung mit einer Nahkampfattacke genutzt werden.
-
+[[ref_battle_rules_attack_of_opportunity]]
 == Gelegenheitsangriffe
 
-Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfrunde, die durch unterschiedliche Situationen ausgelöst werden können.
-Diese Angriffe werden grundsätzlich mit dem Talent Nahkampfwaffen oder Unbewaffener Angriff gewürfelt, dessen Anwendung in diesem Moment als Freie Aktion gilt.
+Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfphase, die durch unterschiedliche Situationen ausgelöst werden können.
+Sie finden außerhalb der <<ref_battle_battlephase_initiative, Initiative-Reihenfolge>> statt.
+Kampfteilnehmer, deren Gelegenheitsangriff zustehen, würfeln diese grundsätzlich mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf].
+Der Gelegenheitsangriff gilt als <<ref_battle_reactions, Reaktion>>.
 
-Jeder Charakter hat pro Kampfrunde nur einen Gelegenheitsangriff frei.
-Provozieren jedoch mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese nicht mehr ausführen, wenn er seinen einen Gelegenheitsangriff bereits durchgeführt hat.
-
-Der Charakter muss eine Nahkampfwaffe bereithalten, um einen Gelegenheitsangriff mit dem Talent Nahkampfwaffen durchführen zu können.
+Jeder Charakter hat pro Kampfphase nur einen Gelegenheitsangriff frei.
+Provozieren daher mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese nicht mehr ausführen, wenn er seinen einen Gelegenheitsangriff bereits durchgeführt hat.
 
 Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das heißt, sie stehen in der Bedrohungszone des Charakters.
 
-Folgende Situationen lassen einen Gelegenheitsangriff zu:
-
-* Der Gegner benutzt die Kampfmanöver Flucht oder Zurückweichen.
-* Der Gegner benutzt das Bewegungsmanöver Rennen oder Sprinten und durchquert die Bedrohungszone eines gegnerischen Charakters.
-Nur dieser darf dann einen Gelegenheitsangriff durchführen.
-Dies gilt nicht, wenn der Gegner den Charakter angreift.
-* Der Charakter wechselt im Kampf seine Waffen/Rüstung oder benutzt einen Gegenstand (z.B. einen Heiltrank).
-* Der Charakter lädt eine Fernkampfwaffe nach.
-* Der Charakter dreht sich um.
-* Der Gegner führt das Kampfmanöver Zurückdrängen oder Blocken gegen einen anderen Charakter durch.
-* Der Gegner würfelt einen Patzer in einer der folgenden Standard-Proben: Fallen, Athletik, Niederschlag, Reflex.
-* Der Charakter würfelt einen Patzer bei den Talenten Nahkampfwaffen, Projektilwaffen oder Wurfwaffen.
-* Ein Unbewaffneter greift einen bewaffneten Gegner an.
-
-Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich im allgemeinen nicht dagegen verteidigen.
+Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich im Allgemeinen nicht dagegen verteidigen.
 
 [[ref_conditions]]
 == Besondere Situationen
 
 [[ref_condition_corned]]
 === Bedrängt
-
-Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 andere Charakter ihn im Nahkampf attackieren. Ein bedrängter Charakter erhält
-*-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
+Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 andere Charakter ihn im Nahkampf attackieren. Ein bedrängter Charakter erhält *-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
 
 Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
 Es gelten auch diagonal attackierende Gegner zu der Rechnung.
@@ -1066,17 +940,16 @@ Es gelten auch diagonal attackierende Gegner zu der Rechnung.
 Größere Kreaturen (GK 6 oder mehr) sind von kleineren Kreaturen schwerer zu bedrängen.
 Ist eine Kreatur eine Größenkategorie kleiner, so bedrängt sie die größere Kreatur nur dann, wenn sie einen Kollegen gleicher GK dabei hat.
 Eine Kreatur der Größenkategorie 6 ist also erst von 6 Kreaturen der Größenkategorie 5 bedrängt.
-Dies setzt sich fort und zwar ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der Größenkategorie 5 bedrängt usw.
+Dies setzt sich fort, und zwar ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der Größenkategorie 5 bedrängt usw.
 
 [[ref_condition_dazed]]
 === Benommen
-
 Ein Charakter, der durch eine Verletzung oder einen anderen Umstand den Zustand „Benommen“ erhält, steht kurz vor einer Ohnmacht, ist jedoch noch in der Lage, einige Manöver durchzuführen.
 
-Er kann keine Aktionen einsetzen, seine BEW-Rate ist halbiert und er erhält einen Malus von *-1 auf die Würfe zum Erfolg*.
+Er kann keine <<ref_battle_actions, Aktionen>> und <<ref_battle_reactions, Reaktionen>>, allerdings <<ref_battle_movefightaction, Manöver>> einsetzen, seine BEW-Rate ist halbiert und er erhält einen Malus von *-1 auf die Würfe zum Erfolg*.
 
-Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfrunden.
-Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfrunden des Charakters an (Minimum 1).
+Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfphasen.
+Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
 
 [[ref_condition_blind]]
 === Blind
@@ -1084,70 +957,43 @@ Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-St
 
 [[ref_condition_exhausted]]
 === Erschöpft
+Ein erschöpfter Charakter kann in einer Kampfphase nur <<ref_battle_movefightaction, Manöver>> und <<ref_battle_reactions, Reaktionen>> verwenden.
+Außerdem ist seine BEW-Rate halbiert.
 
-Ein erschöpfter Charakter kann in einer Kampfrunde nur Kampfmanöver verwenden.
-Seine BEW-Rate wird halbiert.
-
-Die Erschöpfung dauert üblicherweise mindestens eine Stunde.
-In dieser Stunde muss der Charakter sich komplett ruhig verhalten und sich schlicht ausruhen, bis dieser Status aufgehoben ist.
+Der Charakter muss mindestens eine xref:core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[kurze Pause] einlegen, um die Erschöpfung loszuwerden.
 
 [[ref_condition_bondedincombat]]
 === Gebunden
-
 Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben einem Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
 Der Ausgang dieser Probe ist dabei nicht relevant.
 
+[[ref_condition_immobile]]
+=== Gefangen
+Ein gefangener Charakter hat eine effektive BEW-Rate von 0.
+Er kann weiterhin <<ref_battle_actions, Aktionen>> und <<ref_battle_movefightaction, Manöver>> durchführen, solange er dazu keine BEW einsetzen muss.
+Um diese Situation zu beenden, muss er sich <<ref_battle_move_standup, befreien>>.
+
 [[ref_condition_disabled]]
 === Kampfunfähig
-
-Kampfunfähige Charaktere können gar keine Aktionen oder Kampfmanöver mehr durchführen.
-Sie sind beispielsweise niedergeschlagen worden.
-
-Kampfunfähige Charaktere können üblicherweise wieder aufstehen, sobald sie an der Reihe sind.
-Beachte allerdings, dass kampfunfähige Charaktere immer am Ende der Initiative-Reihenfolge stehen.
-
-Aufstehen gilt als eine Aktion, die Gelegenheitsangriffe provoziert.
-Ein benommener Charakter, der kampfunfähig wurde, kann erst aufstehen, wenn die Benommenheit endet.
+Kampfunfähige Charaktere können gar keine Aktionen oder Kampfmanöver mehr durchführen und müssen üblicherweise wieder <<ref_battle_move_standup, aufstehen>>, sobald sie an der Reihe sind.
 
 [[ref_condition_unconscious]]
 === Ohnmächtig
-
-Ein Charakter kann aufgrund einer schweren Verletzung oder dem Erreichen von 0 oder weniger TP ohnmächtig werden.
 Ein ohnmächtiger Charakter kann weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
-Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen, z.B. aufstehen.
+Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen.
 
 [[ref_condition_invisible]]
 === Unsichtbar
 //TODO
 
-[[ref_condition_failure]]
-=== Patzer bei einer Angriffsprobe
-
-Wenn ein Charakter einen Patzer in einer Angriffsprobe würfelt, so kann es passieren, dass dies zu unangenehmen Folgen führen kann.
-Ein Patzer provoziert grundsätzlich einen Gelegenheitsangriff.
-
-Manche Waffen generieren weitere Folgen, welche in einem späteren Kapitel beschrieben werden.
-
 [[ref_condition_surprise]]
-=== Überraschungsangriffe
-
-Hinterhalte sind typische Situationen für Überraschungsangriffe.
-Der Überraschte kann in der ersten Kampfrunde keine Aktionen ansagen.
-Verteidigungstalente erhalten einen Malus von -1 auf die Würfe zum Erfolg.
-
-[[ref_condition_surrounded]]
-=== Umzingelt
-
-Dies ist eine denkbar ausweglose und meistens tödliche Situation.
-Ein umzingelter Charakter hat an beiden Seiten, im kompletten Rücken und direkt vor sich einen Gegner stehen, bzw. wie bei Bedrängt von der Größenkategorie abhängig viele.
-Eine Flucht ist damit nicht möglich.
-Wie bei Bedrängt erhält er einen Malus von -2 auf die Würfe zum Erfolg.
+=== Überrascht
+Ein überraschter Charakter kann in der Kampfphase keine <<ref_battle_actions, Aktionen>> ansagen.
+Alle <<ref_battle_reactions, Reaktionen>> erhalten einen Malus von *-1 auf die Würfe zum Erfolg*.
 
 [[ref_battle_damage]]
 == Schaden
-
-Nach der Bestimmung der Erfolge einer Angriffsprobe kommt die Kalkulation des Schadens ins Spiel.
-Im allgemeinen lässt sich sagen: je mehr Erfolge gewürfelt wurden, desto mehr Schaden ist theoretisch möglich.
+Nach der Bestimmung der Erfolge einer Angriffsprobe folgt die Kalkulation des Schadens, auch <<ref_battle_damagerolls, Schadenswurf>> genannt.
 
 Die Quelle des Schadens kann im Übrigen sehr vielfältig sein und beschränkt sich nicht nur auf den Kampf.
 Ein Charakter kann auch Schaden davon erhalten, dass er im Wald unvorsichtigerweise in eine Bärenfalle tappt.
@@ -1163,29 +1009,30 @@ Fallen würfeln auch eine Angriffsprobe und können damit auch Treffer erzeugen.
 Eine erfolgreiche Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die Anzahl der möglichen Effekte vielseitiger sind.
 
 Ein Treffer verursacht *Schaden*, der sich je nach Art des Treffers anders berechnet.
-Wichtig ist dabei die Anzahl der Erfolge der Angriffsprobe, im Folgenden abgekürzt durch *AnzE*, sowie die Attributsstufe von ST oder EN sowie der *Schadensbonus*, abgekürzt SB.
+Man nennt dies den *Schadenswurf*.
+Diese setzt sich aus den folgenden Komponenten zusammen: die Anzahl der Erfolge der Angriffsprobe, im Folgenden abgekürzt durch *AnzE*, sowie die zugehörigen Attributsstufe wie zum Beispiel ST oder EN und der *Schadenswürfel*, abgekürzt SW.
 
 Folgende Übersicht gibt Auskunft über die Berechnungen:
 
-* Nahkampfwaffen (Einhändige Waffen): *AnzE + ST + SB*
-* Nahkampfwaffen (Zweihändige Waffen): *AnzE + (ST*2) + SB*
-* Projektilwaffen: *AnzE + ST + SB*
-* Projektilwaffen (mechanisch): *AnzE + SB*
-* Wurfwaffen: *AnzE + ST + SB*
+* Nahkampfwaffen (Einhändige Waffen): *AnzE + ST + SW*
+* Nahkampfwaffen (Zweihändige Waffen): *AnzE + (ST*2) + SW*
+* Projektilwaffen: *AnzE + ST + SW*
+* Projektilwaffen (mechanisch): *AnzE + SW*
+* Wurfwaffen: *AnzE + ST + SW*
 * Unbewaffneter Kampf: *AnzE + ST + SUW*
-* Natürliche Waffen: *AnzE + ST + SB*
-* Spruchzauberei: *AnzE + EN + SB*
+* Natürliche Waffen: *AnzE + ST + SW*
+* Spruchzauberei: *AnzE + EN + SW*
 
-Man nennt eine solche Probe auch den *Schadenswurf*.
-Das Endergebnis sind die *Schadenspunkte*.
+Das Endergebnis wird die *Schadenspunkte* genannt.
 Speziell der Eintrag unter Spruchzauberei wird als *Magieschadenswurf* bezeichnet.
 
 .Schadenswürfe
 ====
 Kraag greift ein durch Nekromantie erschaffenen Untoten an.
 Bei seiner Angriffsprobe im Nahkampf erreicht er 5 Erfolge.
-Seine Attributsstufe in Stärke beträgt 4 und der Schadenbonus seiner Waffe ist 2W6.
-Er würfelt mit den 2W6 eine 6. Also verursacht seiner Angriff 5+4+6 = 15 Schadenspunkte.
+Seine Attributsstufe in Stärke beträgt 4 und die Schadenswürfel seiner Waffe ist 2W6.
+Er würfelt mit den 2W6 eine 6.
+Seine Angriff verursacht damit 5+4+6 = 15 Schadenspunkte.
 ====
 
 .Schadenswürfe
@@ -1195,9 +1042,8 @@ Me'ander besitzt eine Attributsstufe in Energie von 5 und erwürfelt 4 Erfolge b
 Damit kann er 4+5+3W8 Schadenspunkte verursachen.
 ====
 
-Beachte, dass im Unbewaffneten Kampf der Schadensbonus durch die Attributseigenschaft Schaden im Unbewaffneten Kampf (SUW) bestimmt wird.
-Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für Natürliche Waffen.
-Der Schadensbonus im Nahkampf und Fernkampf ist der Schadensbonus der eingesetzte Waffe.
+Beachte, dass im Unbewaffneten Kampf die Schadenswürfel durch die Attributseigenschaft Schaden im Unbewaffneten Kampf, xref:core_rules_charactercreation.adoc#ref_secondary_unarmedbonus[SUW], bestimmt wird.
+Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für natürliche Waffen.
 
 [[ref_battle_armor]]
 === Rüstung
@@ -1215,7 +1061,7 @@ Der SL kann jederzeit eine andere Standardtrefferzone festlegen, wenn er der Ans
 So kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als Standard-Trefferzone für den Menschen die Beine des Drachen haben.
 
 [[ref_battle_damageresistence]]
-=== Schadensresitenz
+=== Schadensresistenz
 Schadensresistenzen bieten zusätzliche Reduzierungen gegenüber einer bestimmten xref:ref_battle_damage_types[Schadensart].
 Schadensresistenzen kommen natürlicherweise nur dann zum Tragen, wenn die verursachten Schadenspunkte aus einer Quelle stammt, die diesen Schaden verursacht.
 
@@ -1238,12 +1084,12 @@ Damit beträgt sein gesamter Rüstungschutz für seinen Torso 3+5+3 = 11.
 [[ref_battle_criticalhit]]
 === Kritischer Treffer
 
-Jede Angriffsprobe, die einen Sehr Guten Erfolgsgrad aufweißt, gilt als *Kritischer Treffer*.
-Der die Anzahl der Würfel des Schadensbonus wird in diesem Fall verdoppelt.
+Jede Angriffsprobe, die einen Sehr Guten xref:core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Erfolgsgrad] erzielt, gilt als *Kritischer Treffer*.
+Die Anzahl der Würfel des Schadensbonus wird in diesem Fall verdoppelt.
 
 .Kritischer Treffer
 ====
-Erziehlt Kraag mit seiner Waffe, die einen Schadensbonus von 2W6 besitzt, einen kritischen Treffer, verdoppelt sich der Schadensbonus auf 4W6.
+Erzielt Kraag mit seiner Waffe, die einen Schadensbonus von 2W6 besitzt, einen kritischen Treffer, verdoppelt sich der Schadensbonus auf 4W6.
 ====
 
 [[ref_battle_nondeadly_damage]]
@@ -1303,7 +1149,7 @@ Sofern nicht anders angegeben, reduzieren die Schadenspunkte die TP eines Charak
 Wird ein Guter Erfolg bei der Angriffsprobe erzielt, tritt ein zusätzlicher Effekt ein.
 
 [[ref_battle_damage_physical]]
-==== Physisch oder körperlich
+==== Physisch
 
 Als physicher oder körperlicher Schaden wird jeder Schaden bezeichnet, der durch fassbare Gegenstände oder Objekte entsteht.
 Dies können Waffen sein, Fäuste eines Trolls oder eine Kanonenkugel sein.
@@ -1384,6 +1230,23 @@ Gegen diese Art von Schaden schützt keine normale Rüstung.
 
 Als zusätzlicher Effekt erleidet der Charakter 1W6 SP Schaden.
 
+[[ref_battle_damage_illusionary]]
+==== Illusionär
+Mache Zaubersprüche der Zauberschule xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus] und eventuelle andere, exotischere Quellen können illusionären Schaden verursachen.
+Dieser Schaden tritt nur auf, wenn das Opfer wirklich daran glaubt, verwundet worden zu sein.
+Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_d10_system.adoc#ref_base_roll_douptillusions[Illusion Durchschauen]-Probe würfeln.
+Ist diese erfolgreich, nimmt er keinen Schaden.
+Sollte er überzeugt sein, dass er den Schaden erhält, wird eine Schadensprobe gewürfelt.
+Gegen diesen Schaden schützt keine normale Rüstung.
+
+[[ref_battle_damage_poison]]
+==== Gift
+
+//TODO:
+Der Charakter muss einen xref:core_rules_d10_system.adoc#ref_core_saves_constitution[Rettungswurf auf Konstitution] würfeln.
+Bei einer erfolgreichen Probe halbiert sich der Gift-Schaden (abgerundet, kann 0 betragen).
+Unabhängig vom Erfolg, Gift-Schaden kann durch keine Rüstung vermindert werden, außer diese erlaubt es explizit.
+
 ==== Übersicht der Schadensarten
 [cols=",,,",options="header"]
 |===
@@ -1397,6 +1260,8 @@ Als zusätzlicher Effekt erleidet der Charakter 1W6 SP Schaden.
 |Magie |TP |Nein |Nein
 |Mental |SP |Nein |Nein
 |Nekrotisch |TP |Nein |Ja
+|Illusionär |TP |Nein |Ja
+|Gift |TP |Nein |Nein
 |===
 
 [[ref_battle_hitzones]]
@@ -1621,7 +1486,7 @@ Der Verletzungsgrad ist nur Oberflächlich, womit Elias eine Niederschlags-Probe
 Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad Leicht und die Niederschlags-Probe hätte gegen 3 Erfolge gewürfelt werden müssen.
 ====
 
-Misslingt die Niederschlagsprobe, dass gilt der Charakter als niedergeschlagen und ist *kampfunfähig*.
+Misslingt die Niederschlagsprobe, dass gilt der Charakter als niedergeschlagen und ist <<ref_condition_disabled, *kampfunfähig*>>.
 
 Er kann jedoch wieder aufstehen, aber erst, wenn er an der Reihe ist.
 Hat er in der Kampfrunde, in der er niedergeschlagen wurde, noch eine Aktion frei, dann kann er diese nutzen, um aufzustehen.

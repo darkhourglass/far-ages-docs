@@ -1,11 +1,11 @@
 = Schütze
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Akrobatik, Hieb Ausweichen, Projektilwaffen, Reflex, Verborgenes Erkennen, Wurfwaffen +
+*Talentliste (SGM 1):* Akrobatik, Hieb Ausweichen, Projektilwaffen, Niederschlag Widerstehen Verborgenes Erkennen, Wurfwaffen +
 *Talentliste (SGM 2):* Athletik, Handwerk [Bogen und Pfeile], Reiten, Schleichen, Verstecken, 1 freies Wissentalent +
 *Attributbonus:* +1 GE, +1 ER +
 *TP/MP-Steigerung:* +7/+5 +
-*Voraussetzungen:* GE 2 +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Komposit-Bogen, Köcher mit 20 Pfeilen, Lederrüstung, 10 Wurfmesser, Rucksack +
 *CP:* 50 +
 
@@ -27,7 +27,7 @@ Diese Fähigkeit kann nicht in Kombination mit <<ref_archer_focus_shot>> verwend
 [[ref_archer_trick_shot]]
 === Trickschuss
 Mit einem Trickschuss demonstriert der Schütze seine überragenden Fähigkeiten mit Pfeil und Bogen (oder vergleichbaren Waffen).
-Führt der Schütze einen xref:../core_rules_battlesystem.adoc#ref_maneuver_battle_aimed_attack[Gezielten Schuss] mit einem der Talente xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], darf er entscheiden, ob er Trickschuss einsetzt. +
+Führt der Schütze einen xref:../core_rules_battlesystem.adoc#ref_battle_actions_aimedattack[Gezielten Schuss] mit einem der Talente xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], darf er entscheiden, ob er Trickschuss einsetzt. +
 Tut er dies, entfällt der Malus von -2 auf die Würfe zum Erfolg auf die Angriff-Probe für den gezielten Schuss.
 Im Fall einer erfolgreichen Probe, wird keine Schadensprobe gewürfelt, stattdessen erhält das Ziel 1 xref:../core_rules_battlesystem.adoc#ref_battle_damage_physical[physischen], xref:../core_rules_battlesystem.adoc#ref_battle_nondeadly_damage[nicht-tödlichen] Schaden auf die entsprechende Trefferzone, der durch keine Rüstung reduziert werden kann.
 

@@ -1,31 +1,34 @@
 = Hexer
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Spruchzauberei[Wilde Magie], Verbrennen Widerstehen, Willenskraft, Wissen [Arkanes], 1 freies Wissenstalent +
-*Talentliste (SGM 2):* Hieb Ausweichen, Lesen/Schreiben Schleichen, Verborgenes Entdecken, Verstecken, Wissen [Überleben] +
+*Talentliste (SGM 1):* Aether Wahrnehmung, Disziplin, Spruchzauberei[Wilde Magie], Verbrennen Widerstehen,  Wissen [Arkanes], 1 freies Wissenstalent +
+*Talentliste (SGM 2):* Hieb Ausweichen, Lesen/Schreiben Schleichen, Verborgenes Entdecken, Verstecken, Überleben +
 *Attributsbonus:* +1 EN +
-*Besondere Fähigkeiten:* +
 *TP/MP-Steigerung:* +5/+7 +
-*Voraussetzungen:* EN 2 +
-*Startausrüstung:* Stab, Dolch, Reisekleidung, Rucksack +
+*Rettungswürfe:* TBA +
+*Startausrüstung:* +
 *CP:* 50 +
 
 == Eigenschaften
 
+[[ref_wilder_initialspells]]
 === Initiale Zauber
-Ein Hexer lernt zu Spielbeginn 3 Zaubersprüche nach den Regeln zu xref:../core_rules_magic_base.adoc#ref_magic_types_wild_magic[Wilder Magie].
+Ein Hexer lernt zu Spielbeginn 3 Zaubersprüche nach den Regeln zu xref:../core_rules_magic_base.adoc#ref_magic_schools_wild_magic[Wilder Magie].
 Seine Talentstufe in xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei[Wilde Magie]] bestimmt dabei die maximale Stufe, die ein Zauberspruch haben kann, um gelernt zu werden.
-Diese 3 initialen Zaubersprüche zählen nicht zu dem Maximum an lernbaren Zaubersprüchen, wie im Kapitel zu Wilder Magie beschrieben.
+Diese 3 initialen Zaubersprüche zählen nicht zu dem Maximum von erlernbaren Zaubersprüchen, wie im Kapitel zu Wilder Magie beschrieben.
 
+[[ref_wilder_controlwildmagix]]
 === Kontrolliere Wilde Magie
 Ein Hexer kann, wenn er bei einer Spruchzauberei-Probe einen Effekt Wilder Magie über die passende xref:../../tables/tables_magic_wildmagic_effects.adoc[Tabelle] auswürfeln muss, zweimal die identische Probe würfeln und eines der Ergebnisse aussuchen.
 Der gewählte Effekt tritt ein.
 
+[[ref_wilder_challangefate]]
 === Schicksal herausfordern
 Ein Hexer kann sein intuitives Verständnis von Wilder Magie auf die Wirrungen des Schicksals übertragen und sein Eigenes im geringen Maße beeinflussen.
 Einmal pro Tag darf der Hexer eine beliebige Probe modifzieren, in dem er alle Misserfolge noch einmal würfelt.
 Es gelten die gleichen Modifikatoren.
 Die neuen Würfelergebnisse gelten anstelle der bisherigen Misserfolge, auch wenn das Ergebnis schlechter ist als zuvor.
 
-=== Spüre Wilde Magie
+[[ref_wilder_wildmagicinsight]]
+=== Wilde Magie aufspüren
 Ein Hexer weiß immer intuitiv, wenn er sich in einer Zone Wilder Magie befindet.

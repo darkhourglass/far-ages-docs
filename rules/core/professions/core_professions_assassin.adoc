@@ -1,12 +1,12 @@
 = Assassine
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Hieb Ausweichen, Nahkampfwaffen, Wurfwaffen, Schleichen, Fallen Stellen, Reflex +
-*Talentliste (SGM 2):* Athletik, Akrobatik, Projektilwaffen, Fallen Entschärfen, Schloss Knacken, Verborgenes Erkennen, Wissen [Gifte], 1 freies Wissenstalent, Verstecken +
+*Talentliste (SGM 1):* Hieb Ausweichen, Nahkampfwaffen, Wurfwaffen, Schleichen, Fallen Stellen, Verstecken+
+*Talentliste (SGM 2):* Athletik, Akrobatik, Projektilwaffen, Fallen Entschärfen, Täuschen, Schloss Knacken, Verborgenes Erkennen, Wissen [Gifte], 1 freies Wissenstalent +
 *Attributsbonus:* +1 GE, +1 ER +
 *Besondere Fähigkeiten:* +
 *TP/MP-Steigerung:* +7/+5 +
-*Voraussetzungen:* GE 2 +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Armbrust, Dolch, Lederrüstung, Umhang, Wurfmesser +
 *CP:* 40 +
 
@@ -14,6 +14,10 @@
 
 [[ref_assassing_coat_poison]]
 === Gift auftragen
+Einmal pro Kampfphase kann der Assassine als xref:../core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion] Gift auf eine in der Hand gehaltene Waffe auftragen.
+Das Gift muss sich am Körper des Assassinen befinden.
+Verursacht er innerhalb der nächsten 5 Kampfphasen mit der Waffe (bzw. den Projektilen der Waffe) Schaden, muss das Opfer zusätzlich eine dem Gift passende Gift-Probe ablegen. +
+Der Assassine ist so geübt in dieser Aktion, dass für ihn keine Gefahr durch das Gift besteht.
 
 [[ref_assassin_backstab]]
 === Hinterhältiger Angriff
@@ -22,7 +26,8 @@ Der Assassine lernt die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_bac
 [[ref_assassin_weapon_concealment]]
 === Versteckte Waffen
 Der Assassin kann bis zu drei Waffen mit der jeweils maximalen Größe 3 an seinem Körper verstecken.
-
+Um diese zu entdecken, müssen andere Charaktere mindestens einen Erfolgsgrad höher werfen, als sonst üblichen.
+Wäre z.B. ein Guter Erfolgsgrad (4 Erfolge) nötig, ist nun ein Sehr Guter Erfolgsgrad (8 Erfolge) erforderlich.
 
 [[ref_assassing_surprisingly_stabby]]
 === Überraschend hinterhältig

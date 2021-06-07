@@ -1,15 +1,30 @@
 = Illusionist
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Lesen/Schreiben, Konversation, Spruchzauberei [Illusionismus], Verbrennen Widerstehen, Willenskraft, Wissen [Arkanes], 1 Freies Wissensgebiet +
+*Talentliste (SGM 1):* Aether Wahrnehmung, Disziplin, Lesen/Schreiben, Konversation, Spruchzauberei [Illusionismus], Verbrennen Widerstehen, Wissen [Arkanes], 1 Freies Wissensgebiet +
 *Talentliste (SGM 2):* Forschen, Verborgenes Erkennen +
 *Attributsbonus:* + 1 EN, +1 CH +
-*Vorteile*: - +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* +
 *TP/MP-Steigerung:* +3/+9 +
-*Voraussetzungen:* EN 2 +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Stab, Robe, persönliches Grimoire, Federkil, Tinte, Rucksack +
-*Startgeld:* 4W6 +
 *CP:* 50 +
-*Spezielle Berufstalente:* -
+
+== Eigenschaften
+
+[[ref_illusionist_tricksofthetrade]]
+=== Berufsgeheimnisse
+Kann man einen Betrüger betrügen?
+Durch ihre Vertrautheit mit Illusionen erhalten Illusionisten einen Bonus von +2 auf die Würfe zum Erfolg, um eine xref:../core_rules_d10_system.adoc#ref_base_roll_douptillusions[Illusion] zu durchschauen.
+
+[[ref_illusionist_minorillusion]]
+=== Einfache Illusion
+Der Illusionist kann eine simple Illusion erschaffen ohne eine xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe würfeln zu müssen.
+Um sie zu erschaffen, muss der Illusionist eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] einsetzen.
+Die Illusion kann maximal eine GK von 1 haben und kann keinen Schaden verursachen.
+Es gelten die üblichen Regeln, um xref:../core_rules_d10_system.adoc#ref_base_roll_douptillusions[Illusion] zu durchschauen.
+Die POT der einfachen Illusion ist 3.
+
+[[ref_illusionist_dangerousillusion]]
+=== Gefährliche Illusion
+Wenn der Illusionist einen Zauberspruch des xref:../../../compendiums/spelllists/shadowmagic/compendium_spelllist_illusionism.adoc[Illusionismus] ausspricht, der xref:../core_rules_battlesystem.adoc#ref_battle_damage_illusionary[illusionären] Schaden verursacht, darf er wählen, ob er stattdessen xref:../core_rules_battlesystem.adoc#ref_battle_damage_physical[physischen] Schaden mit diesem Zauberspruch verursachen möchte.
+In diesem Fall erhöht sich die POT des Zauberspruchs um 3.

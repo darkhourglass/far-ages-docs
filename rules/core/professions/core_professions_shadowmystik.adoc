@@ -1,0 +1,26 @@
+= Schattenmystiker
+
+*Beschreibung:* +
+*Talentliste (SGM 1):* Fallen Entschärfen, Hieb Ausweichen, Nahkampfwaffen, Reflex, Schloss Knacken, Spruchzauberei [Weg der Schatten], Verbrennen Widerstehen, Wissen [Arkanes]
+*Talentliste (SGM 2):* Lesen/Schreiben, Taschendiebstahl, Verborgenes Entdecken, 1 freies Wissenstalent +
+*Attributsbonus:* +1 EN +
+*TP/MP-Steigerung:* +5/+7 +
+*Rettungswürfe:* TBA +
+*Startausrüstung:* Kurzschwert, 1 Wurfmesser, Diebeswerkzeuge, Leichte Lederrüstung +
+*CP:* 50 +
+
+== Eigenschaften
+
+[[ref_shadowmystic_backstab]]
+=== Hinterhältiger Angriff
+Ein Schurke lernt die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_backstab[Hinterhältiger Angriff] auf Stufe 1 zu Beginn des Spiels ohne zusätzliche CP-Kosten.
+
+[[ref_shadowmystic_deviousmagic]]
+=== Hinterhältige Magie
+Der Schattenmystiker kann seinen <<ref_shadowmystic_backstab, Hinterhältigen Angriff>> auf Schadenswürfe anwenden, die aus xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Angriffsproben entstehen.
+Die Voraussetzungen für den hinterhältigen Angriff müssen weiterhin erfüllt sein.
+
+[[ref_shadowmystic_]]
+=== X
+Aus der Hand des Schattenmystikers entsteht eine kleine Masse von lebendigem Schatten, der für ihn entfernte Objekte manipulieren kann.
+Der Schattenmystiker kann Proben auf xref:../core_rules_talents_base.adoc#ref_talents_lockpick[Schloss knacken], xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen] und xref:../core_rules_talents_base.adoc#ref_talents_pickpocket[Taschendiebstahl] auch auf eine Entfernung von 15 Metern ausführen, solange er Sichtkontakt hat.

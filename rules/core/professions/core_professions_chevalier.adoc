@@ -5,23 +5,27 @@
 *Talentliste (SGM 2):* Athletik, Akrobatik, Konversation, Parade, Tierfreundschaft, Wissen[Tiere] +
 *Attributsbonus:* +1 ST, + 1 KO +
 *TP/MP-Steigerung:* +9/+3 +
-*Voraussetzungen:* ST 2 +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Lanze, Nahkampfwaffe, Pflege und Versorgungsmittel für sein Reittier, Wetterfeste Kleidung, Lederrüstung +
 *CP:* 60 +
 
 == Eigenschaften
 
+[[ref_chevalier_inspiringpresenz]]
 === Inspirierende Präsenz
 Einmal pro Kampfrunde kann der Kavalier für den Einsatz einer xref:../core_rules_battlesystem.adoc#ref_battle_reactions[Reaktion] einen beliebigen xref:../core_rules_d10_system.adoc#ref_base_rolls_defense[Verteidigungswurf] eines Verbündeten im Umkreis von 6 Metern wiederholen lassen.
 Es zählt das bessere Ergebnis.
 Um diese Fähigkeit anwenden zu können, muss der Kavalier auf seinem Reittier reiten.
 
+[[ref_chevalier_trustysteed]]
 === Treues Reittier
 Zu Beginn des Spiels erhält der Kavalier ein xref:../core_rules_advantages.adoc#ref_advantage_mount[Reittier] in Form des gleichnamigen Vorteils.
 Darüber hinaus hat das Reittier Stresssituationen trainiert (z.B. den Kampf) und bleibt ruhig.
 Es kann an Kämpfen teilnehmen.
 Es gilt außerdem als ein xref:../core_rules_advantages.adoc#ref_advantage_animalcompandion[Tiergefährte] für den Charakter.
+Jedes Mal, wenn der Kavalier eine xref:../core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP des Reittiers um 6.
 
+[[ref_chevalier_symbioticfigthing]]
 === Symbiotischer Kampfstil
 Das Kampftraining, dass der Kavalier mit seinem Reittier von Beginn dessen Leben absolvierte, führt zu einer außergewöhnlichen Koordination im Kampf.
 Zusätzlich zu den üblichen Regeln zum xref:../core_rules_battlesystem.adoc#ref_battle_mounted_combat[Berittener Kampf] gelten folgende Punkte, wenn der Kavalier im Sattels seines Reittier kämpft:
@@ -29,7 +33,8 @@ Zusätzlich zu den üblichen Regeln zum xref:../core_rules_battlesystem.adoc#ref
 Die GK-abhängigen Modifikationen ändern sich entsprechend, jedoch nur für einen Gegner und nur bis zum Ende der aktuellen Kampfphase.
 * Zur Ermittelung der Initiative darf der Kavalier den xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI-Bonus] seines Reittieres zu seinem hinzuaddieren, falls er dies wünscht.
 
-=== X
+[[ref_chevalier_animalcare]]
+=== Tierpflege
 Einmal pro Tag darf der Kavalier eine der folgenden Aktionen durchführen:
 * Eine xref:../core_rules_battlesystem.adoc#ref_battle_wounds[Wunde] seines Reittiers automatisch heilen.
-* Sein Reittiert regeneriert 2W10 TP.
+* Sein Reittier regeneriert 2W10 TP.

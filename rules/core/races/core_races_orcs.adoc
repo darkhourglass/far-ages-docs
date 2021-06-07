@@ -12,14 +12,14 @@
 
 === Adrenalinrausch
 Orks beherrschen ihren Körper und ihre natürliche Aggressivität so gut, dass diese kontrolliert einsetzen können, um für kurze Zeit schneller reagieren zu können.
-Einmal pro Tag kann ein Orc in einen Adrenalinrausch fallen, der so viele KO-viele xref:../core_rules_battlesystem.adoc#ref_battle_battleround[Kampfrunde] andauert und am Ende dieser Zeit automatisch endet.
-Pro Kampfrunde erhält der Ork eine xref:../core_rules_battlesystem.adoc#ref_battle_action[Aktion] mehr als sonst durchführen. +
+Einmal pro Tag kann ein Orc in einen Adrenalinrausch fallen, der so viele KO-viele xref:../core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfrunde] andauert und am Ende dieser Zeit automatisch endet.
+Pro Kampfrunde erhält der Ork eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] mehr als sonst durchführen. +
 Diese Aktion kann er auch für Bewegungen oder Manöver einsetzen, auf jeden Fall muss vermerkt werden, wie oft die zusätzliche Aktion eingesetzt wurde. +
 Am Ende ist der Ork xref:../core_rules_battlesystem.adoc#ref_condition_exhausted[erschöft] für eine Anzahl von Stunden, die der Anzahl der genutzten, zusätzlichen Aktionen entspricht.
 
 === Raserei
-Ork lernen die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_berserk_i[Kampfrausch I] zur Charaktererschaffung.
-Die Dauer aller Kampfrauschfähigkeiten entspricht für Orks 2*KO xref:../core_rules_battlesystem.adoc#ref_battle_battleround[Kampfrunden].
+Orks lernen die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_berserk_i[Kampfrausch I] zur Charaktererschaffung.
+Die Dauer aller Kampfrauschfähigkeiten entspricht für Orks 2*KO xref:../core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfrunden].
 
 === Dunkelsicht
 Ein Charakter mit dieser Eigenschaft kann in der Nacht oder in der Dunkelheit noch genauso gut sehen wie mit Licht.

@@ -1,0 +1,188 @@
+= Waffen
+
+[[ref_items_generalattributes]]
+== Allgemeine Eigenschaften
+
+Jede Waffe besitzt folgende Eigenschaften.
+
+[[ref_weapons_name]]
+*Name*: Der Name der Waffe.
+
+[[ref_weapons_attribut]]
+*Attribut:* Angabe des verwandten xref:../../../rules/core/core_rules_charactercreation.adoc#ref_attributes[Attributes], welche zu dem jeweiligen Talent angewendet wird.
+
+.Verwandte Attribute von Waffen
+====
+Ein Langschwert hat als Attribut xref:../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST].
+Ein Charakter mit einer ST-Stufe von 2 und einer Talentstufe in xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] von 3, hat somit ingesamt eine Stufe von 5.
+====
+
+[[ref_weapons_size]]
+*Größe*: Die Größe bestimmt, wer die Waffe in den Händen halten kann.
+Dies ist abhängi von der xref:../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größe] des Charakters.
+Außerdem bestimmt die Größe den xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_size[Waffenunterschied].
+
+.Größe von Waffen
+====
+Ein Langschwert hat eine Größe von 5.
+Ein link:../../../rules/core/races/core_races_humans.adoc[Mensch] mit einer Größe von 5 hat eine Aufteilung von Primär-/Sekundärwaffe 6/4.
+Damit kann er das Langschwert als Primärwaffe führen, jedoch nicht als Sekundärwaffe.
+====
+
+[NOTE]
+====
+Die Waffen sind gelistet für Kreaturen der Größe 5.
+Waffen, die in der Primärhand gehalten werden, haben daher eine Größe von 6, während Waffen für die Sekundärhand eine Größe von 4 besitzen.
+====
+
+[[ref_weapons_damagedice]]
+*Schadenswürfel*: Angabe der Schadenswürfel, siehe xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenswürfe].
+
+[[ref_weapons_weight]]
+*Gewicht*: Das Gewicht der Waffe in Pfund.
+
+[[ref_weapons_proce]]
+*Preis*: Der Preis der Waffe in Silbermünzen.
+
+[[ref_items_mundane_meleeweapons]]
+== Nahkampfwaffen
+
+Nahkampfwaffen besitzen alle <<ref_items_generalattributes, allgemeinen Eigenschaften>> sowie die Folgenden:
+
+[[ref_meleeweapons_range]]
+*Erhöhte Nahkampfreichweite:* Angabe als Ja/Nein, ob die Waffe für xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_reach[erhöhte Nahkampfreichweite] geeignet ist.
+
+[[ref_meleeweapons_diagonal]]
+*Diagonalkampf:* Angabe als Ja/Nein, ob die Waffe für xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_diagonal[diagonales Schlagen] geeignet ist.
+
+[[ref_meleeweapons_mountedattack]]
+*Berittender Angriff* Angabe als Ja/nein, ob die Waffe für einen xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack[berittenen Angriff] geeignet ist.
+
+Eine Übersicht über verfügbare Nahkampfwaffen findet sich in folgender link:../../../rules/tables/items/table_items_meleeweapons.adoc[Tabelle].
+
+[[ref_items_mundane_heavymeleeweapons]]
+== Schwere Nahkampfwaffen
+
+Schwere Nahkampfwaffen besitzen die gleichen Eigenschafen wie <<ref_items_mundane_meleeweapons, Nahkampfwaffen>>, jedoch müssen diese in zwei Händen gehalten werden.
+D.h. die angebene <<ref_weapons_size, Größe>> muss in die xref:../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Primärhand] des Trägers passen.
+Er kann diesem Fall keine Waffe in der Sekundärhand führen.
+
+Für Zweihandwaffen gelten andere Modifikatoren für die xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenswürfe].
+
+Eine Übersicht über verfügbare, schwere Nahkampfwaffen findet sich in folgender link:../../../rules/tables/items/table_items_heavymeleeweapons.adoc[Tabelle].
+
+[[ref_items_mundane_projectileweapons]]
+== Projektilwaffen
+
+Projektilwaffen besitzen alle <<ref_items_generalattributes, allgemeinen Eigenschaften>> sowie die Folgenden:
+
+[[ref_projectileweapons_baserange]]
+*Grundreichweite*: Gibt die xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_ranged_combat_baserange[Grundreichweite] einer Fernkampfwaffe an.
+
+Eine Übersicht über verfügbare Projektilwaffen findet sich in folgender link:../../../rules/tables/items/table_items_projectileweapons.adoc[Tabelle].
+
+[[ref_items_mundate_projectileweapons_gunpowder]]
+== Projektilwaffen (Schießpulver)
+
+Projektilwaffen mit Schießpulver besitzen alle <<ref_items_mundane_projectileweapons, Eigenschaften>> von Projektilwaffen sowie die Folgenden:
+
+[[ref_gunpowder_clip]]
+*Magazin:* Angabe über die Anzahl der Schüsse, die abgefeuert werden können, bevor die Waffe nachgeladen werden muss.
+
+[[ref_gunpowder_reload]]
+*Nachladen:* Angabe über die Art der Aktion (xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion]), um das Magazin nachladen zu können.
+
+[[ref_items_mundane_throwingweapons]]
+== Wurfwaffen
+
+Wurfwaffen haben die gleichen Eigenschaften wie <<ref_items_mundane_projectileweapons, Projektilwaffen>>.
+
+Eine Übersicht über verfügbare Wurfwaffen findet sich in folgender link:../../../rules/tables/items/table_items_throwingweapons.adoc[Tabelle].
+
+[[ref_items_mundane_throwingweapons_with_aoe]]
+== Wurfwaffen mit Flächenschaden
+
+Wurfwaffen mit Flächenschaden haben die gleichen Eigenschaften wie <<ref_items_mundane_throwingweapons, Wurfwaffen>> sowie die Folgenden:
+
+[[ref_throwingweapons_aoe_area]]
+*Fläche:* Angabe des Typs der Fläche, z.B. Radius oder Kegel.
+Die Bestimmung der Fläche hängt von der Ausdehnung ab.
+
+[[ref_throwingweapons_aoe_range]]
+*Ausdehnung:* Angabe in Metern, in der sich die Fläche ausdehnt.
+Diese Angabe bestimmt damit die betroffenen Ziele.
+Die Ausdehnung wird immer ab dem Punkt des Aufschlags bestimmt.
+
+Eine Übersicht über verfügbare Wurfwaffen mit Flächenschaden findet sich in folgender link:../../../rules/tables/items/table_items_throwingweapons_with_aoe.adoc[Tabelle].
+
+[[ref_items_mundane_change_size]]
+== Anpassung der Größe
+Um Waffen für größere oder kleinere Charaktere zu erstellen, kann man folgende Regeln anwenden.
+
+Eine Verringerungen oder Vergrößerungen von Waffen hat pro Punkt in Größe Auswirkungen auf die folgenden Eigenschaften:
+
+*Schadenswürfel:* Die bestehenden Schadenswürfel werden um den nächst niedrigeren Würfel oder höheren Würfel (Minimum 1W3, Maximum 1W12) angepasst.
+Ist dies nicht mehr möglich, so wird ein Modifikator von -1 bzw. +1 angesetzt.
+
+*Gewicht:* minus oder plus 20%, mindestens 1 Pfund (Brüche werden aufgerundet)
+
+*Preis:* immer plus 10% pro Punkt (Brüche werden aufgerundet)
+
+.Anpassen der Größe einer Waffe (verringern)
+====
+Für einen link:../../../rules/core/races/core_races_halflings.adoc[Halbling] soll ein Langschwert hergestellt werden.
+Der Halbling hat eine Größe von 4 und damit ist seine Primärhand auf Waffen der Größe 5 beschränkt.
+Um das Langschwert auf Größe 5 anzupassen, verändern sich sein die Eigenschaften der Waffe wie folgt:
+
+*Schadenswürfel:* 2W6 werden 2W4
+
+*Gewicht:* 3
+
+*Preis:* 33
+====
+
+.Anpassen der Größe einer Waffe (vergrößern)
+====
+In diesem Beispiel wird das Langschwert um einen Punkt in Größe erhöht.
+Damit verändern sich die Eigenschaft wie folgt:
+
+*Schadenswürfel:* 2W6 werden 2W8
+
+*Gewicht:* 4
+
+*Preis:* 33
+====
+
+[[ref_items_mundane_masterweapons]]
+== Exzellente Waffen
+
+Wenige Waffenschmiede stellen nicht einfach Waffen her, sondern außergewöhnlich qualitative wie tödliche Kunstwerke.
+Solche Waffen nennt man auch exzellente Waffen.
+
+Ihre Qualität wird dabei in Punkten gemessen.
+Pro Punkt in Exzellenz erhält der Träger der Waffe einen Bonus von +1 auf Würfelanzahl für seine Angriffsproben mit dieser Waffe.
+Dies macht sich außerdem im Preis bemerkbar, denn pro Punkt in Exzellenz erhöht sich der Preis der Waffe um einen prozentualen Anteil, der aus folgender Tabelle entnommen werden kann.
+
+
+|===
+|Exzellenz |Bonus auf Würfelanzahl |Preismodifikator
+
+|1
+|+1
+|+50%
+
+|2
+|+2
+|+125%
+
+|3
+|+3
+|+200%
+
+|4
+|+4
+|+300%
+|===
+
+Dabei gilt, dass diese Form der Exzellenz nicht kumulativ ist.
+Eine Waffe hat eine feste Exzellenz, die nicht nach oben oder unten verändert werden kann.

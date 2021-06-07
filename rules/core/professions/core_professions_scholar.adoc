@@ -1,15 +1,44 @@
 = Scholar
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Forschen, Lesen/Schreiben, Konversation, Technomantisches Gerät Benutzen, Verborgenes Entdecken, Willenskraft, 2 freie Wissenstalente +
+*Talentliste (SGM 1):* Ausfragen, Forschen, Lesen/Schreiben, Technomantisches Gerät Benutzen, Verborgenes Entdecken, Überzeugen, 2 freie Wissenstalente +
 *Talentliste (SGM 2):* Aether Wahrnehmung, Hieb Ausweichen, 2 freie Wissenstalente +
 *Attributsbonus:* +1 EN, +1 ER +
-*Vorteile*: - +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* Artefaktkunde +
 *TP/MP-Steigerung:* +3/+9 +
-*Voraussetzungen:* ER 2 +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Reisekleidung, Rucksack, 3 Bücher über unterschiedliche Wissensgebiete, Tinte, Papier +
-*Startgeld:* 4W6 +
-*CP:* 90  +
-*Spezielle Berufstalente:* -
+*CP:* 60  +
+
+== Eigenschaften
+
+[[ref_scholar_arkanestudy]]
+=== Arkanes Studium
+Der Scholar darf das Talent xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen [Arkanes]] als SGM 1 Talent lernen.
+
+[[ref_scholar_spontaneoustutoral]]
+=== Spontanes Tutorial
+Der Scholar kann sein umfangreiches Wissen und Verständnis mit anderen Kreaturen teilen.
+Er muss dazu 10 Minuten aufwenden, in denen die Zielkreaturen ihm zuhören können.
+Nach Abschluss des Tutorials erhalten die Kreaturen für 24 Stunden einen Bonus auf die Würfe zum Erfolg von +1 auf eine beliebige Talentprobe nach Wahl des Scholaren.
+Alle Kreaturen können für dasselbe Talent profitieren. +
+Der Effekt dieser Eigenschaft kann auf so viele Kreaturen gleichzeit angewendet werden, wie der Scholar Stufen in xref:../core_rules_charactercreation.adoc#ref_attribute_perception[ER] hat.
+
+[[ref_scholar_deepstudy]]
+=== Vertiefendes Studium
+Zu Beginn des Spiels wählt der Scholar eine der folgenden link:../core_rules_skills.adoc[Fähigkeiten] aus:
+
+* xref:../core_rules_skills.adoc#ref_skills_alchemy[Alchemie]
+* xref:../core_rules_skills.adoc#ref_skills_artefactlore[Artefaktkunde]
+* xref:../core_rules_skills.adoc#ref_skills_runelore[Runenlehre]
+
+Er lernt diese Fähigkeit ohne die Voraussetzungen erfüllen zu müssen und ohne zusätzliche CP-Kosten.
+
+[[ref_scholar_universalstudy_i]]
+=== Universelles Studium I
+Zu Beginn des Spiels kann der Scholar eine beliebige link:../core_rules_skills.adoc[Fähigkeit] aus, deren CP-Kosten maximal 100 betragen darf.
+Er lernt diese Fähigkeit ohne die Voraussetzungen erfüllen zu müssen und ohne zusätzliche CP-Kosten.
+
+[[ref_scholar_universalstudy_ii]]
+=== Universelles Studium II
+Zu Beginn des Spiels kann der Scholar eine beliebige link:../core_rules_skills.adoc[Fähigkeit] aus, deren CP-Kosten maximal 100 betragen darf.
+Er lernt diese Fähigkeit ohne die Voraussetzungen erfüllen zu müssen und ohne zusätzliche CP-Kosten.

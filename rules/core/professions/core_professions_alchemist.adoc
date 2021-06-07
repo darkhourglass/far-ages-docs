@@ -2,10 +2,10 @@
 
 *Beschreibung:* +
 *Talentliste (SGM 1):* Handwerk [Brauen], Hieb Ausweichen, Fallen Entschärfen, Forschen, Wissen [Arkanes], Wissen [Alchemie], Verborgenes Entdecken, Wurfwaffen +
-*Talentliste (SGM 2):* Aether Wahrnehmung, Lesen/Schreiben, Spruchzauberei [Alchemie], Verbrennen Widerstehen +
+*Talentliste (SGM 2):* Aether Wahrnehmung, Disziplin, Lesen/Schreiben, Spruchzauberei [Alchemie], Verbrennen Widerstehen, 1 freies Wissenstalent +
 *Attributsbonus:* +1 GE, +1 EN +
 *TP/MP-Steigerung:* +5/+7 +
-*Voraussetzungen:* - +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Alchmieausrüstung, einfache Roben, Lederschürze, Augenschutz, Handschuhe, Dolch +
 *CP:* 65 +
 
@@ -21,7 +21,7 @@ Der Alchemist lernt die besondere Fähigkeit Bomben herzustellen.
 Bomben im Sinne dieser Fähigkeit sind kleine, mit alchemistischer Mixtur, gefüllte Behälter, die einen bestimmten Effekt in einem Umkreis bei Auslösung verursachen.
 Die Auslösung erfolgt im Allgemeinen durch Werfen und bei Aufprall.
 
-Um eine Bombe herzustellen, wählt der Alchemist einen Zauberspruch aus der Zauberschule xref:../core_rules_magic_base.adoc#ref_magic_types_alchemy[Alchemie], den er gelernt hat.
+Um eine Bombe herzustellen, wählt der Alchemist einen Zauberspruch aus der Zauberschule xref:../core_rules_magic_base.adoc#ref_magic_schools_alchemy[Alchemie], den er gelernt hat.
 Dieser Zauberspruch muss als Ziel mindestens eine Kreatur sein, dabei gilt auch "Selbst" als valide.
 Eine fertige Bombe wird als xref:../core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_aoe[Wurfwaffe mit Radius] mit einer xref:../core_rules_battlesystem.adoc#ref_battle_rules_ranged_combat_baserange[Grundreichweite] von 12 Metern behandelt.
 Der Radius beträgt immer 3 Meter, auch wenn der eigentliche Effekt keinen Radius hatte.

@@ -2,32 +2,39 @@
 
 == Allgemeine Regeln zu Besonderen Fähigkeiten
 
-Besondere Fähigkeiten stellen, wie der Name es vermuten lässt,
-einzigartige, herausragende Fähigkeiten dar, die ein Charakter erlernen
-kann. Im Gegensatz zu den Talenten haben Besondere Fähigkeiten keine
-Stufen und keine verwandten Attribute. Stattdessen stellen sie
-Erweiterungen oder Verbesserungen von vorhandenen Talenten dar. Eine
-Besondere Fähigkeit kann daher eine Probe beinhalten, jedoch wird diese
-über ein zugehöriges Talent gewürfelt. Alternativ kann die Fähigkeit
-auch eine Talentprobe modifizieren und dadurch einen besonderen Effekt
-hervorrufen. Für die exakte Wirkungsweise einer jeweiligen Fähigkeit
-siehe deren Beschreibung.
+Besondere Fähigkeiten stellen, wie der Name es vermuten lässt, einzigartige, herausragende Fähigkeiten dar, die ein Charakter erlernen kann.
+Im Gegensatz zu den Talenten haben Besondere Fähigkeiten keine Stufen und keine verwandten Attribute.
+Stattdessen stellen sie Erweiterungen oder Verbesserungen von vorhandenen Talenten dar.
+Eine Besondere Fähigkeit kann daher eine Probe beinhalten, jedoch wird diese über ein zugehöriges Talent gewürfelt.
+Alternativ kann die Fähigkeit auch eine Talentprobe modifizieren und dadurch einen besonderen Effekt hervorrufen.
+Für die exakte Wirkungsweise einer jeweiligen Fähigkeit siehe deren Beschreibung.
 
 == Erlernen von Besonderen Fähigkeiten
 
-Auch Besondere Fähigkeiten benötigen die Ausgabe von CP, um gelernt zu
-werden. Diese CP-Kosten sind individuell bei den Fähigkeiten vermerkt
-und ein Charakter kann diese CP aufwenden, um die Fähigkeit zu erlernen.
-Hat er dies getan, dann besitzt er die Fähigkeit und kann sie normal
-nutzen. Allerdings gelten bei den Besonderen Fähigkeiten auch
-*_Voraussetzungen_*. Diese muss ein Charakter alle im Minimum erfüllen,
-um seine CP dafür aufwenden zu können. Im Falle von Talenten beziehen
-sich die Zahlenangaben immer auf die Talentstufe, nicht auf die
-Gesamtstufe.
+Auch Besondere Fähigkeiten benötigen die Ausgabe von CP, um gelernt zu werden.
+Diese CP-Kosten sind individuell bei den Fähigkeiten vermerkt und ein Charakter kann diese CP aufwenden, um die Fähigkeit zu erlernen.
+Hat er dies getan, dann besitzt er die Fähigkeit und kann sie normal nutzen.
+Allerdings gelten bei den Besonderen Fähigkeiten auch *_Voraussetzungen_*.
+Diese muss ein Charakter alle im Minimum erfüllen, um seine CP dafür aufwenden zu können.
+Im Falle von Talenten beziehen sich die Zahlenangaben immer auf die Talentstufe, nicht auf die Gesamtstufe.
 
 Man kann eine Besondere Fähigkeit nur einmal lernen.
 
 == Kampffähigkeiten
+
+//TODO
+=== Aggressiver Kampfstil
+*Voraussetzungen:* - +
+*CP-Kosten:* 100 +
+*Beschreibung:* Angriff ist manchmal die beste Verteidigung.
+Der Charakter geht stark in die Offensive und vernachlässigt die Defensive.
+
+Er erhält einen Bonus von +2 Würfel für alle Nahkampfangriffswürfe, aber auch einen Malus von -2 Würfel auf alle Verteidigungswürfe.
+
+Dieses Manöver kann nicht eingesetzt werden, um Angriffe von Fernkampfwaffen oder Zaubern zu verbessern.
+
+Dieses Kampfmanöver kann weiterführend eingesetzt werden, in jeder Kampfrunde gelten die Boni und Mali.
+Während der Durchführung eines Aggressiven Kampfstiles ist es nicht möglich, Zauber vorzubereiten.
 
 [[ref_skills_acrobatic_attack]]
 === Akrobatischer Angriff
@@ -57,6 +64,23 @@ Er kann Barriere beliebig lange weiterführen.
 Während dieser Zeit darf er jedoch keine Angriffe ansagen (er kann jedoch Gelegenheitsangriffe durchführen) oder Zaubersprüche vorbereiten.
 Er kann nur das Bewegungsmanöver Rennen einsetzen, dieses jedoch nur mit halbierter BEW.
 
+//TODO
+=== Blocken
+*Voraussetzungen:* - +
+*CP-Kosten:* 100 +
+*Beschreibung:* Dieses Manöver wird benutzt, um einen Kontrahenten im Nahkampf in seiner Bewegung einzuschränken.
+Dazu muss der Charakter, der dieses Manöver ausführt entweder einen Schild oder eine Waffe von mindestens der Größe 6 benutzen.
+Der Charakter würfelt anstelle seinen üblichen Angriffswürfen im Nahkampf eine Nahkampfwaffenprobe, die jedoch keinen Schaden verursacht.
+
+Ist der Angriff erfolgreich, so erhält der Gegner einen Malus von -1 auf seine Würfelanzahl für Angriffsproben für seine nächste Kampfphase.
+
+Am Anfang der nächsten Kampfrunde ist der Initiative-Wert des Gegners um 2 verringert.
+
+Das Manöver lässt sich nur gegen ein Wesen ausführen, dass maximal eine Größenkategorie größer ist als man selbst.
+
+Blocken provoziert einen Gelegenheitsangriff, allerdings nicht für dem geblockten Gegner.
+
+
 === Durchschlagender Treffer [Waffe]
 *Voraussetzungen:* Angriffstalent passend zu Waffe 10, Waffenfokus[Waffe] +
 *CP-Kosten:* 300 +
@@ -67,11 +91,9 @@ Dies gilt für jede Art von Rüstung, außer sie ist explizit dagegen geschützt
 
 [[ref_skills_disarm]]
 === Entwaffnen
-*Voraussetzungen:* Parade 5, Nahkampfwaffen 5 +
+*Voraussetzungen:* Nahkampfwaffen 3 oder Unbewaffenter Kampf 3 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Mit dieser Fähigkeit kann der Charakter versuchen, einem anderen Charakter die Waffe aus der Hand zu schlagen.
-Er kann diese Fähigkeit sowohl bei einer Parade als auch bei einer Nahkampfattacke
-verwenden.
 Wählt er eine der Optionen, erhält er einen Malus von -1 auf die Würfe zum Erfolg.
 Ist die jeweilige Probe erfolgreich, dann würfeln beide Kontrahenten anstelle einer Schadensprobe eine ST-Probe gegen den Standardmindestwurf.
 Hat der Entwaffnen-Nutzende mehr Erfolge, so hat er den Gegner entwaffnet.
@@ -91,20 +113,16 @@ Die Anzahl der Gelegenheitsangriffe wird berechnet aus seinen Stufen in (GE + ER
 
 [[ref_skills_martial_I]]
 === Kampfkunst I
-*Voraussetzungen:* Unbewaffneter Kampf 3 +
+*Voraussetzungen:* Unbewaffneter Kampf 1 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeiten beschreiben einen Kampfstil, der ohne Waffen geführt wird und über den Unbewaffneten Kampf hinausgeht. Dank intensivem Training wird der Charakter auch ohne Waffen ein gefährlicher Teilnehmer im Kampf.
-Kampfkunst I ermöglicht dem Charakter einen Gegner zu entwaffnen, in dem er die Waffe des Gegners aus der Hand tritt oder schlägt.
-Wählt er diese Option, erhält er einen Malus von -1 auf die Würfe zum Erfolg in seiner Probe auf Unbewaffenten Kampf.
-Ist die jeweilige Probe erfolgreich, dann würfeln beide Kontrahenten anstelle einer Schadensprobe eine ST-Probe gegen den Standardmindestwurf.
-Hat der Entwaffnen-Nutzende mehr Erfolge, so hat er den Gegner entwaffnet.
-Die Waffe fliegt 1W3*1,50 Meter weit weg in eine zufällig bestimmte Richtung. +
-Außerdem darf der Charakter bei Wahl des Kampfmanönvers Raufen und Ringen entscheiden, ob er den halbierten oder gar keinen Schaden verursachen will.  +
-Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
+*Beschreibung:* Diese Fähigkeiten beschreiben einen Kampfstil, der ohne Waffen geführt wird und über den Unbewaffneten Kampf hinausgeht.
+Dank intensivem Training wird der Charakter auch ohne Waffen ein gefährlicher Teilnehmer im Kampf.
+Die xref:core_rules_battlesystem.adoc#ref_battle_modifiers_missingweapon[Modifikatoren] für den Unbewaffneten entfallen.
+Die unbewaffneten Attacken verursachen keinen Gelegenheitsangriff mehr, wenn sie gegen einen bewaffneten Gegner geführt werden.
 
 [[ref_skills_martial_II]]
 === Kampfkunst II
-*Voraussetzungen:* Unbewaffneter Kampf 6, Kampfkunst I +
+*Voraussetzungen:* Unbewaffneter Kampf 3, Kampfkunst I +
 *CP-Kosten:* 300 +
 *Beschreibung:* Mit Erlernen dieser Fähigkeit kann der Charakter einen Angriff zum Niederschlag durchführen.
 Dazu wirft er eine Probe auf Unbewaffneten Kampf mit einem Malus von -1 auf die Würfe zum Erfolg.
@@ -114,7 +132,7 @@ Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schad
 
 [[ref_skills_martial_III]]
 === Kampfkunst III
-*Voraussetzungen:* Unbewaffneter Kampf 9, Kampfkunst II +
+*Voraussetzungen:* Unbewaffneter Kampf 6, Kampfkunst II +
 *CP-Kosten:* 400 +
 *Beschreibung:* Kampfkunst III eleminiert alle negativen Modifikationen, die ein
 unbewaffenter Charakter im Kampf gegen einen bewaffneten Charakter
@@ -123,7 +141,7 @@ Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schad
 
 [[ref_skills_martial_IV]]
 === Kampfkunst IV
-*Voraussetzungen:* Unbewaffenter Kampf 12, Kampfkunst III +
+*Voraussetzungen:* Unbewaffenter Kampf 9, Kampfkunst III +
 *CP-Kosten:* 500 +
 *Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Proben in den Talenten Unbewaffneter Kampf, Hieb Ausweichen und Reflex, solange er keine Waffen trägt.+
 Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
@@ -136,7 +154,7 @@ Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schad
 Der Charakter erhält dadurch im Nahkampf einen einmaligen Bonus von +2 auf alle Schadenswürfel.
 Jedoch erhält er auch einen Malus von -1 auf alle Würfe zum Erfolg bei Verteidigungswürfen.
 Ein Kampfrausch dauert so viele Kampfrunden, wie der Charakter Stufen in seinem KO-Attribut hat.
-Danach ist der Kampfrausch automatisch vorbei (der Charakter kann einen Kampfrausch nicht freiwillig abbrechen).
+Danach ist der Kampfrausch automatisch vorbei.
 Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten und Springen verwenden und auch keine Talente außer Kampftalente.
 Am Ende des Kampfrausches ist der Charakter für 5 – KO (Minimum 1) Kampfrunden erschöpft.
 
@@ -148,7 +166,8 @@ Am Ende des Kampfrausches ist der Charakter für 5 – KO (Minimum 1) Kampfrunde
 Die Schadenswürfel des rasenden Charakters erhalten nun einen Bonus von +4, während die Verteidigungstalente einen Malus von -2 erhalten.
 
 Immer wenn der Charakter einen Gegner besiegt oder sogar getötet hat, muss er sich ein neues Ziel suchen.
-Dieses Ziel ist die nächste Kreatur, die der Rasende erreichen kann. Handelt es sich dabei um ein Ziel, das der Rasende normalerweise nicht angreifen will (z.B. weil es Verbündeter ist oder ein Ziel mit niedriger Priorität), muss der Rasende eine Willenskraft-Probe bestehen oder muss das Ziel angreifen.
+Dieses Ziel ist die nächste Kreatur, die der Rasende erreichen kann.
+Handelt es sich dabei um ein Ziel, das der Rasende normalerweise nicht angreifen will (z.B. weil es Verbündeter ist oder ein Ziel mit niedriger Priorität), muss der Rasende eine Willenskraft-Probe bestehen oder muss das Ziel angreifen.
 Der Rasende kann nur direkt angreifen, er kann nicht um Ziele herumlaufen, um sie von hinten zu attackieren.
 
 Die Dauer der Raserei verbessert sich auf 2*KO Kampfrunden, bevor die Erschöpfung eintritt.
@@ -179,10 +198,8 @@ Die Dauer der Raserei verbessert sich auf 3*KO Kampfrunden, bevor die Erschöpfu
 === Kampfreflexe
 *Voraussetzungen:* Akrobatik 8, ER 4 +
 *CP-Kosten:* 500 +
-*Beschreibung:* Ein Charakter mit dieser Fähigkeit kann
-Gelegenheitsangriffen mit seinem Talent Akrobatik ausweichen, auch wenn
-Gelegenheitsangriffe üblicherweise Einfache Proben sind. Gegen einen
-Charakter mit dieser Fähigkeit werden sie also Konkurrierenden Proben.
+*Beschreibung:* Ein Charakter mit dieser Fähigkeit kann Gelegenheitsangriffen mit seinem Talent Akrobatik ausweichen, auch wenn Gelegenheitsangriffe üblicherweise Einfache Proben sind.
+Gegen einen Charakter mit dieser Fähigkeit werden sie also Konkurrierenden Proben.
 
 === Kavallerie Angriff
 *Voraussetzungen:* Reiten 5, Nahkampfwaffen 8, Stabiler Sitz, Niederreiten +
@@ -272,7 +289,7 @@ ermittelt.
 === Rüstungsgewohnheit [Rüstung]
 *Voraussetzungen:* - +
 *CP-Kosten:* 100 +
-**Beschreibung: **Ein Charakter, der diese Fähigkeit lernt, hat sich an
+*Beschreibung:* Ein Charakter, der diese Fähigkeit lernt, hat sich an
 die Bewegung in einer bestimmten Rüstung besonders gut gewöhnt und kann
 sich darin besser bewegen. Er muss sich dabei für eine Rüstung
 entscheiden, z.B. Lederrüstung, Gehärtetes Leder, Plattenrüstungen,
@@ -331,7 +348,7 @@ zulässt. +
 Die Fähigkeit kann mehrfach für unterschiedliche Nahkampfwaffen gelernt werden.
 
 === Sprungangriff
-*Voraussetzungen:* Waffenloser Kampf 8 +
+*Voraussetzungen:* Unbewaffneter Kampf 8 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Mit dieser Fähigkeit kann ein Charakter im Waffenlosen
 Kampf eine starke Sprungattacke gegen einen Gegner ausführen. Dazu darf
@@ -386,9 +403,8 @@ Dies provoziert beim Gegner keinen Gelegenheitsangriff, jedoch können Gegner, d
 === Verbesserte Initiative
 *Voraussetzungen:* - +
 *CP-Kosten:* 100+ +
-*Beschreibung:* Äquivalent zu dem gleichnamigen Vorteil, erhöht diese
-Fähigkeit den Initiative-Wert eines Charakters dauerhaft um +1. Diese
-Fähigkeit kann öfter gelernt werden, wodurch sich die Boni addieren.
+*Beschreibung:* Äquivalent zu dem gleichnamigen Vorteil, erhöht diese Fähigkeit den Initiative-Wert eines Charakters dauerhaft um +1.
+Diese Fähigkeit kann öfter gelernt werden, wodurch sich die Boni addieren.
 
 === Verbesserte Schildverteidigung
 *Voraussetzungen:* Schildverteidigung 5 +
@@ -417,7 +433,7 @@ durch den Charakter keinen Gelegenheitsangriff mehr.
 === Verbesserter Sturmangriff
 *Voraussetzungen:* Nahkampfwaffen 3
 *CP-Kosten:* 100 +
-*Beschreibung:* Mit dieser Fähigkeit provoziert das Ausführen des Kampfmanövers xref:core_rules_battlesystem.adoc#ref_maneuver_charge[Sturmangriff] durch den Charakter keinen Gelegenheitsnagriff mehr.
+*Beschreibung:* Mit dieser Fähigkeit provoziert das Ausführen des Kampfmanövers xref:core_rules_battlesystem.adoc#ref_battle_complexactions_charge[Sturmangriff] durch den Charakter keinen Gelegenheitsnagriff mehr.
 
 === Verbesserter Zweiwaffenkampf
 *Voraussetzungen:* Nahkampfwaffen 8, Zweiwaffenkampf +
@@ -516,6 +532,25 @@ wiederholt werden. Ebenso können keine Würfel neu gewürfelt werden, die
 bereits neugewürfelt wurden. Das neue Ergebnis zählt, egal ob es besser
 oder schlechter war.
 
+// TODO
+=== Zurückdrängen
+*Voraussetzungen:* Nahkampfwaffen 3 +
+*CP-Kosten:* 200 +
+*Beschreibung:*
+Mit diesem Manöver kann der Charakter seinen Gegner versuchen zurückzudrängen und in eine defensive Stellung zu zwingen.
+Der angreifende Charakter führt seinen Angriff normal mit Nahkampfwaffen aus.
+Dann würfeln die Kontrahenten eine konkurrierende ST-Probe.
+Pro Erfolgsgrad des Angreifers muss der Verteidiger 1,50 Meter zurückweichen.
+Diese Bewegung wird behandelt, als hätte der Verteidiger das Kampfmanöver Zurückweichen eingesetzt.
+
+Hat der Verteidiger mehr Erfolge, war das Zurückdrängen nicht erfolgreich und es passiert nichts.
+
+Grundsätzlich provoziert dieser Angriff Gelegenheitsangriffe gegenüber anderen Kontrahenten.
+
+Wird der Verteidiger in eine Bedrohungszone zurückgedrängt, so provoziert er ebenso Gelegenheitsangriffe.
+
+Zurückdrängen kann nur in Verbindung mit einer Nahkampfattacke genutzt werden.
+
 === Zusätzlicher Angriff [Nahkampfwaffe]
 *Voraussetzungen:* Nahkampfwaffen 8, Waffenfokus[Waffe] +
 *CP-Kosten:* 400 +
@@ -535,9 +570,8 @@ Die üblichen Mali von auf die Attacke mit der Haupthand bzw. Zweithand reduzier
 === Zweiwaffenkampf, Verbesserter
 *Voraussetzungen:* Nahkampfwaffen 8, Zweiwaffenkampf +
 *CP-Kosten:* 400 +
-*Beschreibung:* Es gelten die Regeln aus Zweiwaffenkampf. Die üblichen
-Mali von auf die Attacke mit der Haupthand bzw. Zweithand reduzieren
-sich auf -1/-2 Würfel.
+*Beschreibung:* Es gelten die Regeln aus Zweiwaffenkampf.
+Die üblichen Mali von auf die Attacke mit der Haupthand bzw. Zweithand reduzieren sich auf -1/-2 Würfel.
 
 == Schurkenfähigkeiten
 
@@ -552,7 +586,7 @@ Jeder andere Charakter, der einen auf Erkenntnisbasierende Probe würfelt, um de
 Nach außen hin erscheint der Charakter verschwommen, seine Haut, sogar seine Kleidung und auch seine Ausrüstung nimmt den Farbe der Umgebung an. Der Effekt dehnt sich aber nie auf andere Kreaturen aus.
 
 === Fallenspezialist
-*Voraussetzungen:* Fallen Entschärfen 4, Fallen Stellen 4 +
+*Voraussetzungen:* Fallen Entschärfen 3, Fallen Stellen 3 +
 *CP-Kosten:* 200 +
 *Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen Bonus von +1 auf die Würfe zum Erfolg in den Talenten Fallen Entschärfen und Fallen Stellen.
 
@@ -565,7 +599,7 @@ Nach außen hin erscheint der Charakter verschwommen, seine Haut, sogar seine Kl
 === Stolperfalle
 *Voraussetzungen:* Nahkampfwaffen 3 oder Unbewaffneter Kampf 3, GE 2 +
 *CP-Kosten:* 100 +
-*Beschreibung:* Würfelt der Charakter eine Angriffprobe mit Nahkampfwaffen oder Unbewaffneter Kampf gegen einen Gegner, kann er sich im Falle eines Erfolgs entscheiden, keinen Schadenswurf durchzuführen.
+*Beschreibung:* Würfelt der Charakter eine Angriffsprobe mit Nahkampfwaffen oder Unbewaffneter Kampf gegen einen Gegner, kann er sich im Falle eines Erfolgs entscheiden, keinen Schadenswurf durchzuführen.
 Tut er dies, verliert der Gegner seine verbliebenen Aktionen in dieser Kampfphase.
 
 [[ref_skills_backstab]]
@@ -584,10 +618,9 @@ Jede Stufe erhöht den Bonus um +1W6.
 Die CP-Kosten steigen kumulativ um 100 CP pro Erlernung.
 
 === Schlossspezialist
-*Voraussetzungen:* Schlösser Öffnen 4 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen
-Bonus von +1 auf die Würfe zum Erfolg in dem Talent Schlösser Öffnen.
+*Voraussetzungen:* Schlösser Öffnen 2 +
+*CP-Kosten:* 100 +
+*Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen Bonus von +1 auf die Würfe zum Erfolg in dem Talent Schlösser Öffnen.
 
 == Soziale Fähigkeiten
 
@@ -614,7 +647,7 @@ die Überzeugen-Probe festgelegt werden: Durchschnittlicher Erfolg: +1,
 Guter Erfolg +2, Sehr Guter Erfolg: +3, Ausgezeichneter Erfolg: +4.
 
 === Empathie
-*Voraussetzungen:* Verborgenes Erkennen 5, Erkenntnis 3 +
+*Voraussetzungen:* Verborgenes Erkennen 3, Erkenntnis 3 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Diese Fähigkeit ermöglicht es dem Charakter bei seinem
 Gegenüber Gefühlsregungen zu erkennen. Interessant ist dies, wenn diese
@@ -630,7 +663,7 @@ wurden, bzw. je besser der Erfolgsgrad ist, desto eher werden Details
 klar.
 
 === Etikette
-*Voraussetzungen:* Konversation 5 +
+*Voraussetzungen:* Konversation 3 +
 *CP-Kosten:* 100 +
 *Beschreibung:* Diese Fähigkeit gestattet es dem Charakter zu
 gesellschaftlichen Anlässen und in Veranstaltungen, an denen ein
@@ -675,6 +708,7 @@ nun durchführen. Diese Handlung kann nur sehr einfach sein, bzw. in
 wenigen Worten zu beschreiben. Beispielsweise ist “Tötet den König”
 legitim.
 
+[[ref_skills_taunt]]
 === Verspotten
 *Voraussetzungen:* Überzeugen 5 +
 *CP-Kosten:* 200 +
@@ -684,23 +718,20 @@ Das Talent Überzeugen wird in Verwendung mit Verspotten wird gegen eine Beherrs
 Für einen Durchschnittlichen Erfolg erhält das Opfer einen Malus von -1 auf alle Würfe zum Erfolg für eine Anzahl an Kampfrunden gleich der Stufe des Überzeugen-Talents geteilt durch 2 (abgerundet, Minimum 1).
 Hat der verspottende Charakter einen Guten Erfolg gewürfelt, beträgt der Malus -2, bei einem Sehr Guten -3 bis max. -4 bei einem Hervorragenden Erfolg.
 
+[[ref_skills_confuse]]
 === Verwirren
-*Voraussetzungen:* Überzeugen 5 +
+*Voraussetzungen:* Überzeugen 3 +
 *CP-Kosten:* 100 +
-*Beschreibung:* Diese Fähigkeit erlaubt es dem Charakter seinen
-Gesprächspartner zu verwirren. Dazu benutzt er einen komplizierten
-Satzbau, Fachbegriffe und Fremdwörter und durchaus falsche Behauptungen.
-Dadurch wird der Gesprächspartner verwirrt und wird eventuell das tun,
-was der Charakter von ihm will.
+*Beschreibung:* Diese Fähigkeit erlaubt es dem Charakter seinen Gesprächspartner zu verwirren.
+Dazu benutzt er einen komplizierten Satzbau, Fachbegriffe und Fremdwörter und durchaus falsche Behauptungen.
+Dadurch wird der Gesprächspartner verwirrt und wird eventuell das tun, was der Charakter von ihm will.
 
 Die Fähigkeit erweitert das Talent Überzeugen.
 
-Für jeden Erfolg kann der Charakter eine Kreatur, die seine Sprache
-versteht und ihm zuhört verwirren. Der SL kann je nach Situation höhere
-Erfolgsgrade fordern. Wenn der Charakter dann in den nächsten 10 Minuten
-eine Überzeugen-Probe gegen den Verwirrten würfeln muss, dann erhält er
-einen Bonus von +1 auf die Würfe zum Erfolg. Jeder zusätzliche Erfolg
-erhöht die Dauer um 5 Minuten.
+Für jeden Erfolg kann der Charakter eine Kreatur, die seine Sprache versteht und ihm zuhört verwirren.
+Der SL kann je nach Situation höhere Erfolgsgrade fordern.
+Wenn der Charakter dann in den nächsten 10 Minuten eine Überzeugen-Probe gegen den Verwirrten würfeln muss, dann erhält er einen Bonus von +1 auf die Würfe zum Erfolg.
+Jeder zusätzliche Erfolg erhöht die Dauer um 5 Minuten.
 
 == Wissensfähigkeiten
 
@@ -717,32 +748,24 @@ Die notwendigen Proben werden mit dem Handwerk[Brauen]-Talent gewürfelt.
 Ein Charakter mit dieser Fähigkeit benötigt nicht das Talent Magische Gegenstände Herstellen, um Tränke herzustellen.
 Der SL kann Erfolgsgrade für das Fehlen dieser Voraussetzungen erhöhen, ebenso für schwierige Experimente oder Gemische.
 
+[[ref_skills_artefactlore]]
 === Artefaktkunde
 *Voraussetzungen:* Wissen[Arkanes] 5, Wissen[Legenden] 2, Wissen[Geschichte] 2 +
-*CP-Kosten:* 300 +
-*Beschreibung:* Artefaktkunde ist eine Fähigkeit, die das Wissen um
-legendäre, magische Schätze umfasst. Der Charakter kann anhand von
-äußeren Merkmalen oder Beobachtungen der Wirkungsweise von magischen
-Gegenständen mehr über diese herausfinden. Dies können frühere Besitzer
-sein, Legenden, die sich um diesen Gegenstand ranken, oder einfach die
-Verwendungsweise. Nützlich ist die Fähigkeit auch, wenn man den Verdacht
-hat, dass ein Fluch auf dem Gegenstand liegt. Eine erfolgreiche Probe
-könnte dies aus der Geschichte des Artefakts bestätigen. Der Erfolgsgrad
-dieser Probe kann vom SL aufgrund von Seltenheit des jeweiligen
-Artefakts abhängig gemacht werden. Die Fähigkeit kann auch angewandt
-werden, wenn der Charakter mit Aether Wahrnehmung eine magische Aura
-eines Artefakts analysiert, um damit etwas über die magischen
-Eigenschaften eines unbekannten Gegenstandes zu erfahren (dies ist nicht
-identisch mit Identifizieren). Mit einem mindestens Guten Erfolg kann
-der Charakter technomantische Konstrukte als solche identifizieren,
-jedoch erhält durch diese Fähigkeit keine spezifischen
-Konstruktionsdetails. Diese werden durch das Talent Technomantie
-abgedeckt.
+*CP-Kosten:* 200 +
+*Beschreibung:* Artefaktkunde ist eine Fähigkeit, die das Wissen um legendäre, magische Schätze umfasst.
+Der Charakter kann anhand von äußeren Merkmalen oder Beobachtungen der Wirkungsweise von magischen Gegenständen mehr über diese herausfinden.
+Dies können frühere Besitzer sein, Legenden, die sich um diesen Gegenstand ranken, oder einfach die Verwendungsweise.
+Nützlich ist die Fähigkeit auch, wenn man den Verdacht hat, dass ein Fluch auf dem Gegenstand liegt.
+Eine erfolgreiche Probe könnte dies aus der Geschichte des Artefakts bestätigen.
+Der Erfolgsgrad dieser Probe kann vom SL aufgrund von Seltenheit des jeweiligen Artefakts abhängig gemacht werden.
+Die Fähigkeit kann auch angewandt werden, wenn der Charakter mit Aether Wahrnehmung eine magische Aura eines Artefakts analysiert, um damit etwas über die magischen Eigenschaften eines unbekannten Gegenstandes zu erfahren (dies ist nicht identisch mit Identifizieren).
+Mit einem mindestens Guten Erfolg kann der Charakter technomantische Konstrukte als solche identifizieren, jedoch erhält durch diese Fähigkeit keine spezifischen Konstruktionsdetails.
 
 Die Fähigkeit erweitert das Talent Wissen[Arkanes], allerdings darf der
 Charakter die Probe auch mit seinem Talent Wissen[Legenden] oder
 Wissen[Geschichte] würfeln.
 
+[[ref_skills_foreignlanguage]]
 === Fremdsprache [eine Sprache]
 *Voraussetzungen:* Lesen/Schreiben 2 +
 *CP-Kosten:* 100 +
@@ -752,16 +775,21 @@ geschrieben werden. Die Fähigkeit kann mehrmals gewählt werden, jeweils
 mit einer anderen Sprache. Proben werden mit dem Talent Lesen/Schreiben
 gewürfelt.
 
+[[ref_skills_loremaster]]
+=== Gelehrter [Wissensgebiet]
+*Voraussetzungen:* Wissen [Wissengebiet] 2 +
+*CP-Kosten:* 100 +
+*Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg für alle Wissensproben in dem Wissenstalent für dieses Wissengebiet.
+
+[[ref_skills_runelore]]
 === Runenlehre
 *Voraussetzungen:* Wissen[Geschichte] 3, Wissen[Arkanes] 6 +
 *CP-Kosten:* 200 +
-*Beschreibung:* Runen sind ein altes Mittel, um Informationen weiter zu
-geben. Einige Alphabete basieren nur auf Runen. Einige Lebewesen bannen
-sogar Magie in Runen, um verschiedene, magische Effekte zu erwirken.
-Charaktere mit dieser Fähigkeit können Runen erkennen, deuten und selber
-in Runen kodieren. Jedoch können sie keine Magie in Runen bannen. Für
-eine genaue Beschreibung der Runenmagie siehe das Dokument[Magie]. Mit
-dem Talent Wissen[Arkanes] lassen sich Runen entziffern.
+*Beschreibung:* Runen sind ein altes Mittel, um Informationen weiter zu geben.
+Einige Alphabete basieren nur auf Runen. Einige Lebewesen bannen sogar Magie in Runen, um verschiedene, magische Effekte zu erwirken.
+Charaktere mit dieser Fähigkeit können Runen erkennen, deuten und selber in Runen kodieren.
+Jedoch können sie keine Magie in Runen bannen.
+Für eine genaue Beschreibung der Runenmagie siehe xref:core_rules_magic_base.adoc#ref_magic_schools_runes[Runenmagie].
 
 == Magische Fähigkeiten
 
@@ -820,21 +848,18 @@ Auf einer Straße in Mitten eines Raubüberfalls ist dieser Effekt sehr viel nü
 Im Kampf benötigt das Talent mindestens 4 Kampfrunden.
 Der SL kann im allgemeinen erlauben, dass die Benutzung des Talents dazu führt, dass der Charakter bei den überzeugten Personen für einen gewissen Zeitraum einen Bonus auf alle Kommunikationsproben erhält.
 
+[[ref_skills_mechanics]]
 === Mechanik
 *Voraussetzungen:* Wissen[Architektur und Ingenieur] 2, Handwerk[Schmied] 2 +
 *CP-Kosten:* 300 (100 für Technomanten) +
-*Beschreibung:* Diese Fähigkeit ist unter Ingenieuren und Technomanten
-weit verbreitet, wobei sie allerdings nur die nicht-technomantischen und
-nicht magischen Gerätschaften erfasst. Ein Charakter mit dieser
-Fähigkeit kann also alle gängigen, nicht-technomantischen Maschinen, wie
-Katapulte, Wasserpumpen, Armbrüste, Musketen, usw. sowohl reparieren,
-als auch unter gegebenen Umständen selberherstellen. Außerdem kann er
-eine unbekannte Maschine auf ihre Funktionsweise untersuchen. Für alle
-Aktionen ist meistens Werkzeug bzw. entsprechendes Baumaterial nötig.
-Fehlt dies, so kann der SL den Erfolgsgrad erhöhen. Wie gewöhnlich
-steigt der Erfolgsgrad mit der Komplexität der Aufgabe. Die Probe wird
-mit Handwerk[Schmied] (ggf. für Holzkonstruktionen Handwerk[Zimmermann])
-oder Wissen[Architektur und Ingenieur] gewürfelt, je nach SL-Entscheid.
+*Beschreibung:* Diese Fähigkeit ist unter Ingenieuren und Technomanten weit verbreitet, wobei sie allerdings nur die nicht-technomantischen und nicht magischen Gerätschaften erfasst.
+Ein Charakter mit dieser Fähigkeit kann also alle gängigen, nicht-technomantischen Maschinen, wie Katapulte, Wasserpumpen, Armbrüste, Musketen, usw. sowohl reparieren, als auch unter gegebenen Umständen selber herstellen.
+Außerdem kann er eine unbekannte Maschine auf ihre Funktionsweise untersuchen.
+Für alle Aktionen ist meistens Werkzeug bzw. entsprechendes Baumaterial nötig.
+Fehlt dies, so kann der SL den Erfolgsgrad erhöhen.
+Wie gewöhnlich steigt der Erfolgsgrad mit der Komplexität der Aufgabe.
+Die Probe wird mit Handwerk[Schmied] (ggf. für Holzkonstruktionen Handwerk[Zimmermann]) oder Wissen[Architektur und Ingenieur] gewürfelt, je nach SL-Entscheid.
+Beherrscht der Charakter das Talent Fallen Entschärfen, erhält er einen Bonus von +1 auf die Würfe zum Erfolg.
 
 === Minnegesang
 *Voraussetzungen:* Kunst[Musik] 5, Kunst[Gesang] 5, Kunst[Schauspiel] 5 +
@@ -853,34 +878,25 @@ anspruchsvoll ist oder der Minnesänger beim Publikum unbeliebt ist oder
 Sprache zu verstehen, in der gesungen wird.
 
 === Navigation
-*Voraussetzungen:* Wissen[Geographie] 5, Orientierung, Erkenntnis 8 +
+*Voraussetzungen:* Wissen[Geographie] 3, Orientierung, Erkenntnis 3 +
 *CP-Kosten:* 300 +
-*Beschreibung:* Navigation wird benutzt, um beispielsweise Schiffe auf
-Kurs zu halten. Im Allgemeinen kann der Charakter mit Hilfe von
-Instrumenten und Karten seinen Weg finden, vorausgesetzt diese Dinge
-sind vorhanden. In vielen Fällen wird der Charakter z.B. auch den Himmel
-sehen müssen. Jeder Erfolg in einer Erkenntnis-Probe lässt den Charakter
-sich bzw. sein Gefährt bis zu einem Tag auf Kurs halten. Je nach
-Wetterlage kann dieser Zeitabschnitt jedoch rapide kleiner werden.
-Eventuell sind höhere Erfolgsgrade nötig, wenn der Charakter vielleicht
-nicht alle nötigen Instrumente hat oder wenn er durch unbekannte Gebiete
-navigieren muss.
+*Beschreibung:* Navigation wird benutzt, um beispielsweise Schiffe auf Kurs zu halten.
+Im Allgemeinen kann der Charakter mit Hilfe von Instrumenten und Karten seinen Weg finden, vorausgesetzt diese Dinge sind vorhanden.
+In vielen Fällen wird der Charakter z.B. auch den Himmel sehen müssen.
+Jeder Erfolg in einer Erkenntnis-Probe lässt den Charakter sich bzw. sein Gefährt bis zu einem Tag auf Kurs halten.
+Je nach Wetterlage kann dieser Zeitabschnitt jedoch rapide kleiner werden.
+Eventuell sind höhere Erfolgsgrade nötig, wenn der Charakter vielleicht nicht alle nötigen Instrumente hat oder wenn er durch unbekannte Gebiete navigieren muss.
 
+[[ref_skills_orientation]]
 === Orientierung [Gebiet]
-*Voraussetzungen:* Beobachten 5, Wissen[Geographie] 2 +
+*Voraussetzungen:* - +
 *CP-Kosten:* 100 +
-*Beschreibung:* Der Charakter hat eine gute Orientierung, so dass er
-meist sehr genau einschätzen kann, in welche Richtung er gehen muss, um
-sein Ziel zu erreichen. Die Fähigkeit wirkt beispielsweise, wenn der
-Charakter sich in der Wildnis verlaufen hat und sich an markanten
-Landschaftsmerkmalen orientieren möchte, um den Rückweg zu finden.
-Alternativ könnte er sich in der Stadt an Straßennamen oder besonderen
-Gebäuden orientieren. Dazu würfelt er eine Beobachten-Probe. Die
-Schwierigkeit der Probe wird vom SL durch die Anzahl der Erfolge
-festgelegt. Höhere Erfolgsgrade können angesetzt werden, wenn die
-Wahrnehmung und die Fähigkeit zur Informationsinterpretation des
-Charakters eingeschränkt sind. Jeder Erfolg hält den Charakter 5-30
-Minuten auf dem richtigen Kurs.
+*Beschreibung:* Der Charakter hat eine gute Orientierung, so dass er meist sehr genau einschätzen kann, in welche Richtung er gehen muss, um sein Ziel zu erreichen.
+Die Fähigkeit wirkt beispielsweise, wenn der Charakter sich in der Wildnis verlaufen hat und sich an markanten Landschaftsmerkmalen orientieren möchte, um den Rückweg zu finden.
+Alternativ könnte er sich in der Stadt an Straßennamen oder besonderen Gebäuden orientieren.
+Dazu würfelt er eine Erkenntnis-Probe. Die Schwierigkeit der Probe wird vom SL durch die Anzahl der Erfolge festgelegt.
+Höhere Erfolgsgrade können angesetzt werden, wenn die Wahrnehmung und die Fähigkeit zur Informationsinterpretation des Charakters eingeschränkt sind.
+Jeder Erfolg hält den Charakter 5-30 Minuten auf dem richtigen Kurs.
 
 === Psychologie
 *Voraussetzungen:* Handwerk[Arzt] 5, Empathie, Überzeugen 5 +
@@ -889,22 +905,19 @@ Minuten auf dem richtigen Kurs.
 Hilfe seines Handwerk[Arzt]-Talentes gemäß den Regeln im
 Dokument[Wahnsinn] Geisteskrankheiten und Traumata zu heilen.
 
+[[ref_skills_tracking]]
 === Spuren Lesen
-*Voraussetzungen:* Verborgens Erkennen 5 +
+*Voraussetzungen:* Verborgens Erkennen 3 +
 *CP-Kosten:* 100 +
-*Beschreibung:* Der Charakter kann Spuren in der Wildnis folgen und sie
-auch einem entsprechenden Tier oder Monster zuordnen. Jeder Erfolg mit
-einer Verborgenes Erkennen-Talentprobe zählt für einen Zeitabschnitt von
-10 Minuten, in denen der Spurenleser den Spuren folgen kann. Besonders
-widriges Gelände erhöht den Erfolgsgrad. Mit der Fähigkeit können
-natürlich auch nicht nicht-tierische Spuren verfolgt werden.
+*Beschreibung:* Der Charakter kann Spuren in der Wildnis folgen und sie auch einem entsprechenden Tier oder Monster zuordnen.
+Jeder Erfolg mit einer Verborgenes Erkennen-Talentprobe zählt für einen Zeitabschnitt von 10 Minuten, in denen der Spurenleser den Spuren folgen kann.
+Besonders widriges Gelände erhöht den Erfolgsgrad.
+Mit der Fähigkeit können natürlich auch nicht nicht-tierische Spuren verfolgt werden.
 
 === Tierempathie
-*Voraussetzungen:* Tierfreundschaft 5, Erkenntnis 3 +
+*Voraussetzungen:* Tierfreundschaft 3, Erkenntnis 3 +
 *CP-Kosten:* 100 +
-*Beschreibung:* Diese Fähigkeit funktioniert genauso wie die Fähigkeit
-Empathie, jedoch wirkt sie nur auf Tiere und sie erweitert das Talent
-Tierfreundschaft.
+*Beschreibung:* Diese Fähigkeit funktioniert genauso wie die Fähigkeit Empathie, jedoch wirkt sie nur auf Tiere und sie erweitert das Talent Tierfreundschaft.
 
 === Tierpflege
 *Voraussetzungen:* Tierfreundschaft 3, Wissen[Tiere] 3 +

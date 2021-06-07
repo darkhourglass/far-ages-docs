@@ -3,64 +3,53 @@
 == Einführung in des W10-Erfolgssystem
 
 Das Würfelsystem von Far Ages ist ein sogenanntes *W10-Erfolgssystem*.
-Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er
-eine bestimmte Anzahl von zehnseitigen Würfeln (abgekürzt W10). Diese
-Anzahl ermittelt sich meist direkt aus seiner Talentstufe und/oder einer
-Attributsstufe.
+Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er eine bestimmte Anzahl von zehnseitigen Würfeln (abgekürzt W10).
+Diese Anzahl ermittelt sich meist direkt aus seiner Talentstufe oder einer Attributsstufe.
 
 [[ref_core_miniumroll]][[ref_core_sucessrole]]
-Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu übertreffen gilt. D.h. jeder Würfel, der eine höhere oder gleiche Augenzahl zeigt als der geforderte Mindestwurf zählt als *Erfolg*.
+Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu übertreffen gilt.
+Das heißt jeder Würfel, der eine höhere oder gleiche Augenzahl zeigt als der geforderte Mindestwurf zählt als *Erfolg*.
 [[ref_core_failurerole]]
 Wird der Mindestwurf nicht erreicht und ist kein <<ref_core_botches,Patzer>> gilt dieser als *Misserfolg*.
 
 .Mindestwürfe
 ====
-Talviin Siebentöter, ein bekannter Skalde, möchte sein
-Auditorium im Güldenen Schlüssel mit einem kleinen Lied beglücken und
-hofft auf etwas Geld oder ein gutes Freigetränk. Dazu schaut Talviins
-Spieler in die Talentbeschreibung für Kunst[Gesang] in der er findet,
-dass eine Anwendung von diesem Talent einen Mindestwurf von 7 hat.
-Talviin besitzt insgesamt 7 Stufen in diesem Talent und würfelt daher
-mit 7W10. Würfelt er 3, 4, 6, 6, 7, 7, 8 hat Talviin 3 Erfolge!
+Talviin Siebentöter, ein bekannter Skalde, möchte sein Auditorium im Güldenen Schlüssel mit einem kleinen Lied beglücken und hofft auf etwas Geld oder ein gutes Freigetränk.
+Dazu schaut Talviins Spieler in die Talentbeschreibung für Kunst[Gesang] in der er findet, dass eine Anwendung von diesem Talent einen Mindestwurf von 7 hat.
+Talviin besitzt insgesamt 7 Stufen in diesem Talent und würfelt daher mit 7W10.
+Würfelt er 3, 4, 6, 6, 7, 7, 8 hat Talviin 3 Erfolge!
 ====
 
-Um eine Probe zu bestehen, ist eine bestimme *Anzahl von Erfolgen* nötig.
+Um eine Probe zu bestehen, ist eine bestimmte *Anzahl von Erfolgen* nötig.
 Diese Anzahl orientiert sich im Allgemeinen an der Schwierigkeit der Probe, je mehr Erfolge nötig sind, desto schwerer ist die Probe.
 
 [[ref_core_standardminimumroll]]
 === Standardmindestwurf
 
-Der übliche Mindestwurf, an dem sich Attributs-, Standard- und
-Talentproben orientieren, ist *7*. Sofern nicht anders angegeben, gilt
-dieser Mindestwurf für alle Proben. Der Standardmindestwurf wird auch
-als SMW abgekürzt angegeben.
+Der übliche Mindestwurf, an dem sich Attributs-, Standard- und Talentproben orientieren, ist *7*.
+Sofern nicht anders angegeben, gilt dieser Mindestwurf für alle Proben. Der Standardmindestwurf wird auch als SMW abgekürzt angegeben.
 
 === Abkürzungen für Proben
 
-Innerhalb des Far Ages Spielsystems können Proben dieser Art
-grundsätzlich folgenderweise abgekürzt werden:
+Innerhalb des Far Ages Spielsystems können Proben dieser Art grundsätzlich folgenderweise abgekürzt werden:
 
 (x/y)
 
-Dabei steht x für die Anzahl der nötigen Erfolge und y für den
-Mindestwurf. Zum Beispiel liest sich 3/7 wie folgt: „Mindestens 3 Würfel
-in dieser Probe müssen ein Ergebnis von 7 oder mehr zeigen“.
+Dabei steht x für die Anzahl der nötigen Erfolge und y für den Mindestwurf.
+Zum Beispiel liest sich 3/7 wie folgt: „Mindestens 3 Würfel in dieser Probe müssen ein Ergebnis von 7 oder mehr zeigen“.
 
-In den offiziellen Dokumenten finden sich Beschreibungen von Proben
-beispielsweise folgenderweise:
+In den offiziellen Dokumenten finden sich Beschreibungen von Proben beispielsweise folgenderweise:
 
 Geschick (2/7)
 
 Reflex (5/7)
 
-Das erste Beispiel beschreibt eine Geschick-Probe, die mindestens zwei
-Erfolge bei Mindestwurf 7 erfordert. Das zweite Beispiel eine
-Reflex-Probe, die fünf Erfolge bei Mindestwurf 7 erfordert.
+Das erste Beispiel beschreibt eine Geschick-Probe, die mindestens zwei Erfolge bei Mindestwurf 7 erfordert.
+Das zweite Beispiel eine Reflex-Probe, die fünf Erfolge bei Mindestwurf 7 erfordert.
 
-Für bekannte Mindestwürfe wird nur die Anzahl der benötigen Erfolge
-angegeben. Dies ist beispielsweise bei Standard- oder Talentproben der
-Fall, da diese im Allgemeinen einen festen Mindestwurf haben. Die
-Reflex-Probe würde also so abgekürzt:
+Für bekannte Mindestwürfe wird nur die Anzahl der benötigen Erfolge angegeben.
+Dies ist beispielsweise bei Standard- oder Talentproben der Fall, da diese im Allgemeinen einen festen Mindestwurf haben.
+Die Reflex-Probe würde also so abgekürzt:
 
 Reflex (5)
 
@@ -72,138 +61,106 @@ oder auch
 
 Reflex (Gut/7).
 
-Explizite Erfolgsgrade werden immer beim Namen genannt, also
-ausgeschrieben! Es kommt nicht vor, dass für Proben nur der Mindestwurf
-angegeben wird ohne eine Mindestanzahl von Erfolgen, denn im Allgemeinen
-wird davon ausgegangen, dass der Mindestwurf fest bzw. bekannt ist. D.h.
-Willenskraft(5) bedeutet immer eine Willenskraft-Probe mit fünf nötigen
-Erfolgen zu dem Standardmindestwurf von 7 (siehe dazu Standardprobe
-weiter unten) und nicht eine Willenskraft-Probe zum Mindestwurf 5 mit
-unbekannter Mindestanzahl Erfolge.
+Explizite Erfolgsgrade werden immer beim Namen genannt, also ausgeschrieben!
+Es kommt nicht vor, dass für Proben nur der Mindestwurf angegeben wird ohne eine Mindestanzahl von Erfolgen, denn im Allgemeinen wird davon ausgegangen, dass der Mindestwurf fest bzw. bekannt ist.
+Das heißt, Willenskraft(5) bedeutet immer eine Willenskraft-Probe mit fünf nötigen Erfolgen zu dem Standardmindestwurf von 7 und nicht eine Willenskraft-Probe zum Mindestwurf 5 mit unbekannter Mindestanzahl Erfolge.
 
 [[ref_core_situationalmodifiers]]
 === Situationsmodifikatoren
 
-Als Situationsmodifikatoren bezeichnet man Boni oder Mali, also
-Erleichterungen bzw. Erschwernisse, für eine Probe.
+Als Situationsmodifikatoren bezeichnet man Boni oder Mali, also Erleichterungen bzw. Erschwernisse, für eine Probe.
 
-Diese werden durch den Ausdruck **+x bzw. -x auf die Würfe zum Erfolg
-**identifiziert. Dies bedeutet, dass bei einer solche Modifikation die
-Würfelergebnisse einer Probe erhöht bzw. erniedrigt werden.
+Diese werden durch den Ausdruck *+x bzw. -x auf die Würfe zum Erfolg* identifiziert.
+Dies bedeutet, dass bei einer solche Modifikation die Würfelergebnisse einer Probe erhöht bzw. erniedrigt werden.
 
 Dadurch ist es möglich, dass Ergebnisse über 10 erreicht werden können.
 
 .Situationsmodifikatoren
 ====
-Bei einer Probe mit 3W10 ergeben sich die Zahlen 3, 4, 5. Bei
-einem +2 auf die Würfe zum Erfolg ergeben sich stattdessen 5, 6, 7.
+Bei einer Probe mit 3W10 ergeben sich die Zahlen 3, 4, 5.
+Bei einem +2 auf die Würfe zum Erfolg ergeben sich stattdessen 5, 6, 7.
 ====
 
-Folgende Modifikatoren sind sowohl in Bezeichnung und Beschreibung im
-System von Far Ages verankert (basierend auf dem Standardmindestwurf):
+Folgende Modifikatoren sind sowohl in Bezeichnung und Beschreibung im System von Far Ages verankert (basierend auf dem Standardmindestwurf):
 
-* *+4 auf die Würfe zum Erfolg: (geschenkt)* Situationen mit einem
-Modifikator von +4 oder besser sind meistens schon fast zu einfach, um
-gewürfelt zu werden, außer die Anzahl der Erfolge ist dringend
-entscheidend.
-* *+3 auf die Würfe zum Erfolg: (simpel)* Diese Proben sind für die
-meisten Charaktere in allen Situationen einfach zu meistern. Ein
-Scheitern ist eher auf Pech zurückzuführen. Ein Erfolg ist beim SMW
-schon bei einem Ergebnis von 4 oder mehr zu erreichen.
-* *+2 auf die Würfe zum Erfolg: (sehr leicht)* Eine sehr leichte Probe
-ist für Charaktere meistens Routine in bestimmten Situationen.
-* *+1 auf die Würfe zum Erfolg: (leicht)* Der Charakter hat bei einer
-Aufgabe eine kleine Hilfe.
-* *-1 auf die Würfe zum Erfolg: (fordernd)* Überraschende Einflüsse
-behindern einen Charakter bei einer eigentlich bekannten Aufgabe.
-* *-2 auf die Würfe zum Erfolg: (schwer)* Für die meisten Charaktere in
-bestimmten Situationen ist die Probe mit Mühen zu schaffen.
-* *-3 auf die Würfe zum Erfolg: (kompliziert)* Äußerst schwere
-Situation, die jeden Charakter vor eine Herausforderung stellt. Ein
-Erfolg ist erst bei einer 10 oder mehr gegeben.
-* *-4 auf die Würfe zum Erfolg: (unmöglich)* Situationen mit einem
-Modifikator, der -4 oder schlechter beträgt, sind ohne weitere Hilfe (+x
-auf die Würfe zum Erfolg aus deren Quellen) nicht zu schaffen.
+* *+4 auf die Würfe zum Erfolg: (geschenkt)* Situationen mit einem Modifikator von +4 oder besser sind meistens schon fast zu einfach, um gewürfelt zu werden, außer die Anzahl der Erfolge ist dringend entscheidend.
+* *+3 auf die Würfe zum Erfolg: (simpel)* Diese Proben sind für diemeisten Charaktere in allen Situationen einfach zu meistern.
+Ein Scheitern ist eher auf Pech zurückzuführen.
+Ein Erfolg ist beim SMW schon bei einem Ergebnis von 4 oder mehr zu erreichen.
+* *+2 auf die Würfe zum Erfolg: (sehr leicht)* Eine sehr leichte Probe ist für Charaktere meistens Routine in bestimmten Situationen.
+* *+1 auf die Würfe zum Erfolg: (leicht)* Der Charakter hat bei einer Aufgabe eine kleine Hilfe.
+* *-1 auf die Würfe zum Erfolg: (fordernd)* Überraschende Einflüsse behindern einen Charakter bei einer eigentlich bekannten Aufgabe.
+* *-2 auf die Würfe zum Erfolg: (schwer)* Für die meisten Charaktere in bestimmten Situationen ist die Probe mit Mühen zu schaffen.
+* *-3 auf die Würfe zum Erfolg: (kompliziert)* Äußerst schwere Situation, die jeden Charakter vor eine Herausforderung stellt.
+Ein Erfolg ist erst bei einer 10 oder mehr gegeben.
+* *-4 auf die Würfe zum Erfolg: (unmöglich)* Situationen mit einem Modifikator, der -4 oder schlechter beträgt, sind ohne weitere Hilfe (+x auf die Würfe zum Erfolg aus deren Quellen) nicht zu schaffen.
 
 Situationsmodifikatoren jeder Art sind kumulativ.
 Es kann daher sein, dass mehrere Situationsmodifikatoren gleichzeitig gelten.
-Bevor gewürfelt wird, müssen alle Modifikatoren zusammenaddiert werden.
+Bevor gewürfelt wird, müssen alle Modifikatoren addiert werden.
 Es ist möglich, dass ein negativer Modifikator einen positiven Modifikator aufhebt.
 
 [[ref_core_botches]]
 === Patzer
 
-Jede natürlich gewürfelte 1 bedeutet immer einen Patzer, unabhängig von
-Boni oder Mali auf die Probe. Patzer heben gewürfelte Erfolge auf. Ein
-Patzer kann nur einen Erfolg aufheben, danach "verschwindet" der Patzer.
-Gibt es mehr Patzer als Erfolge, also sind alle Erfolge durch Patzer
-eliminiert worden, dann gilt die gesamte Probe als Patzer, was meist
-unangenehme Folgen hat.
+Jede natürlich gewürfelte 1 bedeutet immer einen Patzer, unabhängig von Boni oder Mali auf die Probe. Patzer heben gewürfelte Erfolge auf.
+Ein Patzer kann nur einen Erfolg aufheben, danach "verschwindet" der Patzer.
+Gibt es mehr Patzer als Erfolge, also sind alle Erfolge durch Patzer eliminiert worden, dann gilt die gesamte Probe als Patzer, was meist unangenehme Folgen hat.
 
 [[core_core_bonus_dice]]
 === Bonuswürfel
 
-Jede natürlich gewürfelte 10 ergibt einen Bonuswürfel. Dieser
-Bonuswürfel ist ein W10, der für die aktuelle Probe zusätzlich unter
-Berücksichtigung aller für dieser Probe geltenden
-Situationsmodifikatoren gewürfelt wird.
+Jede natürlich gewürfelte 10 ergibt einen Bonuswürfel.
+Dieser Bonuswürfel ist ein W10, der für die aktuelle Probe zusätzlich unter Berücksichtigung aller für dieser Probe geltenden Situationsmodifikatoren gewürfelt wird.
 
 Bevor Patzer ausgewertet werden, werden alle Bonuswürfel ausgewertet.
-Bonuswürfel können auch Patzer und weitere Bonuswürfel ergeben, die
-normal verrechnet werden, solange bis alle Würfel geworfen wurden.
+Bonuswürfel können auch Patzer und weitere Bonuswürfel ergeben, die normal verrechnet werden, solange bis alle Würfel geworfen wurden.
 
 [NOTE]
-Ein Spieler darf jederzeit entscheiden, einen Bonuswürfel
-nicht auszuführen.
+Ein Spieler darf jederzeit entscheiden, einen Bonuswürfel nicht auszuführen.
 
 [NOTE]
 Eine natürlich gewürfelte 10 ist kein automatischer Erfolg.
 
-Situationsmodifikatoren, die die Ergebnisse von Würfelwürfen
-beeinflussen, beeinflussen das Entstehen von Patzern und Bonuswürfeln
-nicht. Ausschließlich natürlich gewürfelte 1er bzw. 10er kommen für die
-Bestimmung zum Tragen.
+Situationsmodifikatoren, die die Ergebnisse von Würfelwürfen beeinflussen, beeinflussen das Entstehen von Patzern und Bonuswürfeln nicht.
+Ausschließlich natürlich gewürfelte 1er bzw. 10er kommen für die Bestimmung zum Tragen.
 
 .Patzer und Bonuswürfel
 ====
-Für eine Probe mit 4W10 würfelt ein Spieler eine 1, 1, 7, und
-10 wobei der Mindestwurf 7 ist. Die 10 generiert sofort einen
-Bonuswürfel. Der Spieler würfelt mit diesen Bonuswürfel eine 8. Damit
-ist das Gesamtergebnis 1, 1, 7, 8, 10. Dabei sind 7, 8 und 10 über bzw.
-gleich dem Mindestwurf, also Erfolge. Die 1er vernichten jedoch zwei
-Erfolge. Dadurch bleibt für diese Probe nur ein Erfolg übrig.
-====
-
-.Patzer und Bonuswürfel
-====
-Wiedermal würfelt ein Spieler. Diesmal bekommt er die
-Ergebnisse 1, 1, 7, 9 bei einem Mindestwurf von 7. In diesem Fall heben
-beide Einsen die beiden Erfolge auf. Damit bleibt kein Erfolg übrig und
-die Probe gilt Misserfolg. Jedoch kommen keine weiteren negativen Folgen
-hinzu.
+Für eine Probe mit 4W10 würfelt ein Spieler eine 1, 1, 7, und 10 wobei der Mindestwurf 7 ist.
+Die 10 generiert sofort einen Bonuswürfel.
+Der Spieler würfelt mit diesem Bonuswürfel eine 8.
+Damit ist das Gesamtergebnis 1, 1, 7, 8, 10.
+Dabei sind 7, 8 und 10 über bzw.gleich dem Mindestwurf, also Erfolge.
+Die 1er vernichten jedoch zwei Erfolge.
+Dadurch bleibt für diese Probe nur ein Erfolg übrig.
 ====
 
 .Patzer und Bonuswürfel
 ====
-Diesmal würfelt jemand mit 3W10: 1, 1, 7 bei einem Wurf mit
-Mindestwurf 7. Eine 1 löst die 7 auf und verschwindet. Es bleibt eine 1
-übrig und somit mehr Patzer als Erfolge. Die ganze Probe ist also ein
-Patzer!
+Wiedermal würfelt ein Spieler.
+Diesmal bekommt er die Ergebnisse 1, 1, 7, 9 bei einem Mindestwurf von 7.
+In diesem Fall heben beide Einsen die beiden Erfolge auf.
+Damit bleibt kein Erfolg übrig und die Probe gilt Misserfolg.
+Jedoch kommen keine weiteren negativen Folgen hinzu.
 ====
 
 .Patzer und Bonuswürfel
 ====
-Für eine Probe mit Mindestwurf 7 würfelt ein Charakter 5W10
-und erhält die Werte: 1, 3, 7, 9, 10. Der Bonuswürfel wird ausgewertet
-und der Spieler würfelt eine 4. Dadurch ergeben sich die Werte: 1, 3, 4,
-7, 9, 10.
+Diesmal würfelt jemand mit 3W10: 1, 1, 7 bei einem Wurf mit Mindestwurf 7.
+Eine 1 löst die 7 auf und verschwindet.
+Es bleibt eine 1 übrig und somit mehr Patzer als Erfolge.
+Die ganze Probe ist also ein Patzer!
 ====
 
-Der Charakter besitzt jedoch noch einen Bonus von +1 auf die Würfe zum
-Erfolg für diese Probe, also ergeben sich 1 (Modifikationen ändern
-Patzer nicht), 4, 8, 10, 11. Die „neue“ 10 ist keine natürlich
-Geworfene, also erhält der Spieler keinen weiteren Bonuswürfel.
+.Patzer und Bonuswürfel
+====
+Für eine Probe mit Mindestwurf 7 würfelt ein Charakter 5W10 und erhält die Werte: 1, 3, 7, 9, 10.
+Der Bonuswürfel wird ausgewertet und der Spieler würfelt eine 4. Dadurch ergeben sich die Werte: 1, 3, 4, 7, 9, 10.
+====
 
+Der Charakter besitzt jedoch noch einen Bonus von +1 auf die Würfe zum Erfolg für diese Probe, also ergeben sich 1 (Modifikationen ändern Patzer nicht), 4, 8, 10, 11.
+Die „neue“ 10 ist keine natürlich Geworfene 10, also erhält der Spieler keinen weiteren Bonuswürfel.
 
 [[ref_core_concurrentrolls]]
 === Konkurrierende Proben
@@ -211,63 +168,57 @@ Geworfene, also erhält der Spieler keinen weiteren Bonuswürfel.
 Proben können jedoch auch von anderen Faktoren beeinflusst werden, denn oft genug kann es vorkommen, dass andere Faktoren aktiv die Erfolgsaussichten verändern.
 Für gewöhnlich sind dies Versuche, den Erfolg des Würfelnden zu vermindern.
 Wir sprechen dann von *Konkurrierenden Proben*.
-Bei Konkurrierenden Proben gibt es immer einen *Angreifer* und einen *Verteidiger*, wobei diese Begriffe nicht unbedingt den blutigen Kampf oder die Auseinandersetzung zwischen zwei Wesen bezeichnen müssen.
+Bei konkurrierenden Proben gibt es immer einen *Angreifer* und einen *Verteidiger*, wobei diese Begriffe nicht unbedingt den blutigen Kampf zwischen zwei Wesen bezeichnen müssen.
 
-Der Angreifer ist derjenige (oder dasjenige), von dem eine Aktion ausgeht, die den Verteidiger direkt betrifft. Der Angreifer würfelt eine Probe auf das Talent oder Attribut nach den normalen Regeln und bestimmt seine Erfolge.
+Der Angreifer ist derjenige (oder dasjenige), von dem eine Aktion ausgeht, die den Verteidiger direkt betrifft.
+Der Angreifer würfelt eine Probe auf das Talent oder Attribut nach den normalen Regeln und bestimmt seine Erfolge.
+
 [[ref_core_attackingroll]]Dies nennt man auf die *Angriffsprobe*.
 Der Verteidiger legt dann ebenfalls eine Probe ab, die zu dem vom Angreifer benutzten Talent passt, und bestimmt seine Erfolge.
 [[ref_core_defendingroll]]Man nennt diese Probe eine *Verteidigungsprobe*.
 
-Die Anzahl der Erfolge für den Angreifer ergibt sich dann aus der Rechnung: Seine Anzahl minus der der Anzahl der Erfolge des Verteidigers, wobei jeder Erfolg des Verteidigers nur einen Erfolg des Angreifers eliminiert.
+Die Anzahl der Erfolge für den Angreifer ergibt sich dann aus der Rechnung: Seine Anzahl minus der Anzahl der Erfolge des Verteidigers, wobei jeder Erfolg des Verteidigers nur einen Erfolg des Angreifers eliminiert.
 
-Eine Konkurrierende Probe ist ein Misserfolg für den Angreifer, wenn der Verteidiger gleich oder mehr Erfolge gewürfelt hat.
+Eine konkurrierende Probe ist ein Misserfolg für den Angreifer, wenn der Verteidiger gleich oder mehr Erfolge gewürfelt hat.
 
 .Proben
 ====
-In dieser klassischen Nahkampfsituation kämpfen Kraag, der
-Taurenkrieger und Jagon, der Jäger gegeneinander. Kraag greift Jagon mit
-seinem Nahkampfwaffentalent an und erzielt 4 Erfolge.
+In dieser klassischen Nahkampfsituation kämpfen Kraag, der Taurenkrieger und Jagon, der Jäger gegeneinander.
+Kraag greift Jagon mit seinem Talent Nahkampfwaffen an und erzielt 4 Erfolge.
 
-Jagon hat mehrere Möglichkeiten diesem Angriff zu begegnen, allerdings
-dazu mehr im Kampf-Kapitel. In diesem Beispiel benutzt Jagon auch sein
-Paradetalent, um Kraags Angriff zu parieren. Er erwürfelt 3 Erfolge.
+Jagon hat mehrere Möglichkeiten diesem Angriff zu begegnen, allerdings dazu mehr im Kampf-Kapitel.
+In diesem Beispiel benutzt Jagon auch sein Talent Parade, um Kraags Angriff zu parieren.
+Er erwürfelt 3 Erfolge.
 Dadurch reduziert sich Kraags Anzahl an Erfolgen von 4 auf 1: 4-3=1.
 ====
 
-Es werden beide Proben nach den üblichen Regeln von Patzern und
-Bonuswürfeln ausgewertet. Wenn die Erfolgszahlen jeweils feststehen,
-werden diese verrechnet.
+Es werden beide Proben nach den üblichen Regeln von Patzern und Bonuswürfeln ausgewertet.
+Wenn die Erfolgszahlen jeweils feststehen, werden diese verrechnet.
 
 .Proben
 ====
-Jagon würfelt gegen seinen Opponenten Kraag im Nahkampf
-folgende Ergebnisse: 1, 4, 7 7, 8. Kraag hält dagegen mit 1, 1, 7, 7, 8,
-10. Kraag wertet seinen Bonuswürfel aus und erhält eine weitere 7. Kraag
-hat also nun 5-2=3 Erfolge und Jagon 3-1=2 Erfolge durch seinen Patzer.
-Insgesamt war Jagons Probe nicht erfolgreich, denn 2-3 Erfolge sind
-weniger als 0 und damit kein Erfolg.
+Jagon würfelt gegen seinen Opponenten Kraag im Nahkampf folgende Ergebnisse: 1, 4, 7 7, 8.
+Kraag hält dagegen mit 1, 1, 7, 7, 8, 10.
+Kraag wertet seinen Bonuswürfel aus und erhält eine weitere 7.
+Kraag hat also nun 5-2=3 Erfolge und Jagon 3-1=2 Erfolge durch seinen Patzer.
+Insgesamt war Jagons Probe nicht erfolgreich, denn 2-3 Erfolge sind weniger als 0 und damit kein Erfolg.
 ====
 
 [[ref_core_singlerolls]]
 === Einfache Proben
 
-Alle nicht-konkurrierende Proben sind *Einfache Proben*. Diese Proben
-führt der Charakter für sich alleine durch, jedoch können die Umstände
-dazu führen, dass er eine bestimmte Anzahl von Erfolgen von der Probe
-abziehen muss.
+Alle nicht-konkurrierende Proben sind *Einfache Proben*.
+Diese Proben führt der Charakter für sich alleine durch, jedoch können die Umstände dazu führen, dass er eine bestimmte Anzahl von Erfolgen von der Probe abziehen muss.
 
-Die Anzahl der Erfolge kann in manchen Fällen interessant sein, wenn der
-Charakter ein genaueres Ergebnis erzielen möchte, bzw. in dieser Probe
-mehrere Ergebnisse mit demselben Talent erreichen möchte.
+Die Anzahl der Erfolge kann in manchen Fällen interessant sein, wenn der Charakter ein genaueres Ergebnis erzielen möchte, bzw. in dieser Probe mehrere Ergebnisse mit demselben Talent erreichen möchte.
 
 .Proben
 ====
-Vatriz möchte in der Bibliothek der Nekromanten-Schule etwas
-über die Brennenden Seelen herausfinden, eine besonders schreckliche Art
-von Untoten. Dazu benutzt er sein Talent Forschen. Die Brennenden Seelen
-sind nicht allzu unbekannt, deswegen belässt der SL es bei einem Erfolg.
-Vatriz würfelt allerdings gut, und erzielt insgesamt 5 Erfolge. Daher
-beschließt der SL Vatriz Spieler ein paar mehr Informationen zu geben.
+Vatriz möchte in der Bibliothek der Nekromanten-Schule etwas über die Brennenden Seelen herausfinden, eine besonders schreckliche Art von Untoten.
+Dazu benutzt er sein Talent Forschen.
+Die Brennenden Seelen sind nicht allzu unbekannt, deswegen belässt der SL es bei einem Erfolg.
+Vatriz würfelt allerdings gut, und erzielt insgesamt 5 Erfolge.
+Daher beschließt der SL Vatriz Spieler ein paar mehr Informationen zu geben.
 ====
 
 [[ref_core_tiers_of_sucess]]
@@ -276,7 +227,7 @@ beschließt der SL Vatriz Spieler ein paar mehr Informationen zu geben.
 Erfolgsgrade beschreiben die Güte einer Probe.
 Je höher der Erfolgsgrad ist, umso besser ist die Probe abgelegt worden.
 Dies kann zur Folge haben, dass der Charakter, der diese Probe abgelegt hat, einen zusätzlichen Vorteil aus dem Bestehen der Probe schlägt.
-Welcher Erfolgsgrad mit einer Probe erreicht wurde, hängt von der gewürfelten Anzahl der Erfolge ab, nachdem alle Bonuswürfel und Patzer ausgewertet wurden und im Falle von Konkurrierenden Proben die durch den Verteidiger eliminierten Erfolge abgezogen wurden.
+Welcher Erfolgsgrad mit einer Probe erreicht wurde, hängt von der gewürfelten Anzahl der Erfolge ab, nachdem alle Bonuswürfel und Patzer ausgewertet wurden und im Falle von konkurrierenden Proben die durch den Verteidiger eliminierten Erfolge abgezogen wurden.
 
 Die folgende Tabelle gibt eine Übersicht über die Grenzen der Erfolgsgrade an:
 
@@ -296,100 +247,136 @@ Erfolgsgrade dienen in den Regeldokumenten auch als Abkürzung, so formuliert es
 
 .Erfolgsgrade
 ====
-Beispiel: Vatriz hatte in dem vorhergehenden Beispiel einen Guten Erfolg.
+Vatriz hatte in dem vorhergehenden Beispiel einen Guten Erfolg.
 ====
 
 .Erfolgsgrade
 ====
-Beispiel: Diesmal hat Kraag gegen Jagon viel Glück. Er erzielt 8 Erfolge
-in seiner Angriffsprobe, während Jagon nur 2 Erfolge erreicht. Damit hat
-Kraag insgesamt 8-2=6 Erfolge und damit über 5 Erfolgen, was ein Guter
-Erfolgsgrad ist.
+Diesmal hat Kraag gegen Jagon viel Glück.
+Er erzielt 8 Erfolge in seiner Angriffsprobe, während Jagon nur 2 Erfolge erreicht.
+Damit hat Kraag insgesamt 8-2=6 Erfolge und damit über 5 Erfolgen, was ein Guter Erfolgsgrad ist.
 ====
 
 === Wann mache ich welche Probe?
 
-Im Allgemeinen obliegt es dem SL festzulegen, wann ein Spieler eine
-Probe für seinen Charakter ablegen muss. Als Richtlinie hierfür sollte
-gelten:
+Im Allgemeinen obliegt es dem SL festzulegen, wann ein Spieler eine Probe für seinen Charakter ablegen muss.
+Als Richtlinie hierfür sollte gelten:
 
-_"Immer dann, wenn der Spieler eine Aktion durchführt, die nicht
-alltäglich ist, unter Stress (z.B. im Kampf oder unter Zeitdruck)
-ausgeführt wird, oder von deren Erfolg eine spielrelevante Aktion
-abhängt"_.
+_"Immer dann, wenn der Spieler eine Aktion durchführt, die nicht alltäglich ist, unter Stress (zum Beispiel im Kampf oder unter Zeitdruck) ausgeführt wird, oder von deren Erfolg eine Spiel relevante Aktion abhängt"_.
 
-Viele Proben, die durch gutes Rollenspiel bestanden werden können, z.B.
-könnte ein Spieler mit der Barmaid flirten, in dem er dies wirklich
-beschreibt, anstatt auf das Talent oder Attribut würfelt, können somit
-gespart werden.
+Viele Proben, die durch gutes Rollenspiel bestanden werden können, zum Beispiel könnte ein Spieler mit der Barmaid flirten, in dem er dies wirklich beschreibt, anstatt auf das Talent oder Attribut würfelt, können somit gespart werden.
 
-Eine weitere Entscheidung in Hinsicht der Art der Probe muss noch
-zusätzlich gefällt werden: ist es eine einfache Probe oder eine
-konkurrierende Probe. Ebenso gilt als Hilfestellung:
+Eine weitere Entscheidung in Hinsicht der Art der Probe muss noch zusätzlich gefällt werden: ist es eine einfache Probe oder eine konkurrierende Probe. Ebenso gilt als Hilfestellung:
 
 _"Alles, was keine konkurrierende Probe ist, ist eine Einfache."_
 
 und
 
-_"Jede konkurrierende Probe beschreibt Vorgänge, die nahezu zeitgleich
-passieren, wobei immer mindestens Zwei, also der Angreifer und der
-Verteidiger, beteiligt sind ODER wenn ein Verteidiger mit der direkte
-Auswirkung einer bewussten Behinderung eines Angreifers konfrontiert
-wird."_
+_"Jede konkurrierende Probe beschreibt Vorgänge, die nahezu zeitgleich passieren, wobei immer mindestens Zwei, also der Angreifer und der Verteidiger, beteiligt sind ODER wenn ein Verteidiger mit der direkten Auswirkung einer bewussten Behinderung eines Angreifers konfrontiert wird."_
 
-Beispielsweise wäre das Erklimmen einer steilen Klippe eine einfache
-Probe, da hier nur das Können des Kletterers gefragt ist, da die Klippe
-nicht bewusst das Klettern erschwert oder behindert.
+Beispielsweise wäre das Erklimmen einer steilen Klippe eine einfache Probe, da hier nur das Können des Kletterers gefragt ist, da die Klippe nicht bewusst das Klettern erschwert oder behindert.
 
-Das Ausweichen einer Falle ist jedoch eine konkurrierende Probe, da
-diese in dem Bewusstsein gelegt wurde, andere zu verletzten.
+Das Ausweichen einer Falle ist jedoch eine konkurrierende Probe, da diese in dem Bewusstsein gelegt wurde, andere zu verletzten.
 
-=== Festlegung des Mindestwurfes und der notwenigen Anzahl der Erfolge
+=== Festlegung des Mindestwurfes und der notwendigen Anzahl der Erfolge
 
-Beide Werte werden im Allgemeinem vom SL festgelegt und müssen den
-Spielern nicht unbedingt mitgeteilt werden. Allerdings war es Intention
-das Far Ages-System für Spieler und Spielleiter möglichst transparent zu
-machen.
+Beide Werte werden im Allgemeinem vom SL festgelegt und müssen den Spielern nicht unbedingt mitgeteilt werden.
+Allerdings war es Intention das Far Ages-System für Spieler und Spielleiter möglichst transparent zu machen.
 
-Daher sind die Mindestwürfe für Talente meist bekannt oder entsprechen
-dem Standardmindestwurf, wenn nicht anders angegeben. In jeder
-Talentbeschreibung findet sich eine Angabe zum Mindestwurf, damit dieses
-Talent glückt. Des Weiteren finden sich meist Hinweise, welche Effekte
-mehrere Erfolge dem Würfelnden bringen.
+Daher sind die Mindestwürfe für Talente meist bekannt oder entsprechen dem Standardmindestwurf, wenn nicht anders angegeben.
+In jeder Talentbeschreibung findet sich eine Angabe zum Mindestwurf, damit dieses Talent glückt.
+Des Weiteren finden sich meist Hinweise, welche Effekte mehrere Erfolge dem Würfelnden bringen.
 
-Ebenso sollten die Standardproben den Spielern bekannt sein, um den
-Spielfluss nicht aufzuhalten, wobei der Spielleiter natürlich berechtigt
-ist, jederzeit die Standardproben zu erschweren oder zu erleichtern,
-wenn es die Situation erfordert.
+Ebenso sollten die Standardproben den Spielern bekannt sein, um den Spielfluss nicht aufzuhalten, wobei der Spielleiter natürlich berechtigt ist, jederzeit die Standardproben zu erschweren oder zu erleichtern, wenn es die Situation erfordert.
 
-Attributsproben decken meistens Situationen ab, die weder durch Talente
-noch durch Standardproben beschreibbar sind. In diesen Fällen liegt die
-Entscheidung beim SL, ob er den Spielern Mindestwurf und Anzahl der
-Erfolge mitteilt.
+Attributsproben decken meistens Situationen ab, die weder durch Talente noch durch Standardproben beschreibbar sind.
+In diesen Fällen liegt die Entscheidung beim SL, ob er den Spielern Mindestwurf und Anzahl der Erfolge mitteilt.
 
-Als Richtlinie kann sich der SL daran orientieren, wie Standardproben
-aufgebaut sind. In den Beschreibungen der Standardproben finden sich
-auch meist Vorschläge und Regeln für Modifikatoren, die bei bestimmten
-Situationen die Proben erschweren oder erleichtern.
+Als Richtlinie kann sich der SL daran orientieren, wie Standardproben aufgebaut sind.
+In den Beschreibungen der Standardproben finden sich auch meist Vorschläge und Regeln für Modifikatoren, die bei bestimmten Situationen die Proben erschweren oder erleichtern.
 
+[[ref_core_attributeroles]]
 == Attributsproben
 
-Attributsproben sind Proben, die ausschließlich auf die Attribute des Charakters abgelegt werden, also auf *Stärke*, *Geschick*, *Konstitution*, *Erkenntnis*, *Energie*, *Selbstbeherrschung* und *Charisma*.
+Attributsproben sind Proben, die ausschließlich auf die xref:core_rules_charactercreation.adoc#ref_characters_attributs[Attribute] des Charakters abgelegt werden, also auf
 
-Wie viele Würfel für eine Attributsprobe zur Verfügung stehen, hängen
-von den jeweiligen Attributen des Charakters an. Die Attribute werden
-direkt in Stufen gemessen. Diese Stufen sind äquivalent zu der Anzahl
-von W10, die für eine Attributsprobe zur Verfügung stehen. Man nennt
-diese auch *Attributsstufe*.
+* xref:core_rules_charactercreation.adoc#ref_attribute_strength[Stärke]
+* xref:core_rules_charactercreation.adoc#ref_attribute_dexterity[Geschick]
+* xref:core_rules_charactercreation.adoc#ref_attribute_constitution[Konstitution]
+* xref:core_rules_charactercreation.adoc#ref_attribute_perception[Erkenntnis]
+* xref:core_rules_charactercreation.adoc#ref_attribute_energy[Energie]
+* xref:core_rules_charactercreation.adoc#ref_attribute_selfcontrol[Selbstbeherrschung]
+* xref:core_rules_charactercreation.adoc#ref_attribute_charisma[Charisma]
+
+Wie viele Würfel für eine Attributsprobe zur Verfügung stehen, hängen von den jeweiligen Stufen der Attribute des Charakters an.
+Diese Stufen sind äquivalent zu der Anzahl von W10, die für eine Attributsprobe zur Verfügung stehen.
+Man nennt diese auch *Attributsstufe*.
 
 .Attributsproben
 ====
-Thalvin hat eine Attributsstufe von 3 in Geschick.
-Damit kann er 3W10 für eine Geschick-Probe nutzen.
+Thalvin hat eine Attributsstufe von 3 in Stärke.
+Damit kann er 3W10 für eine Stärke-Probe nutzen.
 ====
 
-Häufig werden Attributsproben angewendet, wenn es keine für die Situation passende Standardprobe, bzw. Talentprobe gibt.
+Attributsproben werden üblicherweise durchgeführt, wenn Charaktere _aktiv_ eine Tätigkeit durchführen möchten, die kein besonderes Training oder Wissen erfordert.
+Sofern nicht anders angegeben, bzw. vom SL vorgegeben, reicht immer 1 Erfolg, um die Probe zu bestehen.
+Der Mindestwurf entspricht immer dem <<ref_core_standardminimumroll, Standardmindestwurf>>.
 
+.Attirbutsproben
+====
+Thalvin möchte in einer Höhle einen unterirdischen Gang von Geröll und Steinen befreien.
+Der SL entscheidet, dass Thalvin eine Probe auf das Attribut Stärke würfeln soll.
+Mit seinen 3 Stufen in Stärke würfelt er nun 3W10 mit dem Ergebnis: 5, 7, 9.
+Damit hat er 2 Erfolge erzielt. +
+Der SL entscheidet nun, dass Thalvin den Gang erfolgreich innerhalb einer Stunde freiräumen konnte.
+====
+
+[[ref_core_saves]]
+=== Rettungswürfe
+
+*Rettungswürfe* sind eine spezielle Form von <<ref_core_attributeroles, Attributsproben>>, die den gleichen Regeln zum Mindestwurf und Anzahl nötiger Erfolge folgen.
+
+Im Gegensatz zu Attributsproben werden Rettungswürfe nicht aktiv durch Charaktere ausgelöst, sondern entstehen aus gefährlichen Situationen, in denen die Reaktion der Charaktere gefragt ist.
+
+
+
+.Rettungswürfe
+====
+Aus dem vorherigen Beispiel ergibt sich für Thalvin plötzlich eine gefährliche Situation.
+Beim Freiräumen des unterirdischen Ganges hat er versehentlich einen Geröllrutsch verursacht.
+Um nicht unter schweren Steinen begraben zu werden, verlangt der SL einen <<ref_core_saves_dexterity, Rettungswurf auf Geschick>>. +
+Thalvin hat 2 Stufen in Geschick und kann damit 2W10 würfeln. +
+Er würfelt eine 5 und 6.
+Damit ist die Probe nicht erfolgreich.
+Der Sl entscheidet, dass Thalvin von fallenden Steinen getroffen wird und 2W6 TP verliert.
+====
+
+.Rettungswürfe
+====
+====
+
+[[ref_core_saves_dexterity]]
+==== Geschick
+
+[[ref_core_saves_strength]]
+==== Stärke
+
+[[ref_core_saves_constitution]]
+==== Konstitution
+
+[[ref_core_saves_perception]]
+==== Erkenntnis
+
+[[ref_core_saves_energy]]
+==== Energie
+
+[[ref_core_saves_selfcontrol]]
+==== Selbstbeherrschung
+
+[[ref_core_saves_selfcharisma]]
+==== Charisma
+
+[[ref_core_talentroles]]
 == Talentproben
 
 Wann immer ein Spieler (oder auch ein NPC) ein Talent einsetzen will, so muss er eine Talentprobe würfeln.
@@ -407,7 +394,7 @@ Diesen Mindestwurf muss man gleich oder höher würfeln.
 .Talentproben
 ====
 Varrik hat mit seinen Nahkampfkünsten den Ork leider nicht beeindrucken können.
-Neben einem geschwollenen Auge hat er eine blutenden Platzwunde abbekommen.
+Neben einem geschwollenen Auge hat er eine blutende Platzwunde abbekommen.
 Allerdings besitzt Varrik das Talent "Kunst[Zeichnen]" und entscheidet sich spontan ein Phantombild seiner Peinigers zu erstellen.
 Der angegebene Mindestwurf für Kunst[Zeichnen] ist 7.
 ====
@@ -417,26 +404,58 @@ In der Talentbeschreibung findet sich meistens auch eine ungefähre Richtlinie, 
 Eine ausführliche Beschreibung aller generischen Talente findet sich im Dokument link:core_rules_talents_base.adoc[Talente].
 
 Spieler und NPCs können unter Umständen auch Talente anwenden, die sie nicht besitzen.
+
+[[ref_core_talentroles_untrainedcheck]]
+=== Ungeübte Anwendung
 Dazu kommen die Regeln für die *ungeübte Anwendung* zum Tragen.
 
 Eine *ungeübte Anwendung* beschreibt, dass man die Fähigkeit, die in einem Talent steckt, anwenden kann, ohne sie jedoch gelernt zu haben.
 Das heißt, man besitzt dieses Talent nicht, kann aber dennoch versuchen es anzuwenden.
-In den Talentbeschreibungen findet sich immer eine Angabe, ob dieses Talent eine ungeübte Anwendung zulässt oder nicht.
+In den Beschreibungen der Talente findet sich immer eine Angabe, ob dieses Talent eine ungeübte Anwendung zulässt oder nicht.
 Dies ist mit einem schlichten "Ja" oder "Nein" dargestellt.
 Die Attributsstufe des *verwandten Attributs* ist die Basis für die Probe in der ungeübten Anwendung.
 
 .Ungeübte Anwendung
 ====
-Varrik, der Elementarist, hat sein Leben lang keine Ausbildung in Nahkampf gehabt, besitzt somit auch keinerlei Erfahrung, wie man den Zauberstab, den er in der Hand hält, richtig schwingt (ja, den Stab aus Holz).
+Varrik, der Elementarist, hat sein Leben lang keine Ausbildung in Nahkampf gehabt.
+Er besitzt somit auch keinerlei Erfahrung, wie man den Holzstecken, den er in der Hand hält, richtig schwingt.
 Das interessiert jedoch den wütenden Ork, der Varrik beschimpft hat, beim Kartenspiel zu mogeln, herzlich wenig.
 Er stürmt nämlich gerade auf Yarrik zu.
 Das Talent Parade erlaubt eine ungeübte Anwendung und das verwandte Attribut ist Geschick.
-Varrik's Spieler überprüft Varrik's Attributsstufe in Geschick und bemerkt, dass Varrik 2W10 aufgrund diese Stufe würfeln kann, um sich mit seinem Zaubererstab zu verteidigen.
+Varrik's Spieler überprüft Varrik's Attributsstufe in Geschick und bemerkt, dass Varrik 2W10 aufgrund diese Stufe würfeln kann, um sich mit seinem Zauberstab zu verteidigen.
 ====
 
 Für derartige Attributsproben steht der Mindestwurf und die Anzahl der Erfolge meist fest, denn sie basieren auf den Regeln für das jeweilige Talent.
-Zusätzliche Situationsmodifikatoren, wie sich auch bei der normalen Anwendung des Talents zur Anwendung kommen würden, gelten in diesem Fall natürlich auch.
+Zusätzliche <<ref_core_situationalmodifiers, Situationsmodifikatoren>>, wie sich auch bei der normalen Anwendung des Talents zur Anwendung kommen würden, gelten in diesem Fall natürlich auch.
 
+[[ref_core_talentroles_untrainedcheck_penalty]]
+==== Optional:
+Als optionale Regel kann die ungeübte Anwendung eines Talents mit einem allgemeinen Situationsmodifikator von -1 auf die Würfe zum Erfolg belegt werden, um das fehlende Training noch stärker ins Gewicht fallen zu lassen.
+
+[[ref_core_talentroles_situations]]
+=== Anwendung von Talenten
+Viele Aktivitäten und Handlungen eines Abenteurerlebens werden durch den Einsatz eines Talents bzw. dessen <<ref_core_talentroles_untrainedcheck, ungeübte Anwendung>> abgedeckt.
+Die link:core_rules_talents_base.adoc[Beschreibung] der jeweiligen Talente zeigt im Normalfall dessen allgemeine Anwendung auf, die Spieler und SL verwenden können, um ihre Situationen abzubilden.
+
+Dieser Abschnitt fasst die Situationen und zu verwenden Talente zusammen:
+
+* Besondere Arten der Fortbewegung wie *Schwimmen*, *Klettern* und *Springen* sind im Talent xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik] abgedeckt.
+* Für beeindruckende, *akrobatische Manöver* wird das Talent xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik] verwendet.
+* Der Umgang mit *Fallen* wird mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen] und xref:core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen] abgedeckt.
+* Soziale Interaktion wird mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_interrogate[Ausfragen], xref:core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern], xref:core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] und xref:core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] dargestellt.
+* Wer *heimlich* vorgehen möchte, findet die Regeln dazu in den Talenten xref:core_rules_talents_base.adoc#ref_talents_hide[Verstecken] und xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen].
+* Die Anwendung von Talenten, die im *Kampf* relevant sind, wie zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen], wird im Abschnitt link:core_rules_battlesystem.adoc[Kampfsystem] beschrieben.
+* Detaillierte Informationen zur Verwendung von *Magie* und xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] wird im Abschnitt link:core_rules_magic_base.adoc[Magie] beschrieben.
+
+[NOTE]
+Die in Talenten präsentierten allgemeine Regeln zu bestimmten Situationen, wie zum Beispiel Klettern.
+Wahrscheinlich wird es vorkommen, dass im Spiel Situationen auftreten, in denen die Regeln nicht ausreichen.
+Daher sind die Regeln auch als Richtlinien zu verstehen.
+SL und Spielen können sie verwenden und erweitern.
+
+
+
+// TODO: Typische Situationen
 [[ref_base_rolls_standard]]
 == Standardproben
 
@@ -456,7 +475,7 @@ Standardproben können vom SL auf mehrere Weisen verwendet werden:
 
 .Standardproben
 ====
-Die Charakter treffen auf eine furchteinflößende Kreatur, die in ihrer Beschreibung beim ersten Anblick eine Furcht(4)-Probe erfordert.
+Die Charaktere treffen auf eine furchteinflößende Kreatur, die in ihrer Beschreibung beim ersten Anblick eine Furcht(4)-Probe erfordert.
 Dies bedeutet, dass der SL von jedem Spieler eine Furcht-Probe verlangen muss, die als bestanden gilt, wenn 4 Erfolge erreicht wurden.
 ====
 
@@ -467,67 +486,20 @@ Sehr oft lassen sich diese Aktionen damit abdecken und die Beschreibungen der St
 ====
 Ein Charakter entscheidet sich, dass er mit einem Händler verhandeln will, um einen günstigeren Preis für die gewünschten Waren zu erhalten.
 Der SL entscheidet, dass eine Überzeugen-Probe fällig ist.
-Für sich legt der SL eine Anzahl von Erfolgen fest, an der den Charaktere misst.
+Für sich legt der SL eine Anzahl von Erfolgen fest.
 ====
 
 * Auch NPCs können ihrerseits Standardproben verwenden bzw. gezwungen sein, eine solche zu bestehen.
 Ist das Verhalten der NPCs nicht vorgegeben, so kann der SL basieren auf den Spielwerten für die NPCs, deren Reaktion so feststellen.
 
-=== Talente ersetzen Standard-Proben
-
-Manche Talente geben in ihrer Beschreibung an, dass sie zum Würfeln von Standard-Proben benutzt werden können.
-Dies bedeutet, dass der Charakter anstatt nur mit seinen Attributs-Stufen mit den Stufen des Talentes würfelt.
-Besitzt der Charakter Vor- oder Nachteile, die seine Standard-Probe verbessern bzw. verschlechtern, so werden diese hinzugerechnet.
-
-Folgende Arten von Standard-Proben sind vom System abgedeckt:
-
-* *Verteidigungswürfe* sind Proben, die sich gegen eine bestimmte Art von Angriff stellen.
-Ein Charakter kann mit einem guten Ergebnis in der Probe die Auswirkungen des Angriffs reduzieren oder ganz abwehren.
-** Ekel, Furcht und Horror
-** Gift und Krankheit
-** Magieabwehr
-** Niederschlag Widerstehen
-** Reflex
-** Willenskraft
-* *Manöver* werden vom Charakter bewusst ausgeführt, um eine bestimmte Aktion durchzuführen.
-Je nach Ausgang der Probe sind diese Aktionen mehr oder weniger erfolgreich.
-** Akrobatik
-** Entdecken und Suchen
-** Fallen
-** Klettern
-** Schwimmen
-** Springen
-* *Soziale Interaktion* können gewürfelt werden, um mit Nicht-Spieler-Charakteren zu interagieren.
-Jede Probe hat eine andere Wirkung auf den NPC.
-** Ausfragen
-** Einschüchtern
-** Täuschen
-** Überzeugen
-* *Sonstige*:
-** Verbrennen Widerstehen
-
-Die folgenden Einträge beschreiben die oben aufgelisteten Standardproben und ihre Anwendungen.
-Jeder Eintrag verweist auf ein Attribut.
-Die Stufe, die ein Charakter in diesem Attribut zur Verfügung hat, bestimmt die Anzahl W10 mit denen der Charakter die jeweilige Probe würfeln darf.
-
-[NOTE]
-Viele der folgenden Beschreibungen benutzen bereits Begriffe aus weiterführenden Regeln, beispielsweise Kampfrunden (was eine Zeiteinteilung während des Kampfes ist).
-Für einen Spieler oder den SL, der die Begriffe schon kennt, sind die folgende Erklärungen als Zusammenfassung und Übersicht gedacht.
-Alle unbekannten Begriffe werden in den folgenden Kapiteln erklärt.
-
-[NOTE]
-Das Kapitel über link:core_rules_adventures.adoc[Abenteuer] enthält Anregungen und Beispiele wie der SL die nötige Anzahl von Erfolgen bei Standard-Proben festlegen kann.
-
-[[ref_base_rolls_defense]]
-=== Verteidigungswürfe
 
 [[ref_base_roll_fearhorror]]
-==== Ekel, Furcht und Horror
+=== Ekel, Furcht und Horror
 
 *Attribut:* Selbstbeherrschung
 
 Manche Kreaturen oder auch Situationen und Zaubersprüche können auf die Charaktere eine beängstigende Wirkung haben.
-Die drei Varianten spiegeln ähnliche Aspekte mit unterschiedlicher Intensivität der gleichen psychologischen Reaktion wider.
+Die drei Varianten spiegeln ähnliche Aspekte mit unterschiedlicher Intensität der gleichen psychologischen Reaktion wider.
 Charaktere, die einer solchen Situation ausgesetzt sind, müssen eine entsprechende Probe ablegen, um die negativen Folgen abzuwenden.
 
 *Ekel:* Bei manchen Dingen kommt einem einfach die Galle hoch.
@@ -558,10 +530,10 @@ Zusätzlich verliert er 2 SP für jeden Erfolg, den er bei dieser Probe hätte w
 [NOTE]
 Nicht immer sind Auslöser für diese Proben deutlich zu sehen.
 Manche Zaubersprüche generieren einfach Furcht im Verstand des Charakters.
-Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfrunden, z.B. 1W6-viele, geschickt werden.
+Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfrunden, zum Beispiel 1W6-viele, geschickt werden.
 
 [[ref_base_roll_poisonsickness]]
-===== Gift und Krankheiten
+==== Gift und Krankheiten
 
 *Attribut:* Konstitution
 
@@ -573,21 +545,21 @@ Räuberische Tiere oder Monster setzen Gift als gefährliche Waffe ein.
 Krankheiten können ebenso vielerlei Ursprung sein.
 Der Aufenthalt in gefährlichen Gebieten kann zu einer Ansteckung führen oder der Kontakt mit einem Überträger.
 
-Beide Effekte funktionieren regeltechnisch nach demselben Prinzip, jedoch können die jeweiligen Effekte und Nachwirkungen sehr unterschiedlich sein.
+Beide Effekte funktionieren nach demselben Prinzip, jedoch können die jeweiligen Effekte und Nachwirkungen sehr unterschiedlich sein.
 Kommt ein Charakter mit einem Effekt in Kontakt, der eine Gift- bzw. Krankheits-Probe fordert, so muss diese sofort abgelegt werden.
 
-Die Beschreibung eines Giftes oder einer Krankheit enthält einen *Sekundären Effekt* und einen *Primären Effekt*.
+Die Beschreibung eines Giftes oder einer Krankheit enthält einen *sekundären Effekt* und einen *primären Effekt*.
 
-* *Misserfolg:* der Sekundäre Effekt tritt sofort ein
-* *Patzer:* der Primäre Effekt tritt sofort ein
+* *Misserfolg:* der sekundäre Effekt tritt sofort ein
+* *Patzer:* der primäre Effekt tritt sofort ein
 
 Außerdem ist immer angegeben, wann die nächste Gift- bzw. Krankheits-Probe erlaubt ist.
 Diese wird unter denselben Bedingungen (also Mindestwurf und nötige Anzahl an Erfolge) ausgeführt.
-Der Charakter ist solange von dem Gift bzw. der Krankheit betroffen, wie er diese Proben nicht erfolgreich abschließt.
+Der Charakter ist so lange von dem Gift bzw. der Krankheit betroffen, wie er diese Proben nicht erfolgreich abschließt.
 Die Auswirkungen können auch schlimmer oder besser werden bzw. hin- und herwechseln, abhängig davon wie der Charakter Misserfolge und Patzer würfelt.
 
 [[ref_base_roll_magicdefense]]
-===== Magieabwehr
+==== Magieabwehr
 
 *Attribut:* Energie
 
@@ -627,7 +599,7 @@ In diesem Fall muss der Charakter ebenfalls eine Magieabwehr-Probe würfeln.
 Die Magieabwehr-Probe ist insbesondere eine passive Eigenschaft, die jedem Wesen zusteht.
 
 [[ref_base_roll_knockdown]]
-===== Niederschlag
+==== Niederschlag
 
 *Attribut:* Konstitution
 
@@ -646,7 +618,7 @@ Eine Verletzung tritt ein, wenn ein Charakter durch eine beliebige Schadensquell
 Für Details siehe das Dokument über Kampf.
 
 [[ref_base_roll_reflex]]
-===== Reflex
+==== Reflex
 
 *Attribut:* Geschick
 
@@ -662,11 +634,11 @@ Dies ist beispielsweise dann der Fall, wenn der Charakter von einer Falle angegr
 * *Patzer:* Wie Misserfolg, jedoch geht der Charakter zusätzlich ohne weitere Probe zu Boden und verliert alle Aktionspunkte für diese Kampfphase.
 
 [[ref_base_roll_willpower]]
-===== Willenskraft
+==== Willenskraft
 
 *Attribut:* Selbstbeherrschung
 
-Diese Verteidigungsprobe muss gewürfelt werden, wenn der Charakter mit seinem Willen ringt oder sich besondern konzentrieren muss, z.B. um die Vorbereitung eines Zauberspruches zu halten.
+Diese Verteidigungsprobe muss gewürfelt werden, wenn der Charakter mit seinem Willen ringt oder sich besonders konzentrieren muss, z.B. um die Vorbereitung eines Zauberspruches zu halten.
 Üblicherweise möchte ein Effekt, eine Situation oder eine Charaktereigenschaft den Charakter zu etwas drängen, was der Spieler nicht will.
 Um dies abzuwehren, muss eine Willenskraft-Probe abgelegt werden.
 
@@ -680,63 +652,6 @@ Sieht er also ein besonders begehrenswertes Objekt, dann kann der Spieler verhin
 Dazu ist die Willenskraft-Probe nötig.
 Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell möchte, dass sein Charakter dies versucht.
 Um beispielsweise einen Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
-
-=== Manöver
-
-[[ref_base_roll_acrobatics]]
-==== Akrobatik
-
-*Attribut:* Geschick
-
-Diese Standard-Probe umfasst alle Manöver, die über eine durchschnittliche sportliche Betätigung hinausgehen.
-Dazu gehören spektakuläre Aktionen, die man umgangssprachlich als zirkusreif beschreiben könnte, auch wenn wir die Abenteurer nicht zwangsweise in einen Zirkus stecken wollen.
-Beispiele für passende Situationen, die eine Akrobatik-Probe benötigen, sind:
-
-* Der Charakter möchte auf einer sehr dünnen Oberfläche (einem Seil, eine feste Stange oder dem Geländer eines Balkons) balancieren.
-* Der Charakter möchte auf einer sehr unsicheren Oberfläche (ein zugefrorener See, ein rutschiges Schiffsdeck oder eine schwankende Hängebrücke) laufen.
-* Der Charakter möchte beeindruckende Körperbewegungen durchführen:Purzelbäume, Handstand, Rad Schlagen und ähnliches
-* Der Charakter möchte die Bedrohungszone von Gegnern durchqueren, ohne einen Gelegenheitsangriff zu provozieren.
-* Der Charakter möchte schwierige Aktionen durchführen, ist jedoch teilweise eingeschränkt in seinen Bewegungen, zum Beispiel sind ihm die Hände gebunden und er möchte ein Schwert vom Boden aufheben.
-
-Üblicherweise kann der Spieler einfach ankündigen, eine Akrobatik-Probe für eine Aktion durchführen zu wollen.
-Der SL kann dann eine nötige Anzahl von Erfolgen festlegen oder aufgrund der Situation aus dem Regelsystem ableiten.
-
-* *Misserfolg:* Der Charakter schafft seine Aktion nicht, er verliert alle Aktionspunkte für die aktuelle Kampfphase.
-* *Patzer:* Wie Misserfolg, jedoch ist der Charakter gleichzeitig zu Boden gegangen und beginnt die nächste Kampfphase am Boden liegend.
-
-[[ref_base_roll_search]]
-==== Entdecken und Suchen
-
-*Attribut:* Erkenntnis
-
-Viele Dinge sind nicht sofort zu sehen.
-Mit diesen Proben können die Charaktere diese verborgenen Dinge versuchen zu entdecken.
-Dabei unterscheidet das Regelsystem zwischen spontanem, passiven Entdecken und dem zeitintensiven, aktiven Suchen.
-
-Eine Entdecken-Probe wird gewürfelt, wenn
-
-* der Charakter spontan etwas Verstecktes entdecken könnte, zum Beispiel einen im Gebüsch versteckten Charakter.
-Auf diese Weise können Überraschungsangriffe verhindert werden.
-* der Charakter nahe dem Auslöser einer Falle kommt.
-Er hat so die Chance die Falle in letzter Sekunde zu bemerken.
-* der Charakter ein besonderes Detail der Situation entdecken kann.
-
-Eine Entdecken-Probe benötigt eine vorgegebene Anzahl von Erfolgen.
-Möchte man statische Objekte oder Informationen entdecken, so ist diese Anzahl oft fest und kann vom SL festgelegt werden.
-
-* *Misserfolg:* Der Charakter kann das versteckte Objekt oder die Kreatur nicht entdecken.
-* *Patzer:* keine zusätzliche Auswirkungen.
-
-Eine Suchen-Probe wird gewürfelt, wenn
-
-* ein Charakter ein abgegrenztes Gebiet, zum Beispiel einen Raum oder einen Gang absuchen möchte.
-
-Dazu benötigt der Charakter Zeit. Wird er von Feinden bedroht oder angegriffen, kann er nicht Suchen.
-
-* *Misserfolg:* Der Charakter findet nicht, wonach er sucht.
-Er kann es erst wieder nach 5 Minuten versuchen.
-* *Patzer:* Der Charakter findet nicht, wonach er sucht.
-Er ist der Überzeugung, dass das Gesuchte nicht da ist.
 
 [[ref_base_roll_falling]]
 ==== Fallen
@@ -759,165 +674,21 @@ Der Schaden im Fall eines Misserfolgs beträgt 1W6, den keine Rüstung abhalten 
 [NOTE]
 Natürliche Rüstung vermindert Fallschaden.
 
-[[ref_base_roll_climbing]]
-==== Klettern
-
-*Attribut:* Konstitution
-
-Charaktere können an Wänden und Felswänden herauf- oder herabklettern.
-Dazu muss die Wand entsprechende Möglichkeiten bieten, um die Hände und Füße abzusetzen, zum Beispiel ein Seil, eine Leiter oder Felsvorsprünge.
-Die Charaktere können auch Kletterausrüstung verwenden.
-Freistehende Seile, die hochgeklettert werden können, können auch mit Hilfe dieser Probe erklommen werden.
-
-Charaktere können die Hälfte ihrer BEW-Rate pro Kampfphase klettern.
-
-Eine Klettern-Probe auch kann in regelmäßigen Abständen durchgeführt werden, wenn zum Beispiel eine größere Strecke geklettert werden muss.
-Jede Probe stellt den Fortschritt des Charakters dar.
-Der SL kann Klettern-Proben auch verlangen, wenn die Charaktere sich über schwieriges Gelände bewegen.
-Die nötige Anzahl der Erfolge pro Probe ergibt aus der Beschaffenheit des Geländes und den Gegebenheiten der Situation.
-
-* *Misserfolg:* Der Charakter schafft es nicht, den aktuellen Abschnitt zu erklettern.
-Er verliert alle Aktion und Manöver in der aktuellen Kampfrunde und kann erst in der nächsten Kampfrunde wieder agieren.
-* *Patzer:* Der Charakter fällt.
-Er muss eine Fallen-Probe würfeln.
-
-[[ref_base_roll_swimming]]
-==== Schwimmen
-
-*Attribut:* Konstitution
-
-Das Überqueren von Körpern aus Wasser, zum Beispiel Seen und Flüssen, erfordert den Einsatz dieser Probe.
-Ebenso wird sie wichtig, wenn Charaktere unabsichtlich in Wasser fallen.
-
-Ein Charakter kann pro Kampfphase die Hälfte seiner BEW-Rate schwimmen.
-Grundsätzlich kann der SL eine Schwimmen-Probe auch in regelmäßigen Abständen verlangen, um den Fortschritt des Charakters zu bestimmen.
-
-* *Misserfolg:* In dieser Kampfrunde ist der Charakter nicht vorangekommen.
-Er verliert alle Aktionen und Manöver für diese Kampfrunde.
-* *Patzer:* Wie Misserfolg, jedoch erhält der Charakter zusätzlich 1W6 Schaden ohne Rüstungsschutz, da er Wasser in seine Lungen bekommt.
-
-[[ref_base_roll_jumping]]
-==== Springen
-
-*Attribut:* Geschick
-
-Um breite Gräben zu überwinden oder um über niedrige Hindernisse zu springen, benötigt ein Charakter eine erfolgreiche Springen-Probe.
-Ein Charakter kann maximal die Hälfte seiner BEW-Rate weit springen und nur ein Viertel hoch.
-
-Generell benötigt er Anlauf, für jeden weiten Sprung die gleiche Anzahl an Metern, für jeden hohen Sprung die 3-fache Anzahl an Metern.
-Er erhält einen Malus von -1 auf die Würfe zum Erfolg für jede 1,50 Meter die er nicht Anlauf nimmt.
-
-Für jede 1,50 Meter, die gesprungen werden müssen, ist ein Erfolg in der Springen-Probe nötig.
-
-* *Misserfolg:* der Charakter landet nahe am Rand des zu überspringenden Gebietes bzw. kommt gerade so an die obere Kante ran.
-Der Charakter konnte sich gerade noch abrollen oder festhalten und ist sicher.
-Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
-* *Patzer:* Der Charakter landet mitten in dem Gebiet, das er überspringen wollte.
-Dies kann direkt unangenehme Folgen haben, wie z.B. eine Fallen-Probe. Springt er in die Höhe, so landet er vor dem Hindernis und verliert alle Aktionen und Manöver in dieser Kampfrunde.
-
-=== Soziale Interaktion
-
-[[ref_base_roll_questing]]
-==== Ausfragen
+[[ref_base_roll_douptillusions]]
+==== Illusion anzweifeln und durchschauen
 
 *Attribut:* Erkenntnis
 
-Oft müssen Charaktere Informationen bekommen, in dem sie mit anderen Personen reden.
-Dies kann in vielerlei Situation vorkommen, sei es das Befragen von betrunkenen Seemännern in der Taverne oder beim diplomatischen Plausch mit dem hiesigen Landesfürsten.
-Immer wenn ein Charakter von einer Person eine Information erhalten will, kann er eine Ausfragen-Probe für diese Information würfeln.
-Ist die Probe erfolgreich, so erhält er diese Information.
-Die Anzahl der Erfolge ergibt sich aus mehreren Faktoren, wie wichtig und geheim ist die Information für die Person, die sie hat und diese Person zu dem fragenden Charakter steht.
+//TODO
 
-* *Misserfolg:* der Charakter kann von der Person die Information nicht erfragen.
-Die Person wird sie dem Charakter nicht mehr verraten.
-* *Patzer:* wie Misserfolg, jedoch hat der Charakter die Person auch noch beleidigt und nun ist die Person äußerst ablehnend gegenüber dem Charakter.
-
-[NOTE]
-Es kann durchaus sinnvoll sein, diese Probe etwas zu verallgemeinern.
-Ein Charakter könnte zum Beispiel in einer Bibliothek nach der Antwort auf eine Frage suchen oder einige Stunden von Kneipe zu Kneipe laufen, um ein bestimmtes Gerücht zu untersuchen.
-In diesem Fall kann der SL auch diese Standardprobe verwenden, wobei die Misserfolg und Patzer Folgen etwas angepasst werden müssen.
-
-[NOTE]
-Die Probe kann auch als konkurrierende Probe zwischen der Ausfragen-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
-
-[[ref_base_roll_intimidate]]
-==== Einschüchtern
-
-*Attribut:* Charisma
-
-Wo Diplomatie versagt, kann auch mal Gewalt helfen oder zumindest die Aussicht auf drastische Folgen, die ein Gegenüber nicht in Kaufen nehmen
-will und dann lieber kooperiert.
-
-Eine Anwendung dieser Probe simuliert, dass ein Charakter eine anderen Person durch Drohungen zu einer bestimmten Tat zwingen kann, die diese Person normalerweise nicht ausführen würde.
-
-Die nötige Anzahl der Erfolge ist hierbei durch unterschiedliche Faktoren bestimmt, z.B. ob die Tat für die Person gefährlich ist und unter welcher Situation diese Drohung zusammen kommen.
-Ein Erfolg in der Probe bedeutet, dass der Charakter die Person erfolgreich dazu gebracht hat, die Tat durchzuführen.
-
-* *Misserfolg:* die Person zeigt sich unbeeindruckt von den Drohungen des Charakters.
-* *Patzer:* die Person ist von der Drohung unbeeindruckt und hält gegen den Charakter nun einen Groll.
-
-[NOTE]
-Die Probe kann auch als konkurrierende Probe zwischen der Einschüchtern-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
-
-[[ref_base_roll_decieve]]
-==== Täuschen
-
-*Attribut:* Charisma
-
-Die Wahrheit sagen ist nicht immer von Vorteil oder gar gesund.
-Wenn ein Charakter einen anderen Charakter belügen will oder ihm gegenüber einen anderen Sachverhalt vortäuschen, so ist eine Täuschen-Probe nötig.
-Dabei ist diese Probe immer eine konkurrierende Probe gegen eine Ausfragen-Probe des Gegenübers.
-Die Ausfragen-Probe wird hier als eine Befragung über die wahren Motive des Charakters interpretiert.
-
-* *Misserfolg:* der Charakter kann die Täuschung nicht durchsetzen, man glaubt ihm einfach nicht, bzw. er wird enttarnt.
-* *Patzer:* wie Misserfolg, jedoch provoziert der Charakter damit sofort eine stark ablehnende Reaktion.
-
-[[ref_base_roll_persuade]]
-==== Überzeugen
-
-*Attribut:* Charisma
-
-Manchmal können auch gute Argumente oder die richtige Worte und Versprechungen die Meinung einer Person ändern.
-Die Anwendungsfälle sind vielfältig, von der Argumentation in einer politischen Diskussion bis zu Bestechung einer Wache.
-Damit eine Überzeugen-Probe erfolgreich ist, muss eine Anzahl von Erfolgen erreicht werden, die von unterschiedlichen Faktoren modifiziert wird.
-Beispielsweise von den Überzeugungen der Zielperson, der Argumente des Charakters und natürlich der Zielmeinung, der Charakter in der Person erwecken möchte.
-
-* *Misserfolg:* die Person bleibt bei ihren Überzeugungen und lässt sich von den Argumenten des Charakters nicht davon abbringen.
-* *Patzer:* wie Misserfolg, jedoch provoziert der Charakter damit sofort eine stark ablehnende Reaktion.
-
-[NOTE]
-Die Probe kann auch als konkurrierende Probe zwischen der Überzeugen-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
-
-=== Sonstige
-
-[[ref_base_roll_resistburning]]
-==== Verbrennen Widerstehen
-
-*Attribut:* Energie
-
-In jedem Fall, in dem die Vorbereitung eines Zauberspruches schief geht, besteht die Gefahr des *Verbrennens*.
-Dies ist das Resultat der Beschwörung des Zaubers, der nicht fertig ausgesprochen wurde und damit die benötigten Energien nicht korrekt abgeleitet werden können.
-Dieser "Druck" an magischen Energien kanalisiert und entlädt sich im Körper des Zauberers.
-
-Kommt der Zauberer in eine solche Situation, dann muss er entweder einer Energie-Probe oder eine Verbrennen Widerstehen-Probe bestehen.
-Dazu ist das Talent Verbrennen Widerstehen bzw. eine Ungeübte Anwendung als Energie-Probe zu verwenden.
-Die Anzahl der Erfolge ist die POT des Zauberspruches, der unterbrochen wurde.
-
-Besteht der Charakter eine dieser Proben nicht, so erhält er POT*W3 magischen Schaden.
-
-Folgende Situationen führen zu einer Verbrennen Widerstehen-Probe:
-
-* Der Zauberer würfelt einen Patzer bei der Spruchzauberei-Probe
-* Der Zauberer wird während der Vorbereitung zur Verwendung eines Talents oder Kampfmanövers (außer Rennen mit halber Geschwindigkeit)
-gezwungen
-* Der Zauberer wird während der Vorbereitung niedergeschlagen
+xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus]
 
 [[ref_base_rules_pools]]
 == Energiepunktepools
 
 *Energiepunktepools* bzw. *Punktepools* stellen im System von Far Ages verschiedene Aspekte der Verfassung eines Charakters dar.
-Sie werden in Zahlen gemessen und je geringer diese sind, um so gefährlicher wird es für den Charakter.
-Erreicht ein Pool den Wert 0 befindet sich der betreffende Charakter üblicherweise in einer lebensbedrohenden Lage, er steht an der *Todesschwelle*.
+Sie werden in Zahlen gemessen und je geringer diese sind, umso gefährlicher wird es für den Charakter.
+Erreicht ein Pool den Wert 0 befindet sich der betreffende Charakter üblicherweise in einer lebensbedrohenden Lage, er steht an der <<ref_base_rules_deathsdoor, *Todesschwelle*>>.
 Dieses Kapitel erläutert die verschiedenen Pools und beschreibt Regeln.
 
 Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden sich die Regeln zu Ermittlung der Pools für jeden Charakter.
@@ -929,7 +700,7 @@ Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden 
 Sie können als eine Mischung auch der physischen Unversehrtheit und Ausdauer des Charakter interpretiert werden.
 Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er nähert sich dem Tod.
 
-Der Verlust von TP kann aus sehr vielen unterschiedlichen Situation entstehen, die Häufigste ist das Erhalten von Verletzungen, z.B. aus dem link:core_rules_battlesystem.adoc[Kampf].
+Der Verlust von TP kann aus sehr unterschiedlichen Situation entstehen, die Häufigste ist das Erhalten von Verletzungen, zum Beispiel aus dem link:core_rules_battlesystem.adoc[Kampf].
 
 In sehr wenigen Fällen besitzt eine Kreatur keinen TP-Pool.
 Solche Wesen sind vollständig immun gegen jeden Schaden, der vom TP-Pool abgerechnet wird.
@@ -955,7 +726,7 @@ Temporäre Punkte können nicht genutzt werden, um einen Charakter zu heilen, au
 Sie können jedoch einen ohnmächtigen Charakter insoweit helfen, dass sie eventuelle Verluste auffangen.
 
 [[ref_base_rules_pools_regeneration]]
-=== Regeneration
+=== Erholung und Regeneration
 
 Verlorene TP und MP können regeneriert werden.
 Dies geschieht für gewöhnlich nur, wenn der Charakter sich ausruht, bzw. schläft.
@@ -965,11 +736,11 @@ Folgende Tabelle gibt Aufschluss über die Regeneration:
 
 [cols=",,",options="header"]
 |===
-|Ruheperiode |TP Regeneration |MP Regeneration
-|15 Minuten |1W10 |1W10
-|1 Stunde |KO 1W10 |EN 1W10
-|8 Stunden |2*KO 1W10 | 2*EN 1W10
-|24 Stunden |Vollständig |Vollständig
+|Ruheperiode |Dauer |TP Regeneration |MP Regeneration
+|Kurze Pause |15 Minuten |1W10 |1W10
+|Lange Pause |1 Stunde |KO 1W10 |EN 1W10
+|Regulärer Erholung |8 Stunden |2*KO 1W10 | 2*EN 1W10
+|Vollständige Erholung |24 Stunden |Vollständig |Vollständig
 |===
 
 Der Charakter würfelt die angegebene Würfel und addiert die Augen zusammen.
@@ -977,4 +748,5 @@ Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm maximale TP 
 
 SP können im Normalfall nicht regeneriert werden.
 
+[[ref_base_rules_deathsdoor]]
 === Todesschwellen

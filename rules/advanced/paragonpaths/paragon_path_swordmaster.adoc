@@ -57,7 +57,7 @@ Diese Entscheidung gilt auch für seinen Kontrahenten.
 *Kampf:* - +
 *Beschreibung:* Hat der Schwertmeister erfolgreich einen Gegner durch <<ref_swordmaster_provoke>> beeinflusst, kann er direkt nach der Probe entscheiden, ob er stattdessen eine Herausforderung aussprechen möchte.
 Entscheidet er sich dafür, reduziert sich der Malus aus Provokation um 1, d.h. wenn der Malus z.B. -2 beträgt und der Schwertmeister diese Fähigkeit einsetzt, reduziert sich der Malus auf -1.
-Außerdem muss der Gegner seine nächste xref:../../core/core_rules_battlesystem.adoc#ref_battle_action[Aktion] und xref:../../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] verwenden, um möglichst nahe an den Schwertmeister heranzukommen und anzugreifen.
+Außerdem muss der Gegner seine nächste xref:../../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] und xref:../../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] verwenden, um möglichst nahe an den Schwertmeister heranzukommen und anzugreifen.
 
 .Herausforderung
 ====
@@ -74,11 +74,10 @@ Bei dem Einsatz dieser Fähigkeit reduziert sich diese Malus auf -1, allerdings 
 *Verwandtes Attribut:* - +
 *Kampf:* - +
 *Beschreibung:* Durch intensives Training verbessert der Schwertmeister seinen Kampfstil immer weiter.
-Er kann diese Fähigkeit mehrfach lernen und jedes mal einen der folgenden Boni erhalten:
+Er kann diese Fähigkeit mehrfach lernen und jedes Mal einen der folgenden Boni erhalten:
 
 * Seine TP erhöhen sich permanent um 10 Punkte
-* Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_base_roll_acrobatics[Akrobatik]-Proben.
-* Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_base_roll_reflex[Reflex]-Proben
+* Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]-Proben.
 * TODO
 * TODO
 

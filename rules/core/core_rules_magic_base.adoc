@@ -693,7 +693,8 @@ gleichen. Kreaturen, die nicht mehr auf der Seite des Lebens stehen.
 Regeln? Ohja, davon gibt es viele.
 Meistens erscheinen sie uns unnötig und überflüssig, jedoch merkt auf, denn Regeln sind oft daraus entstanden, weil andere gebrochen wurden.
 
-=== Allgemeiner Einsatz von Zaubersprüchen und Magische Talenten
+[[ref_magic_rules_spellcasting]]
+=== Regeln für Spruchzauberei und Zaubersprüche
 
 Wir wollen die Funktionsweise eines Zauberspruches und damit die allgemeine Vorgehensweise beim Zaubern erläutern.
 Dazu betrachten wir nun drei beispielhafte Zaubersprüche, an denen wir dann die einzelnen Begriffe erläutern.
@@ -701,7 +702,8 @@ Dazu betrachten wir nun drei beispielhafte Zaubersprüche, an denen wir dann die
 *Name:* Verwirren +
 *Arkanes Geheimnis:* Nein +
 *POT:* 5 +
-*Magieabwehr?:* Ja +
+*Magieabwehr?:* Ja (SB) +
+*Komponenten:* Formel +
 *Fokus:* Chaos, Geist +
 *Vorbereitung:* 3 +
 *Anzahl der Erfolge:* 4 +
@@ -713,7 +715,7 @@ Am Ende der Beschwörung rasen diese Lichter in das Opfer hinein.
 Das Opfer wird verwirrt und greift die nächststehende Person rücksichtslos an.
 Es verliert bis dato eventuelle Vorbereitungen.
 Das Ziel des Zaubers muss eine lebende und denkende Kreatur sein.
-Untote und Konstrukte sind immun gegen dieses Zauber. +
+Untote und Konstrukte sind immun gegen diesen Zauber. +
 *Zusätzliche Effekte:* +
 +10 MP: Das Opfer greift einen nahestehenden Verbündeten an +
 +15 MP, +1 POT: Das Opfer greift ein Ziel an, dass der Magier bestimmt +
@@ -724,6 +726,7 @@ Untote und Konstrukte sind immun gegen dieses Zauber. +
 *Arkanes Geheimnis:* Nein +
 *POT:* 5 +
 *Magieabwehr?:* Nein +
+*Komponenten:* Formel, Gesten +
 *Fokus:* Feuer +
 *Vorbereitung:* 3 +
 *Anzahl der Erfolge:* 5 +
@@ -733,10 +736,10 @@ Untote und Konstrukte sind immun gegen dieses Zauber. +
 *Effekt:* Der Magier beschwört magisches Feuer, dass er zu einem Ball formt.
 In seinen Handflächen beginnen sich während der Anrufung lange Fäden von gleißendem Feuer zu einem Ball zusammenzuknoten.
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
-Wenn er auf dem Boden einschlägt, zerplatzt er in einer Feuerwolke, die in einem Radius von 3 Metern um den Einschlagsort.
-Die dortigen Kreaturen dürfen nach den Regeln des Werfens ausweichen, d.h. ihnen steht eine Reflex-Probe gegen die Anzahl der Erfolg der Spruchzauberei-Probe zu.
+Wenn er auf dem Boden einschlägt, zerberstet er in einer Feuerwolke, die in einem Radius von 3 Metern um den Einschlagspunkt.
+Die dortigen Kreaturen dürfen nach den Regeln des Werfens ausweichen, das heißt ihnen steht eine Reflex-Probe gegen die Anzahl der Erfolg der Spruchzauberei-Probe zu.
 Beachte, dass der Zauberer nicht auf Werfen, sondern auf Spruchzauberei würfelt.
-Der Zauber verursacht 2W6 Feuerschaden. +
+Der Zauber verursacht 4W6 Feuerschaden. +
 *Zusätzliche Effekte:* +
 +5 MP: Reichweite: +6,00 Meter +
 +5 MP: Flächenschaden: +3,00 Meter +
@@ -746,6 +749,7 @@ Der Zauber verursacht 2W6 Feuerschaden. +
 *Arkanes Geheimnis:* Nein +
 *POT:* 5 +
 *Magieabwehr?:* Nein/Ja +
+*Komponenten:* Formel +
 *Fokus:* Erde, Feuer +
 *Vorbereitung:* 5 +
 *Anzahl der Erfolge:* 3 +
@@ -758,6 +762,7 @@ Für die Dauer des Zauberspruches erhöht sich der Rüstungsschutz auf allen Tre
 +3MP: Dauer: +1 Kampfrunde +
 +5MP, +1POT: Erhöht den RS-Bonus um +1 +
 
+[[ref_magic_rules_spellcasting_spellspecifics]]
 ==== Erläuterung der Einträge
 
 *Name*:
@@ -768,22 +773,30 @@ Manche Zaubersprüche sind arkane Geheimnisse und existieren vielleicht noch den
 Dies bedeutet, dass sie äußerst selten sind und das Wissen um Ihre Inkantation ist größtenteils verloren. +
 Eine Angabe "Ja" in diesem Eintrag bedeutet, dass der Zauberspruch nicht frei gelernt werden kann, sondern seine Entdeckung ein eigenes Abenteuer ist. +
 Wie ein Charakter ein arkanes Geheimnis entdeckt und lernt, ist dem Spiel und SL überlassen.
-Der Zauberspruch wird mit den üblichen Cp erlernt.
+Der Zauberspruch wird mit den üblichen CP erlernt.
 
 *Magiepotenz*:
 Die Magiepotenz(POT) ist eine Angabe über die Macht des Zauberspruches.
 
+*Magieabwehr*:
+Dieses Feld gibt an, ob der Zauberspruch mit einer Magieabwehr-Probe erlaubt ist.
+Die Details finden sich einem gesonderten <<ref_magic_rules_spellcasting_magicdefence, Kapitel>>.
+
+*Komponenten:*
+Die meisten Zaubersprüche benötigen bestimmte <<ref_magic_rules_spellcasting_components, Komponenten>>.
+Diese sind angegeben als <<ref_magic_rules_spellcasting_components_formulas, Formeln>>, <<ref_magic_rules_spellcasting_components_gestures, Gesten>> und <<ref_magic_rules_spellcasting_components_ingredients, Zutaten>>.
+
 *Fokus:*
 Jeder Zauberspruch hat mindestens einen Zauberfokus und kann beliebig viele haben.
-Viele Besondere Fähigkeiten für Magier basieren auf Zauberfoki und der Verbesserung der Spruchzauberei.
+Viele besondere Fähigkeiten für Magier basieren auf Zauberfoki und der Verbesserung der Spruchzauberei.
 
 *Vorbereitung:*
-Diese Zahl ist die Anzahl der Kampfrunden, die der Charakter zur Vorbereitung des Zauberspruches braucht.
-Die Vorbereitung beginnt mit der ersten Kampfrunde und endet in der Letzten dieser Kampfrunde inklusive der Spruchzauberei-Probe.
+Diese Zahl ist die Anzahl der *Kampfphasen*, die der Charakter zur Vorbereitung des Zauberspruches braucht.
+Die Vorbereitung beginnt mit der ersten Kampfphase und endet in der Letzten inklusive der Spruchzauberei-Probe.
 
 Es ist möglich die Anzahl für die Vorbereitung zu verkürzen.
 Dies kostet zusätzliche MP.
-Nur wenn die Vorbereitung das Kürzel \(R) enthält, welches für Ritual steht, so ist die Verkürzung nicht möglich.
+Nur wenn die Vorbereitung das Kürzel \(R) enthält, welches für *Ritual* steht, so ist die Verkürzung nicht möglich.
 
 *Anzahl der Erfolge*:
 Dies ist die benötigte Anzahl an Erfolgen, die der Charakter mit seinem Talent Spruchzauberei benötigt, um den Zauber korrekt zu wirken.
@@ -802,36 +815,27 @@ Die Einträge Selbst und Berührung implizieren immer ein Ziel.
 Zaubersprüche, die eine *Reichweitenangabe* und als *Anzahl der Ziele* 1 besitzen können von dem Zauberer auch mit der Reichweite Selbst oder Berührung gezaubert werden, wenn er dies wünscht.
 
 *Anzahl der Ziele:*
-Die Anzahl der Ziele ist im allgemeinen eine Zahl.
+Die Anzahl der Ziele ist im Allgemeinen eine Zahl.
 Innerhalb der Reichweite des Zauberspruches kann der Magier daher entsprechend viele Ziele durch eine Zauberwirkung anvisieren.
+Sofern nicht anders angegeben, erfordert das Auswählen eines Ziels immer direkte Sicht.
 
 Manche Zauber, wie der obige Feuerball, treffen jedoch ein Gebiet.
-Es werden folgende Flächenangeben unterschieden:
+Es werden folgende Flächenangaben unterschieden:
 
 Der *Radius* mit einer Größenangabe in Metern wird von einem Mittelpunkt, der innerhalb der Reichweite des Zauberspruches liegt, gemessen.
 
-Der *Kegel* beginnt i.A. in Front des Magiers.
+Der *Kegel* beginnt in Front des Magiers.
 Pro 1,50 Meter erhöht sich der Kegel in gerader Linie von seinem Ursprung um jeweils eine Reihe von Feldern.
 
-Die *Linie* beginnt i.A. in Front des Magiers und belegt alle 1,50x,1,50 Kacheln bis zum Ende der Angabe in Metern.
+Die *Linie* beginnt in Front des Magiers und belegt alle 1,50x,1,50 Kacheln bis zum Ende der Angabe in Metern.
 
 Alle legalen Ziele innerhalb dieser Flächen werden von dem Effekt des Zauberspruches getroffen.
 
 *Dauer*:
-Dies ist Anzahl in Kampfrunden, die der Effekt des Zaubers wirkt.
-Mit der Spruchzauberei-Probe beginnt die erste Kampfrunde.
-Ist die Zeit abgelaufen endet der Zauber.
+Dies ist Anzahl in Kampfphasen, die der Effekt des Zaubers wirkt.
+Mit der Spruchzauberei-Probe beginnt die erste Kampfphase.
+Ist die Zeit abgelaufen, endet der Zauber.
 Zauber, die als Eintrag „Sofort“ in dieser Spalte stehen haben, wirken direkt nach der Spruchzauberei-Probe und sind dann vorbei.
-
-*Magieabwehr*:
-Dieses Feld gibt an, ob der Zauberspruch mit einer Magieabwehr-Probe erlaubt ist.
-Die Einträge sind „Ja“ für eine Möglichkeit zur Magieabwehr oder „Nein“.
-Üblicherweise erlauben nur Zaubersprüche eine Magieabwehr-Probe, wenn diese direkt gegen eine einzelne Kreatur bzw.mehrere Kreaturen gerichtet sind.
-Zaubersprüche, die Flächenschaden verursachen und damit nicht explizit gegen bestimmte Kreaturen gewirkt werden, sind üblicherweise nicht betroffen.
-
-Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“ beziehen sich darauf, dass der Zauberspruch unterschiedliche Ziele ansprechen kann, zum Beispiel „Selbst/Berührung“.
-In diesem Fall benötigt man, wählt man die Reichweite „Selbst“ keine Magieabwehr-Probe (als Daumenregel gilt, dass man für einen Zauberspruch, den man auf sich selbst freiwillig wirkt, keine Magieabwehr-Probe würfeln muss).
-Wirkt man den Zauberspruch auf ein anderes Wesen, also per Berührung, schon.
 
 *Effekt*:
 Dieser Abschnitt beschreibt den Effekt des Zauberspruches, der eintritt, wenn ein Treffer gelandet wurde.
@@ -845,95 +849,112 @@ Verbessert werden können jedoch alle anderen Kriterien für einen Zauberspruch.
 
 Hervorzuheben ist noch, dass einige Verbesserungen die POT des Zauberspruches erhöhen.
 Dadurch kann es möglich sein, dass der Zauberer sie nicht mehr aussprechen kann oder noch mehr MP investieren muss.
-Zusätzlich erhöht sich die Gefahr durch eventuelles Verbrennen und Zauberpatzer.
+Zusätzlich erhöht sich die Gefahr durch eventuelles <<ref_magic_rules_spellcasting_spellburning, Verbrennen>> und <<ref_magic_rules_spellcasting_spellfailure, Zauberpatzer>>.
 
+[[ref_magic_rules_spellcasting_preparespells]]
 ==== Vorbereiten von Zaubersprüchen
 
-Der grundsätzliche Ablauf des Aussprechen eines Zauberspruches ist das sogenannte *Vorbereiten* und das schlussendliche Wirken der Magie.
-Eine Vorbereitung ist von Nöten, da die magischen Energien nicht in fertigen Zaubern vorliegen und der Zauberer seine Zauber erst einmal zusammensetzen muss.
+Der grundsätzliche Ablauf des Aussprechens eines Zauberspruches ist das sogenannte *Vorbereiten* und das schlussendliche Wirken der Magie.
+Eine Vorbereitung ist vonnöten, da die magischen Energien nicht in fertigen Zaubern vorliegen und der Zauberer seine Zauber erst einmal zusammensetzen muss.
 Dieser Vorgang ist unterschiedlich ritualisiert, einige Zauber benötigen Beschwörungsgesänge, andere wiederum das Rezitieren magischer Formeln, wieder andere erfordern Gesten oder bestimmte Handlungen und Zutaten.
 
-Am Anfang seiner Kampfrunde kann ein Magier das Vorbereiten eines Zaubers ansagen.
+Am Anfang seiner Kampfphase kann ein Magier das xref:core_rules_battlesystem.adoc#ref_battle_actions_preparespells[Vorbereiten] eines Zaubers ansagen.
 Er muss dazu den Namen des Zauberspruches, eventuell ein Ziel, falls dies gefordert ist, und die Dauer der Vorbereitung nennen.
 
-Ist die Dauer der Vorbereitung beispielsweise 3, dann gilt die Kampfrunde, in der der Zauber angekündigt wurde, bereits als erste Kampfrunde des Vorbereitens.
+Ist die Dauer der Vorbereitung beispielsweise 3, dann gilt die Kampfphase, in der der Zauber angekündigt wurde, bereits als erste Kampfphase des Vorbereitens.
 
 Das Vorbereiten selbst benötigt keinen Wurf.
-Wichtig ist hierbei, dass Vorbereiten und das Weiterführen einer Vorbereitung eine Aktion ist.
-Der Zauberer kann also in einer Kampfrunde immer nur den Zauber vorbereiten.
+Wichtig ist hierbei, dass das xref:core_rules_battlesystem.adoc#ref_battle_actions_continueaction[Weiterführen] einer Vorbereitung eine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktion] ist.
+Der Zauberer kann also in einer Kampfphase immer nur den Zauber vorbereiten.
 Er kann keine anderen Aktionen durchführen und auch keine weiteren Zauber beginnen.
-Er kann jedoch Manöver und Reaktionen ausführen.
 
-Es gilt, dass in der letzten Kampfrunde des Vorbereitens der Zauberspruch fertig ist und in auch diesen Kampfphase ausgesprochen werden kann.
+Es gilt, dass in der letzten Kampfphase des Vorbereitens der Zauberspruch fertig ist, und in auch dieser Kampfphase <<ref_magic_rules_spellcasting_roll, ausgesprochen>> werden kann.
 
+[[ref_magic_rules_spellcasting_additionaleffects_reducepreparing]]
 ==== Zusätzliche Effekte, Verkürzen und MP
 
-Es gilt: Ein Zauberspruch kostet im allgemeinen keine Magiepunkte.
+Es gilt: Ein Zauberspruch kostet im Allgemeinen keine Magiepunkte.
 Kosten entstehen nur durch zusätzliche Effekte und durch Verkürzen der Vorbereitung.
 
-Daraus folgt, dass ein Zauberspruch, der in der vorgegeben Anzahl von Kampfrunden vorbereitet wird, keine MP kostet, außer man nutzt zusätzliche Effekte.
+Daraus folgt, dass ein Zauberspruch, der in der vorgegebenen Anzahl von Kampfphasen vorbereitet wird, keine MP kostet, außer man nutzt zusätzliche Effekte.
 
 Zu Beginn der Vorbereitung muss der Zauberer festlegen, welche *zusätzlichen Effekte* er benutzen möchte und ob er die Vorbereitung verkürzen möchte.
 
 Von den zusätzlichen Effekten hängt teilweise die POT ab und aufgrund derer die Kosten für die *Verkürzung der Vorbereitung*.
 
-Die Kosten für die Verkürzung berechnen sich, in dem der Zauberer für jede Kampfrunde, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt.
+Die Kosten für die Verkürzung berechnen sich, in dem der Zauberer für jede Kampfühase, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt.
 
 .Zusätzliche Effekte, Verkürzen und MP
 ====
 Wir betrachten den Feuerball aus dem Beispiel von oben.
 Ein Zauberer mit 30 MP möchte den Zauberspruch zuerst um 2W6 Schadenspunkte verstärken.
 Das kostet 5 MP und erhöht die POT des Zaubers um 1 auf 6.
-Der Zauberspruch benötigt 3 Kampfrunden zur Vorbereitung.
-Der Zauberer möchte dies auf eine Kampfrunde verkürzen, gibt also 2*POT = 2*6 = 12 weitere MP aus.
+Der Zauberspruch benötigt 3 Kampfphasen zur Vorbereitung.
+Der Zauberer möchte dies auf eine Kampfphase verkürzen, gibt also 2*POT = 2*6 = 12 weitere MP aus.
 Insgesamt hat ihn der Zauberspruch nun 17 MP gekostet, also hat er noch 30-17=13 MP übrig.
 ====
 
-Das Maximum zum Verkürzen der Vorbereitung ist die benötigte Kampfkundenanzahl auf 1 zu reduzieren.
-Damit lässt ein Zauberspruch sofort mit seiner Ansage zur Vorbereitung in derselben Kampfkunde aussprechen.
+Das Maximum zum Verkürzen der Vorbereitung ist die benötigte Anzahl von Kampfphasen auf 1 zu reduzieren.
+Damit lässt ein Zauberspruch sofort mit seiner Ansage zur Vorbereitung in derselben Kampfphase <<ref_magic_rules_spellcasting_roll, aussprechen>>.
 
-Die Spruchzauberei-Probe wird als Einfache Probe gewürfelt, außer es ist eine Magieabwehr-Probe erlaubt.
-Dann wird eine Konkurrierende Probe gewürfelt.
-
+[[ref_magic_rules_spellcasting_roll]]
 ==== Spruchzauberei-Probe
 
-Einen Zauber wirkt man mit dem Talent Spruchzauberei.
-Dieses Talent kann sowohl eine Einfache Probe als auch eine Konkurrierende Probe sein.
+Einen Zauber wirkt man mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei].
+Dieses Talent kann sowohl eine xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe] als auch eine xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende Probe] sein.
+
+//TODO
 Manche Zaubersprüche lassen eine Magieabwehr-Probe zu.
-In diesem Fall kann sich das Ziel des Zauberspruches gegen dessen Auswirkungen wehren und das Talent Spruchzauberei wird als Konkurrierende Probe nach den üblichen Regeln der Kalkulation der Anzahl der Erfolge gewürfelt.
+In diesem Fall kann sich das Ziel des Zauberspruches gegen dessen Auswirkungen wehren und das Talent Spruchzauberei wird als konkurrierende Probe nach den üblichen Regeln der Kalkulation der Anzahl der Erfolge gewürfelt.
 
-In allen anderen Fällen gilt das Talent als Einfache Probe.
-Wann was angemessen ist, verrät die Beschreibung der Zaubersprüche.
-
-Ein Zauber ist genau dann erfolgreich, wenn er die vorgegeben Anzahl von Erfolgen (oftmals einfach eine minimale Anzahl) mit seiner Spruchzauberei-Probe erreicht hat.
-Erlangt er nicht die erforderlichen Erfolge und ist die Probe insgesamt kein Patzer, dann passiert einfach nichts, auch kein Verbrennen.
+Ein Zauber ist genau dann erfolgreich, wenn er die vorgegebene Anzahl von Erfolgen (oftmals einfach eine minimale Anzahl) mit seiner Spruchzauberei-Probe erreicht hat.
+Erlangt er nicht die erforderlichen Erfolge und ist die Probe insgesamt kein Patzer, dann passiert einfach nichts, auch kein <<ref_magic_rules_spellcasting_spellburning, Verbrennen>>.
 Im Falle eines Patzers siehe Zauberpatzer.
 
 Im Falle des Erfolgs tritt der Effekt des Zauberspruches direkt ein.
 
+[[ref_magic_rules_spellcasting_magicdefence]]
+==== Magieabwehr
+Die Einträge sind „Ja“ für eine Möglichkeit zur Magieabwehr oder „Nein“.
+Üblicherweise erlauben nur Zaubersprüche eine *Magieabwehr-Probe*, wenn diese direkt gegen eine einzelne Kreatur bzw. mehrere Kreaturen gerichtet sind.
+Zaubersprüche, die Flächenschaden verursachen und damit nicht explizit gegen bestimmte Kreaturen gewirkt werden, sind üblicherweise nicht betroffen.
+
+Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“ beziehen sich darauf, dass der Zauberspruch unterschiedliche Ziele ansprechen kann, zum Beispiel „Selbst/Berührung“.
+Die Reichweite „Selbst“ erfordert keine Magieabwehr-Probe.
+Wirkt man einen Zauberspruch auf ein anderes Wesen, kann es freiwillig auf die Magieabwehr-Probe verzichten.
+
+Sofern nicht anders angegeben, wird eine Magieabwehr-Probe als xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] mit dem Attribut xref:core_rules_charactercreation.adoc#ref_attribute_energy[EN] gewürfelt.
+Dadurch wird die <<ref_magic_rules_spellcasting_roll, Spruchzauberei-Probe>> zu einer xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende Probe].
+Die Anzahl der Erfolge wird wie üblich berechnet, wobei das Ergebnis sich wie folgt auswirken kann:
+
+* erfordert der Zauberspruch eine minimale Anzahl von Erfolgen, muss diese nach Abzug der verteidigenden Erfolge weiterhin erreicht sein
+* hängt der Effekt des Zauberspruches von der Anzahl der Erfolge in der Spruchzauberei-Probe ab, wird der Effekt auf Basis der finalen Anzahl der Erfolge berechnet.
+
+In bestimmten Fällen, wie zum Beispiel des Zauberspruches _Verwirren_, ist die Magieabwehr-Probe durch ein anderes Attribut beeinflusst.
+Dieses Attribut ist dann zusätzlich angegeben, wie beispielsweise "Ja (SB)".
+In diesem Fall die Magieabwehr-Probe ein auf xref:core_rules_charactercreation.adoc#ref_attribute_selfcontrol[Selbstbeherrschung] basierter Rettungswurf.
+
+[[ref_magic_rules_spellcasting_spellburning]]
 ==== Unterbrechen der Vorbereitung und Verbrennen
 
 Während der Vorbereitung ist es natürlich möglich, dass der Zauberer unterbrochen wird.
 Dies wird sogar von halbwegs intelligenten Gegnern besonders verfolgt, denn die wenigstens warten ab, bis die Beschwörungsgesänge, die angedeuteten grünen Wolken und die düster gemurmelten Worte des Magiers sich in gleißende Magie entlädt und auf die Unglücklichen niederprasselt.
 
-Somit kann ein Magier, der zu einer anderen Aktion als Vorbereiten bzw. Weiterführen oder dem Verwenden eines Talents gezwungen wird, die Vorbereitung für den Zauber verlieren.
+Somit kann ein Magier, der zu einer anderen xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktion] als Vorbereiten bzw. Weiterführen oder dem Verwenden eines Talents gezwungen wird, die Vorbereitung für den Zauber verlieren.
 
-Die Anwendung eines Talents beinhaltet in diesem Fall auch Verteidigungstalente wie Hieb Ausweichen, Schildverteidigung usw. sowie deren ungeübten Anwendungen.
-
-Der Zauberer kann im Fall einer Unterbrechnung versuchen, seine Konzentration zu halten.
-Dazu würfelt er eine *Willenskraft-Probe* gegen die POT des Zauberspruches.
-Bei einem Erfolg behält er die Vorbereitung und kann diese in seiner Kampfrunde weiterführen.
-Bei einem Misserfolg oder Patzer muss er eine *Verbrennen Widerstehen-Probe* ausführen.
-Siehe zu beiden Proben das Dokument link:core_rules_d10_system.adoc[W10-Regelsystem].
+Der Zauberer kann im Fall einer Unterbrechung versuchen, seine Konzentration zu halten.
+Dazu würfelt er eine Talent-Probe in xref:core_rules_talents_base.adoc#ref_talents_discipline[Disziplin], wobei die Anzahl der nötigen Erfolge der POT des Zauberspruches entspricht.
+ Bei einem Erfolg behält er die Vorbereitung und kann diese in seiner Kampfrunde weiterführen.
+Bei einem Misserfolg oder Patzer muss er eine xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen]-Probe ausführen.
 
 Im Allgemeinen bedeutet ein Niederschlag immer den automatischen Verlust der Vorbereitung.
 
+[[ref_magic_rules_spellcasting_cancelspell]]
 ==== Freiwilliges Abbrechen eines Zauberspruches
 
-Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, (in seiner Kampfrunde) freiwillig aufgeben kann, ohne dabei Verbrennen zu erleiden.
-Das freiwillige Abbrechen gilt als eine Aktion.
+Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, in seiner Kampfphase freiwillig xref:core_rules_battlesystem.adoc#ref_battle_freeactions_cancelaction[aufgeben] kann, ohne dabei Verbrennen zu erleiden.
 
-[[ref_magic_base_spellfailure]]
+[[ref_magic_rules_spellcasting_spellfailure]]
 ===== Zauberpatzer
 
 [quote, Byhragast „Eisauge“]
@@ -941,25 +962,26 @@ Das freiwillige Abbrechen gilt als eine Aktion.
 Ansonsten droht euch das Schicksal des armen Habryn...
 ja, richtig, das war das, mit den vielen Tentakeln letzte Woche.
 
-Würfelt ein Zauberer bei seiner Spruchzauberei-Probe einen Patzer, dann tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein.
+Würfelt ein Zauberer bei seiner Spruchzauberei-Probe einen xref:core_rules_d10_system.adoc#ref_core_botches[Patzer], dann tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein.
 Wie stark und gefährlich dieser werden kann, hängt von der POT des verpatzten Zauberspruches ab.
 Dazu addiert man die POT und die Anzahl der Patzer aus der Probe und betrachtet diese xref:../tables/table_magic_spellfailure_general.adoc[Tabelle].
 
+[[ref_magic_rules_spellcasting_increasemaxpot]]
 ==== Optional: MaxPOT temporär erhöhen
-Mit dieser optionalen Regel kann ein Zauberer temporär seine *MaxPOT erhöhen*, um einen Zauberspruch auszusprechen, für den er normalerweise zu wenig Maximale Magiepotenz hat – für einen Preis.
+Mit dieser optionalen Regel kann ein Zauberer temporär seine *MaxPOT erhöhen*, um einen Zauberspruch auszusprechen, für den er normalerweise zu wenig xref:core_rules_charactercreation.adoc#ref_secondary_maxmagicpotential[maximale Magiepotenz] hat – für einen Preis.
 
-Die Erhöhung der Maximalen Magiepotenz muss mit dem Ansagen des Zauberspruches (also inklusive Zusätzlicher Effekte und Verkürzen) genannt werden.
+Die Erhöhung der maximalen Magiepotenz muss mit dem Ansagen des Zauberspruches (also inklusive <<ref_magic_rules_spellcasting_additionaleffects_reducepreparing, zusätzlicher Effekte und Verkürzen>>) genannt werden.
 
-Die POT gilt solange als erhöht, wie der Zauberer vorbereitet und die Spruchzauberei-Probe durchführt.
+Die POT ist solange erhöht, wie der Zauberer vorbereitet und die Spruchzauberei-Probe durchführt.
 Spätestens dann endet die Erhöhung.
-Die Erhöhung endet auch bei Unterbrechungen der Vorbereitung.
-Kommt es zum Verbrennen oder zu einem Zauberpatzer, zählt die erhöhte POT.
+Die Erhöhung endet auch bei <<ref_magic_rules_spellcasting_spellburning, Unterbrechungen>> der Vorbereitung.
+Kommt es zum Verbrennen oder zu einem <<ref_magic_rules_spellcasting_spellfailure, Zauberpatzer>>, zählt die erhöhte POT.
 
 Dadurch ist es möglich, Zauber mit höherer POT auszusprechen, jedoch ist dies gefährlich.
 Denn für jeden Punkt in der obigen Differenz wird bei der Spruchzauberei-Probe ein Misserfolg zu einem Patzer.
 Daher wird die Gefahr, dass die Probe an sich ein Patzer wird, vergrößert.
 
-Ein Zauberer kann natürlich auch freiwillig die POT erhöhen, ohne, dass dies von Nöten wäre.
+Ein Zauberer kann natürlich auch freiwillig die POT erhöhen, ohne, dass dies vonnöten wäre.
 Eine erhöhte POT kann je nach Zauberspruch auch so bestimmte Effekte verbessern.
 
 .MaxPOT temporär erhöhen
@@ -970,168 +992,168 @@ Das heißt, dass zwei seiner Misserfolge bei der Spruchzauberei-Probe zu Patzern
 Bei einer Spruchzauberei-Probe mit 5 Würfeln hieße dies bei einem Ergebnis von: 9,7,4,3,1, dass die 4 und 3 zu Patzern werden, wodurch die gesamte Probe ein Patzer wird und es muss ein Zauberpatzer gewürfelt werden.
 ====
 
+[[ref_magic_rules_spellcasting_components]]
+==== Komponenten von Zaubersprüchen
+
+Viele Zaubersprüche benötigen neben dem eigentlichen Wissen, um sie zu wirken, bestimmte Komponenten.
+Diese werden in der Kategorie *Komponenten* durch die Angaben <<ref_magic_rules_spellcasting_components_formulas, Formeln>>,<<ref_magic_rules_spellcasting_components_gestures, Gesten>> und <<ref_magic_rules_spellcasting_components_ingredients, Zutat>> gekennzeichnet.
+Ist keine explizite Angabe vorhanden, benötigt der Zauberspruch diese Komponente nicht.
+Außerdem ist es möglich, dass Zaubersprüche keine der genannten Komponenten benötigt.
+
+[[ref_magic_rules_spellcasting_components_formulas]]
+===== Zauberformeln
+
+Zauberformeln sind ritualisierte Konzentrationsübungen, die es einem Zauberer ermöglichen, die Energie des Aethers durch seinen Geist in einen Zauberspruch zu binden.
+Die Zauberformel ist formeller Teil des <<ref_magic_rules_spellcasting_preparespells, Vorbereitens>> und der <<ref_magic_rules_spellcasting_roll, Spruchzauberei-Probe>> und bedarf keiner weiteren Regel.
+
+Kann der Zauberer nicht sprechen, weil zum Beispiel sein Mund geknebelt ist, kann er den Zauberspruch nicht verwenden bzw. die Spruchzauberei-Probe gilt als Misserfolg.
+
+[[ref_magic_rules_spellcasting_components_gestures]]
+===== Gesten
+
+Genau wie Zauberformeln helfen Gesten einem Zauberer den Zauberspruch zu formen.
+Gesten sind wie Zauberformeln Teil des <<ref_magic_rules_spellcasting_preparespells, Vorbereitens>> und der <<ref_magic_rules_spellcasting_roll, Spruchzauberei-Probe>>.
+
+Kann der Zauberer keine Gesten verwenden, weil zum Beispiel seine Hände gebunden sind, kann er den Zauberspruch nicht verwenden bzw. die Spruchzauberei-Probe gilt als Misserfolg.
+
+[[ref_magic_rules_spellcasting_components_ingredients]]
+===== Zutaten
+
+Manche Zaubersprüche benötigen Zutaten, um gewirkt zu werden.
+Der Magier muss alle Zutaten spätestens bei der <<ref_magic_rules_spellcasting_roll, Spruchzauberei-Probe>> parat haben.
+Unabhängig vom Erfolg der Probe werden die Zutaten verbraucht.
+
+Hat der Zauberer die Zutaten nicht zur Hand, kann er den Zauberspruch nicht verwenden bzw. die Spruchzauberei-Probe gilt als Misserfolg.
+
+[[ref_magic_rules_spellcasting_components_missing]]
+===== Optional: Zaubersprüche ohne Gesten und Zauberformeln
+
+Wenn der SL es wünscht, oder wenn es die Situation sinnvollerweise erfordert, kann er einem Zauberer erlauben auch ohne Gesten und Zauberformeln den Zauber aussprechen.
+Jedoch muss er dafür Mali auf die Spruchzauberei-Probe hinnehmen:
+
+* der Charakter kann keine Gesten ausführen: -2 Würfel
+* der Charakter kann keine Zauberformeln aufsagen: -4 Würfel
+
+[[ref_magic_rules_spellcasting_extend_of_spells]]
+==== Einschränkungen der Ausdehnung von Zaubersprüchen
+
+Zaubersprüche, die ihre Wirkung in Flächenschäden betreffen meistens alle Kreaturen in ihrem Wirkungskreis.
+Jedoch sagen diese Angaben nichts über die Dreidimensionalität der Spielwelt aus.
+
+Ein Zauberspruch kann sich nur soweit ausdehnen kann, wie er natürlicherweise begrenzt wird.
+Ein Feuerball beispielsweise, der einen Flächenschaden von 6,00 Meter verursacht, aber in einen 3,00 Meter breiten Gang gefeuert wird, wird den Charakter, der sich im Nebengang aufhält, nicht erreichen.
+
+Der SL kann dabei die Regeln zur xref:core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[Deckung und Totalen Deckung] anwenden.
+Ein Hindernis, das totale Deckung gibt, verhindert auch, dass ein Charakter, der hinter diesem steht, von einem Zauber betroffen wird, der körperliche, physikalische Auswirkungen hat.
+Ein Zauberspruch kann natürlich so effektvoll sein, dass er auch die Totale Deckung angreift, beispielsweise wird ein Feuerball die Wand eines Hauses beschädigen, die als Deckung dienen könnte.
+
+Bei den Teildeckungen kann der SL erlauben, dass der Charakter entsprechend weniger Schaden erhält, wenn er hinter einem solchen Hindernis steht.
+Der SL kann außerdem entscheiden, dass ein Hindernis die Macht eines Zaubers nicht aushalten kann.
+
+Beispielsweise ist der Zauberspruch Kometenregen (Weg der Ungeteilten Elemente) ein Zauber, der seine verheerende Wirkung aus dem Himmel regnen lässt.
+Sich hinter eine Mauer zu stellen, bringt offensichtlich nichts, denn die Mauer schützt eine Seite, aber sie schützt nicht gegen Angriffe von oben.
+Ebenso könnte der Schutz eines Hauses in Anbetracht der Gewalt auch fraglich sein.
+Der SL sollte in diesem Fall den Schaden auf das Haus übertragen.
+
+Zauber, deren Ziel die Psyche des Ziels angreifen, können nach Ermessen des SLs durch Hindernisse dringen, vorausgesetzt, der Zauberer kann das Ziel sehen.
+
+[[ref_magic_rules_spellcasting_cumulative_effects]]
+==== Kumulative Effekte von Zaubersprüchen
+
+Im Allgemeinen gilt, dass Charaktere gleiche Boni aus gleichen Quellen nur einmal erhalten.
+Ebenso sind Boni, die dasselbe bewirken nicht kumulativ.
+Es zählt grundsätzlich immer der höchste Bonus, außer ein Zauberspruch oder magischer Effekt schließt diese Beschränkung explizit aus.
+
+.Effekte von Zaubersprüchen
+====
+Ein Elementarist verzaubert einen seiner Kameraden mit link:../../compendiums/spells/spell_steelskin.adoc[Haut aus Stahl].
+Dieser Zauber gewährt dem Ziel einen Rüstungsbonus von +7 auf alle Trefferzonen.
+Zaubert der Elementarist diesen Zauberspruch noch einmal auf denselben Charakter, bleibt es bei dem Bonus von +7.
+====
+
+.Effekte von Zaubersprüchen
+====
+Der obige Charakter mit seiner Verzauberung wird mit link:../../compendiums/spells/spell_woodenskin.adoc.adoc[Holzhaut] bezaubert.
+Diese gewährt einen Bonus von +5 auf die Rüstung.
+In diesem Fall bleibt es bei einem +7 aus der link:../../compendiums/spells/spell_steelskin.adoc[Haut aus Stahl], denn dieser Bonus ist höher.
+====
+
+Der SL kann natürlich Boni dennoch kumulativ werden lassen, wenn er es für logisch hält.
+Grundsätzlich sind Boni aus unterschiedlichen Gegenständen, Zaubern und Talenten kumulativ.
+
+.Effekte von Zaubersprüchen
+====
+Ein Charakter besitzt ein magisches Schwert, dass ihm einen Bonus von +1 Würfel auf seine Angriffsproben im Nahkampf gewährt.
+Ein Zauberspruch gewährt ihm einen weiteren Bonus von +1 Würfel.
+Insgesamt hat er also einen Bonus von +2 Würfel auf seine Trefferwürfe.
+====
+
+[[ref_magic_rules_spellcasting_scrolls]]
 ==== Zaubersprüche von Spruchrollen wirken
 
 Spruchrollen sind einmalig einsetzbar und ermöglichen den Einsatz von Magie auch für nicht-Zauberer.
-Möchte ein Charakter eine Spruchrolle einsetzen, dann muss er die Talente Lesen/Schreiben und Wissen [Arkanes] auf mindestens Stufe 1 besitzen.
+Möchte ein Charakter eine Spruchrolle einsetzen, dann muss er die Talente xref:core_rules_talents_base.adoc#ref_talents_read_write[Lesen/Schreiben] und xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] [Arkanes] auf mindestens Stufe 1 besitzen.
 Für gewöhnlich ist darauf keine Probe nötig, jedoch muss der Charakter in der Lage sein, den Text des Zauberspruches laut vorzulesen.
+Zauber, die überlicherweise <<ref_magic_rules_spellcasting_components, Komponenten>> wie Zutaten benötigen, benötigen diese beim Wirken durch Spruchrollen nicht.
 
-Der Anwender benötigt keine Vorbereitung und in diesem speziellen Fall kann ein Charakter eine Energie-Probe als ungeübte Anwendung des Talentes Spruchzauberei durchführen, sollte er das Talent nicht besitzen.
+Der Anwender benötigt keine Vorbereitung und in diesem speziellen Fall kann ein Charakter eine Energie-Probe als ungeübte Anwendung des Talentes xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] durchführen, sollte er das Talent nicht besitzen.
 
-Des Weiteren entfällt die Beschränkung durch die Maximale Magiepotenz.
-Jedoch kann der Charakter für den Zauberspruch keine zusätzlichen Effekte nutzen.
+Des Weiteren entfällt die Beschränkung durch die xref:core_rules_charactercreation.adoc#ref_secondary_maxmagicpotential[maximale Magiepotenz].
+Jedoch kann der Charakter für den Zauberspruch keine <<ref_magic_rules_spellcasting_additionaleffects_reducepreparing, zusätzlichen Effekte>> nutzen.
 
 Im Fall des Erfolges wirkt der Zauberspruch sofort.
 Benötigt der Zauberspruch eine bestimmte Zahl von Erfolge oder ist seine Effektivität von der gewürfelten Anzahl an Erfolgen abhängig, gelten die üblichen Regeln für die Spruchzauberei-Probe, bzw. die Energie-Probe.
 
-Ein Patzer verursacht Verbrennen wie gewohnt, jedoch entsteht kein Zauberpatzer.
+Ein Patzer verursacht <<ref_magic_rules_spellcasting_spellburning, Verbrennen>> wie gewohnt.
+Der <<ref_magic_rules_spellcasting_spellfailure, Zauberpatzer>> wird nach der link:../tables/table_magic_spellfailure_items.adoc[Tabelle für Zauberpatzer für magische Gegenstände] in der Spalte *einmalige Anwendung* gewürfelt.
 
-Nach der Benutzung, wobei irrelevant ist, ob der Zauber erfolgreich war oder nicht, löst sich die Zauberspruchrolle effektvoll auf.
+Nach der Benutzung, wobei irrelevant ist, ob der Zauber erfolgreich war oder nicht, löst sich die Spruchrolle auf oder magische Schrift erlischt.
 
-Der Charakter kann die Spruchrolle auch benutzen, um den Zauberspruch gemäß den Regeln zu lernen, sobald er die Voraussetzungen erfüllt.
+Der Charakter kann die Spruchrolle auch benutzen, um den Zauberspruch gemäß den Regeln zu <<ref_magic_schools_learningspells, lernen>>, sobald er die Voraussetzungen erfüllt.
 
+[[ref_magic_rules_spellcasting_grimoire]]
 ==== Zaubersprüche aus einem Grimoire wirken
 
 Zaubersprüche in einem Grimoire können auf besonders machtvolle Weise benutzt werden.
-Ein Grimoire funktioniert nämlich wie eine Spruchrolle, d.h. ein Anwender, der die Arkane Sprache lesen kann, braucht die Sprüche nur vorzulesen, die Vorbereitung entfällt und würfelt direkt die Spruchzauberei-Probe oder eine Energie-Probe, sollte er das Talent nicht besitzen.
+Ein Grimoire funktioniert wie eine <<ref_magic_rules_spellcasting_scrolls, Spruchrolle>>.
+Ein Anwender, der die genannten Voraussetzungen erfüllt, braucht die Zauber nur vorzulesen, die Vorbereitung entfällt und würfelt direkt die Spruchzauberei-Probe oder eine Energie-Probe, sollte er das Talent nicht besitzen.
 
-Die Zaubersprüche verbrauchen sich jedoch nicht!
-Wie bei Spruchrollen kann der Anwender keine zusätzlichen Effektewirken.
+Die Zaubersprüche in einem Grimoire verbrauchen sich jedoch nicht.
+Stattdessen ist der Zauberspruch nach Verwendung, unabhängig vom Erfolg, für eine Anzahl von Kampfphasen inaktiv, die der POT des gewirkten Zauberspruches entspricht.
+FÜr diese Zeit ist die Schrift im Grimoire unleserlich.
+Nach Ablauf ist der Zauberspruch wieder verfügbar.
+Wie bei Spruchrollen kann der Anwender keine zusätzlichen Effekte wirken.
 
+Würfelt der Charakter einen <<ref_magic_rules_spellcasting_spellfailure, Zauberpatzer>> beim Wirken eines Zauberspruches aus einem Grimoire, gelten dieselben Regeln wie bei der Verwendung einer Spruchrolle, allerdings wird in der link:../tables/table_magic_spellfailure_items.adoc[Tabelle] die Spalte *Grimoire* verwendet.
+
+[[ref_magic_rules_spellcasting_rods]]
 ==== Zaubersprüche aus Zauberstecken wirken
 
 Zauberstecken sind unterschiedlich geformte und meist kunstvoll gestaltete Stäbe, die einen oder mehrere Zaubersprüche enthalten können.
-Diese Zauber sind im Gegensatz zu einer Spruchrolle nicht zwangsläufig nur einmal einsetzbar.
-Entweder ist eine feste Anzahl an Anwendungen bzw. MP vorgegeben oder der Zauber lädt sich wieder auf.
+Diese Zauber sind im Gegensatz zu einer  <<ref_magic_rules_spellcasting_scrolls, Spruchrolle>> nicht zwangsläufig nur einmal einsetzbar.
+Sie folgen den gleichen Voraussetzungen wie Spruchrollen.
+Entweder ist eine feste Anzahl an Anwendungen oder <<ref_magic_base_items_with_mp, MP>> vorgegeben oder der Zauber lädt sich wieder auf.
 
 Wenn nicht anders erwähnt, muss der Anwender dann eine Spruchzauberei-Probe oder eine Energie-Probe ablegen.
 Manche Zauberstecken bzw. magische Gegenstände entfachen ihre Wirkung einfach auf Kommando.
 
-Zauberstecken vernichten sich jedoch nicht bei der Benutzung.
+Zauberstecken vernichten sich nicht bei der Benutzung, sondern reduzieren ihre Anzahl an Verwendungen oder verfügbare MP.
 
 Bei einem Patzer tritt das normale Verbrennen ein.
-Es muss ein Zauberpatzer-Ergebnis berechnet werden.
-Bei Ergebnis von 17 oder mehr, wird der Zauberstecken überladen und explodiert.
-Dadurch werden alle Zaubersprüche freigesetzt und zwar an Ort und Stelle.
-Variable Erfolge betragen dann 2W10+POT.
-Weitere Effekte treten nicht ein.
-
-==== Zauberformeln
-
-Zauberformeln sind ritualisierte Konzentrationsübungen, die es einem Zauberer ermöglichen, die Energie des Aethers durch seinen Geist in einen Zauberspruch zu binden.
-Diese Zauberformeln sind zum Beispiel essentieller Teil einer Spruchrolle, denn meistens sind sie in arkaner Sprache formuliert.
-
-Jeder Zauberer benötigt für jeden Zauberspruch die Zauberformel (es gibt Wesen, die auch ohne Zauberformel zaubern können, jedoch sind dies üblicherweise keine Spielercharaktere).
-Die Zauberformel ist formell Teil der Spruchzauberei-Probe und bedarf keiner weiteren Regel.
-Im allgemeinen geht man davon aus, dass ein Zauberer eine Zauberformel spricht, wenn er eine Spruchzauberei-Probe ablegt.
-
-==== Gesten
-
-Genau wie Zauberformeln helfen Gesten einem Zauberer den Zauberspruch zu formen.
-Gesten sind wie Zauberformeln Teil der Spruchzauberei-Probe und es wird angenommen, jeder Zauberer benutzt Gesten für seine Zaubersprüche.
-
-==== Zutaten
-
-Manche Zaubersprüche benötigen Zutaten, um gewirkt zu werden.
-Der Magier muss alle Zutaten bei der Spruchzauberei-Probe parat haben.
-Unabhängig vom Erfolg der Zauberspruchprobe werden die Zutaten verbraucht.
-
-Besitzt der Magier keine passenden Zutaten zum Zeitpunkt der Spruchzauberei-Probe, wird diese automatisch als Misserfolg gewertet.
-
-==== Zaubersprüche ohne Gesten und Zauberformeln
-
-Wenn der SL es wünscht, oder wenn es die Situation sinnvollerweise erfordert, kann der Zauberer auch ohne Gesten und Zauberformeln den Zauber aussprechen.
-Jedoch muss er dafür Mali auf die Spruchzauberei-Probe hinnehmen:
-
-* der Charakter kann keine Gesten ausführen: -4 Würfel
-* der Charakter kann keine Zauberformeln aufsagen: -4 Würfel
-
-Weiterhin gilt natürlich, dass der Charakter bei Bewusstsein sein muss.
-Ohnmacht und Paralyse verhindern jegliche magische Aktivität.
-
-==== Einschränkungen der Ausdehnung von Zaubersprüchen
-
-Zaubersprüche, die ihre Wirkung in Flächenschäden betreffen meistens
-alle Kreaturen in ihrem Wirkungskreis. Jedoch sagen diese Angaben nichts
-über die Dreidimensionalität der Spielwelt aus.
-
-Es gilt, dass manche Zaubersprüche Reflex-Proben (oder andere
-Verteidigungsproben) erlauben, um dem Radius zu entkommen.
-
-Weiterhin gilt, dass ein Zauberspruch sich nur soweit ausdehnen kann,
-wie er natürlicherweise begrenzt wird. Ein Feuerball beispielsweise, der
-einen Flächenschaden von 6,00 Meter verursacht, aber in einen 3,00 Meter
-breiten Gang gefeuert wird, wird den Charakter, der sich im Nebengang
-aufhält, nicht erreichen.
-
-Der SL kann dabei die Regeln zur Deckung und Totalen Deckung (siehe
-Dokument[Kampf], Modifikatoren für den Nah- und Fernkampf) anwenden. Ein
-Hindernis, dass totale Deckung gibt, verhindert auch, dass ein
-Charakter, der hinter diesem steht, von dem Zauber betroffen wird, der
-körperliche, physikalische Auswirkungen hat. Ein Zauberspruch kann
-natürlich so effektvoll sein, dass er auch die Totale Deckung angreift,
-beispielsweise wird ein Feuerball die Wand eines Hauses beschädigen, die
-als Deckung dienen könnte.
-
-Bei den Teildeckungen (also 25%, 50% oder 75%) kann der SL erlauben,
-dass der Charakter entsprechend weniger Schaden erhält, wenn er hinter
-einem solchen Hindernis steht.
-
-Grundsätzlich sollte aber beachtet werden, dass manche Hindernisse die
-Macht eines Zaubers nicht aushalten und man muss bedenken, aus welcher
-Richtung der Schaden kommt.
-
-Beispielsweise ist der Zauberspruch Kometenregen (Weg der Ungeteilten
-Elemente) ein Zauber, der seine verheerende Wirkung aus dem Himmel
-regnen lässt. Sich hinter eine Mauer zu stellen, bringt offensichtlich
-nichts, denn die Mauer schützt eine Seite, aber sie schützt nicht gegen
-Angriffe von oben. Ebenso könnte der Schutz eines Hauses in Anbetracht
-der Gewalt auch fraglich sein. Der SL sollte in diesem Fall den Schaden
-auf das Haus übertragen.
-
-Anregungen, wie man solche Strukturen zerstört, findet man im
-Dokument link:core_rules_adventures.adoc[Abenteuer].
-
-Zauber, deren Ziel die Psyche des Ziels angreifen, können nach Ermessen
-des SLs durch Hindernisse dringen, vorausgesetzt, der Zauberer kann das
-Ziel sehen.
-
-==== Effekte von Zaubersprüchen sind nicht kumulativ
-
-Im Allgemeinen gilt, dass Charaktere gleiche Boni aus gleichen Quellen
-nur einmal erhalten. Ebenso sind Boni, die dasselbe bewirken nicht
-kumulativ. Es zählt grundsätzlich immer der höchste Bonus, außer ein
-Zauberspruch oder magischer Effekt schließt diese Beschränkung explizit
-aus.
-
-Beispiel: Ein Aspektelementarist verzaubert einen seiner Kameraden mit
-„Haut aus Stahl“. Dieser Zauber gewährt dem Ziel einen Rüstungsbonus von
-+7 auf alle Trefferzonen. Zaubert der Elementarist diesen Zauberspruch
-noch einmal auf denselben Charakter, bleibt es bei dem Bonus von +7. Es
-wird nicht +14 daraus. Selbstverständlich gilt der +7-Bonus zusätzlich
-auf natürliche oder getragene Rüstung..
-
-Beispiel: Der obige Charakter mit seiner Verzauberung wird mit
-„Holzhaut“ aus dem Schamanismus bezaubert. Diese gewährt einen Bonus von
-+5 auf die Rüstung. In diesem Fall bleibt es bei einem +7 aus der „Haut
-aus Stahl“, denn dieser Bonus ist höher.
-
-Der SL kann natürlich Boni dennoch kumulativ werden lassen, wenn er es
-für logisch hält. Grundsätzlich sind Boni aus magischen und
-nicht-magischen Gegenstandseffekten, Zaubern und Talenten kumulativ.
-
-.Effekte von Zaubersprücen
-====
-Ein Charakter besitzt ein magisches Schwert, dass ihm einen
-Bonus von +1 Würfel auf seine Angriffsproben im Nahkampf gewährt, wenn
-damit angreift. Ein Zauberspruch gewährt ihm weitere +1 Würfel auf seine
-Trefferwürfe. Insgesamt hat er also einen Bonus von +2 Würfel auf seine
-Trefferwürfe.
-====
+Zur Bestimmung der Auswirkung des Patzers wird in der link:../tables/table_magic_spellfailure_items.adoc[Tabelle] die Spalte *MP-Basiert* verwendet.
 
 [[ref_magic_base_arcanetrick]]
 === Arkane Tricks
-//TODO
+Es gibt Zaubersprüche, die sehr simpel sind und dadurch einfach und ohne wenig Risiko gewirkt werden.
+Üblicherweise sind diese Zauber die Ersten, die Zauberer aus seiner Zauberschule lernt.
+Jede Zauberspruchliste besitzt eine eigene Sektion, die zu dieser Liste gehörige Arkane Tricks auflistet.
+
+Arkane Tricks unterscheiden sich zu Zaubersprüchen in folgenden Punkten:
+* Ein Arkaner Trick hat immer POT 1 und Vorbereitung 1.
+* Die Voraussetzungen zum <<ref_magic_schools_learningspells, Lernen>> eines Arkanen Tricks sind vereinfacht: der Zauberer kann jeden arkanen Trick einer Zauberschule lernen, sobald er mindestens eine Talentstufe besitzt.
+* Ein Arkaner Trick kostet immer 50 CP zum Lernen.
+* Ein Arkaner Trick verursacht nie einen <<ref_magic_rules_spellcasting_spellfailure, Zauberpatzer>> und <<ref_magic_rules_spellcasting_spellburning, Verbrennen>>.
+Dies gilt auch, wenn er aus einem Gegenstand gewirkt wird.
 
 [[ref_magic_base_magicpoints]]
 === Magiepunkte
@@ -1139,150 +1161,93 @@ Trefferwürfe.
 [quote, Byhragast „Eisauge“]
 In der Ruhe liegt die Kraft... ja, selbstverständlich ist das ein Zitat von mir!
 
-Wie man gesehen hat, sind Magiepunkte (MP) eine sehr wichtige Instanz im
-Leben eines Magiers. Sie sind zwar nicht nötig, um die Magie selbst zu
-wirken, aber sie sind extrem nützlich, um die Magie zu verstärken.
+Wie man gesehen hat, sind xref:core_rules_charactercreation.adoc#ref_secondary_magicpoints[Magiepunkte (MP)] eine sehr wichtige Komponente im Leben eines Magiers.
+Sie sind zwar nicht dringend nötig, um die Magie selbst zu wirken, aber sie sind extrem nützlich, um die Magie schnell zu wirken oder zu verstärken.
 
 Daher sollte ein Magier immer möglichst viele Magiepunkte besitzen, bzw. vorsichtig und bedacht mit seinem Vorrat haushalten.
+Aber Vorsicht ist geboten, denn ein Charakter, der 0 MP erreicht, ist xref:core_rules_d10_system.adoc#ref_base_rules_deathsdoor[dem Tode] nahe.
+Die Regeneration von MP entspricht den Regeln im Kapitel zu xref:core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Regeneration].
 
-Aber Vorsicht ist geboten, denn ein Charakter, der 0 MP erreicht, ist bewusstlos.
-
-Reduziert sich während dieser Zeit sein Wert auf einen Wert unter 0, ist der Charakter tot.
-
-Die Regeneration von MP entspricht den Regeln aus dem Dokument[Kampf].
-
+[[ref_magic_base_items_with_mp]]
 ==== MP in Gegenständen
 
-Viele magische und technomantische Gegenstände entfalten ihre Wirkung
-nur durch die Energie in Form von MP, die in ihren magischen Kristallen
-gespeichert sind. Die Magier und Technomanten auf Al'vaha kennen nur
-diese Form der Speicherung von magischer Energie, weswegen deren Umgang
-damit beinahe perfektioniert wurde.
+Viele magische und technomantische Gegenstände entfalten ihre Wirkung nur durch die Energie in Form von MP, die in ihren magischen Kristallen gespeichert sind.
+Im Regelsystem von Far Ages stellen MP auch für Gegenstände eine wichtige Komponente dar.
+Mithilfe dieser MP lässt sich darstellen, ob ein Gegenstand noch genug Energie hat, um seinen besonderen Effekt, egal ob magischer oder technomantischer Natur, aufrechtzuerhalten.
 
-Im Regelsystem von Far Ages stellen MP auch für Gegenstände eine
-wichtige Komponente dar. Mit Hilfe der MP lässt sich darstellen, ob ein
-Gegenstand noch genug Energie hat, um seinen besonderen Effekt, egal ob
-magischer oder technomantischer Natur, aufrechtzuerhalten
+Der magische Kristall eines Gegenstands ist also wie eine Batterie zu betrachten.
+Manche Gegenstände ermöglichen es, diese Batterie auszutauschen, jedoch hat sich eine andere Technik durchgesetzt: Magier können magische Kristalle in Gegenständen mit eigenen MP ausstatten (also sie wieder aufladen) oder können diese magische Energie auch für sich selbst nutzen.
+Wie dies genau funktioniert, wird in den folgenden Abschnitten erläutert.
 
-Der magische Kristall eines Gegenstands ist also wie eine Batterie zu
-betrachten. Manche Gegenstände ermöglichen es, diese Batterie
-auszutauschen, jedoch hat sich eine andere Technik durchgesetzt: Magier
-können magische Kristalle in Gegenständen mit eigenen MP ausstatten
-(also sie wieder aufladen) oder können diese magische Energie auch für
-sich selbst nutzen. Wie dies genau funktioniert, wird in den folgenden
-Abschnitten erläutert.
+[[ref_magic_base_items_with_mp_storage]]
+===== Magiespeicher
+Am Einfachsten ist der sogenannte *Magiespeicher*.
+Ein Gegenstand mit dieser Eigenschaft (auch zu identifizieren durch die Beschreibung des Gegenstandes in Form von „stellt dem Anwender x MP zur Verfügung“) besitzt eine festgelegte Obergrenze von MP, die er enthalten kann.
+Ein Magier (jeder Charakter mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] auf mindestens Stufe 1. Im Falle eines Technomanten gilt auch das Talent xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie] auf Stufe 1 als ausreichend.) kann diese MP genauso nutzen als wären es seine Eigenen.
+Dazu muss er diesen Gegenstand jedoch entweder in der Hand halten oder direkt am Körper tragen.
 
-Am Einfachsten ist der sogenannte *Magiespeicher*. Ein Gegenstand mit
-dieser Eigenschaft (auch zu identifizieren durch die Beschreibung des
-Gegenstandes in Form von „stellt dem Anwender x MP zur Verfügung“)
-besitzt eine festgelegte Obergrenze von MP, die er enthalten kann. Ein
-Magier (jeder Charakter mit dem Talent Spruchzauberei auf mindestens
-Stufe 1. Im Falle eines Technomanten gilt auch das Talent Technomantie
-auf Stufe 1 als ausreichend.) kann diese MP genauso nutzen als wären es
-seine Eigenen. Dazu muss er diesen Gegenstand jedoch entweder in der
-Hand halten oder direkt am Körper tragen, so dass dieser Gegenstand
-seine Haut berührt.
+Diese Form von Gegenständen bietet üblicherweise einen reibungslosen Austausch von MP.
+Dies bedeutet, es hat für den Magier keine negativen Auswirkungen, wenn er die MP im Gegenstand verwendet.
+Er kann auch seine MP auf den Gegenstand übertragen, bis zu dessen Maximum.
+Dies kann durchaus sinnvoll sein, wenn der Magier diese MP zu einem späteren Zeitpunkt verfügbar haben möchte.
 
-Diese Form von Gegenständen bietet üblicherweise einen reibungslosen
-Austausch von MP. Dies bedeutet, es hat für den Magier keine negativen
-Auswirkungen, wenn er die MP im Gegenstand verwendet. Er kann auch seine
-MP auf den Gegenstand übertragen, bis zu dessen Maximum. Dies kann
-durchaus sinnvoll sein, wenn der Magier diese MP zu einem späteren
-Zeitpunkt verfügbar haben möchte.
-
-Magiespeicher enthalten immer einen magischen Kristall. Diese Kristalle
-müssen explizit als Magiespeicher behandelt werden. Dies funktioniert
-mit den Talenten Magischen Gegenstand Herstellen oder Technomantie.
+Magiespeicher enthalten immer einen magischen Kristall.
+Diese Kristalle müssen explizit als Magiespeicher behandelt werden.
+Dies funktioniert mit den Talenten xref:core_rules_talents_magic.adoc#ref_talents_magic_createmagicalitem[Magischen Gegenstand Herstellen] oder xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie].
 Siehe dazu die jeweilige Beschreibung.
 
+[[ref_magic_base_items_with_mp_magicalitems]]
+==== Magische Gegenstände mit MP
 Die nächste große Gruppe sind die *Magischen Gegenstände mit MP*.
-Diese Gegenstände imitieren Zaubersprucheffekte, bzw. die Zaubersprüche
-selbst. Ein typisches Beispiel dafür sind Zauberstecken.
+Diese Gegenstände imitieren Zaubersprucheffekte, bzw. die Zaubersprüche selbst, zum Beispiel insbesondere <<ref_magic_rules_spellcasting_rods, Zauberstecken>>.
 
-Diese Gegenstände ermöglichen es normalerweise nicht, außer es ist
-explizit in der Gegenstandsbeschreibung angegeben, die MP abzuziehen,
-allerdings andersherum ist dies möglich. Ein Magier kann also einen
-solchen Gegenstand problemlos aufladen.
-
-Weiterhin gibt es noch *technomantische Gegenstände*. Diese werden
-grundsätzlich mit magischen Kristallen angetrieben und von den
-Technomanten so konzipiert, dass genau nur sie damit arbeiten können.
-Dies bedeutet, dass man diese MP nicht abziehen kann und auch nicht
-aufladen kann. Für beide Vorgänge haben die Technomanten eigene
-Zaubersprüche entwickelt, die sie nur anderen Technomanten beibringen.
+Diese Gegenstände ermöglichen es normalerweise nicht, außer es ist explizit in der Gegenstandsbeschreibung angegeben, die MP abzuziehen, allerdings andersherum ist dies möglich.
+Ein Magier kann also einen solchen Gegenstand problemlos aufladen.
 
 .Gegenstände mit Magiepunkten
 ====
-Ein Zauberstecken, der einen Feuerball generiert, hat einen
-MP-Speiniger Benutzung befinden sich nur noch 40 MP in dem Stecken.
-Ghato Steinhaut, seines Zeichens Elementarist und Besitzer des
-Zaubersteckens, entscheidet sich den Stecken wieder aufzuladen. Dazu
-nimmt er ihn in die Hand und überträgt von seinen eigenen MP 60 auf den
-Stecken. Damit hat dieser wieder seine vollen 100 MP.
+Ein Zauberstecken, der einen Feuerball generiert, hat einen MP-Speicher von maximal 100 MP.
+Nach ein paar Verwendungen befinden sich nur noch 40 MP in dem Stecken.
+Ghato Steinhaut, seines Zeichens Elementarist und Besitzer des Zaubersteckens, entscheidet sich den Stecken wieder aufzuladen.
+Dazu nimmt er ihn in die Hand und überträgt von seinen eigenen MP 60 auf den Stecken.
+Damit hat dieser wieder seine vollen 100 MP.
 ====
 
-Weiterhin bezeichnet man Gegenstände mit MP als *verunreinigt*, wenn
-bei ihrer Bearbeitung beispielsweise ein Fehler aufgetreten ist.
-Magische Kristalle, die in der freien Wildbahn existieren, gelten ohne
-Behandlung auch als verunreinigt
+[[ref_magic_base_items_with_mp_technomanticalitems]]
+==== Technomantische Gegenstände
+Weiterhin gibt es noch *technomantische Gegenstände*.
+Diese werden grundsätzlich mit magischen Kristallen angetrieben und von den Technomanten so konzipiert, dass genau nur sie damit arbeiten können.
+Dies bedeutet, dass man diese MP nicht abziehen kann und auch nicht aufladen kann.
+Für beide Vorgänge haben die Technomanten eigene Zaubersprüche entwickelt, die sie nur anderen Technomanten beibringen.
 
-Weiterhin gelten Gegenstände als verunreinigt, wenn sie für den
-Austausch von MP nicht ausgelegt sind.
+[[ref_magic_base_items_with_mp_corruptedstorages]]
+==== Verunreinigte Magiespeicher
+Weiterhin bezeichnet man Gegenstände mit MP als *verunreinigt*, wenn bei ihrer Bearbeitung beispielsweise ein Fehler aufgetreten ist.
+Magische Kristalle, die in der freien Wildbahn existieren, gelten ohne Behandlung auch als verunreinigt.
 
-Ein Magier muss pro einem entzogenen MP aus einem verunreinigten
-Gegenstand 1W8 TP opfern. Dies ist ein automatischer Treffer pro
-entzogenem MP. Der Schaden in Form von 1W8 ist magisch, eventuelle
-Schadensresistenzen gelten. Verunreinigte Gegenstände können noch andere
-Auswirkungen haben. Dies wird dann explizit bei den Gegenständen
-angegeben.
+Weiterhin gelten Gegenstände als verunreinigt, wenn sie für den Austausch von MP nicht ausgelegt sind.
+
+Ein Magier muss pro einem entzogenen MP aus einem verunreinigten Gegenstand 1W8 TP opfern.
+Der Schaden in Form von 1W8 ist xref:core_rules_battlesystem.adoc#ref_battle_damage_magic[magisch].
+Verunreinigte Gegenstände können noch andere Auswirkungen haben.
+Dies wird dann explizit bei den Gegenständen angegeben.
 
 .Gegenstände mit Magiepunkten (Fortsetzung)
 ====
-Wenn Ghato die MP in dem Zauberstecken für sich
-nutzen will, so verliert er 1W8 TP für jeden 1 MP, den dem Stecken
-entzieht. Zauberstecken sind im allgemeinen nicht als Magiespeicher
-ausgelegt.
-====
-
-=== Lernen von Zaubersprüchen
-
-Zaubersprüche müssen gelernt und mit CP bezahlt werden, deren Kosten aus
-dem Kapitel Steigern im Dokument[Charaktererschaffung] beschrieben sind,
-
-Generell muss der Charakter die Voraussetzungen erfüllen, um den
-Zauberspruch zu lernen. Dies ist im Normalfall die Zauberschule auf
-einer bestimmten Stufe. Einige mächtige Zauber können zusätzlich die
-Kenntnis eines bestimmten Zauberfokus voraussetzen.
-
-Um einen Zauberspruch zu lernen, muss der Charakter, neben den üblichen
-Voraussetzungen, den Zauberspruch in einem Grimoire oder auf einer
-Spruchrolle in arkaner Sprache vorliegen haben oder er muss einen
-Zauberer finden, der ihm diesen Zauberspruch beibringt (nicht alle
-Zauberschulen besitzen eine Arkane Sprache).
-
-Der Zauberer kann keine Zaubersprüche lernen, wenn er die passende
-Zauberschule nicht beherrscht.
-
-.Lernen von Zaubersprüchen
-====
-Der Zauberspruch Feuerball aus dem Weg des Feuers 3 hat eine
-POT von 5. Theoretisch lässt sich seine POT erhöhen, jedoch ist dies
-irrelevant hierfür. Um Feuerball zu lernen, muss ein Charakter zum einen
-Weg des Feuers auf mindestens Stufe 3 haben und 5*50 = 250 CP ausgeben.
+Wenn Ghato die MP in dem Zauberstecken für sich nutzen will, so verliert er 1W8 TP für jeden 1 MP, den dem Stecken entzieht.
+Zauberstecken sind im Allgemeinen nicht als Magiespeicher ausgelegt.
 ====
 
 [[ref_magic_schools_of_magic]]
 === Regeln für Zauberschulen
 
-Jede Zauberschule hat ihre Eigenheiten und Besonderheiten. Diese Regeln
-beschreiben den Umgang mit den unterschiedlichen Magiearten und geben
-einige Sonderregeln für Charaktere an, die diesen bestimmten
-Zauberschulen folgen.
+Jede Zauberschule hat ihre Eigenheiten und Besonderheiten.
+Diese Regeln beschreiben den Umgang mit den unterschiedlichen Arten von Magie und geben einige Sonderregeln für Charaktere an, die die jeweiligen Zauberschulen verfolgen.
 
 [[ref_magic_schools_of_magic_overview]]
 ==== Übersicht der Zauberschulen und Zauberspruchlisten
 
-In diesem Abschnitt werden die Zauberschulen, die mit der Spezialisierung von Spruchzauberei gelernt werden können.
+In diesem Abschnitt werden die Zauberschulen, die mit der Spezialisierung von xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] gelernt werden können, vorgestellt.
 Pro Eintrag in dieser xref:../tables/table_magic_schools_of_magic.adoc[Tabelle] werden die Listen der verfügbaren Zaubersprüche angegeben, die gelernt werden können.
 Eine Zauberschule kann durchaus mehrere Listen gleichzeitig lehren.
 Ein Zauberer kann gemäß der Regeln pro Stufe in der Zauberschule aus allen verfügbaren Listen Zaubersprüche lernen.
@@ -1308,19 +1273,45 @@ Der Beruf des Elementaristen gibt Spruchzauberei [Elementarismus] mit SGM 1 vor.
 Weg des Geistes ist nicht im Beruf vorgeben, daher ist der SGM hier 2.
 ====
 
+[[ref_magic_schools_learningspells]]
+==== Lernen von Zaubersprüchen
+
+Zaubersprüche müssen gelernt und mit CP bezahlt werden, um durch einen Magier mit xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] verwendet werden zu können.
+
+Generell muss der Charakter die Voraussetzungen erfüllen, um den Zauberspruch zu lernen.
+Diese sind wie folgt:
+
+* Die Talentstufe des Charakters in Spruchzauberei muss gleich oder höher sein als die angegebene Stufe in der Zauberspruchliste.
+* Der Charakter muss den Zauberspruch in einem Grimoire oder auf einer Spruchrolle in arkaner Sprache vorliegen haben.
+* Alternativ muss einen Zauberer finden, der ihm diesen Zauberspruch lehrt.
+* POT des Zauberspruches muss gleich oder niedriger sein als die xref:core_rules_charactercreation.adoc#ref_secondary_maxmagicpotential[MaxPOT] des Charakters.
+
+Der Zauberer kann keine Zaubersprüche lernen, wenn er die passende Zauberschule nicht beherrscht.
+
+Die CP-Kosten eines Zauberspruches berechnen aus POT des Zauberspruchs multipliziert mit 50.
+
+.Lernen von Zaubersprüchen
+====
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] aus dem link:../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers] hat eine POT von 5 und steht unter Stufe 3.
+Um Feuerball zu lernen, muss ein Charakter eine Zauberschule, die den Weg des Feuers beinhaltet, (zum Beispiel Elementarismus) auf mindestens Stufe 3 haben. +
+Die CP-Kosten zum Lernen von Feuerball betragen 5*50 = 250 CP.
+====
+
 Die nachfolgenden Unterkapitel erläutern weitere Besonderheiten der jeweiligen Zauberschulen.
 
-[[ref_magic_types_alchemy]]
+[[ref_magic_schools_alchemy]]
 ==== Alchemie
 
-[[ref_magic_types_elementarism]]
+[[ref_magic_schools_elementarism]]
 ==== Elementarismus
 
 Elementaristen besitzen eine große Auswahl an Zaubersprüche, die sich aus den Elementen Feuer, Wasser, Luft und Erde zusammensetzen.
 Jedes Element besitzt seine eigene Zauberspruchliste.
 
+[[ref_magic_schools_elementarism_elemenatalfocus]]
+===== Elementarfokus
 Mit Lernen der ersten Talentstufe xref:../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei [Elementarismus]] muss der Elementarist sich für ein bevorzugtes Element aus der Liste Feuer, Wasser, Lust und Erde entscheiden.
-Man spricht dabei vom Elementarfokus.
+Man spricht dabei vom *Elementarfokus*.
 Zu jedem bevorzugtem Element gibt es ein Gegenelement, welches aus der folgenden Tabelle entnommen werden kann.
 
 [cols=",", options="header"]
@@ -1332,7 +1323,10 @@ Zu jedem bevorzugtem Element gibt es ein Gegenelement, welches aus der folgenden
 |Luft |Erde
 |===
 
-Der Elementarist kann keine Zauberspruche aus der Zauberspruchliste des Gegenelements lernen.
+Der Elementarist kann keine Zaubersprüche aus der Zauberspruchliste des Gegenelements lernen.
+
+[[ref_magic_schools_elementarism_elemenatalaspects]]
+===== Aspektelemenatrismus
 
 Aspekte im Elementarismus beschreiben die Kombination aus (mindestens) 2 Grundelementen, so bildet zum Beispiel Feuer und Erde den Aspekt der Härte.
 Die Aspekte bringen neue und mächtigere Zauber mit sich.
@@ -1357,26 +1351,22 @@ Zaubersprüche aus Weg des Erde, Weg der Wasser
 
 Ein sehr erfahrener Elementarist kann den Pfad des Schicksals Meister der Ungeteilten Elemente wählen, um die Zauberspruchliste Weg der Ungeteilten Elemente zu lernen.
 
-[[ref_magic_types_illusionsm]]
+[[ref_magic_schools_illusionsm]]
 ==== Illusionismus
 
 [quote, Byhragast „Eisauge“]
 Eure Augen sind euer wichtigstes Hilfsmittel, um die Wunder des Multiversums wahrzunehmen, jedoch lasst euch nicht täuschen!
 
-Der Illusionismus befasst sich mit magisch erzeugten *Trugbildern*. Die
-Opfer dieser Trugbilder können versuchen diese zu durchschauen. Dies
-geschieht mit einer sogenannten Illusion Durchschauen-Probe. Diese ist
-eine ungeübte Anwendung des gleichnamigen Talentes, dass Illusionisten
-beispielsweise lernen können. Das verwandte Attribut ist ER.
+Der Illusionismus befasst sich mit magisch erzeugten *Trugbildern*.
+Die Opfer dieser Trugbilder können versuchen diese zu durchschauen.
+Dies geschieht mit einer sogenannten Illusion Durchschauen-Probe.
+Das verwandte Attribut ist ER.
 
-Die Anzahl der benötigen Erfolge bestimmt sich aus der POT des
-Zauberspruches, der sie erzeugte.
+Die Anzahl der benötigen Erfolge bestimmt sich aus der POT des Zauberspruches, der sie erzeugte.
 
-Weiterhin spielt die „Wahrscheinlichkeit“ der Illusion eine Rolle. Ist
-eine Illusion mit ihrer Umwelt stimmig, dann ist es schwieriger sie
-anzuzweifeln, da man sie leichter als echt ansieht. Um die Anzahl zu
-ermitteln, kann der SL die folgende Tabelle konsultieren und die Zahlen
-in der rechten Spalte zu der Anzahl der benötigten Erfolge hinzufügen.
+Weiterhin spielt die „Wahrscheinlichkeit“ der Illusion eine Rolle.
+Ist eine Illusion mit ihrer Umwelt stimmig, dann ist es schwieriger sie anzuzweifeln, da man sie leichter als echt ansieht.
+Um die Anzahl zu ermitteln, kann der SL die folgende Tabelle konsultieren und die Zahlen in der rechten Spalte zu der Anzahl der benötigten Erfolge hinzufügen.
 
 [cols=",",options="header"]
 |===
@@ -1416,7 +1406,7 @@ Deren Anzahl der Erfolge sinkt dann mindestens um 3, aber bleibt mindestens inge
 
 Als Illusionen gelten alle Zaubersprüche, die in den Zauberspruchlisten die zusätzliche Beschreibung (Illusion) in ihrem Namen beinhalten.
 
-[[ref_magic_types_music]]
+[[ref_magic_schools_music]]
 ==== Die Magie der Musik
 
 [quote, Byhragast „Eisauge“]
@@ -1439,7 +1429,7 @@ Wesen, die gegen Zauber der Geistesbeeinflussung immun sind, sind auch immun geg
 * Können sie während der Vorbereitung nicht singen, so nehmen sie -2 auf die Würfe zum Erfolg auf die Kunst[Gesang](bzw. Spruchzauberei)-Probe hin.
 * Das Lernen der Zaubersprüche folgt nach den normalen Regeln.
 
-[[ref_magic_types_necromancy]]
+[[ref_magic_schools_necromancy]]
 ==== Nekromantie
 
 [quote, Byhragast „Eisauge“]
@@ -1451,7 +1441,7 @@ Trotz aller Vorsicht lässt sich die zwiespältige Natur der Nekromantie, der sc
 Um dies zu simulieren, müssen Charaktere, immer wenn sie eine gerade Stufe in ihrem Talent Spruchzauberei[Nekromantie] lernen (also auf Stufe
 2, 4, 6, 8,...), eine Horror(x)-Probe ablegen, wobei x die jeweilige Talentstufe ist.
 
-[[ref_magic_types_technomancy]]
+[[ref_magic_schools_technomancy]]
 ==== Technomantie
 
 [quote, Byhragast „Eisauge“]
@@ -1481,7 +1471,7 @@ Technomantische Zaubersprüche können auf Spruchrollen oder in Grimoire geschri
 Das Dokument link:core_rules_technomancy.adoc[Technomantie] erweitert die Technomantie in Far Ages um die technische Seite dieser Art der Magie.
 In dem Dokument finden sich Regeln und Ideen zum Entwickeln eigener technomantischer Gegenständ sowie eine große Liste von unterschiedlichen Gegenständen von Feuerstäben bis Schlachtengolems.
 
-[[ref_magic_types_wild_magic]]
+[[ref_magic_schools_wild_magic]]
 ==== Wilde Magie
 
 [quote, Byhragast „Eisauge“]
@@ -1555,7 +1545,7 @@ Allerdings zaubert er über diese Talente nie mit Wilder Magie und er muss Zaube
 Hat er beispielsweise Feuerball aus dem Weg des Feuers als Zauberspruch für Wilde Magie gelernt, und lernt nun Spruchzauberei[Elementarismus], so muss er Feuerball für Elementarismus noch einmal lernen.
 * Ein Magier, der Wilde Magie lernt, muss die gleichen Einschränkungen wie im vorherigen Punkt beschrieben hinnehmen, jedoch umgekehrt.
 
-[[ref_magic_types_runes]]
+[[ref_magic_schools_runes]]
 ==== Runenmagie
 
 [quote, Byhragast „Eisauge“]
@@ -1621,27 +1611,22 @@ Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier 
 |
 |===
 
-[[ref_magic_types_alchemy]]
-==== Alchemie
-
-//TODO
-
-[[ref_magic_types_highmagic]]
+[[ref_magic_schools_highmagic]]
 ==== Hohe Magie
 
 //TODO
 
-[[ref_magic_types_druidism]]
+[[ref_magic_schools_druidism]]
 ==== Magie der Druiden
 
 Druiden und Schamanen nutzen Urspüngliche Magie.
-Für <<ref_magic_base_spellfailure>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
+Für <<ref_magic_rules_spellcasting_spellfailure>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
 
-[[ref_magic_types_schamanism]]
+[[ref_magic_schools_schamanism]]
 ==== Magie der Schamanen
 
 Druiden und Schamanen nutzen Urspüngliche Magie.
-Für <<ref_magic_base_spellfailure>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
+Für <<ref_magic_rules_spellcasting_spellfailure>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
 
 === Regeln im Umgang mit magischen Gegenständen
 
@@ -1816,105 +1801,3 @@ entfernen gilt, 25% des Originalwertes (abhängig von der Machtstufe) in
 Silbermünzen. Ein Charakter, der magische Gegenstände reparieren will,
 benötigt das Talent „Magischen Gegenstand Herstellen“ mindestens auf
 Stufe 5. Für die Entfernung eines Striches sind 3 Erfolge nötig.
-
-=== Magische Vertraute
-
-Mit dem Vorteil „Magischer Vertraute“ (siehe Dokument link:core_rules_advantages.adoc[Vorteile]) können sich die meisten magischen Berufe einen Magischen Vertrauten anschaffen.
-
-Vertraute sind kleine Tiere oder kleine Kreaturen, die durch Magie von
-einem Geist erleuchtet wurden, der im direkten Kontakt mit dem Magier
-steht, zu dem der Vertraute gehört. Manche Scholaren behaupten, dass der
-Vertraute eine Projektion des Persönlichkeit des Magiers selbst ist, die
-zugleich Erweiterung und schizophrenes Ich ist.
-
-Vertraute sind eigenständige Persönlichkeiten, die jedoch einen
-bewussten oder unbewussten Aspekt der Persönlichkeit des Magiers
-besonders stark betonen.
-
-Der Magiers kann durch Gedanken und Gedankenbilder mit dem Vertrauten
-kommunizieren, jedoch entspricht dies keiner bekannten Form der
-Telepathie. Diese Verbindung existiert konstant und der Magier kann
-seine Aufmerksamkeit beliebig auf den Vertrauten lenken und durch die
-Sinne des Vertrauten wahrnehmen, ohne ihn jedoch kontrollieren zu können
-(er kann natürlich weiterhin kommunizieren).
-
-Der Magier kann den Vertrauten jederzeit zu sich rufen oder wegschicken.
-Dazu sind keine Proben nötig.
-
-Alle Vertrauten haben eine einzigartige Eigenschaft, die von ihrer Art
-abhängt, welche weiter unten vorgestellt werden. Diese Eigenschaft kann
-der Magier nutzen. Außerdem stellt jeder Vertraute seinem Herrn die
-eigenen MP zur Verfügung, ohne, dass dieser dafür eine Probe machen
-muss. Dazu muss sich der Vertraute innerhalb von 6 Metern zu dem Magier
-befinden.
-
-Allerdings darf ein Magier seinem Vertrauten niemals alle MP entziehen.
-Dies würde wie bei jeder anderen Kreatur zum Tod des Vertrauten führen
-und dem Meister selbst schaden (siehe weiter unten Tod des Vertrauten).
-
-Folgende Tabelle zeigt welche Vertrauten welchen Berufen zur Verfügung
-stehen und welche Vorteile sie bringen:
-
-[cols=",,,", options="header"]
-|===
-|Art des Vertrauten |Verfügbar für: |Eigenschaft |MP des Vertrauten
-|Eichhörnchen |Alle, außer Nekromant |+1 auf Kletter-Proben |6
-|Eidechse |Alle, außer Nekromant |+1 auf Schleichen-Proben |6
-|Elementargeist |Druide, Elementarist | ^1^ |7
-|Fledermaus |Alle |Nachtsicht 50 Meter |7
-|Hase |Alle, außer Nekromant |+1 auf Springen-Proben |6
-|Imp |Nekromant, Weißer Zirkel |+1 auf Einschüchtern-Proben |10
-|Rabe |Alle |+1 auf Beobachten-Proben |6
-|Ratte |Alle |+1 auf Krankheits-Proben |6
-|Schlange |Alle |+1 auf Gift-Proben |6
-|Wiesel |Alle, außer Nekromant |+1 auf Verborgenes Erkennen-Proben |6
-|===
-
-^1^ der Elementargeist ähnelt einem circa 20cm großem Elementar des Feuers,
-des Wassers, der Erde oder der Luft. Ist der Besitzer ein Elementarist,
-so ist der Elementargeist von der Art, die zu seiner ersten
-Elementarschule passt (also ein Erdelementar, wenn der Elementarist Weg
-der Erde gewählt hat usw.). Ein Druide erhält einen Elementargeist von
-der Sphäre des Wachstums, der sich als kleiner Humanoide aus Holz
-manifestiert.
-
-Die Elementargeister haben folgende Eigenschaften, abhängig von seiner Elementarart:
-
-* Erde: +1 auf Niederschlags-Proben
-* Wasser: +1 Schwimmen-Proben
-* Feuer: +1 auf Reflex-Proben
-* Luft: +1,50m auf BEW
-* Holz: +2 WID
-
-==== Profil der Vertrauten
-
-Vertraute greifen üblicherweise nicht in einen Kampf ein bzw. sind so
-präsent im Würfelspiel, dass sie Profile benötigten. Vertraute sollten
-eher dem Magier einen weiteren Rollenspielerischen Aspekt hinzufügen.
-Der Magier muss auf seinen Vertrauten aufpassen und ist für dessen Leben
-verantwortlich.
-
-Sollten Proben nötig sein, so bewegen sich die körperlichen Attribute
-GE, ST und KO in einem Stufenbereich von 1-2. Je nach Art des Vertrauten
-können die Werte jedoch stark variieren. Hierzu kann das
-Dokument[Bestiarium] helfen. Die Werte ER, EN, SB und CH sind dagegen
-durch die Verbindung zwischen Magier und Tier sehr viel höher, als bei
-den üblichen Vertretern seiner Art. Sie liegen bei 3-4 Stufen. Der SL
-ist frei, diese Werte passend zu den Kreaturen festzulegen.
-
-==== Tod des Vertrauten
-
-Ein Vertrauter ist trotz aller Magie ein lebendes Wesen, das sterben
-kann. Dabei unterscheidet man zwischen einem Tod, an dem der Magier
-keine Schuld trägt und einem Tod, den der Magier zu verantworten hat
-(z.B. er entzieht dem Vertrauten alle MP).
-
-Trägt der Magier keine Schuld, so trifft ihn nur ein Schlag, der durch
-den Schock des Todes des Vertrauten ausgelöst wurde. Dieser Schlag
-verursacht sofort 3W10 Schock-Schaden.
-
-Ist der Magier Schuld an dem Tod seines Vertrauten, so erhält er sofort
-6W10 Schock-Schaden.
-
-Gestorbene Vertraute können nicht wiederbelebt werden und gelten als
-verloren.

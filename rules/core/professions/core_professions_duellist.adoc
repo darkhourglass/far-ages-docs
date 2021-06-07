@@ -1,15 +1,31 @@
 = Duellist
 
 *Beschreibung:* +
-*Talentliste (SGM 1):* Akrobatik, Konversation , Nahkampfwaffen, Parade, Reflex, 1 freies Wissenstalent +
-*Talentliste (SGM 2):* Athletik, Hieb Ausweichen , Niederschlag Widerstehen, Verborgenes Entdecken +
+*Talentliste (SGM 1):* Akrobatik, Konversation, Nahkampfwaffen, Parade, Überzeugen, 1 freies Wissenstalent +
+*Talentliste (SGM 2):* Athletik, Hieb Ausweichen, Niederschlag Widerstehen, Verborgenes Entdecken +
 *Attributsbonus:* +1 GE, +1 CH +
-*Vorteile*: - +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* Akrobatischer Angriff oder Entwaffen +
 *TP/MP-Steigerung:* +9/+3 +
-*Voraussetzungen:* GE 2 +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Rapier, Lederweste, elegante Kleidung, Rucksack +
-*Startgeld:* 4W6 +
 *CP:* 60 +
-*Spezielle Berufstalente:* -
+
+== Eigenschaften
+
+[[ref_duellist_duell]]
+=== Duell
+Einmal als pro Kampfphase als xref:../core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion] darf der Duellist einen beliebigen Gegner in Sichtweite als Ziel seines Duells auswählen.
+Er erhält für die Dauer des Duells einen Bonus von +1 auf die Würfe zum Erfolg auf alle Angriffsproben gegen diesen Gegner.
+Das Duell endet, bzw. dieser Bonus geht verloren, sobald entweder der Duellist oder der Gegner von einem anderen Kampfteilnehmer xref:../core_rules_battlesystem.adoc#ref_condition_bondedincombat[im Kampf gebunden] wird.
+Der Duellist darf immer nur einen Gegner gleichzeitig duellieren.
+
+[[ref_duellist_combattraining]]
+=== Duellist-Kampftraining
+Duellisten lernen die beiden Fähigkeiten xref:../core_rules_skills.adoc#ref_skills_acrobatic_attack[Akrobatischer Angriff] und xref:../core_rules_skills.adoc#ref_skills_disarm[Entwaffnen] zu Beginn des Spiels ohne zusätzliche CP-Kosten.
+
+[[ref_duellist_dangersense]]
+=== Gefahrensinn
+Der erste xref:../core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriff] einer Kampfphase, der gegen den Duellist geführt wird, wird ignoriert.
+
+[[ref_duellist_improvedinitiative]]
+=== Verbesserte Initiative
+Der Duellist erhält einen Bonus von +2 auf seinen xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI]-Wert.

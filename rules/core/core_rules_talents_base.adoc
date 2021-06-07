@@ -28,7 +28,7 @@ Die Angabe ist in diesem Dokument entweder:
 * "A": Das Talent ist eine Aktion
 * “M”: Das Talent ist ein Bewegungs- oder Kampfmanöver
 * "W": wie weiterführend.
-Dies bedeutet, dass das Talent an keine feste Kampfrunden gebunden ist, sondern so lange dauert, wie der Benutzer es braucht.
+Dies bedeutet, dass das Talent an keine feste Anzahl von Kampfphasen gebunden ist, sondern so lange dauert, wie der Benutzer es braucht.
 * "R": Das Talent ist eine Reaktion.
 * "F": Das Talent ist eine Freie Aktion.
 * “-”: Das Talent ist nicht im Kampf benutzbar.
@@ -40,6 +40,51 @@ Dies bedeutet, dass das Talent an keine feste Kampfrunden gebunden ist, sondern 
 Diese Kategorie beinhaltet alle wichtigen Talente, die benötigt werden, um in einer kämpferischen Auseinandersetzung zu überleben.
 Ein Charakter, der im Kampf geschult ist, wird hier die meisten Talente finden, die er benötigt.
 Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch hohe körperliche Belastungen.
+
+[[ref_talents_athletics]]
+=== Athletik
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* ST +
+*Kampf:* M +
+*Beschreibung:* Das Talent Athletik umfasst eine Reihe von körperlich anstrengenden Tätigkeiten, die Charaktere im Laufe ihres Abenteuerlebens benötigen.
+
+*Klettern:* Charaktere können an Wänden und Felswänden herauf- oder herabklettern.
+Dazu muss die Wand entsprechende Möglichkeiten bieten, um die Hände und Füße abzusetzen, zum Beispiel ein Seil, eine Leiter oder Felsvorsprünge.
+Die Charaktere können auch Kletterausrüstung verwenden.
+Frei hängende Seile, die hochgeklettert werden können, können auch mit dieser Probe erklommen werden.
+
+Charaktere können die Hälfte ihrer BEW-Rate pro Kampfphase klettern.
+
+Eine Klettern-Probe auch kann in regelmäßigen Abständen durchgeführt werden, wenn zum Beispiel eine größere Strecke geklettert werden muss.
+Jede Probe stellt den Fortschritt des Charakters dar.
+Der SL kann Klettern-Proben auch verlangen, wenn die Charaktere sich über schwieriges Gelände bewegen.
+Die nötige Anzahl der Erfolge pro Probe ergibt aus der Beschaffenheit des Geländes und den Gegebenheiten der Situation.
+
+* *Misserfolg:* Der Charakter schafft es nicht, den aktuellen Abschnitt zu erklettern.
+Er verliert alle Aktion und Manöver in der aktuellen Kampfrunde und kann erst in der nächsten Kampfphase wieder agieren.
+* *Patzer:* Der Charakter fällt.
+
+*Schwimmen:* Das Überqueren von Körpern aus Wasser, zum Beispiel Seen und Flüssen, erfordert den Einsatz dieser Probe.
+Ebenso wird sie wichtig, wenn Charaktere unabsichtlich in Wasser fallen.
+
+Ein Charakter kann pro Kampfphase die Hälfte seiner BEW-Rate schwimmen.
+Grundsätzlich kann der SL eine Schwimmen-Probe auch in regelmäßigen Abständen verlangen, um den Fortschritt des Charakters zu bestimmen.
+
+* *Misserfolg:* In dieser Kampfrunde ist der Charakter nicht vorangekommen.
+Er verliert alle Aktion und Manöver in der aktuellen Kampfrunde und kann erst in der nächsten Kampfphase wieder agieren.
+* *Patzer:* Wie Misserfolg, jedoch erhält der Charakter zusätzlich 1W6 Schaden ohne Rüstungsschutz, da er Wasser in seine Lungen bekommt.
+
+*Springen:* Um breite Gräben zu überwinden oder um über niedrige Hindernisse zu springen, benötigt ein Charakter eine erfolgreiche Springen-Probe.
+Ein Charakter kann maximal die Hälfte seiner BEW-Rate weit springen und nur ein Viertel hoch.
+
+Generell benötigt er Anlauf, für jeden weiten Sprung die gleiche Anzahl an Metern, für jeden hohen Sprung die gleiche Anzahl an Metern.
+Er erhält einen Malus von -1 auf die Würfe zum Erfolg für jede 1,50 Meter die er nicht Anlauf nimmt.
+``
+* *Misserfolg:* der Charakter landet nahe am Rand des zu überspringenden Gebietes bzw. kommt gerade so an die obere Kante ran.
+Der Charakter konnte sich gerade noch abrollen oder festhalten und ist sicher.
+Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
+* *Patzer:* Der Charakter landet mitten in dem Gebiet, das er überspringen wollte.
 
 [[ref_talents_evade]]
 === Hieb Ausweichen
@@ -53,9 +98,10 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 === Nahkampfwaffen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* ST +
+*Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
+Das verwandte Attribut ist von der xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_resist_throwdown]]
 === Niederschlag Widerstehen
@@ -78,9 +124,10 @@ Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 === Projektilwaffen
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* GE +
+*Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
+Das verwandte Attribut ist von der xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_riding]]
 === Reiten
@@ -91,8 +138,7 @@ Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 *Beschreibung:* Der Charakter kann auf einem als Reittier ausgewiesenem Tier reiten.
 Dies geschieht üblicherweise automatisch, ohne, dass eine Probe nötig ist, und zwar sobald der Charakter mindestens eine Stufe in diesem Talent hat.
 Für ungewöhnliche und stressige Situationen muss der Charakter jedoch eine Probe ablegen, um zu verhindern, dass das Tier durchgeht oder er von diesem herunterfällt.
-Solche Situationen können Kampfgetümmel sein (wenn das Tier nicht entsprechend trainiert ist), das Springen über ein Hindernis, Galopp über unwegsames Gelände und ähnliches.
-In diesen Fällen übernimmt dieses Talent die Funktion von Körperbeherrschungs-Proben für das Reittier und den Reiter, solange er auf dem Tier sitzt.
+Solche Situationen können Kampfgetümmel sein, das Springen über ein Hindernis, Galopp über unwegsames Gelände und ähnliches.
 
 [[ref_talents_shield_defense]]
 === Schildverteidigung
@@ -115,9 +161,10 @@ Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 === Wurfwaffen
 *Mindestwurf:* SWM +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* GE +
+*Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Wurfwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
+Das verwandte Attribut ist von der xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 == Schurkische Talente
 
@@ -130,7 +177,21 @@ Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind d
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
 *Kampf:* M +
-*Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Akrobatik gewürfelt werden.
+*Beschreibung:* Dieses Talent umfasst alle Manöver, die über eine durchschnittliche, sportliche Betätigung hinausgehen.
+Dazu gehören spektakuläre Aktionen, die man umgangssprachlich als zirkusreif beschreiben könnte, auch wenn wir die Abenteurer nicht zwangsweise in einen Zirkus stecken wollen.
+Beispiele für passende Situationen, die eine Akrobatik-Probe benötigen, sind:
+
+* Der Charakter möchte auf einer sehr dünnen Oberfläche (einem Seil, eine feste Stange oder dem Geländer eines Balkons) balancieren.
+* Der Charakter möchte auf einer sehr unsicheren Oberfläche (ein zugefrorener See, ein rutschiges Schiffsdeck oder eine schwankende Hängebrücke) laufen.
+* Der Charakter möchte beeindruckende Körperbewegungen durchführen: Purzelbäume, Handstand, Rad Schlagen und ähnliches
+* Der Charakter möchte die Bedrohungszone von Gegnern durchqueren, ohne einen Gelegenheitsangriff zu provozieren.
+* Der Charakter möchte schwierige Aktionen durchführen, ist jedoch teilweise eingeschränkt in seinen Bewegungen, zum Beispiel sind ihm die Hände gebunden und er möchte ein Schwert vom Boden aufheben.
+
+Üblicherweise kann der Spieler einfach ankündigen, eine Akrobatik-Probe für ein xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] durchführen zu wollen.
+Der SL kann dann eine nötige Anzahl von Erfolgen festlegen oder aufgrund der Situation aus dem Regelsystem ableiten.
+
+* *Misserfolg:* Der Charakter schafft sein Manöver nicht, er verliert alle xref:core_rules_battlesystem.adoc#ref_battle_actions[aktionen] und xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] für die aktuelle Kampfphase.
+* *Patzer:* Wie Misserfolg, jedoch ist der Charakter gleichzeitig zu Boden gegangen und beginnt die nächste Kampfphase am Boden liegend.
 
 [[ref_talents_disarmtraps]]
 === Fallen Entschärfen
@@ -160,22 +221,6 @@ Ein Patzer zerstört die Falle. +
 Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
 Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
-[[ref_talents_climb]]
-=== Klettern
-*Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* KO +
-*Kampf:* M +
-*Beschreibung:* Mit diesem Talent können die Standardproben Klettern gewürfelt werden.
-
-[[ref_talents_reflex]]
-=== Reflex
-*Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* GE +
-*Kampf:* F +
-*Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Reflex werfen.
-
 [[ref_talents_sneak]]
 === Schleichen
 *Mindestwurf:* SMW +
@@ -203,22 +248,6 @@ Dieses Talent geht von einer leisen und heimlichen Aktion aus.
 Damit schließt sich Sprengstoff oder Troll als „Dietrich“ aus.
 Magisch verschlossene Türen lassen sich damit nicht öffnen.
 
-[[ref_talents_jump]]
-=== Springen
-*Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* GE +
-*Kampf:* M +
-*Beschreibung:* Mit diesem Talent können alle Standardproben des Typs Springen gewürfelt werden.
-
-[[ref_talents_swim]]
-=== Schwimmen
-*Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* KO +
-*Kampf:* M +
-*Beschreibung:* Mit diesem Talent können die Standardproben Schwimmen gewürfelt werden.
-
 [[ref_talents_pickpocket]]
 === Taschendiebstahl
 *Mindestwurf:* SMW +
@@ -232,8 +261,7 @@ Als typische Situation wäre der übliche unbemerkte Taschendiebstahl auf dem be
 Der Mindestwurf bleibt unverändert.
 Der SL verlangt 2 Erfolge, um einen Gegenstand zu ergattern.
 Den ersten Erfolg benötigt er, um den Gegenstand zu ergattern, den anderen, um nicht bemerkt zu werden.
-Größere oder besser geschützte Gegenstände erfordern im allgemeinen mehr
-Erfolge. +
+Größere oder besser geschützte Gegenstände erfordern im Allgemeinen mehr Erfolge. +
 Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreichen konnte, ein Patzer lässt den Dieb auf frischer Tat auffliegen.
 
 [[ref_talents_discoverhidden]]
@@ -241,8 +269,34 @@ Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreich
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
-*Kampfphasen:* M +
-*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Entdecken und Suchen würfeln.
+*Kampf:* M +
+*Beschreibung:* Viele Dinge sind nicht sofort zu sehen.
+Mit diesem Talent können die Charaktere diese verborgenen Dinge versuchen zu entdecken.
+Dabei unterscheidet das Regelsystem zwischen spontanem, passiven *Entdecken* und dem zeitintensiven, aktiven *Suchen*.
+
+Mit dem Einsatz eines xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] kann ein Charakter
+
+* spontan etwas Verstecktes entdecken, zum Beispiel einen im Gebüsch versteckten Charakter.
+Auf diese Weise können Überraschungsangriffe verhindert werden.
+* den Auslöser einer Falle entdecken.
+Er hat so die Chance die Falle in letzter Sekunde zu bemerken.
+* ein besonderes Detail der Situation ausmacken.
+
+Zum Erfolg ist eine bestimmte Anzahl von Erfolgen nötig.
+Möchte man statische Objekte oder Informationen entdecken, so ist diese Anzahl oft fest und kann vom SL festgelegt werden.
+Um beispielsweise eine <<ref_talents_hide, versteckte>> Kreatur zu entdecken, ist gegen eine zuvor gewürfelte Anzahl von Erfolgen zu werfen.
+
+* *Misserfolg:* Der Charakter kann das versteckte Objekt oder die Kreatur nicht entdecken.
+* *Patzer:* keine zusätzlichen Auswirkungen.
+
+Ein Charakter kann außerdem ein abgegrenztes Gebiet, zum Beispiel einen Raum oder einen Gang, absuchen.
+Dazu benötigt der Charakter allerdings Zeit, daher kann Suchen nicht mit einem xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] abgedeckt werden.
+Wird er von Feinden bedroht oder angegriffen, kann er nicht Suchen.
+
+* *Misserfolg:* Der Charakter findet nicht, wonach er sucht.
+Er kann es erst wieder nach einer bestimmten Zeit versuchen, die durch den SL bestimmt wird.
+* *Patzer:* Der Charakter findet nicht, wonach er sucht.
+Er ist der Überzeugung, dass das Gesuchte nicht da ist.
 
 [[ref_talents_hide]]
 === Verstecken
@@ -259,13 +313,48 @@ Dabei kann der SL die Würfelanzahl je nach Situation anpassen, wenn es schwerer
 Diese Kategorie von Talenten umfasst Talente, die zur sozialen Interaktion mit NPCs oder auch anderen Spielercharakteren dienen.
 Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozialen Gefüge definieren, so zum Beispiel sein Handwerk.
 
+[[ref_talents_interrogate]]
+=== Ausfragen
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* ER +
+*Kampf:* M +
+*Beschreibung:* Oft müssen Charaktere Informationen bekommen, in dem sie mit anderen Personen reden.
+Dies kann in vielerlei Situation vorkommen, sei es das Befragen von betrunkenen Seemännern in der Taverne oder beim diplomatischen Plausch mit dem hiesigen Landesfürsten.
+Immer wenn ein Charakter von einer Person eine Information erhalten will, kann er eine Ausfragen-Probe für diese Information würfeln.
+Ist die Probe erfolgreich, so erhält er die gesuchte Information.
+Die Anzahl der Erfolge ergibt sich aus mehreren Faktoren, wie wichtig und geheim ist die Information für die Person, die sie hat und diese Person zu dem fragenden Charakter steht.
+
+* *Misserfolg:* der Charakter kann von der Person die Information nicht erfragen.
+Die Person wird sie dem Charakter nicht mehr verraten.
+* *Patzer:* wie Misserfolg, jedoch hat der Charakter die Person auch noch beleidigt und nun ist die Person äußerst ablehnend gegenüber dem Charakter.
+
+[NOTE]
+Es kann durchaus sinnvoll sein, diese Probe etwas zu verallgemeinern.
+Ein Charakter könnte zum Beispiel in einer Bibliothek nach der Antwort auf eine Frage suchen oder einige Stunden von Kneipe zu Kneipe laufen, um ein bestimmtes Gerücht zu untersuchen.
+In diesem Fall kann der SL auch diese Talentprobe verwenden, wobei die Folgen eines Misserfolg und Patzers etwas angepasst werden müssen.
+
+[NOTE]
+Die Probe kann auch als konkurrierende Probe zwischen der Ausfragen-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
+
 [[ref_talents_intimidate]]
 === Einschüchtern
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
-*Kampf:* W +
-*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Einschüchtern würfeln.
+*Kampf:* M +
+*Beschreibung:* Wo Diplomatie versagt, kann auch mal Gewalt helfen oder zumindest die Aussicht auf drastische Folgen, die ein Gegenüber nicht in Kaufen nehmen will und dann lieber kooperiert.
+
+Eine Anwendung dieser Probe simuliert, dass ein Charakter eine andere Person durch Drohungen zu einer bestimmten Tat zwingen kann, die diese Person normalerweise nicht ausführen würde.
+
+Die nötige Anzahl der Erfolge ist hierbei durch unterschiedliche Faktoren bestimmt, zum Beispiel, ob die Tat für die Person gefährlich ist und unter welcher Situation diese Drohung zusammen kommen.
+Ein Erfolg in der Probe bedeutet, dass der Charakter die Person erfolgreich dazu gebracht hat, die Tat durchzuführen.
+
+* *Misserfolg:* die Person zeigt sich unbeeindruckt von den Drohungen des Charakters.
+* *Patzer:* die Person ist von der Drohung unbeeindruckt und hält gegen den Charakter nun einen Groll.
+
+[NOTE]
+Die Probe kann auch als konkurrierende Probe zwischen der Einschüchtern-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
 
 [[ref_talents_craft]]
 === Handwerk [ein Handwerk]
@@ -301,7 +390,13 @@ Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuc
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
 *Kampf:* W +
-*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Täuschen würfeln.
+*Beschreibung:* Die Wahrheit sagen ist nicht immer von Vorteil oder gar gesund.
+Wenn ein Charakter einen anderen Charakter belügen will oder ihm gegenüber einen anderen Sachverhalt vortäuschen, so ist eine Täuschen-Probe nötig.
+Dabei ist diese Probe immer eine konkurrierende Probe gegen eine Ausfragen-Probe des Gegenübers.
+Die Ausfragen-Probe wird hier als eine Befragung über die wahren Motive des Charakters interpretiert.
+
+* *Misserfolg:* der Charakter kann die Täuschung nicht durchsetzen, man glaubt ihm einfach nicht, bzw. er wird enttarnt.
+* *Patzer:* wie Misserfolg, jedoch provoziert der Charakter damit sofort eine stark ablehnende Reaktion.
 
 [[ref_talents_animalfriendship]]
 === Tierfreundschaft
@@ -312,10 +407,8 @@ Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuc
 *Beschreibung:* Charaktere mit diesem Talent haben eine besondere Nähe zu Tieren entwickelt, so dass diese auf sie besser reagieren.
 Eine erfolgreiche Probe bedeutet, dass das Tier dem Charakter gegenüber neutral ist.
 Drei weitere erfolgreiche Proben im Laufe von drei folgenden Tagen bedeuten, dass das Tier freundlich gesinnt ist und bei zwölf entsprechenden Proben ist das Tier sogar loyal.
-Das Talent wirkt jedoch nicht ewig, daher sind regelmäßige, monatliche Proben nötig.
-Trifft der Charakter auf ein fremdes Tier, so kann benötigt er 5 oder mehr Erfolge.
-Bei einem wilden und fremden Tier sind mindestens 10 Erfolge nötig.
-Das Talent zählt nicht für monströse und magische Tiere.
+Wilde oder fremde Tiere können den nötigen Erfolgsgrad erhöhen.
+Außerdem kennt ein Charakter mit diesem Talent sich in der Pflege und Fürsorge von domestizierten Tieren wie zum Beispiel Pferden aus.
 
 [[ref_talents_persuade]]
 === Überzeugen
@@ -323,7 +416,15 @@ Das Talent zählt nicht für monströse und magische Tiere.
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
 *Kampf:* W +
-*Beschreibung:* Mit diesem Talent kann der Charakter alle Standardproben des Typs Überzeugen würfeln.
+*Beschreibung:* Manchmal können auch gute Argumente oder die richtigen Worte und Versprechungen die Meinung einer Person ändern.
+Die Anwendungsfälle sind vielfältig, von der Argumentation in einer politischen Diskussion bis zu Bestechung einer Wache.
+Damit eine Überzeugen-Probe erfolgreich ist, muss eine Anzahl von Erfolgen erreicht werden, die von unterschiedlichen Faktoren beeinflusst wird, wie beispielsweise von den Überzeugungen der Zielperson, der Argumente des Charakters und natürlich der Zielmeinung, der Charakter in der Person erwecken möchte.
+
+* *Misserfolg:* die Person bleibt bei ihren Überzeugungen und lässt sich von den Argumenten des Charakters nicht davon abbringen.
+* *Patzer:* wie Misserfolg, jedoch provoziert der Charakter damit sofort eine stark ablehnende Reaktion.
+
+[NOTE]
+Die Probe kann auch als konkurrierende Probe zwischen der Überzeugen-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
 
 == Wissenstalente
 
@@ -378,6 +479,7 @@ Ungeübte Anwender sollten sich des Risikos stets bewusst sein.
 
 Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auch Angriffsproben, die üblicherweise mit anderen Talenten geführten werden, substituieren, wenn sie technomantische Waffen damit führen.
 
+//TODO
 [[ref_talents_survival]]
 === Überleben
 *Mindestwurf:* SMW +
@@ -402,6 +504,8 @@ Die verfügbaren Spezialgebiete können aus folgender xref:../tables/table_talen
 
 Der SL und die Spieler können sich auch weitere Wissensgebiete ausdenken, wenn sie diese für nützlich halten.
 
+//TODO: optionale Regel: Erfahrung durch Berufstalente
+
 == Magische Talente
 
 Diese Talenten werden vor allem von zaubernden Berufungen benötigt.
@@ -412,7 +516,7 @@ Sie bilden die Grundausrüstung für die Ausübung der Magie.
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampf:* A +
+*Kampf:* M +
 *Beschreibung:* Mit diesem Talent kann der Charakter in den Aether schauen, der parallel zu allen anderen Dimensionen liegt.
 Magische Gegenstände, magische Aktivitäten, Wesen und Zauber geben eine Art Strahlung ab, die sich im Aether als ungefähres Abbild manifestiert.
 Diese ungewohnten Eindrücke können nur mit entsprechender Übung interpretiert werden. Um einen magischen Effekt zu entdecken, muss die Anzahl der Erfolge die POT des Effekt überwürfeln bzw. im Fall eines Wesens, dass im Aetheraum lebt, dessen Energie-Attributsstufe.
@@ -431,7 +535,7 @@ Zum Beispiel wäre es möglich, Teilinformationen abzufragen, wie Art der Magie 
 
 Ein Patzer kann zu völlig falschen Eindrücken führen, die der Charakter jedoch nicht als solche erkennt.
 
-Grundsätzlich ist jede Verwendung von Ather Wahrnehmung mit einem kleinen, visuellen Effekt versehen, beispielsweise ein leichtes Glühen um die Augen oder die Augen werden komplett weiß oder ein untersuchter Gegenstand wird von einem leichten Schimmern erfasst, dessen Ursprung in den Augen des Charakter liegt.
+Grundsätzlich ist jede Verwendung von Aether Wahrnehmung mit einem kleinen, visuellen Effekt versehen, beispielsweise ein leichtes Glühen um die Augen oder die Augen werden komplett weiß oder ein untersuchter Gegenstand wird von einem leichten Schimmern erfasst, dessen Ursprung in den Augen des Charakters liegt.
 
 [[ref_talents_discipline]]
 === Disziplin
@@ -439,24 +543,24 @@ Grundsätzlich ist jede Verwendung von Ather Wahrnehmung mit einem kleinen, visu
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* SB +
 *Kampf:* F +
-*Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Ekel und Furcht werfen.
-Horror-Proben können mit diesem Talent nicht gewürfelt werden.
+*Beschreibung:* Mit diesem Talent kann der Charakter seine Konzentration wahren, wenn er Gefahr läuft, die Vorbereitung eines Zauberspruchen zu verlieren.
+Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Magie].
 
 [[ref_talents_spellcasting]]
 === Spruchzauberei [Zauberschule]
 *Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Nein +
+*Ungeübte Anwendung:* Spezial +
 *Verwandtes Attribut:* EN +
 *Kampf:* A +
-*Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der jeweils gewählten Zauberschule zu wirken.
+*Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der jeweils gewählten xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic[Zauberschule] zu wirken.
 
-Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen vorbereiten.
-Die Beschreibung des Magieeffekts gibt außerdem Auskunft über die notwendige Anzahl von Erfolgen, um den Effekt erfolgreich auszusprechen.
-Bei einem Misserfolg muss der Zaubernde sofort eine Probe in Verbrennen Widerstehen ablegen, bei einem Patzer kommt es zu einem Zauberpatzer.
-
-Das Dokument Magie bietet eine umfassende Beschreibung des Zaubervorgangs und beschreibt, in welchen Situationen die ungeübte Anwendung zulässig ist.
+Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[vorbereiten].
+Die Beschreibung des Zauberspruches gibt außerdem Auskunft über die notwendige Anzahl von Erfolgen, um den Effekt erfolgreich auszusprechen.
+Bei einem Misserfolg muss der Zaubernde sofort eine Probe in xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Verbrennen Widerstehen] ablegen, bei einem Patzer kommt es zu einem xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellfailure[Zauberpatzer].
 
 Weiterhin bietet das Dokument eine Liste von xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic_overview[Zauberschulen], die besondere Regeln mit sich bringen und angeben, welche Zauberlisten gelernt werden können.
+
+Das Talent verbietet im Normalfall die xref:core_rules_d10_system.adoc#ref_core_talentroles_untrainedcheck[ungeübte Anwendung], außer bei der Verwendung von Gegenständen wie xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_scrolls[Spruchrollen], xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_grimoire[Grimoire] oder xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken].
 
 [[ref_talents_resist_spellburning]]
 === Verbrennen Widerstehen
@@ -464,12 +568,13 @@ Weiterhin bietet das Dokument eine Liste von xref:core_rules_magic_base.adoc#ref
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
 *Kampf:* F +
-*Beschreibung:* Mit diesem Talent kann der Charakter Verbrennen Widerstehen Proben werfen.
+*Beschreibung:* Schlägt die Vorbereitung eines Zauberspruches fehl, besteht die Gefahr des *Verbrennens*.
+Dies ist ein äußerst schmerzhafter Vorgang, der beschreibt, dass die arkanen Energien des Zauberspruches durch den Magier in die falsche Richtung gelenkt wurden und nun durch seinen Körper abgeleitet werden, wie ein Blitz, der in einen Baum einschlägt.
 
-[[ref_talents_willpower]]
-=== Willenskraft
-*Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* SB +
-*Kampf:* F +
-*Beschreibung:* Mit diesem Talent kann der Charakter Standardproben des Typs Willenskraft werfen.
+Folgende Situationen führen dazu, dass der Zauberer eine solche Probe würfeln muss:
+* Der Zauberer würfelt einen Patzer bei der Spruchzauberei-Probe
+* Der Zauberer wird während der Vorbereitung zur Verwendung eines Talents oder Kampfmanövers (außer Rennen mit halber Geschwindigkeit) gezwungen
+* Der Zauberer wird während der Vorbereitung niedergeschlagen
+
+Die benötigte Anzahl der Erfolge ist die POT des Zauberspruches, der unterbrochen wurde.
+Besteht der Charakter die Proben nicht, so erhält er POT*W3 magischen Schaden.

@@ -1,15 +1,46 @@
 = Druide
 
+[quote, Erzdruide El'ther, der Ältere]
+Wo meine Armee ist?
+Ich komme mit der Macht von Fell und Klaue, Sonne und Mond, Feuer und Blitz.
+Eine Armee ist nicht von Nöten.
+
+
 *Beschreibung:* +
-*Talentliste (SGM 1):* Spruchzauberei [Druide], Tierfreundschaft, Verbrennen Widerstehen, Willenskraft, Wissen [Tiere], Wissen[Pflanzen], Wissen [Überleben], 1 freies Wissenstalent +
+*Talentliste (SGM 1):* Disziplin, Spruchzauberei [Druide], Tierfreundschaft, Verbrennen Widerstehen, Wissen [Tiere], Wissen[Pflanzen], Wissen [Überleben], 1 freies Wissenstalent +
 *Talentliste (SGM 2):* Aether Wahrnehmung, Schleichen, Verborgenes Erkennen, Verstecken +
 *Attributsbonus:* +1 EN +
-*Vorteile*: Tiergefährte I +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* - +
 *TP/MP-Steigerung:* +3/+9 +
-*Voraussetzungen:* - +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Wanderstab, Robe, Wetterfester Umhang, Lederrucksack +
-*Startgeld:* 2W6 +
 *CP:* 50 +
-*Spezielle Berufstalente:* -
+
+== Eigenschaften
+
+[[ref_throughtheanimalseyes]]
+=== Durch die Augen des Tieres
+Der Druide kann seinen Geist in ein link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendes] link:../../advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] versetzen und durch seine Augen sehen und die Bewegung des Tiers steuern. +
+Um diese Fähigkeit anzuwenden, muss der Druide das Tier berühren und eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] aufwenden.
+Beide werfen eine konkurrierende xref:../core_rules_charactercreation.adoc#ref_attribute_selfcontrol[SB]-Probe.
+Hat der Druide mehr Erfolge, kann er das Tier kontrollieren.
+Hat das Tier gleich oder mehr Erfolge, hat es sich erfolgreich gewehrt. +
+Während der Druide ein Tier kontrolliert, sinkt er in eine tiefe Trance, so dass er seine Umgebung nicht mehr wahrnimmt.
+Er gilt als xref:../core_rules_battlesystem.adoc#ref_condition_unconscious[ohnmächtig]. +
+Der Druide kann die Kontrolle jederzeit beenden, jedoch dauert jede Kontrolle maximal so viele Stunden, wieder Druide mehr Erfolge gewürfelt hat.
+Der <<ref_druid_animalcompendian, Tiergefährte>> des Druiden wird diese Fähigkeit ohne Probe zulassen.
+
+[[ref_druid_animalcompendian]]
+=== Tiergefährte
+Der Druide erhält einen xref:../core_rules_advantages.adoc#ref_advantage_animalcompandion[Tiergefährten] ohne zusätzliche CP-Kosten.
+
+[[ref_druid_soulmate]]
+=== Seelenverwandt
+Der Druide und sein <<ref_druid_animalcompendian, Tiergefährte>> teilen eine besonders tiefe Verbundenheit, die weit über das Verständnis zwischen Tier und Mensch (oder Elf oder Zwerg) hinausgeht.
+Diese Verbundenheit bringt folgende Eigenschaften mit sich:
+* Beide besitzen eine emphatische Verbindung zueinander und teilen Ihre Gedanken.
+Der Druide kann dem Tiergefährten genaue Anweisungen geben, was dieser tun soll.
+Dabei wird das Tier keine offensichtlichen Gefahren eingehen, die es normalerweise ebenso eingehen würde, allerdings verteidigt es den Druiden im Kampf. +
+Um sich zu unterhalten, müssen beide in Sichtweite voneinander sein.
+* Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP/MP-Steigerungen] durchführt, erhält der Tiergefährte einen TP-Bonus von 6.
+* Erreicht der Tiergefährte 0 TP, erhält der Druide sofort eine xref:../core_rules_battlesystem.adoc#ref_battle_wounds[Wunde] und verliert entsprechend seines xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID]-Wert viele TP.
+

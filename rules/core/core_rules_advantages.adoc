@@ -152,17 +152,6 @@ Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Übe
 *Beschreibung:* Der Charakter erhält einen Bonus auf seinen WID-Wert.
 Für Level I erhält er einen Bonus von +2, für Level II: +4 und Level III +6.
 
-== Homunkulus
-*Punkte:* 20 +
-*Beschränkung:* Beruf +
-*Beschreibung:* Ein Homunkulus ist ein kleines, aus den Energien des Aethers geformtes Wesen, welches dem Charakter treu ergeben ist.
-Ein Homunkulus kann jede Gestalt bis einer GK 3 annehmen.
-In jeder dieser Gestalten erkennt man jedoch, dass irgendetwas "nicht stimmt", d.h. spätenstens auf den zweiten Blick bemerkt ein Betrachter, dass der Homunkulus kein normales Wesen dieser Gestalt ist. +
-Der Homunkulus kann auf Wunsch seines Besitzers jederzeit in den Aether zurückkehren und sich wieder manifestieren. Dies erfolgt immer in Sichtweite des Besitzer. +
-Befindet sich der Homunkulus nicht im Aether, kann er sich maximal 100 Meter von seinem Besitzer entfernen. Kann der Homunkulus die Distanz nicht halten, kehrt er in den Aether zurück. +
-Er kehrt ebenso in den Aether zurück, wenn er getötet wird. In den beiden letzten Fällen muss der Besitzer 20 MP ausgeben, um den Homunkulus zu beschwören. +
-Der Homunkulus versteht jede natürliche Sprache, jedoch nur sein Besitzer kann den Homunkulus verstehen. Außerdem nimmt der Homunkulus nur Befehle seines Besitzers entgegen.
-
 == Ich verdiene meine Brötchen selbst!
 *Punkte:* 10 +
 *Beschränkung:* - +
@@ -244,6 +233,7 @@ Das Tier wurde für exakt die Aufgabe des Reitens trainiert.
 D.h. es ist das Tragen eines Sattels und Geschirr gewöhnt, trägt ohne Widerwillen einen Reiter und versteht seine Kommandos.
 Weitergehende Stresssituationen ist das Reittier jedoch nicht gewöhnt. Es nimmt nie aktiv an Kampfsituationen teil und versucht im Normalfall zu fliehen. +
 Die maximale GK des Reittiers beträgt die GK dies Besitzers + 1.
+Welche Tiere als Reittiere verfügbar sind, kann auf der folgenden link:../tables/table_advantage_animalcompandion.adoc[Tabelle] entnommen werden.
 
 == Ruf
 *Punkte:* 10, 20, 30, 40, 50 +
@@ -304,16 +294,13 @@ Er erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Ausfragen-Probe
 
 [[ref_advantage_animalcompandion]]
 == Tiergefährte
-*Punkte:* 15, 30 +
+*Punkte:* 15 +
 *Beschränkung:* Beruf +
 *Beschreibung:* Der Charakter hat im Laufe seines Lebens zu einem Tier eine besondere Beziehung aufgebaut, dieses vielleicht von Geburt an gehütet.
 Das Tier ist dem Charakter treu ergeben, jedoch sollte der Charakter dieses Vertrauen nicht missbrauchen.
-Das Tier kann immer nur in seinen natürlichen Grenzen agieren, es besitzt also keine außergewöhnlichen Fähigkeiten. +
-Beide besitzen eine leichte emphatische Verbindung, so dass sie wissen, wo der jeweils andere sich befindet und was der andere gerade möchte oder benötigt. +
-Einmal pro Tag mit dem Einsatz von 5 MP kann der Charakter seinen Tiergefährten rufen.
-Dieser macht sich auf Weg, um den Charakter zu treffen, wobei er den Weg ganz normal zurücklegen muss. Ein Hinderniss, welches das Treffen vermeidet, wird dem Charakter bei Erreichen dieses Hindernisses mitgeteilt. +
-Es kann jedoch Kommandos gelernt haben, die auch komplexere Aufgaben beinhalten.
-Auf Level I kann der Charakter einen Tiergefährten bis GK 4 besitzen, auf Level II bis GK 6.
+Das Tier kann immer nur in seinen natürlichen Grenzen agieren, es besitzt also keine außergewöhnlichen Fähigkeiten.
+Es kann jedoch Kommandos gelernt haben, die auch komplexere Aufgaben beinhalten. +
+Welche Tiere als Tiergefährten verfügbar sind, kann auf der folgenden link:../tables/table_advantage_animalcompandion.adoc[Tabelle] entnommen werden.
 
 == Überlebensinstinkt
 *Punkte:* 20 +

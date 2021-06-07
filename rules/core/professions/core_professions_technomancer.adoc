@@ -2,14 +2,26 @@
 
 *Beschreibung:* +
 *Talentliste (SGM 1):* Aether Wahrnehmung, Forschen, Handwerk[Schmied], Technomantisches Gerät Benutzen, Verbrennen Widerstehen, Wissen[Architektur und Ingenieur], Wissen[Arkanes], 1 freies Handwerkstalent +
-*Talentliste (SGM 2):* Fallen Entschärfen, Kunst [Metallverzierungen], Lesen/Schreiben, Verborgenes Entdecken, Willenskraft, 1 freies Wissengebiet +
+*Talentliste (SGM 2):* Disziplin, Fallen Entschärfen, Kunst [Metallverzierungen], Lesen/Schreiben, Verborgenes Entdecken, 1 freies Wissengebiet +
 *Attributsbonus:* +1 EN +
-*Vorteile*: - +
-*Nachteile*: - +
-*Besondere Fähigkeiten:* Mechanik +
 *TP/MP-Steigerung:* +5/+7 +
-*Voraussetzungen:* - +
+*Rettungswürfe:* TBA +
 *Startausrüstung:* Werkzeug, Lederwams, Schmiedehammer +
-*Startgeld:* 4W6 +
 *CP:* 60 +
-*Spezielle Berufstalente:* Technomantie
+
+== Eigenschaften
+
+[[ref_technomancer_remarkableequipment]]
+=== Außergewöhnliche Ausrüstung
+Zu Beginn des Spiels erhält der Technomant ein technomantisches link:../../../compendiums/items/technomancy/compendium_technomancticitems_devices.adoc[Gerät]
+im Wert von maximal 20000 Silbermünzen, welches kein Konstrukt (also xref:../../../compendiums/items/technomancy/compendium_technomancticitems_constructs.adoc[Golem]) sein darf.
+
+[[ref_technomancer_technomancy]]
+=== Technomantie
+Der Technomant lernt das Talent xref:../core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie] als SGM 1 Talent.
+Er kann nach den regulären Regeln Talentstufen lernen, sobald er die angegebenen Voraussetzungen erfüllt.
+
+[[ref_technomancher_mechanics]]
+=== Mechanik
+Der Technomant lernt die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_mechanics[Mechanik] zu Beginn des Spiels ohne zusätzliche CP-Kosten.
+Er muss dazu nicht die angegebenen Voraussetzungen erfüllen.
