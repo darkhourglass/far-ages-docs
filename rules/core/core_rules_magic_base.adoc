@@ -729,17 +729,17 @@ Untote und Konstrukte sind immun gegen diesen Zauber. +
 *Komponenten:* Formel, Gesten +
 *Fokus:* Feuer +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 5 +
+*Anzahl der Erfolge:* 4 +
 *Reichweite:* 15,00 Meter +
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* Sofort +
 *Effekt:* Der Magier beschwört magisches Feuer, dass er zu einem Ball formt.
 In seinen Handflächen beginnen sich während der Anrufung lange Fäden von gleißendem Feuer zu einem Ball zusammenzuknoten.
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
-Wenn er auf dem Boden einschlägt, zerberstet er in einer Feuerwolke, die in einem Radius von 3 Metern um den Einschlagspunkt.
-Die dortigen Kreaturen dürfen nach den Regeln des Werfens ausweichen, das heißt ihnen steht eine Reflex-Probe gegen die Anzahl der Erfolg der Spruchzauberei-Probe zu.
-Beachte, dass der Zauberer nicht auf Werfen, sondern auf Spruchzauberei würfelt.
-Der Zauber verursacht 4W6 Feuerschaden. +
+Wenn er auf dem Boden einschlägt, zerberstet er in einer Feuerwolke, die in einem Radius von 3 Metern um den Einschlagspunkt. +
+Der Zauber verursacht 4W6 Feuerschaden gegen jede Kreatur im Zielradius.
+Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_dexterity[GE-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
+Bei einem Erfolg werden die erlitten Schadenspunkte halbiert (Minimum 1).
 *Zusätzliche Effekte:* +
 +5 MP: Reichweite: +6,00 Meter +
 +5 MP: Flächenschaden: +3,00 Meter +
@@ -947,7 +947,7 @@ Dazu würfelt er eine Talent-Probe in xref:core_rules_talents_base.adoc#ref_tale
  Bei einem Erfolg behält er die Vorbereitung und kann diese in seiner Kampfrunde weiterführen.
 Bei einem Misserfolg oder Patzer muss er eine xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen]-Probe ausführen.
 
-Im Allgemeinen bedeutet ein Niederschlag immer den automatischen Verlust der Vorbereitung.
+Im Allgemeinen bedeutet ein xref:core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlag] immer den automatischen Verlust der Vorbereitung.
 
 [[ref_magic_rules_spellcasting_cancelspell]]
 ==== Freiwilliges Abbrechen eines Zauberspruches
@@ -972,7 +972,7 @@ Mit dieser optionalen Regel kann ein Zauberer temporär seine *MaxPOT erhöhen*,
 
 Die Erhöhung der maximalen Magiepotenz muss mit dem Ansagen des Zauberspruches (also inklusive <<ref_magic_rules_spellcasting_additionaleffects_reducepreparing, zusätzlicher Effekte und Verkürzen>>) genannt werden.
 
-Die POT ist solange erhöht, wie der Zauberer vorbereitet und die Spruchzauberei-Probe durchführt.
+Die POT gilt so lange als erhöht, wie der Zauberer vorbereitet und die Spruchzauberei-Probe durchführt.
 Spätestens dann endet die Erhöhung.
 Die Erhöhung endet auch bei <<ref_magic_rules_spellcasting_spellburning, Unterbrechungen>> der Vorbereitung.
 Kommt es zum Verbrennen oder zu einem <<ref_magic_rules_spellcasting_spellfailure, Zauberpatzer>>, zählt die erhöhte POT.
@@ -1297,6 +1297,14 @@ Um Feuerball zu lernen, muss ein Charakter eine Zauberschule, die den Weg des Fe
 Die CP-Kosten zum Lernen von Feuerball betragen 5*50 = 250 CP.
 ====
 
+Ein Zauberer kann einen Zauberer theoretisch aus mehrfachen Quellen lernen:
+
+* Er besitzt eine Zauberschule mit mehreren Zauberspruchlisten, die den gleichen Zauberspruch enthalten
+* Er besitzt mehrere Zauberschulen, die sich ganze Zauberspruchlisten teilen
+
+In jedem der genannten Fälle braucht der Zauberer eine Zauberspruch nur einmal zu lernen, um ihn dann mit einem Spruchzauberei-Talent seiner Wahl zaubern kann, vorausgesetzt, das Talent deckt eine Zauberschule ab, die den Zauberspruch enthält.
+Ausnahme dazu bildet die <<ref_magic_schools_wild_magic, Wilde Magie>>, in der Zaubersprüche anders gelernt und gezaubert werden.
+
 Die nachfolgenden Unterkapitel erläutern weitere Besonderheiten der jeweiligen Zauberschulen.
 
 [[ref_magic_schools_alchemy]]
@@ -1359,8 +1367,7 @@ Eure Augen sind euer wichtigstes Hilfsmittel, um die Wunder des Multiversums wah
 
 Der Illusionismus befasst sich mit magisch erzeugten *Trugbildern*.
 Die Opfer dieser Trugbilder können versuchen diese zu durchschauen.
-Dies geschieht mit einer sogenannten Illusion Durchschauen-Probe.
-Das verwandte Attribut ist ER.
+Dies geschieht mit einer sogenannten xref:core_rules_d10_system.adoc#ref_base_roll_douptillusions[Illusion Durchschauen-Probe].
 
 Die Anzahl der benötigen Erfolge bestimmt sich aus der POT des Zauberspruches, der sie erzeugte.
 
@@ -1398,13 +1405,13 @@ Der SL entscheidet, dass die Mauer nicht 100% in die Erwartung der Räuber passt
 ====
 
 Das Durchschauen einer Illusion bannt diese nicht im Ganzen.
-Der Charakter, der sie durchschaut hat, sieht, dass es eine Illusion ist, zum Beispiel in dem die Bilder plötzlich durchsichtig werden und noch wie flache Schemen agieren.
+Der Charakter, der sie durchschaut hat, sieht, dass es eine Illusion ist, zum Beispiel, in dem die Bilder plötzlich durchsichtig werden und noch wie flache Schemen agieren.
 
-Er kann andere Charaktere, die noch an die Illusion „glauben“ durch Hinweise jeglicher Natur
-unterstützen, die Illusion zu durchschauen.
-Deren Anzahl der Erfolge sinkt dann mindestens um 3, aber bleibt mindestens ingesamt 1.
+Er kann andere Charaktere, die noch an die Illusion „glauben“ durch Hinweise jeglicher Natur unterstützen, die Illusion zu durchschauen.
+Deren Anzahl der Erfolge sinkt dann mindestens um 3, aber bleibt mindestens insgesamt 1.
 
-Als Illusionen gelten alle Zaubersprüche, die in den Zauberspruchlisten die zusätzliche Beschreibung (Illusion) in ihrem Namen beinhalten.
+Als Illusionen gelten alle Zaubersprüche, die als Illusion explizit beschrieben sind.
+Dabei ist es unerheblich aus welche Zauberspruchliste wirklich stammen.
 
 [[ref_magic_schools_music]]
 ==== Die Magie der Musik
@@ -1438,8 +1445,7 @@ Wesen, die gegen Zauber der Geistesbeeinflussung immun sind, sind auch immun geg
 Auf ihrer Suche nach dem geheimen Wissen der dunkelsten Ecken des Multiversums und der schrecklichen Dimension Ebon geraten Nekromanten immer wieder an die Grenzen des humanoiden Verstandes.
 Trotz aller Vorsicht lässt sich die zwiespältige Natur der Nekromantie, der schmale Grat zwischen Genie und Wahnsinn, nicht umgehen.
 
-Um dies zu simulieren, müssen Charaktere, immer wenn sie eine gerade Stufe in ihrem Talent Spruchzauberei[Nekromantie] lernen (also auf Stufe
-2, 4, 6, 8,...), eine Horror(x)-Probe ablegen, wobei x die jeweilige Talentstufe ist.
+Um dies zu simulieren, müssen Charaktere, immer wenn sie eine gerade Stufe in ihrem Talent Spruchzauberei[Nekromantie] lernen (also auf Stufe 2, 4, 6, 8,...), eine Horror(x)-Probe ablegen, wobei x die jeweilige Talentstufe ist.
 
 [[ref_magic_schools_technomancy]]
 ==== Technomantie
@@ -1466,10 +1472,10 @@ Ebenso kann er in der Vorbereitung unterbrochen werden und muss aufpassen, dass 
 
 Patzer werden nach den üblichen Regeln abgehandelt.
 
-Technomantische Zaubersprüche können auf Spruchrollen oder in Grimoire geschrieben werden und von diesen gewirkt werden.
+Technomantische Zaubersprüche können _nicht_ auf Spruchrollen oder in Grimoire geschrieben werden oder von diesen gewirkt werden.
 
 Das Dokument link:core_rules_technomancy.adoc[Technomantie] erweitert die Technomantie in Far Ages um die technische Seite dieser Art der Magie.
-In dem Dokument finden sich Regeln und Ideen zum Entwickeln eigener technomantischer Gegenständ sowie eine große Liste von unterschiedlichen Gegenständen von Feuerstäben bis Schlachtengolems.
+In dem Dokument finden sich Regeln und Ideen zum Entwickeln eigener technomantischer Gegenständen sowie eine große Liste von unterschiedlichen Gegenständen von Feuerstäben bis Schlachtengolems.
 
 [[ref_magic_schools_wild_magic]]
 ==== Wilde Magie
@@ -1489,7 +1495,7 @@ Wie Byhragast es bereits erwähnt hat, ist Wilde Magie unberechenbar.
 Und tatsächlich ist es für einen Spruchzauberer gefährlich, seine Magie innerhalb einer *Zone Wilder Magie* zu wirken.
 Die Wilde Magie kann auf seine Magie einen katastrophalen Effekt haben, fast so, als hätte er einen Zauberpatzer verursacht.
 Auf der anderen Seite kann Wilde Magie dazu führen, dass Zaubereffekte verstärkt oder gar verändert werden.
-Zauberei innerhalb eines solches Feldes gleicht somit eher einem Glücksspiel, das unter keiner Kontrolle steht.
+Zauberei innerhalb eines solchen Feldes gleicht somit eher einem Glücksspiel, das unter keiner Kontrolle steht.
 
 Weiterhin ist bekannt, dass Felder Wilder Magie häufig eigenständig magische Effekte generieren, die „echter“ Spruchzauberei ähnlich sind.
 Beispielsweise könnte in einem Feld ein Zaubereffekt ähnlich Rankenwuchs (Weg des Wachstum 1) kombiniert mit Fruchtbare Erde (Weg des Wachstums 1) existieren, der dazu führt, dass die dortigen Pflanzen in ungebändigter Manier wachsen und gedeihen.
@@ -1622,11 +1628,27 @@ Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier 
 Druiden und Schamanen nutzen Urspüngliche Magie.
 Für <<ref_magic_rules_spellcasting_spellfailure>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
 
+Mit Lernen der ersten Talentstufe in dieser Zauberschule muss der Zauberer sich für eine der folgenden Zauberspruchlisten entscheiden, die zur Verfügung stehen:
+
+* link:../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde]
+* link:../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers]
+* link:../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft]
+* link:../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers]
+
+Die Zaubersprüche der gewählten Liste lernt der Zauberer nach den üblichen Regeln.
+
 [[ref_magic_schools_schamanism]]
 ==== Magie der Schamanen
 
 Druiden und Schamanen nutzen Urspüngliche Magie.
 Für <<ref_magic_rules_spellcasting_spellfailure>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
+
+Mit Lernen der ersten Talentstufe in dieser Zauberschule muss der Zauberer sich für eine der folgenden Zauberspruchlisten entscheiden, die zur Verfügung stehen:
+
+* link:../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofspirit.adoc[Weg des Geistes]
+* link:../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofbody.adoc[Weg des Körpers]
+
+Die Zaubersprüche der gewählten Liste lernt der Zauberer nach den üblichen Regeln.
 
 === Regeln im Umgang mit magischen Gegenständen
 
@@ -1801,3 +1823,4 @@ entfernen gilt, 25% des Originalwertes (abhängig von der Machtstufe) in
 Silbermünzen. Ein Charakter, der magische Gegenstände reparieren will,
 benötigt das Talent „Magischen Gegenstand Herstellen“ mindestens auf
 Stufe 5. Für die Entfernung eines Striches sind 3 Erfolge nötig.
+

@@ -8,7 +8,7 @@
 * Um einen Untoten zu erschaffen, benötigt es einen toten Körper einer vormals link:../secondary/creaturetype_secondary_living.adoc[lebenden] Kreatur.
 Der primäre Kreaturentyp ist typischerweise nicht relevant, außer dieser verbietet explizit das Erschaffen einer untoten Kreatur verbietet.
 Untote verlieren den sekundären Typ Lebend.
-* Jeder Untote besitzt eine <<ref_undead_powerlevel>>[Machtstufe].
+* Jeder Untote besitzt eine <<ref_undead_powerlevel, Machtstufe>>.
 Machtstufen beschrieben die Stärke von Untoten auf einer abstrakten Ebene und haben vorallem Einfluss, wie unabhängig ein Untoter agieren kann und welche Zaubersprüche auf Ihn wirken.
 * Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_create_undead.adoc[Tabelle].
 * Je nachdem welchen Untoten ein Nekromant erschaffen möchte, ist zunächst dessen Machtstufe zu ermitteln, entweder als Angabe im xref:../../../../bestiary/index.adoc#ref_bestiary_undead[Bestiarium] oder anhand o.g. Tabelle.
@@ -18,13 +18,13 @@ Er muss dazu den angegebenen Zauberspruch beherrschen und erfolgreich ausspreche
 [[ref_undead_powerlevel]]
 === Machtstufen
 Machtstufen von Untoten werden in Zahlen von 0 aufsteigend gemessen.
-Dabei gibt es kein Maximum, jedoch spiegeln bestimmte Machtstufen deutliche Sprünge in den Fähigkeiten der Untoten wieder.
+Dabei gibt es kein Maximum, jedoch spiegeln bestimmte Machtstufen deutliche Sprünge in den Fähigkeiten der Untoten wider.
 So ist ein Untoter der Machtstufe 0 der primitivste Typ, der konstante Kontrolle benötigt und nur wenige Fähigkeiten besitzt.
 Auf der anderen Seite sind Untote ab Machtstufe 10, sowie 11 und mehr, autonome, teilweise vollständige Persönlichkeiten mit erschreckendem Verstand und einer großen Vielfalt an Fähigkeiten.
 
 Abhängig von der Machtstufe entfalten sich die Fähigkeiten eines Untoten.
 Die Übersicht findet sich in dieser link:../../../tables/table_create_undead.adoc[Tabelle].
-Die Einträge werden im folgenden beschrieben.
+Die Einträge werden im Folgenden beschrieben.
 
 [[ref_undead_powerlevel_steps]]
 ==== Attributs- und Talentstufen
@@ -101,7 +101,7 @@ Dies bedeutet, dass die Magie, welche sie erschaffen hat, aufgebraucht ist und d
 Ein Untoter, der zerfallen ist, kann nicht wieder aus dem gleichen Körper neuerschaffen werden.
 
 * *Nie:* Dieser Untote wird nie automatisch zerfallen.
-* *Konkrekte Zeitangabe:* Der Untote zerfällt automatisch nach Ablauf dieser Zeit zu Staub.
+* *Konkrete Zeitangabe:* Der Untote zerfällt automatisch nach Ablauf dieser Zeit zu Staub.
 
 Um Zerfall aufzuhalten, sind üblicherweise weitere magische Aktionen nötig, wie z.B. der Einsatz des Zauberspruches link:../../../../compendiums/spells/spell_preserve_undead.adoc[Untoten präservieren].
 

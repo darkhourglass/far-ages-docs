@@ -1,17 +1,14 @@
 = Untoten erschaffen (III)
 
-*Arkanes Geheimnis:* +
-*POT:*  +
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
 *Magieabwehr?:* +
 *Komponenten:* Formel, Zutat +
-*Fokus:* +
-*Vorbereitung:*  +
-*Anzahl der Erfolge:*  +
-*Reichweite:*  +
-*Anzahl der Ziele:* r +
-*Dauer:*  +
-*Effekt:* +
-*Zusätzliche Effekte:* +
-+
-
-// Machtstufen 4-6
+*Fokus:* Ebon +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* 9,00 +
+*Anzahl der Ziele:* 1 +
+*Dauer:* Sofort +
+*Effekt:* Der Zauberspruch funktioniert wie xref:spell_create_undead_1.adoc[Untoten erschaffen], jedoch können Untote der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufen 4-6] erschaffen werden. +
+*Zusätzliche Effekte:* - +

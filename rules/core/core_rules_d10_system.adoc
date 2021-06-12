@@ -322,7 +322,7 @@ Attributsproben werden üblicherweise durchgeführt, wenn Charaktere _aktiv_ ein
 Sofern nicht anders angegeben, bzw. vom SL vorgegeben, reicht immer 1 Erfolg, um die Probe zu bestehen.
 Der Mindestwurf entspricht immer dem <<ref_core_standardminimumroll, Standardmindestwurf>>.
 
-.Attirbutsproben
+.Attributsproben
 ====
 Thalvin möchte in einer Höhle einen unterirdischen Gang von Geröll und Steinen befreien.
 Der SL entscheidet, dass Thalvin eine Probe auf das Attribut Stärke würfeln soll.
@@ -336,9 +336,9 @@ Der SL entscheidet nun, dass Thalvin den Gang erfolgreich innerhalb einer Stunde
 
 *Rettungswürfe* sind eine spezielle Form von <<ref_core_attributeroles, Attributsproben>>, die den gleichen Regeln zum Mindestwurf und Anzahl nötiger Erfolge folgen.
 
+Rettungswürfe können nur von Charaktern mit Bewusstsein gewürfelt werden.
+
 Im Gegensatz zu Attributsproben werden Rettungswürfe nicht aktiv durch Charaktere ausgelöst, sondern entstehen aus gefährlichen Situationen, in denen die Reaktion der Charaktere gefragt ist.
-
-
 
 .Rettungswürfe
 ====
@@ -351,8 +351,16 @@ Damit ist die Probe nicht erfolgreich.
 Der Sl entscheidet, dass Thalvin von fallenden Steinen getroffen wird und 2W6 TP verliert.
 ====
 
+Viele Zauberspruche erlauben neben der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magieabwehr]-Probe, eines speziellen Rettungswurfs auf <<ref_core_saves_energy, EN>>, zusätzliche Rettungswürfe, um die Auswirkungen des Zaubers zu reduzieren.
+
 .Rettungswürfe
 ====
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_saves_dexterity, GE-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
+
+Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Regeln] genug Erfolge, um den Zauberspruch zu wirken.
+Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen. +
+Thalvin und Khelbor würfeln jeweils einen eigenen Rettungswurf auf Geschick.
+Je nach Ergebnis erleidet einer oder beide von Ihnen nur 15 Schadenspunkte.
 ====
 
 [[ref_core_saves_dexterity]]

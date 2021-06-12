@@ -103,11 +103,11 @@ Die Beschreibung eines Berufs beinhaltet folgende Informationen:
 
 * *TP/MP-Steigerung:* Angabe der berufsspezifischen <<ref_characters_spendcp_tp_and_mp, TP/MP-Steigerung>>, zum Beispiel +7/+5.
 
-* *Rettungswürfe:*
+* *Rettungswürfe:* Angabe der xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswürfe], die <<ref_characters_spendcp_saves, gesteigert>> werden können in Form von Attributen, zum Beispiel ST, KO.
 
 * *Startausrüstung:* eine Liste von Ausrüstungsgegenständen, die der Charakter zu Beginn des Spiels besitzt.
 
-* *CP:*  Angabe der Charakterpunkte, die es kostet, diesen Beruf zu wählen.
+* *CP:* Angabe der Charakterpunkte, die es kostet, diesen Beruf zu wählen.
 
 * *Eigenschaften:* Jeder Beruf bringt im Normalfall eine Reihe von besonderen Eigenschaften mit.
 Diese Eigenschaften sind Regelerweiterungen, die für diesen Beruf gelten und sofort in Kraft treten, wenn der jeweilige Beruf gewählt wird.
@@ -116,10 +116,17 @@ Sofort nicht anders angegeben, gelten uneingeschränkt.
 [[ref_characters_charactercreation_backround]]
 === Schritt 3: Wahl des Hintergrundes
 Der link:core_rules_backrounds.adoc[*Hintergrund*] eines Charakters beschreibt seine Herkunft, zum Teil seine Vergangenheit und seine Gegenwart.
-Mit dem Hintergrund kommen ein paar Fähigkeiten hinzu, sowie auch manchmal Nachteile.
-Manche Berufe lassen nur Leute aus einem bestimmten sozialen Umfeld zu.
 
-Wie zuvor gilt, wenn ein Hintergrund CP-Kosten mit sich bringt, müssen diese von initialen Charakterpunkten bezahlt werden.
+Auch Hintergründe haben normalerweise CP-Kosten, die von den initialen Charakterpunkten bezahlt werden müssen.
+
+* *Bonus:* der Bonus, der durch diesen Hintergrund entsteht.
+Wie auch immer dieser Bonus aussieht, er kommt direkt bei der Charaktererschaffung einmalig zum Tragen.
+
+* *Startkapital:* Das Stadtkapital in Silbermünzen, welches der Charakter zu Beginn des Spiels erhält.
+Dies kann ein variabler Wert, angegeben in Form von Würfel sein, oder eine feste Zahl.
+Handelt es sich um einen Wert, der erwürfelt werden muss, muss dieser Wurf vor Spielbeginn erfolgen.
+
+* *CP:* Angabe der Charakterpunkte, die es kostet, diesen Hintergrund zu wählen.
 
 [[ref_characters_charactorcreation_initialattributes]]
 === Schritt 4: Bestimmung der initialen Attributsstufen
@@ -419,7 +426,7 @@ Zauber der POT 2 oder POT 3 sind sehr schwache, einfache Zaubersprüche, die Leh
 Zaubersprüche mit POT 10 sind mächtige Rituale, die es vermögen, gewaltige Energien freizusetzen.
 
 Vom der Attributsstufe in Energie ist es abhängig, welche Zaubersprüche ein Charakter aussprechen kann.
-Die Maximale Magiepotenz ist daher die Grenze bis zu der der Charakter Zaubersprüche aussprechen kann.
+Die Maximale Magiepotenz ist daher die Grenze bis zu der, der Charakter Zaubersprüche aussprechen kann.
 Ein Zauber mit einer höheren POT als der maximalen Magiepotenz ist also für den Charakter zuerst unerreichbar, jedoch gibt es auch da nicht gerade ungefährliche Möglichkeiten, dies zu umgehen.
 
 Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in der Tabelle am Ende des Dokumentes.
@@ -516,8 +523,7 @@ Jede Steigerung eines Attributs um eine Stufe kostet die aktuelle Stufe multipli
 
 .Steigern von Attributsstufen
 ====
-Michael möchte im laufenden Spiel Rnagos Geschick von Stufe 2
-auf Stufe 3 steigern.
+Michael möchte im laufenden Spiel Rnagos Geschick von Stufe 2 auf Stufe 3 steigern.
 Dies kostet Michael 2*100 = 200 CP.
 Durch die Steigerung ändern sich sofort abhängige Attributseigenschaften und die Würfelanzahlen für Talente mit dem verwandten Attribut GE.
 ====
@@ -546,16 +552,31 @@ Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der vorhergegangene
 .TP und MP steigern
 ====
 Michaels Charakter besaß zu Beginn aufgrund seiner Attributsstufen 30 TP und 10 MP.
-Der gewählte Beruf bietet eine TP/MP-Steigerung +7/+5.
+Der gewählte Beruf des link:professions/core_professions_scoundrel.adoc[Schurken] bietet eine TP/MP-Steigerung +7/+5.
 Michael gibt für die erste Steigerung 100 CP aus und schon erhöhen sich die TP auf 45 und die MP auf 15.
 Die zweite Steigerung kostet bereits 2*100 = 200 CP und erhöht auf 52 TP und 20 MP.
 Eine dritte Steigerung kostet 3*100 = 300 CP und erhöht auf 59 TP und 25 MP.
 ====
 
-[[ef_characters_spendcp_saves]]
+[[ref_characters_spendcp_saves]]
 === Rettungswürfe steigern
 
-xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswürfe]
+xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswürfe] sind xref:core_rules_d10_system.adoc#ref_core_attributeroles[Attributsproben], die Charaktere instinktiv vor auftretenden Gefahren schützen sollen.
+Die Stufen in Attributen steigen nach den üblichen <<ref_characters_spendcp_attributsprimary, Regeln>> und somit steigen auch Rettungswürfe.
+
+Darüber hinaus können berufsabhängig bestimmte Rettungswürfe gesteigert werden, das heißt, sie erhalten einen permanenten Bonus von +1 auf die Würfelanzahl pro erfolgter Steigerung.
+Pro Steigerung erhält jeder im Beruf angegebener Rettungswurf diesen Bonus.
+
+Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der vorhergegangenen Steigerungen von Rettungswürfen.
+
+.Rettungswürfe steigern
+====
+Michaels link:professions/core_professions_scoundrel.adoc[Schurken] erlaubt das Steigern der Rettungswürfe für GE und ER.
+Seine Attributsstufen in GE und ER sind 3 und 2.
+Nach der ersten Steigerung darf Michael für GE-Rettungswürfe 4W10 und für ER-Rettungswürfe 3W10 würfeln.
+Diese Steigerung kostet 100 CP.
+Die zweite Steigerung kostet 2*100 = 200 CP und damit steigt der GE-Rettungswurf auf 5W10 und der ER-Rettungswurf auf 4W10.
+====
 
 [[ref_characters_spendcp_talents]]
 === Talente steigern
