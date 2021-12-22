@@ -135,7 +135,7 @@ Er würfelt sofort eine Schadensprobe mit 2 Erfolgen und dem Schadensbonus seine
 *Kampf:* - +
 *Beschreibung:* Der Schwertmeister lernt, sofern er diese nicht bereits kennt, die Fähigkeit xref:../../core/core_rules_skills.adoc#ref_skills_trip[Stolperfalle].
 Zusätzlich zu den regulären Auswirkungen, würfeln der Schwertmeister und Kontrahent eine konkurrierende GE-Probe.
-Ist der Schwertmeister erfolgreich, fällt sein Kontrahent hin und gilt als xref:../../core/core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig].
+Ist der Schwertmeister erfolgreich, fällt sein Kontrahent hin und gilt als xref:../../core/core_rules_d10_system.adoc#ref_core_condition_disabled[Kampfunfähig].
 
 [[ref_swordmaster_multiple_parade]]
 === Mehrfache Parade
@@ -145,5 +145,5 @@ Ist der Schwertmeister erfolgreich, fällt sein Kontrahent hin und gilt als xref
 *Verwandtes Attribut:* - +
 *Kampf:* - +
 *Beschreibung:* Der Schwertmeister erhält pro Kampfrunde eine zusätzliche xref:../../core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktion], die er ausschließlich für den Einsatz des Talents xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] verwenden kann.
-Er kann diese Fähigkeit nicht nutzen, wenn er xref:../../core/core_rules_battlesystem.adoc#ref_condition_corned[Bedrängt] ist. +
+Er kann diese Fähigkeit nicht nutzen, wenn er xref:../../core/core_rules_d10_system.adoc.adoc#ref_core_condition_corned[Bedrängt] ist. +
 

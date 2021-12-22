@@ -1,7 +1,7 @@
 = Wurfwaffen
 
 |===
-|Name |Attribut |Größe |Schadenswürfel |Gewicht |Preis |Grundreichweite
+|Name |Attribut |Größe |Schadensbonus |Gewicht |Preis |Grundreichweite
 
 |Netz ^1^
 |ST
@@ -14,7 +14,7 @@
 |Wurfaxt
 |ST
 |4
-|1W8+1
+|0
 |0.5
 |7
 |9
@@ -22,7 +22,7 @@
 |Wurfdolch
 |GE
 |4
-|2W4
+|0
 |0.25
 |6
 |9
@@ -30,7 +30,7 @@
 |Wurfspeer
 |ST
 |6
-|2W4+2
+|+1
 |1
 |15
 |12
@@ -38,7 +38,7 @@
 |Wurfstern
 |GE
 |4
-|2W6
+|+1
 |0.25
 |35
 |12

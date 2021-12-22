@@ -10,7 +10,7 @@ Der primäre Kreaturentyp ist typischerweise nicht relevant, außer dieser verbi
 Untote verlieren den sekundären Typ Lebend.
 * Jeder Untote besitzt eine <<ref_undead_powerlevel, Machtstufe>>.
 Machtstufen beschrieben die Stärke von Untoten auf einer abstrakten Ebene und haben vorallem Einfluss, wie unabhängig ein Untoter agieren kann und welche Zaubersprüche auf Ihn wirken.
-* Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_create_undead.adoc[Tabelle].
+* Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
 * Je nachdem welchen Untoten ein Nekromant erschaffen möchte, ist zunächst dessen Machtstufe zu ermitteln, entweder als Angabe im xref:../../../../bestiary/index.adoc#ref_bestiary_undead[Bestiarium] oder anhand o.g. Tabelle.
 Er muss dazu den angegebenen Zauberspruch beherrschen und erfolgreich aussprechen.
 * Sofern nicht anders angegeben, steht der Untote nicht sofort unter der Kontrolle des Schöpfers.
@@ -23,7 +23,7 @@ So ist ein Untoter der Machtstufe 0 der primitivste Typ, der konstante Kontrolle
 Auf der anderen Seite sind Untote ab Machtstufe 10, sowie 11 und mehr, autonome, teilweise vollständige Persönlichkeiten mit erschreckendem Verstand und einer großen Vielfalt an Fähigkeiten.
 
 Abhängig von der Machtstufe entfalten sich die Fähigkeiten eines Untoten.
-Die Übersicht findet sich in dieser link:../../../tables/table_create_undead.adoc[Tabelle].
+Die Übersicht findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
 Die Einträge werden im Folgenden beschrieben.
 
 [[ref_undead_powerlevel_steps]]
@@ -56,6 +56,10 @@ Er verliert somit nie Punkte und kann diese auch nicht einsetzen.
 * *1/2 Original:* Der Untote besitzt 1/2 Punkte des jeweiligen, originalen Punktepools (abgerundet, mindestens 1).
 
 * *Original:* Der Untote besitzt in diesem Punktepool seine originalen Punkte.
+
+[[ref_undead_powerlevel_fear_skill]]
+==== Furcht
+Untote erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] auf der angegeben Stufe.
 
 [[ref_undead_powerlevel_personality]]
 ==== Persönlichkeit
@@ -107,36 +111,42 @@ Um Zerfall aufzuhalten, sind üblicherweise weitere magische Aktionen nötig, wi
 
 [[ref_undead_general_rules]]
 === Allgemeine Regeln
-
 In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Untote von anderen Wesen abweichen.
 
 * Alle Untoten sind gegen die Effekte folgender Proben immun, d.h. sie bestehen diese Proben automatisch:
-** xref:../../../core/core_rules_d10_system.adoc#ref_base_roll_poisonsickness[Gift und Krankheiten]
-** xref:../../../core/core_rules_d10_system.adoc#ref_base_roll_fearhorror[Furcht, Horror und Ekel]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel], xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht], xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
 * Untote sind gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
 Beispielsweise kann kein Untoter verspottet werden oder zur Raserei gezwungen werden.
-* Untote erleiden weniger Nachteile durch besondere Schadensarten:
-** Feuerschaden wirkt normal, jedoch verursachen brennende Kleider keinen zusätzlichen Schaden (außer bei brennbaren Untoten).
-** Schockschaden wird grundsätzlich halbiert und Untote können dadurch nicht paralysiert werden.
-** Frostschaden wird grundsätzlich halbiert und Untote erleiden keinen Malus.
-** Säureschaden wirkt normal, allerdings ist es Untoten egal, ob ihr Gesicht etc. weggeätzt wird. Sie erleiden keine Mali.
-** Magieschaden wirkt normal.
-** Mentaler Schaden wirkt grundsätzlich nie.
-* Untote sind immun gegenüber folgenden xref:../../../core/core_rules_battlesystem.adoc#ref_conditions[Besonderen Situationen] im Kampf:
-** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig]
-** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_exhausted[Erschöpft]
-** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_blind[Blind]
-** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_dazed[Benommen]
-** xref:../../../core/core_rules_battlesystem.adoc#ref_condition_unconscious[Ohnmächtig]
+* Untote sind immun gegenüber folgenden xref:../../../core/core_rules_d10_system.adoc#ref_core_conditions[Besonderen Situationen] im Kampf:
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_disabled[Kampfunfähig]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_blind[Blind]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
 * Untote können perfekt in Dunkelheit oder grellen Licht sehen, daher gelten die Modifikatoren für xref:../../../core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] nicht.
 * Untote verlieren nie SP oder werden wahnsinnig.
 * Untote sind immun gegenüber Zaubersprüchen und Effekten, die ihren Körper verwandeln.
-* Grundsätzlich braucht kein Untoter Nahrung, jedoch gibt es manche Untote, die in regelmäßigen Abständen „essen“ müssen, um zu agieren.
+* Grundsätzlich braucht ein Untoter keine Nahrung, jedoch gibt es manche Untote, die in regelmäßigen Abständen „essen“ müssen, um zu agieren.
 Für gewöhnlich regenerieren Untote auch keine TP und MP, da sie nicht schlafen.
 Mächtige Untote regenerieren TP und MP meistens durch die erwähnte Nahrung.
-* Untote können zwar durch genug Krafteinschaft xref:../../../core/core_rules_battlesystem.adoc#ref_battle_knockdown[niedergeschlagen] werden, allerdings erhalten sie nie xref:../../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
+* Untote können zwar durch genug Kraft xref:../../../core/core_rules_battlesystem.adoc#ref_battle_knockdown[niedergeschlagen] werden, allerdings erhalten sie nie xref:../../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
 Selbst zerstückelte Untote können noch agieren.
 Erst die Reduzierung auf 0 TP vernichtet Untote endgültig.
 Dabei gilt, dass Untote sofort zerstört werden, wenn ihre TP das erste Mal auf 0 sinken.
 Verletzungen können Untote nicht auf 0 TP reduzieren oder sie „töten“.
 Untote der Machtstufe 10 oder höher werden für gewöhnlich vernichtet, wenn ihr Kopf abgeschlagen wird.
+
+[[ref_undead_skills]]
+=== Fähigkeiten
+Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
+
+* <<ref_undead_powerlevel_fear_skill, Furcht>>
+* link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_frost[Frost])
+* link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_mental[Mental])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_shock[Schock])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+

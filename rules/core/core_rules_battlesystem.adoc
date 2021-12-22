@@ -148,9 +148,9 @@ Jeder Charakter kann pro Kampfphase eine Aktion durchführen, daher muss er sich
 ==== Angriff
 Mit dieser Aktion initiiert der Charakter einen Nahkampf mit einem Gegner in unmittelbarer Reichweite.
 
-Der Charakter darf *nicht* bereits im <<ref_condition_bondedincombat, Kampf gebunden>> sein.
+Der Charakter darf *nicht* bereits im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] sein.
 Er kann maximal die Hälfe seiner BEW entfernt sein und muss diese einsetzen, um sich auf den Gegner zu zubewegen.
-Er muss außerdem eine Angriffsprobe würfeln.
+Er muss außerdem eine xref:core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] würfeln.
 Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
 
 Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als im Kampf gebunden.
@@ -201,7 +201,7 @@ Zum Einsatz würfelt der Charakter eine reguläre Probe auf Unbewaffneten Kampf.
 Ist diese erfolgreich, verursacht er halbierten <<ref_battle_damagerolls, Schaden>>.
 Die beiden Kontrahenten würfeln nun eine konkurrierende ST-Probe.
 Derjenige, der mehr Erfolge gewürfelt hat, hat den Gegner im Griff.
-Dieser gilt als <<ref_condition_immobile, gefangen>>.
+Dieser gilt als xref:core_rules_d10_system.adoc#ref_core_condition_immobile[gefangen].
 
 Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfrunde eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
 Dieser Versuch gilt als das Manöver <<ref_battle_move_standup, befreien>>.
@@ -236,7 +236,7 @@ Er muss sich daher zwischen den folgenden Aktionen entscheiden.
 
 [[ref_battle_move_standup]]
 ==== Aufstehen / Befreien
-Befindet sich der Charakter in der Kampfphase in einer <<ref_conditions, Situation>>, die es ihm erlaubt, sich zu befreien oder aufzustehen, kann er dieses Manöver einsetzen, um sich aufzurichten.
+Befindet sich der Charakter in der Kampfphase in einer xref:core_rules_d10_system.adoc#ref_core_conditions[besonderen Situation], die es ihm erlaubt, sich zu befreien oder aufzustehen, kann er dieses Manöver einsetzen, um sich aufzurichten.
 
 Je nach Situation kann allerdings eine zusätzliche Probe nötig sein.
 
@@ -267,7 +267,7 @@ Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 [[ref_battle_freeactions]]
 === Freie Aktionen
 *Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
-Grundsätzlich kann der Charakter also beliebig viele Freie Aktionen durchführen, allerdings darf er jede konkrete Freie Aktion nur einmal pro Kampfphase anwenden, zum Beispiel kann der Charakter einen Heiltrank trinken  oder seinen Zauberstecken verwenden.
+Grundsätzlich kann der Charakter also beliebig viele Freie Aktionen durchführen, allerdings darf er jede konkrete Freie Aktion nur einmal pro Kampfphase anwenden, zum Beispiel kann der Charakter einen Heiltrank trinken oder seinen Zauberstecken verwenden.
 Beide Aktionen fallen unter <<ref_battle_freeactions_useitem, Gegenstand verwenden>>, daher muss er sich für eines von beiden entscheiden.
 Freie Aktionen können nur angewendet werden, wenn der Charakter an der Reihe ist.
 
@@ -300,7 +300,7 @@ Die Verwendung und der Effekt des Gegenstandes ist im Normalfall in der Beschrei
 
 [[ref_battle_freeactions_quickstep]]
 ==== Schneller Schritt
-Hat der Charakter in der aktuellen Kampfphase nicht eines der Manöver <<ref_battle_move_useBEW>> oder <<ref_battle_complexactions_sprint>> eingesetzt und ist er nicht im <<ref_condition_bondedincombat, Kampf gebunden>>, darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
+Hat der Charakter in der aktuellen Kampfphase nicht eines der Manöver <<ref_battle_move_useBEW>> oder <<ref_battle_complexactions_sprint>> eingesetzt und ist er nicht im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden], darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
 
 Dieser Schritt folgt den Regeln für <<ref_battle_rules_movement, Bewegung>>, verursacht aber keinen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
 
@@ -331,13 +331,18 @@ In diesem Fall erhält er einen Bonus von +2 auf die Würfe zum Erfolg.
 Das betroffene Attribut ist dabei unerheblich.
 
 [[ref_battle_reaction_usetalent]]
-==== Talent einsetzen (Reaktion)
+==== Talente einsetzen (Reaktion)
 Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen].
 
 [[ref_battle_complexactions]]
 === Komplexe Aktionen
 Als *komplexe Aktionen* werden Manöver bezeichnet, die in einer Kampfphase sehr viel Aufmerksamkeit eines Charakters erfordern.
 Komplexe Aktionen erfordern den Einsatz der <<ref_battle_actions, Aktion>> und des <<ref_battle_movefightaction, Bewegungsmanövers>>, welches ein Charakter im Normalfall zur Verfügung hat.
+Hat ein Charakter keine Aktion oder kein Bewegungsmanöver, aber den jeweils anderen Anteil, kann er keine komplexe Aktion durchführen.
+
+[[ref_battle_bonusactions]]
+=== Bonus-Aktionen
+//TODO
 
 [[ref_battle_complexactions_sprint]]
 ==== Sprinten
@@ -353,7 +358,7 @@ Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
 Er muss mindestens die Hälfte seiner BEW-Rate und maximal seine volle BEW-Rate von seinem Gegner in gerader Linie entfernt sein.
 Diese Linie darf nicht durch Hindernisse oder andere Kreaturen blockiert sein.
-Außerdem darf der Charakter nicht im <<ref_condition_bondedincombat, Kampf gebunden>> sein.
+Außerdem darf der Charakter nicht im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] sein.
 
 Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
 Seine
@@ -366,7 +371,7 @@ Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 ==== Zurückweichen / Flucht
 Neben Angriff ist auch manchmal die Flucht die beste Verteidigung, wenn man einer Übermacht oder einem starken Gegner gegenüber steht.
 
-Ist ein Charakter im <<ref_condition_bondedincombat, Kampf gebunden>>, kann er diese Aktion wählen, um sich aus dem Kampf zurückzuziehen.
+Ist ein Charakter im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden], kann er diese Aktion wählen, um sich aus dem Kampf zurückzuziehen.
 
 Ein Charakter kann in einer Runde, in der er Zurückweichen einsetzen, seine gesamte BEW-Rate einsetzen, um sich von seinem Kontrahenten zu entfernen.
 In diesem Fall provoziert der Charakter keinen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>, wenn er sich die durch Bedrohungszonen seiner Gegner bewegt.
@@ -719,9 +724,12 @@ Erreicht eine Fernangriffsprobe hingegen diese Mindestanzahl nicht, so gilt die 
 [[ref_battle_modifiers_ranged]]
 === Fernkampfmodifikatoren
 
-Für die Angriffswürfe gelten folgende Modifikatoren wie im Nahkampf:Deckung, Dunkelheit, Höhenunterschiede und Größenunterschiede werden äquivalent behandelt.
+Für die Angriffswürfe im Fernkampf gelten folgende Modifikatoren wie im Nahkampf:
 
-Weitere Modifikatoren sind:
+* <<ref_battle_modifiers_coverage, Deckung>>
+* <<ref_battle_modifiers_darkness, Dunkelheit>>
+* <<ref_battle_modifiers_height, Höhenunterschiede>>
+* <<ref_battle_modifiers_size, Größenunterschiede>>
 
 [[ref_battle_modifiers_ranged_increment]]
 ==== Reichweite
@@ -859,7 +867,7 @@ Diese gelten insbesondere für <<ref_battle_move_useBEW>> und <<ref_battle_compl
 [[ref_battle_rules_movement_occupiedspaces]]
 === Besetzte Gebiete
 Ein Gebiet gilt als *besetzt*, sobald eine beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem Bewusstsein ist.
-<<ref_condition_disabled, Paralysierte>> oder <<ref_condition_unconscious, ohnmächtige>> Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
+xref:core_rules_d10_system.adoc#ref_core_condition_dazed[kampfunfähige] oder xref:core_rules_d10_system.adoc#ref_core_condition_unconscious[ohnmächtige] Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
 
 Ein Charakter darf ein oder mehrere Kacheln nicht durchqueren oder betreten, wenn ein feindlich gesonnenes Wesen diese besetzt.
 Freundlich gesonnene Wesen können den Charakter vorbeilassen, jedoch muss dieser pro Feld, dass auf diese Weise freigegeben wird, die doppelte BEW investieren.
@@ -927,70 +935,6 @@ Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich un
 
 Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich im Allgemeinen nicht dagegen verteidigen.
 
-[[ref_conditions]]
-== Besondere Situationen
-
-[[ref_condition_corned]]
-=== Bedrängt
-Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 andere Charakter ihn im Nahkampf attackieren. Ein bedrängter Charakter erhält *-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
-
-Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
-Es gelten auch diagonal attackierende Gegner zu der Rechnung.
-
-Größere Kreaturen (GK 6 oder mehr) sind von kleineren Kreaturen schwerer zu bedrängen.
-Ist eine Kreatur eine Größenkategorie kleiner, so bedrängt sie die größere Kreatur nur dann, wenn sie einen Kollegen gleicher GK dabei hat.
-Eine Kreatur der Größenkategorie 6 ist also erst von 6 Kreaturen der Größenkategorie 5 bedrängt.
-Dies setzt sich fort, und zwar ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der Größenkategorie 5 bedrängt usw.
-
-[[ref_condition_dazed]]
-=== Benommen
-Ein Charakter, der durch eine Verletzung oder einen anderen Umstand den Zustand „Benommen“ erhält, steht kurz vor einer Ohnmacht, ist jedoch noch in der Lage, einige Manöver durchzuführen.
-
-Er kann keine <<ref_battle_actions, Aktionen>> und <<ref_battle_reactions, Reaktionen>>, allerdings <<ref_battle_movefightaction, Manöver>> einsetzen, seine BEW-Rate ist halbiert und er erhält einen Malus von *-1 auf die Würfe zum Erfolg*.
-
-Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfphasen.
-Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
-
-[[ref_condition_blind]]
-=== Blind
-//TODO
-
-[[ref_condition_exhausted]]
-=== Erschöpft
-Ein erschöpfter Charakter kann in einer Kampfphase nur <<ref_battle_movefightaction, Manöver>> und <<ref_battle_reactions, Reaktionen>> verwenden.
-Außerdem ist seine BEW-Rate halbiert.
-
-Der Charakter muss mindestens eine xref:core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[kurze Pause] einlegen, um die Erschöpfung loszuwerden.
-
-[[ref_condition_bondedincombat]]
-=== Gebunden
-Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben einem Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
-Der Ausgang dieser Probe ist dabei nicht relevant.
-
-[[ref_condition_immobile]]
-=== Gefangen
-Ein gefangener Charakter hat eine effektive BEW-Rate von 0.
-Er kann weiterhin <<ref_battle_actions, Aktionen>> und <<ref_battle_movefightaction, Manöver>> durchführen, solange er dazu keine BEW einsetzen muss.
-Um diese Situation zu beenden, muss er sich <<ref_battle_move_standup, befreien>>.
-
-[[ref_condition_disabled]]
-=== Kampfunfähig
-Kampfunfähige Charaktere können gar keine Aktionen oder Kampfmanöver mehr durchführen und müssen üblicherweise wieder <<ref_battle_move_standup, aufstehen>>, sobald sie an der Reihe sind.
-
-[[ref_condition_unconscious]]
-=== Ohnmächtig
-Ein ohnmächtiger Charakter kann weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
-Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen.
-
-[[ref_condition_invisible]]
-=== Unsichtbar
-//TODO
-
-[[ref_condition_surprise]]
-=== Überrascht
-Ein überraschter Charakter kann in der Kampfphase keine <<ref_battle_actions, Aktionen>> ansagen.
-Alle <<ref_battle_reactions, Reaktionen>> erhalten einen Malus von *-1 auf die Würfe zum Erfolg*.
-
 [[ref_battle_damage]]
 == Schaden
 Nach der Bestimmung der Erfolge einer Angriffsprobe folgt die Kalkulation des Schadens, auch <<ref_battle_damagerolls, Schadenswurf>> genannt.
@@ -1010,45 +954,59 @@ Eine erfolgreiche Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die Anz
 
 Ein Treffer verursacht *Schaden*, der sich je nach Art des Treffers anders berechnet.
 Man nennt dies den *Schadenswurf*.
-Diese setzt sich aus den folgenden Komponenten zusammen: die Anzahl der Erfolge der Angriffsprobe, im Folgenden abgekürzt durch *AnzE*, sowie die zugehörigen Attributsstufe wie zum Beispiel ST oder EN und der *Schadenswürfel*, abgekürzt SW.
+Dieser Wurf besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6), welche durch die *Schadensstufe* bestimmt wird.
+Die Übersicht mit welcher Schadensstufe man welche Würfel verwenden darf, findet man in dieser link:../tables/table_dice_damage.adoc[Tabelle].
+
+.Schadensstufe
+====
+Ein erfolgreicher Angriff führt zu einem Treffer.
+Dabei wird eine Schadensstufe von 13 ermittelt, wodurch der Schadenswurf mit 4W6 gewürfelt.
+====
+
+Um die Schadensstufe zu berechnen, sind folgende Komponenten zu beachten:
+
+* die Größenkategorie der Waffe / die Größenkategorie des Charakters
+* die Stufe des zugehörigen Attributs, wie zum Beispiel ST oder GE
+* der *Schadensbonus* der Waffe, abgekürzt SB
+* die Anzahl der Erfolge der Angriffsprobe, im Folgenden abgekürzt durch *AnzE*
 
 Folgende Übersicht gibt Auskunft über die Berechnungen:
 
-* Nahkampfwaffen (Einhändige Waffen): *AnzE + ST + SW*
-* Nahkampfwaffen (Zweihändige Waffen): *AnzE + (ST*2) + SW*
-* Projektilwaffen: *AnzE + ST + SW*
-* Projektilwaffen (mechanisch): *AnzE + SW*
-* Wurfwaffen: *AnzE + ST + SW*
-* Unbewaffneter Kampf: *AnzE + ST + SUW*
-* Natürliche Waffen: *AnzE + ST + SW*
-* Spruchzauberei: *AnzE + EN + SW*
+* Nahkampfwaffen: *GK + Stufe + SB + AnzE*
+* Projektilwaffen: *GK + Stufe + SB + AnzE*
+* Projektilwaffen (mechanisch): *GK + SB + AnzE*
+* Wurfwaffen: *GK + Stufe + SB + AnzE*
+* Natürliche Waffen: *GK + Stufe + SB + AnzE*
+* Unbewaffneter Kampf: *GK (Charakter) + AnzE + ST + SB*
 
 Das Endergebnis wird die *Schadenspunkte* genannt.
-Speziell der Eintrag unter Spruchzauberei wird als *Magieschadenswurf* bezeichnet.
 
 .Schadenswürfe
 ====
-Kraag greift ein durch Nekromantie erschaffenen Untoten an.
+Kraag greift einen durch Nekromantie erschaffenen Untoten an.
 Bei seiner Angriffsprobe im Nahkampf erreicht er 5 Erfolge.
-Seine Attributsstufe in Stärke beträgt 4 und die Schadenswürfel seiner Waffe ist 2W6.
-Er würfelt mit den 2W6 eine 6.
-Seine Angriff verursacht damit 5+4+6 = 15 Schadenspunkte.
+Seine Attributsstufe in Stärke beträgt 4 und er führt ein Langschwert mit Größe 6 und Schadensbonus 0.
+Somit beträgt die Schadensstufe 6 + 4 + 0 + 5 = 15.
+Die Schadenwürfel betragen damit 4W6.
 ====
 
-.Schadenswürfe
-====
-Me'ander benutzt einen Zauberspruch, der einen Treffer mit 3W8 Schadenspunkten verursacht.
-Me'ander besitzt eine Attributsstufe in Energie von 5 und erwürfelt 4 Erfolge bei seiner Spruchzauberei-Probe.
-Damit kann er 4+5+3W8 Schadenspunkte verursachen.
-====
-
-Beachte, dass im Unbewaffneten Kampf die Schadenswürfel durch die Attributseigenschaft Schaden im Unbewaffneten Kampf, xref:core_rules_charactercreation.adoc#ref_secondary_unarmedbonus[SUW], bestimmt wird.
 Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für natürliche Waffen.
+
+[[ref_battle_damagerolls_spells]]
+==== Schadenswürfe für Zaubersprüche
+
+Offensive Zaubersprüche verursachen oft auch Schadenspunkte durch Schadenswürfe.
+Dabei wird zwischen zwei Varianten unterschieben: entweder gibt der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_effect[Effekt] direkt eine Würfelkombination vor oder einen Schadensbonus.
+
+Bei einer konkreten Vorgabe werden die entsprechenden Würfel verwendet.
+Im anderen Fall wird analog zu den Schadensstufen vom bewaffneten Kampf berechnet:
+
+* Spruchzauberei: *EN + SB + AnzE*
+
+Im Fall von Spruchzauberei ist das zugehörige Attribut immer xref:core_rules_charactercreation.adoc#ref_attribute_energy[EN].
 
 [[ref_battle_armor]]
 === Rüstung
-Nachdem der Gesamtschaden ermittelt wurde, werden Rüstung und xref:ref_battle_damageresistence[Schadensresistenzen] abgezogen.
-
 Rüstungsschutz oder einfach Rüstung bieten entsprechende Rüstungen, die der Charakter am Körper trägt.
 Die Rüstungspunkte, die die Rüstung gewährt, werden vom Gesamtschaden abgezogen.
 Es gibt Situationen, in denen Rüstung keinen Schutz bietet.
@@ -1057,15 +1015,8 @@ Schadenspunkte werden von den Trefferpunkten des Charakters abgezogen.
 Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalten von Schadenspunkten.
 Beide Aussagen sind äquivalent.
 
-Der SL kann jederzeit eine andere Standardtrefferzone festlegen, wenn er der Ansicht ist, dass die Charaktere den Torso nicht treffen können.
+Der SL kann jederzeit eine andere <<ref_battle_hitzones, Standardtrefferzone>> festlegen, wenn er der Ansicht ist, dass die Charaktere den Torso nicht treffen können.
 So kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als Standard-Trefferzone für den Menschen die Beine des Drachen haben.
-
-[[ref_battle_damageresistence]]
-=== Schadensresistenz
-Schadensresistenzen bieten zusätzliche Reduzierungen gegenüber einer bestimmten xref:ref_battle_damage_types[Schadensart].
-Schadensresistenzen kommen natürlicherweise nur dann zum Tragen, wenn die verursachten Schadenspunkte aus einer Quelle stammt, die diesen Schaden verursacht.
-
-Grundsätzlich wird _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensresistenz_.
 
 [[ref_battle_naturalarmor]]
 === Natürliche Rüstung
@@ -1119,7 +1070,6 @@ Waffen, die nicht-tödlichen Schaden verursachen, können keinen tödlichen Scha
 
 [[ref_battle_damage_types]]
 === Schadensarten
-
 Bisher haben wir Schaden sehr allgemein gefasst und unterschiedliche Quellen des Schadens nicht bedacht.
 
 Ist eine spezielle Schadensart angegeben, dann hat der erlittene Schaden meistens eine zusätzliche Wirkung auf den betroffenen Charakter, die weiter unter beschrieben wird.
@@ -1146,12 +1096,10 @@ Schadensresistenzen wirken sich immer nur auf die eine Schadensart aus.
 
 Folgende Schadensarten sind in den Grundregeln abgedeckt.
 Sofern nicht anders angegeben, reduzieren die Schadenspunkte die TP eines Charakters und normale Rüstung reduziert den Schaden.
-Wird ein Guter Erfolg bei der Angriffsprobe erzielt, tritt ein zusätzlicher Effekt ein.
 
 [[ref_battle_damage_physical]]
 ==== Physisch
-
-Als physicher oder körperlicher Schaden wird jeder Schaden bezeichnet, der durch fassbare Gegenstände oder Objekte entsteht.
+Als physischer oder körperlicher Schaden wird jeder Schaden bezeichnet, der durch fassbare Gegenstände oder Objekte entsteht.
 Dies können Waffen sein, Fäuste eines Trolls oder eine Kanonenkugel sein.
 Ebenso zählt der harte Fußboden als Objekt, auf den der Charakter fällt, wenn er stolpert.
 
@@ -1161,10 +1109,10 @@ Dieser Schaden wird von den TP abgezogen und es schützt normale Rüstung.
 [[ref_battle_damage_fire]]
 ==== Feuer
 
-Das Feuer ist eine zerstörerische und unbändige Kraft, die solange konsumiert, bis nichts mehr da ist.
+Das Feuer ist eine zerstörerische und unbändige Kraft, die so lange konsumiert, bis nichts mehr da ist.
 Feuerschaden kann viele Quellen haben, vom Lagerfeuer bis zum Waldbrand, viele Zaubersprüche nutzen die Kraft des Feuers oder auch Kreaturen und Konstrukte, die Feuer spucken.
 
-Als zusätzlicher Effekt wird der Charakter entzündet und erleidet für 1W6 Kampfphasen am Anfang jeder Kampfphase 1W3 Feuerschaden.
+Erreicht der Feuerschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Feuerschaden.
 
 [[ref_battle_damage_frost]]
 ==== Frost
@@ -1173,7 +1121,7 @@ Eiskalt und lebensfeindlich ist der Frost.
 Er lässt sogar den Atem gefrieren und das Blut in den Adern stillstehen.
 Frost-Schaden kommt natürlicherweise in besonders kalten Gebieten vor, wie zum Beispiel die Eiswüsten nördlich von Kchrun.
 
-Als zusätzlichen Effekt erleidet der Charakter einen Kälteschock und erleidet für 1W6 Kampfphasen einen Malus von -5 auf einen INI-Wert.
+Erreicht der Frostschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Frostschaden.
 
 [[ref_battle_damage_acid]]
 ==== Säure
@@ -1182,7 +1130,7 @@ Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende Säuren 
 Ätzende Gase werden von dieser Regel auch betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten assoziiert wird.
 Manche der Säuren gehören zum Verdauungsprozess einer Kreatur oder sind ein Abwehrmechanismus.
 
-Als zusätzlicher Effekt wird der Charakter weiter verätzt und erleidet für 1W6 Kampfphasen am Anfang jeder Kampfphase 1W3 Säureschaden.
+Erreicht der Säureschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Säureschaden.
 
 [[ref_battle_damage_shock]]
 ==== Schock
@@ -1190,7 +1138,7 @@ Als zusätzlicher Effekt wird der Charakter weiter verätzt und erleidet für 1W
 Schock-Schaden ist elektrisierende Energie, die durch den Körper ihrer Opfer fließt und diese lähmt.
 Typische Quellen sind Blitzschläge, natürliche, wie magische, bestimmte technomantische Spielzeuge und diverse Phänomene, die auf statischer Ladung beruhen.
 
-Als zusätzlichen Effekt erleidet der Charakter einen körperlichen Schock, er ist für eine Kampfphase benommen.
+Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Schockschaden.
 
 [[ref_battle_damage_aether]]
 ==== Aetherisch
@@ -1199,7 +1147,6 @@ Aetherischer Schaden greif nicht den Körper des Ziels, sondern seine Verbindung
 Durch wird dem Opfer die Energie entzogen, die es ihm erlaubt, Zauber zu wirken.
 
 Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
-Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
 [[ref_battle_damage_magic]]
 ==== Magie
@@ -1208,7 +1155,6 @@ Kanalisierte, magische Energie verursacht diese Art von Schaden.
 Sehr häufig ist dies bei Zaubersprüchen der Fall und bei einigen magischen Phänomenen.
 
 Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
-Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
 [[ref_battle_damage_mental]]
 ==== Mental
@@ -1218,7 +1164,6 @@ Mentaler Schaden greift nicht die TP des Charakters an, sondern die Stabilitäts
 Der mentale Schaden wird normal ausgewürfelt und dann von den SP abgezogen.
 
 Gegen diese Art von Schaden schützt keine normale Rüstung.
-Es existiert kein zusätzlicher Effekt bei einem Guten Erfolg.
 
 [[ref_battle_damage_necrotic]]
 ==== Nekrotisch
@@ -1228,41 +1173,75 @@ Nur wenige Lebewesen überstehen Schaden aus dieser Quelle mit weniger als nur k
 
 Gegen diese Art von Schaden schützt keine normale Rüstung.
 
-Als zusätzlicher Effekt erleidet der Charakter 1W6 SP Schaden.
+Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters,erleidet er zusätzlich 1W3 <<ref_battle_damage_mental, mentalen>> Schaden.
 
 [[ref_battle_damage_illusionary]]
 ==== Illusionär
 Mache Zaubersprüche der Zauberschule xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus] und eventuelle andere, exotischere Quellen können illusionären Schaden verursachen.
 Dieser Schaden tritt nur auf, wenn das Opfer wirklich daran glaubt, verwundet worden zu sein.
-Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_d10_system.adoc#ref_base_roll_douptillusions[Illusion Durchschauen]-Probe würfeln.
+Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_d10_system.adoc#ref_core_base_rolls_douptillusions[Illusion Durchschauen]-Probe würfeln.
 Ist diese erfolgreich, nimmt er keinen Schaden.
 Sollte er überzeugt sein, dass er den Schaden erhält, wird eine Schadensprobe gewürfelt.
 Gegen diesen Schaden schützt keine normale Rüstung.
 
-[[ref_battle_damage_poison]]
-==== Gift
-
-//TODO:
-Der Charakter muss einen xref:core_rules_d10_system.adoc#ref_core_saves_constitution[Rettungswurf auf Konstitution] würfeln.
-Bei einer erfolgreichen Probe halbiert sich der Gift-Schaden (abgerundet, kann 0 betragen).
-Unabhängig vom Erfolg, Gift-Schaden kann durch keine Rüstung vermindert werden, außer diese erlaubt es explizit.
-
 ==== Übersicht der Schadensarten
 [cols=",,,",options="header"]
 |===
-|Schadensart |Pool |Normale Rüstung schützt |Zusätzlicher Effekt
-|Physisch |TP |Ja |Nein
-|Feuer |TP |Ja |Ja
-|Frost |TP |Ja |Ja
-|Säure |TP |Ja |Ja
-|Schock |TP |Ja |Ja
-|Aetherisch |MP |Nein |Nein
-|Magie |TP |Nein |Nein
-|Mental |SP |Nein |Nein
-|Nekrotisch |TP |Nein |Ja
-|Illusionär |TP |Nein |Ja
-|Gift |TP |Nein |Nein
+|Schadensart |Pool |Normale Rüstung schützt
+|Physisch |TP |Ja
+|Feuer |TP |Ja
+|Frost |TP |Ja
+|Säure |TP |Ja
+|Schock |TP |Ja
+|Aetherisch |MP |Nein
+|Magie |TP |Nein
+|Mental |SP |Nein
+|Nekrotisch |TP |Nein
+|Illusionär |TP |Nein
 |===
+
+[[ref_battle_damageresistence]]
+=== Schadensresistenz
+Schadensresistenzen bieten zusätzlichen Schutz gegenüber einer bestimmten xref:ref_battle_damage_types[Schadensart].
+Schadensresistenz halbiert (abgerundet, minimal 1) den angerichteten Schaden aus der Schadensquelle.
+
+Grundsätzlich wird _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensresistenz_.
+
+[[ref_battle_damageimmunity]]
+=== Schadensimmunität
+Besitzt ein Charakter oder eine Kreatur eine Schadensimmunität gegenüber einer bestimmten xref:ref_battle_damage_types[Schadensart], so verursacht ein Treffer mit dieser Schadensart keine Schadenspunkte.
+
+Besteht der Treffer aus Schadenspunkten aus unterscheidlichen xref:ref_battle_damage_types[Schadensarten], versuchen alle normalen Schaden, nur die Schadensart der Immunität wird auf 0 reduziert.
+
+[[ref_battle_damagevulnerability]]
+=== Schadensanfälligkeit
+Wie <<ref_battle_damageresistence, Schadensresistenz>> kommt in Verbindung mit einer xref:ref_battle_damage_types[Schadensart].
+Kreaturen mit einer Schadensanfälligkeit erleiden doppelten Schaden aus der jeweiligen Schadensquelle.
+
+Es wird ebenfalls _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensanfälligkeit_.
+
+[[ref_battle_damage_inevitable]]
+=== Unabwendbarer Schaden
+
+Manchem Schicksal kann man nicht entgehen.
+Schaden, welcher als unabwendbar gekennzeichnet ist, kann unabhängig von seiner xref:ref_battle_damage_types[Schadensart] nicht durch <<ref_battle_armor, Rüstung>>, <<ref_battle_naturalarmor, natürliche Rüstung>> oder <<ref_battle_damageresistence, Schadensresistenz>> verringert werden.
+Nur eine <<ref_battle_damageimmunity, Schadensimmunität>> schützt gegen unabwendbaren Schaden.
+
+[[ref_battle_damage_strain]]
+=== Überanstrengungsschaden
+Als Überanstrengungsschaden wird eine besondere, allgemeine Schadensart beschrieben, die entsteht, wenn ein Charakter oder eine Kreatur äußergewöhnliche Handlungen durchführt, die körperliche Anstrengung verursacht.
+
+Einige link:core_rules_skills.adoc[Fähigkeiten] oder manche Zaubersprüche können Überanstrengungsschaden verursachen, um sie einzusetzen.
+Auch xref:core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpfte] Charaktere können Überanstrengungsschaden erleiden.
+Überanstrengungsschaden entsteht somit normalerweise durch eine bewusste Entscheidung des Charakters und selten durch äußere Einwirkung.
+
+Überanstrengungsschaden gilt als <<ref_battle_damage_physical, physischer>>, <<ref_battle_damage_inevitable, unabwendbarer>> Schaden und es gelten die üblichen Regeln.
+Es gilt jedoch die Ausnahme, dass Überanstrengungsschaden keine <<ref_battle_wounds, Verletzungen>> verursacht.
+Sollte ein Charakter genug Überanstrengungsschaden erhalten, um seine xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] zu übertreffen, gelten die üblichen Regeln für den <<ref_battle_knockdown, Niederschlag>>.
+
+Wie in der Beschreibung zu <<ref_battle_damage_inevitable, unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_battle_damageimmunity, Schadensimmunität>>[<<ref_battle_damage_physical, Physisch>>] abgewendet werden.
+Kreaturen, die diese Schadensimmunität ausweisen, sind die einzigen Ausnahmen, in denen Überanstrengungsschaden nicht den Verlust von TP verursacht.
+Solche Kreaturen dürfen uneingeschränkt Fähigkeiten oder Talente (und so weiter) einsetzen, die Überanstrengungsschaden erfordern.
 
 [[ref_battle_hitzones]]
 == Trefferzonen
@@ -1296,6 +1275,51 @@ Aus obigen Beispiel von Kraags Kampf ergab sich ein Gesamtschaden von 15.
 Der Verteidiger besitzt keine Schadensresistenz, aber dafür eine Lederrüstung mit 4 Rüstungspunkten am Torso.
 Da der Angriff vorhin nicht explizit gegen eine andere Trefferzone geführt wurde, erhält der Verteidiger die 4 Punkte Rüstungsschutz.
 Also erleidet er 15-4 = 11 Schadenspunkte.
+====
+
+=== Variationen bei Trefferzonen
+
+Trefferzonen können jedoch auch variieren.
+Manche Wesen besitzen andere bzw. zusätzliche Trefferzonen:
+
+* Der Unterleib eines Centauren ist sein Pferdekörper.
+Treffer auf diesen werden mit der Tabelle für Verletzungen am Torso gewürfelt.
+Der Einfachheit halber gilt der Pferdekörper und der Menschliche Torso als eine Trefferzone.
+* Völker mit Flügeln haben zusätzliche Trefferzonen, nämliche ihre Flügel.
+Diese können nur attackiert werden, wenn der Gegner dem Charakter in den Rücken fällt.
+Wird ein Flügel getroffen, dann bestimmt man Verletzungen über die Verletzungstabelle der Arme.
+* Nicht-Humanoide haben auch Trefferzonen.
+Diese unzähligen Variationen aufzuzählen wäre sehr müßig, aber der SL kann sich durch die unteren Beispiele inspirieren lassen:
+** Pferd: Kopf, Torso, Beine
+** Schnecke: Kopf, Torso
+** Qualle: Kopf, Arme (sehr viele davon sogar)
+** Schleim: keine
+
+Es ist durchaus möglich, dass manche Kreaturen, z.B. die oben genannte Qualle durch den Verlust eines Armes nicht sofort sterben, obwohl dies eine tödliche Wunde nach optionalen Regeln wäre.
+Dabei ist zu bedenken, dass die Tabellen für humanoide Kreaturen aufgestellt wurden, deren durchschnittliche Anzahl an Gliedmaßen denen der Menschen nahe kommt.
+
+Daher ist es legitim, manche Effekte der Verletzungen zu ignorieren: die Qualle würde vielleicht den Arm verlieren, aber ihre TP würde nicht sofort auf -10 reduziert.
+
+=== Optional: Vereinfachung von Trefferzonen
+
+Die Aufteilung in Trefferzonen für Charaktere und für diverse Gegenspieler kann viel Extra-Management beinhalten.
+Diese optionale Regel ermöglicht daher eine einfachere Behandlung der Berechnung von Rüstungsschutz und Verletzungen.
+
+Folgende Änderungen gelten bei Anwendung dieser Regel:
+
+* Alle Verletzungsregeln werden normal angewendet, jedoch kumulieren sich Verletzungsgrade auf demCharakter, also gäbe es nur eine Trefferzone
+* Unterschiedliche Rüstungswerte für Trefferzonen werden nicht betrachtet.
+* Rüstungen, die den Torso bedecken, bleiben unverändert
+* Arm- und Beinschienen haben keine Effekt und werden als Teil der Torso-Rüstung betrachtet
+* Helme werden auf den Torso-Rüstungsschutz gerechnet. Ihre Mali werden angewendet.
+* Schilde funktionieren normal
+* Das Kampfmanöver Gezielter Schlag/Schuss nicht zur Verfügung.
+
+.Vereinfachung von Trefferzonen
+====
+Kraag trägt ein Kettenhemd mit Rüstungsschutz 7 und einem INI-Malus von -1.
+Dazu trägt er eine Kettenhaube mit Rüstungsschutz 5 und INI-Malus -1.
+Damit beträgt sein Rüstungsschutz 12 und sein INI-Malus -2.
 ====
 
 [[ref_battle_wounds]]
@@ -1359,6 +1383,7 @@ Dies bedeutet noch keine Mali auf die Würfe zum Erfolg.
 Erhält derselbe Charakter einen weiteren Treffer auf dieselbe Trefferzone, der insgesamt 12 oder mehr Schadenspunkte verursacht, so klettert der Verletzungsgrad auf Leicht und der Charakter hat ab dann einen verletzungsbedingten Malus von -1 auf die Würfelanzahl.
 ====
 
+[[ref_battle_wounds_steps]]
 === Höhere Verletzungsgrade durch höheren Schaden
 
 Wenn ein Charakter deutlich höheren Schaden als seinen WID erhält, kann er direkt einen höheren Verletzungsgrad erhalten und entsprechend eine schwierigere Niederschlags-Probe ablegen müssen.
@@ -1371,19 +1396,7 @@ Nun erhält er durch einen Angriff weitere 22 Schadenspunkte auf diese Trefferzo
 Der Charakter erhält damit eine Mittelschwere Verletzung.
 ====
 
-[[ref_battle_bleeding_wounds]]
-=== Optional: Blutende Wunden
-
-Am Anfang jeder Kampfrunde nach Erhalt einer Verletzung vom Verletzungsgrad Mittelschwer oder höher verliert der Charakter pro Blutende Wunde 1W3 TP ohne Rüstungsschutz.
-Wird er den Regeln nach ohnmächtig, hört die Blutung nicht auf.
-
-=== Optional: Heilung von blutenden Wunden
-
-Wird die optionale Regel von blutenden Wunden benutzt, so können diese wie folgt geheilt werden.
-Ein Heiler kann eine Blutende Wunde stoppen, in dem er für jede Blutende Wunde, die der Charakter erlitten hat, 2 Erfolge in Handwerk[Arzt] erreicht.
-Um dies zu tun, muss er die Wunde mit einem Pressumschlag versehen können.
-Er muss jede Blutende Wunde in einer einzelnen Handwerk[Arzt]-Probe behandeln.
-
+[[ref_battle_wounds_heavy_wounds]]
 === Optional: Besonders starke Verletzungen
 
 Die Verletzungsgrade ab Mittelschwer können weitere negative Folgen haben, sofern der SL dies wünscht.
@@ -1402,50 +1415,8 @@ Die folgende Tabelle gibt Auskunft über mögliche weitere Folgen.
 |Tödlich |Der Charakter stirbt sofort (TP sind bei -10) oder verliert ein Körperteil (bei Trefferzone Arme oder Beine).
 |===
 
-=== Variationen bei Trefferzonen
-
-Trefferzonen können jedoch auch variieren.
-Manche Wesen besitzen andere bzw. zusätzliche Trefferzonen:
-
-* Der Unterleib eines Centauren ist sein Pferdekörper.
-Treffer auf diesen werden mit der Tabelle für Verletzungen am Torso gewürfelt.
-Der Einfachheit halber gilt der Pferdekörper und der Menschliche Torso als eine Trefferzone.
-* Völker mit Flügeln haben zusätzliche Trefferzonen, nämliche ihre Flügel.
-Diese können nur attackiert werden, wenn der Gegner dem Charakter in den Rücken fällt.
-Wird ein Flügel getroffen, dann bestimmt man Verletzungen über die Verletzungstabelle der Arme.
-* Nicht-Humanoide haben auch Trefferzonen.
-Diese unzähligen Variationen aufzuzählen wäre sehr müßig, aber der SL kann sich durch die unteren Beispiele inspirieren lassen:
-** Pferd: Kopf, Torso, Beine
-** Schnecke: Kopf, Torso
-** Qualle: Kopf, Arme (sehr viele davon sogar)
-** Schleim: keine
-
-Es ist durchaus möglich, dass manche Kreaturen, z.B. die oben genannte Qualle durch den Verlust eines Armes nicht sofort sterben, obwohl dies eine tödliche Wunde nach optionalen Regeln wäre.
-Dabei ist zu bedenken, dass die Tabellen für humanoide Kreaturen aufgestellt wurden, deren durchschnittliche Anzahl an Gliedmaßen denen der Menschen nahe kommt.
-
-Daher ist es legitim, manche Effekte der Verletzungen zu ignorieren: die Qualle würde vielleicht den Arm verlieren, aber ihre TP würde nicht sofort auf -10 reduziert.
-
-=== Optional: Vereinfachung von Trefferzonen
-
-Die Aufteilung in Trefferzonen für Charaktere und für diverse Gegenspieler kann viel Extra-Management beinhalten.
-Diese optionale Regel ermöglicht daher eine einfachere Behandlung der Berechnung von Rüstungsschutz und Verletzungen.
-
-Folgende Änderungen gelten bei Anwendung dieser Regel:
-
-* Alle Verletzungsregeln werden normal angewendet, jedoch kumulieren sich Verletzungsgrade auf demCharakter, also gäbe es nur eine Trefferzone
-* Unterschiedliche Rüstungswerte für Trefferzonen werden nicht betrachtet.
-* Rüstungen, die den Torso bedecken, bleiben unverändert
-* Arm- und Beinschienen haben keine Effekt und werden als Teil der Torso-Rüstung betrachtet
-* Helme werden auf den Torso-Rüstungsschutz gerechnet. Ihre Mali werden angewendet.
-* Schilde funktionieren normal
-* Das Kampfmanöver Gezielter Schlag/Schuss nicht zur Verfügung.
-
-.Vereinfachung von Trefferzonen
-====
-Kraag trägt ein Kettenhemd mit Rüstungsschutz 7 und einem INI-Malus von -1.
-Dazu trägt er eine Kettenhaube mit Rüstungsschutz 5 und INI-Malus -1.
-Damit beträgt sein Rüstungsschutz 12 und sein INI-Malus -2.
-====
+[[ref_battle_wounds_curing_wounds]]
+=== Verletzungen heilen
 
 [[ref_battle_knockdown]]
 == Niederschlag
@@ -1453,7 +1424,7 @@ Damit beträgt sein Rüstungsschutz 12 und sein INI-Malus -2.
 Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer Verletzung einen *Niederschlag* erleiden kann.
 Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht, weil ihm "Schwarz vor Augen" wird oder weil er durch die Wucht des Angriffes niedergeschmettert wird.
 
-Immer wenn der Charakter eine Verletzung mit Verletzungsgrad Oberflächlich oder höher erhält, besteht die Gefahr, dass er niedergeschlagen wird.
+Immer wenn der Charakter eine Verletzung mit Verletzungsgrad oberflächlich oder höher erhält, besteht die Gefahr, dass er niedergeschlagen wird.
 Um dies zu prüfen, muss der Charakter eine Niederschlags-Probe ablegen.
 
 Die Anzahl der nötigen Erfolge wie folgt kalkuliert:
@@ -1469,10 +1440,7 @@ Die Anzahl der nötigen Erfolge wie folgt kalkuliert:
 |Tödlich |12
 |===
 
-Es gilt der aktuellste Verletzungsgrad, das heißt, dass vorher
-vorhandene Verletzungen an derselben Trefferzone zuerst verschlechtert
-werden und dann wird die nötige Anzahl von Erfolgen für die
-Niederschlags-Probe bestimmt.
+Es gilt der aktuellste Verletzungsgrad, das heißt, dass vorher vorhandene Verletzungen an derselben Trefferzone zuerst verschlechtert werden und dann wird die nötige Anzahl von Erfolgen für die Niederschlags-Probe bestimmt.
 
 .Niederschlag
 ====
@@ -1486,7 +1454,7 @@ Der Verletzungsgrad ist nur Oberflächlich, womit Elias eine Niederschlags-Probe
 Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad Leicht und die Niederschlags-Probe hätte gegen 3 Erfolge gewürfelt werden müssen.
 ====
 
-Misslingt die Niederschlagsprobe, dass gilt der Charakter als niedergeschlagen und ist <<ref_condition_disabled, *kampfunfähig*>>.
+Misslingt die Niederschlags-Probe, dass gilt der Charakter als niedergeschlagen und ist xref:core_rules_d10_system.adoc#ref_core_condition_disabled[kampfunfähig].
 
 Er kann jedoch wieder aufstehen, aber erst, wenn er an der Reihe ist.
 Hat er in der Kampfrunde, in der er niedergeschlagen wurde, noch eine Aktion frei, dann kann er diese nutzen, um aufzustehen.

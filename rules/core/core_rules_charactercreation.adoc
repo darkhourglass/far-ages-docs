@@ -123,7 +123,7 @@ Auch Hintergründe haben normalerweise CP-Kosten, die von den initialen Charakte
 Wie auch immer dieser Bonus aussieht, er kommt direkt bei der Charaktererschaffung einmalig zum Tragen.
 
 * *Startkapital:* Das Stadtkapital in Silbermünzen, welches der Charakter zu Beginn des Spiels erhält.
-Dies kann ein variabler Wert, angegeben in Form von Würfel sein, oder eine feste Zahl.
+Dies kann ein variabler Wert, angegeben in Form von Würfel, sein oder eine feste Zahl.
 Handelt es sich um einen Wert, der erwürfelt werden muss, muss dieser Wurf vor Spielbeginn erfolgen.
 
 * *CP:* Angabe der Charakterpunkte, die es kostet, diesen Hintergrund zu wählen.
@@ -283,7 +283,7 @@ Von Geschick sind die Attributseigenschaften <<ref_secondary_movementbonus,Beweg
 Die körperliche Kraft eines Charakters misst sich in diesem Attribut.
 Ein Charakter mit hohen Werten kann schwere Lasten tragen und heben, verursacht mehr Schaden im Kampf und wird einfacher mit schweren Waffen umgehen können.
 
-Die Attributseigenschaften <<ref_secondary_unarmedbonus,Schaden im Unbewaffneten Kampf>>, <<ref_secondary_maxcarringcapacity,Maximale Traglast>> und <<ref_secondary_hitpoints,Trefferpunkte>> sind von diesem Attribut abhängig.
+Die Attributseigenschaften <<ref_secondary_maxcarringcapacity, Maximale Traglast>> und <<ref_secondary_hitpoints,Trefferpunkte>> sind von diesem Attribut abhängig.
 
 [[ref_attribute_constitution]]
 === Konstitution (KO)
@@ -373,17 +373,6 @@ Bewegungsrate.
 Ein Langschwert wiegt um die 2 bis 2,5 Pfund, eine Ritterrüstung um die 60.
 Kettenhemden wiegen 16 bis 28 Pfund.
 
-[[ref_secondary_unarmedbonus]]
-*Schaden im Unbewaffneten Kampf(SUK)(Stärke):* Diese Attributseigenschaft gibt an, welche Würfel geworfen werden müssen, wenn der Charakter mit Fäusten, Füßen oder ähnlichen körperlichen Extremitäten angreift.
-Je stärker ein Charakter ist, umso höher ist der potenzielle Schaden.
-Welche Würfel für welche Attributsstufe zur Verfügung stehen, kann man der Tabelle am Ende dieses Abschnittes entnehmen.
-
-.Schaden im Unbewaffneten Kampf
-====
-Wie bereits oben gesehen, hat Michaels Charakter eine Stärke von 3.
-Nach der Tabelle verursacht er also einen Schaden im Unbewaffneten Kampf von 1W4.
-====
-
 [[ref_secondary_hitpoints]]
 *Trefferpunkte(TP)(Stärke + Konstitution):* Trefferpunkte (kurz TP) sind eine Art Puffer für den Charakter bis zu seinem Tod.
 TP verliert ein Charakter beispielsweise xref:core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenseinwirkung].
@@ -457,27 +446,27 @@ Daher hat er nur (1+1)*5 = 10 SP.
 .Attributseigenschaften
 [cols=",,,,", options="header"]
 |===
-| Attributsstufe | BEW | SUW | WID | MaxPot
-|1 |+0 |1W3-1 |8 |4
-|2 |+0 |1W3 |10 |5
-|3 |+0 |1W4 |12 |6
-|4 |+0 |1W6 |14 |7
-|5 |+1,50 |1W8 |16 |8
-|6 |+3,00 |1W10 |18 |9
-|7 |+4,50 |1W12 |20 |10
-|8 |+6,00 |2W6 |22 |11
-|9 |+7,50 |1W8+1W6 |24 |12
-|10 |+9,00 |2W8 |26 |13
-|11 |+10,50 |1W10+1W8 |28 |14
-|12 |+12,00 |2W10 |30 |15
-|13 |+13,50 |1W12+1W10 |32 |16
-|14 |+15,00 |2W12 |34 |17
-|15 |+16,50 |4W6 |36 |18
-|16 |+18,00 |2W8+2W6 |38 |19
-|17 |+19,50 |4W8 |40 |20
-|18 |+21,00 |2W10+2W8 |42 |21
-|19 |+22,50 |4W10 |44 |22
-|20 |+24,00 |2W12+2W10 |46 |23
+| Attributsstufe | BEW | WID | MaxPot
+|1 |+0 | 8 |4
+|2 |+0 | 10 |5
+|3 |+0 | 12 |6
+|4 |+0 | 14 |7
+|5 |+1,50 | 16 |8
+|6 |+3,00 | 18 |9
+|7 |+4,50 | 20 |10
+|8 |+6,00 | 22 |11
+|9 |+7,50 | 24 |12
+|10 |+9,00 | 26 |13
+|11 |+10,50 | 28 |14
+|12 |+12,00 | 30 |15
+|13 |+13,50 | 32 |16
+|14 |+15,00 | 34 |17
+|15 |+16,50 | 36 |18
+|16 |+18,00 | 38 |19
+|17 |+19,50 | 40 |20
+|18 |+21,00 | 42 |21
+|19 |+22,50 | 44 |22
+|20 |+24,00 | 46 |23
 |===
 
 [[ref_characters_talents]]

@@ -80,7 +80,7 @@ Ein Charakter kann maximal die Hälfte seiner BEW-Rate weit springen und nur ein
 
 Generell benötigt er Anlauf, für jeden weiten Sprung die gleiche Anzahl an Metern, für jeden hohen Sprung die gleiche Anzahl an Metern.
 Er erhält einen Malus von -1 auf die Würfe zum Erfolg für jede 1,50 Meter die er nicht Anlauf nimmt.
-``
+
 * *Misserfolg:* der Charakter landet nahe am Rand des zu überspringenden Gebietes bzw. kommt gerade so an die obere Kante ran.
 Der Charakter konnte sich gerade noch abrollen oder festhalten und ist sicher.
 Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
@@ -543,7 +543,7 @@ Grundsätzlich ist jede Verwendung von Aether Wahrnehmung mit einem kleinen, vis
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* SB +
 *Kampf:* F +
-*Beschreibung:* Mit diesem Talent kann der Charakter seine Konzentration wahren, wenn er Gefahr läuft, die Vorbereitung eines Zauberspruchen zu verlieren.
+*Beschreibung:* Mit diesem Talent kann der Charakter seine Konzentration wahren, wenn er Gefahr läuft, die Vorbereitung eines Zauberspruches zu verlieren.
 Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Magie].
 
 [[ref_talents_spellcasting]]

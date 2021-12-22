@@ -11,8 +11,9 @@
 == Eigenschaften
 
 === Schnelle Wundheilung
-Erhalten Trolle eine xref:../core_rules_battlesystem.adoc#ref_battle_bleeding_wounds[Blutende Wunde], so heilt diese nach sofort 1 Kampfrunde und versucht maximal einmal Schaden.
-Weiterhin halbieren sich alle Heilungsperiod für Verletzungen.
+Erhalten Trolle den Zustand xref:../core_rules_d10_system.adoc#ref_core_condition_burning[Brennend], so endet dieser 1 Kampfphase früher.
+Dadurch kann es vorkommen, dass der Zustand gar nicht eintritt, weil 0 Kampfphasen Dauer entstehen.
+Außerdem halbieren sich alle Heilungsperioden für xref:../core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
 
 === Spontane Regeneration
 Einmal pro Tag als xref:../core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion] darf ein Troll KO-viele W10 würfeln, um verlorene TP zu heilen.

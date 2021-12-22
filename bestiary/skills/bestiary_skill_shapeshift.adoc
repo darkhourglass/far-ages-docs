@@ -1,0 +1,21 @@
+= Gestaltwandel (Formen)
+
+Mit Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Komplexen Aktion] kann die Kreatur sich in einer der angegebenen *Formen* (also die Gestalt einer anderen Kreatur) verwandeln.
+Die Kreatur übernimmt das gesamte Profil der neuen Kreatur mit folgenden Ausnahmen:
+
+* Die Attributsstufen EN, SB und CH bleiben erhalten
+* Die Punktepools xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] und xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP] bleiben erhalten
+* sie behält link:../../rules/core/core_rules_talents_base.adoc[Talente] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talentstufen].
+
+Die Kreatur übernimmt die xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] der neuen Form.
+Erreicht die Kreatur in einer Form, die nicht seine ursprüngliche Form ist, 0 TP, verwandelt sie sich sofort zurück.
+Die Kreatur verliert dabei genauso viele TP in seiner ursprünglichen Form, wie seine bisherige Form verloren hat, maximal jedoch bis 0.
+
+Nur wenn die neue Form das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] ebenfalls besitzt, kann die Kreatur sein eigenes verwenden.
+Andere Talente kann die Kreatur nach Ermessen des SL verwenden, außer es ist offensichtlich, dass die neue Form diese nicht verwenden kann.
+Die ist zum Beispiel der Fall, wenn ein Humaniod sich in ein Tier verwandelt, welches keine Nahkampfwaffen verwenden kann.
+
+Das Zurückverwandeln in seine ursprüngliche Form erfolgt durch eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion].
+Diese kann allerdings nicht in der gleichen Kampfphase verwendet werden, wenn bereits eine *Form* angenommen wurde.
+
+Sofern nicht anders angegeben, kann sich die Kreatur pro Tag sooft verwandeln, die es Stufen in seinem xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO-Attribut] hat.

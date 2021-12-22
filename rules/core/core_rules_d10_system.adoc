@@ -10,7 +10,7 @@ Diese Anzahl ermittelt sich meist direkt aus seiner Talentstufe oder einer Attri
 Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu übertreffen gilt.
 Das heißt jeder Würfel, der eine höhere oder gleiche Augenzahl zeigt als der geforderte Mindestwurf zählt als *Erfolg*.
 [[ref_core_failurerole]]
-Wird der Mindestwurf nicht erreicht und ist kein <<ref_core_botches,Patzer>> gilt dieser als *Misserfolg*.
+Wird der Mindestwurf nicht erreicht und ist kein <<ref_core_botches, Patzer>>, gilt dieser als *Misserfolg*.
 
 .Mindestwürfe
 ====
@@ -27,8 +27,10 @@ Diese Anzahl orientiert sich im Allgemeinen an der Schwierigkeit der Probe, je m
 === Standardmindestwurf
 
 Der übliche Mindestwurf, an dem sich Attributs-, Standard- und Talentproben orientieren, ist *7*.
-Sofern nicht anders angegeben, gilt dieser Mindestwurf für alle Proben. Der Standardmindestwurf wird auch als SMW abgekürzt angegeben.
+Sofern nicht anders angegeben, gilt dieser Mindestwurf für alle Proben.
+Der Standardmindestwurf wird auch als SMW abgekürzt angegeben.
 
+[[ref_core_writing_rolls]]
 === Abkürzungen für Proben
 
 Innerhalb des Far Ages Spielsystems können Proben dieser Art grundsätzlich folgenderweise abgekürzt werden:
@@ -71,7 +73,7 @@ Das heißt, Willenskraft(5) bedeutet immer eine Willenskraft-Probe mit fünf nö
 Als Situationsmodifikatoren bezeichnet man Boni oder Mali, also Erleichterungen bzw. Erschwernisse, für eine Probe.
 
 Diese werden durch den Ausdruck *+x bzw. -x auf die Würfe zum Erfolg* identifiziert.
-Dies bedeutet, dass bei einer solche Modifikation die Würfelergebnisse einer Probe erhöht bzw. erniedrigt werden.
+Dies bedeutet, dass bei dieser Modifikation die Würfelergebnisse einer Probe erhöht bzw. verringert werden.
 
 Dadurch ist es möglich, dass Ergebnisse über 10 erreicht werden können.
 
@@ -262,7 +264,7 @@ Damit hat Kraag insgesamt 8-2=6 Erfolge und damit über 5 Erfolgen, was ein Gute
 Im Allgemeinen obliegt es dem SL festzulegen, wann ein Spieler eine Probe für seinen Charakter ablegen muss.
 Als Richtlinie hierfür sollte gelten:
 
-_"Immer dann, wenn der Spieler eine Aktion durchführt, die nicht alltäglich ist, unter Stress (zum Beispiel im Kampf oder unter Zeitdruck) ausgeführt wird, oder von deren Erfolg eine Spiel relevante Aktion abhängt"_.
+_"Immer dann, wenn der Spieler eine Aktion durchführt, die nicht alltäglich ist, unter Stress (zum Beispiel im Kampf oder unter Zeitdruck) ausgeführt wird, oder von deren Erfolg eine spiel-relevante Aktion abhängt"_.
 
 Viele Proben, die durch gutes Rollenspiel bestanden werden können, zum Beispiel könnte ein Spieler mit der Barmaid flirten, in dem er dies wirklich beschreibt, anstatt auf das Talent oder Attribut würfelt, können somit gespart werden.
 
@@ -335,27 +337,205 @@ Der SL entscheidet nun, dass Thalvin den Gang erfolgreich innerhalb einer Stunde
 === Rettungswürfe
 
 *Rettungswürfe* sind eine spezielle Form von <<ref_core_attributeroles, Attributsproben>>, die den gleichen Regeln zum Mindestwurf und Anzahl nötiger Erfolge folgen.
+Als Mindestwurf haben Rettungswürfe immer den <<ref_core_standardminimumroll, Standardmindestwurf>>.
 
-Rettungswürfe können nur von Charaktern mit Bewusstsein gewürfelt werden.
+Rettungswürfe können von Charakteren gewürfelt werden, wenn diese bei Bewusstsein sind.
+Bestimme Kreaturen, die kein Bewusstsein im traditionellen Sinne haben, wie Untote oder Konstrukte, dürfen allerdings auch Rettungswürfe würfeln.
 
 Im Gegensatz zu Attributsproben werden Rettungswürfe nicht aktiv durch Charaktere ausgelöst, sondern entstehen aus gefährlichen Situationen, in denen die Reaktion der Charaktere gefragt ist.
+Wann genau ein Rettungswurf nötig ist, liegt in der Entscheidung des SL oder wenn ein beliebiger Effekt des Spiels, wie zum Beispiel ein Zauberspruch, diesen explizit vorschreibt.
 
 .Rettungswürfe
 ====
 Aus dem vorherigen Beispiel ergibt sich für Thalvin plötzlich eine gefährliche Situation.
 Beim Freiräumen des unterirdischen Ganges hat er versehentlich einen Geröllrutsch verursacht.
-Um nicht unter schweren Steinen begraben zu werden, verlangt der SL einen <<ref_core_saves_dexterity, Rettungswurf auf Geschick>>. +
+Um nicht unter schweren Steinen begraben zu werden, verlangt der SL einen Rettungswurf auf Geschick. +
 Thalvin hat 2 Stufen in Geschick und kann damit 2W10 würfeln. +
 Er würfelt eine 5 und 6.
 Damit ist die Probe nicht erfolgreich.
 Der Sl entscheidet, dass Thalvin von fallenden Steinen getroffen wird und 2W6 TP verliert.
 ====
 
-Viele Zauberspruche erlauben neben der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magieabwehr]-Probe, eines speziellen Rettungswurfs auf <<ref_core_saves_energy, EN>>, zusätzliche Rettungswürfe, um die Auswirkungen des Zaubers zu reduzieren.
+Viele Rettungswürfe im laufenden Spielgeschehen sind üblicherweise sehr ähnlich bzw. die Situationen, aus denen sie entstehen, ähnlichen sich.
+Im vorherigen Beispiel war der Instinkt und Reflex des Charakters gefragt, um einem Steinschlag zu entgehen.
+Ähnliche Situationen, in denen der Charakter genau dieselben Fähigkeiten braucht, könnten sein:
+
+* Auf einer belebten Straße versucht der Charakter einer schnellfahrenden Kutsche auszuweichen
+* durch einen schlecht gebundenen Knoten stürzt eine schwere Ladung von einem Hebekran und der Charakter springt zur Seite
+* ein Alchemist wirft eine Bombe in die Gruppe und alle Charaktere versuchen der Explosion zu entkommen
+
+Für solche und viele weitere Situationen gibt es daher einheitliche Regeln und Rettungswürfe.
+Die folgenden Kapitel beschrieben solche standardisierten Rettungswürfe, die auch in weiterführenden Regeln unter diesen Namen referenziert werden.
+
+// TODO Rettungswürfe: Beispiele
+
+[[ref_core_saves_ST]]
+==== Stärke-basierte Rettungswürfe
+
+[[ref_core_saves_GE]]
+==== Geschick-basierte Rettungswürfe
+
+[[ref_core_saves_KO]]
+==== Konstitution-basierte Rettungswürfe
+
+[[ref_core_saves_ER]]
+==== Erkenntnis-basierte Rettungswürfe
+
+[[ref_core_saves_EN]]
+==== Energie-basierte Rettungswürfe
+
+[[ref_core_saves_SB]]
+==== Selbstbeherrschung-basierte Rettungswürfe
+
+[[ref_core_saves_CH]]
+==== Charisma-basierte Rettungswürfe
+
+[[ref_core_base_saves]]
+=== Standardrettungswürfe
+
+Standardrettungswürfe gelten als <<ref_core_saves, Rettungswürfe>> und folgen somit den allgemeinen Regeln.
+Die Verwendung von Standardrettungswürfen dient vor allem folgenden Situationen:
+
+* Die Beschreibungen geben für häufig wiederkehrende Situationen einen einheitlichen Regelsatz vor, zum Beispiel für die Auswirkungen eines Misserfolgs oder Patzers.
+* Fähigkeiten, Talente, Zaubersprüche oder ähnliche Quellen können Effekte haben, die einen Standardrettungswurf vorsehen.
+In solchen Fällen ist keine neue Regel nötig, sondern der Effekt folgt den hier vorgestellten Regeln.
+
+Es gilt, dass wenn ein Charakter einen Vorteil auf einen bestimmten, attributsspezifischen Rettungswurf hat, dann gilt dieser Vorteil für alle Standardrettungswürfe, die von diesem Attribut abhängen.
+
+.Standardrettungswürfe
+====
+Ein Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle KO-basierten Rettungswürfe.
+Damit erhält er diesen Bonus auch auf KO-basierte Standardrettungswürfe wie zum Beispiel <<ref_core_base_saves_disgust, Ekel>>, <<ref_core_base_saves_poisonresist, Gift>> und <<ref_core_base_saves_sicknessresist, Krankheit>>.
+====
+
+Andersherum gilt dies jedoch nicht, denn ein Vorteil auf einen bestimmten Standardrettungswurf bietet keinen Vorteil auf andere Standardrettungswürfe oder den allgemeinen Rettungswurf.
+
+.Standardrettungswürfe
+====
+Ein Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle <<ref_core_base_saves_disgust, Ekel>>-Rettungswürfe.
+Er erhält diesen Bonus somit nicht auf die Standardrettungswürfe <<ref_core_base_saves_poisonresist, Gift>> oder <<ref_core_base_saves_sicknessresist, Krankheit>> oder den <<ref_core_saves_KO, Rettungswurf>> auf KO.
+====
+
+In den Regeln werden Standardrettungswürfe wie <<ref_core_writing_rolls, Proben>> abgekürzt.
+Es gilt der <<ref_core_miniumroll, Standardmindestwurf>>.
+
+[[ref_core_base_saves_disgust]]
+==== Ekel
+*Attribut:* KO
+
+Bei manchen Dingen kommt einem einfach die Galle hoch.
+
+* *Misserfolg:* Dem Charakter wird übel und er kann gerade noch schlimmeres verhindern.
+Dennoch muss er für die nächsten 1W10 - seine KO (Minimum 1) Kampfphasen einen Malus von *-1 auf die Würfe zum Erfolg* hinnehmen.
+* *Patzer:* Dem Charakter wird übel, jedoch kann er sich nicht mehr beherrschen und muss sich übergeben.
+Er gilt als <<ref_core_condition_dazed, benommen (Stufe 1)>>.
+
+[[ref_core_base_saves_falling]]
+==== Fallen
+*Attribut:* GE
+
+Diese Probe folgt meist als Reaktion auf eine misslungene Klettern-Probe, kann aber auch bewusst eingesetzt werden, wenn jemand von einer erhöhten Position hinabspringt.
+Als Maßgabe für die Anwendung dieser Probe gilt: wenn ein Charakter von einer Abwärtsbewegung Schaden nehmen kann, wird sie gewürfelt.
+
+Für jede 3,00 volle Meter, die der Charakter fällt, muss er mindestens einen Erfolg würfeln, um keinen Schaden zu nehmen.
+Misslingt die Probe, so erhält der Charakter pro 3,00 Meter automatisch 1W6 Schaden, der nicht von Rüstung abgehalten wird.
+Für eine Falldistanz von weniger als 3,00 Metern ist nur 1 Erfolg nötig.
+Der Schaden im Fall eines Misserfolgs beträgt 1W6, den keine Rüstung abhalten kann.
+
+* *Misserfolg:* der Charakter kann keinen Schaden verhindern und nimmt den vollen Schaden.
+Er gilt als <<ref_core_condition_onground, am Boden>>.
+* *Patzer:* wie Misserfolg, jedoch fällt der Charakter zusätzlich so unglücklich, dass er zusätzlich zu den Folgen des Misserfolgs <<ref_core_condition_dazed, Benommenheit (Stufe 1)>> hinnehmen.
+
+[NOTE]
+Natürliche Rüstung vermindert Fallschaden.
+
+[[ref_core_base_saves_fear]]
+==== Furcht
+*Attribut:* SB
+
+Viele natürliche wie unnatürliche Gefahren wecken einen instinktiven Drang zur Flucht.
+
+* *Misserfolg:* Der Charakter ist von der Situation erschüttert, jedoch hat er sich noch einigermaßen im Griff.
+Solange der Auslöser seiner Furcht im Sichtfeld ist, ist er deutlich nervöser, was zu einem Malus von *-2 auf die Würfe zum Erfolg*.
+Hat er nur weniger als 10 TP übrig, erhält er jedoch statt dem Malus von -2 einen Bonus +1 auf seine Würfe zum Erfolg.
+* *Patzer:* Die Angst überkommt den Charakter und er muss sofort fliehen.
+Zusätzlich zu den Auswirkungen des Misserfolges, erhält er den Zustand <<ref_core_condition_fleeing, fliehend>>.
+
+[NOTE]
+Nicht immer sind Auslöser für diese Proben deutlich zu sehen.
+Manche Zaubersprüche generieren einfach Furcht im Verstand des Charakters.
+Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfphasen, zum Beispiel 1W10 - SB (Minimum 1) Kampfphasen, geschickt werden.
+
+[[ref_core_base_saves_poisonresist]]
+==== Gift
+*Attribut:* KO
+
+Gifte sind typische Verteidigungsmaßnahmen von Tieren oder Pflanzen gegen Fressfeinde.
+Räuberische Tiere oder Monster setzen Gift als gefährliche Waffe ein.
+
+Die Beschreibung eines Giftes enthält einen *sekundären Effekt* und einen *primären Effekt*, sowie eine Anzahl von nötigen Erfolgen.
+
+* *Misserfolg:* der sekundäre Effekt tritt sofort ein
+* *Patzer:* der primäre Effekt tritt sofort ein
+
+[[ref_core_base_saves_horror]]
+==== Horror
+*Attribut:* SB
+
+Viel stärker als die <<ref_core_base_saves_fear, Furcht>> ist die Erkenntnis, dass manche Dinge eigentlich nicht existieren dürften.
+Kosmische Schrecken, unnatürliche Ereignisse und zur Wirklichkeit gewordene Alpträume kreuzen selten, aber wenn dann äußerst prägend, das Leben eines Abenteurers.
+
+* *Misserfolg:* Der Charakter ist schwer getroffen und konzentriert sich nur noch darauf, möglichst zu überleben.
+Er verliert 1 SP für jeden Erfolg, den er in dieser Probe hätte würfeln müssen, um sie zu bestehen.
+Außerdem erhält er den Zustand <<ref_core_condition_fleeing, Fliehend>>.
+* *Patzer:* Der Verstand des Charakters setzt mit der Erkenntnis über die Schrecken aus.
+Der Charakter wird bewegungsunfähig solange wie der Auslöser des Horrors in seinem Blickfeld ist.
+Es gelten die gleichen Auswirkungen wie bei einem Misserfolg, allerdings verliert er 2 SP für jeden Erfolg, den er bei dieser Probe hätte würfeln müssen, um sie zu bestehen.
+
+[[ref_core_base_saves_sicknessresist]]
+==== Krankheit
+*Attribut:* KO
+
+Der Körper eines Abenteurers kann nicht nur von außen, sondern auch von innen attackiert werden.
+Krankheiten können natürlichen wie unnatürlichen Ursprungs sein.
+Der Aufenthalt in gefährlichen Gebieten kann zu einer Ansteckung führen oder der Kontakt mit einem Überträger.
+Manche Kreaturen tragen Krankheiten an ihren Klauen und ein Charakter steckt sich im Fall einer Verletzung an.
+
+Die Beschreibung einer Krankheit enthält einen *sekundären Effekt* und einen *primären Effekt*, sowie eine Anzahl von nötigen Erfolgen.
+
+* *Misserfolg:* der sekundäre Effekt tritt sofort ein
+* *Patzer:* der primäre Effekt tritt sofort ein
+
+[[ref_core_base_saves_knockdown]]
+==== Niederschlag
+*Attribut:* KO
+
+Diese Probe wird ausgelöst durch einen körperlichen Schock, zum Beispiel eine durch Verletzung.
+Der körperliche Schock kann dazu führen, dass der Charakter zu Boden geht oder sogar bewusstlos wird.
+Gerät der Charakter in eine Situation, die eine Niederschlags-Probe erfordert, muss er eine vorgegebene Anzahl von Erfolgen erreichen.
+
+Für detaillierte Regeln siehe das Dokument Kampf im Kapitel xref:core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlag].
+
+[NOTE]
+Eine Niederschlags-Probe wird im Allgemeinen durch Verletzungen ausgelöst.
+Eine Verletzung tritt ein, wenn ein Charakter durch eine beliebige Schadensquelle genau so viel oder mehr Schaden erhält, wie seine WID beträgt.
+
+[[ref_core_base_saves_reflex]]
+==== Reflex
+*Attribut:* GE
+
+Eine Reflex-Probe beschreibt eine unbewusste, körperliche Reaktion auf eine plötzlich auftretende Gefahrensituation, zum Beispiel um einer Falle auszuweichen oder um zu prüfen, ob der Charakter schnell genug reagiert hat, um einer Explosion zu entgehen.
+Weitere typische Auslöser für Reflex-Proben sind plötzliche und unerwartete Ereignisse, wie zusammenbrechender Boden oder Steinschlag.
+
+Ein Charakter muss immer eine vorgegebene Anzahl von Erfolgen erreichen.
+In manchen Fällen wird eine Reflex-Probe als Verteidigungsprobe in einer konkurrierenden Probe benutzt.
+
+* *Misserfolg:* Der Charakter erleidet sofort die negativen Folgen des Effekts, zum Beispiel wird er von der Falle getroffen.
+* *Patzer:* Keine zusätzliche Auswirkung.
 
 .Rettungswürfe
 ====
-Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_saves_dexterity, GE-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_base_saves_reflex, Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
 
 Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Regeln] genug Erfolge, um den Zauberspruch zu wirken.
 Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen. +
@@ -363,26 +543,37 @@ Thalvin und Khelbor würfeln jeweils einen eigenen Rettungswurf auf Geschick.
 Je nach Ergebnis erleidet einer oder beide von Ihnen nur 15 Schadenspunkte.
 ====
 
-[[ref_core_saves_dexterity]]
-==== Geschick
+[[ref_core_base_saves_willpower]]
+==== Willenskraft
+*Attribut:* SB
 
-[[ref_core_saves_strength]]
-==== Stärke
+Diese Verteidigungsprobe muss gewürfelt werden, wenn der Charakter mit seinem Willen ringt oder sich besonders konzentrieren muss, z.B. um die Vorbereitung eines Zauberspruches zu halten.
+Üblicherweise möchte ein Effekt, eine Situation oder eine Charaktereigenschaft den Charakter zu etwas drängen, was der Spieler nicht will.
+Um dies abzuwehren, muss eine Willenskraft-Probe abgelegt werden.
 
-[[ref_core_saves_constitution]]
-==== Konstitution
+* *Misserfolg:* Der Charakter gibt sofort dem Drang nach und er führt die ungewollte Aktion durch.
+Führt der Charakter gerade selbst eine Aktion durch, so wird diese unterbrochen.
+* *Patzer:* Keine zusätzliche Auswirkung.
 
-[[ref_core_saves_perception]]
-==== Erkenntnis
+[NOTE]
+Ein typisches Beispiel, wenn solche Würfe in Spiele kommen, ist, wenn der Charakter einen Nachteil hat, der zu gewissen Handlungen zwingt, zum Beispiel ist er kleptomanisch.
+Sieht er also ein besonders begehrenswertes Objekt, dann kann der Spieler verhindern, dass der Charakter versucht es zu stehlen.
+Dazu ist die Willenskraft-Probe nötig.
+Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell möchte, dass sein Charakter dies versucht.
+Um beispielsweise einen Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
 
-[[ref_core_saves_energy]]
-==== Energie
+[[ref_core_base_rolls]]
+=== Standardproben
 
-[[ref_core_saves_selfcontrol]]
-==== Selbstbeherrschung
+[[ref_core_base_rolls_douptillusions]]
+==== Illusion anzweifeln und durchschauen
+*Attribut:* ER
 
-[[ref_core_saves_selfcharisma]]
-==== Charisma
+//TODO
+
+xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus]
+
+
 
 [[ref_core_talentroles]]
 == Talentproben
@@ -461,235 +652,239 @@ Wahrscheinlich wird es vorkommen, dass im Spiel Situationen auftreten, in denen 
 Daher sind die Regeln auch als Richtlinien zu verstehen.
 SL und Spielen können sie verwenden und erweitern.
 
+[[ref_core_conditions]]
+== Besondere Zustände
 
+Als (besonderen) *Zustand* im Regelsystem wird eine körperliche, geistige oder gar magische Situation beschrieben, in der sich ein Charakter befinden kann.
+Ein solcher Zustand beeinflusst die Optionen des Charakters, die ihm für gewöhnlich nach den Regeln zustehen.
+Dies kann sowohl positiv wie auch negativ beeinflusst werden.
+Im Allgemeinen sind die Zustände mit einem Auslöser verbunden, wie beispielsweise dem Misslingen eines <<ref_core_base_saves, Rettungswurfs>>.
 
-// TODO: Typische Situationen
-[[ref_base_rolls_standard]]
-== Standardproben
+Viele Begriffe und Regeln in diesem Kapitel verweisen bereits auf das Kapitel link:core_rules_battlesystem.adoc[Kampf], da Zustände im Allgemeinen während eines Kampfs besonders stark zur Geltung kommen.
 
-Standardproben sind typische Anwendungen immer wieder auftretenden Spielmechaniken.
-Sie decken im Allgemeinen typische Situationen ab, in die ein Abenteurer in der Welt von Far Ages mehr oder weniger freiwillig kommt.
-Damit der SL nicht jedes Mal das Rad neu erfinden muss, wurden möglichst viele Situationen gesammelt und als Standardproben zusammengestellt.
+Weiterhin sind Zustände zeitlich beschränkt, wobei diese Dauer im Allgemeinen durch den Auslöser vorgegeben wird.
+Soforn nicht anders angegeben, ist die Dauer in xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphasen] gemessen.
 
-Für Standardproben gilt, dass sie mit den Würfeln einer Attributsprobe gewürfelt werden, denn sie beziehen sich immer auf ein Attribut.
-Daher werden Standardproben wie Attributsproben gewürfelt und es sind keine neuen Regeln für diese Art von Proben nötig.
+[[ref_core_conditions_overview]]
+=== Übersicht der Zustände
+Die folgende link:../tables/table_conditions_overview.adoc[Tabelle] führt alle besonderen Zustände auf mit einer Beschreibung ihrer Auswirkungen auf xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], die Charakter durchführen können.
 
-Als Mindestwurf gilt für jede Standardprobe der SMW.
-Daher wird für eine Standardprobe immer die verkürzte Schreibweise benutzt, die nur die Anzahl der nötigen Erfolge angibt, z.B. Überzeugen(5) bedeutet, dass eine Überzeugen-Probe mit mindestens 5 Erfolgen benötigt wird.
+In den folgenden Kapiteln werden die Zustände ausführlich erläutert.
 
-Standardproben können vom SL auf mehrere Weisen verwendet werden:
+[[ref_core_condition_onground]]
+=== Am Boden
+Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlag].
+Charakter gilt am Boden, wenn er liegt.
 
-* Manche Situationen, zum Beispiel die Begegnung mit anderen Wesen, erfordern eine sofortige Probe, wobei die Anzahl der Erfolge direkt angegeben ist.
+In diesem Zustand erhält der Charakter *-2 auf seine Würfe zum Erfolg*.
+Er darf außerdem nur die Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_battle_move_standup[Aufstehen] und Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_battle_move_useBEW[Rennen] mit halbierter BEW (min. 1,50) verwenden.
 
-.Standardproben
+Um den Zustand zu beenden, muss der Charakter das Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_battle_move_standup[Aufstehen] in seiner Kampfphase verwenden.
+
+[[ref_core_condition_corned]]
+=== Bedrängt
+Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 weitere Charaktere oder Kreaturen mit ihm <<ref_core_condition_bondedincombat, im Nahkampf gebunden>> sind.
+Ein bedrängter Charakter erhält *-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
+
+Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
+Es gelten auch diagonal attackierende Gegner zu der Rechnung.
+
+Größere Kreaturen (GK 6 oder mehr) sind von kleineren Kreaturen schwerer zu bedrängen.
+Ist eine Kreatur eine Größenkategorie kleiner, so bedrängt sie die größere Kreatur nur dann, wenn eine weitere Kreatur gleicher GK dabei ist.
+Eine Kreatur der Größenkategorie 6 ist also erst von 6 Kreaturen der Größenkategorie 5 bedrängt.
+Dies setzt sich fort, und zwar ist eine Kreatur der Größenkategorie 7 erst von 9 Kreaturen der Größenkategorie 5 bedrängt usw.
+
+Um den Zustand zu verlassen, muss der betroffene Charakter mit weniger Kreaturen im Kampf gebunden sein.
+
+[[ref_core_condition_dazed]]
+=== Benommen (Stufen 1-4)
+Verletzungen, starke Schmerzen oder auch viele magische Effekte verursachen Benommenheit.
+Dabei unterscheiden die Regeln nicht, ob ein Charakter beispielsweise einen Schlag an den Kopf bekommen hat und dadurch nur Weiß vor den Augen sieht oder ob er durch einen Zauberspruch seine Umwelt nur noch eingeschränkt wahrnimmt.
+
+Der Zustand Benommen wird in den Stufen 1 bis 4 gemessen, wobei eine höhere Stufe eine stärkere Benommenheit darstellt.
+Die Benommenheit schränkt die Handlungsfähigkeit eines Charakters in seiner Kampfphase ein.
+Diese Einschränkungen sind folgender Tabelle zu entnehmen.
+
+|===
+|Stufe |xref:../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] |xref:../core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktionen]
+
+|Benommen (Stufe 1)
+|Nein
+|Ja
+|Ja
+|Ja
+
+|Benommen (Stufe 2)
+|Nein
+|Nein
+|Ja
+|Ja
+
+|Benommen (Stufe 3)
+|Nein
+|Nein
+|Nein
+|Ja
+
+|Benommen (Stufe 4)
+|Nein
+|Nein
+|Nein
+|Nein
+|===
+
+Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfphasen.
+Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
+Dieser Wert muss mit Beginn des Zustands einmalig bestimmt werden.
+Dabei gilt außerdem, dass immer die nächst-niedrige Stufe erreicht wird, sobald die aktuelle Stufe endet.
+
+.Benommenheit
 ====
-Die Charaktere treffen auf eine furchteinflößende Kreatur, die in ihrer Beschreibung beim ersten Anblick eine Furcht(4)-Probe erfordert.
-Dies bedeutet, dass der SL von jedem Spieler eine Furcht-Probe verlangen muss, die als bestanden gilt, wenn 4 Erfolge erreicht wurden.
-====
-
-* Ebenso hilfreich für den SL ist es, auf Aktionen der Spieler mit der Verwendung von Standardproben zu reagieren.
-Sehr oft lassen sich diese Aktionen damit abdecken und die Beschreibungen der Standardproben weiter untern kann als Richtlinie für das Festlegen der nötigen Anzahl der Erfolge gelten.
-
-.Standardproben
-====
-Ein Charakter entscheidet sich, dass er mit einem Händler verhandeln will, um einen günstigeren Preis für die gewünschten Waren zu erhalten.
-Der SL entscheidet, dass eine Überzeugen-Probe fällig ist.
-Für sich legt der SL eine Anzahl von Erfolgen fest.
-====
-
-* Auch NPCs können ihrerseits Standardproben verwenden bzw. gezwungen sein, eine solche zu bestehen.
-Ist das Verhalten der NPCs nicht vorgegeben, so kann der SL basieren auf den Spielwerten für die NPCs, deren Reaktion so feststellen.
-
-
-[[ref_base_roll_fearhorror]]
-=== Ekel, Furcht und Horror
-
-*Attribut:* Selbstbeherrschung
-
-Manche Kreaturen oder auch Situationen und Zaubersprüche können auf die Charaktere eine beängstigende Wirkung haben.
-Die drei Varianten spiegeln ähnliche Aspekte mit unterschiedlicher Intensität der gleichen psychologischen Reaktion wider.
-Charaktere, die einer solchen Situation ausgesetzt sind, müssen eine entsprechende Probe ablegen, um die negativen Folgen abzuwenden.
-
-*Ekel:* Bei manchen Dingen kommt einem einfach die Galle hoch.
-
-* *Misserfolg:* Dem Charakter wird übel und er kann gerade noch schlimmeres verhindern.
-Dennoch muss er für die nächsten 2 Kampfphasen einen Malus von -1 auf die Würfe zum Erfolg hinnehmen.
-* *Patzer:* Dem Charakter wird übel, jedoch kann er sich nicht mehr beherrschen und muss sich übergeben.
-Er verliert alle Aktion und Manöver für diese Kampfrunde und erhält einen Malus von -2 auf die Würfe zum Erfolg für die nächsten 2 Kampfrunden.
-
-*Furcht:* Viele natürliche wie unnatürliche Gefahren wecken einen instinktiven Drang zur Flucht.
-
-* *Misserfolg:* Der Charakter ist von der Situation erschüttert, jedoch hat er sich noch einigermaßen im Griff.
-Solange der Auslöser seiner Furcht im Sichtfeld ist, ist er deutlich nervöser, was zu einem Malus von -2 auf die Würfe zum Erfolg.
-Hat er nur weniger als 10 TP übrig, erhält er jedoch statt dem Malus von -2 einen Bonus +1 auf seine Würfe zum Erfolg.
-* *Patzer:* Die Angst überkommt den Charakter und er muss sofort fliehen.
-Er verwendet alle seine Aktionen auf die Flucht bis die Quelle seiner Furcht aus seinem Blickfeld verschwunden ist.
-
-*Horror:* Viel stärker als die Furcht ist die Erkenntnis, dass manche Dinge eigentlich nicht existieren dürften.
-Kosmische Schrecken, unnatürliche Ereignisse und zur Wirklichkeit gewordene Alpträume kreuzen selten, aber wenn dann äußerst prägend, das Leben eines Abenteurers.
-
-* *Misserfolg:* Der Charakter ist schwer getroffen und konzentriert sich nur noch darauf, möglichst zu überleben.
-Er verliert 1 SP für jeden Erfolg, den er in dieser Probe hätte würfeln müssen, um sie zu bestehen.
-Solange der Auslöser seines Horrors ins einem Sichtfeld bleibt, erhält der Charakter einen Malus von -3 auf die Würfe zum Erfolg.
-* *Patzer:* Der Verstand des Charakters setzt mit der Erkenntnis über die Schrecken aus.
-Der Charakter wird bewegungsunfähig solange wie der Auslöser des Horrors in seinem Blickfeld ist.
-Zusätzlich verliert er 2 SP für jeden Erfolg, den er bei dieser Probe hätte würfeln müssen, um sie zu bestehen.
-
-[NOTE]
-Nicht immer sind Auslöser für diese Proben deutlich zu sehen.
-Manche Zaubersprüche generieren einfach Furcht im Verstand des Charakters.
-Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfrunden, zum Beispiel 1W6-viele, geschickt werden.
-
-[[ref_base_roll_poisonsickness]]
-==== Gift und Krankheiten
-
-*Attribut:* Konstitution
-
-Der Körper eines Abenteurers kann nicht nur von außen sondern auch von innen attackiert werden.
-Gifte wie Krankheiten können natürlichen wie unnatürlichen Ursprungs sein.
-Gifte sind typische Verteidigungsmaßnahmen von Tieren oder Pflanzen gegen Fressfeinde.
-Räuberische Tiere oder Monster setzen Gift als gefährliche Waffe ein.
-
-Krankheiten können ebenso vielerlei Ursprung sein.
-Der Aufenthalt in gefährlichen Gebieten kann zu einer Ansteckung führen oder der Kontakt mit einem Überträger.
-
-Beide Effekte funktionieren nach demselben Prinzip, jedoch können die jeweiligen Effekte und Nachwirkungen sehr unterschiedlich sein.
-Kommt ein Charakter mit einem Effekt in Kontakt, der eine Gift- bzw. Krankheits-Probe fordert, so muss diese sofort abgelegt werden.
-
-Die Beschreibung eines Giftes oder einer Krankheit enthält einen *sekundären Effekt* und einen *primären Effekt*.
-
-* *Misserfolg:* der sekundäre Effekt tritt sofort ein
-* *Patzer:* der primäre Effekt tritt sofort ein
-
-Außerdem ist immer angegeben, wann die nächste Gift- bzw. Krankheits-Probe erlaubt ist.
-Diese wird unter denselben Bedingungen (also Mindestwurf und nötige Anzahl an Erfolge) ausgeführt.
-Der Charakter ist so lange von dem Gift bzw. der Krankheit betroffen, wie er diese Proben nicht erfolgreich abschließt.
-Die Auswirkungen können auch schlimmer oder besser werden bzw. hin- und herwechseln, abhängig davon wie der Charakter Misserfolge und Patzer würfelt.
-
-[[ref_base_roll_magicdefense]]
-==== Magieabwehr
-
-*Attribut:* Energie
-
-Das Multiversum von Far Ages ist magisch.
-Oft wird ein Charakter von Magie angegriffen, bzw. beeinflusst.
-Um sich gegen diese Einwirkungen zu wehren, stehen einem Charakter Magieabwehr-Proben zu, wenn ein Zauberspruch diese zulässt.
-
-Beispielsweise lässt sich ein magisch erzeugter Feuerball nicht auf diese Weise abwehren, denn das Ziel erleidet den Schaden durch eine Explosion, die von der Magie erzeugt wurde.
-In diesem Fall geht die Magie nicht auf das Opfer über.
-Andererseits wäre der Versuch, eine magische Gedankenkontrolle zu erwirken, durch eine Magieabwehr-Probe verhinderbar.
-Die Magie wird direkt genutzt, um beim Opfer eine Wirkung zu erzielen.
-
-Wird ein Charakter somit Ziel eines magischen Angriffs, dann würfelt er eine Magieabwehr-Probe.
-Für jeden Erfolg, den der Charakter würfelt, verliert der Zauberer, bzw. die Quelle des magischen Angriffs einen Erfolg seiner Spruchzauberei-Probe.
-Dadurch kann es passieren, dass der Zauberer die erforderliche Anzahl an Erfolgen nicht erreicht, wodurch der Zauberspruch einfach verpufft.
-
-Ein Zauberspruch, der eine Magieabwehr-Probe zulässt und auf mehrere Ziele wirkt, lässt für jedes Ziel eine Magieabwehr-Probe zu.
-Dabei gilt, dass jedes Ziel individuell gegen die Anzahl der Erfolge des Magiers würfelt.
-Diese werden nur individuell von Gesamterfolgen abgezogen.
-Übrige Erfolge kann der Zauberer neu verteilen, sodas er ein oder mehrere Ziele mit mehr Erfolgen angreifen kann.
-
-.Magieabwehr
-====
-Ein Zauberspruch benötigt 2 Erfolge pro Ziel und 4 Erfolge als Basis.
-Der Magier zielt auf 2 Kreaturen und würfelt 10 Erfolge.
-Von den 10 Erfolgen fallen 4 weg, um den Zauberspruch überhaupt zu wirken.
-Auf die zwei Kreaturen verteilt der Zauberer jeweils 3 Erfolge.
-Mit ihren Magieabwehr-Proben müssen sie jeweils 3 Erfolge würfeln, um dem Zauberspruch zu überkommen.
+Ein Charakter mit einer KO-Stufe von 3 erhält den Zustand Benommen (Stufe 2).
+Er würfelt eine W10 und erhält eine 5.
+Damit dauert die Benommenheit für 5-3=2 Kampfphasen an.
+Mit Beginn der dritten Kampfphase beginnt der Zustand Benommen (Stufe 1).
+In diesem Moment würfelt der Charakter einen weiteren W10 und subtrahiert seine KO-Stufe.
+Diesmal würfelt er insgesamt eine 1.
+Somit dauert die Benommenheit noch eine Kampfphase auf Stufe 1 an.
 ====
 
-Ein Ziel würfelt 3 Erfolge und das andere 1.
-Das erste Ziel verteidigt sich also erfolgreich gegen den Zauberspruch, das Zweite jedoch nicht.
+[[ref_core_condition_immobile]]
+=== Bewegungsunfähig
+Ein bewegungsunfähiger Charakter hat eine effektive BEW-Rate von 0, die nicht weiter modifiziert werden kann.
+Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] durchführen, solange diese keine BEW erfordern.
+Der Zustand endet üblicherweise nach Ablauf das verursachenden Effekts.
 
-[NOTE]
-Manche Zaubersprüche erlauben eine Magieabwehr-Probe, obwohl sie dem Ziel nicht schaden.
-In diesem Fall muss der Charakter ebenfalls eine Magieabwehr-Probe würfeln.
-Die Magieabwehr-Probe ist insbesondere eine passive Eigenschaft, die jedem Wesen zusteht.
+[[ref_core_condition_blind]]
+=== Blind
+Ein Charakter kann geblendet werden, zum Beispiel durch grelles Licht, einen Zauberspruch oder weil jemand ihm eine Augenbinde umgelegt hat.
 
-[[ref_base_roll_knockdown]]
-==== Niederschlag
+Ein blinder Charakter gilt als stünde er in xref:core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[totaler Dunkelheit].
+Er erhält also *-4 auf die Würfe zum Erfolg*.
+Außerdem kann er keine xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] durchführen.
 
-*Attribut:* Konstitution
+Einige Kreaturen besitzen keine typischen Sinne oder ihre Wahrnehmung basiert nicht hauptsächlich auf Sicht, sondern zum Beispiel auf Gehör.
+Auch diese Kreaturen können diesen Zustand erhalten, allerdings muss die verursachende Quelle explizit den besonderen Sinn betreffen.
 
-Diese Probe wird ausgelöst durch einen körperlichen Schock, zum Beispiel eine durch Verletzung.
-Der körperliche Schock kann dazu führen, dass der Charakter zu Boden geht oder sogar bewusstlos wird.
-Gerät der Charakter in eine Situation, die eine Niederschlags-Probe erfordert, muss er eine vorgegebene Anzahl von Erfolgen erreichen.
+Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen.
+Sollte diese nicht gegeben sein, so dauert die Blindheit 1W10 minus die ER-Stufe Kampfphasen des Charakters an (Minimum 1).
 
-* *Misserfolg:* Der Charakter geht zu Boden und verliert alle Aktionspunkte in dieser Kampfphase.
-Er kann in der nächsten Kampfphase wieder agieren, startet jedoch auf dem Boden liegend.
-* *Patzer:* Der Charakter geht zu Boden und ist für 3 Kampfphasen bewusstlos.
-Er kann in der Kampfphase nach der dritten Kampfphase seiner Bewusstlosigkeit kann er wieder agieren, startet jedoch auf dem Boden liegend.
+[[ref_core_condition_burning]]
+=== Brennend
+Ein brennender Charakter erhält zu Beginn seiner Kampfphase eine festgelegte Anzahl von Schadenspunkten für die angegebene xref:core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart].
+Ist keine angegeben, wird 1W3 Schadenspunkte angenommen.
+Es gelten die üblichen Regeln für die Bestimmung oder Reduktion von xref:core_rules_battlesystem.adoc#ref_battle_damage[Schaden].
 
-[NOTE]
-Eine Niederschlags-Probe wird im Allgemeinen durch Verletzungen ausgelöst.
-Eine Verletzung tritt ein, wenn ein Charakter durch eine beliebige Schadensquelle genau so viel oder mehr Schaden erhält, wie seine WID beträgt.
-Für Details siehe das Dokument über Kampf.
+Mit diesem Zustand ist jedoch nicht ausschließlich das Brennen durch xref:core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer] gemeint, sondern der Zustand kann jede xref:core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] verwenden.
+Die folgende Tabelle zeigt eine beispielhafte Liste für Namen des Zustandes je nach Schadensart.
 
-[[ref_base_roll_reflex]]
-==== Reflex
+|===
+|Schadensart |Name
 
-*Attribut:* Geschick
+|Physisch
+|Blutend
 
-Eine Reflex-Probe beschreibt eine unbewusste, körperliche Reaktion auf eine plötzlich auftretende Gefahrensituation, zum Beispiel um einer
-Falle auszuweichen oder um zu prüfen, ob der Charakter schnell genug reagiert hat, um einer Explosion zu entgehen.
-Weitere typische Auslöser für Reflex-Proben sind Überraschungsangriffe und plötzliche und unerwartete Ereignisse, wie zusammenbrechender Boden oder Steinschlag.
+|Feuer
+|Brennend
 
-Ein Charakter muss immer eine vorgegebene Anzahl von Erfolgen erreichen.
-In manchen Fällen wird eine Reflex-Probe als Verteidigungsprobe in einer konkurrierenden Probe benutzt.
-Dies ist beispielsweise dann der Fall, wenn der Charakter von einer Falle angegriffen wird oder einem Überraschungsangriff in seinem blinden Winkel ausweichen muss.
+|Frost
+|
 
-* *Misserfolg:* Der Charakter erleidet sofort die negativen Folgen des Effekts, zum Beispiel wird er von der Falle getroffen.
-* *Patzer:* Wie Misserfolg, jedoch geht der Charakter zusätzlich ohne weitere Probe zu Boden und verliert alle Aktionspunkte für diese Kampfphase.
+|Säure
+|
 
-[[ref_base_roll_willpower]]
-==== Willenskraft
+|Schock
+|
 
-*Attribut:* Selbstbeherrschung
+|Aetherisch
+|
 
-Diese Verteidigungsprobe muss gewürfelt werden, wenn der Charakter mit seinem Willen ringt oder sich besonders konzentrieren muss, z.B. um die Vorbereitung eines Zauberspruches zu halten.
-Üblicherweise möchte ein Effekt, eine Situation oder eine Charaktereigenschaft den Charakter zu etwas drängen, was der Spieler nicht will.
-Um dies abzuwehren, muss eine Willenskraft-Probe abgelegt werden.
+|Magie
+|
 
-* *Misserfolg:* Der Charakter gibt sofort dem Drang nach und er führt die ungewollte Aktion durch.
-Führt der Charakter gerade selbst eine Aktion durch, so wird diese unterbrochen.
-* *Patzer:* Keine zusätzliche Auswirkung.
+|Mental
+|
 
-[NOTE]
-Ein typisches Beispiel, wenn solche Würfe in Spiele kommen, ist, wenn der Charakter einen Nachteil hat, der zu gewissen Handlungen zwingt, zum Beispiel ist er kleptomanisch.
-Sieht er also ein besonders begehrenswertes Objekt, dann kann der Spieler verhindern, dass der Charakter versucht es zu stehlen.
-Dazu ist die Willenskraft-Probe nötig.
-Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell möchte, dass sein Charakter dies versucht.
-Um beispielsweise einen Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
+|Nekrotisch
+|Verrottend
 
-[[ref_base_roll_falling]]
-==== Fallen
+|Illusionär
+|
+|===
 
-*Attribut:* Geschick
+Unabhängig von dem Namen, welcher in diesem Fall rein deskriptiv ist, gelten für alle Varianten die gleichen Regeln.
 
-Diese Probe folgt meist als Reaktion auf eine misslungene Klettern-Probe, kann aber auch bewusst eingesetzt werden, wenn jemand von einer erhöhten Position hinabspringt.
-Als Maßgabe für die Anwendung dieser Probe gilt: wenn ein Charakter von einer Abwärtsbewegung Schaden nehmen kann, wird sie gewürfelt.
+Neben dem oben genannten Schaden pro Kampfphase kann dieser Zustand Voraussetzung für die Anwendung andere Regeln sein.
 
-Für jede 3,00 volle Meter, die der Charakter fällt, muss er mindestens einen Erfolg würfeln, um keinen Schaden zu nehmen.
-Misslingt die Probe, so erhält der Charakter pro 3,00 Meter automatisch 1W6 Schaden, der nicht von Rüstung abgehalten wird.
+Der Zustand dauert normalerweise eine bestimmte Anzahl von Kampfphasen.
+Sollte diese nicht gegeben sein, so dauert der Zustand 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
 
-* *Misserfolg:* der Charakter kann keinen Schaden verhindern und nimmt den vollen Schaden.
-Am Boden angekommen, verliert er alle Aktionen für die aktuelle Kampfrunde und beginnt die nächste Kampfrunde liegend.
-* *Patzer:* wie Misserfolg, jedoch fällt der Charakter zusätzlich so unglücklich, dass er auf jeden Fall für 3 Kampfphasen nach Auftreffen auf den Boden bewusstlos ist.
+[[ref_core_condition_exhausted]]
+=== Erschöpft
+Ein erschöpfter Charakter kann keine xref:core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen] durchführen.
+Er kann weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] durchführen, diese kosten jedoch 1 zusätzlichen Punkt xref:core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengungsschaden].
+Außerdem ist seine BEW-Rate halbiert.
 
-Für eine Falldistanz von weniger als 3,00 Metern ist nur 1 Erfolg nötig.
-Der Schaden im Fall eines Misserfolgs beträgt 1W6, den keine Rüstung abhalten kann.
+Der Charakter muss mindestens eine xref:core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[kurze Pause] einlegen, um die Erschöpfung loszuwerden.
 
-[NOTE]
-Natürliche Rüstung vermindert Fallschaden.
+[[ref_core_condition_fleeing]]
+=== Fliehend
+Manchmal ist Flucht die beste Verteidigung.
+Ein Charakter in diesem Zustand ist üblicherweise unfreiwillig auf der Flucht aus einer Kampfsituation, zum Beispiel aufgrund einer verpatzen <<ref_core_base_saves_fear, Furcht-Probe>>.
 
-[[ref_base_roll_douptillusions]]
-==== Illusion anzweifeln und durchschauen
+Ein fliehender Charakter muss in seiner Kampfphase seine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] ausschließlich darauf verwenden, um den Kampf zu entkommen.
 
-*Attribut:* Erkenntnis
+Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen oder wenn der Charakter den Kampfschauplatz verlassen hat.
+Letzeres liegt im Ermessen des SL.
+Sollte keine konkrete Anzahl an Kampfphasen angegeben sein, gelten 1W0 - SB-Stufe des Charakters (Minimum 1).
 
-//TODO
+[[ref_core_condition_held]]
+=== Gefangen / Gehalten
+Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen, ein Charakter kann in die prekäre Situation kommen, gefangen zu sein.
 
-xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus]
+Gefangene Charaktere gelten als <<ref_core_condition_immobile, bewegungsunfähig>>.
+Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_condition_bondedincombat, im Nahkampf gebunden>> sind oder der Auslöser für den Zustand sind, einen Bonus von *+2 auf die Würfe zum Erfolg* aus alle Angriffsproben gegen diesen Charakter.
+
+Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_battle_move_standup[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_battle_actions_brawl[Raufen und Ringen].
+
+[[ref_core_condition_bondedincombat]]
+=== Im Nahkampf gebunden
+Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben einem Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
+Der Ausgang dieser Probe ist dabei nicht relevant.
+Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm basieren.
+
+[[ref_core_condition_disabled]]
+=== Kampfunfähig
+Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver], xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktionen] zur Verfügung.
+Sofern nicht anders angegeben, gelten keine anderen Zustände (wie zum Beispiel im Fall einer <<ref_core_condition_unconscious, Ohnmacht>> <<ref_core_condition_onground, am Boden>> zu liegen).
+Die Kampfunfähigkeit endet erst, wenn der Zustand explizit aufgehoben wird.
+
+[[ref_core_condition_unconscious]]
+=== Ohnmächtig
+Ein ohnmächtiger Charakter kann weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
+Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen.
+Sofern nicht anders angegeben, dauert die Ohnmacht 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
+Ein Charakter beginnt das Ende seiner Ohnmacht <<ref_core_condition_onground, am Boden>>.
+
+[[ref_core_condition_invisible]]
+=== Unsichtbar
+Ob durch Magie oder einen genialen, optischen Trick, verschwinden unsichtbare Charaktere aus dem Sichtfeld der Umgebung.
+Unsichtbare Charaktere können nicht direktes Ziel einer <<ref_core_attackingroll, Angriffsprobe>> oder Interaktion sein.
+Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriffe].
+
+Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar gegenüber Kreaturen, die über andere Sinne als "Sicht" verfügen.
+Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
+Ebenso gilt Unsichtbarkeit nicht als <<ref_core_base_rolls_douptillusions, Illusion>>, außer es ist explizit als solche beschrieben.
+Es ist möglich, dass in einer Kampfsituation unsichtbare Charakter von einigen Kampfteilnehmern erkannt werden und von anderen nicht.
+Alle Kreaturen, die unsichtbare Charaktere erkennen, behandlere diese, als würde der Zustand nicht gelten.
+
+Der Zustand endet üblicherweise nach Ende des auslösenden Effekts.
+
+[[ref_core_condition_surprised]]
+=== Überrascht
+Ein überraschter Charakter kann in der Kampfphase keine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] ansagen.
+Alle xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] erhalten einen Malus von *-1 auf die Würfe zum Erfolg*.
+Der Zustand endet nach einer Kampfphase.
 
 [[ref_base_rules_pools]]
 == Energiepunktepools

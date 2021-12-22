@@ -1,12 +1,12 @@
 = Projektilwaffen mit Schießpulver
 
 |===
-|Name |Attribut |Größe |Schadenswürfel |Gewicht |Preis |Grundreichweite |Magazin |Nachladen
+|Name |Attribut |Größe |Schadensbonus |Gewicht |Preis |Grundreichweite |Magazin |Nachladen
 
 |Muskete
 |ER
 |6
-|2W10+4
+|+4
 |4
 |250
 |60
@@ -16,7 +16,7 @@
 |Pistole
 |ER
 |4
-|2W6
+|+2
 |2
 |250
 |45

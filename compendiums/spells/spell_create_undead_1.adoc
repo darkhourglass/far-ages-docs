@@ -2,7 +2,7 @@
 
 *Arkanes Geheimnis:* Nein +
 *POT:* 5 +
-*Magieabwehr?:* Nein +
+*Rettungswurf:* Nein +
 *Komponenten:* Formel, Zutat +
 *Fokus:* Ebon +
 *Vorbereitung:* 2 +
@@ -10,9 +10,9 @@
 *Reichweite:* 9,00 +
 *Anzahl der Ziele:* 1 +
 *Dauer:* Sofort  +
-*Effekt:* Der Nekromant kann mit diesem Zauberspruch einen Untoten der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe 0] erschaffen.
-Er muss dazu den Körper (und eventuell weitere Utensilien) des Untoten bereits vollständig vor sich liegen haben, maximal im Umkreis von 9,00 Metern.
-Handelt es sich um einen körperlosen Untoten, so muss der Nekromant alle nötigen Ritualgegenständen dabei haben.
-Der geschaffene Untote wird automatisch durch den Nekromanten für 1W6 Kampfphasen xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_control[kontrolliert], wenn der Untote teilweise oder vollständige Kontrolle erfordert.
-Nach Ablauf dieser Kampfphasen, gilt der Untote als unkontrolliert und muss ggf. mit Zaubersprüchen wie link:spell_control_undead_1.adoc[Untoten kontrollieren] verzaubert werden.
+*Effekt:* Mit diesem Zauberspruch kannst Du einen Untoten der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe 0] erschaffen.
+Dazu benötigt wird der Körper (und eventuell weitere Utensilien) des zukünftigen Untoten, das bedeutet, er muss bereits vollständig vorliegen, maximal im Umkreis von 9,00 Metern.
+Es müssen alle nötigen Ritualgegenständen vorhanden sein.
+Der geschaffene Untote ist automatsch für 1W6 Kampfphasen unter Deiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_control[Kontrolle], soforn der Untote aufgrund seiner Machtstufe teilweise oder vollständige Kontrolle erfordert.
+Nach Ablauf dieser Kampfphasen gilt der Untote als unkontrolliert und muss gegebenenfalls mit Zaubersprüchen wie link:spell_control_undead_1.adoc[Untoten kontrollieren] verzaubert werden.
 *Zusätzliche Effekte:* - +

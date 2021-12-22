@@ -1,0 +1,142 @@
+= Besondere Zustände
+
+
+|===
+|Zustand |xref:../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] |xref:../core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktionen] |Sonstige Effekt |Ende des Zustands
+
+|Am Boden
+|Ja
+|Ja
+|Ja
+|Ja
+|-2 auf die Würfe zum Erfolg, halbierte BEW
+|Benötigt das Bewegungsmanöver xref:../core/core_rules_battlesystem.adoc#ref_battle_move_standup[Aufstehen], um Zustand zu beenden
+
+|Bedrängt
+|Ja
+|Ja
+|Ja
+|Ja
+|-1 auf die Würfe zum Erfolg
+|Voraussetzungen sind nicht mehr erfüllt
+
+|Benommen (Stufe 1)
+|Nein
+|Ja
+|Ja
+|Ja
+|-
+|1W10-KO (Minimum 1) Kampfphasen Dauer
+
+|Benommen (Stufe 2)
+|Nein
+|Nein
+|Ja
+|Ja
+|-
+|1W10-KO (Minimum 1) Kampfphasen Dauer
+
+|Benommen (Stufe 3)
+|Nein
+|Nein
+|Nein
+|Ja
+|-
+|1W10-KO (Minimum 1) Kampfphasen Dauer
+
+|Benommen (Stufe 4)
+|Nein
+|Nein
+|Nein
+|Nein
+|-
+|1W10-KO (Minimum 1) Kampfphasen Dauer
+
+|Bewegungsunfähig
+|Ja
+|Ja
+|Ja
+|Ja
+|BEW-Rate von 0
+|Voraussetzungen sind nicht mehr erfüllt
+
+|Blind
+|Ja
+|Ja
+|Nein
+|Ja
+|-4 auf die Würfe zum Erfolg
+|1W10-ER (Minimum 1) Kampfphasen Dauer
+
+|Brennend
+|Ja
+|Ja
+|Ja
+|Ja
+|Erhalte zu Beginn Deiner Kampfphase Schaden (abhängig von der Quelle)
+|Voraussetzungen unterschiedlich
+
+|Erschöpft
+|Ja (keine Bonus-Aktionen möglich)
+|Ja
+|Ja
+|Ja
+|halbierte BEW, Aktionen kosten 1 Überanstrengungsschaden
+|Kurze Pause
+
+|Fliehend
+|Ja
+|Ja
+|Ja
+|Ja
+|Aktionen und Bewegungsmanöver eingeschränkt nutzbar
+|Voraussetzungen sind nicht mehr erfüllt
+
+|Gefangen / Gehalten
+|wie Bewegungsunfähig
+|wie Bewegungsunfähig
+|wie Bewegungsunfähig
+|wie Bewegungsunfähig
+|Gegner erhalten +2 auf die Würfe zum erfolg
+|Benötigt das Bewegungsmanöver xref:../core/core_rules_battlesystem.adoc#ref_battle_move_standup[Befreien], um Zustand zu beenden
+
+|Im Nahkampf gebunden
+|Ja
+|Ja
+|Ja
+|Ja
+|-
+|Voraussetzungen sind nicht mehr erfüllt
+
+|Kampfunfähig
+|Nein
+|Nein
+|Nein
+|Nein
+|-
+|Unterschiedlich
+
+|Ohnmächtig
+|Nein
+|Nein
+|Nein
+|Nein
+|-
+|1W10-KO (Minimum 1)
+
+|Unsichtbar
+|Ja
+|Ja
+|Ja
+|Ja
+|-
+|Unterschiedlich
+
+|Überrascht
+|Ja
+|Ja
+|Nein
+|Ja
+|-
+|1 Kampfphase
+|===

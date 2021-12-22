@@ -1,0 +1,10 @@
+= Biss (Angriffsstufe, Schaden)
+
+Die Kreatur verfügt über einen Angriff mit seinem Maul, in dem es versucht, seinen Kontrahenten zu beißen.
+Viele link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiere] besitzen über eine solche natürliche Offensive.
+Auch viele übernatürliche oder monströse Wesen greifen hiermit mit messerschaften Zähnen nach ihren Opfern.
+
+Eine Biss-Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
+
+Bei einer erfolgreichen Angriffsprobe gegen ein Wesen, dessen xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] kleiner ist als die Kreatur, kann die Kreatur als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] sein Gegenüber xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_immobile[gefangen] (Stufe 1) nehmen.

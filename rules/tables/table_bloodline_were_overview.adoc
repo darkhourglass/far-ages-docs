@@ -1,0 +1,76 @@
+= Werwesen
+
+
+|===
+|Werwesen |CP-Kosten |Attributsbonus (reguläre Form) |Besondere Bewegungsmanöver |Geschärfte Sinne |Werform
+
+|Bär
+|120
+|+2 ST
+|link:../../bestiary/skills/bestiary_skill_move_rush.adoc[Eilig]
+|Geruch
+|+2ST, +2 KO, link:../../bestiary/skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung (3)]
+
+|Falke
+|120
+|+1 GE, +1 ER
+|link:../../bestiary/skills/bestiary_skill_move_fasttrack.adoc[Schnell]
+|Sicht
+|+1 GE, +2 ER, link:../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen (60)]
+
+|Fledermaus
+|120
+|+1 ER
+|link:../../bestiary/skills/bestiary_skill_move_fasttrack.adoc[Schnell]
+|Gehör
+|+2 GE, link:../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen (30)], link:../../bestiary/skills/bestiary_skill_poison.adoc[Gift]
+
+|Fuchs
+|60
+|+1 GE
+|link:../../bestiary/skills/bestiary_skill_move_nimble.adoc[Flink]
+|Geruch
+|+1 GE, link:../../bestiary/skills/bestiary_skill_dodge.adoc[Ausweichen]
+
+|Hai
+|180
+|+1 ST, +1 KO
+|link:../../bestiary/skills/bestiary_skill_move_swim.adoc[Schwimmen]
+|Geruch
+|+2 ST, +2 KO, link:../../bestiary/skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung (2)], link:../../bestiary/skills/bestiary_skill_attack_bite.adoc[Biss]
+
+|Krake
+|300
+|+2 ST, +2 KO
+|link:../../bestiary/skills/bestiary_skill_move_swim.adoc[Schwimmen]
+|Sicht
+|+ 6 ST, +4 KO, link:../../bestiary/skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung (2)], Tentakel, Tintenwolke
+
+|Panther
+|120
+|+1 ST, +1 GE
+|link:../../bestiary/skills/bestiary_skill_attack_leap.adoc[Sprung], link:../../bestiary/skills/bestiary_skill_darkvision_1.adoc[Dunkelsicht (Stufe 1)]
+|Sicht
+|+1 ST, +2 GE, link:../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klaue]
+
+|Riesenspinne
+|240
+|+1 ST, +1 GE
+|link:../../bestiary/skills/bestiary_skill_move_climb.adoc[Klettern]
+|Gehöhr
+|+1 ST, +1 GE, +2 KO, link:../../bestiary/skills/bestiary_skill_poison.adoc[Gift], Netz
+
+|Wildschwein
+|60
+|+1 ST, +1 KO
+|link:../../bestiary/skills/bestiary_skill_move_rush.adoc[Eilig]
+|Geruch
+|+1 ST, link:../../bestiary/skills/bestiary_skill_attack_gore.adoc[Aufspießen]
+
+|Wolf
+|60
+|+1 ST
+|link:../../bestiary/skills/bestiary_skill_attack_leap.adoc[Sprung]
+|Geruch
+|+1 ST, +1 GE. +1 KO
+|===

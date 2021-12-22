@@ -1,0 +1,18 @@
+= Atemattacke (Angriffsstufe, Schaden, Schadensart, Reichweite)
+
+Die Kreatur besitzt eine Atemwaffe, die sie gegen ihre Gegner einsetzen kann.
+Besondern bekannt für diese Art des Angriff sind xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drachen] mit ihrem feurigen Atem.
+
+Die Atemattacke kann als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] in einer Kampfphase eingesetzt werden.
+
+Die Angriffprobe wird mit der angegeben *Angriffstufe* gewürfelt oder, sofern diese nicht angegeben ist, mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei].
+Dabei gelten die Regeln für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_cone[kegelförmige] Angriffe.
+Der Kegel hat dabei eine Ausdehnung gemäß der angegebenen *Reichweite* oder 1,50 Meter pro Stufe in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN].
+
+Die Schadensprobe wird mit dem angegeben *Schaden* gewürfelt, wobei der angegebene xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[*Schadenstyp*] verursacht wird.
+Sollte keine Schadenwürfel angegeben sein, wird die Schadensprobe mit 1W6 pro EN-Stufe gewürfelt.
+
+.Atemattacke
+====
+Ein Drache hat eine Atemattacke (14, 4W10+8, Feuer, 9,00), das bedeutet er kann 14W10 zur Angriffsprobe einen 9,00 Meter Kegel Feuer spucken, der 4W10+8 Schaden verursacht.
+====

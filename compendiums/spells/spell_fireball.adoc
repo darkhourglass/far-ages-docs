@@ -2,7 +2,7 @@
 
 *Arkanes Geheimnis:* Nein +
 *POT:* 5 +
-*Magieabwehr?:* Nein +
+*Rettungswurf:* Nein +
 *Komponenten:* Formel, Gesten +
 *Fokus:* Feuer +
 *Vorbereitung:* 3 +
@@ -10,13 +10,12 @@
 *Reichweite:* 15,00 Meter +
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* Sofort +
-*Effekt:* Der Magier beschwört magisches Feuer, dass er zu einem Ball formt.
-In seinen Handflächen beginnen sich während der Anrufung lange Fäden von gleißendem Feuer zu einem Ball zusammenzuknoten.
+*Effekt:* Du beschwörst magisches Feuer, das sich in Deinen Händen zu einer flammenden Kugel formt.
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
-Wenn er auf dem Boden einschlägt, zerberstet er in einer Feuerwolke, die in einem Radius von 3 Metern um den Einschlagspunkt. +
-Der Zauber verursacht 4W6 Feuerschaden gegen jede Kreatur im Zielradius.
-Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_dexterity[GE-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
-Bei einem Erfolg werden die erlitten Schadenspunkte halbiert (Minimum 1).
+Wenn er auf dem Boden einschlägt, zerberstet er zu einem Inferno mit einem Radius von 3 Metern um den Einschlagpunkt. +
+Jede Kreatur im Zielradius erleidet 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuerschaden].
+Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
+Bei einem Erfolg werden die Schadenspunkte halbiert (Minimum 1).
 *Zusätzliche Effekte:* +
 +5 MP: Reichweite: +6,00 Meter +
 +5 MP: Flächenschaden: +3,00 Meter +

@@ -28,10 +28,10 @@ Diese ermöglichen Ihm für so viele Stunden, wie er KO-Stufen besitzt, unter Wa
 
 === Schwer
 Der schwere Panzer und der kräftige Körperbau eines Chelonias bewehrt ihm zwar einen erstaunlichen Schutz, aber macht ihn auch schwerfällig und teilweise unbeweglich. +
-Daher erhalten Chelonia einen Malus von -1 auf ihren xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[Initiative Bonus] und einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_reflex[Reflex]-Proben.
+Daher erhalten Chelonia einen Malus von -1 auf ihren xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[Initiative Bonus] und einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex]-Proben.
 
 === Weicher Kern
 Chelonias können ihre Arme, Beine und Kopf in ihren Panzer einziehen.
 Dazu können sie einmal pro Kampfrunde ein xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen, um Arme, Beine und Kopf in den Panzer einzuziehen oder ausziehen. +
-Sind seine Extremitäten eingezogen, gilt er als xref:../core_rules_battlesystem.adoc#ref_condition_blind[Blind] und xref:../core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig]. +
+Sind seine Extremitäten eingezogen, gilt er als xref:../core_rules_d10_system.adoc#ref_core_condition_blind[Blind] und xref:../core_rules_d10_system.adoc#ref_core_condition_disabled[Kampfunfähig]. +
 Für die Dauer dieser Zeit gelten jedoch seine Trefferzonen Arme, Beine und Kopf als hinter xref:../core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[Totaler Deckung] und profitieren von dem natürlichen Rüstungsschutz seines Panzers in Höhe von 8 Punkten.

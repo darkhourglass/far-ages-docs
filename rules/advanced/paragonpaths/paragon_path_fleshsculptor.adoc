@@ -1,0 +1,120 @@
+= Fleischskulpteur
+
+[quote, Unbekannt]
+Es leeeebt...
+
+== Beschreibung
+
+
+== Voraussetzungen
+
+Um Fleischskulpteur Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen erfüllen:
+
+* Spruchzauberei 4 (beliebige Zauberschule)
+* Wissen [Arkanes] 3
+* Wissen [Medizin] 3
+* Alchemie
+
+== Stufen lernen
+
+Fleischskulpteur können ohne weitere Einschränkungen Stufen lernen.
+
+== Stufe 1
+
+Auf Stufe 1 lernt ein Fleischskulpteur immer die Fähigkeiten:
+
+* <<ref_fleshsculptor_skills_itlifes, Es lebt>>
+* <<ref_fleshsculptor_skills_fleshcrafting, Fleischenformen>>
+* <<ref_fleshsculptor_skills_forbiddensecrets, Verbotenes Wissen>>
+
+== Maximale Stufe
+
+Der Schicksalspfad des Fleischskulpteur gibt keine maximale Stufe vor.
+
+== Fähigkeiten
+
+Folgende Fähigkeiten können Fleischskulpteur pro Stufe lernen, vorausgesetzt, sie erfüllen die weiteren Voraussetzungen.
+
+[[ref_fleshsculptor_skills_armyofabsurdities]]
+=== Armee der Absurditäten
+Lernt der Fleischskulpteur diese Fähigkeit erhöht sich die maximale Anzahl der automatisch und permanent kontrollierten Untoten aus der Fähigkeit <<ref_fleshsculptor_skills_itlifes, Es lebt>> um 3.
+Der Fleischskulpteur kann diese Fähigkeit mehrfach lernen.
+Jedes Mal erhöht sich die genannte maximale Anzahl um weitere 3.
+
+[[ref_fleshsculptor_skills_itlifes]]
+=== Es lebt
+*Voraussetzungen:* Fleischskulpteur 1 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Fleischskulpteur lernt den Zauberspruch link:../../../compendiums/spells/spell_create_undead_1.adoc[Untote erschaffen (I)] und fügt ihn der Zauberspruchliste seiner Zauberschule hinzu.
+Weiterhin wird die Zauberspruchliste um die Zaubersprüche link:../../../compendiums/spells/spell_create_undead_2.adoc[Untote erschaffen (II)], link:../../../compendiums/spells/spell_create_undead_3.adoc[Untote erschaffen (III)], link:../../../compendiums/spells/spell_create_undead_4.adoc[Untote erschaffen (IV)] und link:../../../compendiums/spells/spell_create_undead_5.adoc[Untote erschaffen (V)] ergänzt.
+Diese gehören zu den jeweiligen Stufen wie sie in der Zauberspruchliste link:../../../compendiums/spelllists/compendium_spelllist_necromancy.adoc[Nekromantie] hinzugefügt, zum Spiel Stufe 3 für Untote erschaffen (II), Stufe 5 für Untote erschaffen (III) und so weiter.
+Diese können nach dem üblichen Regeln gelernt werden, wenn der Fleischskulteur die Stufen erreicht.
+
+Für diese Zaubersprüche gelten folgenden Sonderregeln:
+
+* Die Zaubersprüche werden als xref:../../core/core_rules_magic_base.adoc#ref_magic_schools_alchemy_formulas[Formulas], auch wenn der Zauberer die Zauberspruchliste xref:../../core/core_rules_magic_base.adoc#ref_magic_schools_alchemy[Alchemie] nicht verwendet.
+Es gelten die üblichen Regeln für Formulas.
+* Die xref:../../core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[Vorbereitung] der Zaubersprüche beträgt nicht Kampfphasen, sondern Stunden.
+* Es sind zusätzliche xref:../../core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_components_ingredients[Komponenten] im Wert von 100 Silbermünzen pro Punkt in POT nötg.
+* Alle Untoten, die durch diese Zaubersprüche erschaffen werden, gelangen automatisch und permanent unter die xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_control[Kontrolle] des Fleischskulpteur.
+Außerdem erleiden sie keinen xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_decay[Zerfall].
+* Der Fleischskulpteur kann außerdem maximal 3 Untote gleichzeitig auf diese Weise kontrollieren.
+Werden mehr Untote über diese Zaubersprüche erschaffen, verliert der Fleischskulpteur automatisch die Kontrolle über die ältesten erschaffenen Untoten.
+* Es können keine link:../../advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlosen] Untoten erschaffen werden.
+* Es können initial nur link:../../../bestiary/undead/bestiary_undead_zombie.adoc[Zombies] erschaffen werden.
+* Der Fleischskulteur kann xref:../../core/core_rules_magic_items.adoc#ref_magic_items_fleshcrafting_talent[Fleischformen] auf Untote verwenden.
+
+Beherrscht der Fleischskulteur bereits die Zauberschule Nekromantie, lernt er die Zaubersprüche auf normalen Weg.
+Er lernt sie nicht als Formulas, erhält jedoch weiterhin die Vorteile dieses Talents, wenn er Untote erschafft.
+
+[[ref_fleshsculptor_skills_fleshcrafting]]
+=== Fleischformen
+*Voraussetzungen:* Fleischskulpteur 1 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* EN +
+*Kampf:* - +
+*Beschreibung:* Der Fleischskulpteur lernt das Talent xref:../../core/core_rules_magic_items.adoc#ref_magic_items_soulenchanting_talent[Fleischformen] mit SGM 1, auch wenn er die Voraussetzungen nicht erfüllt.
+Er erhält sofort die erste Talentstufe ohne zusätzliche CP-Kosten.
+
+[[ref_fleshsculptor_skills_forbiddensecrets]]
+=== Verbotenes Wissen
+*Voraussetzungen:* Fleischskulpteur 1 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* Der Fleischskulpteur erlernt das Wissen, um ein xref:../../core/core_rules_magic_items.adoc#ref_magic_items_fleshcrafting_grafts[Transplantat] zu lernen.
+
+Er muss dazu keine zusätzlichen CP-Kosten tragen.
+Abhängig von seiner Stufe als Fleischskulpteur darf er Transplantate mit maximaler Machtstufe lernen, die folgender Tabelle zu entnehmen ist.
+
+|===
+|Maximale Machtstufe des Transplantat |Stufe Fleischskulpteur
+
+|Simpel
+|1
+
+|Gewöhnlich
+|1
+
+|Selten
+|2
+
+|Außergewöhnlich
+|3
+
+|Legendär
+|5
+
+|Mystisch
+|7
+|===
+
+Die Fähigkeit kann mehrfach gelernt werden.
+Jedes Mal darf der Fleischskulpteur ein neues Transplantat lernen.
+Lernt der Fleischskulpteur auf diese Weise 2 oder mehr Transplantate erhält er einen Punkt xref:../../advanced/advanced_rules_corruption.adoc#corruptions_rules_receive_corruptions[Korruption].
+Wird mit der Regel der xref:../../advanced/advanced_rules_corruption.adoc#corruptions_rules_variant_corruptions[Varianten von Korruption] gespielt, können link:../../advanced/corruptions/corruption_bodymodifications.adoc[körperliche] Korruptionen oder link:../../advanced/corruptions/corruption_madness.adoc[Wahnsinn] gewählt werden.

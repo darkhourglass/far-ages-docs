@@ -607,6 +607,7 @@ Die Fähigkeit kann nicht auf Zauber angewendet werden, die der Zauberer aus Geg
 *CP-Kosten:* 400+ +
 *Beschreibung:* Der Malus auf die Würfe zum Erfolg bei Reflex- oder Willenskraftproben steigt auf -2.
 
+[[ref_skills_magic_writemagic]]
 ==  Zauberbuch Schreiben
 
 [quote, Byhragast „Eisauge“]
@@ -617,67 +618,12 @@ Die Feder ist mächtiger als das Schwert, vorausgesetzt, die Feder weiß, was si
 *Beschreibung:* Diese Fähigkeit ist eine spezielle Form des Herstellens Magischer Gegenstände.
 Nämlich jener in schriftlicher Form, also Spruchrollen und Grimoires.
 Ein Charakter mit dieser Fähigkeit kann Zauber in Spruchrollen bannen, die zu einem einmaligen Gebrauch von Nutzen sind.
-Ebenso kann er Zaubersprüche in Grimoires übertragen, so dass andere Magier diese lernen können.
+Ebenso kann er Zaubersprüche in Grimoires übertragen, sodas andere Magier diese lernen können.
 Der Zauberer kann nur Zaubersprüche niederschreiben, die er gelernt hat.
 
 Diese Fähigkeit erweitert das Talent Spruchzauberei und ermöglicht es einem Magieanwender, seine Magie in eine Spruchrolle oder ein Grimoire (ein Buch, in dem Zaubersprüche stehen) zu transferieren.
 In diesem Abschnitt werden die Regeln und Anwendungsmöglichkeiten dieser Fähigkeit erläutert.
 
-=== Spruchrollen
-Um eine *Spruchrolle herzustellen*, benötigt der Zauberer Pergament und Schreibgerät.
-Er schreibt nach den Regeln der Fähigkeit „Zauberbuch Schreiben“ den Zauber auf dieses Pergament.
-Dies bedeutet, dass er mit diesem Talent POT viele Erfolge mit Spruchzauberei erreichen muss.
-Es handelt sich dabei natürlich um die POT des Zauberspruches, der auf die Spruchrolle geschrieben werden soll.
-Für dieselbe Probe kann auch das Talent Magische Gegenstände Herstellen benutzt werden.
-
-Der Zauberer kann Zusätzliche Effekte für diesen Zauberspruch verwenden.
-Erhöhen diese die POT des Zauberspruches, so muss die Anzahl der Erfolge entsprechend angepasst werden.
-
-Der Zauberer kann jede Sprache verwenden, die er beherrscht.
-Er kann die Spruchrolle in „normaler“ Sprache verfassen, aber auch eine arkane Sprache verwenden.
-
-Der Wert einer Schriftrolle berechnet sich aus POT*50 Silbermünzen.
-
-=== Grimoire
-Gerade für Zauberer ist es interessant zu wissen, wie man ein *Grimoire herstellt*.
-Ein Grimoire ist ein mächtiges, magisches Buch, dass Zaubersprüche enthält, die von anderen Zauberern gelernt werden können, aber auch wie bei einer Spruchrolle ausgesprochen werden können.
-
-Als Ausgangsmaterial sind Tinte und ein gebundenes Buch von Nöten. Der
-Zauberer schreibt nach den Regeln der Fähigkeit „Zauberbuch Schreiben“
-einen Zauberspruch nach dem anderen in das Buch. Dabei ist zu beachten,
-dass die Zaubersprüche immer in einer einzigen Arkaner Sprache verfasst
-sein müssen, um ein Grimoire zu erschaffen. Auch ohne die nachfolgende
-Verzauberung können diese Aufzeichnungen genutzt werden, um
-Zaubersprüche zu lernen und um Zaubersprüche wie Spruchrollen aus dem
-Grimoire zu lesen.
-
-Der Zauberer muss nicht das ganze Grimoire fertiggeschrieben haben,
-sondern kann die folgenden Schritte auch in Etappen durchführen.
-
-Er würfelt eine Spruchzauberei-Probe und muss dabei x+y Erfolge
-erreichen, wobei x die Anzahl der Zaubersprüche ist, die schon in das
-Buch eingebunden sind und y ist die höchste POT unter diesen.
-
-Vorsicht ist geboten bei der Herstellung, denn ein Patzer bedeutet, dass
-das Grimoire komplett vernichtet wird. Alternativ kann der SL das
-Grimoire auch verfluchen, so dass automatische Zauberpatzer oder Effekte
-Wilder Magie verursacht.
-
-Bei einem Ergebnis von 20 oder höher bei dem Wurf auf Zauberpatzer ist
-ein Grimoire üblicherweise zerstört und lässt alle enthaltenen
-Zaubersprüche einmal frei. Manche Grimoire sind jedoch so mächtig, dass
-sie nicht zerstört werden, sondern äußert unangenehme Verwünschungen,
-Verwüstungen oder ähnliches anrichten.
-
-Der Wert in Silbermünzen eines verzauberten Grimoire ergibt sich aus der
-Summe über alle POT aller Sprüchen multipliziert mit 500.
-
-.Grimoire schreiben
-====
-Ein Grimoire enthält 4 Zaubersprüche.
-Davon sind 2 von POT 5, 1 POT 6 und POT 8.
-Der Wert berechnet sich daher (2*5 + 6 + 8)*250 = 12000 Silbermünzen.
-====
 
 == Zauber Festhalten I
 

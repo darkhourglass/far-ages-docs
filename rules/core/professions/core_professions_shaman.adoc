@@ -27,7 +27,7 @@ Die Entscheidung ist final.
 * Der Geist ist link:../../advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] und kann durch physische Attacken nicht verwundet werden. Ausschließlich Angriffe oder Zauber, die auf körperlose Wesen zielen, können Ihn betreffen.
 Verliert der Geist durch einen solchen Angriff mindestens 1 TP, ist der Geist für 24 Stunden gebannt. Nach Ablauf dieser Zeit kann er Schamane ihn wieder beschwören.
 * Der Geist besitzt keine Sprache, aber er und der Schamane können telepathisch miteinander kommunizieren. Im Normalfall folgt der Geist den Worten des Schamanen.
-* Wenn der Schamane sich konzentriert, kann er durch die Augen des Geistes sehen. Während er dies tut, kann er keine eigenen Aktionen durchführen und gilt als xref:../core_rules_battlesystem.adoc#ref_condition_disabled[Kampfunfähig].
+* Wenn der Schamane sich konzentriert, kann er durch die Augen des Geistes sehen. Während er dies tut, kann er keine eigenen Aktionen durchführen und gilt als xref:../core_rules_d10_system.adoc.adoc#ref_core_condition_disabled[Kampfunfähig].
 
 ==== Elementare Geister
 
@@ -59,7 +59,7 @@ Neben schrecklichen Wesen wie Dämonen ist das Empyreum auch Heimat der Feen, de
 Feengeister bieten dam Schamanen folgende Fähigkeiten:
 
 * Der Schamane erhält einen Bonus von 10 MP auf seinen xref:../core_rules_charactercreation.adoc#ref_secondary_magicpoints[Magiepunkte]-Pool
-* Der Schamane erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_base_roll_reflex[Reflex]-Proben.
+* Der Schamane erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex]-Proben.
 * 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_magic[Magie]
 
 ==== Tiergeister

@@ -1,0 +1,899 @@
+= Magische Gegenstände
+
+[quote, Byhragast „Eisauge“]
+„Wahrlich hohe Kunst!“
+
+Legenden um mächtige magische Gegenstände, wie Schwerter oder Rüstungen mit klangvollen Namen, die von großen, strahlenden Helden geführt werden, gehören zu den verbreiteten Unterhaltungsmöglichkeiten für das Volk.
+
+Neben dieser romantischen Seite gibt es tatsächlich auch die wissenschaftliche Seite, die sich mit der Herstellung dieser Gegenstände beschäftigt.
+Zauberer, deren Fähigkeiten über viele Jahre hin gewachsen sind, können dieses Talent lernen und begeben sich auf einen mühsamen Pfad bis zur wahren Meisterung.
+
+Die Ernüchterung kommt dann, wenn bemerkt wird, dass dieses Talent dazu benutzt wird, „einfache“ magische Gegenstände zu erschaffen, die wenig Legendäres an sich haben.
+
+Die meisten Magier, die kommerziell magische Gegenstände herstellen, konzentrieren sich meistens auf die einfachen Gegenstände, denn auch die Magier wissen, dass die wenigsten Kunden überhaupt die Beträge für mächtige Gegenstände entrichtet können und dass solche Gegenstände nicht selten gestohlen werden.
+
+Im Laden eines Magiers findet man Spruchrollen, Tränke, zwei bis drei Zauberstecken, kleine Magiespeicher, abgestimmte kleine und mittlere magische Kristalle und Zutaten.
+Grimoire findet man so gut wie niemals in Läden zum Verkauf, jedoch kann es vorkommen, dass Magier ein Grimoire von jemand anders kaufen, wenn sie darin einen ihnen unbekannten Spruch finden.
+
+Magische Gegenstände, auf denen Effekte geprägt werden, sind üblicherweise nicht zu verkaufen, bzw. man findet sie nicht in einem typischen Magier-Laden.
+
+Die geprägten Gegenstände finden sich meistens in Kunstgalerien reicher Kaufleute und Adeliger.
+Der Großteil erhielt diese Gegenstände im Laufe des Ewigen Reiches, welches einer der größten Produzenten solcher Gegenstände war.
+Viele kunstvolle und mächtige Objekte sind jedoch verloren gegangen und sollten sie gefunden werden, landen sie meist in den Händen eines Reichen, der ihren wahren, magischen Wert nicht schätzt und den Gegenstand in einer Vitrine in Prunk und Protz zur Schau stellt.
+
+In den großen Metropolen haben sich einige wenige Händler auf den Handel mit solchen Gegenständen spezialisiert.
+In ihren Läden (die bezüglich ihrer Sicherheitsvorkehrungen kleinen Festungen ähneln) findet man durchaus das ein oder andere machtvolle Objekt.
+
+Oft prägen Zauberer Effekte auf Gegenstände in den meisten Fällen zum Selbstzweck.
+
+Weiterhin ist zu bedenken, dass die Zauberer schon lange kein Monopol auf außergewöhnliche wie mächtige Gegenstände haben.
+Die Technomanten haben ihnen dahingehend schon seit vielen Generationen den Rang abgelaufen, da die Technomanten aufgrund von Mechanisierung günstiger produzieren können und der Herstellungsprozess weniger aufwendige Materialien und Verarbeitung benötigt.
+
+[[ref_magic_items_powerlevel]]
+== Machtstufen
+
+Die Macht magischer Gegenstände wird in Stufen, den *Machtstufen* gemessen.
+Wie beispielsweise Talentstufen werden Machtstufen in Zahlen ab 1 gemessen.
+Zusätzlich werden in diesem Fall auch Bezeichnungen analog verwendet, zum Beispiel ist ein _seltener_, magischer Gegenstand ein Gegenstand mit Machtstufe 3.
+Die Machtstufen stehen für die Rarität des Gegenstandes und beeinflussen die Regeln, wie zum Beispiel die Schwierigkeit zum <<ref_magic_items_identification, Identifikation>>, sowie den Wert des Gegenstandes.
+
+Die folgende link:../tables/magic/table_magic_items_powerlevels.adoc[Tabelle] gibt die Übersicht der Eigenschaften pro Machtstufe.
+Diese werden in den folgenden Kapiteln im Details beschrieben.
+
+[[ref_magic_items_usage]]
+== Verwendung von magischen Gegenständen
+
+Sofern ein Gegenstand keine besonderen Voraussetzungen zur Benutzung benötigt, kann diesen jeder ohne Einschränkungen nutzen.
+Ein Schwert kann in die Hand genommen werden, eine Rüstung angezogen und ein Ring über den Finger gezogen werden und die Wirkung des Gegenstandes tritt ein.
+
+Andererseits können magische Gegenstände auch zusätzliche Voraussetzungen erfordern, um sie benutzen zu können.
+Diese Voraussetzungen sind in der Beschreibung des magischen Gegenstandes angegeben.
+
+Ein Charakter muss einen Gegenstand, neben eventuellen Voraussetzungen, an passender Stelle am Körper tragen, um ihn nutzen zu können.
+Ein magischer Schild muss zum Beispiel wie ein regulärer Schild in der Hand geführt werden, um seine Wirkung zu entfalten.
+Umgeschnallt auf dem Rücken wirkt dieser nicht.
+
+=== Maximale Boni von magischen Gegenständen
+
+Gleiche Boni aus gleicher Quelle von magischen Gegenständen sind nicht kumulativ, es zählt immer nur der höchste Bonus.
+
+Bei Rüstungen werden pro Trefferzone kumulativ betrachtet.
+
+.Rüstungsbonus magischer Rüstungen
+====
+Ein Charakter trägt einen magischen Holzschild (normaler Rüstungsschutz 4), der die magische Eigenschaft hat, weitere zwei RS-Punkte zu gewähren.
+Der Schild schützt also mit 6 Punkten.
+Er trägt weiterhin eine magische Ritterrüstung(normaler Rüstungsschutz 9) mit einer magischen Verbesserung von 1.
+Da das Schild jede Trefferzone schützt, sind beide Rüstungsteile kumulativ.
+Der Charakter hat also einen Rüstungsschutz von 9+1+4+2= 16.
+====
+
+Bei unterschiedliche Trefferzonen sind die Boni nicht kumulativ.
+
+.Rüstungsbonus magischer Rüstungen
+====
+Ein Charakter besitzt magische Plattenarmschienen +2 und eine magische Lederrüstung +1.
+Diese Boni sind nicht kumulativ, aber heben sich auch nicht auf, da die beiden Trefferzonen sich nicht überschneiden.
+====
+
+Boni gleicher Art aus verschiedenen Quellen sind nicht kumulativ.
+
+.Rüstungsbonus magischer Rüstungen
+====
+Ein Charakter trägt eine magische Plattenrüstung +3 und ein Amulett, dass einen +2 Bonus auf den Rüstungsschutz auf alle Trefferzonen gewährt.
+Insgesamt darf sich der Charakter für die Trefferzonen, die sie Plattenrüstung abdeckt einen RS-Bonus von +5 gutschreiben.
+Ein Ring, der wiederum +1 auf den Rüstungsschutz auf allen Trefferzonen bietet, zählt nicht, denn das Amulett hat einen höheren Bonus.
+====
+
+=== Magische Gegenstände zerstören und reparieren
+
+Gerade Waffen und Rüstungen leiden unter den starken Belastungen eines Kampfes und profane, nicht-magische Varianten dieser Ausrüstungsgegenstände sind des Öfteren Opfer solcher Umstände und werden zerstört.
+
+Dasselbe Schicksal kann magischen Gegenständen passieren, jedoch sind sie sehr viel resistenter als ihre nicht-magischen Konterparts.
+Jedes Mal, wenn ein Effekt (zum Beispiel ein Patzer im Angriffstalent oder die Auswirkung eines Zauberspruches) den Gegenstand zerstören würde, notiert sich der Träger des Gegenstandes dies, am Besten in Form einer Strichliste.
+
+Hat der Gegenstand mehr „Striche“ als seine Machtstufe, dann ist er zerstört.
+
+.Magische Gegenstände zerstören
+====
+Ein Charakter trägt ein magisches Schwert mit Machtstufe 5, dann kann dieses Schwert 5-mal „zerstört“ werden, bevor es endgültig zerstört wird.
+====
+
+Ein Charakter kann natürlich magische Gegenstände auch reparieren bzw.reparieren lassen, jedoch kostet dies für jeden „Strich“, den es zu entfernen gilt, 25% des Originalwertes in Silbermünzen.
+Ein Charakter, der magische Gegenstände reparieren will, benötigt das Talent „Magischen Gegenstand Herstellen“ mindestens auf Stufe 5.
+Für die Entfernung eines Striches sind 3 Erfolge nötig.
+
+[[ref_magic_items_identification]]
+== Identifikation von magischen Gegenständen
+Um einen Gegenstand gefahrlos zu nutzen, sollte man genau wissen, wie er funktioniert.
+Nicht jeder Gegenstand ist hilfreich oder gutartig, manche sind verflucht oder funktionieren gefährlich anders als erwartet, wenn sie falsch genutzt werden.
+
+Jeder magische Gegenstand besitzt eine Angabe zur *Identifikation*, die aus zwei Teilen besteht: der benötigen *Anzahl an Proben* und der *Anzahl der nötigen Erfolge* pro Probe.
+Diese Angabe erfolgt als Zahlenpaar, zum Beispiel 1/5, wobei die erste Zahl immer die Anzahl der nötigen Proben und die zweite Zahl die Anzahl der nötigen Erfolge.
+In diesem Beispiel ist daher nur eine Probe mit 5 Erfolgen nötig.
+
+Sind alle Proben zur Identifikation erfolgreich, kennt der Charakter den Gegenstand vollständig, das heißt, er ist über alle Fähigkeiten und Voraussetzungen informiert, zum Beispiel:
+
+* Bei Zauberstecken werden die verfügbaren Zaubersprüche und die MP der Kristalle enthüllt
+* Alle Effekte werden erkannt
+* Die Wirkung eines Artefaktes, Reliktes oder durch Rezept hergestellten Gegenstandes wird erkannt
+* Intelligente Gegenstände werden als solche erkannt
+* Verfluchte Gegenstände werden als verflucht enttarnt, sowie die Wirkung des Fluches
+
+Die Proben können im Normalfall wie folgt durchgeführt werden:
+
+* Eine erfolgreiche Probe auf xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] wie zum Beispiel Arkanes, Geschichte oder Legenden.
+Ob die Probe zulässig ist, kann aus der Beschreibung des Gegenstandes hervorgehen oder liegt im Ermessen des SL.
+* Der Gegenstand wird mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] untersucht.
+* die Fähigkeit xref:core_rules_skills.adoc#ref_skills_artefactlore[Artefaktkunde] wird angewandt
+* der Zauberspruch XXX wird auf den Gegenstand gewirkt
+
+.Identifikation von Gegenständen
+====
+Solvar, der Barde, entdeckt in einer Gruft ein magisches Schwert (3/4).
+Anhand seines Talents Wissen(Legenden) folgert sich Solvar, dass dies das Kriegergrabmal von Z'khur, dem Bluttrinker vom Arta-Berg ist.
+Z'khur führte ein besonderes Schwert mit sich, dass das Blut seiner Feinde trank und Z'khur deswegen unbesiegbar machte.
+Vielleicht ist diese Legende bereits ein Hinweis auf die Wirkung des Schwertes.
+Diese Information erhält Solvar nach Ermessen des SL nach einer Talentprobe auf sein Wissenstalent.
+
+Eine spätere Untersuchung mit Aether Wahrnehmung (damit insgesamt die zweite Probe zur Identifikation) enthüllt, dass die Energien, die in dem Schwert wohnen, starken nekromantischen Ursprungs ist.
+Dies könnte durchaus auf diese Fähigkeiten schließen lassen.
+Solvar ist der Lösung um einiges näher, er benötigt noch eine weitere Probe, um das Schwert vollständig identifiziert zu haben.
+====
+
+[[ref_magic_items_createmagicalitem]]
+== Magische Gegenstände Herstellen
+
+[[ref_magic_items_createmagicalitem_talent]]
+=== Talentbeschreibung
+
+*Voraussetzungen:* Artefaktkunde, Spruchzauberei 5, Aether Wahrnehmung 5, Wissen[Arkanes] 5 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* EN +
+*Kampf:* - +
+*Beschreibung:* Mit diesem Talent kann ein Charakter magische Gegenstände herstellen.
+Solche Gegenstände zeichnen dadurch aus, dass Sie einen permanenten magischen Effekt in sich tragen.
+
+Charaktere lernen dieses Talent mit dem SGM ihres Spruchzauberei-Talents.
+
+Die folgenden Kapitel beschreiben im Detail die konkreten Anwendungen und Regeln zu diesem Talent.
+
+In diesem Abschnitt wird nur eine kurze Übersicht gegeben, welche Möglichkeiten das Talent Magische Gegenstände Herstellen bietet und welche verwandten Teilgebiete es gibt.
+
+[[ref_magic_items_createmagicalitem_scrolls]]
+=== Spruchrollen
+Um eine *Spruchrolle herzustellen*, benötigt der Zauberer die besonderen Fähigkeit xref:core_rules_magic_skills.adoc#ref_skills_magic_writemagic[Zauberbuch Schreiben] und das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], sowie Pergament und Schreib-Utensilien.
+Um die Spruchrolle nun herzustellen muss er eine Spruchzauberei-Probe abgelegen, so als würde er den Zauber regulär aussprechen, jedoch tritt der Effekt nicht ein, sondern wird in die Spruchrolle übertragen.
+Für jede Spruchrolle benötigt der Zauberer eine Stunde Zeit.
+
+Der Zauberer kann xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_additionaleffects_reducepreparing[zusätzliche Effekte] für diesen Zauberspruch verwenden.
+Erhöhen diese die POT des Zauberspruches, so muss die Anzahl der Erfolge entsprechend angepasst werden.
+Diese können nach Beschreiben der Spruchrolle nicht mehr verändert werden.
+
+Der Zauberer kann jede Sprache verwenden, die er beherrscht.
+Er kann die Spruchrolle in „normaler“ Sprache verfassen, aber auch eine arkane Sprache verwenden.
+
+Der Wert einer Schriftrolle berechnet sich aus POT*50 Silbermünzen.
+
+[[ref_magic_items_createmagicalitem_grimoire]]
+=== Grimoire
+Gerade für Zauberer ist es interessant zu wissen, wie man ein *Grimoire herstellt*.
+Ein Grimoire ist ein mächtiges, magisches Buch, dass Zaubersprüche enthält, die von anderen Zauberern gelernt werden können, aber auch wie bei einer Spruchrolle ausgesprochen werden können.
+
+Um ein Grimoire zu schreiben, sind die gleichen Voraussetzungen nötig, wie beim Schreiben einer <<ref_magic_items_createmagicalitem_scrolls, Spruchrolle>>.
+Jedes Mal wenn der Zauberer einen Zauberspruch das Grimoire schreibt, gelten die gleichen Regeln, wie im Kapitel zum Schreiben der Spruchrolle beschrieben.
+Zusätzlich gilt, dass der Zauberer ein Grimoire nur in Arkaner Sprache verfassen kann.
+Er würfelt eine Spruchzauberei-Probe und muss dabei nötigen Erfolge erreichen, um den Zauberspruch auszusprechen plus die Anzahl der Zaubersprüche, die schon in das Buch eingebunden sind.
+Der Zauberer muss nicht das ganze Grimoire fertig geschrieben haben, sondern kann die folgenden Schritte auch in Etappen durchführen.
+
+Grundsätzlich können diese Aufzeichnungen genutzt werden, um Zaubersprüche zu lernen und um Zaubersprüche wie Spruchrollen aus dem Grimoire zu lesen.
+
+Vorsicht ist geboten bei der Herstellung, denn ein Patzer bedeutet, dass das Grimoire komplett vernichtet wird.
+Bei einem Ergebnis von 20 oder höher bei dem Wurf auf Zauberpatzer, lässt das Grimoire außerdem alle enthaltenen Zaubersprüche einmal frei.
+Manche Grimoire sind jedoch so mächtig, dass sie nicht zerstört werden, sondern äußert unangenehme Verwünschungen, Verwüstungen oder ähnliches anrichten.
+
+Der Wert in Silbermünzen eines verzauberten Grimoire ergibt sich aus der Summe über die POT aller Sprüchen multipliziert mit 500.
+Um einen Zauberspruch in das Grimoire zu schreiben, benötigt der Zauberer 1 Stunde Zeit.
+
+.Grimoire schreiben
+====
+Ein Grimoire enthält 4 Zaubersprüche.
+Davon sind 2 von POT 5, 1 POT 6 und POT 8.
+Der Wert berechnet sich daher (2*5 + 6 + 8)*250 = 12000 Silbermünzen.
+====
+
+[[ref_magic_items_createmagicalitem_rods]]
+=== Zauberstecken
+*Zauberstecken* sind magische Gegenstände (welche nicht zwangsläufig einem Stab oder Stecken ähneln müssen), die Zaubersprüche enthalten, die sogar ein ungeübter Anwender aktivieren kann.
+Die Zaubersprüche wurden in die Struktur des Steckens gewoben und werden mit Energie aus magischen Kristallen gewirkt.
+Sie haben den Vorteil gegenüber Spruchrollen, das sie nicht vernichtet werden, wenn sie einmal benutzt wurden.
+Stattdessen können sie sogar aufgeladen und weiter benutzt werden.
+
+Zunächst benötigt der Zauberer einen entsprechenden Stecken, bzw. im allgemeinen Fall einen Gegenstand, der mindestens POT*1000 Silberstücke (Grundkosten) wert sein muss.
+Mindestens die Hälfte dieses Preises muss für einen (oder mehrere) magische Kristalle ausgegeben werden, die in diesen Gegenstand eingearbeitet werden.
+Diese Kristalle sind der Kraftpool des Zauberspruches, denn die in den Kristallen enthaltenden MP werden später für das Aussprechen des Zauberspruches benötigt.
+
+Wichtig ist, dass der Zauberer vorher die MP bestimmt, die der Zauberspruch benötigt.
+Diese ergeben sich aus der Rechnung Anzahl der Runden zur Vorbereitung*POT des Zauberspruches + eventuelle zusätzliche Effekte.
+Diese dienen nämlich nachher als Aktivierungskosten für den Zauberspruch und daher sollte der Zauberer einen Kristall nutzen, der mindestens so viele MP enthält.
+
+Sollen mehrere Zaubersprüche in einen Zauberstecken verankert werden, so wird die POT von diesen addiert, um die Grundkosten zu berechnen.
+Die Anzahl der Kampfphasen zur Vorbereitung*POT müssen getrennt berechnet werden (diesmal aber mit der POT des jeweiligen Zaubers).
+
+Ist der Gegenstand besorgt und mit den Kristallen versehen, muss der Zauberer eine Probe auf Magische Gegenstände Herstellen ablegen.
+Er muss eine Probe pro Zauberspruch, der im Zauberstecken abgelegt wird, ablegen, als würde er den Zauberspruch mit Spruchzauberei aussprechen.
+Pro Zauberspruch benötigt der Zauberer 1 Woche Zeit zur Herstellung des Zaubersteckens.
+
+Sind die Zaubersprüche erfolgreich eingesetzt, dann muss der Charakter eine weitere Probe in „Magischen Gegenstand Herstellen“ ablegen.
+
+Das Ergebnis dieser Probe bestimmt dann die weitere Gestaltung des Gegenstands:
+
+[cols=",,",options="header"]
+|===
+|Erfolgsgrad |Effekt |Mindestwert des Gegenstandes in Silberstücken
+
+|Durchschnitt
+|Der Zauberstecken wurde erfolgreich hergestellt.
+Der Zauberer kann Aktivierungsworte festlegen.
+Er besitzt keine MP-Regeneration.
+|Grundkosten * 2
+
+|Gut
+|Wie Durchschnitt, jedoch regenerieren sich pro Tag 1W8 MP.
+|Grundkosten * 2,10
+
+|Sehr Gut
+|Wie Gut, jedoch regenerieren sich pro Tag 1W10 MP
+|Grundkosten * 2,25
+
+|Ausgezeichnet
+|Wie Sehr Gut, jedoch regenerieren sich pro Tag 2W10 MP.
+Zusätzlich benötigt der Zauberspruch keine Spruchzauberei-Probe mehr.
+|Grundkosten * 2,50
+
+|Meisterhaft
+|Wie Ausgezeichnet, jedoch regenerieren sich pro Tag 3W12 MP.
+|Grundkosten * 3
+|===
+
+.Zauberstecken herstellen
+====
+Ein Zauberer möchte den Zauberspruch Feuerball in einem Zauberstecken verankern.
+Dieser Zauber hat eine POT von 5, somit kostet der Stecken 5000 Silbermünzen in der Herstellung und davon müssen 2500 Silbermünzen für magische Kristalle ausgegeben werden.
+
+Der SL teilt dem Spieler mit, dass er für 2500 Silbermünzen einen Kristall findet, der 75 MP speichern kann.
+Da der Zauberspruch 3 Kampfphasen zur Vorbereitung braucht, ergeben sich aus der 3*POT Aktivierungskosten in Höhe von 15.
+Somit reicht der Kristall für fünf Anwendungen, bevor er wieder aufgeladen werden muss.
+
+Als erstes muss der Zauberer eine Probe auf Magischen Gegenstand Herstellen würfeln, so als würde er Feuerball aussprechen.
+Gelingt diese Probe, so macht der Zauberer eine weitere Probe.
+Der Zauberer würfelt guten Erfolg, was dem Stecken zusätzlich die Fähigkeit zur Regeneration von 1W8 MP pro Tag gibt.
+
+Zur Benutzung des Gegenstandes ist eine Spruchzauberei, um die Anzahl der Erfolge zu bestimmen.
+
+Der endgültige Wert des Gegenstandes berechnet sich durch 5000*2,10 = 10500 Silberstücke.
+====
+
+[[ref_magic_items_createmagicalitem_potions]]
+=== Tränke und Gebräue
+Eine Gruppe, die man nie unterschätzen sollte, sind die *Tränke und Gebräue*
+
+Diese Kategorie umfasst alle Flüssigkeiten, die in vielfältiger Form einen magischen bzw. alchemistischen Effekt hervorrufen.
+Üblicherweise befindet sich ein Trank in einer Flasche, die groß genug ist, um leicht in einer Hand gehalten zu werden.
+
+Die Form der Flaschen ist meistens der praktischen Anwendung angepasst.
+Beispielsweise sind die Flaschenbäuche eines Wurfgemischs breit und rund.
+Im Gegensatz dazu sind Flaschen, die wichtige, manchmal lebensrettende Gebräue enthalten lang und flach, sodass sie einfacherer am Gürtel getragen werden können.
+
+Magische Tränke werden öfters aus einfachen Materialien zusammengemischt und dann verzaubert.
+Ihre Kraft erwächst also aus der Magie, während andere Tränke durch geschicktes Vermengen von Zutaten entstehen.
+Im letzteren Fall greift die Alchemie-Fähigkeit, die das Wissen und die Praxis liefert, die dazu nötig ist.
+
+Manche Tränke erfordern explizit die Kenntnis eines Zauberspruches oder die Verwendung von besonderen Materialien.
+
+Ein Charakter kann diese Gegenstände sowohl durch die besondere Fähigkeit xref:core_rules_skills.adoc#ref_skills_alchemy[Alchemie] und das Talent xref:core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Brauen] als auch durch Magischen Gegenstand Herstellen erschaffen.
+Der Alchemist muss zum Herstellen eines Trankes zunächst dessen Herstellungskosten aufwenden, die 50% des finalen Wertes betragen.
+Wie andere Gegenstände besitzt ein Trank eine link:../tables/magic/table_magic_items_powerlevels.adoc[Machtstufe], die Anzahl der nötigen Erfolge in der Herstellungsprobe vorgibt sowie die Dauer.
+
+[[ref_magic_items_createmagicalitem_mpstorages]]
+=== Speicher von Magiepunkten
+
+Auch wenn das Talent Magische Gegenstände Herstellen dazu gedacht ist, eben jene zu erschaffen, bietet es eine weitere nützliche Verwendung.
+Im Herstellungsprozess von vielen magischen Gegenständen (und Technomantischen) sind Magische Kristalle unerlässlich.
+
+Mit dem Talent lassen sich auch *Magische Kristalle konfigurieren*, so dass sie ihre MP abgeben können und so für die weitere Verarbeitung genutzt werden können, z.B. zur Herstellung von Zauberstecken oder als Motor für technomantische Geräte.
+Die Anzahl der nötigen Erfolge mit dem Talent Magischen Gegenstand Herstellen ergibt sich aus der Anzahl an MP, die der Kristall aufnehmen kann.
+
+[cols=",,,,",options="header"]
+|===
+|Enthaltende MP |Erfolgsgrad |Wert^1^ |Wert^2^  |Wert^3^
+|50 und weniger |Durchschnitt |750 |500 |250
+|51-100 |Gut |3000 |2000 |1000
+|101-250 |Sehr Gut |12000 |8000 |4000
+|251-500 |Hervorragend |48000 |32000 |16000
+|501-1000 |Außergewöhnlich |192000 |128000 |64000
+|weitere 1000 |+1 auf den Grad |*4 |*4 |*4
+|===
+
+^1^ maximal eine Menschenfaust groß
+
+^2^ maximal einen menschlichen Kopf groß
+
+^3^ maximal einen menschlichen Torso groß
+
+Die konfigurieten Kristalle lassen sich nun zu *Speichern von Magiepunkten* verwenden.
+
+Diese spezielle Art von Gegenständen bieten üblicherweise keine magischen Fähigkeiten, außer der ureigenen Magie der Kristalle, die in ihnen verarbeitet wurden.
+Üblicherweise regenerieren sie keine MP, aber ein Zauberer kann eine bestimmte Zahl von MP in ihnen speichern und die Gespeicherten nutzen, so als wären sie seine Eigenen.
+
+[[ref_magic_items_createmagicalitem_magicalitems]]
+=== Magische Gegenstände
+Eine weitere große Gruppe sind die *Rezepte*.
+Rezepte sind sinnigerweise keine Gegenstände, aber mit ihrer Hilfe lassen sich bestimmte Gegenstände herstellen, die nicht durch Prägungen dargestellt werden können.
+Derartige Gegenstände sind beispielsweise spezialisierte Entwicklungen von Magiern, die mit ihrem Wissen, ihren Zaubersprüchen und Prägungen lange experimentiert und geforscht haben, bis sie etwas völlig neues geschaffen haben.
+Rezepte sind daher Anleitungen, um bestimmte magische Gegenstände herzustellen.
+Die Einträge sind wie folgt aufgebaut:
+
+*Name:* Name des Gegenstandes (nachdem er mit dem Rezept hergestellt wurde) +
+*Speziell:* Besondere Zutaten, um den Gegenstand zu erschaffen. +
+*Machtstufe:* die Machtstufe des Gegenstandes +
+*Bindung:* Was ein zukünftiger Benutzer des Gegenstandes opfern muss, um den Gegenstand an sich zu binden.
+Ist keine Angabe gemacht, ist keine Bindung nötig. +
+*CP:* CP-Kosten, um das Rezept zu lernen. +
+*Beschreibung:* Beschreibt, welcher Effekt regeltechnisch auf dem Gegenstand nach diesem Rezept liegt.
+
+//TODO: link
+Eine Liste von Rezepten findet sich in der Dokumentenkollektion Kompendium Magischer Gegenstände.
+
+[[ref_magic_items_createmagicalitem_fleshcrafting]]
+=== Transplantate
+
+Ein Charakter muss das Talent <<ref_magic_items_fleshcrafting_talent, Fleischformen>> beherrschen, um ein Transplantat herzustellen und zu
+Die ausführlichen Regeln finden sich im folgenden <<ref_magic_items_soulenchanting, Kapitel>>.
+
+[[ref_magic_items_createmagicalitem_artefacts]]
+=== Artefakte
+*Artefakte* sind einzigartige und üblicherweise mächtige, magische Gegenstände.
+Sie können beinahe beliebige Effekte erzeugen, auch von anderen Gegenständen bekannte, jedoch ist es unmöglich, sie herzustellen.
+In den meisten Fällen ist ihr Geheimnis zur Herstellung schon lange verloren.
+Im Allgemeinen gelten alle Gegenstände mit link:../tables/magic/table_magic_items_powerlevels.adoc[Machtstufe 7] oder höher als Artefakt.
+
+[[ref_magic_items_createmagicalitem_soulenchanting]]
+=== Intelligente und beseelte Gegenstände
+
+Unter *Intelligenten* bzw. *beseelten Gegenständen* versteht man Gegenstände, die die Seele einer ehemals lebendigen Kreatur in sich tragen und damit deren Persönlichkeit und deren Wissen für die Ewigkeit konserviert haben.
+Solche Gegenstände sind äußerst mächtig, denn meistens besitzen sie die Fähigkeiten der Person, die sie in sich führen und natürlich deren Wissen sowie weitere magische Eigenschaften.
+Ein Charakter muss das Talent <<ref_magic_items_soulenchanting_talent, Beseelung>> beherrschen, um einen beseelten Gegenstand herstellen zu können.
+Die ausführlichen Regeln finden sich im folgenden <<ref_magic_items_soulenchanting, Kapitel>>.
+
+[[ref_magic_items_createmagicalitem_rules]]
+== Erweitere Regeln zum Herstellen von magischen Gegenständen
+
+[quote, Byhragast „Eisauge“]
+„Die Meisten von euch haben diesem Tage sicher sehr entgegengefiebert.
+Endlich könnt auch ihr legendäre Schwerter für epische Schlachten und schöne Helden herstellen...
+Nun, fangen wir mit etwas einfachem an.
+Wie wäre es mit einem Leuchtenden Stein?“
+
+In diesem Kapitel werden allgemeine Regeln vorstellt, die auf alle bisher vorgestellten Gegenstandsarten angewendet werden können, um diese herzustellen.
+Sofern nicht anders erwähnt, sind die Regeln auf den Talenteinsatz von <<ref_magic_items_createmagicalitem_talent, Magische Gegenstände herstellen>> und vergleichbare Substitute (zum Beispiel <<ref_magic_items_createmagicalitem_potions, Tränke brauen) gleich anzuwenden.
+
+[[ref_magic_items_createmagicalitem_prequisites]]
+=== Voraussetzungen
+Grundsätzlich benötigt ein Charakter, der einen magischen Gegenstand herstellen möchte, folgende Dinge:
+
+* *Talent:* ein Charakter benötigt normalerweise das Talent Magische Gegenstände herstellen.
+Bestimmte Gegenstandsarten können auch alternative Fähigkeiten oder Talente erfordern.
+
+* *Wissen:* der Charakter muss immer Grundwissen mit sich bringen.
+Dies sind meistens Zaubersprüche, zum Beispiel, wenn diese auf die Spruchrollen geschrieben werden sollen oder in Zauberstecken gespeichert werden sollen.
+Zaubersprüche müssen mit CP bezahlt worden sein, um als _gelernt_ zu gelten. +
+
+* *Materialkosten:* Der Zauberer muss die Materialkosten aufbringen (im Allgemeinen 50% des Gegenstandswerts), die es braucht um den Gegenstand herzustellen.
+Sofern nicht anders angegeben, sind die Materialkosten in Silbermünzen angegeben und solange keine expliziten Materialen erforderlich sind, ist es ausreichend, jene Silbermünzen auszugeben.
+
+[NOTE]
+====
+Materialkosten werden in Silbermünzen dargestellt, jedoch stellt sich durchaus die Frage, ob ein magischer Gegenstand nur aus Silbermünzen besteht.
+Dies tut er selbstverständlich nicht, die abstrakte Beschreibung wurde gewählt, damit ein SL schnell die Kosten und den Wert eines Gegenstandes einschätzen und mit anderen Gegenständen vergleichen kann. +
+Besondere Materialen, die zur Herstellung genötigt werden, können durch den SL beliebig festgelegt werden, jeweils passend zu seiner Kampagne.
+Erfordert die Herstellung eines Trankes vielleicht die seltene Wurzel einer Pflanze, die nur in einem Dschungel wächst?
+Muss zur Verzauberung eines Schwertes dieses in Drachenblut geschmiedet werden?
+====
+
+* *Zeit:* Das Herstellen eines Gegenstandes ist eine aufwendige und langwidrige Angelegenheit.
+Der Charakter muss diese Zeit aufbringen, das heißt, er muss die Anzahl an Tagen, Stunden oder Minuten wirklich an diesem Gegenstand arbeiten und kann keine anderen Aktivitäten (außer Essen, Trinken, Schlafen und ähnliches) durchführen.
+
+* *Ort:* Der Charakter benötigt einen Ort, der es ermöglicht, den Gegenstand herzustellen.
+Üblicherweise ist dies ein Laboratorium, welches ruhig und sicher vor der Außenwelt ist (bzw. die Außenwelt ist sicher vor dem Laboratorium).
+Der Charakter sollte nicht gestört werden.
+
+* *Berührung:* Wenn der Charakter eine Probe mit seinem Talent Magische Gegenstände herstellen würfelt, so muss er den entsprechenden Gegenstand berühren können.
+
+[[ref_magic_items_createmagicalitem_failedroll]]
+=== Misserfolg bei der Magischen Gegenstand Herstellen Probe
+
+Ein Misserfolg bei der Herstellungs-Probe bedeutet, dass der Charakter einen Fehler gemacht hat, jedoch das Projekt noch retten kann.
+Er muss dazu 25% der Produktionskosten erneut investieren und benötigt noch einmal 50% der Zeit.
+Er muss die Probe in Magischen Gegenstand Herstellen am Ende dieser Zeit wiederholen.
+Die Probe wird unter denselben Bedingungen gewürfelt, wie es Regeln beschreiben. Eine solche Probe kann auch wieder ein Misserfolg oder gar ein Patzer werden.
+
+[[ref_magic_items_createmagicalitem_botchedroll]]
+=== Patzer bei der Magischen Gegenstand Herstellen Probe
+
+Auch bei der Herstellung von magischen Gegenständen kann es zu unangenehmen Folgen kommen, wenn der Charakter schwerwiegende Fehler macht.
+Wenn der Zauberer bei der Magischen Gegenstand Herstellen Probe einen Patzer würfelt, so kann der SL auf folgender Tabelle die Folgen bestimmen oder selbst passend auswählen:
+
+[cols=",",options="header"]
+|===
+|Würfelwurf (W100) + Machtstufe des Gegenstandes |Folgen
+|01-25 |Der Gegenstand ist zerstört
+|26-50 |Der Gegenstand explodiert
+|51-75 |Der Hersteller wird verflucht
+|76-100 |Der Gegenstand wird verflucht
+|===
+
+==== Der Gegenstand ist zerstört
+
+Die ganze Arbeit ist dahin.
+Die eingesetzten Materialien für den Gegenstand können nicht wiederverwendet werden.
+
+==== Der Gegenstand explodiert
+
+Eine magische Explosion reißt den Gegenstand auseinander und verursacht in einem Umkreis von 6,00 + x Metern eine verheerende Wirkung.
+Dabei ist x die Machtstufe des Gegenstandes multipliziert mit 1,50 Metern.
+Die Wirkung der Explosion verursacht üblicherweise an allen Kreaturen und Gegenständen xW10 magischen Schaden, wobei x wie eben definiert ist.
+Der SL kann die Wirkung jedoch aus nach Belieben anpassen, zum Beispiel könnte eine Explosion verwendete Zaubersprüche auf alle Ziele wirken oder einen magischen Effekt aus der Patzertabelle für die Spruchzauberei-Probe imitieren (W10+Anzahl der Patzer).
+
+==== Der Hersteller wird verflucht
+
+Der Hersteller erleidet automatisch einen Fluch nach den Regeln für das xref:../advanced/advanced_rules_curses.adoc[Verfluchen (Personenfluch)].
+Die Stärke des Fluches ergibt sich wie folgt:
+
+[cols=",",options="header"]
+|===
+|Anzahl der Erfolge für die Herstellung des Gegenstandes |Stärke des Fluchs
+
+|1-3 |Harmlos
+
+|5-6 |Schwach
+
+|7-9 |Stark
+
+|9+ |Todesfluch
+|===
+
+Die genaue Wirkung des Fluches kann der SL festlegen.
+Der Fluch kann nach den normalen Regeln gebannt werden.
+
+==== Der Gegenstand wird verflucht
+
+Der Gegenstand wird mit einem Gegenstandsfluch mit der Stärke nach den oben genannten Richtlinien belegt.
+
+Typische Gegenstandsflüche in diesem Fall sind „umgekehrte“ Wirkungen des Gegenstandes.
+Hier einige Beispiele:
+
+* Ein Heiltrank verursacht den üblicherweise geheilten Schaden
+* Ein Schwert gibt keinen +1 Bonus, sondern einen -1 Malus
+* Ein Rüstung bietet Schadensanfälligkeit statt Schadensresistenz
+* Eine Spruchrolle oder ein Zauberstecken wirkt seine Macht immer auf den Träger bzw. das falsche Ziel
+
+Andere Flüche könnten (je nach Stärke) sein:
+
+* Der Gegenstand entwickelt ein Eigenleben und zwingt den Träger zu blutrünstigen Taten (Todesfluch)
+* Eine magische Waffe attackiert ein anderes Ziel in Nahkampfreichweite (Stark)
+* Der Gegenstand explodiert bei der ersten Anwendung (siehe oben) (Schwach)
+* Der Gegenstand funktioniert einfach nicht (trotz magischer Aura) oder verursacht nur harmlose Effekte, wie eine grüne, nach Frühling duftende Wolke anstatt eines Feuerballs (Harmlos)
+
+Der Fluch kann nach den normalen Regeln von dem Gegenstand genommen werden, jedoch ist der Gegenstand danach nur noch gewöhnlich, besitzt also keine magischen Eigenschaften mehr.
+
+[[ref_magic_items_soulenchanting]]
+== Beseelung
+
+[quote, Byhragast „Eisauge“]
+„Die Macht der Humanoiden über die Magie hat schon einiges grausiges in
+die Welt entlassen. Dies ist Eines davon.“
+
+Beseelung ist ein magisches Talent, das vergleichsweise „neu“ ist in der
+Welt der Zauberei. Die Beseelung nutzt die Kraft und Energie von Seelen,
+um Verzauberungen und magische Effekte zu binden. Primär wurde diese
+Technik jedoch von Technomanten entwickelt, um mit Hilfe von gebundenen
+Seelen Golems mit Intelligenz zu versehen.
+
+Grundsätzlich bindet ein Zauberer mit diesem Talent (und ein paar
+weiteren Hilfsmitteln, siehe unten) eine Seele an einen magischen
+Kristall. Wird dieser Kristall für die Weiterverarbeitung bei einem
+magischen Gegenstand oder einem technomantischem Konstrukt verwendet, so
+wird die Seele und damit die Intelligenz auf den Gegenstand oder das
+Konstrukt übertragen. Dadurch ergeben sich sehr viele neue
+Möglichkeiten, um mächtige Gegenstände zu entwickeln.
+
+Zumindest der Theorie nach. Die Praxis hat auf schreckliche Weise
+gezeigt, dass diese Manipulation der Seele zu grausamen Verstümmelungen
+Dieser führen kann. Während Hegemon Rackons Herrschaft wurden besonders
+viele Schlachtengolems mit Seelensteinen hergestellt, sowohl auf
+freiwilliger als auch unfreiwilliger Basis. In beiden Fällen wurden die
+meisten Eingefangenen wahnsinnig.
+
+
+[[ref_magic_items_soulenchanting_talent]]
+=== Talentbeschreibung
+
+*Name:* Beseelung +
+*Voraussetzungen:* Artefaktkunde, Spruchzauberei 10, Aether Wahrnehmung 5, Wissen[Arkanes] 5 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* EN +
+*Kampf:* - +
+*Beschreibung:* Dieses Talent ging aus eine Symbiose von Techonmantie und Nekromantie hervor. Einige Magier und ein paar Technomanten beherrschen dieses Talent, mit dem der Anwender die Seelen unterschiedlicher Kreaturen an Gegenstände binden kann, um diese mit magischer Energie oder gar magischem Leben zu füllen.
+Der Charakter muss zum einen einen Seelenfänger konstruieren, zum anderen eine so gefangene Seele in einen zuvor präparierten Gegenstand bannen, um diesen mit der vorgesehenen Magie zu füllen.
+Die Beseelung und Macht des Effektes hängt stark von der Seele ab, die verwendet wurde, ebenso von dem erwürfelten Erfolgsgrad.
+
+Ein Charakter lernt das Talent Beseelung mit dem SGM seines Spruchzauberei-Talents.
+
+Die folgenden Kapitel beschreiben den Prozess der Beseelung im Detail.
+
+=== Seelenstein und Seelenfalle
+
+Der erste Schritt in der Kunst der Beseelung ist die Erschaffung eines
+*Seelensteins*. Ein Seelenstein ist ein speziell präparierter magischer
+Kristall, der in der Lage ist, eine Seele aufzunehmen. Unabhängig von
+der Größe des Seelensteins muss dieser eine Mindestkapazität von 100 MP
+bieten, um als solcher in Frage zu kommen. Weiterhin ist es auch
+irrelevant, wie viele MP die Seele nachher liefert. Liefert sie mehr als
+100 MP, so muss der Seelenstein entsprechend ausgewählt werden, liefert
+sie weniger, so muss dennoch ein Seelenstein gefunden werden, der 100 MP
+bereitstellen kann.
+
+Hat ein Beseeler einen entsprechenden Magischen Kristall gefunden, der
+diese Voraussetzungen erfüllt, kann er ihn in einen Seelenstein
+umwandeln. Der Magische Kristall darf noch nicht für eine andere
+Verzauberung benutzt worden sein, zum Beispiel als Energiequelle für
+einen Golem oder einen magischen Gegenstand. In diesem Fall ist der
+Kristall „beschmutzt“. Wird ein solcher Kristall dennoch in einen
+Seelenstein umgewandelt, dann kann dies verheerende Wirkungen haben,
+siehe unten.
+
+Beschmutzte Kristalle lassen sich von anderen unbenutzten Kristallen
+nicht unterscheiden, außer man hat Glück und erhält einen Blick auf den
+Kristall, kurz nachdem er benutzt wurde und dann weniger MP besitzt, als
+normalerweise.
+
+Um nun den Magischen Kristall in einen Seelenstein zu verwandeln,
+benötigt der Beseeler pro 25 MP, die der Kristall bietet, einen Erfolg
+bei einer Probe auf sein Talent Beseelung. Er muss dazu den Kristall
+berühren. Ist der Wurf erfolgreich, wird der Kristall zu einem
+Seelenstein, der später mit einer Seele gefüllt werden kann. Er verliert
+solange die Kraft und die Macht als magischer Kristall zu dienen und
+kann auch nicht zurückverwandelt werden. Bei einem Misserfolg passiert
+nichts, bei einem Patzer explodiert der Kristall und für alle 25 MP
+verursacht er einen automatischen Treffer mit 1W8 magischem Schaden in
+einem Radius von 1,50 Metern pro 25 MP.
+
+Als nächsten Schritt benötigt der Beseeler eine *Seelenfalle*. Dies ist
+im Endeffekt nur ein Kästchen, in dem der Seelenstein hineingelegt wird,
+um die Seele zu empfangen. Die Magie, die hinter dem Seelenfang steckt,
+kommt aus einer Verzauberung, die an das Kästchen gebunden wird. Ein
+solches Kästchen ist an die Größe des Seelensteins angepasst, für die
+meisten kleinen Seelensteine reicht ein Kästchen mit den Ausmaßen
+15x25x10.
+
+Das Kästchen ist für gewöhnlich sehr schön verziert und besitzt einen
+vierfachen, kuppelförmigen Deckel auf der Oberseite. Einige Seelenfallen
+können durchaus völlig anders aussehen. Der Kreativität sei hier keine
+Grenze gesetzt, jedoch gilt, dass der Beseeler für die Konstruktion
+einer Seelenfalle mindestens 2500 Silberstücke ausgeben muss.
+
+In der Seelenfalle muss es eine Möglichkeit geben, den Seelenstein zu
+fixieren. Charaktere mit dem Talent Magischen Gegenstand Herstellen
+können die folgenden Regeln auch verwenden, um eine Seelenfalle zu
+konstruieren.
+
+Hat der Beseeler einen solchen Gegenstand, beispielsweise ein Kästchen,
+gefunden oder konstruiert, dann muss er es verzaubern. Dazu ist ein
+Ritual nötig, dass eine Woche dauert. Während dieser Woche kann der
+Beseeler nur die lebensnotwendigen Aktionen ausführen und muss den Rest
+der Zeit in das Ritual investieren.
+
+Am Ende des Ritual muss er den Seelenstein in die dafür vorgesehene
+Fassung setzen. In diesem Moment macht er eine Beseelung-Probe (oder
+Magischen Gegenstand Herstellen) und notiert die Anzahl der Erfolge.
+
+=== Funktionsweise der Seelenfalle und das Fangen einer Seele
+
+Die Seelenfalle wird auf Kommando ihres Schöpfers aktiviert. Dieses
+Kommando ist üblicherweise ein Wort in der Arkanen Sprache, kann aber
+auch aus der normalen Sprache sein. Nur der Schöpfer der Seelenfalle
+löst durch die Nennung dieses Worts die Magie aus.
+
+Wurde das Kommandowort ausgesprochen (der Schöpfer sollte sich im
+Umkreis von 9 Metern befinden und seine Worte „hörbar“ zum Kästchen
+übermitteln können), dann öffnet sich das Kästchen und blaue,
+energetische Tentakel fahren heraus und suchen nach einer Seele. Eine
+Seele finden sie üblicherweise in der Nähe eines gerade Verstorbenen.
+Aetherische Untote sind zu lange „tot“, als dass sie als Seelen für die
+Beseelung dienen könnten.
+
+Jeder Verstorbene, der innerhalb von 24 Kampfphasen in die Nähe einer
+solchen aktivierten Seelenfalle gerät (meistens durch Hilfe des
+Beseelers), gerät in Gefahr, seine Seele an das Kästchen zu verlieren.
+Danach hat die Seele die Reichweite einer jeden Seelenfalle
+überschritten.
+
+Die Seelenfalle würfelt eine EN-Probe. Ihr stehen dabei so viele W10 zu
+Verfügung, wie der Beseeler in der Konstruktions-Probe an Erfolgen
+erzielt hatte.
+
+Die Probe wird gegen den Standardmindestwurf gewürfelt. Die Zielseele
+macht eine Magieabwehr-Probe mit ihren Werten zu Lebzeiten.
+
+Hat die Seelenfalle mehr oder gleich viele Erfolge, dann hat sie die
+Seele gefangen und der Beseeler kann zum nächsten Schritt übergehen.
+
+Hat die Seelenfalle weniger Erfolge, so konnte die Seele entkommen. Es
+wird keine weitere Probe in diesem Fall gewürfelt.
+
+Grundsätzlich bleibt eine Seelenfalle solange aktiv, bis der Beseeler
+sie wieder schließt, oder sie eine Seele gefangen hat. Allerdings sollte
+der Beseeler darauf achten, dass seine Falle nicht unkontrolliert
+versucht Seelen zu fangen.
+
+Die Seelen im Körper lebender Kreaturen sind sicher vor der Falle,
+ebenso die Seelen von Tieren, denn diese sind zu schwach, um von der
+Falle bemerkt zu werden. Magische Bestien, Dämonen, Elementare,
+Konstrukte, Untote usw. haben meistens keine Seele oder etwas, dass sich
+lohnt einzufangen.
+
+Hat die Seelenfalle eine Seele gefangen, speichert sie diese automatisch
+in dem enthaltenen Seelenstein. Dieser kann entnommen werden und mit
+einem neuen, leeren Seelenstein kann die Seelenfalle weiterhin betrieben
+werden. Seelenfallen funktionieren mit einem „vollen“ Seelenstein oder
+ohne Seelenstein nicht.
+
+=== Übergang von Seelenstein in Magischen Gegenstand
+
+Eine Seele, die soeben eingefangen wurde, „liegt“ im Seelenstein wie in
+einer Stasis. Sie besitzt keine Möglichkeit die Außenwelt wahrzunehmen.
+Normalerweise entspricht dieser Zustand einem langem Schlaf und es kann
+der Seele so vorkommen, dass sie wirklich schlafen würde.
+
+Interessanterweise können Zaubersprüche und Effekte, die Kreaturen im
+Traum beeinflussen (z.B. Kommunikation) die Seele erreichen und
+funktionieren normal.
+
+Problematisch wird der Zustand der Seele in dem Moment, in dem sie in
+einen Magischen Gegenstand oder ein Konstrukt eingesetzt wird. Ohne an
+dieser Stelle auf die spezifischen Gegenstände einzugehen, diese Regeln
+gelten für alle.
+
+Wird ein Seelenstein in einen magischen Gegenstand oder ein technomantisches Konstrukt eingesetzt, so muss die Seele sofort (mit ihrem alten SB-Würfeln zu Lebzeiten oder ihrem Willenskraft-Talent) eine Horror(10)-Probe bestehen.
+Dies bedeutet, dass die Seele bei einem Misserfolg ein Trauma erleidet.
+Dieses Trauma ist immer das spezielle Trauma, dass die Seele den Zustand
+des „Gegenstand-Seins“ nicht akzeptieren kann und krampfhaft versuchen
+wird, aus diesem Zustand zu entfliehen, auch wenn dies den endgültigen
+Tod bedeuten könnte.
+
+Ein Patzer führt automatisch und unabhängig von dem Verlust der SP zu
+einer Geisteskrankheit. Diese Geisteskrankheit ist nicht vorgegeben,
+aber eine typische Geisteskrankheit ist irrationaler Hass auf alles
+Leben. Die Auslebung eines solches Hasses ist in einem Schlachtengolem
+besonders effektiv.
+
+Aber ein magisches Schwert mit zwei Persönlichkeiten oder ein Licht-Golem mit Welteroberungsplänen sind zwei denkbare Beispiele für fehlgeschlagene Experimente mit Seelensteinen.
+
+Weder das Trauma noch die Geisteskrankheit sind auf bekanntem Wege heilbar.
+
+Eine Seele in einem magischen Gegenstand oder technomantischem Konstrukt verleiht diesem automatisch ihre ER, EN und SB-Stufen zu ihren Lebzeiten.
+Weiterhin behält die Seele ihren CH-Wert, kann diesen jedoch nur noch Talente und Proben einsetzen, die rein auf Kommunikation mit Sprache beruhen.
+
+Die Persönlichkeit bleibt sie selbst, allerdings mit eventuellen Schäden.
+Weiterhin kann der SL jedem Seelengegenstand eine eigene Persönlichkeit verleihen.
+
+Im Folgenden sprechen wir dann auch von „intelligenten Gegenständen“, wenn wir über technomantische Konstrukte oder magische Gegenstände sprechen, die mit Seelensteinen erschaffen wurden.
+
+=== Kontrolle von intelligenten Gegenständen
+
+Die Seele ist immer noch eine eigenständige Persönlichkeit, die es
+meistens nicht gerne hat, wenn man sie „benutzt“. Daher müssen
+Charaktere, die einen magischen Gegenstand verwenden wollen, d.h. von
+seinen Effekten Gebrauch machen wollen, oder die einem technomantischem
+Konstrukt Befehle erteilen wollen, sich mit der Persönlichkeit
+auseinandersetzen.
+
+Der Charakter hat zwei Möglichkeiten, dies zu tun. Er kann die
+Persönlichkeit entweder durch eine *Überzeugen-Probe* (Standardprobe auf
+CH oder das Talent) auf nette Weise bitten, zu helfen oder sie von der
+Dringlichkeit des Anliegens überzeugen, oder er kann versuchen sie in
+einem *Willensduell* zu bezwingen. Dazu kann er eine EN-Probe ablegen
+oder, wenn er die Talente besitzt, in Beseelung oder Verbrennen
+Widerstehen (Verbrennen Widerstehen beinhaltet eine ähnliche
+Willensanstrengung, während Beseelung durch das Wissen auftrumpfen
+kann).
+
+Wie gut dies alles klappt, bzw. welche Erfolgsgrade nötig sind, zeigt folgende Tabelle:
+
+[cols=",,,",options="header"]
+|===
+|Aktion
+
+a|
+Normale Persönlichkeit
+
+{empty}[Horror-Probe bestanden]
+a|
+Abnorme Persönlichkeit
+
+{empty}[Horror-Probe misslungen]
+a|
+Wahnsinnige Persönlichkeit
+
+{empty}[Horror-Probe verpatzt]
+
+|Überzeugen (CH) |Gut |Sehr Gut |Hervorragend
+|Willensduell (EN) |Sehr Gut |Hervorragend |Außergewöhnlich
+|===
+
+Für die Probe auf Überzeugen gelten die Mindestwürfe für die
+Talentanwendung oder die Ungeübte Anwendung. Für das Willensduell gilt
+der Standardmindestwurf.
+
+Gelingt eine der Proben, so ist der Gegenstand, bzw. die Seele dem Charakter ergeben.
+
+Gelingt eine Überzeugen-Probe nicht, dann verweigert der Gegenstand die
+Berührung oder Nutzung. Handelt der Charakter dem zuwider, so erhält er
+automatisch einen Treffer mit xW8 magischem Schaden. X ist die Stufe der
+Seele in CH. Der Charakter lässt den Gegenstand los, wenn er Schaden
+erhält. Erhält er keinen Schaden (wegen beispielsweise Resistenzen) so
+kann er den Gegenstand weiterhin berühren, jedoch versagt dieser ihm
+seine Kräfte.
+
+Misslingt die Probe des Willensduells, so erhält der Charakter sofort xW12 Punkte magischen Schaden, wobei x gleich der Stufe in ER der Seele ist.
+
+Der SL kann auch andere Talente für die eine oder andere Probe zulassen, wenn er dies für sinnvoll hält.
+Vielleicht möchte die Bardin mit der gefangenen Seele eines männlichen Zauberers in einem Stab flirten?
+
+Je älter die Seelen werden, desto eher gewöhnen sie sich an ihren Zustand als Gegenstand.
+Die normalen Persönlichkeiten behalten für gewöhnlich Eigenheiten, wer ihre Kräfte ohne Widerstand benutzen (z.B. könnte die Seele eines Orks in einem Speer diesen Speer nur für Orks ohne Überzeugen/Willensduell-Probe nutzbar machen) kann.
+
+Die folgende Tabelle gibt eine ungefähre Richtlinie an, wie oft eine Überzeugen- oder Willensduell-Probe nötig wäre.
+Der SL ist natürlich frei, diese Richtlinie anzupassen.
+
+[cols=",,,", options="header"]
+|===
+|Alter der Seele [nach der Transformation in Jahren]
+
+a|
+Normale Persönlichkeit
+
+{empty}[Horror-Probe bestanden]
+a|
+Abnorme Persönlichkeit
+
+{empty}[Horror-Probe misslungen]
+a|
+Wahnsinnige Persönlichkeit
+
+{empty}[Horror-Probe verpatzt]
+
+|weniger als 1 Jahr
+|Jede Berührung
+|Jede Berührung
+|Jede Berührung
+
+|1-10
+|Jede Verwendung
+|Jede Berührung
+|Jede Berührung
+
+|11-100
+|Jede Verwendung
+|Jede Verwendung
+|Jede Berührung
+
+|101-1000
+|Erste Berührung
+|Jede Verwendung
+|Jede Verwendung
+
+|1001-10000
+|Erste Berührung
+|Erste Berührung
+|Jede Verwendung
+|===
+
+==== Erste Berührung
+
+Die jeweilige Probe ist nur bei der ersten Berührung nötig.
+Danach „gehorcht“ der Gegenstand dem Charakter immer.
+Andere Charaktere müssen immer, auch auf Befehl, eine entsprechende Probe ablegen.
+
+==== Jede Verwendung
+
+Die jeweilige Probe muss jedes Mal durchgeführt und bestanden werden, wenn die Kräfte des Gegenstandes benutzt werden sollen.
+Reine Berührungen erfordern keine Probe.
+
+==== Jede Berührung
+
+Jedes Mal, wenn ein Charakter einen Gegenstand berührt, muss er eine solche Probe durchführen, um ihn berühren und nutzen zu können.
+
+=== MP des intelligenten Gegenstandes
+
+Die MP eines Gegenstandes mit Seelenstein bestimmen dessen Macht und
+seine Fähigkeiten. Bei einem Seelenstein entscheiden sowohl die MP der
+Seele, die in den Seelenstein eingesperrt wird, als auch die Ausgangs-MP
+des magischem Kristalls.
+
+Die Gesamt-MP des Seelensteins berechnen sich einfach aus der Hälfte der MP des magischen Kristalls plus die MP, die die Seele zu Lebzeiten besaß.
+
+.Magiepunkte eines intelligenten Gegenstandes
+====
+Ein Magier mit 50 MP wird in einen Seelenstein mit 200 MP gefangen.
+Die Gesamt-MP des Seelensteins betragen dann 150 MP.
+====
+
+Diese Gesamt-MP werden im allgemeinen nur die MP des Gegenstandes
+genannt. Die MP können sich verbrauchen, wenn der Gegenstand besondere
+Zauber oder Effekte einsetzt. Technomantische Konstrukte mit
+Seelensteinen verbrauchen diese meistens, da sie ihre Antriebskraft für
+profane Dinge wie Bewegung und ähnliches sind, wobei für Golems meistens
+sehr viel größere Kapazitäten veranschlagt werden.
+
+Allerdings regenerieren sowohl intelligente Gegenstände jeder Natur ihre MP.
+Da Seelen jedoch nicht schlafen oder ausruhen, gilt, dass alle intelligenten Gegenstände innerhalb eines 24 Stunden Zyklus ihre vollen MP regenerieren.
+
+Grundsätzlich können einem intelligentem Gegenstand keine MP entzogen
+werden, wie einem normalen Gegenstand oder Konstrukt, da in diesem Fall
+die Seelen als lebende Kreaturen gelten. Das heißt, dass für ein solches
+Unternehmen ein entsprechender Zauber oder Effekt gewählt werden muss.
+
+=== Intelligente Gegenstände mit Effekten versehen
+
+Jeder intelligente Gegenstand ist auch ein magischer Gegenstand. Wie die
+profanen magischen Gegenstände kann ein Beseeler seinen Gegenstand mit
+magischen Prägungen versehen. Eine Übersicht aller möglichen, auch
+speziell für beseelte Gegenstände geeignete, Prägungen siehe die
+Dokumentenkollektion Kompendium Magischer Gegenstände.
+
+Der Beseeler kann die Effekte mit seinem Beseelung-Talent oder auch
+seinem Magischen Gegenstand Herstellen-Talent nach den Regeln auf den intelligenten Gegenstand prägen.
+Allerdings steht diesem zur Verteidigung eine Magieabwehr-Probe zu, wenn der Gegenstand den jeweiligen Effekt nicht adaptieren möchte.
+
+Auch im Fall der Beseelung arbeitet man über den Wert des Gegenstandes
+in Silbermünzen. Jeder Gegenstand ist MP multipliziert mit 2000
+Silbermünzen wert. Um den Gegenstand jedoch mit Effekte zu belegen, sind
+jedoch maximal MP multipliziert mit 1000 Silbermünzen verwendbar.
+
+.Wert eines intelligenten Gegenstandes
+====
+Der intelligente Gegenstand aus dem Vorgängerbeispiel hatte 150 MP.
+Sein Marktwert beträgt dann 300.000 Silberstücke.
+Seine Effekte können jedoch maximal nur 150.000 Silberstücke wert sein.
+====
+
+Ein intelligenter Gegenstand kann nur durch seinen Schöpfer mit
+magischen Effekten versehen werden. Kein anderes Wesen kann diesen
+Gegenstand mit neuen Effekten prägen.
+
+//TODO link
+Für Details zur Prägung von Effekten auf magische Gegenstände siehe das
+Dokument[Kompendium Magischer Gegenstände].
+
+[[ref_magic_items_fleshcrafting]]
+== Fleischformen
+
+[[ref_magic_items_fleshcrafting_talent]]
+=== Talentbeschreibung
+
+*Name:* Fleischformen +
+*Voraussetzungen:*  +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* EN +
+*Kampf:* - +
+*Beschreibung:*
+
+//geht nur auf lebende Wesen
+
+[[ref_magic_items_fleshcrafting_grafts]]
+=== Transplantate

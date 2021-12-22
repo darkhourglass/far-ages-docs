@@ -38,7 +38,7 @@ Das Erhalten eines Korruptionspunkt hat zunächst keine direkten Auswirkungen, j
 === Auswirkungen von Korruptionspunkten
 
 In dem Moment, in dem ein Charakter 1 oder mehr Korruptionspunkte erhält, muss er sofort eine Horror-Probe würfeln, wobei die Anzahl der nötigen Erfolge gleich der bereits vorhandenen Korruptionspunkte ist. +
-Misslingt die Probe oder ist ein Patzer, gelten die üblichen xref:../core/core_rules_d10_system.adoc#ref_base_roll_fearhorror[Regeln] für Horror-Proben.
+Misslingt die Probe oder ist ein Patzer, gelten die üblichen xref:../core/core_rules_d10_system.adoc#ref_core_base_saves_horror[Regeln] für Horror-Proben.
 Zusätzlich erhält der Charakter eine <<corruptions_rules_receive_corruptions, Korruption>>.
 
 Weitere Auswirkungen von Korruptionspunkten sind situationsabhängig, zum Beispiel wenn ein Effekt im Spiel (z.B. ein Zauberspruch) explizit Korruptionspunkte anspricht.
@@ -83,6 +83,7 @@ Folgende Korruptionen stehen außerdem zur Verfügung:
 * link:./corruptions/corruption_demonic_general.adoc[Dämonisch (Allgemein)]
 * link:./corruptions/corruption_demonic_chaos.adoc[Dämonisch (Chaos)]
 * link:./corruptions/corruption_demonic_order.adoc[Dämonisch (Ordnung)]
+* link:./corruptions/corruption_bodymodifications.adoc[Körperlich]
 * link:./corruptions/corruption_mechanical.adoc[Mechanisch]
 * link:./corruptions/corruption_necrotic.adoc[Nekrotisch]
 * link:./corruptions/corruption_madness.adoc[Wahnsinn]
