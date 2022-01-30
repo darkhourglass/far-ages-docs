@@ -1,1 +1,8 @@
-= Furcht (Stufe)
+= Furcht (Angriffsstufe)
+
+Die Kreatur hat eine unheilvolle Präsenz, vielleicht durch eine magische Aura oder wie ein Drache durch lautes Gebrüll, dass die andere erschüttern vermag.
+
+Um Furcht einzusetzen, würfelt die Kreatur eine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] und jedes Ziel eine konkurrierende xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht-Probe].
+
+Verwendet die Kreatur Furcht als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion], sind alle anderen Kreaturen um Umkreis von 18,00 Metern betroffen.
+Alternativ kann die Kreatur Furcht als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] gegen eine einzige Kreatur in 18,00 Metern Reichweite einsetzen.

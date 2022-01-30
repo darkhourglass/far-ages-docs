@@ -1,24 +1,21 @@
 = Besonderen Fähigkeiten
 
-== Allgemeine Regeln zu Besonderen Fähigkeiten
+[[ref_core_skills_rules]]
+== Beschreibung der Einträge
 
-Besondere Fähigkeiten stellen, wie der Name es vermuten lässt, einzigartige, herausragende Fähigkeiten dar, die ein Charakter erlernen kann.
-Im Gegensatz zu den Talenten haben Besondere Fähigkeiten keine Stufen und keine verwandten Attribute.
-Stattdessen stellen sie Erweiterungen oder Verbesserungen von vorhandenen Talenten dar.
-Eine Besondere Fähigkeit kann daher eine Probe beinhalten, jedoch wird diese über ein zugehöriges Talent gewürfelt.
-Alternativ kann die Fähigkeit auch eine Talentprobe modifizieren und dadurch einen besonderen Effekt hervorrufen.
-Für die exakte Wirkungsweise einer jeweiligen Fähigkeit siehe deren Beschreibung.
+*Voraussetzungen:* Angabe der Voraussetzungen, die ein Charakter erfüllen muss, um diese Fähigkeit zu lernen.
+*CP-Kosten:* Angabe der CP, die ein Charakter aufbringen muss, um diese Fähigkeit zu lernen.
+*Überanstrengung:* Angabe des xref:core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengungsschadens], der bei Anwendung der Fähigkeit anfällt.
+Die Angabe "-" bedeutet, dass kein Überanstrengungsschaden anfällt.
+*Beschreibung:* Beschreibung der Fähigkeit.
 
-== Erlernen von Besonderen Fähigkeiten
 
-Auch Besondere Fähigkeiten benötigen die Ausgabe von CP, um gelernt zu werden.
-Diese CP-Kosten sind individuell bei den Fähigkeiten vermerkt und ein Charakter kann diese CP aufwenden, um die Fähigkeit zu erlernen.
-Hat er dies getan, dann besitzt er die Fähigkeit und kann sie normal nutzen.
-Allerdings gelten bei den Besonderen Fähigkeiten auch *_Voraussetzungen_*.
-Diese muss ein Charakter alle im Minimum erfüllen, um seine CP dafür aufwenden zu können.
-Im Falle von Talenten beziehen sich die Zahlenangaben immer auf die Talentstufe, nicht auf die Gesamtstufe.
+// TEMPLATE
 
-Man kann eine Besondere Fähigkeit nur einmal lernen.
+*Voraussetzungen:* - +
+*CP-Kosten:* XX +
+*Überanstrengung:* - +
+*Beschreibung:*
 
 == Kampffähigkeiten
 
@@ -35,22 +32,6 @@ Dieses Manöver kann nicht eingesetzt werden, um Angriffe von Fernkampfwaffen od
 
 Dieses Kampfmanöver kann weiterführend eingesetzt werden, in jeder Kampfrunde gelten die Boni und Mali.
 Während der Durchführung eines Aggressiven Kampfstiles ist es nicht möglich, Zauber vorzubereiten.
-
-[[ref_skills_acrobatic_attack]]
-=== Akrobatischer Angriff
-*Voraussetzungen:* Akrobatik 5, Nahkampfwaffen 5 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeit befähigt einen Kämpfer einen Gegner mit waghalsigen Manövern zu attackieren.
-Der Charakter, der einen Akrobatischen Angriff durchführen will, muss dazu eine Nahkampfwaffe, deren Größe seiner Zweithand entspricht, führen (oder wenn er mit Zweiwaffenkampf attackiert, zwei passende Nahkampfwaffen) und darf maximal 1/4 seiner Maximalen Traglast bei sich tragen.
-
-Ein Akrobatischer Angriff kann angesagt werden, wenn der Charakter entweder das Kampfmanöver Angriffsbewegung nutzen möchte oder sich bereits im Nahkampf befindet.
-
-Im Fall der Angriffsbewegung kann sich der Charakter nach der Attacke in derselben Kampfrunde weiterbewegen, bis hin zu seiner halbierten BEW, solange ernicht bereits seine BEW verbraucht hat.
-
-Wenn der Charakter bereits im Nahkampf gebunden ist, so kann er eine Attacke durchführen und sich dann in derselben Kampfrunde bewegen (auch maximal seine halbierte BEW).
-Er kann sich damit aus einem Kampf lösen, ohne die Kampfmanöver Flucht oder Zurückweichen benutzen zu müssen.
-
-Seine Bewegung führen in beiden Fällen zu keinem Gelegenheitsangriff.
 
 === Barriere
 *Voraussetzungen:* Schildverteidigung 10 +
@@ -89,16 +70,6 @@ Tut er dies, muss er einen Malus von -1 Erfolgen auf seine Anzahl von Erfolgen b
 Jeder Erfolg, der zum Schaden führt, verringert den Rüstungsschutz, den der Verteidiger auf der Trefferzone für diesen Angriff hat, um 1.
 Dies gilt für jede Art von Rüstung, außer sie ist explizit dagegen geschützt.
 
-[[ref_skills_disarm]]
-=== Entwaffnen
-*Voraussetzungen:* Nahkampfwaffen 3 oder Unbewaffenter Kampf 3 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Mit dieser Fähigkeit kann der Charakter versuchen, einem anderen Charakter die Waffe aus der Hand zu schlagen.
-Wählt er eine der Optionen, erhält er einen Malus von -1 auf die Würfe zum Erfolg.
-Ist die jeweilige Probe erfolgreich, dann würfeln beide Kontrahenten anstelle einer Schadensprobe eine ST-Probe gegen den Standardmindestwurf.
-Hat der Entwaffnen-Nutzende mehr Erfolge, so hat er den Gegner entwaffnet.
-Die Waffe fliegt 1W3*1,50 Meter weit weg in eine zufällig bestimmte Richtung.
-
 === Gegenangriff [Parade oder Schildverteidigung]
 *Voraussetzungen:* Nahkampfwaffen 5, Parade 5 oder Schildverteidigung 5 +
 *CP-Kosten:* 500 +
@@ -110,90 +81,6 @@ Der Angriff kann nur gegen diesen Gegner geführt werden.
 *CP-Kosten:* 100 +
 *Beschreibung:* Dank dieser Fähigkeit kann ein Charakter mehr Gelegenheitsangriffe pro Kampfrunde durchführen.
 Die Anzahl der Gelegenheitsangriffe wird berechnet aus seinen Stufen in (GE + ER) / 2 (minimal 1).
-
-[[ref_skills_martial_I]]
-=== Kampfkunst I
-*Voraussetzungen:* Unbewaffneter Kampf 1 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeiten beschreiben einen Kampfstil, der ohne Waffen geführt wird und über den Unbewaffneten Kampf hinausgeht.
-Dank intensivem Training wird der Charakter auch ohne Waffen ein gefährlicher Teilnehmer im Kampf.
-Die xref:core_rules_battlesystem.adoc#ref_battle_modifiers_missingweapon[Modifikatoren] für den Unbewaffneten entfallen.
-Die unbewaffneten Attacken verursachen keinen Gelegenheitsangriff mehr, wenn sie gegen einen bewaffneten Gegner geführt werden.
-
-[[ref_skills_martial_II]]
-=== Kampfkunst II
-*Voraussetzungen:* Unbewaffneter Kampf 3, Kampfkunst I +
-*CP-Kosten:* 300 +
-*Beschreibung:* Mit Erlernen dieser Fähigkeit kann der Charakter einen Angriff zum Niederschlag durchführen.
-Dazu wirft er eine Probe auf Unbewaffneten Kampf mit einem Malus von -1 auf die Würfe zum Erfolg.
-Er wirft dann die Schadensprobe wie sonst.
-Zur Bestimmung, ob der Gegner niedergeschlagen wird, wird ein Bonus von +5 angenommen.
-Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
-
-[[ref_skills_martial_III]]
-=== Kampfkunst III
-*Voraussetzungen:* Unbewaffneter Kampf 6, Kampfkunst II +
-*CP-Kosten:* 400 +
-*Beschreibung:* Kampfkunst III eleminiert alle negativen Modifikationen, die ein
-unbewaffenter Charakter im Kampf gegen einen bewaffneten Charakter
-erleidet. Siehe dazu das Dokument link:core_rules_battlesystem.adoc[Kampf]. +
-Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
-
-[[ref_skills_martial_IV]]
-=== Kampfkunst IV
-*Voraussetzungen:* Unbewaffenter Kampf 9, Kampfkunst III +
-*CP-Kosten:* 500 +
-*Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle Proben in den Talenten Unbewaffneter Kampf, Hieb Ausweichen und Reflex, solange er keine Waffen trägt.+
-Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.
-
-[[ref_skills_berserk_i]]
-=== Kampfrausch I
-*Voraussetzungen:* - +
-*CP-Kosten:* 200 +
-*Beschreibung:* Am Anfang eines Kampfs kann ein Charakter mit dieser Fähigkeit sich in einen Kampfrausch versetzten.
-Der Charakter erhält dadurch im Nahkampf einen einmaligen Bonus von +2 auf alle Schadenswürfel.
-Jedoch erhält er auch einen Malus von -1 auf alle Würfe zum Erfolg bei Verteidigungswürfen.
-Ein Kampfrausch dauert so viele Kampfrunden, wie der Charakter Stufen in seinem KO-Attribut hat.
-Danach ist der Kampfrausch automatisch vorbei.
-Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten und Springen verwenden und auch keine Talente außer Kampftalente.
-Am Ende des Kampfrausches ist der Charakter für 5 – KO (Minimum 1) Kampfrunden erschöpft.
-
-[[ref_skills_berserk_ii]]
-=== Kampfrausch II
-*Voraussetzungen:* Kampfrausch I +
-*CP-Kosten:* 200 +
-*Beschreibung:* Die Fähigkeit verbessert Kampfrausch I.
-Die Schadenswürfel des rasenden Charakters erhalten nun einen Bonus von +4, während die Verteidigungstalente einen Malus von -2 erhalten.
-
-Immer wenn der Charakter einen Gegner besiegt oder sogar getötet hat, muss er sich ein neues Ziel suchen.
-Dieses Ziel ist die nächste Kreatur, die der Rasende erreichen kann.
-Handelt es sich dabei um ein Ziel, das der Rasende normalerweise nicht angreifen will (z.B. weil es Verbündeter ist oder ein Ziel mit niedriger Priorität), muss der Rasende eine Willenskraft-Probe bestehen oder muss das Ziel angreifen.
-Der Rasende kann nur direkt angreifen, er kann nicht um Ziele herumlaufen, um sie von hinten zu attackieren.
-
-Die Dauer der Raserei verbessert sich auf 2*KO Kampfrunden, bevor die Erschöpfung eintritt.
-
-[[ref_skills_berserk_iii]]
-=== Kampfrausch III
-*Voraussetzungen:* Kampfrausch II +
-*CP-Kosten:* 200 +
-*Beschreibung:* Die Fähigkeit wirkt, wenn der Charakter sich in einen Kampfrausch versetzt.
-Es gelten die beschriebenen Regeln für Kampfrausch I und II.
-Ein Charakter im Berserkerrausch muss er immer die direkteste Art und den direktesten Weg wählen, um an den Gegner heranzukommen.
-Der Charakter kann nur Nahkampfwaffen verwenden.
-Er kann im nur Hieb Ausweichen zur Verteidigung benutzen.
-Es gelten die Boni und Mali aus Raserei.
-
-Zusätzlich erhält der Charakter einen Bonus von +2 auf alle Würfe zum Erfolg für das Talent Nahkampfwaffen und einen Bonus 2*ST auf die Schadenswürfe.
-
-Während sich der Charakter im Rausch befindet, ist immun gegenüber Ekel-, Furcht- und Horror-Proben.
-
-Am Ende des Kampfes muss der Charakter eine Willenskraft-Probe ablegen.
-Die nötige Anzahl der Erfolge ist die Anzahl der Gegner geteilt durch 2, die er bekämpft und besiegt hat.
-Misslingt die Probe, muss er weiterkämpfen!
-Das heißt, er sucht sich die nächsten lebenden Ziele aus, die mit unter seine Freunde sein können.
-Er bleibt dabei im Kampfrausch.
-
-Die Dauer der Raserei verbessert sich auf 3*KO Kampfrunden, bevor die Erschöpfung eintritt.
 
 === Kampfreflexe
 *Voraussetzungen:* Akrobatik 8, ER 4 +
@@ -429,12 +316,6 @@ Projektilwaffe durch den Charakter keinen Gelegenheitsangriff mehr.
 *Beschreibung:* Mit dieser Fähigkeit provoziert das Ziehen einer Waffe
 durch den Charakter keinen Gelegenheitsangriff mehr.
 
-[[ref_skills_improved_charge]]
-=== Verbesserter Sturmangriff
-*Voraussetzungen:* Nahkampfwaffen 3
-*CP-Kosten:* 100 +
-*Beschreibung:* Mit dieser Fähigkeit provoziert das Ausführen des Kampfmanövers xref:core_rules_battlesystem.adoc#ref_battle_complexactions_charge[Sturmangriff] durch den Charakter keinen Gelegenheitsnagriff mehr.
-
 === Verbesserter Zweiwaffenkampf
 *Voraussetzungen:* Nahkampfwaffen 8, Zweiwaffenkampf +
 *CP-Kosten:* 400 +
@@ -457,33 +338,6 @@ werden, jedoch immer nur für ein anderes Talent.
 *Beschreibung:* Wie Verteidigungsfokus, jedoch gewährt der
 Starke Verteidigungsfokus insgesamt einen Bonus von +2 auf die Würfe zum
 Erfolg.
-
-[[ref_skills_weaponfocus_melee]]
-=== Waffenfokus [Nahkampfwaffe]
-*Voraussetzungen:* Nahkampfwaffen 5 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
-Waffe, erhält er einen Bonus von +1 auf die Würfe zum Erfolg. Die
-Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere
-Waffe.
-
-[[ref_skills_weaponfocus_projectile]]
-=== Waffenfokus [Projektilwaffe]
-*Voraussetzungen:* Projektilwaffen 5 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
-Waffe, erhält er einen Bonus von +1 auf die Würfe zum Erfolg. Die
-Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere
-Waffe.
-
-[[ref_skills_weaponfocus_throwing]]
-=== Waffenfokus [Wurfwaffe]
-*Voraussetzungen:* Wurfwaffen 5 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Kämpft ein Charakter mit einer im Waffenfokus gewählten
-Waffe, erhält er einen Bonus von +1 auf die Würfe zum Erfolg. Die
-Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere
-Waffe.
 
 === Waffenfokus, Starker [Nahkampfwaffe]
 *Voraussetzungen:* Nahkampfwaffen 10, Waffenfokus[Waffe] +
@@ -595,28 +449,6 @@ Nach außen hin erscheint der Charakter verschwommen, seine Haut, sogar seine Kl
 *CP-Kosten:* 100 +
 *Beschreibung:* Diese Fähigkeit gewährt dem Charakter einen Bonus von +1 auf die Würfe zum Erfolg in dem Talent Verborgenes Erkennen, wenn er explizit nach Geheimtüren sucht.
 
-[[ref_skills_trip]]
-=== Stolperfalle
-*Voraussetzungen:* Nahkampfwaffen 3 oder Unbewaffneter Kampf 3, GE 2 +
-*CP-Kosten:* 100 +
-*Beschreibung:* Würfelt der Charakter eine Angriffsprobe mit Nahkampfwaffen oder Unbewaffneter Kampf gegen einen Gegner, kann er sich im Falle eines Erfolgs entscheiden, keinen Schadenswurf durchzuführen.
-Tut er dies, verliert der Gegner seine verbliebenen Aktionen in dieser Kampfphase.
-
-[[ref_skills_backstab]]
-=== Hinterhältiger Angriff
-*Voraussetzungen:* Nahkampfwaffen 2, Schleichen 2 +
-*CP-Kosten:* 100+ +
-*Beschreibung:* Im Kampf kann der Charakter einen Hinterhältigen Angriff gegen einen Gegner führen, der die Schwächen des Gegners ausnutzt, um mehr Schaden zu verursachen.
-
-Um einen Hinterhältigen Angriff durchzuführen, muss der Charakter sein Opfer aus dem toten Winkel oder von den Seiten angreifen oder einen Charakter angreifen, der bereits im Nahkampf gebunden ist, bei dem ein Verbündeter beteiligt ist.
-
-Ein erfolgreicher, hinterhältiger Angriff addiert zu der Schadensprobe einen Bonus von +1W6 hinzu.
-Der Bonus zählt nur auf Nahkampfangriffe.
-
-Diese Fähigkeit kann mehrfach gelernt werden.
-Jede Stufe erhöht den Bonus um +1W6.
-Die CP-Kosten steigen kumulativ um 100 CP pro Erlernung.
-
 === Schlossspezialist
 *Voraussetzungen:* Schlösser Öffnen 2 +
 *CP-Kosten:* 100 +
@@ -708,89 +540,6 @@ nun durchführen. Diese Handlung kann nur sehr einfach sein, bzw. in
 wenigen Worten zu beschreiben. Beispielsweise ist “Tötet den König”
 legitim.
 
-[[ref_skills_taunt]]
-=== Verspotten
-*Voraussetzungen:* Überzeugen 5 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Diese Fähigkeit erweitert das Talent Überzeugen.
-Es dient dazu einen Gegner, ob im Kampf (im Kampf dauert diese Überzeugen-Probe 1 Kampfrunde) oder im Redegefecht zu reizen und dazu zu unüberlegten Handlungen zu bewegen.
-Das Talent Überzeugen wird in Verwendung mit Verspotten wird gegen eine Beherrschen-Proben des Opfers geworfen.
-Für einen Durchschnittlichen Erfolg erhält das Opfer einen Malus von -1 auf alle Würfe zum Erfolg für eine Anzahl an Kampfrunden gleich der Stufe des Überzeugen-Talents geteilt durch 2 (abgerundet, Minimum 1).
-Hat der verspottende Charakter einen Guten Erfolg gewürfelt, beträgt der Malus -2, bei einem Sehr Guten -3 bis max. -4 bei einem Hervorragenden Erfolg.
-
-[[ref_skills_confuse]]
-=== Verwirren
-*Voraussetzungen:* Überzeugen 3 +
-*CP-Kosten:* 100 +
-*Beschreibung:* Diese Fähigkeit erlaubt es dem Charakter seinen Gesprächspartner zu verwirren.
-Dazu benutzt er einen komplizierten Satzbau, Fachbegriffe und Fremdwörter und durchaus falsche Behauptungen.
-Dadurch wird der Gesprächspartner verwirrt und wird eventuell das tun, was der Charakter von ihm will.
-
-Die Fähigkeit erweitert das Talent Überzeugen.
-
-Für jeden Erfolg kann der Charakter eine Kreatur, die seine Sprache versteht und ihm zuhört verwirren.
-Der SL kann je nach Situation höhere Erfolgsgrade fordern.
-Wenn der Charakter dann in den nächsten 10 Minuten eine Überzeugen-Probe gegen den Verwirrten würfeln muss, dann erhält er einen Bonus von +1 auf die Würfe zum Erfolg.
-Jeder zusätzliche Erfolg erhöht die Dauer um 5 Minuten.
-
-== Wissensfähigkeiten
-
-[[ref_skills_alchemy]]
-=== Alchemie
-*Voraussetzungen:* Wissen[Alchemie] 2, Handwerk[Brauen] 2 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Die Alchemie ist die alte Kunst des Tränkebrauens und des Mischens von diversen Zutaten zu einer wirksamen Substanz.
-Dies könnte ein Heiltrank, ein Schlaftrank oder Schießpulver sein.
-Der Charakter kann auch unbekannte Substanzen am Geruch, Geschmack, Aussehen etc. erkennen und eventuell klassifizieren.
-Dem Charakter sind weiterhin verschiedene Rezepte und Untersuchungsmethode für alchemistische Erzeugnisse bekannt.
-Für eine präzise Herstellung oder Untersuchung benötigt der Charakter jedoch ein Labor und entsprechende Zutaten.
-Die notwendigen Proben werden mit dem Handwerk[Brauen]-Talent gewürfelt.
-Ein Charakter mit dieser Fähigkeit benötigt nicht das Talent Magische Gegenstände Herstellen, um Tränke herzustellen.
-Der SL kann Erfolgsgrade für das Fehlen dieser Voraussetzungen erhöhen, ebenso für schwierige Experimente oder Gemische.
-
-[[ref_skills_artefactlore]]
-=== Artefaktkunde
-*Voraussetzungen:* Wissen[Arkanes] 5, Wissen[Legenden] 2, Wissen[Geschichte] 2 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Artefaktkunde ist eine Fähigkeit, die das Wissen um legendäre, magische Schätze umfasst.
-Der Charakter kann anhand von äußeren Merkmalen oder Beobachtungen der Wirkungsweise von magischen Gegenständen mehr über diese herausfinden.
-Dies können frühere Besitzer sein, Legenden, die sich um diesen Gegenstand ranken, oder einfach die Verwendungsweise.
-Nützlich ist die Fähigkeit auch, wenn man den Verdacht hat, dass ein Fluch auf dem Gegenstand liegt.
-Eine erfolgreiche Probe könnte dies aus der Geschichte des Artefakts bestätigen.
-Der Erfolgsgrad dieser Probe kann vom SL aufgrund von Seltenheit des jeweiligen Artefakts abhängig gemacht werden.
-Die Fähigkeit kann auch angewandt werden, wenn der Charakter mit Aether Wahrnehmung eine magische Aura eines Artefakts analysiert, um damit etwas über die magischen Eigenschaften eines unbekannten Gegenstandes zu erfahren (dies ist nicht identisch mit Identifizieren).
-Mit einem mindestens Guten Erfolg kann der Charakter technomantische Konstrukte als solche identifizieren, jedoch erhält durch diese Fähigkeit keine spezifischen Konstruktionsdetails.
-
-Die Fähigkeit erweitert das Talent Wissen[Arkanes], allerdings darf der
-Charakter die Probe auch mit seinem Talent Wissen[Legenden] oder
-Wissen[Geschichte] würfeln.
-
-[[ref_skills_foreignlanguage]]
-=== Fremdsprache [eine Sprache]
-*Voraussetzungen:* Lesen/Schreiben 2 +
-*CP-Kosten:* 100 +
-*Beschreibung:* Jede Sprache, die nicht die Muttersprache ist, gilt als
-Fremdsprache. Die entsprechend gewählte Sprache kann dann gelesen und
-geschrieben werden. Die Fähigkeit kann mehrmals gewählt werden, jeweils
-mit einer anderen Sprache. Proben werden mit dem Talent Lesen/Schreiben
-gewürfelt.
-
-[[ref_skills_loremaster]]
-=== Gelehrter [Wissensgebiet]
-*Voraussetzungen:* Wissen [Wissengebiet] 2 +
-*CP-Kosten:* 100 +
-*Beschreibung:* Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg für alle Wissensproben in dem Wissenstalent für dieses Wissengebiet.
-
-[[ref_skills_runelore]]
-=== Runenlehre
-*Voraussetzungen:* Wissen[Geschichte] 3, Wissen[Arkanes] 6 +
-*CP-Kosten:* 200 +
-*Beschreibung:* Runen sind ein altes Mittel, um Informationen weiter zu geben.
-Einige Alphabete basieren nur auf Runen. Einige Lebewesen bannen sogar Magie in Runen, um verschiedene, magische Effekte zu erwirken.
-Charaktere mit dieser Fähigkeit können Runen erkennen, deuten und selber in Runen kodieren.
-Jedoch können sie keine Magie in Runen bannen.
-Für eine genaue Beschreibung der Runenmagie siehe xref:core_rules_magic_base.adoc#ref_magic_schools_runes[Runenmagie].
-
 == Magische Fähigkeiten
 
 Siehe das Dokument link:core_rules_magic_skills.adoc[Magische Fähigkeiten].
@@ -848,19 +597,6 @@ Auf einer Straße in Mitten eines Raubüberfalls ist dieser Effekt sehr viel nü
 Im Kampf benötigt das Talent mindestens 4 Kampfrunden.
 Der SL kann im allgemeinen erlauben, dass die Benutzung des Talents dazu führt, dass der Charakter bei den überzeugten Personen für einen gewissen Zeitraum einen Bonus auf alle Kommunikationsproben erhält.
 
-[[ref_skills_mechanics]]
-=== Mechanik
-*Voraussetzungen:* Wissen[Architektur und Ingenieur] 2, Handwerk[Schmied] 2 +
-*CP-Kosten:* 300 (100 für Technomanten) +
-*Beschreibung:* Diese Fähigkeit ist unter Ingenieuren und Technomanten weit verbreitet, wobei sie allerdings nur die nicht-technomantischen und nicht magischen Gerätschaften erfasst.
-Ein Charakter mit dieser Fähigkeit kann also alle gängigen, nicht-technomantischen Maschinen, wie Katapulte, Wasserpumpen, Armbrüste, Musketen, usw. sowohl reparieren, als auch unter gegebenen Umständen selber herstellen.
-Außerdem kann er eine unbekannte Maschine auf ihre Funktionsweise untersuchen.
-Für alle Aktionen ist meistens Werkzeug bzw. entsprechendes Baumaterial nötig.
-Fehlt dies, so kann der SL den Erfolgsgrad erhöhen.
-Wie gewöhnlich steigt der Erfolgsgrad mit der Komplexität der Aufgabe.
-Die Probe wird mit Handwerk[Schmied] (ggf. für Holzkonstruktionen Handwerk[Zimmermann]) oder Wissen[Architektur und Ingenieur] gewürfelt, je nach SL-Entscheid.
-Beherrscht der Charakter das Talent Fallen Entschärfen, erhält er einen Bonus von +1 auf die Würfe zum Erfolg.
-
 === Minnegesang
 *Voraussetzungen:* Kunst[Musik] 5, Kunst[Gesang] 5, Kunst[Schauspiel] 5 +
 *CP-Kosten:* 300 +
@@ -887,32 +623,12 @@ Jeder Erfolg in einer Erkenntnis-Probe lässt den Charakter sich bzw. sein Gefä
 Je nach Wetterlage kann dieser Zeitabschnitt jedoch rapide kleiner werden.
 Eventuell sind höhere Erfolgsgrade nötig, wenn der Charakter vielleicht nicht alle nötigen Instrumente hat oder wenn er durch unbekannte Gebiete navigieren muss.
 
-[[ref_skills_orientation]]
-=== Orientierung [Gebiet]
-*Voraussetzungen:* - +
-*CP-Kosten:* 100 +
-*Beschreibung:* Der Charakter hat eine gute Orientierung, so dass er meist sehr genau einschätzen kann, in welche Richtung er gehen muss, um sein Ziel zu erreichen.
-Die Fähigkeit wirkt beispielsweise, wenn der Charakter sich in der Wildnis verlaufen hat und sich an markanten Landschaftsmerkmalen orientieren möchte, um den Rückweg zu finden.
-Alternativ könnte er sich in der Stadt an Straßennamen oder besonderen Gebäuden orientieren.
-Dazu würfelt er eine Erkenntnis-Probe. Die Schwierigkeit der Probe wird vom SL durch die Anzahl der Erfolge festgelegt.
-Höhere Erfolgsgrade können angesetzt werden, wenn die Wahrnehmung und die Fähigkeit zur Informationsinterpretation des Charakters eingeschränkt sind.
-Jeder Erfolg hält den Charakter 5-30 Minuten auf dem richtigen Kurs.
-
 === Psychologie
 *Voraussetzungen:* Handwerk[Arzt] 5, Empathie, Überzeugen 5 +
 *CP-Kosten:* 500 +
 *Beschreibung:* Diese Fähigkeit erlaubt es einem Charakter mit
 Hilfe seines Handwerk[Arzt]-Talentes gemäß den Regeln im
 Dokument[Wahnsinn] Geisteskrankheiten und Traumata zu heilen.
-
-[[ref_skills_tracking]]
-=== Spuren Lesen
-*Voraussetzungen:* Verborgens Erkennen 3 +
-*CP-Kosten:* 100 +
-*Beschreibung:* Der Charakter kann Spuren in der Wildnis folgen und sie auch einem entsprechenden Tier oder Monster zuordnen.
-Jeder Erfolg mit einer Verborgenes Erkennen-Talentprobe zählt für einen Zeitabschnitt von 10 Minuten, in denen der Spurenleser den Spuren folgen kann.
-Besonders widriges Gelände erhöht den Erfolgsgrad.
-Mit der Fähigkeit können natürlich auch nicht nicht-tierische Spuren verfolgt werden.
 
 === Tierempathie
 *Voraussetzungen:* Tierfreundschaft 3, Erkenntnis 3 +

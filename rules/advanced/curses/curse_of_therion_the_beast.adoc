@@ -1,0 +1,48 @@
+= Therions Fluch
+
+*Typ:* Harmlos, Schwach, Stark, Todesfluch
+*Ziel:* Kreatur (nur link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide])
+*Ende:* Permanent, Bann, Tat
+*Beschreibung:* Dieser Fluch wurde in das Multiversum durch den Progenitor link:../../../lore/progenitors/lore_progenitors_istar_and_therion.adoc[Therion], der Bestie, entlassen.
+Der Fluch bringt sein Ziel näher mit dessen animalischer Seite.
+
+Therions Fluch hat je nach Typ unterschiedliche Auswirkungen.
+Diese sind in diesem Fall immer kumulativ.
+Beispielsweise erleidet eine Kreatur, die mit der starken Variante des Fluchs verflucht wurde, die Effekte aus der harmlosen und schwachen Variante mit.
+
+[[ref_curse_of_therion_harmless]]
+== Harmlos
+Die Kreatur gibt einen intensiven Geruch von sich.
+Dieser ist nicht zwangsläufig unangenehm, aber auffällig.
+link:../../advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiere] können durch den Geruch beunruhigt werden.
+Nach Ermessen des SL können zusätzliche Proben im Umgang mit Tieren erforderlich sein.
+
+[[ref_curse_of_therion_weak]]
+== Schwach
+Die Kreatur zeigt ungewöhnliche Verhaltensweisen, die üblicherweise von Tieren gezeigt werden.
+Dies könnte beispielsweise sind, dass die Kreatur andere Charaktere beschnuppert, sein Essen immer schnellst möglichst runterschlingt oder sein Haus besonders aggressiv verteidigt.
+Möchte die Kreatur eine Verhaltensweise unterdrücken, muss sie eine xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Probe bestehen.
+
+[[ref_curse_of_therion_strong]]
+== Stark
+Der Fluch verändert die Kreatur körperlich und sie erhält tierische Eigenschaften.
+Zum Beispiel könnte der Kreatur dichtes Fell wachsen oder sie könnte Krallen oder Hörner erhalten.
+Diese Veränderungen bringen ihr keine Vorteile (zum Beispiel Rüstungsschutz oder Schaden im unbewaffneten Kampf).
+
+Grundsätzlich ist die Erscheinung der Kreatur für Beobachter bestenfalls verstörend.
+Andere Charaktere erkennen, dass mit der Kreatur etwas nicht stimmt und reagieren entsprechend.
+
+[[ref_curse_of_therion_deathcurse]]
+== Todesfluch
+Der Todesfluch von Therion verwandelt die Kreatur dauerhaft in ein reguläres link:../../advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Raubtier], zum Beispiel ein Wolf, Bär oder Tiger.
+
+Erhält die Kreatur den Fluch zum ersten Mal, muss Sie 1W10 würfeln.
+Die erwürfelte Zahl stellt die Anzahl der Monate, die der Fluch nicht eintritt.
+Nach Ablauf dieser Anzahl Monate muss die Kreatur eine xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Probe ablegen.
+Bei einem Misserfolg tritt der Fluch ein.
+Bei einem Erfolg würfelt die Kreatur einen weiteren W10.
+Dies ist wieder die Anzahl der Monate, die der Fluch nicht wirkt.
+Die Kreatur muss die Willenskraft-Probe und die Bestimmung der Monate solange wiederholen, bis der Fluch gebannt wurde oder sie sich in ein Tier verwandelt.
+
+Ist die Kreatur in ein Tier verwandelt, ist keine weitere Probe mehr nötig.
+Die Tierform gilt als permanente Form der Kreatur, bis der Fluch gebrochen wird.

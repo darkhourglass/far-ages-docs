@@ -733,13 +733,12 @@ Untote und Konstrukte sind immun gegen diesen Zauber. +
 *Reichweite:* 15,00 Meter +
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* Sofort +
-*Effekt:* Der Magier beschwört magisches Feuer, dass er zu einem Ball formt.
-In seinen Handflächen beginnen sich während der Anrufung lange Fäden von gleißendem Feuer zu einem Ball zusammenzuknoten.
+*Effekt:* Du beschwörst magisches Feuer, das sich in Deinen Händen zu einer flammenden Kugel formt.
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
-Wenn er auf dem Boden einschlägt, zerberstet er in einer Feuerwolke, die in einem Radius von 3 Metern um den Einschlagspunkt. +
-Der Zauber verursacht 4W6 Feuerschaden gegen jede Kreatur im Zielradius.
-Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[GE-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
-Bei einem Erfolg werden die erlitten Schadenspunkte halbiert (Minimum 1).
+Wenn er auf dem Boden einschlägt, zerberstet er zu einem Inferno mit einem Radius von 3 Metern um den Einschlagpunkt. +
+Jede Kreatur im Zielradius erleidet 4W6 xref:core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuerschaden].
+Alle Kreaturen dürfen einen xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
+Bei einem Erfolg werden die Schadenspunkte halbiert (Minimum 1).
 *Zusätzliche Effekte:* +
 +5 MP: Reichweite: +6,00 Meter +
 +5 MP: Flächenschaden: +3,00 Meter +
@@ -756,7 +755,7 @@ Bei einem Erfolg werden die erlitten Schadenspunkte halbiert (Minimum 1).
 *Reichweite:* Selbst/Berührung +
 *Anzahl der Ziele:* - +
 *Dauer:* 5 +
-*Effekt:* Während der Beschwörung murmelt der Magier alte und schwere Worte und seine von seinen Händen ausgehend nimmt seine (oder die des Ziels) Haut eine matte, metallene Farbe an.
+*Effekt:* Während der Beschwörung murmelst Du alte und schwere Worte und von Deinen Händen ausgehend nimmt Deine (oder die des Ziels) Haut eine matte, metallene Farbe an.
 Für die Dauer des Zauberspruches erhöht sich der Rüstungsschutz auf allen Trefferzonen um +7 Punkte. +
 *Zusätzliche Effekte:* +
 +3MP: Dauer: +1 Kampfrunde +
@@ -804,6 +803,9 @@ Die Vorbereitung beginnt mit der ersten Kampfphase und endet in der Letzten inkl
 Es ist möglich die Anzahl für die Vorbereitung zu verkürzen.
 Dies kostet zusätzliche MP.
 Nur wenn die Vorbereitung das Kürzel \(R) enthält, welches für *Ritual* steht, so ist die Verkürzung nicht möglich.
+In diesem Fall können auch Zeitangaben, wie zum Beispiel "1 Stunde" angegeben sein.
+Der Zauberer muss die Zeit am Stück einsetzen, an deren Ende die Spruchzauberei-Probe steht.
+Unterbricht er das Ritual, so muss er es von vorne beginnen.
 
 [[ref_magic_rules_spellcasting_spellspecifics_successes]]
 *Anzahl der Erfolge*:
@@ -896,7 +898,7 @@ Zu Beginn der Vorbereitung muss der Zauberer festlegen, welche *zusätzlichen Ef
 
 Von den zusätzlichen Effekten hängt teilweise die POT ab und aufgrund derer die Kosten für die *Verkürzung der Vorbereitung*.
 
-Die Kosten für die Verkürzung berechnen sich, in dem der Zauberer für jede Kampfühase, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt.
+Die Kosten für die Verkürzung berechnen sich, in dem der Zauberer für jede Kampfphase, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt.
 
 .Zusätzliche Effekte, Verkürzen und MP
 ====
@@ -1032,7 +1034,7 @@ Manche Zaubersprüche benötigen Zutaten, um gewirkt zu werden.
 Der Magier muss alle Zutaten spätestens bei der <<ref_magic_rules_spellcasting_roll, Spruchzauberei-Probe>> parat haben.
 Unabhängig vom Erfolg der Probe werden die Zutaten verbraucht.
 
-Hat der Zauberer die Zutaten nicht zur Hand, kann er den Zauberspruch nicht verwenden bzw. die Spruchzauberei-Probe gilt als Misserfolg.
+Hat der Zauberer die Zutaten nicht zur Hand, kann er den Zauberspruch nicht verwenden bzw. die Spruchzauberei-Probe gilt automatisch als Misserfolg.
 
 [[ref_magic_rules_spellcasting_components_missing]]
 ===== Optional: Zaubersprüche ohne Gesten und Zauberformeln
@@ -1174,7 +1176,7 @@ Wie man gesehen hat, sind xref:core_rules_charactercreation.adoc#ref_secondary_m
 Sie sind zwar nicht dringend nötig, um die Magie selbst zu wirken, aber sie sind extrem nützlich, um die Magie schnell zu wirken oder zu verstärken.
 
 Daher sollte ein Magier immer möglichst viele Magiepunkte besitzen, bzw. vorsichtig und bedacht mit seinem Vorrat haushalten.
-Aber Vorsicht ist geboten, denn ein Charakter, der 0 MP erreicht, ist xref:core_rules_d10_system.adoc#ref_base_rules_deathsdoor[dem Tode] nahe.
+Aber Vorsicht ist geboten, denn ein Charakter, der 0 MP erreicht, ist xref:core_rules_d10_system.adoc#ref_base_rules_death_deathsdoor[dem Tode] nahe.
 Die Regeneration von MP entspricht den Regeln im Kapitel zu xref:core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Regeneration].
 
 [[ref_magic_base_items_with_mp]]
@@ -1202,7 +1204,7 @@ Dies kann durchaus sinnvoll sein, wenn der Magier diese MP zu einem späteren Ze
 
 Magiespeicher enthalten immer einen magischen Kristall.
 Diese Kristalle müssen explizit als Magiespeicher behandelt werden.
-Dies funktioniert mit den Talenten xref:core_rules_magic_items.adoc.adoc#ref_magic_items_createmagicalitem_talent[Magischen Gegenstand Herstellen] oder xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie].
+Dies funktioniert mit den Talenten xref:core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_talent[Magischen Gegenstand Herstellen] oder xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie].
 Siehe dazu die jeweilige Beschreibung.
 
 [[ref_magic_base_items_with_mp_magicalitems]]

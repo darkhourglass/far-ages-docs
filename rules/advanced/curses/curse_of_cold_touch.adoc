@@ -1,0 +1,21 @@
+= Fluch der kalten Berührung
+
+*Typ:* Harmlos, Schwach, Stark
+*Ziel:* Kreatur
+*Ende:* Permanent, Bann, Tat
+*Beschreibung:* Die Hände der verfluchten Kreatur sind immer erschreckend kalt.
+Jede link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur, die durch die verfluchte Kreatur berührt wird, ist je nach Typ des Fluches betroffen:
+
+[[curse_of_cold_touch_harmless]]
+== Harmlos
+Die berührte Kreatur fühlt einen eiskalten Schauer durch ihren Körper kriechen.
+Sie erhält keinen Schaden oder besondere Mali.
+Allerdings ist die Erfahrung sehr beunruhigend und sie wird entsprechend reagieren.
+
+[[curse_of_cold_touch_weak]]
+== Schwach
+Die berührte Kreatur erhält sofort 1 Punkt xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_frost[Frost]-Schaden.
+
+[[curse_of_cold_touch_strong]]
+== Stark
+Die berührte Kreatur erhält sofort 1W10+1 Punkt xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_frost[Frost]-Schaden.

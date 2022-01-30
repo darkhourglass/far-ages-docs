@@ -132,9 +132,10 @@ Diese Vereinfachung ist vor allem dazu gedacht, den Ablauf des Kampfs schneller 
 Sobald die Initiativreihenfolge es erlaubt, darf ein Kampfteilnehmer seine Aktionen durchführen.
 Pro Kampfrunde hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur Verfügung:
 
-* max. 1 Aktion
-* max. 1 Bewegungs- oder Kampfmanöver
-* max. 1 Reaktion
+* max. 1 <<ref_battle_actions, Aktion>>
+* max. 1 <<ref_battle_bonusactions, Bonusaktion>>
+* max. 1 <<ref_battle_movefightaction, Bewegungs- oder Kampfmanöver>>
+* max. 1 <<ref_battle_reactions, Reaktion>>
 * beliebige Freie Aktionen
 
 Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion bzw. Kombination aus o.g. Aktionen, mit Ausnahme der Reaktion.
@@ -153,10 +154,10 @@ Er kann maximal die Hälfe seiner BEW entfernt sein und muss diese einsetzen, um
 Er muss außerdem eine xref:core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] würfeln.
 Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
 
-Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als im Kampf gebunden.
+Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Kampf gebunden].
 
 Bewegt sich der Charakter nicht und nutzt ein Talent, wie xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], gilt der Angriff ausschließlich als <<ref_battle_actions_usetalent, Talenteinsatz>>.
-Dasselbe gilt, wenn er selbst im Kampf gebunden ist und zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwendet.
+Dasselbe gilt, wenn er bereits im Kampf gebunden ist und zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwendet.
 
 Besondere Angriffe sind in den folgenden Unterkapiteln aufgeführt.
 
@@ -204,7 +205,7 @@ Derjenige, der mehr Erfolge gewürfelt hat, hat den Gegner im Griff.
 Dieser gilt als xref:core_rules_d10_system.adoc#ref_core_condition_immobile[gefangen].
 
 Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfrunde eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
-Dieser Versuch gilt als das Manöver <<ref_battle_move_standup, befreien>>.
+Dieser Versuch gilt als das Manöver <<ref_battle_move_breakfree, befreien>>.
 Es kann also pro Kampfphase immer eine Probe gewürfelt werden und je nachdem, wer gewinnt, das Ergebnis folgen.
 
 [[ref_battle_actions_usetalent]]
@@ -215,7 +216,8 @@ Der Charakter darf ein Talent einsetzen, welches im Kampf als Manöver gekennzei
 ==== Unterstützen
 Mit dieser Aktion kann der Charakter (der Unterstützer) einen anderen, befreundeten Charakter bei einer Probe zur Seite stehen.
 
-Der Unterstützer muss sich in Sicht- und Hörreichweite des zu Unterstützenden befinden. Der Unterstützte erhält einen Bonus von *+1 auf die Würfe zum Erfolg* für seine Probe.
+Der Unterstützer muss sich in Sicht- und Hörreichweite des zu Unterstützenden befinden.
+Der Unterstützte erhält einen Bonus von *+1 auf die Würfe zum Erfolg* für seine Probe.
 
 Um bei einer Talentprobe zu unterstützen, muss der Unterstützer das Talent selbst beherrschen.
 
@@ -228,19 +230,30 @@ Diese Zeit wird in Form von Aktionen bei der Beschreibung des Zauberspruches ang
 Generell gilt, die Spruchzauberei-Probe in der letzten benötigten Kampfrunde gewürfelt wird.
 Die vollständigen Regeln finden sich unter xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[Zaubersprüche vorbereiten].
 
+[[ref_battle_bonusactions]]
+=== Bonus-Aktionen
+//TODO
+
 [[ref_battle_movefightaction]]
-=== Bewegungsmanöver
-Unter den Begriff *Bewegungmanöver* oder auch *Kampfmanöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen.
+=== Bewegungs- und Kampfmanöver
+Unter den Begriff *Bewegungsmanöver* oder auch *Kampfmanöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen.
 Pro Kampfphase steht einem Charakter maximal ein Bewegungsmanöver zu.
-Er muss sich daher zwischen den folgenden Aktionen entscheiden.
+Er muss sich daher zwischen den folgenden Optionen entscheiden.
 
 [[ref_battle_move_standup]]
-==== Aufstehen / Befreien
-Befindet sich der Charakter in der Kampfphase in einer xref:core_rules_d10_system.adoc#ref_core_conditions[besonderen Situation], die es ihm erlaubt, sich zu befreien oder aufzustehen, kann er dieses Manöver einsetzen, um sich aufzurichten.
+==== Aufstehen
+Befindet sich der Charakter in der Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_onground[am Boden], kann er dieses Manöver einsetzen, um sich aufzurichten.
 
-Je nach Situation kann allerdings eine zusätzliche Probe nötig sein.
+Das Manöver kostet den Charakter formal die Hälfte seiner BEW-Rate pro Kampfphase.
+Kann er in dieser Kampfphase weitere BEW einsetzen, stehen ihm entsprechend weniger Einheiten zur Verfügung.
 
 Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+
+[[ref_battle_move_breakfree]]
+==== Befreien
+Befindet sich der Charakter in der Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_held[gefangen], kann er dieses Manöver einsetzen, um sich zu befreien.
+
+Die erfordert gegebenfalls eine zusätzliche Probe, wie beispielsweise unter <<ref_battle_actions_brawl, Raufen und Ringen>> beschrieben.
 
 [[ref_battle_move_readyitem]]
 ==== Gegenstand vorbereiten
@@ -257,7 +270,7 @@ Der Charakter darf ein Talent einsetzen, welches im Kampf als Manöver gekennzei
 
 [[ref_battle_move_useBEW]]
 ==== Rennen
-Der Charakter kann in dieser Kampfphase seine BEW-Rate verwenden.
+Der Charakter kann in dieser Kampfphase seine BEW-Rate verwenden, wenn er nicht xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden] ist.
 Es gelten die üblichen Regeln für <<ref_battle_rules_movement, Bewegung>>.
 
 Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
@@ -293,10 +306,10 @@ Als freie Aktion darf ein Charakter jeden Gegenstand, den er bereits in den Hän
 
 [[ref_battle_freeactions_useitem]]
 ==== Gegenstand verwenden
-Ein Charakter kann einen Gegenstand verwenden, der nicht durch eine Attributs- oder Talentprobe zum Einsatz erfordert.
+Ein Charakter kann einen Gegenstand verwenden, dessen Einsatz keine eine Attributs- oder Talentprobe erfordert, oder deren Beschreibung keine <<ref_battle_actions, Aktion>> oder ähnliches erfordert.
 Dies kann zum Beispiel ein Heiltrank sein.
 Ein Zauberstecken zählt dabei nicht, denn dieser wird durch das Talent Spruchzauberei eingesetzt.
-Die Verwendung und der Effekt des Gegenstandes ist im Normalfall in der Beschreibung zu finden.
+Die Verwendung und der Effekt des Gegenstandes sind im Normalfall in der Beschreibung zu finden.
 
 [[ref_battle_freeactions_quickstep]]
 ==== Schneller Schritt
@@ -315,7 +328,7 @@ Die Vorgabe kann als grobe Richtlinie verstanden werden.
 
 [[ref_battle_reactions]]
 === Reaktionen
-*Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen Initiativereihenfolge ausführen kann, also wenn er er eigentlich nicht dran.
+*Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen Initiativereihenfolge ausführen kann, also wenn er eigentlich nicht dran.
 Typische Reaktionen sind Talente wie Hieb Ausweichen, Schildverteidigung oder Parade.
 
 Grundsätzlich können Reaktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
@@ -340,18 +353,16 @@ Als *komplexe Aktionen* werden Manöver bezeichnet, die in einer Kampfphase sehr
 Komplexe Aktionen erfordern den Einsatz der <<ref_battle_actions, Aktion>> und des <<ref_battle_movefightaction, Bewegungsmanövers>>, welches ein Charakter im Normalfall zur Verfügung hat.
 Hat ein Charakter keine Aktion oder kein Bewegungsmanöver, aber den jeweils anderen Anteil, kann er keine komplexe Aktion durchführen.
 
-[[ref_battle_bonusactions]]
-=== Bonus-Aktionen
-//TODO
-
 [[ref_battle_complexactions_sprint]]
 ==== Sprinten
-Der Charakter kann in dieser Kampfphase seine doppelte BEW-Rate verwenden.
+Der Charakter kann in dieser Kampfphase seine doppelte BEW-Rate verwenden, wenn er nicht xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden] ist.
 Es gelten die üblichen Regeln für <<ref_battle_rules_movement, Bewegung>>.
 
 Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
 
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
+
+Das Manöver <<ref_battle_move_useBEW, Rennen>> kann nicht in der selben Kampfphase wie Sprinten verwenden werden.
 
 [[ref_battle_complexactions_charge]]
 ==== Sturmangriff
@@ -361,13 +372,12 @@ Diese Linie darf nicht durch Hindernisse oder andere Kreaturen blockiert sein.
 Außerdem darf der Charakter nicht im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] sein.
 
 Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
-Seine
 
-Bewegt sich der Charakter durch die Bedrohungszonen anderer Kreaturen, so provoziert er <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
+Bewegt sich der Charakter durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszonen>> anderer Kreaturen, so provoziert er <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
 
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
-[[ref_battle_actions_retreat]]
+[[ref_battle_complexactions_retreat]]
 ==== Zurückweichen / Flucht
 Neben Angriff ist auch manchmal die Flucht die beste Verteidigung, wenn man einer Übermacht oder einem starken Gegner gegenüber steht.
 
@@ -380,7 +390,7 @@ Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
 Der Charakter provoziert allerdings nach regulären Regeln <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>, wenn er sich während seiner Bewegung durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszone>> anderer Gegner bewegt.
 
-Die Bewegung des Charakters darf nicht in der Bedrohungszone eines Gegners enden.
+Die Bewegung des Charakters darf nicht in der <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszone>> eines Gegners enden.
 
 [[ref_battle_rules_melee_and_unarmed]]
 == Nahkampf und Unbewaffneter Kampf
@@ -389,7 +399,7 @@ Nahkampf beschreibt die direkte Auseinandersetzung mit dem Kontrahenten.
 Für gewöhnlich gilt alles, was mit einer Waffe geführt wird, die in der Hand behalten wird, und ihren Schaden auch da wirkt, als Nahkampf.
 Eine Projektilwaffe verursacht ihren Schaden also nicht an dem Ort, wo sie "stationiert" ist, sondern dort, wo das Projektil einschlägt.
 
-Im allgemeinen gilt, dass eine konkurrierende Probe im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er darf nicht gelähmt, paralysiert oder ohnmächtig sein.
+Im Allgemeinen gilt, dass eine konkurrierende Probe im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er darf nicht gelähmt, paralysiert oder ohnmächtig sein.
 
 Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Reaktionen nutzen, dies sind zum Beispiel die Talente Hieb Ausweichen, Schildverteidigung und Parade.
 
@@ -949,35 +959,27 @@ Die Regeln in diesem Kapitel treffen jedoch auch auf diese Situationen zu.
 === Schadenswürfe
 
 Eine erfolgreiche Angriffsprobe mit den Talenten Nahkampfwaffen, Projektilwaffen, Wurfwaffen, Unbewaffneter Kampf und deren ungeübter Anwendung führt zu einem *Treffer*.
-Fallen würfeln auch eine Angriffsprobe und können damit auch Treffer erzeugen.
-Eine erfolgreiche Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die Anzahl der möglichen Effekte vielseitiger sind.
+Fallen würfeln auch eine Angriffsprobe und erzeugen damit Treffer.
+Eine erfolgreiche Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die möglichen Effekte vielseitiger sind.
 
 Ein Treffer verursacht *Schaden*, der sich je nach Art des Treffers anders berechnet.
 Man nennt dies den *Schadenswurf*.
-Dieser Wurf besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6), welche durch die *Schadensstufe* bestimmt wird.
-Die Übersicht mit welcher Schadensstufe man welche Würfel verwenden darf, findet man in dieser link:../tables/table_dice_damage.adoc[Tabelle].
+Dieser Wurf besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6) und einer festen Komponente (zum Beispiel +3).
 
-.Schadensstufe
-====
-Ein erfolgreicher Angriff führt zu einem Treffer.
-Dabei wird eine Schadensstufe von 13 ermittelt, wodurch der Schadenswurf mit 4W6 gewürfelt.
-====
+Um den Schadenswurf zu bestimmen, sind folgende Komponenten zu beachten:
 
-Um die Schadensstufe zu berechnen, sind folgende Komponenten zu beachten:
-
-* die Größenkategorie der Waffe / die Größenkategorie des Charakters
 * die Stufe des zugehörigen Attributs, wie zum Beispiel ST oder GE
-* der *Schadensbonus* der Waffe, abgekürzt SB
 * die Anzahl der Erfolge der Angriffsprobe, im Folgenden abgekürzt durch *AnzE*
+* der *Schadensbonus* der Waffe, abgekürzt SB
 
 Folgende Übersicht gibt Auskunft über die Berechnungen:
 
-* Nahkampfwaffen: *GK + Stufe + SB + AnzE*
-* Projektilwaffen: *GK + Stufe + SB + AnzE*
-* Projektilwaffen (mechanisch): *GK + SB + AnzE*
-* Wurfwaffen: *GK + Stufe + SB + AnzE*
-* Natürliche Waffen: *GK + Stufe + SB + AnzE*
-* Unbewaffneter Kampf: *GK (Charakter) + AnzE + ST + SB*
+* Nahkampfwaffen: *Stufe (Waffe) + AnzE + SB*
+* Projektilwaffen: *Stufe (Waffe) + AnzE + SB*
+* Projektilwaffen (mechanisch): *AnzE + SB*
+* Wurfwaffen: *Stufe (Waffe) + AnzE + SB*
+* Natürliche Waffen: *ST-Stufe (Charakter) + AnzE + SB*
+* Unbewaffneter Kampf: *ST-Stufe (Charakter) + AnzE + SB*
 
 Das Endergebnis wird die *Schadenspunkte* genannt.
 
@@ -985,25 +987,51 @@ Das Endergebnis wird die *Schadenspunkte* genannt.
 ====
 Kraag greift einen durch Nekromantie erschaffenen Untoten an.
 Bei seiner Angriffsprobe im Nahkampf erreicht er 5 Erfolge.
-Seine Attributsstufe in Stärke beträgt 4 und er führt ein Langschwert mit Größe 6 und Schadensbonus 0.
-Somit beträgt die Schadensstufe 6 + 4 + 0 + 5 = 15.
-Die Schadenwürfel betragen damit 4W6.
+Seine Attributsstufe in Stärke beträgt 4 und er führt ein Langschwert mit einem Schadensbonus von +1W6.
+Die Schadenspunkte durch den Treffen betragen daher: 5 + 4 + 1W6.
 ====
 
 Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für natürliche Waffen.
+Sofern nicht anders angegeben, wird die Attributsstufe für ST des Charakters verwendet, wenn mit natürlichen Waffen oder unbewaffneten Kampf ein Treffer erzielt wird.
 
 [[ref_battle_damagerolls_spells]]
 ==== Schadenswürfe für Zaubersprüche
 
 Offensive Zaubersprüche verursachen oft auch Schadenspunkte durch Schadenswürfe.
-Dabei wird zwischen zwei Varianten unterschieben: entweder gibt der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_effect[Effekt] direkt eine Würfelkombination vor oder einen Schadensbonus.
+Im allgemeinen gibt der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_effect[Effekt] direkt eine Würfelkombination vor.
+Dieser wird auch als *Magie-Schadensbonus* ausgewiesen.
 
-Bei einer konkreten Vorgabe werden die entsprechenden Würfel verwendet.
-Im anderen Fall wird analog zu den Schadensstufen vom bewaffneten Kampf berechnet:
+Die Berechnung der Schadenspunkte wird die folgt durchgeführt:
 
-* Spruchzauberei: *EN + SB + AnzE*
+* Spruchzauberei: *EN + AnzE + SB*
 
-Im Fall von Spruchzauberei ist das zugehörige Attribut immer xref:core_rules_charactercreation.adoc#ref_attribute_energy[EN].
+Das zugehörige Attribut ist immer xref:core_rules_charactercreation.adoc#ref_attribute_energy[EN].
+
+Erhöhen bestimmte Effekte oder Fähigkeiten den Schadenswurf eines Zauberspruches durch einen festen Wert (zum Beispiel +2) oder Würfeln (+1W6), so werden diese zusätzlich zur bestimmten Würfelkombination hinzugefügt.
+
+.Schadenswürfe für Zaubersprüche
+====
+Ein link:../../compendiums/spells/spell_fireball.adoc[Feuerball] verursacht 4W6 Schaden.
+Ein Zauberer mit einer EN-Stufe von 4 und 5 Erfolgen bei der Angriffsprobe, verursacht somit 4 + 5 + 4W6 Schaden.
+====
+
+[[ref_battle_damagerolls_no_modifiers]]
+==== Schadenswürfe ohne weitere Modifikatoren
+
+Einige Quellen von Schaden verwenden eine feste Angabe von Würfeln und statischen Komponenten.
+Dies sind beispielsweise Fallen oder auch Angriffe, die durch Kreaturen ausgeführt werden.
+Im letzteren Fall ist auch eine konkrete Würfelkombination angegeben, die für den Schadenswurf verwendet wird.
+
+.Schadenswürfe ohne weitere Modifikatoren
+====
+Ein link:../../bestiary/animals/bestiary_animals_wolf.adoc besitzt die Fähigkeit link:../../bestiary/skills/bestiary_skill_attack_bite.adoc[Biss, (4, 2W6+2)].
+Die Einträge im Bestiarium sind so ausgelegt, dass sie keine Berechnung von Angriffs- oder Schadenssboni mehr benötigen.
+Daher würfelt der Wolf mit 4W10 seine Angriffsprobe und verursacht bei einem Treffer 2W6+2 Schadenspunkte.
+Seine Größe oder seine Stufe in ST haben keinen weiteren Einfluss mehr.
+Ein Drache beherrscht die gleiche Fähigkeit, jedoch mit einer anderen Konfiguration: Biss (12, 8W8+8).
+====
+
+Erhöhen bestimmte Effekte oder Fähigkeiten den Schadenswurf durch einen festen Wert (zum Beispiel +2) oder Würfeln (+1W6), so werden diese zusätzlich zur bestimmten Würfelkombination hinzugefügt.
 
 [[ref_battle_armor]]
 === Rüstung

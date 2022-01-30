@@ -1,0 +1,49 @@
+= Koloss
+
+// TODO Beschreibung
+
+== Voraussetzungen
+
+Die Kreatur darf nicht folgende Schablonen bereits besitzen:
+* link:bestiary_template_sizemodification_giant.adoc[Riesig]
+* link:bestiary_template_sizemodification_small.adoc[Klein]
+* link:bestiary_template_megacollossus.adoc[Mega Koloss]
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen, außer die Werte für xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO].
+Im Vergleich zu anderen Schablonen werden hier neue Werte festgesetzt, damit die bisherigen überschrieben.
+ST und KO nehmen jeweils den Wert 20 an.
+
+Dadurch ändern sich folgende xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Attributseigenschaften]:
+
+* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_maxcarringcapacity[MaxTL]: 300
+* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_hitpoints[TP]: 200
+* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID]: 23
+
+Hat der Charakter weitere Boni auf seine TP, wie zum Beispiel xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP-/MP-Steigerungen], werden diese zu seinen neuen TP (200) gerechnet.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten und Talente.
+Sie erhält außerdem folgende hinzu:
+
+[[ref_collossus_skill_gk11]]
+=== Größenkategorie 11
+Die Kreatur gilt für alle Regeln als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie 11].
+Die physikalischen Dimensionen bleiben in diesem Fall dem SL überlassen.
+
+[[ref_collossus_skill_naturalarmor]]
+=== Natürliche Rüstung
+Die Kreatur erhält die Fähigkeit link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] in Höhe von 15 Punkten.
+Besitzt sie bereits diese Fähigkeit, erhöhen sich die aktuellen Punkte in natürliche Rüstung um 15.
+
+[[ref_collossus_skill_trample]]
+=== Zertreten
+Die Kreatur erlernt die Fähigkeit link:../skills/bestiary_skill_attack_trample.adoc[Zertreten].
+Seine Angriffsstufe entspricht seiner Stufe im Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenter Kampf].
+Der Schadensbonus beträgt 9W6.
+
+== CP
+
+== Beispiele

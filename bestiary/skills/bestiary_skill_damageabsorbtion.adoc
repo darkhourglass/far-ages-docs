@@ -1,0 +1,12 @@
+= Schadensabsorbtion (Schadensart)
+
+Diese Fähigkeit verleiht einer Kreatur effektiv xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damageimmunity[Schadensimmunität] für die angegebene *Schadensart*, allerdings wird zusätzlich der eigentlich verursachte Schaden absorbiert und dem xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] angerechnet, so als würde die Kreatur heilen.
+Der absorbierte Schaden kann den TP-Pool der Kreatur nicht über ihr Maximum heilen.
+
+.Schadensabsorbtion
+====
+Eine Kreatur hat die Fähigkeit Schadensabsorbtion(xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer]) und besitzt noch 40 von 60 Punkte von ihrem TP-Pool.
+Im Laufe eines Gefechts wird sie von einem link:../../compendiums/spells/spell_fireball.adoc[Feuerball] getroffen, der 25 Schadenspunkte Feuer anrichtet.
+Aufgrund der Schadensabsorbtion nimmt sie keinen Schaden, sondern heilt 25 TP.
+Da die Schadensabsorbtion nicht über das TP-Maximum heilt, erhält die Kreatur in diesem Fall 20 TP zurück.
+====

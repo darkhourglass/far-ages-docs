@@ -19,3 +19,24 @@ Das Zurückverwandeln in seine ursprüngliche Form erfolgt durch eine xref:../..
 Diese kann allerdings nicht in der gleichen Kampfphase verwendet werden, wenn bereits eine *Form* angenommen wurde.
 
 Sofern nicht anders angegeben, kann sich die Kreatur pro Tag sooft verwandeln, die es Stufen in seinem xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO-Attribut] hat.
+
+[[ref_shapeshift_advanced]]
+== Verbessert
+Einem Gestaltwandler, dem die verbesserte Form dieser Fähigkeit zur Verfügung steht, hat folgende zusätzliche Vorteile gegenüber der regulären Ausprägung:
+
+* Die Anzahl der Verwandlungen pro Tag sind mindestens Stufen in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO] * 2.
+* Jede Form darf bei Verwandlung mit einer der folgenden Schablonen versehen werden:
+** link:../templates/bestiary_template_feral.adoc[Wild]
+** link:../templates/bestiary_template_sizemodification_giant.adoc[Riesig] (max. 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK])
+** link:../templates/bestiary_template_sizemodification_small.adoc.adoc[Klein] (max. 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK])
+
+[[ref_shapeshift_legendary]]
+== Legendär
+Der legendäre Gestaltwandler hat folgende Vorteile gegenüber der regulären Variante dieser Fähigkeit:
+
+* Seine zur Verfügung stehenden Verwandlungen pro Tag sind unbegrenzt.
+* Die Kreatur darf in jeder Form das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] verwenden.
+* Es stehen ihm die gleichen Schablonen des <<ref_shapeshift_advanced, verbesserten>> Gestaltwandlers zur Verfügung.
+* Außerdem steht ihm die Schablone link:../templates/bestiary_template_collossus.adoc[Koloss] für jede Form zu.
+
+Die Kreatur kann eine xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] verwenden, um ihre Form zu wandeln.

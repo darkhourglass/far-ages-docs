@@ -9,7 +9,7 @@
 Der primäre Kreaturentyp ist typischerweise nicht relevant, außer dieser verbietet explizit das Erschaffen einer untoten Kreatur verbietet.
 Untote verlieren den sekundären Typ Lebend.
 * Jeder Untote besitzt eine <<ref_undead_powerlevel, Machtstufe>>.
-Machtstufen beschrieben die Stärke von Untoten auf einer abstrakten Ebene und haben vorallem Einfluss, wie unabhängig ein Untoter agieren kann und welche Zaubersprüche auf Ihn wirken.
+Machtstufen beschrieben die Stärke von Untoten auf einer abstrakten Ebene und haben vorallem Einfluss, wie unabhängig ein Untoter agieren kann und welche Zaubersprüche auf ihn wirken.
 * Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
 * Je nachdem welchen Untoten ein Nekromant erschaffen möchte, ist zunächst dessen Machtstufe zu ermitteln, entweder als Angabe im xref:../../../../bestiary/index.adoc#ref_bestiary_undead[Bestiarium] oder anhand o.g. Tabelle.
 Er muss dazu den angegebenen Zauberspruch beherrschen und erfolgreich aussprechen.
@@ -59,7 +59,7 @@ Er verliert somit nie Punkte und kann diese auch nicht einsetzen.
 
 [[ref_undead_powerlevel_fear_skill]]
 ==== Furcht
-Untote erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] auf der angegeben Stufe.
+Untote erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] auf der angegebenen Stufe.
 
 [[ref_undead_powerlevel_personality]]
 ==== Persönlichkeit
@@ -89,13 +89,13 @@ Untote mit vollständiger Persönlichkeit benötigen keine Kontrolle und beherrs
 
 [[ref_undead_powerlevel_control]]
 ==== Kontrolle
-Die Einträge zur Kontrolle beschreiben, ob der Untote durch einen Nekromanten bzw. einem Magieanwender mit Mitteln wie dem Zauberspruch link:../../../../compendiums/spells/spell_control_undead_1.adoc[Untoten kontrollieren I] usw. kontrolliert werden muss.
+Die Einträge zur Kontrolle beschreiben, ob der Untote durch einen Nekromanten bzw. einem Magieanwender mit Mitteln wie dem Zauberspruch link:../../../../compendiums/spells/spell_control_undead.adoc[Untoten kontrollieren] kontrolliert werden muss.
 Die unterschiedlichen Ausprägungen sind:
 
 * *Keine:* Dieser Untote benötigt keine Kontrolle und agiert völlig selbstständig.
-* *Teilweise:* Der Untote kann mit einmal gegeben Befehlen alleine gelassn werden.
+* *Teilweise:* Der Untote kann mit einmal gegeben Befehlen alleine gelassen werden.
 Es besteht keine Notwendigkeit für den Schöpfer in der Nähe zu bleiben.
-* *Vollständig:* Der Untote muss konstant in der Nähe (d.h. max. 24 Meter Umkreis) des Schöpfers sein.
+* *Vollständig:* Der Untote muss konstant in der Nähe (d.h. max. 24,00 Meter Umkreis) des Schöpfers sein.
 Ist dies nicht gegeben, erstarrt der Untote und führt keine Aktionen mehr aus.
 
 [[ref_undead_powerlevel_decay]]
@@ -134,19 +134,19 @@ Mächtige Untote regenerieren TP und MP meistens durch die erwähnte Nahrung.
 * Untote können zwar durch genug Kraft xref:../../../core/core_rules_battlesystem.adoc#ref_battle_knockdown[niedergeschlagen] werden, allerdings erhalten sie nie xref:../../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
 Selbst zerstückelte Untote können noch agieren.
 Erst die Reduzierung auf 0 TP vernichtet Untote endgültig.
-Dabei gilt, dass Untote sofort zerstört werden, wenn ihre TP das erste Mal auf 0 sinken.
+Dabei gilt, dass Untote sofort zerstört werden, wenn ihre TP das erste Mal auf 0 sinken, es gelten daher nicht die Regeln aus dem Kapitel xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_death[Tod].
 Verletzungen können Untote nicht auf 0 TP reduzieren oder sie „töten“.
-Untote der Machtstufe 10 oder höher werden für gewöhnlich vernichtet, wenn ihr Kopf abgeschlagen wird.
 
 [[ref_undead_skills]]
 === Fähigkeiten
 Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
-* <<ref_undead_powerlevel_fear_skill, Furcht>>
+* <<ref_undead_powerlevel_fear_skill, Furcht>>, die Angriffstufe ist entweder 1 + Machtstufe oder die Stufe im Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], je nachdem welche höher ist.
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_frost[Frost])
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
-* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_mental[Mental])
-* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_mental[Mental])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_shock[Schock])
-* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 

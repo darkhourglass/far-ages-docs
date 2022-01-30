@@ -1,17 +1,19 @@
 = Untoten präservieren
 
-*Arkanes Geheimnis:* +
-*POT:*  +
-*Rettungswurf:* +
-*Komponenten:* Formel, Gesten +
-*Fokus:* +
-*Vorbereitung:*  +
-*Anzahl der Erfolge:*  +
-*Reichweite:*  +
-*Anzahl der Ziele:* r +
-*Dauer:*  +
-*Effekt:* +
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Gesten, magisches Öl im Wert von 200 Silbermünzen +
+*Fokus:* Ebon +
+*Vorbereitung:* 8 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Untoter +
+*Dauer:* Sofort +
+*Effekt:* Du tauchst Deine Fingerspitze in mit magischen Kräutern und einem Tropfen Deines Blutes angereichertes Öl.
+Mit dieser Fingerspitze berührst Du einen Untoten, das Ziel dieses Zauberspruches.
+Bei einer erfolgreichen Spruchzauberei-Probe, wird der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_decay[Zerfall] des Untoten um 1 Jahr und 1 aufgehalten.
 *Zusätzliche Effekte:* +
++ 10 MP, + 3 POT: Zerfall wird um ein weiteres 1 Jahr und 1 Tag aufgehalten
 +
 
-// stoppt Zerfall

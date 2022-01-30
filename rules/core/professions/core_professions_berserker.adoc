@@ -13,14 +13,15 @@
 
 [[ref_berserker_deathdenied]]
 === Dem Tod trotzen
-Erreicht der Berserker die xref:../core_rules_d10_system.adoc#ref_base_rules_deathsdoor[Todesschwelle] seines xref:../core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pools], darf er entscheiden, diese Eigenschaft sofort einzusetzen.
+Erreicht der Berserker die xref:../core_rules_d10_system.adoc#ref_base_rules_death_deathsdoor[Todesschwelle] seines xref:../core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pools], darf er entscheiden, diese Eigenschaft sofort einzusetzen.
 In diesem Fall er mit seiner KO-Stufe entsprechend vielen W10.
 Das Ergebnis wird sofort seinem TP-Pool hinzugerechnet. +
 Diese Fähigkeit kann der Berserker nach Gebrauch erst nach einer xref:../core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Ruhezeit von 8 Stunden] wieder eingesetzt werden.
 
 [[ref_berserker_berserk]]
 === Kampfrausch
-Der Berserker lernt zu Beginn des Spiels die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_berserk_i[Kampfrausch I] ohne zusätzliche CP-Kosten und ohne die Voraussetzungen erfüllen zu müssen.
+Der Berserker lernt zu Beginn des Spiels die Fähigkeit link:../skills/core_skill_berserk_I.adoc[Kampfrausch I] ohne zusätzliche CP-Kosten und ohne die Voraussetzungen erfüllen zu müssen.
+Erhält der Berserker aus anderer Quelle noch einmal die gleiche Eigenschaft, erhält er stattdessen noch link:../skills/core_skill_berserk_II.adoc[Kampfrausch II]
 
 [[ref_berserker_berserk_extended]]
 === Verlängerter Kampfrausch

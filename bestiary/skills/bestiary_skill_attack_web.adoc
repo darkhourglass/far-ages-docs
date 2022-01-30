@@ -1,1 +1,10 @@
-= Netz (Angriff)
+= Netz (Angriffsstufe, Reichweite, Radius)
+
+Wie eine Spinne kann diese Kreatur Netze spinnen und auf ihre Gegner werfen.
+
+Die Netzattacke erfolgt als Probe auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit der angegebenen *Angriffsstufe*.
+Es kann eine andere Kreatur oder ein Punkt innerhalb der angegebenen *Reichweite* ausgewählt werden.
+Bei einer erfolgreichen Probe wird ein Netz um den Aufprallpunkt im angegebenen *Radius* gespannt.
+
+Alle Kreaturen müssen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge aus der Angriffsprobe würfeln.
+Im Fall eines Misserfolges gelten sie als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[gefangen].

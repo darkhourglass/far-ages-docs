@@ -4,7 +4,7 @@
 
 Das Würfelsystem von Far Ages ist ein sogenanntes *W10-Erfolgssystem*.
 Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er eine bestimmte Anzahl von zehnseitigen Würfeln (abgekürzt W10).
-Diese Anzahl ermittelt sich meist direkt aus seiner Talentstufe oder einer Attributsstufe.
+Diese Anzahl ermittelt sich meist direkt aus der Situation, zum Beispiel anhand einer <<ref_core_attributeroles, Attributsprobe>> oder <<ref_core_talentroles, Talentprobe>>.
 
 [[ref_core_miniumroll]][[ref_core_sucessrole]]
 Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu übertreffen gilt.
@@ -47,7 +47,7 @@ Geschick (2/7)
 Reflex (5/7)
 
 Das erste Beispiel beschreibt eine Geschick-Probe, die mindestens zwei Erfolge bei Mindestwurf 7 erfordert.
-Das zweite Beispiel eine Reflex-Probe, die fünf Erfolge bei Mindestwurf 7 erfordert.
+Das zweite Beispiel eine <<ref_core_base_saves_reflex, Reflex-Probe>>, die fünf Erfolge bei Mindestwurf 7 erfordert.
 
 Für bekannte Mindestwürfe wird nur die Anzahl der benötigen Erfolge angegeben.
 Dies ist beispielsweise bei Standard- oder Talentproben der Fall, da diese im Allgemeinen einen festen Mindestwurf haben.
@@ -72,8 +72,11 @@ Das heißt, Willenskraft(5) bedeutet immer eine Willenskraft-Probe mit fünf nö
 
 Als Situationsmodifikatoren bezeichnet man Boni oder Mali, also Erleichterungen bzw. Erschwernisse, für eine Probe.
 
-Diese werden durch den Ausdruck *+x bzw. -x auf die Würfe zum Erfolg* identifiziert.
-Dies bedeutet, dass bei dieser Modifikation die Würfelergebnisse einer Probe erhöht bzw. verringert werden.
+[[ref_core_situationalmodifiers_modify_dice_values]]
+==== Würfe zum Erfolg
+
+Modfikatoren auf die Würfe zum Erfolg werden durch den Ausdruck *+x bzw. -x auf die Würfe zum Erfolg* identifiziert.
+Dies bedeutet, dass Würfelergebnisse einer Probe durch den angebenen Wert erhöht bzw. verringert werden.
 
 Dadurch ist es möglich, dass Ergebnisse über 10 erreicht werden können.
 
@@ -102,17 +105,29 @@ Es kann daher sein, dass mehrere Situationsmodifikatoren gleichzeitig gelten.
 Bevor gewürfelt wird, müssen alle Modifikatoren addiert werden.
 Es ist möglich, dass ein negativer Modifikator einen positiven Modifikator aufhebt.
 
+[[ref_core_situationalmodifiers_modify_dice_numbers]]
+==== Würfelanzahl
+
+Modifikatoren der Würfelanzahl einer Probe werden durch die Angabe *+x bzw. -x auf die Anzahl der Würfel* beschrieben.
+Für die Probe stehen damit entsprechend mehr oder weniger Würfel zur Verfügung.
+
+Auf diese Würfel werden auch Modifikatoren auf die <<ref_core_situationalmodifiers_modify_dice_values, Würfe zum Erfolg>> angewendet.
+Eine Probe kann also von beiden Arten der Modifikation betroffen sein.
+Wie auch bei den Würfen zum Erfolg, sind die Modifikatoren auf die Würfelanzahl kumulativ.
+
+Modifikatoren der Würfelanzahl kann eine Probe nie niedriger als <<ref_core_attributsstep_0, Stufe 0>> bringen.
+
 [[ref_core_botches]]
 === Patzer
 
-Jede natürlich gewürfelte 1 bedeutet immer einen Patzer, unabhängig von Boni oder Mali auf die Probe. Patzer heben gewürfelte Erfolge auf.
+Jede natürlich gewürfelte *1* bedeutet immer einen *Patzer*, unabhängig von Boni oder Mali auf die Probe. Patzer heben gewürfelte Erfolge auf.
 Ein Patzer kann nur einen Erfolg aufheben, danach "verschwindet" der Patzer.
 Gibt es mehr Patzer als Erfolge, also sind alle Erfolge durch Patzer eliminiert worden, dann gilt die gesamte Probe als Patzer, was meist unangenehme Folgen hat.
 
 [[core_core_bonus_dice]]
 === Bonuswürfel
 
-Jede natürlich gewürfelte 10 ergibt einen Bonuswürfel.
+Jede natürlich gewürfelte *10* ergibt einen *Bonuswürfel*.
 Dieser Bonuswürfel ist ein W10, der für die aktuelle Probe zusätzlich unter Berücksichtigung aller für dieser Probe geltenden Situationsmodifikatoren gewürfelt wird.
 
 Bevor Patzer ausgewertet werden, werden alle Bonuswürfel ausgewertet.
@@ -219,7 +234,7 @@ Die Anzahl der Erfolge kann in manchen Fällen interessant sein, wenn der Charak
 Vatriz möchte in der Bibliothek der Nekromanten-Schule etwas über die Brennenden Seelen herausfinden, eine besonders schreckliche Art von Untoten.
 Dazu benutzt er sein Talent Forschen.
 Die Brennenden Seelen sind nicht allzu unbekannt, deswegen belässt der SL es bei einem Erfolg.
-Vatriz würfelt allerdings gut, und erzielt insgesamt 5 Erfolge.
+Vatriz würfelt allerdings gut, und erzielt insgesamt 4 Erfolge.
 Daher beschließt der SL Vatriz Spieler ein paar mehr Informationen zu geben.
 ====
 
@@ -245,7 +260,7 @@ Die folgende Tabelle gibt eine Übersicht über die Grenzen der Erfolgsgrade an:
 |20+ |Heldenhaft |6
 |===
 
-Erfolgsgrade dienen in den Regeldokumenten auch als Abkürzung, so formuliert es sich einfacher, einen Guten Erfolg zu fordern als „mindestens 5 oder mehr Erfolge“.
+Erfolgsgrade dienen in den Regeldokumenten auch als Abkürzung, so formuliert es sich einfacher, einen Guten Erfolg zu fordern als „mindestens 4 oder mehr Erfolge“.
 
 .Erfolgsgrade
 ====
@@ -332,6 +347,42 @@ Mit seinen 3 Stufen in Stärke würfelt er nun 3W10 mit dem Ergebnis: 5, 7, 9.
 Damit hat er 2 Erfolge erzielt. +
 Der SL entscheidet nun, dass Thalvin den Gang erfolgreich innerhalb einer Stunde freiräumen konnte.
 ====
+
+[[ref_core_attributsstep_0]]
+=== Attributsstufe 0
+Attributsstufen für Charaktere und Kreaturen haben im Normalfall einen Wert von 1 oder höher.
+
+Situationsabhängige <<ref_core_situationalmodifiers_modify_dice_numbers, Modifikatoren>> können diese Anzahl an Stufen reduzieren und bis auf 0 bringen.
+In bestimmten Ausnahmefällen können auch Kreaturen natürlicherweise eine Stufe 0 in einem oder mehreren Attributen haben.
+
+Diese Stufe symbolisiert eine außergewöhnliche Unfähigkeit in dem jeweiligen Attribut.
+Beispielsweise ist eine Kreatur mit Stufe 0 in Stärke besonders schwach.
+
+Es gelten damit folgende Regeln:
+* Zur Bestimmung von xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary, Attributseigenschaften wird eine Attributsstufe von 0 als Attributsstufe 1 angesehen.
+Dies gilt nur, wenn die Attributsstufe 0 zum Profil einer Kreatur oder eines Charakters gehört und nicht durch Modifikatoren erreicht wurde.
+* Ist eine <<ref_core_attributeroles, Attributsprobe>> oder <<ref_core_saves, Rettungswurf>> auf dem betroffenen Attribut nötig, wird genau 1W10 gegen den <<ref_core_standardminimumroll, Standardmindestwurf>> gewürfelt.
+Es werden jegliche <<ref_core_situationalmodifiers, Modifikatoren>> angewendet.
+Es wird allerdings jeder <<ref_core_failurerole, Misserfolg>> als <<ref_core_botches, Patzer>> gewertet, unabgängig davon, wie viele W10 am Ende gewürfelt wurden.
+Eine natürliche 10 erzeugt in diesem Fall keine Bonuswürfel.
+* <<ref_core_talentroles, Talentproben>>, deren <<ref_core_talentroles_untrainedcheck, verwandtes Attribut>> eine Stufe 0 besitzt, unterliegen den gleichen Regeln, allerdings werden die reinen Talentstufen zur Bestimmung der Anzahl der W10 für die Probe herangezogen.
+Jeder so gewürfelte W10 unterliegt den vorgestellten Regeln.
+
+.Talentprobe mit Attributsstufe 0
+====
+Ein Charakter hat (eventuell temporär) eine Attributsstufe von 0 in seinem Attribut Charisma.
+Er möchte nun eine xref:core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen-Probe] würfeln.
+In diesem Talent besitzt er 3 Stufen.
+Damit darf er 3W10 würfeln.
+In seiner Probe würfelt er die Zahlen 1, 5 und 10.
+Die natürliche 10 erzeugt keinen Bonuswürfel, gilt damit als normaler <<ref_core_sucessrole, Erfolg>>.
+Die 5 ist ein Misserfolg und wird damit zu einem Patzer.
+Der Erfolg der 10 wird nach den üblichen Regeln durch einen Patzer aufgelöst.
+Es bleibt damit mindestens 1 Patzer übrig, womit die gesamte Probe ein Patzer ist.
+====
+
+.NOTE
+Durch Modifikatoren können Attributstufen nie auf weniger als 0 fallen.
 
 [[ref_core_saves]]
 === Rettungswürfe
@@ -845,13 +896,19 @@ Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen
 Gefangene Charaktere gelten als <<ref_core_condition_immobile, bewegungsunfähig>>.
 Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_condition_bondedincombat, im Nahkampf gebunden>> sind oder der Auslöser für den Zustand sind, einen Bonus von *+2 auf die Würfe zum Erfolg* aus alle Angriffsproben gegen diesen Charakter.
 
-Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_battle_move_standup[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_battle_actions_brawl[Raufen und Ringen].
+Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_battle_move_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_battle_actions_brawl[Raufen und Ringen].
 
 [[ref_core_condition_bondedincombat]]
 === Im Nahkampf gebunden
 Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben einem Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
 Der Ausgang dieser Probe ist dabei nicht relevant.
 Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm basieren.
+
+[[ref_core_condition_frenzy]]
+=== Rasend
+
+Rasend kann nicht mit <<ref_core_condition_bewitched, verzaubert>> kombiniert werden.
+Sollte ein rasender Charakter den Zustand Verzaubert erreichen, schlägt dieser automatisch fehl.
 
 [[ref_core_condition_disabled]]
 === Kampfunfähig
@@ -876,7 +933,7 @@ Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar 
 Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
 Ebenso gilt Unsichtbarkeit nicht als <<ref_core_base_rolls_douptillusions, Illusion>>, außer es ist explizit als solche beschrieben.
 Es ist möglich, dass in einer Kampfsituation unsichtbare Charakter von einigen Kampfteilnehmern erkannt werden und von anderen nicht.
-Alle Kreaturen, die unsichtbare Charaktere erkennen, behandlere diese, als würde der Zustand nicht gelten.
+Alle Kreaturen, die unsichtbare Charaktere erkennen, behandlen diese, als würde der Zustand nicht gelten.
 
 Der Zustand endet üblicherweise nach Ende des auslösenden Effekts.
 
@@ -886,13 +943,24 @@ Ein überraschter Charakter kann in der Kampfphase keine xref:core_rules_battles
 Alle xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] erhalten einen Malus von *-1 auf die Würfe zum Erfolg*.
 Der Zustand endet nach einer Kampfphase.
 
+[[ref_core_condition_bewitched]]
+=== Verzaubert
+Ein magischer Effekt beeinflusst das Denken und Handeln eines Charakters.
+Der Charakter muss dem Effekt folgen, bis dieser endet oder er einen eventuellen <<ref_core_base_saves, Rettungswurf>> besteht.
+Solange der Effekt keine Einschränkungen vorgibt, besitzt der Charakter alle Aktionen in einer Kampfphase.
+
+Der Zustand hat über den Effekt hinaus keine weiteren Regeln.
+Es kann jedoch sein, dass andere Effekte wie Zaubersprüche, den Zustand weiterhin beeinflussen können.
+
+Verzaubert kann nicht mit <<ref_core_condition_frenzy, rasend>> kombiniert werden.
+Sollte ein verzauberter Charakter den Zustand Rasend erreichen, schlägt dieser automatisch fehl.
+
 [[ref_base_rules_pools]]
 == Energiepunktepools
 
 *Energiepunktepools* bzw. *Punktepools* stellen im System von Far Ages verschiedene Aspekte der Verfassung eines Charakters dar.
 Sie werden in Zahlen gemessen und je geringer diese sind, umso gefährlicher wird es für den Charakter.
-Erreicht ein Pool den Wert 0 befindet sich der betreffende Charakter üblicherweise in einer lebensbedrohenden Lage, er steht an der <<ref_base_rules_deathsdoor, *Todesschwelle*>>.
-Dieses Kapitel erläutert die verschiedenen Pools und beschreibt Regeln.
+Dieses Kapitel erläutert die verschiedenen Pools.
 
 Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden sich die Regeln zu Ermittlung der Pools für jeden Charakter.
 
@@ -900,7 +968,7 @@ Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden 
 === Trefferpunkte
 
 *Trefferpunkte (TP)* sind ein Maß für die körperliche Verfassung des Charakters.
-Sie können als eine Mischung auch der physischen Unversehrtheit und Ausdauer des Charakter interpretiert werden.
+Sie können als eine Mischung auch der physischen Unversehrtheit und Ausdauer des Charakters interpretiert werden.
 Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er nähert sich dem Tod.
 
 Der Verlust von TP kann aus sehr unterschiedlichen Situation entstehen, die Häufigste ist das Erhalten von Verletzungen, zum Beispiel aus dem link:core_rules_battlesystem.adoc[Kampf].
@@ -908,8 +976,19 @@ Der Verlust von TP kann aus sehr unterschiedlichen Situation entstehen, die Häu
 In sehr wenigen Fällen besitzt eine Kreatur keinen TP-Pool.
 Solche Wesen sind vollständig immun gegen jeden Schaden, der vom TP-Pool abgerechnet wird.
 
+Erreicht dieser Pool den Wert 0 befindet sich der betreffende Charakter üblicherweise in einer lebensbedrohenden Lage.
+Es droht der <<ref_base_rules_death, Tod>>, weil beispielsweise er zu viel Blut verloren hat oder er schwere Verletzungen erlitten hat.
+Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_base_rules_death, Tod>>.
+
 [[ref_base_rules_pools_mp]]
 === Magiepunkte
+
+*Magiepunkte (MP)* stellen das teils angeborene und teils erlernte magische Potential eines Charakters dar.
+MP werden üblicherweise beim Aussprechen von xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Zaubersprüchen] verbraucht, um diese zu verkürzen oder mit zusätzlichen Effekten zu versehen.
+Die Schadensart xref:core_rules_battlesystem.adoc#ref_battle_damage_magic[Magie] wird ebenfalls von diesem Pool abgezogen.
+
+Magier müssen mit Bedacht ihre MP einsetzen, denn auch hier bedeutet das Erreichen des Wertes 0 eine gefährliche Situation.
+Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_base_rules_death, Tod>>.
 
 [[ref_base_rules_pools_sp]]
 === Stabilitätspunkte
@@ -951,5 +1030,55 @@ Dabei kann der Charakter nicht mehr TP und MP regenerieren, als ihm maximale TP 
 
 SP können im Normalfall nicht regeneriert werden.
 
-[[ref_base_rules_deathsdoor]]
-=== Todesschwellen
+[[ref_base_rules_death]]
+=== Tod
+
+Erreicht einer der <<ref_base_rules_pools, Energiepunktepools>> außer <<ref_base_rules_pools_sp, SP>> den Wert 0, droht der Tod des Charakters.
+
+Der Ablauf ist dabei immer gleich.
+Erreicht ein Pool den Wert 0 oder weniger durch eine beliebige Quelle, nimmt der Charakter den besonderen <<ref_core_conditions, Zustand>> <<ref_base_rules_death_deathsdoor, dem Tode nahe>> an.
+
+Ein Energiepunktepool kann, auch wenn es rechnerisch so auskommen würde, nie den Wert 0 unterschreiten.
+Hat beispielsweise ein Charakter noch 5 TP und erleidet 10 Schadenspunkte, hat er dennoch nur noch 0 TP und nicht -5.
+
+[[ref_base_rules_death_deathsdoor]]
+==== Dem Tode nahe
+Dieser Zustand zeigt, dass ein Charakter dem Tode nahe ist.
+Der Zustand schränkt den Charakter nicht weiter ein, daher ist es möglich, dass ein Charakter in diesem Zustand (und damit implizit mit beispielsweise 0 TP) weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] und so weiter einsetzen kann.
+
+Der Zustand wird aufgehoben, sobald der Charakter keinen Energiepunktepool auf dem Wert 0 hat.
+Das heißt, jeder Energiepunktepool außer <<ref_base_rules_pools_sp, SP>> muss einen Wert größer 0 haben.
+
+Erhält ein Charakter in diesem Zustand auf dem Energiepunktepool, in dem er derzeit den Wert 0 hat, einen weiteren Verlust, bleibt der Pool bei 0, aber der Charakter muss einen <<ref_base_rules_death_deathsave, Todesrettungswurf>> würfeln.
+
+[[ref_base_rules_death_deathsave]]
+==== Todesrettungswurf
+Ein Todesrettungswurf ist ein besonderer <<ref_core_base_saves, Rettungswurf>>, den ein Charakter würfeln muss, wenn er <<ref_base_rules_death_deathsdoor, dem Tode nahe>> ist und weiteren Schaden erhält.
+
+Der Todesrettungswurf besteht ausschließlich aus 1W10 und ist an kein Attribut geknüpft.
+Es gelten keine <<ref_core_situationalmodifiers, Situationsmodifikatoren>> oder Modifikatoren durch xref:core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
+Nur wenn Modifikatoren explizit Todesrettungswürfe betreffen, sind diese anzuwenden.
+Es gilt der <<ref_core_standardminimumroll, Standardmindestwurf>>.
+
+Besteht der Charakter den Todesrettungswurf, passiert nichts.
+Misslingt der Wurf, wird der Charakter sofort <<ref_core_condition_unconscious, ohnmächtig>>.
+Ein Patzer hat keine weitere Auswirkungen.
+Er bleibt in jedem Fall im Zustand <<ref_base_rules_death_deathsdoor, dem Tode nahe>>.
+
+Ist ein Charakter <<ref_core_condition_unconscious, ohnmächtig>> und <<ref_base_rules_death_deathsdoor, dem Tode nahe>>, und muss er einen weiteren Todesrettungswurf werfen, muss er diesen bestehen, sonst tritt sofort der Tod ein.
+
+[[ref_base_rules_death_second_deathsdoor]]
+==== Zweiter Pool auf 0
+Befindet sich ein Charakter bereits im Zustand <<ref_base_rules_death_deathsdoor, dem Tode nahe>> und erreicht ein weiterer Energiepunktepool den Wert 0, so stribt der Charakter sofort.
+Es wird kein weiterer <<ref_base_rules_death_deathsave, Todesrettungswurf>> mehr gewürfelt.
+
+[[ref_base_rules_death_instant_death]]
+==== Sofortiger Tod
+
+// TODO
+
+[[ref_base_rules_death_npcs]]
+==== Kreaturen und Nicht-Spielercharaktere
+Die in diesem Kapitel vorgestellten Regeln richten vor allem Spielercharaktere.
+Im Ermessen des SLs können diese natürlich auch auf andere Kreaturen Nicht-Spielercharaktere angewendet werden.
+Dies gilt nicht für Kreaturen, die explizit die Regeln zum Thema Tod ausschließen, wie beispielsweise link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote].

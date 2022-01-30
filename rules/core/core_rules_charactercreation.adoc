@@ -158,6 +158,8 @@ Das bedeutet, wenn ein Charakter eine Kombination aus Volk Hintergrund und Beruf
 * Pro Attributsstufe kann er 20 CP seiner <<ref_characters_characterpoints_initial, initialen Charakterpunkten>> bezahlen, um das Attribut auf Stufe 1 zu bringen.
 Dies ist kumulativ zu zahlen, das heißt sollte beispielsweise eine Attributsstufe auf -1 fallen, so sind 40 CP insgesamt nötig.
 
+Ein Charakter darf keine xref:core_rules_d10_system.adoc#ref_core_attributsstep_0[Attributststufe den Wert 0] haben.
+
 Sind die Attributsstufen final bestimmt, ergeben sich aus diesen die <<ref_characters_charactercreation_secondary, Attributseigenschaften>>.
 
 [[ref_characters_charactorcreation_initialtalents]]
@@ -338,7 +340,7 @@ Charaktere mit einer hohen Attributsstufe in Geschick bewegen sich schneller und
 
 Wie hoch der BEW-Bonus ist, kann man der Tabelle am Ende dieses Abschnittes entnehmen.
 
-Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der Basis-Bewegung (siehe Größentabelle) und dem BEW-Bonus.
+Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der Basis-Bewegung (siehe <<ref_characters_charactercreation_sizecategories, Größenkategorie>>) und dem BEW-Bonus.
 Beides wird in Metern gemessen und daher einfach addiert.
 
 [[ref_secondary_inibonus]]
@@ -418,7 +420,7 @@ Vom der Attributsstufe in Energie ist es abhängig, welche Zaubersprüche ein Ch
 Die Maximale Magiepotenz ist daher die Grenze bis zu der, der Charakter Zaubersprüche aussprechen kann.
 Ein Zauber mit einer höheren POT als der maximalen Magiepotenz ist also für den Charakter zuerst unerreichbar, jedoch gibt es auch da nicht gerade ungefährliche Möglichkeiten, dies zu umgehen.
 
-Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in der Tabelle am Ende des Dokumentes.
+Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in der <<ref_secondary_overviewtable, Tabelle>> am Ende des Dokumentes.
 
 .Maximale Magiepotenz
 ====
@@ -610,8 +612,12 @@ Das hießt, Fähigkeiten werden einmal gelernt und bieten dauerhaft ihre Vorteil
 
 Um eine Fähigkeit zu erlernen, muss ein Charakter zuerst ihre Voraussetzungen erfüllen, das sind üblicherweise Stufen in einem oder mehreren Talenten oder auch der Besitz von anderen Fähigkeiten.
 Hat der Charakter die Voraussetzungen erfüllt, kann er die angegebenen CP ausgeben und besitzt nun die besondere Fähigkeit.
+Diese muss ein Charakter alle im Minimum erfüllen, um seine CP dafür aufwenden zu können.
+Im Falle von Talenten beziehen sich die Zahlenangaben immer auf die Talentstufe, nicht auf die Gesamtstufe.
 
-Eine detaillierte Beschreibung mit allen nötigen Angaben findet sich im Dokument link:core_rules_skills.adoc[Besondere Fähigkeiten].
+Man kann eine Besondere Fähigkeit nur einmal lernen.
+
+Eine detaillierte Beschreibung mit allen nötigen Angaben, sowie eine Übersicht, findet sich im folgenden Dokument link:core_rules_skills.adoc[Dokument].
 
 [[ref_characters_spendcp_spells]]
 === Erlernen von Zaubersprüchen

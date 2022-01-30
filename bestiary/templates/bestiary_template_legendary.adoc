@@ -1,1 +1,45 @@
 = Legendär
+
+// TODO Beschreibung
+
+[[ref_template_legendary_prerequisites]]
+== Voraussetzungen
+
+Jede Kreatur kann diese Schablone erhalten.
+
+[[ref_template_legendary_attributs]]
+== Attribute
+
+Die Kreatur erhält einen Bonus von +6, +4 und +2 auf 3 unterschiedliche Attributsstufen.
+Die Attributseigenschaften ändern sich entsprechend der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Regeln].
+
+[[ref_template_legendary_skills]]
+== Fähigkeiten
+
+Die Kreatur erhält folgende Fähigkeit mit Erhalt dieser Schablone.
+
+[[ref_template_legendary_skill_legendary_actions]]
+=== Legendäre Aktionen
+
+Die Kreatur erhält die Fähigkeit, einmal pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] eine legendäre Aktion durchzuführen.
+Diese funktionieren wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen], das bedeutet, um eine legendäre Aktion durchzuführen, muss diese explizit als solche ausgewiesen sein.
+
+[[ref_template_legendary_skill_legendary_skills]]
+=== Legendäre Fähigkeiten
+
+Alle Fähigkeiten der Kreatur, auch die, die sie zukünftig lernt, werden zu ihrer legendären Variante.
+Die Kreatur kann diese sofort nutzen.
+
+.Legendäre Fähigkeiten
+====
+Die Fähigkeit link:../skills/bestiary_skill_shapeshift.adoc[Gestaltwandler] hat eine xref:../skills/bestiary_skill_shapeshift.adoc#ref_shapeshift_legendary[legendäre] Ausprägung.
+Eine Kreatur mit dieser Fähigkeit, die diese Sclablone erhält, kann die Vorteile sofort nutzen.
+====
+
+[[ref_template_legendary_skill_legendary_reactions]]
+=== Legendäre Reaktionen
+Die Kreatur erhält die Fähigkeit, einmal pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] eine legendäre Reaktion durchzuführen.
+Diese funktionieren wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen], das bedeutet, um eine legendäre Reaktion durchzuführen, muss diese explizit als solche ausgewiesen sein.
+
+[[ref_template_legendary_cp]]
+== CP

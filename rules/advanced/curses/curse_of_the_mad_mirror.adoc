@@ -1,0 +1,41 @@
+= Fluch des verrückten Spiegels
+
+*Typ:* Harmlos, Schwach, Stark, Todesfluch
+*Ziel:* Kreatur
+*Ende:* Permanent, Bann, Tat
+*Beschreibung:* Dieser Fluch verzerrt das Spiegelbild der Kreatur für sich und andere, sobald sie es erblicken.
+Der Flucht tritt ein, sobald sich die Kreatur in einer Oberfläche spiegelt.
+Dies können traditionelle Spiegel sein, allerdings auch andere reflektierende Oberflächen sein, wie zum Beispiel Wasser.
+
+Der Effekt des Fluches hängt von seinem Typ ab:
+
+[[ref_curse_of_the_mad_mirror_harmless]]
+== Harmlos
+Das Spiegelbild der Kreatur weicht nur in einem kleinen Detail von der Realität ab.
+Dies sind zum Beispiel die Augen der Kreatur, die vielleicht rot leuchten oder zu Schlangenaugen werden.
+Andere Varianten könnten ein Halo um den Kopf oder eine leichte Unschärfe sein.
+
+Dieser Typ des Fluches hat keine regeln-relevante Auswirkung, jedoch können andere Charaktere diese Beobachtung als beunruhigend empfinden und entsprechend reagieren.
+
+[[ref_curse_of_the_mad_mirror_weak]]
+== Schwach
+Das Spiegelbild der Kreatur weicht in einem Körperteil ab, beispielweise ist ihr Kopf der eines Drachen oder ein Arm nur aus Knochen.
+Alternativ kann das Spiegelbild der Kreatur ein weiteres Körperteil aufweisen, welches nicht vorhanden ist, zum Beispiel einen Skorpionen-Schwanz, Flügel oder einen dritten Arm.
+
+Beobachter sind durch diese Erscheinung so beunruhigt, dass die Kreatur einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_charactercreation.adoc#ref_attribute_charisma[CH]-basieren Proben gegenüber den Beobachtern erhält.
+Der Malus hält 1 Stunde an.
+
+[[ref_curse_of_the_mad_mirror_strong]]
+== Stark
+Das gesamte Spiegelbild der Kreatur zeigt ein monströses und verzerrtes Aussehen.
+Die Kreatur ist im Spiegelbild nicht mehr zu erkennen.
+
+Beobachter sind durch diese Erscheinung so beunruhigt, dass die Kreatur einen Malus von -2 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_charactercreation.adoc#ref_attribute_charisma[CH]-basieren Proben gegenüber den Beobachtern erhält.
+Der Malus hält 24 Stunden an.
+
+[[ref_curse_of_the_mad_mirror_deathcurse]]
+== Todesfluch
+Als Todesfluch ist der Fluch des verrückten Spiegels besonders gefährlich für alle, die das Spiegelbild der Kreatur sehen.
+
+Alle Beobachter müssen eine xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_horror[Horror]-Probe bestehen.
+Die nötige Anzahl der Erfolg entspricht der xref:../../core/core_rules_charactercreation.adoc#ref_attribute_charisma[CH]-Stufe der Kreatur.

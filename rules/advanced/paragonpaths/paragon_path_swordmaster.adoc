@@ -8,7 +8,7 @@ Um Schwertmeister Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen
 
 * xref:../../core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 3
 * xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] 3
-* xref:../../core/core_rules_skills.adoc#ref_skills_weaponfocus_melee[Waffenfokus] für eine einhändige Klingenwaffe
+* link:../../core/skills/core_skill_weapontraining_melee.adoc[Waffentraining] für eine einhändige Klingenwaffe
 
 == Stufen lernen
 
@@ -43,7 +43,7 @@ Mit dem Erlernen dieser Fähikeit erhält einen einmaligen Bonus auf seine xref:
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* - +
-*Beschreibung:* Der Schwertmeister lernt, sofern er diese nicht bereits kennt, die Fähigkeit xref:../../core/core_rules_skills.adoc#ref_skills_disarm[Entwaffnen].
+*Beschreibung:* Der Schwertmeister lernt, sofern er diese nicht bereits kennt, die Fähigkeit link:../../core/skills/core_skill_disarm.adoc[Entwaffnen].
 Er erhält bei einer Probe zum Entwaffnen nicht den in der Fähigkeit angegebenen Malus auf die Würfe zum Erfolg.
 Darüber hinaus darf er pro konkurrierender ST-Probe zur Bestätigung der Entwaffung entscheiden, ob das Attribut ST oder GE genutzt wird.
 Diese Entscheidung gilt auch für seinen Kontrahenten.
@@ -133,7 +133,7 @@ Er würfelt sofort eine Schadensprobe mit 2 Erfolgen und dem Schadensbonus seine
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* - +
-*Beschreibung:* Der Schwertmeister lernt, sofern er diese nicht bereits kennt, die Fähigkeit xref:../../core/core_rules_skills.adoc#ref_skills_trip[Stolperfalle].
+*Beschreibung:* Der Schwertmeister lernt, sofern er diese nicht bereits kennt, die Fähigkeit link:../../core/skills/core_skill_trip.adoc[Stolperfalle].
 Zusätzlich zu den regulären Auswirkungen, würfeln der Schwertmeister und Kontrahent eine konkurrierende GE-Probe.
 Ist der Schwertmeister erfolgreich, fällt sein Kontrahent hin und gilt als xref:../../core/core_rules_d10_system.adoc#ref_core_condition_disabled[Kampfunfähig].
 

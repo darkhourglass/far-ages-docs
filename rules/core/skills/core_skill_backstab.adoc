@@ -1,0 +1,21 @@
+= Hinterhältiger Angriff
+*Voraussetzungen:* Nahkampfwaffen 2, Schleichen 2 +
+*Überanstrengung:* - +
+*CP-Kosten:* 100+ +
+*Beschreibung:* Im Kampf nutzt Du die Schwächen Deines Gegners aus und triffst ihn überraschend und in einer um mehr Schaden zu verursachen.
+
+Um einen hinterhältigen Angriff gegen eine Kreatur durchführen zu können, muss mindestens eine der folgenden Bedingungen erfüllt sein:
+* Das Ziel ist mit einem eigenen Verbündeten xref:../core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Kampf gebunden].
+* Das Ziel ist von beliebigen Parteien xref:../core_rules_d10_system.adoc#ref_core_condition_corned[bedrängt].
+* Das Ziel ist xref:../core_rules_d10_system.adoc#ref_core_condition_blind[blind].
+* Du bist xref:../core_rules_d10_system.adoc#ref_core_condition_invisible[unsichtbar].
+* Das Ziel hat keine Möglichkeit, den Angriff wahrzunehmen.
+
+Im Ermessen des SL können auch andere Kombinationen einen hinterhältigen Angriff erlauben.
+
+Ein erfolgreicher, hinterhältiger Angriff addiert zu der Schadensprobe einen zusätzlichen Bonus von +1W6 hinzu.
+Der Bonus zählt nur auf Nahkampfangriffe.
+
+Diese Fähigkeit kann mehrfach gelernt werden.
+Jede Stufe erhöht den Bonus um +1W6.
+Die CP-Kosten steigen kumulativ um 100 CP pro Erlernung.

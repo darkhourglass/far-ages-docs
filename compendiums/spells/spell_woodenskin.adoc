@@ -9,11 +9,11 @@
 *Anzahl der Erfolge:* 3 +
 *Reichweite:* Selbst/Berührung +
 *Anzahl der Ziele:* - +
-*Dauer:* 3+1W10 +
-*Effekt:* + Die Haut des Ziels wird wie dicke und harte Borke.
+*Dauer:* 5 +
+*Effekt:* + Die Haut des Ziels verwandelt sich in dicke und harte Borke.
 Diese bietet einen zusätzlichen Rüstungsschutz von 5 Punkten bei jeder Trefferzone für die Dauer des Zauberspruchs.
-Allerdings verursacht der Zauberspruch auch eine Wirkung wie Schadensanfälligkeit(Feuer) I.
+Allerdings verursacht der Zauberspruch auch eine Wirkung wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagevulnerability[Schadensanfälligkeit]xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_fire[(Feuer)].
 *Zusätzliche Effekte:* +
-+10 MP: Dauer: +1W10 Runden +
++3MP: Dauer: +1 Kampfrunde +
++5MP, +1POT: Rüstungsschutz +1 +
 +15 MP, +2 POT: Schadenanfälligkeit(Feuer) entfällt +
-+10 MP, +1 POT: Rüstungsschutz +1 +

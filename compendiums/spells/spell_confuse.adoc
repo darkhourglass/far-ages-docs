@@ -10,12 +10,12 @@
 *Reichweite:* 9 Meter +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* 1W8 +
-*Effekt:* Der Magier flüstert kryptische Worte und während der Beschwörung erscheinen tanzende bunte Lichter um ihn herum.
+*Effekt:* Du flüsterst kryptische Worte und während der Beschwörung erscheinen tanzende bunte Lichter um Dich herum.
 Am Ende der Beschwörung rasen diese Lichter in das Opfer hinein.
-Das Opfer wird verwirrt und greift die nächststehende Person rücksichtslos an.
-Es verliert bis dato eventuelle Vorbereitungen.
-Das Ziel des Zaubers muss eine lebende und denkende Kreatur sein.
-Untote und Konstrukte sind immun gegen diesen Zauber. +
+Das Opfer wird verwirrt und greift die nächststehende Kreatur rücksichtslos an.
+Es verliert alle eventuelle xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[Vorbereitungen].
+Das Ziel des Zaubers muss eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur sein.
+link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] und link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] sind immun gegen diesen Zauber. +
 *Zusätzliche Effekte:* +
 +10 MP: Das Opfer greift einen nahestehenden Verbündeten an +
 +15 MP, +1 POT: Das Opfer greift ein Ziel an, dass der Magier bestimmt +

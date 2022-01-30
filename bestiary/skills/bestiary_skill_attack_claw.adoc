@@ -1,1 +1,6 @@
-= Klaue (Angriff)
+= Klaue (Angriffsstufe, Schaden)
+
+Die Kreatur verfügt über scharfe Klauen an seinen Händen oder Füßen, die sie zum Angriff nutzen können.
+
+Eine Klauen-Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.

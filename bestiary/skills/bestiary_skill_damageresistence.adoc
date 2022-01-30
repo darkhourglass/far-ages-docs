@@ -1,3 +1,7 @@
 = Schadensresistenz (Schadensart)
 
 Diese Fähigkeit verleiht einer Kreatur xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] für die angegebene *Schadensart*.
+
+[[ref_damageresistence_legendary]]
+== Legendär
+Die Kreatur darf eine xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_reactions[legendäre Reaktion] verwenden, um Schaden aus einer beliebigen Schadensquelle mit der angegebenen *Schadensart* zu ignorieren.

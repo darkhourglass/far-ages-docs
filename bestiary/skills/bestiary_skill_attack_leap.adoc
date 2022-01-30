@@ -1,1 +1,10 @@
-= Sprung (Angriff)
+= Sprungangriff (Angriffsstufe, Schaden)
+
+Der Sprungangriff erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
+
+Der Einsatz des Sprungangriffs erfordert den Einsatz der komplexen Aktion xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions_charge[Sturmangriff].
+Die BEW muss in gerade Sichtlinie zum Ziel eingesetzt werden können und es darf maximal die Hälfte der vorhandenen BEW verbraucht werden.
+
+Bei einem erfolgreichen Treffer kann die Kreatur gegen das Ziel, falls dieses die gleiche oder geringere xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] hat, eine konkurrierende ST-Probe ausführen.
+Gewinnt die Kreatur, gilt das Ziel als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_onground[am Boden].

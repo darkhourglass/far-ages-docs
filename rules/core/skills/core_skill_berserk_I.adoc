@@ -1,0 +1,11 @@
+= Kampfrausch I
+*Voraussetzungen:* - +
+*Überanstrengung:* - +
+*CP-Kosten:* 200 +
+*Beschreibung:* Am Anfang eines Kampfs kann ein Charakter mit dieser Fähigkeit sich in einen Kampfrausch versetzten.
+Der Charakter erhält dadurch im Nahkampf einen einmaligen Bonus von +2 auf alle Schadenswürfel.
+Jedoch erhält er auch einen Malus von -1 auf alle Würfe zum Erfolg bei Verteidigungswürfen.
+Ein Kampfrausch dauert so viele Kampfrunden, wie der Charakter Stufen in seinem KO-Attribut hat.
+Danach ist der Kampfrausch automatisch vorbei.
+Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten und Springen verwenden und auch keine Talente außer Kampftalente.
+Am Ende des Kampfrausches ist der Charakter für 1W10 – KO (Minimum 1) Kampfphasen xref:../core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpft].

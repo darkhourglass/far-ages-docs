@@ -23,7 +23,7 @@ Der Jäger besitzt ein angestammtes Gebiet, welches er zum Jagen verwendet und i
 Das Gebiet muss zu Beginn des Spiels festgelegt werden.
 Es muss sich dabei um einen begrenzten, geopraphischeb Ort handeln, z.B. ein bestimmtes Waldstück, eine Ebene oder eine Gebirgskette.
 Alternativ sind auch Stadtgebiete erlaubt. +
-Innerhalb dieses Gebiets erhält der Jäger die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_orientation[Orientierung].
+Innerhalb dieses Gebiets erhält der Jäger die Fähigkeit link:../skills/core_skill_orientation.adoc[Orientierung].
 Darüber hinaus erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen], wenn er sich in diesem Gebiet aufhält.
 Dieser letztere Bonus kann nach Ermessen des SL auch in Gebieten verwendet werden, die von gleicher Beschaffenheit sind, z.B. in einem anderen Wald.
 
@@ -38,5 +38,5 @@ Besitzt eine Kreatur sowohl den passenden primären und sekundären Typ, erhöhe
 
 [[ref_hunter_tracking]]
 === Spuren lesen
-Der Jäger lernt die Fähigkeit xref:../core_rules_skills.adoc#ref_skills_tracking[Spuren lesen] zu Beginn des Spiels ohne zusätzliche CP-Kosten.
+Der Jäger lernt die Fähigkeit link:../skills/core_skill_tracking.adoc[Spuren lesen] zu Beginn des Spiels ohne zusätzliche CP-Kosten.
 Er muss die Voraussetzungen dazu nicht erfüllen.

@@ -1,0 +1,33 @@
+= Fluch der Wahrheit
+
+*Typ:* Harmlos, Schwach, Stark, Todesfluch
+*Ziel:* Kreatur
+*Ende:* Permanent, Bann, Tat
+*Beschreibung:* Die Kreatur ist verflucht, immer die Wahrheit zu sagen.
+Um eine Lüge aussprechen zu können, muss sie eine xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Probe bestehen.
+Misslingt die Probe, muss die Kreatur statt der Lüge die Wahrheit sagen.
+
+Darüber hinaus hat der Fluch je nach Typ zusätzliche Auswirkungen, wenn diese Probe misslingt:
+
+[[ref_curse_of_truth_harmless]]
+== Harmlos
+Der Charakter zeigt eine außergewöhnlich heftige, körperliche Reaktion, wie beispielsweise Schweißausbruch, Blässe im Gesicht oder zittrige Hände.
+Diese Reaktion hat keine negativen Auswirkungen im Sinne der Regeln, aber können natürlich andere in der Umgebung des Charakters auf die Lüge aufmerksam machen.
+
+[[ref_curse_of_truth_weak]]
+== Schwach
+Der Charakter nimmt sofort 1 xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schadenspunkt.
+
+[[ref_curse_of_truth_strong]]
+== Stark
+
+Der Charakter nimmt sofort 1 xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schadenspunkt.
+Für die nächsten 24 Stunden erhält er außerdem einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Proben.
+
+[[ref_curse_of_truth_deathcurse]]
+== Todesfluch
+
+Der Charakter nimmt sofort so viele xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbare] Schadenspunkte, wie er xref:../../core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID] besitzt.
+Er erhält damit eine xref:../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde].
+Es ist jedoch keine xref:../../core/core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlags]-Probe nötig.
+Für die nächsten 24 Stunden erhält er außerdem einen Malus von -2 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Proben.

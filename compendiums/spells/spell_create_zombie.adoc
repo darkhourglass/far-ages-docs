@@ -1,0 +1,21 @@
+= Zombie erschaffen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten, 1 Leichnam +
+*Fokus:* Ebon, Körper+
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 2 +
+*Reichweite:* 9,00 +
+*Anzahl der Ziele:* 1 Leichnam +
+*Dauer:* 1 Stunde +
+*Effekt:* Du zeigst auf einen Leichnam in der Reichweite des Zauberspruches und befiehlst ihm aufzustehen und Dir zu dienen.
+Ist die Spruchzauberei-Probe erfolgreich, animiert der Leichnam als link:../../bestiary/undead/bestiary_undead_zombie.adoc[Zombie] der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe 1].
+Der Zombie steht für die Dauer des Zauberspruches unter Deiner Kontrolle, ohne dass ein weiterer Zauberspruch wie beispielsweise link:spell_control_undead.adoc[Untote kontrollieren] nötig ist.
+Nach Ablauf der Dauer zerfällt der Zombie zu Staub und kann nicht wieder als Untoter wiederbelebt werden.
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: erschaffe 1 zusätzlichen Zombie (erfordert 1 weiteren Leichnam) +
++5 MP, +1 POT: Dauer +1 Stunde +
++10 MP, + 1 POT: Machtstufe + 1 (max. 3)
++

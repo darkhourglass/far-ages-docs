@@ -1,0 +1,25 @@
+= Fluch der Alpträume
+
+*Typ:* Harmlos, Schwach, Stark
+*Ziel:* Kreatur
+*Ende:* Permanent, Bann, Tat
+*Beschreibung:* Die Kreatur wird im Schlaf von furchtbaren Alpträumen heimgesucht.
+Diese können ihre Fähigkeit zur Erholung einschränken.
+Jedes Mal, wenn die Kreatur schläft, muss Sie 1W10 würfeln.
+Bei einem Ergebnis von 1, tritt die Wirkung des Fluches ein.
+Diese hängt vom Typ ab:
+
+[[ref_curse_of_nightsmares_harmless]]
+== Harmlos
+Die Kreatur windet sich unruhig im Schlaf.
+Vielleicht schreit sie oder schlägt mit ihren Händen um sich.
+Allerdings wacht sie nicht auf.
+Beobachter sind bestimmt äußerst irritiert, allerdings hat dieser Typ keine weiteren Auswirkungen.
+
+[[ref_curse_of_nightsmares_weak]]
+== Schwach
+Die Kreatur regeneriert nur die Hälfe ihrer xref:../../core/core_rules_charactercreation.adoc#ref_secondary_hitpoints[TP] und xref:../../core/core_rules_charactercreation.adoc#ref_secondary_magicpoints[MP], die ihr durch die xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Erholung] erhalten würde.
+
+[[ref_curse_of_nightsmares_strong]]
+== Stark
+Die Kreatur kann durch diese xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Erholung] keine xref:../../core/core_rules_charactercreation.adoc#ref_secondary_hitpoints[TP] und xref:../../core/core_rules_charactercreation.adoc#ref_secondary_magicpoints[MP] regenerieren.
