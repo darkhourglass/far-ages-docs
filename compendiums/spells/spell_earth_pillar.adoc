@@ -1,0 +1,30 @@
+= Erdsäule
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Erde+
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 5 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* Fläche 1,50 x 1,50 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du machst eine nach oben formende Bewegung mit Deinen Armen.
+Innerhalb der Reichweite des Zauberspruches kannst Du eine Fläche von 1,50 x 1,50 Meter aus Erde oder Stein in die Höhe, einer Erdsäule gleich, heben.
+Die Erde ist fest und blockiert auf Bodenebene.
+
+Die Erdsäule kann maximal 3,00 Meter in die Höhe reichen.
+Mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kannst die initiale Höhe bestimmen.
+Einmal pro Kampfphase kannst Du eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] einsetzen, um die Erdsäule um 1,50 Meter erhöhen oder reduzieren.
+
+Die Erdsäule ist stabil genug, um Kreaturen zu tragen.
+Du kannst die Erdsäule also benutzen, um Kreaturen in die Höhe zu heben, ob sie es wollen oder nicht.
+
+Trifft die Erdsäule auf ein Hindernis, so agiert sie wie eine Kreatur mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] gleich ihrer POT.
+
+Du kannst die Erdsäule nicht direkt offensiv verwenden. +
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: Wirkungsfläche +1,50 Meter an beiden Seiten (mehrfach anwendbar)
++5 MP, +1 POT: maximale Höhe der Erdsäule +3,00 Meter

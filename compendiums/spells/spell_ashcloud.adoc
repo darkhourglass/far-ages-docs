@@ -1,0 +1,26 @@
+= Aschewolke
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Feuer +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* Radius 9,00 Meter +
+*Dauer:* 2W6 Kampfphasen +
+*Effekt:* Du beschwörst eine Wolke aus schwarzer Asche, die das Zielgebiet verdunkelt.
+Jede Kreatur im Wirkungsbereich darf einen xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] gegen Deine Anzahl von Erfolgen aus der Spruchzauberei-Probe abgelegen.
+Misslingt der Kreatur diese Probe, gilt Sie als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_blind[blind].
+Dies gilt auch, wenn sie link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] oder link:../../bestiary/skills/bestiary_skill_infraredvision.adoc[Infrarotsicht] hat, denn die Asche legt sich auf den Augen nieder.
+
+Die Blindheit wirkt, solange die Kreaturen sich in der Wolke befinden.
+Kreaturen, die die Aschewolke betreten, müssen ebenfalls den Rettungswurf ablegen oder werden von dem Effekt betroffen.
+
+Ein starker Windstoß oder ein passender, magischer Effekt kann die Wolke auflösen.
+In diesem Fall endet der Effekt ebenfalls sofort. +
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1W6 Kampfphasen
++2 MP: Reichweite +6,00 Meter
++5 MP, +1 POT: Radius +9,00 Meter

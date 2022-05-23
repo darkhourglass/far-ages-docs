@@ -1,0 +1,21 @@
+= Flammennova
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Feuer +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* Der Magier ballt seine Hände zu Fäusten und schlägt sie mit der Spruchzauberei-Probe zusammen.
+Die bei zwei Steinen, die aufeinander geschlagen werden, springen Funken und entzünden sich zu einer Flammenwelle, die sich vom Magier aus kreisförmig ausdehnt.
+
+Jede Kreatur im Wirkungsbereich erhält einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Treffer] mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden.
+Eine erfolgreiche xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex]-Probe halbiert diesen Schaden. +
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Radius +3,00 Meter
++5 MP, +1 POT: Schaden +2W10 Feuer
++

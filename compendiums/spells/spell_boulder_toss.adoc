@@ -1,0 +1,21 @@
+= Felsenwurf
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel; Geste +
+*Fokus:* Erde +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:* Du nimmst etwas Erde oder kleine Steine in Deine Hand, hebst Deinen Arm hinter Deinen Kopf und machst eine Wurfbewegung in die Richtung des Ziels.
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] formt sich aus dem Inhalt Deiner ein großer Felsen, der auf die Zielkreatur niederschlägt.
+
+
+Die Zielkreatur erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit einem Schadensbonus von 3W6.
++
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +3,00 Meter +
++5 MP, +1 POT: Schadenbonus +2W6

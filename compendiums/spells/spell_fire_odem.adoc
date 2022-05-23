@@ -1,0 +1,23 @@
+= Feuerodem
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Feuer +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Kegel 6,00 Meter+
+*Dauer:* Sofort +
+*Effekt:* Der Magier faltet seine Hände zu einem Fächer vor seinen Mund und pustet.
+Heiße Flammen schlagen einem Drachenatem gleich hervor.
+
+Der Wirkungsbereich des Zaubers breitet sich kegelförmig beginnend beim Magier aus.
+Jede Kreatur im Wirkungsbereich erhält einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Treffer] mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden.
+Eine erfolgreiche xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex]-Probe halbiert diesen Schaden.
++
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Kegel +3,00 Meter
++5 MP, +1 POT: Schaden +2W10 Feuer
++

@@ -1,0 +1,32 @@
+= Selbstentzündung
+
+*Arkanes Geheimnis:* Ja +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* Feuer, Körper +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* - +
+*Anzahl der Ziele:* speziell +
+*Dauer:* Sofort +
+*Effekt:*
+
+Der Effekt betrifft alle Kreaturen in Deine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed_zoneofcontroll[Bedrohungszone].
+Besitzt Du keine Bedrohungszone, treffen die Flammen, die aus Deinem Körper schlagen, alle Kreaturen im direkten Radius von 1,50 Metern.
+
+Wähle mit Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] eine beliebige Zahl zwischen 1 und 8.
+Würfle entsprechend viele W10.
+Du erhälst sofort einen automatischen Treffer mit der gewürfelten Augenzahl als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbarer] Schaden.
+
+Überlebst Du dies erhalten alle Kreaturen im Wirkungsbereich (wie oben beschrieben) ebenfalls einen automatischen Treffer mit 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden] pro W10, den Du werfen musstest.
+
+.Beispiel
+====
+Mit Spruchzauberei-Probe wählst Du die Zahl 4.
+Du erhälst einen Treffer mit 4W10 unabwendbaren Schaden.
+Alle Kreaturen im Wirkungsbereich erhalten einen automatischen Treffer mit 4*3 = 12W10 Feuer-Schaden.
+====
+
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: die maximale Zahl, die Du wählen kannst steigt um +1 (mehrfach anwendbar) +

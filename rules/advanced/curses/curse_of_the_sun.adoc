@@ -13,14 +13,14 @@ Der Effekt richtet sich nach dem Typ des Fluches:
 [[ref_curse_of_the_sun_weak]]
 == Schwach
 Die Kreatur erleidet einen Malus von -1 auf die Würfe zum Erfolg auf alle Proben.
-Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1 Punkt xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer] Schaden.
+Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1 Punkt xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] Schaden.
 
 [[ref_curse_of_the_sun_strong]]
 == Stark
 Die Kreatur erleidet einen Malus von -2 auf die Würfe zum Erfolg auf alle Proben.
-Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1W10 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer] Schaden.
+Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1W10 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] Schaden.
 
 [[ref_curse_of_the_sun_deathcurse]]
 == Todesfluch
 Die Kreatur erleidet einen Malus von -3 auf die Würfe zum Erfolg auf alle Proben.
-Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 2W10+2 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer] Schaden.
+Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 2W10+2 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] Schaden.

@@ -34,10 +34,10 @@ Verliert der Geist durch einen solchen Angriff mindestens 1 TP, ist der Geist f�
 Elementare Geister sind Schutzgeister, die aus den Sphären der Elemente stammen.
 Sie gehören jeweils einem Element an und gewähren jeweils andere Fähigkeiten:
 
-* Erde: +2 xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_acid[Säure]
-* Feuer: +3 xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer]
-* Wasser: +1 xref:../core_rules_charactercreation.adoc#ref_secondary_maxmagicpotential[MaxPOT], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_frost[Frost]
-* Luft: +3,00 xref:../core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_shock[Schock]
+* Erde: +2 xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erde]
+* Feuer: +3 xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]
+* Luft: +3,00 xref:../core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft]
+* Wasser: +1 xref:../core_rules_charactercreation.adoc#ref_secondary_maxmagicpotential[MaxPOT], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_water[Wasser]
 
 Jeder elementare Geist lehrt den Schamanen außerdem einen xref:../core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkanen Trick] aus einer der folgenden Listen abhängig vom Element des Geistes:
 
@@ -60,7 +60,7 @@ Feengeister bieten dam Schamanen folgende Fähigkeiten:
 
 * Der Schamane erhält einen Bonus von 10 MP auf seinen xref:../core_rules_charactercreation.adoc#ref_secondary_magicpoints[Magiepunkte]-Pool
 * Der Schamane erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex]-Proben.
-* 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_magic[Magie]
+* 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt]
 
 ==== Tiergeister
 

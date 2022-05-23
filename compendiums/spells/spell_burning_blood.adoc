@@ -1,0 +1,32 @@
+= Brennendes Blut
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 10 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten, Komponenten (1000 Silbermünzen) +
+*Fokus:* Feuer, Körper +
+*Vorbereitung:* 1 Stunde (Ritual) +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur +
+*Dauer:* 24 Stunden +
+*Effekt:* Für diesen Zauberspruch benötigst Du Komponenten im Wert von 1000 Silbermünzen.
+Dies sind diverse Kräuter und fein gemahlener Staub aus magischen Kristallen und roten Edelsteinen, wie zum Beispiel Rubinen.
+Die Komponenten werden im Rahmen der rituellen Vorbereitung zu einer roten, warmen Paste vermengt und in Form von arkanen Runen auf dem Körper der Zielkreatur verteilt.
+Mit erfolgreicher Spruchzauberei-Probe glühen die Runen kurz auf und verschwinden in der Haut der Kreatur.
+
+Für die Dauer des Zauberspruches ist das Blut der Kreatur verzaubert.
+Tritt es aus, zum Beispiel durch eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde], schlagen Flammen aus dem Körper der Kreatur.
+Diese Flammen schaden ihr nicht, aber nahestehende andere und eventuell auch den Verursacher der Wunde.
+
+Erhält die verzauberte Kreatur durch ein Schadensquelle genug Schaden, um eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde] zu verursachen, tritt die übliche Wirkung einer solchen nicht ein.
+Das heißt, die Kreatur muss keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlags-Probe] ablegen und erleidet keine Mali.
+Sie erhält somit effektiv keine Wunde.
+Die Flammen, die aus ihrem Körper schlagen, verschließen die Wunde sofort.
+Die Kreatur verliert jedoch regulär den angerichteten Schaden als TP.
+
+Darüber hinaus erhalten alle Kreaturen, die sich zu diesem Zeitpunkt in der xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed_zoneofcontroll[Bedrohungszone] einen automatischen Treffer, der 5W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden] verursacht.
+Dieser Schaden durch einen erfolgreichen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] halbiert werden (Minimum 1). +
+*Zusätzliche Effekte:* +
++ 10 MP: Dauer +12 Stunden
++

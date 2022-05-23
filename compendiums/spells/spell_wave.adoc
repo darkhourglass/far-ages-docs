@@ -1,0 +1,25 @@
+= Welle
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste, Zutat +
+*Fokus:* Wasser +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Linie 9,00 Meter+
+*Dauer:* Sofort +
+*Effekt:* Du vergiest Wasser vor Dir und sprichst die Formel des Zaubers.
+Kurz bevor das Wasser den Boden berührt, beginnt das Wasser zu sprudeln und zu gurgeln.
+Das Wasser deht sich plötzlich aus und eine Welle mit einer Breite von 1,50 Metern rast bis zu 9,00 Metern in gerade Linie von Dir weg.
+Als Zutat benötigst Du eine kleine Menge Wasser, zum Beispiel den Inhalt eines Trinkschlauchs.
+
+Alle Kreaturen im Wirkungsbereich müssen eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex]-Probe gegen die Anzahl der Erfolge in Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe bestehen.
+Bei einem Misserfolg werden sie xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_onground[niedergeschlagen]. +
+
+Alle Kreaturen im Wirkungsbereich erhalten außerdem einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Treffer] mit 1W6 Schaden. +
+*Zusätzliche Effekte:* +
++2 MP, +1 POT: Wirkungsbereich +3,00 Meter in der Länge
++2 MP, +1 POT: Wirkungsbereich +1,50 Meter in der Breite
++2 MP: Schaden +1W6

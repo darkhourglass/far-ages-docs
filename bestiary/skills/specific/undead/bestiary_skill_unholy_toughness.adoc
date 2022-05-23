@@ -1,0 +1,50 @@
+= Unheilige Widerstandskraft
+
+*Voraussetzungen:* Primärer Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]  +
+*CP:* tba +
+
+Basierend auf ihrer xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe] erhält die Zielkreatur folgende Boni.
+
+|===
+|Machtstufe |TP-Bonus |WID-Bonus
+
+|1
+|+10
+|-
+
+|2
+|+15
+|-
+
+|3
+|+20
+|+2
+
+|4
+|+25
+|+4
+
+|5
+|+30
+|+6
+
+|6
+|+35
+|+8
+
+|7
+|+40
+|+10
+
+|8
+|+50
+|+12
+
+|9
+|+60
+|+14
+
+|10
+|+80
+|+16
+|===

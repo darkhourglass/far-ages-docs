@@ -1,0 +1,24 @@
+= Erdwall
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* Erde +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du erschaffst 3,00 Meter hohen Wall aus Erde, Stein und Schlamm.
+Dieser Wall besteht aus 6 Segmenten, die jeweils 1,50 x 1,50 Meter Platz abdecken.
+Du kannst die Verteilung der Segmente frei bestimmen, sie müssen jedoch alle zusammenhängen.
+
+Der Erdwall kann nicht direkt auf eine Kreatur gezaubert werden.
+Der Erdwall gilt für die Dauer des Zauberspruches als eine glatte und solide Wand aus Erde.
+Genug Schaden kann den Erdwall xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_obstacle[zerstören].
++
+*Zusätzliche Effekte:* +
++1 MP: Reichweite +3,00 Meter
++2 MP: Dauer +1 Kampfphase
++5 MP, +1 POT: erschaffe zusätzliches Segment für den Erdwall

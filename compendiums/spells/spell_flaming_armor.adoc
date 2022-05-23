@@ -1,0 +1,21 @@
+= Flammenrüstung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein/Ja+
+*Komponenten:* Formel, Geste +
+*Fokus:* Feuer +
+*Vorbereitung:* 6 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du beschwörst um Dich oder die Zielkreatur eine Flamme, die sich wie eine Rüstung um Deinen Körper legt.
+Die Rüstung ist angenehm warm, auch wenn die Flammen für andere heiß brennen.
+
+Jeder Angreifer, der einen Angriff gegen Dich im Nahkampf führt, erhält einen automatischen Treffer mit 5W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden.
+Es ist dabei irrelevant, ob der Angriff erfolgreich war oder nicht. +
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase
++10 MP, +1 POT: +1W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden
++

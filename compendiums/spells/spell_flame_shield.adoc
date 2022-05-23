@@ -1,0 +1,25 @@
+= Flammenschild
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein/Ja+
+*Komponenten:* Formel +
+*Fokus:* Feuer +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 2 +
+*Reichweite:* Selbst / Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 3 Kampfphasen +
+*Effekt:* Du beschwörst in Deiner Hand eine flammende Kugel, die sich zu einem Schild formt.
+Du oder die Zielkreatur müssen eine Hand freihaben, um den Flammenschild verwenden zu können.
+
+Du kannst Dich mit dem Flammenschild wie mit einem regulären Schild verteidigen, also das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] einsetzen.
+Du verwendest Deine normalen Stufen.
+
+Wird der Magier bzw. die Zielkreatur im Nahkampf getroffen, erhält der Angreifer einen automatischen Treffer mit 1W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden.
+
+Verteidigt der Verwender des Flammenschilds erfolgreich eine Attacke im Nahkampf, erhält der Angreifer stattdessen einen automatischen Treffer mit 3W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden. +
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1  Kampfphase
++5 MP, +1 POT: +1W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden
++

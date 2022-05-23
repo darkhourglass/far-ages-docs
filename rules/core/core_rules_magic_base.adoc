@@ -736,7 +736,7 @@ Untote und Konstrukte sind immun gegen diesen Zauber. +
 *Effekt:* Du beschwörst magisches Feuer, das sich in Deinen Händen zu einer flammenden Kugel formt.
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
 Wenn er auf dem Boden einschlägt, zerberstet er zu einem Inferno mit einem Radius von 3 Metern um den Einschlagpunkt. +
-Jede Kreatur im Zielradius erleidet 4W6 xref:core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuerschaden].
+Jede Kreatur im Zielradius erleidet 4W6 xref:core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuerschaden].
 Alle Kreaturen dürfen einen xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
 Bei einem Erfolg werden die Schadenspunkte halbiert (Minimum 1).
 *Zusätzliche Effekte:* +
@@ -805,7 +805,8 @@ Dies kostet zusätzliche MP.
 Nur wenn die Vorbereitung das Kürzel \(R) enthält, welches für *Ritual* steht, so ist die Verkürzung nicht möglich.
 In diesem Fall können auch Zeitangaben, wie zum Beispiel "1 Stunde" angegeben sein.
 Der Zauberer muss die Zeit am Stück einsetzen, an deren Ende die Spruchzauberei-Probe steht.
-Unterbricht er das Ritual, so muss er es von vorne beginnen.
+Sofern nicht anders angegeben, muss er es von vorne beginnen, sollte er die Zeit nicht am Stück einsetzen können.
+Ein unterbrochenes Ritual führt nicht zum Verbrennen.
 
 [[ref_magic_rules_spellcasting_spellspecifics_successes]]
 *Anzahl der Erfolge*:
@@ -831,7 +832,7 @@ Die Anzahl der Ziele ist im Allgemeinen eine Zahl.
 Innerhalb der Reichweite des Zauberspruches kann der Magier daher entsprechend viele Ziele durch eine Zauberwirkung anvisieren.
 Sofern nicht anders angegeben, erfordert das Auswählen eines Ziels immer direkte Sicht.
 
-Manche Zauber, wie der obige Feuerball, treffen jedoch ein Gebiet.
+Manche Zauber, wie der obige Feuerball, treffen jedoch ein Gebiet oder Fläche.
 Es werden folgende Flächenangaben unterschieden:
 
 Der *Radius* mit einer Größenangabe in Metern wird von einem Mittelpunkt, der innerhalb der Reichweite des Zauberspruches liegt, gemessen.
@@ -841,7 +842,11 @@ Pro 1,50 Meter erhöht sich der Kegel in gerader Linie von seinem Ursprung um je
 
 Die *Linie* beginnt in Front des Magiers und belegt alle 1,50x,1,50 Kacheln bis zum Ende der Angabe in Metern.
 
-Alle legalen Ziele innerhalb dieser Flächen werden von dem Effekt des Zauberspruches getroffen.
+Alle angegebenen Ziele innerhalb dieser Flächen werden von dem Effekt des Zauberspruches getroffen.
+Dabei wird grundsätzlich keine Unterscheidung zwischen Freund und Feind gemacht.
+Das bedeutet, dass ein Feuerball, in dessen Wirkungsfläche ein oder mehr Verbündete des Magiers, erfasst werden, genauso von seinem Effekt betroffen sind.
+Ebenso ist es möglich, dass der Zauberer selbst von dem Effekt betroffen sein kann, wenn er innerhalb der Wirkungsfläche steht, wenn der Effekt greift.
+Ausschließlich eine explizite Ausnahme in der Beschreibung des <<ref_magic_rules_spellcasting_spellspecifics_effect, Effektes>> hebt dieses Verhalten auf.
 
 [[ref_magic_rules_spellcasting_spellspecifics_duration]]
 *Dauer*:
@@ -918,8 +923,8 @@ Damit lässt ein Zauberspruch sofort mit seiner Ansage zur Vorbereitung in derse
 Einen Zauber wirkt man mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei].
 Dies ist im Normalfall eine xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe], welche die angegebene *Anzahl von Erfolgen* erreichen muss.
 
-Manche Zaubersprüche lassen einen <<ref_magic_rules_spellcasting_magicdefence, Rettungswurf>> zu.
-Dadurch wird die <<ref_magic_rules_spellcasting_roll, Spruchzauberei-Probe>> zu einer xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende Probe].
+Manche Zaubersprüche lassen einen<<ref_magic_rules_spellcasting_magicdefence, Rettungswurf>> zu.
+Dadurch wird die <<ref_magic_rules_spellcasting_roll, Spruchzauberei-Probe>> zu einer xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierenden Probe].
 Die Anzahl der Erfolge wird wie üblich berechnet, wobei das Ergebnis sich wie folgt auswirken kann:
 
 * erfordert der Zauberspruch eine minimale Anzahl von Erfolgen, muss diese nach Abzug der verteidigenden Erfolge weiterhin erreicht sein
@@ -933,7 +938,7 @@ Im Falle des Erfolgs tritt der Effekt des Zauberspruches gemäß seiner Beschrei
 [[ref_magic_rules_spellcasting_magicdefence]]
 ==== Rettungswürfe
 Viele Zaubersprüche erlauben dem Ziel, sich gegen den magischen Angriff zu verteidigen.
-Die Angabe „Ja“ unter  *Rettungswurf* gibt an, dass ein xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] erlaubt ist.
+Die Angabe „Ja“ unter *Rettungswurf* gibt an, dass ein xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] erlaubt ist.
 Sofern nicht anders angegeben, wird die Probe mit dem Attribut xref:core_rules_charactercreation.adoc#ref_attribute_energy[EN] gewürfelt, siehe auch xref:core_rules_d10_system.adoc#ref_core_saves_EN[Energie-basierte Rettungswürfe].
 Die Angabe „Nein“ gibt an, dass keinen Rettungswurf erlaubt (oder nötig) ist.
 
@@ -944,6 +949,9 @@ Wirkt man einen Zauberspruch auf ein anderes Wesen, kann es freiwillig auf den R
 In bestimmten Fällen, wie zum Beispiel des Zauberspruches _Verwirren_, ist der Rettungswurf durch ein anderes Attribut vorgegeben.
 Dieses Attribut ist dann zusätzlich angegeben, wie beispielsweise "Ja (SB)".
 In diesem Fall wird ein xref:core_rules_d10_system.adoc#ref_core_saves_SB[Selbstbeherrschungs-basierter Rettungswurf] gewürfelt.
+
+Viele Zaubersprüche, wie zum Beispiel link:../../compendiums/spells/spell_fireball.adoc[Feuerball], erlauben einen xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex] oder vergleichbaren xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf], um den Schaden aus dem Zauberspruch zu reduzieren.
+Diese Form des Rettungswurfs ist Teil des Effekts und damit nicht durch die Angabe unter *Rettungswurf* abgedeckt.
 
 [[ref_magic_rules_spellcasting_spellburning]]
 ==== Unterbrechen der Vorbereitung und Verbrennen
@@ -1239,7 +1247,7 @@ Magische Kristalle, die in der freien Wildbahn existieren, gelten ohne Behandlun
 Weiterhin gelten Gegenstände als verunreinigt, wenn sie für den Austausch von MP nicht ausgelegt sind.
 
 Ein Magier muss pro einem entzogenen MP aus einem verunreinigten Gegenstand 1W8 TP opfern.
-Der Schaden in Form von 1W8 ist xref:core_rules_battlesystem.adoc#ref_battle_damage_magic[magisch].
+Der Schaden in Form von 1W8 ist xref:core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt].
 Verunreinigte Gegenstände können noch andere Auswirkungen haben.
 Dies wird dann explizit bei den Gegenständen angegeben.
 

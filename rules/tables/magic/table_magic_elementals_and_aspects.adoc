@@ -1,0 +1,37 @@
+= Tabelle: Elemente und Aspekte
+
+|===
+|Element |Fokus |Schadensart
+
+|Bewegung
+|Sturm
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock]
+
+|Erde
+|Erde
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erde]
+
+|Feuer
+|Feuer
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]
+
+|Stille
+|Eis
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost]
+
+|Luft
+|Luft
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft]
+
+|Härte
+|Metal
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_magma[Magma]
+
+|Wachstum
+|Holz
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_acid[Säure]
+
+|Wasser
+|Wasser
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_water[Wasser]
+|===

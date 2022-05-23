@@ -526,8 +526,8 @@ Räuberische Tiere oder Monster setzen Gift als gefährliche Waffe ein.
 
 Die Beschreibung eines Giftes enthält einen *sekundären Effekt* und einen *primären Effekt*, sowie eine Anzahl von nötigen Erfolgen.
 
-* *Misserfolg:* der sekundäre Effekt tritt sofort ein
-* *Patzer:* der primäre Effekt tritt sofort ein
+* *Misserfolg:* der primäre Effekt tritt sofort ein
+* *Patzer:* der primäre und der sekundäre Effekt tretten sofort ein
 
 [[ref_core_base_saves_horror]]
 ==== Horror
@@ -826,7 +826,7 @@ Ein brennender Charakter erhält zu Beginn seiner Kampfphase eine festgelegte An
 Ist keine angegeben, wird 1W3 Schadenspunkte angenommen.
 Es gelten die üblichen Regeln für die Bestimmung oder Reduktion von xref:core_rules_battlesystem.adoc#ref_battle_damage[Schaden].
 
-Mit diesem Zustand ist jedoch nicht ausschließlich das Brennen durch xref:core_rules_battlesystem.adoc#ref_battle_damage_fire[Feuer] gemeint, sondern der Zustand kann jede xref:core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] verwenden.
+Mit diesem Zustand ist jedoch nicht ausschließlich das Brennen durch xref:core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] gemeint, sondern der Zustand kann jede xref:core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] verwenden.
 Die folgende Tabelle zeigt eine beispielhafte Liste für Namen des Zustandes je nach Schadensart.
 
 |===
@@ -985,7 +985,7 @@ Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_base_rules_death, Tod>
 
 *Magiepunkte (MP)* stellen das teils angeborene und teils erlernte magische Potential eines Charakters dar.
 MP werden üblicherweise beim Aussprechen von xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Zaubersprüchen] verbraucht, um diese zu verkürzen oder mit zusätzlichen Effekten zu versehen.
-Die Schadensart xref:core_rules_battlesystem.adoc#ref_battle_damage_magic[Magie] wird ebenfalls von diesem Pool abgezogen.
+Die Schadensart xref:core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt] wird ebenfalls von diesem Pool abgezogen.
 
 Magier müssen mit Bedacht ihre MP einsetzen, denn auch hier bedeutet das Erreichen des Wertes 0 eine gefährliche Situation.
 Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_base_rules_death, Tod>>.

@@ -62,7 +62,7 @@ Außerdem erleiden sie keinen xref:../../advanced/creaturetypes/primary/creature
 * Der Fleischskulpteur kann außerdem maximal 3 Untote gleichzeitig auf diese Weise kontrollieren.
 Werden mehr Untote über diese Zaubersprüche erschaffen, verliert der Fleischskulpteur automatisch die Kontrolle über die ältesten erschaffenen Untoten.
 * Es können keine link:../../advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlosen] Untoten erschaffen werden.
-* Es können initial nur link:../../../bestiary/undead/bestiary_undead_zombie.adoc[Zombies] erschaffen werden.
+* Es können initial nur link:../../../bestiary/templates/bestiary_template_undead_zombie.adoc[Zombies] erschaffen werden.
 * Der Fleischskulteur kann xref:../../core/core_rules_magic_items.adoc#ref_magic_items_fleshcrafting_talent[Fleischformen] auf Untote verwenden.
 
 Beherrscht der Fleischskulteur bereits die Zauberschule Nekromantie, lernt er die Zaubersprüche auf normalen Weg.

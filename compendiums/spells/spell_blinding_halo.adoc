@@ -1,0 +1,20 @@
+= Blendender Schein
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* Licht, Feuer+
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Um den Kopf des Magiers erscheint ein brennendes oder gleisendes Halo aus purem Licht.
+Alle Kreaturen im Wirkungsbereich, einem Radius zentriert um den Magier, müssen zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen, um sich abzuwenden oder sind für diese Kampfphase xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_blind[blind].
+
+Es sind nur Kreaturen betroffen, die den Magier sehen können.
++
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase
++

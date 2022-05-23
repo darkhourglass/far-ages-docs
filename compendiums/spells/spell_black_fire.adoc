@@ -1,0 +1,27 @@
+= Schwarzes Feuer
+
+*Arkanes Geheimnis:* Ja +
+*POT:* 13 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Feuer, Ebon +
+*Vorbereitung:* 5 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* 36,00 Meter +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* Du beschwörst eine wabernde Masse aus schwarzen, grauenerregenden Flammen.
+Dabei reichst Du nicht nur in die für einen Elementaristen Deiner Erfahrung komfortable Ebene des Feuers hinein, sondern auch in ein der dunklen Ecken des Multiversums.
+Von manchen auch das ultimate Feuer genannt, verbrennt das Schwarze Feuer alles ohne Gnade.
+
+Alle Kreaturen in der Wirkungsfläche des Zauberspruches erhalten einen automatischen Treffer.
+Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Schadensbonus] für diesen Treffer beträgt 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden] pro Erfolg in Deiner Spruchzauberei-Probe.
+
+Jeder Schaden des Schwarzen Feuers gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbar].
+
+Die Verwendung dieses Zauberspruches hat jedoch seinen Preis.
+Jedes Mal, wenn Du ihn aussprichst, ob erfolgreich oder nicht, erfordert eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_horror[Horror(6)-Probe]. +
+*Zusätzliche Effekte:* +
++5 MP: Reichweite +6,00 Meter
++5 MP: Radius +3,00 Meter
++5 MP: Schaden: +1W6 Feuer-Schaden

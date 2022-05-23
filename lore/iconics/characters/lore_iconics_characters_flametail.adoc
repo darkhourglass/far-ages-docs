@@ -1,0 +1,64 @@
+= Flammenschweif
+
+* link:../../../bestiary/dragons/bestiary_dragons.adoc[Drache] (xref:../../../bestiary/dragons/bestiary_dragons.adoc#ref_dragons_types_star_dragon[Sternendrache], xref:../../../bestiary/dragons/bestiary_dragons.adoc#ref_dragons_powerlevel[Machtstufe 15])
+* link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend]
+* xref:../../../bestiary/templates/bestiary_template_elemental_touched.adoc#ref_template_elemental_touched_fire[Feuer-berührt], link:../../../bestiary/templates/bestiary_template_legendary.adoc[Legendär], link:../../../bestiary/templates/bestiary_template_immortal.adoc[Unsterblich]
+* GK: 9
+* CP
+
+== Beschreibung
+
+Lore
+
+== Attribute
+
+ST: XXX +
+GE: XXX +
+KO: XXX +
+ER: XXX +
+EN: XXX +
+SB: XXX +
+CH: XXX +
+
+== Pools
+
+//TP=(ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+
+TP: XXX +
+MP: XXX +
+SP: XXX +
+
+== Attributswerte
+
+// WID= 8 + (KO-1)*2
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+WID: XXX +
+BEW: XXX +
+INI: XXX +
+MaxTL: XXX +
+MaxPOT: XXX +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+
+== Regeln

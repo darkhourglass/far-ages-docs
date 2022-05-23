@@ -1,0 +1,40 @@
+= Gesichtsraub
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* 1 Leichnam, 1 ritueller Dolch +
+*Fokus:* Ebon, Körper, Schatten +
+*Vorbereitung:* 20 Minuten (Ritual) +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* - +
+*Anzahl der Ziele:* 1 Leichnam / Selbst +
+*Dauer:* 24 Stunden +
+*Effekt:* In einem verstörenden Ritual trennst Du vorsichtig mit einem Dolch aus geschärften Obsidian das Gesicht eines frischen Leichnams ab.
+Zum Höhepunkt presst Du Dir den blutigen Hautfetzen in Dein eigenes Gesicht und es verschmilzt perfekt mit Dir.
+
+Für die Dauer des Zauberspruches sieht Dein Kopf und Dein Gesicht exakt so aus, wie die Zielkreatur zu Lebzeiten.
+Darüber hinaus ändert sich Deine Stimme und Du klingst wie die Zielkreatur.
+Die Veränderung wirkt sich jedoch nicht auf den Rest Deines Körpers aus.
+Verwendet beispielsweise ein link:../../rules/core/races/core_races_humans.adoc[Mensch] den Leichnam eines link:../../rules/core/races/core_races_satyrs.adoc[Satyrs], wächst ihm kein Fell am Körper und seine Füße werden nicht zu Hufen.
+Zusätzliche Effekte können dieses Verhalten jedoch ändern.
+Du lernst keine Talente oder Fähigkeiten der Zielkreatur.
+
+Der Effekt dieses Zaubers ist keine xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusion].
+Du wirst als link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_shapeshifter.adoc[gestaltgewandelt] behandelt.
+
+Der Zielleichnam darf nicht länger als 24 Stunden tot sein und muss zu einem vormals link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] gehören, dessen xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] Deiner entspricht.
+
+Der Dolch wird im Rahmen des Rituals nicht verbraucht und kann wiederverwendet werden.
+Allerdings ist der Leichnam nach dem Ritual sichtlich verstümmelt, da ihm das Gesicht fehlt.
+Niemand kann den Leichnam mehr für diesen Zauberspruch einsetzen.
+
+Am Ende der Dauer schmilzt das falsche Gesicht als blutige Masse von Dir.
+Im Gegensatz zu anderen Zaubersprüchen kannst Du die Dauer durch angegebenen zusätzlichen Effekt jederzeit verlängern.
+
+Der Zauberspruch endet, wenn Du oder jemand anders das falsche Gesicht herunterreißt.
+Im Ermessen des SLs kann dazu eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende] xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST]-Probe gewürfelt werden.
++
+*Zusätzliche Effekte:* +
++10 MP: Dauer +24 Stunden (kann auch am Ende des Zauberspruches eingesetzt werden)
++20 MP, +2 POT: Dein Körper ändert sich mit, passend zur Zielkreatur

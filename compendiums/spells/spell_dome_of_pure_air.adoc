@@ -1,0 +1,28 @@
+= Kuppel der reinen Luft
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 3 +
+*Rettungswurf:* Nein +
+*Komponenten:* Geste +
+*Fokus:* Luft +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 2 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 3,00 Meter+
+*Dauer:* 8 Stunden +
+*Effekt:* Du bewegst Deine Hand bogenförmig durch die Luft.
+FÜr einen kurzen Moment zeichnet sich eine transparente Kuppel passend zu Ausdehnung des Zauberspruches.
+Ein leichter Lufthauch bringt merklich frische Luft.
+
+Für die Dauer des Zauberspruches befindet sich im Wirkungsbereich des Zauberspruches immer atembare, angenehme Luft.
+Nicht-magische Flüssigkeiten oder Gase können die Kuppel nicht durchdringen.
+Magische Flüssigkeiten oder Gase müssen eine höhere POT als die Kuppel aufweisen, um durchzudringen.
+Es zählt dabei die POT des Zauberspruches zum Zeitpunkt der xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe.
+
+Die Kuppel kann regulär nicht unter Wasser gewirkt werden, außer Du nutzt den passenden zusätzlichen Effekt.
+
+Die Kuppel entsteht zentriert um Dich herum, bleibt jedoch für die Dauer des Zauberspruches statisch an diesem Ort. +
+*Zusätzliche Effekte:* +
++2 MP: Dauer +8 Stunden +
++5 MP, +1 POT: Radius +3,00 Meter +
++3 POT: Kuppel kann unter Wasser gewirkt werden +

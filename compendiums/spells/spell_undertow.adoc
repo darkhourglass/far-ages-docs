@@ -1,0 +1,25 @@
+= Sog
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Wasser +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 7 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* Ein Wasserfläche mit Radius 3,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du rufst die Geister des Wassers und forderst sie zum Tanz.
+Im Wirkungsbereich beginnt das Wasser unruhig Wellen zu schlagen und dessen Mitte entsteht ein Sog.
+
+Das Wirkungsbereich gilt für die Dauer des Zauberspruches als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände].
+
+Alle Kreaturen der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 6 oder geringer, die sich zu Beginn ihrer Kampfphase im Wirkungsbereich befinden, müssen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_ST[ST-Rettungswurf] würfeln.
+Misslingt der Rettungswurf, verlieren sie ihr xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] für diese Kampfphase.
++
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++2 MP: Reichweite +6,00 Meter +
++4 MP: Radius +3,00 Meter +
++5 MP, +1 POT: Größe vom Sog betroffener Kreaturen +1 (max. 10) +

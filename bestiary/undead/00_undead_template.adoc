@@ -1,0 +1,91 @@
+
+= Name
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
+* Secondary Type(s)
+* Templates
+* GK: X
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Attribute
+
+ST: XXX +
+GE: XXX +
+KO: XXX +
+ER: XXX +
+EN: XXX +
+SB: XXX +
+CH: XXX +
+
+== Pools
+
+//TP=(ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+
+TP: XXX +
+MP: XXX +
+SP: XXX +
+
+== Attributswerte
+
+// WID= 8 + (KO-1)*2
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+WID: XXX +
+BEW: XXX +
+INI: XXX +
+MaxTL: XXX +
+MaxPOT: XXX +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+
+== Primärer Kreaturentyp
+
+Die Kreatur erhält aufgrund ihres primären Kreaturentypes folgende Fähigkeiten:
+
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], je nachdem welche höher ist.
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Sekundäre Kreaturentypen
+
+== Regeln
+
+
+
+
+
+
+
+
+
+

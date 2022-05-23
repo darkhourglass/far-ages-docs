@@ -1,0 +1,27 @@
+= Regen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 3 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* Wasser +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 2 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 36,00 Meter+
+*Dauer:* 10 Minuten +
+*Effekt:* Du beschwörst im Zielgebiet einen leichten Regen.
+
+Der Regen hat keine besondere Wirkung, außer dass es regnet.
+Du kannst jedoch zusätzliche Effekte einsetzen, um die Schwere des Regens zu beeinflussen, was Modifikatoren auf die Würfe zum Erfolg mit sich bringt.
+Im Ermessen des SL kann der Regen die Landschaft positiv wie negativ beeinflussen, zum Beispiel kann der Regen nach langer Trockenheit beim Pflanzenwachstum helfen oder, bei höherer Stärke, die Erde aufweichen oder wegspülen.
+In besonders kalten Gebieten kann der Regen zu Schnee werden oder frieren.
+
+Das Zielgebiet ist um Dich zentriert, in dem Moment, in dem Du Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegst.
+Für die Dauer des Zauberspruches verbleibt der Regen in diesem Zielgebiet.
+Er bewegt sich nicht mit Dir. +
+*Zusätzliche Effekte:* +
++1 POT: Dauer ist 1 Stunde (nicht mehrfach anwendbar)
++5 POT: Dauer ist 8 Stunden (nicht mehrfach anwendbar)
++7 POT: Dauer ist 3 Tage (nicht mehrfach anwendbar)
++10 MP, +2 POT: Der Regen wird stärker: -1 auf die Würfe zum Erfolg innerhalb des Zielgebiets (max. -3)

@@ -1,0 +1,33 @@
+= Flutwelle
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 10 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste, Zutat +
+*Fokus:* Wasser+
+*Vorbereitung:* 6 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 36,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* Zu Beginn der Vorbereitung kippst Du eine kleine Menge Wasser, zum Beispiel den Inhalt eines Trinkschlauches, vor Dir auf den Boden.
+Während der Vorbereitung beginnt das Wasser sich auszubreiten und kleine Wellen schlagen an Dir hoch.
+Streifen aus Wasser steigen langsam und unnatürlich in die Luft um Dich herum.
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe klatscht Du Deine Hände zusammen und das Wasser explodiert in seine konzentrische Flutwelle, die sich von Dir ausbreitet.
+
+Alle Kreaturen im Wirkungsbereich außer Dir erhalten einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] abhängig von ihrer Entfernung zu Dir:
+
+* Innerhalb 0,00 bis 12,00 Meter: 6W6
+* Innerhalb 12,50 bis 24,00 Meter: 4W6
+* Innerhalb von 24,50 bis 36,00 Meter: 2W6
+
+Weiterhin muss jede Kreatur einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_ST[ST-Rettungswurf] bestehen oder wird xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_onground[niedergeschlagen].
+Die Anzahl der nötigen Erfolge ist wiederum abhängig von der Entfernung zu Dir:
+
+* Innerhalb 0,00 bis 12,00 Meter: 6
+* Innerhalb 12,50 bis 24,00 Meter: 4
+* Innerhalb von 24,50 bis 36,00 Meter: 2
+
+*Zusätzliche Effekte:* +
++5 MP: Schaden +1W6 (gilt für jede Entfernung)
++1 POT: Anzahl nötiger Erfolg in ST-Rettungswurf +1 (gilt für jede Entfernung)

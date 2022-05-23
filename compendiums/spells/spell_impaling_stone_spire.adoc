@@ -1,0 +1,33 @@
+= Felsenspitze
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Erde +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:* Du fokussiert die elementare Magie der Erde in unmittelbarer Umgebung.
+Die Energie des Zauberspruches lässt eine spitze Säule aus Felsen und Gestein aus dem Boden schräg stoßen und die Zielkreatur aufspießen.
+
+Die Felsspitze trifft eine Kreatur in Sicht- und Reichweite des Zauberspruches und verursacht einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit einem Schadensbonus von 6W6.
+
+Die Zielkreatur muss eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex]-Probe gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe bestehen.
+Bei einer bestandenen Probe, halbiert sich der genommene Schaden.
+
+Erleidet die Kreatur durch den genommen Schaden eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzung], wird sie aufgespießt.
+Sie muss keine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_knockdown[Niederschlags]-Probe würfeln, wie sonst üblich bei Verletzungen, allerdings gilt sie als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[gefangen].
+Um sich zu befreien, muss sie in Ihrer Kampfphase das entsprechende xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_move_breakfree[Manöver] einsetzen.
+Das Manöver erfordert einen erfolgreichen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_ST[ST-Rettungwurf].
+
+Als zusätzlichen Effekt kannst Du den Zauberspruch gegen mehr als eine Kreatur richten.
+Pro zusätzlichen Ziels schießt eine Felsenspitze aus dem Boden.
+Die betroffene Kreatur erleidet die gleichen Auswirkungen, sie muss eine eigene Reflex-Probe ablegen.
+
+*Zusätzliche Effekte:* +
++2 POT: Anzahl der Ziele +1 Kreatur +
++5 MP: Reichweite +3,00 Meter +
++5 MP: Schaden +1W6 +

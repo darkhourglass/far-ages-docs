@@ -1,5 +1,8 @@
 = Fliegen (Bewegungsrate)
 
+*Voraussetzungen:* - +
+*CP:* tba +
+
 Die Kreatur besitzt die Fähigkeit zu fliegen, vielleicht weil sie Flügel hat oder aufgrund eines magischen Effekts.
 
 Um diese Art der Fortbewegung zu nutzen, sind die Manöver xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_move_useBEW[Rennen] oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions_sprint[Sprinten] einzusetzen mit der angegebenen *Bewegungsrate*.

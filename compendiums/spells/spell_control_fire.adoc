@@ -1,0 +1,28 @@
+= Feuer kontrollieren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Gesten +
+*Fokus:* Feuer, Geist +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 2 pro 1,50 x 1,50 Meter Ausdehnung +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* 1 Feuer  +
+*Dauer:* 5 +
+*Effekt:* Du fokussierst Deine Konzentration auf ein sichtbares Feuer oder eine brennende Fläche innerhalb der Reichweite des Zauberspruches.
+Die Ausdehnung des Ziels darf maximal 1,50 x 1,50 Meter betragen und das Feuer darf nicht magischer Natur sein (also zum Beispiel ein Effekt eines anderen Zauberspruches sein).
+Eine größere Ausdehnung erfordert je 1,50 x 1,50 Meter 2 Erfolge bei der Spruchzauberei-Probe.
+
+Bei einer erfolgreichen Spruchzauberei-Probe hat der Magier für die Dauer des Zauberspruches folgende Optionen:
+
+* Du hebst eine Hand: das Feuer brennt 10 cm höher als zuvor
+* Du senkst die Hand: das Feuer brennt 10 cm niedriger als zuvor
+* Du bewegst beide Hände in eine Richtung: das Feuer verlagert seinen Standardort in der Kampfphase in die angegebene Richtung (max. 1,50 Meter Unterschied zur vorherigen Position)
+
+Jeder Einsatz der Gesten gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion].
+
+Das Feuer kann durch das Senken der Hand zum Versiegen gebracht werden, allerdings beginnt es nach Ablauf des Zauberspruches wieder zu brennen. +
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase
++

@@ -1,0 +1,31 @@
+= Schmelzen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein* +
+*Komponenten:* Geste +
+*Fokus:* Feuer +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Gegenstand +
+*Dauer:* Sofort +
+*Effekt:* Deine Hände beginnen weiß zu glühen, wie die Hitze eines Schmiedefeuers.
+
+Der berührte Gegenstand wird zerstört, siehe dazu das Kapitel xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_destroy_items[Gegenstände zerstören].
+Der Gegenstand kann eine maximale Ausdehnung von 20 x 20 Zentimetern haben oder bis zu 5 Kilogramm wiegen.
+
+Gegenstände, die nicht schmelzen, wie beispielsweise Holz oder Stoff, verbrennen.
+
+Hält eine Kreatur den Gegenstand in der Hand oder trägt diesen am Körper, muss ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] gewürfelt werden.
+Es wird die xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Stufe] der Kreatur herangezogen.
+
+Magische Gegenstände können im Normalfall nicht mit diesem Zauberspruch zerstört werden.
+Im Ermessen des SL kann ein magischer Gegenstand durch diesen Zauberspruch beschädigt werden.
+In diesem Fall steht dem Gegenstand ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] zu.
+
+link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] können durch diesen Zauberspruch nicht zerstört werden, allerdings beschädigt.
+In diesem Fall steht ihnen ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] zu.
+Pro Erfolg, den Du erreichst, erhält das Konstrukt 1W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]. +
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: die erlaubten Dimensionen des Gegenstandes verdoppeln sich (kumulativ anwendbar)

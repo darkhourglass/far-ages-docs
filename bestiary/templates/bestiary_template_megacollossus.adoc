@@ -23,9 +23,13 @@ Dadurch ändern sich folgende xref:../../rules/core/core_rules_charactercreation
 
 Hat der Charakter weitere Boni auf seine TP, wie zum Beispiel xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP-/MP-Steigerungen], werden diese zu seinen neuen TP (260) gerechnet.
 
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
 == Fähigkeiten
 
-Die Kreatur übernimmt alle Fähigkeiten und Talente.
+Die Kreatur übernimmt alle Fähigkeiten.
 Sie erhält außerdem folgende hinzu:
 
 [[ref_megacollossus_skill_gk12]]

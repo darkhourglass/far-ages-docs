@@ -1,0 +1,25 @@
+= Elementare Barriere [Element]
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein/Ja +
+*Komponenten:* Geste +
+*Fokus:* speziell +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du beschwörst eine fast transparente, leicht schimmerende Sphäre aus elementarer Energie, die die Zielkreatur umgibt. +
+
+Für die Dauer des Zauberspruches schützt diese Barriere die Zielkreatur vor Schaden einer bestimmten xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadenstyp].
+Die Barriere wehrt bis zu 10 Schadenspunkte aus einer beliebigen Anzahl solcher Quelle ab, so dass die Kreatur selbst keinen Schaden nimmt.
+Sind 10 Schadenspunkte über die Dauer des Zauberspruches abgewehrt, endet dieser automatisch.
+Die Barriere gilt vor allen anderen möglichen Schadensreduktionen, wie zum Beispiel einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz].
+
+Je nach Element, mit dem Du diesen Zauberspruch lernst, ändert sich der Fokus und die abgewehrte Schadensart.
+Diese kann in folgender link:../../rules/tables/magic/table_magic_elementals_and_aspects.adoc[Tabelle] entnommen werden.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: Abwehrter Schaden +10 Punkte

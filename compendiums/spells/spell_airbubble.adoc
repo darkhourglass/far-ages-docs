@@ -1,0 +1,29 @@
+= Luftblase
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Luft +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du hältst Deine Hand vor Deinen Mund und pustest Luft in Deine Handfläche.
+Ein Schimmer aus elementarer Luft formt sich wie eine Kuppel oder Kugel im Wirkungsbereich.
+
+Für die Dauer des Zauberspruches befindet sich im Wirkungsbereich immer atembare, angenehme Luft.
+Nicht-magische Flüssigkeiten oder Gase können die Kuppel nicht durchdringen.
+Magische Flüssigkeiten oder Gase müssen eine höhere POT als die Kuppel aufweisen, um durchzudringen.
+Es zählt dabei die POT des Zauberspruches zum Zeitpunkt der xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe.
+
+Du kannst diesen Zauberspruch auch unter Wasser.
+
+Die Luftblase bewegt sich mit Dir und ist immer um Dich zentriert.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase
++3 POT: Dauer ist 1 Stunde (nicht kumulativ)
++6 POT: Dauer ist 8 Stunden (nicht kumulativ)
++5 MP, +1 POT: Radius +3,00 Meter

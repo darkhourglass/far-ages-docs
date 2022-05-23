@@ -52,6 +52,7 @@ Die unten angebenden Regeln beziehen sich jedoch nicht explizit auf das Verwende
 Typische Begriffe, wie von der Seite angreifen, in den Rücken fallen, lassen sich direkt übertragen.
 An einigen Beispielen nutzen wir die Anschaulichkeit der Miniaturen, um das Spielprinzip zu erläutern.
 
+[[ref_battle_start_of_battle]]
 == Beginn des Kampfes
 
 [quote, Gratak „Eisenbieger“]
@@ -65,7 +66,7 @@ Das System von Far Ages unterscheidet jedoch zwischen zwei Möglichkeiten einen 
 Die erste Variante ist am einfachsten erläutert, denn in diesem Fall haben beide (ggf. natürlich auch mehrere) Parteien ihre Waffen gezogen und Vorbereitungen getroffen und es kommt direkt zur ersten Kampfphase.
 
 Die zweite Variante basiert auf der Annahme, dass eine Partei von der anderen überrascht wurde bzw. plötzlich zum Kampf gezwungen.
-In diesem Fall spricht man von einem *Überraschungsangriff*.
+In diesem Fall spricht man von einem *Überraschungsangriff*. [[ref_battle_start_of_battle_suprise]]
 Dieser wird ausführlich in einem späteren Kapitel besprochen.
 
 == Ablauf eines Kampfes
@@ -234,6 +235,8 @@ Die vollständigen Regeln finden sich unter xref:core_rules_magic_base.adoc#ref_
 === Bonus-Aktionen
 //TODO
 
+Eine Kreatur darf keine Bonus-Aktionen durchführen, wenn sie auch keine <<ref_battle_actions, Aktionen>> durchführen darf.
+
 [[ref_battle_movefightaction]]
 === Bewegungs- und Kampfmanöver
 Unter den Begriff *Bewegungsmanöver* oder auch *Kampfmanöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen.
@@ -253,7 +256,7 @@ Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenh
 ==== Befreien
 Befindet sich der Charakter in der Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_held[gefangen], kann er dieses Manöver einsetzen, um sich zu befreien.
 
-Die erfordert gegebenfalls eine zusätzliche Probe, wie beispielsweise unter <<ref_battle_actions_brawl, Raufen und Ringen>> beschrieben.
+Dies erfordert gegebenfalls eine zusätzliche Probe, wie beispielsweise unter <<ref_battle_actions_brawl, Raufen und Ringen>> beschrieben.
 
 [[ref_battle_move_readyitem]]
 ==== Gegenstand vorbereiten
@@ -478,7 +481,7 @@ Der SL ist natürlich frei in seiner Entscheidung, welche Modifikatoren er für 
 Als Deckung können alle Gegenstände und Lebewesen dienen, die den verteidigenden Charakter bis zu einem gewissen Maß verdecken.
 Die Einteilung erfolgt in folgenden Kategorien:
 
-* *Wenig Deckung:* Der Verteidiger ist bis zu 25% verdeckt.
+* *Geringe Deckung:* Der Verteidiger ist bis zu 25% verdeckt.
 Er könnte zum Beispiel hinter einem Posten oder Pfahl stehen oder hinter einem niedrigen Strauch.
 Für diese Art von Deckung muss der Angreifer einen Malus von *-1 auf die Würfe zum Erfolg* für eine Angriffsprobe.
 * *Mittlere Deckung:* Der Verteidiger ist bis zu 50% verdeckt.
@@ -1125,86 +1128,114 @@ Schadensresistenzen wirken sich immer nur auf die eine Schadensart aus.
 Folgende Schadensarten sind in den Grundregeln abgedeckt.
 Sofern nicht anders angegeben, reduzieren die Schadenspunkte die TP eines Charakters und normale Rüstung reduziert den Schaden.
 
-[[ref_battle_damage_physical]]
-==== Physisch
+[[ref_battle_damage_types_primary]]
+==== Primäre Schadensarten
+Primäre Schadensarten beschrieben allgemeine, weitverbreitete Arten von Schaden, die aus verschiedensten Quellen stammen können.
+Sie haben bis auf den üblichen Abzug von Punkten aus einem drei xref:core_rules_d10_system.adoc#ref_base_rules_pools[Pools] keine Auswirkungen.
+
+[[ref_battle_damage_type_primary_physical]]
+===== Physisch
 Als physischer oder körperlicher Schaden wird jeder Schaden bezeichnet, der durch fassbare Gegenstände oder Objekte entsteht.
 Dies können Waffen sein, Fäuste eines Trolls oder eine Kanonenkugel sein.
 Ebenso zählt der harte Fußboden als Objekt, auf den der Charakter fällt, wenn er stolpert.
 
-Sofern nicht anders angegeben, gilt jeder Schaden als körperlicher Schaden.
-Dieser Schaden wird von den TP abgezogen und es schützt normale Rüstung.
+Sofern nicht anders angegeben, gilt jeder Schaden als physischer Schaden.
+Physischer Schaden wird auch als Standard-Schadensart bezeichnet.
+Dieser Schaden wird von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] abgezogen und es schützt normale Rüstung.
 
-[[ref_battle_damage_fire]]
-==== Feuer
+[[ref_battle_damage_type_primary_interlect]]
+===== Intellekt
+Manche Angriffe sind subtil und verletzen nicht den Körper, sondern den Geist einer Kreatur.
 
+Dieser Schaden wird von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] einer Kreatur abgezogen.
+Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
+
+[[ref_battle_damage_type_primary_mental]]
+===== Mental
+Kosmisches Grauen bevölkert das Multiversum.
+Der mentale Schaden wird normal ausgewürfelt und dann von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP] abgezogen.
+
+Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
+
+[[ref_battle_damage_types_elemental]]
+==== Elementare Schadensarten
+Elementare Schadensarten basieren auf den vier grundlegenden Elementen des Multiversums.
+
+Die Schadensquellen können natürlicher wie übernatürlicher Natur sein.
+Der <<ref_battle_damage_type_elemental_fire, Feuer-Schaden>> eines link:../../compendiums/spells/spell_fireball.adoc[Feuerballs] wird genauso behandelt wie der Schaden einer brennenden Scheune.
+
+Alle elementaren Schadensarten werden immer von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] einer Kreatur abgezogen.
+
+[[ref_battle_damage_type_elemental_earth]]
+===== Erde
+
+//TODO
+
+[[ref_battle_damage_type_elemental_fire]]
+===== Feuer
 Das Feuer ist eine zerstörerische und unbändige Kraft, die so lange konsumiert, bis nichts mehr da ist.
 Feuerschaden kann viele Quellen haben, vom Lagerfeuer bis zum Waldbrand, viele Zaubersprüche nutzen die Kraft des Feuers oder auch Kreaturen und Konstrukte, die Feuer spucken.
 
 Erreicht der Feuerschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Feuerschaden.
 
-[[ref_battle_damage_frost]]
-==== Frost
+[[ref_battle_damage_type_elemental_air]]
+===== Luft
 
+//TODO
+
+[[ref_battle_damage_type_elemental_water]]
+===== Wasser
+
+//TODO
+
+[[ref_battle_damage_types_aspectelemental]]
+==== Aspekt-Elementare Schadensarten
+Verbinden sich die Basiselemente, entstehen elementare Aspekte.
+Auch in diesem Fall können die Quellen für diese Arten des Schadens vielseitig sein und sowohl natürlichen und übernatürlichen Ursprung sein.
+
+Alle aspekt-elementaren Schadensarten werden immer von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] einer Kreatur abgezogen.
+
+[[ref_battle_damage_type_aspectelemental_frost]]
+===== Frost
 Eiskalt und lebensfeindlich ist der Frost.
 Er lässt sogar den Atem gefrieren und das Blut in den Adern stillstehen.
 Frost-Schaden kommt natürlicherweise in besonders kalten Gebieten vor, wie zum Beispiel die Eiswüsten nördlich von Kchrun.
 
 Erreicht der Frostschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Frostschaden.
 
-[[ref_battle_damage_acid]]
-==== Säure
+[[ref_battle_damage_type_aspectelemental_magma]]
+===== Magma
 
+//TODO
+
+[[ref_battle_damage_type_aspectelemental_acid]]
+===== Säure
 Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende Säuren oder Gase, die Materialien, wie Metalle, Textilien, Leder und auch Haut und Augen angreifen.
 Ätzende Gase werden von dieser Regel auch betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten assoziiert wird.
 Manche der Säuren gehören zum Verdauungsprozess einer Kreatur oder sind ein Abwehrmechanismus.
 
 Erreicht der Säureschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Säureschaden.
 
-[[ref_battle_damage_shock]]
-==== Schock
-
+[[ref_battle_damage_type_aspectelemental_shock]]
+===== Schock
 Schock-Schaden ist elektrisierende Energie, die durch den Körper ihrer Opfer fließt und diese lähmt.
 Typische Quellen sind Blitzschläge, natürliche, wie magische, bestimmte technomantische Spielzeuge und diverse Phänomene, die auf statischer Ladung beruhen.
 
 Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Schockschaden.
 
-[[ref_battle_damage_aether]]
-==== Aetherisch
+[[ref_battle_damage_types_magical]]
+==== Magische Schadensarten
+Diese Schadensarten haben immer magischen oder übernatürlichen Ursprung.
 
+[[ref_battle_damage_aether]]
+===== Aetherisch
 Aetherischer Schaden greif nicht den Körper des Ziels, sondern seine Verbindung zum Aether selbst an.
 Durch wird dem Opfer die Energie entzogen, die es ihm erlaubt, Zauber zu wirken.
 
 Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
 
-[[ref_battle_damage_magic]]
-==== Magie
-
-Kanalisierte, magische Energie verursacht diese Art von Schaden.
-Sehr häufig ist dies bei Zaubersprüchen der Fall und bei einigen magischen Phänomenen.
-
-Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
-
-[[ref_battle_damage_mental]]
-==== Mental
-
-Kosmisches Grauen bevölkert das Multiversum.
-Mentaler Schaden greift nicht die TP des Charakters an, sondern die Stabilitätspunkte (SP).
-Der mentale Schaden wird normal ausgewürfelt und dann von den SP abgezogen.
-
-Gegen diese Art von Schaden schützt keine normale Rüstung.
-
-[[ref_battle_damage_necrotic]]
-==== Nekrotisch
-
-Nekrotischer Schaden entsteht aus der dunkeln und lebensfeindlichen Energie von Ebon.
-Nur wenige Lebewesen überstehen Schaden aus dieser Quelle mit weniger als nur körperlichen Schaden.
-
-Gegen diese Art von Schaden schützt keine normale Rüstung.
-
-Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters,erleidet er zusätzlich 1W3 <<ref_battle_damage_mental, mentalen>> Schaden.
-
 [[ref_battle_damage_illusionary]]
-==== Illusionär
+===== Illusionär
 Mache Zaubersprüche der Zauberschule xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus] und eventuelle andere, exotischere Quellen können illusionären Schaden verursachen.
 Dieser Schaden tritt nur auf, wenn das Opfer wirklich daran glaubt, verwundet worden zu sein.
 Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_d10_system.adoc#ref_core_base_rolls_douptillusions[Illusion Durchschauen]-Probe würfeln.
@@ -1212,21 +1243,14 @@ Ist diese erfolgreich, nimmt er keinen Schaden.
 Sollte er überzeugt sein, dass er den Schaden erhält, wird eine Schadensprobe gewürfelt.
 Gegen diesen Schaden schützt keine normale Rüstung.
 
-==== Übersicht der Schadensarten
-[cols=",,,",options="header"]
-|===
-|Schadensart |Pool |Normale Rüstung schützt
-|Physisch |TP |Ja
-|Feuer |TP |Ja
-|Frost |TP |Ja
-|Säure |TP |Ja
-|Schock |TP |Ja
-|Aetherisch |MP |Nein
-|Magie |TP |Nein
-|Mental |SP |Nein
-|Nekrotisch |TP |Nein
-|Illusionär |TP |Nein
-|===
+[[ref_battle_damage_necrotic]]
+===== Nekrotisch
+Nekrotischer Schaden entsteht aus der dunkeln und lebensfeindlichen Energie von Ebon.
+Nur wenige Lebewesen überstehen Schaden aus dieser Quelle mit weniger als nur körperlichen Schaden.
+
+Gegen diese Art von Schaden schützt keine normale Rüstung.
+
+Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters,erleidet er zusätzlich 1W3 <<ref_battle_damage_type_primary_mental, mentalen>> Schaden.
 
 [[ref_battle_damageresistence]]
 === Schadensresistenz
@@ -1263,11 +1287,11 @@ Einige link:core_rules_skills.adoc[Fähigkeiten] oder manche Zaubersprüche kön
 Auch xref:core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpfte] Charaktere können Überanstrengungsschaden erleiden.
 Überanstrengungsschaden entsteht somit normalerweise durch eine bewusste Entscheidung des Charakters und selten durch äußere Einwirkung.
 
-Überanstrengungsschaden gilt als <<ref_battle_damage_physical, physischer>>, <<ref_battle_damage_inevitable, unabwendbarer>> Schaden und es gelten die üblichen Regeln.
+Überanstrengungsschaden gilt als <<ref_battle_damage_type_primary_physical, physischer>>, <<ref_battle_damage_inevitable, unabwendbarer>> Schaden und es gelten die üblichen Regeln.
 Es gilt jedoch die Ausnahme, dass Überanstrengungsschaden keine <<ref_battle_wounds, Verletzungen>> verursacht.
 Sollte ein Charakter genug Überanstrengungsschaden erhalten, um seine xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] zu übertreffen, gelten die üblichen Regeln für den <<ref_battle_knockdown, Niederschlag>>.
 
-Wie in der Beschreibung zu <<ref_battle_damage_inevitable, unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_battle_damageimmunity, Schadensimmunität>>[<<ref_battle_damage_physical, Physisch>>] abgewendet werden.
+Wie in der Beschreibung zu <<ref_battle_damage_inevitable, unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_battle_damageimmunity, Schadensimmunität>>[<<ref_battle_damage_type_primary_physical, Physisch>>] abgewendet werden.
 Kreaturen, die diese Schadensimmunität ausweisen, sind die einzigen Ausnahmen, in denen Überanstrengungsschaden nicht den Verlust von TP verursacht.
 Solche Kreaturen dürfen uneingeschränkt Fähigkeiten oder Talente (und so weiter) einsetzen, die Überanstrengungsschaden erfordern.
 

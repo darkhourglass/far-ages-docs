@@ -1,0 +1,71 @@
+= Erdbeben
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 10 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten, Zutaten (diverse Edelsteine im Wert von 10000 Silbermünzen) +
+*Fokus:* Erde +
+*Vorbereitung:* 20 +
+*Anzahl der Erfolge:* 15 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 60,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du beschwörst die schlafenden Geister der Erde und bringst sie dazu, die Erde beben zu lassen.
+Im Wirkungsbereich des Zauberbruches rumpelt und wackelt der Boden, Kreaturen verlieren ihren Halt, Risse zeigen sich in Wänden und lose Gegenstände fallen zu Boden.
+
+Kreaturen, die nicht fliegen, werden von Effekten betroffen, solange sie sich im Wirkungsbereich befinden.
+Auch Du bist vor den Effekten nicht sicher.
+Alle Effekte auf Kreaturen sind kumulativ, ein Erdbeben der Stärke 3 verursacht beispielsweise alle Effekte der Stärke 1, 2 und 3.
+
+Nach Ermessen des SL können Effekte auf Gebäude und Gegenstände ebenfalls kumuliert auftreten.
+Weiterhin kann der SL ebenso Effekte auf diese anders gestalten (sowohl verstärken als auch abschwächen), je nach Einschätzung der Umgebung.
+
+Jeder aufgeführte Schaden in Effekten auf Kreaturen entspricht einem automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Treffer] mit dem angegebenen Schaden zu Beginn der Kampfphase einer Kreatur.
+Dieser kann immer durch eine erfolgreiche xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Probe] halbiert werden.
+Die nötige Anzahl der Erfolge entspricht der Stärke des Erdbebens.
+
+Außerdem muss jede Kreatur zu Beginn ihrer Kampfphase eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_knockdown[Niederschlagsprobe] bestehen oder gehen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_onground[zu Boden].
+Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des Erdbebens.
+
+Ohne den Einsatz zusätzlicher Effekte erzeugt der Zauberspruch ein Erdbeben der Stärke 1.
+
+//TODO
+
+|===
+|Stärke des Erdbebens |Effekt auf Kreaturen |Effekt auf Gebäude |Effekt auf Gegenstände
+
+|1
+|-1 Würfe zum Erfolg
+|Column 3, row 1
+|Column 4, row 1
+
+|2
+|Halbierte BEW pro Kampfphase
+|Column 3, row 2
+|Column 4, row 2
+
+|3
+|-1 Würfe zum Erfolg, 2W6 Schaden
+|Column 3, row 3
+|Column 4, row 3
+
+|4
+|2W6 Schaden
+|Column 3, row 4
+|Column 4, row 4
+
+|5
+|-1 Würfe zum Erfolg, 2W6 Schaden
+|Column 3, row 5
+|Column 4, row 5
+
+|6
+|4W6
+|Column 3, row 6
+|Column 4, row 6
+|===
+
+
+
+*Zusätzliche Effekte:* +
++10 MP, +1 POT: Erdbebenstärke +1 (mehrfach anwendbar, maximal 6) +

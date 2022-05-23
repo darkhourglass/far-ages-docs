@@ -1,0 +1,31 @@
+= Elementare Wächterwaffe [Element]
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* speziell +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du beschwörst eine Nahkampfwaffe Deiner Wahl aus knisternder, elementarer Energie, die wenige Fuß über dem Boden schwebt und durch Deinen Willen gesteuert wird.
+
+Die Waffe passt auf Deine xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größe].
+
+Für die Dauer des Zauberspruches kannst Du einmal in Deiner Kampfphase für eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] die Wächterwaffe innerhalb des Wirkungsbereichs, einem Radius von 6,00 Metern um Dich herum, bewegen.
+Die Wächterwaffe verursacht bei dieser Bewegung keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriffe].
+Die Wächterwaffe selbst kann einmal in Deiner Kampfphase eine andere Kreatur angreifen.
+Die Angriffsprobe kann entweder mit Deinem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] gewürfelt werden.
+In jedem Fall gilt sie als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed[Nahkampfangriff].
+
+Die Wächterwaffe hat unabhängig von ihrer Erscheinung einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] von 2W8.
+
+Je nach Element, mit dem Du diesen Zauberspruch lernst, ändert sich der Fokus und die Schadensart.
+Diese kann in folgender link:../../rules/tables/magic/table_magic_elementals_and_aspects.adoc[Tabelle] entnommen werden.
+Erhält die Waffe innerhalb der Dauer des Zauberspruches 20 Schadenspunkt der gegensätzlichen, elementaren Schadensart (Feuer und Frost, Säure und Schock), löst sie sich auf und Du musst den Zauberspruch erneut wirken.
+
+*Zusätzliche Effekte:* +
++3 MP: Dauer +1 Kampfphase
++5 MP, +1 POT: Wächterwaffe hat eine Attack pro  Kampfphase mehr

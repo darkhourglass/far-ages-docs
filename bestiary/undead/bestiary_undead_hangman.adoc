@@ -1,0 +1,117 @@
+= Galgenmann
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
+* -
+* -
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+[quote, Unbekannt]
+Hans, lauf!
+
+//TODO
+
+== Attribute
+
+ST: 5 +
+GE: 2 +
+KO: 6 +
+ER: 3 +
+EN: 2 +
+SB: 1 +
+CH: 1 +
+
+== Pools
+
+TP: 90 +
+MP: 20 +
+SP: - +
+
+== Attributswerte
+
+WID: 30 +
+BEW: 9,00 +
+INI: 5 +
+MaxTL: 75 +
+MaxPOT: 6 +
+
+== Offensiv
+
+* <<ref_bestiary_hangman_execute, Exekution>>
+* <<ref_bestiary_hangman_curse_of_the_hangman, Fluch des Galgenmannes>> 7
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 10 (Zweihändiges Henkersbeil: 2W10+6)
+
+== Defensive
+
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] 8
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 6
+
+== Sonstiges
+
+* <<ref_bestiary_hangman_aura_of_doom, Aura der Verzweiflung>>
+* <<ref_bestiary_hangman_powerlevel, Machtstufe>> 6
+* <<ref_bestiary_hangman_deathknell, Todesglocke>>
+* <<ref_bestiary_hangman_unholy_toughness, Unheilige Widerstandskraft>>
+
+== Primärer Kreaturentyp
+
+Die Kreatur erhält aufgrund ihres primären Kreaturentypes folgende Fähigkeiten:
+
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 7
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Sekundäre Kreaturentypen
+
+Der Galgenmann erhält keine Fähigkeiten von seinen sekundären Kreaturentypen.
+
+== Regeln
+
+[[ref_bestiary_hangman_aura_of_doom]]
+=== Aura der Verzweiflung
+Zu Beginn seiner Kampfphase erhalten alle link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen im Radius von 3,00 Metern um den Galgenmann einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[nekrotischem] Schaden.
+
+[[ref_bestiary_hangman_execute]]
+=== Exekution
+Der Galgenmann darf eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] durchführen, um in seiner Kampfphase einen mit ihm xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Kampf gebunden] Charakter zweimal anzugreifen.
+Für diese Angriff darf er nur sein Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwenden.
+
+[[ref_bestiary_hangman_curse_of_the_hangman]]
+=== Fluch des Galgenmannes
+Der Galgenmann kann in seiner Kampfphase eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] einsetzen, um eine beliebige, link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur in seinem Sichtfeld bis 12,00 Metern mit seinem Fluch zu belegen.
+
+Dazu würfelt er eine Probe mit der angegebenen Stufe.
+Diese Probe gilt als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe], für die das Ziel einen xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Rettungswurf] würfeln darf.
+
+Für jeden Erfolg des Galgenmann erhält das Ziel nach Ablauf einer Frist von 3 Kampfphasen einen automatischen Treffer mit 1W10+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[nekrotischen] Schaden.
+
+Stirbt der Galgenmann vor Ablauf der Frist, tritt der Schaden nicht auf.
+
+[[ref_bestiary_hangman_powerlevel]]
+=== Machtstufe
+Der Galgenmann ist in Untoter der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe] 6 mit allen relevanten xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_skills[Fähigkeiten].
+
+Um einen Galgenmann zu erschaffen, muss der Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] mit passender POT verwendet werden.
+Der Nekromant benötigt außerdem den Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5 oder mehr.
+Der Leichnam muss im Leben entweder ein zum Tode verurteilter (und am Urteil verstorbener) Verbrecher gewesen sein oder selbst das Opfer eines Galgenmannes.
+Zusätzlich muss der Nekromant aus schwarzem Stoff eine passende Kapuze beziehungsweise Maske eines Galgenmannes herstellen.
+
+[[ref_bestiary_hangman_deathknell]]
+=== Todesglocke
+xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death[Stirbt] der Galgenmann, beginnt sein Körper zu zucken und Risse bilden sich auf seiner Haut.
+Ein fahles Licht beginnt aus dem Inneren seines Körpers zu leuchten und mit einem lauten Glockenschlag explodiert sein Körper.
+Halb-durchsichtige Schatten fliehen schreiend und verblassen nach wenigen Augenblicken.
+Die Überreste verbrennen zu Asche.
+
+[[ref_bestiary_hangman_unholy_toughness]]
+=== Unheilige Widerstandskraft
+Der Galgenmann besitzt die Fähigkeit link:../skills/specific/undead/bestiary_skill_unholy_toughness.adoc[Unheilige Widerstandskraft].
+Die Boni für die Machtstufe 6 sind in sein Profil eingerechnet.
