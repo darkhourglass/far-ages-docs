@@ -1,0 +1,59 @@
+= Kanone (Schwer)
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 6 - 10 +
+*Montage:* Schwer +
+*Attribute:* - +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 5 +
+*Beschreibung:* Diese Bewaffnung ist die xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_heavy[schwere Variante] der link:golems_part_weaponary_cannon.adoc[Kanone].
+Sie folgen den identischen Regeln.
+
+Schwere Kanonen können nicht auf xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_mounted_on_arms[Armen] montiert werden.
+Sie werden im Gegensatz zur regulären Kanone in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 6 bis 10 hergestellt.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus |Grundreichweite |Magazin
+
+|6
+|30.000
+|14 Tage
+|8
+|4W10
+|75,00 Meter
+|1
+
+|7
+|45.000
+|20 Tage
+|8
+|6W10
+|90,00 Meter
+|1
+
+|8
+|60.000
+|32 Tage
+|9
+|8W10
+|120,00 Meter
+|1
+
+|9
+|90.000
+|45 Tage
+|9
+|9W10
+|150,00 Meter
+|1
+
+|10
+|120.000
+|60 Tage
+|9
+|10W10
+|180,00 Meter
+|1
+|===

@@ -5,76 +5,84 @@
 |Zauberschule |Zauberspruchlisten |Anmerkungen
 
 |Alchemie
-a|
-Alchemie
-
-a|
+|Alchemie
+|
 
 |Elementarismus
-a|
-Weg der Erde +
+|Weg der Erde +
 Weg der Luft +
 Weg des Feuers +
 Weg des Wassers +
-Weg der Bewegung^1^ +
-Weg der Härte^1^ +
-Weg der Stille^1^ +
-Weg des Wachstums^1^ +
-Weg der Ungeteilten Elemente^2^ +
+|
 
-a|
-^1^ Benötigt Voraussetzung in Talentstufen +
-^2^ Benötigt Pfad des Schicksals
+|Aspektelementarismus
+|Weg der Bewegung +
+Weg der Härte +
+Weg der Stille +
+Weg des Wachstums +
+| Benötigt Voraussetzung in Talentstufen +
+
+|Elementarimus der ungeteiligen Elemente
+|Weg der Ungeteilten Elemente
+|Benötigt Pfad des Schicksals
 
 |Illusionismus
-a|
-Illusionismus +
+|Illusionismus +
 Weg der Schatten +
 Universelle Schule +
-
 |
+
 |Nekromantie
-a|
-Nekromantie +
+|Nekromantie +
 Universelle Schule +
-
 |
+
 |Schamanismus
-a|
-Schamanismus +
-Weg des Geistes +
-Weg des Körpers +
+|Schamanismus +
+Weg des Geistes* +
+Weg des Körpers* +
+| *Schamanen wählen zu Beginn des Spiels eine Liste aus
 
-|
 |Druiden
-a|
-Schule der Druiden +
-Weg der Erde +
-Weg der Luft +
-Weg des Feuers +
-Weg des Wassers +
+|Schule der Druiden +
+Weg der Erde* +
+Weg der Luft* +
+Weg des Feuers* +
+Weg des Wassers* +
+| *Druiden wählen zu Beginn des Spiels eine Liste aus
 
-|
-|Magie der Musik
-a|
-Weg der Musik |
+|Menestrel
+|Weg der Musik
+Weg des Geistes* +
+Weg des Körpers* +
+| *Menestrel wählen zu Beginn des Spiels eine Liste aus
 
 |Schattentricks
-a|
-Weg der Schatten |
+|Weg der Schatten
+|
 
-|Technomantie | * | * siehe Regeln für link:../core_rules_technomancy.adoc[Technomantie]
+|Technomantie
+| *
+| * siehe Regeln für link:../core_rules_technomancy.adoc[Technomantie]
 
-|Wilde Magie | * | * siehe Regeln für xref:../core/core_rules_magic_base.adoc#ref_magic_schools_wild_magic[Wilde Magie]
-|Runenmagie | Weg der Runen |
-|Alchemie | Universelle Schule|
+|Wilde Magie
+| *
+| * siehe Regeln für xref:../core/core_rules_magic_base.adoc#ref_magic_schools_wild_magic[Wilde Magie]
+
+|Runenmagie
+| Weg der Runen
+|
+
+|Alchemie
+|Universelle Schule
+|
+
 |Hohe Magie
-a|
-Weg der Beschwörung +
+|Weg der Beschwörung +
 Weh der Hervorrufung +
 Weg der Erkenntnis +
 Weg der Verwandlung +
 Universelle Schule +
-
 |
+
 |===

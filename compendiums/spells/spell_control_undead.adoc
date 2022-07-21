@@ -1,4 +1,4 @@
-= Untoten kontrollieren (I)
+= Untoten kontrollieren
 
 *Arkanes Geheimnis:* Nein +
 *POT:* 5 +
@@ -11,11 +11,11 @@
 *Anzahl der Ziele:* 1 Untoter +
 *Dauer:* Speziell +
 *Effekt:* Du richtest entschlossene Worte in einer fremden, arkanen Sprache Worte in Richtung eines Untoten, dem Ziel dieses Zauberspruches.
-Der Untote darf noch nicht unter Deiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_control[Kontrolle] stehen.
+Der Untote darf noch nicht unter Deiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_control[Kontrolle] stehen.
 
 Ist der Zauberspruch erfolgreich, steht der Untote für die entsprechende Dauer unter Deiner Kontrolle.
 
-Die Dauer des Effektes und ob der Untote einen Rettungswurf durchführen darf, hängt von seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_personality[Persönlichkeit] ab.
+Die Dauer des Effektes und ob der Untote einen Rettungswurf durchführen darf, hängt von seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_personality[Persönlichkeit] ab.
 Die folgende Tabelle zeigt die Übersicht.
 
 |===
@@ -43,7 +43,7 @@ Die folgende Tabelle zeigt die Übersicht.
 |===
 
 
-Mit diesem Zauberspruch können nur Untote der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe] 0 kontrolliert werden. +
+Mit diesem Zauberspruch können nur Untote der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 0 kontrolliert werden. +
 *Zusätzliche Effekte:* +
 + 2 POT: Machtstufe 1, 2 und 3 möglich
 + 3 POT: Machtstufe 4, 5 und 6 möglich

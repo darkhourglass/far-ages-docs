@@ -1,0 +1,21 @@
+= Explodierendes Flammengas
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Feuer, Luft, Metall +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* Du beschwörst instabiles Gas aus den tiefen der Maschinen von Magnet.
+Dieses explodiert im Wirkungsbereich in einem verheerenden Flammeninferno.
+
+Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
+Jeder Kreatur steht ein xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] zu.
+Besteht eine Kreatur diesen Rettungswurf, erhält sie den halbierten Schaden (abgerundet, Minimum 1). +
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Radius +1,50 Meter +
++5 MP: Schadensbonus +2W6 Feuer-Schaden +

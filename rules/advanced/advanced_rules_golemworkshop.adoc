@@ -1,0 +1,700 @@
+= Golem Werkstatt
+
+[[ref_golemworkshop_creation]]
+== Einen Golem zusammenstellen
+
+In diesem Kapitel stellen wir wie angekündigt Mittel und Wege vor, um technomantische Geräte und Konstrukte variabler und individueller darzustellen.
+Kernstück des Ganzen ist sicherlich die Konstruktion von Golems.
+Wir verallgemeinern Golems noch einen weiteren Schritt weiter und teilen das Konstrukt in seine Bestandteile auf, die modular kombiniert und ersetzt werden können.
+
+[[ref_golemworkshop_creation_description]]
+=== Allgemeine Merkmale von Golems und Konstrukten
+
+Die folgenden Beschreibungen enthalten typische Merkmale von Konstrukten und sollen dabei unterstützen, das Spielerlebnis zu gestalten.
+Golems und Konstrukte sind Maschinen, die durch Magie angetrieben werden, welche eine exzellente Vorlage für eine Mischung aus fantastischen und faux-modernen Elementen ist.
+
+In der Konstruktion arbeiten die meisten Technomanten mit verschiedenen Materialien wie Metallen oder Holz und stellen Einzelteile in großen Schmieden und Metallwerkstätten her.
+Als zusätzliche Ausschmückung für eine Beschreibung kann sich der SL weitere typische Elemente noch herausgreifen und an die jeweiligen Golems herausstellen:
+
+* *Metallischer Körper:* Im Normalfall ist der Körper eines Golems aus Metall.
+Die geschmiedeten Einzelteile bedecken die sensiblen Mechaniken im Inneren des Golems, sowie dessen magische Komponenten.
+Weiterhin stellte sich die Frage, wie diese auf dem Chassis festgemacht sind: verschweißt, genietet oder mit Bändern festgemacht?
+
+* *Hydraulik:* Wie bewegt sich ein Golem?
+Möglich sind hydraulische Elemente an den Gelenken, die dazu dienen den Golem zu bewegen und auch für einen großen Teil seiner Kraft verantwortlich sind.
+
+* *Zahnräder und Kolben:* Auch zum Teil passend zur Hydraulik sind Zahnräder und Kolben Elemente eines Golems.
+
+* *Röhren und Schläuche:* Besitzt ein Golem eventuell eine Art Kühlflüssigkeit oder ein Schmiermittel für seine Gelenke?
+Denkbar ist beides oder eine andere Anwendung für Flüssigkeit innerhalb eines Golems.
+Kupferfarbene Röhren und Schläuche (letztere aus einer gummiartigen Substanz) dienen als Transportwege.
+
+* *Dampf:* Dampf in Form von Abgasen wie auch in Form von verdampfender Kühlflüssigkeit kann das Auftreten eines Golems bestimmen.
+So könnte der Golem eine oder mehrere Röhren haben, die regelmäßig Dampf entlassen oder er könnte kleine Dampfwolken ausstoßen, wenn er bestimmte, kraftintensive Bewegungen durchführt.
+
+*Magische Komponenten und Effekte:* Die üblichen Speicher- und Verzauberungsmethoden für magische Energie und Gegenstände existieren auch in der Konstruktion von Golems.
+So sind magische Kristalle bei Golems als Energiequelle üblich.
+Diese zur Energieversorgung bestimmten Kristalle sind üblicherweise im Rumpf des Golems hinter mehreren Schichten Metall verborgen.
+Daher ist es nicht einfach möglich, die Energiequelle des Golems durch Berührung anzuzapfen, sondern man muss ein geübter Technomant sein, um die Energiequelle zu entfernen.
+Weiterhin können in Golems diverse technomantische Geräte eingebaut werden, die in ihrer Funktion den bereits Vorgestellten ähnlich sind bzw. ganz eigene, für Golems bestimmte Zwecke erfüllen.
+
+* *Körperform:* Man denkt berechtigterweise oft an große Maschinen, die eine grobe humanoide Form besitzen, jedoch können Golems auch völlig andere Formen haben.
+Die unter dem Begriff _technomantischem Konstrukt_ vorgestellten Maschinen sind im Grunde genommen alle Golems, auch wenn man mit einem Golem ein nahezu humanoides Erscheinungsbild assoziiert.
+
+[[ref_golemworkshop_creation_steps]]
+=== Schrittweise Anleitung
+
+Die generelle Idee hinter diesem Kapitel ist es, Golems einfach zusammenzustellen und vielleicht neue, interessante Kombinationen in das Spiel zu integrieren.
+Dazu teilen wir einen Golem in seiner Einzelteile auf.
+Zu diesen Einzelteilen gehört das *Chassis*, die *Energieversorgung*, die *Bewaffnung*, die *Bewegungsmöglichkeiten*, die *Panzerung* und die *Zusätze*.
+
+Jeder Golem benötigt von diesen Einzelteilen mindestens immer
+
+* ein <<ref_golemworkshop_creation_steps_chassis[Chassis] +
+* eine Option zur <<ref_golemworkshop_creation_steps_core[Energieversorgung]
+* eine Möglichkeit der <<ref_golemworkshop_creation_steps_movement, Bewegung>>
+
+Die anderen Teil sind optional.
+
+Um einen Golem zu erschaffen, sind zunächst die oben genannten, erforderlichen Einzelteile zu wählen.
+Es können natürlich auch direkt alle optionalen Einzelteile gewählt werden, wie beispielsweise die <<ref_golemworkshop_creation_steps_weaponary, Bewaffnung>>.
+
+Unter den erforderlichen Einzelteilen bestimmt das Chassis zunächst die xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] des Konstrukts.
+Von dieser hängen beispielsweise initiale <<ref_golemworkshop_steps_profile_steps, Attributsstufen>> ab.
+
+Jedes Einzelteil wird bezüglich der Konstruktion als eigenständiges xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Gerät] verstanden.
+Das bedeutet, dass der Technomant jedes Einzelteil separat herstellen muss und für jedes eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] ablegen muss.
+
+[NOTE]
+Nicht alle Einzelteile werden in allen Größenkategorien angeboten.
+Wenn eine gewünschte Kombination aus Bewaffnung, Chassis oder weiteren Einzelteilen aufgrund der GK nicht nach diesen Regeln möglich ist, kann im
+
+[[ref_golemworkshop_creation_steps_chassis]]
+==== Chassis
+
+Das Chassis dient als Grundgerüst, auf dessen Basis der Golem geschaffen wird.
+Es kann fast wie ein Massenprodukt wahrgenommen werden und es gibt typische Konventionen für diese Einzelteile.
+Torsos werden in Größenkategorien eingeteilt sind.
+Dabei sind 5 und 6 die üblichen Größenkategorien, in denen sich die Golems bewegen.
+Beispielsweise gehört ein hier vorgestellter Schlachtengolem in die GK 6, ein Großer Schlachtengolem in die GK 7.
+// TODO link
+
+Von der gewählte xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des Chassis hängen für die nachfolgenden Einzelteile ebenfalls die Größenkategorien ab.
+Dies bedeutet, wird ein Golem mit einer bestimmten GK erbaut, sind implizit alle nachfolgenden Einzelteile ebenfalls in dieser GK zu verwenden.
+
+.GK des Chassis
+====
+Erschaffst Du ein Chassis der GK 5, müssen alle weiteren Einzelteile in entsprechender GK hergestellt werden.
+Das bedeutet, dass Du beispielsweise die Bewegungsoptionen in GK 5 und die Bewaffnung in GK 5 aussuchen musst.
+Dies hat neben den Kosten zur Herstellung auch Auswirkungen auf das <<ref_golemworkshop_steps_profile, Profil>> des Golems.
+====
+
+Chassis bestimmen außerdem direkt die Anzahl möglicher <<ref_golemworkshop_creation_steps_weaponary, Bewaffnungen>> und <<ref_golemworkshop_steps_additions, Zusätze>>.
+
+[[ref_golemworkshop_creation_steps_chassis_profiles]]
+===== Darstellung der Einträge
+
+Die einzelnen Einträge für Chassis sind wie folgt aufgebaut:
+
+*Materialkosten:* Diese Kosten muss der Technomant aufwenden, um das Chassis bauen zu können.
+Üblicherweise sind die Kosten in Silbermünzen angegeben, jedoch kann es sein, dass zusätzliche Aufteilungen für spezielle Materialien aufgeführten werden.
+
+*Konstruktionszeit:* Die Arbeitszeit, die der Technomant aufwenden muss, um das Chassis zu bauen.
+
+*Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
+Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
+
+*Erfolge:* Um die Konstruktion eines Chassis abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+
+*GK:* Hier wird die GK des Chassis angegeben.
+
+*Attribute:* In diesem Teil des Eintrags werden Boni oder Mali auf Attributsstufen angegeben, die ein Golem erhält, wenn er dieses Chassis erhält.
+
+*Machtstufe:* Jedes Chassis bringt eine Basis-Machtstufe mit sich.
+Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale Machtstufe des Konstrukts bestimmen.
+
+*Bewaffnung:* Jedes Chassis kann nur eine bestimmte Anzahl von <<ref_golemworkshop_creation_steps_weaponary, Bewaffnungen>> aufnehmen.
+Ist der Zusatz *Arme* hinterlegt, die gibt die Zahl die Anzahl der Arme am Chassis an.
+Manche Bewaffnung erfordert einen freien Arm zum Einbau.
+
+*Zusätze:* Jedes Chassis kann nur eine bestimmte Anzahl von <<ref_golemworkshop_steps_additions, Zusätzen>> aufnehmen.
+Die hier angegeben Zahl gibt die maximale Anzahl dieser Zusätze an.
+
+*Beschreibung:* Dieser Abschnitt beschreibt das Chassis und kann weitere Regeln und Besonderheiten enthalten.
+
+[[ref_golemworkshop_creation_steps_core]]
+==== Energieversorgung
+
+Jeder Golem muss eine Energiezelle haben, die (üblicherweise) in das Chassis eingebaut wird.
+Sofern nicht anders angegeben, verbraucht eine Energieversorgung keine Zusätze.
+
+Eine Energiezelle ist ein ebenfalls gesondertes technomatisches Gerät, das speziell dafür konzipiert wurde, Golems mit Energie in Form von MP zu versorgen.
+link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] benötigen mindestens 1 MP, um xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:../../rules/core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
+Die Energieversorgung gilt als xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP-Pool] und hängt nicht vom xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Attribut] des Golems.
+Der Golem benutzt diese MP auch, um Fähigkeiten aus beispielsweise <<ref_golemworkshop_creation_steps_weaponary, Bewaffnung>> oder <<ref_golemworkshop_steps_additions, Zusätzen>> zu aktivieren.
+
+Ein Technomant muss diese also nach den üblichen xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Regeln] herstellen.
+Am Ende der Konstruktionszeit macht er eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] gegen die gegebene Anzahl der Erfolge.
+Es gelten die üblichen Regeln für Patzer und Misserfolge bei Technomantie-Proben.
+
+Je nach Energiezelle und xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] werden unterschiedliche Mengen an MP bereitgestellt.
+Außerdem können manche Energiezellen MP automatisch xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerieren].
+
+[[ref_golemworkshop_creation_steps_core_profiles]]
+===== Darstellung der Einträge
+
+Die einzelnen Einträge für Energiezellen sind wie folgt aufgebaut:
+
+*Materialkosten:* Diese Kosten muss der Technomant aufwenden, um diese Art der Energieversorgung bauen zu können.
+Üblicherweise sind die Kosten in Silbermünzen angegeben, jedoch kann es sein, dass zusätzliche Aufteilungen für spezielle Materialien aufgeführten werden.
+
+*Konstruktionszeit:* Die Arbeitszeit, die der Technomant aufwenden muss, um die Energiezelle zu bauen.
+
+*Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
+Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
+
+*Erfolge:* Um die Konstruktion einer Energiezelle abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+
+*GK:* Hier wird die GK der Energiezelle angegeben.
+Energiezellen haben die GK des <<ref_golemworkshop_creation_steps_chassis, Chassis>>.
+
+*MP:* Diese Angabe bestimmt die Anzahl der MP im MP-Pool dieser Energieversorgung.
+
+*MP-Regeneration:* Falls die Energiezelle eine automatische MP-Regeneration anbietet, ist hier die Anzahl der MP pro Zeiteinheit angegebenen, zum Beispiel "1 MP pro Kampfphase".
+
+*Beschreibung:* Dieser Abschnitt beschreibt die Energiezelle und kann weitere Regeln und Besonderheiten enthalten.
+
+[[ref_golemworkshop_creation_steps_weaponary]]
+==== Bewaffnung
+
+Als Bewaffnung werden meist offensive Geräte bezeichnet, die ein Golem gegen seine Feinde einsetzen kann.
+Dennoch fällt unter Bewaffnung auch eine größere Bandbreite von Ausrüstung, zum Beispiel auch das Werkzeug von Golems, die primäre für schwere Arbeiten verwendet werden (zum Beispiel Holzfäller).
+//TODO Link
+Jede Bewaffnung ist ebenfalls ein xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
+Wie viele Bewaffnungen für einen Golem montiert werden können, wird durch sein <<ref_golemworkshop_creation_steps_chassis_profiles, Chassis>> bestimmt.
+
+[[ref_golemworkshop_creation_steps_weaponary_mounted_on_arms]]
+===== Arme und Bewaffnung
+
+Insbesondere das link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Chassis in humanoider Form] (und seine Verwandten) besitzt eine explizite Angabe über eine Anzahl von *Armen*, die zur Bewaffnung verwendet werden können
+Bewaffnung kann oder muss auf einem Arm montiert werden.
+Es gilt, dass eine explizite Angabe immer bedeutet, dass die Bewaffnung auf einem Arm montiert werden muss.
+Ist keine explizite Angabe angegeben, ist die Montage auf einem Arm nicht erforderlich, aber möglich.
+Grundsätzlich kann, außer es ist durch die <<ref_golemworkshop_creation_steps_weaponary_profiles, Beschreibung>> erlaubt, jeder Arm nur eine Bewaffnung tragen.
+
+[[ref_golemworkshop_creation_steps_weaponary_heavy]]
+===== Schwere Bewaffnung
+
+Manche Bewaffnungen sind als *schwer* gekennzeichnet.
+Diese können nur auf <<ref_golemworkshop_creation_steps_chassis_profiles, Chassis>> verbaut werden, die dies explizit erlauben.
+Der Einsatz einer schweren Bewaffnung benötigt immer eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion], erfordert also den Einsatz der xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] und des xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Manövers] pro Kampfphase des Golems.
+
+[[ref_golemworkshop_creation_steps_weaponary_profiles]]
+===== Darstellung der Einträge
+
+Die einzelnen Einträge für Bewaffnungen sind wie folgt aufgebaut:
+
+*Materialkosten:* Diese Kosten muss der Technomant aufwenden, um diese Art der Bewaffnung herstellen zu können.
+Üblicherweise sind die Kosten in Silbermünzen angegeben, jedoch kann es sein, dass zusätzliche Aufteilungen für spezielle Materialien aufgeführten werden.
+
+*Konstruktionszeit:* Die Arbeitszeit, die der Technomant aufwenden muss, um die Bewaffnung zu bauen.
+
+*Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
+Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
+
+*Erfolge:* Um die Konstruktion einer Bewaffnung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+
+*GK:* Hier wird die GK der Bewaffnung angegeben.
+Bewaffnungen haben die GK des <<ref_golemworkshop_creation_steps_chassis, Chassis>>.
+
+*Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, zum Beispiel die Montage auf <<ref_golemworkshop_creation_steps_weaponary_mounted_on_arms, Armen>> oder <<ref_golemworkshop_creation_steps_weaponary_heavy, schwere Bewaffnung>>.
+
+*Attribute:* Manche Bewaffnungen gewähren Boni auf Attributsstufen, zum Beispiel +1 ST.
+
+*Talente:* Viele Bewaffnungen lassen den Golem zur Verwendung xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talente] einsetzen.
+Diese Angabe listet das mit dieser Bewaffnung gelernte Talent und die passende Talentstufe an.
+Die xref:../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talentstufe] enthält noch keine Berücksichtigung der xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attributeroles[Attributsstufe] des Golems.
+Die Angabe eines Talents bedeutet immer, dass die Angriffsprobe für diese Bewaffnung mit diesem Talent gewürfelt werden muss und damit üblicherweise eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] ist.
+
+*Beschreibung:* Dieser Abschnitt beschreibt die Bewaffnung und kann weitere Regeln und Besonderheiten enthalten.
+
+[[ref_golemworkshop_creation_steps_movement]]
+==== Bewegungsoptionen
+
+Jede Golem benötigt eine Möglichkeit zur Fortbewegung.
+Unter den Begriff *Bewegungsoptionen* fallen beispielsweise Beine, aber auch andere Fortbewegungsmöglichkeiten wie zum Beispiel Räder oder Raupen.
+Außergewöhnlichere Varianten findet man in unwegsamen Gelände, wo Golems auf sechs spinnenartigen Beinen beispielsweise steile Berghänge erklettern.
+
+Analog zu anderen Einzelteilen ist auch eine Bewegungsoption ein xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
+Die Größenkategorie einer Bewegungsoption, die einen Golem montiert wird, wird durch die seinens <<ref_golemworkshop_creation_steps_chassis_profiles, Chassis>> bestimmt.
+
+[[ref_golemworkshop_creation_steps_movement_profiles]]
+===== Darstellung der Einträge
+
+*Materialkosten:* Diese Kosten muss der Technomant aufwenden, um diese Art der Bewegungsmöglichkeit herstellen zu können.
+Üblicherweise sind die Kosten in Silbermünzen angegeben, jedoch kann es sein, dass zusätzliche Aufteilungen für spezielle Materialien aufgeführten werden.
+
+*Konstruktionszeit:* Die Arbeitszeit, die der Technomant aufwenden muss, um die Bewegungsmöglichkeit zu bauen.
+
+*Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
+Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
+
+*Erfolge:* Um die Konstruktion einer Bewegungsmöglichkeit abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+
+*GK:* Hier wird die GK der Bewegungsmöglichkeit angegeben.
+Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis, Chassis>>.
+
+*Bewegungsmodifikator:* Der Golem erhält den angegebenen Bonus oder Malus auf seine xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+
+*Bewegungsmodus:* Bei dieser Angabe handelt es sich um die Art, wie sich der Golem fortbewegt.
+Die Angabe _Standard_ deutet, dass alle üblichen Regeln gelten.
+Andere Angaben entsprechen der jeweiligen Fähigkeit, zum Beispiel link:../../bestiary/skills/bestiary_skill_move_swim.adoc[_Schwimmen_].
+
+*Beschreibung:* Dieser Abschnitt beschreibt der Bewegungsmöglichkeit und kann weitere Regeln und Besonderheiten enthalten.
+
+[[ref_golemworkshop_creation_steps_plating]]
+==== Panzerung
+
+Golems sind bereits robuste Konstrukte.
+*Panzerungen* können dies noch verstärken.
+Diese werden primär auf dem <<ref_golemworkshop_creation_steps_chassis, Chassis>> montiert, schützen jedoch den gesamten Körper des Golems.
+Üblicherweise schützt Panzerung wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_armor[Rüstung] auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen], sofern nicht anders angegeben.
+Eine Panzerung muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
+
+[[ref_golemworkshop_creation_steps_plating_heavy]]
+===== Schwere Panzerung
+
+Als *schwer* gekennzeichnete Panzerung muss analog zur <<ref_golemworkshop_creation_steps_weaponary_heavy, Bewaffnung>> auf ein passendes <<ref_golemworkshop_creation_steps_chassis, Chassis>> montiert werden.
+
+[[ref_golemworkshop_creation_steps_plating_profiles]]
+===== Darstellung der Einträge
+
+*Materialkosten:* Diese Kosten muss der Technomant aufwenden, um die Panzerung herstellen zu können.
+Üblicherweise sind die Kosten in Silbermünzen angegeben, jedoch kann es sein, dass zusätzliche Aufteilungen für spezielle Materialien aufgeführten werden.
+
+*Konstruktionszeit:* Die Arbeitszeit, die der Technomant aufwenden muss, um die Panzerung zu bauen.
+
+*Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
+Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
+
+*Erfolge:* Um die Konstruktion einer Panzerung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+
+*GK:* Hier wird die GK der Panzerung angegeben.
+Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis, Chassis>>.
+
+*Rüstungsschutz:* bietet die Panzerung xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_armor[Rüstung], ist die in Form von Punkten angegeben
+
+*Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_plating_heavy, schwere Panzerung>>.
+
+*Beschreibung:* Dieser Abschnitt beschreibt der Panzerung und kann weitere Regeln und Besonderheiten enthalten.
+
+[[ref_golemworkshop_steps_additions]]
+==== Zusätze
+
+*Zusätze* sind ein freier Pool.
+Man kann diese Punkte beliebig verteilen und kombieren und für jede Einzelteilgruppe verteilen.
+Diese Punkte stellen kleine, von den “großen” Einzelteilen abhängige, Module dar, die auf die Funktionen des Golems erweitern.
+So zum Beispiel kann ein Schlachtengolem auf seinen Axtarm einen kleinen Flammenwerfer tragen.
+Dabei kann auf jeden Arm nur ein solcher Zusatz mit der Größe des Arme geteilt durch zwei montiert werden.
+Es kann insgesamt ein Zusatz für das Beinpaar mit der ebenfalls halbierten Größe montiert werden.
+Auf den Torso passen bis zu drei Zusätze, deren Punktesumme nicht größer sein darf als das Maximum in dieser Kategorie.
+
+Die *Konstruktion des Torsos* verläuft nicht anders als die Konstruktion eines anderen technomantischen Konstruktes.
+Die obere Tabelle gibt die wichtigen Eckdaten an.
+Materialkosten müssen vom Technomanten erbracht werden.
+Nach der Konstruktionszeit muss er einen Technomantie-Probe gegen die gegebene Anzahl der Erfolge ablegen.
+Patzer und Misserfolge folgen den üblichen Regeln.
+Im Falle eines Patzer kann das Ergebnis jedoch nicht so ausfallen, dass das Konstrukt Amok läuft: schließlich hat es zu dem Zeitpunkt noch keine Energieversorgung.
+
+Wie in den vorhergehenden Abschnitten schon erwähnt, gibt es die Möglichkeit einen Golem sehr individuell zu gestalten.
+Die sogenannten Modifikationen stellen diese Möglichkeit dar.
+Eine Modifikation wird im Endeffekt wie ein eigenständiger technomantischer (manchmal auch magischer) Gegenstand behandelt, der von einem Technomanten hergestellt wird und dann in einen Golem eingebaut wird.
+Daher werden Modifikationen wie Technomantische Geräte behandelt.
+
+Im link:../../compendiums/technomancy/compendium_technomancy_modifications.adoc[Kompendium Technomantischer Modifikationen] findet sich eine umfangreiche Liste, in der die Modifikationen aufgelistet sind.
+
+
+[[ref_golemworkshop_creation_steps_additions_heavy]]
+===== Schwere Zusätze
+
+// chassis must allow heavy
+
+[[ref_golemworkshop_steps_additions_profiles]]
+===== Darstellung der Einträge
+
+Jeder Eintrag ist mit dem Namen der Modifikation überschrieben und es folgt eine Beschreibung des Eintrages.
+
+Zusätzlich dazu finden sich bei jedem Eintrag folgende Felder:
+
+*Materialkosten:* wie bei Technomantischen Geräten
+
+*Konstruktionszeit:* wie bei Technomantischen Geräten
+
+*Zaubersprüche:* wie bei Technomantischen Geräten
+
+*Erfolge:* wie bei Technomantischen Geräten
+
+*Kategorie:* gibt an, wo die Modifikation eingebaut wird, also von welchem Pool letztendlich die Konstruktionspunkte abgezogen werden.
+Die Kategorien sind Arme, Beine und Zusätze.
+
+*Konstruktionspunkte:* gibt an, wie viele Konstruktionspunkte vebraucht werden
+
+*Einbau:* Anzahl der Erfolge, die bei einer Technomantie-Probe benötigt werden, um die Modifikation in den Golem einzubauen
+
+*Preis:* wie bei Technomantischen Geräten
+
+Während der Konstruktion der Modifikation gelten die üblichen Regeln für die Konstruktion Technomantischer Geräte.
+Eine fertige Modifikation muss dann noch in den Golem installiert werden.
+Dazu muss der Technomant eine Technomantie-Probe gegen die Anzahl der Erfolge unter dem Eintrag Einbau würfeln.
+Besteht er sie, so wurde die Modifikation erfolgreich installiert und der Golem kann sie (aktiv oder passiv) benutzen.
+Ein Misserfolg oder ein Patzer folgt den üblichen Regeln.
+
+// TODO
+[[ref_golemworkshop_steps_profile]]
+=== Profil eines Golems
+
+Ein Golem-Torso besitzt abhängig von seiner GK ein Standardprofil, das durch Materialien oder Modifikationen verändert wird.
+
+[[ref_golemworkshop_steps_profile_size]]
+==== Größe und Gewicht
+
+Folgende Tabelle zeigt die Größe und das Gewicht eines Golems basierend auf seiner GK.
+Die Größe ist dabei bezogen auf eine Dimension des Golems (also Höhe, Länge oder Breite).
+Diese Angabe beschreibt die größte Ausdehnung dieses Golems in eben diese Dimension.
+
+[cols=",,",options="header"]
+|===
+|Größenkategorie
+|Größe (eine Dimension)
+
+{empty}[Meter]
+
+|Gewicht
+
+{empty}[Kilo]
+
+|1 |0,20 |4
+|2 |0,60 |14
+|3 |0,80 |25
+|4 |1,20 |67
+|5 |2,00 |130
+|6 |3,30 |320
+|7 |5,50 |570
+|8 |9,00 |1890
+|9 |18,00 |2450
+|10 |26,00 |4690
+|===
+
+[[ref_golemworkshop_steps_profile_steps]]
+==== Attributsstufen
+
+[cols=",,,,,,,",options="header"]
+|===
+|Größenkategorie
+|GE
+|ST
+|KO
+|ER
+|EN
+|SB
+|CH
+|1 |10 |2 |2 |4 |- |- |-
+|2 |10 |4 |4 |4 |- |- |-
+|3 |10 |8 |8 |4 |- |- |-
+|4 |10 |12 |12 |4 |- |- |-
+|5 |10 |16 |16 |4 |- |- |-
+|6 |8 |20 |20 |4 |- |- |-
+|7 |6 |24 |24 |4 |- |- |-
+|8 |4 |34 |34 |4 |- |- |-
+|9 |4 |48 |48 |4 |- |- |-
+|10 |4 |65 |65 |4 |- |- |-
+|===
+
+Ein Konstrukt besitzt üblicherweise keine EN-, SB- oder CH-Werte.
+Für genauere Erläuterungen siehe in der Dokumentensammlung Bestiarium unter Konstrukte.
+//TODO Link
+
+[[ref_golemworkshop_steps_profile_secondary]]
+==== Attributseigenschaften
+
+Abhängig von seiner GK hat der Golem Attributseigenschaften, die aus der folgenden Tabelle entnommen werden können.
+
+[cols=",,,,,,,,,,,",options="header"]
+|===
+| Größenkategorie
+|BEW |INI | MTL |WID |RegW |MagW |Max-POT |TP |MP |SP
+|1 |4,50 |7 | 240 |14 |- |- |- |26 |- |-
+|2 |7,50 |7 | 280 |14 |- |- |- |52 |- |-
+|3 |7,50 |7 | 360 |16 |- |- |- |94 |- |-
+|4 |9,00 |7 | 440 |18 |- |- |- |136 |- |-
+|5 |10,50 |7 | 520 |20 |- |- |- |178 |- |-
+|6 |12,00 |6 | 700 |22 |- |- |- |220 |- |-
+|7 |15,00 |5 | 780 |24 |- |- |- |262 |- |-
+|8 |19,50 |4 | 680 |30 |- |- |- |352 |- |-
+|9 |25,50 |4 | 960 |36 |- |- |- |474 |- |-
+|10 |34,50 |4 | 1300 |46 |- |- |- |620 |- |-
+|===
+
+Die Attributseigenschaften in der oberen Tabelle entsprechen angepassten Berechnungsmethoden für Golems, da Konstrukte eine deutlich bessere und robustere “Bauweise” gegenüber Humanoiden haben.
+
+[NOTE]
+====
+Der SL kann die für die Attributseigenschaften MTL, WID und TP wie folgt nachrechnen (andere Attributseigenschaften ergeben sich nach den üblichen Formeln):
+
+MTL = ST*20 + 200
+
+WID = (Ergebnis durch KO) + 6
+
+TP = (ST+KO)*4+GK*10
+====
+
+[[ref_golemworkshop_steps_profile_talents]]
+==== Talentstufen
+
+Jeder Golem besitzt initialie Fähigkeiten, die seine Aufgaben beschreiben.
+Auch wenn Golems nicht wie lebende Kreaturen lernen, so werden seine Fähigkeiten durch Talentstufen beschrieben.
+Diese ergeben sich aus seiner Programmieren, die wiederum durch die Kombination eines Protokolles und des Modus beschrieben wird.
+Aus dieser Kombination ergibt sich, welche Talente der Golem besitzt und auf welchen Stufen.
+Die Stufen sind von der Größenkategorie unabhängig.
+
+Die Stufen werden wie folgt bestimmt:
+
+[cols=",",options="header"]
+|===
+|Modus |Talentstufe
+|Starr |3
+|Flexibel |4
+|Improvisation |5
+|===
+
+Zu diesen Talentstufen kommen die üblichen Basisstufen, die sich aus den Attributswerten des Golems ergeben, hinzu.
+Besitzt er keinen Attributswert zu einem Talent, so kann er nur mit seinen Talentstufen darauf würfeln.
+
+Anhand des Protokolles ergeben sich nun die verfügbaren Talente:
+
+[cols=",,,",options="header"]
+|===
+|Kämpfer
+|Wächter
+|Arbeiter
+|Steuerung
+a|
+Hieb Ausweichen
+
+Nahkampfwaffen^1^
+
+Projektilwaffen^1^
+
+Unbewaffneter Kampf^2^
+
+a|
+Hieb Ausweichen
+
+Nahkampfwaffen^1^
+
+Parade
+
+Projektilwaffen^1^
+
+Schildverteidigung^3^
+
+Unbewaffneter Kampf^2^
+
+|Handwerk^4^ a|
+Beobachten
+
+Handwerk^4^
+
+Technomantisches Gerät Benutzen^5^
+
+|===
+
+^1^alle Golemwaffen (durch Modifikationen erhalten) gelten als Schwere
+Waffen und jeder Golem hat pro Waffe ein Talent.
+
+^2^trägt der Golem keine Waffe, so greift er mit diesem Talent an.
+
+^3^gilt nur, wenn der Golem einen Schild (durch Modifikationen erhalten) trägt.
+
+^4^Das Handwerk, welches der Golem ausführen soll: meistens abhängig von seinen Modifikationen.
+
+^5^gilt nur, wenn der Golem ein technomantisches Gerät steuert oder überwacht und dann nur auf Dieses.
+
+Bestimmte Modifikationen können die Talentstufen eines Golems erhöhen oder ihm sogar neue Talente zur Verfügung stellen.
+Die Talentstufen dieser Talente ergeben sich nach beschriebenen Regeln.
+
+
+[[ref_golemworkshop_programming]]
+== Einen Golem programmieren
+
+Dieser Abschnitt stellt die Regeln für die typischen technomantischen Konstrukte vor, die von den Technomanten hergestellt werden.
+Eine ausführliche Sammlung von Konstrukten findet sich im link:../../compendiums/technomancy/compendium_technomancy_constructs.adoc[Kompendium Technomantischer Konstrukte].
+
+Alle Konstrukte besitzen wie Geräte die Einträge *Materialkosten*, *Konstruktionszeit*, *Zaubersprüche*, *Erfolge* und *Preis*.
+Diese Einträge sind auch identisch zu behandeln.
+Der Punkt Benutzung entfällt, da Konstrukte nur auf Befehle ihrer Befehlshaber reagieren oder durch bestimmte Zauber aus der Zauberliste der Technomantie.
+
+*Protokoll und Modus:* Dieser Eintrag gibt die Kombination aus dem Protokoll und dem Modus an.
+
+*Programmierungschwierigkeit*: Dieser Eintrag gibt die nötige Gesamtanzahl der Erfolge an, die ein Technomant erreichen muss, um den Golem mit der aus Protokoll und Modus entstehenden Komplexität zu programmieren.
+
+
+Jedes Konstrukt besitzt ein Protokoll und einen Modus.
+Ein Protokoll besteht aus einer Reihe von Befehlen, die das Konstrukt durchführen darf.
+Modi hingegen bestimmen, wie stark das Konstrukt an sein Protokoll gebunden ist bzw. wie genau der Technomant bei dessen Programmierung gewesen ist.
+Ein Modus beschreibt daher, wie gut und flexibel ein Konstrukt auf besondere Situationen reagieren kann.
+
+Protokolle könnten durch Zaubersprüche wie Konstrukt Programmieren (Technomantie 9) geändert werden.
+Der SL kann zulassen, dass die Änderung der Protokolle bezüglich einer bestimmten Tätigkeit geändert werden können.
+Eine einzelne Anwendung des Zaubers kann jedoch nicht den Modus ändern.
+Wenn also der Technomant eine Programmänderung im Protokoll verursacht, die nicht zum Modus des Golems passt, kann es passieren, dass der Golem den Befehl ignoriert.
+Die genaue Auslegung sollte dem SL überlassen sein und von Situation zu Situation angepasst werden.
+Der SL kann erlauben, dass sich der Modus nach mehreren, gezielen Programmänderungen verändert werden kann.
+
+
+[[ref_golemworkshop_programming_programm]]
+=== Programm
+
+// <> Protokol: Kämpfer, Wächter...
+
+
+==== Protokoll: Kämpfer, Komplexität: 4
+
+Das Kämpferprotokoll ist auf einen offensiven Kampfstil ausgelegt und findet sich meist in Konstrukten, die für den direkten Angriff konzipiert wurden.
+Konstrukte mit diesem Protkoll nutzen ihre Waffen und ihr Kampfpotenzial möglichst effizient gegen alle Gegner aus.
+Weiterhin sind Kämpfer in der Lage auf Angriffe, die gegen sie gerichtet sind, angemessen zu reagieren.
+Ein Kämpfer kann außerdem erkennen, welche Ziele er angreifen soll und welche nicht.
+Typischerweise sind solche Ziele und Nicht-Ziele als Beschreibungen im Protokoll verhanden.
+In der Regel sind diese Beschreibungen sehr einfach.
+Entscheidend ist ihre Genauigkeit.
+“Greife alle Diener von Lord Farrow an” ist nicht sehr genau, da ein Golem dies nicht unterscheiden kann.
+“Greife niemand in roter Kleidung an.” oder “Greife niemandem mit diesem Wappen auf der Kleidung an” ist genau genug, schützt jedoch vor Verwechselungen nicht.
+
+Kämpfer können außerdem komplexe, für Kampfhandlungen notwendige Befehle verstehen, so zum Beispiel: “Zerstöre die Artilleriestellung auf dem Hügel und greife dann die Bogenschützen in roter Kleidung von hinten an.”
+
+==== Protokoll: Wächter, Komplexität: 4
+
+Konstrukte mit dem Wächterprotokoll sind denen mit Kämpferprotokoll nicht unähnlich, jedoch sind sie viel stärker defensiv eingestellt.
+Eine typische Anwendung für Wächter ist die Verteidigung eines Bereiches, einer Person oder eines Gegenstandes.
+Dabei können Wächter meistens sehr komplexe Verteidiungsstrategien unterstützen.
+So ist es durchaus legitim, dass Wächter selbstständig die Sicherheitsbestimmungen eines schutzbefohlenen Objektes überprüfen und je nach Sicherheitsverletzung unterschiedlich reagieren.
+Beispielsweise könnte ein Wächtergolem bei einer offensichtlichen Übermacht zurerst Verstärkung alamieren, während er bei einfachen Zielen diese selbst übernimmt oder er meldet verdächtige Aktivitäten (so könnte die Veränderung eines Raumes schon ausreichen).
+
+Wächter können wie Kämpfer darauf programmiert werden, bestimmte Personen anhand von äußerlichen Merkmalen zu unterschieden, so dass sie bei der Bewachung ignoriert werden.
+
+==== Protokoll: Arbeiter, Komplexität: 5
+
+Das Arbeiterprotokoll ist im Vergleich zu dem Kämpfer- und Wächterprotokoll ähnlich komplex gestrickt.
+Tatsächlich beruhen Arbeiter auch auf Kämpfern und Wächtern, allerdings wurden ihre kämpferischen Fähigkeiten gelöscht, um durch die ebenso aufwändigen Arbeitsprozesse ersetzt zu werden.
+Jedes Arbeiterprotokoll ist einzigartig bzw. indiviuell für eine bestimmte Art von Arbeitsgolem geschrieben worden.
+Daher können beispielsweise Erntegolems nichts mit dem Arbeitsprotokoll von Holzfällergolems anfangen.
+
+Arbeiter reagieren nicht auf Angriffe und können sich bestenfalls rudimentär verteidigen.
+Außerdem können sie nicht willentlich andere angreifen.
+Einprogrammierte Angriffs- oder Verteidigungsbefehle können durchaus unbeachtet bleiben, wenn dem Golem die Ausstattung dazu fehlt.
+
+Ein spezielles Arbeitsprotokoll enthält immer alle nötigen Befehle, um die für jeweilige Arbeit nötigen Vorgänge komplett abzuwickeln.
+Üblicherweise sind Arbeiter in der Lage unterschiedliche Arbeitsbedingungen zu erkennen und in bestimmten Fällen entscheiden, welches Arbeitsgerät besser geeignet ist.
+So könnte beispielsweise ein Bergwerksgolem erkennen, wann er sich vorwärts graben kann und wann er zuerst Schutt aus dem Weg räumen muss.
+
+==== Protokoll: Steuerung, Komplexität: 6
+
+Konstrukte mit dem Steuerungsprotokoll sind Maschinen, die dazu programmiert sind, andere Maschinen oder Fahrzeuge zu steuern.
+Sie sind hochspezialisiert und sind meistens nur für die eine Aufgabe konstruiert und nicht für andere programmierbar.
+Die Gründe, warum solche Maschinen hergestellt werden, sind, dass die Maschinen genauer und auch unermüdlicher als Humanoide.
+Ein gutes Beispiel dafür sind die Segellosen Schiffe, in denen auch solche programmierten Maschinen eingebaut sind, die feinste Nuancen im Kesseldruck messen und regulieren können.
+
+Einige geschickte Technomanten nutzen Steuerungsprotokolle auch, um Golems bestimmte Routineaufgaben zu übertragen, die durch die anderen Protokolle nicht geregelt sind.
+So könnte ein entsprechend ausgerüsteter Golem eine regelmäßige Patroillie durch das Labor eines Magier halten und diverse Verzauberungen aufrecht erhalten, in dem er magische Zutaten aus einem Regal heraus nimmt und diese in entsprechende Zauberergefäße füllt.
+
+[[ref_golemworkshop_programming_mode]]
+=== Modus
+
+// Starr, Flexibel...
+
+
+==== Modus: Starr, Komplexität: 2
+
+Ein Konstrukt in diesem Modus folgt seiner Programmierung stur und ist fast durch nichts davon abzubringen.
+Neue Situationen, die nicht im Protokoll abgefangen werden, kann das Konstrukt mehr schlecht als recht innerhalb seiner normalen Funktion meistern – meistens gar nicht.
+Dieser Modus wird oft verwendte, wenn klar ist, dass das Konstrukt nicht viele neue spontane Herausforderungen haben wird.
+Typischerweise agiert ein Konstrukt mit diesem Modus sehr viel eher wie eine Maschine.
+
+==== Modus: Flexibel, Komplexität: 4
+
+Ein Konstrukt in diesem Modus kann sich auf neue Situationen innerhalb seine Arbeitsgebietes einfacher einstellen.
+Es kann beispielsweise verschiedene Produktionsabläufe auf neue, unbekannte Materialien anwenden.
+Außerdem kann es ohne Programmieränderung auf ähnliche Arbeitsabläufe umgestellt werden und auch innerhalb der vorgesehenen Arbeit diese anwenden.
+Das Konstrukt kann außerdem erkennen, dass ein Arbeitsablauf zur Zeit nicht möglich ist, beispielsweise könnte ein Holzfällergolem erkennen, dass er kein Metall durchsägen kann, auch wenn man ihm ein Metallstück als Holz unterschiebt.
+
+Allerdings bietet dieser Modus weiterhin keine anwendungsfremden Aktionen.
+
+==== Modus: Improvisation, Komplexität: 8
+
+Als für einen Technomanten am schwersten zu programmierenden Modus ist der der Improvisation.
+Ein Konstrukt mit dieser Modus ist schon beinahe als selbstständiges Wesen anzusehen, auch wenn es ihm an Intuition und Gefühl mangelt.
+Das Konstrukt vermag im Gegensatz zu dem Modus: Flexibel auch anwendungsfremde Situationen neu zu interpretieren.
+So ist es durchaus möglich, dass der bereits öfters erwähnte Holzfällergolem mit diesem Modus in der Lage wäre, sein Protokoll so zu nutzen, dass er zum Angriff übergehen könnte.
+
+Inwiefern ein Konstrukt seine Arbeitsmethoden für anwendungsfremde Aktionen verwenden kann, liegt in der Veranwortung des SL.
+Logischerweise können Konstrukte nicht über ihre gegebenen Möglichkeiten hinauswachsen, es ist also unmöglich einem Konstrukt das Schwimmen beizubringen, wenn seine Konstruktion diese Tätigkeit nicht zulässt.
+
+[[ref_golemworkshop_programming_complexity]]
+=== Komplexität
+
+Einem Golem oder anderen Konstrukten ein Programm zu geben, ist in zwei Situationen möglich: zum einen bei der Konstruktion durch einen Technomanten und zum anderen durch den Zauberspruch Konstrukt Programmieren (Technomantie 9).
+
+In der ersten Situation ist die einzige Voraussetzung, dass der Konstrukteur das Programm festlegt.
+Dieses besteht aus den bereits vorgestellten Protokollen und Modi.
+Nach der Konstruktionsprobe (die Technomantie-Probe, die die Anzahl von Erfolgen erreichen muss, um das Konstrukt fertigzustellen) muss der Technomant für Konstrukte mit Programmierung zusätzlich eine Technomantie-Probe ablegen, die die Programmierung darstellt.
+
+Scheitert diese Probe, so ist das Konstrukt nicht funktionsfähig, denn es hat kein funktionierendes Programm.
+Ist die Probe gar ein Patzer, so haben sich schwerwiegende Fehler, Paradoxien und Logikbrüche in die Programmierung eingeschlichen.
+Diese führen zum Amoklauf des Konstruktes.
+
+Beide Missgeschicke führen zu der zweiten Möglichkeit, ein Konstrukt zu programmieren, denn sie ist die einzige Möglichkeit ein Konstrukt nach dessen Erschaffung noch zu beeinflussen: die Anwendung des Zauberspruches Konstrukt Programmieren (Technomantie 9).
+
+In jedem Fall bestimmt sich die Anzahl der Erfolge für die Technomantie-Probe aus folgenden drei Faktoren:
+
+* *Grundkomplexität:* Jedes Konstrukt besitzt eine individuelle Grundkomplexität für seine Programmierung.
+Diese hängt von den Erfolgen ab, die es zur Konstruktion benötigt.
+Sie beträgt diese Zahl geteilt durch 2 (abgerundet, Minimum 1).
+
+* *Protokollkomplexität:* Jedes Protokoll hat eine eigene Komplexität.
+
+* *Moduskomplexität:* Wie jedes Protokoll hat auch jeder Modus seine eigene Komplexität.
+
+Die Addition dieser drei Werte ergibt die nötigte Anzahl der Erfolge für die erfolgreiche Programmierung bzw. Umprogrammierung.
+Dabei muss für jeden Programmierversuch immer die volle Komplexität berechnet werden, auch wenn beispielsweise nur eine Komponente (z.B. nur der Modus) geändert werden soll.
+
+.Programmierschwierigkeit
+====
+Ein Technomant möchte einen Wächtergolem umprogrammierten, der zur Zeit das Protokoll Wächter mit dem Modus Starr besitzt.
+Er möchte den Modus auf Flexibel ändern.
+Dazu betrachtet der Technomant die Grundkomplexität.
+Da ein Wächtergolem 9 Erfolge benötigt, um konstruiert zu werden, ist die Grundkomplexität 4.
+Das Protokoll Wächter bleibt erhalten, muss allerdings dennoch neuprogrammiert werden, da der Modus geändert wird.
+Dies sind also weitere 4 Erfolge.
+Der Modus Flexibel erfordert weitere 4 Erfolge.
+Insgesamt ergeben sich also 4+4+4=12 benötigte Erfolge.
+====
+
+==== Befehlshaber
+
+Jedes technomantische Konstrukt wird üblicherweise mit einem (oder mehreren) Befehlshaber verbunden.
+Ein Befehlshaber ist ein Humanoid, der dem Konstrukt bestimmte Befehle geben kann, die es dann befolgt.
+Dabei muss der Befehlshaber die Befehle aussprechen, sich in adequater Reichweite befinden (maximal 12 Meter vom Konstrukt entfernt) und das Konstrukt muss diese verarbeiten können.
+Üblicherweise sind diese Befehle einfache Worte.
+Jedes Konstrukt versteht einige typische Befehle und natürlich spezielle Befehle, die aus seiner Aufgabe resultieren.
+
+Das Konstrukt ist auf besondere Weise mit dem Befehlshaber verbunden und kann ihn identifizieren, ohne dass dieser ein bestimmtes Erkennungsmerkmal tragen muss.
+Das Konstrukt wird weiterhin nicht gegen den Befehlshaber vorgehen, selbst wenn dieser ein Zeichen an sich trägt, dass ihn als “Feind” identifizieren würde: bei obrigen Beispiel im Kampfprotokoll könnte der Befehlshaber also einen roten Wambs tragen und der Golem würde ihn nicht angreifen.
+
+Jedes Konstrukt versteht den Befehl seines aktuellen Befehlshaber, einen neuen Befehlshaber zu akzeptieren.
+
+// require rolls

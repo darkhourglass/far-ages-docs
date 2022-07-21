@@ -1,0 +1,22 @@
+= Konstrukt reparieren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Metall im Wert von 2000 Silbermünzen +
+*Fokus:* Metall +
+*Vorbereitung:* 6 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
+*Dauer:* Sofort +
+*Effekt:* Du berührst ein Konstrukt und das Metall in Deinen Händen verschmilzt mit diesem.
+Dadurch erhält das Konstrukt bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] sofort 2W6 xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP].
+Das Konstrukt erhält durch diesen Zauberspruch jedoch nie mehr als seine maximalen TP.
+
+Du kannst auch ein Konstrukt reparieren, das 0 TP erreicht hat.
+Erreicht dieses dadurch einen Wert von größer als 0 in TP, so kann es normal agieren.
+Es steht dadurch nicht unter Deiner Kontrolle.
++
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: +2W6 TP zusätzlich repariert

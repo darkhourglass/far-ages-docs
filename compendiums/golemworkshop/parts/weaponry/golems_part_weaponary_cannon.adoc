@@ -1,0 +1,67 @@
+= Kanone
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 4 - 8 +
+*Montage:* - +
+*Attribute:* - +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 5 +
+*Beschreibung:* Eine Kanone ist eine üblicherweise auf oder als Arm montierte Waffe, die durch einen starken Schub ein Geschoss abfeuert.
+In manchen Varianten werden Kanonen auch anders montiert.
+Viele Kanonen besitzen ein ähnliches Aussehen in Form eines Rohrs, welches die Geschosse lenkt und eine Vorrichtung zum Abfeuern und Nachladen vorsieht.
+
+Golems setzen die Kanone wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_ranged_combat[Projektilwaffe] mit dem Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] ein.
+
+Die Technomanten stellen mechanische Kanonen in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 4 bis 8 her.
+Von dieser hängen die Werte wie folgt ab:
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus |Grundreichweite |Magazin
+
+|4
+|9.000
+|4 Tage
+|5
+|1W10
+|45,00  Meter
+|5
+
+|5
+|12.000
+|6 Tage
+|6
+|2W6
+|60,00 Meter
+|5
+
+|6
+|15.000
+|10 Tage
+|7
+|2W10
+|75,00 Meter
+|7
+
+|7
+|22.000
+|14 Tage
+|8
+|4W6
+|90,00 Meter
+|9
+
+|8
+|30.000
+|18 Tage
+|9
+|4W10
+|120,00 Meter
+|11
+|===
+
+Da die Kanone eine rein mechanischen Konstrukt ist, besitzt der Golem nur eine begrenzte Zahl an Schüssen, bevor das Magazin leer ist.
+Diese Anzahl ist in der Spalte Magazingröße angegeben.
+Ist das Magazin leer, muss es ersetzt werden.
+Ein Technomant oder Charakter mit dem Talent xref:../../../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie] kann dies einfach vornehmen.

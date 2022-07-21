@@ -1,0 +1,99 @@
+= Elementare Kanone
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* siehe Beschreibung +
+*Erfolge:* siehe Beschreibung +
+*GK:* 3 - 7 +
+*Montage:* - +
+*Attribute:* +1 EN +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 5 +
+*Beschreibung:* Elementare Kanonen statten Golems mit einer typischen, technomantischen Bewaffnung aus, die Technik und elementare Magie kombiniert.
+Elementare Kanonen feuern Geschosse aus elementarer Energie ab.
+Diese haben in Vergleich zu konventioneller Munition den Vorteil, dass sie kein Magazin erfordern, sondern direkt aus der xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] erzeugt werden.
+
+Im Vergleich zu mechanischen Kanonen besitzen elementare Kanonen ein ungewöhnlicheres Aussehen.
+Die meisten Modelle besitzen einen länglichen, spitz zu laufenden Aufsatz aus einem kupferfarbenen Metall.
+Kleine Aufbauen und Leitungen verbinden den Vorderteil über den Kanonenlauf mit magischen Kristallen oder dem Golem direkt.
+Subtil knistert elementare Magie in den Komponenten der Kanone.
+
+Jede elementare Kanone wird mit einem der vier Basis-Elemente (Erde, Feuer, Luft, Wasser) hergestellt.
+Dieses Element bestimmt die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] und die benötigten Zaubersprüche.
+
+|===
+|Element |Schadensart |Zauberspruch
+
+|Erde
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erde]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde] 5
+
+|Feuer
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers] 5
+
+|Luft
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft] 5
+
+|Wasser
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_water[Wasser]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers] 5
+|===
+
+Die Angabe der Zaubersprüche referenziert hier nicht auf einen konkreten Zauberspruch, sondern auf eine Zauberspruchliste mit einer erforderlichen Stufe.
+FÜr die Herstellung einer elementaren Kanone reicht daher ein beliebiger Zauberspruch aus der passenden Liste, der die angegebene Stufe mindestens erreicht.
+
+Wurde eine elementare Kanone mit einem bestimmten Element hergestellt, kann dieses nicht mehr geändert werden.
+
+Elementare Kanonen sind Vergleich zu link:golems_part_weaponary_cannon.adoc[Kanonen] komplizierter herzustellen und werden daher für kleinere Golems in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 3 bis 7 hergestellt.
+Folgende Tabelle zeigt die von der GK abhängigen Werte:
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus |Grundreichweite |Kosten
+
+|3
+|12.000
+|8 Tage
+|5
+|2W6
+|30,00  Meter
+|3 MP
+
+|4
+|15.000
+|12 Tage
+|6
+|2W6
+|45,00 Meter
+|5 MP
+
+|5
+|22.000
+|18 Tage
+|7
+|2W10
+|60,00 Meter
+|5 MP
+
+|6
+|30.000
+|24 Tage
+|8
+|4W6
+|75,00 Meter
+|7 MP
+
+|7
+|40.000
+|32 Tage
+|9
+|4W10
+|100,00 Meter
+|10 MP
+|===
+
+Der Schadensbonus hat immer die Schadensart des gewählten Elements.
+Der Golem setzt die elementare Kanone wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_ranged_combat[Projektilwaffe] ein.
+Neben der üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion], die eine Attacke pro Kampfphase erfordert, muss der Golem die angegebenen Kosten in Form von 5 MP einsetzen.
+
+

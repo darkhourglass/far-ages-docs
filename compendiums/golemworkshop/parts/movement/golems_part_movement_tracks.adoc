@@ -1,0 +1,90 @@
+= Ketten
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 1 - 10 +
+*Bewegungsmodifikator:* siehe Beschreibung +
+*Bewegungsmodus:* Standard (siehe <<ref_golems_part_movement_tracks_rules, Regeln>>) +
+*Beschreibung:* Kettenfahrzeuge sind eine Weiterentwicklung von link:golems_part_movement_wheels.adoc[Rädern], die einige der Nachteile ausgleichen soll.
+Kettenfahrzeuge sind deutlich besser für schwieriges Gelände geeignet und können besser schwere Bewaffnung führen.
+Dies bezahlen sie jedoch mit verringerter Beweglichkeit.
+
+Für Golems mit dieser Bewegungsoption gelten außerdem die untengenannten <<ref_golems_part_movement_wheels_rules, Regeln>>.
+
+Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 zur Verfügung und von dieser abhängig ergeben sich die folgenden Werte:
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Bewegungsmodifikator
+
+|1
+|20.000
+|4 Tage
+|4
+|+1,50 Meter
+
+|2
+|24.000
+|5 Tage
+|4
+|+1,50 Meter
+
+|3
+|28.000
+|8 Tage
+|5
+|+3,00 Meter
+
+|4
+|32.000
+|10 Tage
+|6
+|+6,00 Meter
+
+|5
+|36.000
+|13 Tage
+|6
+|+6,00 Meter
+
+|6
+|40.000
+|16 Tage
+|7
+|+6,00 Meter
+
+|7
+|45.000
+|21 Tage
+|7
+|+9,00 Meter
+
+|8
+|50.000
+|28 Tage
+|8
+|+9,00 Meter
+
+|9
+|65.000
+|32 Tage
+|10
+|+12,00 Meter
+
+|10
+|90.000
+|40 Tage
+|12
+|+12,00 Meter
+|===
+
+[[ref_golems_part_movement_tracks_rules]]
+== Regeln für Fortbewegung durch Ketten
+
+In folgenden Punkten unterscheidet sich Fortbewegung durch Ketten von den Standardregeln:
+
+* Bewegung durch xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände] ist für Kettenfahrzeuge einfacher.
+Sie verlieren nur ein Viertel ihre BEW bei der Bewegung durch schwieriges Gelände.
+* Kettenfahrzeuge bewegen sich sehr schwerfällig (wenn auch oft unaufhaltsam).
+Setzt ein Golem mit Rädern das Manöver xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_move_useBEW[Rennen] oder xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions_sprint[Sprinten] ein, muss er sich entscheiden, ob er nach den üblichen Regeln nur geradeaus bewegt, oder ob er ein xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] einsetzt, um sich um bis zu 90 Grad zu drehen.

@@ -97,7 +97,7 @@ Stirbt der Galgenmann vor Ablauf der Frist, tritt der Schaden nicht auf.
 
 [[ref_bestiary_hangman_powerlevel]]
 === Machtstufe
-Der Galgenmann ist in Untoter der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe] 6 mit allen relevanten xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_skills[Fähigkeiten].
+Der Galgenmann ist in Untoter der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 6 mit allen relevanten xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[Fähigkeiten].
 
 Um einen Galgenmann zu erschaffen, muss der Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] mit passender POT verwendet werden.
 Der Nekromant benötigt außerdem den Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5 oder mehr.

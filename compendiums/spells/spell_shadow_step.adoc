@@ -1,0 +1,31 @@
+= Schattenschritt
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein (siehe Beschreibung) +
+*Komponenten:* Formel +
+*Fokus:* Schatten +
+*Vorbereitung:* 1 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* Selbst (siehe Beschreibung) +
+*Dauer:* Sofort +
+*Effekt:* Du fokussierst Deinen Geist auf eine entfernte Position und findest den kürzeren Weg durch den Schatten zu diesem.
+Dein Wille beugt den physischen Raum dem Schatten und lässt Dich die Distanz in einem Augenblick überbrücken.
+
+Als Ziel wählst Du eine beliebige, freie Position innerhalb der Reichweite.
+Diese Position muss für Dich vollständig sichtbar sein und darf nicht besetzt sein, zum Beispiel durch eine andere Kreatur oder durch Gegenstände.
+Du musst Platz haben.
+
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] verschwindest Du an Deiner aktuellen Positionen in einem Riss in der Realität und erscheinst an der Zielposition.
+Alle an Deinem Körper getragenen oder in Deinen Händen gehaltenen Gegenständen kommen mit.
+
+Du darfst diesen Zauberspruch als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] zaubern, jedoch halbiert sich die Reichweite.
+Es werden zuerst alle zusätzlichen Effekt berechnet und dann halbiert (abgerundet, Minimum 1,50 Meter).
+
+Du darfst diesen Zauberspruch auch als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] zaubern.
+In diesem Fall darfst Du eine beliebige Kreatur mitnehmen, die Du berühren kannst und deren xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] gleich oder geringer Deiner eigenen GK ist.
+Die Anzahl der Ziele ändert sich auf "Selbst und Berührung".
+Der Kreatur steht ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] zu, um dies zu verhindern. +
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Reichweite +3,00 Meter +

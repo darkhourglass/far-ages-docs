@@ -2,24 +2,128 @@
 
 // TODO Beschreibung
 
+[[ref_elemenatal_touched_requirements]]
 == Voraussetzungen
 
-== Attribute
+Die Kreatur darf nicht bereits einen der folgenden primäre Kreaturentypen haben:
 
-== Talente
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc.adoc[Dämon]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar]
 
-== Fähigkeiten
+Mit Erhalt dieser Schablone muss für die Kreatur ein Element gewählt werden.
+Jedes Element verändert die Kreatur indiviuell und bietet verschiedene Fähigkeiten.
+Diese Entscheidung ist endgültig und kann nicht nachträglich geändert werden.
+
+Es stehen folgende Elemente zur Verfügung.
 
 [[ref_template_elemental_touched_earth]]
-=== Erd-berührt
+=== Erd-berührt (Dao)
+Verbunden mit den Bergen, Felsen und den Wurzeln der Erde fühlen Erd-Berührte eine Mischung aus Stoischkeit und Ewigkeit.
+
+Viele Erd-Berührte besitzen wenig bis keine Haare oder Fell.
+Ihre Haut besitzt die unterschiedlichen Schattierungen von Erde und scheint rauer zu sein als sonst üblich für sein Volk.
+Wenige Erd-Berührte manifestieren auch extremere Zeichen ihrer Herkunft, wie kleine Kristalle, Adern aus Metallen oder seltenen Erzen oder versteinerte Stellen auf ihrer Haut.
+
+Erd-Berührte fühlen sich am wohlsten, wenn sie mit beiden Beinen (oder mehr) die Erde berühren, auch wenn sie von anderer Seite her andere Arten der Fortbewegung mitbringen.
+
+* *Haut/Fell:* Braun, Grau, Tiefgrün, Erd- und Sandfarben +
+* *Haare/Fell:* wie bei Haut, jedoch meist kahl +
+* *Augen:* Milchig-trüb, Bernstein, Smaragd, Topaz +
+* *Besondere oder seltene Merkmale:* Geruch nach frischer Erde, kristalline Wüchse +
 
 [[ref_template_elemental_touched_fire]]
-=== Feuer-berührt
+=== Feuer-berührt (Efreet)
+Stürmisch und hitzig wie ihr Element bewegen sich die Feuer-Berührten durch das Leben.
+Ihre Persönlichkeit ist aktiv und glühend, so wirkt ein Feuer-Berührter größer und lebendiger als andere.
+Feuer-Berührte fühlen alle Emotionen besonders intensiv und leben diese manchmal selbstzerstörerisch aus.
+
+Ein Feuer-Berührter ist oft von weit her durch sein auffälliges Aussehen zu erkennen.
+Maßgeblich ist dabei die leuchtende Kolorierung ihrer Haut (oder Felle) und Haare.
+Wie eine Flamme in unterschiedlichen Schattierungen von Weiß, Gelb, Orange und Rot flackert, variieren die Haut- und Fellfarben der Feuer-Berührten des Multiversums.
+Ebenso, falls der Feuer-Berührte über dieses besitzt, tendiert das Kopfhaar zu einem mähnenartigen Wuchs heller Farben.
+Nur wenige Feuer-Berührte entwickeln anstelle der leuchtenden Farbe eine schwarze, verbrannte Asche ähnlicher Farbe.
+Ebenso in wenigen Fällen manifestieren sich echte Flammen am Körper des Feuer-Berührten.
+
+* *Haut/Fell:* Gelb bis Rot Schattierungen, Asche +
+* *Haare/Fell:* wie Haut sowie Schwarz und dunkle Farben +
+* *Augen:* Schwarz, Rubin, Orange +
+* *Besondere oder seltene Merkmale:* Feuer-Manifestierungen, glühende Adern, feiner Geruch nach Schwefel +
 
 [[ref_template_elemental_touched_air]]
-=== Luft-berührt
+=== Luft-berührt (Dschinn)
+Distanziert wie die Wolken zum Boden und dennoch energetisch wie ein Wirbelwind erscheinen Luft-Berührte ihren Mitmenschen.
+Oft richtet sich Ihr Blick in die Höhe, um die Wolken zu betrachten oder dem Wind zu lauschen.
+Dabei scheinen Sie mal verträumt und ruhig, mal sehnsüchtig oder gar melancholisch.
+Gerade Luft-Berührte, die nicht fliegen können, scheinen mit dem Leben am Boden und Beinen zur Fortbewegung zu hadern.
+
+Luft-Berührte fallen im Vergleich zu anderen Elementar-Berührten weniger oft durch extreme, äußerliche Eigenschaften auf.
+Bis auf außergewöhnliche Färbung von Haut, Haaren und Augen sind ihre elementaren Besonderheiten eher subtil.
+So haben Luft-Berührte oft außergewöhnlich reine und glatte Haut und sehr glattes, wallendes Haar (oder Fell) und sind von graziler Statur.
+Viele Luft-Berührte ähneln einem sehr attraktiven Vertreter des Volks ihrer sterblichen Seite.
+
+* *Haut/Fell:* helle Blautöne und dunklere Pastellfarben +
+* *Haare/Fell:* Schattierungen in Weiß, Silber, Blau oder Grün +
+* *Augen:* Blau, Grün, Silber +
+* *Besondere oder seltene Merkmale:* - +
 
 [[ref_template_elemental_touched_water]]
-=== Wasser-berührt
+=== Wasser-berührt (Marid)
+Von allen Elementar-Berührten tendieren Wasser-Berührte am ehesten dazu, als Sonderling zu gelten (noch mehr als für jemanden mit einem Elementar in der Verwandtschaft).
+Dies liegt an ihrer verschlossenen und scheuen Natur wie auch an ihr der häufigen Ausbildung sehr auffälliger Äußerlichkeiten.
 
+Wasser-Berührte bilden oft neben der Färbung in dunkle Wassertöne auch matritime Merkmale aus.
+Diese können von Schuppen wie bei einem Fisch anstelle von Haut bis zu Verwachsungen, die an Muscheln oder Knorpel erinnern.
+
+* *Haut/Fell:* Tiefe Blau- und Grüntöne, Grau- und Silberschattierungen +
+* *Haare/Fell:* wie bei Haut, meist heller oder kahl +
+* *Augen:* Milchig-trüb, Grün bis Blau, Grau- bis Schwarzschattierungen +
+* *Besondere oder seltene Merkmale:* feiner Geruch nach Salzwasser oder Algen, kleine Mengen Wasser können auch der Haut sammeln, Algen oder Muscheln wachsen auf der Haut, Haut hat schuppige Struktur oder ist leicht durchsichtig +
+
+[[ref_elemenatal_touched_attributes]]
+== Attribute
+
+Elementar-berührte erhalten folgende Attributsmodifikatoren basieren auf Ihrem Element:
+
+* Erd-berührt: +1 ST, -1 ER +
+* Feuer-berührt: +1 EN, -1 SB +
+* Luft-berührt: +1 CH, -1 KO+
+* Wasser-berührt: +1 GE, -1 CH +
+
+[[ref_elemenatal_touched_talents]]
+== Talente
+
+Elementar-berührte lernen keine speziellen Talente.
+Eventuell lernst Du Talente aufgrund der Fähigkeit <<ref_elemenatal_touched_skill_secrets_of_the_elemental_spheres, Geheimnisse der elementaren Sphären>>, jedoch abhängig von Deinem Element und Machtstufe.
+
+[[ref_elemenatal_touched_skills]]
+== Fähigkeiten
+
+[[ref_elemenatal_touched_skill_secrets_of_the_elemental_spheres]]
+=== Geheimnisse der elemantaren Sphären
+Elementar-Berührte besitzen ein besonderes, instinktives Wissen über die Natur der elementaren link:../../bestiary/elementals/bestiary_elementals_manifest.adoc[Manifeste] und ihrer Heimat, der xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_lore_spheres_elementals[elementaren Sphären].
+
+Besitzt Du eine Machtstufe, zum Beispiel weil Dein primärer Kreaturentyoe xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_dragons_rules_powerlevel[Drache] ist, so besitzt Du ein gleichen Fähigkeiten eines link:../../bestiary/elementals/bestiary_elementals_manifest.adoc[Manifeste] Deines korrespondieren Elements mit halber Machtstufe (abgerundet, minimal 1).
+
+.Geheimnisse der elemantaren Sphären
+====
+Ein Drache der Machtstufe 8 erhält diese Schablone mit dem Element Wasser.
+Er erhält damit die Fähigkeiten eines elementaren Wasser-Manifests der Machtstufe 4.
+====
+
+Besitzt Du keine Machtstufe, weil weder Dein primärer oder sekundärer Kreaturentyp dies enthält, so erhälst Du die Fähigkeiten eines Manifests Deines korrespondieren Elements der Machtstufe 1.
+
+[[ref_elemenatal_touched_skill_animal_affinity]]
+=== Verbundenheit mit Tieren
+Elementar-Berührte bewegen sich auf dem Grad zwischen zwei Welten: der physikalischen, natürlichen Welt und der ursprünglichen Elementarsphäre.
+Dies ermöglicht Ihnen eine ungewöhnliche Verbundenheit mit ihrer Umgebung, insbesondere mit den Tieren.
+
+Du kannst für den Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft] einsetzen, um ein Tier in Schichtweite zu verstehen.
+Bei einem Erfolg erfährst Du Intentionen, Pläne und die Gefühlslage des Tiers.
+Dies geschieht auf einer rein instinktiven Ebene, Du kannst mit dem Tier selbst keine Informationen austauschen.
+Du musst das Talent nicht beherrschen, um diese Fähigkeit nutzen zu können.
+
+Im Ermessen des SL kann diese Fähigkeit nur auf bestimmte Tiere wirken, die mit Deinem Element assoziiert werden, zum Beispiel könnte ein <<ref_template_elemental_touched_water, Wasser-Berührter>> nur Tiere, die im Wasser leben, damit beeinflussen können.
+
+[[ref_elemenatal_touched_cp]]
 == CP
+100

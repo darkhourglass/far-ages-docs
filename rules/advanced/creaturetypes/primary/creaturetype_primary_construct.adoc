@@ -1,3 +1,110 @@
 = Konstrukte
 
+[[ref_constructs_rules]]
 == Regeln
+
+Im folgenden Abschnitt werden die besonderen Regeln für alle Kreaturen mit diesem Kreaturentyp vorgestellt.
+
+Konstrukte sind an ehesten zu verstehen als Maschinen, die vergleichsweise unabhängig agieren können.
+Sie sind stark, robust und werden nie müde.
+Dennoch sind sie eingeschränkt in ihren Aktionen.
+Die wenigsten Konstrukte können auch nur ansatzweise als Individuum oder als frei bezeichnet werden.
+
+[[ref_constructs_rules_creation]]
+=== Konstrukte erschaffen
+
+Konstrukte sind keine lebenden Kreaturen, die in der natürlichen Welt vorkommen oder in diese geboren werden.
+Andere Kreaturen stellen für unterschiedlichste Zwecke Konstrukte her.
+
+Allen voran stehen die link:../../../core/professions/core_professions_technomancer.adoc[Technomanten], deren Konstrukte auch als Golems bezeichnet werden.
+Golems werden nach bestimmten Regeln gebaut, die im folgenden xref:../../../core/core_rules_technomancy.adoc#ref_technomancy_creating_constructs[Kapitel] detailliert beschrieben sind.
+
+Konstrukte können auch anderen Ursprung haben, beispielsweise durch Magier erschaffen werden.
+In diesem Fall gilt der Vorgang als xref:../../../core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_talent[magischen Gegenstand erschaffen].
+
+Trotz ihres unterschiedlichen Ursprungs und Natur werden alle Konstrukte nach denselben Regeln behandelt.
+
+[[ref_constructs_rules_powerlevel]]
+=== Machtstufen
+
+Konstrukte besitzen wie link:creaturetype_primary_undead.adoc[Untote] Machtstufen, die als Zahl ab 0 gemessen werden.
+Je höher eine Machtstufe ist, umso mächtiger, flexibler und üblicherweise auch gefährlicher ist das Konstrukt.
+
+Machtstufen bestimmen außerdem, wie gut Effekte oder Zaubersprüche auf Konstrukte wirken.
+
+[[ref_constructs_rules_powerlevel_zero]]
+==== Machtstufe 0
+Die Machtstufe 0 gilt dabei als niedrigste Stufe und stellt dabei die einfachsten und am wenigsten komplexe Konstrukte dar.
+
+[[ref_constructs_rules_powerlevel_nonexistant]]
+==== Konstrukte ohne Machtstufe
+In seltenen Ausnahmefällen existieren Konstrukte ohne Machtstufe.
+Diese Konstrukte folgen, sofern nicht anders angegeben, den üblichen Regeln für Konstrukte, jedoch sind sie gegenüber allen Effekten und Zaubersprüchen immun, die auf Konstrukte abzielen, die eine explizite Machtstufe erfordern.
+Beispielsweise trifft dies den Zauberspruch link:../../../../compendiums/spells/spell_control_construct.adoc[Konstrukt kontrollieren] zu, der Konstrukte abhängig von ihrer Machtstufe kontrollieren kann.
+
+// TODO link
+Beispiele für Konstrukte ohne explizite Machtstufe sind Konstrukte, die durch andere Kreaturen direkt gesteuert werden, wie Magierträger oder gar link:../secondary/creaturetype_secondary_living.adoc[lebendig] sind, wie link:../../../core/races/core_races_effigies.adoc[TBA].
+
+[[ref_constructs_rules_controll_and_behavior]]
+=== Kontrolle und Verhalten
+
+Im Gegensatz zu link:creaturetype_primary_undead.adoc[Untoten] besitzen Konstrukte keine xref:creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_personality[Persönlichkeiten] (oder eher das Potential dazu), sondern ihr Verhalten wird ausschließlich durch ihr xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programm] bestimmt.
+Dieses Programm wird im Normalfall durch einen Technomanten (beziehungsweise den Erschaffer des Konstrukts) bei der Konstruktion festgelegt und kann auch unter Umständen nachträglich geändert wird.
+
+Solange ein Konstrukt ein solches Programm besitzt, wird es aktiv dieses Programm verfolgen.
+Ein Konstrukt benötigt dabei keine explizite Kontrolle, wie die meisten Untoten.
+Dennoch können Konstrukte durch den Einsatz passender Zaubersprüche oder magischen Gegenstände durch andere Kreaturen kontrolliert werden, auch entgegen ihres Programms.
+
+[[ref_constructs_rules_mishaps]]
+=== Fehlfunktionen
+
+Konstrukte sind immun gegenüber xref:../../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunden und Verletzungen], so als besäßen sie die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
+Verliert ein Konstrukt jedoch genug TP, um seine xref:../../../core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID] zu übertreffen, nach regulären Regeln die Voraussetzung für eine Wunde, so erleidet das Konstrukt stattdessen eine *Fehlfunktion*.
+
+Zur Ermittlung dieser Fehlfunktion wird zuerst die Differenz zwischen der WID des Konstrukts und des erlittenen Schadens aus der betreffenden Attacke berechnet.
+Das Ergebnis bestimmt die Auswirkung der Fehlfunktion nach folgender link:../../../tables/table_constructs_mishaps.adoc[Tabelle].
+
+.Fehlfunktion
+====
+Ein Konstrukt eine WID von 14.
+Es erhält durch eine einzelne Attacke 18 Schadenspunkte.
+Somit beträgt die Differenz 4.
+Es tritt somit die Fehlfunktion im Eintrag 3-4 auf.
+====
+
+[[ref_constructs_rules_general_rules]]
+=== Allgemeine Regeln
+In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Konstrukte von anderen Wesen abweichen.
+
+* Alle Konstrukte sind gegen die Effekte folgender Proben immun, d.h. sie bestehen diese Proben automatisch:
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
+* Konstrukte sind gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
+Beispielsweise kann kein Konstrukt verspottet werden oder zur Raserei gezwungen werden.
+* Konstrukte sind immun gegenüber folgenden xref:../../../core/core_rules_d10_system.adoc#ref_core_conditions[Situationen] im Kampf:
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
+* Konstrukte verlieren nie SP oder werden wahnsinnig.
+* Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
+Konstrukte können TP nur Reparatur regenerieren oder durch entsprechende Zaubersprüche wie link:../../../../compendiums/spells/spell_repair_construct.adoc[Konstrukt reparieren].
+Konstrukte regenerieren MP nicht automatisch, außer sie besitzen eine passende xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
+* Die Reduzierung auf 0 TP oder 0 MP deaktiviert Konstrukte im Normalfall sofort.
+Es gelten daher nicht die Regeln aus dem Kapitel xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_death[Tod].
+Ein Konstrukt mit 0 TP oder 0 MP gilt als besiegt.
+* Konstrukte erhalten aus ihrem xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Attribut] nicht zwangsläufig xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP], sondern besitzen eine xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
+
+[[ref_constructs_rules_skills]]
+=== Fähigkeiten
+Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
+
+* link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+

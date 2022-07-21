@@ -1,1 +1,32 @@
 = Schleime
+
+[[ref_ooze_rules]]
+== Regeln
+
+[[ref_ooze_rules_fluid_body]]
+=== Flüssiger Körper
+
+* Bei der Bewegung durch xref:../../../core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände] verliert ein Schleim keine xref:../../../core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+
+[[ref_ooze_rules_general_rules]]
+=== Allgemeine Regeln
+In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Schleime von anderen Wesen abweichen.
+
+* Alle Schleime sind gegen die Effekte folgender Proben immun, d.h. sie bestehen diese Proben automatisch:
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
+* Schleime sind gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
+Beispielsweise kann kein Schleim verspottet werden oder zur Raserei gezwungen werden.
+* Schleimen sind immun gegenüber folgenden xref:../../../core/core_rules_d10_system.adoc#ref_core_conditions[Situationen] im Kampf:
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_blind[Blind]
+** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_held[Gefangen / Gehalten]
+
+[[ref_ooze_rules_skills]]
+=== Fähigkeiten
+Alle Schleime erhalten automatisch alle hier aufgelisteten Fähigkeiten.
+
+* link:../../../../bestiary/skills/bestiary_skill_blindsense.adoc[Blindsinn] mit einer Reichweite von 30,00 Metern, falls nicht anders angegeben
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+* link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]

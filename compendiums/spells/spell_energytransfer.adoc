@@ -1,0 +1,35 @@
+= Energietransfer
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 3 +
+*Rettungswurf:* Ja* +
+*Komponenten:* Geste +
+*Fokus:* Geist +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* speziell +
+*Dauer:* Sofort +
+*Effekt:* Mit diesem Zauberspruch überträgst Du magische Energie von einer Quelle auf eine andere.
+Die Anwendung liegt meistens in der Wartung von magischen oder technomantischen Gegenständen.
+Manche geschickten Zauberer nutzen diesen Zauberspruch jedoch auch offensiv.
+
+Du wählst zwei Ziele innerhalb der Reichweite des Zauberspruches aus folgenden Optionen:
+
+* Du selbst +
+* ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_base_items_with_mp_magicalitems[magischer]  Gegenstand mit MP-Speicher +
+* ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_base_items_with_mp_technomanticalitems[technomatischer] Gegenstand mit MP-Speicher (wenn dieser Zauberspruch mit dem Talent xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie] gewirkt wird) +
+* ein magischer xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_base_items_with_mp_storage[Kristall mit MP] +
+* ein technomantisches Konstrukt oder Golem mit MP
+
+//TODO Link to technomancy contructs and golems
+
+Danach bestimmst Du, welches Ziel dem anderen Ziel MP übertragen soll.
+Ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] ist dann erlaubt, wenn Du ein Konstrukt oder einen Gegenstand, der in den Händen einer anderen Kreatur gehalten wird (und diese die Übertragung nicht erlauben möchte).
+
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] überträgst Du gemäß Deiner Festlegung von einem Ziel zum anderen 1W8 xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP].
+Du kannst nicht mehr MP von der Quelle auf das Ziel übertragen, als die Quelle bietet.
+Du kannst dem Ziel nicht mehr MP übertragen, als es in seinem Pool aufnehmen kann.
++
+*Zusätzliche Effekte:* +
++1 POT: +1W8 MP übertragen

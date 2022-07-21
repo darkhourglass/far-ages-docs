@@ -1,1 +1,18 @@
-= Scheusale
+= Scheusal
+
+Die Kategorie der Scheusale umfasst eine scheinbar endlose Menge an Kreaturen, die unterschiedlicher nicht sein können.
+Scheusale haben einzig gemein, dass sie keines natürlichen Ursprungs sind (ohne dabei beispielsweise ein link:creaturetype_primary_construct.adoc[Konstrukt] oder ein link:creaturetype_primary_undead.adoc[Untoter]) zu sein.
+Ob als Ergebnis eines fehlgeschlagenen Experiments, dem Zusammenspiel wilder Magie oder der richtigen Sternenkonstellation, Scheusale haben keinen festen Platz im Multiversum.
+Im Vergleich zu den genannten Beispielen sind Scheusale mit link:creaturetype_primary_animal.adoc[Tieren] und link:creaturetype_primary_humanoid.adoc[Humanoiden] zu vergleichen.
+Allerdings sind ihre Anatomie und Lebensweisen bestenfalls exotisch, wenn nicht direkt absurd und verstörend.
+
+Scheusale sind jedoch nicht zwangsläufig individuelle Kreaturen, die durch einzigartige Umstände diesen zweifelhaften Kreaturentyp erlang haben, sondern können auch wie eine normale Spezies existieren, beispielsweise sich fortpflanzen oder gar Zivilisationen bilden.
+Dennoch teilen Scheusale im Allgemeinen nicht das Blut eines xref:../../../../lore/general/nature_of_the_muliverse.adoc#ref_lore_general_progenitors[Progenitors].
+
+[[ref_abominations_rules]]
+== Regeln
+
+Für Scheusale gelten alle Regeln, bis auf die folgenden Ausnahmen:
+
+* Scheusale erhalten immer, wenn sie mindestens 1 xref:../../advanced_rules_corruption.adoc#ref_corruptions_rules_receive_corruptionpoints[Korruptionspunkt] aus einer beliebigen Quelle erhalten, einen weiteren Korruptionspunkt extra.
+Sie müssen jedoch nie eine xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_horror[Horror-Probe] ablegen, wenn sie einen Korruptionspunkt erhalten (siehe xref:../../advanced_rules_corruption.adoc#ref_corruptions_rules_corruptionspoints[Auswirkungen von Korruktionspunkten]).

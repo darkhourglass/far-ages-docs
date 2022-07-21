@@ -804,7 +804,7 @@ Somit dauert die Benommenheit noch eine Kampfphase auf Stufe 1 an.
 === Bewegungsunfähig
 Ein bewegungsunfähiger Charakter hat eine effektive BEW-Rate von 0, die nicht weiter modifiziert werden kann.
 Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] durchführen, solange diese keine BEW erfordern.
-Der Zustand endet üblicherweise nach Ablauf das verursachenden Effekts.
+Der Zustand endet üblicherweise nach Ablauf des verursachenden Effekts.
 
 [[ref_core_condition_blind]]
 === Blind
@@ -906,9 +906,9 @@ Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm
 
 [[ref_core_condition_frenzy]]
 === Rasend
-
+//TODO
 Rasend kann nicht mit <<ref_core_condition_bewitched, verzaubert>> kombiniert werden.
-Sollte ein rasender Charakter den Zustand Verzaubert erreichen, schlägt dieser automatisch fehl.
+Sollte ein rasender Charakter den Zustand <<ref_core_condition_bewitched, verzaubert>> erreichen, schlägt dieser automatisch fehl.
 
 [[ref_core_condition_disabled]]
 === Kampfunfähig

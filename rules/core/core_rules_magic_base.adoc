@@ -802,7 +802,9 @@ Die Vorbereitung beginnt mit der ersten Kampfphase und endet in der Letzten inkl
 
 Es ist möglich die Anzahl für die Vorbereitung zu verkürzen.
 Dies kostet zusätzliche MP.
-Nur wenn die Vorbereitung das Kürzel \(R) enthält, welches für *Ritual* steht, so ist die Verkürzung nicht möglich.
+
+[[ref_magic_rules_spellcasting_spellspecifics_preparation_rituals]]
+Nur wenn die Vorbereitung die Angabe *Ritual* enthält, so ist die Verkürzung nicht möglich.
 In diesem Fall können auch Zeitangaben, wie zum Beispiel "1 Stunde" angegeben sein.
 Der Zauberer muss die Zeit am Stück einsetzen, an deren Ende die Spruchzauberei-Probe steht.
 Sofern nicht anders angegeben, muss er es von vorne beginnen, sollte er die Zeit nicht am Stück einsetzen können.
@@ -810,7 +812,7 @@ Ein unterbrochenes Ritual führt nicht zum Verbrennen.
 
 [[ref_magic_rules_spellcasting_spellspecifics_successes]]
 *Anzahl der Erfolge*:
-Dies ist die benötigte Anzahl an Erfolgen, die der Charakter mit seinem Talent Spruchzauberei benötigt, um den Zauber korrekt zu wirken.
+Dies ist die benötigte Anzahl an Erfolgen, die der Charakter in seiner Spruchzauberei-Probe benötigt, um den Zauber korrekt zu wirken.
 
 [[ref_magic_rules_spellcasting_spellspecifics_range]]
 *Reichweite*:
@@ -828,7 +830,7 @@ Zaubersprüche, die eine *Reichweitenangabe* und als *Anzahl der Ziele* 1 besitz
 
 [[ref_magic_rules_spellcasting_spellspecifics_targets]]
 *Anzahl der Ziele:*
-Die Anzahl der Ziele ist im Allgemeinen eine Zahl.
+Die Anzahl der Ziele ist im Allgemeinen eine Zahl und eine Angabe der erlaubten Ziele (zum Beispiel 1 Kreatur).
 Innerhalb der Reichweite des Zauberspruches kann der Magier daher entsprechend viele Ziele durch eine Zauberwirkung anvisieren.
 Sofern nicht anders angegeben, erfordert das Auswählen eines Ziels immer direkte Sicht.
 
@@ -840,10 +842,11 @@ Der *Radius* mit einer Größenangabe in Metern wird von einem Mittelpunkt, der 
 Der *Kegel* beginnt in Front des Magiers.
 Pro 1,50 Meter erhöht sich der Kegel in gerader Linie von seinem Ursprung um jeweils eine Reihe von Feldern.
 
-Die *Linie* beginnt in Front des Magiers und belegt alle 1,50x,1,50 Kacheln bis zum Ende der Angabe in Metern.
+Die *Linie* beginnt in Front des Magiers und belegt alle 1,50 x 1,50 Kacheln bis zum Ende der Angabe in Metern.
 
-Alle angegebenen Ziele innerhalb dieser Flächen werden von dem Effekt des Zauberspruches getroffen.
-Dabei wird grundsätzlich keine Unterscheidung zwischen Freund und Feind gemacht.
+Üblicherweise bezeichnet die Fläche den *Wirkungsbereich* des Zauberspruches.
+Es werden immer alle Ziele von dem Effekt des Zauberspruches getroffen, wenn sie sich in diesem Bereich befinden.
+Dabei wird grundsätzlich keine Unterscheidung zwischen Freund und Feind gemacht, außer dies wird explizit erwähnt.
 Das bedeutet, dass ein Feuerball, in dessen Wirkungsfläche ein oder mehr Verbündete des Magiers, erfasst werden, genauso von seinem Effekt betroffen sind.
 Ebenso ist es möglich, dass der Zauberer selbst von dem Effekt betroffen sein kann, wenn er innerhalb der Wirkungsfläche steht, wenn der Effekt greift.
 Ausschließlich eine explizite Ausnahme in der Beschreibung des <<ref_magic_rules_spellcasting_spellspecifics_effect, Effektes>> hebt dieses Verhalten auf.
@@ -1072,7 +1075,7 @@ Der SL kann außerdem entscheiden, dass ein Hindernis die Macht eines Zaubers ni
 Beispielsweise ist der Zauberspruch Kometenregen (Weg der Ungeteilten Elemente) ein Zauber, der seine verheerende Wirkung aus dem Himmel regnen lässt.
 Sich hinter eine Mauer zu stellen, bringt offensichtlich nichts, denn die Mauer schützt eine Seite, aber sie schützt nicht gegen Angriffe von oben.
 Ebenso könnte der Schutz eines Hauses in Anbetracht der Gewalt auch fraglich sein.
-Der SL sollte in diesem Fall den Schaden auf das Haus übertragen.
+Der SL kann nach eigenem Ermessen den Schaden auf das Haus übertragen, siehe dazu auch das Kapitel xref:core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_obstacle[Zerstören von Hindernissen].
 
 Zauber, deren Ziel die Psyche des Ziels angreifen, können nach Ermessen des SLs durch Hindernisse dringen, vorausgesetzt, der Zauberer kann das Ziel sehen.
 
@@ -1237,7 +1240,7 @@ Damit hat dieser wieder seine vollen 100 MP.
 Weiterhin gibt es noch *technomantische Gegenstände*.
 Diese werden grundsätzlich mit magischen Kristallen angetrieben und von den Technomanten so konzipiert, dass genau nur sie damit arbeiten können.
 Dies bedeutet, dass man diese MP nicht abziehen kann und auch nicht aufladen kann.
-Für beide Vorgänge haben die Technomanten eigene Zaubersprüche entwickelt, die sie nur anderen Technomanten beibringen.
+Für beide Vorgänge haben die Technomanten eigene <<ref_magic_schools_technomancy, Zaubersprüche>> entwickelt, die sie nur anderen Technomanten beibringen.
 
 [[ref_magic_base_items_with_mp_corruptedstorages]]
 ===== Verunreinigte Magiespeicher
@@ -1267,7 +1270,7 @@ Diese Regeln beschreiben den Umgang mit den unterschiedlichen Arten von Magie un
 ==== Übersicht der Zauberschulen und Zauberspruchlisten
 
 In diesem Abschnitt werden die Zauberschulen, die mit der Spezialisierung von xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] gelernt werden können, vorgestellt.
-Pro Eintrag in dieser xref:../tables/table_magic_schools_of_magic.adoc[Tabelle] werden die Listen der verfügbaren Zaubersprüche angegeben, die gelernt werden können.
+Pro Eintrag in dieser link:../tables/magic/table_magic_schools_of_magic.adoc[Tabelle] werden die Listen der verfügbaren Zaubersprüche angegeben, die gelernt werden können.
 Eine Zauberschule kann durchaus mehrere Listen gleichzeitig lehren.
 Ein Zauberer kann gemäß der Regeln pro Stufe in der Zauberschule aus allen verfügbaren Listen Zaubersprüche lernen.
 
@@ -1335,12 +1338,12 @@ Zusätzlich beinhaltet die Schule der Alchemie noch eine spezielle Gruppe Zauber
 
 [[ref_magic_schools_alchemy_formulas]]
 ===== Formulas
-Alchemisten besitzen nicht nur ein tiefgreifenden Verständnis für die Geheimnisse der natürlichen Welt und wie unterschiedliche Substanzen zusammenspielen, so kombinieren sie dieses Wissen auch mit Magie.
+Alchemisten besitzen nicht nur ein tiefgreifendes Verständnis für die Geheimnisse der natürlichen Welt und wie unterschiedliche Substanzen zusammenspielen, so kombinieren sie dieses Wissen auch mit Magie.
 Eine solche Kombination ist eine Formula.
 
 Formulas erscheinen wie reguläre Zaubersprüche in der Zauberspruchliste der Zauberschule der Alchemie.
 Sie sind im Namen explizit mit __Formula__ bezeichnet.
-Regeltechnisch werden Formulas wie Zaubersprüche behandelt, jedoch gelten folgende zusätzliche Regeln:
+Regel technisch werden Formulas wie Zaubersprüche behandelt, jedoch gelten folgende zusätzliche Regeln:
 
 * Jede Formula besitzt mindestens eine <<ref_magic_rules_spellcasting_components_ingredients, Zutat>> als Komponente.
 Diese ist entweder explizit angegeben oder beträgt einen Wert in Silbermünzen von 10 * POT der Formula.
@@ -1371,32 +1374,42 @@ Zu jedem bevorzugtem Element gibt es ein Gegenelement, welches aus der folgenden
 |===
 
 Der Elementarist kann keine Zaubersprüche aus der Zauberspruchliste des Gegenelements lernen.
+Dies gilt übergreifend für alle Spruchzauberei-Talente, die er besitzt.
+Lernt der Elementarist später eine Zauberschule, die eine Zauberspruchliste aus dem Gegenelement enthält, kann er diese auch nicht lernen.
+Hat umgekehrt ein Charakter bereits Kenntnis in einer Zauberspruchliste und lernt dann diese Zauberschule, so muss er seinen Elementarfokus so wählen, dass bekannte Zauber nicht "verboten" werden.
 
 [[ref_magic_schools_elementarism_elemenatalaspects]]
-===== Aspektelemenatrismus
+===== Aspektelementarismus
 
 Aspekte im Elementarismus beschreiben die Kombination aus (mindestens) 2 Grundelementen, so bildet zum Beispiel Feuer und Erde den Aspekt der Härte.
 Die Aspekte bringen neue und mächtigere Zauber mit sich.
-Um eine Zauberspruchliste aus dem Aspektelementarismus lernen zu können, muss der Elementarist die folgenden Voraussetzungen erfüllen:
+Sobald ein Charakter eine der folgenden Voraussetzungen erfüllt, kann er das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei [Aspektelementarismus]] lernen.
+Der Charakter kann alle Zauberspruchlisten lernen, die sich aus den Voraussetzungen ergeben.
 
 [cols=",", options="header"]
 |===
 |Zauberschule |Voraussetzung
 
-|Aspektelementarismus: Bewegung |Spruchzauberei [Elementarismus] 8, Je 5
-Zaubersprüche aus Weg des Feuers, Weg der Luft
+|Weg der Bewegung
+|Spruchzauberei [Elementarismus] 8 +
+je 5 Zaubersprüche aus Weg des Feuers, Weg der Luft
 
-|Aspektelementarismus: Härte |Spruchzauberei [Elementarismus] 8, Je 5
-Zaubersprüche aus Weg des Feuers, Weg der Erde
+|Weg der Härte
+|Spruchzauberei [Elementarismus] 8 +
+je 5 Zaubersprüche aus Weg des Feuers, Weg der Erde
 
-|Aspektelementarismus: Stille |Spruchzauberei [Elementarismus] 8, Je 5
-Zaubersprüche aus Weg des Wasser, Weg der Luft
+|Weg der Stille
+|Spruchzauberei [Elementarismus] 8 +
+je 5 Zaubersprüche aus Weg des Wassers, Weg der Luft
 
-|Aspektelementarismus: Wachstum |Spruchzauberei [Elementarismus] 8, Je 5
-Zaubersprüche aus Weg des Erde, Weg der Wasser
+|Weg des Wachstum
+|Spruchzauberei [Elementarismus] 8 +
+je 5 Zaubersprüche aus Weg des Erde, Weg der Wasser
 |===
 
-Ein sehr erfahrener Elementarist kann den Pfad des Schicksals Meister der Ungeteilten Elemente wählen, um die Zauberspruchliste Weg der Ungeteilten Elemente zu lernen.
+[[ref_magic_schools_elementarism_undivided_elements]]
+===== Elementarismus der Ungeteilten Elemente
+Ein sehr erfahrener Elementarist kann den Pfad des Schicksals link:../../rules/advanced/paragonpaths/paragon_path_master_of_undivided_elements.adoc[Meister der ungeteilten Elemente] wählen, um die Zauberspruchliste Weg der Ungeteilten Elemente zu lernen.
 
 [[ref_magic_schools_illusionsm]]
 ==== Illusionismus
@@ -1453,7 +1466,7 @@ Als Illusionen gelten alle Zaubersprüche, die als Illusion explizit beschrieben
 Dabei ist es unerheblich aus welche Zauberspruchliste wirklich stammen.
 
 [[ref_magic_schools_music]]
-==== Die Magie der Musik
+==== Menestrel
 
 [quote, Byhragast „Eisauge“]
 „Nicht nur die Magier verwenden Magie. Die Magie der Musik ist erstaunlich mächtig und vielseitig.“
@@ -1462,8 +1475,8 @@ Die Magie der Musik basiert allein auf Melodie, Gesang und einer besonderen Ausl
 Ihr häufigsten Anwender sind die xref:professions/core_professions_menestrel.adoc[Menestrel].
 Die folgenden Regeln beziehen sich nur auf die Zaubersprüche in der Zauberschule Magie der Musik.
 
-* Zaubersprüche erlernt der Anwender über das Talent xref:../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei [Magie der Musik]] nach den üblichen Regeln.
-* Der Anwender benötiget keine der üblichen Gesten, Materialien oder Zauberformel, selbst dann nicht, wenn diese explizit in der Zauberbeschreibung stehen.
+* Zaubersprüche erlernt der Anwender über das Talent xref:../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei [Menestrel]] nach den üblichen Regeln.
+* Der Anwender benötigt keine der üblichen Gesten, Materialien oder Zauberformel, selbst dann nicht, wenn diese explizit in der Zauberbeschreibung stehen.
 Stattdessen müssen die Zaubersprüche gesungen werden.
 Sie benötigen also die Vorbereitungszeit, um den Zauberspruch durch ein Lied darzustellen.
 Die Vorbereitungszeit kann nicht verkürzt werden.
@@ -1474,6 +1487,11 @@ Sie enden, wenn der Anwender aufhört zu singen (aus welchen Gründen auch immer
 Wesen, die gegen Zauber der Geistesbeeinflussung immun sind, sind auch immun gegenüber Zauberliedern.
 * Können sie während der Vorbereitung nicht singen, so nehmen sie -2 auf die Würfe zum Erfolg auf die Kunst[Gesang](bzw. Spruchzauberei)-Probe hin.
 * Das Lernen der Zaubersprüche folgt nach den normalen Regeln.
+
+Außerdem lernt der Menestrel mit der ersten Talentstufe in dieser Zauberschule eine der folgenden Listen:
+
+* link:../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofspirit.adoc[Weg des Geistes]
+* link:../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofbody.adoc[Weg des Körpers]
 
 [[ref_magic_schools_necromancy]]
 ==== Nekromantie

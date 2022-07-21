@@ -1,0 +1,81 @@
+= Standardzelle
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 1 - 10 +
+*MP:* siehe Beschreibung +
+*MP-Regeneration:* - +
+*Beschreibung:* Die am meisten verbreitete Energieversorgung eine Zelle aus xref:../../../../rules/core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_mpstorages[magischen Kristallen], die natürlicherweise magische Energien speichern können.
+Diese Technik ist im Allgemeinen als *Standardzelle* bekannt und steht allen Golems der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 zur Verfügung.
+
+Jedes Konstrukt kann nur eine Standardzelle mit korrespondierender GK erhalten.
+Abhängig von der benötigten GK verändern sich die Werte der Standardzelle.
+
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |MP
+
+|1
+|2.500
+|3 Tage
+|3
+|50
+
+|2
+|4.000
+|3 Tage
+|3
+|50
+
+|3
+|7500
+|5 Tage
+|4
+|70
+
+|4
+|10.000
+|5 Tage
+|5
+|90
+
+|5
+|13.000
+|7 Tage
+|5
+|110
+
+|6
+|20.000
+|7 Tage
+|5
+|140
+
+|7
+|28.000
+|11 Tage
+|6
+|250
+
+|8
+|40.000
+|11 Tage
+|7
+|400
+
+|9
+|64.000
+|13 Tage
+|8
+|750
+
+|10
+|80.000
+|15 Tage
+|9
+|1000
+|===
+
+Die Energiezelle selbst regeneriert in ihrer Standardausführung keine MP, jedoch kann die Standardzelle per link:../../../spells/spell_energytransfer.adoc[Energietransfer] aufgeladen werden (auch wenn sie im Konstrukt noch eingesetzt ist) und ein Technomant (beziehungsweise ein Charakter mit dem Talent xref:../../../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie]) kann den Energiekristall einer Standardzelle einfach tauschen.

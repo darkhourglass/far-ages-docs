@@ -1,0 +1,25 @@
+= Fehlfunktion
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Geste +
+*Fokus:* Metall, Geist +
+*Vorbereitung:* 6 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
+*Dauer:* Sofort +
+*Effekt:* Du zielst auf ein Konstrukt in Reichweite des Zauberspruches und machst mit Deinen Händen eine zerbrechende Bewegung.
+
+Bei einer erfolgreichen xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] würfle 2W6.
+Übertriffst Du damit die xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID] des Konstrukts, bestimme die Differenz, die Dein Wurf höher liegt als die WID des Konstrukts.
+
+Das Ergebnis führt zu einer entsprechenden link:../../rules/tables/table_constructs_mishaps.adoc[Fehlfunktion].
+Dieses Vorgehen ist analog zu einer regulären xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_mishaps[Fehlfunktion] bei Konstrukten.
+
+Nach Ermessen des SL darfst Du diesen Zauberspruch auch auf eine Maschine oder einen Mechanismus anwenden, der nicht Teil einer Kreatur ist.
+Die Auswirkungen dieser Fehlfunktion bestimmst Du ausschließlich mit 1W6 (plus eventuelle zusätzliche Effekte) und übernimmst dieses Ergebnis. +
+*Zusätzliche Effekte:* +
++5 MP: Reichweite +3,00 Meter +
++5 MP, +1 POT: +1W6 für den Fehlfunktionswurf +

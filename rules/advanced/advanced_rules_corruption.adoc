@@ -14,7 +14,7 @@ Dieses Kapitel präsentiert Regeln, die Spieler und Spielleiter Ihre Spielrunden
 Die vorgestellten Regeln sind optional bzw. gehören zu den erweiterten Konzepten von Far Ages.
 Sie sollen diejenigen unterstützen, die in Ihrem Spiel mit düsteren Thematiken beschäftigen möchten und einen stärkeren Horror-Aspekt in Ihren Runden einbringen möchten
 
-[[corruptions_rules]]
+[[ref_corruptions_rules]]
 == Regeln
 
 Die Verderbnis eines Charakters (und auch eines Nicht-Spieler Charakters) wird in der Einheit *Korruptionspunkte* (oder einfach Korruption) gemessen.
@@ -25,7 +25,7 @@ Je mehr Korruptionspunkte ein Charakter erhält, umso schwerer wird es für Ihn,
 Außerdem kann eine hohe Anzahl von Korruptionspunkten zu körperlichen und geistigen Veränderungen, sogenannte *Korruptionen*, führen.
 Korruptionen sind Mutationen vielfältiger Natur, die zeigen sollen, dass ein Charakter, der sich den außerweltlichen Mächten zu häufig aussetzt, früher oder später seinen Preis bezahlt.
 
-[[corruptions_rules_receive_corruptionpoints]]
+[[ref_corruptions_rules_receive_corruptionpoints]]
 === Korruptionspunkte erhalten
 
 Die Quellen, um Korruptionspunkte zu erhalten, sind vielfältig.
@@ -34,16 +34,16 @@ In jedem Fall ist der Erhalt eines Korruptionspunkt explizit erwähnt, zum Beisp
 
 Das Erhalten eines Korruptionspunkt hat zunächst keine direkten Auswirkungen, jedoch eher Langfristige, die im folgenden Kapitel beschrieben werden.
 
-[[corruptions_rules_corruptionspoints]]
+[[ref_corruptions_rules_corruptionspoints]]
 === Auswirkungen von Korruptionspunkten
 
 In dem Moment, in dem ein Charakter 1 oder mehr Korruptionspunkte erhält, muss er sofort eine Horror-Probe würfeln, wobei die Anzahl der nötigen Erfolge gleich der bereits vorhandenen Korruptionspunkte ist. +
 Misslingt die Probe oder ist ein Patzer, gelten die üblichen xref:../core/core_rules_d10_system.adoc#ref_core_base_saves_horror[Regeln] für Horror-Proben.
-Zusätzlich erhält der Charakter eine <<corruptions_rules_receive_corruptions, Korruption>>.
+Zusätzlich erhält der Charakter eine <<ref_corruptions_rules_receive_corruptions, Korruption>>.
 
 Weitere Auswirkungen von Korruptionspunkten sind situationsabhängig, zum Beispiel wenn ein Effekt im Spiel (z.B. ein Zauberspruch) explizit Korruptionspunkte anspricht.
 
-[[corruptions_rules_receive_corruptions]]
+[[ref_corruptions_rules_receive_corruptions]]
 === Korruptionen erhalten
 
 Korruptionen bzw. Mutationen sind die körperlichen oder auch geistigen Veränderungen, die permanent den Charakter zeichnen.
@@ -54,7 +54,7 @@ Abhängig von der Anzahl der vorhandenen Korruptione, erhält der Charakter eine
 Jeder Eintrag ist einer passenden Zahl zugeorndet.
 Werden mehrere Einträge pro Zahl angegeben, kann eine passende Korruption durch den SL bestimmt oder zufällig ausgewürfelt werden.
 
-[[corruptions_rules_variant_corruptions]]
+[[ref_corruptions_rules_variant_corruptions]]
 == Varianten von Korruption
 
 Unterschiedliche Quellen von Korruptionspunkten können auch Auswirkungen auf die verfügbaren Korruptionen haben.

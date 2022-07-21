@@ -57,8 +57,8 @@ Für diese Zaubersprüche gelten folgenden Sonderregeln:
 Es gelten die üblichen Regeln für Formulas.
 * Die xref:../../core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[Vorbereitung] der Zaubersprüche beträgt nicht Kampfphasen, sondern Stunden.
 * Es sind zusätzliche xref:../../core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_components_ingredients[Komponenten] im Wert von 100 Silbermünzen pro Punkt in POT nötg.
-* Alle Untoten, die durch diese Zaubersprüche erschaffen werden, gelangen automatisch und permanent unter die xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_control[Kontrolle] des Fleischskulpteur.
-Außerdem erleiden sie keinen xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_decay[Zerfall].
+* Alle Untoten, die durch diese Zaubersprüche erschaffen werden, gelangen automatisch und permanent unter die xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_control[Kontrolle] des Fleischskulpteur.
+Außerdem erleiden sie keinen xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_decay[Zerfall].
 * Der Fleischskulpteur kann außerdem maximal 3 Untote gleichzeitig auf diese Weise kontrollieren.
 Werden mehr Untote über diese Zaubersprüche erschaffen, verliert der Fleischskulpteur automatisch die Kontrolle über die ältesten erschaffenen Untoten.
 * Es können keine link:../../advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlosen] Untoten erschaffen werden.
@@ -114,5 +114,5 @@ Abhängig von seiner Stufe als Fleischskulpteur darf er Transplantate mit maxima
 
 Die Fähigkeit kann mehrfach gelernt werden.
 Jedes Mal darf der Fleischskulpteur ein neues Transplantat lernen.
-Lernt der Fleischskulpteur auf diese Weise 2 oder mehr Transplantate erhält er einen Punkt xref:../../advanced/advanced_rules_corruption.adoc#corruptions_rules_receive_corruptions[Korruption].
-Wird mit der Regel der xref:../../advanced/advanced_rules_corruption.adoc#corruptions_rules_variant_corruptions[Varianten von Korruption] gespielt, können link:../../advanced/corruptions/corruption_bodymodifications.adoc[körperliche] Korruptionen oder link:../../advanced/corruptions/corruption_madness.adoc[Wahnsinn] gewählt werden.
+Lernt der Fleischskulpteur auf diese Weise 2 oder mehr Transplantate erhält er einen Punkt xref:../../advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_receive_corruptions[Korruption].
+Wird mit der Regel der xref:../../advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_variant_corruptions[Varianten von Korruption] gespielt, können link:../../advanced/corruptions/corruption_bodymodifications.adoc[körperliche] Korruptionen oder link:../../advanced/corruptions/corruption_madness.adoc[Wahnsinn] gewählt werden.

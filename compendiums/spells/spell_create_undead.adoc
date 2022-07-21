@@ -10,10 +10,10 @@
 *Reichweite:* 9,00 +
 *Anzahl der Ziele:* 1 +
 *Dauer:* Sofort  +
-*Effekt:* Mit diesem Zauberspruch kannst Du einen Untoten der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel[Machtstufe 0] erschaffen.
+*Effekt:* Mit diesem Zauberspruch kannst Du einen Untoten der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe 0] erschaffen.
 Dazu benötigt wird der Körper (und eventuell weitere Utensilien) des zukünftigen Untoten, das bedeutet, er muss bereits vollständig vorliegen, maximal im Umkreis von 9,00 Metern.
 Es müssen alle nötigen Ritualgegenständen vorhanden sein.
-Der geschaffene Untote ist automatsch für 1W6 Kampfphasen unter Deiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_powerlevel_control[Kontrolle], sofern der Untote aufgrund seiner Machtstufe teilweise oder vollständige Kontrolle erfordert.
+Der geschaffene Untote ist automatsch für 1W6 Kampfphasen unter Deiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_control[Kontrolle], sofern der Untote aufgrund seiner Machtstufe teilweise oder vollständige Kontrolle erfordert.
 Nach Ablauf dieser Kampfphasen gilt der Untote als unkontrolliert und muss gegebenenfalls mit Zaubersprüchen wie link:spell_control_undead.adoc[Untoten kontrollieren] verzaubert werden.
 
 Mit Erlernen dieses Zauberspruches kannst Du link:../../bestiary/templates/bestiary_template_undead_skeleton.adoc[Skelette] und link:../../bestiary/templates/bestiary_template_undead_zombie.adoc[Zombies] erschaffen.

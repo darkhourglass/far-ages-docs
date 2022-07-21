@@ -1,0 +1,24 @@
+= Konstrukt kontrollieren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Metall, Geist +
+*Vorbereitung:* (1 + Ziel-Machtstufe) +
+*Anzahl der Erfolge:* (1 + Ziel-Machtstufe) +
+*Reichweite:* 15,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du zwingst Deinen Geist in die maschinellen Bestandteile eines Konstrukts in Reichweite des Zauberspruches.
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kannst Du das Konstrukt für die Dauer des Zauberspruches kontrollieren.
+
+In Deiner xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] darfst Du eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] einsetzen, um die nächste Kampfphase des verzauberten Konstrukts zu bestimmen, also seine Aktionen und Manöver festlegen.
+Nutzt Du diese Bonus-Aktion nicht, agiert das Konstrukt gemäß seiner xref:../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programmierung], was auch bedeuten kann, dass es Dich angreift.
+Du kannst für das Konstrukt nur diejenigen Aktionen und Manöver verwenden, die es besitzt und selbst benutzen kann.
+
+Mit diesem Zauberspruch kannst Du nur Konstrukte der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_powerlevel_powerlevel[Machtstufe] 0 kontrollieren.
+Für Konstrukte mit höheren Machtstufen musst Du zusätzliche Effekte einsetzen. +
+*Zusätzliche Effekte:* +
++1 POT: maximale Machtstufe +1 (mehrfach anwendbar) +
++5 MP: Dauer +1 Kampfphase +

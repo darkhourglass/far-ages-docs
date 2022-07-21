@@ -305,6 +305,8 @@ Im Herstellungsprozess von vielen magischen Gegenständen (und Technomantischen)
 Mit dem Talent lassen sich auch *Magische Kristalle konfigurieren*, so dass sie ihre MP abgeben können und so für die weitere Verarbeitung genutzt werden können, z.B. zur Herstellung von Zauberstecken oder als Motor für technomantische Geräte.
 Die Anzahl der nötigen Erfolge mit dem Talent Magischen Gegenstand Herstellen ergibt sich aus der Anzahl an MP, die der Kristall aufnehmen kann.
 
+//TODO also see golemparts -> basiccell
+
 [cols=",,,,",options="header"]
 |===
 |Enthaltende MP |Erfolgsgrad |Wert^1^ |Wert^2^  |Wert^3^
@@ -335,7 +337,7 @@ Derartige Gegenstände sind beispielsweise spezialisierte Entwicklungen von Magi
 Rezepte sind daher Anleitungen, um bestimmte magische Gegenstände herzustellen.
 Die Einträge sind wie folgt aufgebaut:
 
-*Name:* Name des Gegenstandes (nachdem er mit dem Rezept hergestellt wurde) +
+*Name:* Name des Gegenstands (nachdem er mit dem Rezept hergestellt wurde) +
 *Speziell:* Besondere Zutaten, um den Gegenstand zu erschaffen. +
 *Machtstufe:* die Machtstufe des Gegenstandes +
 *Bindung:* Was ein zukünftiger Benutzer des Gegenstandes opfern muss, um den Gegenstand an sich zu binden.

@@ -1,0 +1,39 @@
+= Grabende Sphere
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 12 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, ein Onyx im Wert von 5000 Silbermünzen +
+*Fokus:* Erde +
+*Vorbereitung:* 8 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* - +
+*Anzahl der Ziele:* - +
+*Dauer:* 1 Stunde +
+*Effekt:* Du beschwörst ein mächtiges Manifest der Erde, dass sich nach Deinem Willen zu einer Sphere aus
+elementarer Erde formt.
+Die Sphere zentriert sich um Dich mit einem Radius von 3,00 Metern in alle Richtungen.
+
+Du kannst bestimmen, ob und welche anderen Kreaturen in die Sphere eintreten dürfen.
+Auch wenn die Sphere solide erscheint, lässt sie diese Kreaturen ein- und austreten.
+Du kannst die Sphere auch verlassen, jedoch endet in diesem Fall der Zauberspruch sofort.
+
+Als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] kannst Du die Sphere für die Dauer des Zauberspruches 20,00 Meter pro Kampfphase (oder 120,00 Meter pro Minute) fortbewegen.
+Du und alle Kreaturen in Ihr bewegen sich mit.
+
+Innerhalb der Sphere herrscht eine angenehme Temperatur und es ist immer frische Luft zum Atmen vorhanden.
+Die Sphere kann sich durch natürliche Erde und Stein graben, ohne an Geschwindigkeit zu verlieren.
+Der entstehende Tunnel schließt sich jedoch innerhalb weniger Sekunden, nach dem Sphere das Gebiet verlassen hat.
+Die Sphere kann auch oberhalb der Erde sich bewegen, muss jedoch mindestens 40% im Boden versunken sein.
+Sie kann im Allgemeinen keine größeren Mengen von Flüssigkeiten wie Wasser oder Lava durchqueren.
+Nach Ermessen des SL kann die Sphere kleinere Mengen von unterirdischen Wasser durchqueren.
+
+Magische Effekte können die Sphere durchdringen, wenn ihre POT höher ist als die der Sphere zum Zeitpunkt Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe].
+
+Endet der Zauberspruch, wenn die Sphere sich noch unter der Erde befindet, bleibt eine runde Sphere um Dich herum bestehen, die jedoch den üblichen Gegebenheiten einer unterirdischen Höhle unterliegt.
+Du und deine Gäste werden also nicht sofort erdrückt, müssen sich allerdings heraus graben und mit begrenzter Luft klarkommen.
++
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Stunde
++10 MP, +1 POT: BEW des Sphere +120,00 Meter pro Minute (+20 Meter pro Kampfphase)
++5 MP, +1 POT: Radius des Sphere +3,00 Meter

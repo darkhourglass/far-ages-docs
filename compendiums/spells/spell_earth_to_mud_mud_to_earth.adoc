@@ -1,0 +1,26 @@
+= Erde zu Schlamm/Schlamm zu Erde
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Erde, Wasser +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 5 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Der Magier zielt auf eine Fläche in Reichweite des Zauberspruches.
+Diese Fläche muss entweder aus Erde oder Schlamm bestehen.
+Für die Dauer des Zaubers verwandelt sich die Oberfläche: Erde saugt sich mit Wasser voll und wird matschig oder Schlamm trocknet aus und wird hart und somit leichter begehbar.
+
+Pro Anwendung dieses Zauberspruches kann nur eine Variante genutzt werden.
+Das bedeutet, der Magier muss sich spätestens mit der xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] entscheiden, ob er Stein zu Sand oder Sand zu Stein verwandeln möchte.
+
+Sofern nicht durch den SL anders vorgegeben, gilt eine Oberfläche aus Schlamm als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände].
+
+Nach Ablauf des Zauberspruches verwandelt sich die Fläche zurück in ihren Ursprungszustand. +
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +6,00 Meter +
++2 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: Radius +6,00 Meter +

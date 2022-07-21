@@ -365,7 +365,7 @@ Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenh
 
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
-Das Manöver <<ref_battle_move_useBEW, Rennen>> kann nicht in der selben Kampfphase wie Sprinten verwenden werden.
+Das Manöver <<ref_battle_move_useBEW, Rennen>> kann nicht in derselben Kampfphase wie Sprinten verwenden werden.
 
 [[ref_battle_complexactions_charge]]
 ==== Sturmangriff
@@ -835,7 +835,6 @@ Pro Reihe erhält der Kegel an seiner Seite jeweils ein weiteres Feld.
 Die folgende Zeichnung illustriert das Prinzip für einen Kegel von 4,50 Metern.
 
 Wie bei einer Waffe mit Flächenschaden kann man auch hier mit einer Reflex-Probe ausweichen, um den Schaden abzuwenden oder zu halbieren.
-Diese Form von Angriffen werden mit unterschiedlichen Talenten oder Attributen gewürfelt, meistens mit Spruchzauberei oder Projektilwaffen, je nach Art des Angriffes.
 
 [[ref_battle_mounted_combat]]
 == Berittener Kampf
@@ -946,7 +945,7 @@ Provozieren daher mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese 
 
 Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das heißt, sie stehen in der Bedrohungszone des Charakters.
 
-Der Gelegenheitsangriff wird als Einfache Probe gewürfelt, man kann sich im Allgemeinen nicht dagegen verteidigen.
+Der Gelegenheitsangriff wird als xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe] gewürfelt, man kann sich im Allgemeinen nicht dagegen verteidigen.
 
 [[ref_battle_damage]]
 == Schaden
@@ -958,16 +957,28 @@ Ein Charakter kann auch Schaden davon erhalten, dass er im Wald unvorsichtigerwe
 In Situationen außerhalb des Kampfes ist dann meistens ein Angriffswurf angegeben und wie Schadenswürfel zustande kommen.
 Die Regeln in diesem Kapitel treffen jedoch auch auf diese Situationen zu.
 
-[[ref_battle_damagerolls]]
-=== Schadenswürfe
+[[ref_battle_damage_hit]]
+=== Treffer
 
 Eine erfolgreiche Angriffsprobe mit den Talenten Nahkampfwaffen, Projektilwaffen, Wurfwaffen, Unbewaffneter Kampf und deren ungeübter Anwendung führt zu einem *Treffer*.
 Fallen würfeln auch eine Angriffsprobe und erzeugen damit Treffer.
 Eine erfolgreiche Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die möglichen Effekte vielseitiger sind.
 
 Ein Treffer verursacht *Schaden*, der sich je nach Art des Treffers anders berechnet.
-Man nennt dies den *Schadenswurf*.
-Dieser Wurf besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6) und einer festen Komponente (zum Beispiel +3).
+Man nennt dies den <<ref_battle_damagerolls, Schadenswurf>>.
+
+[[ref_battle_damage_hit_automatic]]
+==== Automatische Treffer
+Manche Effekte können einen *automatischen Treffer* verursachen.
+Dieser erfordert keine direkte Angriff- oder Verteidigungsprobe, sondern die betroffenen Ziele erhalten sofort Schaden.
+Automatische Treffer sind als solche immer explizit erwähnt.
+
+Typische Situationen sind beispielsweise Zaubersprüche, die ein xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_targets[Gebiet] betreffen.
+Diese sind erfolgreich, wenn die xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] die nötigen xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_successes[Erfolge] erreicht.
+
+[[ref_battle_damagerolls]]
+=== Schadenswürfe
+Der Schadenswurf besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6) und einer festen Komponente (zum Beispiel +3).
 
 Um den Schadenswurf zu bestimmen, sind folgende Komponenten zu beachten:
 
@@ -1001,7 +1012,7 @@ Sofern nicht anders angegeben, wird die Attributsstufe für ST des Charakters ve
 ==== Schadenswürfe für Zaubersprüche
 
 Offensive Zaubersprüche verursachen oft auch Schadenspunkte durch Schadenswürfe.
-Im allgemeinen gibt der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_effect[Effekt] direkt eine Würfelkombination vor.
+Im Allgemeinen gibt der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_effect[Effekt] direkt eine Würfelkombination vor.
 Dieser wird auch als *Magie-Schadensbonus* ausgewiesen.
 
 Die Berechnung der Schadenspunkte wird die folgt durchgeführt:

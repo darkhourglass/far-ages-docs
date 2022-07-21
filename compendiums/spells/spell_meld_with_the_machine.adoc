@@ -1,0 +1,26 @@
+= Verschmelze mit der Maschine
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Geste +
+*Fokus:* Metall, Geist +
+*Vorbereitung:* 6 +
+*Anzahl der Erfolge:*  +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
+*Dauer:* 3 Kampfphasen +
+*Effekt:* Für die Dauer des Zauberspruches verbindest Du Deinen Geist mit dem Konstrukt.
+Dein Bewusstsein verlässt Deinen Körper und übernimmt die Kontrolle über das Konstrukt.
+In Deiner Kampfphase bestimmst Du alle xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] für das Konstrukt.
+Das Konstrukt erhält keine eigene Kampfphase mehr.
+Da Deine xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_controll_and_behavior[Kontrolle] in diesem Fall absolut ist, beeinflusst kein xref:../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programm] das Konstrukt mehr.
+
+Für die Dauer des Zauberspruches ist Dein Körper xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_unconscious[bewusstlos].
+Du kannst Dich nur aus dieser Bewusstlosigkeit befreien, wenn Du den Zauberspruch beendest.
+
+Mit diesem Zauberspruch kannst Du nur Konstrukte der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_powerlevel_powerlevel[Machtstufe] 5 kontrollieren.
+Für Konstrukte mit höheren Machtstufen musst Du zusätzliche Effekte einsetzen. +
+*Zusätzliche Effekte:* +
++1 POT: maximale Machtstufe +1 (mehrfach anwendbar) +
++5 MP: Dauer +1 Kampfphase +

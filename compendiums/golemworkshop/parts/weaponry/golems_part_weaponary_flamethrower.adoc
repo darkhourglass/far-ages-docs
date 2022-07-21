@@ -1,0 +1,79 @@
+= Flammenwerfer
+
+*Materialkosten:* siehe Beschreibung  +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* link:../../../spells/spell_fire_odem.adoc[Feuerodem] +
+*Erfolge:* siehe Beschreibung +
+*GK:* 4 -10 +
+*Montage:* Arme +
+*Attribute:* - +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] 5 +
+*Beschreibung:* Der Flammenwerfer ist eine gefürchtete Waffe, die heiße Flammen über eine Fläche verteilt.
+Kriegsgolems setzen diese Waffe oft gegen Nahkämpfer, dicht stehende Regimenter und verschanzte Verteidiger ein.
+
+Ein Flammenwerfer hat üblicherweise eine längliche Form, dominiert durch ein Rohr, dessen Spitze schwarz verfärbt ist.
+Ein leichtes Zischen immer von dieser zu hören.
+Schläuche verbinden das Rohr mit einem ominösen Tank, der entweder am Arm oder auch auf dem Rücken des Golems befestigt ist.
+Feuert der Golem den Flammenwerfer, wird explosives Gemisch aus Feuer-Magie durch das Rohr gepresst, welches sich an der Spitze entzündet.
+
+Der Flammenwerfer steht für Golems der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 4 bis 10 zur Verfügung und müssen als eigenständiges xref:../../../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Gerät] herstellt werden.
+Die folgende Tabelle gibt eine Übersicht die von der GK abhängigen Werte.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Reichweite |Schaden
+
+|4
+|6.000
+|5 Tage
+|3
+|Kegel 3,00 Meter
+|3W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+
+|5
+|8.000
+|5 Tage
+|4
+|Kegel 4,50 Meter
+|4W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+
+|6
+|10.000
+|7 Tage
+|5
+|Kegel 6,00 Meter
+|5W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+
+|7
+|15.000
+|14 Tage
+|6
+|Kegel 9,00 Meter
+|5W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+
+|8
+|24.000
+|18 Tage
+|8
+|Kegel 9,00 Meter
+|6W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+
+|9
+|36.000
+|25 Tage
+|10
+|Kegel 12,00 Meter
+|6W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+
+|10
+|50.000
+|32 Tage
+|12
+|Kegel 12,00 Meter
+|8W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|===
+
+Die Angriffsprobe wird als Talentprobe auf xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] gewürfelt und folgt den Regeln für
+xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_cone[Wurfwaffen mit Flächenschaden] mit dem angegebenen Schaden.
+Dies bedeutet insbesondere, dass die Zielkreaturen mit einer erfolgreichen xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Probe] den erlittenen Schaden halbieren können.
+
+Der Flammenwerfer stellt dem Golem außerdem die Fähigkeit link:../../../../bestiary/skills/specific/constructs/bestiary_skill_overcharge.adoc[Überladen (2W6 Feuer-Schaden, 5 MP)] zur Verfügung.

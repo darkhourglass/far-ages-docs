@@ -1,0 +1,57 @@
+= Elementare Transfusion [Element]
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* Körper, Geist, siehe Beschreibung +
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Anzahl der Erfolge:* 5 +
+*Reichweite:* - +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* Sofort +
+*Effekt:* Du meditierst für die Dauer der Vorbereitung dieses xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_preparation_rituals[Ritual] in der direkten Nähe einer natürlichen Quelle für das jeweilige Element.
+Lernst Du diesen Zauberspruch beispielsweise mit dem Element Feuer, so könntest Du vor einem Lagerfeuer meditieren.
+Während der Vorbereitung konzentrierst Du Dich auf die unterschwellige, elementare Energie der Quelle.
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kannst Du Dir diese Energie zur Nutze machen und etwas von ihr für Dich nutzen.
+Wähle dazu eine der folgenden Optionen:
+
+* Du xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerierst] sofort 1W6+1 verlorene xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] +
+* Du xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerierst] sofort 1W6+1 verlorene xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[MP] +
+* Du heilst sofort eine erlittene xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzung] +
+
+Du kannst pro Quelle dieses Ritual nur einmal pro Tag durchführen.
+Erst nach einer xref:..xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[langen Erholung] kannst die Quelle erneut nutzen.
+Hast Du mehrere Quellen zur Auswahl, kannst Du das Ritual auch mehrfach hintereinander durchführen.
+
+Abhängig vom Element, mit dem Du diesen Zauberspruch lernst, ändert sich der xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_focus[Fokus].
+Die folgende Tabelle gibt dazu eine Übersicht sowie ein paar Beispiele für mögliche Quellen.
+
+
+|===
+|Element |Fokus |Beispiele
+
+|Erde
+|Erde
+|frische Erde, ein Menhir
+
+|Feuer
+|Feuer
+|Lagerfeuer, ein brennender Busch oder Baum
+
+|Luft
+|Luft
+|Wind
+
+|Wasser
+|Wasser
+|ein Bach, Fluss oder See
+|===
+
+Nach Ermessen des SLs können Quellen jederzeit zugelassen oder abgelehnt werden.
+Es gilt, dass die Quelle natürlichen Ursprungs sein muss.
+Ein Lagerfeuer, das mit Holz gefeuert wird, zählt, ein magisches Feuer nicht.
+
+*Zusätzliche Effekte:* +
++5 POT: Du darfst eine weitere Option wählen, auch die Gleiche (mehrfach anwendbar) +
++5 POT: Du kannst den Effekt des Zauberspruches auf eine andere link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur übertragen, die während des Rituals maximal 1,50 Meter von Dir und der Quelle entfernt ist +

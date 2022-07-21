@@ -2,17 +2,20 @@
 
 // TODO Beschreibung
 
+[[ref_collossus_skills]]
 == Voraussetzungen
 
-Die Kreatur darf nicht folgende Schablonen bereits besitzen:
+Die Kreatur darf keine der folgenden Schablonen besitzen:
+
 * link:bestiary_template_sizemodification_giant.adoc[Riesig]
 * link:bestiary_template_sizemodification_small.adoc[Klein]
 * link:bestiary_template_megacollossus.adoc[Mega Koloss]
 
+[[ref_collossus_attributes]]
 == Attribute
 
 Die Attributsstufen der Kreatur werden übernommen, außer die Werte für xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO].
-Im Vergleich zu anderen Schablonen werden hier neue Werte festgesetzt, damit die bisherigen überschrieben.
+Im Vergleich zu anderen Schablonen werden hier neue Werte festgesetzt also die bisherigen überschrieben.
 ST und KO nehmen jeweils den Wert 20 an.
 
 Dadurch ändern sich folgende xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Attributseigenschaften]:
@@ -23,6 +26,7 @@ Dadurch ändern sich folgende xref:../../rules/core/core_rules_charactercreation
 
 Hat der Charakter weitere Boni auf seine TP, wie zum Beispiel xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP-/MP-Steigerungen], werden diese zu seinen neuen TP (200) gerechnet.
 
+[[ref_collossus_skills]]
 == Fähigkeiten
 
 Die Kreatur übernimmt alle Fähigkeiten und Talente.

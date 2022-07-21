@@ -1,0 +1,25 @@
+= Objekt vergrößern / verkleinern
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* - +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 5 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Objekt +
+*Dauer:* 10 Kampfphasen +
+*Effekt:*  Du kannst einen nicht-magischen, nicht-technomantischen Gegenstand vergrößern oder verkleinern.
+Jeder Gegenstand lässt sich gemessen an seiner größten Ausdehnung in Länge, Breite oder Höhe in eine xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] einteilen.
+Der Zauberspruch vergrößert oder verkleinert das Objekt um 1 GK.
+Seine Dimensionen wachsen proportional, bis seine größte Ausdehnung das Limit der nächsten Größenkategorie erreicht.
+
+Mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] musst Du entscheiden, ob Du das Objekt vergrößern oder verkleinern möchtest.
+Du kannst kein Objekt auf eine GK von kleiner 1 oder größer 10 verzaubern.
++
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +3,00 Meter +
++2 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: +1 GK vergrößern / verkleinern +
++50 MP, +8 POT: Dauer ist permanent +

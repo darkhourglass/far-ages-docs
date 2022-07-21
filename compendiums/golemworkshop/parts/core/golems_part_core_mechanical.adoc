@@ -1,0 +1,57 @@
+= Mechanische Steuerung
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 6 - 10 +
+*MP:* siehe Beschreibung +
+*MP-Regeneration:* - +
+*Beschreibung:* In nicht allen Fällen ist es gewünscht oder möglich einen Golem vollständig selbstständig auf Basis seines Programmes agieren zu lassen.
+Dieser Kern erlaubt es einer (üblicherweise link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoiden]) Kreatur den Golem aus einer Pilotenkabine in dessen Rumpf zu steuern.
+
+Eine Pilotenkabine mit mechanischer Steuerung kann von einer einzelnen Kreatur bemannt werden, deren eigene xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] mindestens 2 Punkte kleiner ist, als die des Golems.
+Beispielsweise kann ein Golem der GK 7 von einer Kreatur der GK 5 oder kleiner gesteuert werden.
+Die Angaben in der folgenden Tabelle beziehen sich immer auf die GK des Golems.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |MP
+
+|6
+|17.500
+|7 Tage
+|5
+|110
+
+|7
+|24.000
+|11 Tage
+|6
+|220
+
+|8
+|36.000
+|11 Tage
+|7
+|360
+
+|9
+|52.000
+|13 Tage
+|8
+|700
+
+|10
+|64.000
+|15 Tage
+|9
+|900
+|===
+
+Auch die Pilotenkabine besitzt eine Energieversorgung, die analog zur link:golems_part_core_basiccells.adoc[Standardzelle] funktioniert.
+Die steuerende Kreatur hat keinen direkten Zugriff auf die MP, sondern verwendet diese nach den üblichen Regeln, um die Fähigkeiten des Golems einzusetzen.
+Ein link:../../../spells/spell_energytransfer.adoc[Energietransfer] ist normal möglich.
+
+Der Pilot und der gesteuerte Golem gilt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_mounted_combat[Reiter und Reittier] für die Regeln im Kampf.
+
+Golems mit dieser Energieversorgung können nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden.

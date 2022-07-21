@@ -1,0 +1,118 @@
+= Humanoides Chassis
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 1-10 +
+*Attribute:* siehe Beschreibung +
+*Machtstufe:* siehe Beschreibung +
+*Bewaffnung:* siehe Beschreibung +
+*Zusätze:* siehe Beschreibung +
+*Beschreibung:* Ein humaniodes Chassis ist die Grundlage für eben einen solchen Golem.
+Viele Golemhersteller verwenden dieses Chassis, um ein menschenähnlichen (oder vergleichbares ) Konstrukt herzustellen.
+Dabei gibt dieser Typ von Chassis die Bewaffnung über zwei Arme vor, also werden Waffen (oder auch Werkzeuge) auf die Arme montiert oder anstelle der Hände montiert.
+In manchen Fällen kann zusätzliche Bewaffnung zum Beispiel auf die Schultern montiert werden.
+Auch wenn Humaniode oft 2 Beine haben, macht das Chassis hierbei keine Vorgaben.
+
+Zusätze werden meistens im Kopf, den Schultern oder Beinen verbaut.
+
+Das Chassis kann in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 hergestellt werden.
+Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Attribute |Machtstufe |Bewaffnung |Zusätze
+
+|1
+|10.000
+|3 Tage
+|4
+|+1 ST
+|1
+|2 Arme
+|1
+
+|2
+|15.000
+|5 Tage
+|4
+|+1 ST
+|1
+|2 Arme
+|1
+
+|3
+|20.000
+|8 Tage
+|5
+|+1 ST
+|2
+|2 Arme
+|1
+
+|4
+|25.000
+|15 Tage
+|5
+|+2 ST
+|3
+|2 Arme, 1
+|2
+
+|5
+|50.000
+|20 Tage
+|6
+|+2 ST, +1 KO
+|4
+|2 Arme, 1
+|2
+
+|6
+|100.000
+|30 Tage
+|6
+|+3 ST, +1 KO
+|7
+|2 Arme, 2
+|3
+
+|7
+|200.000
+|45 Tage
+|7
+|+3 ST, +2 KO
+|7
+|2 Arme, 2
+|4
+
+|8
+|300.000
+|60 Tage
+|9
+|+4 ST, +3 KO
+|9
+|2 Arme, 4
+|5
+
+|9
+|400.000
+|75 Tage
+|11
+|+4 ST, +4 KO
+|11
+|2 Arme, 5
+|6
+
+|10
+|500.000
+|90 Tage
+|13
+|+5 ST, +5 KO
+|13
+|2 Arme, 6
+|8
+|===
+
+
+

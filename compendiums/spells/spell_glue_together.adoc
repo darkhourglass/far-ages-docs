@@ -1,0 +1,22 @@
+= Kleben
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 4 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Erde +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 2 Objekte +
+*Dauer:* 24 Stunden +
+*Effekt:* Du nimmst zwei Gegenstände in Deine Hände und drückst sie zusammen.
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kleben die beiden Gegenstände zusammen, sodass keine Kraft sie wieder auseinander bringen kann, bis die Dauer des Zauberspruches abgelaufen ist.
+
+Du kannst zwei Objekte mit jeweils maximaler xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 1 zusammenkleben.
+Du kannst diesen Zauberspruch nicht direkt auf Konstrukte oder Kreaturen anwenden.
++
+*Zusätzliche Effekte:* +
++2 MP, +1 POT: maximale GK +1 (mehrfach anwendbar, Maximum 10) +
++2 MP, +1 POT: Dauer +24 Stunden (mehrfach anwendbar) +
++30 MP, +8 POT: Dauer ist permanent +
