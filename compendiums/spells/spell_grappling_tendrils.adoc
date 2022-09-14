@@ -1,0 +1,23 @@
+= Umschlingende Ranken
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja (xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_ST[ST]) +
+*Komponenten:* Geste, Formeln +
+*Fokus:* Körper, Wachstum +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 5 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du rufst die Geister der Pflanzen und der Erde, um Deine Feinde gefangen zu nehmen.
+Dicke und feste Ranken wachsen mit übernatürlicher Geschwindigkeit aus dem Boden und umschlingen Füße, Körper und Arme der Zielkreatur.
+
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ist die Kreatur xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[gefangen].
+Es gelten die normalen Regeln, das heißt, die Kreatur darf versuchen sich in jeder nachfolgenden Kampfphase versuchen zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_move_breakfree[befreien].
+Der Zauberspruch endet, falls die Kreatur dies schafft oder die Dauer abgelaufen ist.
+
+Als konkurrierende ST-Stufe würfle für die Ranken so viele W10 wie der Zauberspruch POT hatte, als Du die Spruchzauberei-Probe gewürfelt hast.
+
+*Zusätzliche Effekte:* +
++2 MP, +1 POT: Dauer +1 Kampfphase

@@ -1,0 +1,33 @@
+= Heckenlabyrinth
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Gesten, Formeln +
+*Fokus:* Geist, Wachstum +
+*Vorbereitung:* 6 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* 36,00 Meter +
+*Anzahl der Ziele:* Radius 24,00 Meter+
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du beschwörst ein Labyrinth aus dichten Hecken und ineinander verschlungenen Pflanzen.
+Die Pflanzen wachsen im Wirkungsbereich des Zauberspruches aus dem Boden und fangen alle Kreaturen ein.
+
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] werden alle Kreaturen im Wirkungsbereich im Labyrinth eingesperrt, auch Du, solltest Du Dich im Wirkungsbereich befinden.
+Mit dieser Probe darfst Du initial entscheiden, die Kreaturen in Gruppen einzuteilen, die gemeinsam an der gleichen Stelle im Labyrinth starten.
+
+Beginnt eine Kreatur ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] im Labyrinth, muss sie zunächst einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_ER[ER-Rettungswurf] ablegen.
+Gruppen von Kreaturen können auch eine Kreatur bestimmen, die einen Rettungswurf für Gruppen würfelt, jedoch müssen dann alle Gruppenmitglieder mit dem Ergebnis leben.
+Misslingt die Probe, irrt die Kreatur diese Kampfphase ziellos im Labyrinth umher und verliert damit ihre Kampfphase.
+
+Am Ende einer Kampfphase, unabhängig vom Ergebnis des Rettungswurfs, würfelt jede einzelne Kreatur oder jede Gruppe einen W10.
+Alle Kreaturen oder Gruppen, die die gleiche Augenzahl erwürfeln, treffen sich zum Beginn der nächsten Kampfphase im Labyrinth.
+
+Das Labyrinth ist hoch genug, um Kreaturen der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 6 oder geringer effektiv einzusperren.
+Größere Kreaturen können über die Hecken hinwegsehen und müssen den oben genannten Rettungswurf nicht durchführen.
+Ebenso können fliegende Kreaturen über die Hecken hinweg fliegen.
+
+*Zusätzliche Effekte:* +
++2 MP, +1 POT: Dauer +1 Kampfhase +
++5 MP, +1 POT: Radius +3,00 Meter +
++2 MP: Reichweite +3,00 Meter +

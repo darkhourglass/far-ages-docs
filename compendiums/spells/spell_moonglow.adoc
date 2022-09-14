@@ -1,0 +1,31 @@
+= Mondschein
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Geste, Formel +
+*Fokus:* Licht, Schatten +
+*Vorbereitung:* 1 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* Radius 60,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* In Deinen Händen formt sich eine kleine dunkle Wolke, die aussieht wie ein Miniatur-Nachthimmel.
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] schwebt die Wolke aus Deinen Händen bis zu 9,00 Meter in direkter Linie nach oben oder bis zur nächst niedrigsten Decke.
+Angekommen dehnt sich die Wolke sofort über den Radius aus und ein sanftes Mondlicht beginnt zu scheinen.
+
+Für die Dauer des Zauberspruches befindet sich im Radius ein dämmriges Licht, das als Mondschein (aber nicht als Vollmond) gilt, auch wenn es normalerweise heller wäre.
+Ist der Radius einmal bestimmt, kann er nicht mehr geändert werden.
+Das bedeutet, dass der Effekt nicht mit Dir wandert, falls Du Dich bewegst.
+Es gelten die negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] bei sternenklarer Nacht (-2 auf die Würfe zum Erfolg) nach üblichen Regeln für alle Kreaturen, die beispielsweise nicht link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] besitzen.
+
+Weiterhin betrifft der Zauberspruch Kreaturen, die empfindlich gegenüber Mondlicht sind, weil Sie beispielsweise unter dem link:../../rules/advanced/curses/curse_of_the_moon.adoc[Fluch des Mondes] leiden.
+
+Der Zauberspruch hebt magisch erzeugtes Licht genau dann auf, wenn die POT höher ist als die POT des Effekts, der das Licht erzeugt.
+Ebenso beendet ein magischer Effekt, der Licht erzeugt, diesen Zauberspruch, wenn seine POT höher ist.
+Du kannst bei Vorbereitung des Zauberspruches die POT nach üblichen Regeln höher ansetzen als 5.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++2 MP: Reichweite +6,00 Meter +
++3 POT: Licht gilt als Vollmond (Modifikator ist nur -1 auf die Würfe zum Erfolg)

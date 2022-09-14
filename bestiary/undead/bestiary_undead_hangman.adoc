@@ -1,10 +1,8 @@
 = Galgenmann
 
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
-* -
-* -
-* GK: 6
-* CP: TBA
+* *GK:* 6
+* *CP:* TBA
 
 == Beschreibung
 
@@ -13,29 +11,33 @@ Hans, lauf!
 
 //TODO
 
-== Attribute
+== Profil
 
-ST: 5 +
-GE: 2 +
-KO: 6 +
-ER: 3 +
-EN: 2 +
-SB: 1 +
-CH: 1 +
+*ST:* 5   *GE:* 2   *KO:* 6 +
+*ER:* 3   *EN:* 2   *SB:* 1   *CH:* 1 +
 
-== Pools
+*TP:* 90  *MP:* 20  *SP:* - +
 
-TP: 90 +
-MP: 20 +
-SP: - +
+*WID:* 30 +
+*BEW:* 9,00 Meter +
+*INI:* 5 +
+*MaxTL:* 75 +
+*MaxPOT:* 6 +
 
-== Attributswerte
+*Rüstung:* - +
+*Resistenzen:*
 
-WID: 30 +
-BEW: 9,00 +
-INI: 5 +
-MaxTL: 75 +
-MaxPOT: 6 +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 
 == Offensiv
 
@@ -51,27 +53,11 @@ MaxPOT: 6 +
 == Sonstiges
 
 * <<ref_bestiary_hangman_aura_of_doom, Aura der Verzweiflung>>
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 7
 * <<ref_bestiary_hangman_powerlevel, Machtstufe>> 6
 * <<ref_bestiary_hangman_deathknell, Todesglocke>>
 * <<ref_bestiary_hangman_unholy_toughness, Unheilige Widerstandskraft>>
-
-== Primärer Kreaturentyp
-
-Die Kreatur erhält aufgrund ihres primären Kreaturentypes folgende Fähigkeiten:
-
-* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
-* link:../skills/bestiary_skill_fear.adoc[Furcht] 7
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
-
-== Sekundäre Kreaturentypen
-
-Der Galgenmann erhält keine Fähigkeiten von seinen sekundären Kreaturentypen.
 
 == Regeln
 
@@ -113,5 +99,5 @@ Die Überreste verbrennen zu Asche.
 
 [[ref_bestiary_hangman_unholy_toughness]]
 === Unheilige Widerstandskraft
-Der Galgenmann besitzt die Fähigkeit link:../skills/specific/undead/bestiary_skill_unholy_toughness.adoc[Unheilige Widerstandskraft].
+Der Galgenmann besitzt die Fähigkeit link:../skills/specific/undead/bestiary_skill_undead_unholy_toughness.adoc[Unheilige Widerstandskraft].
 Die Boni für die Machtstufe 6 sind in sein Profil eingerechnet.

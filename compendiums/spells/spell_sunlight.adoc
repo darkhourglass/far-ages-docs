@@ -1,0 +1,30 @@
+= Sonnenlicht
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 4 +
+*Rettungswurf:* Nein +
+*Komponenten:* Geste, Formel +
+*Fokus:* Licht +
+*Vorbereitung:* 1 +
+*Anzahl der Erfolge:* 2 +
+*Reichweite:* Radius 60,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du erschaffst einen kleinen leuchtenden Ball aus Licht, der aus Deiner Hand in direkter Linie nach oben steigt.
+In ungefähr 9,00 Meter Höhe (oder bei einer niedrigeren Decke in der entsprechenden Höhe) explodiert der Ball in einer diffusen Wolke aus Licht.
+
+Für die Dauer des Zauberspruches befindet sich im Radius ein helles Licht, welches als Sonnenlicht gilt.
+Ist der Radius einmal bestimmt, kann er nicht mehr geändert werden.
+Das bedeutet, dass der Effekt nicht mit Dir wandert, falls Du Dich bewegst.
+Alle negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] werden aufgehoben.
+Der Zauberspruch blendet nicht.
+
+Kreaturen, die empfindlich gegenüber Sonnenlicht sind, weil Sie beispielsweise unter dem link:../../rules/advanced/curses/curse_of_the_sun.adoc[Fluch der Sonne] leiden, sind so betroffen, als stünden sie in der Mittagssonne.
+
+Der Zauberspruch hebt magisch erzeugte Dunkelheit genau dann auf, wenn die POT höher ist als die POT des Effekts, der die Dunkelheit erzeugt.
+Ebenso beendet ein magischer Effekt, der Dunkelheit erzeugt, diesen Zauberspruch, wenn seine POT höher ist.
+Du kannst bei Vorbereitung des Zauberspruches die POT nach üblichen Regeln höher ansetzen als 4.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++2 MP: Reichweite +6,00 Meter +

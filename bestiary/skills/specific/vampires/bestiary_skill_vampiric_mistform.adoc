@@ -1,0 +1,41 @@
+= Nebelform
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Komplexe Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+
+Du verwandelst Dich in eine obskure Gestalt aus Nebel und kannst Dich so fast unentdeckt und ungestört bewegen.
+
+Du und alles, was Du am Körper trägst, jedoch keine anderen Kreaturen verwandeln sich in eine wabernde Wolke aus grauem Nebel.
+Für die Dauer der Fähigkeit gelten für Dich die gleichen Regeln wie für xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_incorporal_rules[körperlose] Wesen.
+Du erhältst außerdem die Fähigkeit link:../../bestiary_skill_move_flight.adoc[Fliegen (60 Meter)].
+
+Du kannst abhängig von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] entsprechend lange in der Nebenform verbleiben.
+Nach Ablauf dieser Zeit verwandest Du Dich zurück.
+Alternativ kannst Du Dich jederzeit mit Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexen Aktion] zurückverwandeln.
+
+
+|===
+|Machtstufe |Dauer
+
+|1
+|5 Kampfphasen
+
+|2-4
+|10 Kampfphasen
+
+|5-6
+|1 Stunde
+
+|7-9
+|4 Stunden
+
+|10+
+|8 Stunden
+|===
+
+[[ref_bestiary_skill_vampiric_mistform_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Vampir darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] oder xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_reactions[legendäre Reaktion] einsetzen.
+
+Außerdem verdoppelt sich die Dauer der Fähigkeit.

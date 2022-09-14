@@ -1,0 +1,28 @@
+= Wall aus Schmetterlingen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* Luft, Wachstum +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 1W6 Kampfphasen +
+*Effekt:* Du erschaffst 3,00 Meter hohen Wall aus unzähligen, bunten Schmetterlingen, die wild durch die Luft flattern.
+Die schiere Menge an kleinen Insekten macht es Kreaturen schwer ihre Ziele auszumachen.
+
+Der Wall aus Schmetterlingen besteht aus 6 Segmenten, die jeweils 1,50 x 1,50 Meter Platz abdecken.
+Du kannst die Verteilung der Segmente frei bestimmen, sie müssen jedoch alle zusammenhängen.
+
+Du kannst den Wall aus Schmetterlingen nicht direkt auf eine Kreatur zaubern.
+Allerdings betrachten alle Kreaturen, diesen Wall durchqueren wollen, diesen als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände].
+Außerdem erhalten alle Kreaturen innerhalb des Walls oder wenn sie von einer Seite des Walls auf die andere Seite des Walls eine Probe durchführen wollen, einen Malus von -2 auf die Würfe zum Erfolg auf alle Sicht-basierten Proben.
+
+Erhält ein Segment durch eine einzige Quelle 20 oder mehr xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schadenspunkte] auf einmal, wird das Segment zerstört.
+
+*Zusätzliche Effekte:* +
++1 MP: Reichweite +3,00 Meter
++3 MP: Dauer +1W6 Kampfphasen
++5 MP, +1 POT: erschaffe zusätzliches Segment für den Wellenwall

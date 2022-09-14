@@ -1,0 +1,25 @@
+= Beschwöre Geistertier
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Zutat +
+*Fokus:*  Geist, Schatten, Beschwörung +
+*Vorbereitung:* 5  +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du beschwörst ein link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] Deiner Wahl mit der Schablone link:../../bestiary/templates/bestiary_template_spirit_animal.adoc[Geistertier].
+
+Die maximale xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des Tieres kann jedoch nur 6 betragen.
+Es ist nicht relevant, ob Du ein Tier beschwörst, dass nicht in der aktuellen Umgebung beheimatet ist.
+Du kannst daher einen geisterhaften Eisbären in der Wüste beschwören.
+
+Das Geistertier folgt Deinen Befehlen und es kämpft auch für Dich.
+Es kann sich jedoch nicht aus der Reichweite des Zauberspruchs entfernen, es bleibt also immer im Umkreis von 12,00 Metern um Dich herum, außer Du erhöhst die Reichweite des Zaubers durch zusätzliche Effekte.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++2 MP: Reichweite +12,00 Meter +
++10 MP, +1 POT: Maximale GK des Tiers +1 (max. 10) +

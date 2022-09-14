@@ -1,6 +1,13 @@
 = Schwarm
 
+[[ref_swarm_rules]]
 == Regeln
+
+
+// GK der Einzelnen <> GK des Schwarms
+// no penalties moving through zones of controls / does not provoke AoO / do not execut AoO
+// loses TP only if WID is overturned / or has always high natural armor
+// immune to fear/horror
 
 * Schwärme erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
 * Schwärme erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag].

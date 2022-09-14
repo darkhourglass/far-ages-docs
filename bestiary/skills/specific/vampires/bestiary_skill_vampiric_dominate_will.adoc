@@ -1,0 +1,50 @@
+= Beherrsche den Willen
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Komplexe Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+
+Dein Wille ist eine alles übertreffende Macht, die den Geist schwächerer Kreaturen mit Leichtigkeit vereinnahmt.
+
+Du kannst die Handlung einer (oder mehrerer) Kreaturen durch Deine schiere Gedankenkraft bestimmten.
+Dazu musst Du alle Ziele, die Du beeinflussen möchtest, in direkter Sichtlinie haben und sie dürfen maximal 12,00 Meter entfernt sein.
+Du kannst nur link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide] als Ziel auswählen.
+
+Würfle eine xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] (falls Du das Talent beherrscht) oder eine Probe mit 1W10 pro Machtstufe plus Deine xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_selfcontrol[SB-Stufe].
+Alle Zielkreaturen müssen gegen die gewürfelten Erfolge einen xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft-Rettungswurf] ablegen.
+Jede Kreatur, die dieser Rettungswurf misslingt, steht für die Dauer des Effekts unter Deiner Kontrolle.
+
+Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] bestimmt, wie viele Kreaturen Du beherrschen kannst und wie lange der Effekt maximal wirkt.
+
+|===
+|Machtstufe |Anzahl Kreaturen |Dauer
+
+|1-2
+|1
+|1 Kampfphase
+
+|3-4
+|3
+|2 Kampfphasen
+
+|5-6
+|5
+|3 Kampfphasen
+
+|7-9
+|8
+|4 Kampfphasen
+
+|10+
+|8 +1 weitere Kreatur je 3 Machtstufen
+|5 Kampfphasen
+|===
+
+Der Effekt beziehungsweise die Beherrschung funktioniert, sodass die Kreaturen von Dir einen Befehl erhalten, den sie für die Dauer des Effekts nach besten Wissen und Fähigkeiten ausführen.
+Kann die Kreatur den Befehl nicht ausführen, weil ihr die Fähigkeit fehlt, dann wird sie regungslos stehen bleiben.
+
+[[ref_bestiary_skill_vampiric_dominate_will_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Vampir darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.
+
+Außerdem verdoppelt sich die maximale Anzahl der Kreaturen und die Dauer für diese Fähigkeit.

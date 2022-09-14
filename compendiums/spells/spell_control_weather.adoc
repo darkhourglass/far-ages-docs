@@ -1,0 +1,29 @@
+= Kontrolliere Wetter
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Geste +
+*Fokus:* Luft, Wasser, Geist +
+*Vorbereitung:* 10 +
+*Anzahl der Erfolge:* 12 +
+*Reichweite:* 1 Meile (1,61 Kilometer) +
+*Anzahl der Ziele:* Radius 1 Meile (1,61 Kilometer)  +
+*Dauer:* 1 Stunde +
+*Effekt:* Während der Vorbereitung beschwörst Du die Geister der Luft, die den Wind wehen lassen und die Geister des Wassers, die den Regen bringen.
+Du kannst das Wetter in Deinen Vorstellungen gestalten.
+
+Im Wirkungsbereich des Zauberspruches darfst Du eine der folgenden Veränderungen vornehmen:
+
+* Die Temperatur anpassen, sodass entweder xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_cold[Kälte], xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_heat[Hitze] oder keines des beiden gilt.
+* Die Stärke eines xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms[Sturms] (bzw. xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_snowstorms[Schnee-] oder xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_sandstorms[Sandsturm]) um einen Schritt nach oben oder unten ändern.
+* Den Effekt von link:spell_rain.adoc[Regen] verursachen oder bestehenden Regen beenden.
+
+Nach dem Ablauf der Wirkungsdauer kehrt die Umgebung bzw. das Wetter im Wirkungsbereich wieder zu seinem Urspruch zurück.
+
+Um magische Effekte zu kontrollieren, die eines der genannten Wetterphänomene verursachen, muss die POT dieses Zauberspruches zum Zeitpunkt Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] gleich oder höher sein, als die des auslösenden Effekts.
+
+*Zusätzliche Effekte:* +
++20 MP, +2 POT: Radius +1 Meile +
++10 MP, +1 POT: Reichweite +1 Meile +
++10 MP, +1 POT: Dauer +1 Stunde +

@@ -1,0 +1,32 @@
+= Gift und Krankheiten aufspüren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Formel +
+*Fokus:* Körper, Entdeckung +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* Sofort +
+*Effekt:* Du fokussierst Deinen Geist auf ein Ziel in Reichweite.
+Als potenzielle Ziele kommen infrage:
+
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen
+* Pflanzen
+* Gegenstände (inklusive Getränke und Essen)
+
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erkennst Du alle Gifte und Krankheiten, die das Ziel besitzt.
+Ist Dein Ziel eine Kreatur, steht ihr ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magie-Rettungswurf] zu.
+
+Du erkennst sowohl, ob das Ziel Träger eines Giftes oder einer Krankheit ist, als auch, ob das Ziel unter einer Vergiftung oder Krankheit leidet.
+Du kannst allerdings nicht erkennen, ob die Kreatur einen vergifteten Pfeil bei sich trägt, wenn Du als Ziel die Kreatur gewählt hast.
+
+Du kannst nur Gifte oder Krankheiten entdecken und erkennen, deren xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases_strengh[Krankheits-] bzw. xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_strengh[Giftstärke] kleiner oder gleich der POT dieses Zauberspruches zum Zeitpunkt Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei.Probe] ist.
+
+Um ein Gift oder Krankheit genauer zu erkennen, musst Du zusätzlich bei erfolgreicher Entdeckung eine Probe auf das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] ablegen, falls Du dieses Talent mit einer passenden Spezialisierung besitzt.
+Hast Du dieses Wissen nicht, kann Dir der SL eine grobe Beschreibung der Stärke des Giftes oder der Krankheit geben.
+
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +3,00 Meter +

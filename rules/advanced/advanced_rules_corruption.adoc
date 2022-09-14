@@ -12,7 +12,7 @@ Dieses Kapitel präsentiert Regeln, die Spieler und Spielleiter Ihre Spielrunden
 
 [NOTE]
 Die vorgestellten Regeln sind optional bzw. gehören zu den erweiterten Konzepten von Far Ages.
-Sie sollen diejenigen unterstützen, die in Ihrem Spiel mit düsteren Thematiken beschäftigen möchten und einen stärkeren Horror-Aspekt in Ihren Runden einbringen möchten
+Sie sollen diejenigen Spieler unterstützen, die in ihrem Spiel mit düsteren Thematiken beschäftigen möchten und einen stärkeren Horror-Aspekt in ihren Runden einbringen möchten.
 
 [[ref_corruptions_rules]]
 == Regeln
@@ -23,7 +23,7 @@ Zu Beginn des Spiels hat ein Charakter im Normalfall 0 Korruptionspunkte.
 Je mehr Korruptionspunkte ein Charakter erhält, umso schwerer wird es für Ihn, seine geistige Gesundheit zu behalten.
 
 Außerdem kann eine hohe Anzahl von Korruptionspunkten zu körperlichen und geistigen Veränderungen, sogenannte *Korruptionen*, führen.
-Korruptionen sind Mutationen vielfältiger Natur, die zeigen sollen, dass ein Charakter, der sich den außerweltlichen Mächten zu häufig aussetzt, früher oder später seinen Preis bezahlt.
+Korruptionen sind Mutationen vielfältiger Natur, die zeigen sollen, dass ein Charakter, der sich den übernatürlichen Mächten zu häufig aussetzt, früher oder später seinen Preis bezahlt.
 
 [[ref_corruptions_rules_receive_corruptionpoints]]
 === Korruptionspunkte erhalten
@@ -32,27 +32,38 @@ Die Quellen, um Korruptionspunkte zu erhalten, sind vielfältig.
 Ein Charakter könnte einen Handel mit einem Dämonen eingehen, er könnte verbotenes Wissen lernen oder er ist einfach zur falschen Zeit am falschen Ort.
 In jedem Fall ist der Erhalt eines Korruptionspunkt explizit erwähnt, zum Beispiel durch eine Formulierung wie _"Der Charakter erhält 1 Korruptionspunkt"_.
 
-Das Erhalten eines Korruptionspunkt hat zunächst keine direkten Auswirkungen, jedoch eher Langfristige, die im folgenden Kapitel beschrieben werden.
+Das Erhalten eines Korruptionspunkt hat zunächst keine direkten Auswirkungen, jedoch erhöht sich die Gefahr langfristiger Folgen, die im übernächsten <<ref_corruptions_rules_receive_corruptions,Kapitel>> beschrieben werden.
 
 [[ref_corruptions_rules_corruptionspoints]]
 === Auswirkungen von Korruptionspunkten
 
-In dem Moment, in dem ein Charakter 1 oder mehr Korruptionspunkte erhält, muss er sofort eine Horror-Probe würfeln, wobei die Anzahl der nötigen Erfolge gleich der bereits vorhandenen Korruptionspunkte ist. +
+In dem Moment, in dem ein Charakter 1 oder mehr Korruptionspunkte erhält, muss er sofort eine Horror-Probe würfeln, wobei die Anzahl der nötigen Erfolge gleich der insgesamt vorhandenen Korruptionspunkte (inklusive des eben Erhaltenen) ist.
 Misslingt die Probe oder ist ein Patzer, gelten die üblichen xref:../core/core_rules_d10_system.adoc#ref_core_base_saves_horror[Regeln] für Horror-Proben.
-Zusätzlich erhält der Charakter eine <<ref_corruptions_rules_receive_corruptions, Korruption>>.
+Zusätzlich erhält der Charakter eine <<ref_corruptions_rules_receive_corruptions,Korruption>>.
+
+Bei einem Erfolg passiert dem Charakter vorerst nichts, allerdings kumulieren sich die Korruptionspunkte, so dass nachfolgende Proben gefährlicher werden.
 
 Weitere Auswirkungen von Korruptionspunkten sind situationsabhängig, zum Beispiel wenn ein Effekt im Spiel (z.B. ein Zauberspruch) explizit Korruptionspunkte anspricht.
 
 [[ref_corruptions_rules_receive_corruptions]]
 === Korruptionen erhalten
 
-Korruptionen bzw. Mutationen sind die körperlichen oder auch geistigen Veränderungen, die permanent den Charakter zeichnen.
+Korruptionen bzw. Mutationen sind die körperlichen oder auch geistigen Veränderungen, die den Charakter permanent zeichnen.
 Insbesondere körperliche Mutationen können auf andere verstörend wirken und zeichnen den Charakter als _anders_ (auf die schlechte Art).
 Geistige Mutationen sind nicht sofort sichtbar, aber sie ändern die Verhaltensweisen des Charakters grundlegend, sodas andere ihn bestenfalls als exzentrisch wahrnehmen.
 
-Abhängig von der Anzahl der vorhandenen Korruptione, erhält der Charakter eine Korruption aus dieser link:corruptions/corruption_general.adoc[Liste].
-Jeder Eintrag ist einer passenden Zahl zugeorndet.
+Abhängig von der Anzahl der Korruptionspunkte, die Charakter zum aktuellen Zeitpunkt besitzt, erhält der Charakter eine Korruption aus dieser link:corruptions/corruption_general.adoc[Liste].
+Jeder Eintrag ist einer passenden Zahl zugeordnet.
 Werden mehrere Einträge pro Zahl angegeben, kann eine passende Korruption durch den SL bestimmt oder zufällig ausgewürfelt werden.
+
+Erhält der Charakter eine Korruption, reduzieren sich die aktuellen Korruptionspunkte um diese Zahl, jedoch nie unter 0.
+
+.Korreptionen erhalten
+====
+Ein Charakter mit 3 Korruptionspunkten verpatzt seine Horror-Probe.
+Er erhält somit eine Korruption im Wert von 3.
+Gleichzeitig reduziert sich die Zahl seiner Korruptionspunkte um 3, also hat er insgesamt wieder 0.
+====
 
 [[ref_corruptions_rules_variant_corruptions]]
 == Varianten von Korruption
@@ -63,7 +74,7 @@ In diesem Kapitel werden neue Varianten von Korruption vorgestellt, die mehr Det
 Sofern nicht anders angegeben, sind Korruptionspunkte immer allgemein.
 Nur eine explizite Nennung, wie _"Der Charakter erhält 1 Korruptionspunkt (Aetherisch)"_ gewährt die konkrete Variante.
 
-Charaktere müssen die Korruptionspunkte je Variante separat aufschreiben, allerdings gilt deren Gesamtsumme für die Bestimmung der vorgestellten Auswirkungen.
+Charaktere müssen die Korruptionspunkte je Variante separat aufschreiben, allerdings gilt deren Gesamtsumme für die Bestimmung der nötigen Anzahl der Erfolge in der Horror-Probe (siehe <<ref_corruptions_rules_corruptionspoints,Auswirkungen von Korruptionspunkten>>).
 
 .Varianten von Korruption
 ====
@@ -71,6 +82,9 @@ Ein Charakter hat 3 Korruptionspunkte (Aetherisch), 2 Korruptionspunkte (Nekroti
 Damit besitzt er insgesamt 7 Korruptionspunkte.
 Er hält einen weiteren Korruptionspunkt, muss er eine Horror-Probe gegen 7 Erfolge bestehen.
 ====
+
+Der Charakter erhält eine <<ref_corruptions_rules_receive_corruptions,Korruption>> in der Wertigkeit der Variante der Korruption, die die Horror-Probe ausgelöst hat.
+Dadurch kann der Charakter Korruptionspunkte einer Variante verlieren, aber die Punkte einer anderen Variante behalten.
 
 [NOTE]
 Diese Regeln können optional betrachtet werden.

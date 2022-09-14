@@ -1,0 +1,25 @@
+= Schneidende Ranken
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 4 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Körper, Wachstum +
+*Vorbereitung:* 1 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* 18,00 Meter +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Im Zielgebiet überwirft sich die Erde und es wachsen mit schlagenden Bewegungen Pflanzenranken aus dem Boden.
+Ungewöhnlich stark und wild schlagen die Ranken auf alle Kreaturen ein, die ihnen zu nahe kommen.
+Ihr messerscharfen Blätter reißen tiefe Wunden.
+
+Alle Kreaturen, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] im Zielgebiet des Zauberspruches beginnen, müssen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] ablegen.
+Bestehen sie diese Probe nicht, erhalten sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] von 2W6.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++5 MP: Reichweite +6,00 Meter +
++10 MP, +1 POT: Radius +3,00 Meter +
++5 MP, +1 POT: Schaden +1W6 +
++5 MP, +1 POT: Nötige Anzahl der Erfolge für Reflex-Rettungswurf +1 +

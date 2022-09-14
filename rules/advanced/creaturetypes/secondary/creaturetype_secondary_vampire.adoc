@@ -1,0 +1,268 @@
+= Vampir
+
+[[ref_vampire_rules]]
+== Regeln
+
+[[ref_vampire_rules_powerlevel]]
+=== Machtstufe
+Jeder Vampir hat eine *Machtstufe*.
+Diese wird in einer positiven Zahl von 1 bis 10 (in seltenen Fällen auch höher) gemessen und je höher diese ist, umso mächtiger kann der Vampir angesehen werden.
+
+Um die Machtstufe eines Vampirs zu bestimmen, sind folgende Schritte nötig:
+
+* besitzt der Vampir aufgrund seines *primären Kreaturentyps* eine Machtstufe, zum Beispiel weil er ein link:../primary/creaturetype_primary_undead.adoc[Untoter] oder link:../primary/creaturetype_primary_dragon.adoc[Drache] ist, so wird diese Machtstufe als Machtstufe des Vampirs genommen. +
+* Besitzt der Vampir aufgrund seines primären Kreaturentyps keine Machtstufe, aber aus einer anderen Quelle, wird diese Machtstufe übernommen. +
+* Trifft keiner der oberen Punkte zu, wird die Machtstufe des Vampirs mit 1 angenommen. +
+
+.Machtstufe
+====
+Ein Untoter der Machtstufe 5 erhält diesen sekundären Kreaturentyp durch die Schablone link:../../../../bestiary/templates/bestiary_template_undead_vampire.adoc[Vampir (Blut)].
+Er ist damit nicht nur ein Untoter der Machtstufe 5, sondern auch ein Vampir der Machtstufe 5.
+====
+
+[[ref_vampire_rules_powerlevel_initial_skills]]
+==== Initiale Fähigkeiten
+
+Ein Vampir erhält automatisch bei Erhalt der Schablone die im Folgenden beschriebenen Fähigkeiten.
+Diese sind teilweise von der Machtstufe abhängig.
+
+[[ref_vampire_rules_powerlevel_initial_skills_energydrain]]
+===== Energieentzug
+
+Der Vampir erhält die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_attack_energydrain.adoc[Energieentzug].
+Die Parameter der Fähigkeit richten sich nach der Machtstufe des Vampires.
+
+Sollte sich die Machtstufe eines Vampirs im Laufe seiner Existenz verändern, verändert sich die Werte gemäß der Tabelle.
+
+|===
+|Machtstufe des Vampirs |Angriffstufe |Schaden |Reichweite
+
+|1
+|1 + Attribut
+|1W6
+|Berührung
+
+|2
+|1 + Attribut
+|1W6
+|Berührung
+
+|3
+|2 + Attribut
+|1W8
+|Berührung
+
+|4
+|2 + Attribut
+|1W8
+|Berührung
+
+|5
+|3 + Attribut
+|2W6
+|Berührung
+
+|6
+|3 + Attribut
+|2W6
+|Berührung
+
+|7
+|4 + Attribut
+|2W8
+|Berührung
+
+|8
+|4 + Attribut
+|2W8
+|Berührung
+
+|9
+|5 + Attribut
+|2W10
+|Berührung
+
+|10
+|5 + Attribut
+|2W10
+|Berührung
+
+|10+
+|(6 + Attribut) +1 alle 2 Machtstufe
+|+1W10 alle 3 Machtstufen
+|Berührung
+|===
+
+Der Parameter *Pool* wird im Normal durch die <<ref_vampire_rules_source_of_vampirism,Quelle des Vampirismus>> definiert.
+Sollte dies nicht angegeben sein, wird der Energieentzug von xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] angenommen.
+
+Die in der Tabelle definierte Variable *Attribut* hängt von dem gewählten *Pool* ab, von dem der Energieentzug bei der Zielkreatur gewirkt wird.
+
+* xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP]: xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO]
+* xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP]: xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_energy[EN]
+* xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP]: xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_selfcontrol[SB]
+
+[NOTE]
+====
+Manche Schablonen oder Kreaturen besitzen neben dieser übergreifenden Einteilung eventuell weitere Regeln für den Einsatz dieser Fähigkeit.
+====
+
+.Initiale Fähigkeiten
+====
+Eine Kreatur mit einer KO-Attributstufe von 6 wird zu einem Vampir.
+Bei der initialen Berechnung seiner Machtstufe wird ein Wert von 3 ermitteln.
+Außerdem entzieht er mit der Fähigkeit Energieentzug TP.
+Somit beträgt seine Angriffsstufe in dieser Fähigkeit 2+6 = 8W10.
+Der Schadensbonus beträgt 1W8.
+====
+
+[[ref_vampire_rules_powerlevel_additional_skills_and_curses]]
+==== Zusätzliche Fähigkeiten und Flüche
+Abhängig von seiner Machtstufe erhält der Vampir zusätzliche Fähigkeiten, die speziell für Vampire ausgelegt sind, siehe folgende <<ref_vampire_appendix_list_vampiric_skills,Liste>>.
+Sofern nicht durch andere Regeln vorgegeben, kann der Vampir diese Fähigkeiten bei seiner Verwandlung aussuchen.
+Gleichzeitig erhält er jedoch ebenso <<ref_vampire_appendix_list_vampiric_curses, Flüche>>, die speziell auf Vampire wirken, sobald sie verwandelt werden.
+Diese Flüche sind im allgemeinen bekannte link:../../advanced_rules_curses.adoc[Flüche] sein, wie zum Beispiel link:../../curses/curse_of_hunger.adoc[der Hunger], jedoch sind diese niemals xref:../../advanced_rules_curses.adoc#ref_curses_breaking[entfernbar] (außer durch die Vernichtung des Vampirs natürlich).
+Die korrumpierende Macht von Nachtmahr ist ein zweischneidiges Schwert.
+
+Jede Fähigkeit oder Fluch kann nur einmal gewählt werden.
+Die folgende Tabelle zeigt die Anzahl der möglichen Fähigkeiten pro Machtstufe.
+
+|===
+|Machtstufe des Vampirs |Anzahl der Vampirfähigkeiten |Anzahl der Vampirflüche
+
+|1
+|0
+|1
+
+|2
+|1
+|1
+
+|3
+|1
+|2
+
+|4
+|2
+|2
+
+|5
+|2
+|2
+
+|6
+|2
+|3
+
+|7
+|3
+|3
+
+|8
+|3
+|3
+
+|9
+|3
+|4
+
+|10
+|4
+|4
+
+|10+
+|+1 pro 4 Machtstufen (maximal 6)
+|4
+|===
+
+[NOTE]
+====
+Wird der Vampirismus über eine Schablone übertragen, so kann es sein, dass diese Schablone Einschränkungen oder Vorgaben mit sich bringt, die die Optionen dieses Kapitels einschränken.
+Als eine generelle Regel wird angenommen, dass alle Fähigkeiten, die über die <<ref_vampire_rules_powerlevel_initial_skills,initialen Fähigkeiten>> hinausgehen und explizit als <<ref_vampire_appendix_list_vampiric_skills,Vampirfähigkeiten>> geführt sind, gegen die oben genannten Maxima zählen.
+====
+
+Sollte sich die Machtstufe eines Vampirs im Laufe seiner Existenz verändern, verliert oder gewinnt der Vampire keine Fähigkeiten oder Flüche.
+In diesem Fall handelt es sich um eine initiale Ausstattung bei seiner Erschaffung.
+
+[[ref_vampire_rules_bloodcosts]]
+=== Blutkosten für Vampirfähigkeiten
+Die meisten <<ref_vampire_appendix_list_vampiric_skills,Vampirfähigkeiten>> besitzen neben der Angabe zur Verwendung in der Kampfphase (beispielsweise als xref:../../../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion]) eine *Aktivierung* in Form von *Blut*.
+Der Vampir muss dazu das Blut in seinem untoten Körper verbrauchen, um die Fähigkeit einsetzen zu können.
+Die Angabe erfolgt als eine Zahl.
+Diese Zahl muss der Vampir aus seinem xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] beziehen.
+Dies funktioniert nach den gleichen Regeln wie xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengungsschaden] mit der Ausnahme, dass diese Kosten nie durch die genannten Ausnahmen reduziert werden können (zum Beispiel durch eine explizite Schadensimmunität).
+
+Ein Vampir kann keine Blutkosten aufbringen, wenn deren Einsatz ihn auf einen TP-Wert von 0 oder geringer bringen würde.
+
+[[ref_vampire_rules_restless]]
+=== Rastlos
+Vampire können nicht mehr auf natürlichem Wege ihre Pools für xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] und xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerieren].
+Keine Rast kann die Pools wieder auffüllen.
+Dennoch können Vampire weiterhin gezwungen sein, regelmäßig schlafen, beispielsweise, wenn sie weiterhin den Kreaturentyp link:creaturetype_secondary_living.adoc[lebend] besitzen.
+Sie können jedoch nicht den Vorteil einer Rast nutzen.
+
+[[ref_vampire_rules_source_of_vampirism]]
+=== Quelle des Vampirismus
+Vampirismus wurde auf das Multiversum durch die Aktionen des Progenitors link:../../../../lore/progenitors/lore_progenitors_nachtmare.adoc[Nachtmahr] losgelassen.
+
+Im Allgemeinen wird ein Vampir nicht geboren, sondern erschaffen.
+Dies sind beispielsweise Flüche, eine Übertragung durch einen anderen Vampir und in sehr seltenen Fällen all durch Nachtmahrs Willen.
+Eine Kreatur muss daher eine passende Schablone erhalten, um diesen sekundären Kreaturentyp erhalten.
+Dies sind beispielsweise die folgenden:
+
+* link:../../../../bestiary/templates/bestiary_template_undead_vampire.adoc[Vampir (untot)]
+
+[[ref_vampire_rules_impossible_combinations]]
+=== Unmögliche Kombinationen
+Vampire sind Kreaturen des Widerspruches.
+Auch wenn sie scheinbar keinen angestammten Platz im Multiversums haben, so sind sie eng verwoben mit der materiellen Welt, so sind ihre Opfer immer link:creaturetype_secondary_living.adoc[lebende] Kreaturen.
+Vielleicht durch grausamer Ironie verursacht, können nur Kreaturen Vampire werden, die selbst leben oder gelebt haben.
+Kreaturen, die einen der folgenden primären Kreaturentypen angehören, können diesen sekundären Kreaturentyp nie erhalten:
+
+* link:../primary/creaturetype_primary_demon.adoc[Dämon]
+* link:../primary/creaturetype_primary_elemental.adoc[Elementar]
+* link:../primary/creaturetype_primary_construct.adoc[Konstrukt]
+* link:../primary/creaturetype_primary_abomination.adoc[Scheusal]
+
+Wird eine solche Kreatur einer <<ref_vampire_rules_source_of_vampirism,Quelle des Vampirismus>> ausgesetzt, wird sie nicht zu einem solchen.
+
+[[ref_vampire_appendix]]
+== Appendix
+
+[[ref_vampire_appendix_list_vampiric_skills]]
+=== Liste der Vampirfähigkeiten
+
+Folgende Liste fasst alle Fähigkeiten zusammen, die Vampire aufgrund ihrer <<ref_vampire_rules_powerlevel,Machtstufe>> lernen können.
+
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_command_nightcreatures.adoc[Befehlige Kreaturen der Nacht] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_dominate_will.adoc[Beherrsche den Willen] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_blood_hunt.adoc[Blutjagd] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_blood_transfusion.adoc[Bluttransfusion] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_blood_sense.adoc[Blut aufspüren] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_dark_infusion.adoc[Dunkle Infusion] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_dark_intellect.adoc[Finsterer Intellekt] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_dark_might.adoc[Finstere Macht] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_dark_presence.adoc[Finstere Präsenz] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_glamour.adoc[Glamour] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_horrid_visage.adoc[Grauenvolles Antlitz] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_harden_skin.adoc[Haut abhärten] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_hypnotic_gaze.adoc.adoc[Hypnotischer Blick] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_hide_in_shadows.adoc[Im Schatten verschwinden] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_majestic_aura.adoc[Majestätische Aura] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_mistform.adoc[Nebelform] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skills_shadow_step.adoc.adoc[Schattenschritt]] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_mistform.adoc[Tierform] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_forbidden_knowledge.adoc[Verbotenes Wissen] +
+* link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_sunwalker.adoc[Wanderer unter der Sonne] +
+
+[[ref_vampire_appendix_list_vampiric_curses]]
+=== Liste der Vampirflüche
+
+Die folgenden Unterkapitel beschreiben typische Vampirflüche, mit denen Vampire aufgrund ihrer <<ref_vampire_rules_powerlevel,Machtstufe>> belegt werden.
+Sie können durch den SL vorgegeben werden, sobald der Vampir verwandelt wird.
+
+* link:../../curses/curse_of_cold_touch.adoc#curse_of_cold_touch_harmless[Fluch der kalten Berührung (harmlos)] +
+* link:../../curses/curse_of_hunger.adoc[Der Hunger] +
+* link:../../curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_strong[Fluch der Sonne (stark)] +
+* link:../../curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_deathcurse[Fluch der Sonne (Todesfluch)]: dieser kann anstelle von 2 einzelnen Flüche gewählt werden +
+* link:../../curses/curse_of_the_weak_spot.adoc#ref_curse_of_the_weakspot_strong[Fluch des Schwachpunkts (Standard, Holzpflock)]

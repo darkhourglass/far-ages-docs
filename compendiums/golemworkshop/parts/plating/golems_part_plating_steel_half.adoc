@@ -7,8 +7,11 @@
 *GK:* 1 -10 +
 *Rüstungsschutz:* siehe Beschreibung +
 *Montage:* - +
-*Beschreibung:* +
+*Beschreibung:* Die Stahlpanzerung gehört zu den beliebtesten und am häufigsten verbauten Panzerungen.
+Ihre vergleichsweise moderaten Kosten und effektive Herstellung macht die verringerte Schutzwirkung wett.
 
+Diese Rüstung schützt nur die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Standardtrefferzone] des Golems.
+Dafür muss der Golem nicht auf Bewegung und Flexibilität verzichten, denn diese Panzerung erfordert keine negativen Modifikatoren auf beispielsweise seine xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
 
 |===
 |GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz

@@ -1,0 +1,29 @@
+= Beschwöre Geistertier-Schwarm
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 10 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Geist, Schatten, Beschwörung +
+*Vorbereitung:* 5 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du beschwörst einen link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_swarm.adoc[Schwarm] aus link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tieren] mit der Schablone link:../../bestiary/templates/bestiary_template_spirit_animal.adoc[Geistertier], der innerhalb der Reichweite auftaucht.
+Die geisterhaften Tiere manifestieren sich bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] im Zielgebiet.
+Wie alle Geistertiere sind sie leicht transluzent, als wären sie aus Mondlicht.
+
+Die xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des beschworenen Schwarms ist 5.
+Du kannst nur einen Schwarm aus Tieren beschwören, die in der Umgebung, in der Du den Zauberspruch aussprichst, heimisch sind.
+Der Schwarm kann keine weiteren Schablonen erhalten außer durch die unten genannten zusätzlichen Effekte.
+
+Für die Dauer des Zauberspruches kämpft der Schwarm für Dich und Du kannst bestimmen, welche Kreaturen der Schwarm nicht angreifen soll.
+Nach Ablauf der Dauer des Zauberspruches verschwindet der Schwarm auf die gleiche mysteriöse Weise, wie er erschienen ist.
+Der geisterhafte Schwarm kann sich nur innerhalb der Reichweite des Zauberspruches aufhalten.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++2 MP: Reichweite: +6,00 Meter +
++5 MP, +1 POT: GK des Schwarms +1 (Maximum 10) +
++20 MP, +3 POT: Schwarm hat weitere Schablone: link:../../bestiary/templates/bestiary_template_elemental_touched.adoc[Elementar-berührt] (Du bestimmst das Element einmal zu Spruchzauberei-Probe) +

@@ -1,0 +1,26 @@
+= Totem der Flammen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Zutat +
+*Fokus:* Feuer, Totem +
+*Vorbereitung:* 30 Minuten (Ritual) +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Dieses xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_schools_schamanism_totems[Totem] ist mit der Macht des elementaren Feuers verzaubert und trägt eine Fratze mit aufgerissenen Maul.
+xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions_useitem[Aktivierst] Du das Totem, beginnen seine Augen als kleinen Flammen zu brennen und es feuert glühende Flammenbälle auf Deine Gegner.
+Bei der Herstellung des Totems kannst Du bestimmen, welche Kreaturen das Totem *nicht* angreifen soll, indem Du kleine Habseligkeiten der Kreaturen verwendest, wie beispielsweise Haare.
+
+Zu Beginn Deiner xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] feuert das Totem auf die nächste Kreatur, die bei seiner Erschaffung nicht betrachtet wurde, und die sich innerhalb der Reichweite sowie direkter und unbehinderter Sichtlinie befindet.
+
+Die Kreatur erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
+Die Kreatur darf eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Probe] ablegen, um den Schaden zu halbieren (abgerundet, Minimum 1).
+
+Das Totem wird Dich nie angreifen.
+
+*Zusätzliche Effekte:* +
++2 MP, +1 POT: Dauer +1 Kampfphase +
++5 MP, +1 POT: Schaden +1W6 Feuer-Schaden +

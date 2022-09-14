@@ -1,0 +1,27 @@
+= Energieentzug (Angriffsstufe, Schaden, Reichweite, Pool)
+
+*Voraussetzungen:* - +
+*CP:* tba +
+
+Dieser übernatürliche Angriff entzieht dem Opfer Punkte aus einem seiner xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools[Pools], um sie dem Angreifer zu übertragen.
+
+Der Angriff erfolgt im Gegensatz zu den meisten Talenten oder Fähigkeiten als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] mit der definierten *Angriffsstufe*.
+Das Ziel hat immer eine die Möglichkeit zur einer xref:../../rules/core/core_rules_d10_system.adoc#ref_core_defendingroll[Verteidigungsprobe], solange sie nicht von der angreifenden Kreatur xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[gehalten] wird und bei Bewusstsein ist.
+Die Art der Verteidigungsprobe ist von dem *Pool* abhängig wie folgt:
+
+* xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP]: xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_KO[KO-Rettungswurf] +
+* xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP]: xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_EN[EN-Rettungswurf] +
+* xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP]: xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_SB[SB-Rettungswurf] +
+
+Die angegebene *Reichweite* kann eine beliebige Angabe in Metern sein.
+In diesem Fall muss sich die Zielkreatur innerhalb der Reichweite in Sichtweite der Kreatur befinden.
+Alternativ kann die Reichweite auch als *Berührung* angegeben sein.
+Analog zu den Regeln eines xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_range[Zauberspruches] gilt, dass die Kreatur das Ziel im Moment der xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] berühren können muss.
+
+Bei einer erfolgreichen Angriffsprobe wird, unabhängig vom Pool, ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Schadenswurf] mit dem angegebenen *Schaden* durchgeführt.
+Die ermittelten xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schadenspunkte] werden von dem *Pool* der Zielkreatur abgezogen.
+Die werden sofort dem passenden Pool der angreifenden Kreatur gutgeschrieben, allerdings nie über das Maximum.
+
+[[ref_energydrain_legendary]]
+== Legendär
+Eine link:../templates/bestiary_template_legendary.adoc[legendäre] Kreatur mit dieser Fähigkeit kann sie als xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.

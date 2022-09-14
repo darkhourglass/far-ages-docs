@@ -1,5 +1,11 @@
 = Abenteuer
 
+[[ref_core_adventures_journies]]
+== Reisen
+
+// Travel per Day, travel too much, exhaustion
+// food per day / water per day
+
 [[ref_core_adventures_hazards]]
 == Gefahren
 
@@ -62,6 +68,9 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 [[ref_core_adventures_hazards_poisons]]
 === Gifte
 
+[[ref_core_adventures_hazards_poisons_strengh]]
+==== Giftstärke
+
 [[ref_core_adventures_hazards_poisons_caustic_venom]]
 ==== Ätzendes Gift
 
@@ -87,6 +96,25 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 
 [[ref_core_adventures_hazards_cold]]
 === Kälte
+
+[[ref_core_adventures_hazards_diseases]]
+=== Krankheiten
+
+
+[[ref_core_adventures_hazards_diseases_strengh]]
+==== Stärke der Krankheit
+
+[[ref_core_adventures_hazards_diseases_bloodcough]]
+==== Bluthusten
+
+// primary
+// secondary
+
+[[ref_core_adventures_hazards_diseases_tombfever]]
+==== Grabfieber
+
+// primary
+// secondary
 
 [[ref_core_adventures_hazards_lava]]
 === Lava

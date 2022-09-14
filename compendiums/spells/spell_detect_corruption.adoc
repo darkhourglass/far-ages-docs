@@ -1,0 +1,22 @@
+= Entdecke Korruption
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Geist, Entdeckung +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 7 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:* Dein Geist durchdringt die Kreatur und Du erkennst ihre Befleckung durch die übernatürliche Welt.
+
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erkennst Du, ob die Kreatur von xref:../../rules/advanced/advanced_rules_corruption.adoc#ref_corruptions_rules[Korruption] betroffen ist.
+Du weißt sowohl, ob die Kreatur aktuell xref:../../rules/advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_corruptionspoints[Korruptionspunkte] besitzt (aber nicht die genaue Anzahl), als auch ob die Korruptionen erhalten hat.
+Im letzteren Fall weißt Du wie viele Korruptionen die Kreatur bisher erhalten hat, aber nicht die exakte Natur.
+
+Besitzt die Kreatur mehrere xref:../../rules/advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_variant_corruptions[Typen], dann erhältest Du pro Typ die oben genannten Informationen.
+
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +3,00 Meter +

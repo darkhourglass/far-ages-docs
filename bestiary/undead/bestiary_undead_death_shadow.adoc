@@ -2,37 +2,41 @@
 
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
 * link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos]
-* -
-* GK: 5
-* CP: TBA
+* *GK:* 5
+* *CP:* TBA
 
 == Beschreibung
 
 Lore
 
-== Attribute
+== Profil
 
-ST: 3 +
-GE: 3 +
-KO: 4 +
-ER: 4 +
-EN: 7 +
-SB: 2 +
-CH: 1 +
+*ST:* 3   *GE:* 3   *KO:* 4 +
+*ER:* 4   *EN:* 7   *SB:* 2   *CH:* 1 +
 
-== Pools
+*TP:* 35  *MP:* 70  *SP:* - +
 
-TP: 35 +
-MP: 70 +
-SP: - +
+*WID:* 14 +
+*BEW:* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 60,00 Meter +
+*INI:* 7 +
+*MaxTL:* - +
+*MaxPOT:* 10 +
 
-== Attributswerte
+*Rüstung:* - +
+*Resistenzen:*
 
-WID: 14 +
-BEW: 60 Meter +
-INI: 7 +
-MaxTL: - +
-MaxPOT: 10 +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)]
 
 == Offensiv
 
@@ -45,29 +49,9 @@ MaxPOT: 10 +
 == Sonstiges
 
 * <<ref_bestiary_death_shadow_one_with_shadows, Eins mit den Schatten>>
-* <<ref_bestiary_death_shadow_light_vulnerability, Verwundbar im Licht>>
-
-== Primäre Kreaturentypen
-
-Folgende Fähigkeiten erhält die Kreatur aufgrund ihres primären Kreaturentypes:
-
-* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
 * link:../skills/bestiary_skill_fear.adoc[Furcht] 7
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
-
-== Sekundäre Kreaturentypen
-
-Folgende Fähigkeiten erhalten Todesschatten ihrer sekundären Kreaturentypen:
-
-* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 60 Meter
-* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
-* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_creaturetype_secondary_incorporal_skill_body_damage_immunity[Schadensimmunität (Körper)]
+* <<ref_bestiary_death_shadow_light_vulnerability, Verwundbar im Licht>>
 
 == Regeln
 
@@ -106,7 +90,7 @@ Der Leichnam zerfällt urplötzlich zu Staub und an seiner Stelle erscheint ein 
 [[ref_bestiary_death_shadow_light_vulnerability]]
 === Verwundbar im Licht
 Fällt Licht auf den Todesschatten, zum Beispiel Fackelschein, wird er verwundbar.
-Er verliert seine Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_creaturetype_secondary_incorporal_skill_body_damage_immunity[Schadensimmunität (Körper)] solange er im Licht steht.
+Er verliert seine Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)] solange er im Licht steht.
 
 Todesschatten sind außerdem besonders anfällig gegenüber Tageslicht und direktem Sonnenlicht.
 Zu Beginn seiner Kampfphase, wenn der Todesschatten sich im Tageslicht oder Sonnenlicht befindet, erhält er einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 10W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schaden.

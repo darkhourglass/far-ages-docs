@@ -1,0 +1,24 @@
+= Hagel und Graupel
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Stille +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 5 Kampfphase +
+*Effekt:* Du beschwörst einen Sturm aus Hagel und Graupel hervor, der jeglicher Temperatur trotzt.
+Im Wirkungsbereich müssen sich die Kreaturen, die sich darin aufhalten, gegen fallende Hagelkörner erwehren und mit rutschigem Boden umgehen.
+
+Jede Kreatur, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] beginnt, kann ihre xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] nur mit Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexen Aktion] einsetzen.
+Es können keine Manöver eingesetzt werden, die als komplexe Aktionen gelten, außer die genannte Bewegung.
+
+Außerdem muss jede Kreatur, die ihre Kampfphase im Wirkungsbereich beginnt oder diesen in seiner Kampfphase betritt, eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Probe] bestehen oder erhält sowohl einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 1W6+1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost-Schaden] als auch gilt als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen (Stufe 2)] für den Rest ihrer Kampfphase.
+
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +3,00 Meter +
++5 MP, +1 POT: Radius +3,00 Meter +
++2 MP: Dauer +1 Kampfphase +

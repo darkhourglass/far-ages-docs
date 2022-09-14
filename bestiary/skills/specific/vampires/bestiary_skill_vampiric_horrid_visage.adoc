@@ -1,0 +1,30 @@
+= Grauenvolles Antlitz
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+
+Wenn Du xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_fear_skill[Furcht] in den Herzen der Sterblichen pflanzt, kannst Du diese Fähigkeit einsetzen, um den Effekt zu verstärken, in dem Gesicht furchterregender wird.
+Beispielsweise werden Deine Fangzähne deutlich länger und Deine Augen glühen in blutroten Flammen.
+
+Setzt Du die Fähigkeit link:../../bestiary_skill_fear.adoc[Furcht] ein, erhältst Du einen Bonus auf die Würfel zum Erfolg abhängig von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe].
+
+|===
+|Machtstufe |Bonus
+
+|1-3
+|+1 Würfel zum Erfolg
+
+|4-6
+|+2 Würfel zum Erfolg
+
+|7-9
+|+3 Würfel zum Erfolg
+
+|10+
+|+1 Würfel zum Erfolg pro 3 Machtstufen nach 10
+|===
+
+[[ref_bestiary_skill_vampiric_horrid_visage_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Vampir darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.

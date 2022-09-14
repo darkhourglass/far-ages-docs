@@ -1,0 +1,41 @@
+= Haut abhärten
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+
+Deine Haut wird härter und widerstandsfähiger gegenüber äußere Schäden.
+Als sichtbarer Effekt scheint Deine Haut die Struktur von Stein anzunehmen und leicht heller zu werden.
+
+Setzt Du diese Fähigkeit ein, erhältst Du einen für eine bestimmte Anzahl von xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphasen] einen Bonus von xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_naturalarmor[natürlichen Rüstungspunkten].
+Hast Du bereits aus anderer Quelle natürlichen Rüstungsschutz, addiert sich diese Bonus.
+
+Beide Werte hängen von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab.
+
+
+|===
+|Machtstufe |Bonus Natürlicher Rüstungsschutz |Dauer
+
+|1-3
+|3
+|3 Kampfphasen
+
+|4-6
+|6
+|4 Kampfphasen
+
+|7-9
+|9
+|5 Kampfphasen
+
+|10+
+|+3 Punkte alle 3 Machtstufen nach 10
+|+1 Kampfphase alle 3 Machtstufen nach 10
+|===
+
+[[ref_bestiary_skill_vampiric_harden_skin_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Vampir darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.
+
+Außerdem erhält der Vampir einen weiteren Bonus von +3 auf den natürlichen Rüstungsschutz.
+Die Dauer der Fähigkeit wird verdoppelt.

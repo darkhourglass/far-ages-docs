@@ -1,0 +1,26 @@
+= Kuriere Krankheit
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Geste, Zutat +
+*Fokus:* Körper +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:* Du heilst die Zielkreatur von den Folgen eines xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases[Krankheit].
+Als Zutat benötigst Du eine kleine Menge an Heilkräutern, die Du bei der Vorbereitung des Zauberspruches verbrennst.
+
+Befindet sich die Krankheit im Körper der Kreatur, wird sie vollständig kuriert.
+Eventuelle Effekte der Krankheit treten nicht mehr ein.
+Durch die Krankheit verlorene xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] werden jedoch doch nicht regeneriert.
+
+Damit der Zauberspruch wirkt, muss die Anzahl der Erfolge Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] die xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases_strengh[Stärke der Krankheit] übertreffen.
+Durch zusätzliche Effekte kannst Du die Schwierigkeit der Probe reduzieren.
+
+Ist die Kreatur von mehr als einer Krankheit betroffen, musst Du Dich vor der Spruchzauberei entscheiden, welche Krankheit der Zauber kurieren soll.
+
+*Zusätzliche Effekte:* +
++2 POT: reduziere die erforderliche Anzahl der Erfolge um 1 (minimal 1 Erfolg nötig)

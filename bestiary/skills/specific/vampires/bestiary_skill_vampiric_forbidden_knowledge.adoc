@@ -1,0 +1,23 @@
+= Verbotenes Wissen
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* Passiv
+
+Dein Blut ist aufgeladen mit magischen Energien, die Dir die Geheimnisse des Aethers zuflüstern.
+Auf unerklärliche Weise erhältst Du das Wissen, um Magie zu wirken.
+
+Du lernst das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit einer xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talentstufe] gleich der Hälfte Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] (abgerundet, minimal 1).
+Du kannst das Talent später nach den üblichen Regeln xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp_talents[steigern].
+
+Als xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_schools_of_magic[Zauberschule] für dieses Talent wird eine für diese Fähigkeit exklusive Schule *Verbotenes Wissen* angenommen.
+Für diese Schule kannst Du eine der folgenden Zauberspruchlisten wählen, die Teil dieser Zauberschule sein soll:
+
+* link:../../../../compendiums/spelllists/compendium_spelllist_alchemy.adoc[Alchemie]
+* link:../../../../compendiums/spelllists/compendium_spelllist_necromancy.adoc[Nekromantie]
+* link:../../../../compendiums/spelllists/outermagic/compendium_spelllist_daemonologism.adoc[Dämonologie]
+* link:../../../../compendiums/spelllists/shadowmagic/compendium_spelllist_wayofshadows.adoc[Weg der Schatten]
+
+Du musst diese Entscheidung in dem Moment treffen, in dem Du diese Fähigkeit lernst.
+Diese Entscheidung ist endgültig.
+Du kannst diese Fähigkeit nur einmal lernen.

@@ -1,0 +1,65 @@
+= Glamour
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+
+Du kannst die einfachen Gemüter der Sterblichen durch eine übernatürliche Täuschung von Dir überzeugen.
+Für einen kurzen Moment überspielst Du geschickt Deine untote Natur und lässt Dich zum besten Freund einer Zielkreatur werden.
+
+Diese Fähigkeit kannst Du nur gegen eine link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende], link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoide] Kreatur einsetzen.
+Du musst direkten Sichtkontakt zu der Zielkreatur haben und sie darf nicht weiter als 9,00 Meter entfernt sein.
+
+Die Kreatur muss einen xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_saves_CH[CH-Rettungswurf] ablegen.
+Die nötige Anzahl der Erfolg hängt von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab.
+Besteht sie diesen Rettungswurf nicht, erhältst Du einen Bonus auf die Würfe zum Erfolg für jede CH-abhängige Attributs- oder Talentprobe, die Du gegen die Zielkreatur ausführst.
+Dieser Effekt hält jedoch maximal bis zum Ende Deiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase].
+
+Mit einer höheren Machtstufe kannst Du mehrere Kreaturen gleichzeitig durch diese Fähigkeit beeinflussen.
+Diese Zahl sowie die Schwierigkeit des Rettungswurfs und den Bonus wird in der nachfolgenden Tabelle aufgelistet.
+
+
+|===
+|Machtstufe |Anzahl Kreaturen |Erfolge Rettungswurf |Bonus
+
+|1-2
+|1
+|1
+|+1 Würfe zum Erfolg
+
+|3-4
+|2
+|2
+|+1 Würfe zum Erfolg
+
+|5-6
+|3
+|2
+|+2 Würfe zum Erfolg
+
+|7
+|5
+|3
+|+2 Würfe zum Erfolg
+
+|8
+|6
+|3
+|+3 Würfe zum Erfolg
+
+|9
+|8
+|4
+|+3 Würfe zum Erfolg
+
+|10+
+|10 (+1 alle 3 Machtstufen nach 10)
+|5 (+1 alle 3 Machtstufen nach 10)
+|+4 Würfe zum Erfolg
+|===
+
+[[ref_bestiary_skill_vampiric_glamour_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Vampir darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.
+
+Außerdem verdoppelt sich die maximale Anzahl der betroffenen Kreaturen.

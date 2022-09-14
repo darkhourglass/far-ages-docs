@@ -1,0 +1,36 @@
+= Unnatürliche Kreaturen aufspüren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Geist, Erde, Entdeckung +
+*Vorbereitung:* 6 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du konzentrierst Deine Gedanken auf die Umgebung, um die Präsenz widernatürlichen Kreaturen zu entdecken.
+
+Für die Dauer des Zauberspruches weißt Du immer welche Kreaturen sich genau wo innerhalb des Radius befinden.
+Es ist kein Sichtkontakt nötig.
+Du weißt, welchen primären Kreaturentyp jede Kreatur hat, jedoch kannst Du nur Kreaturen aufspüren, die einen der folgenden primären Kreaturentypen besitzt:
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
+
+Du weißt immer, wo sich die Kreaturen ungefähr von Dir entfernt aufhalten.
+xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_invisible[Unsichtbare], xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[versteckte] oder link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlose] Kreaturen kannst Du spüren, aber nicht enttarnen.
+
+Besitzt die Kreatur eine Machtstufe, spürst Du die Höhe als ungefähre Angabe durch den SL.
+Eine link:../../bestiary/undead/bestiary_undead_scourge.adoc[Geißel] könnte zum Beispiel vom SL als "sehr mächtiger Untoter" beschrieben werden.
+
+Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Magie-Rettungswurf] ablegen.
+Dabei müssen sie die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erreichen oder übertreffen.
+Schafft eine Kreatur diesen Rettungswurf, ist sie für Dich durch diesen Zauberspruch nicht aufzuspüren.
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Kampfphase +
++10 MP, +1 POT: Radius +12,00 Meter +

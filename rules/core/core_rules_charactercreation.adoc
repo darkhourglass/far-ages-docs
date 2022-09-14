@@ -338,9 +338,9 @@ Die Attributseigenschaften ergeben sich direkt aus den Attributsstufen.
 In Far Ages wird diese Entfernung in Metern gemessen.
 Charaktere mit einer hohen Attributsstufe in Geschick bewegen sich schneller und weiter als weniger geschickte Charaktere.
 
-Wie hoch der BEW-Bonus ist, kann man der Tabelle am Ende dieses Abschnittes entnehmen.
+Wie hoch der BEW-Bonus ist, kann man der <<ref_secondary_overviewtable,Tabelle>> am Ende dieses Abschnittes entnehmen.
 
-Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der Basis-Bewegung (siehe <<ref_characters_charactercreation_sizecategories, Größenkategorie>>) und dem BEW-Bonus.
+Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der Basis-Bewegung (siehe <<ref_characters_charactercreation_sizecategories,Größenkategorie>>) und dem BEW-Bonus.
 Beides wird in Metern gemessen und daher einfach addiert.
 
 [[ref_secondary_inibonus]]
@@ -474,9 +474,9 @@ Daher hat er nur (1+1)*5 = 10 SP.
 [[ref_characters_talents]]
 == Talente
 
-Talente stellen Fähigkeiten dar, die über eine schlichte Intuition und Instink (wie zum Beispiel bei Attributen) hinausgehen und einen erheblichen Teil Erfahrung und Training erfordern.
+Talente stellen Fähigkeiten dar, die über eine schlichte Intuition und Instinkt (wie zum Beispiel bei Attributen) hinausgehen und einen erheblichen Teil Erfahrung und Training erfordern.
 Ihr Fortschreiten, ihre „Macht“ wird in *Talentstufen* gemessen.
-Je besser ein Charakter trainiert ist, um so höher ist seine Talentstufe.
+Je besser ein Charakter trainiert ist, umso höher ist seine Talentstufe.
 Talentstufen werden in Zahlen ab 1 dargestellt und jede Zahl steht für einen zusätzlichen 1W10, der für die xref:core_rules_d10_system.adoc#ref_core_talentroles[Talentprobe] verwendet werden kann.
 
 Alle Talente, die regulär allen Charakteren zur Verfügung stehen, finden sich im Dokument link:core_rules_talents_base.adoc[Talente].

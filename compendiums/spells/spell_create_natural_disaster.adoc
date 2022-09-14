@@ -1,0 +1,48 @@
+= Naturkatastrophe
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 15 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln +
+*Fokus:* - +
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Anzahl der Erfolge:* 14 +
+*Reichweite:* 1 Meile (1,61 Kilometer) +
+*Anzahl der Ziele:* Radius 1 Meile (1,61 Kilometer) +
+*Dauer:* 10 Kampfhasen +
+*Effekt:* Du beschwörst die gesamte Macht der Natur und entfesselt sie in einer Katastrophe.
+
+Wie der Umgang mit urtümlichen Energien ist, kannst Du nicht kontrollieren, was genau passiert.
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] würfle 1W10 und konsultiere die nachfolgende Tabelle, um die eintretende Naturkatastrophe zu bestimmen:
+
+|===
+|Ergebnis (1W10) |Naturkatastrophe
+
+|1
+|nichts passiert
+
+|2-3
+|link:spell_sandstorm.adoc[Sandsturm] (xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_sandstorms_magnitudes[Stärke 5])
+
+|4-5
+|link:spell_storm.adoc[Sturm] (xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms_magnitudes[Stärke 5])
+
+|6-7
+|Vulkanausbruch (Effekt gleich link:spell_rain_of_a_thousand_flames.adoc[Regen der Tausend Flammen])
+
+|8-9
+|link:spell_destructive_flash_flood.adoc[Zerstörerische Überschwemmung]
+
+|10
+|link:spell_earthquake.adoc[Erdbeben] (xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_earthquake_magnitudes[Stärke 5])
+|===
+
+Die Naturkatastrophe wird als der Effekt des aufgeführten Zauberspruches dargestellt.
+Alle Effekte folgen den Regeln des jeweiligen Zauberspruches.
+Der Wirkungsbereich und die Dauer des Effekts entspricht jedoch immer den Werten dieses Zauberspruches.
+Weiterhin gelten zusätzlichen Effekte ausschließlich aus diesem Zauberspruches.
+
+*Zusätzliche Effekte:* +
++10 MP: Reichweite +1 Meile +
++20 MP: Radius +1 Meile +
++10 MP: Dauer +1 Kampfphase +

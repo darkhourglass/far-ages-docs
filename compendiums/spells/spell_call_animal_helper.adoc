@@ -1,0 +1,34 @@
+= Rufe tierischen Helfer
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 3 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Zutat +
+*Fokus:* Geist, Körper +
+*Vorbereitung:* 5 Minuten (Ritual) +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* 1 Meile (1,61 Kilometer) +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] +
+*Dauer:* 1 Tag +
+*Effekt:* In einem kurzen Ritual fokussierst Du Deine Gedanken auf eine bestimmte Aufgabe, die es zu erfüllen gilt und sendest dies in die unmittelbare Umgebung, um von einem Tier empfangen zu werden.
+Für eine angemessene Bezahlung erklärt sich ein Tier bereit, Dir bei der Aufgabe zu helfen.
+Als Zutat benötigst Du eine kleine Portion Nahrung für das Tier.
+
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erscheint innerhalb von 1 Minute ein Tier aus der unmittelbaren Umgebung.
+Nach Ermessen des SLs steht dem Tier ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magie-Rettungswurf] zu, falls Deine Aufgabe gefährlich oder sehr aufwändig ist.
+Es können nur Tiere erscheinen, die üblicherweise in der Umgebung leben, in der Du den Zauberspruch aussprichst.
+Ein Eisbär kann also beispielsweise nicht in der Wüste erscheinen.
+Außerdem erscheint nur ein Tier in seiner "gewöhnlichen" Form.
+Es kann keine Schablonen erhalten.
+
+Im Rahmen des Rituals musst Du die Aufgabe, die ein Tier für Dich erledigen soll, beschreiben.
+Das Tier wird Dich verstehen, kann die Aufgabe jedoch nur im Rahmen seiner Möglichkeiten erfüllen.
+Du kannst im Sinne dieses Zauberspruches das Tier nicht dazu bringen, für Dich zu kämpfen.
+Es wird grundsätzlich keine Aufgaben übernehmen, die gegen seine Instinkte gehen oder sein Überleben deutlich gefährdet.
+
+Der Zauberspruch endet, wenn die Aufgabe erfüllt wurde oder 1 Tag vergangen ist.
+Sollte im letzten Fall die Aufgabe nicht erfüllt sein, wird das Tier wieder seines Weges ziehen.
+
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Dauer +1 Tag +
++5 MP, +1 POT: Reichweite +1 Meile +

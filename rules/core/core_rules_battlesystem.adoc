@@ -994,6 +994,7 @@ Folgende Übersicht gibt Auskunft über die Berechnungen:
 * Wurfwaffen: *Stufe (Waffe) + AnzE + SB*
 * Natürliche Waffen: *ST-Stufe (Charakter) + AnzE + SB*
 * Unbewaffneter Kampf: *ST-Stufe (Charakter) + AnzE + SB*
+* <<ref_battle_damage_hit_automatic, Automatischer Treffer>>: *SB*
 
 Das Endergebnis wird die *Schadenspunkte* genannt.
 
@@ -1292,17 +1293,17 @@ Nur eine <<ref_battle_damageimmunity, Schadensimmunität>> schützt gegen unabwe
 
 [[ref_battle_damage_strain]]
 === Überanstrengungsschaden
-Als Überanstrengungsschaden wird eine besondere, allgemeine Schadensart beschrieben, die entsteht, wenn ein Charakter oder eine Kreatur äußergewöhnliche Handlungen durchführt, die körperliche Anstrengung verursacht.
+Als Überanstrengungsschaden wird eine besondere, allgemeine Schadensart beschrieben, die entsteht, wenn ein Charakter oder eine Kreatur außergewöhnliche Handlungen durchführt, die körperliche Anstrengung verursacht.
 
 Einige link:core_rules_skills.adoc[Fähigkeiten] oder manche Zaubersprüche können Überanstrengungsschaden verursachen, um sie einzusetzen.
 Auch xref:core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpfte] Charaktere können Überanstrengungsschaden erleiden.
 Überanstrengungsschaden entsteht somit normalerweise durch eine bewusste Entscheidung des Charakters und selten durch äußere Einwirkung.
 
-Überanstrengungsschaden gilt als <<ref_battle_damage_type_primary_physical, physischer>>, <<ref_battle_damage_inevitable, unabwendbarer>> Schaden und es gelten die üblichen Regeln.
-Es gilt jedoch die Ausnahme, dass Überanstrengungsschaden keine <<ref_battle_wounds, Verletzungen>> verursacht.
-Sollte ein Charakter genug Überanstrengungsschaden erhalten, um seine xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] zu übertreffen, gelten die üblichen Regeln für den <<ref_battle_knockdown, Niederschlag>>.
+Überanstrengungsschaden gilt als <<ref_battle_damage_type_primary_physical,physischer>>, <<ref_battle_damage_inevitable,unabwendbarer>> Schaden und es gelten die üblichen Regeln.
+Es gilt jedoch die Ausnahme, dass Überanstrengungsschaden keine <<ref_battle_wounds,Verletzungen>> verursacht.
+Sollte ein Charakter genug Überanstrengungsschaden erhalten, um seine xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] zu übertreffen, gelten die üblichen Regeln für den <<ref_battle_knockdown,Niederschlag>>.
 
-Wie in der Beschreibung zu <<ref_battle_damage_inevitable, unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_battle_damageimmunity, Schadensimmunität>>[<<ref_battle_damage_type_primary_physical, Physisch>>] abgewendet werden.
+Wie in der Beschreibung zu <<ref_battle_damage_inevitable, unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_battle_damageimmunity,Schadensimmunität>>[<<ref_battle_damage_type_primary_physical,Physisch>>] abgewendet werden.
 Kreaturen, die diese Schadensimmunität ausweisen, sind die einzigen Ausnahmen, in denen Überanstrengungsschaden nicht den Verlust von TP verursacht.
 Solche Kreaturen dürfen uneingeschränkt Fähigkeiten oder Talente (und so weiter) einsetzen, die Überanstrengungsschaden erfordern.
 
@@ -1330,7 +1331,7 @@ Diese hat meistens den höchsten Rüstungsschutz, wenn eine Körperrüstung getr
 Wenn ein Charakter gegen ein besonders großes Wesen kämpft, kann es sein, dass er an den Torso nicht herankommt und stattdessen die Beine oder ähnliches trifft.
 Dies kann der SL von Situation zu Situation frei entscheiden.
 
-Der Torso gilt als *Standardtrefferzone* bei humanoiden, gleichgroßen Gegnern.
+Der Torso gilt als *Standadrtrefferzone* bei humanoiden, gleichgroßen Gegnern.
 
 .Trefferzonen
 ====

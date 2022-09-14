@@ -1,0 +1,30 @@
+= Zone der Behaglichkeit
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Feuer, Wasser, Luft Körper +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* 8 Stunden +
+*Effekt:* Du erschaffst ein Gebiet, in dessen Einzug immer eine angenehme Temperatur herrscht, egal welche Wetterbedingungen außerhalb der Zone sonst gelten.
+
+Innerhalb des Wirkungsbereichs werden extreme Wetterbedingungen wie xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_heat[Hitze] oder xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_cold[Kälte] neutralisiert.
+Extremes Wetter wie xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms[Stürme], xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_sandstorms[Sand-] oder xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_snowstorms[Schneestürme] haben keinen Einfluss.
+
+Niederschlag, egal welcher Stärke, wird in der Zone zu einem leichten Nieseln.
+Die Umgebung passt sich nach Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] innerhalb weniger Sekunden an, hinterlässt jedoch keine unangenehmen Folgen.
+Zauberst Du diesen Spruch beispielsweise in einem verschneiten Wald, verschwindet innerhalb der Zone der Schnee, da dieser nur bei xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_cold[Kälte] existiert, aber der Zauberspruch drängt die entstehende Feuchtigkeit hinaus.
+
+Vergleichbare, magische oder durch magische Effekte verursache Wetterbedingungen betreffen die Zone nach den üblichen Regeln, wenn ihre xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_potent[POT] über der POT dieses Zauberspruchs zum Zeitpunkt Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] liegt.
+
+Am Ende der Wirkungsdauer braucht es nur wenige Kampfphasen und die Umgebung im Wirkungsbereich kehrt in ihre Ursprungsform zurück.
+
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +9,00 Meter +
++5 MP, +1 POT: Radius +3,00 Meter +
++5 MP, +1 POT: Dauer +4 Stunden +
++100 MP, +7 POT: Dauer is permanent +

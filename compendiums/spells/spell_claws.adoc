@@ -1,0 +1,26 @@
+= Klauen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel +
+*Fokus:* Körper +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* - +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Deine Hände verwandeln sich in die Klauen eines Raubtieres, zum Beispiel die eines Löwen, Wolfes oder Bären.
+Somit werden sie zu tödlichen Instrumenten im Nahkampf.
+
+Während der Dauer des Zauberspruches kannst Du Dein Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] verwenden, um xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsproben] für xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] zu würfeln.
+Beherrschst Du letzteres Talent, kannst Du es auch regulär einsetzen, wenn Du möchtest.
+
+Unabhängig von Deiner Entscheidung würfelst Du eine reguläre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensprobe] für unbewaffneten Kampf.
+Der Schadenbonus beträgt dabei 3W8.
+
+Du giltst für diese Zeit auch als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_missingweapon[bewaffnet].
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++2 MP, +1 POT: Schadensbonus +1W8 +

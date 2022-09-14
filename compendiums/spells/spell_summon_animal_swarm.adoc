@@ -1,0 +1,25 @@
+= Beschwöre Schwarm
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Geist, Körper, Beschwörung +
+*Vorbereitung:* 5 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du beschwörst einen link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_swarm.adoc[Schwarm] aus link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tieren], der innerhalb der Reichweite auftaucht.
+Aus dem Unterholz kommen auf einmal hunderte Ratten oder tausende Heuschrecken verdunkeln wie aus dem Nichts den Himmeln.
+
+Die xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des beschworenen Schwarms ist 5.
+Du kannst nur einen Schwarm aus Tieren beschwören, die in der Umgebung, in der Du den Zauberspruch aussprichst, heimisch sind.
+Der Schwarm kann keine Schablonen erhalten.
+
+Für die Dauer des Zauberspruches kämpft der Schwarm für Dich und Du kannst bestimmen, welche Kreaturen der Schwarm nicht angreifen soll.
+Nach Ablauf der Dauer des Zauberspruches verschwindet der Schwarm auf die gleiche mysteriöse Weise, wie er erschienen ist.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: GK des Schwarms +1 (Maximum 10) +

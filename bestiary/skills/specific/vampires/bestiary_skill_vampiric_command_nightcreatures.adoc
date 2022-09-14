@@ -1,0 +1,15 @@
+= Befehlige Kreaturen der Nacht
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Komplexe Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+
+Diese Fähigkeit folgt den Regeln der link:../../bestiary_skill_magicability.adoc[magischen Fähigkeit] für den Zauberspruch link:../../../../compendiums/spells/spell_command_animal.adoc[Befehlige Tier].
+Besitzt Du das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], darfst Du die Spruchzauberei-Probe mit diesen Würfeln werfen.
+Ansonsten besitzt die magische Fähigkeit als Würfel Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] plus Deine Stufe in xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN].
+
+Du kannst nur Tier der Nacht und Dunkelheit mit diesem Zauberspruch befehligen, wie beispielsweise Fledermäuse, Wölfe oder Katzen.
+
+[[ref_bestiary_skill_vampiric_command_nightcreatures_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Vampir darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.

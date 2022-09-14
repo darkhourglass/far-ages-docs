@@ -1,0 +1,13 @@
+= Bluttransfusion
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Komplexe Aktion]
+
+Du zeigst auf eine Kreatur und aus ihren Wunden scheint das Blut nicht nur zu fließen, sondern durch die Luft zu Dir zu schweben.
+
+Du kannst Deine Fähigkeit xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] gegen eine beliebige, link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur in Sichtweite einsetzen, wenn diese mindestens eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde] besitzt.
+
+[[ref_bestiary_skill_vampiric_blood_transfusion_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Vampir darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.

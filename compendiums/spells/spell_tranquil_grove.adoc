@@ -1,0 +1,47 @@
+= Friedlicher Hain
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 15 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Zutat +
+*Fokus:* Wachstum+
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Anzahl der Erfolge:* 12 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 120,00 Meter +
+*Dauer:* 12 Stunden+
+*Effekt:* In einem kurzen Ritual konzentrierst Du Dich auf die Geister der Erde und Pflanzen und beschwörst Sie, zu wachsen.
+Du kannst diesen Zauberspruch nur aussprechen, wenn sich in dessen Radius hauptsächlich natürlicher Boden befindet.
+Ein großer gepflasterter Platz funktioniert nicht, ein Feld durch das ein schmaler Steinweg führt, ist in Ordnung.
+Als Zutat benötigst Du ein Samenkorn eines Baumes.
+
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] wachsen innerhalb eines Augenblicks riesige Bäume und diverse Pflanzen aus dem Boden, auch wenn sie in der gegenwärtigen Landschaft normalerweise nicht wachsen könnten (zum Beispiel in der Wüste).
+
+Es entsteht ein gesunder, friedlicher und wunderschöner Hain aus majestätischen Bäumen, grünem Gras und vielen Blumen.
+Ein kleiner Bach oder Teich kann durch dessen Mitte fließen.
+Innerhalb des Hains ist die Temperatur unabhängig von der üblichen Temperatur der Umgebung und ist jederzeit moderat.
+Der Hain gilt für alle Kreaturen außer Dir, die ihn betreten und durchqueren wollen, als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände].
+Du kannst jedoch beliebige Ausnahme bestimmen und diese jederzeit widerrufen.
+Du weißt außerdem jederzeit wo sich welche Kreaturen befinden.
+Kennst Du eine Kreatur nicht, die sich im Hain befindet, weißt Du nur, dass sie da ist, ungefähr wo sie ist, und welche Kreaturentypen sie hat.
+
+Für ebenfalls eine von Dir beliebig bestimmbare Gruppe von Kreaturen gilt, dass sie, wenn sie innerhalb des Hains xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[rasten], regenerieren sie immer doppelt so viele xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP], xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] und xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen] pro Ruhephase.
+
+Darüber hinaus kannst Du aus der folgenden Liste an Kreaturen bis zu drei auswählen:
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämonen]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementare]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusale]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote]
+
+Kreaturen mit diesem primären Kreaturentyp können den Hain nicht ohne weiteres betreten.
+Um den Hain zu betreten, müssen diese Kreaturen einen link:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner Spruchzauberei-Probe bestehen oder müssen draußen bleiben.
+Sie müssen diese Probe auch würfeln, wenn sie normalerweise die Art von Rettungswürfen automatisch bestehen würden.
+
+Nach Ende des Zauberspruches verschwindet der Hain auf mysteriöse Weise und hinterlässt keine Spuren, dass es je da gewesen war. +
+*Zusätzliche Effekte:* +
++10 MP: Dauer +12 Stunden +
++10 MP, +1 POT: Radius +60,00 Meter +
++100 MP, +5 POT: Dauer Permanent (Du kannst nur einen friedlichen Hain permanent verzaubern)

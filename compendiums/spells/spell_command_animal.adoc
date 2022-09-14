@@ -1,0 +1,27 @@
+= Befehlige Tier
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Ja (xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_CH[CH]) +
+*Komponenten:* Formel +
+*Fokus:* Geist +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] +
+*Dauer:* 1 Stunde+
+*Effekt:* Du schaust einem Tier innerhalb der Reichweite in die Augen.
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kannst Du dem Tier einen Befehl geben.
+Diesen musst Du in einem einfachen Satz formulieren können und das Tier muss Deine Worte hören können.
+Die Magie des Zauberspruches übersetzt die Worte so, dass das Tier Deinen Befehl verstehen kann.
+Danach kannst Du, auch während der Dauer des Zauberspruches, mit dem Tier nicht mehr auf diese Weise kommunizieren oder den Befehl abändern.
+
+Das Tier folgt dem Befehl nach bester Fähigkeit, jedoch ohne dabei seine eigenen Instinkte und Überlebenswillen zu ignorieren.
+Sollte das Tier vor ein Hindernis gestellt werden, dass den Befehl unmöglich macht, weiter auszuführen oder zu verfolgen, endet der Zauberspruch sofort.
+Nach Ablauf der Dauer des Zauberspruches wird das Tier wieder seinem üblichen Verhalten folgen, unabhängig davon, ob der Befehl erfolgreich oder vollständig durchgeführt wurde.
+
+Solltest Du die Spruchzauberei-Probe nicht xref:../../rules/core/core_rules_d10_system.adoc#ref_core_failurerole[bestehen], musst Du damit rechnen, dass das Tier sich so verhält, wie jedes Tier, dem ein Mensch in die Augen schaut.
+Im Fall eines xref:../../rules/core/core_rules_d10_system.adoc#ref_core_botches[Patzers], wird das Tier Dich angreifen.
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Stunde +

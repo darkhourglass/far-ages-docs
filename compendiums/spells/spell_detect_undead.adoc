@@ -1,0 +1,23 @@
+= Untote aufspüren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 3 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Ebon, Geist, Entdeckung +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* Du konzentrierst Deinen Geist auf die Umgebung und versuchst, die widernatürlichen Geschöpfe Ebons aufzuspüren.
+
+Innerhalb des Wirkungsbereichs bemerkst Du jede Kreatur, deren primärer Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] ist.
+Du weißt ungefähr, wie weit die Kreatur von Dir entfernt ist und bekommst eine grobe Einschätzung vom SL, wie hoch ihre xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] ist.
+Der SL muss Dir keine konkreten Zahlen mitteilen, sondern nur eine Umschreibung, zum Beispiel "mehrere schwache Untote" für Skelette.
+
+Jeder Untoten, der in der Lage ist, die Probe zu würfeln, darf einen xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Magie-Rettungswurf] ablegen.
+Erreicht er mehr Erfolge als Du in Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe], bleibt er für diesen Zauber unentdeckt.
+
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Radius +6,00 Meter +

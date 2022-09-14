@@ -1,0 +1,36 @@
+= Tierform
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln +
+*Fokus:* Körper +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* - +
+*Dauer:* 1 Stunde +
+*Effekt:* Du verwandelst Dich für die Dauer des Zauberspruches in ein link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] Deiner Wahl, dass die folgenden Voraussetzungen erfüllt:
+
+* Maximale xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 3 oder weniger +
+* Besitzt nicht die Fähigkeit besonderer Bewegungsmöglichkeiten wie link:../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen],  link:../../bestiary/skills/bestiary_skill_move_climb.adoc[Klettern] oder link:../../bestiary/skills/bestiary_skill_move_swim.adoc.adoc[Schwimmen] +
+* Es sind keine Schablonen enthalten +
+
+Weitere Optionen erhältst Du durch die Verwendung von zusätzlichen Effekten.
+
+Du übernimmst das gesamte Profil des Tieres mit folgenden Ausnahmen:
+
+* Deine Attributsstufen EN, SB und CH bleiben erhalten
+* Deine Punktepools xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] und xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP] bleiben erhalten
+* Du behältst Deine link:../../rules/core/core_rules_talents_base.adoc[Talente] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talentstufen].
+Jedoch muss das Tier in der Lage sein, das Talent zu nutzen.
+Beispielsweise kann eine Schlange nicht xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] einsetzen, aufgrund fehlender Hände.
+Du besitzt außerdem keine Möglichkeit zur Sprache.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Stunde +
++1 POT: Max. GK der Tierform +1 (bis zu GK 10) +
++1 POT: Tierform darf Fähigkeit link:../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen] besitzen +
++1 POT: Tierform darf Fähigkeit link:../../bestiary/skills/bestiary_skill_move_climb.adoc[Klettern] besitzen +
++1 POT: Tierform darf Fähigkeit link:../../bestiary/skills/bestiary_skill_move_swim.adoc.adoc[Schwimmen] besitzen +
++2 POT: verwende Schablone xref:../../bestiary/templates/bestiary_template_feral.adoc[Wild] +

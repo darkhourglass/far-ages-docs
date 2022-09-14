@@ -1,0 +1,27 @@
+= Totem des Schutzes
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 4 +
+*Rettungswurf:* Nein +
+*Komponenten:* Zutat +
+*Fokus:* Härte, Totem +
+*Vorbereitung:* 30 Minuten (Ritual) +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* In einem kleinen Ritual erstellst Du einem Stück Holz und anderen Materialien wie Federn, Steinen oder Fell ein xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_schools_schamanism_totems[Totem], welches, sobald aktiviert, eine Aura bereitstellt, die die Verteidigungsfähigkeit Deiner Verbündeten erhöht.
+Du benötigst als Zutat die Materialien sowie ein kleines Objekt von jeder Kreatur, die von dem Effekt des Totems betroffen werden soll.
+Dabei reicht zum Beispiel auch ein Haar, ein Fingernagel oder ein Tropfen Blut.
+
+Verwendet eine Kreatur eines der folgenden Talente, erhält sie einen Bonus von +1 Würfel auf die Würfe zum Erfolg:
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_parade[Parade]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung]
+
+Auch Du kannst diesen Vorteil nutzen ohne zwingend als Zutat etwas von Dir verwendet zu haben.
+
+*Zusätzliche Effekte:* +
++2 POT: Bonus erhöht sich um +1 Würfel zum Erfolg (mehrfach anwendbar) +
++10 MP: Radius +6,00 Meter +

@@ -1,0 +1,28 @@
+= Spreche mit ursprünglichem Geist
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Geist +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur (siehe Beschreibung) +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Dein Geist greift zurück auf Wissen aus den Ursprüngen des Multiversums, um mit Wesen auf genau jener Zeit zu kommunizieren.
+
+Als Ziel kannst Du eine Kreatur auswählen, deren primärer Kreaturtyp einer der Folgenden ist:
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_empyrean.adoc[Empyrean]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+
+Für die Dauer des Zauberspruches sind alle Verständnis- und Sprachbarrieren überwunden.
+Du und die Zielkreatur versteht euch als würdet ihr die gleiche Sprache sprechen.
+Weiterhin ist die Kreatur für die Dauer des Zauberspruches Dir nicht aggressiv gegenüber und ist bereit, Dir zuzuhören.
+Du erhältst einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_charisma[CH] basierten xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attributeroles[Attributs-] und xref:../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talentproben], die Du in einer Interaktion mit der Kreatur einsetzt.
+
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Dauer +10 Kampfphasen +

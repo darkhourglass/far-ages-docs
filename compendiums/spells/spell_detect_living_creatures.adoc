@@ -1,0 +1,32 @@
+= Lebende Kreaturen aufspüren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Geist, Erde, Entdeckung +
+*Vorbereitung:* 5 +
+*Anzahl der Erfolge:* 6 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Du konzentrierst Deine Gedanken auf die Umgebung, die Wurzeln der Bäume, die Steine der Erde und den Wind in der Luft.
+Dein Geist öffnet sich und Du spürst instinktiv andere, link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen im Radius des Zauberspruchs.
+
+Für die Dauer des Zauberspruches weißt Du immer welche Kreaturen sich genau wo innerhalb des Radius befinden.
+Es ist kein Sichtkontakt nötig.
+Sowohl Du als auch die Kreaturen müssen die Erde beziehungsweise den Boden berühren, damit Du diese Informationen beziehen kannst.
+Du weißt, welchen primären Kreaturentyp jede Kreatur hat.
+Kennst Du die Kreatur, erkennst Du sie wieder, ohne sie sehen zu müssen.
+
+Deine Einsicht in die Position der Kreaturen ist so durchdringend, dass Du auch xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_invisible[unsichtbare] und xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[versteckte] Kreaturen siehst und wahrnimmst.
+Die üblichen Vorteile dieser Zustände gelten Dir gegenüber nicht.
+Da link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlose] Wesen nicht den Boden berühren, kannst Du diese jedoch nicht aufspüren.
+
+Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Magie-Rettungswurf] ablegen.
+Dabei müssen sie die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erreichen oder übertreffen.
+Schafft eine Kreatur diesen Rettungswurf, ist sie für Dich durch diesen Zauberspruch nicht aufzuspüren.
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Kampfphase +
++10 MP, +1 POT: Radius +12,00 Meter +

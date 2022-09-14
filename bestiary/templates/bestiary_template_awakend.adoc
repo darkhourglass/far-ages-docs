@@ -4,6 +4,12 @@
 
 == Voraussetzungen
 
+Die Kreatur muss einen der folgenden primären Kreaturentypen besitzen:
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+
 == Attribute
 
 == Talente

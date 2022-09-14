@@ -1,0 +1,26 @@
+= Dornenschild
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein/Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Wachstum +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 7 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* Pflanzen und Ranken winkeln sich um Deine Hand und formen einen Schild.
+Spitze Dornen ragen an der Seite, die Du Deinen Gegnern entgehen hältst, heraus, um Angreifer zu stechen.
+
+Du kannst den Schild regulär mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] verwenden.
+Der Schild bietet Dir einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_armor[Rüstungsschutz] von 5 Punkten.
+Der Schild hat keine negativen Modifikatoren.
+
+Jeder Angreifer im Nahkampf, der eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] gegen Dich führt, während Du den Dornenschild trägst, muss einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] ablegen.
+Misslingt der Wurf, erhält er einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schadensbonus] von 4W6.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: Rüstungsschutz erhöht sich um 2 Punkte +
++5 MP, +1 POT: Schaden +1W6 +

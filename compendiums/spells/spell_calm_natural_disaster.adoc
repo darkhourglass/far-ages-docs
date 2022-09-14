@@ -1,0 +1,33 @@
+= Beruhige Naturkatastrophe
+
+*Arkanes Geheimnis:* Ja +
+*POT:* 12 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Erde, Feuer, Wasser, Luft+
+*Vorbereitung:* 1 Minute (Ritual) +
+*Anzahl der Erfolge:* 12 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 100,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Für die Dauer des Zauberspruches wird eine aktive Naturkatastrophe unterdrückt.
+Ihre Effekte treten nicht ein.
+Außerhalb des Wirkungsbereiches kann es sein, dass die Katastrophe weiter wirkt, wenn ihre Ausdehnung entsprechend größer ist.
+
+Als Katastrophen gelten
+
+* xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_earthquake[Erdbeben]
+* xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms[Stürme]
+* xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_sandstorms[Sandstürme]
+* xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_snowstorms[Schneestürme]
+
+Nach Ermessen des SLs können auch andere Effekte von diesem Zauberspruch betroffen werden (zum Beispiel ein Vulkanausbruch, der in dieser Liste nicht auftaucht).
+
+Der Zauberspruch wirkt auch auf magische Effekte, die eine Naturkatastrophe erzeugen.
+Um diese jedoch zu betreffen, muss dieser Zauberspruch zum Zeitpunkt Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] eine höhere POT aufweisen als der auslösende Effekt.
+
+Am Ende der Wirkungsdauer kehrt die Naturkatastrophe im Wirkungsbereich zurück.
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Kampfphase +
++10 MP, +1 POT: Radius +100,00 Meter +

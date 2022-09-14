@@ -8,19 +8,22 @@
 *Progenitor:* Titanen +
 *CP:* 50 +
 
+[[ref_core_races_orcs_skills]]
 == Eigenschaften
 
+[[ref_core_races_orcs_skill_adrenalin_surge]]
 === Adrenalinrausch
 Orks beherrschen ihren Körper und ihre natürliche Aggressivität so gut, dass diese kontrolliert einsetzen können, um für kurze Zeit schneller reagieren zu können.
 Einmal pro Tag kann ein Orc in einen Adrenalinrausch fallen, der so viele KO-viele xref:../core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfrunde] andauert und am Ende dieser Zeit automatisch endet.
 Pro Kampfrunde erhält der Ork eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] mehr als sonst durchführen. +
 Diese Aktion kann er auch für Bewegungen oder Manöver einsetzen, auf jeden Fall muss vermerkt werden, wie oft die zusätzliche Aktion eingesetzt wurde. +
-Am Ende ist der Ork xref:../core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöft] für eine Anzahl von Stunden, die der Anzahl der genutzten, zusätzlichen Aktionen entspricht.
+Am Ende ist der Ork eine Stufe xref:../core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpfung].
 
+[[ref_core_races_orcs_skill_berserk]]
 === Raserei
 Orks lernen die Fähigkeit link:../skills/core_skill_berserk_I.adoc[Kampfrausch I] zur Charaktererschaffung.
 Die Dauer aller Kampfrauschfähigkeiten entspricht für Orks 2*KO xref:../core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphasen].
 
+[[ref_core_races_orcs_skill_darkvision]]
 === Dunkelsicht
-Ein Charakter mit dieser Eigenschaft kann in der Nacht oder in der Dunkelheit noch genauso gut sehen wie mit Licht.
-In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] werden halbiert.
+Ein Ork besitzt die Fähigkeit link:../../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht].

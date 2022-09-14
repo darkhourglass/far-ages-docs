@@ -1,0 +1,27 @@
+= Belebe Pflanze
+
+*Arkanes Geheimnis:* NEin +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Körper, Wachstum +
+*Vorbereitung:* 3 +
+*Anzahl der Erfolge:* 8 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* 1 Pflanze +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du hauchst einer Pflanze die Fähigkeit einer lebenden Kreatur ein.
+Auf mystische Weise ändert sich ihre Form, zum Beispiel werden ihre Wurzeln zu Beinen, Äste zu Armen und wie eine Kreatur bewegt sie sich fort.
+
+Die Pflanze wird animiert, als würde sie die Schablone link:../../bestiary/templates/bestiary_template_awakend.adoc[Erwacht] erhalten (siehe auch link:spell_awaken_plant.adoc[Erwecke Pflanze]), jedoch ohne dabei eine Persönlichkeit zu entwickeln.
+Für die Dauer des Zauberspruches folgt die belebte Pflanze Deinen Befehlen.
+Sie besitzt keinen eigenen Willen oder ein Verständnis für Gefahr.
+
+Das Ziel dieses Zauberspruches kann keine Kreatur mit dem Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze] sein.
+Nur Pflanzen, die nicht als Kreaturen gelten, vom Gänseblümchen bis zu Eiche, können Ziel dieses Zauberspruches sein.
+
+Am Ende des Zauberspruches verwandelt sich die Pflanze in Ihre Ursprungsform zurück, vorausgesetzt, sie hat nicht zu viel Schaden erlitten.
+Sollte sie sich an einem anderen Ort befinden, schlägt sie neue Wurzeln.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
