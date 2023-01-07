@@ -2,7 +2,7 @@
 
 // TODO Beschreibung
 
-[[ref_elemenatal_touched_requirements]]
+[[ref_template_elemental_touched_requirements]]
 == Voraussetzungen
 
 Die Kreatur darf nicht bereits einen der folgenden primäre Kreaturentypen haben:
@@ -11,7 +11,7 @@ Die Kreatur darf nicht bereits einen der folgenden primäre Kreaturentypen haben
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar]
 
 Mit Erhalt dieser Schablone muss für die Kreatur ein Element gewählt werden.
-Jedes Element verändert die Kreatur indiviuell und bietet verschiedene Fähigkeiten.
+Jedes Element verändert die Kreatur individuell und bietet verschiedene Fähigkeiten.
 Diese Entscheidung ist endgültig und kann nicht nachträglich geändert werden.
 
 Es stehen folgende Elemente zur Verfügung.

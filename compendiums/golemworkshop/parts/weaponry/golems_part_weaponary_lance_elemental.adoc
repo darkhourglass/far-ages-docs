@@ -1,11 +1,75 @@
-= Elementare Lanze
+= Elementare Lanze [Element]
 
-*Materialkosten:*  +
-*Konstruktionszeit:* +
-*Zaubersprüche:*  +
-*Erfolge:* +
-*GK:* +
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* siehe Beschreibung +
+*Erfolge:* siehe Beschreibung +
+*GK:* 6 - 8 +
 *Montage:* Arme +
-*Attribute:* - +
-*Talente:* +
-*Beschreibung:* +
+*Attribute:* +1 ST, +1 GE +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 5 (ST), xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 5 (GE) +
+*MP-Kosten:* 5 MP / 15 MP +
+*Beschreibung:* Diese außergewöhnliche Bewaffnung bietete die Symbiose aus elementarer Magie und schwerer Bewaffnung.
+Sie bietet dem Golem eine flexible Waffe, die sowohl im Nahkampf gefährlich ist wie auch im Fernkampf.
+
+Mit seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] darf der Golem in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] einen der folgenden Angriffe durchführen:
+
+* Für den Einsatz von 5 MP kann der Golem die elementare Lanze wie eine reguläre link:golems_part_weaponary_lance.adoc[Lanze] verwenden.
+Als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schadensbonus] und xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] gelten die Angaben aus dieser Beschreibung.
+Dazu werden die Stufen aus diesem Nahkampfwaffen-Talent verwendet.
+* Für den Einsatz von 15 MP kann der Golem aus seiner Lanze einen Stoß elementarer Energie abfeuern.
+Die Reichweite für diesen Angriff ist in der unten folgenden Tabelle aufgeführt.
+Wie der Nahkampf-Angriff besitzt dieser Angriff die angegebenen Schadensbonus und die Schadensart.
+
+Elementare Lanzen sind kompliziert und aufwändig herzustellen, darüber hinaus auch schwer und unhandlich.
+Deswegen werden elementare Lanzen nur den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GKs] 6 bis 8 verfügbar.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus (beide Angriffe) | Reichweite (Projektilwaffen)
+
+|6
+|32.000
+|15 Tage
+|8
+|2W8+1
+|18,00 Meter
+
+|7
+|40.000
+|16 Tage
+|10
+|4W8+2
+|24,00 Meter
+
+|8
+|52.000
+|20 Tage
+|12
+|6W8+4
+|32,00 Meter
+
+|===
+
+Zaubersprüche zur Herstellung einer elementaren Lanze sind vom gewählten Element abhängig.
+Diese Zaubersprüche gelten für jede GK-Variante der Lanze.
+Die folgende Tabelle zeigt sowohl je Element die nötigen Zaubersprüche als auch die Schadensart, die durch die Angriffe mit dieser Bewaffnung verursacht wird.
+
+|===
+|Element |Schadensart |Zaubersprüche
+
+|Erde
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erde]
+|link:../../../spells/spell_earth_pillar.adoc[Erdsäule]
+
+|Feuer
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]
+|TBA (Stufe 4)
+
+|Luft
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft]
+|TBA (Stufe 4)
+
+|Wasser
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_water[Wasser]
+|TBA (Stufe 4)
+|===

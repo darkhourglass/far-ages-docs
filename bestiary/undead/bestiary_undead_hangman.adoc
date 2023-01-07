@@ -34,15 +34,29 @@ Hans, lauf!
 
 *Immunitäten:*
 
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_disabled[Kampfunfähig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 * link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
-* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
 
 == Offensiv
 
-* <<ref_bestiary_hangman_execute, Exekution>>
-* <<ref_bestiary_hangman_curse_of_the_hangman, Fluch des Galgenmannes>> 7
+* <<ref_bestiary_hangman_execute,Exekution>>
+* <<ref_bestiary_hangman_curse_of_the_hangman,Fluch des Galgenmannes>> 7
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 10 (Zweihändiges Henkersbeil: 2W10+6)
 
 == Defensive
@@ -54,9 +68,10 @@ Hans, lauf!
 
 * <<ref_bestiary_hangman_aura_of_doom, Aura der Verzweiflung>>
 * link:../skills/bestiary_skill_fear.adoc[Furcht] 7
-* <<ref_bestiary_hangman_powerlevel, Machtstufe>> 6
-* <<ref_bestiary_hangman_deathknell, Todesglocke>>
-* <<ref_bestiary_hangman_unholy_toughness, Unheilige Widerstandskraft>>
+* <<ref_bestiary_hangman_powerlevel,Machtstufe>> 6
+* <<ref_bestiary_hangman_deathknell,Todesglocke>>
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* <<ref_bestiary_hangman_unholy_toughness,Unheilige Widerstandskraft>>
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 
 == Regeln

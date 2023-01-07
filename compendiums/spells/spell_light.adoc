@@ -1,0 +1,33 @@
+= Licht
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Geste, Formel +
+*Fokus:* Licht +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 3 +
+*Reichweite:* 24,00 Meter (siehe Beschreibung) +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du erschaffst ein magisches Licht, dass Deine Umgebung erhellt und das Du innerhalb bestimmter Parametern steuern kannst.
+Folgende Eigenschaften kannst Du frei bestimmen:
+
+* Du kannst die Farbe des Lichts bestimmen.
+Ohne explizite Angabe wird ein einfaches Weiß angenommen.
+* Du kannst die Ausdehnung des Lichts bestimmen: als Kegel, Radius oder Linie, immer jeweils mit der Reichweite bis zu 24,00 Meter.
+* Das Licht kann sich mit Dir mitbewegen oder bleibt fixiert.
+
+Mit Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] musst Du alle Eigenschaften bestimmt haben.
+Für die Dauer des Zauberspruches sind diese nicht mehr anpassbar.
+
+Alle negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] werden im Wirkungsbereich des Zauberspruches aufgehoben.
+Der Zauberspruch blendet nicht und gilt *nicht* als Sonnenlicht.
+
+Der Zauberspruch hebt magisch erzeugte Dunkelheit genau dann auf, wenn die POT höher ist als die POT des Effekts, der die Dunkelheit erzeugt.
+Ebenso beendet ein magischer Effekt, der Dunkelheit erzeugt, diesen Zauberspruch, wenn seine POT höher ist.
+Du kannst bei Vorbereitung des Zauberspruches die POT nach üblichen Regeln höher ansetzen als 4.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase +
++2 MP: Reichweite +3,00 Meter +

@@ -1,0 +1,30 @@
+= Attribut-Verstärker
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* TBA +
+*Erfolge:* siehe Beschreibung +
+*Montage:* - +
+*MP-Kosten:* - +
+*Beschreibung:* Dieser Zusatz besteht aus einer komplizierten Anordnung aus hydraulischen Röhren und magischen Kristallen, die subtil und geräuschlos vibrieren.
+Die als Attribut-Verstärker bezeichnete Konstruktion ermöglicht es, Golems in ihren körperlichen Attributen noch weiter zu verbessern.
+
+Jeder Attribut-Verstärker kann immer nur ein Attribut verbessern.
+Der Technomant muss dieses zu Beginn der Konstruktion festlegen und kann es danach nicht mehr ändern.
+Zur Auswahl stehen dabei die Attribute xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] oder xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_dexterity[GE].
+
+Mit Einbau ändern sich alle xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Attributseigenschaften].
+
+|===
+|Attributsbonus |Materialkosten |Konstruktionszeit |Erfolge
+
+|1
+|20.000
+|4 Tage
+|6
+
+|+1
+|+15.000
+|+3 Tage
+|+2
+|===

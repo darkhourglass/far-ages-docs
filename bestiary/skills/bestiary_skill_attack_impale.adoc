@@ -1,0 +1,15 @@
+= Aufspießen (Angriffsstufe, Schaden)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, ST +
+*CP:* tba +
+
+Die Kreatur verfügt über einen Angriff mit einer spitzen Extremität, wie beispielsweise ein Horn, mit der sie ihre Opponenten schwere Wunden zufügen können und außerdem aufspießen können.
+
+Diese Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
+
+Wird durch diesen Angriff eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzung] verursacht, darf die Kreatur entscheiden, ob sie die angegriffene Kreatur aufspießen will.
+Dies ist nur möglich, wenn die Ziel-Kreatur maximal 2 xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] größer oder kleiner ist.
+In diesem Fall kommt es nicht zu einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlag].
+Stattdessen wird die angegriffene Kreatur aufgespießt und gilt als durch die Kreatur als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[gefangen].

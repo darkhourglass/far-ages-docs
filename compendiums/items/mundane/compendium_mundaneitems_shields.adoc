@@ -1,0 +1,53 @@
+= Schilde
+
+|===
+|Name |Größe |Rüstungsschutz |Trefferzonen |Gewicht |Preis |Eigenschaften
+
+|Kleiner Schild
+|3
+|1
+|Alle
+|6
+|10
+|-
+
+|Holzschild
+|4
+|2
+|Alle
+|11
+|20
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Turmschild
+|6
+|6
+|Alle
+|16
+|40
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 3], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 3],
+xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_shields_tag_grand_cover[Deckung geben]
+
+|Reiterschild
+|4
+|4
+|Alle
+|12
+|35
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+|Rundschild
+|3
+|2
+|Alle
+|9
+|25
+|-
+
+|Schwarzholz-Schild
+|4
+|6
+|Alle
+|8
+|900
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+|===

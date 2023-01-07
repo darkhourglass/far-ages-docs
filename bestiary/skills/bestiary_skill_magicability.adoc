@@ -1,16 +1,18 @@
 = Magische Fähigkeit (Angriffsstufe, Zauberspruch)
 
 *Voraussetzungen:* - +
+*Typ:* Magisch +
 *CP:* tba +
 
 Die Kreatur beherrscht eine angeborene, magische Fähigkeit, die einem Zauberspruch nahekommt.
 
-Die entspricht dem angegebenen *Zauberspruch* und wird mit der angegebenen *Angriffsstufe* verwendet, also würde eine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] gewürfelt.
+Die entspricht dem angegebenen *Zauberspruch* und wird mit der angegebenen *Angriffsstufe* verwendet, als würde eine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] gewürfelt.
 Die magische Fähigkeit hat folgende Unterschiede zu einem Zauberspruch:
 
 * Die MaxPOT der Kreatur ist nicht relevant, um die Fähigkeit einzusetzen.
 * Die Vorbereitung ist immer 1 und die Fähigkeit wird als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] eingesetzt
 * Es können keine zusätzlichen Effekte eingesetzt werden.
 
-Die magische Fähigkeit gilt nicht als Spruchzauberei-Talent, um beispielsweise Fähigkeiten zu lernen.
+Die magische Fähigkeit gilt nicht als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Talent], um beispielsweise Fähigkeiten zu lernen.
 Allerdings können andere Fähigkeiten oder Zauber, die normalerweise Zaubersprüche betreffen, auf die magische Fähigkeit angewendet werden.
+Wird keine Angriffsstufe angegeben, wird entweder die xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Stufe] oder, falls vorhanden, xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] verwendet.

@@ -1,11 +1,50 @@
 = Lanze (Schwer)
 
-*Materialkosten:*  +
-*Konstruktionszeit:* +
-*Zaubersprüche:*  +
-*Erfolge:* +
-*GK:* +
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* -  +
+*Erfolge:* siehe Beschreibung +
+*GK:* 6 - 10 +
 *Montage:* Arme, Schwer +
-*Attribute:* - +
-*Talente:* +
-*Beschreibung:* +
+*Attribute:* +2 ST +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 4 (ST) +
+*MP-Kosten:* - +
+*Beschreibung:* Diese Bewaffnung ist die xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_heavy[schwere] Variante der link:golems_part_weaponary_lance.adoc[Lanze].
+
+Es gelten die vorgestellten Regeln, allerdings muss der Golem mindestens 6,00 Meter BEW für seinen Angriff einsetzen, um die Vorteile der schweren Lanze nutzen zu können.
+
+Die schwere Lanze wird außerdem nur in den Größenkategorien 6-10 hergestellt.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus
+
+|6
+|16.000
+|12 Tage
+|6
+|2W10
+
+|7
+|20.000
+|13 Tage
+|7
+|4W8
+
+|8
+|26.000
+|14 Tage
+|7
+|4W10
+
+|9
+|36.000
+|15 Tage
+|8
+|6W10
+
+|10
+|50.000
+|17 Tage
+|9
+|8W10
+|===

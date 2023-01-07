@@ -1,16 +1,16 @@
 = W10-Regelsystem
 
-== Einführung in des W10-Erfolgssystem
+== Einführung
 
 Das Würfelsystem von Far Ages ist ein sogenanntes *W10-Erfolgssystem*.
 Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er eine bestimmte Anzahl von zehnseitigen Würfeln (abgekürzt W10).
-Diese Anzahl ermittelt sich meist direkt aus der Situation, zum Beispiel anhand einer <<ref_core_attributeroles, Attributsprobe>> oder <<ref_core_talentroles, Talentprobe>>.
+Diese Anzahl ermittelt sich meist direkt aus der Situation, zum Beispiel anhand einer <<ref_core_attributeroles,Attributsprobe>> oder <<ref_core_talentroles,Talentprobe>>.
 
 [[ref_core_miniumroll]][[ref_core_sucessrole]]
 Für jede Probe gibt es einen *Mindestwurf*, den es pro geworfenen W10 zu übertreffen gilt.
 Das heißt jeder Würfel, der eine höhere oder gleiche Augenzahl zeigt als der geforderte Mindestwurf zählt als *Erfolg*.
 [[ref_core_failurerole]]
-Wird der Mindestwurf nicht erreicht und ist kein <<ref_core_botches, Patzer>>, gilt dieser als *Misserfolg*.
+Wird der Mindestwurf nicht erreicht und ist kein <<ref_core_botches,Patzer>>, gilt dieser als *Misserfolg*.
 
 .Mindestwürfe
 ====
@@ -590,7 +590,7 @@ In manchen Fällen wird eine Reflex-Probe als Verteidigungsprobe in einer konkur
 
 .Rettungswürfe
 ====
-Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_base_saves_reflex, Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_base_saves_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
 
 Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Regeln] genug Erfolge, um den Zauberspruch zu wirken.
 Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen. +
@@ -713,12 +713,12 @@ SL und Spielen können sie verwenden und erweitern.
 Als (besonderen) *Zustand* im Regelsystem wird eine körperliche, geistige oder gar magische Situation beschrieben, in der sich ein Charakter befinden kann.
 Ein solcher Zustand beeinflusst die Optionen des Charakters, die ihm für gewöhnlich nach den Regeln zustehen.
 Dies kann sowohl positiv wie auch negativ beeinflusst werden.
-Im Allgemeinen sind die Zustände mit einem Auslöser verbunden, wie beispielsweise dem Misslingen eines <<ref_core_base_saves, Rettungswurfs>>.
+Im Allgemeinen sind die Zustände mit einem Auslöser verbunden, wie beispielsweise dem Misslingen eines <<ref_core_base_saves,Rettungswurfs>>.
 
 Viele Begriffe und Regeln in diesem Kapitel verweisen bereits auf das Kapitel link:core_rules_battlesystem.adoc[Kampf], da Zustände im Allgemeinen während eines Kampfs besonders stark zur Geltung kommen.
 
 Weiterhin sind Zustände zeitlich beschränkt, wobei diese Dauer im Allgemeinen durch den Auslöser vorgegeben wird.
-Soforn nicht anders angegeben, ist die Dauer in xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphasen] gemessen.
+Sofern nicht anders angegeben, wird die Dauer eines Zustands in xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphasen] angegeben.
 
 [[ref_core_conditions_overview]]
 === Übersicht der Zustände
@@ -738,7 +738,7 @@ Um den Zustand zu beenden, muss der Charakter das Bewegungsmanöver xref:core_ru
 
 [[ref_core_condition_corned]]
 === Bedrängt
-Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 weitere Charaktere oder Kreaturen mit ihm <<ref_core_condition_bondedincombat, im Nahkampf gebunden>> sind.
+Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 weitere Charaktere oder Kreaturen mit ihm <<ref_core_condition_bondedincombat,im Nahkampf gebunden>> sind.
 Ein bedrängter Charakter erhält *-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
 
 Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
@@ -877,13 +877,13 @@ Sollte diese nicht gegeben sein, so dauert der Zustand 1W10 minus die KO-Stufe K
 [[ref_core_condition_exhausted]]
 === Erschöpft
 Abenteuer haben ein anstrengendes Leben.
-Viele unterschiedliche Auslöser können die körperliche Leistungsfähigkeit eines Charakters beeinträchtigen, beispielsweise intensives xref:core_rules_adventures.adoc#ref_core_adventures_journies[Reisen] oder ein link:skills/core_skill_berserk_I.adoc[Kampfrausch].
+Viele unterschiedliche Auslöser können die körperliche Leistungsfähigkeit eines Charakters beeinträchtigen, beispielsweise intensives xref:core_rules_adventures.adoc#ref_core_adventures_journies[Reisen] oder <<ref_core_condition_frenzy,Kampfrausch>>.
 
 Alle diese oder auch andere Quellen vergeben eine oder mehrere Stufen *Erschöpfung*.
 Diese werden als Zahlen 1,2 und so weiter dargestellt.
 Sobald ein Charakter mindestens eine Stufe Erschöpfung hat, gilt er im Sinne dieses Zustands als *erschöpft*.
 
-Die Anzahl der Stufen in Erschöpfung haben kumulative Effekt.
+Die Anzahl der Stufen in Erschöpfung haben kumulative Effekte.
 
 * für jede xref:core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion], die der Charakter durchführen will, nimmt er 1 xref:core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengungsschaden].
 * pro Stufe erhält der Charakter einen Malus von -1 auf seine xref:core_rules_charactercreation.adoc#ref_secondary_inibonus[INI].
@@ -916,7 +916,7 @@ Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen
 Gefangene Charaktere gelten als <<ref_core_condition_immobile,bewegungsunfähig>>.
 Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_condition_bondedincombat,im Nahkampf gebunden>> sind oder der Auslöser für den Zustand sind, einen Bonus von *+2 auf die Würfe zum Erfolg* aus alle Angriffsproben gegen diesen Charakter.
 
-Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_battle_move_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_battle_actions_brawl[Raufen und Ringen].
+Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_battle_move_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_battle_actions_attack_brawl[Raufen und Ringen].
 
 [[ref_core_condition_bondedincombat]]
 === Im Nahkampf gebunden
@@ -924,24 +924,46 @@ Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben ein
 Der Ausgang dieser Probe ist dabei nicht relevant.
 Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm basieren.
 
-[[ref_core_condition_frenzy]]
-=== Rasend
-//TODO
-Rasend kann nicht mit <<ref_core_condition_bewitched, verzaubert>> kombiniert werden.
-Sollte ein rasender Charakter den Zustand <<ref_core_condition_bewitched, verzaubert>> erreichen, schlägt dieser automatisch fehl.
-
 [[ref_core_condition_disabled]]
 === Kampfunfähig
 Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver], xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktionen] zur Verfügung.
 Sofern nicht anders angegeben, gelten keine anderen Zustände (wie zum Beispiel im Fall einer <<ref_core_condition_unconscious,Ohnmacht>> <<ref_core_condition_onground,am Boden>> zu liegen).
 Die Kampfunfähigkeit endet erst, wenn der Zustand explizit aufgehoben wird.
 
+[[ref_core_condition_frenzy]]
+=== Rasend
+Rasende Charaktere sind in einem regelrechten Wahn verfallen.
+Sie sind nur noch auf ein Ziel fokussiert ohne Rücksicht auf Verluste und eigene Sicherheit.
+Manche Kämpfer nutzen diesen Zustand gezielt, um in einen link:skills/core_skill_berserker.adoc[Kampfrausch] zu verfallen, was ihre Kampfkraft deutlich verbessert.
+
+Jeder Effekt, der diesen Zustand verursacht, besitzt seine eigenen Regeln, wie sich der Zustand auf sein Ziel auswirkt.
+
+Rasende Charaktere erhalten grundsätzlich einen Malus von -1 <<ref_core_situationalmodifiers_modify_dice_numbers,auf die Würfel zum Erfolg>> für alle <<ref_core_defendingroll,Verteidigungsproben>>.
+Sofern nicht anders angegeben, endet der Zustand automatisch nach so vielen Kampfphasen, wie der Charakter Stufen in seinem Attribut KO besitzt.
+Endet dieser Zustand, muss der Charakter einen xref:core_rules_d10_system.adoc#ref_core_saves_KO[KO-Rettungswurf] bestehen oder er eine Stufe xref:../core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpfung]
+
+Rasend kann nicht mit <<ref_core_condition_bewitched,verzaubert>> kombiniert werden.
+Sollte ein rasender Charakter den Zustand <<ref_core_condition_bewitched,verzaubert>> erreichen, schlägt dieser automatisch fehl.
+Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten und Springen verwenden und auch keine Talente außer Kampftalente.
+
+[[ref_core_condition_sleeping]]
+=== Schlafend
+Dieser Zustand wird üblicherweise erreicht, wenn eine <<ref_base_rules_pools_regeneration_long_rest,lange Rast>> eingeschlagen wird.
+Manche magischen Effekte können diesen Zustand auch verursachen.
+
+In diesem Zustand gelten Charaktere immer als <<ref_core_condition_disabled,kampfunfähig>> und <<ref_core_condition_onground,am Boden>>.
+Schlafende Charaktere können diesen Zustand im Normalfall nicht freiwillig beenden.
+Sofern nicht anders angegeben, schlafen die meisten Charaktere 6-8 Stunden.
+Magisch verursachter Schlaf endet, wenn der Effekt endet.
+
+Wenn ein Charakter aus dem Schlaf aufwachen möchte, bevor dieser vorbei ist, muss er einen <<ref_core_saves_ER,ER-Rettungswurf>> bestehen.
+
 [[ref_core_condition_unconscious]]
 === Ohnmächtig
 Ein ohnmächtiger Charakter kann weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
 Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen.
 Sofern nicht anders angegeben, dauert die Ohnmacht 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
-Ein Charakter beginnt das Ende seiner Ohnmacht <<ref_core_condition_onground, am Boden>>.
+Ein Charakter beginnt das Ende seiner Ohnmacht <<ref_core_condition_onground,am Boden>>.
 
 [[ref_core_condition_invisible]]
 === Unsichtbar
@@ -952,8 +974,8 @@ Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_battle_rules_attack_
 Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar gegenüber Kreaturen, die über andere Sinne als "Sicht" verfügen.
 Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
 Ebenso gilt Unsichtbarkeit nicht als <<ref_core_base_rolls_douptillusions, Illusion>>, außer es ist explizit als solche beschrieben.
-Es ist möglich, dass in einer Kampfsituation unsichtbare Charakter von einigen Kampfteilnehmern erkannt werden und von anderen nicht.
-Alle Kreaturen, die unsichtbare Charaktere erkennen, behandlen diese, als würde der Zustand nicht gelten.
+Es ist möglich, dass in einer Kampfsituation unsichtbare Charaktere von einigen Kampfteilnehmern erkannt werden und von anderen nicht.
+Alle Kreaturen, die unsichtbare Charaktere erkennen, behandeln diese, als würde der Zustand nicht gelten.
 
 Der Zustand endet üblicherweise nach Ende des auslösenden Effekts.
 
@@ -966,13 +988,13 @@ Der Zustand endet nach einer Kampfphase.
 [[ref_core_condition_bewitched]]
 === Verzaubert
 Ein magischer Effekt beeinflusst das Denken und Handeln eines Charakters.
-Der Charakter muss dem Effekt folgen, bis dieser endet oder er einen eventuellen <<ref_core_base_saves, Rettungswurf>> besteht.
+Der Charakter muss dem Effekt folgen, bis dieser endet oder er einen eventuellen <<ref_core_base_saves,Rettungswurf>> besteht.
 Solange der Effekt keine Einschränkungen vorgibt, besitzt der Charakter alle Aktionen in einer Kampfphase.
 
 Der Zustand hat über den Effekt hinaus keine weiteren Regeln.
 Es kann jedoch sein, dass andere Effekte wie Zaubersprüche, den Zustand weiterhin beeinflussen können.
 
-Verzaubert kann nicht mit <<ref_core_condition_frenzy, rasend>> kombiniert werden.
+Verzaubert kann nicht mit <<ref_core_condition_frenzy,rasend>> kombiniert werden.
 Sollte ein verzauberter Charakter den Zustand Rasend erreichen, schlägt dieser automatisch fehl.
 
 [[ref_base_rules_pools]]
@@ -1050,7 +1072,7 @@ Konnte die kurze Pause ohne Unterbrechung durchgeführt werden, darf der Charakt
 
 [[ref_base_rules_pools_regeneration_long_break]]
 ==== Lange Pause
-Eine *lange Pause* dauert 1 Stunde und besitzt die gleichen Voraussetzungen und Regeln wie eine <<ref_base_rules_pools_regeneration_short_break, kurze Pause>>.
+Eine *lange Pause* dauert 1 Stunde und besitzt die gleichen Voraussetzungen und Regeln wie eine <<ref_base_rules_pools_regeneration_short_break,kurze Pause>>.
 Im Fall einer erfolgreichen langen Pause darf der Charakter eine beliebige Kombination aus drei der Option der kurzen Pausen einsetzen.
 
 .Lange Pause
@@ -1080,47 +1102,51 @@ Es gelten die gleichen Regeln wie für die reguläre <<ref_base_rules_pools_rege
 Bei einer erfolgreichen langen Rast regeneriert der Charakter alle verlorenen TP und MP.
 Er verliert außerdem alle Stufen von <<ref_core_condition_exhausted,Erschöpfung>>.
 
+[[ref_battle_wounds_curing_wounds]]
+==== Verletzungen heilen
+
+
 [[ref_base_rules_death]]
 === Tod
 
 Erreicht einer der <<ref_base_rules_pools,Energiepunktepools>> außer <<ref_base_rules_pools_sp,SP>> den Wert 0, droht der Tod des Charakters.
 
 Der Ablauf ist dabei immer gleich.
-Erreicht ein Pool den Wert 0 oder weniger durch eine beliebige Quelle, nimmt der Charakter den besonderen <<ref_core_conditions, Zustand>> <<ref_base_rules_death_deathsdoor,dem Tode nahe>> an.
+Erreicht ein Pool den Wert 0 oder weniger durch eine beliebige Quelle, nimmt der Charakter den besonderen <<ref_core_conditions,Zustand>> <<ref_base_rules_death_deathsdoor,dem Tode nahe>> an.
 
 Ein Energiepunktepool kann, auch wenn es rechnerisch so auskommen würde, nie den Wert 0 unterschreiten.
 Hat beispielsweise ein Charakter noch 5 TP und erleidet 10 Schadenspunkte, hat er dennoch nur noch 0 TP und nicht -5.
 
 [[ref_base_rules_death_deathsdoor]]
 ==== Dem Tode nahe
-Dieser Zustand zeigt, dass ein Charakter dem Tode nahe ist.
+Dieser Zustand zeigt an, dass ein Charakter dem Tode nahe ist.
 Der Zustand schränkt den Charakter nicht weiter ein, daher ist es möglich, dass ein Charakter in diesem Zustand (und damit implizit mit beispielsweise 0 TP) weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] und so weiter einsetzen kann.
 
 Der Zustand wird aufgehoben, sobald der Charakter keinen Energiepunktepool auf dem Wert 0 hat.
-Das heißt, jeder Energiepunktepool außer <<ref_base_rules_pools_sp, SP>> muss einen Wert größer 0 haben.
+Das heißt, jeder Energiepunktepool (außer <<ref_base_rules_pools_sp,SP>>) muss einen Wert größer 0 haben.
 
-Erhält ein Charakter in diesem Zustand auf dem Energiepunktepool, in dem er derzeit den Wert 0 hat, einen weiteren Verlust, bleibt der Pool bei 0, aber der Charakter muss einen <<ref_base_rules_death_deathsave, Todesrettungswurf>> würfeln.
+Erhält ein Charakter in diesem Zustand auf dem Energiepunktepool, in dem er derzeit den Wert 0 hat, einen weiteren Verlust, bleibt der Pool bei 0, aber der Charakter muss einen <<ref_base_rules_death_deathsave,Todesrettungswurf>> würfeln.
 
 [[ref_base_rules_death_deathsave]]
 ==== Todesrettungswurf
-Ein Todesrettungswurf ist ein besonderer <<ref_core_base_saves, Rettungswurf>>, den ein Charakter würfeln muss, wenn er <<ref_base_rules_death_deathsdoor, dem Tode nahe>> ist und weiteren Schaden erhält.
+Ein Todesrettungswurf ist ein besonderer <<ref_core_base_saves,Rettungswurf>>, den ein Charakter würfeln muss, wenn er <<ref_base_rules_death_deathsdoor,dem Tode nahe>> ist und weiteren Schaden erhält.
 
 Der Todesrettungswurf besteht ausschließlich aus 1W10 und ist an kein Attribut geknüpft.
-Es gelten keine <<ref_core_situationalmodifiers, Situationsmodifikatoren>> oder Modifikatoren durch xref:core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
+Es gelten keine <<ref_core_situationalmodifiers,Situationsmodifikatoren>> oder Modifikatoren durch xref:core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
 Nur wenn Modifikatoren explizit Todesrettungswürfe betreffen, sind diese anzuwenden.
-Es gilt der <<ref_core_standardminimumroll, Standardmindestwurf>>.
+Es gilt der <<ref_core_standardminimumroll,Standardmindestwurf>>.
 
 Besteht der Charakter den Todesrettungswurf, passiert nichts.
-Misslingt der Wurf, wird der Charakter sofort <<ref_core_condition_unconscious, ohnmächtig>>.
-Ein Patzer hat keine weitere Auswirkungen.
-Er bleibt in jedem Fall im Zustand <<ref_base_rules_death_deathsdoor, dem Tode nahe>>.
+Misslingt der Wurf, wird der Charakter sofort <<ref_core_condition_unconscious,ohnmächtig>>.
+Ein Patzer hat keine weiteren Auswirkungen.
+Er bleibt in jedem Fall im Zustand <<ref_base_rules_death_deathsdoor,dem Tode nahe>>.
 
-Ist ein Charakter <<ref_core_condition_unconscious, ohnmächtig>> und <<ref_base_rules_death_deathsdoor, dem Tode nahe>>, und muss er einen weiteren Todesrettungswurf werfen, muss er diesen bestehen, sonst tritt sofort der Tod ein.
+Ist ein Charakter <<ref_core_condition_unconscious,ohnmächtig>> und <<ref_base_rules_death_deathsdoor,dem Tode nahe>>, und muss er einen weiteren Todesrettungswurf werfen, muss er diesen bestehen, sonst tritt sofort der Tod ein.
 
 [[ref_base_rules_death_second_deathsdoor]]
 ==== Zweiter Pool auf 0
-Befindet sich ein Charakter bereits im Zustand <<ref_base_rules_death_deathsdoor, dem Tode nahe>> und erreicht ein weiterer Energiepunktepool den Wert 0, so stribt der Charakter sofort.
-Es wird kein weiterer <<ref_base_rules_death_deathsave, Todesrettungswurf>> mehr gewürfelt.
+Befindet sich ein Charakter bereits im Zustand <<ref_base_rules_death_deathsdoor,dem Tode nahe>> und erreicht ein weiterer Energiepunktepool den Wert 0, so stirbt der Charakter sofort.
+Es wird kein weiterer <<ref_base_rules_death_deathsave,Todesrettungswurf>> mehr gewürfelt.
 
 [[ref_base_rules_death_instant_death]]
 ==== Sofortiger Tod

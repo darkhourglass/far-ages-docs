@@ -1,0 +1,133 @@
+= Geißel
+
+// TODO Beschreibung
+
+[[ref_template_undead_source_requirements]]
+== Voraussetzungen
+
+Um eine Geißel zu werden, muss die Kreatur folgende Voraussetzungen erfüllen:
+
+* der primäre Kreaturentyp der Kreatur muss einer der Folgenden sein:
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* sie muss den sekundären Kreaturtyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] besitzen
+* sie darf nicht den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos] besitzen
+* sie selbst oder jemand anders muss den Zauberspruch link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis] anwenden, um sie in eine Geißel zu verwandeln
+* die Kreatur benötigt ein link:../../compendiums/items/magical/misc/magical_item_souljar.adoc[Seelengefäß], um seine Seele darin zu verwahren.
+Dieser Gegenstand gilt als erforderliche xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_components_ingredients[Zutat] für link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis].
+Es gelten die <<ref_template_undead_source_skill_souljar,Regeln>> nach diesem Kapitel.
+
+[[ref_template_undead_source_attributes]]
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen.
+
+Sie erhält außerdem folgende Boni auf diese Attributsstufen:
+
+* +2 ST
+* +2 ER
+* +2 EN
+
+Dadurch ändern sich die Attributseigenschaften der Kreatur wie folgt:
+
+* +30 MaxTL
+* +5 TP
+* +2 INI-Bonus
+* +10 MP
+* +2 MaxPOT
+
+[[ref_template_undead_source_talents]]
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+[[ref_template_undead_source_skills]]
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten.
+Sie erhält außerdem folgende hinzu:
+
+[[ref_template_undead_source_skill_lord_of_the_dead]]
+=== Herr der Toten
+Die Geißel erhält die Fähigkeit link:../skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten].
+
+[[ref_template_undead_source_skill_magicability]]
+=== Magische Fähigkeiten
+Die Geißel erhält die Fähigkeit link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] mit der Angriffsstufe seiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Stufe] oder EN-Stufe, falls das Talent nicht beherrscht wird.
+Die Fähigkeit wird für folgende Zaubersprüche jeweils einmal gelernt:
+
+* link:../../compendiums/spells/spell_ebons_touch.adoc[Ebons Berührung]
+* link:../../compendiums/spells/spell_total_darkness.adoc[Vollständige Dunkelheit]
+* link:../../compendiums/spells/spell_prevent_healing.adoc[Verhindere Wundheilung]
+
+[[ref_template_undead_source_skill_souljar]]
+=== Seelengefäß
+Die Geißel muss ein link:../../compendiums/items/magical/misc/magical_item_souljar.adoc[Seelengefäß] besitzen, welches bei ihrer Erschaffung während des Rituals link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis] mit ihrer Seele gefüllt wird.
+Das Seelengefäß funktioniert ähnlich dem üblichen Gegenstand, jedoch muss die Geißel keinen TP zur Bindung einsetzen.
+Das Seelengefäß ist dauerhaft an sie gebunden.
+
+Wird die Geißel xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_general_rules[zerstört], tritt die Funktion des Seelengefäßes ein.
+Die Geißel wird also nach 24 Stunden wiederbelebt.
+
+Im Gegensatz zu allen anderen Seelengefäßen kann das Seelengefäß beliebig oft verwendet werden.
+Es zerfällt nach dem Einsatz nicht zu Staub.
+Allerdings ist auch gleichzeitig die größte Schwachstelle der Geißel.
+Wird das Seelengefäß anderweitig zerstört, wird die Geißel auch sofort zerstört.
+Aus diesem Grund verstecken und bewachen Geißeln ihre Seelengefäße bis aufs Äußerste.
+
+[[ref_template_undead_source_skill_regeneration]]
+=== Regeneration (Geißel)
+Als link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoter] kann eine Geißel üblicherweise keine TP oder MP xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerieren].
+Ein Geißel kann jedoch, solange sie 8 Stunden am Stück in unmittelbarer Nähe zu ihrem <<ref_template_undead_source_skill_souljar,Seelengefäß>> verweilt, ihre MP vollständig auffüllen.
+
+[[ref_template_undead_source_skill_unholy_aura]]
+=== Unheilige Aura
+Die Geißel erhält die Fähigkeit link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura].
+Der Radius der Aura ist durch die Machtstufe wie folgt definiert:
+
+|===
+|Machtstufe |Radius Unheilige Aura
+
+|10
+|3,00 Meter
+
+|11-13
+|6,00 Meter
+
+|14-16
+|9,00 Meter
+
+|17-19
+|12,00 Meter
+
+|20+
+|24,00 Meter
+|===
+
+[[ref_template_undead_source_skill_undead]]
+=== Untot
+Der primäre Kreaturentyp der Kreatur ändert sich in link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
+Sie verliert den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend].
+Die Geißel lernt alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[Fähigkeiten] von Untoten.
+
+Um die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] der Geißel zu ermitteln, wird der Basiswert 10 angenommen.
+Für jede volle 40 xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP], die die Geißel bei ihrer Erschaffung besitzt, wird der Basiswert um 1 erhöht.
+Es zählt dabei der Maximalwert, nicht der aktuelle Stand des MP-Pools.
+Es werden außerdem zuerst alle Änderungen an <<ref_template_undead_source_attributes,Attributen und Attributseigenschaften>> aus dieser Schablone angewendet bevor die Machtstufe bestimmt wird.
+Das Endergebnis dieser Rechnung ergibt dann die Machtstufe der Geißel.
+
+.Machtstufe einer Geißel
+====
+Eine Kreatur mit 70 MP wird zu einer Geißel.
+Durch die Anwendung dieser Schablone erhält sie einen Bonus von +2 EN und damit +10 MP.
+Damit hat sie insgesamt 80 MP.
+Somit hat sie 2x40 MP zur Verfügung und erhält damit einen Bonus von +2 auf den Basiswert ihrer Machtstufe.
+Insgesamt beträgt ihre Machtstufe damit 10+2=12.
+====
+
+== CP
+
+//[[ref_bestiary_undead_frostscourge]]
+//== Frostgeißel

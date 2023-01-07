@@ -12,13 +12,13 @@ Lore
 
 == Profil
 
-ST: XXX     GE: XXX     KO: XXX +
-ER: XXX     EN: XXX     SB: XXX     CH: XXX +
+*ST:* XXX     *GE:* XXX     *KO:* XXX +
+*ER:* XXX     *EN:* XXX     *SB:* XXX     *CH:* XXX +
 
 //TP=(ST+KO)*5
 //MP=EN*10
 //SP=(SB+CH)*5
-TP: XXX     MP: XXX     SP: XXX +
+*TP:* XXX     *MP:* XXX     *SP:* XXX +
 
 // WID= 8 + (KO-1)*2
 // BEW= GK-Basis + (GE-5) * 1,50 (min 0)
@@ -26,15 +26,15 @@ TP: XXX     MP: XXX     SP: XXX +
 // MAXTL= ST*15
 // MAXPOT=EN+3
 
-WID: XXX +
-BEW: XXX +
-INI: XXX +
-MaxTL: XXX +
-MaxPOT: XXX +
+*WID:* XXX +
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
 
-Rüstung: XXX +
-Resistenzen: XXX +
-Immunitäten: XXX +
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:* XXX +
 
 == Offensiv
 

@@ -1,0 +1,24 @@
+= Abenteurer
+
+Der Charakter bevorzugt ein freies Leben außerhalb von gesellschaftlichen Zwängen.
+Er lebt für den Nervenkitzel, sei es die Suche nach lange vergessenen Schätzen in verstaubten Gräbern, die Kopfgeldjagd nach gefährlichen Monstern in entlegenen Wäldern oder das Kartografieren der unbekannten Küsten hinter dem Horizont.
+Seine Dienste mag er gelegentlich dem Zahlenden zur Verfügung stellen.
+
+[NOTE]
+Dieser Hintergrund wird implizit für Charaktere angenommen, die keine CP für den Hintergrund ausgeben möchten.
+
+*Attributsbonus:* - +
+*Talente:* - +
+*Spezial:* <<ref_core_backrounds_adventurer_special_ideal_preparation,Ideale Vorbereitung>> +
+*Startkapital:* - +
+*CP:* 0 +
+
+[[ref_core_backrounds_adventurer_special_ideal_preparation]]
+== Ideale Vorbereitung
+Mit der xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation[Charaktererschaffung] erhält der Charakter 2-mal die Wahl aus einer der folgenden Optionen:
+
+* Ein Attribut erhält einen Bonus +1 Stufe.
+Wird diese Option mehrfach gewählt, kann ein einzelnes Attribut nur einmal gewählt werden.
+* Der SGM eines Talents wird um 1 verbessert.
+Wird diese Option mehrfach gewählt, kann ein einzelnes Talent nur einmal gewählt werden.
+* Der Abenteurer erhält 50 Silbermünzen zusätzliches Startkapital.

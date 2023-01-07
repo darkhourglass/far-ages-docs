@@ -14,7 +14,7 @@
 [[ref_swashbuckler_flexibleweaponhandling]]
 === Flexible Waffenverwendung
 Der Säbelrassler verlässt sich im Kampf gerne auf seine Schnelligkeit und Geschicklichkeit.
-Solange der Säbelrassler eine xref:../../tables/items/table_items_meleeweapons.adoc[einhändige Nahkampfwaffe] trägt, die als verwandtes xref:../../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_weapons_attribut[Attribut] xref:../core_rules_charactercreation.adoc#ref_attribute_strength[ST] oder xref:../core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] vorgibt, kann er sich entscheiden, ob er für die Probe im Talent xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] seine Attributsstufe von ST oder GE verwendet.
+Solange der Säbelrassler eine xref:../core_rules_battlesystem.adoc#ref_battle_items_weapons[einhändige Nahkampfwaffe] trägt, die als verwandtes xref:../core_rules_battlesystem.adoc#ref_battle_items_weapons_attribut[Attribut] xref:../core_rules_charactercreation.adoc#ref_attribute_strength[ST] oder xref:../core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] vorgibt, kann er sich entscheiden, ob er für die Probe im Talent xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] seine Attributsstufe von ST oder GE verwendet.
 Dies muss er vor einer Probe in Nahkampfwaffen tun und seine Entscheidung gilt für alle weiteren Proben mit dieser Waffe in der aktuellen Kampfphase.
 Die Entscheidung beeinflusst nicht die xref:../core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensprobe].
 Er kann diese Fähigkeit außerdem nicht einsetzen, wenn er einen Schild trägt.

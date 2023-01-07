@@ -1,0 +1,29 @@
+= Herr der Toten
+
+*Voraussetzungen:* Primärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] +
+*Typ:* Passiv, Übernatürlich +
+*CP:* tba +
+
+Ein Untoter mit dieser Fähigkeit ist den Energien Ebons so verbunden, dass er andere Untote beherrschen kann.
+
+Der Untote kann andere Untote der xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufen] 0 bis 9 kontrollieren, so als wären sie dauerhaft unter dem Einfluss des Zaubers link:../../../../compendiums/spells/spell_control_undead.adoc[Untoten kontrollieren].
+Dabei kann der Untote eine beliebige Anzahl Untoter gleichzeitig kontrollieren, solange die Summe ihrer Machtstufen kleiner oder gleich der eigenen Machtstufe multipliziert mit 5 entspricht.
+Untote der Machtstufe 0 werden im Sinne dieser Rechnung mit 1/2 Stufen gerechnet.
+Außerdem kann der Untote keine Untoten kontrollieren, deren Machtstufe gleich oder höher der Eigenen ist.
+
+Die Übernahme oder Abgabe der Kontrolle ist eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] pro kontrollierten Untoten.
+Die Kontrolle endet nicht automatisch und solange diese anhält, ist der Untote nicht von xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_decay[Zerfall] betroffen.
+
+.Herr der Toten
+====
+Ein Untoter der Machtstufe 5 erhält dieser Fähigkeit.
+Damit kann er Untote der Machtstufen 0 bis 4 kontrollieren und insgesamt 5*5=25 Stufen.
+Er könnte beispielsweise 4 Untote der Machtstufe 4 (4*4=16) kontrollieren, 2 der Machtstufe 3 (2*3=6) und weitere 6 Untote der Machtstufe 0 (6*1/2=3).
+Insgesamt ergeben dies 16+6+3=25 Machtstufen, die der Herr der Toten unter seiner Kontrolle hat.
+====
+
+[[ref_bestiary_skill_undead_lord_of_the_dead_legendary]]
+== Legendär
+Untote der Machtstufe 0 zählt nicht zum Maximum dieser Fähigkeit.
+Das bedeutet, ein legendärer Herr der Toten kann beliebig viele Untote der Machtstufe 0 kontrollieren.
+Außerdem wird die maximale Anzahl von kontrollierbaren Untoten nicht mit dem Modifikator 5, sondern mit 7 berechnet.

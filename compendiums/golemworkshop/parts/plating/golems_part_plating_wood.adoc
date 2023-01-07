@@ -1,10 +1,79 @@
 = Holzpanzerung
 
-*Materialkosten:*  +
-*Konstruktionszeit:* +
-*Zaubersprüche:*  +
-*Erfolge:* +
-*GK:* +
-*Rüstungsschutz:* +
-*Montage:* +
-*Beschreibung:* +
+*Materialkosten:*  siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* link:../../../spells/spell_sculpt_wood.adoc[Holz formen] +
+*Erfolge:* siehe Beschreibung +
+*GK:* 1 - 10 +
+*Rüstungsschutz:* siehe Beschreibung +
+*Montage:* - +
+*Beschreibung:* Holzpanzerung bietet eine Alternative zu der regulären link:golems_part_plating_steel_full.adoc[Stahlpanzerung (Voll)], auch wenn die Materialwahl nicht auf den ersten Blick offensichtlich erscheint.
+Diese Art der Panzerung fällt durch geringere Materialkosten und Produktionszeiten gegenüber der Stahlpanzerung auf, sowie einer besseren Beweglichkeit.
+
+Die Holzpanzerung schützt alle xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen] des Golems und besitzt im Gegensatz zur link:golems_part_plating_steel_full.adoc[Stahlpanzerung (Voll)] keinen Malus auf den INI-Wert oder die BEW-Rate des Golems.
+
+Allerdings bringt die Holzpanzerung den Nachteil mit sich, dass der Golem die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] für die Schadensart xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] erhält.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz
+
+|1
+|6.000
+|1 Tag
+|5
+|3
+
+|2
+|8.000
+|2 Tage
+|3
+|3
+
+|3
+|13.000
+|3 Tage
+|6
+|4
+
+|4
+|15.000
+|6 Tage
+|7
+|5
+
+|5
+|17.000
+|8 Tage
+|7
+|5
+
+|6
+|24.000
+|10 Tage
+|8
+|6
+
+|7
+|30.000
+|12 Tage
+|8
+|7
+
+|8
+|40.000
+|16 Tage
+|9
+|9
+
+|9
+|52.000
+|20 Tage
+|11
+|11
+
+|10
+|75.000
+|28 Tage
+|13
+|13
+|===

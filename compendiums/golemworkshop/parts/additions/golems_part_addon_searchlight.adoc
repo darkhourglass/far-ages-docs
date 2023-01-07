@@ -1,0 +1,27 @@
+= Scheinwerfer
+
+*Materialkosten:* 5.000 +
+*Konstruktionszeit:* 5 Tage +
+*Zaubersprüche:* link:../../../spells/spell_light.adoc[Licht] +
+*Erfolge:* 3 +
+*Montage:* - +
+*MP-Kosten:* 1 MP +
+*Beschreibung:* Der Scheinwerfer ist ein Zusatz, der typischerweise auf Schultern oder vergleichbaren exponierten Stellen montiert wird, um maximal flexibel eingesetzt werden zu können.
+Kernfunktion ist die Erzeugung eines hellen Lichts.
+Dieses wird durch einen kleinen Kristall erzeugt, der den magischen Effekt erzeugt.
+Zusätzlich besitzt der Zusatz ein ausgeklügeltes System aus mechanischen Komponenten, wie ein System aus austauschbaren Linsen und einer Iris zur Bestimmung des Lichtkegels.
+
+Der Scheinwerfer bietet vergleichbare Funktionen wie der Zauberspruch link:../../../spells/spell_light.adoc[Licht].
+Dies bedeutet im Einzelnen:
+
+* Das Licht kann ein- und ausgeschaltet werden.
+Einschalten erfordert die angegebenen MP-Kosten.
+* Die Lichtfarbe wird durch flexible, farbige Glaslinsen bestimmt.
+Jeder Scheinwerfer kann jedoch maximal 4 verschiedene Linsen besitzen.
+Ist keine Linse aktiv, ist das Licht weiß.
+* Durch eine mechanische Iris kann der Golem die Ausdehnung des Lichtes bestimmen:
+Durch passende Verengung kann er einen Kegel oder eine Linie erhellen.
+Werden alle Linsen eingezogen, wird die Ausdehnung zu einem Radius.
+Das Licht kann in allen Fällen maximal 24,00 Meter weit reichen.
+
+Jede Änderung erfordert den Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion].

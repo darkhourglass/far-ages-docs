@@ -1,0 +1,105 @@
+= NAME
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
+* -
+* link:../templates/bestiary_template_undead_scourge.adoc[Geißel]
+* *GK:* 5
+* *CP:* TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+[NOTE]
+Dieses Profil basiert auf einem menschlichen Nekromanten.
+Es wurde das TODO-Profil zur Verteilung der Attribute und Talente verwendet.
+
+*ST:* 5     *GE:* 3     *KO:* 3 +
+*ER:* 8     *EN:* 8     *SB:* 4     *CH:* 2 +
+
+*TP:* 55     *MP:* 125     *SP:* - +
+
+*WID:* 12 +
+*BEW:* 7,50 +
+*INI:* 11 +
+*MaxTL:* 75 +
+*MaxPOT:* 11 +
+
+*Rüstung:* - +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_disabled[Kampfunfähig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+
+== Offensiv
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei (Nekromantie)] 18
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] 16
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] 16
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discipline[Disziplin] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_research[Forschen] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Goldschmied)] 7
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_read_write[Lesen/Schreiben] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 11
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 18
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] 16
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Alchemie)] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Untote)] 16
+* link:../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent
+* link:../skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (X,  link:../../compendiums/spells/spell_ebons_touch.adoc[Ebons Berührung])
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (X,  link:../../compendiums/spells/spell_total_darkness.adoc[Vollständige Dunkelheit])
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (X,  link:../../compendiums/spells/spell_prevent_healing.adoc[Verhindere Wundheilung])
+* xref:../templates/bestiary_template_undead_scourge.adoc#ref_template_undead_source_skill_souljar[Seelengefäß]
+* xref:../templates/bestiary_template_undead_scourge.adoc#ref_template_undead_source_skill_regeneration[Regeneration (Geißel)]
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura] (XXX Meter)
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+
+
+
+
+
+
+
+
+
+

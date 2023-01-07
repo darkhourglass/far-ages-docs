@@ -1,0 +1,18 @@
+= Arm
+
+Das Leben hat es nicht gut gemeint mit dem Charakter.
+Er wuchs in ärmlichen Verhältnissen auf oder hat in den letzten Jahren kein regelmäßiges Einkommen erhalten.
+Seine Lebensverhältnisse sind bestenfalls einfach und wenn er regelmäßig etwas Warmes zu essen bekommt, dann schätzt er sich glücklich.
+
+*Attributsbonus:* +1 KO +
+*Talente:* - +
+*Spezial:* <<ref_core_backrounds_poor_special_effective_rationing,Effektive Rationierung>> +
+*Startkapital:* 1/2 +
+*CP:* 10 +
+
+[[ref_core_backrounds_poor_special_effective_rationing]]
+== Effektive Rationierung
+Der Charakter aufgrund seiner Erfahrungen mit Entbehrungen eine effekte Strategie gegenüber mangelnden Ressourcen entwickelt.
+Durch geschickte Rationierung und Ausdauer kann er weniger länger überleben als andere.
+Er kann für eine Anzahl von aufeinanderfolgenden Tagen, die maximal seiner Stufe in KO beträgt, nur die Hälfte an Nahrung und Wasser zu sich nehmen, xref:../core_rules_adventures.adoc#ref_core_adventures_harards_missing_food_and_water[ohne negative Effekte] zu erleiden.
+Ist dieser Zeitraum ausgeschöpft und er kann keine reguläre Menge an Nahrung zu sich nehmen, treten die üblichen Effekte bei Unterernährung ein.

@@ -1,0 +1,91 @@
+= Adamantiumpanzerung (Voll)
+
+*Materialkosten:*  siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:*  - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 1 - 10 +
+*Rüstungsschutz:* siehe Beschreibung +
+*Montage:* Schwer +
+*Beschreibung:* Adamantium ist ein seltenes und fantastisches Metall, dass viel härter als Stahl und gleichzeitig leicht zu verarbeiten ist.
+Adamantium besitzt eine dunklere Färbung als Stahl und verändert ähnlich wie Kupfer an der Luft mit der Zeit seine Farbe in ein tiefes Schwarz.
+
+Diese Panzerung schützt den Golem auf allen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen].
+Wie bei der link:golems_part_plating_steel_full.adoc[Stahlpanzerung (Voll)] verringertet diese schwere Rüstung die Bewegungsfähigkeit und Schnelligkeit des Golems.
+Alle Golems mit dieser Panzerung erhalten einen Malus von -1 auf ihren xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_inibonus[INI-Wert].
+Der Malus aus ihre xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] ist abhängig von ihrer xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK].
+Die Übersicht dazu, sowie anderer Eigenschaften, gibt die nachfolgende Tabelle.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz |Malus auf BEW
+
+|1
+|18.000
+|4 Tage
+|5
+|6
+|-1,50 Meter
+
+|2
+|20.000
+|8 Tage
+|3
+|6
+|-1,50 Meter
+
+|3
+|26.000
+|7 Tage
+|6
+|8
+|-1,50 Meter
+
+|4
+|32.000
+|12 Tage
+|7
+|10
+|-3,00 Meter
+
+|5
+|48.000
+|13 Tage
+|7
+|10
+|-3,00 Meter
+
+|6
+|64.000
+|16 Tage
+|8
+|12
+|-3,00 Meter
+
+|7
+|72.000
+|20 Tage
+|8
+|14
+|-4,50 Meter
+
+|8
+|96.000
+|26 Tage
+|9
+|18
+|-4,50 Meter
+
+|9
+|120.000
+|32 Tage
+|11
+|22
+|-4,50 Meter
+
+|10
+|180.000
+|40 Tage
+|13
+|26
+|-6,00 Meter
+|===

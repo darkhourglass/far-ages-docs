@@ -95,7 +95,7 @@ Ihre xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_va
 ==== Energieentzug
 Der verwendete Pool für die Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] ist xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP].
 Weiterhin wird für Vampire dieser Art der Energieentzug durch einen *Biss* und das Trinken von Blut durchgeführt.
-Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_brawl[Ringen].
+Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack_brawl[Ringen].
 Ist dieser Voraussetzung erfüllt, kann der Energieentzug nach den üblichen Regeln angewendet werden.
 Dieser Akt gilt nun als Biss.
 

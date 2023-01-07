@@ -65,7 +65,7 @@ Das System von Far Ages unterscheidet jedoch zwischen zwei Möglichkeiten einen 
 
 Die erste Variante ist am einfachsten erläutert, denn in diesem Fall haben beide (ggf. natürlich auch mehrere) Parteien ihre Waffen gezogen und Vorbereitungen getroffen und es kommt direkt zur ersten Kampfphase.
 
-Die zweite Variante basiert auf der Annahme, dass eine Partei von der anderen überrascht wurde bzw. plötzlich zum Kampf gezwungen.
+Die zweite Variante basiert auf der Annahme, dass eine Partei von der anderen überrascht wurde oder plötzlich zum Kampf gezwungen.
 In diesem Fall spricht man von einem *Überraschungsangriff*. [[ref_battle_start_of_battle_suprise]]
 Dieser wird ausführlich in einem späteren Kapitel besprochen.
 
@@ -73,36 +73,34 @@ Dieser wird ausführlich in einem späteren Kapitel besprochen.
 
 In der Realität ist ein Kampf ein schwer kontrollierbares System aus Ereignissen, die oft gleichzeitig passieren.
 Dies lässt jedoch schwer für ein Spiel, welches an einem Tisch stattfindet, umsetzen.
-Daher ist der Ablauf eines Kampfes in *Kampfrunden* unterteilt.
-Kampfrunden sind ein paar Augenblicke, in denen unterschiedliche Ereignisse stattfinden können und die abstrakte Maßeinheit dienen.
+Daher ist der Ablauf eines Kampfes in *Kampfphasen* unterteilt.
+Eine Kampfphase besteht nur aus ein paar Augenblicken, in denen unterschiedliche Ereignisse stattfinden können und die abstrakte Maßeinheit dienen.
 
-In jeder Kampfrunde stehen jedem Teilnehmer unterschiedliche Aktionen und Manöver zur Verfügung.
-Hat jeder Teilnehmer seine Aktionen in einer Kampfrunde durchgeführt, ist diese vorbei und eine neue Kampfrunde beginnt. Ein Kampf ist beendet, wenn in einer Kampfrunde kein Teilnehmer Aktionen durchführen kann oder möchte.
+In jeder Kampfphase stehen jedem Teilnehmer unterschiedliche Aktionen und Manöver zur Verfügung.
+Hat jeder Teilnehmer seine Aktionen in einer Kampfphase durchgeführt, ist diese vorbei und eine neue Kampfphase beginnt. Ein Kampf ist beendet, wenn in einer Kampfphase kein Teilnehmer Aktionen durchführen kann oder möchte.
 
 [[ref_battle_battlephase]]
 === Ablauf der Kampfphase
 
 Jede Kampfphase läuft nach dem gleichen Schema ab:
 
-1. <<ref_battle_battlephase_initiative, Initiative bestimmen>>
-2. <<ref_battle_battleround_actions, Aktionen durchführen>>
+1. <<ref_battle_battlephase_initiative,Initiative bestimmen>>
+2. <<ref_battle_battleround_actions,Aktionen durchführen>>
 
 Die folgenden Unterkapitel beschreiben die einzelnen Schritte im Detail.
 
 [[ref_battle_battlephase_initiative]]
 === Initiative bestimmen
 
-Zu Beginn jeder Kampfphase bestimmt jeder Teilnehmer seinen Initiativewert.
-Dieser berechnet sich aus dem festen Initiativebonus (INI) des Teilnehmers, ggf. zusätzlichen Boni oder Mali, z.B. dem Vorteil Verbesserte Initiative und einem Würfelwurf von 2W10.
+Zu Beginn jeder Kampfphase bestimmt jeder Teilnehmer seinen *Initiativewert* (oder auch einfach nur Initiative).
+Dieser berechnet sich aus dem festen xref:core_rules_charactercreation.adoc#ref_secondary_inibonus[Initiativebonus (INI)] des Teilnehmers, zusätzlichen Boni oder Mali und einem Würfelwurf von 2W10.
 
-Rüstung, die der Charakter trägt, reduziert außerdem seinen INI-Wert.
-Die nennt man einen sogenannten *Initiative-Malus*.
-Der INI-Wert kann durch einen Initiative-Malus einen negativen Wert erreichen, der entsprechend das Gesamtergebnis beeinflusst.
-
-Basierend auf dem Ergebnis aller Teilnehmer wird die Initiativereihenfolge bestimmt.
+Basierend auf dem Ergebnis aller Teilnehmer wird die *Initiativereihenfolge* bestimmt.
 Der Teilnehmer mit dem höchsten Wert darf zuerst seine Aktionen durchführen, danach kommt der Teilnehmer mit dem zweithöchsten Wert dran und so weiter.
 
-Haben zwei Teilnehmer den gleichen Initiativewert, bestimmt der höchste Initiativebonus die Reihenfolge. Ist auch dieser gleich, würfen beide Teilnehmer solange einen W10, bis einer von Ihnen ein höheren Ergebnis hat. Diese Werte werden nicht zu dem bereits bestimmten Initiativewert hinzuaddiert.
+Haben zwei Teilnehmer den gleichen Initiativewert, bestimmt der höchste Initiativebonus die Reihenfolge.
+Ist auch dieser gleich, würfeln beide Teilnehmer so oft einen W10, bis einer von Ihnen ein höheres Ergebnis erzielt.
+Diese Werte werden allerdings nicht zu dem bereits bestimmten Initiativewert hinzuaddiert.
 
 .Initiative bestimmen
 ====
@@ -130,21 +128,25 @@ Diese Vereinfachung ist vor allem dazu gedacht, den Ablauf des Kampfs schneller 
 [[ref_battle_battleround_actions]]
 === Aktionen durchführen
 
-Sobald die Initiativreihenfolge es erlaubt, darf ein Kampfteilnehmer seine Aktionen durchführen.
-Pro Kampfrunde hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur Verfügung:
+Sobald die Reihenfolge der Initiative es erlaubt, darf ein Kampfteilnehmer seine Aktionen durchführen.
+Pro Kampfphase hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur Verfügung:
 
-* max. 1 <<ref_battle_actions, Aktion>>
-* max. 1 <<ref_battle_bonusactions, Bonusaktion>>
-* max. 1 <<ref_battle_movefightaction, Bewegungs- oder Kampfmanöver>>
-* max. 1 <<ref_battle_reactions, Reaktion>>
-* beliebige Freie Aktionen
+* max. 1 <<ref_battle_actions,Aktion>> und <<ref_battle_movefightaction,Bewegungs- oder Kampfmanöver>> _oder_ 1 <<ref_battle_complexactions,komplexe Aktion>>
+* max. 1 <<ref_battle_bonusactions,Bonusaktion>>
+* max. 1 <<ref_battle_reactions,Reaktion>>
+* max. 1 <<ref_battle_bonusreactions,Bonusreaktion>>
+* beliebige <<ref_battle_freeactions,freie Aktionen>>, wobei jede einzelne freie Aktion nur einmal durchgeführt werden kann
 
-Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion bzw. Kombination aus o.g. Aktionen, mit Ausnahme der Reaktion.
+Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion oder Kombination aus oben genannten Aktionen, mit Ausnahme der Reaktion.
+
+[NOTE]
+Die vorgestellte Aufzählung und Maxima stellen die allgemeine Ausgangslage dar.
+Charaktere, Monster und viele andere Kreaturen können durch Fähigkeiten mehr Aktionen, Manöver oder Reaktionen pro Kampfphase durchführen.
 
 [[ref_battle_actions]]
 === Aktionen
 Als *Aktion* in einem Kampf nach dem System von Far Ages bezeichnen wir eine komplexe Handlung, die üblicherweise die Aufmerksamkeit des Charakters voll erfordert.
-Jeder Charakter kann pro Kampfphase eine Aktion durchführen, daher muss er sich zwischen den folgenden Optionen entscheiden.
+Jeder Charakter kann pro Kampfphase in der Regel eine Aktion durchführen, daher muss er sich zwischen den folgenden Optionen entscheiden.
 
 [[ref_battle_actions_attack]]
 ==== Angriff
@@ -157,7 +159,7 @@ Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talent
 
 Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Kampf gebunden].
 
-Bewegt sich der Charakter nicht und nutzt ein Talent, wie xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], gilt der Angriff ausschließlich als <<ref_battle_actions_usetalent, Talenteinsatz>>.
+Bewegt sich der Charakter nicht und nutzt ein Talent, wie xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], gilt der Angriff ausschließlich als <<ref_battle_actions_usetalent,Talenteinsatz>>.
 Dasselbe gilt, wenn er bereits im Kampf gebunden ist und zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwendet.
 
 Besondere Angriffe sind in den folgenden Unterkapiteln aufgeführt.
@@ -167,8 +169,9 @@ Besondere Angriffe sind in den folgenden Unterkapiteln aufgeführt.
 Benutzt ein Charakter ein Reittier im Kampf, so gelten die vorgestellten Regeln für den <<ref_battle_actions_attack>> und die Folgenden:
 
 Anstelle seiner BEW wird die BEW des Reittiers verwendet.
+Es gelten die besonderen <<ref_battle_damagerolls,Regeln>> für die Schadensermittlung.
 
-Er muss eine xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_meleeweapons_mountedattack[passende Waffe] führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
+Er muss eine <<ref_battle_items_weapons_tag_mounted_combat,passende Waffe>> führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
 
 [[ref_battle_actions_attack_airattack]]
 ===== Flugangriff
@@ -177,16 +180,10 @@ Mit dieser Aktion heben sie sich in die Luft und stürzen auf ihre Gegner herab 
 
 Die zurückgelegte Strecke kann maximal die Hälfte der BEW des Angreifers sein.
 Dabei wird die Luftbewegung genommen.
-Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW wieder fortbewegen.
+Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW fortbewegen.
 
-[[ref_battle_actions_continueaction]]
-==== Aktion weiterführen
-Neben dem Vorbereiten von Zaubersprüchen können auch anderen Aktionen länger dauern als eine Kampfrunde.
-In diesem Fall spricht man vom *Weiterführen*.
-Charaktere, die mit entsprechend längeren Aktionen beschäftigt sind und diese nicht abbrechen möchten, müssen ihre Aktion zum Weiterführen werden.
-
-[[ref_battle_actions_aimedattack]]
-==== Gezielter Schlag / Gezielter Schuss
+[[ref_battle_actions_attack_aimedattack]]
+===== Gezielter Schlag / Schuss
 Der Charakter kann mit einer Angriffsprobe im Nahkampf oder Fernkampf versuchen, einen gezielten Treffer bei einem Gegner zu erlangen.
 Dazu sagt er die Trefferzone an, die er zu treffen beabsichtigt, vorausgesetzt er kann diese sehen.
 
@@ -195,19 +192,27 @@ Der Angriffswurf ist mit einem Malus von *-2 auf die Würfe zu Erfolg* belegt, u
 Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
 Es kann dadurch auch Rüstung umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
 
-[[ref_battle_actions_brawl]]
-==== Raufen und Ringen
+[[ref_battle_actions_attack_brawl]]
+===== Raufen und Ringen
 Im xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] können Charakter Raufen und Ringen.
 
-Zum Einsatz würfelt der Charakter eine reguläre Probe auf Unbewaffneten Kampf.
-Ist diese erfolgreich, verursacht er halbierten <<ref_battle_damagerolls, Schaden>>.
-Die beiden Kontrahenten würfeln nun eine konkurrierende ST-Probe.
+Zum Einsatz würfelt der Charakter eine reguläre Probe auf xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf].
+Ist diese erfolgreich, verursacht er halbierten <<ref_battle_damagerolls,Schaden>> (abgerundet, minimal 1).
+Die beiden Kontrahenten würfeln nun eine xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende] xref:core_rules_d10_system.adoc#ref_core_attributeroles[ST-Probe].
 Derjenige, der mehr Erfolge gewürfelt hat, hat den Gegner im Griff.
 Dieser gilt als xref:core_rules_d10_system.adoc#ref_core_condition_immobile[gefangen].
 
 Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfrunde eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
-Dieser Versuch gilt als das Manöver <<ref_battle_move_breakfree, befreien>>.
+Dieser Versuch gilt als das Manöver <<ref_battle_move_breakfree,befreien>>.
 Es kann also pro Kampfphase immer eine Probe gewürfelt werden und je nachdem, wer gewinnt, das Ergebnis folgen.
+
+[[ref_battle_actions_continueaction]]
+==== Aktion weiterführen
+Manche Aktionen können länger dauern als eine Kampfphase.
+In diesem Fall spricht man vom *Weiterführen*.
+Charaktere, die mit entsprechend längeren Aktionen beschäftigt sind und diese nicht abbrechen möchten, müssen ihre Aktion zum Weiterführen verwenden.
+
+Ausnahme ist das xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_preparation[Vorbereiten von Zaubersprüchen], welches eine eigenständige <<ref_battle_actions_spell_preparation,Aktion>> darstellt.
 
 [[ref_battle_actions_usetalent]]
 ==== Talent einsetzen (Aktion)
@@ -222,20 +227,29 @@ Der Unterstützte erhält einen Bonus von *+1 auf die Würfe zum Erfolg* für se
 
 Um bei einer Talentprobe zu unterstützen, muss der Unterstützer das Talent selbst beherrschen.
 
-[[ref_battle_actions_preparespells]]
+[[ref_battle_actions_spell_preparation]]
 ==== Zauber vorbereiten
-Zaubersprüche benötigen eine spezielle Behandlung im Regelsystem von Far Ages.
-Daher wird das *Vorbereiten von Zaubersprüchen* in diesem Moment extra erwähnt.
 Bevor ein Zauberspruch ausgesprochen werden kann, formt ein Zauberer ihn aus dem Aether, dem magischen Zwischenreich zwischen den Dimensionen.
-Diese Zeit wird in Form von Aktionen bei der Beschreibung des Zauberspruches angegeben.
-Generell gilt, die Spruchzauberei-Probe in der letzten benötigten Kampfrunde gewürfelt wird.
-Die vollständigen Regeln finden sich unter xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[Zaubersprüche vorbereiten].
+Jeder Zauberspruch benötigt eine bestimmte Anzahl an Kampfphasen zur Vorbereitung.
+Mit dieser Aktion verringt sich diese Anzahl um 1.
+Die vollständigen Regeln finden sich unter xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_preparation[Zaubersprüche vorbereiten].
+
+[NOTE]
+Es gilt, dass die xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] in der letzten Kampfphase der Vorbereitung gewürfelt wird.
+In diesem Fall ist die Aktion der <<ref_battle_actions_usetalent,Talenteinsatz>> für Spruchzauberei.
+Dies gilt insbesondere für Zaubersprüche, deren Vorbereitung 1 ist.
+
+[NOTE]
+Siehe auch die komplexe Aktion <<ref_battle_complexactions_concentrated_spell_preparation,konzentriertes Vorbereiten von Zaubersprüchen>>.
 
 [[ref_battle_bonusactions]]
 === Bonus-Aktionen
-//TODO
+Pro Kampfphase darf jeder Charakter eine *Bonus-Aktion* durchführen.
+Dabei gilt, dass der Charakter diese Aktion explizit durch eine Quelle, zum Beispiel eine Fähigkeit, erhalten muss, um sie einzusetzen.
+Besitzt eine Kreatur mehrere Optionen für eine Bonus-Aktion, muss sie sich für eine entscheiden.
+<<ref_battle_actions,Aktionen>>, <<ref_battle_movefightaction,Manöver>> und Bonus-Aktionen sind in der Regel nicht untereinander austauschbar.
 
-Eine Kreatur darf keine Bonus-Aktionen durchführen, wenn sie auch keine <<ref_battle_actions, Aktionen>> durchführen darf.
+Eine Kreatur darf keine Bonus-Aktionen durchführen, wenn sie keine <<ref_battle_actions,Aktionen>> durchführen darf.
 
 [[ref_battle_movefightaction]]
 === Bewegungs- und Kampfmanöver
@@ -247,49 +261,48 @@ Er muss sich daher zwischen den folgenden Optionen entscheiden.
 ==== Aufstehen
 Befindet sich der Charakter in der Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_onground[am Boden], kann er dieses Manöver einsetzen, um sich aufzurichten.
 
-Das Manöver kostet den Charakter formal die Hälfte seiner BEW-Rate pro Kampfphase.
+Das Manöver kostet den Charakter die Hälfte seiner BEW-Rate pro Kampfphase.
 Kann er in dieser Kampfphase weitere BEW einsetzen, stehen ihm entsprechend weniger Einheiten zur Verfügung.
 
-Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
 
 [[ref_battle_move_breakfree]]
 ==== Befreien
 Befindet sich der Charakter in der Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_held[gefangen], kann er dieses Manöver einsetzen, um sich zu befreien.
 
-Dies erfordert gegebenfalls eine zusätzliche Probe, wie beispielsweise unter <<ref_battle_actions_brawl, Raufen und Ringen>> beschrieben.
+Dies erfordert gegebenenfalls eine zusätzliche Probe, zum Beispiel im Fall von <<ref_battle_actions_attack_brawl,Raufen und Ringen>>.
+Im Zweifel entscheidet der SL über die nötige Probe.
 
 [[ref_battle_move_readyitem]]
 ==== Gegenstand vorbereiten
-Um einen Gegenstand zu <<ref_battle_freeactions_useitem, verwenden>>, muss sich dieser in der Hand des Charakters befinden.
-Mit diesem Manöver kann der Charakter einen Gegenstand in eine freie Hand nehmen, wenn dieser die folgende Bedingung erfolgt.
-
+Um einen Gegenstand zu <<ref_battle_freeactions_useitem,verwenden>>, muss sich dieser zuerst in der Hand des Charakters befinden.
+Mit diesem Manöver kann der Charakter einen Gegenstand in eine freie Hand nehmen, wenn dieser Gegenstand die folgende Bedingung erfüllt.
 Der Gegenstand muss sich entweder am Körper des Charakters oder im Abstand von maximal 1,50 Metern befinden.
 
-Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
 
 [[ref_battle_move_usetalent]]
 ==== Talent einsetzen (Manöver)
-Der Charakter darf ein Talent einsetzen, welches im Kampf als Manöver gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik] oder xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen].
+Der Charakter darf ein Talent einsetzen, welches als Manöver gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik] oder xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen].
 
 [[ref_battle_move_useBEW]]
 ==== Rennen
 Der Charakter kann in dieser Kampfphase seine BEW-Rate verwenden, wenn er nicht xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden] ist.
-Es gelten die üblichen Regeln für <<ref_battle_rules_movement, Bewegung>>.
-
-Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+Es gelten die üblichen Regeln für <<ref_battle_rules_movement,Bewegung>>.
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
 
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
 [[ref_battle_freeactions]]
 === Freie Aktionen
 *Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
-Grundsätzlich kann der Charakter also beliebig viele Freie Aktionen durchführen, allerdings darf er jede konkrete Freie Aktion nur einmal pro Kampfphase anwenden, zum Beispiel kann der Charakter einen Heiltrank trinken oder seinen Zauberstecken verwenden.
-Beide Aktionen fallen unter <<ref_battle_freeactions_useitem, Gegenstand verwenden>>, daher muss er sich für eines von beiden entscheiden.
+Grundsätzlich kann der Charakter also beliebig viele freie Aktionen durchführen, allerdings darf er jede konkrete freie Aktion nur einmal pro Kampfphase anwenden, zum Beispiel kann der Charakter einen Heiltrank trinken oder seinen Zauberstecken verwenden.
+Beide Aktionen fallen unter <<ref_battle_freeactions_useitem,Gegenstand verwenden>>, daher muss er sich für eines von beiden entscheiden.
 Freie Aktionen können nur angewendet werden, wenn der Charakter an der Reihe ist.
 
 [[ref_battle_freeactions_cancelaction]]
 ==== Aktionen abbrechen
-Es kann vorkommen, dass Kampfteilnehmer aufgrund von anderen Ereignissen im Kampf zu der Ansicht kommen, dass sie ihre aktuell vorbereitete <<ref_battle_actions_continueaction, Aktion>> nicht mehr durchführen wollen.
+Es kann vorkommen, dass Kampfteilnehmer aufgrund von anderen Ereignissen im Kampf zu der Ansicht kommen, dass sie ihre aktuell vorbereitete <<ref_battle_actions_continueaction,Aktion>> nicht mehr durchführen wollen.
 Beispielsweise könnte ein Zauberer einen Zauberspruch, den er gerade vorbereitet, abbrechen wollen, weil im Verlauf der letzten Kampfphase sein Ziel außer Sicht ging oder ein Teilnehmer ging durch einen Querschläger zu Boden, weswegen sein Kontrahent die aktuelle Attacke lieber gegen einen anderen nahestehenden Kampfteilnehmer richten will.
 
 Aktionen können in ihrer Vorbereitung oder auch am Ende ihrer Vorbereitung, also zur Durchführung, geändert oder abgebrochen werden, vorausgesetzt, diese Aktion erlaubt einen frühzeitigen Abbruch.
@@ -297,11 +310,11 @@ Es kann dann zu negativen Folgen für den Abbrecher kommen, was jedoch von der S
 
 [[ref_battle_freeactions_readyaction]]
 ==== Aktion abwarten
-Als freie Aktion darf ein Charakter zu Beginn der Kampfphase ansagen, dass seine <<ref_battle_actions, Aktion>> an ein bestimmtes Ereignis gebunden ist.
+Als freie Aktion darf ein Charakter zu Beginn der Kampfphase ansagen, dass seine <<ref_battle_actions,Aktion>> an ein bestimmtes Ereignis gebunden ist.
 Tritt das Ergebnis ein, ist der Charakter sofort dran, auch wenn seine Initiative schlechter ist.
-Tritt das Ereignis jedoch nicht ein, wird der Charakter wie am Ende der Initiativereihenfolge behandelt.
+Tritt das Ereignis jedoch nicht ein, darf der Charakter erst am Ende der <<ref_battle_battlephase_initiative,Initiative-Reihenfolge>> handeln.
 
-Nach ermessen des SLs dürfen auch die Kombinationen aus <<ref_battle_actions, Aktion>> und <<ref_battle_movefightaction, Manöver>> oder <<ref_battle_complexactions, komplexe Aktion>> abgewartet werden.
+Nach Ermessen des SLs dürfen auch Kombinationen aus <<ref_battle_actions,Aktion>> und <<ref_battle_movefightaction,Manöver>> oder <<ref_battle_complexactions,komplexe Aktion>> abgewartet werden.
 
 [[ref_battle_freeactions_dropitem]]
 ==== Gegenstand fallenlassen
@@ -309,16 +322,16 @@ Als freie Aktion darf ein Charakter jeden Gegenstand, den er bereits in den Hän
 
 [[ref_battle_freeactions_useitem]]
 ==== Gegenstand verwenden
-Ein Charakter kann einen Gegenstand verwenden, dessen Einsatz keine eine Attributs- oder Talentprobe erfordert, oder deren Beschreibung keine <<ref_battle_actions, Aktion>> oder ähnliches erfordert.
+Ein Charakter kann einen Gegenstand verwenden, dessen Einsatz keine eine Attributs- oder Talentprobe erfordert, oder deren Beschreibung keine <<ref_battle_actions,Aktion>> oder ähnliches erfordert.
 Dies kann zum Beispiel ein Heiltrank sein.
-Ein Zauberstecken zählt dabei nicht, denn dieser wird durch das Talent Spruchzauberei eingesetzt.
+Ein Zauberstecken zählt dabei nicht, denn dieser wird durch das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] eingesetzt.
 Die Verwendung und der Effekt des Gegenstandes sind im Normalfall in der Beschreibung zu finden.
 
 [[ref_battle_freeactions_quickstep]]
 ==== Schneller Schritt
-Hat der Charakter in der aktuellen Kampfphase nicht eines der Manöver <<ref_battle_move_useBEW>> oder <<ref_battle_complexactions_sprint>> eingesetzt und ist er nicht im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden], darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
+Hat der Charakter in der aktuellen Kampfphase keines der Manöver <<ref_battle_move_useBEW>> oder <<ref_battle_complexactions_sprint>> eingesetzt und ist er nicht im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden], darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
 
-Dieser Schritt folgt den Regeln für <<ref_battle_rules_movement, Bewegung>>, verursacht aber keinen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+Dieser Schritt folgt den Regeln für <<ref_battle_rules_movement,Bewegung>>, verursacht aber keinen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
 
 [[ref_battle_freeactions_speak]]
 ==== Sprechen
@@ -332,8 +345,7 @@ Die Vorgabe kann als grobe Richtlinie verstanden werden.
 [[ref_battle_reactions]]
 === Reaktionen
 *Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen Initiativereihenfolge ausführen kann, also wenn er eigentlich nicht dran.
-Typische Reaktionen sind Talente wie Hieb Ausweichen, Schildverteidigung oder Parade.
-
+Typische Reaktionen sind der Einsatz von <<ref_battle_reaction_usetalent,Talenten>> zur Verteidigung gegen <<ref_battle_actions_usetalent,Angriffen>>.
 Grundsätzlich können Reaktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
 Charaktere, die angegriffen werden und in der Lage sind, Hieb Ausweichen einzusetzen, dürfen dieses Talent einsetzen.
 Die jeweiligen Beschreibungen geben Auskunft, ob Reaktionen andere Aktionen, die vorbereitet oder weitergeführt werden, unterbrechen.
@@ -343,40 +355,60 @@ In jeder Kampfphase besitzt ein Charakter im Normalfall genau eine Reaktion.
 [[ref_battle_reaction_dogde]]
 ==== Ducken
 Muss der Charakter in seiner Kampfphase einen beliebigen xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] würfeln, kann er als Reaktion sich ducken.
-In diesem Fall erhält er einen Bonus von +2 auf die Würfe zum Erfolg.
+In diesem Fall erhält er einen Bonus von +2 auf die xref:core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_numbers[Würfe zum Erfolg].
 Das betroffene Attribut ist dabei unerheblich.
+
+[[ref_battle_reaction_execute_attack_of_opportunity]]
+==== Gelegenheitsangriff durchführen
+Um einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>> durchzuführen, muss ein Charakter seine Reaktion einsetzen.
+Es gelten die Regeln im entsprechenden <<ref_battle_rules_attack_of_opportunity,Kapitel>>.
+Dabei ist zu beachten, dass Charaktere zum Ausführen eines Gelegenheitsangriffes auch Talente nutzen dürfen, die üblicherweise nicht als Reaktion klassifiziert sind, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen].
 
 [[ref_battle_reaction_usetalent]]
 ==== Talente einsetzen (Reaktion)
-Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen].
+Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] oder xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
+
+[[ref_battle_bonusreactions]]
+=== Bonus-Reaktionen
+Analog zu <<ref_battle_bonusactions,Bonus-Aktionen>> kann ein Charakter, wenn ihm eine Fähigkeit oder vergleichbare Quelle dies erlaubt, pro Kampfphase eine Bonus-Reaktion durchführen.
+Bonus-Reaktionen und reguläre <<ref_battle_reactions,Reaktionen>> sind im Allgemeinen nicht austauschbar, außer eine Fähigkeit erlaubt einem Charakter dies explizit.
+
+Ein Charakter, der keine <<ref_battle_reactions,Reaktionen>> durchführen darf, kann auch keine Bonus-Reaktionen durchführen.
 
 [[ref_battle_complexactions]]
 === Komplexe Aktionen
 Als *komplexe Aktionen* werden Manöver bezeichnet, die in einer Kampfphase sehr viel Aufmerksamkeit eines Charakters erfordern.
-Komplexe Aktionen erfordern den Einsatz der <<ref_battle_actions, Aktion>> und des <<ref_battle_movefightaction, Bewegungsmanövers>>, welches ein Charakter im Normalfall zur Verfügung hat.
+Komplexe Aktionen erfordern den Einsatz der <<ref_battle_actions,Aktion>> und des <<ref_battle_movefightaction,Bewegungsmanövers>>, welches ein Charakter im Normalfall zur Verfügung hat.
 Hat ein Charakter keine Aktion oder kein Bewegungsmanöver, aber den jeweils anderen Anteil, kann er keine komplexe Aktion durchführen.
 
 [[ref_battle_complexactions_sprint]]
 ==== Sprinten
 Der Charakter kann in dieser Kampfphase seine doppelte BEW-Rate verwenden, wenn er nicht xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden] ist.
-Es gelten die üblichen Regeln für <<ref_battle_rules_movement, Bewegung>>.
+Es gelten die üblichen Regeln für <<ref_battle_rules_movement,Bewegung>>.
 
-Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>.
+Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
 
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
-Das Manöver <<ref_battle_move_useBEW, Rennen>> kann nicht in derselben Kampfphase wie Sprinten verwenden werden.
+Das Manöver <<ref_battle_move_useBEW,Rennen>> kann nicht in derselben Kampfphase wie Sprinten verwenden werden, auch wenn der Charakter eventuell mehr als ein <<ref_battle_movefightaction,Manöver>> hätte.
+
+[[ref_battle_complexactions_concentrated_spell_preparation]]
+==== Konzentriertes Vorbereiten eines Zauberspruches
+Alternativ zu der Aktion <<ref_battle_actions_spell_preparation,Vorbereitung von Zaubersprüchen>> kann ein Zauberer auch diese komplexe Aktion wählen, um Zaubersprüche schneller vorzubereiten.
+Mit dieser Aktion verringert sich die nötige Vorbereitung um 2 Kampfphasen.
+
+Neben der allgemeinen Regel, dass er auf sein <<ref_battle_movefightaction,Manöver>> verzichten muss, gilt diese komplexe Aktion außerdem, dass ein Charakter keine <<ref_battle_reactions,Reaktionen>> einsetzen darf, wenn er diese Aktion für seine Kampfphase wählt.
 
 [[ref_battle_complexactions_charge]]
 ==== Sturmangriff
 Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
 Er muss mindestens die Hälfte seiner BEW-Rate und maximal seine volle BEW-Rate von seinem Gegner in gerader Linie entfernt sein.
 Diese Linie darf nicht durch Hindernisse oder andere Kreaturen blockiert sein.
-Außerdem darf der Charakter nicht im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] sein.
+Außerdem darf der Charakter nicht bereits im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] sein.
 
 Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
 
-Bewegt sich der Charakter durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszonen>> anderer Kreaturen, so provoziert er <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
+Bewegt sich der Charakter durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,Bedrohungszonen>> anderer Kreaturen, so provoziert er <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
 
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
@@ -387,29 +419,24 @@ Neben Angriff ist auch manchmal die Flucht die beste Verteidigung, wenn man eine
 Ist ein Charakter im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden], kann er diese Aktion wählen, um sich aus dem Kampf zurückzuziehen.
 
 Ein Charakter kann in einer Runde, in der er Zurückweichen einsetzen, seine gesamte BEW-Rate einsetzen, um sich von seinem Kontrahenten zu entfernen.
-In diesem Fall provoziert der Charakter keinen <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriff>>, wenn er sich die durch Bedrohungszonen seiner Gegner bewegt.
+In diesem Fall provoziert der Charakter keinen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>, wenn er sich die durch Bedrohungszonen seiner Gegner bewegt.
 Dies gilt für alle Gegner, mit denen der Charakter im Kampf gebunden ist.
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
-Der Charakter provoziert allerdings nach regulären Regeln <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>, wenn er sich während seiner Bewegung durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszone>> anderer Gegner bewegt.
-
-Die Bewegung des Charakters darf nicht in der <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszone>> eines Gegners enden.
+Der Charakter provoziert allerdings nach regulären Regeln <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriffe>>, wenn er sich während seiner Bewegung durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> anderer Kreaturen bewegt.
+Die Bewegung des Charakters darf nicht in der <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> eines Gegners enden.
 
 [[ref_battle_rules_melee_and_unarmed]]
-== Nahkampf und Unbewaffneter Kampf
+== Nahkampf und unbewaffneter Kampf
 
 Nahkampf beschreibt die direkte Auseinandersetzung mit dem Kontrahenten.
 Für gewöhnlich gilt alles, was mit einer Waffe geführt wird, die in der Hand behalten wird, und ihren Schaden auch da wirkt, als Nahkampf.
 Eine Projektilwaffe verursacht ihren Schaden also nicht an dem Ort, wo sie "stationiert" ist, sondern dort, wo das Projektil einschlägt.
 
-Im Allgemeinen gilt, dass eine konkurrierende Probe im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er darf nicht gelähmt, paralysiert oder ohnmächtig sein.
+Im Allgemeinen gilt, dass eine xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende Probe] im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er muss in der Lage sein, seine <<ref_battle_reactions,Reaktion>> einsetzen zu können.
+Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Talente nutzen, dies sind zum Beispiel die xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] und xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
 
-Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Reaktionen nutzen, dies sind zum Beispiel die Talente Hieb Ausweichen, Schildverteidigung und Parade.
-
-Jedoch gilt, solange der Charakter fähig ist auszuweichen, so kann er dies mit einer Attributsprobe auf Geschick tun.
-Trägt er einen Schild, so kann er auch die ungeübte Anwendung des Talents Schildverteidigung versuchen.
-
-Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine einfache Probe seitens des Angreifers gewürfelt und es gilt die Anzahl an Erfolgen, die er gewürfelt hat.
+Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe] seitens des Angreifers gewürfelt und es gilt die Anzahl an Erfolgen, die er gewürfelt hat.
 
 [[ref_battle_rules_melee_and_unarmed_zoneofcontroll]]
 === Bedrohungszone
@@ -425,46 +452,91 @@ Ebenso erhöht sich die Basis der Wesen ab der Größenkategorie 7 regelmäßig 
 
 Folgende Tabelle zeigt alle Bedrohungszonen und die sogenannte Größenbasis, also wie viele Kästchen eine Kreatur der jeweiligen Größenkategorie einnimmt.
 
-[cols=",,,",options="header"]
 |===
-|Größenkategorie a|
-Maximale Basis
-{empty}[Kachel]
+|Größenkategorie |Maximale Basis {empty}[Kachel] |Anzahl der Halbkreise für die Bedrohungszone {empty}[Kachel] |Radius des Halbkreises für die Bedrohungszone {empty}[Meter]
 
-a|
-Anzahl der Halbkreise für die Bedrohungszone
-{empty}[Kachel]
+|1
+|1x1
+|0
+|0
 
-a|
-Radius des Halbkreises für die Bedrohungszone
-{empty}[Meter]
+|2
+|1x1
+|0
+|0
 
-|1 |1x1 |0 |0
-|2 |1x1 |0 |0
-|3 |1x1 |1 |1,50
-|4 |1x1 |1 |1,50
-|5 |1x1 |1 |1,50
-|6 |2x2 |2 |3,00
-|7 |3x3 |3 |4,50
-|8 |4x4 |4 |6,00
-|9 |5x5 |5 |7,50
-|10 |6x6 |6 |9,00
+|3
+|1x1
+|1
+|1,50
+
+|4
+|1x1
+|1
+|1,50
+
+|5
+|1x1
+|1
+|1,50
+
+|6
+|2x2
+|2
+|3,00
+
+|7
+|3x3
+|3
+|4,50
+
+|8
+|4x4
+|4
+|6,00
+
+|9
+|5x5
+|5
+|7,50
+
+|10
+|6x6
+|6
+|9,00
 |===
 
 Man beachte, dass die Halbkreise verkürzte Seiten an den Flanken der Kreatur haben.
 Dadurch erhält die Kreatur circa einen 105 Grad Sichtradius und hat an ihren Seiten „Blinke Flecken“.
 Manche Kreaturen besitzen einen größeren oder kleinen Sichtradius und entsprechende Bedrohungszonen.
 
-Für größere Kreaturen (ab GK 6) kommen als Bedrohungszone weitere Halbkreise in Frage.
+Für größere Kreaturen (ab GK 6) kommen als Bedrohungszone weitere Halbkreise infrage.
 Sie kann daher mehr Kästchen bedrohen.
 
 Kreaturen, die der Größenkategorie 1 oder 2 angehören, sind zu klein, um effizient mehrere Felder zu bedrohen.
-Sie bedrohen nur das Kästchen, dass sie selbst besetzen.
+Sie bedrohen nur den Bereich, dass sie selbst besetzen.
 Sie können auch nur Kreaturen angreifen, die sich auf demselben Kästchen befinden.
 
-Innerhalb dieser Bedrohungszonen kann der Charakter jedes Wesen im Nahkampf und Unbewaffneten Kampf angreifen.
-Ebenso erhält er für bestimmte Aktionen seiner Gegner Gelegenheitsangriffe, wenn diese innerhalb seiner Bedrohungszonen stehen.
-Für alle diese Angriffe kommen die nun folgenden Modifikatoren infrage.
+Innerhalb dieser Bedrohungszonen kann der Charakter jedes Wesen im Nahkampf und unbewaffneten Kampf angreifen.
+Ebenso erhält er für bestimmte Aktionen seiner Gegner <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriffe>>, wenn diese innerhalb seiner Bedrohungszonen stehen.
+
+[[ref_battle_rules_melee_and_unarmed_shields]]
+=== Einsatz von Schilden
+Schilde können im Nahkampf eingesetzt werden, um eine xref:core_rules_d10_system.adoc#ref_core_defendingroll[Verteidigungsprobe] gegen Angriffe mit xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] zu ermöglichen.
+
+[NOTE]
+In Ermessen des SLs können Schilde auch für andere Verteidigungsproben genutzt werden.
+
+Schilde werden mit der xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories_secondary_hand[sekundären Hand] des Charakters geführt.
+Für Schild dabei, dass ihre <<ref_battle_items_armor_size,Größe>> 1 Punkt größer sein darf, als es die Sekundärhand des Charakters erlaubt, ohne dass es zu <<ref_battle_modifiers_oversized_items,Einschränkungen>> kommt.
+
+.Schilde
+====
+Ein link:races/core_races_humans.adoc[Mensch] hat die xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5 und kann somit in seiner Sekundärhand Gegenstände der Größe 4 tragen.
+Im Fall von Schilden können diese Größe von 5 haben.
+====
+
+Darüber hinaus findet sich in nachfolgenden <<ref_battle_items_shields,Kapitel>> eine Übersicht über Schilde als Ausrüstungsgegenstände.
 
 [[ref_battle_modifiers_melee]]
 === Nahkampfmodifikatoren
@@ -489,7 +561,7 @@ Er steht vielleicht hinter einer mindestens hüfthohen Mauer oder duckt sich hin
 Der Malus beträgt hierbei *-2 auf die Würfe zum Erfolg.*
 * *Starke Deckung:* Der Verteidiger ist bis zu 75% verdeckt. Der Malus beträgt dann *-3 auf die Würfe zum Erfolg.*
 * *Totale Deckung:* Ist der Verteidiger nicht mehr zu sehen, kann er auch nicht getroffen werden.
-Blindes Zuschlagen auf einen Punkt, an dem ein Gegner vermutet wird, kann je nach Situation durch den SL mit einen Malus von *-4 oder mehr auf die Würfe zum Erfolg* belegt werden.
+Blindes Zuschlagen auf einen Punkt, an dem ein Gegner vermutet wird, kann je nach Situation durch den SL mit einem Malus von *-4 oder mehr auf die Würfe zum Erfolg* belegt werden.
 
 Es ist durchaus möglich für unterschiedliche Materialien und Sichtverhältnisse im Zusammenhang mit Deckung mehr oder weniger Mali zu verteilen.
 
@@ -498,28 +570,30 @@ Es ist durchaus möglich für unterschiedliche Materialien und Sichtverhältniss
 
 Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürfe zusätzlich erschweren:
 
-* Sternenklare Nacht, Fackelschein: -1 auf die Würfe zum Erfolg
-* Nacht, nur Mond: -2 auf die Würfe zum Erfolg
-* Nacht ohne Mond: -3 auf die Würfe zum Erfolg
-* Absolute Dunkelheit: -4 auf die Würfe zum Erfolg
+* Sternenklare Nacht, Fackelschein: *-1 auf die Würfe zum Erfolg*
+* Nacht, nur Mond: *-2 auf die Würfe zum Erfolg*
+* Nacht ohne Mond: *-3 auf die Würfe zum Erfolg*
+* Absolute Dunkelheit: *-4 auf die Würfe zum Erfolg*
 
 [[ref_battle_modifiers_height]]
 ==== Höhenunterschiede
 
 Charaktere können sich aus verschiedenen Höhen attackieren.
 Es könnte einer auf einem Tisch stehen oder einem höher gelegenen Felsvorsprung.
-Der Vorteil ist, dass derjenige, der höher steht, einen entsprechenden Vorteil hat. In diesem Fall existiert nur ein Bonus von *+1 Würfel* zwar genau für denjenigen, der mindestens um die Hälfte der Körperlänge des Gegners höher steht.
-Dabei gilt, dass die Kontrahenten etwa gleich groß sein sollten.
-Der SL kann bei "ausgeglichenen" Größenunterschieden diese Regel weglassen.
+
+Ein Angreifer erhält einen Bonus von *+1 Würfel zum Erfolg*, wenn er mindestens um die Hälfte der Körperlänge des Gegners höher steht.
+
+Die Kontrahenten sollten gleich groß sein, dies ist jedoch von den Regeln nicht erzwungen.
+Der SL kann bei extremen <<ref_battle_modifiers_size,Größenunterschieden>> diese Regel weglassen.
 
 [[ref_battle_modifiers_size]]
 ==== Größenunterschiede
 
 Nicht nur die Völker unterscheiden sich stark in der Größe, sondern auch die Kämpfe zwischen Charakteren und Monstern.
 Drachen und viele Dämonen sind verdammt groß.
-Diese Größenunterschiede werden im System von Far Ages in den Größenkategorien dargestellt, in die jede Rasse eingeordnet wird.
+Diese Größenunterschiede werden im System von Far Ages in den xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] dargestellt, in die jede Rasse eingeordnet wird.
 
-Im Nahkampf, Fernkampf und Unbewaffnetem Kampf muss ein Angreifer einen Modifikator auf seine Angriffswürfe hinnehmen, der sich aus der Differenz zwischen seiner Größenkategorie und der seines Gegners errechnet.
+Ein Angreifer erhält einen Modifikator auf die Würfe zum Erfolg auf seine Angriffsproben, der sich aus der Differenz zwischen seiner Größenkategorie und der seines Gegners errechnet.
 Ist der Gegner kleiner, so wird die Differenz als Malus auf die Würfe zum Erfolg gewertet, ist der Gegner größer, so wird sie als Bonus auf die Würfe zum Erfolg gewertet.
 Insgesamt kann der Angriffswurf um maximal *-4 bis +4* modifiziert werden.
 
@@ -537,44 +611,16 @@ Ein Zwerg (Größenkategorie 4) kämpft gegen einen Lindwurm (Größenkategorie 
 Der Zwerg erhält gegen den Lindwurm einen Bonus von +3 auf die Würfe zum Erfolg auf seine Angriffsprobe, während der Lindwurm einen Malus von -3 auf seine Angriffsprobe erhält.
 ====
 
-[[ref_battle_modifiers_weapondifference]]
-==== Waffenunterschiede
-
-Im Nahkampf werden verschiedene Waffengattungen durch Modifikatoren aufgrund der Größe der verwendeten Waffen dargestellt.
-Diese Regel wirkt nur, wenn es wahrhaftig zu einem Vergleich der Waffen kommt, also wenn die Verteidigung mit Talenten wie Parade und Schildverteidigung geführt wird.
-
-Da Schilde auch eine Größe haben, kommt die Regel bei dem Talent Schildverteidigung zum Tragen.
-Bei Talenten wie Hieb Aufweichen ist das nicht nötig.
-
-Im Dokument Charaktererschaffung wurde bereits auf die Größen von Waffen eingegangen.
-Diese Größen beschreiben, welche Waffen ein Charakter in den Händen halten kann.
-
-Wir gehen der Einfachheit halber davon aus, dass eine große Waffe einem Angreifer bzw. Verteidiger einen Vorteil bietet, allerdings auch erst ab einer gewissen Größe.
-
-Es gilt daher, derjenige, dessen Waffe 2 oder mehr Punkte größer ist, als die Waffe seines Opponenten, so erhält er einen Bonus von *+2 auf seine Würfelanzahl*, sowohl für Angriffs-, als auch für Verteidigungswürfe, die mit dieser Waffe geführt werden.
-
-Ist die Waffe 4 oder mehr Punkte größer, so beträgt der Bonus *+4*.
-
-Waffenunterschiede kommen nur zum Tragen, wenn beide Kontrahenten Waffen einsetzen.
-
-[[ref_battle_modifiers_diagonal]]
-==== Diagonal schlagen
-
-Die grau unterlegten Kacheln der Abbildung zeigen die Positionen an, auf die ein Charakter diagonal schlagen kann. Gegner, die auf diesen Feldern stehen, sind schwerer zu attackieren.
-
-Alle Waffen erhalten einen Malus von *-1 auf die Würfelanzahl* der Angriffsprobe, wenn sie nicht explizit für das xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_meleeweapons_diagonal[diagonale Schlagen geeignet] sind.
-
 [[ref_battle_modifiers_back]]
 ==== Angriffe auf die Seite und den Rücken
 
 Angriffe auf die Seiten und den Rücken eines Charakters sind besonders gefährlich, denn er kann sich gegen diese nur schwer verteidigen.
 In diesem Fall erhalten die Angreifer zwar keinen Bonus auf ihre Angriffswürfe, jedoch bekommt der Verteidiger Mali auf seine Verteidigungswürfe.
 
-Angriffe über die Seiten (hellgraue Kacheln) können normal verteidigt werden, jedoch muss der angegriffene Charakter einen Malus von *-1 auf die Würfe zum Erfolg* für seine Verteidigungswürfe hinnehmen.
+Angriffe über die Seiten (hellgraue Kacheln) können normal verteidigt werden, jedoch muss der angegriffene Charakter einen Malus von *-1 auf die Würfel zum Erfolg* für seine Verteidigungswürfe hinnehmen.
 
-Angriffe von den dunkelgrauen Kacheln erfolgen über den Rücken oder auch aus dem *Toten Winkel*.
-Dies ist besonders gefährlich, dann in diesem Fall stehen dem Charakter keine regulären Verteidigungswürfe zu.
-Stattdessen kann er nur eine Reflex-Probe gegen die Anzahl der Erfolge des Angreifers würfeln.
+Angriffe über den Rücken (dunkelgrauen Kacheln) oder auch aus dem *Toten Winkel* sind besonders gefährlich, denn dann stehen dem Charakter keine regulären Verteidigungswürfe oder <<ref_battle_reactions,Reaktionen>> zu.
+Stattdessen kann er nur einen xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungwurf] gegen die Anzahl der Erfolge des Angreifers würfeln.
 Erreicht er mindestens gleich viele Erfolge, so wird der Schaden, der durch diesen Angriff vor Abzug der Rüstung und Schadensresistenzen verursacht wird, halbiert.
 Diese Regel stellt eine mögliche, glückliche, vielleicht auch instinktive Bewegung für einen Charakter dar, der von hinten angegriffen wird.
 
@@ -589,10 +635,11 @@ Dadurch erleidet er nur 5 Schadenspunkte.
 [[ref_battle_modifiers_2weapons]]
 ==== Kampf mit zwei Waffen
 
-Ein Charakter kann auch mit zwei Nahkampfwaffen in den Kampf ziehen, um eine weitere Attacke durchführen zu können.
-Die Waffe, die der Charakter mit der Haupthand führt, nennt man Hauptwaffe.
-Passend dazu ist die Waffe in der Zweithand die Zweitwaffe.
-Grundsätzlich würfelt der Charakter auf das Talents Nahkampfwaffen für die Anwendung des Kampfs mit zwei Waffen.
+Ein Charakter kann auch mit zwei Nahkampfwaffen in den Kampf ziehen, um eine weitere Attacke (mit nur einer <<ref_battle_actions,Aktion>>) durchführen zu können.
+Die Waffe, die der Charakter mit der xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories_primary_hand[Primärhand] führt, nennt man Haupt- oder Primärwaffe.
+Passend dazu ist die Waffe in der xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories_secondary_hand[Sekundärhand] die Zweit- oder Sekundärwaffe.
+
+Grundsätzlich würfelt der Charakter auf das Talent xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] für die Anwendung des Kampfs mit zwei Waffen.
 
 Zu Beginn einer Attacke muss der Charakter ansagen, ob er seine beiden Waffen einsetzen will oder nicht.
 Tut er dies nicht, so folgt er nicht den Regeln für den Zweiwaffenkampf, erhält damit keine weiteren Nachteile, aber auch nicht den Vorteil eines weiteren Angriffes.
@@ -603,96 +650,56 @@ Beide Attacken können regulär verteidigt werden.
 
 Die Attacke mit der Hauptwaffe erhält einen Malus von *-3 auf die Würfelanzahl*, die Attacke mit der Zweitwaffe *-6*.
 
-[[ref_battle_modifiers_offhand]]
-==== Zu große Waffen in der Zweithand
+[[ref_battle_modifiers_oversized_items]]
+==== Zu große Ausrüstungsgegenstände
 
-Ein Charakter kann auch in seiner Zweithand Waffen der Größe seiner Haupthand tragen.
+Ein Charakter kann versuchen, größere Gegenstände zu verwenden, als es seine xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] zulässt.
 
-Trägt er also eine größere Waffe, so erhält er einen Malus von *-1 auf die Würfe zum Erfolg*, wenn er mit dieser Hand einen Angriff oder eine Parade ausführt.
-Damit wird simuliert, dass ein Charakter seine Waffe in die „falsche“ Hand bekommt.
-Kämpft er mit zwei Waffen, so sind die Mali kumulativ.
+Trägt mindestens einen Gegenstand, der zu groß für ihn ist, muss er einen Malus von *-1 auf die Würfe zum Erfolg* für alle Proben hinnehmen, die er mit diesem Gegnstand durchführen möchte.
+Dieser Malus ist kumulativ für jeden Gegenstand, den der Charakter führt.
+
+Der Malus ist auch kumulativ, wenn er mit <<ref_battle_modifiers_2weapons,zwei Waffen>> kämpft und in seiner xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories_secondary_hand[Zweithand] eine zu große Waffe führt.
 
 [[ref_battle_modifiers_reach]]
 ==== Waffen mit erhöhter Nahkampfreichweite
 
 Manche Waffen, wie Speere, sind besonders lang, so dass sie den Kontrahenten auf Abstand halten können, bzw. diese angreifen können.
 Mit solchen Waffen kann ein Charakter Gegner angreifen, die in gerader Linie vor ihm stehen und 1,50 Meter (eine Kachel) entfernt stehen.
-Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine <<ref_battle_rules_melee_and_unarmed_zoneofcontroll, Bedrohungszone>> hinaus gehen würde.
+Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> hinaus gehen würde.
 
-Allerdings können <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>> nur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
+Allerdings können <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriffe>> nur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
 
-Um diese Eigenschaft nutzen zu können, muss die Waffen dafür xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_meleeweapons_range[geeignet] sein.
+Um diese Eigenschaft nutzen zu können, muss die Waffen dafür <<ref_battle_items_weapons_tag_reach,geeignet>> sein.
 
 [[ref_battle_modifiers_missingweapon]]
 ==== Der Kampf zwischen einem Gegner mit Waffen und einem Unbewaffneten
 
 Diese Situation ist meistens für den Unbewaffneten von Nachteil.
 Dieser erhält für seine Angriffswürfe einen Malus von *-2 Würfe zum Erfolg*.
-Dies gilt, wenn der Unbewaffnete das Talent Unbewaffneter Kampf einsetzt.
-Außerdem löst der Angriff des Unbewaffneten einen Gelegenheitsangriff aus.
-
-[[ref_battle_modifiers_melee_summary]]
-==== Zusammenfassung
-
-Die folgende Tabelle fasst die Boni und Mali zusammen:
-
-[cols=",,",options="header"]
-|===
-|Modifikation |Situation |Modifikator wird angewandt auf:
-
-|-1 bis -3 |Ziel hat bis zu 25% bis 75% Deckung |Angriffswürfe, Würfe zum Erfolg
-
-|-4 oder mehr |Ziel hat 75%+ Deckung |Angriffswürfe, Würfe zum Erfolg
-
-|-1 bis -3 |Dunkelheit |Angriffswürfe, Würfe zum Erfolg
-
-|-4 oder N/A |Absolute Dunkelheit |Angriffswürfe, Würfe zum Erfolg
-
-|+1 bis +2 |Höhenunterschiede |Angriffswürfe, Würfelanzahl
-
-|-4 bis +4 |Größenunterschiede |Angriffswürfe, Würfe zum Erfolg
-
-|+2 oder +4 |Waffenunterschiede |Angriffs- und Verteidigungswürfe^1^, Würfelanzahl
-
-|-1 |Diagonal schlagen |Angriffswürfe, Würfelanzahl
-
-|-1 |Angriffe auf die Seite |Verteidigungswürfe^1^, Würfe zum Erfolg
-
-|keine |Angriffe auf den Rücken |Reflex-Probe für Halbierung des Schadens
-
-|-3/-6 |Ungeübter Kampf mit 2 Waffen (Haupthand / Zweithand)
-|Angriffswürfe^1^, Würfelanzahl
-
-|-1 |Tragen einer zu großen Waffe in der Zweithand |Angriffs- und Verteidigungswürfe^1^, Würfe zum Erfolg
-
-|-2 |Falsche Verwendung für Waffen mit erhöhter Nahkampfreichweite
-|Angriffswürfe^1^, Würfelanzahl
-
-|-2 |Unbewaffneter Angriff auf einen Bewaffneten |Angriffswürfe^1^,
-Würfe zum Erfolg
-|===
-
-^1^Diese Modifikationen gelten nur im Nahkampf/Unbewaffnetem Kampf.
+Dies gilt, wenn der Unbewaffnete das Talent xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] einsetzt.
+Außerdem löst der Angriff des Unbewaffneten einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>> aus.
 
 [[ref_battle_rules_ranged_combat]]
-== Fernkampf
+== Projektilwaffen
 
-Als Fernkampfwaffen zählen Projektilwaffen wie Bögen und Armbrüste, sowie Wurfwaffen wie Wurfbeile.
+Zu Projektilwaffen zählen beispielsweise Bögen und Armbrüste.
 Einige technomantische Waffen zählen auch als Fernwaffen und fallen in diese Kategorie.
 Als Richtlinie gilt, dass jede Waffe, die in der Ausrüstungsliste mit einer Reichweitenangabe versehen ist, eine Fernkampfwaffe ist.
+Grundsätzlich werden Angriffsproben mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] gewürfelt.
+Eventuelle technomantische Geräte, die wie Projektilwaffen gehandelt werden, können auch mit xref:core_rules_talents_base.adoc#ref_talents_use_technomantic_device[Technomantisches Gerät Benutzen] verwendet werden.
 
-Alle diese Waffenarten werden als Einfache Probe gewürfelt, bis auf die Ausnahmen, die durch Talente oder Fähigkeiten explizit erwähnt werden.
+Alle diese Waffenarten werden als xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe] gewürfelt, bis auf die Ausnahmen, die durch Talente oder Fähigkeiten explizit erwähnt werden.
 Die folgenden Regeln gelten für die Angriffsprobe in jedem Fall.
 
 [[ref_battle_rules_ranged_combat_baserange]]
-Die eben erwähnten Angaben an Reichweiten besteht aus einer Zahl.
+Die eben erwähnten Angabe zur Reichweite besteht aus einer Zahl, zum Beispiel 25,00 Meter.
 Diese Zahl beschreibt die sogenannte *Grundreichweite* in Metern.
 
-Innerhalb dieser Grundreichweite kann jedes Ziel, welches für den Schützen sichtbar ist, beschossen werden, ohne, dass durch die Entfernung Modifikatoren eintreten.
-Der Schütze kann aber versuchen, auch weiter entfernte Ziele zu treffen.
+Innerhalb dieser Grundreichweite kann jedes Ziel, welches für den Schützen sichtbar ist, beschossen werden.
+Der Schütze kann allerdings versuchen, auch weiter entfernte Ziele zu treffen.
 Jedes Mal, wenn die Grundreichweite um ein Vielfaches übertroffen wird, ist die Angriffsprobe schwerer.
-Diese Abschnitte werden im übrigen *Inkrement* genannt.
-Die Grundreichweite ist kein Inkrement.
+Diese Abschnitte werden *Inkrement* genannt.
+Die Auswirkungen von Inkrementen kann im nachfolgenden <<ref_battle_modifiers_ranged_increment,Kapitel>> nachgelesen werden.
 
 .Grundreichweite
 ====
@@ -701,14 +708,14 @@ Alle sichtbaren und gedeckten Ziele innerhalb eines Radius von 25 Metern um den 
 Ziele in Reichweite von 26 bis 50 Metern sind schwerer zu treffen, Ziele innerhalb von 51 bis 75 Meter noch schwerer und so weiter.
 ====
 
-Welche Modifikatoren bestehen und welche weiteren Einschränkungen für Fernkampfangriffe besteht, erklären die folgenden Abschnitte.
-
 [[ref_battle_rules_ranged_combat_minimalsuccesses]]
 === Mindestanzahl von Erfolgen
 
 Auch wenn Fernkampf im Allgemeinen durch eine einfache Probe simuliert wird, so benötigt jede Fernkampfprobe eine Mindestanzahl von Erfolgen, um erfolgreich zu sein.
 Diese Mindestanzahl ist von der Reichweite des Schusses oder Wurfes abhängig.
-Eine Fernkampfprobe, die unter dieser Mindestanzahl bleibt, gilt als Misserfolg: das Projektil trifft kein Ziel.
+
+Eine Fernkampfprobe, die unter dieser Mindestanzahl bleibt, gilt als xref:core_rules_d10_system.adoc#ref_core_failurerole[Misserfolg].
+Das Projektil trifft kein Ziel.
 
 Die Mindestanzahl ergibt sich aus der Distanz vom Schützen zum Ziel.
 Steht das Ziel innerhalb der Grundreichweite, benötigt der Schütze mindestens 2 Erfolge.
@@ -728,26 +735,27 @@ Insgesamt muss der Schütze daher dreimal die Grundreichweite überwinden, benö
 Der dritte Gegner steht sehr weit entfernt.
 Die Distanz beträgt ganze 120 Meter.
 Das sind insgesamt vier Inkremente.
-Damit ergeben sich 2+4*2 = 10 Erfolge, die der Schütze mindestens erreichen muss.
+Damit ergeben sich 2+2*4 = 10 Erfolge, die der Schütze mindestens erreichen muss.
 ====
 
-Eine Fernangriffsprobe, die diese Mindestanzahl erreicht oder übertrifft, gilt als erfolgreiche Probe und die Schadensprobe wird wie gehabt gewürfelt.
-Erreicht eine Fernangriffsprobe hingegen diese Mindestanzahl nicht, so gilt die Probe als Misserfolg.
+Wird die nötige Anzahl der Mindestanzahl der Erfolge erreicht, gilt die Probe als <<ref_battle_damage_hit[Treffer].
 
 [[ref_battle_modifiers_ranged]]
 === Fernkampfmodifikatoren
 
 Für die Angriffswürfe im Fernkampf gelten folgende Modifikatoren wie im Nahkampf:
 
-* <<ref_battle_modifiers_coverage, Deckung>>
-* <<ref_battle_modifiers_darkness, Dunkelheit>>
-* <<ref_battle_modifiers_height, Höhenunterschiede>>
-* <<ref_battle_modifiers_size, Größenunterschiede>>
+* <<ref_battle_modifiers_coverage,Deckung>>
+* <<ref_battle_modifiers_darkness,Dunkelheit>>
+* <<ref_battle_modifiers_height,Höhenunterschiede>>
+* <<ref_battle_modifiers_size,Größenunterschiede>>
+
+Weitere, spezifische Modifikatoren werden in den nachfolgenden Kapiteln vorgestellt.
 
 [[ref_battle_modifiers_ranged_increment]]
 ==== Reichweite
 
-Pro Inkrement erhält der Schütze einen Malus von *-1 Würfel* auf seine Angriffsprobe.
+Pro Inkrement erhält der Schütze einen Malus von *-1 Würfel zum Erfolg* auf seine Angriffsprobe.
 
 .Reichweite
 ====
@@ -763,78 +771,49 @@ Ziel 3 steht vier Inkremente entfernt. Also beträgt der Malus hier -4 Würfel.
 [[ref_battle_modifiers_ranged_fire_in_crowd]]
 ==== Kampfgetümmel
 
-Befindet sich ein Ziel im Kampf mit 2 oder mehr Opponenten, so muss der Schütze einen Malus von *-2 auf die Würfe zum Erfolg* auf seine Angriffsprobe hinnehmen, da er das Ziel aufgrund der Kampfhandlungen nicht genau anvisieren kann.
-Bei einem Misserfolg würfelt der SL einen W10.
-Bei einem Ergebnis von 10-Anzahl der am Kampf Beteiligten oder mehr hat der Schuss einen der anderen Kämpfer getroffen.
-Jeder Kämpfer hat dieselbe Chance von dem Geschoss getroffen worden zu sein.
-Würfle dann die Schadenswürfe wie gehabt.
-
-Charaktere, die sich in besonders schwerem Kampfgetümmel befinden, z.B. 8 oder mehr Kampfteilnehmer in unmittelbarer Nähe, besitzen Starke Deckung (-3 auf die Würfe zum Erfolg).
+Befindet sich ein Ziel im Kampf, ist somit im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden], so muss der Schütze einen Malus von *-2 auf die Würfe zum Erfolg* auf seine Angriffsprobe hinnehmen, da er das Ziel aufgrund der Kampfhandlungen nicht genau anvisieren kann.
 
 [[ref_battle_modifiers_ranged_moving_and_firing]]
 ==== Nicht-Stationäres Feuern
 
-Ein Charakter mit einer Fernkampfwaffe erhält einen Malus von *-1 auf die Würfelanzahl* bei der Angriffsprobe, wenn er das Kampfmanöver Rennen in der vorherigen Kampfphase verwendet hat.
-Der Malus beträgt *-2 Würfel*, wenn er vorher das Kampfmanöver Sprinten eingesetzt hat.
+Ein Charakter erhält einen Malus von *-1 auf die Würfelanzahl* bei der Angriffsprobe, wenn er ein beliebiges <<ref_battle_movefightaction,Manöver>> in seiner Kampfphase eingesetzt hat, bei dem seine xref:core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] verwendet wurde.
+
+Dies gilt auch, wenn der Charakter auf einem Reittier sitzt und dieses ein entsprechendes Manöver einsetzt.
 
 [[ref_battle_modifiers_ranged_moving_targets]]
 ==== Feuern auf Nicht-Stationäre Ziele
 
 Feuert ein Charakter eine Fernkampfwaffe auf ein Ziel ab, das sich in derselben Kampfphase bewegt, so erhält er abhängig von der Geschwindigkeit des Ziels einen Malus auf die Würfelanzahl für seine Angriffsprobe.
-Hat sich das Ziel mit dem Kampfmanöver Rennen fortbewegt, beträgt der Malus *-1 Würfel*, hat das Ziel Sprinten benutzt, beträgt der Malus *-2 Würfel*.
-
-[[ref_battle_modifiers_ranged_mounted]]
-==== Fernkampfwaffen auf dem Rücken eines Reittieres
-
-Ein Charakter kann vom Rücken eines Reittieres nur Fernkampfwaffen benutzen, die eine Größe von 4 oder weniger haben (Größe 5 für alle Charaktere, die in die Größenkategorie 6 fallen).
-Hat sich das Reittier bewegt, dann erhält er folgende Mali auf seine Würfelanzahl:
-
-* *-2 Würfel*, wenn das Tier das Kampfmanöver Rennen eingesetzt hat
-* *-4 Würfel*, wenn das Tier das Kampfmanöver Sprinten eingesetzt hat
+Hat sich das Ziel mit dem Kampfmanöver <<ref_battle_move_useBEW,Rennen>> fortbewegt, beträgt der Malus *-1 Würfel*, hat das Ziel <<ref_battle_complexactions_sprint,Sprinten>> benutzt, beträgt der Malus *-2 Würfel*.
 
 [[ref_battle_rules_throwingweapons]]
 == Wurfwaffen
 
-Typische Wurfwaffen wie Wurfäxte oder Wurfdolche werden wie Projekilwaffen behandelt, nur werden sie mit dem Talent Wurfwaffen abgehandelt.
+Wurfwaffen wie Wurfäxte oder Wurfdolche werden wie <<ref_battle_rules_ranged_combat,Projekilwaffen>> behandelt, jedoch werden sie mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] abgehandelt.
+Es gelten die im genannten Kapitel Regeln bezüglich <<ref_battle_rules_ranged_combat_baserange,Reichweiten und Inkrementen>>, <<ref_battle_rules_ranged_combat_minimalsuccesses,Mindestwürfe>> und alle <<ref_battle_modifiers_ranged,Modifikatoren>>.
 
 [[ref_battle_rules_throwingweapons_aoe]]
-=== Wurfwaffen mit Flächenschaden
+=== Wurfwaffen mit Flächenwirkung
 
-Einige Wurfwaffen verursachen Flächenschaden, in dem sie beim Einschlag beispielsweise explodieren.
-Der Flächenschaden ist dabei in einem *Radius* in Metern angegeben.
+Einige Wurfwaffen verursacht einen Effekt in der Fläche, beispielsweise explodieren sie beim Einschlag.
+Eine solche Fläche wird in einem *Radius* in Metern angegeben.
 
-Stellt man den Kampf mit Kachelplänen dar, dann wählt man sich eine Kachel als Zielort aus.
-Alle benachbarten Kacheln des Zielorts sind betroffen, sowohl die, die direkt angrenzen, als auch die, die diagonal angrenzen.
-Dies entspricht einem Wirkungsradius von 1,50 Metern, sowie für jede volle 1,50 ein weiterer Ring aus Kacheln.
-Die folgende Abbildung zeigt beispielhaft einen Radius von 1,50 Metern (dunkelgrau) und von 3,00 Metern (hellgrau) um einen Einschlagpunkt (schwarz).
-
-Es ist grundsätzlich ein Erfolg nötig, um den Zielpunkt zu treffen, wobei die Angriffsprobe unter den vorgestellten Regeln für Fernkampfangriffe gewürfelt wird.
-
-Alle Wesen im Wirkungsradius müssen eine Reflex-Probe ablegen.
-Die nötige Anzahl an Erfolgen ist die Anzahl an Erfolgen, die für die Angriffsprobe mit der Wurfwaffe gewürfelt wurde.
-
-Alle, die diese Reflex-Probe nicht bestanden haben, müssen den Schaden dann hinnehmen und zwar nach den üblichen Regeln.
-Eine bestandene Probe bedeutet, dass entweder der Schaden komplett abgewendet wurde oder der Schaden (im Falle starker Angriffe) nur halbiert wurde.
-Welcher Fall gilt, findet man in der jeweiligen Beschreibung der Waffen.
-Steht dies nicht explizit dabei, dann gilt im Allgemeinen, dass der Schaden komplett abgewendet wird.
-
+Um den Zielpunkt zu treffen, muss eine Angriffsprobe gegen den <<ref_battle_rules_ranged_combat_minimalsuccesses,Mindestwurf>> im Fernkampf erwürfelt werden.
 Ein Misserfolg bedeutet, dass das Wurfgeschoss springt.
 Der SL wirft einen W8 und bestimmt damit eine Zufallsrichtung, in die das Geschoss springt:
+Das Geschoss springt dann (1W4+ST-Stufe)*1,50 Meter weiter.
 
-Das Geschoss springt dann (1W4+ST-Stufe)*1,50 Meter (also 1W4+ ST-Stufe Kacheln) weiter und explodiert dort.
+Alle Kreaturen im Wirkungsradius sind von dem Flächeneffekt <<ref_battle_damage_hit,betroffen>>.
 
 [[ref_battle_rules_throwingweapons_cone]]
 === Kegelförmige Waffen
 
 Manche Kreaturen, Zaubersprüche und Waffen haben einen sogenannten kegelförmigen Flächenschaden.
-Wie bei einem Radius ist dieser Kegel mit einer Reichweitenangabe versehen.
+Wie bei einem Radius ist dieser Kegel mit der Angabe einer Reichweite versehen.
 Ein Kegel beginnt an der vollen Front der Basis der Kreatur.
-Pro 1,50 Meter erhöht sich der Kegel in gerader Linie von seinem Ursprung um jeweils eine Reihe von Feldern.
+Pro 1,50 Meter erhöht sich der Kegel in gerader Linie von seinem Ursprung um jeweils 1,50 Meter seitweits.
 
-Pro Reihe erhält der Kegel an seiner Seite jeweils ein weiteres Feld.
 Die folgende Zeichnung illustriert das Prinzip für einen Kegel von 4,50 Metern.
-
-Wie bei einer Waffe mit Flächenschaden kann man auch hier mit einer Reflex-Probe ausweichen, um den Schaden abzuwenden oder zu halbieren.
 
 [[ref_battle_mounted_combat]]
 == Berittener Kampf
@@ -844,28 +823,28 @@ Sein Reittier gibt ihm eine verbesserte Position gegenüber Angriffen und er hat
 
 Folgende Vor- und Nachteile hat ein Berittener:
 
-* Gegen Nahkampfattacken hat gilt er als ein Ziel, das Deckung hat.
-Pro Größenkategorie, die das Reittier größer ist als der Charakter, erhält dieser 25% Deckung, bis zu einem Maximum von 75%.
-* Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende aus, so gelten Boni für Höhenunterschiede.
+* Gegen Nahkampfattacken hat gilt er als ein Ziel, das <<ref_battle_modifiers_coverage,Deckung>> hat.
+Pro xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie], die das Reittier größer ist als der Charakter, erhält dieser 25% Deckung, bis zu einem Maximum von 75%.
+* Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende aus, so gelten Boni für <<ref_battle_modifiers_height,Höhenunterschiede>>.
 Dabei wird die GK des Reittieres zur Ermittlung herangezogen.
 Ist das Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann muss der Charakter eine Nahkampfwaffe tragen, die eine erhöhte Nahkampfreichweite hat.
 Ist das Reittier noch größer, kann der Reiter keine Nahkampfangriffe ausführen.
-* Der Reiter gilt als zusätzliche Trefferzone für das Reittier.
+* Der Reiter gilt als zusätzliche <<ref_battle_hitzones,Trefferzone>> für das Reittier.
 Fernangriffe werden auf das Reittier wie gewohnt ausgeführt.
-* Fern- wie Nahkampfangriffe können durch das Kampfmanöver Gezielter Schuss bzw. Schlag den Reiter oder das Reittier angreifen.
-* Wird das Reittier durch einen Angriff niedergeschlagen, so fällt der Reiter mit dem Reittier.
+* Fern- wie Nahkampfangriffe können durch <<ref_battle_actions_attack_aimedattack,gezielter Schuss oder Schlag>> den Reiter oder das Reittier angreifen.
+* Wird das Reittier durch einen Angriff <<ref_battle_knockdown,niedergeschlagen>>, so fällt der Reiter mit dem Reittier.
 Er erhält dadurch Fallschaden nach den üblichen Regeln, jedoch mindestens 1W6.
 Dasselbe gilt, wenn der Reiter selbst niedergeschlagen wird.
 * Das Reittier des Charakters muss auf den Kampf geschult sein, um selbstständig Gegner zu attackieren und um das Kampfgetümmel mühelos ertragen.
-Ist das Tier nicht geschult, so muss der Charakter eine Reiten-Probe ablegen.
+Ist das Tier nicht geschult, so muss der Charakter eine xref:core_rules_talents_base.adoc#ref_talents_riding[Reiten-Probe] ablegen.
 Die Anzahl der Erfolge ergibt sich aus der Anzahl der Kämpfenden um Umkreis von 3 Metern um den Charakter, Freunde wie Feinde.
-Misslingt die Probe, so verliert der Charakter seine Aktion für diese Kampfrunde.
+Misslingt die Probe, so verliert der Charakter seine <<ref_battle_actions,Aktion>> für diese Kampfphase.
 Gelingt sie, hat er das Pferd unter Kontrolle und kann normal agieren.
-* Das Reittier verwendet die Initiative des Reiters.
+* Das Reittier verwendet die <<ref_battle_battlephase_initiative,Initiative>> des Reiters.
 Seine Aktionen werden daher zum Zeitpunkt der Kampfphase durchgeführt, wenn der Reiter am Zuge ist.
 Sein eigener xref:./core_rules_charactercreation.adoc#ref_secondary_inibonus[INI]-Wert zählt in diesem Fall nicht.
 
-[[ref_battle_mounted_spellcasting]]
+[[ref_battle_rules_spellcasting]]
 == Spruchzauberei
 
 Die Zauberei ist ein komplexes und umfassendes Thema, dessen Gesamtheit sich im Dokument link:core_rules_magic_base.adoc[Magie] befindet.
@@ -875,39 +854,38 @@ Die Zauberei ist ein komplexes und umfassendes Thema, dessen Gesamtheit sich im 
 
 In diesem Kapitel werden zusätzliche Regeln für die alle Manöver vorgestellt, bei denen ein Charakter sich bewegt.
 Diese gelten insbesondere für <<ref_battle_move_useBEW>> und <<ref_battle_complexactions_sprint>>.
+Neben diesen beiden Manövern gelten diese Regeln auch für alle anderen Aktionen, in denen ein Charakter seine xref:core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] einsetzt.
 
 [[ref_battle_rules_movement_occupiedspaces]]
 === Besetzte Gebiete
-Ein Gebiet gilt als *besetzt*, sobald eine beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem Bewusstsein ist.
+Ein Gebiet gilt als *besetzt*, sobald eine beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem Bewusstsein ist, diese also <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,bedrohen>> können.
 xref:core_rules_d10_system.adoc#ref_core_condition_dazed[kampfunfähige] oder xref:core_rules_d10_system.adoc#ref_core_condition_unconscious[ohnmächtige] Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
 
-Ein Charakter darf ein oder mehrere Kacheln nicht durchqueren oder betreten, wenn ein feindlich gesonnenes Wesen diese besetzt.
+Ein Charakter darf keinen Raum durchqueren oder betreten, wenn ein feindlich gesonnenes Wesen diesen besetzt.
 Freundlich gesonnene Wesen können den Charakter vorbeilassen, jedoch muss dieser pro Feld, dass auf diese Weise freigegeben wird, die doppelte BEW investieren.
-Kann er in einer Kampfphase die belegten Felder nicht durchqueren, endet seine Bewegung direkt vor der jeweiligen Kreatur.
+Kann er in einer Kampfphase den besetzen Raum nicht vollständig durchqueren, endet seine Bewegung direkt vor der jeweiligen Kreatur.
 
-Kleine Kreaturen der Größenkategorie 1 oder 2 nehmen zwar ein Feld ein, können es jedoch nicht besetzen.
-Dazu sind sie zu klein.
+Kleine Kreaturen der xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 1 und 2 nehmen zwar ein Feld ein, können es jedoch nicht besetzen.
 Sie können auch nur Kreaturen angreifen, die sich auf ihrem Feld befinden.
-Kreaturen dieser Größe dürfen auch ohne Einschränkungen besetzte Felder durchqueren.
-Sie provozieren jedoch wie gehabt <<ref_battle_rules_attack_of_opportunity, Gelegenheitsangriffe>>.
+Kreaturen dieser Größe dürfen auch ohne Einschränkungen ihrer Bewegung besetzte Felder durchqueren.
+Sie provozieren weiterhin <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriffe>>.
 
-Wenn der SL es zulässt, können auch andere Charaktere von größeren Kreaturen besetzte Felder, durchqueren.
-Diese Kreaturen müssen mindestens zwei Größenkategorien größer sein, als der Charakter.
-Er provoziert dabei jedoch wie gewohnt Gelegenheitsangriffe.
+Im Ermessen des SLs können von größeren Kreaturen besetzte Räume durch deutlich kleinere Kreaturen durchquert werden.
+Als Daumenregeln gilt, dass die Differenz in den Größenkategorien mindestens 2 betragen muss.
 
 [[ref_battle_rules_movement_difficultterrian]]
 === Schwieriges Gelände
-Bewegungen können durch oder über schwieriges Gelände führen.
+Bewegungen können durch oder über *schwieriges Gelände* führen.
 Als allgemeine Regel gilt, dass jedes Gelände, durch das ein Charakter sich nicht ohne Anstrengung oder Vorsicht bewegen kann, als schwieriges Gelände zählt.
 Das beinhaltet beispielsweise einmalige Hindernisse wie niedrige Mauern, Gräben und vergleichbares, allerdings auch eine Geröllhalde, matschiger Lehm, Dornengestrüpp oder ein hüfthoher Wasserstrom.
 
 Charakter, die unterschiedliche Bewegungsoptionen haben, wie zum Beispiel ein Reittier oder die Fähigkeit zu Fliegen, können unterschiedlich betroffen sein durch schwieriges Gelände.
-Fliegende Charakter sind vielleicht von dichtem Unterholz betroffen, denn sie fliegen einfach drüber.
+Fliegende Charakter sind vielleicht von dichtem Unterholz betroffen, denn sie fliegen einfach darüber.
 Allerdings könnten Sie durch niedrig hängende, dichte Äste behindert werden, während Charaktere am Boden drunterher laufen können.
 
 Weiterhin gilt auch das Durchqueren eines niedrigen Ganges oder einer Tür als schwieriges Gelände.
 
-Solange ein Charakter sich im schwierigen Gelände bewegt, ist seine BEW-Rate halbiert.
+Ein Charakter kann durch schwieriges Gelände seine Manöver <<ref_battle_move_useBEW,Rennen>> oder <<ref_battle_complexactions_sprint,Springen>> nur mit halbierter xref:core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW-Rate] nutzen (abgerundet, minimal 1,50 Meter).
 
 [NOTE]
 Der SL kann nach Ermessen eine xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik]- oder xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]-Probe verlangen, um zu prüfen, ob Charaktere erfolgreich durch das Gelände navigieren können.
@@ -920,52 +898,41 @@ Der Einfachheit halber wird dieser Unterschied in den Regeln ignoriert.
 [[ref_battle_rules_movement_provoke_attack_of_opportunity]]
 === Provokation von Gelegenheitsangriffe
 
-Ein Charakter, der Bewegungen in die Bedrohungszone eines Gegners gelangt, provoziert genau dann einen Gelegenheitsangriff, wenn er sich innerhalb dieser weiterbewegt oder sich aus dieser hinausbewegt.
-Das Betreten zum Angriff einer Bedrohungszone führt zu keinem Gelegenheitsangriff.
-
-.Bewegung und Gelegenheitsangriffe
-====
-Ein Charakter bewegt sich von außerhalb der Bedrohungszone auf das Kästchen A.
-Dies provoziert keinen Gelegenheitsangriff, denn es ist eine Bewegung in die Bedrohungszone.
-Bewegt sich selber Charakter jedoch auf das Kästchen B, vielleicht um eine bessere Angriffsmöglichkeit zu haben, so provoziert dies einen Gelegenheitsangriff.
-====
-
-Würde sich der auf A stehende Charakter nicht nach B bewegen, sondern an einen Punkt außerhalb der Bedrohungszone, so provoziert er auch einen Gelegenheitsangriff, da er sich aus der Bedrohungszone herausbewegt.
+Ein Charakter in einer <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> eines Gegners, provoziert genau dann einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>, wenn er sich innerhalb dieser bewegt oder sich aus dieser hinausbewegt.
 
 [[ref_battle_rules_attack_of_opportunity]]
 == Gelegenheitsangriffe
 
 Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfphase, die durch unterschiedliche Situationen ausgelöst werden können.
-Sie finden außerhalb der <<ref_battle_battlephase_initiative, Initiative-Reihenfolge>> statt.
-Kampfteilnehmer, deren Gelegenheitsangriff zustehen, würfeln diese grundsätzlich mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf].
-Der Gelegenheitsangriff gilt als <<ref_battle_reactions, Reaktion>>.
+Sie finden außerhalb der <<ref_battle_battlephase_initiative,Initiative-Reihenfolge>> statt.
+Kampfteilnehmer, deren Gelegenheitsangriff zustehen, würfeln diese grundsätzlich mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf].
+Der Gelegenheitsangriff kosten den ausführenden Charakter eine <<ref_battle_reactions,Reaktion>>, auch wenn der
+Talenteinsatz üblicherweise eine <<ref_battle_actions_usetalent,Aktion>> ist.
 
-Jeder Charakter hat pro Kampfphase nur einen Gelegenheitsangriff frei.
-Provozieren daher mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese nicht mehr ausführen, wenn er seinen einen Gelegenheitsangriff bereits durchgeführt hat.
+Jeder Charakter kann pro Kampfphase nur soviele Gelegenheitsangriffe ausführen, wie er <<ref_battle_reactions,Reaktionen>> besitzt und willig ist, diese einzusetzen.
+Provozieren daher mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese nicht mehr ausführen, wenn keine Reaktionen mehr besitzt.
 
 Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das heißt, sie stehen in der Bedrohungszone des Charakters.
 
-Der Gelegenheitsangriff wird als xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe] gewürfelt, man kann sich im Allgemeinen nicht dagegen verteidigen.
+Der Gelegenheitsangriff gilt als <<ref_battle_actions_attack,Angriff>>.
 
 [[ref_battle_damage]]
 == Schaden
-Nach der Bestimmung der Erfolge einer Angriffsprobe folgt die Kalkulation des Schadens, auch <<ref_battle_damagerolls, Schadenswurf>> genannt.
+Nach der Bestimmung der Erfolge einer Angriffsprobe folgt die Kalkulation des Schadens, auch <<ref_battle_damagerolls,Schadenswurf>> genannt.
 
 Die Quelle des Schadens kann im Übrigen sehr vielfältig sein und beschränkt sich nicht nur auf den Kampf.
 Ein Charakter kann auch Schaden davon erhalten, dass er im Wald unvorsichtigerweise in eine Bärenfalle tappt.
-
-In Situationen außerhalb des Kampfes ist dann meistens ein Angriffswurf angegeben und wie Schadenswürfel zustande kommen.
-Die Regeln in diesem Kapitel treffen jedoch auch auf diese Situationen zu.
+Die Regeln in diesem Kapitel treffen auch auf diese Situationen zu.
 
 [[ref_battle_damage_hit]]
 === Treffer
 
-Eine erfolgreiche Angriffsprobe mit den Talenten Nahkampfwaffen, Projektilwaffen, Wurfwaffen, Unbewaffneter Kampf und deren ungeübter Anwendung führt zu einem *Treffer*.
+Eine erfolgreiche xref:core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] und deren ungeübter Anwendung führt zu einem *Treffer*.
 Fallen würfeln auch eine Angriffsprobe und erzeugen damit Treffer.
-Eine erfolgreiche Spruchzauberei-Probe kann auch Treffer erzeugen, wobei die möglichen Effekte vielseitiger sind.
+Eine erfolgreiche xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kann auch Treffer erzeugen, wenn dies in der Beschreibung des xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_cumulative_effects[Effekts] zu dem gezauberten Spruch beschrieben ist.
 
 Ein Treffer verursacht *Schaden*, der sich je nach Art des Treffers anders berechnet.
-Man nennt dies den <<ref_battle_damagerolls, Schadenswurf>>.
+Man nennt dies den <<ref_battle_damagerolls,Schadenswurf>>.
 
 [[ref_battle_damage_hit_automatic]]
 ==== Automatische Treffer
@@ -975,6 +942,7 @@ Automatische Treffer sind als solche immer explizit erwähnt.
 
 Typische Situationen sind beispielsweise Zaubersprüche, die ein xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_targets[Gebiet] betreffen.
 Diese sind erfolgreich, wenn die xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] die nötigen xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_successes[Erfolge] erreicht.
+Ebenso können Waffen mit einem Effekt in der <<ref_battle_rules_throwingweapons_aoe,Fläche>> oder <<ref_battle_rules_throwingweapons_cone,Kegel>> automatische Treffer verursachen.
 
 [[ref_battle_damagerolls]]
 === Schadenswürfe
@@ -989,34 +957,39 @@ Um den Schadenswurf zu bestimmen, sind folgende Komponenten zu beachten:
 Folgende Übersicht gibt Auskunft über die Berechnungen:
 
 * Nahkampfwaffen: *Stufe (Waffe) + AnzE + SB*
+* Nahkampfwaffen (<<ref_battle_items_weapons_tag_heavy,schwer>>): *Stufe (Waffe) *2 + AnzE + SB*
+* Nahkampfwaffen (<<ref_battle_actions_attack_mountedattack,Berittener Angriff>>): *Stufe (Waffe) *2 + AnzE + SB*
+* Nahkampfwaffen (<<ref_battle_actions_attack_mountedattack,Berittener Angriff>>, <<ref_battle_items_weapons_tag_heavy,schwer>>): *Stufe (Waffe) *4 + AnzE + SB*
 * Projektilwaffen: *Stufe (Waffe) + AnzE + SB*
-* Projektilwaffen (mechanisch): *AnzE + SB*
+* Projektilwaffen (<<ref_battle_items_weapons_tag_mechanical,mechanisch>>): *AnzE + SB*
 * Wurfwaffen: *Stufe (Waffe) + AnzE + SB*
 * Natürliche Waffen: *ST-Stufe (Charakter) + AnzE + SB*
 * Unbewaffneter Kampf: *ST-Stufe (Charakter) + AnzE + SB*
-* <<ref_battle_damage_hit_automatic, Automatischer Treffer>>: *SB*
+* <<ref_battle_damage_hit_automatic,Automatischer Treffer>>: *SB*
 
 Das Endergebnis wird die *Schadenspunkte* genannt.
+Üblicherweise werden Schadenspunkte von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] des Charakters abgezogen.
+Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalten von Schadenspunkten.
 
 .Schadenswürfe
 ====
 Kraag greift einen durch Nekromantie erschaffenen Untoten an.
 Bei seiner Angriffsprobe im Nahkampf erreicht er 5 Erfolge.
 Seine Attributsstufe in Stärke beträgt 4 und er führt ein Langschwert mit einem Schadensbonus von +1W6.
-Die Schadenspunkte durch den Treffen betragen daher: 5 + 4 + 1W6.
+Die Schadenspunkte durch diesen Treffer betragen daher: 5 + 4 + 1W6.
 ====
 
-Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent Unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für natürliche Waffen.
+Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für natürliche Waffen.
 Sofern nicht anders angegeben, wird die Attributsstufe für ST des Charakters verwendet, wenn mit natürlichen Waffen oder unbewaffneten Kampf ein Treffer erzielt wird.
 
 [[ref_battle_damagerolls_spells]]
 ==== Schadenswürfe für Zaubersprüche
 
-Offensive Zaubersprüche verursachen oft auch Schadenspunkte durch Schadenswürfe.
+Viele offensive Zaubersprüche verursachen auch Schadenspunkte durch Schadenswürfe.
 Im Allgemeinen gibt der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_effect[Effekt] direkt eine Würfelkombination vor.
 Dieser wird auch als *Magie-Schadensbonus* ausgewiesen.
 
-Die Berechnung der Schadenspunkte wird die folgt durchgeführt:
+Die Berechnung der Schadenspunkte wird wie folgt durchgeführt:
 
 * Spruchzauberei: *EN + AnzE + SB*
 
@@ -1050,22 +1023,17 @@ Erhöhen bestimmte Effekte oder Fähigkeiten den Schadenswurf durch einen festen
 
 [[ref_battle_armor]]
 === Rüstung
-Rüstungsschutz oder einfach Rüstung bieten entsprechende Rüstungen, die der Charakter am Körper trägt.
-Die Rüstungspunkte, die die Rüstung gewährt, werden vom Gesamtschaden abgezogen.
-Es gibt Situationen, in denen Rüstung keinen Schutz bietet.
 
-Schadenspunkte werden von den Trefferpunkten des Charakters abgezogen.
-Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalten von Schadenspunkten.
-Beide Aussagen sind äquivalent.
-
-Der SL kann jederzeit eine andere <<ref_battle_hitzones, Standardtrefferzone>> festlegen, wenn er der Ansicht ist, dass die Charaktere den Torso nicht treffen können.
-So kann ein ungleicher Kampf zwischen einem Mensch und einem Drachen als Standard-Trefferzone für den Menschen die Beine des Drachen haben.
+Jede Rüstung gewährt eine Anzahl an *Rüstungspunkten* für eine oder mehrere <<ref_battle_hitzones,Trefferzonen>>.
+Erhält ein Charakter einen <<ref_battle_damage_hit,Treffer>> auf einer der geschützten Trefferzonen, werden die ermittelten <<ref_battle_damagerolls,Schadenspunkte>> um die Rüstungspunkte reduziert.
+Dabei können Schadenspunkte auf 0 reduziert werden.
+Sofern nicht anders angegeben, gilt Rüstung für <<ref_battle_damage_type_primary_physical,physischen Schaden>>.
 
 [[ref_battle_naturalarmor]]
 === Natürliche Rüstung
-Manche Wesen besitzen natürliche Rüstung, z.B. durch besonders dicke Haut, Schuppen oder harte Panzer.
+Manche Wesen besitzen natürliche Rüstung, bespielsweise durch besonders dicke Haut, Schuppen oder harte Panzer.
 Natürliche Rüstung wird analog zu getragener Rüstung in Punkten gemessen und zählt unter Umständen nur für bestimmte Trefferzonen.
-Der durch natürliche Rüstung gewährte Schutz ist kumulativ zu getragener Rüstung und zählt, sofern nicht anders angeben, als Schutz vor physischen Schaden.
+Der durch natürliche Rüstung gewährte Schutz ist kumulativ zu getragener Rüstung und zählt, sofern nicht anders angeben, als Schutz vor <<ref_battle_damage_type_primary_physical,physischen Schaden>>.
 
 .Natürliche Rüstung
 ====
@@ -1078,8 +1046,8 @@ Damit beträgt sein gesamter Rüstungschutz für seinen Torso 3+5+3 = 11.
 [[ref_battle_criticalhit]]
 === Kritischer Treffer
 
-Jede Angriffsprobe, die einen Sehr Guten xref:core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Erfolgsgrad] erzielt, gilt als *Kritischer Treffer*.
-Die Anzahl der Würfel des Schadensbonus wird in diesem Fall verdoppelt.
+Jede Angriffsprobe, die einen sehr guten xref:core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Erfolgsgrad] erzielt, gilt als *kritischer Treffer*.
+Die Anzahl der Würfel des <<ref_battle_damagerolls,Schadensbonus>> wird in diesem Fall verdoppelt.
 
 .Kritischer Treffer
 ====
@@ -1090,33 +1058,23 @@ Erzielt Kraag mit seiner Waffe, die einen Schadensbonus von 2W6 besitzt, einen k
 === Tödlicher und nicht-tödlicher Schaden
 
 Weiterhin ist zwischen tödlichem und nicht-tödlichem Schaden zu unterscheiden.
-Im Endeffekt gelten für tödlichen Schaden alle bisherigen Regeln, jedoch mit folgenden Einschränkungen:
+Im Endeffekt gelten für nicht-tödlichen Schaden alle bisherigen Regeln, jedoch mit folgenden Einschränkungen:
 
-* nicht-tödlicher Schaden reduziert die TP eines Charakters maximal auf 0, aber niemals darunter.
-* nicht-tödlicher Schaden verursacht keine Verletzungen(siehe unten), aber kann zu Niederschlägen führen.
+* nicht-tödlicher Schaden reduziert die xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] eines Charakters maximal auf 0 und führt nicht in den Zustand xref:core_rules_d10_system.adoc#ref_base_rules_death_deathsdoor[dem Tode nahe].
+* nicht-tödlicher Schaden verursacht keine <<ref_battle_wounds,Verletzungen>>, aber kann zu <<ref_battle_knockdown,Niederschlägen>> führen.
 
 Grundsätzlich gilt, dass alles, egal ob Waffe, Zauberspruch, Zähne oder Klaue tödlichen Schaden verursacht.
-Nicht-tödlicher Schaden wird genau dann verursacht, wenn es explizit dabei steht.
+Nicht-tödlicher Schaden wird genau dann verursacht, wenn dieser explizit beschrieben ist.
 
 Für folgende Fälle wird jedoch automatisch nicht-tödlicher Schaden angenommen und nur im Falle einer Erwähnung tödlicher Schaden verursacht:
 
-* Im waffenlosen Kampf verursacht ein Charakter immer nicht-tödlichen Schaden, wenn keine natürlichen Waffen zum Einsatz kommen.
-* Illusionen verursachen immer nicht-tödlichen Schaden, außer der Zauberspruch erwähnt explizit tödlichen Schaden.
-
-Ein Charakter, der mit einer tödlichen Schaden austeilenden Nahkampfwaffe ausgestattet ist, kann mit der Durchführung der Aktionen für die aktuelle Kampfrunde festlegen, ob er nicht-tödlichen Schaden austeilen möchte.
-
-Mit einer Projektilwaffe oder einer Wurfwaffe gelten dieselben Regeln.
-
-Alle anderen Formen der Attacke, die tödlichen Schaden austeilen, können keinen nicht-tödlichen Schaden verursachen.
-
-Waffen, die nicht-tödlichen Schaden verursachen, können keinen tödlichen Schaden verursachen.
+* Im <<ref_talents_unarmed_combat,waffenlosen Kampf>> verursacht ein Charakter immer nicht-tödlichen Schaden, wenn keine natürlichen Waffen zum Einsatz kommen.
+* xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionen] verursachen immer nicht-tödlichen Schaden, außer der Zauberspruch erwähnt explizit tödlichen Schaden.
 
 [[ref_battle_damage_types]]
 === Schadensarten
 Bisher haben wir Schaden sehr allgemein gefasst und unterschiedliche Quellen des Schadens nicht bedacht.
-
 Ist eine spezielle Schadensart angegeben, dann hat der erlittene Schaden meistens eine zusätzliche Wirkung auf den betroffenen Charakter, die weiter unter beschrieben wird.
-
 Entweder besteht eine Schadensquelle aus einer Schadensart oder ist aus mehreren zusammengesetzt, zum Beispiel:
 
 - Breitschwert: 2W6 Schaden
@@ -1129,16 +1087,11 @@ Kraag greift diesmal mit einem verzauberten Breitschwert an.
 Bei seiner Angriffsprobe im Nahkampf erreicht er 5 Erfolge.
 Seine Attributsstufe in Stärke beträgt 4 und der Schadenbonus seiner Waffe ist 2W6 normaler Schaden und +2W4 Magieschaden.
 Er würfelt mit den 2W6 eine 6 und mit den 2W3 eine 3.
-Also verursacht seiner Angriff 5+4+6 = 15 Punkte normalen Schaden und 3 Magieschaden.
+Also verursacht sein Angriff 5+4+6 = 15 Punkte physischen Schaden und 3 Magieschaden.
 Trägt der Untote eine normale Rüstung mit 5 Punkten Rüstungsschutz, werden nur 15 – 5 = 10 normaler Schaden verursacht, plus 3 Magieschaden.
 
 Besitzt der Untote nun eine Schadensresistenz (Magie) oder eine magische Rüstung, die auch Magieschaden reduziert, würden auch die 3 Magieschadenspunkte entsprechend reduziert.
 ====
-
-Schadensresistenzen wirken sich immer nur auf die eine Schadensart aus.
-
-Folgende Schadensarten sind in den Grundregeln abgedeckt.
-Sofern nicht anders angegeben, reduzieren die Schadenspunkte die TP eines Charakters und normale Rüstung reduziert den Schaden.
 
 [[ref_battle_damage_types_primary]]
 ==== Primäre Schadensarten
@@ -1152,31 +1105,29 @@ Dies können Waffen sein, Fäuste eines Trolls oder eine Kanonenkugel sein.
 Ebenso zählt der harte Fußboden als Objekt, auf den der Charakter fällt, wenn er stolpert.
 
 Sofern nicht anders angegeben, gilt jeder Schaden als physischer Schaden.
-Physischer Schaden wird auch als Standard-Schadensart bezeichnet.
-Dieser Schaden wird von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] abgezogen und es schützt normale Rüstung.
+Dieser Schaden wird von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] abgezogen und es schützt <<ref_battle_armor,normale Rüstung>>.
 
 [[ref_battle_damage_type_primary_interlect]]
 ===== Intellekt
 Manche Angriffe sind subtil und verletzen nicht den Körper, sondern den Geist einer Kreatur.
-
 Dieser Schaden wird von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] einer Kreatur abgezogen.
-Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
+<<ref_battle_armor,Rüstung>> schützt nur, wenn dies explizit angegeben ist.
 
 [[ref_battle_damage_type_primary_mental]]
 ===== Mental
 Kosmisches Grauen bevölkert das Multiversum.
 Der mentale Schaden wird normal ausgewürfelt und dann von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP] abgezogen.
-
-Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
+<<ref_battle_armor,Rüstung>> schützt nur, wenn dies explizit angegeben ist.
 
 [[ref_battle_damage_types_elemental]]
 ==== Elementare Schadensarten
 Elementare Schadensarten basieren auf den vier grundlegenden Elementen des Multiversums.
 
 Die Schadensquellen können natürlicher wie übernatürlicher Natur sein.
-Der <<ref_battle_damage_type_elemental_fire, Feuer-Schaden>> eines link:../../compendiums/spells/spell_fireball.adoc[Feuerballs] wird genauso behandelt wie der Schaden einer brennenden Scheune.
+Der <<ref_battle_damage_type_elemental_fire,Feuer-Schaden>> eines link:../../compendiums/spells/spell_fireball.adoc[Feuerballs] wird genauso behandelt wie der Schaden einer brennenden Scheune.
 
 Alle elementaren Schadensarten werden immer von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] einer Kreatur abgezogen.
+Alle elementaren Schadensarten werden von <<ref_battle_armor,normaler Rüstung>> abgewehrt.
 
 [[ref_battle_damage_type_elemental_earth]]
 ===== Erde
@@ -1206,6 +1157,7 @@ Verbinden sich die Basiselemente, entstehen elementare Aspekte.
 Auch in diesem Fall können die Quellen für diese Arten des Schadens vielseitig sein und sowohl natürlichen und übernatürlichen Ursprung sein.
 
 Alle aspekt-elementaren Schadensarten werden immer von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] einer Kreatur abgezogen.
+Alle aspekt-elementaren Schadensarten werden von <<ref_battle_armor,normaler Rüstung>> abgewehrt.
 
 [[ref_battle_damage_type_aspectelemental_frost]]
 ===== Frost
@@ -1241,33 +1193,30 @@ Diese Schadensarten haben immer magischen oder übernatürlichen Ursprung.
 
 [[ref_battle_damage_aether]]
 ===== Aetherisch
-Aetherischer Schaden greif nicht den Körper des Ziels, sondern seine Verbindung zum Aether selbst an.
+Aetherischer Schaden greift nicht den Körper des Ziels, sondern seine Verbindung zum Aether selbst an.
 Durch wird dem Opfer die Energie entzogen, die es ihm erlaubt, Zauber zu wirken.
-
-Diese Schadensart umgeht jede normale Rüstung, nur verzauberte Rüstung schützt regulär.
+<<ref_battle_armor,Rüstung>> schützt nur, wenn dies explizit angegeben ist.
 
 [[ref_battle_damage_illusionary]]
 ===== Illusionär
 Mache Zaubersprüche der Zauberschule xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus] und eventuelle andere, exotischere Quellen können illusionären Schaden verursachen.
 Dieser Schaden tritt nur auf, wenn das Opfer wirklich daran glaubt, verwundet worden zu sein.
-Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_d10_system.adoc#ref_core_base_rolls_douptillusions[Illusion Durchschauen]-Probe würfeln.
+Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_d10_system.adoc#ref_core_base_rolls_douptillusions[Illusion Durchschauen-Probe] würfeln.
 Ist diese erfolgreich, nimmt er keinen Schaden.
-Sollte er überzeugt sein, dass er den Schaden erhält, wird eine Schadensprobe gewürfelt.
-Gegen diesen Schaden schützt keine normale Rüstung.
+Sollte er überzeugt sein, dass er den Schaden erhält, wird eine <<ref_battle_damagerolls,Schadensprobe>> gewürfelt.
 
 [[ref_battle_damage_necrotic]]
 ===== Nekrotisch
 Nekrotischer Schaden entsteht aus der dunkeln und lebensfeindlichen Energie von Ebon.
 Nur wenige Lebewesen überstehen Schaden aus dieser Quelle mit weniger als nur körperlichen Schaden.
+<<ref_battle_armor,Rüstung>> schützt nur, wenn dies explizit angegeben ist.
 
-Gegen diese Art von Schaden schützt keine normale Rüstung.
-
-Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters,erleidet er zusätzlich 1W3 <<ref_battle_damage_type_primary_mental, mentalen>> Schaden.
+Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erleidet er zusätzlich 1W3 <<ref_battle_damage_type_primary_mental,mentalen>> Schaden.
 
 [[ref_battle_damageresistence]]
 === Schadensresistenz
 Schadensresistenzen bieten zusätzlichen Schutz gegenüber einer bestimmten xref:ref_battle_damage_types[Schadensart].
-Schadensresistenz halbiert (abgerundet, minimal 1) den angerichteten Schaden aus der Schadensquelle.
+Eine Schadensresistenz halbiert (abgerundet, minimal 1) den angerichteten Schaden aus der Schadensquelle.
 
 Grundsätzlich wird _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensresistenz_.
 
@@ -1279,7 +1228,7 @@ Besteht der Treffer aus Schadenspunkten aus unterscheidlichen xref:ref_battle_da
 
 [[ref_battle_damagevulnerability]]
 === Schadensanfälligkeit
-Wie <<ref_battle_damageresistence, Schadensresistenz>> kommt in Verbindung mit einer xref:ref_battle_damage_types[Schadensart].
+Wie <<ref_battle_damageresistence,Schadensresistenz>> kommt in Verbindung mit einer xref:ref_battle_damage_types[Schadensart].
 Kreaturen mit einer Schadensanfälligkeit erleiden doppelten Schaden aus der jeweiligen Schadensquelle.
 
 Es wird ebenfalls _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensanfälligkeit_.
@@ -1288,12 +1237,12 @@ Es wird ebenfalls _zuerst der Rüstungsschutz_ angewandt und _dann die Schadensa
 === Unabwendbarer Schaden
 
 Manchem Schicksal kann man nicht entgehen.
-Schaden, welcher als unabwendbar gekennzeichnet ist, kann unabhängig von seiner xref:ref_battle_damage_types[Schadensart] nicht durch <<ref_battle_armor, Rüstung>>, <<ref_battle_naturalarmor, natürliche Rüstung>> oder <<ref_battle_damageresistence, Schadensresistenz>> verringert werden.
-Nur eine <<ref_battle_damageimmunity, Schadensimmunität>> schützt gegen unabwendbaren Schaden.
+Schaden, welcher als *unabwendbar* gekennzeichnet ist, kann unabhängig von seiner xref:ref_battle_damage_types[Schadensart] nicht durch <<ref_battle_armor,Rüstung>>, <<ref_battle_naturalarmor,natürliche Rüstung>> oder <<ref_battle_damageresistence,Schadensresistenz>> verringert werden.
+Nur eine <<ref_battle_damageimmunity,Schadensimmunität>> schützt gegen unabwendbaren Schaden.
 
 [[ref_battle_damage_strain]]
 === Überanstrengungsschaden
-Als Überanstrengungsschaden wird eine besondere, allgemeine Schadensart beschrieben, die entsteht, wenn ein Charakter oder eine Kreatur außergewöhnliche Handlungen durchführt, die körperliche Anstrengung verursacht.
+Als *Überanstrengungsschaden* wird eine besondere, allgemeine Schadensart beschrieben, die entsteht, wenn ein Charakter oder eine Kreatur außergewöhnliche Handlungen durchführt, die körperliche Anstrengung verursacht.
 
 Einige link:core_rules_skills.adoc[Fähigkeiten] oder manche Zaubersprüche können Überanstrengungsschaden verursachen, um sie einzusetzen.
 Auch xref:core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpfte] Charaktere können Überanstrengungsschaden erleiden.
@@ -1303,7 +1252,7 @@ Auch xref:core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpfte] C
 Es gilt jedoch die Ausnahme, dass Überanstrengungsschaden keine <<ref_battle_wounds,Verletzungen>> verursacht.
 Sollte ein Charakter genug Überanstrengungsschaden erhalten, um seine xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] zu übertreffen, gelten die üblichen Regeln für den <<ref_battle_knockdown,Niederschlag>>.
 
-Wie in der Beschreibung zu <<ref_battle_damage_inevitable, unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_battle_damageimmunity,Schadensimmunität>>[<<ref_battle_damage_type_primary_physical,Physisch>>] abgewendet werden.
+Wie in der Beschreibung zu <<ref_battle_damage_inevitable,unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_battle_damageimmunity,Schadensimmunität>>[<<ref_battle_damage_type_primary_physical,Physisch>>] abgewendet werden.
 Kreaturen, die diese Schadensimmunität ausweisen, sind die einzigen Ausnahmen, in denen Überanstrengungsschaden nicht den Verlust von TP verursacht.
 Solche Kreaturen dürfen uneingeschränkt Fähigkeiten oder Talente (und so weiter) einsetzen, die Überanstrengungsschaden erfordern.
 
@@ -1311,7 +1260,7 @@ Solche Kreaturen dürfen uneingeschränkt Fähigkeiten oder Talente (und so weit
 == Trefferzonen
 
 [quote, Unbekannt]
-„Ziel auf das Auge, ziel auf das Auge“
+„Ziel auf das Auge, ziel auf das Auge!“
 
 Das System von Far Ages teilt einen humanoiden Körper in 6 *Trefferzonen* ein: Kopf, Torso, Arme, Beine, Rücken und Unterleib ein.
 Die beiden Trefferzonen Arme und Beine beinhalten jeweils beide Glieder, bzw. alle, die ein Wesen besitzt.
@@ -1319,19 +1268,16 @@ Die beiden Trefferzonen Arme und Beine beinhalten jeweils beide Glieder, bzw. al
 Diese Trefferzonen haben individuelle Rüstungspunkte, je nach getragener Rüstung.
 Zum Beispiel schützt eine Lederweste nur Torso und Rücken, eine Vollplattenrüstung schützt hingegen alle Trefferzonen.
 
-Ein gezielter Angriff -siehe Kampfmanöver- kann so gezielt werden, dass er die Trefferzonen betrifft, die nicht durch eine Rüstung geschützt sind.
-
-Schadensresistenzen gelten immer für alle Trefferzonen.
-
-Rüstungen bedecken nur teilweise den Körper.
-Man spricht bei der Einteilung dabei von *Trefferzonen*.
-
-Im allgemeinen kann vorausgesetzt werden, dass, wenn keine explizite Trefferzone durch den Angriff attackiert wurde, z.B. durch das Kampfmanöver Gezielter Schlag/Schuss, dann wurde die Trefferzone Torso getroffen.
+Im Allgemeinen kann vorausgesetzt werden, dass, wenn keine explizite Trefferzone durch den Angriff attackiert wurde, dann wurde die Trefferzone Torso getroffen.
 Diese hat meistens den höchsten Rüstungsschutz, wenn eine Körperrüstung getragen wird.
 Wenn ein Charakter gegen ein besonders großes Wesen kämpft, kann es sein, dass er an den Torso nicht herankommt und stattdessen die Beine oder ähnliches trifft.
 Dies kann der SL von Situation zu Situation frei entscheiden.
 
-Der Torso gilt als *Standadrtrefferzone* bei humanoiden, gleichgroßen Gegnern.
+Der Torso gilt als *Standardtrefferzone* bei humanoiden, gleich großen Gegnern.
+
+Ein <<ref_battle_actions_attack_aimedattack,gezielter Angriff>> kann so gezielt werden, dass er die Trefferzonen betrifft, die nicht durch eine Rüstung geschützt sind.
+
+Schadensresistenzen gelten immer für alle Trefferzonen.
 
 .Trefferzonen
 ====
@@ -1341,14 +1287,14 @@ Da der Angriff vorhin nicht explizit gegen eine andere Trefferzone geführt wurd
 Also erleidet er 15-4 = 11 Schadenspunkte.
 ====
 
+[[ref_battle_hitzones_variants]]
 === Variationen bei Trefferzonen
 
 Trefferzonen können jedoch auch variieren.
 Manche Wesen besitzen andere bzw. zusätzliche Trefferzonen:
 
 * Der Unterleib eines Centauren ist sein Pferdekörper.
-Treffer auf diesen werden mit der Tabelle für Verletzungen am Torso gewürfelt.
-Der Einfachheit halber gilt der Pferdekörper und der Menschliche Torso als eine Trefferzone.
+Der Einfachheit halber gilt der Pferdekörper und der menschliche Torso als eine Trefferzone.
 * Völker mit Flügeln haben zusätzliche Trefferzonen, nämliche ihre Flügel.
 Diese können nur attackiert werden, wenn der Gegner dem Charakter in den Rücken fällt.
 Wird ein Flügel getroffen, dann bestimmt man Verletzungen über die Verletzungstabelle der Arme.
@@ -1359,11 +1305,7 @@ Diese unzähligen Variationen aufzuzählen wäre sehr müßig, aber der SL kann 
 ** Qualle: Kopf, Arme (sehr viele davon sogar)
 ** Schleim: keine
 
-Es ist durchaus möglich, dass manche Kreaturen, z.B. die oben genannte Qualle durch den Verlust eines Armes nicht sofort sterben, obwohl dies eine tödliche Wunde nach optionalen Regeln wäre.
-Dabei ist zu bedenken, dass die Tabellen für humanoide Kreaturen aufgestellt wurden, deren durchschnittliche Anzahl an Gliedmaßen denen der Menschen nahe kommt.
-
-Daher ist es legitim, manche Effekte der Verletzungen zu ignorieren: die Qualle würde vielleicht den Arm verlieren, aber ihre TP würde nicht sofort auf -10 reduziert.
-
+[[ref_battle_hitzones_simplification_rule]]
 === Optional: Vereinfachung von Trefferzonen
 
 Die Aufteilung in Trefferzonen für Charaktere und für diverse Gegenspieler kann viel Extra-Management beinhalten.
@@ -1374,10 +1316,10 @@ Folgende Änderungen gelten bei Anwendung dieser Regel:
 * Alle Verletzungsregeln werden normal angewendet, jedoch kumulieren sich Verletzungsgrade auf demCharakter, also gäbe es nur eine Trefferzone
 * Unterschiedliche Rüstungswerte für Trefferzonen werden nicht betrachtet.
 * Rüstungen, die den Torso bedecken, bleiben unverändert
-* Arm- und Beinschienen haben keine Effekt und werden als Teil der Torso-Rüstung betrachtet
+* Arm- und Beinschienen haben keinen Effekt und werden als Teil der Torso-Rüstung betrachtet
 * Helme werden auf den Torso-Rüstungsschutz gerechnet. Ihre Mali werden angewendet.
 * Schilde funktionieren normal
-* Das Kampfmanöver Gezielter Schlag/Schuss nicht zur Verfügung.
+* Das Kampfmanöver <<ref_battle_actions_attack_aimedattack,gezielter Schlag/Schuss>> nicht zur Verfügung.
 
 .Vereinfachung von Trefferzonen
 ====
@@ -1389,55 +1331,48 @@ Damit beträgt sein Rüstungsschutz 12 und sein INI-Malus -2.
 [[ref_battle_wounds]]
 == Verletzungen
 
-Als *Verletzung* bezeichnet man einen starken Verlust von Treffpunkten, der durch einen einzigen Angriff verursacht wurde.
+Als *Verletzung* bezeichnet man einen starken Verlust von xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[Trefferpunkten], der durch einen einzigen <<ref_battle_actions_attack,Angriff>> verursacht wurde.
 Eine Verletzung ist beispielsweise eine blutende Wunde oder ein gebrochener Knochen oder gar Schlimmeres.
 
-Zuerst muss die Trefferzone bestimmt werden, bei der die Verletzung zum Tragen kommt.
-Wurde der Angriff gegen eine spezielle Trefferzone geführt, so wird diese genommen.
-Ansonsten gilt die Standardtrefferzone für das getroffene Wesen.
-Im Falle eines Angriffs in den Rücken, gilt der Rücken als Trefferzone, sollte kein Gezielter Angriff auf ein anderes Körperteil durchgeführt worden sein.
-Der SL findet am Ende dieses Abschnittes Anregungen, wie er diese Voraussetzung in Situationen, in denen diese Vorbelegung nicht passend zu sein scheint, anders belegen kann.
+Zuerst muss die <<ref_battle_hitzones,Trefferzone>> bestimmt werden, bei der die Verletzung zum Tragen kommt.
+Wurde der Angriff <<ref_battle_actions_attack_aimedattack,gezielt>> auf eine Trefferzone geführt, so wird diese genommen, ansonsten gilt die <<ref_battle_hitzones,Standardtrefferzone>>.
 
-Die wichtigste Eigenschaft, die in diesem Kapitel zur Geltung kommt, ist der auf Konstitution basierende Widerstand (WID).
-Der Widerstand bestimmt, wie leicht (oder wie schwer) eine Kreatur zu verwunden ist.
-Je höher der Wert ist, umso schwerer ist es auch, der Kreatur Verletzungen zuzufügen.
+Verursachte der Angriff dann mehr <<ref_battle_damage,Schadenspunkte>> als der Verteidiger xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] besitzt, erhält er eine Verletzung.
+Außerdem droht ein <<ref_battle_knockdown,Niederschlag>>, welcher im nachfolgenden Kapitel erläutert wird.
 
-Übertrifft der durch einen einzelnen Angriff (oder einer anderen Quelle, die Schaden an einer Kreatur verursacht) angerichtete Schaden (also nach Abzug von Rüstungspunkten und Schadensresistenzen) den Wert in WID, so erleidet er eine Verletzung.
-Eine Verletzung kann in ihrer Schwere und Gefährlichkeit für den Betroffenen unterschiedlich stark sein.
-Auch hier gilt ein einfaches Prinzip, denn je höher der TP-Verlust ist, umso stärker ist Gefahr, die von der Verletzung ausgeht.
-
-Die Verletzung kumuliert sich auf einer Trefferzone immer weiter, je öfter sie getroffen wird.
-Jedes Mal, wenn ein Angriff Schaden über dem WID des Ziels verursacht, so erhält die jeweilige Trefferzone eine Verletzung.
-Dies sollte sich der Spieler des Charakters immer notiert haben.
-
-Eine Trefferzone ist abhängig von der Anzahl ihrer Verletzungen stärker beeinträchtigt.
+Verletzungen kumulieren sich auf einer Trefferzone immer weiter, je öfter diese getroffen wird.
 Man spricht dabei vom *Verletzungsgrad*.
-Dieser bestimmt, welche Auswirkungen ein Verletzung hat, sobald weiterer Schaden über dem WID hinzukommt.
-Denn je mehr Verletzungen eine Kreatur bereits hinnehmen musste, umso schwerer wird es für sie, weitere Verletzungen zu überstehen.
+Abhängig von diesem Grad erleidet ein Charakter einen Malus auf xref:core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_numbers[Würfelanzahl] für alle Proben, bis die Verletzungen xref:core_rules_d10_system.adoc#ref_battle_wounds_curing_wounds[geheilt] sind.
+Es gilt, dass immer nur der höchste Verletzungsgrad auf einer beliebigen Trefferzone für die Bestimmung des Malus herangezogen wird.
 
-Der Bezeichnung her ist der Verletzungsgrad synonym für die Anzahl der Verletzungen auf einer Trefferzone.
-
-Der Verletzungsgrad wird wie folgt beschrieben:
-
-[cols=",,",options="header"]
 |===
-|Erlittene Verletzungen auf einer Trefferzone |Verletzungsgrad
-|Modifikatoren auf Würfelanzahl
+|Erlittene Verletzungen auf einer Trefferzone |Verletzungsgrad |Modifikatoren auf Würfelanzahl
 
-|1 |Oberflächlich |-0
+|1
+|Oberflächlich
+|-
 
-|2 |Leicht |-1
+|2
+|Leicht
+|-1
 
-|3 |Mittelschwer |-2
+|3
+|Mittelschwer
+|-2
 
-|4 |Schwer |-3
+|4
+|Schwer
+|-4
 
-|5 |Gefährlich |-4
+|5
+|Gefährlich
+|-6
 
-|6 |Tödlich |-8
+|6+
+|Tödlich
+|-8
 |===
 
-Die Spalte Modifikatoren beschreibt einen generellen Malus auf die Würfelanzahl, die ein entsprechender Verletzungsgrad einem Charakter kumulativ auferlegt.
 
 .Verletzungen
 ====
@@ -1445,66 +1380,53 @@ Ein Charakter mit einem WID von 12 erhält auf seine Standardtrefferzone Torso e
 Der Verletzungsgrad für den Torso des Charakters beträgt nun Oberflächlich.
 Dies bedeutet noch keine Mali auf die Würfe zum Erfolg.
 Erhält derselbe Charakter einen weiteren Treffer auf dieselbe Trefferzone, der insgesamt 12 oder mehr Schadenspunkte verursacht, so klettert der Verletzungsgrad auf Leicht und der Charakter hat ab dann einen verletzungsbedingten Malus von -1 auf die Würfelanzahl.
+Erhält der Charakter eine weitere Verletzung auf einer anderen Trefferzone, zum Beispiel dem Kopf, so bleibt der Malus bei -1.
 ====
 
 [[ref_battle_wounds_steps]]
 === Höhere Verletzungsgrade durch höheren Schaden
 
-Wenn ein Charakter deutlich höheren Schaden als seinen WID erhält, kann er direkt einen höheren Verletzungsgrad erhalten und entsprechend eine schwierigere Niederschlags-Probe ablegen müssen.
+Wenn ein Charakter deutlich höheren Schaden als seinen WID erhält, kann er direkt einen höheren Verletzungsgrad erhalten.
 Für jedes ganzzahlige Vielfache des WID erhält der Charakter einen Verletzungsgrad mehr, bis hin zu tödlich.
 
 .Höhere Verletzungsgrade
 ====
-Ein Charakter hat einen WID von 10 und hat bereits eine Oberflächliche Verletzung an einer Trefferzone.
+Ein Charakter hat einen WID von 10 und hat bereits eine oberflächliche Verletzung an einer Trefferzone.
 Nun erhält er durch einen Angriff weitere 22 Schadenspunkte auf diese Trefferzone, was seinem WID*2 entspricht und damit zwei weitere Verletzungsgrade.
-Der Charakter erhält damit eine Mittelschwere Verletzung.
+Der Charakter erhält damit eine mittelschwere Verletzung.
 ====
-
-[[ref_battle_wounds_heavy_wounds]]
-=== Optional: Besonders starke Verletzungen
-
-Die Verletzungsgrade ab Mittelschwer können weitere negative Folgen haben, sofern der SL dies wünscht.
-Die folgende Tabelle gibt Auskunft über mögliche weitere Folgen.
-
-[cols=",",options="header"]
-|===
-|Verletzungsgrad |Zusätzliche Folgen
-
-|Mittelschwer |Der Charakter ist 1 Kampfrunde lang benommen.
-
-|Schwer |Der Charakter ist 1W6 Kampfrunden lang benommen.
-
-|Gefährlich |Der Charakter wird sofort ohnmächtig (TP sind 0).
-
-|Tödlich |Der Charakter stirbt sofort (TP sind bei -10) oder verliert ein Körperteil (bei Trefferzone Arme oder Beine).
-|===
-
-[[ref_battle_wounds_curing_wounds]]
-=== Verletzungen heilen
 
 [[ref_battle_knockdown]]
 == Niederschlag
 
-Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer Verletzung einen *Niederschlag* erleiden kann.
-Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht, weil ihm "Schwarz vor Augen" wird oder weil er durch die Wucht des Angriffes niedergeschmettert wird.
+Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer <<ref_battle_wounds,Verletzung>> einen *Niederschlag* erleiden kann.
+Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht.
+Es wird ihm "Schwarz vor Augen" und wird er durch die Wucht des Angriffes niedergeschmettert.
+Um dies zu prüfen, muss der Charakter einen xref:core_rules_d10_system.adoc#ref_core_base_saves_knockdown[Niederschlags-Rettungswurf] ablegen.
 
-Immer wenn der Charakter eine Verletzung mit Verletzungsgrad oberflächlich oder höher erhält, besteht die Gefahr, dass er niedergeschlagen wird.
-Um dies zu prüfen, muss der Charakter eine Niederschlags-Probe ablegen.
+Die Anzahl der nötigen Erfolge wird durch den aktuell höchsten <<ref_battle_wounds_steps,Verletzungsgrad>>, die erhaltene Verletzung berücksichtigend, wie folgt kalkuliert:
 
-Die Anzahl der nötigen Erfolge wie folgt kalkuliert:
-
-[cols=",",options="header"]
 |===
 |Verletzungsgrad |Nötige Anzahl der Erfolge bei Niederschlags-Probe
-|Oberflächlich |2
-|Leicht |4
-|Mittel |6
-|Schwer |8
-|Gefährlich |10
-|Tödlich |12
-|===
 
-Es gilt der aktuellste Verletzungsgrad, das heißt, dass vorher vorhandene Verletzungen an derselben Trefferzone zuerst verschlechtert werden und dann wird die nötige Anzahl von Erfolgen für die Niederschlags-Probe bestimmt.
+|Oberflächlich
+|2
+
+|Leicht
+|4
+
+|Mittel
+|6
+
+|Schwer
+|8
+
+|Gefährlich
+|10
+
+|Tödlich
+|12
+|===
 
 .Niederschlag
 ====
@@ -1513,17 +1435,341 @@ Sein Angriff war gezielt auf den Kopf von Elias, der jedoch einen Eisenhelm auf 
 Somit verursacht der Treffer 23 Schadenspunkte.
 Mit einem Widerstand von 12 ist der Charakter schon sehr zäh, aber 23 Schadenspunkte sind dennoch zu viel.
 
-Der Verletzungsgrad ist nur Oberflächlich, womit Elias eine Niederschlags-Probe gegen zwei Erfolge bestehen muss.
+Der Verletzungsgrad ist nur oberflächlich, womit Elias eine Niederschlags-Probe gegen 2 Erfolge bestehen muss.
 
-Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad Leicht und die Niederschlags-Probe hätte gegen 3 Erfolge gewürfelt werden müssen.
+Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad leicht und die Niederschlags-Probe hätte gegen 4 Erfolge gewürfelt werden müssen.
 ====
 
-Misslingt die Niederschlags-Probe, dass gilt der Charakter als niedergeschlagen und ist xref:core_rules_d10_system.adoc#ref_core_condition_disabled[kampfunfähig].
+Misslingt die Niederschlags-Probe, dass gilt der Charakter als xref:core_rules_d10_system.adoc#ref_core_condition_onground[am Boden] und ist bis zum Beginn seiner nächsten Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_disabled[kampfunfähig].
+Er kann dann wieder <<ref_battle_move_standup>>,aufstehen>>.
 
-Er kann jedoch wieder aufstehen, aber erst, wenn er an der Reihe ist.
-Hat er in der Kampfrunde, in der er niedergeschlagen wurde, noch eine Aktion frei, dann kann er diese nutzen, um aufzustehen.
-Hat er keine mehr übrig, dann muss er bis zur nächsten Runde warten.
-Beachte, dass kampfunfähige Charaktere immer am Ende der Initiative-Reihenfolge stehen.
-Auch dann ist das Aufstehen eine Aktion.
+[[ref_battle_items_weapons]]
+== Waffen
 
-In beiden Fällen ist ein Charakter, der aufgestanden ist, nicht mehr kampfunfähig, kann sich also verteidigen.
+In diesem Kapitel werden allgemeine Regeln zu Waffen vorgestellt.
+Eine umfangreiche Auswahl findet sich in den weiter unten verwiesenen Kompendien.
+Jede Beschreibung einer Waffe ist nach dem gleichen Muster aufgebaut:
+
+[[ref_battle_items_weapons_name]]
+*Name*: Der Name der Waffe.
+
+[[ref_battle_items_weapons_attribut]]
+*Attribut:* Angabe des verwandten xref:core_rules_charactercreation.adoc#ref_characters_attributs[Attributes], welche zu dem jeweiligen Talent angewendet wird.
+
+.Verwandte Attribute von Waffen
+====
+Ein Langschwert hat als Attribut xref:core_rules_charactercreation.adoc#ref_attribute_strength[ST] angegebe.
+Ein Charakter mit einer ST-Stufe von 2 und einer Talentstufe in xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] von 3 hat somit insgesamt eine Stufe von 5.
+====
+
+[[ref_battle_items_weapons_size]]
+*Größe*: Die Größe der Waffe bestimmt, wer die Waffe in den Händen halten kann.
+Die xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größe] des Charakters bestimmt, welche Waffen er ohne Probleme verwenden kann.
+
+.Größe von Waffen
+====
+Ein Langschwert hat eine Größe von 5.
+Ein link:races/core_races_humans.adoc[Mensch] mit einer Größe von 5 hat eine Aufteilung von Primär-/Sekundärwaffe 6/4.
+Damit kann er das Langschwert als Primärwaffe führen, jedoch nicht als Sekundärwaffe.
+====
+
+[NOTE]
+Die Beschreibungen in den Kompendien fokussieren sich auf Kreaturen der xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5.
+Im folgenden xref:core_rules_adventures.adoc#ref_core_adventures_items_change_size[Kapitel] finden sich Regeln, um Waffen und Rüstungen an Kreaturen anderer Größenkategorien anzupassen.
+
+[[ref_battle_items_weapons_damagedice]]
+*Schadensbonus*: Angabe des <<ref_battle_damagerolls,Schadensbonus>>, üblicherweise als Würfelkombination
+
+[[ref_battle_items_weapons_baserange]]
+*Grundreichweite*: Gibt die <<ref_battle_rules_ranged_combat_baserange,Grundreichweite>> einer Fernkampfwaffe an.
+Diese Eigenschaft findet sich nicht bei Nahkampfwaffen.
+
+[[ref_battle_items_weapons_weight]]
+*Gewicht*: Das Gewicht der Waffe in Pfund.
+
+[[ref_battle_items_weapons_price]]
+*Preis*: der Preis der Waffe in Silbermünzen.
+
+*Eigenschafen:* Jede Waffe kann über eine beliebige Anzahl von <<ref_battle_items_weapons_tags,Eigenschaften>> verfügen, die zusätzliche Regeln mit sich bringen.
+
+Eine Übersicht der verfügbaren, profanen Waffen findet sich in den folgenden Kompendien:
+
+* link:../../compendiums/items/mundane/compendium_mundaneitems_meleeweapons.adoc[Nahkampfwaffen]
+* link:../../compendiums/items/mundane/compendium_mundaneitems_projectileweapons.adoc[Projektilwaffen]
+* link:../../compendiums/items/mundane/compendium_mundaneitems_throwingweapons.adoc[Wurfwaffen]
+
+[[ref_battle_items_weapons_tags]]
+=== Eigenschaften
+
+Das folgende Kapitel beschreibt die zusätzlichen Eigenschaften, die Waffen haben können.
+
+[[ref_battle_items_weapons_tag_mounted_combat]]
+==== Berittener Kampf
+
+*Gattungen:* Nahkampfwaffen
+
+Waffen mit dieser Eigenschaft erlauben die <<ref_battle_actions,Aktion>> <<ref_battle_actions_attack_mountedattack,betrittender Angriff>>.
+
+[[ref_battle_items_weapons_tag_one_time_use]]
+==== Einmalige Verwendung
+
+*Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
+
+Waffen mit dieser Eigenschaft können nur einmal verwendet werden.
+Unabhängig vom Erfolg des <<ref_battle_actions_attack,Angriffs>> ist die Waffe zerstört.
+Typische Beispiele sind Bomben, die bei Aufschlag explodieren.
+
+[[ref_battle_items_weapons_tag_reach]]
+==== Erhöhte Reichweite
+
+*Gattungen:* Nahkampfwaffen
+
+Nahkampfwaffen mit dieser Eigenschaft sind für den Einsatz mit <<ref_battle_modifiers_reach,erhöhter Reichweite>> geeignet.
+
+[[ref_battle_items_weapons_tag_aoe]]
+==== Flächenschaden
+
+*Gattungen:* Wurfwaffen
+
+Waffen mit dieser Eigenschaften fallen unter die Regeln von Waffen mit <<ref_battle_rules_throwingweapons_aoe,Flächenschaden>> oder auch <<ref_battle_rules_throwingweapons_cone,Kegeln>>.
+Die Eigenschaft enthält immer zwei konkretisierende Angaben:
+
+*Fläche:* Angabe des Typs der Fläche, z.B. Radius oder Kegel.
+Die Bestimmung der Fläche hängt von der Ausdehnung ab.
+
+*Ausdehnung:* Angabe in Metern, in der sich die Fläche ausdehnt.
+Diese Angabe bestimmt damit die betroffenen Ziele.
+Die Ausdehnung wird immer ab dem Punkt des Aufschlags bestimmt.
+
+.Waffen mit Flächenschaden
+====
+Eine Bombe hat die Angabe Flächenschaden 'Radius 3,00 Meter'.
+Dies bedeutet im Radius von 3,00 Metern um den Aufschlagspunkt werden alle Kreaturen getroffen.
+====
+
+[[ref_battle_items_weapons_tag_mounted_flexibel]]
+==== Flexibel
+
+*Gattungen:* Nahkampfwaffen
+
+Diese Waffen können als Einhand- oder als <<ref_battle_items_weapons_tag_2_hands_required,Zweihandwaffe>> geführt werden.
+Der erste Wert im Feld Schadensbonus steht für den Schaden, den die Waffe verursacht, wenn sie in einer Hand getragen wird, der Zweite, wenn man zwei Hände verwendet werden.
+
+[[ref_battle_items_weapons_tag_lightweight]]
+==== Leichtgewichtig
+
+*Gattungen:* Nahkampfwaffen
+
+Waffen mit dieser Eigenschaft sind leicht und kompakt, so dass sie in der xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories_secondary_hand[Zweithand] eines Charakters gut geführt werden können.
+Ein Charakter erhält keinen <<ref_battle_modifiers_oversized_items,Malus>>, wenn er leichtgewichtige Waffe in seiner Zweithand führt, deren <<ref_battle_items_weapons_size,Größe>> gleich seiner xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories_primary_hand[Primärhand] ist.
+Ist die Waffe größer, bietet diese Eigenschaft jedoch keine Vorteile mehr.
+
+[[ref_battle_items_weapons_tag_mechanical]]
+==== Mechanisch
+
+*Gattungen:* Projektilwaffen
+
+Waffen mit dieser Eigenschaft besitzen besondere <<ref_battle_damagerolls,Schadenswürfe>>, die nicht von einem Attribut des Charakters abhängen.
+
+[[ref_battle_items_weapons_tag_ammunition]]
+==== Munition
+
+*Gattungen:* Projektilwaffen
+
+Projektilwaffen erfordern in meisten Fällen Munition, zum Beispiel Bögen benötigen Pfeile, die in die Sehne gespannt werden, bevor die xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Talentprobe] erfolgen kann.
+Alle Waffen mit der Information *Munition* erfordern, dass der Verwender, diese parat hat, wenn er den <<ref_battle_actions_attack,Angriff>> durchführen möchte.
+
+*Magazin (optional):* Diese optionale Angabe informiert über die Anzahl der Schüsse, die abgefeuert werden können, bevor die Waffe nachgeladen werden muss.
+Ein Charakter kann jede Kampfphase feuern, bis das Magazin leer ist.
+Magazin wird anstelle von Munition angegeben.
+
+Das *Nachladen* der Waffe oder eines Magazins wird als xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] oder xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion] angegeben.
+
+.Munition
+====
+Ein Bogen besitzt die Angabe 'Munition (Freie Aktion)'.
+Der Bogen hat offensichtlich kein Magazin, jeder Angriff erfordert die <<ref_battle_freeactions,freie Aktion>> _Nachladen_, um eine Angriffsprobe in der jeweiligen Kampfphase durchführen zu können.
+====
+
+.Munition: Magazin und Nachladen
+====
+Eine Pistole mit der Angabe 'Magazin (6, Aktion)' bedeutet, dass nach 6 Schuss mit Einsatz einer <<ref_battle_actions,Aktion>> ein neues Magazin eingesetzt werden muss, bevor die Pistole wieder feuern kann.
+====
+
+[[ref_battle_items_weapons_tag_nondeadly]]
+==== Nicht-tödlich
+
+*Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
+
+Diese Waffe verursacht ausschließlich <<ref_battle_nondeadly_damage,nicht-tödlichen>> Schaden.
+
+[[ref_battle_items_weapons_tag_armorpiercing]]
+==== Rüstungsbrechend
+
+*Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
+
+Rüstungsbrechende Waffen durchschlagen <<ref_battle_armor,Rüstung>> oft mühelos.
+Diese Eigenschaft besitzt eine Angabe von Punkten, die angibt, wie viele Rüstungspunkte ignoriert werden.
+<<ref_battle_naturalarmor,Natürliche Rüstung>> ist von dieser Eigenschaft ebenfalls betroffen.
+
+.Rüstungsbrechend
+====
+Ein Charakter trägt eine Rüstung mit einem Schutz von 8 Punkten.
+Wird er von einer Waffe getroffen, die die Eigenschaft 'Rüstungsbrechend 3' hat, kann nur 5 von 8 Punkten Rüstungsschutz beim Schadenswurf geltend machen.
+====
+
+ <<ref_battle_items_armor_tag_unbreakable,Unnachgiebige>> Rüstungen und Schilde sind durch den Effekt dieser Eigenschaft nicht betroffen.
+
+[[ref_battle_items_weapons_tag_quick]]
+==== Schnell
+
+*Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
+
+Waffen mit dieser Eigenschaft können in einer Kampfphase zum Angriff als <<ref_battle_movefightaction,Manöver>> anstelle als <<ref_battle_actions_attack,Aktion>> verwendet werden, auch wenn das <<ref_battle_actions_usetalent,Talent>> im Normalfall eine Aktion vorsieht.
+Dennoch kann die Waffe nur einmal in einer Kampfphase eingesetzt werden, solange keine weiteren Effekte etwas anderes erlaubt,
+
+[[ref_battle_items_weapons_tag_heavy]]
+==== Schwer
+
+*Gattungen:* Nahkampfwaffen
+
+Waffen mit dieser Eigenschaft müssen immer in zwei Händen gehalten werden, wenn die angegebene <<ref_battle_items_weapons_size,Größe>> auf die xref:../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories_primary_hand[Primärhand] des Trägers passt.
+Er kann diesem Fall keine Waffe in der Sekundärhand führen.
+Es gelten die <<ref_battle_damagerolls,Schadenswürfe>> für schwere Waffen.
+
+[[ref_battle_items_weapons_tag_2_hands_required]]
+==== Zweihand-Waffe
+
+*Gattungen:* Nahkampfwaffen, Projektilwaffen
+
+Waffen mit dieser Eigenschaft müssen mit beiden Händen gehalten werden.
+Es ist nicht möglich, die Waffe ausschließlich mit der xref:../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Primärhand] zu führen, sondern benötigt die Sekundärhand ebenfalls.
+Diese Eigenschaft gilt nicht automatisch als <<ref_battle_items_weapons_tag_heavy,schwer>>.
+Alle Waffen ohne diese Eigenschaft gelten implizit als Einhandwaffe.
+
+[[ref_battle_items_armor]]
+== Rüstungen
+
+[[ref_battle_items_armor_name]]
+*Name*: Der Name der Rüstung.
+
+[[ref_battle_items_armor_size]]
+*Größe*: Die Größe der Rüstung gibt an, welchen Kreaturen sie normalerweise passt.
+Die xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größe] des Charakters muss darauf passen, um die Rüstung ohne Problem verwenden zu können.
+
+[NOTE]
+Analog zu der <<ref_battle_items_weapons_size,Größe von Waffen>> werden Rüstungen für Charaktere der xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5 ausgewiesen.
+Es können jedoch xref:core_rules_adventures.adoc#ref_core_adventures_items_change_size[Anpassungen] leicht erfolgen.
+
+[[ref_battle_items_armor_armorpoints]]
+*Rüstungsschutz:* Angabe der Höhe der <<ref_battle_armor,Rüstungspunkte>>, die die Rüstung bietet.
+
+[[ref_battle_items_armor_hitzones]]
+*Trefferzonen:* Es werden die <<ref_battle_hitzones,Trefferzonen>> aufgelistet, für die die Rüstung <<ref_battle_items_armor_armorpoints,Schutz>> gewährt.
+Eine Trefferzone, die nicht angegeben ist, wird durch diese Rüstung nicht geschützt.
+
+[NOTE]
+Im Allgemeinen werden link:../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoide] Wesen bei der Beschreibung von Rüstungen angenommen.
+Mit den im Kapitel link:core_rules_adventures.adoc[Abenteuer] vorgestellten Regeln können Rüstungen auch auf außergewöhnlichere Körperformen xref:core_rules_adventures.adoc#ref_core_adventures_items_fit_armor[angepasst] werden.
+
+[[ref_battle_items_armor_weight]]
+*Gewicht*: Das Gewicht der Rüstung in Pfund.
+
+[[ref_battle_items_armor_price]]
+*Preis*: der Preis der Rüstung in Silbermünzen.
+
+*Eigenschafen:* Jede Rüstung kann über eine beliebige Anzahl von <<ref_battle_items_armor_tags,Eigenschaften>> verfügen, die zusätzliche Regeln mit sich bringen.
+
+Eine Übersicht der verfügbaren, profanen Rüstungen findet sich in den folgenden Kompendien:
+
+* link:../../compendiums/items/mundane/compendium_mundaneitems_armor.adoc[Rüstungen].
+
+[[ref_battle_items_armor_tags]]
+=== Eigenschaften
+
+Das folgende Kapitel beschreibt die zusätzlichen Eigenschaften, die Rüstungen haben können.
+
+[[ref_battle_items_armor_tag_arcaneprotection]]
+==== Arkaner Schutz
+
+Rüstungen mit dieser Eigenschaft schützen nicht nur gegenüber <<ref_battle_damage_type_primary_physical,physikalischem>> Schaden, sondern auch <<ref_battle_damage_type_primary_interlect,magischen>> Schaden.
+Der angegebene <<ref_battle_items_armor_armorpoints,Rüstungsschutz>> wirkt gegen beide Schadensarten.
+
+[[ref_battle_items_armor_tag_initiative_malus]]
+==== INI-Malus
+
+Manche Rüstungen sind sehr schwer und schränken die Bewegungsfähigkeit des Trägers ein.
+Charaktere mit einer Rüstung mit dieser Eigenschaft erhalten eine angegebene Anzahl von Punkten Malus auf ihren <<ref_battle_battlephase_initiative,Initiative-Wert>>.
+Ein Charaketer mit mehreren Rüstungsteilen, die diese Eigenschaft besitzen, muss den Malus aller Rüstungsteile addieren.
+
+.INI-Malus
+====
+Die Angabe 'INI-Malus 3' bedeutet einen Malus von 3 Punkten.
+Ein Charakter mit einem xref:core_rules_charactercreation.adoc#ref_secondary_inibonus[INI-Wert] von üblicherweise 5, hat beim Tragen einer solchen Rüstung nur einen Wert von 5-3=2.
+====
+
+[[ref_battle_items_armor_tag_dexterity_malus]]
+==== GE-Malus
+
+Eine Rüstung mit dieser Eigenschaft beeinträchtigt den Charakter in seiner Motorik.
+Er erhält einen Malus auf folgende xref:core_rules_charactercreation.adoc#ref_attribute_dexterity[GE-basierte] Proben:
+
+* xref:core_rules_d10_system.adoc#ref_core_saves_GE[GE-Rettungswürfe], damit auch xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswürfe]
+* xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]
+* xref:core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen]
+* xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]
+* xref:core_rules_talents_base.adoc#ref_talents_lockpick[Schlösser knacken]
+* xref:core_rules_talents_base.adoc#ref_talents_pickpocket[Taschendiebstahl]
+* xref:core_rules_talents_base.adoc#ref_talents_hide[Verstecken]
+
+Trägt ein Charakter mehrere Rüstungsteile mit dieser Eigenschaft, zählt immer nur der höchste Malus.
+
+[[ref_battle_items_armor_tag_unbreakable]]
+==== Unnachgiebig
+
+Rüstungen mit dieser Eigenschaft widerstehen dem Effekt <<ref_battle_items_weapons_tag_armorpiercing,Rüstungsbrechend>> von Waffen.
+
+[[ref_battle_items_shields]]
+== Schilde
+
+Schilde werden wie <<ref_battle_items_armor,Rüstungen>> dargestellt, allerdings werden als <<ref_battle_items_armor_hitzones,Trefferzonen>> immer "alle" angenommen.
+
+[[ref_battle_items_shields_tags]]
+=== Eigenschaften
+
+Schilde können alle <<ref_battle_items_armor_tags,Eigenschschaften von Rüstungen>> besitzen, sowie die folgenden als exklusive Eigenschaften.
+
+[[ref_battle_items_shields_tag_grand_cover]]
+==== Deckung geben
+
+Schilde mit dieser Eigenschaft sind besondern massiv und eignen sich dazu, dahinter in Deckung zu gehen.
+Ein Charakter kann einmal pro Kampfphase einen beliebigen <<ref_battle_actions_attack,Angriff>> deklarieren, in dem sein Schild <<ref_battle_modifiers_coverage,Deckung>> bietet.
+
+Um die Eigenschaft nutzen zu können, muss die <<ref_battle_items_armor_size,Größe>> des Schilds größer sein als die xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des Charakters, der es hält.
+Die Effektivität der Deckung hängt von der Differenz der beiden Größenangaben ab.
+
+|===
+|Differenz |Deckung |Modifikator auf die Angriffsprobe
+
+|1
+|Geringe Deckung
+|-1 auf die Würfe zum Erfolg
+
+|2
+|Mittlere Deckung
+|-2 auf die Würfe zum Erfolg
+
+|3
+|Starke Deckung
+|-3 auf die Würfe zum Erfolg
+
+|4+
+|Totale Deckung
+|-4 auf die Würfe zum Erfolg
+|===
+
+.Deckung geben
+====
+Ein Charakter der GK 5 trägt einen Turmschild der GK 6.
+Die Differenz beträgt somit 1 und der Turmschild gibt dem Charakter geringe Deckung und damit -1 auf die Würfe zum Erfolg für eine gegnerische Angriffsprobe pro Kampfphase.
+====

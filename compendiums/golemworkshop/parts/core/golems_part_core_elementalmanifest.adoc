@@ -1,10 +1,119 @@
 = Elementare Zelle
 
-*Materialkosten:* +
-*Konstruktionszeit:* +
-*Zaubersprüche:* +
-*Erfolge:* +
-*GK:* +
-*MP:* +
-*MP-Regeneration:* +
-*Beschreibung:* +
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* link:../../../spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementar], link:../../../spells/spell_elemental_transfusion.adoc[Elementare Transfusion], link:../../../spells/spell_elemental_barrier.adoc[Elementare Barriere] +
+*Erfolge:* siehe Beschreibung +
+*GK:* 5 - 10 +
+*MP:* siehe Beschreibung +
+*MP-Regeneration:* siehe Beschreibung +
+*Beschreibung:* Mit dieser Energieversorgung machen sich risikobereite Technomanten die Macht eines elementaren Manifests zur Versorgung eines Golems zunutze.
+
+Um die Arbeit an einer elementaren Zelle abzuschließen, muss ein link:../../../../bestiary/elementals/bestiary_elementals_manifest.adoc[elementares Manifest] mithilfe des Zauberspruches link:../../../spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementar] beschworen werden.
+Das Element (Erde, Feuer, Luft oder Wasser) des beschworenen Manifests bestimmt die weiteren Zaubersprüche sowie einige weitere Effekte dieser Zelle.
+Zunächst muss für link:../../../spells/spell_elemental_transfusion.adoc[Elementare Transfusion] das verwendete Element identisch zu dem des Manifests sein.
+Das Element für link:../../../spells/spell_elemental_barrier.adoc[Elementare Barriere] muss hingegen das gegenteilige Element sein: zum Beispiel bei einem beschworenen Feuer-Manifest, muss Elementare Barriere mit dem Element Wasser ausgesprochen werden.
+
+Diese Energiezelle wird nur in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größen] 5 bis 10 gebaut.
+Pro Punkt in GK muss mindestens ein Manifest beschworen werden, dessen xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_elementals_rules_powerlevel[Machtstufe] gleich oder größer als diese GK ist.
+Auf das Profil des Golems und seine eigene xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe] hat die Machtstufe des Manifests keine Auswirkung.
+Die Eigenschaft MP-Regeneration der Energiezelle ist jedoch von der Machtstufe des Manifests abhängig.
+
+Die folgende Tabelle zeigt die Übersicht aller Eigenschaften dieser Energiezelle abhängig von deren GK.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |MP |MP-Regeneration
+
+|5
+|24.000
+|14 Tage
+|7
+|110
+|3 MP pro Machtstufe des Manifests pro Tag
+
+|6
+|30.000
+|18 Tage
+|9
+|140
+|3 MP pro Machtstufe des Manifests pro Tag
+
+|7
+|50.000
+|24 Tage
+|10
+|250
+|3 MP pro Machtstufe des Manifests pro Tag
+
+|8
+|72.000
+|28 Tage
+|12
+|400
+|4 MP pro Machtstufe des Manifests pro Tag
+
+|9
+|95.000
+|32 Tage
+|13
+|750
+|4 MP pro Machtstufe des Manifests pro Tag
+
+|10
+|120.000
+|36 Tage
+|14
+|1000
+|5 MP pro Machtstufe des Manifests pro Tag
+
+|===
+
+Das Verwenden einer elementaren Zelle ist jedoch mit gewissen Risiken verbunden.
+Zum einen ist das Manifest nicht glücklich über seine neue Position als Energielieferant und empfindet den Aufenthalt in der Maschine naheliegend als Gefangenschaft.
+Daher sind folgende zusätzliche Regeln zu beachten:
+
+[[ref_golemparts_core_elementalmanifest_rule_elemental_resistence]]
+== Elementare Widerstandskraft
+Das elementare Manifest, dass in der Energiezelle gebunden ist, verleiht dem Golem außerdem eine besondere, mystische Widerstandskraft gegenüber seinem eigenen Element.
+
+Ist ein Manifest bis zu Machtstufe 7 gefunden, erhält der Golem zusätzlich die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] für das Element des Manifests.
+
+Ist hingegen ein Manifest der Machtstufe 8 oder höher gebunden, erhält der Golem sogar die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] für das Element des Manifests.
+
+.Elementare Widerstandskraft
+====
+Ein gebundenes Feuer-Manifest verleiht die Fähigkeit Schadensresistenz (Feuer), falls seine Machtstufe 7 oder niedriger ist.
+Ist seine Machtstufe jedoch 8 oder höher, erhält der Golem stattdessen Schadensimmunität (Feuer).
+====
+
+[[ref_golemparts_core_elementalmanifest_rule_elemental_exchange]]
+== Elementarer Austausch
+Besitzt der Golem eine Fähigkeit oder Talent, die eine beliebige, elementare xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] (also Erde, Feuer, Luft oder Wasser) verursacht, kann der Golem diese durch die Schadensart ersetzen, die zu dem gebundenen Manifest passt.
+
+Beispielsweise kann ein link:../weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer], der xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden] verursacht, stattdessen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft-Schaden] versachen, wenn ein Luft-Manifest gebunden ist.
+
+[[ref_golemparts_core_elementalmanifest_rule_mishap]]
+== Fehlfunktionen
+Tritt eine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_mishaps[Fehlfunktion] auf, berechne die Fehlfunktion wie beschrieben, jedoch addiere die halbierte Machtstufe (abgerundet, Minimum 1) des Manifests auf das Ergebnis in der link:../../../../rules/tables/table_constructs_general_mishaps.adoc[Tabelle für Fehlfunktionen] hinzu.
+
+.Fehlfunktion
+====
+Ein Konstrukt mit der elementaren Energiezelle und einer WID von 14 erhält 18 Schadenspunkte.
+Nach den Regeln besteht eine Differenz von 4, womit der Eintrag 3-4 in der Tabelle für Fehlfunktionen gelten würde.
+Zu dieser Differenz muss nun die halbierte Machtstufe des Manifests addiert werden.
+Befindet sich ein Manifest der Machtstufe 6 in der Energiezelle, müssten somit 3 Punkte hinzuaddiert werden, womit sich der Wert 7 ergibt und stattdessen der Eintrag für 5-9 für die Fehlfunktion gilt.
+====
+
+[[ref_golemparts_core_elementalmanifest_rule_elemental_explosion]]
+== Elementare Explosion bei Zerstörung
+Wird der Golem xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_destroyed[zerstört], wird das Manifest befreit und verschwindet sofort wieder in seine Heimat-Ebene.
+Jedoch bedankt es sich noch mit einer Explosion elementarer Energie.
+Alle Kreaturen im Umkreis von 1,50 Metern pro Machtstufe des Manifests um den Golem erhalten einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 2W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schaden] pro Machtstufe des Manifests.
+Dieser hat einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadenstyp] passend zum Element des Manifests, zum Beispiel xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden im Fall eines Feuer-Manifests.
+Alle Kreaturen dürfen einen xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] ablegen, um bei einem Erfolg diesen Schaden zu halbieren (abgerundet, Minimum 1).
+Vom Golem selbst bleibt nur ein Haufen Asche und geschmolzener Einzelteile übrig.
+
+.Elementare Explosion bei Zerstörung
+====
+Ein Feuer-Manifest der Machtstufe 6 verursacht eine Explosion mit Radius 9,00 Meter (6 x 1,50 Meter) mit einem Treffer von 12W6 Feuer-Schaden.
+====

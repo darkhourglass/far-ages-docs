@@ -35,7 +35,7 @@ Die Technomanten haben ihnen dahingehend schon seit vielen Generationen den Rang
 Die Macht magischer Gegenstände wird in Stufen, den *Machtstufen* gemessen.
 Wie beispielsweise Talentstufen werden Machtstufen in Zahlen ab 1 gemessen.
 Zusätzlich werden in diesem Fall auch Bezeichnungen analog verwendet, zum Beispiel ist ein _seltener_, magischer Gegenstand ein Gegenstand mit Machtstufe 3.
-Die Machtstufen stehen für die Rarität des Gegenstandes und beeinflussen die Regeln, wie zum Beispiel die Schwierigkeit zum <<ref_magic_items_identification, Identifikation>>, sowie den Wert des Gegenstandes.
+Die Machtstufen stehen für die Rarität des Gegenstandes und beeinflussen die Regeln, wie zum Beispiel die Schwierigkeit zur <<ref_magic_items_identification,Identifikation>>, sowie den Wert des Gegenstandes.
 
 Die folgende link:../tables/magic/table_magic_items_powerlevels.adoc[Tabelle] gibt die Übersicht der Eigenschaften pro Machtstufe.
 Diese werden in den folgenden Kapiteln im Details beschrieben.
@@ -163,7 +163,7 @@ In diesem Abschnitt wird nur eine kurze Übersicht gegeben, welche Möglichkeite
 
 [[ref_magic_items_createmagicalitem_scrolls]]
 === Spruchrollen
-Um eine *Spruchrolle herzustellen*, benötigt der Zauberer die besonderen Fähigkeit xref:core_rules_magic_skills.adoc#ref_skills_magic_writemagic[Zauberbuch Schreiben] und das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], sowie Pergament und Schreib-Utensilien.
+Um eine *Spruchrolle herzustellen*, benötigt der Zauberer die Fähigkeit xref:core_rules_magic_skills.adoc#ref_skills_magic_writemagic[Zauberbuch Schreiben] und das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], sowie Pergament und Schreib-Utensilien.
 Um die Spruchrolle nun herzustellen muss er eine Spruchzauberei-Probe abgelegen, so als würde er den Zauber regulär aussprechen, jedoch tritt der Effekt nicht ein, sondern wird in die Spruchrolle übertragen.
 Für jede Spruchrolle benötigt der Zauberer eine Stunde Zeit.
 
@@ -182,7 +182,7 @@ Gerade für Zauberer ist es interessant zu wissen, wie man ein *Grimoire herstel
 Ein Grimoire ist ein mächtiges, magisches Buch, dass Zaubersprüche enthält, die von anderen Zauberern gelernt werden können, aber auch wie bei einer Spruchrolle ausgesprochen werden können.
 
 Um ein Grimoire zu schreiben, sind die gleichen Voraussetzungen nötig, wie beim Schreiben einer <<ref_magic_items_createmagicalitem_scrolls, Spruchrolle>>.
-Jedes Mal wenn der Zauberer einen Zauberspruch das Grimoire schreibt, gelten die gleichen Regeln, wie im Kapitel zum Schreiben der Spruchrolle beschrieben.
+Jedesmal wenn der Zauberer einen Zauberspruch das Grimoire schreibt, gelten die gleichen Regeln, wie im Kapitel zum Schreiben der Spruchrolle beschrieben.
 Zusätzlich gilt, dass der Zauberer ein Grimoire nur in Arkaner Sprache verfassen kann.
 Er würfelt eine Spruchzauberei-Probe und muss dabei nötigen Erfolge erreichen, um den Zauberspruch auszusprechen plus die Anzahl der Zaubersprüche, die schon in das Buch eingebunden sind.
 Der Zauberer muss nicht das ganze Grimoire fertig geschrieben haben, sondern kann die folgenden Schritte auch in Etappen durchführen.
@@ -305,7 +305,8 @@ Im Herstellungsprozess von vielen magischen Gegenständen (und Technomantischen)
 Mit dem Talent lassen sich auch *Magische Kristalle konfigurieren*, so dass sie ihre MP abgeben können und so für die weitere Verarbeitung genutzt werden können, z.B. zur Herstellung von Zauberstecken oder als Motor für technomantische Geräte.
 Die Anzahl der nötigen Erfolge mit dem Talent Magischen Gegenstand Herstellen ergibt sich aus der Anzahl an MP, die der Kristall aufnehmen kann.
 
-//TODO also see golemparts -> basiccell
+//TODO also see golemparts -> core -> basiccell
+//TODO also see golemparts -> addon -> additional cell
 
 [cols=",,,,",options="header"]
 |===
@@ -366,8 +367,8 @@ Im Allgemeinen gelten alle Gegenstände mit link:../tables/magic/table_magic_ite
 
 Unter *Intelligenten* bzw. *beseelten Gegenständen* versteht man Gegenstände, die die Seele einer ehemals lebendigen Kreatur in sich tragen und damit deren Persönlichkeit und deren Wissen für die Ewigkeit konserviert haben.
 Solche Gegenstände sind äußerst mächtig, denn meistens besitzen sie die Fähigkeiten der Person, die sie in sich führen und natürlich deren Wissen sowie weitere magische Eigenschaften.
-Ein Charakter muss das Talent <<ref_magic_items_soulenchanting_talent, Beseelung>> beherrschen, um einen beseelten Gegenstand herstellen zu können.
-Die ausführlichen Regeln finden sich im folgenden <<ref_magic_items_soulenchanting, Kapitel>>.
+Ein Charakter muss das Talent <<ref_magic_items_soulenchanting_talent,Beseelung>> beherrschen, um einen beseelten Gegenstand herstellen zu können.
+Die ausführlichen Regeln finden sich im folgenden <<ref_magic_items_soulenchanting,Kapitel>>.
 
 [[ref_magic_items_createmagicalitem_rules]]
 == Erweitere Regeln zum Herstellen von magischen Gegenständen
@@ -536,7 +537,8 @@ Ein Charakter lernt das Talent Beseelung mit dem SGM seines Spruchzauberei-Talen
 
 Die folgenden Kapitel beschreiben den Prozess der Beseelung im Detail.
 
-=== Seelenstein und Seelenfalle
+[[ref_magic_items_soulenchanting_soulstone]]
+=== Seelenstein
 
 Der erste Schritt in der Kunst der Beseelung ist die Erschaffung eines
 *Seelensteins*. Ein Seelenstein ist ein speziell präparierter magischer
@@ -572,6 +574,9 @@ kann auch nicht zurückverwandelt werden. Bei einem Misserfolg passiert
 nichts, bei einem Patzer explodiert der Kristall und für alle 25 MP
 verursacht er einen automatischen Treffer mit 1W8 magischem Schaden in
 einem Radius von 1,50 Metern pro 25 MP.
+
+[[ref_magic_items_soulenchanting_soultrap]]
+=== Seelenfalle
 
 Als nächsten Schritt benötigt der Beseeler eine *Seelenfalle*. Dies ist
 im Endeffekt nur ein Kästchen, in dem der Seelenstein hineingelegt wird,

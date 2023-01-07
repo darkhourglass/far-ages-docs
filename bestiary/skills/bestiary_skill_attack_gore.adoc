@@ -1,6 +1,7 @@
 = Aufspießen (Angriffsstufe, Schaden)
 
 *Voraussetzungen:* - +
+*Typ:* Angriff, ST +
 *CP:* tba +
 
 Die Kreatur verfügt über Hörner oder Hauer, vielleicht sogar um sehr lange Klauen.
@@ -9,5 +10,5 @@ Mit diesen kann die Kreatur nicht nur verheerende Wunden schlagen, sondern auch 
 Eine Aufspießen-Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
-Bei einem erfolgreichen Treffer, der mindestens 1 Punkt Schaden verursacht, darf die Kreatur als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_brawl[Raufen und Ringen] einsetzen.
+Bei einem erfolgreichen Treffer, der mindestens 1 Punkt Schaden verursacht, darf die Kreatur als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack_brawl[Raufen und Ringen] einsetzen.
 Sie erhält dabei einen Bonus von +1 auf die Würfe zum Erfolg für die ST-Probe, um das getroffene Ziel zu halten.

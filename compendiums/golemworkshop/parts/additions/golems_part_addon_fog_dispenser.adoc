@@ -1,0 +1,33 @@
+= Nebelverteiler
+
+*Materialkosten:* 30.000 +
+*Konstruktionszeit:* 3 Tage +
+*Zaubersprüche:* link:../../../spells/spell_fog.adoc[Nebel] +
+*Erfolge:* 4 +
+*Montage:* - +
+*MP-Kosten:* siehe Beschreibung +
+*Beschreibung:* Dieser Zusatz besteht aus einer semi-transparenten Kammer, in der eine neblige Masse wabert.
+Weiterhin benötigt dieser Zusatz einige Rohre, die am Körper des Golems von der Kammer aus verlaufen.
+Die Rohre enden in trichterförmigen Aufsätzen, die durch ein engmaschiges Netz abdeckt sind.
+
+Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] kann der Golem mit ein Einsatz der MP-Kosten (siehe auch unten stehende Tabelle) den Effekt des Zauberspruches link:../../../spells/spell_fog.adoc[Nebel] in einem Radius von 12,00 Metern um sich herum erzeugen.
+
+Je nach MP-Kosten bestimmt der Golem die Intensität des Nebels:
+
+|===
+|MP-Kosten |Nebel-Effekt
+
+|5
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[geringe Deckung] (-1 auf die Würfe zum Erfolg)
+
+|10
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[mittlere Deckung] (-2 auf die Würfe zum Erfolg)
+
+|20
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[starke Deckung] (-3 auf die Würfe zum Erfolg)
+
+|40
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[totale Deckung] (-4 auf die Würfe zum Erfolg)
+|===
+
+Der Golem kann den Nebel durch eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] in seiner Kampfphase beenden.

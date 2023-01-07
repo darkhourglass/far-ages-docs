@@ -1,0 +1,266 @@
+= Rüstungen
+
+// TODO Move TABLES here, move Rules to "BATTLE", move prices/mods for size to "ADVENTURES"
+xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 3]
+
+|===
+|Name |Größe |Rüstungsschutz |Trefferzonen |Gewicht |Preis |Eigenschaften
+
+|Armschienen (Leder)
+|5
+|4
+|Arme
+|1
+|10
+|
+
+|Armschienen (Platte)
+|5
+|5
+|Arme
+|2
+|20
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Armschienen (Schwarzholz)
+|5
+|6
+|Arme
+|1
+|750
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Armschienen (Titan)
+|5
+|8
+|Arme
+|4
+|2500
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 2], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+
+|Beinschienen (Leder)
+|5
+|4
+|Beine
+|1
+|10
+|-
+
+|Beinschienen (Platte)
+|5
+|5
+|Beine
+|2
+|20
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+
+|Beinschienen (Schwarzholz)
+|5
+|6
+|Beine
+|1
+|750
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Beinschienen (Titan)
+|5
+|8
+|Beine
+|4
+|2500
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 2], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+
+|Brustpanzer
+|5
+|6
+|Torso
+|8
+|30
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+
+|Gehärtetes Leder
+|5
+|6
+|Torso, Rücken
+|5
+|45
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 2]
+
+|Gestepptes Leder
+|5
+|5
+|Torso, Rücken
+|4
+|25
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Langes Kettenhemd
+|5
+|7
+|Torso, Rücken, Beine
+|22
+|90
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 2]
+
+|Lederhaube
+|5
+|4
+|Kopf
+|1
+|10
+|-
+
+|Lederweste
+|5
+|4
+|Torso
+|3
+|15
+|-
+
+|Kettenhaube
+|5
+|5
+|Kopf
+|2
+|15
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Kettenhemd
+|5
+|7
+|Torso, Rücken
+|20
+|70
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+
+|Kettenpanzer
+|5
+|7
+|Torso, Rücken, Arme, Beine
+|26
+|100
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 2], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 3]
+
+|Kristallfadenrobe
+|5
+|6
+|Torso, Rücken, Beine
+|4
+|4000
+|-
+
+|Pelzrüstung
+|5
+|4
+|Torso, Rücken
+|3
+|15
+|-
+
+|Plattenrüstung
+|5
+|8
+|Torso, Rücken, Beine, Arme
+|50
+|200
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 3], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 3]
+
+|Ringpanzer
+|5
+|8
+|Torso, Rücken, Beine
+|24
+|80
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 3], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 3]
+
+|Ritterrüstung
+|5
+|9
+|Torso, Rücken, Beine, Arme, Kopf
+|60
+|500
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 4], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 3]
+
+|Rückenpanzer
+|5
+|6
+|Rücken
+|8
+|30
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+
+|Schwarzholz-Harnisch
+|5
+|10
+|Torso, Rücken, Beine
+|20
+|1800
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 2], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 2]
+
+|Silberweidenweste
+|5
+|7
+|Torso, Rücken, Beine
+|3
+|6000
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 1]
+
+|Titanen-Harnisch
+|5
+|12
+|Torso, Rücken, Beine
+|50
+|10000
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 3], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 2]
+
+|Topfhelm
+|5
+|6
+|Kopf
+|4
+|20
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Tuchrüstung
+|5
+|1
+|Torso, Rücken
+|2
+|10
+|-
+
+|Vollhelm
+|5
+|7
+|Kopf
+|6
+|30
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 1]
+
+|Vollhelm (Titan)
+|5
+|9
+|Kopf
+|5
+|3000
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 2]
+
+|Vollplatte aus Adamantium
+|5
+|15
+|Torso, Rücken, Bein, Arme
+|70
+|25000
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 3], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 3], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_unbreakable[Unnachgiebig]
+
+|Vollkette aus Titan
+|5
+|10
+|Torso, Rücken, Arme, Beine
+|40
+|4000
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_initiative_malus[INI-Malus 4], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_armor_tag_dexterity_malus[GE-Malus 4]
+
+|===
+

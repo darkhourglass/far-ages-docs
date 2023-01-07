@@ -1,10 +1,108 @@
 = Magierträger
 
-*Materialkosten:* +
-*Konstruktionszeit:* +
-*Zaubersprüche:* +
-*Erfolge:* +
-*GK:* +
-*MP:* +
-*MP-Regeneration:* +
-*Beschreibung:* +_
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* tba +
+*Erfolge:* siehe Beschreibung +
+*GK:* 6 - 10 +
+*MP:* siehe Beschreibung +
+*MP-Regeneration:* - +
+*Beschreibung:* Als Magierträger wird eine innovative Erfindung der Technomanten in der Steuerung von Golems bezeichnet.
+Anstelle einer autonomen Maschine wird der Golem durch eine Kreatur gesteuert, die direkt in seinen Torso einsteigt.
+Die namensgebende Spezialisierung kommt daher, dass die verbindende Technomantie nur für Magier geeignet ist und gleichzeitig die magischen Fähigkeiten dieses verstärkt.
+Auch wenn die Zelle der Magierträger ist, wird oft der gesamte Golem als Magierträger bezeichnet.
+
+Ein Golem mit dieser Variante der Energiezelle ist mehr ein Vehikel für einen Magier, der nun neben seinem Zauber-Arsenal in einer sehr stabilen und schützenden Hülle sitzt und gefährliche Golem-Waffen einsetzen kann.
+
+Die Zelle besteht aus einer komplizierten Konstruktion, in der Magier eingehängt wird.
+Seine Arme und Beine werden an detaillierte Verbindungselemente geschnallt, so dass seine Bewegungen direkt an den Golem übertragen werden.
+Ist der Magier in den Golem eingesetzt, hat er selbst keinen Bewegungsspielraum.
+
+Jede Kreatur, die das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit Talentstufe 1 oder höher beherrscht, kann den Golem steuern und verwenden.
+Weiterhin muss die Kreatur mindestens 2 Punkte in ihrer xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] kleiner sein als der Golem, um in die Magierträger hineinzupassen.
+In einem Magierträger der GK 6 kann also ein Magier der GK 4 einsteigen, in einen Magierträger der GK 7 ein Magier der GK 5 oder 4 und so weiter.
+Magierträger werden nur in den Größenkategorien 6 bis 10 hergestellt und die folgende Tabelle zeigt die abhängigen Werte zur GK.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |MP
+
+|6
+|40.000
+|12 Tage
+|10
+|140
+
+|7
+|56.000
+|16 Tage
+|12
+|250
+
+|8
+|80.000
+|16 Tage
+|14
+|400
+
+|9
+|128.000
+|18 Tage
+|15
+|750
+
+|10
+|160.000
+|20 Tage
+|16
+|1000
+|===
+
+
+Das xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_profile[Profil] des Golems wird nach den üblichen Regeln erstellt.
+Der Golem wird wie ein xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_mounted_combat[Reittier] für den Magier behandelt, wobei der Magier maximale Deckung erhält.
+
+Für diese Form der Energieversorgung gelten außerdem weitere Regeln.
+
+[[ref_golemparts_core_magecarrier_mishaps]]
+== Fehlfunktionen
+Erleidet der Magierträger (nicht der Magier selbst) nach den allgemeinen Regeln für link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] eine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_mishaps[Fehlfunktion], wird diese nach den vorgestellten Regeln bestimmt, jedoch wird eine eigene link:../../../../rules/tables/table_constructs_magecarrier_mishaps.adoc[Tabelle] verwendet.
+
+[[ref_golemparts_core_magecarrier_shared_attributs]]
+== Geteilte Attribute
+Die besondere Symbiose des Magierträgers ermöglicht es dem Magiers auf die außergewöhnliche Kraft und Stärke des Konstrukts zuzugreifen.
+
+Alle xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_attributeroles[Attributs-Proben], xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves[Rettungwürfe] und xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talent-Proben], die auf den körperlichen Attributen (ST, GE, KO) basieren und die der Magier normalerweise mit seinen Attributsstufen als Basis ausführen würde, dürfen mit den Attributsstufen des Golems benutzt werden.
+Der Magier muss jedoch immer seine Talent-Stufen verwenden, auch wenn der Golem eventuell die gleichen Talente besitzt.
+
+.Geteilte Attribute
+====
+Ein Magier ST-Stufe 2 und einem Nahkampfwaffentalent mit Stufe 3 würde normalerweise 5W10 für eine Probe auf Nahkampfwaffen zur Verfügung haben.
+Sitzt dieser Magier in einem Magierträger mit einer ST-Stufe von 10, hat er stattdessen 13W10 für die Probe zur Verfügung.
+====
+
+Für vergleichbare Proben für die Attribute ER, EN, SB und CH werden immer nur die Attributsstufen des Magier herangezogen.
+
+[[ref_golemparts_core_magecarrier_shared_energy]]
+== Geteilte Energie
+Die xref:../../../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP-Pools] des Magiers und des Golems gelten weiterhin als zwei getrennte Pools.
+Der Einsatz von Fähigkeiten und Talenten, die den Golem MP kosten, müssen weiterhin immer von seinem Pool abgezogen werden.
+Dennoch kann der Magier den Pool des Magierträgers wie seinen eigenen Pool verwenden.
+Er kann außerdem als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] eine beliebige Anzahl seiner MP an den Golem übertragen.
+[[ref_golemparts_core_magecarrier_full_controll]]
+
+[[ref_golemparts_core_magecarrier_full_controll]]
+== Volle Kontrolle
+Ein Magier besitzt die volle Kontrolle über das Konstrukt, sodass er in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] folgende Optionen hat:
+
+* Als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] kann der Magier sein xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Talent] normal einsetzen.
+Er kanalisiert seine arkane Energie durch den Körper des Golems.
+* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] des Golems, wie zum Beispiel der Einsatz einer Bewaffnung, basiert auf der gleichen Aktion.
+Das bedeutet, der Magier muss sich entscheiden, welche Aktion er genau durchführen möchte.
+* Der Magier nutzt immer die Bewegung des Golems
+* Grundsätzlich kann der Magier jedoch nur Aktionen oder Manöver durchführen, die Golem auch könnte.
+Kann der Magier beispielsweise fliegen, der Golem ab nicht, kann er dieses Manöver nicht nutzen.
+
+Der Golem kann nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden und gilt als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[inaktiv], wenn kein Magier den Golem besetzt.
+
+Weiterhin muss der Magier jederzeit bei xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Bewusstsein] und nicht xref:../../../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death[tod] sein, um den Golem steuern zu können.
+Treten diesen Fälle ein, gilt der Golem ebenso als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[inaktiv].

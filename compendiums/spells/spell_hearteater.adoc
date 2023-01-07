@@ -1,0 +1,35 @@
+= Herzfresser
+
+*Arkanes Geheimnis:* Ja +
+*POT:* 12 +
+*Rettungswurf:* Ja (xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO]) +
+*Komponenten:* Ein ritueller Dolch +
+*Fokus:* Körper, Schatten+
+*Vorbereitung:* 20 Minuten (Ritual) +
+*Anzahl der Erfolge:* 10 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur +
+*Dauer:* Sofort +
+*Effekt:* In einem blutigen Ritual schneidest Du einer lebenden Kreatur das Herz heraus, um es zu essen.
+Dadurch lernst Du ihre Geheimnisse.
+
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] entfernst Du das Herz der Kreatur aus ihrer Brust.
+Sie xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death_instant_death[stirbt sofort].
+Innerhalb von 1 Minute nach Wirkung des Zauberspruches musst Du das Herz roh gegessen haben.
+
+Erfüllst Du diese Voraussetzung, kannst Du eine der folgenden Optionen wählen:
+
+* Du lernst ein Talent, das die Kreatur besessen hat.
+Hast Du bereits mindestens eine Talentstufe in diesem Talent, erhälst Du sofort eine weitere Talentstufe.
+Beherrschst Du das Talent noch nicht, lernst Du es sofort mit Talentstufe 1 und SGM 1.
+* Du lernst eine Fähigkeit, die die Kreatur besessen hat.
+Dabei musst Du die Voraussetzungen nicht erfüllen.
+* Du lernst einen Zauberspruch, den die Kreatur gelernt hat.
+Um diesen letztendlich aussprechen zu können, musst Du die üblichen Voraussetzungen erfüllen.
+* Du lernst ein Geheimnis Deiner Wahl, über das die Kreatur Bescheid weiß.
+
+In jedem Fall musst Du keine Deiner CP einzusetzen.
+
+*Zusätzliche Effekte:* +
++30 MP, +3 POT: Wähle eine weitere der vorgestellten Optionen.
+Dieser Effekt ist kumulativ.

@@ -55,7 +55,7 @@ Für diese Zaubersprüche gelten folgenden Sonderregeln:
 
 * Die Zaubersprüche werden als xref:../../core/core_rules_magic_base.adoc#ref_magic_schools_alchemy_formulas[Formulas], auch wenn der Zauberer die Zauberspruchliste xref:../../core/core_rules_magic_base.adoc#ref_magic_schools_alchemy[Alchemie] nicht verwendet.
 Es gelten die üblichen Regeln für Formulas.
-* Die xref:../../core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[Vorbereitung] der Zaubersprüche beträgt nicht Kampfphasen, sondern Stunden.
+* Die xref:../../core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_preparation[Vorbereitung] der Zaubersprüche beträgt nicht Kampfphasen, sondern Stunden.
 * Es sind zusätzliche xref:../../core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_components_ingredients[Komponenten] im Wert von 100 Silbermünzen pro Punkt in POT nötg.
 * Alle Untoten, die durch diese Zaubersprüche erschaffen werden, gelangen automatisch und permanent unter die xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_control[Kontrolle] des Fleischskulpteur.
 Außerdem erleiden sie keinen xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_decay[Zerfall].

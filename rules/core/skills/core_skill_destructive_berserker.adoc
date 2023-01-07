@@ -1,0 +1,10 @@
+= Zerstörerischer Kampfrausch
+
+*Voraussetzungen:* link:core_skill_berserker.adoc[Berserker] +
+*Überanstrengung:* - +
+*CP-Kosten:* 200 +
+*Beschreibung:* Die Fähigkeit verbessert link:core_skill_berserker.adoc[Kampfrausch I].
+
+Mit dieser Fähigkeit lernt der Charakter seinen Rausch so zu kanalisieren, dass er besonders hart zu schlagen kann.
+Die xref:../core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenswürfe] im Nahkampf des rasenden Charakters erhalten nun einen Bonus von +4.
+Allerdings erhöht sich sein xref:../core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_values[Malus] auf die xref:../core_rules_d10_system.adoc#ref_core_defendingroll[Verteidigungswürfe] auf -2.

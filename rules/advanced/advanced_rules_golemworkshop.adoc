@@ -222,6 +222,9 @@ Diese Angabe listet das mit dieser Bewaffnung gelernte Talent und die passende T
 Die xref:../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talentstufe] enthält noch keine Berücksichtigung der xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attributeroles[Attributsstufe] des Golems.
 Die Angabe eines Talents bedeutet immer, dass die Angriffsprobe für diese Bewaffnung mit diesem Talent gewürfelt werden muss und damit üblicherweise eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] ist.
 
+*MP-Kosten:* Benötigt der Einsatz dieser Bewaffnung (ggf. damit zusätzlich zur Talent-Aktivierung) MP, so sind diese hier als Zahl angegeben.
+Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[Pool] abziehen.
+
 *Beschreibung:* Dieser Abschnitt beschreibt die Bewaffnung und kann weitere Regeln und Besonderheiten enthalten.
 
 [[ref_golemworkshop_creation_steps_movement]]
@@ -330,6 +333,9 @@ Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch ges
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
 
 *Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_additions_heavy,schwere Zusätze>>.
+
+*MP-Kosten:* Benötigt der Einsatz dieses Zusatzes, so sind diese hier als Zahl angegeben.
+Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[Pool] abziehen.
 
 *Beschreibung:* Dieser Abschnitt beschreibt den Zusatz im Detail und kann weitere Regeln und Besonderheiten enthalten.
 
@@ -461,7 +467,7 @@ Diese bestimmt die initialen Attributsstufen, welche sich aus der nachfolgenden 
 |===
 
 Andere Komponenten, zum Beispiel die <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>>, können Modifikatoren auf Attributsstufen enthalten.
-Diese sind nach der Bestimmung der Attributsstufen aus der GK anzuwenden und vor der Bestimmung der <<ref_golemworkshop_steps_profile_secondary_attributes,Attributseigenschaften des Golems>>.
+Diese sind nach der Bestimmung der Attributsstufen aus der GK anzuwenden und vor der Bestimmung der <<ref_golemworkshop_creation_teps_profile_secondary_attributes,Attributseigenschaften des Golems>>.
 
 .Attributsstufen
 ====
@@ -470,7 +476,7 @@ Diese Bewaffnung gewährt einen Bonus von +1 GE und +1 ST.
 Seine Stufen in diesen beiden Attributen ergeben daher jeweils 6+1 = 7.
 ====
 
-[[ref_golemworkshop_steps_profile_secondary_attributes]]
+[[ref_golemworkshop_creation_teps_profile_secondary_attributes]]
 ===== Attributseigenschaften
 
 Wenn die finalen <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> bestimmt sind, erhalten alle Golems nach den üblichen Regeln xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Attributseigenschaften].
@@ -505,7 +511,7 @@ Die Summe der Basis-Machtstufe plus alle weiteren Modifikatoren ergibt die final
 Ein Golem mit link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[humanoiden Chassis] und einer GK von 6 hat eine Machtstufe von 7.
 ====
 
-[[ref_golemworkshop_steps_profile_talents]]
+[[ref_golemworkshop_creation_steps_profile_talents]]
 ===== Talente und Talentstufen
 
 Der Golem erhält nur Talente, wenn seine Komponenten diese explizit aufführen.
@@ -516,20 +522,20 @@ Die finale xref:../../rules/core/core_rules_charactercreation.adoc#ref_character
 
 .Talentstufen
 ====
-Ein Golem mit Attributstufe 3 in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] erhält den Zusatz link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens], der das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] mit Talentstufe 5 gewährt.
+Ein Golem mit Attributsstufe 3 in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] erhält den Zusatz link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens], der das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] mit Talentstufe 5 gewährt.
 Damit erhält der Golem dieses Talent mit Stufe 8.
 ====
 
-[[ref_golemworkshop_steps_profile_skills]]
+[[ref_golemworkshop_creation_steps_profile_skills]]
 ===== Fähigkeiten
 
-Alle Golems, die nach den Regeln dieses Kapitels erschaffen wurden, erhalten automatisch die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] und damit einen zusätzliche, Machtstufe-abhängigen Bonus auf einige ihrer <<ref_golemworkshop_steps_profile_secondary_attributes,Attributseigenschaften>>.
+Alle Golems, die nach den Regeln dieses Kapitels erschaffen wurden, erhalten automatisch die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] und damit einen zusätzliche, Machtstufe-abhängigen Bonus auf einige ihrer <<ref_golemworkshop_creation_teps_profile_secondary_attributes,Attributseigenschaften>>.
 
 Golems erhalten außerdem alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_skills[Fähigkeiten] auf Basis ihres Kreaturentyps.
 
 Weitere Fähigkeiten erhalten Golems nur, wenn ihre Komponenten diese explizit gewähren.
 
-[[ref_golemworkshop_steps_commander]]
+[[ref_golemworkshop_creation_steps_commander]]
 ==== Befehlshaber
 
 Jeder Golem wird üblicherweise mit einem (oder mehreren) *Befehlshabern* verbunden.
@@ -711,6 +717,119 @@ Das Konstrukt vermag im Gegensatz zu dem Modus <<ref_golemworkshop_programming_m
 So ist es durchaus möglich, dass der bereits öfters erwähnte Holzfällergolem mit diesem Modus in der Lage wäre, sein Protokoll so zu nutzen, dass er zum Angriff übergehen könnte.
 Dennoch können Konstrukte nicht über ihre gegebenen Möglichkeiten hinauswachsen, es ist also unmöglich einem Konstrukt das Schwimmen beizubringen, wenn seine Konstruktion diese Tätigkeit nicht zulässt.
 
+[[ref_golemworkshop_steps_example]]
 ==== Beispiel
 
-// baue Alvahian Battlegolem Mark VII
+Zur besseren Erläuterung der einzelnen Schritte und den Vorgang des Zusammenbaus stellen wir den link:../../bestiary/constructs/bestiary_construct_alvahian_battlegolem_markVII.adoc[Schlachtengolem VII] zusammen.
+Dieser Golem wurde anhand der Regeln aus diesem Kapitel erstellt.
+
+Der Golem besteht aus folgenden Einzelteilen:
+
+* *<<ref_golemworkshop_creation_steps_chassis,Chassis:>>* link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Humanoides Chassis] xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 6
+* *<<ref_golemworkshop_creation_steps_core,Energieversorgung:>>* link:../../compendiums/golemworkshop/parts/core/golems_part_core_basiccells.adoc[Standardzelle]
+* *<<ref_golemworkshop_creation_steps_movement,Bewegung:>>* link:../../compendiums/golemworkshop/parts/movement/golems_part_movement_legs_2.adoc[2 Beine]
+* *<<ref_golemworkshop_creation_steps_weaponary,Bewaffnung:>>* link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]
+* *<<ref_golemworkshop_creation_steps_weaponary,Bewaffnung:>>* link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer]
+* *<<ref_golemworkshop_creation_steps_plating,Panzerung:>>* link:../../compendiums/golemworkshop/parts/plating/golems_part_plating_steel_half.adoc[Stahlpanzerung (Halb)]
+* *<<ref_golemworkshop_creation_steps_additions,Zusatz:>>* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens]
+* *<<ref_golemworkshop_creation_steps_additions,Zusatz:>>* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_force_field.adoc[Kraftfeld]
+
+Wie beschrieben, definiert die GK 6 des Chassis die GK der weiteren Einzelteile, soweit nötig.
+
+Zunächst müssen die Einzelteile jeweils erstellt werden.
+Die folgende Tabelle zeigt für diese eine Übersicht für die wichtigsten Eckdaten.
+
+
+|===
+|Teil |Kosten (Silbermünzen) |Dauer (Tage) |Nötige Erfolge
+
+|Humanoides Chassis
+|100.000
+|30
+|6
+
+|Standardzelle
+|20.000
+|7
+|5
+
+|2 Beine
+|60.000
+|18
+|8
+
+|Kriegshammer
+|6.500
+|4
+|4
+
+|Flammenwerfer
+|10.000
+|7
+|5
+
+|Stahlpanzerung (Halb)
+|30.000
+|12
+|8
+
+|Schaltkreis des Ausweichens
+|20.000
+|5
+|7
+
+|Kraftfeld
+|50.000
+|14
+|7
+
+|*Gesamt*
+|*296.500*
+|*97*
+|-
+|===
+
+Sind alle Einzelteile vollständig erstellt und die <<ref_golemworkshop_creation_steps_finale,abschließende Technomantie-Probe>> erfolgreich, ist der Golem funktionsbereit.
+Das Profil kann nun zusammengestellt werden.
+
+Als Basis-Attributsstufen ergeben sich aufgrund seiner GK von 6 folgende Werte:
+
+*ST:* 6 +
+*GE:* 2 +
+*KO:* 6 +
+*ER:* 2 +
+*EN:* 2 +
+*SB:* 3 +
+*CH:* 1 +
+
+Aufgrund der Einzelteile Chassis und Kriegshammer erhält der Golem weitere Boni, so dass sich folgende Attributsstufen ergeben:
+
+*ST:* 6 + 3 + 1 = 10 +
+*GE:* 2 + 1 = 3 +
+*KO:* 6 + 1 = 7 +
+*ER:* 2 +
+*EN:* 2 +
+*SB:* 3 +
+*CH:* 1 +
+
+Nun können die Attributseigenschaften berechnet werden, wobei die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] berücksichtigt werden muss.
+
+*WID:* 26 (folgt aus KO + 6 aus Maschinenüberlegenheit)  +
+*BEW:* 12,00 Meter (Basis 9,00 durch GK +3,00 Meter aus Bewegungsoption) +
+*INI:* GE+ER = 5  +
+*MaxTL:* 290 (folgt aus ST +140 aus Maschinenüberlegenheit) +
+*MaxPOT:* 5 (folgt aus EN) +
+
+Das Gleiche gilt für die Pools des Golems:
+
+*TP:* ((ST+KO) * 5)+ 60 = 145 +
+*MP:* 140 (ergibt sich aus verbauter Standardzelle) +
+*SP:* (SB+CH) * 5 = 20 +
+
+Außerdem lernt der Golem die Talente xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] (Kriegshammer), xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] (Flammenwerfer) und xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] (Schaltkreis des Ausweichens).
+Nahkampfwaffen und Wurfwaffen sind aufgrund ihrer Definition aus ihren Einzelteilen ST-basiert, damit ergeben sich die Talentstufen 16 beziehungsweise 15 (ST des Golems 10 + Talentstufe aus der Bewaffnung).
+Analog ergibt sich die Talentstufe für Hieb ausweichen von 8 (GE-basiert).
+
+Um das Profil zu vervollständigen, müssen noch Fähigkeiten aus dem primären link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Kreaturentyp] hinzugefügt werden.
+Der Golem besitzt keinen sekundären Kreaturentyp.
+Das vollständige Profil findet sich im passenden Eintrag im link:../../bestiary/constructs/bestiary_construct_alvahian_battlegolem_markVII.adoc[Bestiarium].

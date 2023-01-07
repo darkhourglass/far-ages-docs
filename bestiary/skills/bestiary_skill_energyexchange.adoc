@@ -1,6 +1,7 @@
 = Energieaustausch
 
 *Voraussetzungen:* link:bestiary_skill_attack_energydrain.adoc[Energieentzug] +
+*Typ:* Passiv, Verstärkung +
 *CP:* tba +
 
 Verwendet die Kreatur die Fähigkeit link:bestiary_skill_attack_energydrain.adoc[Energieentzug] kann sie als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] die entzogenen Punkte einem anderen xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools[Pool] zuweisen.

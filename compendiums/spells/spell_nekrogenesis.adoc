@@ -3,7 +3,7 @@
 *Arkanes Geheimnis:* Ja +
 *POT:* 15 +
 *Rettungswurf:* Nein +
-*Komponenten:* Formel, Gesten, seltene magische Zustaten im Wert von 10000 Silbermünzen +
+*Komponenten:* Formel, Gesten, seltene magische Zutaten im Wert von 10000 Silbermünzen +
 *Fokus:* Ebon +
 *Vorbereitung:* 4 Stunden (R) +
 *Anzahl der Erfolge:* 12 +
@@ -15,21 +15,24 @@ Das Ziel muss während der Vorbereitung des Zauberspruches auf rituelle Weise ge
 Während dieser Zeit wird eine dunkle, schwarze Energie direkt von Ebon heraufbeschworen, die sich an den alten Platz des Herzens setzt und sich dort zu einer abscheulichen Masse verdickt.
 // TODO link
 Alle Teilnehmer am Ritual, außer dem Ziel, müssen mit einer Aura des Lebens (Nekromantie 4) verzaubert sein, oder die Energie stiehlt ihnen während des Rituals 2W20+10 TP und 3W10 MP.
-Geschieht dies, so nimmt die Energie diese gestohlenen TP und MP mit in den zukünftigten Untoten und stellt sie ihm zur Verfügung (addiere die gewürfelten und tatsächlich abgezogegen TP und MP dauerhaft in das Profil des neuen Untoten).
+
 Ist die Spruchzauberei-Probe erfolgreich, so wird das Ziel ein link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoter] der Machtstufe 11 oder höher.
 
-Als mögliche Schablonen stehen zur Verfügung:
+Folgende Schablonen stehen beispielsweise zur Verfügung:
 * link:../../bestiary/undead/bestiary_undead_embalmed.adoc[Einbalsamierter]
 * link:../../bestiary/undead/bestiary_undead_embalmed_sorcerer.adoc[Einbalsamierter Zauberer]
 * link:../../bestiary/undead/bestiary_undead_scourge.adoc[Geißel]
-* xref:../../bestiary/undead/bestiary_undead_scourge.adoc#ref_bestiary_undead_frostscourge[Frostgeißel]
 * link:../../bestiary/undead/bestiary_undead_darkmaster.adoc[Dunkler Meister]
 
 Es gelten die Regeln zur Erschaffung der jeweiligen Untoten.
+Erfordern die Schablonen weitere Voraussetzungen oder Zutaten, sind diese zu erfüllen, sonst schlägt der Zauberspruch fehl.
 
-Ein Misserfolg bzw. Patzer hat einige unangenehme, zusätzliche Folgen.
+Ein Misserfolg oder Patzer hat einige unangenehme, zusätzliche Folgen.
 Das Ziel wird dann auf jeden Fall komplett vernichtet.
-Mit einer Chance von 4 oder mehr auf einem W10 wird das Ziel zu einer link:../../bestiary/undead/bestiary_undead_toturedsoul.adoc[gequälten Seele] oder einem link:../../bestiary/undead/bestiary_undead_darkman.adoc[Schwarzen Mann] (SL-Entscheid).
+
+Bei einem Misserfolg passiert nichts weiter.
+Im Fall eines Patzers, würfel 1W10.
+Bei einem Ergebnis von 4 oder mehr zu einer link:../../bestiary/undead/bestiary_undead_toturedsoul.adoc[gequälten Seele] oder einem link:../../bestiary/undead/bestiary_undead_darkman.adoc[Schwarzen Mann] (SL-Entscheid).
 Alle Teilnehmer des Rituals erleiden im Falle eines solchen Ereignisses einen weiteren Verlust von 2W10+20 TP und 3W10 MP.
-Sterben sie dadurch, erleiden sie dasselbe Schicksal wie das Ziel. +
+Sterben diese dadurch, erleiden sie dasselbe Schicksal wie das Ziel. +
 *Zusätzliche Effekte:* - +

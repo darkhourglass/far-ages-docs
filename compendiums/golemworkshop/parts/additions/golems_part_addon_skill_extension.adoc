@@ -1,0 +1,48 @@
+= Fähigkeiten-Erweiterung
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*Montage:* - +
+*MP-Kosten:* - +
+*Beschreibung:* Mit diesem Zusatz wird einem Golem das Wissen einprogrammiert, um eine beliebige xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp_skills[Fähigkeit] zu erlernen.
+Er kann dieser Fähigkeit wie jeder Charakter (oder eine Kreatur) einsetzen.
+
+Es gilt, dass der Golem jedoch weiterhin die Voraussetzungen erfüllen muss, die es normalerweise erfordert, um die Fähigkeit zu lernen, um die Fähigkeit einzusetzen.
+Es bringt also nichts, diesen Zusatz mit einer Fähigkeit zu programmieren und in einen Golem einzusetzen, dem beispielsweise erforderliche Talente fehlen.
+
+[NOTE]
+Zur Vereinfachung der möglichen Konstellationen für diesen Zusatz kann die Regeln angewendet werden, dass der Golem nur die erforderlichen Talente benötigt, nicht jedoch die exakten Talent-Stufen und andere abhängige Fähigkeiten.
+
+Abhängig von den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp[CP-Kosten] der Fähigkeit, die der Golem mit diesem Zusatz lernen soll, sind Materialkosten, Konstruktionszeit und Erfolge der nachfolgenden Tabelle zu entnehmen.
+Sollte eine Fähigkeit zwischen zwei Werten der Tabelle liegen, wird immer die nächst höhere Zeile angewendet.
+
+|===
+|CP-Kosten |Materialkosten |Konstruktionszeit |Erfolge
+
+|100
+|15.000
+|4 Tage
+|4
+
+|200
+|20.000
+|5 Tage
+|5
+
+|300
+|30.000
+|7 Tage
+|6
+
+|400
+|45.000
+|10 Tage
+|8
+
+|500
+|64.000
+|15 Tage
+|12
+|===

@@ -7,7 +7,8 @@
 *GK:* 1 - 10 +
 *Montage:* Arme +
 *Attribute:* +1 GE, +1 ST +
-*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (GE) +
+*MP-Kosten:* - +
 *Beschreibung:* Die Armklinge existiert in vielen Varianten.
 Allen gemein ist, dass der Golem eine scharfe Klinge am Arm trägt.
 Diese könnte beispielsweise wie ein Schwert gehalten werden, gerade oder gekrümmt sein.
@@ -15,7 +16,7 @@ Manche Armklingen werden auch der Länge nach dem Arm des Golems angebracht.
 
 Die Armklinge wird wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed[Nahkampfwaffe] eingesetzt.
 Zur Schadensermittlung gelten die üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Regeln].
-Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] des Golems behandelt und einen individuellen Schadensbonus bei.
+Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] des Golems behandelt und einen individuellen Schadensbonus bei.
 
 Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] der Armklinge wie folgt ab:
 
@@ -82,3 +83,8 @@ Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/c
 |6
 |4W6
 |===
+
+[NOTE]
+Die Armklinge beschreibt eine Geschick-basierte Waffe für Golems, die auf flexible und gewandte Kampftaktiken setzen.
+Dieser Eintrag steht symbolisch für andere Waffen, die in vergleichbare Kategorien fallen.
+Kreative Spieler können diese Vorlage nutzen, um andere Varianten zu erschaffen.

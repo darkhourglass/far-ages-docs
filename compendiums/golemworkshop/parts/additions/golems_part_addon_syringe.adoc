@@ -1,0 +1,29 @@
+= Spritze
+
+*Materialkosten:* 30.000 +
+*Konstruktionszeit:* 4 Tage +
+*Zaubersprüche:* - +
+*Erfolge:* 6 +
+*Montage:* Arme +
+*MP-Kosten:* - +
+*Beschreibung:* Dieses teuflische Gerät ist ein kleiner Aufsatz, der auf den Arm eines Golems montiert werden kann.
+Der Aufsatz besitzt eine hohle Metallnadel, deren Spitze scharf genug ist, um leicht die Haut eines anderen Lebewesens zu durchdringen.
+Durch Schläuche und kleine Pumpen können sowohl Flüssigkeiten in das Opfer hineingepumpt oder auch herausgepumpt werden.
+Gerade die letzte Anwendung findet eher selten und bei nur den skrupellosesten Alchemisten Anwendung.
+
+Der Golem muss eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] einsetzen, um die Spritze zu verwenden.
+Die Spritze kann auf einen Arm montiert werden, die bereits eine Bewaffnung montiert hat, jedoch kann der Golem nur die Spritze oder nur die Bewaffnung mit der Aktion verwenden.
+Der Golem führt dazu eine xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] gegen die Zielkreatur aus.
+Diese muss mit dem Golem xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden] sein.
+Als Angriffsstufe kann der Golem xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] einsetzen, wenn er dieses Talent beherrscht.
+Ansonsten gilt die Angriffsprobe als xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles_untrainedcheck[ungeübte Anwendung] dieses Talents mit dem Attribut xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST].
+
+Bei einer erfolgreichen Angriffsprobe verursacht die Spritze genau 1 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schaden.
+Um das volle Potenzial der Spritze auszunutzen, benötigt der Golem mindestens 1 link:golems_part_addon_storage_tank.adoc[Tankbehälter].
+Pro erfolgreicher Attacke kann er eine der folgenden Folgeaktionen durchführen:
+
+* Eine Einheit des Inhalts eines Tanks in die Zielkreatur leiten.
+Es muss sich dabei um eine Flüssigkeit handeln.
+Sollte es sich um eine schädliche Flüssigkeit handeln, wie zum Beispiel ein xref:../../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons[Gift], werden die Folgen entsprechend ausgespielt.
+* Er kann der Kreatur eine Einheit Blut entziehen und in einem leeren Tank speichern.
+Dies verursacht weitere 3W6 Schadenspunkte.

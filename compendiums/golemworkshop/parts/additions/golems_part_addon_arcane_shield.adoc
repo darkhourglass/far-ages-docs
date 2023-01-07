@@ -1,0 +1,19 @@
+= Arkaner Schild
+
+*Materialkosten:* 150.000 +
+*Konstruktionszeit:* 20 Tage +
+*Zaubersprüche:* tba +
+*Erfolge:* 12 +
+*Montage:* - +
+*MP-Kosten:* 10 MP +
+*Beschreibung:* Dieser Zusatz besteht aus einem schüsselförmigen Aufsatz, der bei Aktivierung ähnlich eines Radars zu rotieren beginnt.
+Dabei wird ein anti-magisches Schild erzeugt, dass den Golem vor arkanen Effekten schützt.
+
+Der Golem kann als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] und mit Einsatz der MP-Kosten den arkanen Schild aktivieren.
+Der arkane Schild hat keine maximale Dauer, sondern ist entweder an oder aus.
+Das Ausschalten des arkanen Schilds ist für den Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion].
+Zwischen der letzten Deaktivierung und der nächsten Aktivierung des arkanen Schilds müssen mindestens 10 Minuten liegen.
+
+Ist der Schild aktiviert, erhält der Golem einen Bonus von +10 auf die Würfel zum Erfolg auf alle xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magie-Abwehrproben] für Zaubersprüche, die ausschließlich ihn als xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_targets[Ziel] haben.
+Dies gilt auch für Zaubersprüche, die ihn nicht schädigen wollen.
+Der Golem kann in diesem Fall nicht auf die Magieabwehr-Probe verzichten.

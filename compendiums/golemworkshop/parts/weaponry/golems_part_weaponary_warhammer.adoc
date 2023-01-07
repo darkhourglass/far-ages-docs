@@ -1,0 +1,88 @@
+= Kriegshammer
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 1 - 10 +
+*Montage:* Arme +
+*Attribute:* +1 GE, +1 ST +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (ST) +
+*MP-Kosten:* - +
+*Beschreibung:* Der Kriegshammer ist eine schwere und zerstörerische Waffe, die an einem Arm eines Golems angebracht wird.
+Typische Modelle ersetzen die ganze Hand durch einen kunstvoll verzierten Hammerkopf.
+
+Der Kriegshammer wird wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed[Nahkampfwaffe] eingesetzt.
+Zur Schadensermittlung gelten die üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Regeln].
+Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] des Golems behandelt und einen individuellen Schadensbonus bei.
+
+Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] des Kriegshammers wie folgt ab:
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus
+
+|1
+|2.000
+|2 Tage
+|3
+|1W3
+
+|2
+|2.000
+|2 Tage
+|3
+|1W3
+
+|3
+|3.000
+|2 Tage
+|3
+|1W4
+
+|4
+|4.000
+|3 Tage
+|4
+|1W4
+
+|5
+|5.000
+|3 Tage
+|4
+|1W6
+
+|6
+|6.500
+|4 Tage
+|4
+|1W8
+
+|7
+|8.000
+|4 Tage
+|5
+|2W6
+
+|8
+|10.000
+|5 Tage
+|5
+|2W8
+
+|9
+|14.000
+|5 Tage
+|5
+|3W6
+
+|10
+|17.500
+|7 Tage
+|6
+|4W6
+|===
+
+[NOTE]
+Der Kriegshammer beschreibt eine Stärke-basierte, Einhand-Waffe für Golems, die die typischen Vorteile eines mechanischen Körpers betont.
+Dieser Eintrag steht symbolisch für andere Waffen, die in vergleichbare Kategorien fallen.
+Kreative Spieler können diese Vorlage nutzen, um andere Varianten zu erschaffen.

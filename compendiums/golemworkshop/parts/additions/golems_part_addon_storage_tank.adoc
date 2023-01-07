@@ -1,0 +1,81 @@
+= Tankbehälter
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* 3 +
+*Montage:* - +
+*MP-Kosten:* - +
+*Beschreibung:* Dieser Zusatz besteht primär aus einem großen Behälter aus einem stabilen Metall.
+Einzelne Rohre oder Schläuche verbinden den Tank mit anderen Teilen des Golems, je nach Bedarf.
+
+Tanks steht in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 zur Verfügung.
+Es gilt, dass ein Golem einer beliebigen GK nur Tanks bis maximal gleicher GK besitzen kann.
+Also kann beispielsweise ein Golem der GK 5 Tanks der Größen 1 bis 5 eingebaut bekommen.
+Abhängig von dem GK-Wert ergeben sich neben Materialkosten und Konstruktionszeit auch die *Lagermenge*.
+
+Die Lagermenge ist eine abstrakte Einheit, um den Füllstand des Tanks zu messen.
+Es gilt, dass pro Tank immer nur eine Art der Füllung gleichzeitig eingelagert sein kann, also eine Art der Flüssigkeit oder Gas.
+Andere Einzelteile (zum Beispiel andere Zusätze oder Bewaffnungen) können den Füllstand verändern.
+Beispielsweise benötigt der Zusatz link:golems_part_addon_storage_dispenser.adoc[Verteiler] zum Einsatz immer eine Einheit des passenden, eingelagerten Gases.
+Andersherum kann der Zusatz link:golems_part_addon_syringe.adoc[Spritze] den Tank durch entsprechenden Einsatz füllen.
+
+Es ist möglich, einen Tankbehälter durch einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack_aimedattack[gezielten Angriff].
+Es gelten dabei die Regeln für die xref:../../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_destroy_items[Zerstörung von Objekten] der entsprechenden GK und Material (Metall).
+Ein zerstörter Tankbehälter entlässt sofort seinen gesamten Inhalt in einem Radius von 3,00 Metern.
+
+Die folgende Tabelle zeigt die Übersicht der einzelnen Tankbehälter-Größen.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Lagermenge
+
+|1
+|500
+|2 Tage
+|2
+
+|2
+|500
+|2 Tage
+|3
+
+|3
+|750
+|2 Tage
+|4
+
+|4
+|1.000
+|3 Tage
+|6
+
+|5
+|1.250
+|3 Tage
+|7
+
+|6
+|1.500
+|4 Tage
+|8
+
+|7
+|2.000
+|4 Tage
+|10
+
+|8
+|4.000
+|5 Tage
+|12
+
+|9
+|7.000
+|5 Tage
+|14
+
+|10
+|9.000
+|7 Tage
+|18
+|===

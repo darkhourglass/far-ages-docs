@@ -10,73 +10,60 @@
 
 Lore
 
-== Attribute
+== Profil
 
-ST: XXX +
-GE: XXX +
-KO: XXX +
-ER: XXX +
-EN: XXX +
-SB: XXX +
-CH: XXX +
+*ST:* 10      *GE:* 3       *KO:* 7 +
+*ER:* 2       *EN:* 2       *SB:* 3     *CH:* 1 +
 
-== Pools
+*TP:* 145     *MP:* 140     *SP:* 20 +
 
-//TP=(ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
+*WID:* 26 +
+*BEW:* 12,00 Meter +
+*INI:* 5 +
+*MaxTL:* 290 +
+*MaxPOT:* 5 +
 
-TP: XXX +
-MP: XXX +
-SP: XXX +
+*Rüstung:* 6 (link:../../compendiums/golemworkshop/parts/plating/golems_part_plating_steel_half.adoc[Stahlpanzerung (Halb)]) +
+*Resistenzen:* +
 
-== Attributswerte
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
 
-// WID= 8 + (KO-1)*2
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
+*Immunitäten:* +
 
-WID: XXX +
-BEW: XXX +
-INI: XXX +
-MaxTL: XXX +
-MaxPOT: XXX +
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
 
 == Offensiv
 
-* Talent 1
-* Talent 2
-...
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 16 (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]: 1W8)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] 15 (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer]: 5W6) (erlaubt link:../skills/specific/constructs/bestiary_skill_constructs_overcharge.adoc[Überladen] (2W6 Feuer-Schaden, 5 MP))
 
 == Defensive
 
-* Talent 1
-* Talent 2
-...
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] 8 (link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens])
+* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_force_field.adoc[Kraftfeld]
 
 == Sonstiges
 
-* Talent 1
-* Talent 2
-
-== Primärer Kreaturentyp
-
-Die Kreatur erhält aufgrund ihres primären Kreaturentypes folgende Fähigkeiten:
-
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit]
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
-
-== Sekundäre Kreaturentypen
 
 == Regeln
 
-
+[[ref_bestiary_alvahian_battlegolem_markVII]]
+=== Machtstufe
+Dieser Schlachtengolem ist ein Konstrukt der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe] 7.
 
 
 

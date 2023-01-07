@@ -1,9 +1,13 @@
 = Rammen (Angriffsstufe, Schaden)
 
 *Voraussetzungen:* - +
+*Typ:* Angriff, ST +
 *CP:* tba +
 
-Die Ramm-Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Die Kreatur versucht mit purer Stärke und Körpergewicht sein Gegenüber zu rammen und damit zu Boden zu werfen.
+Manche Kreatur besitzen besondere Merkmale, die diese Art der Attacke unterstützen, wie beispielsweise ein Bock gekrümmte Hörner.
+
+Die Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
 Der Einsatz dieser Fähigkeit erfordert den Einsatz der komplexen Aktion xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions_charge[Sturmangriff].

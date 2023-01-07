@@ -5,6 +5,7 @@
 == Voraussetzungen
 
 Die Kreatur darf nicht folgende Schablonen bereits besitzen:
+
 * link:bestiary_template_sizemodification_giant.adoc[Riesig]
 * link:bestiary_template_sizemodification_small.adoc[Klein]
 * link:bestiary_template_collossus.adoc[Koloss]
@@ -32,17 +33,17 @@ Die Kreatur behält alle ihre Talente.
 Die Kreatur übernimmt alle Fähigkeiten.
 Sie erhält außerdem folgende hinzu:
 
-[[ref_megacollossus_skill_gk12]]
+[[ref_template_megacollossus_skill_gk12]]
 === Größenkategorie 12
 Die Kreatur gilt für alle Regeln als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie 12].
 Die physikalischen Dimensionen bleiben in diesem Fall dem SL überlassen.
 
-[[ref_megacollossus_skill_naturalarmor]]
+[[ref_template_megacollossus_skill_naturalarmor]]
 === Natürliche Rüstung
 Die Kreatur erhält die Fähigkeit link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] in Höhe von 25 Punkten.
 Besitzt sie bereits diese Fähigkeit, erhöhen sich die aktuellen Punkte in natürliche Rüstung um 25.
 
-[[ref_megacollossus_skill_trample]]
+[[ref_template_megacollossus_skill_trample]]
 === Zertreten
 Die Kreatur erlernt die Fähigkeit link:../skills/bestiary_skill_attack_trample.adoc[Zertreten].
 Seine Angriffsstufe entspricht seiner Stufe im Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenter Kampf].

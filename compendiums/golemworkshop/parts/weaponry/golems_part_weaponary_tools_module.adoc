@@ -1,0 +1,100 @@
+= Werkzeug-Modul
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* +
+*Montage:* - +
+*Attribute:* - +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_craft[Handwerk] 5 +
+*MP-Kosten:* - +
+*Beschreibung:* Neben dem Einsatz in der Schlacht und Abschreckung ist der praktische Einsatz von Golems in vielen Bereichen schwerer, körperlicher Arbeit.
+Somit sind Golems, die solche Arbeiten verrichten, weit verbreitet.
+Dieses allgemein gehaltene Modul bietet die Option, unterschiedliche Werkzeuge an einem Golem zu montieren.
+
+Die folgende Tabelle zeigt ein paar Beispiele für Varianten eines Golems, der als Handwerker hergestellt wurde.
+
+|===
+|Werkzeug |Handwerk |Beschreibung
+
+|Axt / Säge
+|Holzfäller
+|Diese Golems sind darauf spezialisiert, Bäume zu fällen und Holzstämme in beliebige Größen zu sägen.
+
+|Bohrer
+|Bergarbeiter
+|Diese Golems können unermüdlich eine große Menge Gestein zerkleinern und sind im Bergbau eingesetzt,
+
+|Drescher
+|Farmer
+|Üblicherweise in riesigen Maschinen verbaut, automatisieren diese Werkzeuge in der Landwirtschaft den Abbau von Weizen und vergleichbaren Getreidesorten.
+|===
+
+Es sind natürlich viel mehr Werkzeuge und Einsatzgebiete denkbar.
+Der Kreativität soll mit dieser kleinen Liste keine Grenze gesetzt sein.
+
+Werkzeuge existieren in allen xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien], jedoch werden die meisten industriell genutzten Golems in den Größen 5 bis 7 hergestellt.
+Werkzeuge können, müssen aber nicht auf Arme montiert sein.
+Sollten sie jedoch auf Armen montiert sein, wird angenommen, dass alle Arme die Bedingung des Werkzeugs erfordern.
+Dennoch sind die üblichen Modelle eines Golems immer auf genau diese eine Aufgabe, die das Werkzeug darstellt, fokussiert.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge
+
+|1
+|2.000
+|2 Tage
+|3
+
+|2
+|2.000
+|2 Tage
+|3
+
+|3
+|3.000
+|2 Tage
+|3
+
+|4
+|4.000
+|3 Tage
+|4
+
+|5
+|5.000
+|3 Tage
+|4
+
+|6
+|6.500
+|4 Tage
+|4
+
+|7
+|8.000
+|4 Tage
+|5
+
+|8
+|10.000
+|5 Tage
+|5
+
+|9
+|14.000
+|5 Tage
+|5
+
+|10
+|17.500
+|7 Tage
+|6
+|===
+
+
+[NOTE]
+Ein Golem, der ein Werkzeug montiert erhält, ist üblicherweise kein Kämpfer und kann das Werkzeug nicht offensiv einsetzen, auch wenn dieses regeltechnisch unter Bewaffnung fällt.
+Dennoch ist eine Axt, eine Säge oder vergleichbares Werkzeug nicht ungefährlich.
+Sollte es nötig sein, verwende die Abgaben zum Angriff für ein Werkzeug die Werte eines link:golems_part_weaponary_warhammer.adoc[Kriegshammers] in passender GK.

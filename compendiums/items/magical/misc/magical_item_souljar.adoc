@@ -1,0 +1,28 @@
+= Seelengefäß
+
+*Speziell:* - +
+*Machtstufe:* 6 (legendär) +
+*Bindung:* 1 TP +
+*CP:* 1000 +
+*Beschreibung:* Diese delikate, mit Gold und Silber verzierte Schatulle enthält scheinbar nichts, nur fein gravierte Runen lassen ihre magische Natur vermuten.
+
+Seelengefäße kommen in vielen Größen, Formen und Gestaltungen.
+Ihnen allen gemein ist, dass sie auf die eine oder andere Weise ein Gefäß oder Behälter darstellen.
+Weiterhin sind sie äußerst selten und begehrt.
+
+Ein ungebundenes Seelengefäß kann durch eine beliebige Kreatur durch den Einsatz von 1 TP gebunden werden.
+Dieser Trefferpunkt kann erst xref:../../../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[geheilt] werden, wenn das Seelengefäß nicht mehr an die Kreatur gebunden ist.
+Jedes Seelengefäß kann immer nur an eine Kreatur gebunden werden.
+Nachdem das Seelengefäß einmal gebunden wurde, kann es nie wieder an eine andere Kreatur gebunden werden.
+Eine Kreatur kann zu jedem Zeitpunkt zu maximal einem Seelengefäß gebunden sein.
+
+xref:../../../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death[Stirbt] die Kreatur während das Seelengefäß an sie gebunden ist, wird ihre Seele im Seelengefäß konserviert.
+24 Stunden nachdem sie gestorben ist, formt das Seelengefäß einen neuen, identischen, allerdings nackten Körper der Kreatur und belebt diesen mit der Seele der Kreatur.
+Die Kreatur besitzt alle Talente, Fähigkeiten und Wissen bis zum Zeitpunkt ihres Todes.
+Ausrüstung und Gegenstände, die die Kreatur zum Zeitpunkt des Todes von der Kreatur getragen wurden, verbleiben jedoch an ihrem alten Körper.
+
+Nachdem das Seelengefäß die Kreatur einmal wiederbelebt hat, zerfällt es zu Staub.
+Danach kann die Kreatur den zur Bindung eingesetzten TP regenerieren.
+
+Wird das Seelengefäß vor seinem Einsatz zerstört, kann die Kreatur den TP wieder regenerieren.
+Die Bindung ist aufgehoben.

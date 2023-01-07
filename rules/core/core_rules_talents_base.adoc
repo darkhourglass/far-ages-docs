@@ -101,7 +101,7 @@ Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
 *Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
-Das verwandte Attribut ist von der xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_weapons_attribut[Waffe] anhängig, die verwendet wird.
+Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_resist_throwdown]]
 === Niederschlag Widerstehen
@@ -127,7 +127,7 @@ Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 *Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
-Das verwandte Attribut ist von der xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_weapons_attribut[Waffe] anhängig, die verwendet wird.
+Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_riding]]
 === Reiten
@@ -153,9 +153,13 @@ Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 === Unbewaffneter Kampf
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* GE +
+*Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Mit diesem Talent kann sich der Charakter auch ohne Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
+Dieses Talent kann mit dem Attribut xref:core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] oder xref:core_rules_charactercreation.adoc#ref_attribute_strength[ST] gewürfelt werden.
+Der Charakter oder die Kreatur muss diese Entscheidung mit Ansage der Talentprobe festlegen.
+Manche Attacken können das Attribut fest vorgeben.
+In diesem Fall ist keine Wahl möglich.
 
 [[ref_talents_throwingweapons]]
 === Wurfwaffen
@@ -164,7 +168,7 @@ Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 *Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Wurfwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
-Das verwandte Attribut ist von der xref:../../compendiums/items/mundane/compendium_mundaneitems_weapons.adoc#ref_weapons_attribut[Waffe] anhängig, die verwendet wird.
+Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 == Schurkische Talente
 
@@ -233,7 +237,7 @@ Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleic
 Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort Entdecken-Proben von allen Kreaturen in der näheren Umgebung provoziert.
 
 [[ref_talents_lockpick]]
-=== Schloss Knacken
+=== Schlösser knacken
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
@@ -554,7 +558,7 @@ Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_magi
 *Kampf:* A +
 *Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der jeweils gewählten xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic[Zauberschule] zu wirken.
 
-Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_preparespells[vorbereiten].
+Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_preparation[vorbereiten].
 Die Beschreibung des Zauberspruches gibt außerdem Auskunft über die notwendige Anzahl von Erfolgen, um den Effekt erfolgreich auszusprechen.
 Bei einem Misserfolg muss der Zaubernde sofort eine Probe in xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Verbrennen Widerstehen] ablegen, bei einem Patzer kommt es zu einem xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellfailure[Zauberpatzer].
 

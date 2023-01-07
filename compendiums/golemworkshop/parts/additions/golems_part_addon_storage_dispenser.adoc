@@ -1,0 +1,21 @@
+= Verteiler
+
+*Materialkosten:* 45.000 +
+*Konstruktionszeit:* 5 Tage +
+*Zaubersprüche:* - +
+*Erfolge:* 5 +
+*Montage:* - +
+*MP-Kosten:* 5 MP +
+*Beschreibung:* +
+
+Mit diesem Zusatz lässt sich eine Einheit Lagermenge eines link:golems_part_addon_storage_tank.adoc[Tankbehälters] entladen.
+Der Golem muss mindestens einen solchen Tankbehälter (ebenfalls ein Zusatz) installiert haben.
+
+Mit dem Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] kann der Golem eine der folgenden Verwendung dieses Zusatzes durchführen:
+
+* Die Einheit kann harmlos abgelassen werden (ohne offensiven Einsatz).
+Die Aktion wird üblicherweise verwendet, um die link:golems_part_addon_storage_tank.adoc[Tankbehälter] des Golems zu leeren und deren Inhalt umzufüllen.
+Diese Aktion kostet den Golem keine MP.
+* Die Einheit wird durch einen starken Stoß beschleunigt und verteilt sich xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_cone[kegelförmig] in eine vom Golem gewählte Richtung bis 6,00 Meter.
+Jede Kreatur in diesem Kegel wird von dem Inhalt des Tanks getroffen.
+Es gelten für die jeweiligen Substanzen die üblichen Regeln.

@@ -1,0 +1,66 @@
+= Wurfwaffen
+
+|===
+|Name |Attribut |Größe |Schadensbonus |Gewicht |Preis |Grundreichweite |Eigenschaften
+
+|Einfache Brandbombe
+|GE
+|4
+|4W4+2 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]
+|1
+|150
+|6
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_weapons_tag_one_time_use[Einmalige Verwendung], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_weapons_tag_aoe[Fläche 1,50 Meter]
+
+|Netz ^1^
+|ST
+|6 (5)
+|-
+|3
+|10
+|6,00 Meter
+|-
+
+|Wurfaxt
+|ST
+|4
+|1W8
+|0.5
+|7
+|9,00 Meter
+|-
+
+|Wurfdolch
+|GE
+|4
+|1W6
+|0.25
+|6
+|9,00 Meter
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_battle_items_weapons_tag_quick[Schnell]
+
+|Wurfspeer
+|ST
+|6
+|1W8+1
+|1
+|15
+|12,00 Meter
+|-
+
+|Wurfstern
+|GE
+|4
+|2W6
+|0.25
+|35
+|12,00 Meter
+|-
+|===
+
+^1^ anstatt eines Schadenswurfs machen die Kontrahenten eine konkurrierende ST-Probe.
+Ist der Angreifer erfolgreich, so ist der Verteidiger gefangen.
+Er kann keine Aktionen mehr durchführen, außer versuchen, sich aus dem Netz zu befreien (ST-Probe).
+Er kann auch keine Verteidigungstalente mehr einsetzten.
+Ein Netz kann nur Kreaturen fangen, die in eine Größenkategorie die gleich oder bis maximal +1 der Größe des Netzes gehören.
+Das hier angegebene Netz kann also Kreaturen der GK 5 oder kleiner fangen.

@@ -1,9 +1,10 @@
 = Überladen (Schaden, Kosten)
 
 *Voraussetzungen:* die xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary[Bewaffnung] des Konstrukts erlaubt den Einsatz dieser Fähigkeit +
+*Typ:* Verstärkung +
 *CP:* - +
 
-Verwendet der Golem die Bewaffnung, für die diese Fähigkeit gelernt wurde, darf er die Kosten einsetzen (beispielweise eine Angabe in MP), um seine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensprobe] um den angegebenen Schaden zu verstärken.
+Verwendet der Golem die Bewaffnung, für die diese Fähigkeit gelernt wurde, darf er die Kosten einsetzen (beispielsweise eine Angabe in MP), um seine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensprobe] um den angegebenen Schaden zu verstärken.
 
-Die Fähigkeit kann für eine Attack auch mehrfach angewendet werden.
-Das bedeutet, der Golem kann die Kosten mehrmach einsetzen, um die Schadensprobe jeweils zu erhöhen.
+Die Fähigkeit kann für eine Attack kumulativ angewendet werden.
+Das bedeutet, der Golem kann die Kosten mehrfach einsetzen, um die Schadensprobe jeweils zu erhöhen.

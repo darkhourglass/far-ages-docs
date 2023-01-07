@@ -1,0 +1,83 @@
+= Zusätzliche Energiezelle
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* 3 +
+*Montage:* - +
+*MP-Kosten:* - +
+*Beschreibung:* Mit diesem Zusatz erweitert der Golem seine xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] mit einer Erhöhung der verfügbaren xref:../../../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP].
+
+Die von dieser Energiezelle zur Verfügung gestellten MP werden wie die regulären MP aus der Hauptzelle des Golems behandelt.
+Allerdings landen sich diese zusätzlichen Zellen nicht automatisch auf, auch wenn die Energieversorgung des Golems diese Eigenschaft bietet.
+Zusätzliche Energiezellen müssen jeweils einzeln durch externe Quellen aufgeladen werden, zum Beispiel durch den Zauberspruch link:../../../spells/spell_energytransfer.adoc[Energietransfer].
+Alternativ sind alle Energiezellen üblicherweise leicht auszutauschen.
+
+Eine Energiezelle ist effektiv die technomantische Variante eines xref:../../../../rules/core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_mpstorages[Magie-Speichers], der in einen Golem eingesetzt werden kann.
+
+Im Gegensatz zu den meisten xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions[Zusätzen] hängt bei Energiezellen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des Golems ab, wie viele MP die Energiezelle enthalten kann.
+Das bedeutet, dass je größer eine Energiezelle ist, desto größer muss auch der Golem sein, in den diese eingebaut werden kann.
+Davon hängen direkt auch Materialkosten und Konstruktionszeit ab.
+
+Um nun eine Energiezelle zu bauen, ist zunächst zu bestimmen, wie viele MP diese enthalten soll.
+Pro 10 MP betragen die Materialkosten 500 Silbermünzen und 8 Stunden Konstruktionszeit.
+Diese Werte sind kumulativ.
+
+Bis zu 50 MP können in eine Energiezelle der GK 1 gespeichert werden.
+Danach steigt die GK um 1 je 50 MP.
+
+Die folgende Tabelle zeigt die maximal möglichen Energiezellen pro GK.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |MP
+
+|1
+|2.500
+|1,5 Tage
+|50
+
+|2
+|5.000
+|3 Tage
+|100
+
+|3
+|7.500
+|4,5 Tage
+|150
+
+|4
+|10.000
+|6 Tage
+|200
+
+|5
+|12.500
+|7,5 Tage
+|250
+
+|6
+|15.000
+|9 Tage
+|300
+
+|7
+|17.500
+|10,5 Tage
+|350
+
+|8
+|20.000
+|12 Tage
+|400
+
+|9
+|22.500
+|13,5 Tage
+|450
+
+|10
+|25.000
+|15 Tage
+|500
+|===

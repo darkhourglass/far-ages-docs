@@ -49,7 +49,7 @@ Die Angaben in der folgenden Tabelle beziehen sich immer auf die GK des Golems.
 |===
 
 Auch die Pilotenkabine besitzt eine Energieversorgung, die analog zur link:golems_part_core_basiccells.adoc[Standardzelle] funktioniert.
-Die steuerende Kreatur hat keinen direkten Zugriff auf die MP, sondern verwendet diese nach den üblichen Regeln, um die Fähigkeiten des Golems einzusetzen.
+Die steuernde Kreatur hat keinen direkten Zugriff auf die MP, sondern verwendet diese nach den üblichen Regeln, um die Fähigkeiten des Golems einzusetzen.
 Ein link:../../../spells/spell_energytransfer.adoc[Energietransfer] ist normal möglich.
 
 Der Pilot und der gesteuerte Golem gilt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_mounted_combat[Reiter und Reittier] für die Regeln im Kampf.

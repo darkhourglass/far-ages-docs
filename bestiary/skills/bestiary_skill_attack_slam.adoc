@@ -1,0 +1,12 @@
+= Wucht (Angriffsstufe, Schaden)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, ST +
+*CP:* tba +
+
+Eine Kreatur, die diese Art des Angriffs einsetzen kann, nutzt ihren gesamten Körper, Kraft und Gewicht, um ihre Gegner in den Boden zu rammen.
+
+Eine Wucht-Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
+
+Bei einem erfolgreichen Treffer, der eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzung] verursacht und es zu einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlagsprobe], so ist für diese Probe 1 Erfolg mehr nötig.

@@ -1,11 +1,57 @@
 = Kanone (Repetier)
 
-*Materialkosten:*  +
-*Konstruktionszeit:* +
-*Zaubersprüche:*  +
-*Erfolge:* +
-*GK:* +
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Erfolge:* siehe Beschreibung +
+*GK:* 6 - 8 +
 *Montage:* Arme +
 *Attribute:* - +
-*Talente:* +
-*Beschreibung:* +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 5 (ST) +
+*MP-Kosten:* 5 MP +
+*Beschreibung:* Diese Bewaffnung besteht aus einer komplexen Konstruktion aus mehreren schmalen Kanonenrohren, die auf einer rotierenden Verbindung montiert sind.
+Die Mechanik der Rotation lädt und feuert die Rohre in extrem kurzer Zeit, so dass ein Golem eine Salve von Projektilen abfeuern kann, wenn auch mit reduzierter Genauigkeit.
+
+Der Golem kann die Repetier-Kanone beim Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] wie eine normale link:golems_part_weaponary_cannon.adoc[Kanone] verwenden, die nur ein Projektil auf 1 Ziel abfeuert.
+
+Um die Repetier-Funktion zu nutzen, muss der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] einsetzen.
+In diesem Fall beginnt der Lauf der Kanone zu rotieren, um eine beliebige Anzahl von Projektilen zu verschießen.
+Für das erste Projektil wird eine reguläre Probe auf xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen.
+Danach kann der Golem ein weiteres Projektil verschießen, jedoch mit einem Malus von -1 Würfel zum Erfolg.
+Dies kann der Golem beliebig wiederholen, jedoch erhöht sich der Malus jeweils um -1 Würfel.
+
+Der Golem muss jedoch immer mindestens 1 Würfel zu Verfügung haben.
+Weiterhin kann der Golem keine Projektile verschießen, die nicht in seinem Magazin sind.
+Somit ist Die Anzahl der an Projektile pro Kampfphase begrenzt entweder durch die Magazingröße oder die verfügbaren Stufen im Talent Projektilwaffen.
+
+Repetier-Kanonen werden nur in den Größenkategorien 6 bis 8 hergestellt, da ihre Konstruktion und Ausführung sehr viel komplexer ist, als die regulärer Kanonen.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus |Grundreichweite |Magazin
+
+|6
+|20.000
+|14 Tage
+|7
+|2W8
+|30,00 Meter
+|12
+
+|7
+|28.000
+|18 Tage
+|8
+|4W8
+|45,00 Meter
+|14
+
+|8
+|40.000
+|24 Tage
+|9
+|6W8
+|60,00 Meter
+|16
+|===
+
+Auch die Repetier-Kanone ist eine mechanische Waffe, womit die Regeln zur Magazin-Größe und Nachladen denen der link:golems_part_weaponary_cannon.adoc[Kanone] entsprechen.

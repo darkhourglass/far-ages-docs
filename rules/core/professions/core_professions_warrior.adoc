@@ -25,10 +25,10 @@ Wählt der Krieger hingegen einen *offensiven* Kampfstil, werden die Boni bzw. M
 === Bevorzugte Kampfweise
 Zu Beginn des Spiels wählt der Krieger einen der folgenden Kampfstile:
 
-* xref:../../tables/items/table_items_meleeweapons.adoc[Einhandwaffe]
-* xref:../../tables/items/table_items_heavymeleeweapons.adoc[Schwere Nahkampfwaffe] bzw. Zweihandwaffe
-* xref:../../tables/items/table_items_projectileweapons.adoc[Schwere Projektilwaffe]
-* xref:../../tables/items/table_items_throwingweapons.adoc[Wurfwaffe]
+* xref:../core_rules_battlesystem.adoc#ref_battle_items_weapons[Einhandwaffe]
+* xref:../core_rules_battlesystem.adoc#ref_battle_items_weapons_tag_heavy[Schwere Nahkampfwaffe]
+* xref:../core_rules_battlesystem.adoc#ref_battle_items_weapons[Schwere Projektilwaffe]
+* xref:../core_rules_battlesystem.adoc#ref_battle_items_weapons[Wurfwaffe]
 
 Kämpft er mit einer passenden Waffe bzw. Kombination aus Waffen und Schild, darf er in einer Kampfphase für den Einsatz eines xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] eine weitere Angriffsprobe mit dieser Waffe führen.
 Die Fähigkeit ist nicht einsetzbar, wenn er keine passende Waffe führt.

@@ -7,5 +7,80 @@
 *GK:* 1 - 10 +
 *Montage:* Arme +
 *Attribute:* - +
-*Talente:* - +
-*Beschreibung:* +
+*Talente:* siehe Beschreibung +
+*MP-Kosten:* - +
+*Beschreibung:* Eine der komplexeren und schwierigsten technomantischen Komponenten sind Hände.
+Diese Geräte benötigen eine ausgeklügelte Feinmechanik, bieten jedoch eine der effektivsten und flexibelsten Ausstattungen für Golems.
+
+Die erste Hand, die der Golem erhält, gilt als xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Primärhand] passend zu seiner GK.
+Erhält der Golem eine zweite Hand, gilt diese als Sekundärhand.
+Der Golem kann diese Hände verwenden, wie jeder link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoide] Charakter.
+
+Der Technomant kann bis zu drei Talente wählen, deren xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles_untrainedcheck[verwandtes Attribut] ST oder GE ist und den Einsatz von mindestens einer Hand erfordert.
+
+Folgende Talente erfordern jedoch mindestens zwei Hände:
+
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athletik]
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] für Zweihandwaffen
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] für Zweihandwaffen
+
+Hände stehen in den GKs 1 bis 10 zur Verfügung.
+Die hier angegebenen Materialkosten, Konstruktionszeiten und Erfolge beziehen sich immer auf _eine_ Hand.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Erfolge
+
+|1
+|3.000
+|5 Tage
+|6
+
+|2
+|3.000
+|5 Tage
+|6
+
+|3
+|4.000
+|6 Tage
+|6
+
+|4
+|5.000
+|6 Tage
+|8
+
+|5
+|7.000
+|7 Tage
+|8
+
+|6
+|9.500
+|7 Tage
+|8
+
+|7
+|12.000
+|9 Tage
+|10
+
+|8
+|15.000
+|9 Tage
+|10
+
+|9
+|20.000
+|10 Tage
+|10
+
+|10
+|25.000
+|12 Tage
+|12
+|===
+
+[NOTE]
+Der SL kann in seinem Ermessen jegliche Talent-Kombination erlauben oder nicht erlauben.

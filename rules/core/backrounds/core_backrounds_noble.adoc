@@ -1,0 +1,22 @@
+= Adelig
+
+Der Charakter entstammt einer adeligen Familie.
+Seine Jugend konnte er im Vergleich zu den meisten Anderen im Luxus verbringen, mit den besten privaten Lehrern und das Wandeln unter den Schönen und Reichen.
+Seine gesellschaftliche Position mag noch Verpflichtungen mit sich bringen, wie z.B. eine Position am Hof des Herrschers oder eine arrangierte Heirat.
+Sein Beruf ist oft mit seiner Aufgabe im Adelshaus verbunden, meistens auch aus reinem Prestige.
+Manche Adeligen jedoch verfolgen mit ihrem Beruf die Distanzierung von ihrem Leben in der hohen Gesellschaft.
+
+*Attributsbonus:* +1 CH +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_riding[Reiten] +
+*Spezial:* <<ref_core_backrounds_noble_special_blue_blood,Blaues Blut>> +
+*Startkapital:* x2 +
+*CP:* 60 +
+
+[[ref_core_backrounds_noble_special_blue_blood]]
+== Blaues Blut
+Gelegentlich kann sich ein Charakter mit adeligem Hintergrund auf seine Privilegien und sozialen Status berufen.
+Setze der Charakter xref:../core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] oder xref:../core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] gegen einen anderen Charakter ein, kann der dieses Spezial einsetzen.
+Er versucht dabei sein Gegenüber aufgrund seiner Herkunft, seines Status oder auch mit seinem Reichtum zu beeindrucken oder auch sozialen Druck auszuüben, um seinen Willen zu erhalten.
+Für diese Probe erhält er einen xref:../core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_values[Bonus von +1 auf die Würfe zum Erfolg] für diese Probe.
+Er kann diesen Bonus gegen den gleichen Charakter nur einmal einsetzen.
+Im Ermessen des SLs kann der Bonus nicht eingesetzt werden, wenn beispielsweise das Gegenüber das Adelsgeschlecht nicht anerkennt oder vielleicht auch deutlich höher in der sozialen Hierarchie steht.

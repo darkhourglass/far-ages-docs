@@ -64,6 +64,13 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 |Column 4, row 6
 |===
 
+[[ref_core_adventures_hazards_drowing]]
+=== Ertrinken
+
+// KO-viele Kampfphasen Luft anhalten ohne Probleme
+// Ab dann jede Kampfphase KO-Rettungswurf: 1W10 unabwendbarer Schaden
+// Rettungswurf wird schwerer +1 pro Kampfphase ohne Luft
+// Lebende Kreaturen ohne "Kiemen" oder 2nd CT "aquatic"
 
 [[ref_core_adventures_hazards_poisons]]
 === Gifte
@@ -267,28 +274,87 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sturm der Stärke 3 verursacht be
 [[ref_core_adventures_items]]
 == Gegenstände
 
-[[ref_core_adventures_items_weapons]]
-=== Waffen
+// Waffen, Rüstungen, Schilde -> Kampf
 
-[[ref_core_adventures_items_weapons_tags]]
-==== Eigenschaften
+=== Waffen und Rüstungen
 
-[[ref_core_adventures_items_weapons_tag_mechanical]]
-===== Mechanisch
+[[ref_core_adventures_items_change_size]]
+==== Anpassung der Größe
+Um Waffen für größere oder kleinere Charaktere zu erstellen, kann man folgende Regeln anwenden.
 
-[[ref_core_adventures_items_weapons_tag_armorbreaking]]
-===== Rüstungsbrechend
+Eine Verringerungen oder Vergrößerungen von Waffen hat pro Punkt in Größe Auswirkungen auf die folgenden Eigenschaften:
 
-[[ref_core_adventures_items_weapons_tag_heavy]]
-===== Schwer
+*Schadenswürfel:* Die bestehenden Schadenswürfel werden um den nächst niedrigeren Würfel oder höheren Würfel (Minimum 1W3, Maximum 1W12) angepasst.
+Ist dies nicht mehr möglich, so wird ein Modifikator von -1 bzw. +1 angesetzt.
+
+*Gewicht:* minus oder plus 20%, mindestens 1 Pfund (Brüche werden aufgerundet)
+
+*Preis:* immer plus 10% pro Punkt (Brüche werden aufgerundet)
+
+.Anpassen der Größe einer Waffe (verringern)
+====
+Für einen link:../../../rules/core/races/core_races_halflings.adoc[Halbling] soll ein Langschwert hergestellt werden.
+Der Halbling hat eine Größe von 4 und damit ist seine Primärhand auf Waffen der Größe 5 beschränkt.
+Um das Langschwert auf Größe 5 anzupassen, verändern sich sein die Eigenschaften der Waffe wie folgt:
+
+*Schadenswürfel:* 2W6 werden 2W4
+
+*Gewicht:* 3
+
+*Preis:* 33
+====
+
+.Anpassen der Größe einer Waffe (vergrößern)
+====
+In diesem Beispiel wird das Langschwert um einen Punkt in Größe erhöht.
+Damit verändern sich die Eigenschaft wie folgt:
+
+*Schadenswürfel:* 2W6 werden 2W8
+
+*Gewicht:* 4
+
+*Preis:* 33
+====
+
+[[ref_core_adventures_items_masterweapons]]
+==== Exzellente Waffen
+
+Wenige Waffenschmiede stellen nicht einfach Waffen her, sondern außergewöhnlich qualitative wie tödliche Kunstwerke.
+Solche Waffen nennt man auch exzellente Waffen.
+
+Ihre Qualität wird dabei in Punkten gemessen.
+Pro Punkt in Exzellenz erhält der Träger der Waffe einen Bonus von +1 auf Würfelanzahl für seine Angriffsproben mit dieser Waffe.
+Dies macht sich außerdem im Preis bemerkbar, denn pro Punkt in Exzellenz erhöht sich der Preis der Waffe um einen prozentualen Anteil, der aus folgender Tabelle entnommen werden kann.
 
 
+|===
+|Exzellenz |Bonus auf Würfelanzahl |Preismodifikator
 
-[[ref_core_adventures_items_armor]]
-=== Rüstungen
+|1
+|+1
+|+50%
 
-[[ref_core_adventures_items_shields]]
-=== Schilde
+|2
+|+2
+|+125%
+
+|3
+|+3
+|+200%
+
+|4
+|+4
+|+300%
+|===
+
+Dabei gilt, dass diese Form der Exzellenz nicht kumulativ ist.
+Eine Waffe hat eine feste Exzellenz, die nicht nach oben oder unten verändert werden kann
+
+[[ref_core_adventures_items_masterarmour_shields]]
+==== Exzellente Rüstungen und Schilde
+
+[[ref_core_adventures_items_fit_armor]]
+==== Rüstungen an besondere Körper anpassen
 
 [[ref_core_adventures_items_gear]]
 === Ausrüstung
@@ -728,12 +794,7 @@ Bänker10% des Einlagerungswertes
 Pfandleiher50-75% des Gesamtwertes
 
 
-
-=== Regeneration bei Ohnmacht
-
-Erreicht ein Charakter 0 oder weniger TP, dann regeneriert er einmalig 1W10 TP nach Ablauf von 6-KO (min. 1) Kampfrunden.
-Erreicht er dadurch keinen TP über 0, so bleibt er ohnmächtig.
-
+// TODO -> d10 system adoc
 === Heilung von Verletzungen
 
 Die Heilung von Verletzungen ist vom Verletzungsgrad abhängig.

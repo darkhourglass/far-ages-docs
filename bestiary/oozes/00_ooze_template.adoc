@@ -1,0 +1,69 @@
+= Name
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime]
+* Secondary Type(s)
+* Templates
+* GK: X
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+== Profil
+
+*ST:* XXX     *GE:* XXX     *KO:* XXX +
+*ER:* XXX     *EN:* XXX     *SB:* XXX     *CH:* XXX +
+
+//TP=(ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX     *MP:* XXX     *SP:* XXX +
+
+// WID= 8 + (KO-1)*2
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*WID:* XXX +
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:* XXX +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc#ref_ooze_rules_amorphous_body[Formloser Körper]
+* link:../skills/bestiary_skill_blindsense.adoc[Blindsinn] mit einer Reichweite von 30,00 Metern, falls nicht anders angegeben
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+* link:../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+
+== Regeln

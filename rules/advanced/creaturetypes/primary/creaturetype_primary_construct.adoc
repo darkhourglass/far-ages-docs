@@ -62,7 +62,7 @@ Konstrukte sind immun gegenüber xref:../../../core/core_rules_battlesystem.adoc
 Verliert ein Konstrukt jedoch genug TP, um seine xref:../../../core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID] zu übertreffen, nach regulären Regeln die Voraussetzung für eine Wunde, so erleidet das Konstrukt stattdessen eine *Fehlfunktion*.
 
 Zur Ermittlung dieser Fehlfunktion wird zuerst die Differenz zwischen der WID des Konstrukts und des erlittenen Schadens aus der betreffenden Attacke berechnet.
-Das Ergebnis bestimmt die Auswirkung der Fehlfunktion nach folgender link:../../../tables/table_constructs_mishaps.adoc[Tabelle].
+Das Ergebnis bestimmt die Auswirkung der Fehlfunktion nach folgender link:../../../tables/table_constructs_general_mishaps.adoc[Tabelle].
 
 .Fehlfunktion
 ====
@@ -123,18 +123,7 @@ Der SL kann eine Probe verlangen, wenn er es für angemessen hält.
 === Allgemeine Regeln
 In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Konstrukte von anderen Wesen abweichen.
 
-* Alle Konstrukte sind gegen die Effekte folgender Proben immun, d.h. sie bestehen diese Proben automatisch:
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
-* Konstrukte sind gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
-Beispielsweise kann kein Konstrukt verspottet werden oder zur Raserei gezwungen werden.
-* Konstrukte sind immun gegenüber folgenden xref:../../../core/core_rules_d10_system.adoc#ref_core_conditions[Situationen] im Kampf:
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
+* Konstrukte können nicht xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_drowing[ertrinken].
 * Konstrukte verlieren nie SP oder werden wahnsinnig.
 * Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
 * Konstrukte können TP nur <<ref_constructs_rules_repair,Reparatur>> regenerieren oder durch entsprechende Zaubersprüche wie link:../../../../compendiums/spells/spell_repair_construct.adoc[Konstrukt reparieren].
@@ -143,12 +132,21 @@ Beispielsweise kann kein Konstrukt verspottet werden oder zur Raserei gezwungen 
 
 [[ref_constructs_rules_skills]]
 === Fähigkeiten
-Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
+Alle Konstrukte erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../../../../bestiary/skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
 * link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 

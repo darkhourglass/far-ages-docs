@@ -1,0 +1,17 @@
+= Kraftfeld
+
+*Materialkosten:* 50.000 +
+*Konstruktionszeit:* 14 Tage +
+*Zaubersprüche:* link:../../../spells/spell_form_of_invulnerability.adoc[Form der Unverwundbarkeit] +
+*Erfolge:* 7 +
+*Montage:* - +
+*MP-Kosten:* 5 MP +
+*Beschreibung:* Kurze Blitze arkaner Energie zucken über den Körper des Golems und mit einem leichten Summen baut sich ein unsichtbarer Schutzschild auf, der den Golem vor Beschädigung schützt.
+
+Der Golem muss eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] und 5 MP einsetzen, um das Kraftfeld zu aktivieren.
+Das Kraftfeld hält bis zum Ende seiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase].
+Solange das Kraftfeld aktiv ist, kann der Golem es auch für den Einsatz von 1 MP um eine weitere Kampfphase verlängern.
+
+Ein Kraftfeld hält unabhängig von seiner Dauer insgesamt 30 Punkte xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schaden] ab.
+Immer, wenn der Golem Schaden erhält, werden diese zunächst dem Kraftfeld angerechnet und erst dann von seinen TP abgezogen.
+Werden diese 30 TP aufgebraucht, bricht das Kraftfeld zusammen und der Golem muss es wieder aktivieren.
