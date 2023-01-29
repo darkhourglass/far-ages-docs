@@ -2,7 +2,7 @@
 
 *Arkanes Geheimnis:* Nein +
 *POT:* 5 +
-*Rettungswurf:* Ja (xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_CH[CH]) +
+*Rettungswurf:* Ja (xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_CH[CH]) +
 *Komponenten:* Formel +
 *Fokus:* Geist +
 *Vorbereitung:* 3 +
@@ -20,8 +20,8 @@ Das Tier folgt dem Befehl nach bester Fähigkeit, jedoch ohne dabei seine eigene
 Sollte das Tier vor ein Hindernis gestellt werden, dass den Befehl unmöglich macht, weiter auszuführen oder zu verfolgen, endet der Zauberspruch sofort.
 Nach Ablauf der Dauer des Zauberspruches wird das Tier wieder seinem üblichen Verhalten folgen, unabhängig davon, ob der Befehl erfolgreich oder vollständig durchgeführt wurde.
 
-Solltest Du die Spruchzauberei-Probe nicht xref:../../rules/core/core_rules_d10_system.adoc#ref_core_failurerole[bestehen], musst Du damit rechnen, dass das Tier sich so verhält, wie jedes Tier, dem ein Mensch in die Augen schaut.
-Im Fall eines xref:../../rules/core/core_rules_d10_system.adoc#ref_core_botches[Patzers], wird das Tier Dich angreifen.
+Solltest Du die Spruchzauberei-Probe nicht xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[bestehen], musst Du damit rechnen, dass das Tier sich so verhält, wie jedes Tier, dem ein Mensch in die Augen schaut.
+Im Fall eines xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzers] wird das Tier Dich angreifen.
 
 *Zusätzliche Effekte:* +
 +5 MP: Dauer +1 Stunde +

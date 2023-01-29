@@ -7,4 +7,4 @@
 
 Mit dieser Fähigkeit lernt der Charakter seinen Rausch so zu kanalisieren, dass er besonders hart zu schlagen kann.
 Die xref:../core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenswürfe] im Nahkampf des rasenden Charakters erhalten nun einen Bonus von +4.
-Allerdings erhöht sich sein xref:../core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_values[Malus] auf die xref:../core_rules_d10_system.adoc#ref_core_defendingroll[Verteidigungswürfe] auf -2.
+Allerdings erhöht sich sein xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] auf die xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswürfe] auf -5.

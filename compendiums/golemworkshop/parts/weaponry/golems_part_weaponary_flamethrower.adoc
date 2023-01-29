@@ -75,6 +75,6 @@ Die folgende Tabelle gibt eine Übersicht die von der GK abhängigen Werte.
 
 Die Angriffsprobe wird als Talentprobe auf xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] gewürfelt und folgt den Regeln für
 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_cone[Wurfwaffen mit Flächenschaden] mit dem angegebenen Schaden.
-Dies bedeutet insbesondere, dass die Zielkreaturen mit einer erfolgreichen xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Probe] den erlittenen Schaden halbieren können.
+Dies bedeutet insbesondere, dass die Zielkreaturen mit einer erfolgreichen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Probe] den erlittenen Schaden halbieren können.
 
 Der Flammenwerfer stellt dem Golem außerdem die Fähigkeit link:../../../../bestiary/skills/specific/constructs/bestiary_skill_constructs_overcharge.adoc[Überladen (2W6 Feuer-Schaden, 5 MP)] zur Verfügung.

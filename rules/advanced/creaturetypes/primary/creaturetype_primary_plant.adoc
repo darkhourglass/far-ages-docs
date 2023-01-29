@@ -15,6 +15,6 @@ Sie können jedoch eine weitere Option wählen, nämlichen besonderen Ruhezustan
 Ein Pflanzenkreatur, die Rasten möchte, kann diese Option wählen, wenn sie dem direkten Sonnenlicht ausgesetzt ist.
 In diesem Fall halbiert sich die Zeit, die die Kreatur benötigt, um die jeweilige Rast durchzuführen.
 Eine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_break[lange Pause] würde beispielsweise dann nur 30 Minuten benötigen und 1 Stunde.
-Während dieser Zeit gilt die Kreatur jedoch als xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[ohnmächtig].
+Während dieser Zeit gilt die Kreatur jedoch als xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[ohnmächtig].
 Die Ohnmacht endet automatisch nach der reduzierten Dauer der gewählten Pause.
 Sollte die Kreatur aus der Ohnmacht vorzeitig erwachen, kann sie keine Regeneration durchführen.

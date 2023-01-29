@@ -12,7 +12,7 @@
 *Dauer:* 5 Kampfphasen +
 *Effekt:* Du oder die Zielkreatur erhältst den Aspekt eines Tiers, um Deine eigenen Fähigkeiten zu verbessern.
 Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] musst Du Dich für einen der unten vorgestellten Aspekte entscheiden.
-Jeder Aspekt bietet einen Bonus von +1 Würfel zum Erfolg auf alle xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attributeroles[Attribut-Proben], xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves[Rettungswürfen] und xref:../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talent-Proben] mit dem assoziierten Attribut.
+Jeder Aspekt bietet einen Bonus von +1 Würfel zum Erfolg auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attribut-Proben], xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfen] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Proben] mit dem assoziierten Attribut.
 
 Folgende Aspekte stehen zu Auswahl:
 * *Wolf:* xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST]

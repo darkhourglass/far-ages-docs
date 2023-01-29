@@ -104,7 +104,7 @@ Die Beschreibung eines Berufs beinhaltet folgende Informationen:
 
 * *TP/MP-Steigerung:* Angabe der berufsspezifischen <<ref_characters_spendcp_tp_and_mp,TP/MP-Steigerung>>, zum Beispiel +7/+5.
 
-* *Rettungswürfe:* Angabe der xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswürfe], einen permanenten Bonus von +1 auf die xref:core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_numbers[Würfelanzahl] erhalten.
+* *Rettungswürfe:* //TODO
 
 * *Startausrüstung:* eine Liste von Ausrüstungsgegenständen, die der Charakter zu Beginn des Spiels besitzt.
 
@@ -177,7 +177,7 @@ Das bedeutet, wenn ein Charakter eine Kombination aus Volk Hintergrund und Beruf
 * Pro Attributsstufe kann er 20 CP seiner <<ref_characters_charactercreation_initial_characterpoints,initialen Charakterpunkten>> bezahlen, um das Attribut auf Stufe 1 zu bringen.
 Dies ist kumulativ zu zahlen, das heißt sollte beispielsweise eine Attributsstufe auf -1 fallen, so sind 40 CP insgesamt nötig.
 
-Ein Charakter darf keine xref:core_rules_d10_system.adoc#ref_core_attributsstep_0[Attributststufe den Wert 0] haben.
+Ein Charakter darf keine Attributststufe den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks_step_0[Wert 0] haben.
 
 Sind die Attributsstufen final bestimmt, ergeben sich aus diesen die <<ref_characters_charactercreation_secondary,Attributseigenschaften>>.
 
@@ -588,7 +588,7 @@ Diese sind in Zahlen von 1 oder höher angegeben.
 Im System von Far Ages ist eine Attributsstufe von 2 oder 3 durchschnittlich für einen Charakter, der gerade erschaffen wurde.
 Werte über 10 sind wortwörtlich un- bzw. übermenschlich.
 
-Jede Attributsstufe steht für einen W10, der bei einer xref:core_rules_d10_system.adoc#ref_core_attributeroles[Probe] auf dieses Attribut verwendet werden kann.
+Jede Attributsstufe bietet einen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus], der bei einer xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Probe] auf dieses Attribut verwendet werden kann.
 
 Darüber hinaus bestimmen die Attributsstufen sogenannte <<ref_characters_charactercreation_secondary,*Attributseigenschaften*>>.
 Diese Attributseigenschaften sind weitere Elemente des Spiels, die helfen, den Charakter weiter zu beschreiben und seine Grenzen und Möglichkeiten darzustellen.
@@ -657,7 +657,7 @@ Von diesem Attribut ist die Zahl der <<ref_secondary_stabilitypoints,Stabilität
 Talente stellen Fähigkeiten dar, die über eine schlichte Intuition und Instinkt (wie zum Beispiel bei Attributen) hinausgehen und einen erheblichen Teil Erfahrung und Training erfordern.
 Ihr Fortschreiten, ihre „Macht“ wird in *Talentstufen* gemessen.
 Je besser ein Charakter trainiert ist, umso höher ist seine Talentstufe.
-Talentstufen werden in Zahlen ab 1 dargestellt und jede Zahl steht für einen zusätzlichen 1W10, der für die xref:core_rules_d10_system.adoc#ref_core_talentroles[Talentprobe] verwendet werden kann.
+Talentstufen werden in Zahlen ab 1 dargestellt und jede Zahl steht für einen zusätzlichen 1W10, der für die xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] verwendet werden kann.
 
 Alle Talente, die regulär allen Charakteren zur Verfügung stehen, finden sich im Dokument link:core_rules_talents_base.adoc[Talente].
 

@@ -11,8 +11,8 @@
 *Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] +
 *Dauer:* 10 Kampfphasen +
 *Effekt:* Dein Geist reicht in den eines Tiers und eine Welle beruhigender Wärme erreicht es.
-Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] stellt das Tier entweder alle aggressiven Handlungen gegen Dich ein oder beendet scheues Verhalten gegenüber einem Auslöser von xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht].
-Befindet sich das Tier im Zustand xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_frenzy[Raserei], wird dieser sofort beendet.
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] stellt das Tier entweder alle aggressiven Handlungen gegen Dich ein oder beendet scheues Verhalten gegenüber einem Auslöser von xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht].
+Befindet sich das Tier im Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Raserei], wird dieser sofort beendet.
 
 Für die Dauer des Zauberspruches nimmt das Tier eine vertrauende Haltung Dir gegenüber ein.
 Nach Ende des Zauberspruches eine Neutrale.

@@ -13,7 +13,7 @@
 *Effekt:* Zu Beginn der Vorbereitung kippst Du eine kleine Menge Wasser, zum Beispiel den Inhalt eines Trinkschlauches, vor Dir auf den Boden.
 Während der Vorbereitung beginnt das Wasser sich auszubreiten und kleine Wellen schlagen an Dir hoch.
 Streifen aus Wasser steigen langsam und unnatürlich in die Luft um Dich herum.
-Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe klatscht Du Deine Hände zusammen und das Wasser explodiert in seine konzentrische Flutwelle, die sich von Dir ausbreitet.
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe klatschst Du Deine Hände zusammen und das Wasser explodiert in seine konzentrische Flutwelle, die sich von Dir ausbreitet.
 
 Alle Kreaturen im Wirkungsbereich außer Dir erhalten einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] abhängig von ihrer Entfernung zu Dir:
 
@@ -21,7 +21,7 @@ Alle Kreaturen im Wirkungsbereich außer Dir erhalten einen automatischen xref:.
 * Innerhalb 12,50 bis 24,00 Meter: 4W6
 * Innerhalb von 24,50 bis 36,00 Meter: 2W6
 
-Weiterhin muss jede Kreatur einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_ST[ST-Rettungswurf] bestehen oder wird xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_onground[niedergeschlagen].
+Weiterhin muss jede Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ST[ST-Rettungswurf] bestehen oder wird xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[niedergeschlagen].
 Die Anzahl der nötigen Erfolge ist wiederum abhängig von der Entfernung zu Dir:
 
 * Innerhalb 0,00 bis 12,00 Meter: 6

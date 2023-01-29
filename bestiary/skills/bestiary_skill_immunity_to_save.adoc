@@ -9,6 +9,6 @@ Im Allgemeinen wird davon ausgegangen, dass die Kreatur von einem auslösenden E
 
 .Beispiel
 ====
-link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] besitzen diese Eigenschaft für diverse xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves[Rettungswürfe], zum Beispiel xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift].
+link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] besitzen diese Eigenschaft für diverse xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe], zum Beispiel xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift].
 Kommt ein Untoter mit einem xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons[Gift] in Kontakt, besteht er jeden Rettungswurf sofort und erleidet nie die Auswirkung eines Gifts.
 ====

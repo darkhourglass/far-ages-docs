@@ -6,10 +6,10 @@
 *Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Komplexe Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 10
 
 Setzt Du die Fähigkeit ein, musst Du eine xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen-Probe] würfeln.
-Alle link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen in einem Radius von 12,00 Metern, die Dich sehen können, müssen einen xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_saves_CH[CH-Rettungswurf] gegen Deine erwürfelten Erfolge bestehen.
+Alle link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen in einem Radius von 12,00 Metern, die Dich sehen können, müssen einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_CH[CH-Rettungswurf] gegen Deine erwürfelten Erfolge bestehen.
 
 Jede Kreatur, die diesen Rettungswurf nicht besteht, muss sich vor Dir hinknien.
-Sie gelten als xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_condition_disabled[kampfunfähig] und xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_condition_onground[am Boden].
+Sie gelten als xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig] und xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[am Boden].
 Die Wirkung hält bis zum Ende ihrer nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] an.
 
 [[ref_bestiary_skill_vampiric_majestic_aura_legendary]]

@@ -14,8 +14,8 @@
 Rote, feurige Blitze formen sich in den Lücken zwischen den Wolken.
 Kommen diese hervor, erkennt der Beobachter, dass es sich um kleine, feurige Teufel handelt, deren Gesichter ein hämisches Grinsen mit messerscharfen Zähnen zeigen.
 
-Aller Kreaturen im Wirkungsbereich müssen zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_KO[KO(6)-Rettungswurf] bestehen.
-Bei einem xref:../../rules/core/core_rules_d10_system.adoc#ref_core_failurerole[Misserfolg] oder schlechter, beißen oder reißen die Feuerteufel ihnen Wunden und erhalten sie einen automatischen Treffer mit 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden und 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt]-Schaden.
+Aller Kreaturen im Wirkungsbereich müssen zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO(6)-Rettungswurf] bestehen.
+Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] oder schlechter beißen oder reißen die Feuerteufel ihnen Wunden und erhalten sie einen automatischen Treffer mit 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden und 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt]-Schaden.
 Du bist immun gegenüber den Feuerteufeln.
 
 Im Wirkungsbereich herrscht eine leichte xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit], mit einem Modifikator von -1 auf die Würfe zum Erfolg.

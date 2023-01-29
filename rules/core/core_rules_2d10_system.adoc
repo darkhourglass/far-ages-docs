@@ -357,6 +357,10 @@ Die folgende Tabelle zeigt eine beispielhafte Übersicht zu verschiedenen Mindes
 |Beinahe unmöglich
 |===
 
+[[ref_core_2d10_checks_standardminiumroll]]
+=== Standardmindestwurf
+Immer dann, wenn eine Probe einen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> erfordert, aber keiner explizit angegeben ist, gilt impliziert der *Standardmindestwurf* von 15.
+
 [[ref_core_2d10_checks_successes]]
 === Erfolge
 Ein *Erfolg* tritt ein, wenn bei einer Probe der vorgegebene <<ref_core_2d10_checks_miniumroll,Mindestwurf>> erreicht oder überboten wurde.
@@ -817,7 +821,7 @@ Um eine solche Gefahr abzuwenden, muss die Reflex-Probe einen angebenen <<ref_co
 
 .Rettungswürfe
 ====
-Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_base_saves_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_2d10_check_saves_base_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
 
 Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Regeln] hoch genug, um den Zauberspruch zu wirken.
 Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen.
@@ -869,6 +873,61 @@ Eine ausführliche Beschreibung aller generischen Talente findet sich im Dokumen
 Für eine Talentprobe wird ein *Talentbonus* benötigt.
 Dieser beträgt schlicht die Anzahl der <<ref_core_2d10_characters_talents_steps,Talentstufen>>, die ein Charakter in dem jeweiligen Talent besitzt.
 Eine <<ref_core_2d10_characters_talents_untrainedcheck,ungeübte Anwendung>> eines Talents wird nominell mit dem Talentbonus 0 gewürfelt.
+
+[[ref_core_2d10_checks_display]]
+=== Abkürzungen für Proben
+Innerhalb des Far Ages Spielsystems können Proben dieser Art grundsätzlich folgenderweise abgekürzt werden:
+
+Name(x)
+
+Dabei steht x für den <<ref_core_2d10_checks_miniumroll,Mindestwurf>>.
+In den offiziellen Dokumenten finden sich Beschreibungen von Proben beispielsweise folgenderweise:
+
+Geschick (15)
+
+Reflex (20)
+
+Das erste Beispiel beschreibt eine <<ref_core_2d10_checks_attributchecks,Geschick-Probe>>, die einen Mindestwurf von 15 erfordert und das zweite Beispiel beschreibt einen <<ref_core_2d10_check_saves_base_reflex,Reflex-Rettungswurf>>, die einen Mindestwurf von 20 erfordert.
+
+Für bekannte Mindestwürfe, zum Beispiel im Fall des <<ref_core_2d10_checks_standardminiumroll,Standardmindestwurfs>>, wird nur der Probenname genannt.
+
+[[ref_core_2d10_checks_when_to_roll]]
+=== Wann mache ich welche Probe?
+Im Allgemeinen obliegt es dem SL festzulegen, wann ein Spieler eine Probe für seinen Charakter ablegen muss.
+Als Richtlinie hierfür sollte gelten:
+
+_"Immer dann, wenn der Spieler eine Aktion durchführt, die nicht alltäglich ist, unter Stress (zum Beispiel im Kampf oder unter Zeitdruck) ausgeführt wird, oder von deren Erfolg eine spiel-relevante Aktion abhängt"_.
+
+Viele Proben, die durch gutes Rollenspiel bestanden werden können, zum Beispiel könnte ein Spieler mit der Barmaid flirten, in dem er dies wirklich beschreibt, anstatt auf das Talent oder Attribut würfelt, können somit gespart werden.
+
+Eine weitere Entscheidung in Hinsicht der Art der Probe muss noch zusätzlich gefällt werden: ist es eine einfache Probe oder eine konkurrierende Probe. Ebenso gilt als Hilfestellung:
+
+_"Alles, was keine konkurrierende Probe ist, ist eine Einfache."_
+
+und
+
+_"Jede konkurrierende Probe beschreibt Vorgänge, die nahezu zeitgleich passieren, wobei immer mindestens Zwei, also der Angreifer und der Verteidiger, beteiligt sind ODER wenn ein Verteidiger mit der direkten Auswirkung einer bewussten Behinderung eines Angreifers konfrontiert wird."_
+
+Beispielsweise wäre das Erklimmen einer steilen Klippe eine einfache Probe, da hier nur das Können des Kletterers gefragt ist, da die Klippe nicht bewusst das Klettern erschwert oder behindert.
+
+Das Ausweichen einer Falle ist jedoch eine konkurrierende Probe, da diese in dem Bewusstsein gelegt wurde, andere zu verletzten.
+
+[[ref_core_2d10_checks_deciding_minimumroll]]
+=== Festlegung des Mindestwurfes
+Der Mindestwurf wird im Allgemeinem vom SL festgelegt und muss den Spielern nicht unbedingt mitgeteilt werden.
+Allerdings war es Intention das Far Ages-System für Spieler und Spielleiter möglichst transparent zu machen.
+
+Daher sind die Mindestwürfe für Talente meist bekannt oder entsprechen dem Standardmindestwurf, wenn nicht anders angegeben.
+In jeder Talentbeschreibung findet sich eine Angabe zum Mindestwurf, damit dieses Talent glückt.
+Des Weiteren finden sich meistens Hinweise, welche Effekte mehrere Erfolge dem Würfelnden bringen.
+
+Ebenso sollten die Standardproben den Spielern bekannt sein, um den Spielfluss nicht aufzuhalten, wobei der SL natürlich berechtigt ist, jederzeit die Standardproben zu erschweren oder zu erleichtern, wenn es die Situation erfordert.
+
+Attributsproben decken meistens Situationen ab, die weder durch Talente noch durch Standardproben beschreibbar sind.
+In diesen Fällen liegt die Entscheidung beim SL, ob er den Spielern Mindestwurf und Anzahl der Erfolge mitteilt.
+
+Als Richtlinie kann sich der SL daran orientieren, wie Standardproben aufgebaut sind.
+In den Beschreibungen der Standardproben finden sich auch meist Vorschläge und Regeln für Modifikatoren, die bei bestimmten Situationen die Proben erschweren oder erleichtern.
 
 [[ref_core_2d10_conditions]]
 == Besondere Zustände

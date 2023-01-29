@@ -96,7 +96,7 @@ Er hält ein Konstrukt aus einer erfolgreichen Reparatur mehr als 0 TP, kann es 
 Ein Konstrukt, dessen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] auf 0 reduziert werden,
 gilt als *deaktiviert*.
 Wie bei <<ref_constructs_rules_death_destroyed,zerstört>> gelten die üblichen Regeln für den Zustand xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe] nicht.
-Ein Konstrukt mit 0 MP kann keinerlei Handlung durchführen, es gilt effektiv als xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_disabled[kampfunfähig].
+Ein Konstrukt mit 0 MP kann keinerlei Handlung durchführen, es gilt effektiv als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
 
 Erhält ein Konstrukt wieder mehr als 0 MP, beispielsweise dank seiner xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] oder den Zauberspruch link:../../../../compendiums/spells/spell_energytransfer.adoc[Energietransfer], kann es wieder normal agieren.
 
@@ -134,14 +134,14 @@ In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Konstrukte vo
 === Fähigkeiten
 Alle Konstrukte erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift widerstehen]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten widerstehen]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_dazed[Benommen]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift widerstehen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_disgust[Ekel]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])

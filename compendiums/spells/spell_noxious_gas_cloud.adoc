@@ -13,7 +13,7 @@
 *Effekt:* Die Erde im Wirkungsbereich bricht auf und übelriechende Gase strömen aus den schmalen Rissen.
 Für die Dauer des Zauberspruches formt sich eine dichte Wolke aus ätzendem Dampf, der in der Lunge brennt und die Augen tränen lässt.
 
-Alle Kreaturen, die sich zu Beginn ihrer Kampfphase im Wirkungsbereich des Zaubers befinden, müssen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift-Rettungswurf] gegen die Anzahl der Erfolg aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegen.
+Alle Kreaturen, die sich zu Beginn ihrer Kampfphase im Wirkungsbereich des Zaubers befinden, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift-Rettungswurf] gegen die Anzahl der Erfolg aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegen.
 Das Gift entspricht einem xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_caustic_venom[ätzenden Gift]. +
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +

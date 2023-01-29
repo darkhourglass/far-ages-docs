@@ -14,9 +14,9 @@
 Die Zielfläche muss keine Blumen enthalten, wenn Du Zauberspruch aussprichst, sie muss allerdings die Möglichkeit bieten, dass Blumen darauf wachsen können.
 Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] wachsen bunte Blumen aus dem Boden (falls keine da sind) und sprühen eine Pollenwolke in die Luft.
 
-Jede Kreatur, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] im Wirkungsbereich beginnt, muss sie einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_saves_KO[KO-Rettungswurf] gegen die Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen.
+Jede Kreatur, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] im Wirkungsbereich beginnt, muss sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO_[KO-Rettungswurf] gegen die Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen.
 Misslingt der Rettungswurf, schläft die Zielkreatur für die Dauer des Zauberspruches ein.
-Sie gilt so lange als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_unconscious[bewusstlos].
+Sie gilt so lange als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[bewusstlos].
 
 *Zusätzliche Effekte:* +
 +2 MP, +1 POT: Dauer +1 Kampfphase +

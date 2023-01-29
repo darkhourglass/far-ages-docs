@@ -15,7 +15,7 @@ Der Himmel über Dir verdunkelt sich und Du zeigst drohend auf den Wirkungsberei
 Krachend rast ein Komet auf purem Eis, einen Schweif aus Graupel und Frost hinter sich herziehend, zu Boden.
 
 Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 8W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost-Schaden].
-Ihnen steht außerdem ein xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] zu.
+Ihnen steht außerdem ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] zu.
 Besteht eine Kreatur diese Probe, wird der angerichtete Schaden gegen sie halbiert (abgerundet, Minimum 1). +
 *Zusätzliche Effekte:* +
 +2 MP: Reichweite +6,00 Meter +

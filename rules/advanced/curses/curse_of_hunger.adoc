@@ -10,7 +10,7 @@ Nur wenn sie das Bedürfnis stillt, regeneriert sie 1W10 TP pro KO-Stufe.
 Die Kreatur wird von einem nagenden Hunger nach dem angegebenen *Bedürfnis* gequält.
 Das Bedürfnis ist nicht unbedingt überlebensnotwendig, noch muss es sonderlich umgänglich sein.
 Üblicherweise ist das Bedürfnis eine bestenfalls bedenkliche Zutat, zum Beispiel Blut, menschliche Herzen oder Knochen.
-Möchte die Kreatur dem Hunger widerstehen, muss sie eine xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft-Probe] bestehen.
+Möchte die Kreatur dem Hunger widerstehen, muss sie eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft-Probe] bestehen.
 Die Anzahl der nötigen Erfolge erhöht sich jedes Mal um 1, wenn die Kreatur dem Hunger widersteht.
 Gibt ihm nach, startet die Anzahl wieder bei 1.
-Misslingt die Probe, verfällt die Kreatur in xref:../../core/core_rules_d10_system.adoc#ref_core_condition_frenzy[Raserei], bis sie das Bedürfnis befriedigen konnte.
+Misslingt die Probe, verfällt die Kreatur in xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Raserei], bis sie das Bedürfnis befriedigen konnte.

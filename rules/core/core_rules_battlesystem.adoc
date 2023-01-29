@@ -152,12 +152,12 @@ Jeder Charakter kann pro Kampfphase in der Regel eine Aktion durchführen, daher
 ==== Angriff
 Mit dieser Aktion initiiert der Charakter einen Nahkampf mit einem Gegner in unmittelbarer Reichweite.
 
-Der Charakter darf *nicht* bereits im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] sein.
+Der Charakter darf *nicht* bereits im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] sein.
 Er kann maximal die Hälfe seiner BEW entfernt sein und muss diese einsetzen, um sich auf den Gegner zu zubewegen.
-Er muss außerdem eine xref:core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] würfeln.
+Er muss außerdem eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] würfeln.
 Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
 
-Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Kampf gebunden].
+Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden].
 
 Bewegt sich der Charakter nicht und nutzt ein Talent, wie xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], gilt der Angriff ausschließlich als <<ref_battle_actions_usetalent,Talenteinsatz>>.
 Dasselbe gilt, wenn er bereits im Kampf gebunden ist und zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwendet.
@@ -198,9 +198,9 @@ Im xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Ka
 
 Zum Einsatz würfelt der Charakter eine reguläre Probe auf xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf].
 Ist diese erfolgreich, verursacht er halbierten <<ref_battle_damagerolls,Schaden>> (abgerundet, minimal 1).
-Die beiden Kontrahenten würfeln nun eine xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende] xref:core_rules_d10_system.adoc#ref_core_attributeroles[ST-Probe].
+Die beiden Kontrahenten würfeln nun eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende] xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[ST-Probe].
 Derjenige, der mehr Erfolge gewürfelt hat, hat den Gegner im Griff.
-Dieser gilt als xref:core_rules_d10_system.adoc#ref_core_condition_immobile[gefangen].
+Dieser gilt als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[gefangen].
 
 Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfrunde eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
 Dieser Versuch gilt als das Manöver <<ref_battle_move_breakfree,befreien>>.
@@ -259,7 +259,7 @@ Er muss sich daher zwischen den folgenden Optionen entscheiden.
 
 [[ref_battle_move_standup]]
 ==== Aufstehen
-Befindet sich der Charakter in der Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_onground[am Boden], kann er dieses Manöver einsetzen, um sich aufzurichten.
+Befindet sich der Charakter in der Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[am Boden], kann er dieses Manöver einsetzen, um sich aufzurichten.
 
 Das Manöver kostet den Charakter die Hälfte seiner BEW-Rate pro Kampfphase.
 Kann er in dieser Kampfphase weitere BEW einsetzen, stehen ihm entsprechend weniger Einheiten zur Verfügung.
@@ -268,7 +268,7 @@ Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity,Gelegenhe
 
 [[ref_battle_move_breakfree]]
 ==== Befreien
-Befindet sich der Charakter in der Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_held[gefangen], kann er dieses Manöver einsetzen, um sich zu befreien.
+Befindet sich der Charakter in der Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen], kann er dieses Manöver einsetzen, um sich zu befreien.
 
 Dies erfordert gegebenenfalls eine zusätzliche Probe, zum Beispiel im Fall von <<ref_battle_actions_attack_brawl,Raufen und Ringen>>.
 Im Zweifel entscheidet der SL über die nötige Probe.
@@ -287,7 +287,7 @@ Der Charakter darf ein Talent einsetzen, welches als Manöver gekennzeichnet ist
 
 [[ref_battle_move_useBEW]]
 ==== Rennen
-Der Charakter kann in dieser Kampfphase seine BEW-Rate verwenden, wenn er nicht xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden] ist.
+Der Charakter kann in dieser Kampfphase seine BEW-Rate verwenden, wenn er nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] ist.
 Es gelten die üblichen Regeln für <<ref_battle_rules_movement,Bewegung>>.
 Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
 
@@ -329,7 +329,7 @@ Die Verwendung und der Effekt des Gegenstandes sind im Normalfall in der Beschre
 
 [[ref_battle_freeactions_quickstep]]
 ==== Schneller Schritt
-Hat der Charakter in der aktuellen Kampfphase keines der Manöver <<ref_battle_move_useBEW>> oder <<ref_battle_complexactions_sprint>> eingesetzt und ist er nicht im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden], darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
+Hat der Charakter in der aktuellen Kampfphase keines der Manöver <<ref_battle_move_useBEW>> oder <<ref_battle_complexactions_sprint>> eingesetzt und ist er nicht im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden], darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
 
 Dieser Schritt folgt den Regeln für <<ref_battle_rules_movement,Bewegung>>, verursacht aber keinen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
 
@@ -354,8 +354,8 @@ In jeder Kampfphase besitzt ein Charakter im Normalfall genau eine Reaktion.
 
 [[ref_battle_reaction_dogde]]
 ==== Ducken
-Muss der Charakter in seiner Kampfphase einen beliebigen xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] würfeln, kann er als Reaktion sich ducken.
-In diesem Fall erhält er einen Bonus von +2 auf die xref:core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_numbers[Würfe zum Erfolg].
+Muss der Charakter in seiner Kampfphase einen beliebigen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] würfeln, kann er als Reaktion sich ducken.
+In diesem Fall erhält er einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] für diesen Rettungswurf.
 Das betroffene Attribut ist dabei unerheblich.
 
 [[ref_battle_reaction_execute_attack_of_opportunity]]
@@ -383,7 +383,7 @@ Hat ein Charakter keine Aktion oder kein Bewegungsmanöver, aber den jeweils and
 
 [[ref_battle_complexactions_sprint]]
 ==== Sprinten
-Der Charakter kann in dieser Kampfphase seine doppelte BEW-Rate verwenden, wenn er nicht xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden] ist.
+Der Charakter kann in dieser Kampfphase seine doppelte BEW-Rate verwenden, wenn er nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] ist.
 Es gelten die üblichen Regeln für <<ref_battle_rules_movement,Bewegung>>.
 
 Das Manöver verursacht einen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>.
@@ -404,7 +404,7 @@ Neben der allgemeinen Regel, dass er auf sein <<ref_battle_movefightaction,Manö
 Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
 Er muss mindestens die Hälfte seiner BEW-Rate und maximal seine volle BEW-Rate von seinem Gegner in gerader Linie entfernt sein.
 Diese Linie darf nicht durch Hindernisse oder andere Kreaturen blockiert sein.
-Außerdem darf der Charakter nicht bereits im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] sein.
+Außerdem darf der Charakter nicht bereits im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] sein.
 
 Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
 
@@ -416,11 +416,11 @@ Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 ==== Zurückweichen / Flucht
 Neben Angriff ist auch manchmal die Flucht die beste Verteidigung, wenn man einer Übermacht oder einem starken Gegner gegenüber steht.
 
-Ist ein Charakter im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden], kann er diese Aktion wählen, um sich aus dem Kampf zurückzuziehen.
+Ist ein Charakter im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden], kann er diese Aktion wählen, um sich aus dem Kampf zurückzuziehen.
 
 Ein Charakter kann in einer Runde, in der er Zurückweichen einsetzen, seine gesamte BEW-Rate einsetzen, um sich von seinem Kontrahenten zu entfernen.
 In diesem Fall provoziert der Charakter keinen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>, wenn er sich die durch Bedrohungszonen seiner Gegner bewegt.
-Dies gilt für alle Gegner, mit denen der Charakter im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] ist.
+Dies gilt für alle Gegner, mit denen der Charakter im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] ist.
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
 Der Charakter provoziert allerdings nach regulären Regeln <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriffe>>, wenn er sich während seiner Bewegung durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> anderer Kreaturen bewegt.
@@ -433,10 +433,10 @@ Nahkampf beschreibt die direkte Auseinandersetzung mit dem Kontrahenten.
 Für gewöhnlich gilt alles, was mit einer Waffe geführt wird, die in der Hand behalten wird, und ihren Schaden auch da wirkt, als Nahkampf.
 Eine Projektilwaffe verursacht ihren Schaden also nicht an dem Ort, wo sie "stationiert" ist, sondern dort, wo das Projektil einschlägt.
 
-Im Allgemeinen gilt, dass eine xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierende Probe] im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er muss in der Lage sein, seine <<ref_battle_reactions,Reaktion>> einsetzen zu können.
+Im Allgemeinen gilt, dass eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende Probe] im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er muss in der Lage sein, seine <<ref_battle_reactions,Reaktion>> einsetzen zu können.
 Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Talente nutzen, dies sind zum Beispiel die xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] und xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
 
-Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe] seitens des Angreifers gewürfelt und es gilt die Anzahl an Erfolgen, die er gewürfelt hat.
+Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_singularrolls[einfache Probe] seitens des Angreifers gewürfelt und es gilt die Anzahl an Erfolgen, die er gewürfelt hat.
 
 [[ref_battle_rules_melee_and_unarmed_zoneofcontroll]]
 === Bedrohungszone
@@ -522,7 +522,7 @@ Ebenso erhält er für bestimmte Aktionen seiner Gegner <<ref_battle_rules_attac
 
 [[ref_battle_rules_melee_and_unarmed_shields]]
 === Einsatz von Schilden
-Schilde können im Nahkampf eingesetzt werden, um eine xref:core_rules_d10_system.adoc#ref_core_defendingroll[Verteidigungsprobe] gegen Angriffe mit xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] zu ermöglichen.
+Schilde können im Nahkampf eingesetzt werden, um eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe] gegen Angriffe mit xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] zu ermöglichen.
 
 [NOTE]
 In Ermessen des SLs können Schilde auch für andere Verteidigungsproben genutzt werden.
@@ -620,7 +620,7 @@ In diesem Fall erhalten die Angreifer zwar keinen Bonus auf ihre Angriffswürfe,
 Angriffe über die Seiten (hellgraue Kacheln) können normal verteidigt werden, jedoch muss der angegriffene Charakter einen Malus von *-1 auf die Würfel zum Erfolg* für seine Verteidigungswürfe hinnehmen.
 
 Angriffe über den Rücken (dunkelgrauen Kacheln) oder auch aus dem *Toten Winkel* sind besonders gefährlich, denn dann stehen dem Charakter keine regulären Verteidigungswürfe oder <<ref_battle_reactions,Reaktionen>> zu.
-Stattdessen kann er nur einen xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungwurf] gegen die Anzahl der Erfolge des Angreifers würfeln.
+Stattdessen kann er nur einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungwurf] gegen die Anzahl der Erfolge des Angreifers würfeln.
 Erreicht er mindestens gleich viele Erfolge, so wird der Schaden, der durch diesen Angriff vor Abzug der Rüstung und Schadensresistenzen verursacht wird, halbiert.
 Diese Regel stellt eine mögliche, glückliche, vielleicht auch instinktive Bewegung für einen Charakter dar, der von hinten angegriffen wird.
 
@@ -688,7 +688,7 @@ Als Richtlinie gilt, dass jede Waffe, die in der Ausrüstungsliste mit einer Rei
 Grundsätzlich werden Angriffsproben mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] gewürfelt.
 Eventuelle technomantische Geräte, die wie Projektilwaffen gehandelt werden, können auch mit xref:core_rules_talents_base.adoc#ref_talents_use_technomantic_device[Technomantisches Gerät Benutzen] verwendet werden.
 
-Alle diese Waffenarten werden als xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe] gewürfelt, bis auf die Ausnahmen, die durch Talente oder Fähigkeiten explizit erwähnt werden.
+Alle diese Waffenarten werden als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_singularrolls[einfache Probe] gewürfelt, bis auf die Ausnahmen, die durch Talente oder Fähigkeiten explizit erwähnt werden.
 Die folgenden Regeln gelten für die Angriffsprobe in jedem Fall.
 
 [[ref_battle_rules_ranged_combat_baserange]]
@@ -714,7 +714,7 @@ Ziele in Reichweite von 26 bis 50 Metern sind schwerer zu treffen, Ziele innerha
 Auch wenn Fernkampf im Allgemeinen durch eine einfache Probe simuliert wird, so benötigt jede Fernkampfprobe eine Mindestanzahl von Erfolgen, um erfolgreich zu sein.
 Diese Mindestanzahl ist von der Reichweite des Schusses oder Wurfes abhängig.
 
-Eine Fernkampfprobe, die unter dieser Mindestanzahl bleibt, gilt als xref:core_rules_d10_system.adoc#ref_core_failurerole[Misserfolg].
+Eine Fernkampfprobe, die unter dieser Mindestanzahl bleibt, gilt als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg].
 Das Projektil trifft kein Ziel.
 
 Die Mindestanzahl ergibt sich aus der Distanz vom Schützen zum Ziel.
@@ -771,7 +771,7 @@ Ziel 3 steht vier Inkremente entfernt. Also beträgt der Malus hier -4 Würfel.
 [[ref_battle_modifiers_ranged_fire_in_crowd]]
 ==== Kampfgetümmel
 
-Befindet sich ein Ziel im Kampf, ist somit im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[im Nahkampf gebunden], so muss der Schütze einen Malus von *-2 auf die Würfe zum Erfolg* auf seine Angriffsprobe hinnehmen, da er das Ziel aufgrund der Kampfhandlungen nicht genau anvisieren kann.
+Befindet sich ein Ziel im Kampf, ist somit xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden], so muss der Schütze einen Malus von *-2 auf die Würfe zum Erfolg* auf seine Angriffsprobe hinnehmen, da er das Ziel aufgrund der Kampfhandlungen nicht genau anvisieren kann.
 
 [[ref_battle_modifiers_ranged_moving_and_firing]]
 ==== Nicht-Stationäres Feuern
@@ -859,7 +859,7 @@ Neben diesen beiden Manövern gelten diese Regeln auch für alle anderen Aktione
 [[ref_battle_rules_movement_occupiedspaces]]
 === Besetzte Gebiete
 Ein Gebiet gilt als *besetzt*, sobald eine beliebige Kreatur dieses Gebiet mit ihrer Basis ausfüllt und bei vollem Bewusstsein ist, diese also <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,bedrohen>> können.
-xref:core_rules_d10_system.adoc#ref_core_condition_dazed[kampfunfähige] oder xref:core_rules_d10_system.adoc#ref_core_condition_unconscious[ohnmächtige] Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
+xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[kampfunfähige] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[ohnmächtige] Kreaturen nehmen zwar den Platz ein, gelten jedoch nicht als Besetzer eines Feldes und bedrohen auch keine weiteren Felder.
 
 Ein Charakter darf keinen Raum durchqueren oder betreten, wenn ein feindlich gesonnenes Wesen diesen besetzt.
 Freundlich gesonnene Wesen können den Charakter vorbeilassen, jedoch muss dieser pro Feld, dass auf diese Weise freigegeben wird, die doppelte BEW investieren.
@@ -927,7 +927,7 @@ Die Regeln in diesem Kapitel treffen auch auf diese Situationen zu.
 [[ref_battle_damage_hit]]
 === Treffer
 
-Eine erfolgreiche xref:core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] und deren ungeübter Anwendung führt zu einem *Treffer*.
+Eine erfolgreiche xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] und deren ungeübter Anwendung führt zu einem *Treffer*.
 Fallen würfeln auch eine Angriffsprobe und erzeugen damit Treffer.
 Eine erfolgreiche xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kann auch Treffer erzeugen, wenn dies in der Beschreibung des xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_cumulative_effects[Effekts] zu dem gezauberten Spruch beschrieben ist.
 
@@ -1046,7 +1046,7 @@ Damit beträgt sein gesamter Rüstungschutz für seinen Torso 3+5+3 = 11.
 [[ref_battle_criticalhit]]
 === Kritischer Treffer
 
-Jede Angriffsprobe, die einen sehr guten xref:core_rules_d10_system.adoc#ref_core_tiers_of_sucess[Erfolgsgrad] erzielt, gilt als *kritischer Treffer*.
+Jede Angriffsprobe, die einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[kritischen Erfolgsgrad] erzielt, gilt als *kritischer Treffer*.
 Die Anzahl der Würfel des <<ref_battle_damagerolls,Schadensbonus>> wird in diesem Fall verdoppelt.
 
 .Kritischer Treffer
@@ -1139,7 +1139,7 @@ Alle elementaren Schadensarten werden von <<ref_battle_armor,normaler Rüstung>>
 Das Feuer ist eine zerstörerische und unbändige Kraft, die so lange konsumiert, bis nichts mehr da ist.
 Feuerschaden kann viele Quellen haben, vom Lagerfeuer bis zum Waldbrand, viele Zaubersprüche nutzen die Kraft des Feuers oder auch Kreaturen und Konstrukte, die Feuer spucken.
 
-Erreicht der Feuerschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Feuerschaden.
+Erreicht der Feuerschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Feuerschaden.
 
 [[ref_battle_damage_type_elemental_air]]
 ===== Luft
@@ -1165,7 +1165,7 @@ Eiskalt und lebensfeindlich ist der Frost.
 Er lässt sogar den Atem gefrieren und das Blut in den Adern stillstehen.
 Frost-Schaden kommt natürlicherweise in besonders kalten Gebieten vor, wie zum Beispiel die Eiswüsten nördlich von Kchrun.
 
-Erreicht der Frostschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Frostschaden.
+Erreicht der Frostschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Frostschaden.
 
 [[ref_battle_damage_type_aspectelemental_magma]]
 ===== Magma
@@ -1178,14 +1178,14 @@ Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende Säuren 
 Ätzende Gase werden von dieser Regel auch betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten assoziiert wird.
 Manche der Säuren gehören zum Verdauungsprozess einer Kreatur oder sind ein Abwehrmechanismus.
 
-Erreicht der Säureschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Säureschaden.
+Erreicht der Säureschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Säureschaden.
 
 [[ref_battle_damage_type_aspectelemental_shock]]
 ===== Schock
 Schock-Schaden ist elektrisierende Energie, die durch den Körper ihrer Opfer fließt und diese lähmt.
 Typische Quellen sind Blitzschläge, natürliche, wie magische, bestimmte technomantische Spielzeuge und diverse Phänomene, die auf statischer Ladung beruhen.
 
-Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_d10_system.adoc#ref_core_condition_burning[Brennend] mit 1W3 Schockschaden.
+Erreicht der Schockschaden die xref:core_rules_charactercreation.adoc#ref_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Schockschaden.
 
 [[ref_battle_damage_types_magical]]
 ==== Magische Schadensarten
@@ -1201,7 +1201,7 @@ Durch wird dem Opfer die Energie entzogen, die es ihm erlaubt, Zauber zu wirken.
 ===== Illusionär
 Mache Zaubersprüche der Zauberschule xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus] und eventuelle andere, exotischere Quellen können illusionären Schaden verursachen.
 Dieser Schaden tritt nur auf, wenn das Opfer wirklich daran glaubt, verwundet worden zu sein.
-Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_d10_system.adoc#ref_core_base_rolls_douptillusions[Illusion Durchschauen-Probe] würfeln.
+Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_douptillusions[Illusion Durchschauen-Probe] würfeln.
 Ist diese erfolgreich, nimmt er keinen Schaden.
 Sollte er überzeugt sein, dass er den Schaden erhält, wird eine <<ref_battle_damagerolls,Schadensprobe>> gewürfelt.
 
@@ -1245,7 +1245,7 @@ Nur eine <<ref_battle_damageimmunity,Schadensimmunität>> schützt gegen unabwen
 Als *Überanstrengungsschaden* wird eine besondere, allgemeine Schadensart beschrieben, die entsteht, wenn ein Charakter oder eine Kreatur außergewöhnliche Handlungen durchführt, die körperliche Anstrengung verursacht.
 
 Einige link:core_rules_skills.adoc[Fähigkeiten] oder manche Zaubersprüche können Überanstrengungsschaden verursachen, um sie einzusetzen.
-Auch xref:core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpfte] Charaktere können Überanstrengungsschaden erleiden.
+Auch xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[erschöpfte] Charaktere können Überanstrengungsschaden erleiden.
 Überanstrengungsschaden entsteht somit normalerweise durch eine bewusste Entscheidung des Charakters und selten durch äußere Einwirkung.
 
 Überanstrengungsschaden gilt als <<ref_battle_damage_type_primary_physical,physischer>>, <<ref_battle_damage_inevitable,unabwendbarer>> Schaden und es gelten die üblichen Regeln.
@@ -1342,7 +1342,7 @@ Außerdem droht ein <<ref_battle_knockdown,Niederschlag>>, welcher im nachfolgen
 
 Verletzungen kumulieren sich auf einer Trefferzone immer weiter, je öfter diese getroffen wird.
 Man spricht dabei vom *Verletzungsgrad*.
-Abhängig von diesem Grad erleidet ein Charakter einen Malus auf xref:core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_numbers[Würfelanzahl] für alle Proben, bis die Verletzungen xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration_wounds_curing_wounds[geheilt] sind.
+Abhängig von diesem Grad erleidet ein Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] auf für alle Proben, bis die Verletzungen xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration_wounds_curing_wounds[geheilt] sind.
 Es gilt, dass immer nur der höchste Verletzungsgrad auf einer beliebigen Trefferzone für die Bestimmung des Malus herangezogen wird.
 
 |===
@@ -1354,23 +1354,23 @@ Es gilt, dass immer nur der höchste Verletzungsgrad auf einer beliebigen Treffe
 
 |2
 |Leicht
-|-1
+|-2
 
 |3
 |Mittelschwer
-|-2
+|-4
 
 |4
 |Schwer
-|-4
+|-8
 
 |5
 |Gefährlich
-|-6
+|-12
 
 |6+
 |Tödlich
-|-8
+|-16
 |===
 
 
@@ -1402,7 +1402,7 @@ Der Charakter erhält damit eine mittelschwere Verletzung.
 Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer <<ref_battle_wounds,Verletzung>> einen *Niederschlag* erleiden kann.
 Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht.
 Es wird ihm "Schwarz vor Augen" und wird er durch die Wucht des Angriffes niedergeschmettert.
-Um dies zu prüfen, muss der Charakter einen xref:core_rules_d10_system.adoc#ref_core_base_saves_knockdown[Niederschlags-Rettungswurf] ablegen.
+Um dies zu prüfen, muss der Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_knockdown[Niederschlags-Rettungswurf] ablegen.
 
 Die Anzahl der nötigen Erfolge wird durch den aktuell höchsten <<ref_battle_wounds_steps,Verletzungsgrad>>, die erhaltene Verletzung berücksichtigend, wie folgt kalkuliert:
 
@@ -1440,7 +1440,7 @@ Der Verletzungsgrad ist nur oberflächlich, womit Elias eine Niederschlags-Probe
 Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad leicht und die Niederschlags-Probe hätte gegen 4 Erfolge gewürfelt werden müssen.
 ====
 
-Misslingt die Niederschlags-Probe, dass gilt der Charakter als xref:core_rules_d10_system.adoc#ref_core_condition_onground[am Boden] und ist bis zum Beginn seiner nächsten Kampfphase xref:core_rules_d10_system.adoc#ref_core_condition_disabled[kampfunfähig].
+Misslingt die Niederschlags-Probe, dass gilt der Charakter als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[am Boden] und ist bis zum Beginn seiner nächsten Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
 Er kann dann wieder <<ref_battle_move_standup>>,aufstehen>>.
 
 [[ref_battle_items_weapons]]
@@ -1714,7 +1714,7 @@ Ein Charakter mit einem xref:core_rules_charactercreation.adoc#ref_secondary_ini
 Eine Rüstung mit dieser Eigenschaft beeinträchtigt den Charakter in seiner Motorik.
 Er erhält einen Malus auf folgende xref:core_rules_charactercreation.adoc#ref_attribute_dexterity[GE-basierte] Proben:
 
-* xref:core_rules_d10_system.adoc#ref_core_saves_GE[GE-Rettungswürfe], damit auch xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswürfe]
+* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_GE[GE-Rettungswürfe], damit auch xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswürfe]
 * xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]
 * xref:core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen]
 * xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]

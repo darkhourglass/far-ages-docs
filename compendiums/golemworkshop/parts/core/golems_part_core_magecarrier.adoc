@@ -69,9 +69,9 @@ Erleidet der Magierträger (nicht der Magier selbst) nach den allgemeinen Regeln
 
 [[ref_golemparts_core_magecarrier_shared_attributs]]
 == Geteilte Attribute
-Die besondere Symbiose des Magierträgers ermöglicht es dem Magiers auf die außergewöhnliche Kraft und Stärke des Konstrukts zuzugreifen.
+Die besondere Symbiose des Magierträgers ermöglicht es dem Magier auf die außergewöhnliche Kraft und Stärke des Konstrukts zuzugreifen.
 
-Alle xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_attributeroles[Attributs-Proben], xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves[Rettungwürfe] und xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talent-Proben], die auf den körperlichen Attributen (ST, GE, KO) basieren und die der Magier normalerweise mit seinen Attributsstufen als Basis ausführen würde, dürfen mit den Attributsstufen des Golems benutzt werden.
+Alle xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributs-Proben], xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungwürfe] und xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Proben], die auf den körperlichen Attributen (ST, GE, KO) basieren und die der Magier normalerweise mit seinen Attributsstufen als Basis ausführen würde, dürfen mit den Attributsstufen des Golems benutzt werden.
 Der Magier muss jedoch immer seine Talent-Stufen verwenden, auch wenn der Golem eventuell die gleichen Talente besitzt.
 
 .Geteilte Attribute
@@ -104,5 +104,5 @@ Kann der Magier beispielsweise fliegen, der Golem ab nicht, kann er dieses Manö
 
 Der Golem kann nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden und gilt als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[inaktiv], wenn kein Magier den Golem besetzt.
 
-Weiterhin muss der Magier jederzeit bei xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Bewusstsein] und nicht xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[tod] sein, um den Golem steuern zu können.
+Weiterhin muss der Magier jederzeit bei xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Bewusstsein] und nicht xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[tod] sein, um den Golem steuern zu können.
 Treten diese Fälle ein, gilt der Golem ebenso als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[inaktiv].

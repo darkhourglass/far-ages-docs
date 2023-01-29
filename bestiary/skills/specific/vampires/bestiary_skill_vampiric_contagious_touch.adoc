@@ -10,7 +10,7 @@ Eine faule Energie jagt durch Deine Adern und überträgt sich auf eine Kreatur,
 Nutzt Du diese Fähigkeit im Nahkampf und Dein Ziel kann sich wehren, musst Du eine Probe in xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf] ablegen.
 Du gilst in diesem Fall als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_missingweapon[bewaffnet].
 
-Die berührte Kreatur muss sofort einen Rettungswurf gegen xref:../../../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheit] ablegen.
+Die berührte Kreatur muss sofort einen Rettungswurf gegen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheit] ablegen.
 Die Anzahl der nötigen Erfolge hängt wie folgt von Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab:
 
 |===

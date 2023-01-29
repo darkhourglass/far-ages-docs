@@ -14,7 +14,7 @@
 Ungewöhnlich stark und wild schlagen die Ranken auf alle Kreaturen ein, die ihnen zu nahe kommen.
 Ihr messerscharfen Blätter reißen tiefe Wunden.
 
-Alle Kreaturen, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] im Zielgebiet des Zauberspruches beginnen, müssen einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] ablegen.
+Alle Kreaturen, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] im Zielgebiet des Zauberspruches beginnen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] ablegen.
 Bestehen sie diese Probe nicht, erhalten sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] von 2W6.
 
 *Zusätzliche Effekte:* +

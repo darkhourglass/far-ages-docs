@@ -5,7 +5,7 @@
 *CP:* tba +
 
 Mit dieser Fähigkeit kann eine Kreatur eine ihrer anderen *Angriffe* innerhalb der eigenen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] mehrfach einsetzen und dies mit dem Einsatz einer einzigen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion].
-Es muss sich dabei um eine offensive Fähigkeit oder Talent handeln, die die Kreatur zum xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attackingroll[Angriffs-Wurf] verwendet.
+Es muss sich dabei um eine offensive Fähigkeit oder Talent handeln, die die Kreatur zum xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] verwendet.
 Es können keine Fähigkeiten verwendet werden, die eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] erfordern.
 
 Die angegebene *Anzahl* gibt die Anzahl der Attacken an, die mit einem Mehrfach-Angriff ausgeführt werden.
@@ -22,5 +22,5 @@ Erst nach Abschluss des Mehrfach-Angriffs kann die Kreatur wieder andere Aktione
 ====
 Eine Kreatur besitzt den Mehrfach-Angriff (Biss, 4) und die Fähigkeit link:bestiary_skill_attack_bite.adoc[Biss (8, 3W6+1)].
 Dank dieser Fähigkeit kann die Kreatur mit nur einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] die Fähigkeit Biss 4-mal in seiner xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] einsetzen.
-Jeder einzelne Biss kann gegen ein- und dieselbe Kreatur geführt werden oder gegen alle Kreaturen, die in xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Reichweite] sind.
+Jeder einzelne Biss kann gegen ein- und dieselbe Kreatur geführt werden oder gegen alle Kreaturen, die in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Reichweite] sind.
 ====

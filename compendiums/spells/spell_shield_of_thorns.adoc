@@ -17,7 +17,7 @@ Du kannst den Schild regulär mit dem Talent xref:../../rules/core/core_rules_ta
 Der Schild bietet Dir einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_armor[Rüstungsschutz] von 5 Punkten.
 Der Schild hat keine negativen Modifikatoren.
 
-Jeder Angreifer im Nahkampf, der eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attackingroll[Angriffsprobe] gegen Dich führt, während Du den Dornenschild trägst, muss einen xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] ablegen.
+Jeder Angreifer im Nahkampf, der eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gegen Dich führt, während Du den Dornenschild trägst, muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] ablegen.
 Misslingt der Wurf, erhält er einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schadensbonus] von 4W6.
 
 *Zusätzliche Effekte:* +

@@ -224,7 +224,7 @@ Untote und Konstrukte sind immun gegen diesen Zauber. +
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
 Wenn er auf dem Boden einschlägt, zerberstet er zu einem Inferno mit einem Radius von 3 Metern um den Einschlagpunkt. +
 Jede Kreatur im Zielradius erleidet 4W6 xref:core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuerschaden].
-Alle Kreaturen dürfen einen xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
+Alle Kreaturen dürfen einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
 Bei einem Erfolg werden die Schadenspunkte halbiert (Minimum 1).
 *Zusätzliche Effekte:* +
 +5 MP: Reichweite: +6,00 Meter +
@@ -269,7 +269,7 @@ Die Magiepotenz(POT) ist eine Angabe über die Macht des Zauberspruches.
 
 [[ref_magic_rules_spellcasting_spellspecifics_save]]
 *Rettungswurf*:
-Dieses Feld gibt an, ob bei dem Zauberspruch ein xref:core_rules_d10_system.adoc#ref_core_saves[Rettungwurf] erlaubt ist.
+Dieses Feld gibt an, ob bei dem Zauberspruch ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungwurf] erlaubt ist.
 Die Details finden sich einem gesonderten <<ref_magic_rules_spellcasting_magicdefence,Kapitel>>.
 
 [[ref_magic_rules_spellcasting_spellspecifics_components]]
@@ -412,10 +412,10 @@ Damit lässt ein Zauberspruch sofort mit seiner Ansage zur Vorbereitung in derse
 [[ref_magic_rules_spellcasting_roll]]
 ==== Spruchzauberei-Probe
 Einen Zauber wirkt man mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei].
-Dies ist im Normalfall eine xref:core_rules_d10_system.adoc#ref_core_singlerolls[einfache Probe], welche die angegebene *Anzahl von Erfolgen* erreichen muss.
+Dies ist im Normalfall eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_singularrolls[einfache Probe], welche die angegebene *Anzahl von Erfolgen* erreichen muss.
 
 Manche Zaubersprüche lassen einen<<ref_magic_rules_spellcasting_magicdefence,Rettungswurf>> zu.
-Dadurch wird die <<ref_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> zu einer xref:core_rules_d10_system.adoc#ref_core_concurrentrolls[konkurrierenden Probe].
+Dadurch wird die <<ref_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> zu einer xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierenden Probe].
 Die Anzahl der Erfolge wird wie üblich berechnet, wobei das Ergebnis sich wie folgt auswirken kann:
 
 * erfordert der Zauberspruch eine minimale Anzahl von Erfolgen, muss diese nach Abzug der verteidigenden Erfolge weiterhin erreicht sein
@@ -432,8 +432,8 @@ In dem Moment der Spruchzauberei-Probe muss die xref:core_rules_charactercreatio
 [[ref_magic_rules_spellcasting_magicdefence]]
 ==== Rettungswürfe
 Viele Zaubersprüche erlauben dem Ziel, sich gegen den magischen Angriff zu verteidigen.
-Die Angabe „Ja“ unter *Rettungswurf* gibt an, dass ein xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] erlaubt ist.
-Sofern nicht anders angegeben, wird die Probe mit dem Attribut xref:core_rules_charactercreation.adoc#ref_attribute_energy[EN] gewürfelt, siehe auch xref:core_rules_d10_system.adoc#ref_core_saves_EN[Energie-basierte Rettungswürfe].
+Die Angabe „Ja“ unter *Rettungswurf* gibt an, dass ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] erlaubt ist.
+Sofern nicht anders angegeben, wird die Probe mit dem Attribut xref:core_rules_charactercreation.adoc#ref_attribute_energy[EN] gewürfelt, siehe auch xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_EN[Energie-basierte Rettungswürfe].
 Die Angabe „Nein“ gibt an, dass keinen Rettungswurf erlaubt (oder nötig) ist.
 
 Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“ beziehen sich darauf, dass der Zauberspruch unterschiedliche Ziele ansprechen kann, zum Beispiel „Selbst/Berührung“.
@@ -442,9 +442,9 @@ Wirkt man einen Zauberspruch auf ein anderes Wesen, kann es freiwillig auf den R
 
 In bestimmten Fällen, wie zum Beispiel des Zauberspruches _Verwirren_, ist der Rettungswurf durch ein anderes Attribut vorgegeben.
 Dieses Attribut ist dann zusätzlich angegeben, wie beispielsweise "Ja (SB)".
-In diesem Fall wird ein xref:core_rules_d10_system.adoc#ref_core_saves_SB[SB-Rettungswurf] gewürfelt.
+In diesem Fall wird ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_SB[SB-Rettungswurf] gewürfelt.
 
-Viele Zaubersprüche, wie zum Beispiel link:../../compendiums/spells/spell_fireball.adoc[Feuerball], erlauben einen xref:core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex] oder vergleichbaren xref:core_rules_d10_system.adoc#ref_core_saves[Rettungswurf], um den Schaden aus dem Zauberspruch zu reduzieren.
+Viele Zaubersprüche, wie zum Beispiel link:../../compendiums/spells/spell_fireball.adoc[Feuerball], erlauben einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex] oder vergleichbaren xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf], um den Schaden aus dem Zauberspruch zu reduzieren.
 Diese Form des Rettungswurfs ist Teil des Effekts und damit nicht durch die Angabe unter *Rettungswurf* abgedeckt.
 
 [[ref_magic_rules_spellcasting_spellburning]]
@@ -465,7 +465,7 @@ Dazu würfelt er eine Talent-Probe in xref:core_rules_talents_base.adoc#ref_tale
 Besteht er die Probe, behält er die Vorbereitung und kann diese in seiner nächsten Kampfphase weiterführen, wenn er seine Aktion verloren hat.
 Ein xref:core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlag] bedeutet immer den automatischen Verlust der Vorbereitung.
 
-Bei einem xref:core_rules_d10_system.adoc#ref_core_failurerole[Misserfolg] oder xref:core_rules_d10_system.adoc#ref_core_botches[Patzer] muss er eine Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen] würfeln.
+Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] muss er eine Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen] würfeln.
 Die benötigte Anzahl der Erfolge ist die POT des Zauberspruches, der unterbrochen wurde.
 Besteht der Charakter die Proben nicht, so erhält er einen xref:core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit POT*1W4 xref:core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schaden.
 
@@ -478,7 +478,7 @@ Schafft er dies nicht, muss er eine weitere Probe auf Verbrennen widerstehen geg
 Schlägt auch diese fehl, erhält er 6W6 Schaden.
 ====
 
-Ist die Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen] ein xref:core_rules_d10_system.adoc#ref_core_botches[Patzer], tritt außerdem ein <<ref_magic_rules_spellcasting_spell_botches,Zauberpatzer>> ein.
+Ist die Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen] ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer], tritt außerdem ein <<ref_magic_rules_spellcasting_spell_botches,Zauberpatzer>> ein.
 
 [[ref_magic_rules_spellcasting_cancelspell]]
 ==== Freiwilliges Abbrechen eines Zauberspruches
@@ -493,7 +493,7 @@ Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, in seiner Kampfphase fr
 Ansonsten droht euch das Schicksal des armen Habryn...
 ja, richtig, das war das, mit den vielen Tentakeln letzte Woche.
 
-Würfelt ein Zauberer bei seiner Spruchzauberei-Probe einen xref:core_rules_d10_system.adoc#ref_core_botches[Patzer], dann tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein.
+Würfelt ein Zauberer bei seiner Spruchzauberei-Probe einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer], dann tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein.
 Wie stark und gefährlich dieser werden kann, hängt von der POT des verpatzten Zauberspruches ab.
 Dazu addiert man die POT und die Anzahl der Patzer aus der Probe und betrachtet diese xref:../tables/table_magic_spellfailure_general.adoc[Tabelle].
 
@@ -943,7 +943,7 @@ Eure Augen sind euer wichtigstes Hilfsmittel, um die Wunder des Multiversums wah
 
 Der Illusionismus befasst sich mit magisch erzeugten *Trugbildern*.
 Die Opfer dieser Trugbilder können versuchen diese zu durchschauen.
-Dies geschieht mit einer sogenannten xref:core_rules_d10_system.adoc#ref_core_base_rolls_douptillusions[Illusion Durchschauen-Probe].
+Dies geschieht mit einer sogenannten xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_douptillusions[Illusion Durchschauen-Probe].
 
 Die Anzahl der benötigen Erfolge bestimmt sich aus der POT des Zauberspruches, der sie erzeugte.
 

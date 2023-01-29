@@ -4,7 +4,7 @@
 *Ziel:* Kreatur
 *Ende:* Permanent, Bann, Tat
 *Beschreibung:* Die Kreatur ist verflucht, immer die Wahrheit zu sagen.
-Um eine Lüge aussprechen zu können, muss sie eine xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Probe bestehen.
+Um eine Lüge aussprechen zu können, muss sie eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft]-Probe bestehen.
 Misslingt die Probe, muss die Kreatur statt der Lüge die Wahrheit sagen.
 
 Darüber hinaus hat der Fluch je nach Typ zusätzliche Auswirkungen, wenn diese Probe misslingt:
@@ -22,12 +22,12 @@ Der Charakter nimmt sofort 1 xref:../../core/core_rules_battlesystem.adoc#ref_ba
 == Stark
 
 Der Charakter nimmt sofort 1 xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schadenspunkt.
-Für die nächsten 24 Stunden erhält er außerdem einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Proben.
+Für die nächsten 24 Stunden erhält er außerdem einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft]-Proben.
 
 [[ref_curse_of_truth_deathcurse]]
 == Todesfluch
 
 Der Charakter nimmt sofort so viele xref:../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbare] Schadenspunkte, wie er xref:../../core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID] besitzt.
 Er erhält damit eine xref:../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde].
-Es ist jedoch keine xref:../../core/core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlags]-Probe nötig.
-Für die nächsten 24 Stunden erhält er außerdem einen Malus von -2 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_d10_system.adoc#ref_core_base_saves_willpower[Willenskraft]-Proben.
+Es ist jedoch kein xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_knockdown[Niederschlags-Rettungswurf] nötig.
+Für die nächsten 24 Stunden erhält er außerdem einen Malus von -2 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft]-Proben.

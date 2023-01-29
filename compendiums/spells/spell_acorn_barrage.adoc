@@ -15,10 +15,10 @@ Den Ahornkern benötigst Du als Zutat für diesen Zauberspruch.
 
 Der Zauberspruch dehnt sich xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_cone[kegelförmig] von Dir aus.
 Alle Kreaturen in diesem Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 5W10 Schaden.
-Jede Kreatur darf eine xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Probe] ablegen, um bei Erfolg keinen Schaden zu nehmen.
+Jede Kreatur darf eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Probe] ablegen, um bei Erfolg keinen Schaden zu nehmen.
 In diesem Fall wird sie, unabhängig von dem Erfolg dieser Probe, an den Rand des Kegels gedrängt, jedoch maximal die Hälfte ihrer xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
 Die Kreatur darf die Richtung entscheiden.
-Am Ende der Bewegung gilt sie als xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_onground[am Boden] liegend.
+Am Ende der Bewegung gilt sie als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[am Boden] liegend.
 
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: +1W10 Schaden +

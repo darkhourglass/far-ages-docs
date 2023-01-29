@@ -14,7 +14,7 @@
 Dieses explodiert im Wirkungsbereich in einem verheerenden Flammeninferno.
 
 Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
-Jeder Kreatur steht ein xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] zu.
+Jeder Kreatur steht ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] zu.
 Besteht eine Kreatur diesen Rettungswurf, erhält sie den halbierten Schaden (abgerundet, Minimum 1). +
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: Radius +1,50 Meter +

@@ -219,7 +219,7 @@ Bewaffnungen haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis
 
 *Talente:* Viele Bewaffnungen lassen den Golem zur Verwendung xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talente] einsetzen.
 Diese Angabe listet das mit dieser Bewaffnung gelernte Talent und die passende Talentstufe an.
-Die xref:../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talentstufe] enthält noch keine Berücksichtigung der xref:../../rules/core/core_rules_d10_system.adoc#ref_core_attributeroles[Attributsstufe] des Golems.
+Die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentstufe] enthält noch keine Berücksichtigung der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributsstufe] des Golems.
 Die Angabe eines Talents bedeutet immer, dass die Angriffsprobe für diese Bewaffnung mit diesem Talent gewürfelt werden muss und damit üblicherweise eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] ist.
 
 *MP-Kosten:* Benötigt der Einsatz dieser Bewaffnung (ggf. damit zusätzlich zur Talent-Aktivierung) MP, so sind diese hier als Zahl angegeben.
@@ -345,11 +345,11 @@ Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.
 Nachdem alle Einzelteile gewählt und erstellt wurden, muss der Technomant eine finale Probe mit seinem xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Talent] ablegen, um den Golem zusammenzusetzen.
 Die nötige Anzahl der Erfolge ist gleich die Anzahl der Einzelteile.
 
-Bei einem xref:../../rules/core/core_rules_d10_system.adoc#ref_core_failurerole[Misserfolg] kann der Technomant die Arbeit nicht erfolgreich abschließen.
+Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] kann der Technomant die Arbeit nicht erfolgreich abschließen.
 Er verliert keine Materialien, nur Zeit.
 Die Probe kann jedoch erst nach 24 Stunden noch einmal durchgeführt werden.
 
-Sollte die Probe ein xref:../../rules/core/core_rules_d10_system.adoc#ref_core_botches[Patzer] sein, ist ein kritischer Fehler bei der Zusammensetzung entstanden.
+Sollte die Probe ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] sein, ist ein kritischer Fehler bei der Zusammensetzung entstanden.
 Der Technomant würfelt pro Einzelteil 1W10.
 Bei einer weiteren 1, muss er 25% der Zeit und des Wertes des Einzelteils noch einmal einsetzen, bevor er diese Probe wiederholen kann.
 

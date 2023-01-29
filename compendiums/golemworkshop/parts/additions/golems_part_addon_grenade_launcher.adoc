@@ -12,8 +12,8 @@ Die arkane Energie in dem Rohr der Kammer wird aktiviert und als Ball knisternde
 
 Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] und dem Einsatz der MP-Kosten kann der Golem die Energien in einer aktiven Kammer abfeuern.
 Diese arkane Granate explodiert an einem Punkt in direkter Sichtweite mit maximal 18,00 Meter Entfernung und in einem Radius von 3,00 Metern.
-Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
-Jeder Kreatur steht ein xref:../../rules/core/core_rules_d10_system.adoc#ref_core_base_saves_reflex[Reflex-Rettungswurf] zu.
+Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 4W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
+Jeder Kreatur steht ein xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] zu.
 Besteht eine Kreatur diesen Rettungswurf, erhält sie den halbierten Schaden (abgerundet, Minimum 1).
 
 Jeder Granatwerfer besitzt normalerweise 6 Kammern, der verschossen werden können, bevor der Golem warten muss, mindestens 1 Kammer wiederaufgeladen ist.

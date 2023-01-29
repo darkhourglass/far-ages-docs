@@ -45,14 +45,14 @@ Vampire sind außergewöhnliche Untote für die nicht alle üblichen Regeln gelt
 Folgende Ausnahmen sind zu beachten:
 
 * Entgegen der Regeln für Untote gelten für folgende Proben die üblichen Regeln für Vampire:
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_disgust[Ekel]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_fear[Furcht]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_saves_KO_horror[Horror]
-* Vampire sind allerdings immun gegenüber xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_poisonresist[Gift] und xref:../../../core/core_rules_d10_system.adoc#ref_core_base_saves_sicknessresist[Krankheiten].
+** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_disgust[Ekel]
+** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht]
+** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror]
+* Vampire sind allerdings immun gegenüber xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheiten].
 * Vampire sind nicht gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
-* Vampire sind nur immun gegenüber folgenden xref:../../../core/core_rules_d10_system.adoc#ref_core_conditions[Situationen]:
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_exhausted[Erschöpft]
-** xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[Ohnmächtig]
+* Vampire sind nur immun gegenüber folgenden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_conditions[Situationen]:
+** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 * Vampire können SP verlieren und erleben alle damit verbundenen Konsequenzen.
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär]).
@@ -95,12 +95,12 @@ Ihre xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_va
 ==== Energieentzug
 Der verwendete Pool für die Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] ist xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
 Weiterhin wird für Vampire dieser Art der Energieentzug durch einen *Biss* und das Trinken von Blut durchgeführt.
-Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack_brawl[Ringen].
+Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack_brawl[Ringen].
 Ist dieser Voraussetzung erfüllt, kann der Energieentzug nach den üblichen Regeln angewendet werden.
 Dieser Akt gilt nun als Biss.
 
 [NOTE]
-Kreaturen, die sich nicht wehren können, weil sie zum Beispiel xref:../../rules/core/core_rules_d10_system.adoc#ref_core_condition_unconscious[ohnmächtig] sein, können direkt gebissen werden.
+Kreaturen, die sich nicht wehren können, weil sie zum Beispiel xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[ohnmächtig] sein, können direkt gebissen werden.
 
 [[ref_undead_vampire_skills_vampir_sire]]
 ==== Erschaffer
