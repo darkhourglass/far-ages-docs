@@ -35,7 +35,7 @@ Die Parameter der Fähigkeit richten sich nach der Machtstufe des Vampires.
 Sollte sich die Machtstufe eines Vampirs im Laufe seiner Existenz verändern, verändert sich die Werte gemäß der Tabelle.
 
 |===
-|Machtstufe des Vampirs |Angriffstufe |Schaden |Reichweite
+|Machtstufe des Vampirs |Angriffsstufe |Schaden |Reichweite
 
 |1
 |1 + Attribut
@@ -94,13 +94,13 @@ Sollte sich die Machtstufe eines Vampirs im Laufe seiner Existenz verändern, ve
 |===
 
 Der Parameter *Pool* wird im Normal durch die <<ref_vampire_rules_source_of_vampirism,Quelle des Vampirismus>> definiert.
-Sollte dies nicht angegeben sein, wird der Energieentzug von xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] angenommen.
+Sollte dies nicht angegeben sein, wird der Energieentzug von xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] angenommen.
 
 Die in der Tabelle definierte Variable *Attribut* hängt von dem gewählten *Pool* ab, von dem der Energieentzug bei der Zielkreatur gewirkt wird.
 
-* xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP]: xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO]
-* xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP]: xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_energy[EN]
-* xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP]: xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_selfcontrol[SB]
+* xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP]: xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO]
+* xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP]: xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN]
+* xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP]: xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB]
 
 [NOTE]
 ====
@@ -120,7 +120,7 @@ Der Schadensbonus beträgt 1W8.
 ==== Zusätzliche Fähigkeiten und Flüche
 Abhängig von seiner Machtstufe erhält der Vampir zusätzliche Fähigkeiten, die speziell für Vampire ausgelegt sind, siehe folgende <<ref_vampire_appendix_list_vampiric_skills,Liste>>.
 Sofern nicht durch andere Regeln vorgegeben, kann der Vampir diese Fähigkeiten bei seiner Verwandlung aussuchen.
-Gleichzeitig erhält er jedoch ebenso <<ref_vampire_appendix_list_vampiric_curses, Flüche>>, die speziell auf Vampire wirken, sobald sie verwandelt werden.
+Gleichzeitig erhält er jedoch ebenso <<ref_vampire_appendix_list_vampiric_curses,Flüche>>, die speziell auf Vampire wirken, sobald sie verwandelt werden.
 Diese Flüche sind im allgemeinen bekannte link:../../advanced_rules_curses.adoc[Flüche] sein, wie zum Beispiel link:../../curses/curse_of_hunger.adoc[der Hunger], jedoch sind diese niemals xref:../../advanced_rules_curses.adoc#ref_curses_breaking[entfernbar] (außer durch die Vernichtung des Vampirs natürlich).
 Die korrumpierende Macht von Nachtmahr ist ein zweischneidiges Schwert.
 
@@ -189,14 +189,14 @@ In diesem Fall handelt es sich um eine initiale Ausstattung bei seiner Erschaffu
 Die meisten <<ref_vampire_appendix_list_vampiric_skills,Vampirfähigkeiten>> besitzen neben der Angabe zur Verwendung in der Kampfphase (beispielsweise als xref:../../../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion]) eine *Aktivierung* in Form von *Blut*.
 Der Vampir muss dazu das Blut in seinem untoten Körper verbrauchen, um die Fähigkeit einsetzen zu können.
 Die Angabe erfolgt als eine Zahl.
-Diese Zahl muss der Vampir aus seinem xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] beziehen.
+Diese Zahl muss der Vampir aus seinem xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] beziehen.
 Dies funktioniert nach den gleichen Regeln wie xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengungsschaden] mit der Ausnahme, dass diese Kosten nie durch die genannten Ausnahmen reduziert werden können (zum Beispiel durch eine explizite Schadensimmunität).
 
 Ein Vampir kann keine Blutkosten aufbringen, wenn deren Einsatz ihn auf einen TP-Wert von 0 oder geringer bringen würde.
 
 [[ref_vampire_rules_restless]]
 === Rastlos
-Vampire können nicht mehr auf natürlichem Wege ihre Pools für xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] und xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerieren].
+Vampire können nicht mehr auf natürlichem Wege ihre Pools für xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regenerieren].
 Keine Rast kann die Pools wieder auffüllen.
 Dennoch können Vampire weiterhin gezwungen sein, regelmäßig schlafen, beispielsweise, wenn sie weiterhin den Kreaturentyp link:creaturetype_secondary_living.adoc[lebend] besitzen.
 Sie können jedoch nicht den Vorteil einer Rast nutzen.

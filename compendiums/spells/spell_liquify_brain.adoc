@@ -13,7 +13,7 @@
 *Effekt:* In diesem grausamen Ritual musst Du eine lebende Kreatur auf einem geeigneten Platz binden, zum Beispiel einen Altar oder eine Streckbank.
 Die angegebenen Kosten der Zutaten sind notwendige Einsätze im Ritual, zum Beispiel Kräuter, die rituell verbrannt werden.
 
-Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] zum Ende des Rituals verflüssigt sich das Gehirn der Zielkreatur und sie xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death_instant_death[stirbt].
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] zum Ende des Rituals verflüssigt sich das Gehirn der Zielkreatur und sie xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt].
 
 Der Leichnam der Kreatur ist durch dieses Ritual besonders gut geeignet, um einen Untoten zu erschaffen.
 Verwendest Du den Leichnam innerhalb von 24 Stunden bei einen beliebigen Zauberspruch außer link:spell_nekrogenesis.adoc[Nekrogenesis], um einen link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoten] der Machtstufe 9 oder weniger zu erschaffen, erhälst Du einen Bonus von +3 auf die Würfe zu Erfolg auf die relevante Probe.

@@ -1,0 +1,33 @@
+= Wildes Talent
+
+Du warst schon immer etwas anders.
+Deine besondere Veranlagung lässt Dich Dinge anders verstehen und lernen als alle anderen um Dich herum.
+So musstest Du nicht lange staubige Bücher wälzen und endlose Tutorien in arkaner Konzentration über Dich ergehen lassen.
+Die Magie kam freiwillig zu Dir.
+Von manchen bewundert, von manchen gefürchtet und von den Meisten beneidet, nutzt Du Dein instinktives Verständnis für Magie, um in einer Welt zu bestehen, für die Du vor allem ein Außenseiter bleiben wirst.
+
+*Attributsbonus:* - +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] (Arkanes) +
+*Spezial:* <<ref_core_backrounds_wild_talent_special_imbued_by_magic,Erfüllt mit Magie>> +
+*Startkapital:* - +
+*CP:* 40 +
+
+[[ref_core_backrounds_wild_talent_special_imbued_by_magic]]
+== Erfüllt mit Magie
+Du beherrschst instinktiv einen magischen Trink.
+Mit der xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation[Charaktererschaffung] wähle einen beliebigen xref:../core_rules_magic_base.adoc#ref_magic_base_arcanetrick[arkanen Trick] auf einer der folgenden Zauberspruchlisten:
+
+* link:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_druids.adoc[Druidenmagie]
+* link:../../../compendiums/spelllists/shadowmagic/compendium_spelllist_illusionism.adoc[Illusionismus]
+* link:../../../compendiums/spelllists/outermagic/compendium_spelllist_necromancy.adoc[Nekromantie]
+* link:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde]
+* link:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers]
+* link:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofspirit.adoc[Weg des Geistes]
+* link:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofbody.adoc[Weg des Körpers]
+* link:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft]
+* link:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers]
+
+Du erhältst die Möglichkeit mit Deiner xref:../core_rules_charactercreation.adoc#ref_attribute_energy[EN-Stufe] diesen arkanen Trick zu zaubern, als würdest Du xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] einsetzen.
+Solltest Du dieses Talent lernen, kannst Du diesen arkanen Trick nicht über das Talent nutzen, außer Du lernst die xref:../core_rules_magic_base.adoc#ref_magic_schools_of_magic[Zauberschule] xref:../core_rules_magic_base.adoc#ref_magic_schools_wild_magic[Wilde Magie].
+
+Es gelten die Regeln zum xref:../core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Aussprechen] eines arkanen Tricks.

@@ -10,12 +10,12 @@
 *Reichweite:* Selbst/Berührung +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* Sofort +
-*Effekt:* Du heilst die Zielkreatur von den Folgen eines xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases[Krankheit].
+*Effekt:* Du heilst die Zielkreatur von den Folgen einer xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases[Krankheit].
 Als Zutat benötigst Du eine kleine Menge an Heilkräutern, die Du bei der Vorbereitung des Zauberspruches verbrennst.
 
 Befindet sich die Krankheit im Körper der Kreatur, wird sie vollständig kuriert.
 Eventuelle Effekte der Krankheit treten nicht mehr ein.
-Durch die Krankheit verlorene xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] werden jedoch doch nicht regeneriert.
+Durch die Krankheit verlorene xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] werden jedoch doch nicht regeneriert.
 
 Damit der Zauberspruch wirkt, muss die Anzahl der Erfolge Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] die xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases_strengh[Stärke der Krankheit] übertreffen.
 Durch zusätzliche Effekte kannst Du die Schwierigkeit der Probe reduzieren.

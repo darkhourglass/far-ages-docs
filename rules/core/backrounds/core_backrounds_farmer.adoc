@@ -1,0 +1,16 @@
+= Farmer
+
+Du bist auf einem landwirtschaftlichen Betriebe groß geworden und hast dort viele Jahre gearbeitet oder selbst betrieben.
+Dazu zählen vielseitige Tätigkeiten wie der Anbau von Getreide, zahlreiche Nutzpflanzen, Obst oder Gemüse. Ebenso dazu zählt die Aufzucht von verschiedensten Nutztieren wie Kühe, Schweine oder Hühner.
+Du bist das harte Arbeiten und lange Tage gewöhnt. +
+
+*Attributsbonus:* - +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft], xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] (Landwirtschaft) +
+*Spezial:* <<ref_core_backrounds_farmer_special_good_stamina,Durchhaltevermögen>> +
+*Startkapital:* - +
+*CP:* 40 +
+
+[[ref_core_backrounds_farmer_special_good_stamina]]
+== Durchhaltevermögen
+Erhältst Du den Zustand xref:../core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpft], kannst Du diese Fähigkeit einsetzen, um diesen Zustand abzuwehren.
+Um diese Fähigkeit erneut verwenden zu können, musst Du jedoch zunächst eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange Rast] durchgeführt haben.

@@ -1,0 +1,22 @@
+= Handwerker
+
+Du hast den Großteil Deines bisherigen Lebens mit der harten Arbeit in einem Handwerk verbracht.
+Vielleicht kannst Du Hammer und Meißel perfekt umgehen und bearbeitest Stein oder Holz.
+Oder Du fühlst in der schweren Hitze einer Schmiede wohl und hämmerst von Hufeisen bis Schwertern alles.
+
+Deine Arbeit und Erfahrung ließ Dich zu einem gefragten Meister Deines Faches werden.
+Wahrscheinlich konntest Du bisher (und könntest auch in Zukunft) gut von Deiner Arbeit leben.
+
+*Attributsbonus:* +1 KO +
+*Talente:* ein xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk] Deiner Wahl+
+*Spezial:* <<ref_core_backrounds_craftsman_special_trademastery,Meisterliches Handwerk>> +
+*Startkapital:* - +
+*CP:* 40 +
+
+[[ref_core_backrounds_craftsman_special_trademastery]]
+== Meisterliches Handwerk
+Zu Beginn des Spiels musst Du ein xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk], zum Beispiel Schmieden, wählen.
+Für dieses Handwerk erhältst Du zum einen den xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation_backround[Talentbonus] und zum anderen gilt für dieses Handwerk der Bonus dieser Fähigkeit.
+
+Immer wenn Du einen Gegenstand mit dem gewählten Handwerk herstellst oder bearbeitest, benötigst Du 10% weniger der üblichen Materialkosten und 20% weniger der angegebenen Zeit.
+

@@ -79,8 +79,8 @@ Aus diesem Grund verstecken und bewachen Geißeln ihre Seelengefäße bis aufs �
 
 [[ref_template_undead_source_skill_regeneration]]
 === Regeneration (Geißel)
-Als link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoter] kann eine Geißel üblicherweise keine TP oder MP xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerieren].
-Ein Geißel kann jedoch, solange sie 8 Stunden am Stück in unmittelbarer Nähe zu ihrem <<ref_template_undead_source_skill_souljar,Seelengefäß>> verweilt, ihre MP vollständig auffüllen.
+Als link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoter] kann eine Geißel üblicherweise keine TP oder MP xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regenerieren].
+Eine Geißel kann jedoch, solange sie 8 Stunden am Stück in unmittelbarer Nähe zu ihrem <<ref_template_undead_source_skill_souljar,Seelengefäß>> verweilt, ihre MP vollständig auffüllen.
 
 [[ref_template_undead_source_skill_unholy_aura]]
 === Unheilige Aura
@@ -113,7 +113,7 @@ Sie verliert den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/
 Die Geißel lernt alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[Fähigkeiten] von Untoten.
 
 Um die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] der Geißel zu ermitteln, wird der Basiswert 10 angenommen.
-Für jede volle 40 xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP], die die Geißel bei ihrer Erschaffung besitzt, wird der Basiswert um 1 erhöht.
+Für jede volle 40 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP], die die Geißel bei ihrer Erschaffung besitzt, wird der Basiswert um 1 erhöht.
 Es zählt dabei der Maximalwert, nicht der aktuelle Stand des MP-Pools.
 Es werden außerdem zuerst alle Änderungen an <<ref_template_undead_source_attributes,Attributen und Attributseigenschaften>> aus dieser Schablone angewendet bevor die Machtstufe bestimmt wird.
 Das Endergebnis dieser Rechnung ergibt dann die Machtstufe der Geißel.

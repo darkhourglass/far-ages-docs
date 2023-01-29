@@ -1,0 +1,18 @@
+= Stadtwache
+
+// TODO Beschreibung
+
+*Attributsbonus:* - +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] +
+*Spezial:* <<ref_core_backrounds_cityguard_special_know_my_corner,Kenne jede Ecke>> +
+*Startkapital:* - +
+*CP:* 40 +
+
+[[ref_core_backrounds_cityguard_special_know_my_corner]]
+== Kenne jede Ecke
+Durch Deine vielen Jahre, die Du auf Streife verbracht hast, kennst Du Deine Stadt (oder auch Gegend) so gut wie auswendig.
+Wenn Du Informationen über die Stadt benötigst, um Dich zu orientieren, wo was (oder wer) ist, kannst Du Dich ohne Probe erfahren.
+Dies gilt nur für allgemein bekannte Informationen, Du kannst also nicht das geheime Hauptquartier des Nekromanten erfahren - schließlich ist es geheim.
+Weiterhin kannst Du nach Ermessen des SLs immer eine xref:../core_rules_d10_system.adoc#ref_core_talentroles_untrainedcheck[ungeübte] xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissens-Probe] legen, wenn Du etwas über die Stadt erfahren möchtest und das Talent nicht beherrschst.
+
+Für welche Stadt oder Gebiet diese Fähigkeit gilt, musst Du zu Beginn des Spiels bei der xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation[Charaktererschaffung] festlegen.

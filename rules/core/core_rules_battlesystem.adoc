@@ -420,7 +420,7 @@ Ist ein Charakter im xref:core_rules_d10_system.adoc#ref_core_condition_bondedin
 
 Ein Charakter kann in einer Runde, in der er Zurückweichen einsetzen, seine gesamte BEW-Rate einsetzen, um sich von seinem Kontrahenten zu entfernen.
 In diesem Fall provoziert der Charakter keinen <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriff>>, wenn er sich die durch Bedrohungszonen seiner Gegner bewegt.
-Dies gilt für alle Gegner, mit denen der Charakter im Kampf gebunden ist.
+Dies gilt für alle Gegner, mit denen der Charakter im xref:core_rules_d10_system.adoc#ref_core_condition_bondedincombat[Kampf gebunden] ist.
 Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 
 Der Charakter provoziert allerdings nach regulären Regeln <<ref_battle_rules_attack_of_opportunity,Gelegenheitsangriffe>>, wenn er sich während seiner Bewegung durch die <<ref_battle_rules_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> anderer Kreaturen bewegt.
@@ -968,7 +968,7 @@ Folgende Übersicht gibt Auskunft über die Berechnungen:
 * <<ref_battle_damage_hit_automatic,Automatischer Treffer>>: *SB*
 
 Das Endergebnis wird die *Schadenspunkte* genannt.
-Üblicherweise werden Schadenspunkte von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] des Charakters abgezogen.
+Üblicherweise werden Schadenspunkte von dem xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] des Charakters abgezogen.
 Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalten von Schadenspunkten.
 
 .Schadenswürfe
@@ -1060,7 +1060,7 @@ Erzielt Kraag mit seiner Waffe, die einen Schadensbonus von 2W6 besitzt, einen k
 Weiterhin ist zwischen tödlichem und nicht-tödlichem Schaden zu unterscheiden.
 Im Endeffekt gelten für nicht-tödlichen Schaden alle bisherigen Regeln, jedoch mit folgenden Einschränkungen:
 
-* nicht-tödlicher Schaden reduziert die xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] eines Charakters maximal auf 0 und führt nicht in den Zustand xref:core_rules_d10_system.adoc#ref_base_rules_death_deathsdoor[dem Tode nahe].
+* nicht-tödlicher Schaden reduziert die xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] eines Charakters maximal auf 0 und führt nicht in den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe].
 * nicht-tödlicher Schaden verursacht keine <<ref_battle_wounds,Verletzungen>>, aber kann zu <<ref_battle_knockdown,Niederschlägen>> führen.
 
 Grundsätzlich gilt, dass alles, egal ob Waffe, Zauberspruch, Zähne oder Klaue tödlichen Schaden verursacht.
@@ -1096,7 +1096,7 @@ Besitzt der Untote nun eine Schadensresistenz (Magie) oder eine magische Rüstun
 [[ref_battle_damage_types_primary]]
 ==== Primäre Schadensarten
 Primäre Schadensarten beschrieben allgemeine, weitverbreitete Arten von Schaden, die aus verschiedensten Quellen stammen können.
-Sie haben bis auf den üblichen Abzug von Punkten aus einem drei xref:core_rules_d10_system.adoc#ref_base_rules_pools[Pools] keine Auswirkungen.
+Sie haben bis auf den üblichen Abzug von Punkten aus einem drei xref:core_rules_2d10_system.adoc#ref_core_2d10_pools[Pools] keine Auswirkungen.
 
 [[ref_battle_damage_type_primary_physical]]
 ===== Physisch
@@ -1105,18 +1105,18 @@ Dies können Waffen sein, Fäuste eines Trolls oder eine Kanonenkugel sein.
 Ebenso zählt der harte Fußboden als Objekt, auf den der Charakter fällt, wenn er stolpert.
 
 Sofern nicht anders angegeben, gilt jeder Schaden als physischer Schaden.
-Dieser Schaden wird von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] abgezogen und es schützt <<ref_battle_armor,normale Rüstung>>.
+Dieser Schaden wird von den xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] abgezogen und es schützt <<ref_battle_armor,normale Rüstung>>.
 
 [[ref_battle_damage_type_primary_interlect]]
 ===== Intellekt
 Manche Angriffe sind subtil und verletzen nicht den Körper, sondern den Geist einer Kreatur.
-Dieser Schaden wird von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] einer Kreatur abgezogen.
+Dieser Schaden wird von den xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] einer Kreatur abgezogen.
 <<ref_battle_armor,Rüstung>> schützt nur, wenn dies explizit angegeben ist.
 
 [[ref_battle_damage_type_primary_mental]]
 ===== Mental
 Kosmisches Grauen bevölkert das Multiversum.
-Der mentale Schaden wird normal ausgewürfelt und dann von den xref:core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP] abgezogen.
+Der mentale Schaden wird normal ausgewürfelt und dann von den xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP] abgezogen.
 <<ref_battle_armor,Rüstung>> schützt nur, wenn dies explizit angegeben ist.
 
 [[ref_battle_damage_types_elemental]]
@@ -1126,7 +1126,7 @@ Elementare Schadensarten basieren auf den vier grundlegenden Elementen des Multi
 Die Schadensquellen können natürlicher wie übernatürlicher Natur sein.
 Der <<ref_battle_damage_type_elemental_fire,Feuer-Schaden>> eines link:../../compendiums/spells/spell_fireball.adoc[Feuerballs] wird genauso behandelt wie der Schaden einer brennenden Scheune.
 
-Alle elementaren Schadensarten werden immer von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] einer Kreatur abgezogen.
+Alle elementaren Schadensarten werden immer von dem xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] einer Kreatur abgezogen.
 Alle elementaren Schadensarten werden von <<ref_battle_armor,normaler Rüstung>> abgewehrt.
 
 [[ref_battle_damage_type_elemental_earth]]
@@ -1156,7 +1156,7 @@ Erreicht der Feuerschaden die xref:core_rules_charactercreation.adoc#ref_seconda
 Verbinden sich die Basiselemente, entstehen elementare Aspekte.
 Auch in diesem Fall können die Quellen für diese Arten des Schadens vielseitig sein und sowohl natürlichen und übernatürlichen Ursprung sein.
 
-Alle aspekt-elementaren Schadensarten werden immer von dem xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool] einer Kreatur abgezogen.
+Alle aspekt-elementaren Schadensarten werden immer von dem xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] einer Kreatur abgezogen.
 Alle aspekt-elementaren Schadensarten werden von <<ref_battle_armor,normaler Rüstung>> abgewehrt.
 
 [[ref_battle_damage_type_aspectelemental_frost]]
@@ -1331,7 +1331,7 @@ Damit beträgt sein Rüstungsschutz 12 und sein INI-Malus -2.
 [[ref_battle_wounds]]
 == Verletzungen
 
-Als *Verletzung* bezeichnet man einen starken Verlust von xref:core_rules_d10_system.adoc#ref_base_rules_pools_tp[Trefferpunkten], der durch einen einzigen <<ref_battle_actions_attack,Angriff>> verursacht wurde.
+Als *Verletzung* bezeichnet man einen starken Verlust von xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[Trefferpunkten], der durch einen einzigen <<ref_battle_actions_attack,Angriff>> verursacht wurde.
 Eine Verletzung ist beispielsweise eine blutende Wunde oder ein gebrochener Knochen oder gar Schlimmeres.
 
 Zuerst muss die <<ref_battle_hitzones,Trefferzone>> bestimmt werden, bei der die Verletzung zum Tragen kommt.
@@ -1342,7 +1342,7 @@ Außerdem droht ein <<ref_battle_knockdown,Niederschlag>>, welcher im nachfolgen
 
 Verletzungen kumulieren sich auf einer Trefferzone immer weiter, je öfter diese getroffen wird.
 Man spricht dabei vom *Verletzungsgrad*.
-Abhängig von diesem Grad erleidet ein Charakter einen Malus auf xref:core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_numbers[Würfelanzahl] für alle Proben, bis die Verletzungen xref:core_rules_d10_system.adoc#ref_battle_wounds_curing_wounds[geheilt] sind.
+Abhängig von diesem Grad erleidet ein Charakter einen Malus auf xref:core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_numbers[Würfelanzahl] für alle Proben, bis die Verletzungen xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration_wounds_curing_wounds[geheilt] sind.
 Es gilt, dass immer nur der höchste Verletzungsgrad auf einer beliebigen Trefferzone für die Bestimmung des Malus herangezogen wird.
 
 |===

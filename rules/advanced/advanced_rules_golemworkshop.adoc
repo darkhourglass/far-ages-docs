@@ -134,7 +134,7 @@ Sofern nicht anders angegeben, verbraucht eine Energieversorgung keine Zusätze,
 
 Eine Energiezelle ist ein ebenfalls gesondertes technomatisches Gerät, das speziell dafür konzipiert wurde, Golems mit Energie in Form von MP zu versorgen.
 xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:../../rules/core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
-Die Energieversorgung gilt als xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP-Pool] und hängt nicht vom xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Attribut] des Golems.
+Die Energieversorgung gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Attribut] des Golems.
 Der Golem benutzt diese MP auch, um Fähigkeiten aus beispielsweise <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>> oder <<ref_golemworkshop_creation_steps_additions,Zusätzen>> zu aktivieren.
 
 Ein Technomant muss diese nach den üblichen xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Regeln] herstellen.
@@ -142,7 +142,7 @@ Am Ende der Konstruktionszeit macht er eine xref:../../rules/core/core_rules_tec
 Es gelten die üblichen Regeln für Patzer und Misserfolge bei Technomantie-Proben.
 
 Je nach Energiezelle und xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] werden unterschiedliche Mengen an MP bereitgestellt.
-Außerdem können manche Energiezellen MP automatisch xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regenerieren].
+Außerdem können manche Energiezellen MP automatisch xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regenerieren].
 
 [[ref_golemworkshop_creation_steps_core_profiles]]
 ===== Darstellung der Einträge
@@ -223,7 +223,7 @@ Die xref:../../rules/core/core_rules_d10_system.adoc#ref_core_talentroles[Talent
 Die Angabe eines Talents bedeutet immer, dass die Angriffsprobe für diese Bewaffnung mit diesem Talent gewürfelt werden muss und damit üblicherweise eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] ist.
 
 *MP-Kosten:* Benötigt der Einsatz dieser Bewaffnung (ggf. damit zusätzlich zur Talent-Aktivierung) MP, so sind diese hier als Zahl angegeben.
-Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[Pool] abziehen.
+Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[Pool] abziehen.
 
 *Beschreibung:* Dieser Abschnitt beschreibt die Bewaffnung und kann weitere Regeln und Besonderheiten enthalten.
 
@@ -335,7 +335,7 @@ Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentpro
 *Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_additions_heavy,schwere Zusätze>>.
 
 *MP-Kosten:* Benötigt der Einsatz dieses Zusatzes, so sind diese hier als Zahl angegeben.
-Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[Pool] abziehen.
+Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[Pool] abziehen.
 
 *Beschreibung:* Dieser Abschnitt beschreibt den Zusatz im Detail und kann weitere Regeln und Besonderheiten enthalten.
 

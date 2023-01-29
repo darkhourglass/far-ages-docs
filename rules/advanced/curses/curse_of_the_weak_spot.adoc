@@ -21,10 +21,10 @@ Dies führt zu einer weiteren Wunde.
 [[ref_curse_of_the_weakspot_strong]]
 == Stark
 
-Es reduzieren sich die xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] sofort auf 0.
-Die Kreatur steht an der xref:../../core/core_rules_d10_system.adoc#ref_base_rules_death_deathsdoor[Todesschwelle].
+Es reduzieren sich die xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] sofort auf 0.
+Die Kreatur steht an der xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[Todesschwelle].
 
 [[ref_curse_of_the_weakspot_deathcurse]]
 == Todesfluch
 
-Es tritt der xref:../../core/core_rules_d10_system.adoc#ref_base_rules_death_instant_death[sofortige Tod] ein.
+Es tritt der xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[sofortige Tod] ein.

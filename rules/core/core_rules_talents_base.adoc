@@ -186,10 +186,15 @@ Dazu gehören spektakuläre Aktionen, die man umgangssprachlich als zirkusreif b
 Beispiele für passende Situationen, die eine Akrobatik-Probe benötigen, sind:
 
 * Der Charakter möchte auf einer sehr dünnen Oberfläche (einem Seil, eine feste Stange oder dem Geländer eines Balkons) balancieren.
+Die BEW des Charakters wird halbiert.
 * Der Charakter möchte auf einer sehr unsicheren Oberfläche (ein zugefrorener See, ein rutschiges Schiffsdeck oder eine schwankende Hängebrücke) laufen.
+Die BEW des Charakters wird halbiert.
+* TODO schwieriges Gelände
 * Der Charakter möchte beeindruckende Körperbewegungen durchführen: Purzelbäume, Handstand, Rad Schlagen und ähnliches
 * Der Charakter möchte die Bedrohungszone von Gegnern durchqueren, ohne einen Gelegenheitsangriff zu provozieren.
 * Der Charakter möchte schwierige Aktionen durchführen, ist jedoch teilweise eingeschränkt in seinen Bewegungen, zum Beispiel sind ihm die Hände gebunden und er möchte ein Schwert vom Boden aufheben.
+
+// TODO erlaube Klettern u.ä.
 
 Üblicherweise kann der Spieler einfach ankündigen, eine Akrobatik-Probe für ein xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] durchführen zu wollen.
 Der SL kann dann eine nötige Anzahl von Erfolgen festlegen oder aufgrund der Situation aus dem Regelsystem ableiten.
@@ -272,7 +277,7 @@ Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreich
 === Verborgenes Entdecken
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* EN +
+*Verwandtes Attribut:* ER +
 *Kampf:* M +
 *Beschreibung:* Viele Dinge sind nicht sofort zu sehen.
 Mit diesem Talent können die Charaktere diese verborgenen Dinge versuchen zu entdecken.
@@ -512,7 +517,7 @@ Der SL und die Spieler können sich auch weitere Wissensgebiete ausdenken, wenn 
 
 == Magische Talente
 
-Diese Talenten werden vor allem von zaubernden Berufungen benötigt.
+Diese Talente werden vor allem von zaubernden Berufungen benötigt.
 Sie bilden die Grundausrüstung für die Ausübung der Magie.
 
 [[ref_talents_aether_perception]]
@@ -560,7 +565,7 @@ Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_magi
 
 Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_preparation[vorbereiten].
 Die Beschreibung des Zauberspruches gibt außerdem Auskunft über die notwendige Anzahl von Erfolgen, um den Effekt erfolgreich auszusprechen.
-Bei einem Misserfolg muss der Zaubernde sofort eine Probe in xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Verbrennen Widerstehen] ablegen, bei einem Patzer kommt es zu einem xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellfailure[Zauberpatzer].
+Bei einem Misserfolg muss der Zaubernde sofort eine Probe in xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Verbrennen Widerstehen] ablegen, bei einem Patzer kommt es zu einem xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_botches[Zauberpatzer].
 
 Weiterhin bietet das Dokument eine Liste von xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic_overview[Zauberschulen], die besondere Regeln mit sich bringen und angeben, welche Zauberlisten gelernt werden können.
 
@@ -575,10 +580,4 @@ Das Talent verbietet im Normalfall die xref:core_rules_d10_system.adoc#ref_core_
 *Beschreibung:* Schlägt die Vorbereitung eines Zauberspruches fehl, besteht die Gefahr des *Verbrennens*.
 Dies ist ein äußerst schmerzhafter Vorgang, der beschreibt, dass die arkanen Energien des Zauberspruches durch den Magier in die falsche Richtung gelenkt wurden und nun durch seinen Körper abgeleitet werden, wie ein Blitz, der in einen Baum einschlägt.
 
-Folgende Situationen führen dazu, dass der Zauberer eine solche Probe würfeln muss:
-* Der Zauberer würfelt einen Patzer bei der Spruchzauberei-Probe
-* Der Zauberer wird während der Vorbereitung zur Verwendung eines Talents oder Kampfmanövers (außer Rennen mit halber Geschwindigkeit) gezwungen
-* Der Zauberer wird während der Vorbereitung niedergeschlagen
-
-Die benötigte Anzahl der Erfolge ist die POT des Zauberspruches, der unterbrochen wurde.
-Besteht der Charakter die Proben nicht, so erhält er POT*W3 magischen Schaden.
+Für die vollständigen Regeln, siehe das passende xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Kapitel] im Dokument Magie.

@@ -12,9 +12,9 @@
 *Dauer:* 24 Stunden +
 *Effekt:* Der Zauberer bindet die Kreatur für kurze Zeit näher an das Reich der Toten und unterdrückt die Selbstheilungskräfte ihres Körpers.
 
-Für die Dauer des Zauberspruches kann die Zielkreatur keine xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Regeneration] einsetzen.
-Sie muss regulär xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration_rest[rasten], um beispielsweise zu schlafen, aber die positiven Effekte treten nicht ein.
-Sie kann keine xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools[Punkte-Pools] regenerieren oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen] heilen.
+Für die Dauer des Zauberspruches kann die Zielkreatur keine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Regeneration] einsetzen.
+Sie muss regulär xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[rasten], um beispielsweise zu schlafen, aber die positiven Effekte treten nicht ein.
+Sie kann keine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools] regenerieren oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen] heilen.
 Sollten Zaubersprüche oder Effekte dies erlauben, müssen diese eine höhere POT haben, als dieser Zauberspruch.
 
 Nach Ablauf der Dauer kann die Kreatur normal rasten und regenerieren.

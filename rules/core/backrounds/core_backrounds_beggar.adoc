@@ -1,0 +1,21 @@
+= Bettler
+
+Der Charakter hat nichts, außer dem, was er am Körper trägt.
+Er ist auf die milde Gabe seiner Mitmenschen (oder anderer) angewiesen, die nicht selten mit Abscheu, Verachtung oder Ekel auf ihn hinabsehen.
+Seine Ernährung und Hygiene lassen zu Wünschen übrig.
+Er hat gelernt, alleine zu überleben und die notwendigen Dinge dazu zu erbetteln.
+
+*Attributsbonus:* +1 KO+ +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_survival[Überleben] +
+*Spezial:* <<ref_core_backrounds_beggar_special_out_of_sight,Außerhalb des Sichtfelds>> +
+*Startkapital:* genau 1 Silbermünze +
+*CP:* 30 +
+
+[[ref_core_backrounds_beggar_special_out_of_sight]]
+== Außerhalb des Sichtfelds
+Auch wenn viele Leute Mitleid mit denjenigen haben, die wenig oder gar nichts haben, so sind sie doch besser darin, diese Armen aus ihrer Aufmerksamkeit zu verdrängen.
+Du hast gelernt, dies Dir zunutze zu machen.
+Wenn Dich jemand xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[sucht] oder zumindest die Aufmerksam auf "verdächtige" Personen richtet, darfst Du einen xref:../core_rules_d10_system.adoc#ref_core_saves_GE[GE-Rettungswurf] oder xref:../core_rules_d10_system.adoc#ref_core_saves_CH[CH-Rettungswurf] ablegen (Du darfst Dir das Attribut aussuchen).
+Hast Du gleich oder mehr Erfolge, als der Suchende in seiner xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Probe], giltst Du als xref:../core_rules_talents_base.adoc#ref_talents_hide[versteckt], auch wenn Du das Talent aktiv nicht verwendet hast.
+
+Du kannst diese Fähigkeit nur einmal auf die gleiche Person (oder Gruppe von Personen) anwenden, die entsprechend suchen, unabhängig vom Erfolg des Rettungswurfes.

@@ -1,0 +1,24 @@
+= Zeitsoldat
+
+Viele Jahre Deines Lebens hast Du in der Armee als Soldat in einer Einheit gedient.
+Eventuell hast Du Dich freiwillig gemeldet oder musstest Wehrdienst leisten.
+
+Neben rigorosen Training, harten, körperlichen Strapazen hast Du auch Deinen Anteil an Scharmützeln bis Schlachten miterlebt.
+Du hast gelernt, Dich zu verteidigen, aber auch zu töten.
+Und vielleicht Du hast gelernt einen treuen Kameraden wertzuschätzen
+
+Nach Deiner aktiven Zeit beim Militär suchst Du Dir nun Deine Kämpfe und Schlachtfelder selbst aus.
+
+*Attributsbonus:* - +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:../core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] +
+*Spezial:* <<ref_core_backrounds_soldier_special_military_training,Militärisches Training>> +
+*Startkapital:* - +
+*CP:* 40 +
+
+[[ref_core_backrounds_soldier_special_military_training]]
+== Militärisches Training
+Dein Training bei der Armee und die Kampferfahrung in militärischen Einheiten ermöglicht es Dir auch in brenzlichen Situationen einen kühlen Kopf zu bewahren.
+Befindest Du Dich im Kampf (Du bist Teil einer xref:../core_rules_battlesystem.adoc#ref_battle_battlephase_initiative[Initiative-Reihenfolge]), wertest Du den ersten, xref:../core_rules_d10_system.adoc#ref_core_failurerole[fehlgeschlagenen] xref:../core_rules_d10_system.adoc#ref_core_saves[Rettungswurf] als xref:../core_rules_d10_system.adoc#ref_core_sucessrole[Erfolg].
+Dabei ist das xref:../core_rules_charactercreation.adoc#ref_characters_attributs[Attribut], auf dem dieser Rettungswurf basiert, beliebig.
+Bei einem xref:../core_rules_d10_system.adoc#ref_core_botches[Patzer] wirkt diese Fähigkeit nicht.
+Du kannst sie außerdem nur einmal pro Kampf einsetzen und mindestens xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_short_break[kurze Pause] durchgeführt haben.

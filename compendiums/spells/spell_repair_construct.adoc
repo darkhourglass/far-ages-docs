@@ -11,7 +11,7 @@
 *Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
 *Dauer:* Sofort +
 *Effekt:* Du berührst ein Konstrukt und das Metall in Deinen Händen verschmilzt mit diesem.
-Dadurch erhält das Konstrukt bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] sofort 2W6 xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP].
+Dadurch erhält das Konstrukt bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] sofort 2W6 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
 Das Konstrukt erhält durch diesen Zauberspruch jedoch nie mehr als seine maximalen TP.
 
 Du kannst auch ein Konstrukt reparieren, das 0 TP erreicht hat.

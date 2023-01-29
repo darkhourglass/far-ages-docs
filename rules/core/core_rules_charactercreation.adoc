@@ -55,7 +55,7 @@ Die aktuellen Charakterpunkte dürfen jedoch nie einen Wert weniger 0 erreichen.
 [[ref_characters_charactercreation_race]]
 === Schritt 1: Wahl des Volks
 
-Jeder Charakter gehört einem link:core_rules_races.adoc[*Volk*] an.
+Jeder Charakter gehört einem link:core_rules_index_races.adoc[*Volk*] an.
 In den unterschiedlichen Universen und Welten von Far Ages können viele unterschiedliche Völker leben und jede hat gewisse Eigenschaften und Eigenheiten.
 Diese sind sowohl kultureller, psychologischer und physischer Natur, als auch Unterschiede in Regeln.
 
@@ -88,7 +88,7 @@ Sofort nicht anders angegeben, gelten diese uneingeschränkt.
 [[ref_characters_charactercreation_profession]]
 === Schritt 2: Wahl des Berufs
 
-Der Begriff link:core_rules_professions.adoc[*Beruf*] wird in Far Ages etwas weiter definiert, als man es vielleicht gewohnt ist.
+Der Begriff link:core_rules_index_professions.adoc[*Beruf*] wird in Far Ages etwas weiter definiert, als man es vielleicht gewohnt ist.
 Mit Beruf ist hier wahrhaftig der Ursprung des Wortes, die Berufung, gemeint.
 Ein Beruf in Far Ages ist nicht nur eine Ansammlung von Talenten, die mit ihm verbunden sind, sondern ist eine eigenständige Geschichte.
 
@@ -116,7 +116,7 @@ Sofort nicht anders angegeben, gelten diese uneingeschränkt.
 
 [[ref_characters_charactercreation_backround]]
 === Schritt 3: Wahl des Hintergrundes
-Der link:core_rules_backrounds.adoc[*Hintergrund*] eines Charakters beschreibt seine Herkunft, zum Teil seine Vergangenheit und seine Gegenwart.
+Der link:core_rules_index_backrounds.adoc[*Hintergrund*] eines Charakters beschreibt seine Herkunft, zum Teil seine Vergangenheit und seine Gegenwart.
 
 Auch Hintergründe haben normalerweise CP-Kosten, die von den initialen Charakterpunkten bezahlt werden müssen.
 
@@ -135,6 +135,16 @@ Diese werden hier angegeben und im Hintergrund jeweils erläutert.
 Keine Angabe bedeutet, dass der Charakter das übliche <<ref_characters_charactercreation_starting_money_and_items,Kapital>> erhält, dass in der Spielrunde vorgegeben wird.
 
 * *CP:* Angabe der Charakterpunkte, die es kostet, diesen Hintergrund zu wählen.
+
+[NOTE]
+Der Hintergrund kann und soll nicht die ganze Vergangenheit des Charakters darstellen.
+Er bietet keine Details wie Geburtsort, Eltern und Verwandte, Freunde und Nachbarn oder die Zeit in der Schule.
+All dies ist dem Spieler und auch der Gruppe überlassen, wie detailliert sie dies ausgestalten möchten.
+
+[NOTE]
+Es ist nicht zwingend notwendig, einen beliebigen Hintergrund Wort für Wort zu intepretieren.
+Gefällt einem Spieler beispielsweise die link:backrounds/core_backrounds_cityguard.adoc[Stadtwache], aber er möchte seinen Charakter nicht an eine Stadt binden, sondern an ein kleines Dorf und dessen Umgebung, dann kann dies natürlich für den Charakter angepasst werden.
+Auch hier gilt, dass die Abstimmung mit dem SL erfolgen muss und dieser das letzte Wort hat.
 
 [[ref_characters_charactorcreation_initialattributes]]
 === Schritt 4: Bestimmung der initialen Attributsstufen
@@ -222,7 +232,7 @@ Kettenhemden wiegen 16 bis 28 Pfund.
 [[ref_secondary_hitpoints]]
 *Trefferpunkte(TP)(Stärke + Konstitution):* Trefferpunkte (kurz TP) sind eine Art Puffer für den Charakter bis zu seinem Tod.
 TP verliert ein Charakter beispielsweise xref:core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenseinwirkung].
-TP können auch durch xref:core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Regeneration] wieder erhalten werden.
+TP können auch durch xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Regeneration] wieder erhalten werden.
 
 Die Trefferpunkte eines Charakters berechnen zu Beginn des Spiels wie folgt: Der Charakter addiert seine Attributsstufen in Stärke und Konstitution und multipliziert das Ergebnis mit 5: (ST+KO)*5
 
@@ -538,6 +548,35 @@ Es handelt sich dabei um folgende Punkte:
 Das Startkapital wird durch den SL vorgegeben und eventuell durch den <<ref_characters_charactercreation_backround,Hintergrund>> modifiziert.
 Ein Richtwert ist 1 Silbermünze pro 2 <<ref_characters_charactercreation_initial_characterpoints,initiale CP>>.
 
+[[ref_characters_charactercreation_motivation]]
+=== Schritt 11: Motivation
+
+Was hat den Charakter bewegt, um den ersten Schritt auf seiner Reise zum Abenteurer zu wagen?
+Die Motivation, noch vor der <<ref_characters_charactercreation_finishing_touch,finalen Detaillierung>> stellt eine herausragende Säule des Charakters dar, ähnlich wie sein <<ref_characters_charactercreation_race,Volk>>, <<ref_characters_charactercreation_profession,Beruf>> oder <<ref_characters_charactercreation_backround,Hintergrund>>.
+Die Wahl der Motivation ist dennoch optional und bringt keine besonderen Regeln mit sich.
+Und natürlich kann sich eine Motivation mit wachsender Erfahrung auch drastisch ändern.
+
+Die folgende, nicht auf Vollständigkeit bedachte Liste, bietet eine Auswahl von möglichen Motivationen.
+
+* Ansehen und Status
+* Berühmt sein
+* Erkenntnis und Erleuchtung
+* Flucht
+* Höheres Ziel
+* Macht
+* Nervenkitzel
+* Rache
+* Reichtum
+* Rivalität
+* Veränderung
+* Wissen
+
+[[ref_characters_charactercreation_finishing_touch]]
+=== Schritt 12: Feinschliff
+Im letzten Schritt können die letzten Details eines Spielercharakters festgelegt werden, bevor es dann endlich losgeht.
+Alle nicht von Regeln beeinflusste Eigenschaften können nun noch festgelegt werden, wie Name, Alter, Geschlecht und soviel Geschichte, Persönlichkeit und Eigenarten des Charakters, dunkle Geheimnisse, Freunde und viel mehr.
+Wie detailliert dieser Schritt ist, liegt ganz in der Entscheidung des Spielers und seiner Gruppe.
+
 [[ref_characters_attributs]]
 == Attribute
 
@@ -651,12 +690,12 @@ Das Steigern von Attributen repräsentiert eine Verbesserung des Charakters auf 
 Steigerungen von Attributsstufen können nur schrittweise erfolgen.
 Das heißt, möchte man ein Attribut um mehr als eine Stufe steigern, so muss man jede Steigerung einzeln mit CP bezahlen.
 
-Jede Steigerung eines Attributs um eine Stufe kostet die aktuelle Stufe multipliziert mit *100 CP*.
+Jede Steigerung eines Attributs um eine Stufe kostet die aktuelle Stufe multipliziert mit *200 CP*.
 
 .Steigern von Attributsstufen
 ====
 Michael möchte im laufenden Spiel Rnagos Geschick von Stufe 2 auf Stufe 3 steigern.
-Dies kostet Michael 2*100 = 200 CP.
+Dies kostet Michael 2*200 = 400 CP.
 Durch die Steigerung ändern sich sofort abhängige Attributseigenschaften und die Würfelanzahlen für Talente mit dem verwandten Attribut GE.
 ====
 
@@ -753,7 +792,7 @@ Die genauen Regeln zum Lernen von Zaubersprüchen findet sich im Dokument xref:c
 
 Die Vergabe von CP obliegt der Verantwortung des SL und sollte wenig reguliert sein, denn jeder SL sollte selbst entscheiden können, wie groß die Gefahren in seinem Abenteuer für seine Gruppe sind.
 
-=== Wieviel und wie oft?
+=== Interval der Vergabe
 
 Bewährt hat sich die Vergabe von CP am Ende einer Spielsitzung oder am Ende eines Abenteuers, wenn alle Gefahren überstanden sind, bzw. eine Pause eingelegt wird.
 
@@ -819,40 +858,48 @@ Hier stellen wir zusätzliche Regeln vor, die die Charaktererschaffung erweitert
 Es liegt in der Entscheidung des Spielleiters, welche Regeln er für seine Spieler und seine Welt anwenden möchte.
 
 [[ref_character_advanced_rules_halfbloods]]
-=== Mischvölker
+=== Halb-Blut
 
-Zur Charaktererschaffung und bei Wahl des Volkes, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
+Zur Charaktererschaffung und bei der <<ref_characters_charactercreation_race,Wahl des Volkes>>, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
 
 Der Charakter stammt dann von zwei Elternteilen aus unterschiedlichen Völkern ab.
 Typische Archetypen sind Halb-Elfen oder Halb-Orks, bei denen ein Elternteil aus dem Volk der Menschen stammt, das andere von den Elfen bzw. Orks.
 Andere Kombination sind durchaus denkbar, das System gibt keine Beschränkungen vor.
 So sind Halb-Taure / Zwerg, Halb-Ork / Elf oder Halb-Dämon / Satyre völlig denkbar.
 Der SL darf natürlich jederzeit eine Kombination verbieten.
-Ein Charakter kann immer nur einem Mischvolk angehören.
 
-Um ein Mischvolk zu spielen, wählt der Spieler zuerst wie gewöhnt das Volk (z.b. Elf) und bezahlt diese Wahl mit den angewiesenen CP.
-Jeder Eintrag in der Liste der Mischvölker kostet auch CP.
-Hat der Spieler einen passenden Eintrag gefunden, bezahlt er diesen mit den angegebenen CP.
+Um ein Halb-Blut zu spielen, <<ref_characters_charactercreation_race,wählt>> der Spieler zuerst wie gewohnt das Volk und bezahlt diese Wahl mit den angewiesenen CP.
+Danach wählt der Spieler ein weiteres Volk aus, welches den gleichen *primären Kreaturentyp* besitzt, wie das erste Volk.
+Beispielsweise haben sowohl link:races/core_races_humans.adoc[Menschen] und link:races/core_races_elves_general.adoc[Elfen] den primären Kreaturen link:../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid], womit eine Kombination als Halb-Blut möglich ist.
+Für sein zweites Volk bezahlt der Spieler 1/2 der angegebenen CP (aufgerundet zur nächsten vollen 5).
+Danach folgt er den folgenden Schritten:
 
-Analog zu Völker besitzen auch Mischvölker Boni zu Attributsstufen, Vorteile und Nachteile.
-Wie bei der Kombination von Volk, Beruf und Hintergrund werden diese Kategorien zusammen addiert.
-Kumulative Vor- oder Nachteile folgen den üblichen Regeln.
+* Besitzt das zweite Volk positive Attributsboni, erhält er diese auch mit folgenden Einschränkungen.
+Es zählt zunächst der Höchste, nur bei mehreren gleich hohen Boni, kann der Spieler sich zwischen diesen entscheiden.
+Wenn der Attributsbonus höher als +1 ist, wird dieser als +1 angenommen.
+Es kann also kein Attributsbonus von +2 oder höher durch das zweite Volk erhalten werden.
+* Besitzt das zweite Volk mindestens eine negative Modifikation auf ein Attribut, muss der Spieler eine dieser Attributsmali übernehmen.
+Auch diese Malus ist auf -1 begrenzt.
+* Die <<ref_characters_charactercreation_sizecategories,GK>> des Charakters ist die des ersten Volkes
+* Das Halb-Blut besitzt alle sekundären Kreaturentypen beider Völker
+* Besitzt das zweite Volk mindestens eine besondere Eigenschaft, kann der Spieler eine dieser Eigenschaften auswählen und übernehmen.
 
-//TODO
-.Mischvölker
+Alle Attributsboni werden mit den Attributsboni aus Beruf und Hintergrund verrechnet.
+
+.Halb-Blut
 ====
-Ein Spieler möchte einen Halb-Drachen / Elf erschaffen.
-Als Volk wählt er daher Elf für XX CP.
-Die Kosten für Halb-Drachen (Wyrm) betragen YY CP.
-Somit muss der Spieler insgesamt XX+YY=ZZ CP ausgeben. +
-Seine Attributsstufen (ohne Berücksichtigung von Beruf und Hintergrund) ergeben sich wie folgt: TODO. +
-Die Kombination beider Vorteile ergibt TODO. +
-Ebenso ergibt sich folgende Liste aus Nachteilen: TODO
+Ein Spieler möchte einen Halb-Elfen erschaffen.
+Als erstes Volk wählt er zunächst link:races/core_races_humans.adoc[Mensch] und bezahlt 20 CP.
+Mit link:races/core_races_elves_general.adoc[Elf] steht das zweite Volk fest.
+Die CP-Kosten belaufen sich auf 30/2=15 (keine Rundung nötig), also insgesamt 35 CP für die Wahl des Volkes.
+
+Elfen besitzen die Attributsmodifikationen: +1 GE, -1 KO, +1 ER.
+Aus der +1 GE und +1 ER kann eine Auswahl getroffen werden, zum Beispiel +1 GE.
+Der Malus -1 KO muss gewählt werden.
+
+Aus der Liste der Eigenschaften der Elfen wählt der Spieler xref:races/core_races_elves_general.adoc#ref_elven_senses[Elfische Sinne].
+Die Eigenschaften des ersten Volkes bleiben vollständig erhalten.
 ====
-
-Mischvölker und <<ref_character_advanced_rules_bloodlines,Blutlinien>> können nicht kombiniert werden.
-
-Die komplette Liste der Mischvölker findet sich hier: link:../advanced/advanced_rules_half_blood.adoc[Mischvölker].
 
 [[ref_character_advanced_rules_bloodlines]]
 === Blutlinien
@@ -864,12 +911,6 @@ Dessen besondere und vielleicht einzigartige Attribute liegen der Familie sprich
 
 Blutlinien werden wie Talente in Stufen gelernt und ein Charakter muss die CP der ersten Stufe der Blutlinie bei der Charaktererschaffung lernen.
 Der Charakter kann immer nur einer Blutlinie angehören.
-Blutlinien und <<ref_character_advanced_rules_halfbloods,Halb-Blut>> können nicht kombiniert werden.
-
-[NOTE]
-Blutlinien lassen sich als komplexere Variante von Mischvölkern verstehen.
-Daher existiert die getroffene Einschränkung.
-
 Danach kostet jede Stufe *100 CP* multipliziert mit der Anzahl der bereits gelernten Stufen.
 
 Jede Stufe bringt eine Eigenschaft mit sich, die der Charakter mit Erlernen der Stufe sofort beherrscht.

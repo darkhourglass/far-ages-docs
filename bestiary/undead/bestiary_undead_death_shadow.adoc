@@ -79,7 +79,7 @@ Dem Opfer steht eine reguläre xref:../../rules/core/core_rules_magic_base.adoc#
 
 Bei einem Erfolg wird eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Schadensprobe] mit einem Schadensbonus von 3W6+2 gewürfelt.
 
-Schlägt der Todesschatten dabei eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde], xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regeneriert] er die erwürfelten Schadenspunkte als xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] (bis zu seinem Maximum).
+Schlägt der Todesschatten dabei eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde], xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] er die erwürfelten Schadenspunkte als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] (bis zu seinem Maximum).
 
 Todesschatten ignorieren alle Kreaturen, die nicht link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] sind.
 

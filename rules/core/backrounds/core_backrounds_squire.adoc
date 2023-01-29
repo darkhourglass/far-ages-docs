@@ -1,0 +1,21 @@
+= Knappe
+
+Für die meiste Zeit Deiner Jugend warst Du Knappe eines Ritters.
+Üblicherweise stammst Du aus einer Familie von adeligem Rang oder zumindest genug Geld, um diese Ehre zu erhalten.
+Aus unterschiedlichen Gründen hast Du jedoch nicht den Schlag zum Ritter erhalten (bisher).
+Vielleicht starb Dein Lehrmeister und keiner konnte Dich übernehmen oder Du hast aus freien Stücken Dich gegen eine weitere Verpflichtung gestellt.
+
+Deine Zeit als Knappe hat Dir einige wertvolle Einblicke in verschiedene Aspekte des Rittertums gegeben: von der kämpferischen und militärischen Seite und von der gesellschaftlichen Seite.
+
+*Attributsbonus:* +1 ST +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_riding[Reiten] +
+*Spezial:* <<ref_core_backrounds_squire_special_knightly_training,Ritterliches Training>> +
+*Startkapital:* - +
+*CP:* 40 +
+
+[[ref_core_backrounds_squire_special_knightly_training]]
+== Ritterliches Training
+Befindest Du Dich auf dem Rücken eines Reittieres und bist im Rahmen eines xref:../core_rules_battlesystem.adoc#ref_battle_mounted_combat[berittenen Kampfs] zu einer xref:../core_rules_talents_base.adoc#ref_talents_riding[Reiten-Probe] gezwungen, darfst einmal alle xref:../core_rules_d10_system.adoc#ref_core_failurerole[Misserfolge] neuwürfeln und das bessere Ergebnis nutzen.
+
+Diese Fähigkeit kannst Du nicht für xref:../core_rules_d10_system.adoc#ref_core_botches[Patzer] nutzen.
+Hast Du die Fähigkeit einmal eingesetzt, musst Du mindestens eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_break[lange Pause] durchführen, bevor Du die Fähigkeit noch einmal einsetzen kannst.

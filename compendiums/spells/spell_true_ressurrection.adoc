@@ -14,11 +14,12 @@
 
 Du benötigst den Leichnam, beziehungsweise ein Teil dessen, den Du wiedererwecken möchtest.
 Nach Ermessen des SLs darf der Leichnam in unterschiedlichen Status des Zerfalls sein oder auch unvollständig.
-Du benötigst allerdings mindestens ein intaktes Körperteil, ein Körper, der schon zu Staub verfallen ist, kann auch dieser Zauber nicht beleben.
+Du benötigst allerdings mindestens einen intakten Körperteil.
+Ein Körper, der schon zu Staub verfallen ist, kann auch dieser Zauber nicht beleben.
 
 Außerdem benötigst Du eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur mit dem identischen primären Kreaturentyp des Verstorbenen.
 Dieser Kreatur steht der xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] zu.
-Mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erleidet diese Kreatur den sofortigen xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death_instant_death[Tod] ohne xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death_deathsave[Rettungswurf].
+Mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erleidet diese Kreatur den sofortigen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[Tod] ohne xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Rettungswurf].
 
 Gleichzeitig wird die verstorbene Kreatur wiederbelebt, mit allen Talenten, Fähigkeiten und Erinnerungen bis zum Zeitpunkt ihres Todes. +
 *Zusätzliche Effekte:* +

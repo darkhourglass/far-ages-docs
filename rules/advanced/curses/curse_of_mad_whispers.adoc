@@ -19,12 +19,12 @@ Du erhältst einen Malus von -1 auf die Würfe zum Erfolg für Deine nächste xr
 [[ref_curse_of_mad_whispers_weak]]
 == Schwach
 Du erleidest die Konsequenz der <<ref_curse_of_mad_whispers_harmless,harmlosen>> Variante dieses Fluches.
-Zusätzlich regenerierst Du bei Deiner nächsten xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Rast] nur die Hälfte der üblichen xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] und xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP].
+Zusätzlich regenerierst Du bei Deiner nächsten xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Rast] nur die Hälfte der üblichen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
 
 [[ref_curse_of_mad_whispers_strong]]
 == Stark
 Du erleidest die Konsequenzen der <<ref_curse_of_mad_whispers_weak,schwachen>> Variante mit einem Malus von -2.
-Bei Deiner nächsten xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[Rast] regenerierst Du keine xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] und xref:../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP].
+Bei Deiner nächsten xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Rast] regenerierst Du keine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
 
 [[ref_curse_of_mad_whispers_deathcurse]]
 == Todesfluch

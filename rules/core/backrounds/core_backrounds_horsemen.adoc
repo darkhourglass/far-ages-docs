@@ -1,0 +1,17 @@
+= Steppenreiter
+
+// TODO Beschreibung
+
+*Attributsbonus:* +1 GE+ +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_riding[Reiten], xref:../core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft] +
+*Spezial:* <<ref_core_backrounds_horsemen_special_fast_rider,Flinker Reiter>> +
+*Startkapital:* 1/2 +
+*CP:* 50 +
+
+[[ref_core_backrounds_horsemen_special_fast_rider]]
+== Flinker Reiter
+Befindest Du Dich auf dem Rücken Deines Reittiers, kannst Du zu Beginn eines Kampfes oder Kampfphase Deinen xref:../core_rules_battlesystem.adoc#ref_battle_battlephase_initiative[Initiative-Wurf] wiederholen.
+Du darfst den höheren Wert der beiden Würfe nutzen.
+
+Weiterhin, wenn Du die Manöver xref:../core_rules_battlesystem.adoc#ref_battle_move_useBEW[Rennen] oder xref:../core_rules_battlesystem.adoc#ref_battle_complexactions_sprint[Sprinten] in Deiner Kampfphase nutzt und dabei auf Deinem Reittier sitzt, erhältst Du einen Bonus von +1 auf die xref:../core_rules_d10_system.adoc#ref_core_situationalmodifiers_modify_dice_values[Würfe zum Erfolg], um Dich gegen xref:../core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriffe] zu verteidigen.
+Dies gilt nur, wenn Dir in diesem Moment ein xref:../core_rules_d10_system.adoc#ref_core_defendingroll[Verteidigungswurf] zu steht.

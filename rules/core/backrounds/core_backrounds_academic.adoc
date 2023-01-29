@@ -1,0 +1,22 @@
+= Akademiker
+
+Du hast eine akademische Ausbildung absolviert oder bist im letzten Semester.
+Vielleicht arbeitest Du auch für eine Universität oder vergleichbare Bildungseinrichtung.
+Auch wenn andere mit Unverständnis und Argwohn auf eine derart verkopfte Ausbildung schauen, so siehst Du Dich und Deine akademischen Kollegen als die heimlichen Champions.
+Denn jedes Problem, wenn es hinreichend analysiert wird, kann gelöst werden.
+
+*Attributsbonus:* - +
+*Talente:* 1 Talent xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] Deiner Wahl, xref:../core_rules_talents_base.adoc#ref_talents_read_write[Lesen/Schreiben], xref:../core_rules_talents_base.adoc#ref_talents_research[Forschen] +
+*Spezial:* <<ref_core_backrounds_academic_special_bookworm,Bücherwurm>> +
+*Startkapital:* 1/2 +
+*CP:* 50 +
+
+[[ref_core_backrounds_academic_special_bookworm]]
+== Bücherwurm
+Wissen ist Macht, dies ist Deine Stärke.
+In Deinem Studium hast Du gelernt, wie man sich Wissen aneignet, um Probleme zu lösen, auch wenn man eigentlich nicht in dem Fach spezialisiert ist.
+Wenn Du eine xref:../core_rules_d10_system.adoc#ref_core_talentroles_untrainedcheck[ungeübte Probe] auf ein beliebiges xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissenstalent] ablegen musst, kannst Du stattdessen Dein Talent xref:../core_rules_talents_base.adoc#ref_talents_research[Forschen] verwenden.
+Die Zeit, die Du normalerweise für Forschen brauchst, verdoppelt sich.
+
+Du kannst diese Fähigkeit auch auf eine Wissens-Probe ablegen, wenn Du das Wissenstalent besitzt.
+In diesem Fall brauchst Du die reguläre Zeit.

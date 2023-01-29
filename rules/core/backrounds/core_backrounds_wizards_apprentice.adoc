@@ -1,0 +1,23 @@
+= Zauberlehrling
+
+Für viele, viele Jahre warst Du Lehrling bei einem erfahrenen Zauberer, um in die arkanen Geheimnisse seiner Zunft eingewiesen zu werden.
+Du warst seit früher Jugend bei ihm, vielleicht länger als im Elternhaus.
+Die Ausbildung war hart und entbehrungsreich, denn eine reguläre Schule hast Du nicht besucht.
+Freunde und Kontakt zu anderen war rar.
+Vielleicht war Dein Meister offen und großzügig, vielleicht aber auch streng.
+Oft genug hast Du Dich gefragt, was genau Hausarbeiten mit Zauberei zu tun haben.
+
+*Attributsbonus:* +1 EN +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)], xref:../core_rules_talents_base.adoc#ref_talents_discipline[Disziplin] +
+*Spezial:* <<ref_core_backrounds_wizards_apprentice_special_arcane_training,Arkane Ausbildung>> +
+*Startkapital:* 1/2 +
+*CP:* 50 +
+
+[[ref_core_backrounds_wizards_apprentice_special_arcane_training]]
+== Arkane Ausbildung
+Dein rigoroses und fokussiertes Training in der arkanen Materie gibt Dir einen gewissen Vorsprung gegenüber anderen.
+Zu xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation[Beginn des Spiels], falls Du einen xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation_profession[Beruf] wählst, der als Berufstalent xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] bietet, erhältst Du einen zusätzlichen Zauberspruch der Stufe 1 ohne zusätzliche Kosten nach den vorgestellten xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation_initialspells[Regeln].
+
+Darüber hinaus, darfst Du eine Probe auf xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] alle Misserfolge einmal wiederholen.
+Das neue Ergebnis zählt gegenüber dem Alten, auch wenn es schlechter ist.
+Diese Fähigkeit kannst Du einmal pro Tag nutzen und musst eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange Rast] ablegen, bevor Du sie wieder einsetzen kannst.

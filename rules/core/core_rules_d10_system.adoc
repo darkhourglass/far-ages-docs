@@ -302,7 +302,7 @@ Allerdings war es Intention das Far Ages-System für Spieler und Spielleiter mö
 
 Daher sind die Mindestwürfe für Talente meist bekannt oder entsprechen dem Standardmindestwurf, wenn nicht anders angegeben.
 In jeder Talentbeschreibung findet sich eine Angabe zum Mindestwurf, damit dieses Talent glückt.
-Des Weiteren finden sich meist Hinweise, welche Effekte mehrere Erfolge dem Würfelnden bringen.
+Des Weiteren finden sich meistens Hinweise, welche Effekte mehrere Erfolge dem Würfelnden bringen.
 
 Ebenso sollten die Standardproben den Spielern bekannt sein, um den Spielfluss nicht aufzuhalten, wobei der Spielleiter natürlich berechtigt ist, jederzeit die Standardproben zu erschweren oder zu erleichtern, wenn es die Situation erfordert.
 
@@ -895,9 +895,6 @@ Der Malus kann BEW des Charakters nicht unter 1,50 Meter bringen.
 Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in xref:core_rules_charactercreation.adoc#ref_attribute_constitution[KO] hat, muss er einen <<ref_core_saves_KO,KO-Rettungswurf>> ablegen.
 Besteht er diesen Rettungswurf nicht, wird er <<ref_core_condition_unconscious,ohnmächtig>>.
 
-Um eine oder mehrere Stufen Erschöpfung zu entfernen, muss der Charakter sich xref:core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[erholen].
-Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
-
 [[ref_core_condition_fleeing]]
 === Fliehend
 Manchmal ist Flucht die beste Verteidigung.
@@ -948,15 +945,7 @@ Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und R
 
 [[ref_core_condition_sleeping]]
 === Schlafend
-Dieser Zustand wird üblicherweise erreicht, wenn eine <<ref_base_rules_pools_regeneration_long_rest,lange Rast>> eingeschlagen wird.
-Manche magischen Effekte können diesen Zustand auch verursachen.
-
-In diesem Zustand gelten Charaktere immer als <<ref_core_condition_disabled,kampfunfähig>> und <<ref_core_condition_onground,am Boden>>.
-Schlafende Charaktere können diesen Zustand im Normalfall nicht freiwillig beenden.
-Sofern nicht anders angegeben, schlafen die meisten Charaktere 6-8 Stunden.
-Magisch verursachter Schlaf endet, wenn der Effekt endet.
-
-Wenn ein Charakter aus dem Schlaf aufwachen möchte, bevor dieser vorbei ist, muss er einen <<ref_core_saves_ER,ER-Rettungswurf>> bestehen.
+//deleted
 
 [[ref_core_condition_unconscious]]
 === Ohnmächtig
@@ -996,165 +985,3 @@ Es kann jedoch sein, dass andere Effekte wie Zaubersprüche, den Zustand weiterh
 
 Verzaubert kann nicht mit <<ref_core_condition_frenzy,rasend>> kombiniert werden.
 Sollte ein verzauberter Charakter den Zustand Rasend erreichen, schlägt dieser automatisch fehl.
-
-[[ref_base_rules_pools]]
-== Energiepunktepools
-
-*Energiepunktepools* bzw. *Punktepools* stellen im System von Far Ages verschiedene Aspekte der Verfassung eines Charakters dar.
-Sie werden in Zahlen gemessen und je geringer diese sind, umso gefährlicher wird es für den Charakter.
-Dieses Kapitel erläutert die verschiedenen Pools.
-
-Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden sich die Regeln zu Ermittlung der Pools für jeden Charakter.
-
-[[ref_base_rules_pools_tp]]
-=== Trefferpunkte
-
-*Trefferpunkte (TP)* sind ein Maß für die körperliche Verfassung des Charakters.
-Sie können als eine Mischung auch der physischen Unversehrtheit und Ausdauer des Charakters interpretiert werden.
-Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er nähert sich dem Tod.
-
-Der Verlust von TP kann aus sehr unterschiedlichen Situation entstehen, die Häufigste ist das Erhalten von Verletzungen, zum Beispiel aus dem link:core_rules_battlesystem.adoc[Kampf].
-
-In sehr wenigen Fällen besitzt eine Kreatur keinen TP-Pool.
-Solche Wesen sind vollständig immun gegen jeden Schaden, der vom TP-Pool abgerechnet wird.
-
-Erreicht dieser Pool den Wert 0 befindet sich der betreffende Charakter üblicherweise in einer lebensbedrohenden Lage.
-Es droht der <<ref_base_rules_death, Tod>>, weil beispielsweise er zu viel Blut verloren hat oder er schwere Verletzungen erlitten hat.
-Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_base_rules_death, Tod>>.
-
-[[ref_base_rules_pools_mp]]
-=== Magiepunkte
-
-*Magiepunkte (MP)* stellen das teils angeborene und teils erlernte magische Potential eines Charakters dar.
-MP werden üblicherweise beim Aussprechen von xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Zaubersprüchen] verbraucht, um diese zu verkürzen oder mit zusätzlichen Effekten zu versehen.
-Die Schadensart xref:core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt] wird ebenfalls von diesem Pool abgezogen.
-
-Magier müssen mit Bedacht ihre MP einsetzen, denn auch hier bedeutet das Erreichen des Wertes 0 eine gefährliche Situation.
-Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_base_rules_death,Tod>>.
-
-[[ref_base_rules_pools_sp]]
-=== Stabilitätspunkte
-
-//TODO
-
-[[ref_base_rules_pools_temporary]]
-=== Temporäre Punkte
-
-Durch Zauber ist es zum Beispiel möglich *temporäre Punkte* zu bekommen.
-Dies ist für jeden der vorgestellten Pools möglich.
-Temporäre Punkte müssen als ein zusätzlicher Pool geführt werden.
-Es wird immer zuerst aus diesem Pool subtrahiert, wenn der Pool verwendet wird.
-Sinkt der Wert der temporären Punkte in diesem Pool auf 0, so passiert dem Charakter nichts, außer, dass dieser zusätzliche Pool nun ausgedient hat und ab sofort wieder seine regulären Punkte benutzt werden.
-
-Überschüssige Punkte aus einem temporären Pool werden von den regulären abgezogen.
-
-Temporäre Punkte können nicht genutzt werden, um einen Charakter zu heilen, aus einer Ohnmacht zu befreien oder wiederzubeleben.
-Sie können jedoch einen ohnmächtigen Charakter insoweit helfen, indem sie eventuelle Verluste auffangen.
-
-[[ref_base_rules_pools_regeneration]]
-=== Erholung und Regeneration
-
-Verlorene TP und MP können regeneriert werden.
-Dies geschieht für gewöhnlich nur, wenn der Charakter sich ausruht und schläft.
-Abhängig von seiner Ruhezeit regeneriert ein Charakter unterschiedlich viele TP und MP.
-Grundsätzlich kann eine Regeneration nie die maximalen TP oder MP übertreffen.
-
-[[ref_base_rules_pools_regeneration_short_break]]
-==== Kurze Pause
-Eine *kurze Pause* dauert 15 Minuten und erfordert, dass der Charakter ruhig und ohne deutliche, körperliche Anstrengung verharrt.
-Er könnte beispielsweise am Lagerfeuer meditieren oder an einem Baum lehnen und den Sonnenuntergang beobachten oder ein kurzes Nickerchen machen.
-Die kurze Pause muss vollständig und ohne Unterbrechungen genommen werden.
-Konnte die kurze Pause ohne Unterbrechung durchgeführt werden, darf der Charaktere *eine* der folgenden Optionen durchführen:
-
-* würfle 1W10 und regeneriere entsprechende TP
-* würfle 1W10 und regeneriere entsprechende MP
-* entferne eine Stufe <<ref_core_condition_exhausted,Erschöpfung>>
-
-[[ref_base_rules_pools_regeneration_long_break]]
-==== Lange Pause
-Eine *lange Pause* dauert 1 Stunde und besitzt die gleichen Voraussetzungen und Regeln wie eine <<ref_base_rules_pools_regeneration_short_break,kurze Pause>>.
-Im Fall einer erfolgreichen langen Pause darf der Charakter eine beliebige Kombination aus drei der Option der kurzen Pausen einsetzen.
-
-.Lange Pause
-====
-Im Kampf Charakter hat ein Charakter 10 TP verloren und eine Stufe Erschöpfung erhalten.
-Nach einer langen Pause entscheidet er sich für zweimal 1W0 zur Regeneration von TP und dem Entfernen einer Stufe Erschöpfung.
-Das Ergebnis der 2W10 ist 3+8=11.
-Er regeneriert damit alle 10 TP, die er zuvor verloren hat.
-Der letzte TP verfällt, da seine maximalen TP erreicht wurden.
-====
-
-[[ref_base_rules_pools_regeneration_rest]]
-==== Rast
-Eine *Rast* dauert 8 Stunden und erfordert innerhalb dieser Zeit eine Schlaf-Phase von mindestens 6 zusammenhängenden Stunden.
-Konnte die Rast erfolgreich beendet werden, erhält der Charakter folgende Vorteile:
-
-* Er würfelt so viele W10, wie er KO-Stufen besitzt und addiert die Augen zusammen.
-Das Ergebnis wird als TP regeneriert. +
-* Er würfelt so viele W10, wie er EN-Stufen besitzt und addiert die Augen zusammen.
-Das Ergebnis wird als MP regeneriert. +
-* Er kann bis zu 3 Stufen <<ref_core_condition_exhausted,Erschöpfung>> entfernen.
-
-[[ref_base_rules_pools_regeneration_long_rest]]
-==== Lange Rast
-Eine *lange Rast* dauert 24 Stunden (oder 1 Tag) und erfordert mindestens 8 Stunden Schlaf innerhalb dieser Zeit.
-Es gelten die gleichen Regeln wie für die reguläre <<ref_base_rules_pools_regeneration_rest,Rast>>.
-Bei einer erfolgreichen langen Rast regeneriert der Charakter alle verlorenen TP und MP.
-Er verliert außerdem alle Stufen von <<ref_core_condition_exhausted,Erschöpfung>>.
-
-[[ref_battle_wounds_curing_wounds]]
-==== Verletzungen heilen
-
-
-[[ref_base_rules_death]]
-=== Tod
-
-Erreicht einer der <<ref_base_rules_pools,Energiepunktepools>> außer <<ref_base_rules_pools_sp,SP>> den Wert 0, droht der Tod des Charakters.
-
-Der Ablauf ist dabei immer gleich.
-Erreicht ein Pool den Wert 0 oder weniger durch eine beliebige Quelle, nimmt der Charakter den besonderen <<ref_core_conditions,Zustand>> <<ref_base_rules_death_deathsdoor,dem Tode nahe>> an.
-
-Ein Energiepunktepool kann, auch wenn es rechnerisch so auskommen würde, nie den Wert 0 unterschreiten.
-Hat beispielsweise ein Charakter noch 5 TP und erleidet 10 Schadenspunkte, hat er dennoch nur noch 0 TP und nicht -5.
-
-[[ref_base_rules_death_deathsdoor]]
-==== Dem Tode nahe
-Dieser Zustand zeigt an, dass ein Charakter dem Tode nahe ist.
-Der Zustand schränkt den Charakter nicht weiter ein, daher ist es möglich, dass ein Charakter in diesem Zustand (und damit implizit mit beispielsweise 0 TP) weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] und so weiter einsetzen kann.
-
-Der Zustand wird aufgehoben, sobald der Charakter keinen Energiepunktepool auf dem Wert 0 hat.
-Das heißt, jeder Energiepunktepool (außer <<ref_base_rules_pools_sp,SP>>) muss einen Wert größer 0 haben.
-
-Erhält ein Charakter in diesem Zustand auf dem Energiepunktepool, in dem er derzeit den Wert 0 hat, einen weiteren Verlust, bleibt der Pool bei 0, aber der Charakter muss einen <<ref_base_rules_death_deathsave,Todesrettungswurf>> würfeln.
-
-[[ref_base_rules_death_deathsave]]
-==== Todesrettungswurf
-Ein Todesrettungswurf ist ein besonderer <<ref_core_base_saves,Rettungswurf>>, den ein Charakter würfeln muss, wenn er <<ref_base_rules_death_deathsdoor,dem Tode nahe>> ist und weiteren Schaden erhält.
-
-Der Todesrettungswurf besteht ausschließlich aus 1W10 und ist an kein Attribut geknüpft.
-Es gelten keine <<ref_core_situationalmodifiers,Situationsmodifikatoren>> oder Modifikatoren durch xref:core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
-Nur wenn Modifikatoren explizit Todesrettungswürfe betreffen, sind diese anzuwenden.
-Es gilt der <<ref_core_standardminimumroll,Standardmindestwurf>>.
-
-Besteht der Charakter den Todesrettungswurf, passiert nichts.
-Misslingt der Wurf, wird der Charakter sofort <<ref_core_condition_unconscious,ohnmächtig>>.
-Ein Patzer hat keine weiteren Auswirkungen.
-Er bleibt in jedem Fall im Zustand <<ref_base_rules_death_deathsdoor,dem Tode nahe>>.
-
-Ist ein Charakter <<ref_core_condition_unconscious,ohnmächtig>> und <<ref_base_rules_death_deathsdoor,dem Tode nahe>>, und muss er einen weiteren Todesrettungswurf werfen, muss er diesen bestehen, sonst tritt sofort der Tod ein.
-
-[[ref_base_rules_death_second_deathsdoor]]
-==== Zweiter Pool auf 0
-Befindet sich ein Charakter bereits im Zustand <<ref_base_rules_death_deathsdoor,dem Tode nahe>> und erreicht ein weiterer Energiepunktepool den Wert 0, so stirbt der Charakter sofort.
-Es wird kein weiterer <<ref_base_rules_death_deathsave,Todesrettungswurf>> mehr gewürfelt.
-
-[[ref_base_rules_death_instant_death]]
-==== Sofortiger Tod
-
-// TODO
-
-[[ref_base_rules_death_npcs]]
-==== Kreaturen und Nicht-Spielercharaktere
-Die in diesem Kapitel vorgestellten Regeln richten vor allem Spielercharaktere.
-Im Ermessen des SLs können diese natürlich auch auf andere Kreaturen Nicht-Spielercharaktere angewendet werden.
-Dies gilt nicht für Kreaturen, die explizit die Regeln zum Thema Tod ausschließen, wie beispielsweise link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote].

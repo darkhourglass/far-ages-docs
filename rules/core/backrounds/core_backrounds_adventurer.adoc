@@ -1,24 +1,23 @@
 = Abenteurer
 
-Der Charakter bevorzugt ein freies Leben außerhalb von gesellschaftlichen Zwängen.
-Er lebt für den Nervenkitzel, sei es die Suche nach lange vergessenen Schätzen in verstaubten Gräbern, die Kopfgeldjagd nach gefährlichen Monstern in entlegenen Wäldern oder das Kartografieren der unbekannten Küsten hinter dem Horizont.
-Seine Dienste mag er gelegentlich dem Zahlenden zur Verfügung stellen.
+Du bevorzugst ein freies Leben außerhalb von gesellschaftlichen Zwängen.
+Der Mittelpunkt Deines Lebens ist der Nervenkitzel, sei es die Suche nach lange vergessenen Schätzen in verstaubten Gräbern, die Kopfgeldjagd nach gefährlichen Monstern in entlegenen Wäldern oder das Kartografieren der unbekannten Küsten hinter dem Horizont.
+Bisher konntest Du Dich immer auf Deine Fähigkeiten verlassen und Du hattest freie Gestaltung in dem, was Du tust und lernst.
 
 [NOTE]
 Dieser Hintergrund wird implizit für Charaktere angenommen, die keine CP für den Hintergrund ausgeben möchten.
 
 *Attributsbonus:* - +
 *Talente:* - +
-*Spezial:* <<ref_core_backrounds_adventurer_special_ideal_preparation,Ideale Vorbereitung>> +
+*Spezial:* <<ref_core_backrounds_adventurer_special_adventures_luck,Glück des Abenteurers>> +
 *Startkapital:* - +
 *CP:* 0 +
 
-[[ref_core_backrounds_adventurer_special_ideal_preparation]]
-== Ideale Vorbereitung
-Mit der xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation[Charaktererschaffung] erhält der Charakter 2-mal die Wahl aus einer der folgenden Optionen:
+[[ref_core_backrounds_adventurer_special_adventures_luck]]
+== Glück des Abenteurers
+Das Schicksal ist mit den Mutigen und Dummen, gelegentlich auch mit Abenteurern.
+Wenn Du beliebige Probe gewürfelt hast, darfst Du eine beliebige Anzahl von einzelnen Würfeln erneut würfeln.
+Die neuen Ergebnisse werden ausgewertet und zählen anstelle der vorherigen Ergebnisse.
+Du musst das neue Ergebnis akzeptieren, auch wenn es schlechter ist als vorher.
 
-* Ein Attribut erhält einen Bonus +1 Stufe.
-Wird diese Option mehrfach gewählt, kann ein einzelnes Attribut nur einmal gewählt werden.
-* Der SGM eines Talents wird um 1 verbessert.
-Wird diese Option mehrfach gewählt, kann ein einzelnes Talent nur einmal gewählt werden.
-* Der Abenteurer erhält 50 Silbermünzen zusätzliches Startkapital.
+Du kannst diese Fähigkeit einmal pro Tag einsetzen und musst zwischen zwei Anwendungen mindestens eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[normale Rast] durchgeführt haben.

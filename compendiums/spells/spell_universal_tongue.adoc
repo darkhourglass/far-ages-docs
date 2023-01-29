@@ -1,0 +1,23 @@
+= Universelle Sprache
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Geist +
+*Vorbereitung:* 4 +
+*Anzahl der Erfolge:* 7 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 9,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Für die Dauer des Zauberspruches können Dich alle link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen so verstehen, als würden sie Deine Sprache sprechen.
+Dies gilt nur für Kreaturen, die auch eine Sprache sprechen können.
+Somit sind beispielsweise link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiere] oder link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime] nicht betroffen.
+
+Darüber hinaus kannst Du alle Kreaturen verstehen, so als würden Sie Deine Sprache sprechen.
+
+Es gilt, dass im Zweifelsfall die Kreaturen betroffen sind, die den gleichen primären Kreaturtyp haben, wie Du.
+Im Ermessen des SLs können auch Kreaturen unterschiedlich betroffen sein.
+
+*Zusätzliche Effekte:* +
++10 MP, +2 POT: Alle Kreaturen können sich untereinander so verstehen, als würden Sie alle die gleiche Sprache sprechen.

@@ -1,0 +1,17 @@
+= Arbeiter
+
+Du kommst aus einfachen Verhältnissen, in denen harte, körperliche Arbeit zum Erwerb des täglichen Brots gehört.
+Menschen (oder andere) wie Dich findet man in großen Städten oder dem Umland auf Farmen und großen Plantagen.
+Dort hast Du viele unterschiedliche Aufgaben übernommen, wie im Hafen Waren verladen, Erntegüter auf Farmen von den Feldern holen oder in Fabriken und Werkstätten die schweren Maschinen bedienen.
+Deine neu entdeckte Abenteuerlust ist eventuell ein Ausweg aus Deinem eintönigen und kräftezehrenden Alltag.
+
+*Attributsbonus:* +1 ST +
+*Talente:* - +
+*Spezial:* <<ref_core_backrounds_heavy_worker_special_good_stamina,Durchhaltevermögen>> +
+*Startkapital:* 1/2 +
+*CP:* 10 +
+
+[[ref_core_backrounds_heavy_worker_special_good_stamina]]
+== Durchhaltevermögen
+Erhältst Du den Zustand xref:../core_rules_d10_system.adoc#ref_core_condition_exhausted[erschöpft], kannst Du diese Fähigkeit einsetzen, um diesen Zustand abzuwehren.
+Um diese Fähigkeit erneut verwenden zu können, musst Du jedoch zunächst eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange Rast] durchgeführt haben.

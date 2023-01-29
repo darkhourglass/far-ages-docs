@@ -1,0 +1,20 @@
+= Künstler
+
+Du hast Dein Leben der Kunst gewidmet, sei es nun Malerei, Musik, Tanz oder auch Literatur und Poesie.
+
+*Attributsbonus:* +1 CH +
+*Talente:* eine xref:../core_rules_talents_base.adoc#ref_talents_art[Kunst] Deiner Wahl +
+*Spezial:* <<ref_core_backrounds_NAME_special,Für Schönheit und Zerstreuung>> +
+*Startkapital:* - +
+*CP:* 40 +
+
+[[ref_core_backrounds_artist_special_for_beauty_and_distraction]]
+== Für Schönheit und Zerstreuung
+Deine Erfahrung in der Kunst, in der Du Dich bewegst, ermöglicht Dir eine ganz neue Qualität in den Erzeugnissen.
+Möchtest Du ein Kunstwerk herstellen, kannst Du eine der folgenden Optionen wählen:
+
+* Du benötigst 20% weniger Zeit, um das Kunstwerk herzustellen
+* Du benötigst 10% weniger Materialkosten
+* Der Wert des Endprodukts steigt um 10%
+
+Pro Kunstwerk kannst Du nur einen dieser Boni zur Geltung bringen.

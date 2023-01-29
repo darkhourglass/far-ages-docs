@@ -76,7 +76,7 @@ Es tritt somit die Fehlfunktion im Eintrag 3-4 auf.
 === Tod
 
 Konstrukte sind üblicherweise keine link:../secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen.
-Dies bedeutet insbesondere, dass die üblichen Regeln aus dem Kapitel xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_death[Tod] nicht auf sie zutreffen.
+Dies bedeutet insbesondere, dass die üblichen Regeln aus dem Kapitel xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod] nicht auf sie zutreffen.
 Stattdessen können sie <<ref_constructs_rules_death_destroyed,zerstört>> oder <<ref_constructs_rules_death_deactivated,deaktiviert>> werden.
 
 Grundsätzlich gilt ein Konstrukt mit 0 TP oder 0 MP gilt als besiegt.
@@ -84,8 +84,8 @@ Grundsätzlich gilt ein Konstrukt mit 0 TP oder 0 MP gilt als besiegt.
 [[ref_constructs_rules_death_destroyed]]
 ==== Zerstört
 
-Ein Konstrukt, dessen xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] auf 0 reduziert werden, gilt als *zerstört*, ohne die Regeln aus dem Kapitel xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_death_deathsdoor[dem Tode nahe] anzuwenden.
-Es erhält keine Möglichkeit, xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_death_deathsave[Todesrettungswürfe] abzulegen.
+Ein Konstrukt, dessen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] auf 0 reduziert werden, gilt als *zerstört*, ohne die Regeln aus dem Kapitel xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe] anzuwenden.
+Es erhält keine Möglichkeit, xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Todesrettungswürfe] abzulegen.
 
 Allerdings kann ein Konstrukt von einem entsprechend ausgebildeten Charakter <<ref_constructs_rules_repair,repariert>> werden.
 Er hält ein Konstrukt aus einer erfolgreichen Reparatur mehr als 0 TP, kann es wieder normal agieren, vorausgesetzt, es hat auch mehr 0 MP (siehe dazu auch das <<ref_constructs_rules_death_deactivated,folgende>> Kapitel).
@@ -93,9 +93,9 @@ Er hält ein Konstrukt aus einer erfolgreichen Reparatur mehr als 0 TP, kann es 
 [[ref_constructs_rules_death_deactivated]]
 ==== Deaktiviert
 
-Ein Konstrukt, dessen xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[MP] auf 0 reduziert werden,
+Ein Konstrukt, dessen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] auf 0 reduziert werden,
 gilt als *deaktiviert*.
-Wie bei <<ref_constructs_rules_death_destroyed,zerstört>> gelten die üblichen Regeln für den Zustand xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_death_deathsdoor[dem Tode nahe] nicht.
+Wie bei <<ref_constructs_rules_death_destroyed,zerstört>> gelten die üblichen Regeln für den Zustand xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe] nicht.
 Ein Konstrukt mit 0 MP kann keinerlei Handlung durchführen, es gilt effektiv als xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_disabled[kampfunfähig].
 
 Erhält ein Konstrukt wieder mehr als 0 MP, beispielsweise dank seiner xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] oder den Zauberspruch link:../../../../compendiums/spells/spell_energytransfer.adoc[Energietransfer], kann es wieder normal agieren.
@@ -103,7 +103,7 @@ Erhält ein Konstrukt wieder mehr als 0 MP, beispielsweise dank seiner xref:../.
 [[ref_constructs_rules_repair]]
 === Konstrukte reparieren
 
-Verlorene xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] können von einem Konstrukt nicht xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration[regeneriert] werden, sondern müssen *repariert* werden.
+Verlorene xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] können von einem Konstrukt nicht xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] werden, sondern müssen *repariert* werden.
 Dies kann durch jede Kreatur erfolgen, die zum einen das passende Wissen hat und zum anderen, entsprechendes Material und Werkzeug besitzt.
 
 Als Voraussetzung gilt die Kenntnis von mindestens einem der folgenden Talente:
@@ -128,7 +128,7 @@ In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Konstrukte vo
 * Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
 * Konstrukte können TP nur <<ref_constructs_rules_repair,Reparatur>> regenerieren oder durch entsprechende Zaubersprüche wie link:../../../../compendiums/spells/spell_repair_construct.adoc[Konstrukt reparieren].
 * Konstrukte regenerieren MP nicht automatisch, außer sie besitzen eine passende xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
-* Konstrukte erhalten aus ihrem xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Attribut] nicht zwangsläufig xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP], sondern besitzen eine xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
+* Konstrukte erhalten aus ihrem xref:../../../core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Attribut] nicht zwangsläufig xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP], sondern besitzen eine xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
 
 [[ref_constructs_rules_skills]]
 === Fähigkeiten

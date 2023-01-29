@@ -1,0 +1,25 @@
+= Navigator
+
+Du gehörst zu den gefragten Spezialisten, die in der Lage sind, auch in schwierigen Situation, den Weg zu finden.
+Typischerweise verbindet man damit die Positions des Navigators auf einem Schiff zur See, allerdings kann Dein Tätigkeitsfeld auch in einem ganz anderen Gebiet erfolgt sein.
+Du kannst Karten lesen und Dich anhand Sternen, dem Kompass und Horizont orientieren.
+Außerdem kannst Du das Wetter und Deine Umgebung gut interpretieren, um Dich vor möglichen Gefahren zu schützen.
+
+*Attributsbonus:* +1 ER +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen], xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Navigation)] +
+*Spezial:* <<ref_core_backrounds_navigator_special_exceptional_orientation,Außergewöhnliche Orientierung>> +
+*Startkapital:* - +
+*CP:* 60 +
+
+[[ref_core_backrounds_navigator_special_exceptional_orientation]]
+== Außergewöhnliche Orientierung
+Zu Beginn des Spiels bei der xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation[Charaktererschaffung] musst Du ein Gebiet wählen, indem Du navigieren gelernt hast.
+Dies können beispielsweise die offene See, Flüsse, der Untergrund, Berge, Wälder oder auch die Luftschifffahrt sein.
+
+Befindest Du Dich in Deinem gewählten Gebiet und eventuell auf einem passenden Gefährt, kannst Du eine xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen-Probe] ablegen, um eine oder mehrere der folgenden Informationen zu erfahren:
+
+* In welche Richtung Norden (oder eine andere Himmelsrichtung Deiner Wahl) liegt
+* Ändert sich das Wetter in den nächsten 1-3 Stunden
+* Gibt es natürliche, unmittelbare Gefahren, die ein Weiterkommen verhindern oder verlangsamen
+
+Im Ermessen des SLs kann ein xref:../core_rules_d10_system.adoc#ref_core_tiers_of_sucess[höherer Erfolgsgrad] mehr Informationen liefern oder auch nötig sein, um bestimmte Informationen überhaupt zu erhalten.

@@ -70,9 +70,9 @@ Für diese gelten besondere Regeln, die im Folgenden vorgestellt werden:
 * Zu jedem Zeitpunkt kann eine Hydra maximal 12 Köpfe besitzen.
 * Zu Beginn einer Begegnung besitzt die Hydra eine vom SL bestimmte Zahl von Köpfen, maximal jedoch 12.
 Die Bestimmung kann zufällig durch 1W6+3 bestimmt werden.
-* Jeder Kopf bietet der Hydra 20 Punkt auf ihren xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP-Pool], der minimal 95 TP beträgt (75 plus 1 Kopf).
-Dabei handelt es sich nicht um xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_temporary[temporäre] Punkte.
-* Eine Hydra ohne Köpfe, xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death_instant_death[stirbt] sofort, unabhängig von ihren verbliebenen TP.
+* Jeder Kopf bietet der Hydra 20 Punkt auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool], der minimal 95 TP beträgt (75 plus 1 Kopf).
+Dabei handelt es sich nicht um xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_temporary[temporäre] Punkte.
+* Eine Hydra ohne Köpfe, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt] sofort, unabhängig von ihren verbliebenen TP.
 * Solange die Hydra mehr als einen Kopf besitzt, kann sie ihre Fähigkeit link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] verwenden.
 Die Anzahl der Attacken entspricht der Anzahl ihrer Köpfe.
 * Solange die Hydra mehr als einen Kopf besitzt, kann sie pro eigener xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] eine zusätzliche xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_reaction_dogde[Reaktion] einsetzen, um einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriff] durchzuführen.

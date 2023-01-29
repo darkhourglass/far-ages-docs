@@ -21,7 +21,7 @@ Kreaturen hingegen, die die Probe nicht bestehen, sind in großer Gefahr.
 Kreaturen mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 4 oder weniger, fallen in den Riss.
 Sie erhalten in dieser Kampfphase und in jeder folgenden erhält einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Treffer] mit 10W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden.
 Es erfordert eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion], um sich zu befreien.
-Hat sich eine Kreatur zum Ende des Zauberspruches nicht aus dem Riss befreit, schließt sich die Erde über ihr und sie xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death_instant_death[stirbt].
+Hat sich eine Kreatur zum Ende des Zauberspruches nicht aus dem Riss befreit, schließt sich die Erde über ihr und sie xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt].
 Größere Kreaturen (GK 5 oder mehr) sind zu groß, um in einen Riss zu fallen, jedoch erhalten sie den identischen automatischen Treffer.
 
 *Zusätzliche Effekte:* +

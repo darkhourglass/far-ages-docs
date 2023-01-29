@@ -10,11 +10,11 @@ Grundsätzlich gelten für alle Pflanzen die gleichen Regeln wie für xref:creat
 [[ref_plant_rules_hibernate]]
 === Ruhezustand
 Pflanzenwesen sind üblicherweise link:../secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen.
-Alle Pflanzen mit diesem sekundären Kreaturentyp müssen nach üblichen Regeln xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration_rest[rasten], um ihre xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools[Punkte-Pools] zu regenerieren oder xref:../../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen] zu heilen.
+Alle Pflanzen mit diesem sekundären Kreaturentyp müssen nach üblichen Regeln xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[rasten], um ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools] zu regenerieren oder xref:../../../core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen] zu heilen.
 Sie können jedoch eine weitere Option wählen, nämlichen besonderen Ruhezustand, in der ihrer besonderen Physiologie entspricht und am ehesten mit Fotosynthese verglichen werden kann.
 Ein Pflanzenkreatur, die Rasten möchte, kann diese Option wählen, wenn sie dem direkten Sonnenlicht ausgesetzt ist.
 In diesem Fall halbiert sich die Zeit, die die Kreatur benötigt, um die jeweilige Rast durchzuführen.
-Eine xref:../../../core/core_rules_d10_system.adoc#ref_base_rules_pools_regeneration_long_break[lange Pause] würde beispielsweise dann nur 30 Minuten benötigen und 1 Stunde.
+Eine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_break[lange Pause] würde beispielsweise dann nur 30 Minuten benötigen und 1 Stunde.
 Während dieser Zeit gilt die Kreatur jedoch als xref:../../../core/core_rules_d10_system.adoc#ref_core_condition_unconscious[ohnmächtig].
 Die Ohnmacht endet automatisch nach der reduzierten Dauer der gewählten Pause.
 Sollte die Kreatur aus der Ohnmacht vorzeitig erwachen, kann sie keine Regeneration durchführen.

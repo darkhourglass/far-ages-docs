@@ -19,7 +19,7 @@ Um eine Kreatur in ein Skelett zu verwandeln, muss sie folgende Voraussetzungen 
 ** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleim]
 ** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
 
-* Die Kreatur muss xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_death[tot] sein.
+* Die Kreatur muss xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[tot] sein.
 * Die Kreatur muss einen Leichnam hinterlassen.
 
 Außerdem musst Du folgende Voraussetzungen erfüllen:
@@ -61,7 +61,7 @@ Als Skelett verliert die Kreatur alle Talentstufen *außer* der folgenden:
 
 [[ref_skeleton_skill_bonus_tp]]
 === Bonus-TP
-Abhängig von seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] erhält das erschaffene Skelett einen Bonus auf seine xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP].
+Abhängig von seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] erhält das erschaffene Skelett einen Bonus auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
 
 |===
 |Machtstufe |Bonus TP

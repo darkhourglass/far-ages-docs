@@ -8,10 +8,10 @@ Mit Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_
 Die Kreatur übernimmt das gesamte Profil der neuen Kreatur mit folgenden Ausnahmen:
 
 * Die Attributsstufen EN, SB und CH bleiben erhalten
-* Die Punktepools xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_mp[MP] und xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_sp[SP] bleiben erhalten
+* Die Punktepools xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP] bleiben erhalten
 * sie behält link:../../rules/core/core_rules_talents_base.adoc[Talente] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talentstufen].
 
-Die Kreatur übernimmt die xref:../../rules/core/core_rules_d10_system.adoc#ref_base_rules_pools_tp[TP] der neuen Form.
+Die Kreatur übernimmt die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] der neuen Form.
 Erreicht die Kreatur in einer Form, die nicht seine ursprüngliche Form ist, 0 TP, verwandelt sie sich sofort zurück.
 Die Kreatur verliert dabei genauso viele TP in seiner ursprünglichen Form, wie seine bisherige Form verloren hat, maximal jedoch bis 0.
 

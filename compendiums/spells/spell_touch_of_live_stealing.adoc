@@ -1,0 +1,24 @@
+= Lebensraubende Berührung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja +
+*Komponenten:* Geste +
+*Fokus:* Körper, Ebon +
+*Vorbereitung:* 2 +
+*Anzahl der Erfolge:* 4 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur +
+*Dauer:* Sofort +
+*Effekt:* Der Zauberer beschwört die Energie Ebons.
+Die Adern seiner Hand und seines Oberarms färben sich schwarz.
+
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] berührt der Zauberer sein Ziel an dessen Haut.
+Ein kalter, beißender Schmerz zieht durch dessen Adern und es erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen] Treffer für 3W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[nekrotischen] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schaden].
+
+Für jede volle 5 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP], die das Ziel durch diesen Zauberspruch verliert, erhält der Zauberer 1 TP für seinen eigenen Pool zurück.
+Er kann keine TP über seinem Maximum erhalten.
+
+*Zusätzliche Effekte:* +
++2 MP, +1 POT: +1W6 nekrotischen Schaden +
++2 MP, +1 POT: erhalte 1 TP mehr pro 5 verursachte Schadenspunkte (mehrfach anwendbar, maximal bis zu einer Rate von 1:1)
