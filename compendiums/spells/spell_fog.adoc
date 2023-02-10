@@ -13,7 +13,7 @@
 *Effekt:* Du beschwörst die Feuchtigkeit in der Luft, sich zu verdichten.
 Nebelschwaden kriechen in den Wirkungsbereich und breiten sich aus, bis sie den gesamten Bereich eingenommen haben.
 
-Der Nebel hat den Effekt, dass alle Kreaturen innerhalb des Wirkungsbereiches xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[geringe Deckung] (-1 auf die Würfe zum Erfolg) erhalten.
+Der Nebel hat den Effekt, dass alle Kreaturen innerhalb des Wirkungsbereiches xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[geringe Deckung] erhalten.
 Der Modifikator gilt auch für Proben, die von außen gegen Kreaturen im Wirkungsbereich gewürfelt werden.
 
 Du kannst zusätzliche Effekte nutzen, um den Nebel dichter zu machen und die Deckung zu erhöhen.
@@ -22,6 +22,6 @@ Du kannst nur einen dieser zusätzlichen Effekte nutzen. +
 +2 MP: Dauer +1 Kampfphase +
 +2 MP: Reichweite +6,00 Meter
 +5 MP: Radius +3,00  Meter
-+2 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[mittlere Deckung] (-2 auf die Würfe zum Erfolg)
-+5 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[starke Deckung] (-3 auf die Würfe zum Erfolg)
-+8 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[totale Deckung] (-4 auf die Würfe zum Erfolg)
++2 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[mittlere Deckung]
++5 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[starke Deckung]
++8 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[totale Deckung]

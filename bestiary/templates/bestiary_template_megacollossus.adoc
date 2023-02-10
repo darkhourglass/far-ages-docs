@@ -12,17 +12,17 @@ Die Kreatur darf nicht folgende Schablonen bereits besitzen:
 
 == Attribute
 
-Die Attributsstufen der Kreatur werden übernommen, außer die Werte für xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO].
+Die Attributsstufen der Kreatur werden übernommen, außer die Werte für xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO].
 Im Vergleich zu anderen Schablonen werden hier neue Werte festgesetzt, damit die bisherigen überschrieben.
 ST und KO nehmen jeweils den Wert 26 an.
 
-Dadurch ändern sich folgende xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Attributseigenschaften]:
+Dadurch ändern sich folgende xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters[Attributseigenschaften]:
 
-* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_maxcarringcapacity[MaxTL]: 390
-* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_hitpoints[TP]: 260
-* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID]: 29
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxcarryingcapacity[MaxTL]: 390
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[TP]: 260
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID]: 29
 
-Hat der Charakter weitere Boni auf seine TP, wie zum Beispiel xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP-/MP-Steigerungen], werden diese zu seinen neuen TP (260) gerechnet.
+Hat der Charakter weitere Boni auf seine TP, wie zum Beispiel xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP-/MP-Steigerungen], werden diese zu seinen neuen TP (260) gerechnet.
 
 == Talente
 
@@ -35,7 +35,7 @@ Sie erhält außerdem folgende hinzu:
 
 [[ref_template_megacollossus_skill_gk12]]
 === Größenkategorie 12
-Die Kreatur gilt für alle Regeln als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie 12].
+Die Kreatur gilt für alle Regeln als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie 12].
 Die physikalischen Dimensionen bleiben in diesem Fall dem SL überlassen.
 
 [[ref_template_megacollossus_skill_naturalarmor]]

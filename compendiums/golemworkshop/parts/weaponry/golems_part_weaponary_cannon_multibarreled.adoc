@@ -12,9 +12,9 @@
 *Beschreibung:* Diese Bewaffnung besteht aus einer komplexen Konstruktion aus mehreren schmalen Kanonenrohren, die auf einer rotierenden Verbindung montiert sind.
 Die Mechanik der Rotation lädt und feuert die Rohre in extrem kurzer Zeit, so dass ein Golem eine Salve von Projektilen abfeuern kann, wenn auch mit reduzierter Genauigkeit.
 
-Der Golem kann die Repetier-Kanone beim Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] wie eine normale link:golems_part_weaponary_cannon.adoc[Kanone] verwenden, die nur ein Projektil auf 1 Ziel abfeuert.
+Der Golem kann die Repetier-Kanone beim Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] wie eine normale link:golems_part_weaponary_cannon.adoc[Kanone] verwenden, die nur ein Projektil auf 1 Ziel abfeuert.
 
-Um die Repetier-Funktion zu nutzen, muss der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] einsetzen.
+Um die Repetier-Funktion zu nutzen, muss der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] einsetzen.
 In diesem Fall beginnt der Lauf der Kanone zu rotieren, um eine beliebige Anzahl von Projektilen zu verschießen.
 Für das erste Projektil wird eine reguläre Probe auf xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen.
 Danach kann der Golem ein weiteres Projektil verschießen, jedoch mit einem Malus von -1 Würfel zum Erfolg.

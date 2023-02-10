@@ -1,12 +1,11 @@
 = Untoten erschaffen
 
 *Arkanes Geheimnis:* Nein +
-*POT:* 5 +
+*POT:* 5 + (1 + Ziel-Machtstufe) +
 *Rettungswurf:* Nein +
 *Komponenten:* Formel, Zutat +
 *Fokus:* Ebon +
 *Vorbereitung:* (1 + Ziel-Machtstufe) + +
-*Anzahl der Erfolge:* (1 + Ziel-Machtstufe) +
 *Reichweite:* 9,00 +
 *Anzahl der Ziele:* 1 +
 *Dauer:* Sofort  +
@@ -19,11 +18,6 @@ Nach Ablauf dieser Kampfphasen gilt der Untote als unkontrolliert und muss gegeb
 Mit Erlernen dieses Zauberspruches kannst Du link:../../bestiary/templates/bestiary_template_undead_skeleton.adoc[Skelette] und link:../../bestiary/templates/bestiary_template_undead_zombie.adoc[Zombies] erschaffen.
 Andere Typen von Untoten können mit diesem Zauberspruch auch erschaffen werden, jedoch musst Du dieses Wissen pro Typ selbstständig entdecken.
 
-Durch zusätzliche Effekte kannst Du die maximale Machtstufe der Untoten erhöhen, die Du erschaffen möchtest.
 Du kannst mit diesem Zauberspruch nie Untote der Machtstufe 11 oder höher erschaffen.
-+
+
 *Zusätzliche Effekte:* - +
-+ 2 POT: Machtstufe 1, 2 und 3 möglich
-+ 3 POT: Machtstufe 4, 5 und 6 möglich
-+ 4 POT: Machtstufe 7, 8 und 9 möglich
-+ 5 POT: Machtstufe 10 möglich

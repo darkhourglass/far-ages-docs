@@ -20,8 +20,8 @@ Eine Armee ist nicht von Nöten.
 [[ref_throughtheanimalseyes]]
 === Durch die Augen des Tieres
 Der Druide kann seinen Geist in ein link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendes] link:../../advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] versetzen und durch seine Augen sehen und die Bewegung des Tiers steuern. +
-Um diese Fähigkeit anzuwenden, muss der Druide das Tier berühren und eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] aufwenden.
-Beide werfen eine konkurrierende xref:../core_rules_charactercreation.adoc#ref_attribute_selfcontrol[SB]-Probe.
+Um diese Fähigkeit anzuwenden, muss der Druide das Tier berühren und eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] aufwenden.
+Beide werfen eine konkurrierende xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB]-Probe.
 Hat der Druide mehr Erfolge, kann er das Tier kontrollieren.
 Hat das Tier gleich oder mehr Erfolge, hat es sich erfolgreich gewehrt. +
 Während der Druide ein Tier kontrolliert, sinkt er in eine tiefe Trance, so dass er seine Umgebung nicht mehr wahrnimmt.
@@ -41,6 +41,6 @@ Diese Verbundenheit bringt folgende Eigenschaften mit sich:
 Der Druide kann dem Tiergefährten genaue Anweisungen geben, was dieser tun soll.
 Dabei wird das Tier keine offensichtlichen Gefahren eingehen, die es normalerweise ebenso eingehen würde, allerdings verteidigt es den Druiden im Kampf. +
 Um sich zu unterhalten, müssen beide in Sichtweite voneinander sein.
-* Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP/MP-Steigerungen] durchführt, erhält der Tiergefährte einen TP-Bonus von 6.
-* Erreicht der Tiergefährte 0 TP, erhält der Druide sofort eine xref:../core_rules_battlesystem.adoc#ref_battle_wounds[Wunde] und verliert entsprechend seines xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID]-Wert viele TP.
+* Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerungen] durchführt, erhält der Tiergefährte einen TP-Bonus von 6.
+* Erreicht der Tiergefährte 0 TP, erhält der Druide sofort eine xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde] und verliert entsprechend seiner xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] viele TP.
 

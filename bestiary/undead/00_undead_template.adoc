@@ -35,9 +35,9 @@ Lore
 *Rüstung:* XXX +
 *Resistenzen:*
 
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 
 *Immunitäten:*
 
@@ -56,9 +56,9 @@ Lore
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 * link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
 == Offensiv
 

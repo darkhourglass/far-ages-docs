@@ -58,9 +58,9 @@ Die anderen Teile sind optional.
 Um einen Golem zu erschaffen, sind zunächst die oben genannten, erforderlichen Einzelteile zu wählen.
 Es können natürlich auch direkt alle optionalen Einzelteile gewählt werden, wie beispielsweise die <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>>.
 
-Unter den erforderlichen Einzelteilen bestimmt das Chassis zunächst die xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] des Konstrukts.
+Unter den erforderlichen Einzelteilen bestimmt das Chassis zunächst die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] des Konstrukts.
 Von dieser hängen beispielsweise initiale <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> ab.
-Außerdem bestimmt die xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des Chassis im Normalfall direkt die GK der weiteren Einzelteile.
+Außerdem bestimmt die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis im Normalfall direkt die GK der weiteren Einzelteile.
 Dies stellt dar, dass ein Golem mit GK 5 auch Beine und Arme der gleichen GK hat.
 
 Jedes Einzelteil wird bezüglich der Konstruktion als eigenständiges xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Gerät] verstanden.
@@ -76,7 +76,7 @@ Wenn eine gewünschte Kombination aus Bewaffnung, Chassis oder weiteren Einzelte
 Das Chassis dient als Grundgerüst, auf dessen Basis der Golem geschaffen wird.
 Es kann fast wie ein Massenprodukt wahrgenommen werden und es gibt typische Konventionen für diese Einzelteile.
 
-Von der gewählte xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des Chassis hängen für die nachfolgenden Einzelteile ebenfalls die Größenkategorien ab.
+Von der gewählte xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis hängen für die nachfolgenden Einzelteile ebenfalls die Größenkategorien ab.
 Dies bedeutet, wird ein Golem mit einer bestimmten GK erbaut, sind implizit alle nachfolgenden Einzelteile ebenfalls in dieser GK zu verwenden.
 
 .GK des Chassis
@@ -133,15 +133,15 @@ Jeder Golem muss eine Energiezelle haben, die (üblicherweise) in das Chassis ei
 Sofern nicht anders angegeben, verbraucht eine Energieversorgung keine Zusätze, sondern es wird angenommen, dass jedes Chassis genau eine Option von Energieversorgung in entsprechender GK aufnehmen kann.
 
 Eine Energiezelle ist ein ebenfalls gesondertes technomatisches Gerät, das speziell dafür konzipiert wurde, Golems mit Energie in Form von MP zu versorgen.
-xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:../../rules/core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
-Die Energieversorgung gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN-Attribut] des Golems.
+xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:../../rules/core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
+Die Energieversorgung gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attribut] des Golems.
 Der Golem benutzt diese MP auch, um Fähigkeiten aus beispielsweise <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>> oder <<ref_golemworkshop_creation_steps_additions,Zusätzen>> zu aktivieren.
 
 Ein Technomant muss diese nach den üblichen xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Regeln] herstellen.
 Am Ende der Konstruktionszeit macht er eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] gegen die gegebene Anzahl der Erfolge.
 Es gelten die üblichen Regeln für Patzer und Misserfolge bei Technomantie-Proben.
 
-Je nach Energiezelle und xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] werden unterschiedliche Mengen an MP bereitgestellt.
+Je nach Energiezelle und xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] werden unterschiedliche Mengen an MP bereitgestellt.
 Außerdem können manche Energiezellen MP automatisch xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regenerieren].
 
 [[ref_golemworkshop_creation_steps_core_profiles]]
@@ -192,7 +192,7 @@ Grundsätzlich kann, außer es ist durch die <<ref_golemworkshop_creation_steps_
 
 Manche Bewaffnungen sind als *schwer* gekennzeichnet.
 Diese können nur auf <<ref_golemworkshop_creation_steps_chassis_profiles,Chassis>> verbaut werden, die dies explizit erlauben.
-Der Einsatz einer schweren Bewaffnung benötigt immer eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion], erfordert also den Einsatz der xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] und des xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Manövers] pro Kampfphase des Golems.
+Der Einsatz einer schweren Bewaffnung benötigt immer eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion], erfordert also den Einsatz der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und des xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] pro Kampfphase des Golems.
 
 [[ref_golemworkshop_creation_steps_weaponary_profiles]]
 ===== Darstellung der Einträge
@@ -217,10 +217,10 @@ Bewaffnungen haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis
 
 *Attribute:* Manche Bewaffnungen gewähren Boni auf Attributsstufen, zum Beispiel +1 ST.
 
-*Talente:* Viele Bewaffnungen lassen den Golem zur Verwendung xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talente] einsetzen.
+*Talente:* Viele Bewaffnungen lassen den Golem zur Verwendung xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents[Talente] einsetzen.
 Diese Angabe listet das mit dieser Bewaffnung gelernte Talent und die passende Talentstufe an.
 Die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentstufe] enthält noch keine Berücksichtigung der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributsstufe] des Golems.
-Die Angabe eines Talents bedeutet immer, dass die Angriffsprobe für diese Bewaffnung mit diesem Talent gewürfelt werden muss und damit üblicherweise eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] ist.
+Die Angabe eines Talents bedeutet immer, dass die Angriffsprobe für diese Bewaffnung mit diesem Talent gewürfelt werden muss und damit üblicherweise eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] ist.
 
 *MP-Kosten:* Benötigt der Einsatz dieser Bewaffnung (ggf. damit zusätzlich zur Talent-Aktivierung) MP, so sind diese hier als Zahl angegeben.
 Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[Pool] abziehen.
@@ -254,7 +254,7 @@ Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentpro
 *GK:* Hier wird die GK der Bewegungsmöglichkeit angegeben.
 Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 
-*Bewegungsmodifikator:* Der Golem erhält den angegebenen Bonus oder Malus auf seine xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+*Bewegungsmodifikator:* Der Golem erhält den angegebenen Bonus oder Malus auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 
 *Bewegungsmodus:* Bei dieser Angabe handelt es sich um die Art, wie sich der Golem fortbewegt.
 Die Angabe _Standard_ deutet, dass alle üblichen Regeln gelten.
@@ -268,7 +268,7 @@ Andere Angaben entsprechen der jeweiligen Fähigkeit, zum Beispiel link:../../be
 Golems sind bereits robuste Konstrukte.
 *Panzerungen* können dies noch verstärken.
 Diese werden primär auf dem <<ref_golemworkshop_creation_steps_chassis,Chassis>> montiert, schützen jedoch den gesamten Körper des Golems.
-Üblicherweise schützt Panzerung wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_armor[Rüstung] auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen], sofern nicht anders angegeben.
+Üblicherweise schützt Panzerung wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung] auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen], sofern nicht anders angegeben.
 Eine Panzerung muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
 
 [[ref_golemworkshop_creation_steps_plating_heavy]]
@@ -293,7 +293,7 @@ Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentpro
 *GK:* Hier wird die GK der Panzerung angegeben.
 Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 
-*Rüstungsschutz:* bietet die Panzerung xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_armor[Rüstung], ist die in Form von Punkten angegeben
+*Rüstungsschutz:* bietet die Panzerung xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung], ist die in Form von Punkten angegeben
 
 *Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_plating_heavy,schwere Panzerung>>.
 
@@ -305,7 +305,7 @@ Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 Als *Zusätze* sind ein sehr allgemeiner Begriff für eine vielfältige Gruppe von technomantischen Geräten.
 Zusätze zeichnen sich dadurch aus, dass die nicht zum Betrieb eines Golems notwendig sind, allerdings im Normalfall auch nur auf oder mit einem Golem funktionieren.
 
-Wie viele Zusätze ein Golem installiert bekommen kann, hängt von seinem <<ref_golemworkshop_creation_steps_chassis,Chassis>> und dessen xref:../core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] ab.
+Wie viele Zusätze ein Golem installiert bekommen kann, hängt von seinem <<ref_golemworkshop_creation_steps_chassis,Chassis>> und dessen xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] ab.
 Beispielsweise kann ein link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[humanoides Chassis] der GK 5 insgesamt 2 Zusätze mit sich führen.
 
 Ein Zusatz muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
@@ -369,7 +369,7 @@ Es gelten alle in diesem Kapitel vorgestellten xref:../advanced/creaturetypes/pr
 [[ref_golemworkshop_creation_steps_profile_attributes]]
 ===== Attributsstufen
 
-Golems erhalten auf Basis ihres <<ref_golemworkshop_creation_steps_chassis,Chassis>> eine xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK].
+Golems erhalten auf Basis ihres <<ref_golemworkshop_creation_steps_chassis,Chassis>> eine xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK].
 Diese bestimmt die initialen Attributsstufen, welche sich aus der nachfolgenden Tabelle ergeben.
 
 |===
@@ -479,7 +479,7 @@ Seine Stufen in diesen beiden Attributen ergeben daher jeweils 6+1 = 7.
 [[ref_golemworkshop_creation_teps_profile_secondary_attributes]]
 ===== Attributseigenschaften
 
-Wenn die finalen <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> bestimmt sind, erhalten alle Golems nach den üblichen Regeln xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Attributseigenschaften].
+Wenn die finalen <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> bestimmt sind, erhalten alle Golems nach den üblichen Regeln xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Attributseigenschaften].
 
 Manche Komponenten modifizieren Attributseigenschaften, gehen zum Beispiel einen Bonus auf eine bestimmte Eigenschaft.
 Solche Modifikationen werden zusätzlich nach Bestimmung der Attributseigenschaften nach den zuvor genannten Regeln angewendet.
@@ -492,8 +492,8 @@ Es gelten jedoch folgende Ausnahmen:
 .Attributseigenschaften
 ====
 Ein Golem der GK 6 hat eine GE-Attributsstufe von 2.
-Aufgrund seiner Größe hat er eine xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Basis-BEW] von 9,00 Metern.
-Seine Attributsstufe gibt dazu keinen xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_overviewtable[Bonus] her.
+Aufgrund seiner Größe hat er eine xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Basis-BEW] von 9,00 Metern.
+Seine Attributsstufe gibt dazu keinen xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary_calculate_overviewtable[Bonus] her.
 Allerdings besitzt er als <<ref_golemworkshop_creation_steps_movement,Bewegungsmöglichkeit>> link:../../compendiums/golemworkshop/parts/movement/golems_part_movement_legs_2.adoc[Beine], die ihm einen Bonus von +3,00 Metern auf seine BEW geben.
 Somit hat er Gesamt-BEW von 12,00 Metern.
 ====
@@ -518,11 +518,11 @@ Der Golem erhält nur Talente, wenn seine Komponenten diese explizit aufführen.
 Üblicherweise sind dies <<ref_golemworkshop_creation_steps_weaponary,Bewaffnungen>> oder <<ref_golemworkshop_creation_steps_additions,Zusätze>>.
 Einzelne Komponenten geben das konkrete Talent sowie eine Stufe an.
 Diese Stufe ist jedoch ohne Attribut zu verstehen.
-Die finale xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talentstufe] ergibt sich somit aus dieser Zahl und der passenden <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufe>> des Golems.
+Die finale xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe] ergibt sich somit aus dieser Zahl und der passenden <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufe>> des Golems.
 
 .Talentstufen
 ====
-Ein Golem mit Attributsstufe 3 in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] erhält den Zusatz link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens], der das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] mit Talentstufe 5 gewährt.
+Ein Golem mit Attributsstufe 3 in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] erhält den Zusatz link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens], der das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] mit Talentstufe 5 gewährt.
 Damit erhält der Golem dieses Talent mit Stufe 8.
 ====
 
@@ -725,7 +725,7 @@ Dieser Golem wurde anhand der Regeln aus diesem Kapitel erstellt.
 
 Der Golem besteht aus folgenden Einzelteilen:
 
-* *<<ref_golemworkshop_creation_steps_chassis,Chassis:>>* link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Humanoides Chassis] xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 6
+* *<<ref_golemworkshop_creation_steps_chassis,Chassis:>>* link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Humanoides Chassis] xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 6
 * *<<ref_golemworkshop_creation_steps_core,Energieversorgung:>>* link:../../compendiums/golemworkshop/parts/core/golems_part_core_basiccells.adoc[Standardzelle]
 * *<<ref_golemworkshop_creation_steps_movement,Bewegung:>>* link:../../compendiums/golemworkshop/parts/movement/golems_part_movement_legs_2.adoc[2 Beine]
 * *<<ref_golemworkshop_creation_steps_weaponary,Bewaffnung:>>* link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]

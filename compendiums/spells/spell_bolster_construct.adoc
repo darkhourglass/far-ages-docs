@@ -1,12 +1,11 @@
 = Konstrukt verstärken
 
 *Arkanes Geheimnis:* Nein +
-*POT:* 7 +
+*POT:* 7 + (1 + Ziel-Machtstufe)  +
 *Rettungswurf:* Ja +
 *Komponenten:* Formel, Gesten, Edelsteine im Wert von 1000 Silbermünzen +
 *Fokus:* Metall +
 *Vorbereitung:* 5 +
-*Anzahl der Erfolge:* (1 + Ziel-Machtstufe) +
 *Reichweite:* 15,00 Meter +
 *Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
 *Dauer:* 5 Kampfphasen +
@@ -24,6 +23,5 @@ Du kannst ein Konstrukt mehrfach verzaubern, aber immer nur einmal mit dem gewä
 Der Zauberspruch wirkt nur auf Konstrukte der Machtstufe 5 oder weniger.
 Für Konstrukte höherer Machtstufen musst Du zusätzliche Effekte einsetzen. +
 *Zusätzliche Effekte:* +
-+1 POT: maximale Machtstufe +1 (mehrfach anwendbar) +
 +5 MP: Dauer +1 Kampfphase +
 +10 MP, +2 POT: wähle einen Effekt mehr zu Verzauberung (mehrfach anwendbar)

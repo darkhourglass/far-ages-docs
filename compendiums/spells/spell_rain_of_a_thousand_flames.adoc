@@ -17,7 +17,7 @@ Um den Zauberspruch aussprechen zu können, musst Du das Zielgebiet sehen könne
 
 Für die Dauer des Zauberspruches fallen im Wirkungsbereich in jeder Kampfphase dutzende feurige Meteoriten aus den schwarzen Wolken.
 Alle Kreaturen im Wirkungsbereich müssen zu Beginn ihrer Kampfphase eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex(4)-Probe] würfeln.
-Besteht eine Kreatur diese Probe nicht, erhält sie einen automatischen Treffer mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden und 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_physical[physischen] Schaden.
+Besteht eine Kreatur diese Probe nicht, erhält sie einen automatischen Treffer mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]-Schaden und 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden.
 
 Darüber hinaus schlagen zusätzlich pro Kampfphase 1W6 weitere Meteoriten ein, die zwar keine Kreaturen treffen, allerdings nach Ermessen des SLs andere Gebäude oder Strukturen.
 Sie richten den angegebenen Schaden an. +

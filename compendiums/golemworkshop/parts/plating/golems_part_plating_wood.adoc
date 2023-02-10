@@ -10,9 +10,9 @@
 *Beschreibung:* Holzpanzerung bietet eine Alternative zu der regulären link:golems_part_plating_steel_full.adoc[Stahlpanzerung (Voll)], auch wenn die Materialwahl nicht auf den ersten Blick offensichtlich erscheint.
 Diese Art der Panzerung fällt durch geringere Materialkosten und Produktionszeiten gegenüber der Stahlpanzerung auf, sowie einer besseren Beweglichkeit.
 
-Die Holzpanzerung schützt alle xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen] des Golems und besitzt im Gegensatz zur link:golems_part_plating_steel_full.adoc[Stahlpanzerung (Voll)] keinen Malus auf den INI-Wert oder die BEW-Rate des Golems.
+Die Holzpanzerung schützt alle xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] des Golems und besitzt im Gegensatz zur link:golems_part_plating_steel_full.adoc[Stahlpanzerung (Voll)] keinen Malus auf den INI-Wert oder die BEW-Rate des Golems.
 
-Allerdings bringt die Holzpanzerung den Nachteil mit sich, dass der Golem die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] für die Schadensart xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] erhält.
+Allerdings bringt die Holzpanzerung den Nachteil mit sich, dass der Golem die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] für die Schadensart xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] erhält.
 
 |===
 |GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz

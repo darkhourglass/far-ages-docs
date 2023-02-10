@@ -20,7 +20,7 @@ In besonders kalten Gebieten kann der Regen zu Schnee werden oder frieren.
 Durch seine extreme Kälte neigt der Eisregen jedoch dazu, der Natur eher zu schaden und Pflanzenwachstum, das an moderate Temperaturen gebunden ist, zu stören.
 Tiere werden schnell versuchen, einen Unterschlupf zu suchen.
 
-Weiterhin erhält jede xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur für jede Minute, die sie konstant dem Regen direkt ausgesetzt ist, einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Treffer] mit 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost-Schaden].
+Weiterhin erhält jede xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur für jede Minute, die sie konstant dem Regen direkt ausgesetzt ist, einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost-Schaden].
 
 Das Zielgebiet ist um Dich zentriert, in dem Moment, in dem Du Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegst.
 Für die Dauer des Zauberspruches verbleibt der Regen in diesem Zielgebiet.

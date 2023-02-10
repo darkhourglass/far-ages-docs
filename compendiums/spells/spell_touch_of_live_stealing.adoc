@@ -14,7 +14,7 @@
 Die Adern seiner Hand und seines Oberarms färben sich schwarz.
 
 Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] berührt der Zauberer sein Ziel an dessen Haut.
-Ein kalter, beißender Schmerz zieht durch dessen Adern und es erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen] Treffer für 3W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[nekrotischen] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schaden].
+Ein kalter, beißender Schmerz zieht durch dessen Adern und es erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen] Treffer für 3W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotische] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte].
 
 Für jede volle 5 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP], die das Ziel durch diesen Zauberspruch verliert, erhält der Zauberer 1 TP für seinen eigenen Pool zurück.
 Er kann keine TP über seinem Maximum erhalten.

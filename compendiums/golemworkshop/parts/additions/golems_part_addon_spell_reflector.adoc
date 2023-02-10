@@ -8,25 +8,25 @@
 *MP-Kosten:* 10 MP +
 *Beschreibung:* Ein Zauberreflektor ist ein kompliziertes und ungewöhnlich aussehendes Gerät, dass neben mechanischen Komponenten auch mit arkanen Runen versehen ist.
 
-Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] und Einsatz der MP-Kosten kann der Golem den Zauberreflektor aktivieren.
+Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] und Einsatz der MP-Kosten kann der Golem den Zauberreflektor aktivieren.
 Der Zusatz erzeugt ein beinahe unsichtbares, statisches Feld aus arkanen Funken, dass sich um den Golem formt.
 Solange das Feld aktiv ist, besteht die Chance, dass ein Zauberspruch, der gegen den Golem gerichtet ist, zu seinem Verursacher zurückgeworfen wird.
 
-Immer wenn ein Zauberspruch den Golem direkt als xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_targets[Ziel], also nicht Teil eines Wirkungsbereiches ist, tritt eine der folgenden Möglichkeiten ein:
+Immer wenn ein Zauberspruch den Golem direkt als xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Ziel], also nicht Teil eines Wirkungsbereiches ist, tritt eine der folgenden Möglichkeiten ein:
 
-* Erfordert der Zauberspruch eine xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magie-Abwehrprobe] und besteht der Golem diese, wird der Zauberspruch automatisch zum Verursacher zurückgeworfen.
-* Misslingt die xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magie-Abwehrprobe], dann wirkt der Zauberspruch normal.
-* Erfordert der Zauberspruch keine xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magie-Abwehrprobe], darf der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktion] einsetzen, um 1W10 zu würfeln.
-Ist das Ergebnis dieses Wurfes gleich oder höher als die xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_potent[POT] des Zauberspruches, wird dieser zurückgeworfen.
+* Erfordert der Zauberspruch eine xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magie-Abwehrprobe] und besteht der Golem diese, wird der Zauberspruch automatisch zum Verursacher zurückgeworfen.
+* Misslingt die xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magie-Abwehrprobe], dann wirkt der Zauberspruch normal.
+* Erfordert der Zauberspruch keine xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magie-Abwehrprobe], darf der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einsetzen, um 1W10 zu würfeln.
+Ist das Ergebnis dieses Wurfes gleich oder höher als die xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_potent[POT] des Zauberspruches, wird dieser zurückgeworfen.
 Der Golem darf diesen Wurf mit einem kumulativen Bonus von +1 versehen, in dem er pro +1 Bonus 5 MP einsetzt.
 
 Ist der Golem hingegen Teil eines Wirkungsbereichs, steht er zum Beispiel im Explosionsbereich eines link:../../../spells/spell_fireball.adoc[Feuerballs], besteht nur eine geringe Möglichkeit, dass der Zauberspruch zurückgeworfen wird.
-In diesem Fall kann der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktion] einsetzen und einen 1W10 würfeln.
-Wie bereits oben in einer anderen Situation vorgestellt, muss dieser Wurf die xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_potent[POT] des Zauberspruches erreichen oder übertreffen.
+In diesem Fall kann der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einsetzen und einen 1W10 würfeln.
+Wie bereits oben in einer anderen Situation vorgestellt, muss dieser Wurf die xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_potent[POT] des Zauberspruches erreichen oder übertreffen.
 Auch hier kann der Golem einen kumulativen Bonus von +1 einsetzen, jedoch kostet dieser 10 MP.
 
 Ein erfolgreich zurückgeworfener Zauberspruch setzt entweder den Zaubernden als neues Ziel oder als Zentrum für seinen Wirkungsbereich.
 Ein gegen eine Kreatur gerichteter Zauberspruch, der normalerweise nicht gegen den Zaubernden gerichtet werden kann, verpufft wirkungslos.
 Dies kann zum Beispiel eintreten, wenn der Zauberspruch nur gegen link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] wirkt und der Zaubernde keines ist.
 
-Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freien Aktion] kann der Golem den Zauberreflektor wieder deaktivieren.
+Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freien Aktion] kann der Golem den Zauberreflektor wieder deaktivieren.

@@ -13,11 +13,11 @@
 *Effekt:* Mit einem Schrei voll kalter Wut stampfst heftig Du mit Deinem Fuß auf die Erde.
 Der Boden in Deiner unmittelbaren Nähe erzittert udn bildet Risse ausgehend von dem Punkt, an dem Dein Fuß die Erde traf.
 
-Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 6W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erd-Schaden].
+Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 6W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erd-Schaden].
 
 Außerdem müssen alle Kreaturen im Wirkungsbereich einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_knockdown[Niederschlags-Rettungswurf] gegen die Anzahl der Erfolg aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen oder werden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[niedergeschlagen].
 
-Erhält eine Kreatur durch den Schadenswurf dieses Zauberspruches eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Verletzung], wird sie automatisch xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[niedergeschlagen]. +
+Erhält eine Kreatur durch den Schadenswurf dieses Zauberspruches eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung], wird sie automatisch xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[niedergeschlagen]. +
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: Radius +3,00 Meter
-+5 MP, +1 POT: Schaden +2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erd-Schaden]
++5 MP, +1 POT: Schaden +2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erd-Schaden]

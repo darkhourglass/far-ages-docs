@@ -25,9 +25,9 @@ Lore
 *Rüstung:* - +
 *Resistenzen:*
 
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 
 
 *Immunitäten:*
@@ -47,9 +47,9 @@ Lore
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 * link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 * xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)]
 
 == Offensiv
@@ -72,14 +72,14 @@ Lore
 
 [[ref_bestiary_death_shadow_bloodfreeze]]
 === Blut gefrieren
-Todesschatten attackieren ihre Opfer, in dem sie sie mit ihren schattenhaften Klauen berühren.
+Todesschatten attackieren ihre Opfer, in dem sie diese mit ihren schattenhaften Klauen berühren.
 Diese Berührung alleine reicht aus, um diesen schweren Schaden zuzufügen.
-Die Attacke wird als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] mit Reichweite xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_range[Berührung] gewürfelt.
-Dem Opfer steht eine reguläre xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Magieabwehr-Probe] zu.
+Die Attacke wird als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] mit Reichweite xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_range[Berührung] gewürfelt.
+Dem Opfer steht eine reguläre xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magieabwehr-Probe] zu.
 
-Bei einem Erfolg wird eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Schadensprobe] mit einem Schadensbonus von 3W6+2 gewürfelt.
+Bei einem Erfolg wird ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Schadenswurf] mit einem Schadensbonus von 3W6+2 gewürfelt.
 
-Schlägt der Todesschatten dabei eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_wounds[Wunde], xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] er die erwürfelten Schadenspunkte als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] (bis zu seinem Maximum).
+Schlägt der Todesschatten dabei eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde], xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] er die erwürfelten Schadenspunkte als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] (bis zu seinem Maximum).
 
 Todesschatten ignorieren alle Kreaturen, die nicht link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] sind.
 
@@ -87,7 +87,7 @@ Dieser Angriff wirkt auch gegen Kreaturen, die nicht körperlos sind.
 
 [[ref_bestiary_death_shadow_one_with_shadows]]
 === Eins mit den Schatten
-Der Todesschatten ist in xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] und Schatten xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar].
+Der Todesschatten ist in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] und Schatten xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar].
 Es reicht eine Fläche von leichtem Schatten, die eine Kreatur seine GK verdecken kann.
 
 [[ref_bestiary_death_shadow_powerlevel]]
@@ -95,7 +95,7 @@ Es reicht eine Fläche von leichtem Schatten, die eine Kreatur seine GK verdecke
 Der Todesschatten ist in Untoter der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 6 mit allen relevanten xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[Fähigkeiten].
 
 Um einen Todesschatten zu erschaffen, muss der Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] mit passender POT verwendet werden.
-Der Nekromant benötigt außerdem den Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5 oder mehr.
+Der Nekromant benötigt außerdem den Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5 oder mehr.
 
 Der Leichnam darf kein Blut mehr enthalten.
 Der Nekromant muss den Leichnam in einem länglichen Ritual von 4 Stunden präparieren und in einem komplizierten Muster aus arkanen Symbolen ablegen.
@@ -108,7 +108,7 @@ Fällt Licht auf den Todesschatten, zum Beispiel Fackelschein, wird er verwundba
 Er verliert seine Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)] solange er im Licht steht.
 
 Todesschatten sind außerdem besonders anfällig gegenüber Tageslicht und direktem Sonnenlicht.
-Zu Beginn seiner Kampfphase, wenn der Todesschatten sich im Tageslicht oder Sonnenlicht befindet, erhält er einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 10W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schaden.
+Zu Beginn seiner Kampfphase, wenn der Todesschatten sich im Tageslicht oder Sonnenlicht befindet, erhält er einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 10W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.
 Keine Rüstung, Schadensresistenz oder Immunität kann diesen Schaden reduzieren.
 Besonders dunkle Tage oder wenn die Sonne hinter Wolken versteckt ist, können im Ermessen des SLs für den Todesschatten sicher sein.
 

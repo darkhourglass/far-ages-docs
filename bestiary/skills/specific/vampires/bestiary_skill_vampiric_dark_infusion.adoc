@@ -3,17 +3,17 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
 
 Du ziehst Kraft auf dem Blut in Deinen Körper, um kurzfristig übermenschliche Stärke zu erhalten.
 
 Mit Einsatz dieser Fähigkeit wähle eines der folgenden Attribute:
 
-* xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST]
-* xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_dexterity[GE]
-* xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO]
+* xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST]
+* xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE]
+* xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO]
 
-Bis zum Ende Deiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] erhältst Du einen Bonus auf die Würfel zu Erfolg basieren auf Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe].
+Bis zum Ende Deiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] erhältst Du einen Bonus auf die Würfel zu Erfolg basieren auf Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe].
 Der Bonus gilt für alle korrespondierenden xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributs-] und xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Proben] sowie xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe].
 
 |===

@@ -17,7 +17,7 @@ Angekommen dehnt sich die Wolke sofort über den Radius aus und ein sanftes Mond
 Für die Dauer des Zauberspruches befindet sich im Radius ein dämmriges Licht, das als Mondschein (aber nicht als Vollmond) gilt, auch wenn es normalerweise heller wäre.
 Ist der Radius einmal bestimmt, kann er nicht mehr geändert werden.
 Das bedeutet, dass der Effekt nicht mit Dir wandert, falls Du Dich bewegst.
-Es gelten die negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] bei sternenklarer Nacht (-2 auf die Würfe zum Erfolg) nach üblichen Regeln für alle Kreaturen, die beispielsweise nicht link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] besitzen.
+Es gelten die negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] bei sternenklarer Nacht nach üblichen Regeln für alle Kreaturen, die beispielsweise nicht link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] besitzen.
 
 Weiterhin betrifft der Zauberspruch Kreaturen, die empfindlich gegenüber Mondlicht sind, weil Sie beispielsweise unter dem link:../../rules/advanced/curses/curse_of_the_moon.adoc[Fluch des Mondes] leiden.
 

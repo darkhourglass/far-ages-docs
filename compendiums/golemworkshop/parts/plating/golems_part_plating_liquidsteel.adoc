@@ -11,9 +11,9 @@
 Golems mit dieser Panzerung können sie gezielt einsetzen, um die Beschaffenheit ihrer Oberfläche zu verändern.
 Dadurch können sie nicht nur gezielt die Verteidigung verbessern oder ihre Verteidigung zugunsten von mehr Beweglichkeit reduzieren, sondern besitzen auch die beachtliche Fähigkeit andere Formen anzunehmen.
 
-Diese Rüstung bedeckt alle xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen] des Golems.
+Diese Rüstung bedeckt alle xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] des Golems.
 
-Einmal pro Kampfphase kann der Golem mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] eine der folgenden Optionen durchführen:
+Einmal pro Kampfphase kann der Golem mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] eine der folgenden Optionen durchführen:
 
 * *Verhärten:* Der Rüstungsschutz steigt um 3 Punkte, der Malus auf die BEW erhöht sich auf -3,00 (nur anwendbar, wenn verflüssigt, setzt verhärtet).
 * *Verflüssigen:* Der Rüstungsschutz reduziert sich um 3 Punkte, der Malus auf die BEW beträgt 0 (nur anwendbar, wenn verhärtet, setzt verflüssigt).
@@ -23,7 +23,7 @@ Es kann immer nur eine Trefferzone mit dieser Option verhärtet werden (nur anwe
 Es handelt sich dabei um eine link:../../../../bestiary/skills/bestiary_skill_magicability.adoc[magische Fähigkeit] für den Zauber TBA, ohne dass eine xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] nötig ist.
 Seine GK ändert sich dabei nicht, auch wenn die GK der Zielkreatur abweicht. (nur anwendbar, wenn verflüssigt).
 
-Diese Panzerung steht nur in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 5 bis 8 zur Verfügung.
+Diese Panzerung steht nur in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 5 bis 8 zur Verfügung.
 Die folgende Tabelle zeigt die von der GK abhängigen Eigenschaften.
 Es handelt sich dabei um den *flüssigen* Zustand der Panzerung.
 

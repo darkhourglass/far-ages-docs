@@ -13,7 +13,7 @@
 
 [[ref_duellist_duell]]
 === Duell
-Einmal als pro Kampfphase als xref:../core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion] darf der Duellist einen beliebigen Gegner in Sichtweite als Ziel seines Duells auswählen.
+Einmal als pro Kampfphase als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] darf der Duellist einen beliebigen Gegner in Sichtweite als Ziel seines Duells auswählen.
 Er erhält für die Dauer des Duells einen Bonus von +1 auf die Würfe zum Erfolg auf alle Angriffsproben gegen diesen Gegner.
 Das Duell endet, bzw. dieser Bonus geht verloren, sobald entweder der Duellist oder der Gegner von einem anderen Kampfteilnehmer xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] wird.
 Der Duellist darf immer nur einen Gegner gleichzeitig duellieren.
@@ -24,8 +24,8 @@ Duellisten lernen die beiden Fähigkeiten link:../skills/core_skill_acrobatic_at
 
 [[ref_duellist_dangersense]]
 === Gefahrensinn
-Der erste xref:../core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriff] einer Kampfphase, der gegen den Duellist geführt wird, wird ignoriert.
+Der erste xref:../core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] einer Kampfphase, der gegen den Duellist geführt wird, wird ignoriert.
 
 [[ref_duellist_improvedinitiative]]
 === Verbesserte Initiative
-Der Duellist erhält einen Bonus von +2 auf seinen xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI]-Wert.
+Der Duellist erhält einen Bonus von +2 auf seinen xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Wert].

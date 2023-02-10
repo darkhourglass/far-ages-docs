@@ -12,7 +12,7 @@
 *Dauer:* 10 Kampfphasen+
 *Effekt:* Der Magier beschwört die Schwärze der Nacht am helllichten Tag.
 
-Innerhalb des Wirkungsbereiches verdunkelt sich die Umgebung plötzlich und es herrscht xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[absolute Dunkelheit] mit einem Malus von -4 auf die Würfe zum Erfolg.
+Innerhalb des Wirkungsbereiches verdunkelt sich die Umgebung plötzlich und es herrscht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[absolute Dunkelheit].
 Nicht-magisches Licht erhellt den Wirkungsbereich nicht.
 Zaubersprüche und Effekte, die Licht erzeugen, müssen einen höhere POT haben, als dieser Zauberspruch, um die Dunkelheit zu bannen.
 

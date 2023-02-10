@@ -12,11 +12,11 @@
 *Beschreibung:* Der Kriegshammer ist eine schwere und zerstörerische Waffe, die an einem Arm eines Golems angebracht wird.
 Typische Modelle ersetzen die ganze Hand durch einen kunstvoll verzierten Hammerkopf.
 
-Der Kriegshammer wird wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed[Nahkampfwaffe] eingesetzt.
-Zur Schadensermittlung gelten die üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Regeln].
-Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] des Golems behandelt und einen individuellen Schadensbonus bei.
+Der Kriegshammer wird wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed[Nahkampfwaffe] eingesetzt.
+Zur Schadensermittlung gelten die üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Regeln].
+Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] des Golems behandelt und einen individuellen Schadensbonus bei.
 
-Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] des Kriegshammers wie folgt ab:
+Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] des Kriegshammers wie folgt ab:
 
 |===
 |GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus

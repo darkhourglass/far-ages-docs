@@ -19,25 +19,25 @@ Kleine Aufbauen und Leitungen verbinden den Vorderteil über den Kanonenlauf mit
 Subtil knistert elementare Magie in den Komponenten der Kanone.
 
 Jede elementare Kanone wird mit einem der vier Basis-Elemente (Erde, Feuer, Luft, Wasser) hergestellt.
-Dieses Element bestimmt die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] und die benötigten Zaubersprüche.
+Dieses Element bestimmt die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[Schadensart] und die benötigten Zaubersprüche.
 
 |===
 |Element |Schadensart |Zauberspruch
 
 |Erde
-|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erde]
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde]
 |link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde] 5
 
 |Feuer
-|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
 |link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers] 5
 
 |Luft
-|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft]
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft]
 |link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft] 5
 
 |Wasser
-|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_water[Wasser]
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
 |link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers] 5
 |===
 
@@ -46,7 +46,7 @@ FÜr die Herstellung einer elementaren Kanone reicht daher ein beliebiger Zauber
 
 Wurde eine elementare Kanone mit einem bestimmten Element hergestellt, kann dieses nicht mehr geändert werden.
 
-Elementare Kanonen sind Vergleich zu link:golems_part_weaponary_cannon.adoc[Kanonen] komplizierter herzustellen und werden daher für kleinere Golems in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 3 bis 7 hergestellt.
+Elementare Kanonen sind Vergleich zu link:golems_part_weaponary_cannon.adoc[Kanonen] komplizierter herzustellen und werden daher für kleinere Golems in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 3 bis 7 hergestellt.
 Folgende Tabelle zeigt die von der GK abhängigen Werte:
 
 |===
@@ -94,7 +94,7 @@ Folgende Tabelle zeigt die von der GK abhängigen Werte:
 |===
 
 Der Schadensbonus hat immer die Schadensart des gewählten Elements.
-Der Golem setzt die elementare Kanone wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_ranged_combat[Projektilwaffe] ein.
-Neben der üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion], die eine Attacke pro Kampfphase erfordert, muss der Golem die angegebenen Kosten in Form von 5 MP einsetzen.
+Der Golem setzt die elementare Kanone wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffe] ein.
+Neben der üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], die eine Attacke pro Kampfphase erfordert, muss der Golem die angegebenen Kosten in Form von 5 MP einsetzen.
 
 

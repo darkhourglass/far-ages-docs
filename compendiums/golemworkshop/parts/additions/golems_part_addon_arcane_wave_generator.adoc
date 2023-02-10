@@ -10,14 +10,14 @@
 Bei Aktivierung setzen sich die Ringe in immer schneller werdende Bewegung.
 Auf dem Höhepunkt bricht eine Welle blau-weiß leuchtende Welle arkaner Energie aus dem Kristall.
 
-Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] kann der Golem eine Welle arkaner Energie erzeugen, die alle Magie in einem Umkreis kurzzeitig aussetzt.
+Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] kann der Golem eine Welle arkaner Energie erzeugen, die alle Magie in einem Umkreis kurzzeitig aussetzt.
 Die Welle dehnt sich zentriert um den Golem in einem Radius von 32,00 Metern aus.
 Pro 5 MP, die der Golem zusätzlich zur Aktivierung ausgibt, erhöht sich der Radius um 6,00 Meter.
 
 Die Welle hat folgende Auswirkungen:
 
 * Der Golem selbst ist immun gegenüber allen Auswirkungen seiner eigenen arkanen Welle, aber nicht wenn er von einer arkanen Welle eines anderen Golems getroffen wird.
-* Alle link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte], die eine xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] besitzen, müssen einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_EN[EN-Rettungswurf] ablegen oder sind bis zum Anfang ihrer nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
-* Alle anderen Kreaturen erhalten einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 4W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types_magical[Magie-Schaden].
+* Alle link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte], die eine xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] besitzen, müssen einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_EN[EN-Rettungswurf] ablegen oder sind bis zum Anfang ihrer nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
+* Alle anderen Kreaturen erhalten einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_magical[Magie-Schaden].
 Ein erfolgreicher xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_EN[EN-Rettungswurf] halbiert den Schaden.
 * alle bestehenden magischen Effekte und Zaubersprüche werden für 1 Kampfphase unterdrückt, wenn ihre POT gleich oder weniger als 10 beträgt.

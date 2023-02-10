@@ -16,11 +16,11 @@ In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikato
 
 === Intuitive Magie
 Alle Gnome besitzen ein intuitives Bewusstsein für Magie und können deswegen auch ohne Ausbildung magische Effekt hervorrufen.
-Zur Charaktererschaffung lernt ein Gnom einen xref:../core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkanen Trick] aus einer beliebigen Zauberschule.
+Zur Charaktererschaffung lernt ein Gnom einen xref:../core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[Arkanen Trick] aus einer beliebigen Zauberschule.
 Er verwendet zur xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe seine EN-Stufen, außer er lernt die passende Zauberschule als Talent.
 
 === Magieanfällig
-Gnome erleiden einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_magic_base.adoc.adoc#ref_magic_rules_spellcasting_magicdefence[Rettungswürfe] gegen xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Proben.
+Gnome erleiden einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_magic_base.adoc.adoc#ref_core_magic_rules_spellcasting_magicdefence[Rettungswürfe] gegen xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Proben.
 
 === Mehr Magiepunkte
-Gnome erhalten einen Bonus von 10 MP auf ihren xref:../core_rules_charactercreation.adoc#ref_secondary_magicpoints[Magiepunkte]-Pool.
+Gnome erhalten einen Bonus von 10 MP auf ihren xref:../xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP-Pool].

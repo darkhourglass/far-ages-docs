@@ -16,7 +16,7 @@ In ungefähr 9,00 Meter Höhe (oder bei einer niedrigeren Decke in der entsprech
 Für die Dauer des Zauberspruches befindet sich im Radius ein helles Licht, welches als Sonnenlicht gilt.
 Ist der Radius einmal bestimmt, kann er nicht mehr geändert werden.
 Das bedeutet, dass der Effekt nicht mit Dir wandert, falls Du Dich bewegst.
-Alle negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] werden aufgehoben.
+Alle negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] werden aufgehoben.
 Der Zauberspruch blendet nicht.
 
 Kreaturen, die empfindlich gegenüber Sonnenlicht sind, weil Sie beispielsweise unter dem link:../../rules/advanced/curses/curse_of_the_sun.adoc[Fluch der Sonne] leiden, sind so betroffen, als stünden sie in der Mittagssonne.

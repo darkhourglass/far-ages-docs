@@ -1,10 +1,10 @@
 = Spielercharaktere
 
-Dieses Dokument beschreibt die Erstellung eines Spielercharakters im Regelsystem von Far Ages.
-Es erklärt die Begriffe des Volkes, Berufung, Attribute, Talente und Stufen.
-Weiterhin werden für weitere Abenteuer die Regeln zum Steigern aufgeführt.
+Dieses Dokument beschreibt die Erstellung eines xref:core_rules_2d10_system.adoc#ref_core_2d10_characters[Spielercharakters] im Regelsystem von Far Ages.
+Es erklärt die Begriffe des <<ref_core_characters_charactercreation_race,Volkes>>, der <<ref_core_characters_charactercreation_profession,Berufung>> und des <<ref_core_characters_charactercreation_backround,Hintergrunds>>.
+Weiterhin werden für weitere Abenteuer die Regeln zum <<ref_core_characters_spendcp,Steigern>> aufgeführt.
 
-[[ref_characters_characterpoints]]
+[[ref_core_characters_characterpoints]]
 == Charakterpunkte
 
 Charakterpunkte (*CP*) sind eine simple Maßeinheit für die Erfahrung und Fähigkeiten, die Charakter im Laufe seiner Abenteurerkarriere erwerben kann.
@@ -32,13 +32,18 @@ Er hat weiterhin 600 Gesamtcharakterpunkte.
 Gesamtcharakterpunkte können auch als Maß verwendet werden, um zwei unterschiedliche Charaktere (Spieler- wie Nicht-Spieler) direkt zu vergleichen.
 Ein Charakter mit 1000 Charakterpunkten ist deutlich stärker als ein Charakter mit nur 100 Gesamtcharakterpunkten.
 
-[[ref_characters_charactercreation]]
+[[ref_core_characters_charactercreation]]
 == Charaktererschaffung
-Jeder Charakter wird zu Beginn der Charaktererschaffung durch drei Elemente bestimmt: <<ref_characters_charactercreation_race,Volk>>, <<ref_characters_charactercreation_profession,Beruf>> und <<ref_characters_charactercreation_backround,Hintergrund>>.
+Jeder Charakter wird zu Beginn der Charaktererschaffung durch drei Elemente bestimmt:
+
+* <<ref_core_characters_charactercreation_race,Volk>>
+* <<ref_core_characters_charactercreation_profession,Beruf>>
+* <<ref_core_characters_charactercreation_backround,Hintergrund>>
+
 Einem Spieler steht je nach Kampagnen-Hintergrund eine andere Auswahl zur Verfügung.
 Daher beschreibt dieses Kapitel nur den allgemeinen Umgang mit diesen Elementen der Spielwelt und die zugrunde liegenden Mechanismen.
 
-[[ref_characters_charactercreation_initial_characterpoints]]
+[[ref_core_characters_charactercreation_initial_characterpoints]]
 === Initiale Charakterpunkte festlegen
 
 Zu Beginn einer Spielrunde sollten sich Spieler und Spielleiter auf eine Anzahl von *initialen Charakterpunkten* einigen.
@@ -52,8 +57,8 @@ Bevor das Spiel beginnt, müssen nicht alle initialen Charakterpunkte ausgegeben
 Es dürfen ungenutzte Charakterpunkte im Pool der aktuellen Charakterpunkte verbleiben.
 Die aktuellen Charakterpunkte dürfen jedoch nie einen Wert weniger 0 erreichen.
 
-[[ref_characters_charactercreation_race]]
-=== Schritt 1: Wahl des Volks
+[[ref_core_characters_charactercreation_race]]
+=== Wahl des Volks
 
 Jeder Charakter gehört einem link:core_rules_index_races.adoc[*Volk*] an.
 In den unterschiedlichen Universen und Welten von Far Ages können viele unterschiedliche Völker leben und jede hat gewisse Eigenschaften und Eigenheiten.
@@ -64,9 +69,9 @@ Möchte ein Spieler ein solches Volk spielen, muss er die CP-Kosten von seinen i
 
 Die Beschreibung eines Volks enthält folgende Informationen:
 
-* *Attributsbonus:* Der Eintrag enthält eine Liste von Modifikatoren für die Attributsstufen des Charakters, siehe dazu <<ref_characters_charactorcreation_initialattributes,initiale Attributsstufen>>.
+* *Attributsbonus:* Der Eintrag enthält eine Liste von Modifikatoren für die Attributsstufen des Charakters, siehe dazu <<ref_core_characters_charactorcreation_initialattributes,initiale Attributsstufen>>.
 
-* *Größe:* Jedes Volk hat eine <<ref_characters_charactercreation_sizecategories,Größenkategorie>>, die als ein Wert von 1 bis 10 angegeben ist.
+* *Größe:* Jedes Volk hat eine <<ref_core_characters_charactercreation_sizecategories,Größenkategorie>>, die als ein Wert von 1 bis 10 angegeben ist.
 
 * *Primärer Typ:* Jedes Lebewesen besitzt genau einen primären Kreaturentyp.
 Dieser bringt im allgemeinen eigene Regeln mit sich, die zusätzlich für den Charakter gelten.
@@ -85,8 +90,8 @@ Jeder sekundäre Kreaturentyp bringt möglicherweise zusätzliche Regeln mit sic
 Diese Eigenschaften sind Regelerweiterungen, die für dieses Volk gelten und sofort in Kraft treten, wenn das jeweilige Volk gewählt wird.
 Sofort nicht anders angegeben, gelten diese uneingeschränkt.
 
-[[ref_characters_charactercreation_profession]]
-=== Schritt 2: Wahl des Berufs
+[[ref_core_characters_charactercreation_profession]]
+=== Wahl des Berufs
 
 Der Begriff link:core_rules_index_professions.adoc[*Beruf*] wird in Far Ages etwas weiter definiert, als man es vielleicht gewohnt ist.
 Mit Beruf ist hier wahrhaftig der Ursprung des Wortes, die Berufung, gemeint.
@@ -96,13 +101,13 @@ Berufe haben normalerweise auch CP-Kosten, die wie bei der Wahl des Volkes von d
 
 Die Beschreibung eines Berufs beinhaltet folgende Informationen:
 
-* *Talentliste (SGM 1):* Angabe aller Talente, die der Charakter aufgrund seiner Berufswahl mit <<ref_characters_talents_sgm,Steigerungsmodifikator 1>> lernt.
+* *Talentliste (SGM 1):* Angabe aller Talente, die der Charakter aufgrund seiner Berufswahl mit xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[Steigerungsmodifikator 1] lernt.
 
-* *Talentliste (SGM 2):* Angabe aller Talente, die der Charakter aufgrund seiner Berufswahl mit <<ref_characters_talents_sgm,Steigerungsmodifikator 2>> lernt.
+* *Talentliste (SGM 2):* Angabe aller Talente, die der Charakter aufgrund seiner Berufswahl mit xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[Steigerungsmodifikator 2] lernt.
 
-* *Attributsbonus:* Der Eintrag enthält eine Liste von Modfikatoren für die Attributsstufen des Charakters, siehe <<ref_characters_charactorcreation_initialattributes,initiale Attributsstufen>>.
+* *Attributsbonus:* Der Eintrag enthält eine Liste von Modifikatoren für die Attributsstufen des Charakters, siehe <<ref_core_characters_charactorcreation_initialattributes,initiale Attributsstufen>>.
 
-* *TP/MP-Steigerung:* Angabe der berufsspezifischen <<ref_characters_spendcp_tp_and_mp,TP/MP-Steigerung>>, zum Beispiel +7/+5.
+* *TP/MP-Steigerung:* Angabe der berufsspezifischen <<ref_core_characters_spendcp_tp_and_mp,TP/MP-Steigerung>>, zum Beispiel +7/+5.
 
 * *Rettungswürfe:* //TODO
 
@@ -114,25 +119,25 @@ Die Beschreibung eines Berufs beinhaltet folgende Informationen:
 Diese Eigenschaften sind Regelerweiterungen, die für diesen Beruf gelten und sofort in Kraft treten, wenn der jeweilige Beruf gewählt wird.
 Sofort nicht anders angegeben, gelten diese uneingeschränkt.
 
-[[ref_characters_charactercreation_backround]]
-=== Schritt 3: Wahl des Hintergrundes
+[[ref_core_characters_charactercreation_backround]]
+=== Wahl des Hintergrundes
 Der link:core_rules_index_backrounds.adoc[*Hintergrund*] eines Charakters beschreibt seine Herkunft, zum Teil seine Vergangenheit und seine Gegenwart.
 
 Auch Hintergründe haben normalerweise CP-Kosten, die von den initialen Charakterpunkten bezahlt werden müssen.
 
-*Attributsbonus:* Manche Hintergründe bieten Boni auf die <<ref_characters_charactorcreation_initialattributes,initialen Attributsstufen>>.
+*Attributsbonus:* Manche Hintergründe bieten Boni auf die <<ref_core_characters_charactorcreation_initialattributes,initialen Attributsstufen>>.
 Diese werden mit allen Boni verrechnet.
 
 *Talente:* Eventuell bietet ein Hintergrund Wissen über eine Auswahl von Talenten.
 Für jedes hier angegebene Talent erhält der Charakter sofort 1 Talentstufe.
-Diese ist kumulativ mit seinen <<ref_characters_charactorcreation_initialtalents,initialen Talentstufen>> und wird nicht durch <<ref_characters_talents_sgm,Steigerungsmodifikatoren>> beeinflusst.
-Ebenso ist es nicht notwendig, dass der Charakter dieses Talent aufgrund seiner <<ref_characters_charactercreation_profession,Berufswahl>> als SGM 1 oder 2 besitzt.
+Diese ist kumulativ mit seinen <<ref_core_characters_charactercreation_initialtalents,initialen Talentstufen>> und wird nicht durch xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[Steigerungsmodifikatoren] beeinflusst.
+Ebenso ist es nicht notwendig, dass der Charakter dieses Talent aufgrund seiner <<ref_core_characters_charactercreation_profession,Berufswahl>> als SGM 1 oder 2 besitzt.
 
 * *Spezial:* Hintergründe bieten außerdem besondere Fähigkeiten oder Aktionen, die einzigartig für diesen Hintergrund sind.
 Diese werden hier angegeben und im Hintergrund jeweils erläutert.
 
 * *Startkapital:* Ein Modifikator oder Bonus (oder auch Malus) auf das Startkapital des Charakters.
-Keine Angabe bedeutet, dass der Charakter das übliche <<ref_characters_charactercreation_starting_money_and_items,Kapital>> erhält, dass in der Spielrunde vorgegeben wird.
+Keine Angabe bedeutet, dass der Charakter das übliche <<ref_core_characters_charactercreation_starting_money_and_items,Kapital>> erhält, dass in der Spielrunde vorgegeben wird.
 
 * *CP:* Angabe der Charakterpunkte, die es kostet, diesen Hintergrund zu wählen.
 
@@ -142,12 +147,12 @@ Er bietet keine Details wie Geburtsort, Eltern und Verwandte, Freunde und Nachba
 All dies ist dem Spieler und auch der Gruppe überlassen, wie detailliert sie dies ausgestalten möchten.
 
 [NOTE]
-Es ist nicht zwingend notwendig, einen beliebigen Hintergrund Wort für Wort zu intepretieren.
+Es ist nicht zwingend notwendig, einen beliebigen Hintergrund Wort für Wort zu interpretieren.
 Gefällt einem Spieler beispielsweise die link:backrounds/core_backrounds_cityguard.adoc[Stadtwache], aber er möchte seinen Charakter nicht an eine Stadt binden, sondern an ein kleines Dorf und dessen Umgebung, dann kann dies natürlich für den Charakter angepasst werden.
 Auch hier gilt, dass die Abstimmung mit dem SL erfolgen muss und dieser das letzte Wort hat.
 
-[[ref_characters_charactorcreation_initialattributes]]
-=== Schritt 4: Bestimmung der initialen Attributsstufen
+[[ref_core_characters_charactorcreation_initialattributes]]
+=== Bestimmung der initialen Attributsstufen
 
 In jedem Attribut startet ein neuer Charakter mit einer festen Attributsstufe.
 
@@ -161,7 +166,7 @@ Mehrere Boni auf dasselbe Attribut sind kumulativ.
 
 .Initiale Attributsstufen
 ====
-Ein Charakter wählt eine Rasse mit +1 auf Geschick, -1 Konstitution, +1 Erkenntnis.
+Ein Charakter wählt ein Volk mit +1 auf Geschick, -1 Konstitution, +1 Erkenntnis.
 Seine Berufung gibt ihm noch +1 Geschick.
 Als Attribut mit Stufe 3 wählt er KO.
 Auf Stufe 1 sollen die Attribute ER und CH starten.
@@ -170,41 +175,74 @@ Seine Attributsstufen ergeben dann:
 ST: 2, GE: 4, KO: 2, ER: 2, EN: 2, SB: 2, CH: 1
 ====
 
-Während der Charaktererschaffung darf keine Attributsstufe auf 0 oder weniger fallen.
+Während der Charaktererschaffung darf keine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks_step_0[Attributsstufe auf 0] oder weniger fallen.
 Das bedeutet, wenn ein Charakter eine Kombination aus Volk Hintergrund und Beruf wählt, die ein oder mehrere Attribute auf 0 oder weniger reduzieren würde, hat er zwei Möglichkeiten:
 
 * Er kann die Kombination von Volk, Hintergrund und Beruf verändern, um die Attributsstufen auf 1 oder höher zu bringen.
-* Pro Attributsstufe kann er 20 CP seiner <<ref_characters_charactercreation_initial_characterpoints,initialen Charakterpunkten>> bezahlen, um das Attribut auf Stufe 1 zu bringen.
+* Pro Attributsstufe kann er 20 CP seiner <<ref_core_characters_charactercreation_initial_characterpoints,initialen Charakterpunkten>> bezahlen, um das Attribut auf Stufe 1 zu bringen.
 Dies ist kumulativ zu zahlen, das heißt sollte beispielsweise eine Attributsstufe auf -1 fallen, so sind 40 CP insgesamt nötig.
 
-Ein Charakter darf keine Attributststufe den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks_step_0[Wert 0] haben.
+Sind die Attributsstufen final bestimmt, ergeben sich aus diesen die <<ref_core_characters_charactercreation_attributes_bonus,Attributsboni>> und <<ref_core_characters_charactercreation_secondary,Attributseigenschaften>>.
 
-Sind die Attributsstufen final bestimmt, ergeben sich aus diesen die <<ref_characters_charactercreation_secondary,Attributseigenschaften>>.
+[[ref_core_characters_charactercreation_attributes_bonus]]
+=== Bestimmung der Attributsboni
+Wie im Kapitel über xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsboni] beschrieben, erhält ein Charakter für jedes Attribut anhängig von seiner Stufe einen Bonus, der bei verschiedenen Proben benötigt wird.
+Auch hier gilt, dass die Attributsboni auf die <<ref_core_characters_charactorcreation_initialattributes,initialen Attributstufen>> des Charakters angewendet werden.
 
-[[ref_characters_charactercreation_secondary]]
-=== Schritt 5: Bestimmung der Attributseigenschaften
+[[ref_core_characters_charactercreation_secondary]]
+=== Bestimmung der Attributseigenschaften
+Im Folgenden werden nun die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften] beschrieben und ihnen entsprechende Werte zugeordnet.
+Die Attributseigenschaften ergeben sich direkt aus den <<ref_core_characters_charactorcreation_initialattributes,initialen Attributstufen>>.
 
-Im Folgenden werden nun die Attributseigenschaften beschrieben und ihnen entsprechende Werte zugeordnet.
-Die Attributseigenschaften ergeben sich direkt aus den Attributsstufen.
+[[ref_core_characters_charactercreation_secondary_calculate_pool_tp]]
+==== Trefferpunkte (TP)
+Die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[Trefferpunkte] eines Charakters berechnen zu Beginn des Spiels aus seinen Attributsstufen in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[Stärke] und xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[Konstitution] nach der Formel *(ST+KO)*5*.
 
-[[ref_secondary_movementbonus]]
-*Bewegungsbonus(BEW-Bonus)(Geschick):* Jede Kreatur kann sich über einen begrenzten Zeitraum hinweg eine vorgebende Entfernung weit bewegen.
-In Far Ages wird diese Entfernung in Metern gemessen.
-Charaktere mit einer hohen Attributsstufe in Geschick bewegen sich schneller und weiter als weniger geschickte Charaktere.
+.Trefferpunkte
+====
+Der Charakter von Michael besitzt eine Attributsstufe von 3 in Stärke und 2 in Konstitution.
+Daher hat der Charakter initial (3+2)*5 = 25 TP.
+====
 
-Wie hoch der BEW-Bonus ist, kann man der <<ref_secondary_overviewtable,Tabelle>> am Ende dieses Abschnittes entnehmen.
+[[ref_core_characters_charactercreation_secondary_calculate_pool_mp]]
+==== Magiepunkte (MP)
+Die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP] eines Charakters berechnen aus seiner Attributsstufe in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[Energie] nach der Formel *EN*10*.
 
-Die Gesamtbewegung wird BEW abgekürzt und berechnet sich aus der <<ref_characters_charactercreation_sizecategories_basic_movement,Basis-Bewegung>> (siehe <<ref_characters_charactercreation_sizecategories,Größenkategorie>>) und dem BEW-Bonus.
+.Magiepunkte
+====
+Michaels Charakter ist kein großer Magier und sollte es nicht werden.
+Seine Attributsstufe in Energie ist 2.
+Damit hat sein Charakter 20 MP.
+====
+
+[[ref_core_characters_charactercreation_secondary_calculate_pool_sp]]
+==== Stabilitätspunkte (SP)
+Der Pool der xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_sp[SP], die ein Charakter am Anfang besitzt, berechnet sich aus seinen Attributsstufen in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[Selbstbeherrschung] und xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[Charisma] nach der Formel *(SB+CH)*5*.
+
+.Stabilitätspunkte
+====
+Michaels Charakter hat in Selbstbeherrschung und Charisma jeweils nur die Attributsstufe 1.
+Daher hat er nur (1+1)*5 = 10 SP.
+====
+
+[[ref_core_characters_charactercreation_secondary_calculate_movementrate]]
+==== Bewegungsrate (BEW)
+Die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[Bewegungsrate]  berechnet sich aus zwei Komponenten.
+Zuerst bestimmt man aufgrund der <<ref_core_characters_charactercreation_sizecategories,Größenkategorie>> des gewählten <<ref_core_characters_charactercreation_race,Volkes>> die <<ref_core_characters_charactercreation_sizecategories_basic_movement,Basis-Bewegung>>.
+Aus der Attributsstufe in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] ergibt sich der <<ref_core_characters_charactercreation_secondary_calculate_overviewtable,BEW-Bonus>>.
 Beides wird in Metern gemessen und daher einfach addiert.
 
-[[ref_secondary_inibonus]]
-*Initiativebonus (INI) (Geschick+Erkenntnis):* Die Initiative bestimmt die Kampfreihenfolge innerhalb einer Kampfphase.
+.Bewegungsrate
+====
+Ein Spieler wählt für seinen Charakter das Volk der link:races/core_races_humans.adoc[Menschen], welches in die GK 5 eingeteilt ist.
+Für Kreaturen der GK 6 ergibt sich eine Basis-Bewegung von 7,50 Metern.
+Weiterhin besitzt der Charakter eine Attributsstufe von 3 in Geschick.
+Der BEW-Bonus hier ist 0,00 Meter, somit ergibt sich eine gesamte Bewegungsrate von 7,50 Metern.
+====
 
-Der Initiative-Wert wird wie folgt berechnet: Man addiert die Attributsstufen, die man in Geschick und Erkenntnis hat.
-
-Das Ergebnis ist dann der *Initiativebonus*.
-
-Der Initiativebonus wird zur Bestimmung der xref:core_rules_battlesystem.adoc#ref_battle_battlephase_initiative[Initiativereihenfolge] im Kampf benötigt.
+[[ref_core_characters_charactercreation_secondary_calculate_initiativebonus]]
+==== Initiative-Bonus (INI)
+Der xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Bonus] wird durch die Addition der Attributsstufen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[Geschick] und xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[Erkenntnis] berechnet, also *GE+ER*.
 
 .Initiativebonus
 ====
@@ -212,9 +250,9 @@ Michaels Charakter hat Geschick 2 und Erkenntnis 1.
 Zusammen ergibt dies 3 und somit ist 3 sein Initiativebonus.
 ====
 
-[[ref_secondary_maxcarringcapacity]]
-*Maximale Traglast(MaxTL)(Stärke):* Dieser Wert gibt an, wie viel Pfund der Charakter mit sich herumtragen kann, ohne dabei Abzüge zu erhalten.
-Der Wert berechnet sich durch die Attributsstufe von Stärke multipliziert mit 15, also ST*15.
+[[ref_core_characters_charactercreation_secondary_calculate_maxcarringcapacity]]
+==== Maximale Traglast (MaxTL)
+Der Wert der xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxcarryingcapacity[MaxTL] berechnet sich durch die Attributsstufe in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[Stärke] multipliziert mit 15, also *ST*15*.
 
 .Maximale Traglast
 ====
@@ -222,59 +260,10 @@ Michaels Charakter hat eine Stärke-Stufe von 3 und kann damit
 3*15 = 45 Pfund tragen.
 ====
 
-Übersteigt das Gesamtgewicht der Gegenstände, die der Charakter mit sich herumträgt diesen Wert, dann verringert sich seine Bewegungsrate.
-Pro angefangene 10 Pfund verliert der Charakter 1,50 Meter seiner
-Bewegungsrate.
-
-Ein Langschwert wiegt um die 2 bis 2,5 Pfund, eine Ritterrüstung um die 60.
-Kettenhemden wiegen 16 bis 28 Pfund.
-
-[[ref_secondary_hitpoints]]
-*Trefferpunkte(TP)(Stärke + Konstitution):* Trefferpunkte (kurz TP) sind eine Art Puffer für den Charakter bis zu seinem Tod.
-TP verliert ein Charakter beispielsweise xref:core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenseinwirkung].
-TP können auch durch xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Regeneration] wieder erhalten werden.
-
-Die Trefferpunkte eines Charakters berechnen zu Beginn des Spiels wie folgt: Der Charakter addiert seine Attributsstufen in Stärke und Konstitution und multipliziert das Ergebnis mit 5: (ST+KO)*5
-
-.Trefferpunkte
-====
-Der Charakter von Michael besitzt eine Attributsstufe von 3 in Stärke und 2 in Konstitution.
-Daher hat der Charakter (3+2)*5 = 25 TP.
-====
-
-[[ref_secondary_threshold]]
-*Widerstand(WID)(Konstitution):* Die Zahl WID gibt an, wie viel Schaden der Charakter durch eine Schadensprobe einstecken kann, bevor er niedergeschlagen wird.
-Ein Charakter, der niedergeschlagen wurde, ist kampfunfähig und somit ein leichtes Ziel für Gegner.
-
-Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in der Tabelle am Ende des Dokumentes.
-
-[[ref_secondary_magicpoints]]
-*Magiepunkte(MP)(Energie):* Zaubersprüche in Far Ages werden mit Magiepunkten (MP) bezahlt.
-Jeder Zauberspruch kann theoretisch ohne MP ausgesprochen werden, jedoch benötigt er dann mehr Zeit.
-MP sind für den Charakter somit eine Art "Ausdaueranzeige" für seine Zauberei.
-
-Sehr ausführliche Beschreibungen und Beispiele finden sich im Dokument link:core_rules_magic_base.adoc[Magie], außerdem weitere Anwendungsgebiete von Magiepunkten.
-
-Die Magiepunkte berechnen sich wie folgt: Attributsstufe in Energie multipliziert mit 10: EN*10.
-
-.Magiepunkte
-====
-Michaels Charakter ist kein großer Magier und sollte es nicht werden.
-Seine Attributsstufe in Energie ist 1.
-Damit hat sein Charakter 10 MP.
-====
-
-[[ref_secondary_maxmagicpotential]]
-*Maximale Magiepotenz(MaxPOT)(Energie):* Jeder Zauberspruch besitzt eine Magiepotenz (POT).
-Dieser Wert zeigt an, wie stark der Zauberspruch ist.
-Zauber der POT 2 oder POT 3 sind sehr schwache, einfache Zaubersprüche, die Lehrlinge lernen, um ihre ersten Erfahrungen mit Magie zu machen.
-Zaubersprüche mit POT 10 sind mächtige Rituale, die es vermögen, gewaltige Energien freizusetzen.
-
-Vom der Attributsstufe in Energie ist es abhängig, welche Zaubersprüche ein Charakter aussprechen kann.
-Die maximale Magiepotenz ist daher die Grenze bis zu der, der Charakter Zaubersprüche aussprechen kann.
-Ein Zauber mit einer höheren POT als der maximalen Magiepotenz ist also für den Charakter zuerst unerreichbar, jedoch gibt es auch da nicht gerade ungefährliche Möglichkeiten, dies zu umgehen.
-
-Wie auch bei anderen Attributseigenschaften findet sich die Zuordnung in der <<ref_secondary_overviewtable,Tabelle>> am Ende des Dokumentes.
+[[ref_core_characters_charactercreation_secondary_calculate_maxmagicpotential]]
+==== Maximale Magiepotenz (MaxPOT)
+Die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxPOT] ist von der Attributsstufe in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[Energie] abhängig.
+Die Zuordnung findet sich in der <<ref_core_characters_charactercreation_secondary_calculate_overviewtable,Tabelle>> am Ende des Dokumentes.
 
 .Maximale Magiepotenz
 ====
@@ -283,22 +272,16 @@ Seine Attributsstufe in Energie ist nur 1.
 Daher ist seine MaxPOT 5.
 ====
 
-[[ref_secondary_stabilitypoints]]
-*Stabilitätspunkte(SP)(Selbstbeherrschung+Charisma):* Der Verstand ist zerbrechlich, auch der von Helden und das Mulitversum ist voller unergründlicher Geheimnisse, die das Gemüt eines Sterblichen stark schädigen können.
-Die Stabilitätspunkte (kurz SP) stehen für die geistige Gesundheit des Charakters.
+[[ref_core_characters_charactercreation_secondary_calculate_threshold]]
+==== Widerstand (WID)
+Die Eigenschaft xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] hängt von der Stufe des Attributs xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[Konstitution] ab und lässt sich aus der <<ref_core_characters_charactercreation_secondary_calculate_overviewtable,Tabelle>> am Ende des Dokumentes ermitteln.
 
-Je mehr er hat, desto besser ist es um seinen Verstand bestellt.
-Ein Verlust von SP kann zu bleibenden Schäden in der Psyche führe und der Wahnsinn ist nahe, wenn man auf 0 SP zu geht.
-
-Die Anzahl der SP, die ein Charakter am Anfang besitzt, berechnet sich wie folgt: Der Charakter addiert seine Werte in Selbstbeherrschung und Charisma und multipliziert das Ergebnis mit 5: (SB+CH)*5.
-
-.Stabilitätspunkte
+.Widerstand
 ====
-Michaels Charakter hat in Selbstbeherrschung und Charisma jeweils nur die Attributsstufe 1.
-Daher hat er nur (1+1)*5 = 10 SP.
+Ein Charakter mit einer KO-Stufe von 4 hat nach der Übersichtstabelle eine WID von 14.
 ====
 
-[[ref_secondary_overviewtable]]
+[[ref_core_characters_charactercreation_secondary_calculate_overviewtable]]
 .Attributseigenschaften
 |===
 |Attributsstufe |BEW |WID |MaxPot
@@ -359,16 +342,15 @@ Daher hat er nur (1+1)*5 = 10 SP.
 |+1 pro Stufe
 |===
 
-[[ref_characters_charactorcreation_initialtalents]]
-=== Schritt 6: Initiale Talentstufen
-
-Anders als Attribute starten alle Talentstufen immer auf 0.
+[[ref_core_characters_charactercreation_initialtalents]]
+=== Initiale Talentstufen
+Anders als Attribute starten alle xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufen] immer auf 0.
 Zur Charaktererschaffung erhält ein Charakter *4 freie Talentstufen*, die auf die Talente, welche durch seine Berufswahl mit SGM 1 und SGM 2 gekennzeichnet wurden, verteilt werden können.
 
 Pro Talent kann nur eine Talentstufe auf diesem Wege gesetzt werden.
-Für Talente mit SGM 2 müssen 2 der freien Talentstufen eingesetzt werden.
+Für Talente mit xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[SGM] 2 müssen 2 der freien Talentstufen eingesetzt werden.
 
-Sind alle freien Talentstufen verbraucht, müssen weitere Stufen nach den normalen <<ref_characters_spendcp_talents,Steigerungsregeln für Talente>> mit CP gekauft werden.
+Sind alle freien Talentstufen verbraucht, müssen weitere Stufen nach den normalen <<ref_core_characters_spendcp_talents,Steigerungsregeln für Talente>> mit CP gekauft werden.
 Über diesen Weg können auch höhere Talentstufen gekauft werden.
 
 .Talentstufen
@@ -379,22 +361,20 @@ Mit dem Einsatz von je 1 freien Talentstufe kann der Charakter Nahkampfwaffen un
 Mit dem Einsatz der verbleibenden 2 Talentstufen kann er nun auch dieses Talent mit Talentstufe 1 versehen.
 ====
 
-Die Anzahl der Würfel pro Talent besteht nun aus der Summe der Talentstufe und der Attributsstufe im verwandten Attribut.
+[[ref_core_characters_charactercreation_initialspells]]
+=== Initiale Zaubersprüche
 
-[[ref_characters_charactercreation_initialspells]]
-=== Schritt 7: Initiale Zaubersprüche
+Besitzt der Beruf des Charakters das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[SGM] 1 oder 2 und hat der Charakter mindestens eine <<ref_core_characters_charactercreation_initialtalents,Talentstufe>> in diesem Talent gesetzt, erlernt er zur Charaktererschaffung eine vom SGM abhängige Anzahl an Zaubersprüchen:
 
-Besitzt der Beruf des Charakters das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit SGM 1 oder 2 und hat der Charakter mindestens eine Talentstufe in diesem erlernt, erlernt er zur Charaktererschaffung eine vom SGM abhängige Anzahl an Zaubersprüchen:
+* Spruchzauberei ist SGM 1: 3 xref:core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[Arkane Tricks], 3 Zaubersprüche der Stufe 1
+* Spruchzauberei ist SGM 2: 2 xref:core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[Arkane Tricks], 2 Zaubersprüche der Stufe 1
 
-* Spruchzauberei ist SGM 1: 4 xref:core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkane Tricks], 4 Zaubersprüche der Stufe 1
-* Spruchzauberei ist SGM 2: 2 xref:core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkane Tricks], 2 Zaubersprüche der Stufe 1
+Die Zaubersprüche können nur aus der xref:core_rules_magic_base.adoc#ref_core_magic_schools_of_magic[Zauberschule] stammen, zu der das Spruchzauberei-Talent gehört.
 
-Die Zaubersprüche können nur aus der xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic[Zauberschule] stammen, zu der das Spruchzauberei-Talent gehört.
+[[ref_core_characters_charactercreation_sizecategories]]
+=== Größenkategorien
 
-[[ref_characters_charactercreation_sizecategories]]
-=== Schritt 8: Größenkategorien
-
-Jedes Volk bringt eine Größenkategorie mit sich.
+Jedes <<ref_core_characters_charactercreation_race,Volk>> bringt eine Größenkategorie mit sich.
 Diese ist eine relativ abstrakte Zahl, um es diesen Aspekt übersichtlich zu halten.
 Eine Kreatur mit einer Größenkategorie von 5 ist kleiner als eine Kreatur der Größenkategorie 6.
 Die Größenkategorie ist für einige Mechanismen im Kampf entscheidend und welche Ausrüstung der Charakter tragen kann.
@@ -485,31 +465,31 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |10
 |===
 
-[[ref_characters_charactercreation_sizecategories_basic_movement]]
+[[ref_core_characters_charactercreation_sizecategories_basic_movement]]
 *Basisbewegung:* dieser Wert beschreibt eine Distanz, die eine Kreatur der jeweiligen Größe innerhalb einer Kampfphase zurücklegen kann.
 Dieser Wert kann jedoch noch durch zusätzliche Modifikatoren beeinflusst werden.
 Die Basisbewegung bezieht sich nur auf die Bewegung am Boden, unterschiedliche Fortbewegungsmethoden (zum Beispiel Fliegen) werden separat behandelt.
 
-[[ref_characters_charactercreation_sizecategories_primary_hand]]
+[[ref_core_characters_charactercreation_sizecategories_primary_hand]]
 *Primärhand:* Waffen werden wie Charaktere abstrakt in Größen eingeteilt.
 Dies simuliert, dass Kreaturen in Abhängigkeit von ihrer eigenen Größe auch nur Gegenstände bestimmter Größe effektiv benutzen können.
-Ein Charakter kann üblicherweise in seiner Primärhand eine xref:core_rules_battlesystem.adoc#ref_battle_items_weapons[Waffe] tragen, die seiner Größe entspricht.
+Ein Charakter kann üblicherweise in seiner Primärhand eine xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons[Waffe] tragen, die seiner Größe entspricht.
 Diese Einteilung, wie auch für die nachfolgenden Größen, kann auch allgemein für andere Gegenstände verwendet werden.
 
-[[ref_characters_charactercreation_sizecategories_secondary_hand]]
+[[ref_core_characters_charactercreation_sizecategories_secondary_hand]]
 *Sekundärhand:* Charaktere können auch in ihrer Sekundärhand Gegenstände und Waffen führen.
-Beim xref:core_rules_battlesystem.adoc#ref_battle_modifiers_2weapons[Kampf mit zwei Waffen] kann eine Waffe mit der angegebenen Größe verwendet werden, für mehr Verteidigung auch ein xref:core_rules_battlesystem.adoc#ref_battle_items_shields[Schild].
+Beim xref:core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_twoweaponfighting[Kampf mit zwei Waffen] kann eine Waffe mit der angegebenen Größe verwendet werden, für mehr Verteidigung auch ein xref:core_rules_battlesystem.adoc#ref_core_battle_items_shields[Schild].
 
-[[ref_characters_charactercreation_sizecategories_2_handed]]
-*Zweihand:* Manche Waffen können nur mit xref:core_rules_battlesystem.adoc#ref_battle_items_weapons_tag_2_hands_required[zwei Händen] getragen werden.
+[[ref_core_characters_charactercreation_sizecategories_2_handed]]
+*Zweihand:* Manche Waffen können nur mit xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[zwei Händen] getragen werden.
 Die maximale Größe dieser Waffen wird durch diesen Wert bestimmt.
 
-[[ref_characters_charactercreation_sizecategories_armor]]
+[[ref_core_characters_charactercreation_sizecategories_armor]]
 *Am Körper getragene Rüstung:* Wie auch Waffen sind Rüstungen mit Größenwerten versehen.
 Ein Charakter muss immer die Rüstung beziehungsweise Rüstungsteile verwenden, die seiner Größe entsprechen.
 
-[[ref_characters_charactercreation_disadvantages]]
-=== Schritt 9: Vor- und Nachteile
+[[ref_core_characters_charactercreation_disadvantages]]
+=== Vor- und Nachteile
 
 Nachteile können genutzt werden, um weitere CP zur Charaktererschaffung zu erhalten.
 Sie können allerdings ausschließlich für diese verwendet werden und werden nie mit aktuellen Charakterpunkten oder Gesamtcharakterpunkten verrechnet.
@@ -521,38 +501,38 @@ Der Kauf von Vorteilen funktioniert genauso wie der Kauf von Nachteilen, nur mit
 [NOTE]
 Die Verwendung von Vor- und Nachteilen ist optional.
 
-[[ref_characters_charactercreation_disadvantages_combination]]
+[[ref_core_characters_charactercreation_disadvantages_combination]]
 ==== Kombination von Vor- und Nachteilen
 
 Je nach Wahl von Volk, Beruf und Hintergrund kann es vorkommen, dass Vor- oder Nachteile doppelt vorkommen oder sich gegenseitig ausschließen.
 
 * Additive Vor- oder Nachteile werden kumulativ kombiniert.
-Additive Vor- und Nachteile erkennt man daran, dass sie in unterschiedlichen Stufen (üblicherweise in Zahlen von 1 bis 3 oder mehr gemessen) vorkommen.
+Additive Vor- und Nachteile erkennt man daran, dass sie in unterschiedlichen Stufen (üblicherweise in Zahlen von 1, 2, 3 und so weiter gemessen) vorkommen.
 Erhält der Charakter aus zwei Quellen denselben Vor- oder Nachteil, der in Stufen gemessen wird, addieren sich die beiden Stufen.
 * Gleiche Vor- oder Nachteile, die keine Stufen haben, werden nur einmal aufgeschrieben.
-Der Charakter profitiert ord leidet nur einmal unter diesem Vor- oder Nachteil.
+Der Charakter profitiert oder leidet nur einmal unter diesem Vor- oder Nachteil.
 * Wenn ein Vorteil und ein Nachteil jeweils dasselbe Attribut, Talent, eine Probe (zum Beispiel Boni und Mali auf eine Probe) oder eine andere Eigenschaft (wie zum Beispiel eine Schadensresistenz) beeinflussen, werden alle Boni und Mali zu einem einzigen Modifikator zusammengefasst.
 Hebt sich der Modifikator auf, werden Vor- und Nachteile nicht aufgeschrieben.
 
-[[ref_characters_charactercreation_starting_money_and_items]]
-=== Schritt 10: Startkapital und Ausrüstung
+[[ref_core_characters_charactercreation_starting_money_and_items]]
+=== Startkapital und Ausrüstung
 
 Um Charaktere nicht hilflos und nackt ins Abenteuer zu schicken, erhält jeder zum Abschluss der Charaktererschaffung eine vorgegebene Menge von Startkapital und Ausrüstung.
 Es handelt sich dabei um folgende Punkte:
 
-* Aufgrund seines <<ref_characters_charactercreation_profession,Berufs>> erhält der Charakter die angegebene Startausrüstung
+* Aufgrund seines <<ref_core_characters_charactercreation_profession,Berufs>> erhält der Charakter die angegebene Startausrüstung
 * einen Satz einfache Kleidung, falls nicht durch den Beruf vorgegeben
 * einfachen Reiseproviant für 3 Tage
 * Startkapital in Form von Silbermünzen
 
-Das Startkapital wird durch den SL vorgegeben und eventuell durch den <<ref_characters_charactercreation_backround,Hintergrund>> modifiziert.
-Ein Richtwert ist 1 Silbermünze pro 2 <<ref_characters_charactercreation_initial_characterpoints,initiale CP>>.
+Das Startkapital wird durch den SL vorgegeben und eventuell durch den <<ref_core_characters_charactercreation_backround,Hintergrund>> modifiziert.
+Ein Richtwert ist 1 Silbermünze pro 2 <<ref_core_characters_charactercreation_initial_characterpoints,initiale CP>>.
 
-[[ref_characters_charactercreation_motivation]]
-=== Schritt 11: Motivation
+[[ref_core_characters_charactercreation_motivation]]
+=== Motivation
 
 Was hat den Charakter bewegt, um den ersten Schritt auf seiner Reise zum Abenteurer zu wagen?
-Die Motivation, noch vor der <<ref_characters_charactercreation_finishing_touch,finalen Detaillierung>> stellt eine herausragende Säule des Charakters dar, ähnlich wie sein <<ref_characters_charactercreation_race,Volk>>, <<ref_characters_charactercreation_profession,Beruf>> oder <<ref_characters_charactercreation_backround,Hintergrund>>.
+Die Motivation, noch vor der <<ref_core_characters_charactercreation_finishing_touch,finalen Detaillierung>> stellt eine herausragende Säule des Charakters dar, ähnlich wie sein <<ref_core_characters_charactercreation_race,Volk>>, <<ref_core_characters_charactercreation_profession,Beruf>> oder <<ref_core_characters_charactercreation_backround,Hintergrund>>.
 Die Wahl der Motivation ist dennoch optional und bringt keine besonderen Regeln mit sich.
 Und natürlich kann sich eine Motivation mit wachsender Erfahrung auch drastisch ändern.
 
@@ -571,110 +551,13 @@ Die folgende, nicht auf Vollständigkeit bedachte Liste, bietet eine Auswahl von
 * Veränderung
 * Wissen
 
-[[ref_characters_charactercreation_finishing_touch]]
-=== Schritt 12: Feinschliff
+[[ref_core_characters_charactercreation_finishing_touch]]
+=== Feinschliff
 Im letzten Schritt können die letzten Details eines Spielercharakters festgelegt werden, bevor es dann endlich losgeht.
 Alle nicht von Regeln beeinflusste Eigenschaften können nun noch festgelegt werden, wie Name, Alter, Geschlecht und soviel Geschichte, Persönlichkeit und Eigenarten des Charakters, dunkle Geheimnisse, Freunde und viel mehr.
 Wie detailliert dieser Schritt ist, liegt ganz in der Entscheidung des Spielers und seiner Gruppe.
 
-[[ref_characters_attributs]]
-== Attribute
-
-*Attribute* sind Werte, die den Charakter als Körper und Geist beschreiben.
-So steht beispielsweise das Attribut <<ref_attribute_strength,Stärke>> für die körperliche Kraft des Charakters, ein starker Charakter wird einen schweren Stein eher heben können, als ein anderer.
-
-Die Attribute werden in *Attributsstufen* gemessen.
-Diese sind in Zahlen von 1 oder höher angegeben.
-Im System von Far Ages ist eine Attributsstufe von 2 oder 3 durchschnittlich für einen Charakter, der gerade erschaffen wurde.
-Werte über 10 sind wortwörtlich un- bzw. übermenschlich.
-
-Jede Attributsstufe bietet einen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus], der bei einer xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Probe] auf dieses Attribut verwendet werden kann.
-
-Darüber hinaus bestimmen die Attributsstufen sogenannte <<ref_characters_charactercreation_secondary,*Attributseigenschaften*>>.
-Diese Attributseigenschaften sind weitere Elemente des Spiels, die helfen, den Charakter weiter zu beschreiben und seine Grenzen und Möglichkeiten darzustellen.
-Aus dem Attribut Stärke folgt zum Beispiel die Maximale Traglast, eine Zahl, die bestimme, wie viel ein Charakter mit sich herumschleppen kann.
-
-In dem System von Far Ages werden sieben Attribute benutzt, die den Charakter beschreiben und das Fundament für ihn bilden.
-
-[[ref_attribute_dexterity]]
-=== Geschick (GE)
-Dieses Attribut gibt die Fingerfertigkeit, die Schnelligkeit und die Zielgenauigkeit des Charakters an.
-Charaktere mit hohem Geschick sind Artisten, agile Fechter und gute Diebe.
-Ein Krieger benötigt Geschick, um seine Gegner mit seiner Waffe zu treffen und umgekehrt den Attacken derselbigen auszuweichen.
-
-Von Geschick sind die Attributseigenschaften <<ref_secondary_movementbonus,Bewegung>> und <<ref_secondary_inibonus,Initiativebonus>> abgeleitet.
-
-[[ref_attribute_strength]]
-=== Stärke (ST)
-Die körperliche Kraft eines Charakters misst sich in diesem Attribut.
-Ein Charakter mit hohen Werten kann schwere Lasten tragen und heben, verursacht mehr Schaden im Kampf und wird einfacher mit schweren Waffen umgehen können.
-
-Die Attributseigenschaften <<ref_secondary_maxcarringcapacity,Maximale Traglast>> und <<ref_secondary_hitpoints,Trefferpunkte>> sind von diesem Attribut abhängig.
-
-[[ref_attribute_constitution]]
-=== Konstitution (KO)
-Dieses Attribut gibt an, wie robust der Körper des Charakters ist.
-Ausdauer und Widerstand sind weitere charakterisierende Begriffe.
-Ein Charakter mit hoher Konstitution ist gegen Krankheiten resistenter, kann über längere Zeit körperliche Anstrengungen unternehmen und regeneriert Wunden schneller.
-
-Abhängige Attributseigenschaften sind <<ref_secondary_hitpoints,Trefferpunkte>> und <<ref_secondary_threshold,Widerstand>>.
-
-[[ref_attribute_perception]]
-=== Erkenntnis (ER)
-Dieses Attribut symbolisiert die Aufnahmefähigkeit des Charakters von äußeren Einflüssen und auch die Fähigkeit innere Schlussfolgerungen zu ziehen.
-So ist ein Charakter mit hohem Wert in diesem Attribut ein guter Beobachter, kann aber auch komplexe Gedankengänge durchführen.
-Die Zusammenführung dieser eigentlich zwei getrennter Eigenschaften basiert auf der Annahme, dass man nicht nur Beobachtung und Erfahrung benötigt, sondern auch die entsprechende Interpretation des Gesehenen.
-
-Von diesem Attribut ist <<ref_secondary_inibonus,Initiativebonus>> abhängig.
-
-[[ref_attribute_energy]]
-=== Energie (EN)
-Die Kraft der Seele, die innere Macht und Magie eines Charakters ist in diesem Attribut enthalten.
-Auch wenn Magier dieses Attribut favorisieren, so ist es auch für Charaktere, die keine Magie anwenden, von Bedeutung.
-Denn indirekt wird jeder von der Magie beeinflusst und auch ein Nicht-Magier kann die Energie in seinem Inneren nutzen.
-
-Von diesem Attribut sind <<ref_secondary_magicpoints,Magiepunkte>> und <<ref_secondary_magicpoints,Maximale Magiepotenz>> abhängig.
-
-[[ref_attribute_selfcontrol]]
-=== Selbstbeherrschung (SB)
-Selbstdisziplin, Konzentration und Eigenkontrolle charakterisieren dieses Attribut.
-Selbstbeherrschte Charaktere kommen mit Stresssituationen besser zurecht und können "über den eigenen Schatten" springen.
-Charaktere, die dem Jähzorn verfallen sind, können sich mit diesem Attribut beherrschen, vorausgesetzt, es ist hoch genug.
-Ebenso ist dieses Attribut ein Maßstab für die mentale Stabilität, auch Synonym für die <<ref_secondary_stabilitypoints,Stabilitätspunkte>>.
-
-[[ref_attribute_charisma]]
-=== Charisma (CH)
-Dieses Attribut beschreibt die Ausstrahlung des Charakters, nicht das Aussehen.
-Ein charismatischer Charakter muss nicht zwangsläufig schön sein.
-Das Attribut repräsentiert viel eher den Eindruck, den der Charakter hinterlässt.
-Charismatische Charaktere sind überzeugende Redner, denen die Leute zu hören und die es oft auch leichter haben, auf Fremde zuzugehen.
-
-Von diesem Attribut ist die Zahl der <<ref_secondary_stabilitypoints,Stabilitätspunkte>> abhängig.
-
-[[ref_characters_talents]]
-== Talente
-
-Talente stellen Fähigkeiten dar, die über eine schlichte Intuition und Instinkt (wie zum Beispiel bei Attributen) hinausgehen und einen erheblichen Teil Erfahrung und Training erfordern.
-Ihr Fortschreiten, ihre „Macht“ wird in *Talentstufen* gemessen.
-Je besser ein Charakter trainiert ist, umso höher ist seine Talentstufe.
-Talentstufen werden in Zahlen ab 1 dargestellt und jede Zahl steht für einen zusätzlichen 1W10, der für die xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] verwendet werden kann.
-
-Alle Talente, die regulär allen Charakteren zur Verfügung stehen, finden sich im Dokument link:core_rules_talents_base.adoc[Talente].
-
-[[ref_characters_talents_sgm]]
-=== Steigerungsmodifikator (SGM)
-Jedes Talent, welches ein Charakter kennt (damit mindestens eine Talentstufe von 1 besitzt), erhält einen *Steigerungsmodifikator* (SGM).
-
-* *SGM 1* beschreibt *Berufstalente*, also Talente, die von dem Beruf favorisiert sind und insbesondere von diesem Beruf benutzt und gelernt werden.
-* *SGM 2* beschreibt Talente, die nahe verwandt sind mit dem Beruf.
-* *SGM 3* beinhaltet Talente, die nur wenig mit dem Beruf zu tun hat und sie sind daher schwierig zu lernen.
-
-Durch die Wahl des Berufs erhält der Charakter eine bestimmte Anzahl von Talenten mit SGM 1 und SGM 2.
-Alle anderen Talente sind implizit immer SGM 3.
-
-Der Steigerungsmodifikator wird die benötigten CP pro <<ref_characters_spendcp_talents,Steigerung der Talentstufe>> beeinflussen.
-
-[[ref_characters_spendcp]]
+[[ref_core_characters_spendcp]]
 == Charakterentwicklung
 
 Im Laufe eines Lebens geschieht vieles und jeder wird wissen, dass auch ein starker Lernprozess das Leben eines jeden Einzelnen prägt, wobei die natürlich bei einigen mehr, bei anderen weniger zutreffend ist.
@@ -682,43 +565,36 @@ Im Laufe eines Lebens geschieht vieles und jeder wird wissen, dass auch ein star
 Jedoch trifft es auf jeden Fall auch auf die Charaktere zu.
 Auch sie lernen aufgrund ihrer Abenteuer, bzw. aufgrund der vom SL präsentieren Aufgaben und können das Gelernte einsetzen, um ihre eigenen Fertigkeiten zu verbessern.
 
-[[ref_characters_spendcp_attributsprimary]]
+[[ref_core_characters_spendcp_attributs]]
 === Attribute steigern
 
 Das Steigern von Attributen repräsentiert eine Verbesserung des Charakters auf körperlicher oder geistiger Ebene.
 
-Steigerungen von Attributsstufen können nur schrittweise erfolgen.
+Steigerungen von xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes[Attributsstufen] können nur schrittweise erfolgen.
 Das heißt, möchte man ein Attribut um mehr als eine Stufe steigern, so muss man jede Steigerung einzeln mit CP bezahlen.
 
-Jede Steigerung eines Attributs um eine Stufe kostet die aktuelle Stufe multipliziert mit *200 CP*.
+Jede Steigerung eines Attributs um eine Stufe kostet die Ziel-Stufe multipliziert mit *200 CP*.
 
 .Steigern von Attributsstufen
 ====
 Michael möchte im laufenden Spiel Rnagos Geschick von Stufe 2 auf Stufe 3 steigern.
-Dies kostet Michael 2*200 = 400 CP.
+Dies kostet Michael 3*200 = 600 CP.
 Durch die Steigerung ändern sich sofort abhängige Attributseigenschaften und die Würfelanzahlen für Talente mit dem verwandten Attribut GE.
 ====
 
-[[ref_characters_spendcp_attributssecondary]]
-=== Steigerungen von Attributseigenschaften
+xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften] lassen sich im Normalfall nicht direkt steigern mit Ausnahme von <<ref_core_characters_spendcp_tp_and_mp,TP und MP>>.
+Stattdessen steigen die abhängigen Werte mit, wenn eine Attributsstufe gesteigert wird.
 
-Attributseigenschaften lassen sich im Normalfall nicht direkt steigern.
-Stattdessen steigen die abhängigen Werte direkt, wenn eine Attributsstufe gesteigert wird.
+Wenn Boni oder Mai Attributseigenschaften beeinflussen, zum Beispiel aufgrund des Berufs oder einen Vor- oder Nachteil, dann greifen diese immer erst nach Berechnung der Attributseigenschaft aus der Attributsstufe.
 
-Wenn Vor- oder Nachteile Attributseigenschaften beeinflussen, dann greifen diese immer erst nach Einberechnung der Attributsstufe.
-
-[[ref_characters_spendcp_tp_and_mp]]
+[[ref_core_characters_spendcp_tp_and_mp]]
 === Trefferpunkte und Magiepunkte steigern
-
-Steigert ein Charakter seine Attribute nach den oben gegebenen Richtlinien, so erhöhen sich natürlich auch die Attributseigenschaften zu dem jeweiligen Attribut.
-
-Die meisten Attributseigenschaften sind nur auf diese Weise steigerbar, jedoch kann ein Charakter auch TP und MP abhängig von seinem Beruf steigern, ohne dafür seinen KO- bzw. EN-Wert zu erhöhen.
+Die meisten xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften] sind nur indirekt steigerbar, jedoch kann ein Charakter auch TP und MP abhängig von seinem <<ref_core_characters_charactercreation_profession,Beruf>> steigern, ohne dafür seine Attributsstufen zu erhöhen.
 Die Werte sind unter dem Eintrag *TP/MP-Steigerung* angegeben.
 
-Der kann der Charakter entsprechend seines Berufs seine TP und MP steigern (SP können auf diese Weise im Allgemeinen nicht gesteigert werden).
-Er addiert die gegebene Zahl von TP und MP zu seinem aktuellen Wert hinzu und kann diese Punkte normal nutzen.
-
-Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der vorhergegangenen TP/MP-Steigerungen.
+Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der zu erreichenden TP/MP-Steigerungen.
+Nach einer Steigerung addiert der Charakter die gegebene Zahl von TP und MP zu seinem aktuellen Wert hinzu und kann diese Punkte normal nutzen.
+Je
 
 .TP und MP steigern
 ====
@@ -729,30 +605,29 @@ Die zweite Steigerung kostet bereits 2*100 = 200 CP und erhöht auf 52 TP und 20
 Eine dritte Steigerung kostet 3*100 = 300 CP und erhöht auf 59 TP und 25 MP.
 ====
 
-[[ref_characters_spendcp_talents]]
+[[ref_core_characters_spendcp_talents]]
 === Talente steigern
 
-Das Steigern von Talenten erfolgt schrittweise durch Erhöhen der Talentstufen.
-Jede Stufe steht für einen weiteren W10, der zu den Würfen zum Erfolg hinzugenommen wird.
+Das Steigern von Talenten erfolgt schrittweise durch Erhöhen der xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufen].
 
-Jede neue Stufe kostet die vorherige Stufe multipliziert mit *100 CP* multipliziert mit dem SGM.
-Stufen müssen einzeln bezahlt werden.
+Jede neue Stufe kostet die Ziel-Stufe multipliziert mit *100 CP* wiederum multipliziert mit dem xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[SGM].
+Wie <<ref_core_characters_spendcp_attributs,Attributsstufen>> müssen Talentstufen einzeln bezahlt werden.
 Ein Charakter kann also ein Talent nicht von 3 direkt auf Stufe 5 steigern, sondern muss zuerst Stufe 4 bezahlen und dann Stufe 5.
 
 .Talente steigern
 ====
-Ein Talent mit SGM 1 von Talentstufe 4 auf 5 zu steigern, kostet, 5*100*1 = 500 CP.
+Ein Talent mit SGM 1 von Talentstufe 4 auf 5 zu steigern, kostet 5*100*1 = 500 CP.
 Ein Talent mit SGM 2 von Talentstufe 3 auf 5 zu steigern, kostet 4*100*2 + 5*100*2 = 1400 CP.
 ====
 
-[[ref_characters_spendcp_newtalents]]
+[[ref_core_characters_spendcp_newtalents]]
 ==== Neue Talente lernen
 
-Um ein neues Talent (also ein Talent, in dem man zuvor die Talentstufe 0 hatte) zu lernen, ist jedoch etwas mehr Einsatz erforderlich, bzw. mehr CP.
+Um ein neues Talent, also ein Talent, in dem man zuvor die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe 0] hatte, zu lernen, ist jedoch etwas mehr Einsatz erforderlich.
 Wenn der Charakter ein Talent neu lernt, erhält er es auf Stufe 1.
-Um dies zu erhalten, sind jedoch immer 200 CP multipliziert mit dem SGM nötig.
+Um dies zu erhalten, sind jedoch immer *200 CP* multipliziert mit dem xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[SGM] nötig.
 
-Der SGM des neuen Talents, sofern nicht bekannt, ergibt nach folgenden Maßgaben:
+Der xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_sgm[SGM] des neuen Talents, sofern nicht bekannt, ergibt nach folgenden Maßgaben:
 
 * Das Talent befindet sich in der Berufsbeschreibung in der Liste der Talente SGM 1 oder SGM 2.
 * Das Talent enthält als Voraussetzung den Beruf des Charakters in seiner Beschreibung.
@@ -761,40 +636,32 @@ In diesem Fall lernt der Charakter das Talent immer mit SGM 1.
 Der Charakter lernt das Talent zu dem niedrigsten SGM aus dieser Liste.
 * Trifft keiner dieser Punkte zu, lernt der Charakter dieses Talent mit SGM 3.
 
-[[ref_characters_spendcp_skills]]
+[[ref_core_characters_spendcp_skills]]
 === Besondere Fähigkeiten
 
-Besondere Fähigkeiten erweitern vorhandene Talente um eine außergewöhnliche Anwendung oder eine Spezialisierung.
-Ein Charakter hat eine Fähigkeit oder er hat sie nicht.
-Das hießt, Fähigkeiten werden einmal gelernt und bieten dauerhaft ihre Vorteile an.
-
-Üblicherweise wird auch nicht auf Fähigkeiten gewürfelt, sondern auf die Talente, die von den Fähigkeiten erweitert werden.
-
-Um eine Fähigkeit zu erlernen, muss ein Charakter zuerst ihre Voraussetzungen erfüllen, das sind üblicherweise Stufen in einem oder mehreren Talenten oder auch der Besitz von anderen Fähigkeiten.
-Hat der Charakter die Voraussetzungen erfüllt, kann er die angegebenen CP ausgeben und besitzt nun die besondere Fähigkeit.
+Um eine exref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[besondere Fähigkeiten] zu erlernen, muss ein Charakter zuerst ihre Voraussetzungen erfüllen, das sind üblicherweise Stufen in einem oder mehreren Talenten oder auch der Besitz von anderen Fähigkeiten.
+Hat der Charakter die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills_requirements[Voraussetzungen] erfüllt, kann er die angegebenen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills_cp[CP] ausgeben und besitzt nun die besondere Fähigkeit.
 Diese muss ein Charakter alle im Minimum erfüllen, um seine CP dafür aufwenden zu können.
-Im Falle von Talenten beziehen sich die Zahlenangaben immer auf die Talentstufe, nicht auf die Gesamtstufe.
-
+Im Falle von Talenten beziehen sich die Zahlenangaben immer auf die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe].
 Man kann eine besondere Fähigkeit nur einmal lernen.
 
-Eine detaillierte Beschreibung mit allen nötigen Angaben, sowie eine Übersicht, findet sich im folgenden link:core_rules_skills.adoc[Dokument].
-
-[[ref_characters_spendcp_spells]]
+[[ref_core_characters_spendcp_spells]]
 === Erlernen von Zaubersprüchen
 
 Viele Berufe bringen das Wissen um Zaubersprüche mit.
 Die Zaubersprüche werden zwar durch das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] benutzt, müssen aber zusätzlich gelernt, also mit CP bezahlt werden.
 Da Zaubersprüche keine Stufen in dem Sinne wie Talente haben, sind ihre Kosten einmalig.
 
-Die genauen Regeln zum Lernen von Zaubersprüchen findet sich im Dokument xref:core_rules_magic_base.adoc#ref_magic_schools_learning_spells[Magie].
+Die genauen Regeln zum Lernen von Zaubersprüchen findet sich im Dokument xref:core_rules_magic_base.adoc#ref_core_magic_schools_learning_spells[Magie].
 
 == Vergabe von Charakterpunkten
 
-Die Vergabe von CP obliegt der Verantwortung des SL und sollte wenig reguliert sein, denn jeder SL sollte selbst entscheiden können, wie groß die Gefahren in seinem Abenteuer für seine Gruppe sind.
+Die Vergabe von CP obliegt der Verantwortung des SL und ist seitens des Regelwerks nicht vorgegeben.
+In den folgenden Kapiteln werden beispielhafte Entscheidungshilfen vorgestellt.
 
 === Interval der Vergabe
 
-Bewährt hat sich die Vergabe von CP am Ende einer Spielsitzung oder am Ende eines Abenteuers, wenn alle Gefahren überstanden sind, bzw. eine Pause eingelegt wird.
+Bewährt hat sich die Vergabe von CP am Ende einer Spielsitzung oder am Ende eines Abenteuers, wenn alle Gefahren überstanden sind oder eine Pause eingelegt wird.
 
 Dabei ist die Menge von der Quantität und der Qualität der Gefahren (jeglicher Natur) zu bestimmen.
 
@@ -818,18 +685,18 @@ So kann ein gewagtes, diplomatisches Manöver, welches dazu führte, dass der Ba
 
 Ebenso das kreative Umgehen von Wachen: Suchen nach anderen Möglichkeiten und Wegen, um an ihnen vorbeizukommen, Schleichen, Ablenkungsmanöver oder ähnliches kann als vollwertig betrachtet werden.
 
-Kreaturen, deren Gesamt-CP-Wert um 50% geringer ist als der der Charaktere, bringen gar keinen Bonus, denn sie sind einfach zu schwach, um den Charakteren Erfahrung zu bieten.
+Kreaturen, deren Gesamt-CP-Wert um 50% geringer ist als der durchschnittliche Gesamt-CP-Wert der Charaktere, bringen gar keinen Bonus, denn sie sind einfach zu schwach, um den Charakteren Erfahrung zu bieten.
 
 === Schätze und Entdeckungen
 
-Das Auffinden alter Schätze, Artefakten, Wissen und geheimen Orten ist sicherlich auch eine Tat, die Abenteurer weiterbringt.
-Zumal diese Entdeckungen auch nicht einfach sein sollten. Man kann beispielweise einen festen Prozentsatz (zum Beispiel 10%) des Wertes des Gegenstandes als CP-Belohnungen werten.
-Grundsätzlich sollten jedoch CP-Belohnungen für einen einzelnen Gegenstand niemals höher sein als die Hälfte der gesamten CP-Belohnung für das Abenteuer.
+Das Auffinden alter Schätze, Artefakten, Wissen und geheimen Orten sind sicherlich auch Taten, die Abenteurer weiterbringen.
+Zumal diese Entdeckungen auch nicht einfach sein sollten.
+
+Man kann beispielweise einen festen Prozentsatz (zum Beispiel 10%) des Wertes eines mystischen Gegenstandes als CP-Belohnungen werten, wenn dieser aus einem unterirdischen Labyrinth voller Fallen geborgen wurde.
 
 === Zwischenetappen
 
-Es ist sicherlich einfacher, wenn man als SL ein Abenteuer in
-Einzelschritte unterteilt und diesen CP-Belohnungen zu ordnet.
+Es ist sicherlich einfacher, wenn man als SL ein Abenteuer in Einzelschritte unterteilt und diesen CP-Belohnungen zu ordnet.
 Diese "Etappensiege" können dann auch als Fortschritt der Charaktere im Abenteuer gewertet werden.
 
 .Eine mögliche Zusammenstellung von Zwischenetappen
@@ -838,37 +705,34 @@ Diese "Etappensiege" können dann auch als Fortschritt der Charaktere im Abenteu
 
 - Die Charaktere haben daraufhin eine abstruse, künstliche Dimension betreten, in der sie weiterhin Anweisungen der Schriftrolle folgen, die sie zu einem mysteriösen Schloss führen: insgesamt 100 CP.
 
-- Die Charaktere haben das Schloss betreten und stellen den bösen
-Hausherrn, einen Halb-Dämonen, der mit der Schriftrolle allzu neugierige Schatzsucher in diese Dimension lockt, um sie zu verspeisen: insgesamt
-500 CP
+- Die Charaktere haben das Schloss betreten und stellen den bösen Hausherrn, einen Halb-Dämonen, der mit der Schriftrolle allzu neugierige Schatzsucher in diese Dimension lockt, um sie zu verspeisen: insgesamt 500 CP
 
-- Die Charaktere entkommen dem Todesfluch des Halb-Dämon, der die
-künstliche Dimension einstürzen lässt: 25 CP pro Charakter.
+- Die Charaktere entkommen dem Todesfluch des Halb-Dämon, der die künstliche Dimension einstürzen lässt: 25 CP pro Charakter.
 ====
 
 === Gutes Rollenspiel
 
 Die Quintessenz des Rollenspiels sollte ja das Rollenspiel selber sein, also die Verkörperung der gewählten Charaktere. Der SL kann gerne die Bemühungen seiner Spieler honorieren, die gemäß ihrer Rollen agieren, mit all ihren Vorzügen und Fehlern.
 
-[[ref_character_advanced_rules]]
+[[ref_core_characters_advanced_rules]]
 == Erweitere Regeln
 
-Die vorherigen Kapitel haben alles zusammengefasst, was nötig ist, um einen Charakter im Multiversum von Far Ages zu erschaffen und auf Abenteuer zu schicken.
-Hier stellen wir zusätzliche Regeln vor, die die Charaktererschaffung erweitert bzw. Möglichkeiten bietet, den Charakter noch weiter zu individualisieren.
-Es liegt in der Entscheidung des Spielleiters, welche Regeln er für seine Spieler und seine Welt anwenden möchte.
+Die vorherigen <<ref_core_characters_charactercreation,Kapitel>> haben wir alles zusammengefasst, was nötig ist, um einen Charakter im Multiversum von Far Ages zu erschaffen und auf Abenteuer zu schicken.
+Hier stellen wir zusätzliche Regeln vor, die die Charaktererschaffung erweitert und Möglichkeiten bietet, den Charakter noch weiter zu individualisieren.
+Es liegt in der Entscheidung des SLs, welche Regeln er für seine Spieler und seine Welt anwenden möchte.
 
-[[ref_character_advanced_rules_halfbloods]]
+[[ref_core_character_advanced_rules_halfbloods]]
 === Halb-Blut
 
-Zur Charaktererschaffung und bei der <<ref_characters_charactercreation_race,Wahl des Volkes>>, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
+Zur Charaktererschaffung und bei der <<ref_core_characters_charactercreation_race,Wahl des Volkes>>, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
 
-Der Charakter stammt dann von zwei Elternteilen aus unterschiedlichen Völkern ab.
+Als *Halb-Blut* stammt der Charakter von zwei Elternteilen aus unterschiedlichen Völkern ab.
 Typische Archetypen sind Halb-Elfen oder Halb-Orks, bei denen ein Elternteil aus dem Volk der Menschen stammt, das andere von den Elfen bzw. Orks.
 Andere Kombination sind durchaus denkbar, das System gibt keine Beschränkungen vor.
 So sind Halb-Taure / Zwerg, Halb-Ork / Elf oder Halb-Dämon / Satyre völlig denkbar.
 Der SL darf natürlich jederzeit eine Kombination verbieten.
 
-Um ein Halb-Blut zu spielen, <<ref_characters_charactercreation_race,wählt>> der Spieler zuerst wie gewohnt das Volk und bezahlt diese Wahl mit den angewiesenen CP.
+Um ein Halb-Blut zu spielen, <<ref_core_characters_charactercreation_race,wählt>> der Spieler zuerst wie gewohnt das Volk und bezahlt diese Wahl mit den angewiesenen CP.
 Danach wählt der Spieler ein weiteres Volk aus, welches den gleichen *primären Kreaturentyp* besitzt, wie das erste Volk.
 Beispielsweise haben sowohl link:races/core_races_humans.adoc[Menschen] und link:races/core_races_elves_general.adoc[Elfen] den primären Kreaturen link:../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid], womit eine Kombination als Halb-Blut möglich ist.
 Für sein zweites Volk bezahlt der Spieler 1/2 der angegebenen CP (aufgerundet zur nächsten vollen 5).
@@ -878,11 +742,11 @@ Danach folgt er den folgenden Schritten:
 Es zählt zunächst der Höchste, nur bei mehreren gleich hohen Boni, kann der Spieler sich zwischen diesen entscheiden.
 Wenn der Attributsbonus höher als +1 ist, wird dieser als +1 angenommen.
 Es kann also kein Attributsbonus von +2 oder höher durch das zweite Volk erhalten werden.
-* Besitzt das zweite Volk mindestens eine negative Modifikation auf ein Attribut, muss der Spieler eine dieser Attributsmali übernehmen.
-Auch diese Malus ist auf -1 begrenzt.
-* Die <<ref_characters_charactercreation_sizecategories,GK>> des Charakters ist die des ersten Volkes
+* Besitzt das zweite Volk mindestens eine negative Modifikation auf ein Attribut, muss der Spieler einen dieser Attributsmali übernehmen.
+Auch dieser Malus ist auf -1 begrenzt.
+* Die <<ref_core_characters_charactercreation_sizecategories,GK>> des Charakters ist die des ersten Volkes
 * Das Halb-Blut besitzt alle sekundären Kreaturentypen beider Völker
-* Besitzt das zweite Volk mindestens eine besondere Eigenschaft, kann der Spieler eine dieser Eigenschaften auswählen und übernehmen.
+* Besitzt das zweite Volk mindestens eine besondere Eigenschaft, kann der Spieler maximal eine dieser Eigenschaften auswählen und übernehmen.
 
 Alle Attributsboni werden mit den Attributsboni aus Beruf und Hintergrund verrechnet.
 
@@ -901,17 +765,22 @@ Aus der Liste der Eigenschaften der Elfen wählt der Spieler xref:races/core_rac
 Die Eigenschaften des ersten Volkes bleiben vollständig erhalten.
 ====
 
-[[ref_character_advanced_rules_bloodlines]]
+[[ref_core_character_advanced_rules_bloodlines]]
 === Blutlinien
 
-Zur Charaktererschaffung und bei Wahl des Volkes, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
+//    TODO: Blutlinien ändern
+// Anstelle Charakterschaffung wie Paragon-Path behandeln / als Paragon-Path behandlen
+// i.e. Exemplar of Elvenkind, Exemplar of Humankind, Exemplar of Dragons...
+
+
+Zur Charaktererschaffung und bei <<ref_core_characters_charactercreation_race,Wahl des Volkes>>, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
 
 Im Stammbaum des Charakters befindet sich ein ungewöhnlicher Vorfahr aus einem anderen Volk oder sogar übernatürlicher Abstammung.
 Dessen besondere und vielleicht einzigartige Attribute liegen der Familie sprichwörtlich im Blut, wobei nicht jeder (und vielleicht nur der Charakter selbst) diese Eigenschaften manifestiert.
 
-Blutlinien werden wie Talente in Stufen gelernt und ein Charakter muss die CP der ersten Stufe der Blutlinie bei der Charaktererschaffung lernen.
+*Blutlinien* werden wie Talente in Stufen gelernt und ein Charakter muss die CP der ersten Stufe der Blutlinie bei der Charaktererschaffung lernen.
 Der Charakter kann immer nur einer Blutlinie angehören.
-Danach kostet jede Stufe *100 CP* multipliziert mit der Anzahl der bereits gelernten Stufen.
+Danach kostet jede Stufe *100 CP* multipliziert mit der Ziel-Stufe.
 
 Jede Stufe bringt eine Eigenschaft mit sich, die der Charakter mit Erlernen der Stufe sofort beherrscht.
 Stufen müssen in angegebener Reihenfolge gelernt werden und jede Blutlinie hat eine maximale Stufe.
@@ -919,39 +788,41 @@ Wird diese erlernt, kann man keine CP mehr in diese investieren und neuen Stufen
 
 Die komplette Liste der Blutlinien findet sich hier: link:../advanced/advanced_rules_bloodlines.adoc[Blutlinien]
 
-[[ref_character_advanced_rules_paragon_paths]]
+[[ref_core_character_advanced_rules_paragon_paths]]
 === Schicksalspfade
 
-Pfade des Schicksals schließen die Lücke zwischen der initialen Charakterdarstellung aus der Kombination Völk, Beruf und Hintergrund mit dem erfahrenen Abenteurer, der durch seine Taten über dieses hinausgewachsen ist.
+*Schicksalspfade* schließen die Lücke zwischen der initialen Charakterdarstellung aus der Kombination Völk, Beruf und Hintergrund mit dem erfahrenen Abenteurer, der durch seine Taten über dieses hinausgewachsen ist.
 
-Im Gegensatz zu Mischvölkern oder Blutlinien, die bereits vorgestellt wurden, werden Schicksalspfade nicht bei der Charaktererschaffung ausgewählt.
+Im Gegensatz zu <<ref_core_character_advanced_rules_halfbloods,Halb-Bluten>> oder <<,ref_core_character_advanced_rules_bloodlines,Blutlinien>> werden Schicksalspfade nicht bei der Charaktererschaffung ausgewählt (außer der SL erlaubt dies sehr explizit).
 Stattdessen muss der Charakter die angegebenen Voraussetzungen erfüllen.
 Sobald er dies tut, kann er den Schicksalspfad lernen, in dem er die angegeben CP einmal ausgibt.
 Dieser Vorgang ist vergleichbar mit dem Erlernen einer besonderen Fähigkeit.
 
 Schicksalspfade werden wie Talente in Stufen gemessen.
 Die initiale Erlernung gilt als Stufe 1.
-Jede weitere Stufe kostet *100 CP* multipliziert mit der Anzahl der bereits gelernten Stufen.
+Jede weitere Stufe kostet *200 CP* multipliziert mit der Ziel-Stufe.
 
 Pro Stufe kann der Charakter aus der je Schicksalspfad angegebenen Liste von Fähigkeiten eine dieser auswählen und lernt diese sofort.
 Sofern nicht anders angegeben, kann jede Fähigkeit nur einmal gelernt werden.
+Schicksalspfade geben im Allgemeinen vor, welche Fähigkeiten ein Charakter Stufe 1 lernt.
+Erst die Stufen ab 2 erlauben in diesem Fall, die Fähigkeiten frei zu wählen.
 
-Schicksalspfade geben im Allgemeinen vor, welche Fähigkeiten ein Charakter Stufe 1 lernt. Erst die Stufen ab 2 erlauben in diesem Fall, die Fähigkeiten frei zu wählen.
-
-Weiterhin können Schicksalspfade vorgeben, ob sie eine maximale Stufe vorgeben. Ist dies der Fall, kann der Charakter nur entsprechend viele Stufen in diesem Schickspfad lernen.
+Weiterhin können Schicksalspfade vorgeben, ob sie eine maximale Stufe vorgeben.
+Ist dies der Fall, kann der Charakter nur entsprechend viele Stufen in diesem Schicksalspfad lernen.
 
 //TODO
 .Schicksalspfade
 ====
-Me'ander möchte nach einem langen und intensivem Studium der Magie den Schicksalspfad des Erzmagier beschreiten.
+Me'ander möchte nach einem langen und intensivem Studium der Magie den Schicksalspfad des Erzmagiers beschreiten.
 Dazu prüft sein Spieler die Voraussetzungen dieses Schicksals.
 Es ist X, Y und Z.
 Me'ander erfüllt diese Anforderungen womit für den Einsatz X CP Me'ander zum Erzmagier wird. +
 Er lernt damit die erste Stufe Erzmagier und kann sich aus der Liste eine Fähigkeit aussuchen.
 Dabei muss er die Voraussetzungen beachten und wählt daher TODO. +
-Später gibt Me'ander 100 CP aus um Stufe 2 Erzmagier zu lernen.
+Später gibt Me'ander 2*200 = 400 CP aus um Stufe 2 Erzmagier zu lernen.
 Analog wählt er eine Fähigkeit aus. +
-Etwas später in seinem Leben ist Me'ander bereits Erzmagier der Stufe 4 und möchte Stufe 5 erlernen. Er muss daher (1+2+3+4) * 100 = 1000 CP ausgeben.
+Etwas später in seinem Leben ist Me'ander bereits Erzmagier der Stufe 4 und möchte Stufe 5 erlernen.
+Er muss daher 5*200 = 1000 CP ausgeben.
 ====
 
 Die komplette Liste der Schicksalspfade finde sich hier:

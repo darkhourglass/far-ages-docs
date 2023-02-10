@@ -12,14 +12,14 @@
 *Dauer:* Sofort +
 *Effekt:*
 
-Der Effekt betrifft alle Kreaturen in Deine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed_zoneofcontroll[Bedrohungszone].
+Der Effekt betrifft alle Kreaturen in Deine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone].
 Besitzt Du keine Bedrohungszone, treffen die Flammen, die aus Deinem Körper schlagen, alle Kreaturen im direkten Radius von 1,50 Metern.
 
 Wähle mit Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] eine beliebige Zahl zwischen 1 und 8.
 Würfle entsprechend viele W10.
-Du erhälst sofort einen automatischen Treffer mit der gewürfelten Augenzahl als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbarer] Schaden.
+Du erhälst sofort einen automatischen Treffer mit der gewürfelten Augenzahl als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbarer] Schaden.
 
-Überlebst Du dies erhalten alle Kreaturen im Wirkungsbereich (wie oben beschrieben) ebenfalls einen automatischen Treffer mit 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden] pro W10, den Du werfen musstest.
+Überlebst Du dies erhalten alle Kreaturen im Wirkungsbereich (wie oben beschrieben) ebenfalls einen automatischen Treffer mit 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] pro W10, den Du werfen musstest.
 
 .Beispiel
 ====

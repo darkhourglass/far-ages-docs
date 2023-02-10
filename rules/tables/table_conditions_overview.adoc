@@ -2,7 +2,7 @@
 
 
 |===
-|Zustand |xref:../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] |xref:../core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktionen] |Sonstige Effekt |Ende des Zustands
+|Zustand |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen] |Sonstige Effekt |Ende des Zustands
 
 |Am Boden
 |Ja
@@ -10,7 +10,7 @@
 |Ja
 |Ja
 |-2 auf die Würfe zum Erfolg, halbierte BEW
-|Benötigt das Bewegungsmanöver xref:../core/core_rules_battlesystem.adoc#ref_battle_move_standup[Aufstehen], um Zustand zu beenden
+|Benötigt das Bewegungsmanöver xref:../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver_standup[Aufstehen], um Zustand zu beenden
 
 |Bedrängt
 |Ja
@@ -98,7 +98,7 @@
 |wie Bewegungsunfähig
 |wie Bewegungsunfähig
 |Gegner erhalten +2 auf die Würfe zum Erfolg
-|Benötigt das Bewegungsmanöver xref:../core/core_rules_battlesystem.adoc#ref_battle_move_breakfree[Befreien], um Zustand zu beenden
+|Benötigt das Bewegungsmanöver xref:../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver_breakfree[Befreien], um Zustand zu beenden
 
 |Im Nahkampf gebunden
 |Ja

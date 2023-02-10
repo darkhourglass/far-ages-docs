@@ -30,7 +30,7 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twi
 
 *Resistenzen:* +
 
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
 
 *Immunitäten:* +
 
@@ -42,7 +42,7 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twi
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
-* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental]
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
 
 == Offensiv
 
@@ -85,7 +85,7 @@ Folgt ein Zweigwächter keinem Ziel oder Befehl seines Erschaffers, zeigt er Ver
 [[ref_rules_twig_guardian_size]]
 === Größe
 
-Jeder Zweigwächter besitzt abhängig von seiner xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] das gleiche Profil.
+Jeder Zweigwächter besitzt abhängig von seiner xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] das gleiche Profil.
 Die gewählte <<ref_rules_twig_guardian_creation,Form>> hat dabei keine Auswirkung.
 In den folgenden Kapiteln werden die einzelnen Abschnitte des Profils erläutert, um einen Zweigwächter der gewünschten GK zu erschaffen.
 Das Profil in diesem Kapitel beschreibt einen Zweigwächter der GK 5.
@@ -343,8 +343,8 @@ Ein Zweigwächter erhält immer folgende Fähigkeiten:
 
 * link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] (Wucht, 2)
 * link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung]: 5 + 1/2 GK des Zweigwächters (abgerundet, minimal 1)
-* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt]
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
 * link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 

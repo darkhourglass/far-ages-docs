@@ -101,7 +101,7 @@ Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
 *Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
-Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
+Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_resist_throwdown]]
 === Niederschlag Widerstehen
@@ -127,7 +127,7 @@ Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 *Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
-Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
+Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_riding]]
 === Reiten
@@ -156,7 +156,7 @@ Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 *Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Mit diesem Talent kann sich der Charakter auch ohne Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
-Dieses Talent kann mit dem Attribut xref:core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] oder xref:core_rules_charactercreation.adoc#ref_attribute_strength[ST] gewürfelt werden.
+Dieses Talent kann mit dem Attribut xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] gewürfelt werden.
 Der Charakter oder die Kreatur muss diese Entscheidung mit Ansage der Talentprobe festlegen.
 Manche Attacken können das Attribut fest vorgeben.
 In diesem Fall ist keine Wahl möglich.
@@ -168,7 +168,7 @@ In diesem Fall ist keine Wahl möglich.
 *Verwandtes Attribut:* * +
 *Kampf:* A +
 *Beschreibung:* Solange der Charakter eine Wurfwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
-Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
+Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 == Schurkische Talente
 
@@ -196,10 +196,10 @@ Die BEW des Charakters wird halbiert.
 
 // TODO erlaube Klettern u.ä.
 
-Üblicherweise kann der Spieler einfach ankündigen, eine Akrobatik-Probe für ein xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] durchführen zu wollen.
+Üblicherweise kann der Spieler einfach ankündigen, eine Akrobatik-Probe für ein xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] durchführen zu wollen.
 Der SL kann dann eine nötige Anzahl von Erfolgen festlegen oder aufgrund der Situation aus dem Regelsystem ableiten.
 
-* *Misserfolg:* Der Charakter schafft sein Manöver nicht, er verliert alle xref:core_rules_battlesystem.adoc#ref_battle_actions[aktionen] und xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] für die aktuelle Kampfphase.
+* *Misserfolg:* Der Charakter schafft sein Manöver nicht, er verliert alle xref:core_rules_battlesystem.adoc#ref_core_battle_actions[aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] für die aktuelle Kampfphase.
 * *Patzer:* Wie Misserfolg, jedoch ist der Charakter gleichzeitig zu Boden gegangen und beginnt die nächste Kampfphase am Boden liegend.
 
 [[ref_talents_disarmtraps]]
@@ -283,7 +283,7 @@ Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreich
 Mit diesem Talent können die Charaktere diese verborgenen Dinge versuchen zu entdecken.
 Dabei unterscheidet das Regelsystem zwischen spontanem, passiven *Entdecken* und dem zeitintensiven, aktiven *Suchen*.
 
-Mit dem Einsatz eines xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] kann ein Charakter
+Mit dem Einsatz eines xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Bewegungsmanövers] kann ein Charakter
 
 * spontan etwas Verstecktes entdecken, zum Beispiel einen im Gebüsch versteckten Charakter.
 Auf diese Weise können Überraschungsangriffe verhindert werden.
@@ -299,7 +299,7 @@ Um beispielsweise eine <<ref_talents_hide, versteckte>> Kreatur zu entdecken, is
 * *Patzer:* keine zusätzlichen Auswirkungen.
 
 Ein Charakter kann außerdem ein abgegrenztes Gebiet, zum Beispiel einen Raum oder einen Gang, absuchen.
-Dazu benötigt der Charakter allerdings Zeit, daher kann Suchen nicht mit einem xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] abgedeckt werden.
+Dazu benötigt der Charakter allerdings Zeit, daher kann Suchen nicht mit einem xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] abgedeckt werden.
 Wird er von Feinden bedroht oder angegriffen, kann er nicht Suchen.
 
 * *Misserfolg:* Der Charakter findet nicht, wonach er sucht.
@@ -548,36 +548,36 @@ Grundsätzlich ist jede Verwendung von Aether Wahrnehmung mit einem kleinen, vis
 
 [[ref_talents_discipline]]
 === Disziplin
-*Mindestwurf:* SMW +
+*Mindestwurf:* 8 + POT +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* SB +
 *Kampf:* F +
 *Beschreibung:* Mit diesem Talent kann der Charakter seine Konzentration wahren, wenn er Gefahr läuft, die Vorbereitung eines Zauberspruches zu verlieren.
-Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Magie].
+Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellburning[Magie].
 
 [[ref_talents_spellcasting]]
 === Spruchzauberei [Zauberschule]
-*Mindestwurf:* SMW +
+*Mindestwurf:* 8 + POT +
 *Ungeübte Anwendung:* Spezial +
 *Verwandtes Attribut:* EN +
 *Kampf:* A +
-*Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der jeweils gewählten xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic[Zauberschule] zu wirken.
+*Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der jeweils gewählten xref:core_rules_magic_base.adoc#ref_core_magic_schools_of_magic[Zauberschule] zu wirken.
 
-Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_preparation[vorbereiten].
+Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[vorbereiten].
 Die Beschreibung des Zauberspruches gibt außerdem Auskunft über die notwendige Anzahl von Erfolgen, um den Effekt erfolgreich auszusprechen.
-Bei einem Misserfolg muss der Zaubernde sofort eine Probe in xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Verbrennen Widerstehen] ablegen, bei einem Patzer kommt es zu einem xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_botches[Zauberpatzer].
+Bei einem Misserfolg muss der Zaubernde sofort eine Probe in xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellburning[Verbrennen Widerstehen] ablegen, bei einem Patzer kommt es zu einem xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_botches[Zauberpatzer].
 
-Weiterhin bietet das Dokument eine Liste von xref:core_rules_magic_base.adoc#ref_magic_schools_of_magic_overview[Zauberschulen], die besondere Regeln mit sich bringen und angeben, welche Zauberlisten gelernt werden können.
+Weiterhin bietet das Dokument eine Liste von xref:core_rules_magic_base.adoc#ref_core_magic_schools_of_magic_overview[Zauberschulen], die besondere Regeln mit sich bringen und angeben, welche Zauberlisten gelernt werden können.
 
-Das Talent verbietet im Normalfall die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung], außer bei der Verwendung von Gegenständen wie xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_scrolls[Spruchrollen], xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_grimoire[Grimoire] oder xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken].
+Das Talent verbietet im Normalfall die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung], außer bei der Verwendung von Gegenständen wie xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_scrolls[Spruchrollen], xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_grimoire[Grimoire] oder xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken].
 
 [[ref_talents_resist_spellburning]]
 === Verbrennen Widerstehen
-*Mindestwurf:* SMW +
+*Mindestwurf:* 8 + POT +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
 *Kampf:* F +
 *Beschreibung:* Schlägt die Vorbereitung eines Zauberspruches fehl, besteht die Gefahr des *Verbrennens*.
 Dies ist ein äußerst schmerzhafter Vorgang, der beschreibt, dass die arkanen Energien des Zauberspruches durch den Magier in die falsche Richtung gelenkt wurden und nun durch seinen Körper abgeleitet werden, wie ein Blitz, der in einen Baum einschlägt.
 
-Für die vollständigen Regeln, siehe das passende xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellburning[Kapitel] im Dokument Magie.
+Für die vollständigen Regeln, siehe das passende xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellburning[Kapitel] im Dokument Magie.

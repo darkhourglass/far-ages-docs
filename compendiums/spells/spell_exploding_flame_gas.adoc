@@ -6,14 +6,13 @@
 *Komponenten:* Formel, Gesten +
 *Fokus:* Feuer, Luft, Metall +
 *Vorbereitung:* 4 +
-*Anzahl der Erfolge:* 6 +
 *Reichweite:* 24,00 Meter +
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* Sofort +
 *Effekt:* Du beschwörst instabiles Gas aus den tiefen der Maschinen von Magnet.
 Dieses explodiert im Wirkungsbereich in einem verheerenden Flammeninferno.
 
-Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
+Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 Jeder Kreatur steht ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] zu.
 Besteht eine Kreatur diesen Rettungswurf, erhält sie den halbierten Schaden (abgerundet, Minimum 1). +
 *Zusätzliche Effekte:* +

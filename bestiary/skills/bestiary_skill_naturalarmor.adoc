@@ -4,5 +4,5 @@
 *Typ:* Passiv, Rüstung +
 *CP:* tba +
 
-Die Kreatur besitzt xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_naturalarmor[Natürliche Rüstung] in Höhe der angegebenen *Rüstungspunkte*.
-Sofern nicht anders angegeben, gelten die Rüstungspunkte auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen].
+Die Kreatur besitzt xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[Natürliche Rüstung] in Höhe der angegebenen *Rüstungspunkte*.
+Sofern nicht anders angegeben, gelten die Rüstungspunkte auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen].

@@ -15,7 +15,7 @@ Dieser Wall besteht aus 6 Segmenten, die jeweils 1,50 x 1,50 Meter Platz abdecke
 Du kannst die Verteilung der Segmente frei bestimmen, sie müssen jedoch alle zusammenhängen.
 
 Du kannst den Wellenwall nicht direkt auf eine Kreatur zaubern.
-Allerdings betrachten alle Kreaturen, die Wellenwall durchqueren wollen, diesen als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände], außer sie besitzen die Fähigkeit xref:../../bestiary/skills/bestiary_skill_move_swim.adoc[Schwimmen].
+Allerdings betrachten alle Kreaturen, die Wellenwall durchqueren wollen, diesen als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände], außer sie besitzen die Fähigkeit xref:../../bestiary/skills/bestiary_skill_move_swim.adoc[Schwimmen].
 
 Alle Kreaturen, die den Wasserwall durchqueren wollen oder ihre Kampfphase im Wellenwall beginnen, müssen außerdem einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ST[ST-Rettungswurf] bestehen oder sie verlieren sofort Ihre gesamte BEW für den Rest ihrer Kampfphase.
 

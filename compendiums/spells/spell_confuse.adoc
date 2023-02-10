@@ -6,14 +6,13 @@
 *Komponenten:* Formel +
 *Fokus:* Chaos, Geist +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 4 +
 *Reichweite:* 9 Meter +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* 1W8 +
 *Effekt:* Du flüsterst kryptische Worte und während der Beschwörung erscheinen tanzende bunte Lichter um Dich herum.
 Am Ende der Beschwörung rasen diese Lichter in das Opfer hinein.
 Das Opfer wird verwirrt und greift die nächststehende Kreatur rücksichtslos an.
-Es verliert alle eventuelle xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_preparation[Vorbereitungen].
+Es verliert alle eventuelle xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[Vorbereitungen].
 Das Ziel des Zaubers muss eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur sein.
 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] und link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] sind immun gegen diesen Zauber. +
 *Zusätzliche Effekte:* +

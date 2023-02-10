@@ -1,44 +1,51 @@
 = Tabelle: Zauberpatzer
 
-[cols=",",options="header"]
 |===
-|Ergebnis Anzahl Patzer + POT | Effekt
-|Ergebnis kleiner 5 |Glück gehabt! Der Zauber entlädt seine Energie in die Luft um den Zauberer herum.
-Bunte Schemen tanzen herum und kleine Glöckchen klingen in den Ohren der Umstehenden.
+|2W10+POT |Effekt
+
+|Ergebnis kleiner 5
+|Glück gehabt! Der Zauber entlädt seine Energie in die Luft um den Zauberer herum.
+Bunte Schemen tanzen herum und Glöckchen klingen in den Ohren der Umstehenden.
 Aber sonst geschieht nichts.
 
-|5-8 |Der Zauberer erlebt einen sachten Schlag magischer Energie.
-Ererhält 1W6 Schock-Schaden.
+|5-8
+|Der Zauberer erlebt einen sachten Schlag magischer Energie.
+Er erhält 1W6 Schock-Schaden.
 Nimmt er Schaden, so blutet seine Nase.
 
-|9-11 |Es gibt einen lauten Knall, der in einem Radius von 6 Metern alle
+|9-11
+|Es gibt einen lauten Knall, der in einem Radius von 6 Metern alle
 Geräusche übertönt.
 Der Zauberer und alle anderen Kreaturen, die hören können, sind für 1W6 Runden paralysiert.
 
-|12-16 |Der Zauberspruch transformiert sich zu einer rasenden Energie,
+|12-16
+|Der Zauberspruch transformiert sich zu einer rasenden Energie,
 die sich in einem plötzlichen Schub dunkler Schatten entlädt.
-Esscheint, als würde die Luft in einem Radius von 6 Metern um den Zaubereraufbrechen und aus einer unheimlichen Zwischenwelt greifen schattenhaften Arme nach allem Lebenden.
+Es scheint, als würde die Luft in einem Radius von 6 Metern um den Zaubereraufbrechen und aus einer unheimlichen Zwischenwelt greifen schattenhaften Arme nach allem Lebenden.
 Jede Kreatur und der Zauberererleiden sofort 1W6+2 Magischen Schaden.
 Alle, die dadurch TP verlieren,müssen eine Furcht-Probe mit Mindestwurf x ablegen, wobei x die Anzahlder verlorenen TP darstellt.
 
-|17-18 |Die Energie verzerrt die Struktur des Magiers.
+|17-18
+|Die Energie verzerrt die Struktur des Magiers.
 Er erhält sofort3W6 magischen Schaden. Erleidet er dadurch eine Verletzung, soverwandelt sich eine Stelle seines Körpers (SL-Entscheid) in Kristall.
 Für den Zauberer fühlt sich diese Stelle taub, dumpf und fremd an.
 Gemeine SL nutzen Finger oder Hände oder das Gesicht, um den Charakter für sein Leben zu zeichnen.
 
-|19 |Den Zauberer umgeben plötzlich wabernde Entitäten aus purer Energie.
-Für einen Moment öffnet sich ein Spalt in eine fremdeHöllendimension und konfrontiert den Charakter mit einem kleinen Stückdes Kosmischen Horrors.
+|19
+|Den Zauberer umgeben plötzlich wabernde Entitäten aus purer Energie.
+Für einen Moment öffnet sich ein Spalt in eine fremdeHöllendimension und konfrontiert den Charakter mit einem kleinen Stück des Kosmischen Horrors.
 Er verliert sofort 1W12 SP.
 
-|20 a|
-Polymorph! Der Zauberer verwandelt sich in ein Tier.
+|20
+|Polymorph! Der Zauberer verwandelt sich in ein Tier.
 Der SL würfelt einen 1W6:
 
 1-Schaf, 2-Huhn, 3-Eichhörnchen, 4-Schlange, 5-Hase, 6-Papagei.
 
 Gnädige SL können dies durch eine Fluchbannung oder einen starken Magiebann aufheben lassen.
 
-|21 |Der Zauberspruch öffnet ein unkontrolliertes Portal in einebeliebige Sphäre, dass 1W6+3 Kampfrunden geöffnet bleibt.
+|21
+|Der Zauberspruch öffnet ein unkontrolliertes Portal in einebeliebige Sphäre, dass 1W6+3 Kampfrunden geöffnet bleibt.
 Jede Rundebesteht die Chance, dass irgendwelche Wesen dieses Portal durchschreiten.
 Der SL würfelt einen W10.
 Ab einer 7 passieren 1W3 Wesen das Portal.
@@ -46,7 +53,7 @@ Jede Kampfrunde nach der Öffnung steigt diese Chance um +1.
 Was dies für Wesen sind, bleibt dem SL überlassen.
 Tatsache ist, dass diese Wesen nicht begeistert sein werden, in einer anderen Dimension festzuhängen.
 
-|22+ |Der Charakter erleidet einen effektvollen und pompösen Tod.
+|22+
+|Der Charakter erleidet einen effektvollen und pompösen Tod.
 Der SL soll seiner Kreativität freien Lauf lassen.
-Der Charakter kann nicht wiederbelebt werden, außer der SL ist sehr, sehr gnädig.
 |===

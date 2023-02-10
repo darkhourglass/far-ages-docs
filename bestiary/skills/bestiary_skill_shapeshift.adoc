@@ -4,12 +4,12 @@
 *Typ:* Magisch +
 *CP:* tba +
 
-Mit Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[Komplexen Aktion] kann die Kreatur sich in einer der angegebenen *Formen* (also die Gestalt einer anderen Kreatur) verwandeln.
+Mit Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexen Aktion] kann die Kreatur sich in einer der angegebenen *Formen* (also die Gestalt einer anderen Kreatur) verwandeln.
 Die Kreatur übernimmt das gesamte Profil der neuen Kreatur mit folgenden Ausnahmen:
 
 * Die Attributsstufen EN, SB und CH bleiben erhalten
 * Die Punktepools xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP] bleiben erhalten
-* sie behält link:../../rules/core/core_rules_talents_base.adoc[Talente] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_talents[Talentstufen].
+* sie behält link:../../rules/core/core_rules_talents_base.adoc[Talente] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufen].
 
 Die Kreatur übernimmt die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] der neuen Form.
 Erreicht die Kreatur in einer Form, die nicht seine ursprüngliche Form ist, 0 TP, verwandelt sie sich sofort zurück.
@@ -19,20 +19,20 @@ Nur wenn die neue Form das Talent xref:../../rules/core/core_rules_talents_base.
 Andere Talente kann die Kreatur nach Ermessen des SL verwenden, außer es ist offensichtlich, dass die neue Form diese nicht verwenden kann.
 Die ist zum Beispiel der Fall, wenn ein Humaniod sich in ein Tier verwandelt, welches keine Nahkampfwaffen verwenden kann.
 
-Das Zurückverwandeln in seine ursprüngliche Form erfolgt durch eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion].
+Das Zurückverwandeln in seine ursprüngliche Form erfolgt durch eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion].
 Diese kann allerdings nicht in der gleichen Kampfphase verwendet werden, wenn bereits eine *Form* angenommen wurde.
 
-Sofern nicht anders angegeben, kann sich die Kreatur pro Tag sooft verwandeln, die es Stufen in seinem xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO-Attribut] hat.
+Sofern nicht anders angegeben, kann sich die Kreatur pro Tag sooft verwandeln, die es Stufen in seinem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO-Attribut] hat.
 
 [[ref_bestiary_skill_shapeshift_advanced]]
 == Verbessert
 Einem Gestaltwandler, dem die verbesserte Form dieser Fähigkeit zur Verfügung steht, hat folgende zusätzliche Vorteile gegenüber der regulären Ausprägung:
 
-* Die Anzahl der Verwandlungen pro Tag sind mindestens Stufen in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO] * 2.
+* Die Anzahl der Verwandlungen pro Tag sind mindestens Stufen in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO] * 2.
 * Jede Form darf bei Verwandlung mit einer der folgenden Schablonen versehen werden:
 ** link:../templates/bestiary_template_feral.adoc[Wild]
-** link:../templates/bestiary_template_sizemodification_giant.adoc[Riesig] (max. 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK])
-** link:../templates/bestiary_template_sizemodification_small.adoc.adoc[Klein] (max. 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK])
+** link:../templates/bestiary_template_sizemodification_giant.adoc[Riesig] (max. 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK])
+** link:../templates/bestiary_template_sizemodification_small.adoc.adoc[Klein] (max. 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK])
 
 [[ref_bestiary_skill_shapeshift_legendary]]
 == Legendär

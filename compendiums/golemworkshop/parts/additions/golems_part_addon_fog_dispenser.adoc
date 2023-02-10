@@ -10,7 +10,7 @@
 Weiterhin benötigt dieser Zusatz einige Rohre, die am Körper des Golems von der Kammer aus verlaufen.
 Die Rohre enden in trichterförmigen Aufsätzen, die durch ein engmaschiges Netz abdeckt sind.
 
-Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] kann der Golem mit ein Einsatz der MP-Kosten (siehe auch unten stehende Tabelle) den Effekt des Zauberspruches link:../../../spells/spell_fog.adoc[Nebel] in einem Radius von 12,00 Metern um sich herum erzeugen.
+Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] kann der Golem mit ein Einsatz der MP-Kosten (siehe auch unten stehende Tabelle) den Effekt des Zauberspruches link:../../../spells/spell_fog.adoc[Nebel] in einem Radius von 12,00 Metern um sich herum erzeugen.
 
 Je nach MP-Kosten bestimmt der Golem die Intensität des Nebels:
 
@@ -18,16 +18,16 @@ Je nach MP-Kosten bestimmt der Golem die Intensität des Nebels:
 |MP-Kosten |Nebel-Effekt
 
 |5
-|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[geringe Deckung] (-1 auf die Würfe zum Erfolg)
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[geringe Deckung]
 
 |10
-|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[mittlere Deckung] (-2 auf die Würfe zum Erfolg)
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[mittlere Deckung]
 
 |20
-|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[starke Deckung] (-3 auf die Würfe zum Erfolg)
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[starke Deckung]
 
 |40
-|xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_coverage[totale Deckung] (-4 auf die Würfe zum Erfolg)
+|xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[totale Deckung]
 |===
 
-Der Golem kann den Nebel durch eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] in seiner Kampfphase beenden.
+Der Golem kann den Nebel durch eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] in seiner Kampfphase beenden.

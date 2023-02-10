@@ -21,8 +21,8 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Erdbeben der Stärke 3 verursacht
 Nach Ermessen des SL können Effekte auf Gebäude und Gegenstände ebenfalls kumuliert auftreten.
 Weiterhin kann der SL ebenso Effekte auf diese anders gestalten (sowohl verstärken als auch abschwächen), je nach Einschätzung der Umgebung.
 
-Jeder aufgeführte Schaden in Effekten auf Kreaturen entspricht einem automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Treffer] mit dem angegebenen Schaden zu Beginn der Kampfphase einer Kreatur.
-Dieser kann immer durch eine erfolgreiche xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Probe] halbiert werden.
+Jeder aufgeführte Schaden in Effekten auf Kreaturen entspricht einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit dem angegebenen Schaden zu Beginn der Kampfphase einer Kreatur.
+Dieser kann immer durch einen erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] halbiert werden.
 Die nötige Anzahl der Erfolge entspricht der Stärke des Erdbebens.
 
 Außerdem muss jede Kreatur zu Beginn ihrer Kampfphase eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_knockdown[Niederschlagsprobe] bestehen oder gehen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
@@ -34,7 +34,7 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 |Stärke des Erdbebens |Effekt auf Kreaturen |Effekt auf Gebäude |Effekt auf Gegenstände
 
 |1
-|-1 Würfe zum Erfolg
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5
 |Column 3, row 1
 |Column 4, row 1
 
@@ -44,7 +44,7 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 |Column 4, row 2
 
 |3
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 3
 |Column 4, row 3
 
@@ -54,12 +54,12 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 |Column 4, row 4
 
 |5
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 5
 |Column 4, row 5
 
 |6
-|4W6
+|4W6 Schaden
 |Column 3, row 6
 |Column 4, row 6
 |===
@@ -141,7 +141,7 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sandsturm der Stärke 3 verursach
 |Stärke des Sandsturmes |Effekt auf Kreaturen |Effekt auf Gebäude |Effekt auf Gegenstände
 
 |1
-|-1 Würfe zum Erfolg
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5
 |Column 3, row 1
 |Column 4, row 1
 
@@ -151,7 +151,7 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sandsturm der Stärke 3 verursach
 |Column 4, row 2
 
 |3
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 3
 |Column 4, row 3
 
@@ -161,12 +161,12 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sandsturm der Stärke 3 verursach
 |Column 4, row 4
 
 |5
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 5
 |Column 4, row 5
 
 |6
-|4W6
+|4W6 Schaden
 |Column 3, row 6
 |Column 4, row 6
 |===
@@ -187,7 +187,7 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Schneesturm der Stärke 3 verursa
 |Stärke des Schneesturms |Effekt auf Kreaturen |Effekt auf Gebäude |Effekt auf Gegenstände
 
 |1
-|-1 Würfe zum Erfolg
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5
 |Column 3, row 1
 |Column 4, row 1
 
@@ -197,7 +197,7 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Schneesturm der Stärke 3 verursa
 |Column 4, row 2
 
 |3
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 3
 |Column 4, row 3
 
@@ -207,12 +207,12 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Schneesturm der Stärke 3 verursa
 |Column 4, row 4
 
 |5
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 5
 |Column 4, row 5
 
 |6
-|4W6
+|4W6 Schaden
 |Column 3, row 6
 |Column 4, row 6
 |===
@@ -234,7 +234,7 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sturm der Stärke 3 verursacht be
 |Stärke des Sturmes |Effekt auf Kreaturen |Effekt auf Gebäude |Effekt auf Gegenstände
 
 |1
-|-1 Würfe zum Erfolg
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5
 |Column 3, row 1
 |Column 4, row 1
 
@@ -244,7 +244,7 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sturm der Stärke 3 verursacht be
 |Column 4, row 2
 
 |3
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 3
 |Column 4, row 3
 
@@ -254,12 +254,12 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sturm der Stärke 3 verursacht be
 |Column 4, row 4
 
 |5
-|-1 Würfe zum Erfolg, 2W6 Schaden
+|xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] -5, 2W6 Schaden
 |Column 3, row 5
 |Column 4, row 5
 
 |6
-|4W6
+|4W6 Schaden
 |Column 3, row 6
 |Column 4, row 6
 |===
@@ -273,6 +273,16 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sturm der Stärke 3 verursacht be
 
 [[ref_core_adventures_items]]
 == Gegenstände
+
+[[ref_core_adventures_items_total_weight_and_maxcarryingcapacity]]
+=== Gesamtgewicht und MaxTL
+
+Übersteigt das Gesamtgewicht der Gegenstände, die der Charakter mit sich herumträgt diesen Wert, dann verringert sich seine Bewegungsrate.
+Pro angefangene 10 Pfund verliert der Charakter 1,50 Meter seiner Bewegungsrate.
+
+Ein Langschwert wiegt um die 2 bis 2,5 Pfund, eine Ritterrüstung um die 60.
+Kettenhemden wiegen 16 bis 28 Pfund.
+
 
 // Waffen, Rüstungen, Schilde -> Kampf
 
@@ -323,12 +333,12 @@ Wenige Waffenschmiede stellen nicht einfach Waffen her, sondern außergewöhnlic
 Solche Waffen nennt man auch exzellente Waffen.
 
 Ihre Qualität wird dabei in Punkten gemessen.
-Pro Punkt in Exzellenz erhält der Träger der Waffe einen Bonus von +1 auf Würfelanzahl für seine Angriffsproben mit dieser Waffe.
+Pro Punkt in Exzellenz erhält der Träger der Waffe einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +1 für seine Angriffsproben mit dieser Waffe.
 Dies macht sich außerdem im Preis bemerkbar, denn pro Punkt in Exzellenz erhöht sich der Preis der Waffe um einen prozentualen Anteil, der aus folgender Tabelle entnommen werden kann.
 
 
 |===
-|Exzellenz |Bonus auf Würfelanzahl |Preismodifikator
+|Exzellenz |Bonus |Preismodifikator
 
 |1
 |+1

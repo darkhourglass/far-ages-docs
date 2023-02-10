@@ -13,7 +13,7 @@
 
 [[ref_brawler_thickskull]]
 === Dickschädel
-Ein Ringer erhält einen Bonus von +2 auf seinen Wert in xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID].
+Ein Ringer erhält einen Bonus von +2 auf seinen Wert in xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID].
 
 [[ref_brawler_pitfighter]]
 === Faustrecht
@@ -26,11 +26,11 @@ Er muss dazu nicht die an der Fähigkeit angegebenen Voraussetzungen erfüllen.
 
 [[ef_brawler_opportunist]]
 === Opportunist
-Ist der Ringer mit einem Gegner im Nahkampf xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] und hat er in der aktuellen Kampfphase seine Aktion verwendet, um einen unbewaffneten Angriff durchzuführen, kann er ein xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen, um einen weiteren unbewaffneten Angriff gegen den gleichen Gegner zu führen.
+Ist der Ringer mit einem Gegner im Nahkampf xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] und hat er in der aktuellen Kampfphase seine Aktion verwendet, um einen unbewaffneten Angriff durchzuführen, kann er ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen, um einen weiteren unbewaffneten Angriff gegen den gleichen Gegner zu führen.
 Diese Eigenschaft darf einmal pro Kampfphase angewendet werden.
 
 [[ref_brawler_versatile_fightingstyle]]
 === Vielseitiger Kampfstil
 Ein Ringer kann vor dem Werfen einer Probe in dem Talent xref:../core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf] entscheiden, ob er als verwandtes Attribut ST oder GE verwenden möchte.
-Diese Wahl keine Auswirkung auf eine nachfolgende xref:../core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensprobe].
+Diese Wahl keine Auswirkung auf eine nachfolgende xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe].
 Die Entscheidung gilt für alle weiteren Proben in der aktuellen Kampfphase.

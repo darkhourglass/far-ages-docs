@@ -21,7 +21,7 @@ Ohne explizite Angabe wird ein einfaches Weiß angenommen.
 Mit Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] musst Du alle Eigenschaften bestimmt haben.
 Für die Dauer des Zauberspruches sind diese nicht mehr anpassbar.
 
-Alle negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] werden im Wirkungsbereich des Zauberspruches aufgehoben.
+Alle negativen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] werden im Wirkungsbereich des Zauberspruches aufgehoben.
 Der Zauberspruch blendet nicht und gilt *nicht* als Sonnenlicht.
 
 Der Zauberspruch hebt magisch erzeugte Dunkelheit genau dann auf, wenn die POT höher ist als die POT des Effekts, der die Dunkelheit erzeugt.

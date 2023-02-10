@@ -13,8 +13,8 @@
 === Schnelle Wundheilung
 Erhalten Trolle den Zustand xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend], so endet dieser 1 Kampfphase früher.
 Dadurch kann es vorkommen, dass der Zustand gar nicht eintritt, weil 0 Kampfphasen Dauer entstehen.
-Außerdem halbieren sich alle Heilungsperioden für xref:../core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
+Außerdem halbieren sich alle Heilungsperioden für xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzungen].
 
 === Spontane Regeneration
-Einmal pro Tag als xref:../core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktion] darf ein Troll KO-viele W10 würfeln, um verlorene TP zu heilen.
+Einmal pro Tag als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] darf ein Troll KO-viele W10 würfeln, um verlorene TP zu heilen.
 Die erreichte Augenzahl stellt sofort entsprechend viel TP wieder her, jedoch nie über die maximalen TP hinaus.

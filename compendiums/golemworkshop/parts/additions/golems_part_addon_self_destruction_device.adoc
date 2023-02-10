@@ -11,15 +11,15 @@
 Der Selbstzerstörungsmechanismus kann durch die folgenden Situationen ausgelöst werden:
 
 * Der Golem erreicht zum ersten Mal xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und ist dabei nicht bereits anderweitig xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[deaktiviert].
-* Der Golem benutzt eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion], um sich selbst in die Luft zu sprengen.
+* Der Golem benutzt eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion], um sich selbst in die Luft zu sprengen.
 * Durch den Zauberspruch link:../../../spells/spell_control_construct.adoc[Konstrukt kontrollieren] kann der Golem gezwungen werden, den Mechanismus auszulösen, vorausgesetzt, der Zaubernde weiß von der Existenz dieses Mechanismus.
-* Nach Ermessen des SLs kann der Selbstzerstörungsmechanismus durch äußere Einwirkung ausgelöst werden, zum Beispiel xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack_aimedattack[gezielte Attacken].
+* Nach Ermessen des SLs kann der Selbstzerstörungsmechanismus durch äußere Einwirkung ausgelöst werden, zum Beispiel xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack_aimedattack[gezielte Attacken].
 
 Wird der Selbstzerstörungsmechanismus ausgelöst, reduzieren sich zunächst die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] des Golems auf 0, sofern noch vorhanden.
 Der Golem gilt als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_destroyed[zerstört].
 Von ihm bleiben nur nutzlose, geschmolzene Reste übrig.
 
 Der Selbstzerstörungsmechanismus erzeugt einen Feuerball aus gleißend weißen Flammen, die alle Kreaturen in einem Radius von 6,00 Metern vom Golem treffen.
-Jede Kreatur in diesem Radius erhält einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit einem Schadensbonus von 1W10+1 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
+Jede Kreatur in diesem Radius erhält einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit einem Schadensbonus von 1W10+1 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 Pro 10 MP, die der Golem noch in seiner xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] zum Zeitpunkt seiner Zerstörung übrig hat, erhöht den Schadensbonus um weitere 1W10+1 Feuer-Schaden.
 Jede Kreatur darf einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] ablegen und erhält bei einem Erfolg nur die Hälfte des Schadens (abgerundet, minimal 1).

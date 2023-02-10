@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Geste +
 *Fokus:* Feuer, Ebon +
 *Vorbereitung:* 5 +
-*Anzahl der Erfolge:* 8 +
 *Reichweite:* 36,00 Meter +
 *Anzahl der Ziele:* Radius 12,00 Meter +
 *Dauer:* Sofort +
@@ -14,10 +13,10 @@
 Dabei reichst Du nicht nur in die für einen Elementaristen Deiner Erfahrung komfortable Ebene des Feuers hinein, sondern auch in ein der dunklen Ecken des Multiversums.
 Von manchen auch das ultimate Feuer genannt, verbrennt das Schwarze Feuer alles ohne Gnade.
 
-Alle Kreaturen in der Wirkungsfläche des Zauberspruches erhalten einen automatischen Treffer.
-Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Schadensbonus] für diesen Treffer beträgt 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden] pro Erfolg in Deiner Spruchzauberei-Probe.
+Alle Kreaturen in der Wirkungsfläche des Zauberspruches erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer].
+Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Schadensbonus] für diesen Treffer beträgt 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] pro Erfolg in Deiner Spruchzauberei-Probe.
 
-Jeder Schaden des Schwarzen Feuers gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbar].
+Jeder Schaden des Schwarzen Feuers gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbar].
 
 Die Verwendung dieses Zauberspruches hat jedoch seinen Preis.
 Jedes Mal, wenn Du ihn aussprichst, ob erfolgreich oder nicht, erfordert einen Rettungwurf auf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror(20)]. +

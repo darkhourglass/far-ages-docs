@@ -13,7 +13,7 @@
 *Effekt:* Du führst Deine Hände übereinander und zeigst mit den Handflächen in die Richtung des Ziels.
 Ein Strahl aus lodernden Flammen schießt auf das Ziel zu.
 Du musst eine direkte Sichtlinie zur Zielkreatur haben.
-Bei einer erfolgreichen Spruchzauberei-Probe erhält die Kreatur einen Treffer mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] von 2W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuerschaden].
+Bei einer erfolgreichen Spruchzauberei-Probe erhält die Kreatur einen Treffer mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] von 2W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuerschaden].
 
 Ist der Schaden vollständig kalkuliert, steht der Kreatur ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex]-Rettungswurf gegen die Anzahl der Erfolge aus der Spruchzauberei-Probe zu.
 Bei einem Erfolg wird der Schaden halbiert (Minimum 1). +

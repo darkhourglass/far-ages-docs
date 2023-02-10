@@ -6,7 +6,6 @@
 *Komponenten:* Geste +
 *Fokus:* Feuer +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 2 +
 *Reichweite:* Berührung +
 *Anzahl der Ziele:* 1 Waffe* +
 *Dauer:* 5 Kampfphasen +
@@ -14,7 +13,7 @@
 Diese Waffe darf nicht bereits magischer Natur sein oder von anderen magischen Effekt betroffen sein.
 Der Träger der Waffe ist von den Flammen nicht betroffen und die Waffe selbst nimmt keinen Schaden.
 
-Für die Dauer des Zauberspruches ändert sich der xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] der Waffe zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
+Für die Dauer des Zauberspruches ändert sich der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] der Waffe zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 Durch zusätzliche Effekte kann dieser Schadensbonus erhöht werden.
 
 Die verzauberte Waffe verursacht nur zusätzlichen Schaden, wenn sie von einer Kreatur im Kampf verwendet wird.
@@ -25,5 +24,5 @@ In diesem Fall gehen die verschossenen Projektile in Flammen auf und verursachen
 *Zusätzliche Effekte:* +
 +1 MP: Dauer +1 Kampfphasen
 +5 MP: Anzahl der Ziele +1 Waffe
-+10 MP, +1 POT: +1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
++10 MP, +1 POT: +1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 +

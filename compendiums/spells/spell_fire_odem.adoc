@@ -14,8 +14,8 @@
 Heiße Flammen schlagen einem Drachenatem gleich hervor.
 
 Der Wirkungsbereich des Zaubers breitet sich kegelförmig beginnend beim Magier aus.
-Jede Kreatur im Wirkungsbereich erhält einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Treffer] mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]-Schaden.
-Eine erfolgreiche xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex]-Probe halbiert diesen Schaden.
+Jede Kreatur im Wirkungsbereich erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[automatischen Treffer] mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] halbiert diesen Schaden.
 +
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: Kegel +3,00 Meter

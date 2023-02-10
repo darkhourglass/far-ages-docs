@@ -6,7 +6,7 @@
 
 Dieser übernatürliche Angriff entzieht dem Opfer Punkte aus einem seiner xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Pools], um sie dem Angreifer zu übertragen.
 
-Der Angriff erfolgt im Gegensatz zu den meisten Talenten oder Fähigkeiten als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] mit der definierten *Angriffsstufe*.
+Der Angriff erfolgt im Gegensatz zu den meisten Talenten oder Fähigkeiten als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] mit der definierten *Angriffsstufe*.
 Das Ziel hat immer eine die Möglichkeit zu einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe], solange sie nicht von der angreifenden Kreatur xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten] wird und bei Bewusstsein ist.
 Die Art der Verteidigungsprobe ist von dem *Pool* abhängig wie folgt:
 
@@ -17,10 +17,10 @@ Die Art der Verteidigungsprobe ist von dem *Pool* abhängig wie folgt:
 Die angegebene *Reichweite* kann eine beliebige Angabe in Metern sein.
 In diesem Fall muss sich die Zielkreatur innerhalb der Reichweite in Sichtweite der Kreatur befinden.
 Alternativ kann die Reichweite auch als *Berührung* angegeben sein.
-Analog zu den Regeln eines xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_range[Zauberspruches] gilt, dass die Kreatur das Ziel im Moment der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] berühren können muss.
+Analog zu den Regeln eines xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_range[Zauberspruches] gilt, dass die Kreatur das Ziel im Moment der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] berühren können muss.
 
-Bei einer erfolgreichen Angriffsprobe wird, unabhängig vom Pool, ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Schadenswurf] mit dem angegebenen *Schaden* durchgeführt.
-Die ermittelten xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schadenspunkte] werden von dem *Pool* der Zielkreatur abgezogen.
+Bei einer erfolgreichen Angriffsprobe wird, unabhängig vom Pool, ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Schadenswurf] mit dem angegebenen *Schaden* durchgeführt.
+Die ermittelten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] werden von dem *Pool* der Zielkreatur abgezogen.
 Die werden sofort dem passenden Pool der angreifenden Kreatur gutgeschrieben, allerdings nie über das Maximum.
 
 [[ref_energydrain_legendary]]

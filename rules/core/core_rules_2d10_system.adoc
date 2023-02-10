@@ -40,7 +40,7 @@ Werte über 10 sind wortwörtlich un- bzw. übermenschlich.
 Über die Arributsstufen werden zwei primäre Abhängigkeiten bestimmt:
 
 * der <<ref_core_2d10_characters_attributes_bonus,Attributsbonus>> wird bei verschiebenen <<ref_core_2d10_checks,Proben>> als Wert zum Ergebnis hinzuaddiert.
-* <<ref_characters_charactercreation_secondary,Attributseigenschaften>> sind weitere Elemente des Spiels, die helfen, den Charakter weiter zu beschreiben und seine Grenzen und Möglichkeiten darzustellen.
+* <<ref_core_2d10_characters_attributes_secondary,Attributseigenschaften>> sind weitere Elemente des Spiels, die helfen, den Charakter weiter zu beschreiben und seine Grenzen und Möglichkeiten darzustellen.
 Aus dem Attribut <<ref_core_2d10_characters_attribute_strength,Stärke>> folgt zum Beispiel die <<ref_core_2d10_characters_attributes_secondary_maxcarryingcapacity,Maximale Traglast>>, eine Zahl, die bestimme, wie viel ein Charakter mit sich herumschleppen kann.
 
 In dem System von Far Ages werden die folgenden sieben Attribute benutzt, die den Charakter beschreiben und das Fundament für ihn bilden.
@@ -143,12 +143,12 @@ Die eigentliche Anwendung des Attributsbonus wird im späteren <<ref_core_2d10_c
 [[ref_core_2d10_characters_attributes_secondary]]
 === Attributseigenschaften
 In diesem Kapitel beschreiben wir kurz die *Attributseigenschaften* und ihre Verwendung.
-Die Berechnung findet sich im xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Kapitel] des Dokuments Charaktererschaffung.
+Die Berechnung findet sich im xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Kapitel] des Dokuments Charaktererschaffung.
 
 [[ref_core_2d10_characters_attributes_secondary_pool_tp]]
 ==== Trefferpunkte (TP)
 *Trefferpunkte (TP)* sind eine Art Puffer für den Charakter bis zu seinem Tod.
-TP verliert ein Charakter beispielsweise xref:core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadenseinwirkung].
+TP verliert ein Charakter beispielsweise xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadenseinwirkung].
 TP können durch <<ref_core_2d10_regeneration,Regeneration>> wieder erhalten werden.
 Weitere Regeln finden sich im Kapitel zu diesem <<ref_core_2d10_pools_tp,Punkte-Pool>>.
 
@@ -170,7 +170,7 @@ Ein Verlust von SP kann zu bleibenden Schäden in der Psyche führen und der Wah
 
 [[ref_core_2d10_characters_attributes_secondary_movementrate]]
 ==== Bewegungsrate (BEW)
-Die *Bewegungsrate (BEW)* bestimmt, wie weit sich ein Charakter einen begrenzten Zeitraum (einer xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase]) bewegen kann.
+Die *Bewegungsrate (BEW)* bestimmt, wie weit sich ein Charakter einen begrenzten Zeitraum (einer xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase]) bewegen kann.
 In Far Ages wird diese Entfernung in Metern gemessen.
 Charaktere mit einer hohen Attributsstufe in <<ref_core_2d10_characters_attribute_dexterity,Geschick>> bewegen sich schneller und weiter als weniger geschickte Charaktere.
 Weiterhin kann ein Charakter auch mehr als eine Bewegungsrate besitzen, beispielsweise in der Luft oder im Wasser.
@@ -179,7 +179,7 @@ Andere Bewegungsvarianten sind explizit angegeben.
 
 [[ref_core_2d10_characters_attributes_secondary_initiativebonus]]
 ==== Initiative-Bonus (INI)
-Der *Initiativebonus (INI)* bestimmt die xref:core_rules_battlesystem.adoc#ref_battle_battlephase_initiative[Reihenfolge] der Teilnehmer an einem Kampf innerhalb einer xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase].
+Der *Initiativebonus (INI)* bestimmt die xref:core_rules_battlesystem.adoc#ref_core_battle_flow_initiative[Reihenfolge] der Teilnehmer an einem Kampf innerhalb einer xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase].
 Je höher dieser Bonus ist, desto wahrscheinlicher ist es, dass ein Charakter vor einem anderen Charakter agieren kann.
 Besonders langsame Kreaturen können auch einen negativen INI-Wert haben.
 
@@ -202,7 +202,7 @@ Zaubersprüche mit POT 10 sind mächtige Rituale, die es vermögen, gewaltige En
 
 [[ref_core_2d10_characters_attributes_secondary_threshold]]
 ==== Widerstand (WID)
-*Widerstand (WID)* gibt an, wie viel Schaden der Charakter durch einen Angriff einstecken kann, bevor er xref:core_rules_battlesystem.adoc#ref_battle_knockdown[niedergeschlagen] wird.
+*Widerstand (WID)* gibt an, wie viel Schaden der Charakter durch einen Angriff einstecken kann, bevor er xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[niedergeschlagen] wird.
 Ein Charakter, der niedergeschlagen wurde, ist ein leichtes Ziel für Gegner.
 
 [[ref_core_2d10_characters_talents]]
@@ -214,8 +214,15 @@ Ein Charakter, der niedergeschlagen wurde, ist ein leichtes Ziel für Gegner.
 Das Fortschreiten in der Meisterung eines Talents wird in *Talentstufen* gemessen.
 Je besser ein Charakter trainiert ist, umso höher ist seine Talentstufe.
 Talentstufen werden in Zahlen ab 1 dargestellt und jede Zahl steht für einen zusätzlichen Bonus, der für die <<ref_core_2d10_checks_talentchecks,Talentprobe>> verwendet werden kann.
+Besitzt ein Charakter keine einzige Talentstufe in einem Talent, gilt dies nominell als Stufe 0 und es kann nur unter Umständen als <<ref_core_2d10_characters_talents_untrainedcheck,ungeübt>> verwendet werden.
 
 Alle Talente, die regulär allen Charakteren zur Verfügung stehen, finden sich im Dokument link:core_rules_talents_base.adoc[Talente].
+
+[[ref_core_2d10_characters_talents_minimumroll]]
+==== Mindestwurf
+Jedes Talent kann einen eigenen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> für seine <<ref_core_2d10_checks_talentchecks,Probe>> vorgeben.
+Dieser gilt sowohl für <<ref_core_2d10_checks_singularrolls,einfache>> und <<ref_core_2d10_checks_concurrentrolls,konkurrierende>> Proben.
+Sollte keine explizite Vorgabe vorliegen, gilt der <<ref_core_2d10_checks_standardminiumroll,Standardmindestwurf>>.
 
 [[ref_core_2d10_characters_talents_connectedattribut]]
 ==== Verwandtes Attribut
@@ -224,7 +231,7 @@ Dieses bestimmt den <<ref_core_2d10_characters_attributes_bonus,Attributsbonus>>
 
 [[ref_core_2d10_characters_talents_untrainedcheck]]
 ==== Ungeübte Anwendung
-Eine *ungeübte Anwendung* beschreibt, dass man die Fähigkeit, die in einem Talent steckt, anwenden kann, ohne sie jedoch gelernt zu haben.
+Eine *ungeübte Anwendung* beschreibt, dass man die Fähigkeit, die in einem Talent steckt, anwenden kann, ohne das Talent jedoch gelernt zu haben.
 Das heißt, man besitzt dieses Talent nicht, kann aber dennoch versuchen es anzuwenden.
 In den Beschreibungen der Talente findet sich immer eine Angabe, ob dieses Talent eine ungeübte Anwendung zulässt oder nicht.
 Dies ist mit einem schlichten "Ja" oder "Nein" dargestellt.
@@ -244,14 +251,14 @@ Varrik's Spieler überprüft Varrik's Attributsstufe in Geschick und bemerkt, da
 ==== Steigerungsmodifikator
 Jedes Talent, welches ein Charakter kennt (damit mindestens eine Talentstufe von 1 besitzt), erhält einen *Steigerungsmodifikator* (SGM).
 
-* *SGM 1* beschreibt *Berufstalente*, also Talente, die von dem xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_profession[Beruf] favorisiert sind und insbesondere von diesem Beruf benutzt und gelernt werden.
+* *SGM 1* beschreibt *Berufstalente*, also Talente, die von dem xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_profession[Beruf] favorisiert sind und insbesondere von diesem Beruf benutzt und gelernt werden.
 * *SGM 2* beschreibt Talente, die nahe verwandt sind mit dem Beruf.
 * *SGM 3* beinhaltet Talente, die nur wenig mit dem Beruf zu tun hat und sie sind daher schwierig zu lernen.
 
-Durch die xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_profession[Wahl des Berufs] erhält der Charakter eine bestimmte Anzahl von Talenten mit SGM 1 und SGM 2.
+Durch die xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_profession[Wahl des Berufs] erhält der Charakter eine bestimmte Anzahl von Talenten mit SGM 1 und SGM 2.
 Alle anderen Talente sind implizit immer SGM 3.
 
-Der Steigerungsmodifikator beeinflusst die Kosten, um die Stufe in einem Talent zu xref:core_rules_charactercreation.adoc#ref_characters_spendcp_talents[steigern].
+Der Steigerungsmodifikator beeinflusst die Kosten, um die Stufe in einem Talent zu xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_talents[steigern].
 
 [[ref_core_2d10_characters_talents_usage]]
 ==== Anwendung von Talenten
@@ -279,11 +286,26 @@ SL und Spielen können sie verwenden und erweitern.
 *Besondere Fähigkeiten* erweitern (üblicherweise) vorhandene Talente um eine außergewöhnliche Anwendung oder eine Spezialisierung.
 Im Gegensatz zu Talenten werden Fähigkeiten nicht in Stufen gemessen.
 Ein Charakter hat eine Fähigkeit oder er hat sie nicht.
-Das hießt, Fähigkeiten werden einmal xref:core_rules_charactercreation.adoc#ref_characters_spendcp_skills[gelernt] und bieten dauerhaft ihre Vorteile an.
+Das hießt, Fähigkeiten werden einmal xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_skills[gelernt] und bieten dauerhaft ihre Vorteile an.
 
 Üblicherweise wird auch nicht auf Fähigkeiten gewürfelt, sondern auf die Talente, die von den Fähigkeiten erweitert werden.
 
 Eine detaillierte Beschreibung mit allen nötigen Angaben, sowie eine Übersicht, findet sich im folgenden link:core_rules_skills.adoc[Dokument].
+Die Beschreibungen enthalten außerdem die nachfolgend beschriebenen Angaben.
+
+[[ref_core_2d10_characters_skills_requirements]]
+==== Voraussetzungen
+Bevor eine besondere Fähigkeit xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_skills[gelernt] werden kann, muss ein Charakter die angebenen Voraussetzungen erfüllen.
+
+[[ref_core_2d10_characters_skills_cp]]
+==== CP-Kosten
+Um eine Fähigkeit zu xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_skills[lernen], muss ein Charakter xref:core_rules_charactercreation.adoc#ref_core_characters_characterpoints[CP] einsetzen.
+Diese Angabe gibt die notwendige Anzahl an.
+
+[[ref_core_2d10_characters_skills_strain]]
+==== Überanstrengung
+Der Einsatz einer Fähigkeit kann xref:core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden] verursachen.
+Die Angabe "-" bedeutet, dass kein Überanstrengungsschaden anfällt.
 
 [[ref_core_2d10_checks]]
 == Proben
@@ -359,7 +381,7 @@ Die folgende Tabelle zeigt eine beispielhafte Übersicht zu verschiedenen Mindes
 
 [[ref_core_2d10_checks_standardminiumroll]]
 === Standardmindestwurf
-Immer dann, wenn eine Probe einen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> erfordert, aber keiner explizit angegeben ist, gilt impliziert der *Standardmindestwurf* von 15.
+Immer dann, wenn eine Probe einen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> erfordert, aber keiner explizit angegeben ist, gilt impliziert der *Standardmindestwurf* von *12*.
 
 [[ref_core_2d10_checks_successes]]
 === Erfolge
@@ -415,7 +437,7 @@ Dazu gegenüber stehen die nachfolgend beschriebenen <<ref_core_2d10_checks_conc
 === Konkurrierende Proben
 Proben können jedoch auch von anderen Faktoren beeinflusst werden, denn oft genug kann es vorkommen, dass andere Faktoren aktiv die Erfolgsaussichten verändern.
 Für gewöhnlich sind dies Versuche, den Erfolg des Würfelnden zu vermindern.
-Wir sprechen dann von *Konkurrierenden Proben*.
+Wir sprechen dann von *konkurrierenden Proben*.
 Bei konkurrierenden Proben gibt es immer einen *Angreifer* und einen *Verteidiger*, wobei diese Begriffe nicht unbedingt den blutigen Kampf zwischen zwei Wesen bezeichnen müssen.
 
 Der Angreifer ist derjenige (oder dasjenige), von dem eine Aktion ausgeht, die den Verteidiger direkt betrifft.
@@ -565,19 +587,49 @@ Aber die gleiche Probe kann unter unterschiedlichen Umständen schwerer oder lei
 Um dies darzustellen, helfen *Situationsmodifikatoren*.
 
 Modifikatoren werden durch den Ausdruck *+x bzw. -x auf die Würfe zum Erfolg* identifiziert.
-Dies bedeutet, dass Würfelergebnisse einer Probe durch den angegebenen Wert erhöht beziehungsweise verringert werden.
+Dies bedeutet, dass Würfelergebnisse einer Probe durch den angegebenen Wert <<ref_core_2d10_checks_situationalmodifiers_bonus,erhöht>> beziehungsweise <<ref_core_2d10_checks_situationalmodifiers_malus,verringert>> werden.
 
-Die häufigsten Situationsmodifikatoren werden im Dokument link:core_rules_battlesystem.adoc[Kampf] in den Kapiteln zu xref:core_rules_battlesystem.adoc#ref_battle_modifiers_melee[Nahkampf] und xref:core_rules_battlesystem.adoc#ref_battle_modifiers_ranged[Fernkampf] vorgestellt.
+Die häufigsten Situationsmodifikatoren werden im Dokument link:core_rules_battlesystem.adoc[Kampf] in den Kapiteln zu xref:core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers[Nahkampf] und xref:core_rules_battlesystem.adoc#ref_core_battle_projectiles_modifiers[Fernkampf] vorgestellt.
 Auch wenn es sich hier um einem auf den Kampf zentrierte Sichtweise handelt, können vergleichbare Modifikatoren auch beliebig außerhalb des Kampfes verwendet werden.
-Beispielsweise ist xref:core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[Dunkelheit] nicht nur beim Treffen des Gegners ein Problem, sondern auch bei der xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Suche] nach einem versteckten Schalter in einem dunklen Keller.
+Beispielsweise ist xref:core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] nicht nur beim Treffen des Gegners ein Problem, sondern auch bei der xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Suche] nach einem versteckten Schalter in einem dunklen Keller.
+
+Die folgende Tabelle zeigt eine beispielhafte Übersicht von möglichen Situationsmodifikatoren:
+
+|===
+|Modifikator |Beschreibung
+
+|-20
+|Unmöglich
+
+|-15
+|Sehr schwer
+
+|-10
+|Herausfordernd
+
+|-5
+|durchschnittlicher Malus
+
+|+5
+|durchschnittlicher Bonus
+
+|+10
+|Leicht
+
+|+15
+|Sehr leicht
+
+|+20
+|Geschenkt
+|===
 
 [[ref_core_2d10_checks_situationalmodifiers_bonus]]
 ==== Bonus
-Ein Situationsmodifikator mit positiven Vorzeichen verbessert das Ergebnis der Probe und wird als *Bonus* bezeichnet.
+Ein Situationsmodifikator mit _positiven Vorzeichen_ verbessert das Ergebnis der Probe und wird als *Bonus* bezeichnet.
 
 [[ref_core_2d10_checks_situationalmodifiers_malus]]
 ==== Malus
-Ein Situationsmodifikator mit negativen Vorzeichen verschlechtert das Ergebnis der Probe und wird als *Malus* bezeichnet.
+Ein Situationsmodifikator mit _negativen Vorzeichen_ verschlechtert das Ergebnis der Probe und wird als *Malus* bezeichnet.
 Eine Probe kann unabhängig von allen Verrechnungen von Augenzahlen und Boni mit Mali nie einen Wert von unter 0 erreichen.
 Sollte rechnerisch ein solcher Wert eintreten, gilt die Probe mit Ergebnis 0.
 
@@ -615,7 +667,7 @@ Diese Stufe symbolisiert eine außergewöhnliche Unfähigkeit in dem jeweiligen 
 Beispielsweise ist eine Kreatur mit Stufe 0 in Stärke besonders schwach.
 
 Es gelten damit folgende Regeln:
-* Zur Bestimmung von xref:core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary [Attributseigenschaften] wird eine Attributsstufe von 0 als Attributsstufe 1 angesehen (so fern nötig).
+* Zur Bestimmung von xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary [Attributseigenschaften] wird eine Attributsstufe von 0 als Attributsstufe 1 angesehen (so fern nötig).
 * Jede Probe eine <<ref_core_2d10_checks_attributchecks,Attributsprobe>> oder <<ref_core_2d10_checks_saves,Rettungswurf>> auf dem betroffenen Attribut, sowie <<ref_core_2d10_checks_talentchecks,Talentproben>> und deren <<ref_core_2d10_characters_talents_untrainedcheck,ungeübte Anwendung>> werden als <<ref_core_2d10_checks_disadvantage,Nachteil>> gewürfelt.
 
 [NOTE]
@@ -710,7 +762,7 @@ Er erhält diesen Bonus somit nicht auf die Standardrettungswürfe <<ref_core_2d
 Bei manchen Dingen kommt einem einfach die Galle hoch.
 
 * *Misserfolg:* Dem Charakter wird übel und er kann gerade noch schlimmeres verhindern.
-Dennoch muss er für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphasen] einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 hinnehmen.
+Dennoch muss er für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphasen] einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 hinnehmen.
 * *Patzer:* Dem Charakter wird übel, jedoch kann er sich nicht mehr beherrschen und muss sich übergeben.
 Er gilt als <<ref_core_2d10_condition_dazed,benommen (Stufe 1)>>.
 
@@ -781,7 +833,7 @@ Es gelten die gleichen Auswirkungen wie bei einem Misserfolg, allerdings verlier
 
 //TODO
 
-xref:core_rules_magic_base.adoc#ref_magic_schools_illusionsm[Illusionismus]
+xref:core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm[Illusionismus]
 
 
 [[ref_core_2d10_check_saves_base_sicknessresist]]
@@ -802,11 +854,11 @@ Die Beschreibung einer Krankheit enthält einen *sekundären Effekt* und einen *
 ===== Niederschlag
 *Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
 
-Diese Probe wird ausgelöst durch einen körperlichen Schock, zum Beispiel eine xref:core_rules_battlesystem.adoc#ref_battle_wounds[Verletzung].
+Diese Probe wird ausgelöst durch einen körperlichen Schock, zum Beispiel eine xref:core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung].
 Der körperliche Schock kann dazu führen, dass der Charakter zu Boden geht oder sogar bewusstlos wird.
 Gerät der Charakter in eine Situation, die eine Niederschlags-Probe erfordert, muss er eine vorgegebene Anzahl von Erfolgen erreichen.
 
-Für detaillierte Regeln siehe das Dokument Kampf im Kapitel xref:core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlag].
+Für detaillierte Regeln siehe das Dokument Kampf im Kapitel xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag].
 
 [[ref_core_2d10_check_saves_base_reflex]]
 ===== Reflex
@@ -823,7 +875,7 @@ Um eine solche Gefahr abzuwenden, muss die Reflex-Probe einen angebenen <<ref_co
 ====
 Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_2d10_check_saves_base_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
 
-Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Regeln] hoch genug, um den Zauberspruch zu wirken.
+Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Regeln] hoch genug, um den Zauberspruch zu wirken.
 Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen.
 Thalvin und Khelbor würfeln jeweils einen eigenen Reflex-Rettungswurf.
 Je nach Ergebnis erleidet einer oder beide von Ihnen nur 15 Schadenspunkte.
@@ -939,26 +991,26 @@ Im Allgemeinen sind die Zustände mit einem Auslöser verbunden, wie beispielswe
 Viele Begriffe und Regeln in diesem Kapitel verweisen bereits auf das Kapitel link:core_rules_battlesystem.adoc[Kampf], da Zustände im Allgemeinen während eines Kampfs besonders stark zur Geltung kommen.
 
 Weiterhin sind Zustände zeitlich beschränkt, wobei diese Dauer im Allgemeinen durch den Auslöser vorgegeben wird.
-Sofern nicht anders angegeben, wird die Dauer eines Zustands in xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphasen] angegeben.
+Sofern nicht anders angegeben, wird die Dauer eines Zustands in xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphasen] angegeben.
 
-Die folgende link:../tables/table_conditions_overview.adoc[Tabelle] führt alle besonderen Zustände auf mit einer Beschreibung ihrer Auswirkungen auf xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], die Charakter durchführen können.
+Die folgende link:../tables/table_conditions_overview.adoc[Tabelle] führt alle besonderen Zustände auf mit einer Beschreibung ihrer Auswirkungen auf xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], die Charakter durchführen können.
 
 In den folgenden Kapiteln werden die Zustände ausführlich erläutert.
 
 [[ref_core_2d10_condition_onground]]
 === Am Boden
-Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_battle_knockdown[Niederschlag].
+Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag].
 Charakter gilt am Boden, wenn er liegt.
 
-In diesem Zustand erhält der Charakter *-2 auf seine Würfe zum Erfolg*.
-Er darf außerdem nur die Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_battle_move_standup[Aufstehen] und Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_battle_move_useBEW[Rennen] mit halbierter BEW (min. 1,50) verwenden.
+In diesem Zustand erhält der Charakter einen <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle Proben.
+Er darf außerdem nur die Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_standup[Aufstehen] und Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_run[Rennen] mit halbierter BEW (min. 1,50) verwenden.
 
-Um den Zustand zu beenden, muss der Charakter das Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_battle_move_standup[Aufstehen] in seiner Kampfphase verwenden.
+Um den Zustand zu beenden, muss der Charakter das Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_standup[Aufstehen] in seiner Kampfphase verwenden.
 
 [[ref_core_2d10_condition_corned]]
 === Bedrängt
 Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 weitere Charaktere oder Kreaturen mit ihm <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind.
-Ein bedrängter Charakter erhält *-1 auf seine Würfe zum Erfolg* gegen diese Gegner.
+Ein bedrängter Charakter erhält <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidiungsproben>> gegen diese Gegner.
 
 Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
 Es gelten auch diagonal attackierende Gegner zu der Rechnung.
@@ -980,7 +1032,7 @@ Ein Charakter kann diese kumulativ erhalten, hat er beispielsweise bereits 2 Stu
 Diese schränkt die Handlungsfähigkeit eines Charakters in seiner Kampfphase wie folgt ein:
 
 |===
-|Stufe |xref:../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] |xref:../core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktionen]
+|Stufe |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen]
 
 |Benommen (Stufe 1)
 |Nein
@@ -1026,15 +1078,15 @@ Somit dauert die Benommenheit noch eine Kampfphase auf Stufe 1 an.
 [[ref_core_2d10_condition_immobile]]
 === Bewegungsunfähig
 Ein bewegungsunfähiger Charakter hat eine effektive BEW-Rate von 0, die nicht weiter modifiziert werden kann.
-Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] durchführen, solange diese keine BEW erfordern.
+Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] durchführen, solange diese keine BEW erfordern.
 Der Zustand endet üblicherweise nach Ablauf des verursachenden Effekts.
 
 [[ref_core_2d10_condition_blind]]
 === Blind
 Ein Charakter kann geblendet werden, zum Beispiel durch grelles Licht, einen Zauberspruch oder weil jemand ihm eine Augenbinde umgelegt hat.
 
-Ein blinder Charakter gilt als stünde er in xref:core_rules_battlesystem.adoc#ref_battle_modifiers_darkness[totaler Dunkelheit].
-Außerdem kann er keine xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] durchführen.
+Ein blinder Charakter gilt als stünde er in xref:core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[totaler Dunkelheit].
+Außerdem kann er keine xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] durchführen.
 
 Einige Kreaturen besitzen keine typischen Sinne oder ihre Wahrnehmung basiert nicht hauptsächlich auf Sicht, sondern zum Beispiel auf Gehör.
 Auch diese Kreaturen können diesen Zustand erhalten, allerdings muss die verursachende Quelle explizit den besonderen Sinn betreffen.
@@ -1044,11 +1096,11 @@ Sollte diese nicht gegeben sein, so dauert die Blindheit 1W10 minus die ER-Stufe
 
 [[ref_core_2d10_condition_burning]]
 === Brennend
-Ein brennender Charakter erhält zu Beginn seiner Kampfphase eine festgelegte Anzahl von Schadenspunkten für die angegebene xref:core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart].
+Ein brennender Charakter erhält zu Beginn seiner Kampfphase eine festgelegte Anzahl von Schadenspunkten für die angegebene xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart].
 Ist keine angegeben, wird 1W3 Schadenspunkte angenommen.
-Es gelten die üblichen Regeln für die Bestimmung oder Reduktion von xref:core_rules_battlesystem.adoc#ref_battle_damage[Schaden].
+Es gelten die üblichen Regeln für die Bestimmung oder Reduktion von xref:core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden].
 
-Mit diesem Zustand ist jedoch nicht ausschließlich das Brennen durch xref:core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] gemeint, sondern der Zustand kann jede xref:core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] verwenden.
+Mit diesem Zustand ist jedoch nicht ausschließlich das Brennen durch xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] gemeint, sondern der Zustand kann jede xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] verwenden.
 Die folgende Tabelle zeigt eine beispielhafte Liste für Namen des Zustandes je nach Schadensart.
 
 |===
@@ -1103,14 +1155,14 @@ Sobald ein Charakter mindestens eine Stufe Erschöpfung hat, gilt er im Sinne di
 
 Die Anzahl der Stufen in Erschöpfung haben kumulative Effekte.
 
-* für jede xref:core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion], die der Charakter durchführen will, nimmt er 1 xref:core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengungsschaden].
-* pro Stufe erhält der Charakter einen Malus von -3 auf seine xref:core_rules_charactercreation.adoc#ref_secondary_inibonus[INI].
+* für jede xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion], die der Charakter durchführen will, nimmt er 1 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
+* pro Stufe erhält der Charakter einen Malus von -5 auf seine <<ref_core_2d10_characters_attributes_secondary_initiativebonus,INI>>.
 Der INI-Bonus kann auch negativ werden.
-* pro Stufe erhält der Charakter einen Malus von -1,50 Meter auf seine xref:core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+* pro Stufe erhält der Charakter einen Malus von -1,50 Meter auf seine <<ref_core_2d10_characters_attributes_secondary_movementrate,BEW>>.
 Der Malus kann BEW des Charakters nicht unter 1,50 Meter bringen.
 * Der Charakter erhält ab Stufe 2 auf alle <<ref_core_2d10_checks_saves_ST,Stärke-basierten>> Proben einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 
-Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_KO,KO-Rettungswurf>> ablegen.
+Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_KO,KO-Rettungswurf>> ablegen.
 Besteht er diesen Rettungswurf nicht, wird er <<ref_core_2d10_condition_unconscious,ohnmächtig>>.
 
 Um eine oder mehrere Stufen Erschöpfung zu entfernen, muss der Charakter sich <<ref_core_2d10_regeneration,erholen>>.
@@ -1121,7 +1173,7 @@ Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
 Manchmal ist Flucht die beste Verteidigung.
 Ein Charakter in diesem Zustand ist üblicherweise unfreiwillig auf der Flucht aus einer Kampfsituation, zum Beispiel aufgrund einer verpatzen <<ref_core_2d10_check_saves_base_fear,Furcht-Probe>>.
 
-Ein fliehender Charakter muss in seiner Kampfphase seine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] ausschließlich darauf verwenden, um den Kampf zu entkommen.
+Ein fliehender Charakter muss in seiner Kampfphase seine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] ausschließlich darauf verwenden, um den Kampf zu entkommen.
 
 Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen oder wenn der Charakter den Kampfschauplatz verlassen hat.
 Letzteres liegt im Ermessen des SL.
@@ -1134,7 +1186,7 @@ Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen
 Gefangene Charaktere gelten als <<ref_core_2d10_condition_immobile,bewegungsunfähig>>.
 Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind oder der Auslöser für den Zustand sind, einen <<ref_core_2d10_checks_situationalmodifiers_bonus,Bonus>> von +5 aus alle Angriffsproben gegen diesen Charakter.
 
-Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_battle_move_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_battle_actions_attack_brawl[Raufen und Ringen].
+Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack_brawl[Raufen und Ringen].
 
 [[ref_core_2d10_condition_bondedincombat]]
 === Im Nahkampf gebunden
@@ -1144,7 +1196,8 @@ Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm
 
 [[ref_core_2d10_condition_disabled]]
 === Kampfunfähig
-Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver], xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_battle_freeactions[Freie Aktionen] zur Verfügung.
+Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver], xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen] zur Verfügung.
+
 Sofern nicht anders angegeben, gelten keine anderen Zustände (wie zum Beispiel im Fall einer <<ref_core_2d10_condition_unconscious,Ohnmacht>> <<ref_core_2d10_condition_onground,am Boden>> zu liegen).
 Die Kampfunfähigkeit endet erst, wenn der Zustand explizit aufgehoben wird.
 
@@ -1187,7 +1240,7 @@ Ein Charakter beginnt das Ende seiner Ohnmacht <<ref_core_2d10_condition_ongroun
 === Unsichtbar
 Ob durch Magie oder einen genialen, optischen Trick, verschwinden unsichtbare Charaktere aus dem Sichtfeld der Umgebung.
 Unsichtbare Charaktere können nicht direktes Ziel einer <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsprobe>> oder Interaktion sein.
-Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriffe].
+Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
 
 Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar gegenüber Kreaturen, die über andere Sinne als "Sicht" verfügen.
 Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
@@ -1199,8 +1252,8 @@ Der Zustand endet üblicherweise nach Ende des auslösenden Effekts.
 
 [[ref_core_2d10_condition_surprised]]
 === Überrascht
-Ein überraschter Charakter kann in der Kampfphase keine xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] ansagen.
-Alle xref:core_rules_battlesystem.adoc#ref_battle_reactions[Reaktionen] erhalten einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
+Ein überraschter Charakter kann in der Kampfphase keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
+Alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] erhalten einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 Der Zustand endet nach einer Kampfphase.
 
 [[ref_core_2d10_condition_bewitched]]
@@ -1242,8 +1295,8 @@ Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_core_2d10_death,Tod>>.
 [[ref_core_2d10_pools_mp]]
 === Magiepunkte (MP)
 *Magiepunkte (MP)* stellen das teils angeborene, teils erlernte magische Potenzial eines Charakters dar.
-MP werden üblicherweise beim Aussprechen von xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Zaubersprüchen] verbraucht, um diese zu verkürzen oder mit zusätzlichen Effekten zu versehen.
-Die Schadensart xref:core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt] wird ebenfalls von diesem Pool abgezogen.
+MP werden üblicherweise beim Aussprechen von xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Zaubersprüchen] verbraucht, um diese zu verkürzen oder mit zusätzlichen Effekten zu versehen.
+Die Schadensart xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt] wird ebenfalls von diesem Pool abgezogen.
 
 Magier müssen mit Bedacht ihre MP einsetzen, denn auch hier bedeutet das Erreichen des Wertes 0 eine gefährliche Situation.
 Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_core_2d10_death,Tod>>.
@@ -1334,7 +1387,7 @@ Hat beispielsweise ein Charakter noch 5 TP und erleidet 10 Schadenspunkte, hat e
 [[ref_core_2d10_death_condition_deathsdoor]]
 === Dem Tode nahe
 Dieser Zustand zeigt an, dass ein Charakter dem Tode nahe ist.
-Der Zustand schränkt den Charakter nicht weiter ein, daher ist es möglich, dass ein Charakter in diesem Zustand (und damit implizit mit beispielsweise 0 TP) weiterhin xref:core_rules_battlesystem.adoc#ref_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_battle_movefightaction[Manöver] und so weiter einsetzen kann.
+Der Zustand schränkt den Charakter nicht weiter ein, daher ist es möglich, dass ein Charakter in diesem Zustand (und damit implizit mit beispielsweise 0 TP) weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] und so weiter einsetzen kann.
 
 Der Zustand wird aufgehoben, sobald der Charakter keinen Punktepool auf dem Wert 0 hat.
 Das heißt, jeder Punktepool (außer <<ref_core_2d10_pools_sp,SP>>) muss einen Wert größer 0 haben.
@@ -1346,7 +1399,7 @@ Erhält ein Charakter in diesem Zustand auf dem Energiepunktepool, in dem er der
 Ein Todesrettungswurf ist ein besonderer <<ref_core_2d10_checks_saves,Rettungswurf>>, den ein Charakter würfeln muss, wenn er <<ref_core_2d10_death_condition_deathsdoor,dem Tode nahe>> ist und weiteren Schaden erhält.
 
 Der Todesrettungswurf besteht ausschließlich aus einem <<ref_core_2d10_checks_basicrole,Basiswurf>> und ist an kein Attribut geknüpft.
-Es gelten keine <<ref_core_2d10_checks_situationalmodifiers,Situationsmodifikatoren>> oder Modifikatoren durch xref:core_rules_battlesystem.adoc#ref_battle_wounds[Verletzungen].
+Es gelten keine <<ref_core_2d10_checks_situationalmodifiers,Situationsmodifikatoren>> oder Modifikatoren durch xref:core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzungen].
 Nur wenn Modifikatoren explizit Todesrettungswürfe betreffen, sind diese anzuwenden.
 Der <<ref_core_2d10_checks_miniumroll,Mindestwurf>> beträgt 10.
 

@@ -14,11 +14,11 @@ Allen gemein ist, dass der Golem eine scharfe Klinge am Arm trägt.
 Diese könnte beispielsweise wie ein Schwert gehalten werden, gerade oder gekrümmt sein.
 Manche Armklingen werden auch der Länge nach dem Arm des Golems angebracht.
 
-Die Armklinge wird wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_melee_and_unarmed[Nahkampfwaffe] eingesetzt.
-Zur Schadensermittlung gelten die üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Regeln].
-Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_dexterity[GE] des Golems behandelt und einen individuellen Schadensbonus bei.
+Die Armklinge wird wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed[Nahkampfwaffe] eingesetzt.
+Zur Schadensermittlung gelten die üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Regeln].
+Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] des Golems behandelt und einen individuellen Schadensbonus bei.
 
-Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie] der Armklinge wie folgt ab:
+Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] der Armklinge wie folgt ab:
 
 |===
 |GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus

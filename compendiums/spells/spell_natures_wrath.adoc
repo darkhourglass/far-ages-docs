@@ -12,7 +12,7 @@
 *Dauer:* Sofort +
 *Effekt:* Du fokussierst eine Druckwelle ursprünglicher Energie gegen eine Kreatur innerhalb der Reichweite.
 
-Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schaden].
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkten].
 Dieser Schaden erhöht sich, wenn die Kreatur eine oder mehrere Bedingungen erfüllt:
 
 * +2W6, wenn ihr primärer Kreaturentyp einer der folgenden ist: link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
@@ -20,5 +20,5 @@ Dieser Schaden erhöht sich, wenn die Kreatur eine oder mehrere Bedingungen erf�
 
 *Zusätzliche Effekte:* +
 +2 MP: Reichweite +6,00 Meter +
-+10 MP, + 2 POT: Die xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] kann von Dir zu einer der folgenden geändert werden: xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer], xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock] oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost] +
++10 MP, + 2 POT: Die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] kann von Dir zu einer der folgenden geändert werden: xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock] oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost] +
 +5 MP: +1W6 Schaden +

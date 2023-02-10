@@ -13,7 +13,7 @@
 
 [[ref_chevalier_inspiringpresenz]]
 === Inspirierende Präsenz
-Einmal pro Kampfrunde kann der Kavalier für den Einsatz einer xref:../core_rules_battlesystem.adoc#ref_battle_reactions[Reaktion] einen beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] eines Verbündeten im Umkreis von 6 Metern wiederholen lassen.
+Einmal pro Kampfrunde kann der Kavalier für den Einsatz einer xref:../core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einen beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] eines Verbündeten im Umkreis von 6 Metern wiederholen lassen.
 Es zählt das bessere Ergebnis.
 Um diese Fähigkeit anwenden zu können, muss der Kavalier auf seinem Reittier reiten.
 
@@ -23,18 +23,18 @@ Zu Beginn des Spiels erhält der Kavalier ein xref:../core_rules_advantages.adoc
 Darüber hinaus hat das Reittier Stresssituationen trainiert (z.B. den Kampf) und bleibt ruhig.
 Es kann an Kämpfen teilnehmen.
 Es gilt außerdem als ein xref:../core_rules_advantages.adoc#ref_advantage_animalcompandion[Tiergefährte] für den Charakter.
-Jedes Mal, wenn der Kavalier eine xref:../core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP des Reittiers um 6.
+Jedes Mal, wenn der Kavalier eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP des Reittiers um 6.
 
 [[ref_chevalier_symbioticfigthing]]
 === Symbiotischer Kampfstil
 Das Kampftraining, dass der Kavalier mit seinem Reittier von Beginn dessen Leben absolvierte, führt zu einer außergewöhnlichen Koordination im Kampf.
-Zusätzlich zu den üblichen Regeln zum xref:../core_rules_battlesystem.adoc#ref_battle_mounted_combat[Berittener Kampf] gelten folgende Punkte, wenn der Kavalier im Sattels seines Reittier kämpft:
+Zusätzlich zu den üblichen Regeln zum xref:../core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Berittener Kampf] gelten folgende Punkte, wenn der Kavalier im Sattels seines Reittieres kämpft:
 * Einmal pro Kampfphase darf der Kavalier bestimmen, ob sein Reittier gegen einen Gegner als eine GK größer oder kleiner gelten soll.
 Die GK-abhängigen Modifikationen ändern sich entsprechend, jedoch nur für einen Gegner und nur bis zum Ende der aktuellen Kampfphase.
-* Zur Ermittelung der Initiative darf der Kavalier den xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI-Bonus] seines Reittieres zu seinem hinzuaddieren, falls er dies wünscht.
+* Zur Ermittelung der Initiative darf der Kavalier den xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Bonus] seines Reittieres zu seinem hinzuaddieren, falls er dies wünscht.
 
 [[ref_chevalier_animalcare]]
 === Tierpflege
 Einmal pro Tag darf der Kavalier eine der folgenden Aktionen durchführen:
-* Eine xref:../core_rules_battlesystem.adoc#ref_battle_wounds[Wunde] seines Reittiers automatisch heilen.
+* Eine xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde] seines Reittiers automatisch heilen.
 * Sein Reittier regeneriert 2W10 TP.

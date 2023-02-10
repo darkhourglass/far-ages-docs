@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Geste +
 *Fokus:* Erde+
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 5 +
 *Reichweite:* 12,00 Meter +
 *Anzahl der Ziele:* Fläche 1,50 x 1,50 Meter +
 *Dauer:* 5 Kampfphasen +
@@ -16,12 +15,12 @@ Die Erde ist fest und blockiert auf Bodenebene.
 
 Die Erdsäule kann maximal 3,00 Meter in die Höhe reichen.
 Mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kannst die initiale Höhe bestimmen.
-Einmal pro Kampfphase kannst Du eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] einsetzen, um die Erdsäule um 1,50 Meter erhöhen oder reduzieren.
+Einmal pro Kampfphase kannst Du eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen, um die Erdsäule um 1,50 Meter erhöhen oder reduzieren.
 
 Die Erdsäule ist stabil genug, um Kreaturen zu tragen.
 Du kannst die Erdsäule also benutzen, um Kreaturen in die Höhe zu heben, ob sie es wollen oder nicht.
 
-Trifft die Erdsäule auf ein Hindernis, so agiert sie wie eine Kreatur mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] gleich ihrer POT.
+Trifft die Erdsäule auf ein Hindernis, so agiert sie wie eine Kreatur mit xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] gleich ihrer POT.
 
 Du kannst die Erdsäule nicht direkt offensiv verwenden. +
 *Zusätzliche Effekte:* +

@@ -10,8 +10,8 @@
 *Beschreibung:* Die Stahlpanzerung gehört zu den beliebtesten und am häufigsten verbauten Panzerungen.
 Ihre vergleichsweise moderaten Kosten und effektive Herstellung macht die verringerte Schutzwirkung wett.
 
-Diese Rüstung schützt nur die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Standardtrefferzone] des Golems.
-Dafür muss der Golem nicht auf Bewegung und Flexibilität verzichten, denn diese Panzerung erfordert keine negativen Modifikatoren auf beispielsweise seine xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+Diese Rüstung schützt nur die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Standardtrefferzone] des Golems.
+Dafür muss der Golem nicht auf Bewegung und Flexibilität verzichten, denn diese Panzerung erfordert keine negativen Modifikatoren auf beispielsweise seine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 
 |===
 |GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz

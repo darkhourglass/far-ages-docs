@@ -6,15 +6,14 @@
 *Komponenten:* Formel, Gesten +
 *Fokus:* Feuer +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 4 +
 *Reichweite:* 15,00 Meter +
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* Sofort +
 *Effekt:* Du beschwörst magisches Feuer, das sich in Deinen Händen zu einer flammenden Kugel formt.
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
 Wenn er auf dem Boden einschlägt, zerberstet er zu einem Inferno mit einem Radius von 3 Metern um den Einschlagpunkt. +
-Jede Kreatur im Zielradius erleidet 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuerschaden].
-Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge der Spruchzauberei-Probe würfeln.
+Jede Kreatur im Zielradius erleidet 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuerschaden].
+Alle Kreaturen dürfen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen das Ergebnis Deiner Spruchzauberei-Probe würfeln.
 Bei einem Erfolg werden die Schadenspunkte halbiert (Minimum 1). +
 *Zusätzliche Effekte:* +
 +2 MP: Reichweite: +3,00 Meter +

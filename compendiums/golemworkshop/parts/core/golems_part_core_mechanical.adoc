@@ -10,7 +10,7 @@
 *Beschreibung:* In nicht allen Fällen ist es gewünscht oder möglich einen Golem vollständig selbstständig auf Basis seines Programmes agieren zu lassen.
 Dieser Kern erlaubt es einer (üblicherweise link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoiden]) Kreatur den Golem aus einer Pilotenkabine in dessen Rumpf zu steuern.
 
-Eine Pilotenkabine mit mechanischer Steuerung kann von einer einzelnen Kreatur bemannt werden, deren eigene xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] mindestens 2 Punkte kleiner ist, als die des Golems.
+Eine Pilotenkabine mit mechanischer Steuerung kann von einer einzelnen Kreatur bemannt werden, deren eigene xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] mindestens 2 Punkte kleiner ist, als die des Golems.
 Beispielsweise kann ein Golem der GK 7 von einer Kreatur der GK 5 oder kleiner gesteuert werden.
 Die Angaben in der folgenden Tabelle beziehen sich immer auf die GK des Golems.
 
@@ -52,6 +52,6 @@ Auch die Pilotenkabine besitzt eine Energieversorgung, die analog zur link:golem
 Die steuernde Kreatur hat keinen direkten Zugriff auf die MP, sondern verwendet diese nach den üblichen Regeln, um die Fähigkeiten des Golems einzusetzen.
 Ein link:../../../spells/spell_energytransfer.adoc[Energietransfer] ist normal möglich.
 
-Der Pilot und der gesteuerte Golem gilt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_mounted_combat[Reiter und Reittier] für die Regeln im Kampf.
+Der Pilot und der gesteuerte Golem gilt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Reiter und Reittier] für die Regeln im Kampf.
 
 Golems mit dieser Energieversorgung können nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden.

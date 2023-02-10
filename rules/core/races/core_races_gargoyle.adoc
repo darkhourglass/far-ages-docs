@@ -13,7 +13,7 @@
 [[ref_gargoyle_freeze]]
 === Erstarren
 Gargoyle besitzen die außergewöhnliche Eigenschaft, ihren Körper zum Erstarren zu bringen, so dass man sie von Statuen nicht unterscheiden kann.
-Um diesen Zustand zu erreichen, muss der Gargoyle ein xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] einsetzen können.
+Um diesen Zustand zu erreichen, muss der Gargoyle ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen können.
 Jegliche Mimik, Bewegung und subtile Motorik wird unterdrückt.
 Gleichzeit wird die Haut noch fester und rauer, womit sie noch mehr Stein gleicht. +
 In diesem Zustand hat der Gargoyle keine Einschränkungen auf seine üblichen Sinne, auch seine Atmung funktioniert normal. Er kann keine Aktionen durchführen. Sein natürlicher Rüstungsschutz aus <<ref_gargoyle_hardasstone>> erhöht sich auf 10 Rüstungspunkte auf allen Treffenzonen. +
@@ -23,7 +23,7 @@ Das Erstarren endet, wenn der Gargoyle eine Aktion durchführt oder spätestens 
 
 [[ref_gargoyle_hardasstone]]
 === Hart wie Stein
-Die steinerne Haut eines Gargoyles erwährt ihm 3 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_naturalarmor[Natürlichen Rüstungsschutz] auf allen Trefferzonen.
+Die steinerne Haut eines Gargoyles erwährt ihm 3 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[Natürlichen Rüstungsschutz] auf allen Trefferzonen.
 
 [[ref_gargoyle_resilient]]
 === Resistent
@@ -31,4 +31,4 @@ Gargoyle erhalten einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks
 
 [[ref_gargoyle_unbreakable]]
 === Unverwüstlich
-Der Charakter erhält einen Bonus von +2 xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID].
+Der Charakter erhält einen Bonus von +2 xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID].

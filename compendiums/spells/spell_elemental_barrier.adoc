@@ -6,16 +6,15 @@
 *Komponenten:* Geste +
 *Fokus:* speziell +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 3 +
 *Reichweite:* Selbst/Berührung +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* 10 Kampfphasen +
 *Effekt:* Du beschwörst eine fast transparente, leicht schimmernde Sphäre aus elementarer Energie, die die Zielkreatur umgibt. +
 
-Für die Dauer des Zauberspruches schützt diese Barriere die Zielkreatur vor Schaden eines bestimmten xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadentyps].
+Für die Dauer des Zauberspruches schützt diese Barriere die Zielkreatur vor Schaden eines bestimmten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[Schadentyps].
 Die Barriere wehrt bis zu 10 Schadenspunkte aus einer beliebigen Anzahl solcher Quelle ab, so dass die Kreatur selbst keinen Schaden nimmt.
 Sind 10 Schadenspunkte über die Dauer des Zauberspruches abgewehrt, endet dieser automatisch.
-Die Barriere gilt vor allen anderen möglichen Schadensreduktionen, wie zum Beispiel einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz].
+Die Barriere gilt vor allen anderen möglichen Schadensreduktionen, wie zum Beispiel einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz].
 
 Je nach Element, mit dem Du diesen Zauberspruch lernst, ändert sich der Fokus und die abgewehrte Schadensart.
 Diese kann in folgender link:../../rules/tables/magic/table_magic_elementals_and_aspects.adoc[Tabelle] entnommen werden.

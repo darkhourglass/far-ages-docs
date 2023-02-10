@@ -1,12 +1,11 @@
 = Untoten kontrollieren
 
 *Arkanes Geheimnis:* Nein +
-*POT:* 5 +
+*POT:* 5 + (1 + Ziel-Machtstufe) +
 *Rettungswurf:* Speziell +
 *Komponenten:* Formel +
 *Fokus:* Ebon, Geist +
 *Vorbereitung:* (1 + Ziel-Machtstufe) +
-*Anzahl der Erfolge:* (1 + Ziel-Machtstufe) +
 *Reichweite:* 15,00 Meter +
 *Anzahl der Ziele:* 1 Untoter +
 *Dauer:* Speziell +
@@ -42,10 +41,5 @@ Die folgende Tabelle zeigt die Übersicht.
 |Ja
 |===
 
-
-Mit diesem Zauberspruch können nur Untote der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 0 kontrolliert werden. +
 *Zusätzliche Effekte:* +
-+ 2 POT: Machtstufe 1, 2 und 3 möglich
-+ 3 POT: Machtstufe 4, 5 und 6 möglich
-+ 4 POT: Machtstufe 7, 8 und 9 möglich
-+ 5 POT: Machtstufe 10 möglich
+-

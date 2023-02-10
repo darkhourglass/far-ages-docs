@@ -13,7 +13,7 @@
 *Effekt:* Du reibst Deine Hände aneinander und kleine Funken bilden sich.
 Mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] entlässt Du einen imposanten Funkenregen auf Dein Ziel.
 
-Dieses erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit einem Schadensbonus von 3W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden].
+Dieses erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Treffer] mit einem Schadensbonus von 3W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 Weiterhin muss die Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO-Rettungswurf] gegen die Anzahl der Erfolge auf Deiner Spruchzauberei-Probe bestehen.
 Misslingt der Rettungswurf, ist die Kreatur bis zum Ende ihrer nächsten Kampfphase xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[blind].
 +

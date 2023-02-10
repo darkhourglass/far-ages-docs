@@ -23,7 +23,7 @@ Für Schutzgeister gelten folgenden Regeln:
 * Zu Beginn der Charaktererschaffung muss der Schamane einen Schutzgeist aus unten stehender Liste auswählen.
 Die Entscheidung ist final.
 * Solange der Geist im Umkreis von 15 Metern um den Schamanen sich befindet, kann der Schamane die Fähigkeiten des Geistes nutzen.
-* Befindet sich der Geist außerhalb des Umkreises, kann der Schamane eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] aufwänden, um den Geist herbeizurufen.
+* Befindet sich der Geist außerhalb des Umkreises, kann der Schamane eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] aufwänden, um den Geist herbeizurufen.
 * Der Geist ist link:../../advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] und kann durch physische Attacken nicht verwundet werden. Ausschließlich Angriffe oder Zauber, die auf körperlose Wesen zielen, können ihn betreffen.
 Verliert der Geist durch einen solchen Angriff mindestens 1 TP, ist der Geist für 24 Stunden gebannt. Nach Ablauf dieser Zeit kann er Schamane ihn wieder beschwören.
 * Der Geist besitzt keine Sprache, aber er und der Schamane können telepathisch miteinander kommunizieren. Im Normalfall folgt der Geist den Worten des Schamanen.
@@ -34,12 +34,12 @@ Verliert der Geist durch einen solchen Angriff mindestens 1 TP, ist der Geist f�
 Elementare Geister sind Schutzgeister, die aus den Sphären der Elemente stammen.
 Sie gehören jeweils einem Element an und gewähren jeweils andere Fähigkeiten:
 
-* Erde: +2 xref:../core_rules_charactercreation.adoc#ref_secondary_threshold[WID], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erde]
-* Feuer: +3 xref:../core_rules_charactercreation.adoc#ref_secondary_inibonus[INI], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer]
-* Luft: +3,00 xref:../core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft]
-* Wasser: +1 xref:../core_rules_charactercreation.adoc#ref_secondary_maxmagicpotential[MaxPOT], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_water[Wasser]
+* Erde: +2 xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde]
+* Feuer: +3 xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* Luft: +3,00 xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrates[BEW], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft]
+* Wasser: +1 xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxPOT], 5 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
 
-Jeder elementare Geist lehrt den Schamanen außerdem einen xref:../core_rules_magic_base.adoc#ref_magic_base_arcanetrick[Arkanen Trick] aus einer der folgenden Listen abhängig vom Element des Geistes:
+Jeder elementare Geist lehrt den Schamanen außerdem einen xref:../core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[Arkanen Trick] aus einer der folgenden Listen abhängig vom Element des Geistes:
 
 * Erde: xref:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde]
 * Feuer: xref:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers]
@@ -54,13 +54,13 @@ Dabei nimmt er unterschiedliche Gestalten an, die von verschiedenen Tieren bis a
 
 ==== Feengeist
 
-Feengeister stammen aus dem xref:../core_rules_magic_base.adoc#ref_magic_lore_empyreum[Empyreum], dem Rand des Aethers, der Ursprung der xref:../core_rules_magic_base.adoc#ref_magic_schools_wild_magic[Wilden Magie] ist.
+Feengeister stammen aus dem xref:../core_rules_magic_base.adoc#ref_magic_lore_empyreum[Empyreum], dem Rand des Aethers, der Ursprung der xref:../core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic[Wilden Magie] ist.
 Neben schrecklichen Wesen wie Dämonen ist das Empyreum auch Heimat der Feen, der Kinder xref:../../../lore/progenitors/lore_progenitors_alberon.adoc[Alberons]. Feengeister manifestieren sich in verschiedenen verwandten Wesen, wie zum Beispiel Irrlichtern oder Nymphen. +
 Feengeister bieten dam Schamanen folgende Fähigkeiten:
 
-* Der Schamane erhält einen Bonus von 10 MP auf seinen xref:../core_rules_charactercreation.adoc#ref_secondary_magicpoints[Magiepunkte]-Pool
+* Der Schamane erhält einen Bonus von 10 MP auf seinen xref:../xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP-Pool].
 * Der Schamane erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex]-Proben.
-* 5 Punkte xref:../core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_primary_interlect[Intellekt]
+* 5 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
 
 ==== Tiergeister
 
@@ -77,5 +77,5 @@ Der Schamane benötigt in diesem Fall nicht die Voraussetzungen erfüllen und le
 
 === Vertraute Umgebung
 Zur Charaktererschaffung muss ein Schamane einen Geländetyp wählen, z.B. Gebirge, Wald, Sumpf etc..
-In dem gewählten Geländetyp erleidet er nie Einschränkungen auf seine xref:../core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] durch schwieriges Gelände.
+In dem gewählten Geländetyp erleidet er nie Einschränkungen auf seine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] durch schwieriges Gelände.
 Magische Effekte, die diese Attributseigenschaft beeinflussen, wirken jedoch normal.

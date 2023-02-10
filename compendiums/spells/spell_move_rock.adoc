@@ -13,8 +13,8 @@
 *Effekt:* Du konzentrierst Deine Gedanken auf einen Fels oder Stein in Reichweite des Zauberspruches.
 Mit Deinem Willen und dem Wissen über die elementaren Mächte der Erde bewegst Du den Fels wie durch Geisterhand.
 
-Um das maximale Gewicht des Ziels zu bestimmen, welches Du bewegen darfst, addierte 10 Stufen zu Deinen Stufen in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST].
-Basierend auf dem Resultat, bestimme die xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_maxcarringcapacity[MaxTL].
+Um das maximale Gewicht des Ziels zu bestimmen, welches Du bewegen darfst, addierte 10 Stufen zu Deinen Stufen in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST].
+Basierend auf dem Resultat, bestimme die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxcarryingcapacity[MaxTL].
 Dieses Ergebnis ist wiederum das maximale Gewicht des Felsens, dass Du bewegen kannst.
 Deine Stärke erhöht sich dadurch effektiv nicht.
 
@@ -22,8 +22,8 @@ Du kannst den Fels mit erfolgreicher xref:../../rules/core/core_rules_talents_ba
 Der Fels kann die Reichweite des Zauberspruches nicht verlassen.
 
 Du kannst den Fels auch gegen eine Kreatur (oder mehrere Kreaturen je nach Größe) schleudern.
-Zunächst bestimmst Du mit dem SL die xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] des Felsens.
-Jede Kreatur im Bereich, in dem der Fels landet, erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 1W6 Schaden pro Punkt in GK des Felsens.
+Zunächst bestimmst Du mit dem SL die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Felsens.
+Jede Kreatur im Bereich, in dem der Fels landet, erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W6 Schaden pro Punkt in GK des Felsens.
 
 In diesem Fall steht der Kreatur oder den Kreaturen im Zielgebiet ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] zu.
 Bei einem Erfolg weichen sie dem Felsen aus und erleiden keinen Schaden.

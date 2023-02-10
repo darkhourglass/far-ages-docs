@@ -8,11 +8,11 @@
 *MP-Kosten:* 10 MP +
 *Beschreibung:* Dieser Zusatz besteht aus zwei oder mehr Auspuff-artigen Rohren, die am Golem montiert sind.
 
-Dieser Zusatz kann nur auf die Chassis der Typen link:../chassis/golems_part_chassis_humanoid.adoc[Humanoid] oder link:../chassis/golems_part_chassis_scout.adoc[Kundschafter] der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GKs] 1 bis 6 verbaut werden.
+Dieser Zusatz kann nur auf die Chassis der Typen link:../chassis/golems_part_chassis_humanoid.adoc[Humanoid] oder link:../chassis/golems_part_chassis_scout.adoc[Kundschafter] der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GKs] 1 bis 6 verbaut werden.
 Der Zusatz erfordert 2 Punkte an Zusätzen.
 
-Mit dem Einsatz eines xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] und der MP-Kosten aktiviert der Golem das Jetpack.
-In dieser Kampfphase kann er seine xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] nicht weiter einsetzen.
+Mit dem Einsatz eines xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] und der MP-Kosten aktiviert der Golem das Jetpack.
+In dieser Kampfphase kann er seine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] nicht weiter einsetzen.
 Das Jetpack produziert einen starken, aber kontrollierten Rückstoß, der den Golem in die Luft hebt und über eine gewisse Distanz transportiert.
 
 Der Jetpack hat eine maximale Reichweite von 24,00 Metern pro Einsatz.

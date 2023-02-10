@@ -11,7 +11,7 @@ Jede Kreatur kann diese Schablone erhalten.
 == Attribute
 
 Die Kreatur erhält einen Bonus von +6, +4 und +2 auf 3 unterschiedliche Attributsstufen.
-Die Attributseigenschaften ändern sich entsprechend der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Regeln].
+Die Attributseigenschaften ändern sich entsprechend der xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Regeln].
 
 [[ref_template_legendary_talente]]
 == Talente
@@ -26,8 +26,8 @@ Die Kreatur erhält folgende Fähigkeit mit Erhalt dieser Schablone.
 [[ref_template_legendary_skill_legendary_actions]]
 === Legendäre Aktionen
 
-Die Kreatur erhält die Fähigkeit, einmal pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] eine legendäre Aktion durchzuführen.
-Diese funktionieren wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen], das bedeutet, um eine legendäre Aktion durchzuführen, muss diese explizit als solche ausgewiesen sein.
+Die Kreatur erhält die Fähigkeit, einmal pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] eine legendäre Aktion durchzuführen.
+Diese funktionieren wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen], das bedeutet, um eine legendäre Aktion durchzuführen, muss diese explizit als solche ausgewiesen sein.
 
 [[ref_template_legendary_skill_legendary_skills]]
 === Legendäre Fähigkeiten
@@ -43,8 +43,8 @@ Eine Kreatur mit dieser Fähigkeit, die diese Sclablone erhält, kann die Vortei
 
 [[ref_template_legendary_skill_legendary_reactions]]
 === Legendäre Reaktionen
-Die Kreatur erhält die Fähigkeit, einmal pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] eine legendäre Reaktion durchzuführen.
-Diese funktionieren wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktionen], das bedeutet, um eine legendäre Reaktion durchzuführen, muss diese explizit als solche ausgewiesen sein.
+Die Kreatur erhält die Fähigkeit, einmal pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] eine legendäre Reaktion durchzuführen.
+Diese funktionieren wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen], das bedeutet, um eine legendäre Reaktion durchzuführen, muss diese explizit als solche ausgewiesen sein.
 
 [[ref_template_legendary_cp]]
 == CP

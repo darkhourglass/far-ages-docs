@@ -13,7 +13,7 @@
 *Effekt:* Du zeigst auf eine Kreatur und ein Blitz arkaner Energie jagt aus Deinen Fingern auf diese zu.
 Das Ziel muss eine Kreatur mit dem angegebenen, primären Kreaturentyp sein.
 
-Bei einer erfolgreichen xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit Schadensbonus 3W6+3.
+Bei einer erfolgreichen xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Treffer] mit Schadensbonus 3W6+3.
 
 Du kannst diesen Zauberspruch auch mehrfach lernen, jedes Mal jedoch nur für einen anderen Kreaturentyp.
 Welche Varianten des Zauberspruches Dir zur Verfügung stehen, bestimmen Deine Zauberschulen.

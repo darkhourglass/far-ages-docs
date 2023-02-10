@@ -15,7 +15,7 @@ Jedoch sind Golems mit dieser Bewegungsoption in anderen Fällen eingeschränkt,
 Die Anzahl der verbauten Räder ist minimal 3 und üblicherweise 4.
 Eine höhere Anzahl kann nach Ermessen des SLs auch abgebildet werden.
 
-Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 zur Verfügung und von dieser abhängig ergeben sich die folgenden Werte:
+Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 zur Verfügung und von dieser abhängig ergeben sich die folgenden Werte:
 
 |===
 |GK |Materialkosten |Konstruktionszeit |Erfolge |Bewegungsmodifikator
@@ -86,6 +86,6 @@ Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_characte
 
 In folgenden Punkten unterscheidet sich Fortbewegung durch Räder von den Standardregeln:
 
-* Bewegung durch xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände] kostet mehr als die übliche halbierte xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+* Bewegung durch xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] kostet mehr als die übliche halbierte xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 Ein Golem mit Rädern kann nur ein Viertel (abgerundet, Minimum 1,50 Meter) seiner BEW in schwierigen Gelände verwenden. +
-* Setzt ein Golem mit Rädern das Manöver xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_move_useBEW[Rennen] oder xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions_sprint[Sprinten] ein, muss er eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] aufwenden, um während dieser Bewegung die zum Start der Bewegung eingeschlagene Richtung zu ändern.
+* Setzt ein Golem mit Rädern das Manöver xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver_run[Rennen] oder xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions_sprint[Sprinten] ein, muss er eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] aufwenden, um während dieser Bewegung die zum Start der Bewegung eingeschlagene Richtung zu ändern.

@@ -13,8 +13,8 @@
 
 [[ref_hunter_markprey]]
 === Beute markieren
-Mit dem Einsatz eines xref:../core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] kann der Jäger eine beliebige Kreatur in Sichtweite markieren.
-Diese Markierung hält für genauso viele Stunden an, wie der Jäger Stufen im Attribut xref:../core_rules_charactercreation.adoc#ref_attribute_perception[ER] hat.
+Mit dem Einsatz eines xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] kann der Jäger eine beliebige Kreatur in Sichtweite markieren.
+Diese Markierung hält für genauso viele Stunden an, wie der Jäger Stufen im Attribut xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[ER] hat.
 Solange die Markierung anhält, kennt der Jäger die Himmelsrichtung und ungefähre Entfernung, in der die Kreatur sich von ihm aus befindet.
 
 [[ref_hunter_huntinggrounds]]

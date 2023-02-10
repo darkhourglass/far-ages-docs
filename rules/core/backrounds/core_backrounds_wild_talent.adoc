@@ -15,7 +15,7 @@ Von manchen bewundert, von manchen gefürchtet und von den Meisten beneidet, nut
 [[ref_core_backrounds_wild_talent_special_imbued_by_magic]]
 == Erfüllt mit Magie
 Du beherrschst instinktiv einen magischen Trink.
-Mit der xref:../core_rules_charactercreation.adoc#ref_characters_charactercreation[Charaktererschaffung] wähle einen beliebigen xref:../core_rules_magic_base.adoc#ref_magic_base_arcanetrick[arkanen Trick] auf einer der folgenden Zauberspruchlisten:
+Mit der xref:../core_rules_charactercreation.adoc#ref_core_characters_charactercreation[Charaktererschaffung] wähle einen beliebigen xref:../core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[arkanen Trick] auf einer der folgenden Zauberspruchlisten:
 
 * link:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_druids.adoc[Druidenmagie]
 * link:../../../compendiums/spelllists/shadowmagic/compendium_spelllist_illusionism.adoc[Illusionismus]
@@ -27,7 +27,7 @@ Mit der xref:../core_rules_charactercreation.adoc#ref_characters_charactercreati
 * link:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft]
 * link:../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers]
 
-Du erhältst die Möglichkeit mit Deiner xref:../core_rules_charactercreation.adoc#ref_attribute_energy[EN-Stufe] diesen arkanen Trick zu zaubern, als würdest Du xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] einsetzen.
-Solltest Du dieses Talent lernen, kannst Du diesen arkanen Trick nicht über das Talent nutzen, außer Du lernst die xref:../core_rules_magic_base.adoc#ref_magic_schools_of_magic[Zauberschule] xref:../core_rules_magic_base.adoc#ref_magic_schools_wild_magic[Wilde Magie].
+Du erhältst die Möglichkeit mit Deiner xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Stufe] diesen arkanen Trick zu zaubern, als würdest Du xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] einsetzen.
+Solltest Du dieses Talent lernen, kannst Du diesen arkanen Trick nicht über das Talent nutzen, außer Du lernst die xref:../core_rules_magic_base.adoc#ref_core_magic_schools_of_magic[Zauberschule] xref:../core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic[Wilde Magie].
 
-Es gelten die Regeln zum xref:../core_rules_magic_base.adoc#ref_magic_rules_spellcasting[Aussprechen] eines arkanen Tricks.
+Es gelten die Regeln zum xref:../core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Aussprechen] eines arkanen Tricks.

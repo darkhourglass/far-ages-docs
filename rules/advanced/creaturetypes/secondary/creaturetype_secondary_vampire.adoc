@@ -186,11 +186,11 @@ In diesem Fall handelt es sich um eine initiale Ausstattung bei seiner Erschaffu
 
 [[ref_vampire_rules_bloodcosts]]
 === Blutkosten für Vampirfähigkeiten
-Die meisten <<ref_vampire_appendix_list_vampiric_skills,Vampirfähigkeiten>> besitzen neben der Angabe zur Verwendung in der Kampfphase (beispielsweise als xref:../../../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion]) eine *Aktivierung* in Form von *Blut*.
+Die meisten <<ref_vampire_appendix_list_vampiric_skills,Vampirfähigkeiten>> besitzen neben der Angabe zur Verwendung in der Kampfphase (beispielsweise als xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]) eine *Aktivierung* in Form von *Blut*.
 Der Vampir muss dazu das Blut in seinem untoten Körper verbrauchen, um die Fähigkeit einsetzen zu können.
 Die Angabe erfolgt als eine Zahl.
 Diese Zahl muss der Vampir aus seinem xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] beziehen.
-Dies funktioniert nach den gleichen Regeln wie xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengungsschaden] mit der Ausnahme, dass diese Kosten nie durch die genannten Ausnahmen reduziert werden können (zum Beispiel durch eine explizite Schadensimmunität).
+Dies funktioniert nach den gleichen Regeln wie xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden] mit der Ausnahme, dass diese Kosten nie durch die genannten Ausnahmen reduziert werden können (zum Beispiel durch eine explizite Schadensimmunität).
 
 Ein Vampir kann keine Blutkosten aufbringen, wenn deren Einsatz ihn auf einen TP-Wert von 0 oder geringer bringen würde.
 

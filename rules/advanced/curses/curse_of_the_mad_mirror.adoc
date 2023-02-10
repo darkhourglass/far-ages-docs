@@ -22,7 +22,7 @@ Dieser Typ des Fluches hat keine regeln-relevante Auswirkung, jedoch können and
 Das Spiegelbild der Kreatur weicht in einem Körperteil ab, beispielsweise ist ihr Kopf der eines Drachen oder ein Arm nur aus Knochen.
 Alternativ kann das Spiegelbild der Kreatur ein zusätzliches Körperteil aufweisen, welches nicht vorhanden ist, zum Beispiel einen Skorpionen-Schwanz, Flügel oder einen dritten Arm.
 
-Beobachter sind durch diese Erscheinung so beunruhigt, dass die Kreatur einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_charactercreation.adoc#ref_attribute_charisma[CH]-basieren Proben gegenüber den Beobachtern erhält.
+Beobachter sind durch diese Erscheinung so beunruhigt, dass die Kreatur einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH]-basieren Proben gegenüber den Beobachtern erhält.
 Der Malus hält 1 Stunde an.
 
 [[ref_curse_of_the_mad_mirror_strong]]
@@ -30,7 +30,7 @@ Der Malus hält 1 Stunde an.
 Das gesamte Spiegelbild der Kreatur zeigt ein monströses und verzerrtes Aussehen.
 Die Kreatur ist im Spiegelbild nicht mehr zu erkennen.
 
-Beobachter sind durch diese Erscheinung so beunruhigt, dass die Kreatur einen Malus von -2 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_charactercreation.adoc#ref_attribute_charisma[CH]-basieren Proben gegenüber den Beobachtern erhält.
+Beobachter sind durch diese Erscheinung so beunruhigt, dass die Kreatur einen Malus von -2 auf die Würfe zum Erfolg auf alle xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH]-basieren Proben gegenüber den Beobachtern erhält.
 Der Malus hält 24 Stunden an.
 
 [[ref_curse_of_the_mad_mirror_deathcurse]]
@@ -38,4 +38,4 @@ Der Malus hält 24 Stunden an.
 Als Todesfluch ist der Fluch des verrückten Spiegels besonders gefährlich für alle, die das Spiegelbild der Kreatur sehen.
 
 Alle Beobachter müssen eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror]-Probe bestehen.
-Die nötige Anzahl der Erfolg entspricht der xref:../../core/core_rules_charactercreation.adoc#ref_attribute_charisma[CH]-Stufe der Kreatur.
+Die nötige Anzahl der Erfolg entspricht der xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH]-Stufe der Kreatur.

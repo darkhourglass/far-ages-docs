@@ -7,13 +7,13 @@
 Die Kreatur besitzt eine Atemwaffe, die sie gegen ihre Gegner einsetzen kann.
 Besonders bekannt für diese Art des Angriffs sind xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drachen] mit ihrem feurigen Atem.
 
-Die Atemattacke kann als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] in einer Kampfphase eingesetzt werden.
+Die Atemattacke kann als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] in einer Kampfphase eingesetzt werden.
 
 Die Angriffprobe wird mit der angegebenen *Angriffsstufe* gewürfelt oder, sofern diese nicht angegeben ist, mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei].
-Dabei gelten die Regeln für xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_cone[kegelförmige] Angriffe.
-Der Kegel hat dabei eine Ausdehnung gemäß der angegebenen *Reichweite* oder 1,50 Meter pro Stufe in xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN].
+Dabei gelten die Regeln für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_cone[kegelförmige] Angriffe.
+Der Kegel hat dabei eine Ausdehnung gemäß der angegebenen *Reichweite* oder 1,50 Meter pro Stufe in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN].
 
-Die Schadensprobe wird mit dem angegebenen *Schaden* gewürfelt, wobei der angegebene xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[*Schadenstyp*] verursacht wird.
+Die Schadensprobe wird mit dem angegebenen *Schaden* gewürfelt, wobei der angegebene xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[*Schadenstyp*] verursacht wird.
 Sollte keine Schadenwürfel angegeben sein, wird die Schadensprobe mit 1W6 pro EN-Stufe gewürfelt.
 
 .Atemattacke

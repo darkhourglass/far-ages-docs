@@ -3,12 +3,12 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir, Magisch +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 10
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 10
 
 Du kannst Deine Gestalt in ein Biest der Nacht verwandeln.
 Diese Fähigkeit folgt den Regeln der link:../../bestiary_skill_magicability.adoc[magischen Fähigkeit] für den Zauberspruch link:../../../../compendiums/spells/spell_animal_shape.adoc[Tierform].
 Besitzt Du das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], darfst Du die Spruchzauberei-Probe mit diesen Würfeln werfen.
-Ansonsten besitzt die magische Fähigkeit als Würfel Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] plus Deine Stufe in xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_attribute_energy[EN].
+Ansonsten besitzt die magische Fähigkeit als Würfel Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] plus Deine Stufe in xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN].
 
 Du kannst als Tierform nur eine Kreatur der Nacht wählen:
 
@@ -20,7 +20,7 @@ Nach Ermessen des SLs können auch mehr Formen zur Verfügung stehen.
 Du besitzt keine Einschränkungen aufgrund der POT des Zauberspruches, solange Du Dich in den verfügbaren Formen bewegst.
 
 Du kannst die Form unabhängig von Deiner Machtstufe 1 Stunde halten.
-Danach kannst Du als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] weitere 10 TP opfern, um die Form für eine weitere Stunde zu halten.
+Danach kannst Du als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] weitere 10 TP opfern, um die Form für eine weitere Stunde zu halten.
 
 Weiterhin scheint Deine unnatürliche Aura durch die Tierform subtil hindurch.
 Beispielsweise sind die Zähne sind etwas spitzer, die Augen glühen oder das Tier wirkt bedrohlicher.

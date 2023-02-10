@@ -12,7 +12,7 @@
 *Beschreibung:* Diese Waffe ist die xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_heavy[schwere] Variante des link:golems_part_weaponary_flamethrower.adoc[Flammenwerfers].
 
 Dieser folgt den üblichen Regeln für schwere Bewaffnungen und wird wie der Flammenwerfer eingesetzt.
-Abhängig von seiner xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] gelten jedoch folgende Werte:
+Abhängig von seiner xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] gelten jedoch folgende Werte:
 
 |===
 |GK |Materialkosten |Konstruktionszeit |Erfolge |Reichweite |Schaden
@@ -22,49 +22,49 @@ Abhängig von seiner xref:../../../../rules/core/core_rules_charactercreation.ad
 |10 Tage
 |3
 |Kegel 3,00 Meter
-|3W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|3W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |5
 |16.000
 |10 Tage
 |4
 |Kegel 4,50 Meter
-|4W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|4W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |6
 |20.000
 |14 Tage
 |5
 |Kegel 6,00 Meter
-|5W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|5W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |7
 |30.000
 |28 Tage
 |6
 |Kegel 9,00 Meter
-|5W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|5W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |8
 |48.000
 |26 Tage
 |8
 |Kegel 9,00 Meter
-|6W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|6W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |9
 |72.000
 |50 Tage
 |10
 |Kegel 12,00 Meter
-|6W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|6W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |10
 |100.000
 |64 Tage
 |12
 |Kegel 12,00 Meter
-|8W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden]
+|8W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 |===
 
 Der schwere Flammenwerfer stellt dem Golem die Fähigkeit link:../../../../bestiary/skills/specific/constructs/bestiary_skill_constructs_overcharge.adoc[Überladen (2W10 Feuer-Schaden, 10 MP)] zur Verfügung.

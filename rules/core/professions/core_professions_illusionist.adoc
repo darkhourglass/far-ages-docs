@@ -19,12 +19,12 @@ Durch ihre Vertrautheit mit Illusionen erhalten Illusionisten einen Bonus von +2
 [[ref_illusionist_minorillusion]]
 === Einfache Illusion
 Der Illusionist kann eine simple Illusion erschaffen ohne eine xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe würfeln zu müssen.
-Um sie zu erschaffen, muss der Illusionist eine xref:../core_rules_battlesystem.adoc#ref_battle_actions[Aktion] einsetzen.
+Um sie zu erschaffen, muss der Illusionist eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen.
 Die Illusion kann maximal eine GK von 1 haben und kann keinen Schaden verursachen.
 Es gelten die üblichen Regeln, um xref:../core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_douptillusions[Illusion] zu durchschauen.
 Die POT der einfachen Illusion ist 3.
 
 [[ref_illusionist_dangerousillusion]]
 === Gefährliche Illusion
-Wenn der Illusionist einen Zauberspruch des xref:../../../compendiums/spelllists/shadowmagic/compendium_spelllist_illusionism.adoc[Illusionismus] ausspricht, der xref:../core_rules_battlesystem.adoc#ref_battle_damage_illusionary[illusionären] Schaden verursacht, darf er wählen, ob er stattdessen xref:../core_rules_battlesystem.adoc#ref_battle_damage_type_primary_physical[physischen] Schaden mit diesem Zauberspruch verursachen möchte.
+Wenn der Illusionist einen Zauberspruch des xref:../../../compendiums/spelllists/shadowmagic/compendium_spelllist_illusionism.adoc[Illusionismus] ausspricht, der xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[illusionären] Schaden verursacht, darf er wählen, ob er stattdessen xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden mit diesem Zauberspruch verursachen möchte.
 In diesem Fall erhöht sich die POT des Zauberspruchs um 3.

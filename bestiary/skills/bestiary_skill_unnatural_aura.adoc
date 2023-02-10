@@ -19,9 +19,9 @@ Die Probe wird fällig, wenn eine Kreatur in den *Radius* der Aura eintritt.
 
 *Stufe 1:* Alle Kreaturen vom Typ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] fangen an, die Kreatur zu bedrohen, greifen aber nicht an.
 Beispielsweise fangen Hunde an zu knurren oder Katzen fauchen und ihr Fell steht hoch.
-*Stufe 2:* Alle Kreaturen vom Typ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] versuchen zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions_retreat[fliehen].
+*Stufe 2:* Alle Kreaturen vom Typ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] versuchen zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions_retreat[fliehen].
 Ist ihnen dies nicht möglich, versuchen sie anzugreifen.
-*Stufe 3:* Alle Kreaturen vom Typ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] erhalten 1W6 Schaden vom Typ xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_aether[Aetherisch].
+*Stufe 3:* Alle Kreaturen vom Typ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] erhalten 1W6 Schaden vom Typ xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aetherisch].
 Pro Kreatur tritt diese Wirkung nur einmal ein.
 *Stufe 4:* Die Aura wirkt in den beschriebenen Effekten von Stufe 1 bis 3 nun auf alle Kreaturen, deren sekundärer Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] ist.
 

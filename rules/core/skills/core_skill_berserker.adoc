@@ -4,8 +4,8 @@
 *Überanstrengung:* - +
 *CP-Kosten:* 200 +
 *Beschreibung:* Am Anfang seiner Kampfphase darf ein Charakter mit dieser Fähigkeit sich freiwillig in den Zustand xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[rasend] versetzen.
-Dies gilt als xref:../core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion].
+Dies gilt als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion].
 
 Es gelten die in der Beschreibung des Zustands aufgeführten xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Regeln].
 Zusätzlich endet der Kampfrausch nicht automatisch nach den angegebenen Kampfphasen.
-Erreicht der Charakter das reguläre Ende des rasenden Zustands, verlängert sich der Zustand automatisch um eine Kampfphase, solange Charakter entweder xref:../core_rules_battlesystem.adoc#ref_battle_damage_hit[Schaden] bei einem Gegner verursacht oder selbst Schaden erhält.
+Erreicht der Charakter das reguläre Ende des rasenden Zustands, verlängert sich der Zustand automatisch um eine Kampfphase, solange Charakter entweder xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schaden] bei einem Gegner verursacht oder selbst Schaden erhält.

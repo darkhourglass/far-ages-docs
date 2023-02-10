@@ -15,7 +15,7 @@ Während der Vorbereitung beginnt das Wasser sich auszubreiten und kleine Wellen
 Streifen aus Wasser steigen langsam und unnatürlich in die Luft um Dich herum.
 Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe klatschst Du Deine Hände zusammen und das Wasser explodiert in seine konzentrische Flutwelle, die sich von Dir ausbreitet.
 
-Alle Kreaturen im Wirkungsbereich außer Dir erhalten einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] abhängig von ihrer Entfernung zu Dir:
+Alle Kreaturen im Wirkungsbereich außer Dir erhalten einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] abhängig von ihrer Entfernung zu Dir:
 
 * Innerhalb 0,00 bis 12,00 Meter: 6W6
 * Innerhalb 12,50 bis 24,00 Meter: 4W6

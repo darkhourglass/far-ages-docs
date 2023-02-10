@@ -18,7 +18,7 @@ Als Zutat benötigst Du eine kleine Menge Wasser, zum Beispiel den Inhalt eines 
 Alle Kreaturen im Wirkungsbereich müssen eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex]-Probe gegen die Anzahl der Erfolge in Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe bestehen.
 Bei einem Misserfolg werden sie xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[niedergeschlagen]. +
 
-Alle Kreaturen im Wirkungsbereich erhalten außerdem einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Treffer] mit 1W6 Schaden. +
+Alle Kreaturen im Wirkungsbereich erhalten außerdem einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W6 Schaden. +
 *Zusätzliche Effekte:* +
 +2 MP, +1 POT: Wirkungsbereich +3,00 Meter in der Länge
 +2 MP, +1 POT: Wirkungsbereich +1,50 Meter in der Breite

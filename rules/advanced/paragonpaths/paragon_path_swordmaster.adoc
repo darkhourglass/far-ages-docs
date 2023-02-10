@@ -34,7 +34,7 @@ Der Schwertmeister lernt auf Stufe 1 eine der folgenden Fähigkeiten:
 *Verwandtes Attribut:* - +
 *Kampf:* - +
 *Beschreibung:* Der Schwertmeister verlässt sich im Kampf auf Beweglichkeit vor purer Stärke.
-Mit dem Erlernen dieser Fähigkeit erhält einen einmaligen Bonus auf seine xref:../../core/core_rules_charactercreation.adoc#ref_secondary_inibonus[Initiative] von +4.
+Mit dem Erlernen dieser Fähigkeit erhält einen einmaligen Bonus auf seine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[Initiative] von +4.
 
 [[ref_swordmaster_disarm]]
 === Entwaffnen
@@ -57,7 +57,7 @@ Diese Entscheidung gilt auch für seinen Kontrahenten.
 *Kampf:* - +
 *Beschreibung:* Hat der Schwertmeister erfolgreich einen Gegner durch <<ref_swordmaster_provoke>> beeinflusst, kann er direkt nach der Probe entscheiden, ob er stattdessen eine Herausforderung aussprechen möchte.
 Entscheidet er sich dafür, reduziert sich der Malus aus Provokation um 1, d.h. wenn der Malus z.B. -2 beträgt und der Schwertmeister diese Fähigkeit einsetzt, reduziert sich der Malus auf -1.
-Außerdem muss der Gegner seine nächste xref:../../core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] und xref:../../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver] verwenden, um möglichst nahe an den Schwertmeister heranzukommen und anzugreifen.
+Außerdem muss der Gegner seine nächste xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] verwenden, um möglichst nahe an den Schwertmeister heranzukommen und anzugreifen.
 
 .Herausforderung
 ====
@@ -91,7 +91,7 @@ Die Boni sind kumulativ.
 *Verwandtes Attribut:* - +
 *Kampf:* M +
 *Beschreibung:* Der Schwertmeister lernt, seine Gegner durch gezielte Provokation aus der Fassung zu bringen und sie zu Fehlern zu zwingen.
-Einmal pro Kampfphase als Einsatz einer xref:../../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsaktion] kann er einen Gegner im Umkreis von 6 Metern versuchen zu provozieren.
+Einmal pro Kampfphase als Einsatz eines xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] kann er einen Gegner im Umkreis von 6 Metern versuchen zu provozieren.
 Der Betroffene muss den Schwertmeister sehen und hören können. +
 Der Schwertmeister würfelt dazu eine konkurrierende xref:../../core/core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen]-Probe.
 Bei einem Erfolg erhält der Provozierte einen Malus von -1 auf die Würfe zum Erfolg auf alle Proben für eine Anzahl von Runden, die der CH-Stufe des Schwertmeisters entspricht.
@@ -115,7 +115,7 @@ Insgesamt erhält der Kontrahent einen Malus von -2 auf die Würfe zum Erfolg.
 *Beschreibung:* Der Schwertmeister lernt ein neues Talent Riposte auf Stufe 1.
 Er kann Riposte als xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungstalent] einsetzen, wobei es den Regeln des Talents xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] folgt.
 Riposte kann auch mit <<ref_swordmaster_multiple_parade,Mehrfacher Parade>> verwendet werden.
-Verteidigt sich der Schwertmeister mit Riposte erfolgreich gegen eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] im Nahkampf, darf er sofort einen xref:../../core/core_rules_battlesystem.adoc#ref_battle_damageresistence[Schadenswurf] gegen den Angreifer würfeln.
+Verteidigt sich der Schwertmeister mit Riposte erfolgreich gegen eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] im Nahkampf, darf er sofort einen xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadenswurf] gegen den Angreifer würfeln.
 Dabei wird die Anzahl der Erfolge angenommen, die der Schwertmeister bei der Riposte-Probe mehr gewürfelt hat, als sein Angreifer.
 Es gelten die normalen Regeln für Schadensproben.
 
@@ -144,6 +144,6 @@ Ist der Schwertmeister erfolgreich, fällt sein Kontrahent hin und gilt als xref
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* - +
-*Beschreibung:* Der Schwertmeister erhält pro Kampfrunde eine zusätzliche xref:../../core/core_rules_battlesystem.adoc#ref_battle_reactions[Reaktion], die er ausschließlich für den Einsatz des Talents xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] verwenden kann.
+*Beschreibung:* Der Schwertmeister erhält pro Kampfrunde eine zusätzliche xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion], die er ausschließlich für den Einsatz des Talents xref:../../core/core_rules_talents_base.adoc#ref_talents_parade[Parade] verwenden kann.
 Er kann diese Fähigkeit nicht nutzen, wenn er xref:../../core/core_rules_2d10_system.adoc.adoc#ref_core_2d10_condition_corned[Bedrängt] ist. +
 

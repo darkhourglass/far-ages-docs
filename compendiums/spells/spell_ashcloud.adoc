@@ -6,12 +6,11 @@
 *Komponenten:* Formel +
 *Fokus:* Feuer +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 3 +
 *Reichweite:* 24,00 Meter +
 *Anzahl der Ziele:* Radius 9,00 Meter +
 *Dauer:* 2W6 Kampfphasen +
 *Effekt:* Du beschwörst eine Wolke aus schwarzer Asche, die das Zielgebiet verdunkelt.
-Jede Kreatur im Wirkungsbereich darf einen xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] gegen Deine Anzahl von Erfolgen aus der Spruchzauberei-Probe abgelegen.
+Jede Kreatur im Wirkungsbereich darf einen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] gegen Deine Anzahl von Erfolgen aus der Spruchzauberei-Probe abgelegen.
 Misslingt der Kreatur diese Probe, gilt Sie als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[blind].
 Dies gilt auch, wenn sie link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] oder link:../../bestiary/skills/bestiary_skill_infraredvision.adoc[Infrarotsicht] hat, denn die Asche legt sich auf den Augen nieder.
 

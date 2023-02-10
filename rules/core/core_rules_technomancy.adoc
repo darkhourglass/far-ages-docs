@@ -135,12 +135,12 @@ Technomanten dürfen mit diesem Talent eine Reihe von Proben würfeln:
 
 * eine Wissen-Probe auf Gebiete Ingenieur, Mechanik, Maschinen und Konstrukte (analog zu xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen])
 * Erschaffen von technomantischen <<ref_technomancy_creating_devices, Geräte>> und <<ref_technomancy_creating_constructs,Konstrukten>>
-* Als Ersatz für xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], um einen Zauberspruch von einer xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_scrolls[Spruchrolle] oder xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken] zu wirken.
+* Als Ersatz für xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], um einen Zauberspruch von einer xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_scrolls[Spruchrolle] oder xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken] zu wirken.
 Dies kann nur eingesetzt werden, um ein technomantisches Gerät oder Konstrukt zu erschaffen.
 * Proben auf technomantischen Gegenstand verwenden (alternativ zum gleichnamigen xref:core_rules_talents_base.adoc#ref_talents_use_technomantic_device[Talent])
-* xref:core_rules_magic_base.adoc#ref_magic_base_items_with_mp_storage[Magische Kristalle kalibrieren] anstelle von xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]
+* xref:core_rules_magic_base.adoc#ref_core_magic_base_items_with_mp_storage[Magische Kristalle kalibrieren] anstelle von xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]
 
-Außerdem verwenden Technomanten dieses Talent wie xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], jedoch ausschließlich für die xref:core_rules_magic_base.adoc#ref_magic_schools_technomancy[Zauber] aus der Zauberspruchliste link:../../compendiums/spelllists/compendium_spelllist_technomancy.adoc[Technomantie].
+Außerdem verwenden Technomanten dieses Talent wie xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], jedoch ausschließlich für die xref:core_rules_magic_base.adoc#ref_core_magic_schools_technomancy[Zauber] aus der Zauberspruchliste link:../../compendiums/spelllists/compendium_spelllist_technomancy.adoc[Technomantie].
 Beschreibungen technomantischer Zaubersprüche sprechen auch von einer xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] wenn der Einsatz dieses Talent gemeint ist.
 
 Dieses Talent kann nicht verwendet werden, um Voraussetzungen zu erfüllen, die xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] erfordern, zum Beispiel um bestimmte Fähigkeiten zu lernen.

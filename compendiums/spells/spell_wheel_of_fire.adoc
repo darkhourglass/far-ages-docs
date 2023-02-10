@@ -13,13 +13,13 @@
 *Effekt:* Du beschwörst ein großes Rad aus knisterndem Feuer und Flammen.
 Mit erfolgreicher Spruchzauberei-Probe erscheint das Rad direkt neben Dir.
 
-Für die Dauer des Zauberspruches kannst Du das Rad in Deiner Kampfphase als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_bonusactions[Bonus-Aktion] 9,00 Meter in gerader Richtung bewegen.
+Für die Dauer des Zauberspruches kannst Du das Rad in Deiner Kampfphase als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] 9,00 Meter in gerader Richtung bewegen.
 Zu Beginn der Bewegung kannst Du das Rad drehen.
 
-Alle Kreaturen, die sich im Weg des Feuerrads befinden oder berührt werden, erhalten einen automatischen Treffer, der 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer-Schaden] verursacht.
+Alle Kreaturen, die sich im Weg des Feuerrads befinden oder berührt werden, erhalten einen automatischen Treffer, der 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] verursacht.
 Jede Kreatur kann den Schaden durch eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Probe] halbieren (Minimum 1).
 
-Das Feuerrad gilt für die Bestimmung seiner Ausmaße als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5. +
+Das Feuerrad gilt für die Bestimmung seiner Ausmaße als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5. +
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase
 +5 MP, +1 POT: +1W10 Feuer-Schaden

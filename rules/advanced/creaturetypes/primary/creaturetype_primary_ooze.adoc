@@ -10,12 +10,12 @@ Diese außergewöhnliche Anatomie erfordert eine Reihe neuer Regeln, die in den 
 
 [[ref_ooze_rules_fluid_body_one_hitzone]]
 ==== Eine Trefferzone
-Unabhängig welche Form der Körper des Schleims annimmt oder ob er als Attacke vielleicht Teile seiner Form ausdehnt, sein Körper gilt als seine einzige xref:../../../core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzone].
+Unabhängig welche Form der Körper des Schleims annimmt oder ob er als Attacke vielleicht Teile seiner Form ausdehnt, sein Körper gilt als seine einzige xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzone].
 
 [[ref_ooze_rules_fluid_body_flexible_size]]
 ==== Öffnungen und begrenzter Platz
 Schleime können sich durch die kleinsten Öffnungen quetschen, vorausgesetzt sie haben genug Zeit.
-Pro Punkt Differenz zwischen der eigenen xref:../../../core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] und dem verfügbaren Platz benötigt ein Schleim ein xref:../../../core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanöver], um sich Stück für Stück durch eine Öffnung zu bewegen.
+Pro Punkt Differenz zwischen der eigenen xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] und dem verfügbaren Platz benötigt ein Schleim ein xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver], um sich Stück für Stück durch eine Öffnung zu bewegen.
 
 .Schleime in der Enge (1)
 ====
@@ -25,7 +25,7 @@ Somit muss der Schleim 4 Kampfphasen lang ein Bewegungsmanöver einsetzen, um se
 ====
 
 Der Körper des Schleims muss während der gesamten Zeit verbunden bleiben.
-Sollte der Körper während dieser Zeit getrennt werden, (weil beispielsweise die Öffnung geschlossen wird), erhält der Schleim einen xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 2W10+2 xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren Schaden] pro Punkt seiner GK, die auf einer Seite der Öffnung sich befindet.
+Sollte der Körper während dieser Zeit getrennt werden, (weil beispielsweise die Öffnung geschlossen wird), erhält der Schleim einen xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W10+2 xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren Schaden] pro Punkt seiner GK, die auf einer Seite der Öffnung sich befindet.
 Es gilt, dass immer die kleinere Seite dazu genommen wird.
 Die Position des Schleims wird dabei über die andere Seite definiert.
 Sollte auf beiden Seiten gleich viel Schleim vorhanden sind, kann der SL dies per Würfelwurf entscheiden (1W6: 1-3 Startseite, 4-6 Zielseite).
@@ -46,7 +46,7 @@ Außerdem folgen einzelne <<ref_ooze_rules_skills,Fähigkeiten>> aus dieser beso
 
 [[ref_ooze_rules_fluid_body_difficult_terrain]]
 ==== Schwieriges Gelände
-Bei der Bewegung durch xref:../../../core/core_rules_battlesystem.adoc#ref_battle_rules_movement_difficultterrian[schwieriges Gelände] verliert ein Schleim keine xref:../../../core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+Bei der Bewegung durch xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] verliert ein Schleim keine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 
 [[ref_ooze_rules_general_rules]]
 === Allgemeine Regeln

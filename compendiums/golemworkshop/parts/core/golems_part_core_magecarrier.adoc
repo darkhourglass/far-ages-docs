@@ -19,7 +19,7 @@ Seine Arme und Beine werden an detaillierte Verbindungselemente geschnallt, so d
 Ist der Magier in den Golem eingesetzt, hat er selbst keinen Bewegungsspielraum.
 
 Jede Kreatur, die das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit Talentstufe 1 oder höher beherrscht, kann den Golem steuern und verwenden.
-Weiterhin muss die Kreatur mindestens 2 Punkte in ihrer xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] kleiner sein als der Golem, um in die Magierträger hineinzupassen.
+Weiterhin muss die Kreatur mindestens 2 Punkte in ihrer xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] kleiner sein als der Golem, um in die Magierträger hineinzupassen.
 In einem Magierträger der GK 6 kann also ein Magier der GK 4 einsteigen, in einen Magierträger der GK 7 ein Magier der GK 5 oder 4 und so weiter.
 Magierträger werden nur in den Größenkategorien 6 bis 10 hergestellt und die folgende Tabelle zeigt die abhängigen Werte zur GK.
 
@@ -59,7 +59,7 @@ Magierträger werden nur in den Größenkategorien 6 bis 10 hergestellt und die 
 
 
 Das xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_profile[Profil] des Golems wird nach den üblichen Regeln erstellt.
-Der Golem wird wie ein xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_mounted_combat[Reittier] für den Magier behandelt, wobei der Magier maximale Deckung erhält.
+Der Golem wird wie ein xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Reittier] für den Magier behandelt, wobei der Magier maximale Deckung erhält.
 
 Für diese Form der Energieversorgung gelten außerdem weitere Regeln.
 
@@ -87,16 +87,16 @@ Für vergleichbare Proben für die Attribute ER, EN, SB und CH werden immer nur 
 Die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pools] des Magiers und des Golems gelten weiterhin als zwei getrennte Pools.
 Der Einsatz von Fähigkeiten und Talenten, die den Golem MP kosten, müssen weiterhin immer von seinem Pool abgezogen werden.
 Dennoch kann der Magier den Pool des Magierträgers wie seinen eigenen Pool verwenden.
-Er kann außerdem als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] eine beliebige Anzahl seiner MP an den Golem übertragen.
+Er kann außerdem als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] eine beliebige Anzahl seiner MP an den Golem übertragen.
 [[ref_golemparts_core_magecarrier_full_controll]]
 
 [[ref_golemparts_core_magecarrier_full_controll]]
 == Volle Kontrolle
-Ein Magier besitzt die volle Kontrolle über das Konstrukt, sodass er in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] folgende Optionen hat:
+Ein Magier besitzt die volle Kontrolle über das Konstrukt, sodass er in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] folgende Optionen hat:
 
-* Als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] kann der Magier sein xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Talent] normal einsetzen.
+* Als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] kann der Magier sein xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Talent] normal einsetzen.
 Er kanalisiert seine arkane Energie durch den Körper des Golems.
-* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktionen] des Golems, wie zum Beispiel der Einsatz einer Bewaffnung, basiert auf der gleichen Aktion.
+* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] des Golems, wie zum Beispiel der Einsatz einer Bewaffnung, basiert auf der gleichen Aktion.
 Das bedeutet, der Magier muss sich entscheiden, welche Aktion er genau durchführen möchte.
 * Der Magier nutzt immer die Bewegung des Golems
 * Grundsätzlich kann der Magier jedoch nur Aktionen oder Manöver durchführen, die Golem auch könnte.

@@ -13,12 +13,12 @@
 *Effekt:* Du zielst auf eine Fläche aus natürliche Erde oder Stein im Wirkungsbereich und machst eine Geste mit Deinen Fingern, als würdest Du etwas herunterziehen.
 
 Im Wirkungsbereich verwandelt sich die Oberfläche in ein gefährliches Gemisch aus Sand und Wasser.
-Jede Kreatur im Wirkungsbereich muss zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ST[ST-Rettungswurf] bestehen.
+Jede Kreatur im Wirkungsbereich muss zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ST[ST-Rettungswurf] bestehen.
 Bei einem Misserfolg sinkt sie etwas in den Treibsand hinein.
 
-Solange sich eine Kreatur im Wirkungsbereich aufhält, erhält sie pro misslungenen ST-Rettungswurf einen Malus von -1,50 Meter auf ihre xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
-Misslingt einer Kreatur während der Wirkungsdauer eine Anzahl von ST-Rettungswürfen gleich ihrer xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK], wurde sie komplett unter die Oberfläche gezogen.
-Ab diesem Zeitpunkt erhält sie zu Beginn der Kampfphase einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbaren] Schaden.
+Solange sich eine Kreatur im Wirkungsbereich aufhält, erhält sie pro misslungenen ST-Rettungswurf einen Malus von -1,50 Meter auf ihre xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
+Misslingt einer Kreatur während der Wirkungsdauer eine Anzahl von ST-Rettungswürfen gleich ihrer xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK], wurde sie komplett unter die Oberfläche gezogen.
+Ab diesem Zeitpunkt erhält sie zu Beginn der Kampfphase einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.
 +
 *Zusätzliche Effekte:* +
 +2 MP: Reichweite +3,00 Meter +

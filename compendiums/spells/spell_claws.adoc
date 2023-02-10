@@ -6,7 +6,6 @@
 *Komponenten:* Formel +
 *Fokus:* Körper +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 6 +
 *Reichweite:* Selbst +
 *Anzahl der Ziele:* - +
 *Dauer:* 5 Kampfphasen +
@@ -16,10 +15,10 @@ Somit werden sie zu tödlichen Instrumenten im Nahkampf.
 Während der Dauer des Zauberspruches kannst Du Dein Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] verwenden, um xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsproben] für xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] zu würfeln.
 Beherrschst Du letzteres Talent, kannst Du es auch regulär einsetzen, wenn Du möchtest.
 
-Unabhängig von Deiner Entscheidung würfelst Du eine reguläre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensprobe] für unbewaffneten Kampf.
+Unabhängig von Deiner Entscheidung würfelst Du eine reguläre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] für unbewaffneten Kampf.
 Der Schadenbonus beträgt dabei 3W8.
 
-Du giltst für diese Zeit auch als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_modifiers_missingweapon[bewaffnet].
+Du giltst für diese Zeit auch als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_missingweapon[bewaffnet].
 
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +

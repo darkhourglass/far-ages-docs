@@ -20,8 +20,8 @@ Um ein Werwesen zu werden, muss ein Charakter folgende Eigenschaften erfüllen:
 [[ref_bloodline_were_charactercreation]]
 == Charaktererschaffung
 
-Zur xref:../../core/core_rules_charactercreation.adoc#ref_characters_charactercreation[Charaktererschafftung] darf ein Spieler mit Zustimmung des SL diese Blutlinie wählen.
-Dazu muss er nach der xref:../../core/core_rules_charactercreation.adoc#ref_characters_charactercreation_race[Wahl seines Volkes] die <<ref_bloodline_were_skills_cp, CP-Kosten>> dieser Blutlinie bezahlen.
+Zur xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation[Charaktererschafftung] darf ein Spieler mit Zustimmung des SL diese Blutlinie wählen.
+Dazu muss er nach der xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_race[Wahl seines Volkes] die <<ref_bloodline_were_skills_cp, CP-Kosten>> dieser Blutlinie bezahlen.
 Dadurch erhält er alle <<ref_bloodline_were_skills, Eigenschaften>> dieser Blutlinie, zusätzlich zu denen seines Volkes.
 Alle Attributsboni und Eigenschaften seines Volks bleiben erhalten.
 Die Wahl seines Volkes wird im folgenden als *reguläre Form* bezeichnet.
@@ -40,7 +40,7 @@ Für manche Eigenschaften wird die folgende link:../../tables/table_bloodline_we
 
 [[ref_bloodline_were_skills_attributs]]
 === Attributsbonus
-Der Charakter erhält die angegeben xref:../../core/core_rules_charactercreation.adoc#ref_characters_charactorcreation_initialattributes[Attributsboni] für seine reguläre Form.
+Der Charakter erhält die angegeben xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactorcreation_initialattributes[Attributsboni] für seine reguläre Form.
 
 [[ref_bloodline_were_skills_manovers]]
 === Besondere Bewegungsmanöver

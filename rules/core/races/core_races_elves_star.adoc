@@ -18,7 +18,7 @@ Ein Sternenelf erhält einen Bonus von +1 MaxPot und seine MP erhöhen sich um 2
 
 === Intuitives Zauberwissen
 Sternenelfen lernen arkane Zauber viel leichter als andere.
-Die Kosten für das xref:../core_rules_charactercreation.adoc#ref_characters_spendcp_spells[Erlernen von Zaubersprüchen] werden reduziert um den Faktor -2 auf die Magiepotenz des Zauberspruchen.
+Die Kosten für das xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_spells[Erlernen von Zaubersprüchen] werden reduziert um den Faktor -2 auf die Magiepotenz des Zauberspruches.
 Ein Zauberspruch kosten minimal 100 CP.
 
 .Intuitives Zauberwissen
@@ -28,4 +28,4 @@ Durch die Eigenschaft Intuitives Zauberwissen kostet der Zauberspruch für Stern
 ====
 
 === Magieanfällig
-Sternenelfen erleiden einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_magic_base.adoc.adoc#ref_magic_rules_spellcasting_magicdefence[Rettungswürfe] gegen xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Proben.
+Sternenelfen erleiden einen Malus von -1 auf die Würfe zum Erfolg auf alle xref:../core_rules_magic_base.adoc.adoc#ref_core_magic_rules_spellcasting_magicdefence[Rettungswürfe] gegen xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Proben.

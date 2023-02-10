@@ -6,15 +6,14 @@
 *Komponenten:* Formel, Geste +
 *Fokus:* Erde, Holz +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 5 +
 *Reichweite:* - +
 *Anzahl der Ziele:* Kegel 3,00 Meter +
 *Dauer:* Sofort +
 *Effekt:* Du formst Deine Hände zu einem Fächer und richtest sie in die Richtung, in Du den Zauber wirken möchtest.
 Aus Deinen Händen stößt ein Strahl aus zischender Säure, die Deine Gegner verätzt.
 
-Alle Kreaturen im Wirkungsbereich müssen eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Probe] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen oder erhalten einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit 4W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_acid[Säure]-Schaden.
+Alle Kreaturen im Wirkungsbereich müssen eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Probe] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen oder erhalten einen automatischen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Treffer] mit 4W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden].
 
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: Kegel +1,50 Meter +
-+5 MP: Schaden +1W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_acid[Säure]
++5 MP: Schaden +1W8 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure]

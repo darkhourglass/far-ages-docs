@@ -13,7 +13,7 @@
 *Effekt:* Du zeigst auf eine Kreatur und ein wabernder Strahl aus dunkler und fauler, arkaner Energie jagt aus Deinen Fingern auf diese zu.
 Diese Variante des Zauberspruches link:spell_harm_creature.adoc[Verletze Kreatur] wirkt gegen jede Kreatur mit beliebigen, primären Kreaturentyp, solange die Kreatur als sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] besitzt.
 
-Bei einer erfolgreichen xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls_spells[Magie-Treffer] mit Schadensbonus 4W10+4.
+Bei einer erfolgreichen xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Treffer] mit Schadensbonus 4W10+4.
 
 *Zusätzliche Effekte:* +
 +5 MP, 2 POT: Schadenbonus +1W10+1 +

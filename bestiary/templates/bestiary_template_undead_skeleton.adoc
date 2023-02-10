@@ -27,7 +27,7 @@ Außerdem musst Du folgende Voraussetzungen erfüllen:
 * Du benötigst den Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Untoten erschaffen].
 Die Zielkreatur gilt als Ziel dieses Zauberspruches.
 Du kannst den Zauberspruch maximal für xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 9 wirken.
-* Wie üblich musst Du zu Beginn der xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spell_preparation[Vorbereitung] die xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_additionaleffects[zusätzlichen Effekte] ansagen, welche in diesem Fall die Machtstufe bestimmen.
+* Wie üblich musst Du zu Beginn der xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[Vorbereitung] die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects[zusätzlichen Effekte] ansagen, welche in diesem Fall die Machtstufe bestimmen.
 * Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe erschaffst Du erfolgreich ein Skelett der gewählten Machtstufe.
 * Der primäre Typ der Kreatur ändert sich zu link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
 Es gelten die angegebenen xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln].
@@ -98,8 +98,8 @@ Durch die Bonus-TP erhält sie jedoch 5 TP zusätzlich, somit insgesamt 25 TP.
 [[ref_skeleton_skill_perfect_still]]
 === Perfekte Tarnung
 Skelette können sich perfekt als ein Haufen Knochen tarnen, in dem sie sich nicht bewegen.
-Einmal pro Kampf dürfen sie eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] einsetzen, um sich "zusammenzusetzen".
-Sie erhalten dadurch einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_start_of_battle_suprise[Überraschungsangriff].
+Einmal pro Kampf dürfen sie eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] einsetzen, um sich "zusammenzusetzen".
+Sie erhalten dadurch einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_supriseattack[Überraschungsangriff].
 
 [[ref_skeleton_skill_personality]]
 === Persönlichkeit
@@ -108,7 +108,7 @@ Daher können diese Untoten maximal eine xref:../../rules/advanced/creaturetypes
 
 [[ref_skeleton_skill_omnious_bone_rattling]]
 === Ominöses Knochenklappern
-Einmal pro Kampfphase darf ein Skelett als xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] mit seinen Knochen klappern.
+Einmal pro Kampfphase darf ein Skelett als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] mit seinen Knochen klappern.
 Das Geräusch ist im Radius von 6,00 Metern zu hören, vorausgesetzt, es existiert eine freie Luftlinie.
 Das Klappern verursacht bei Zuhörern üblicherweise ein verstörendes, beklemmendes Gefühl.
 Ein Skelett der  xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 7 oder höher darf diese Fähigkeit auch einsetzen, um seine Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_fear_skill[Furcht] aktiv einzusetzen.

@@ -6,14 +6,13 @@
 *Komponenten:* Komponente (500 Silbermünzen) +
 *Fokus:* Körper +
 *Vorbereitung:* 6 +
-*Anzahl der Erfolge:* 8 +
 *Reichweite:* Selbst/Berührung +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* 1 Stunde +
-*Effekt:* Für die Dauer des Zauberspruches erhält die Zielkreatur xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damageimmunity[Schadensimmunität] für die jeweilige xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart].
+*Effekt:* Für die Dauer des Zauberspruches erhält die Zielkreatur xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageimmunity[Schadensimmunität] für die jeweilige xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart].
 
 Welche Schadensart verwendet werden kann, hängt von der Ausprägung in der Zauberspruchliste aus.
-Ein Magier, der diesen Zauberspruch aus dem link:../spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers] lernt, kann Schadensresistenz xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] vergeben.
+Ein Magier, der diesen Zauberspruch aus dem link:../spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers] lernt, kann Schadensresistenz xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] vergeben.
 Um andere Schadensarten zu verwenden, muss der Magier diesen Zauberspruch mehrfach lernen.
 Lernt der Magier den Zauberspruch aus einer Liste, die mehrere Schadensarten erlaubt, kann der Magier sich den Typ des Manifests zu Beginn der Vorbereitung aussuchen.
 

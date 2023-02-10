@@ -9,10 +9,10 @@
 *Montage:* Schwer +
 *Beschreibung:* Diese Art der Panzerung erweitert die Variante der link:golems_part_plating_steel_half.adoc[Stahlpanzerung (Halb)], um den ganzen Körper des Golems zu schützen.
 
-Diese Form der Rüstung schützt alle xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_hitzones[Trefferzonen] des Golems.
+Diese Form der Rüstung schützt alle xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] des Golems.
 Dieser umfassende Schutz kommt jedoch mit dem Nachteil einer verringerten Bewegungsfähigkeit und Schnelligkeit.
-Alle Golems mit dieser Panzerung erhalten einen Malus von -1 auf ihren xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_inibonus[INI-Wert].
-Der Malus aus ihre xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] ist abhängig von ihrer xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK].
+Alle Golems mit dieser Panzerung erhalten einen Malus von -1 auf ihren xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Wert].
+Der Malus auf ihre xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] ist abhängig von ihrer xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK].
 Die Übersicht dazu, sowie anderer Eigenschaften, gibt die nachfolgende Tabelle.
 
 |===

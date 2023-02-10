@@ -11,7 +11,7 @@ Dabei kann der Untote eine beliebige Anzahl Untoter gleichzeitig kontrollieren, 
 Untote der Machtstufe 0 werden im Sinne dieser Rechnung mit 1/2 Stufen gerechnet.
 Außerdem kann der Untote keine Untoten kontrollieren, deren Machtstufe gleich oder höher der Eigenen ist.
 
-Die Übernahme oder Abgabe der Kontrolle ist eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_freeactions[freie Aktion] pro kontrollierten Untoten.
+Die Übernahme oder Abgabe der Kontrolle ist eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] pro kontrollierten Untoten.
 Die Kontrolle endet nicht automatisch und solange diese anhält, ist der Untote nicht von xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_decay[Zerfall] betroffen.
 
 .Herr der Toten

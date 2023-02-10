@@ -27,10 +27,10 @@ Hans, lauf!
 *Rüstung:* - +
 *Resistenzen:*
 
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
 *Immunitäten:*
 
@@ -49,9 +49,9 @@ Hans, lauf!
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 * link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch])
-* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
 == Offensiv
 
@@ -78,21 +78,21 @@ Hans, lauf!
 
 [[ref_bestiary_hangman_aura_of_doom]]
 === Aura der Verzweiflung
-Zu Beginn seiner Kampfphase erhalten alle link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen im Radius von 3,00 Metern um den Galgenmann einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[nekrotischem] Schaden.
+Zu Beginn seiner Kampfphase erhalten alle link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen im Radius von 3,00 Metern um den Galgenmann einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischem] Schaden.
 
 [[ref_bestiary_hangman_execute]]
 === Exekution
-Der Galgenmann darf eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_complexactions[komplexe Aktion] durchführen, um in seiner Kampfphase einen mit ihm xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] Charakter zweimal anzugreifen.
+Der Galgenmann darf eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] durchführen, um in seiner Kampfphase einen mit ihm xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] Charakter zweimal anzugreifen.
 Für diesen Angriff darf er nur sein Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwenden.
 
 [[ref_bestiary_hangman_curse_of_the_hangman]]
 === Fluch des Galgenmannes
-Der Galgenmann kann in seiner Kampfphase eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions[Aktion] einsetzen, um eine beliebige, link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur in seinem Sichtfeld bis 12,00 Metern mit seinem Fluch zu belegen.
+Der Galgenmann kann in seiner Kampfphase eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen, um eine beliebige, link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur in seinem Sichtfeld bis 12,00 Metern mit seinem Fluch zu belegen.
 
 Dazu würfelt er eine Probe mit der angegebenen Stufe.
-Diese Probe gilt als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe], für die das Ziel einen xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_magicdefence[Rettungswurf] würfeln darf.
+Diese Probe gilt als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe], für die das Ziel einen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Rettungswurf] würfeln darf.
 
-Für jeden Erfolg des Galgenmann erhält das Ziel nach Ablauf einer Frist von 3 Kampfphasen einen automatischen Treffer mit 1W10+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[nekrotischen] Schaden.
+Für jeden Erfolg des Galgenmann erhält das Ziel nach Ablauf einer Frist von 3 Kampfphasen einen automatischen Treffer mit 1W10+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischen] Schaden.
 
 Stirbt der Galgenmann vor Ablauf der Frist, tritt der Schaden nicht auf.
 
@@ -101,7 +101,7 @@ Stirbt der Galgenmann vor Ablauf der Frist, tritt der Schaden nicht auf.
 Der Galgenmann ist in Untoter der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 6 mit allen relevanten xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[Fähigkeiten].
 
 Um einen Galgenmann zu erschaffen, muss der Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] mit passender POT verwendet werden.
-Der Nekromant benötigt außerdem den Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] 5 oder mehr.
+Der Nekromant benötigt außerdem den Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5 oder mehr.
 Der Leichnam muss im Leben entweder ein zum Tode verurteilter (und am Urteil verstorbener) Verbrecher gewesen sein oder selbst das Opfer eines Galgenmannes.
 Zusätzlich muss der Nekromant aus schwarzem Stoff eine passende Kapuze beziehungsweise Maske eines Galgenmannes herstellen.
 

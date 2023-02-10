@@ -55,11 +55,11 @@ Folgende Ausnahmen sind zu beachten:
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 * Vampire können SP verlieren und erleben alle damit verbundenen Konsequenzen.
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
-* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_illusionary[Illusionär]).
-* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_mental[Mental]).
-* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_necrotic[Nekrotisch]).
+* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär]).
+* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]).
+* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]).
 Stattdessen erhalten sie für diese Schadensart link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz].
-* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_strain[Überanstrengung]).
+* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper].
 
 [[ref_undead_vampire_skills_undead_powerlevel]]
@@ -95,7 +95,7 @@ Ihre xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_va
 ==== Energieentzug
 Der verwendete Pool für die Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] ist xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
 Weiterhin wird für Vampire dieser Art der Energieentzug durch einen *Biss* und das Trinken von Blut durchgeführt.
-Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_actions_attack_brawl[Ringen].
+Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack_brawl[Ringen].
 Ist dieser Voraussetzung erfüllt, kann der Energieentzug nach den üblichen Regeln angewendet werden.
 Dieser Akt gilt nun als Biss.
 

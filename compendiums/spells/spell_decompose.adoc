@@ -6,11 +6,10 @@
 *Komponenten:* Geste +
 *Fokus:* Erde, Körper +
 *Vorbereitung:* 1 +
-*Anzahl der Erfolge:* 1 +
 *Reichweite:* Berührung +
 *Anzahl der Ziele:* speziell +
 *Dauer:* speziell +
-*Effekt:* Du berührst eine organische Masse und diese beginnt innerhalb von 1W3 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] pro Punkt in xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[GK] rasant zu verrotten.
+*Effekt:* Du berührst eine organische Masse und diese beginnt innerhalb von 1W3 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] pro Punkt in xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] rasant zu verrotten.
 Das Material verfärbt sich dunkel, bricht auf und es wachsen Pilze, Moos und vereinzelte seltsame Blumen aus der Masse.
 Am Ende dieser Zeit ist von der Masse nichts mehr übrig.
 Ein leicht süßlicher Geruch von Verwesung hängt für einen kurzen Augenblick in der Luft.
@@ -27,6 +26,6 @@ Tote Pflanzen könne auch in der Erde verrotten.
 Wird eine lebende Pflanze aus der Erde gerissen, benötigt diese üblicherweise ein paar Tage, bis sie Ziel des Zaubers sein kann.
 
 Kreaturen können im Allgemeinen nicht Ziel dieses Zaubers werden, mit Ausnahme von link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoten].
-Berührst Du einen Untoten mit diesem Zauberspruch, erhält dieser einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[automatischen Treffer] mit 1 Schadenspunkt.
+Berührst Du einen Untoten mit diesem Zauberspruch, erhält dieser einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1 Schadenspunkt.
 +
 *Zusätzliche Effekte:* +

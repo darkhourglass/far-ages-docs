@@ -9,6 +9,6 @@
 *Beschreibung:* Dieser Zusatz kopiert den Effekt des Zauberspruches link:../../../spells/spell_shadow_step.adoc[Schattenschritt].
 Der Golem verschwindet in einem Augenblick in einem Fanal schwarzer Schatten, um im nächsten Moment an einem anderen Ort aufzutauchen.
 
-Der Golem aktiviert diesen Zusatz mit dem Einsatz eines xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_battle_movefightaction[Bewegungsmanövers] und der MP-Kosten.
-Er verzichtet dabei auf seine übliche Verwendung seiner xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW].
+Der Golem aktiviert diesen Zusatz mit dem Einsatz eines xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] und der MP-Kosten.
+Er verzichtet dabei auf seine übliche Verwendung seiner xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 Der Schattenschritt befördert den Golem auf eine freie Position in direkter Sichtweite von bis zu 9,00 Metern.

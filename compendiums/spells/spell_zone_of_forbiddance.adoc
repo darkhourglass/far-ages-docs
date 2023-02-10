@@ -17,8 +17,8 @@ Dies gilt sowohl für primäre als auch für sekundäre Kreaturentypen.
 Besitzt eine Kreatur mehr als einen Kreaturentyp, der in der Zone verboten ist, hat dies keine weiteren Auswirkungen.
 
 Sobald die Kreatur in die Zone eintritt, verspürt sie ein tiefes Unwohlsein und eine Abneigung, weiter in der Umgebung zu bleiben.
-Zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] muss die Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegen.
-Besteht sie diese Probe nicht, müssen sie ihre gesamte Kampfphase darauf verwenden, um sich mit voller xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] zum nahegelegenen Rand der Zone zu bewegen.
+Zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] muss die Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegen.
+Besteht sie diese Probe nicht, müssen sie ihre gesamte Kampfphase darauf verwenden, um sich mit voller xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] zum nahegelegenen Rand der Zone zu bewegen.
 Besteht sie die Probe, kann sie ihre Kampfphase regulär gestalten, erhält jedoch einen Malus von -2 auf die Würfe zum Erfolg auf alle Proben und ihre BEW ist halbiert.
 
 Lernst Du diesen Zauberspruch für mehr als einen Kreaturentyp, darfst Du mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] eine beliebige Kombination dieser bekannten Kreaturentypen festlegen.

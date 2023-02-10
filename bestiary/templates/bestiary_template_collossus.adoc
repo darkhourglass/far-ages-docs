@@ -14,17 +14,17 @@ Die Kreatur darf keine der folgenden Schablonen besitzen:
 [[ref_template_collossus_attributes]]
 == Attribute
 
-Die Attributsstufen der Kreatur werden übernommen, außer die Werte für xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_strength[ST] und xref:../../rules/core/core_rules_charactercreation.adoc#ref_attribute_constitution[KO].
+Die Attributsstufen der Kreatur werden übernommen, außer die Werte für xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO].
 Im Vergleich zu anderen Schablonen werden hier neue Werte festgesetzt also die bisherigen überschrieben.
 ST und KO nehmen jeweils den Wert 20 an.
 
-Dadurch ändern sich folgende xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_secondary[Attributseigenschaften]:
+Dadurch ändern sich folgende xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften]:
 
-* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_maxcarringcapacity[MaxTL]: 300
-* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_hitpoints[TP]: 200
-* xref:../../rules/core/core_rules_charactercreation.adoc#ref_secondary_threshold[WID]: 23
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxcarryingcapacity[MaxTL]: 300
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[TP]: 200
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID]: 23
 
-Hat der Charakter weitere Boni auf seine TP, wie zum Beispiel xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_spendcp_tp_and_mp[TP-/MP-Steigerungen], werden diese zu seinen neuen TP (200) gerechnet.
+Hat der Charakter weitere Boni auf seine TP, wie zum Beispiel xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP-/MP-Steigerungen], werden diese zu seinen neuen TP (200) gerechnet.
 
 [[ref_template_collossus_skills]]
 == Fähigkeiten
@@ -34,7 +34,7 @@ Sie erhält außerdem folgende hinzu:
 
 [[ref_template_collossus_skill_gk11]]
 === Größenkategorie 11
-Die Kreatur gilt für alle Regeln als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_characters_charactercreation_sizecategories[Größenkategorie 11].
+Die Kreatur gilt für alle Regeln als eine Kreatur der xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie 11].
 Die physikalischen Dimensionen bleiben in diesem Fall dem SL überlassen.
 
 [[ref_template_collossus_skill_naturalarmor]]

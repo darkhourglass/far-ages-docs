@@ -18,8 +18,8 @@ Beobachter sind bestimmt äußerst irritiert, allerdings hat dieser Typ keine we
 
 [[ref_curse_of_nightsmares_weak]]
 == Schwach
-Die Kreatur regeneriert nur die Hälfe ihrer xref:../../core/core_rules_charactercreation.adoc#ref_secondary_hitpoints[TP] und xref:../../core/core_rules_charactercreation.adoc#ref_secondary_magicpoints[MP], die ihr durch die xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Erholung] erhalten würde.
+Die Kreatur regeneriert nur die Hälfe ihrer xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[TP] und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP], die ihr durch die xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Erholung] erhalten würde.
 
 [[ref_curse_of_nightsmares_strong]]
 == Stark
-Die Kreatur kann durch eine beliebige xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Erholung] keine xref:../../core/core_rules_charactercreation.adoc#ref_secondary_hitpoints[TP] und xref:../../core/core_rules_charactercreation.adoc#ref_secondary_magicpoints[MP] regenerieren.
+Die Kreatur kann durch eine beliebige xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Erholung] keine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[TP] und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP] regenerieren.

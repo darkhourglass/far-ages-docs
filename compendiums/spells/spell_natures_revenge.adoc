@@ -15,11 +15,11 @@ Zerstörerische Stöße knisternder Magie jagen auf Deine Feinde zu, wenn sie Di
 
 Wirst Du während der Wirkungsdauer durch eine Kreatur attackiert, schlägt die Magie des Zauberspruches zurück.
 Es ist dabei nicht relevant, ob der Angriff erfolgreich war oder nicht oder ob er durch eine Nahkampf-, Fernkampf oder Spruchzauberei-Probe verursacht wurde.
-Entscheidend ist, dass eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gewürfelt wurde, deren Ziel es war, Dir xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit[Schaden] zuzufügen.
-Dies gilt sogar für Effekte, die auf ein Gebiet, beispielsweise xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_rules_throwingweapons_cone[Wurfwaffen] oder xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_spellspecifics_targets[Zauber], gewirkt werden, in dem Du Dich aufhältst.
+Entscheidend ist, dass eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gewürfelt wurde, deren Ziel es war, Dir xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden] zuzufügen.
+Dies gilt sogar für Effekte, die auf ein Gebiet, beispielsweise xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_cone[Wurfwaffen] oder xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Zauber], gewirkt werden, in dem Du Dich aufhältst.
 Der Effekt muss jedoch während der Wirkungsdauer erschaffen worden sein (eine ausgelöste Falle gilt als nicht) und der Auslöser muss sich innerhalb des angegebenen Radius aufhalten.
 
-Der Auslöser erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit 6W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage[Schaden].
+Der Auslöser erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 6W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkten].
 Dieser Schaden erhöht sich, wenn die Kreatur eine oder mehrere Bedingungen erfüllt:
 
 * +2W6, wenn ihr primärer Kreaturentyp einer der folgenden ist: link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon], link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
@@ -28,4 +28,4 @@ Dieser Schaden erhöht sich, wenn die Kreatur eine oder mehrere Bedingungen erf�
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +
 +5 MP, +1 POT: Radius +12,00 Meter +
-+10 MP, + 2 POT: Die xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensart] kann von Dir zu einer der folgenden geändert werden: xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer], xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock] oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost] +
++10 MP, + 2 POT: Die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] kann von Dir zu einer der folgenden geändert werden: xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock] oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost] +

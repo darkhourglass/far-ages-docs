@@ -7,8 +7,8 @@
 * Körperlose Wesen erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
 * Körperlose Wesen erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag].
 * Körperlose Wesen sind nicht durch physikalische Objekte oder Grenzen in Ihrer Bewegung beeinträchtigt.
-Ihre xref:../../../core/core_rules_charactercreation.adoc#ref_secondary_movementbonus[BEW] kann immer ohne Beeinträchtigung voll genutzt werden, solange nicht explizit körperlose Wesen betroffen sind.
-Sofern ein körperloses Wesen sichtbar ist, verursacht es durch Bewegung auch xref:../../../core/core_rules_battlesystem.adoc#ref_battle_rules_attack_of_opportunity[Gelegenheitsangriffe].
+Ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] kann immer ohne Beeinträchtigung voll genutzt werden, solange nicht explizit körperlose Wesen betroffen sind.
+Sofern ein körperloses Wesen sichtbar ist, verursacht es durch Bewegung auch xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
 * Gleichzeitig können körperlose Wesen nur dann physikalische Objekte und Kreaturen beeinflussen, wenn es ihnen explizit in ihren Regeln erlaubt wird oder der Beschreibung eines Effektes.
 * Körperlose Wesen behandeln xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools] nach den üblichen Regeln, jedoch sind sie nur schwer zu verwunden.
 Dies wird die besondere Fähigkeit <<ref_incorporal_rules_skill_body_damage_immunity,Schadensimmunität (Körper)>> dargestellt, die nur körperlosen Wesen zusteht.
@@ -18,19 +18,19 @@ Sie nutzen Fähigkeiten, Talente oder Attributsproben nach den üblichen Regeln,
 [[ref_incorporal_rules_skill_body_damage_immunity]]
 === Schadensimmunität (Körper)
 Wo kein Körper ist, kann auch keiner beschädigt werden.
-Körperlose Wesen besitzen eine besondere Form der xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damageimmunity[Schadensimmunität], die eine ganze Reihe von xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_types[Schadensarten] abblockt.
+Körperlose Wesen besitzen eine besondere Form der xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageimmunity[Schadensimmunität], die eine ganze Reihe von xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensarten] abblockt.
 Diese Schadensarten sind folgende:
 
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_primary_physical[Physisch] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_earth[Erde] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_fire[Feuer] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_air[Luft] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_elemental_water[Wasser] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_frost[Frost] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_magma[Magma] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_acid[Säure] +
-* xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_type_aspectelemental_shock[Schock] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_magma[Magma] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure] +
+* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock] +
 
-Sogar xref:../../../core/core_rules_battlesystem.adoc#ref_battle_damage_inevitable[unabwendbarer] Schaden, der aus einer der genannten Quellen stammt, wirkt nicht eine körperlose Kreatur.
+Sogar xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbarer] Schaden, der aus einer der genannten Quellen stammt, wirkt nicht eine körperlose Kreatur.
 
 Nur Waffen oder Effekte, die explizit körperlose Wesen angreifen, ignorieren diese Schadensimmunität.

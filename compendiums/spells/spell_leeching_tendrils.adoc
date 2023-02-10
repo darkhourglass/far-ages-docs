@@ -15,8 +15,8 @@ Ihre Oberfläche ist mit unzähligen kleinen Dornen übersät und ihr Färbung i
 Die Ranken schlagen nach allen Kreaturen im Wirkungsbereich, reißen mit ihren Dornen kleine Schnitte in deren Haut.
 Am verstörendsten ist jedoch, dass sie das Blut durch kleine Membranen auf ihrer Oberfläche aus den Wunden aufsaugen.
 
-Alle Kreaturen, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_battlephase[Kampfphase] im Zielgebiet des Zauberspruches beginnen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] ablegen.
-Besteht eine Kreatur diese Probe nicht, erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damage_hit_automatic[automatischen Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_battle_damagerolls[Schadensbonus] von 4W10.
+Alle Kreaturen, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] im Zielgebiet des Zauberspruches beginnen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] ablegen.
+Besteht eine Kreatur diese Probe nicht, erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] von 4W10.
 
 Pro 5 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP], die eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur durch den Effekt dieses Zauberspruches verliert, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[heilst] Du 1 TP.
 Du kannst nicht mehr TP erhalten, als es Dein TP-Pool zulässt.

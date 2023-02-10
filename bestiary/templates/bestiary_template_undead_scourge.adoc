@@ -16,7 +16,7 @@ Um eine Geißel zu werden, muss die Kreatur folgende Voraussetzungen erfüllen:
 * sie darf nicht den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos] besitzen
 * sie selbst oder jemand anders muss den Zauberspruch link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis] anwenden, um sie in eine Geißel zu verwandeln
 * die Kreatur benötigt ein link:../../compendiums/items/magical/misc/magical_item_souljar.adoc[Seelengefäß], um seine Seele darin zu verwahren.
-Dieser Gegenstand gilt als erforderliche xref:../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_components_ingredients[Zutat] für link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis].
+Dieser Gegenstand gilt als erforderliche xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_ingredients[Zutat] für link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis].
 Es gelten die <<ref_template_undead_source_skill_souljar,Regeln>> nach diesem Kapitel.
 
 [[ref_template_undead_source_attributes]]
