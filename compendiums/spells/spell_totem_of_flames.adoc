@@ -16,7 +16,7 @@ Bei der Herstellung des Totems kannst Du bestimmen, welche Kreaturen das Totem *
 Zu Beginn Deiner xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] feuert das Totem auf die nächste Kreatur, die bei seiner Erschaffung nicht betrachtet wurde, und die sich innerhalb der Reichweite sowie direkter und unbehinderter Sichtlinie befindet.
 
 Die Kreatur erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
-Die Kreatur darf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe ablegen, um den Schaden zu halbieren (abgerundet, Minimum 1).
+Die Kreatur darf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe ablegen, um den Schaden zu halbieren (abgerundet, Minimum 1).
 
 Das Totem wird Dich nie angreifen.
 

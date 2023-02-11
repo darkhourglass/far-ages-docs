@@ -4,7 +4,8 @@
 *Typ:* Angriff, ST +
 *CP:* tba +
 
-Der Sprungangriff erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Der Sprungangriff erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
 Der Einsatz des Sprungangriffs erfordert den Einsatz der komplexen Aktion xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions_charge[Sturmangriff].

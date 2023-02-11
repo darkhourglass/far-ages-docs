@@ -110,7 +110,7 @@ Wird der Golem xref:../../../../rules/advanced/creaturetypes/primary/creaturetyp
 Jedoch bedankt es sich noch mit einer Explosion elementarer Energie.
 Alle Kreaturen im Umkreis von 1,50 Metern pro Machtstufe des Manifests um den Golem erhalten einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] pro Machtstufe des Manifests.
 Dieser hat einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[Schadenstyp] passend zum Element des Manifests, zum Beispiel xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]-Schaden im Fall eines Feuer-Manifests.
-Alle Kreaturen dürfen einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] ablegen, um bei einem Erfolg diesen Schaden zu halbieren (abgerundet, Minimum 1).
+Alle Kreaturen dürfen einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] ablegen, um bei einem Erfolg diesen Schaden zu halbieren (abgerundet, Minimum 1).
 Vom Golem selbst bleibt nur ein Haufen Asche und geschmolzener Einzelteile übrig.
 
 .Elementare Explosion bei Zerstörung

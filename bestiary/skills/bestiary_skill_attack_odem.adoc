@@ -9,7 +9,8 @@ Besonders bekannt für diese Art des Angriffs sind xref:../../rules/advanced/cre
 
 Die Atemattacke kann als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] in einer Kampfphase eingesetzt werden.
 
-Die Angriffprobe wird mit der angegebenen *Angriffsstufe* gewürfelt oder, sofern diese nicht angegeben ist, mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei].
+Die Angriffprobe wird mit der angegebenen *Angriffsstufe* gewürfelt.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Dabei gelten die Regeln für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_cone[kegelförmige] Angriffe.
 Der Kegel hat dabei eine Ausdehnung gemäß der angegebenen *Reichweite* oder 1,50 Meter pro Stufe in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN].
 
@@ -18,5 +19,6 @@ Sollte keine Schadenwürfel angegeben sein, wird die Schadensprobe mit 1W6 pro E
 
 .Atemattacke
 ====
-Ein Drache hat eine Atemattacke (14, 4W10+8, Feuer, 9,00), das bedeutet er kann 14W10 zur Angriffsprobe einen 9,00 Meter Kegel Feuer spucken, der 4W10+8 Schaden verursacht.
+Ein Drache hat eine Atemattacke (14, 4W10+8, Feuer, 9,00).
+Für seine Angriffsprobe würfelt er 2W10+14 und spuckt einen 9,00 Meter Kegel Feuer, der 4W10+8 Schaden verursacht.
 ====

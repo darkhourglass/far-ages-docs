@@ -7,6 +7,7 @@
 Dieser übernatürliche Angriff entzieht dem Opfer Punkte aus einem seiner xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Pools], um sie dem Angreifer zu übertragen.
 
 Der Angriff erfolgt im Gegensatz zu den meisten Talenten oder Fähigkeiten als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] mit der definierten *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Das Ziel hat immer eine die Möglichkeit zu einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe], solange sie nicht von der angreifenden Kreatur xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten] wird und bei Bewusstsein ist.
 Die Art der Verteidigungsprobe ist von dem *Pool* abhängig wie folgt:
 

@@ -6,9 +6,10 @@
 
 Wie eine Spinne kann diese Kreatur Netze spinnen und auf ihre Gegner werfen.
 
-Die Netzattacke erfolgt als Probe auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit der angegebenen *Angriffsstufe*.
+Die Netzattacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Es kann eine andere Kreatur oder ein Punkt innerhalb der angegebenen *Reichweite* ausgewählt werden.
 Bei einer erfolgreichen Probe wird ein Netz um den Aufprallpunkt im angegebenen *Radius* gespannt.
 
-Alle Kreaturen müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge aus der Angriffsprobe würfeln.
+Alle Kreaturen müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] gegen die Anzahl der Erfolge aus der Angriffsprobe würfeln.
 Im Fall eines Misserfolges gelten sie als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen].

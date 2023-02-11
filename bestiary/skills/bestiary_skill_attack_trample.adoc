@@ -4,7 +4,8 @@
 *Typ:* Angriff, ST +
 *CP:* tba +
 
-Die Zertreten-Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Die Zertreten-Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
 Gegen Kreaturen, deren xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] geringer ist, verursacht diese Attack mehr Schaden.

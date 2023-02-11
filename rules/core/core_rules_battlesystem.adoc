@@ -345,7 +345,7 @@ Die Vorgabe kann als grobe Richtlinie verstanden werden.
 *Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen <<ref_core_battle_flow_initiative,Initiativereihenfolge>> ausführen kann, also wenn er eigentlich nicht am Zug ist.
 Typische Reaktionen sind der Einsatz von <<ref_core_battle_reaction_usetalent,Talenten>> zur Verteidigung gegen <<ref_core_battle_actions_usetalent,Angriffen>>.
 Grundsätzlich können Reaktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
-Charaktere, die angegriffen werden und in der Lage sind, xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] einzusetzen, dürfen dieses Talent einsetzen.
+Charaktere, die angegriffen werden und in der Lage sind, xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] einzusetzen, dürfen dieses Talent einsetzen.
 Die jeweiligen Beschreibungen geben Auskunft, ob Reaktionen andere Aktionen, die vorbereitet oder weitergeführt werden, unterbrechen.
 
 In jeder Kampfphase besitzt ein Charakter im Normalfall genau eine Reaktion.
@@ -365,7 +365,7 @@ Dabei ist zu beachten, dass Charaktere zum Ausführen eines Gelegenheitsangriffe
 
 [[ref_core_battle_reaction_usetalent]]
 === Talente einsetzen (Reaktion)
-Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] oder xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
+Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] oder xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
 
 [[ref_core_battle_complexactions]]
 == Komplexe Aktionen
@@ -470,7 +470,7 @@ Für gewöhnlich gilt alles, was mit einer Waffe geführt wird, die in der Hand 
 Eine Projektilwaffe verursacht ihren Schaden also nicht an dem Ort, wo sie "stationiert" ist, sondern dort, wo das Projektil einschlägt.
 
 Im Allgemeinen gilt, dass eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende Probe] im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er muss in der Lage sein, seine <<ref_core_battle_reactions,Reaktion>> einsetzen zu können.
-Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Talente nutzen, dies sind zum Beispiel die xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] und xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
+Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Talente nutzen, dies sind zum Beispiel die xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] und xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
 
 Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_singularrolls[einfache Probe] seitens des Angreifers gewürfelt und es gilt das xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis], das er gewürfelt hat.
 
@@ -616,7 +616,7 @@ Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürf
 
 [NOTE]
 Neben besonderen Fähigkeiten wie link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] kann der SL auch situationsbedingt bestimmen, dass nicht alle Probe von Dunkelheit betroffen sind.
-Beispielsweise kann ein xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] betroffen sein, denn auch der Instinkt wird Sicht unterstützt, während ein Rettungswurf auf xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheit] davon nicht betroffen wäre.
+Beispielsweise kann ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] betroffen sein, denn auch der Instinkt wird Sicht unterstützt, während ein Rettungswurf auf xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheit] davon nicht betroffen wäre.
 
 [[ref_core_battle_melee_modifiers_height]]
 ==== Höhenunterschiede
@@ -665,7 +665,7 @@ Angriffe über die Seiten (hellgraue Kacheln) können normal verteidigt werden, 
 Die ist kumulativ mit dem Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[bedrängt].
 
 Angriffe über den Rücken (dunkelgrauen Kacheln) oder auch aus dem *Toten Winkel* sind besonders gefährlich, denn dann stehen dem Charakter keine regulären Verteidigungswürfe oder <<ref_core_battle_reactions,Reaktionen>> zu.
-Stattdessen kann er nur einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungwurf] gegen das Ergebnis des Angreifers würfeln.
+Stattdessen kann er nur einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungwurf] gegen das Ergebnis des Angreifers würfeln.
 Besteht er diese Probe, so wird der Schaden, der durch diesen Angriff vor Abzug der Rüstung und Schadensresistenzen verursacht wird, halbiert.
 Diese Regel stellt eine mögliche, glückliche, vielleicht auch instinktive Bewegung für einen Charakter dar, der von hinten angegriffen wird.
 
@@ -1315,7 +1315,7 @@ Aetherischer Schaden greift nicht den Körper des Ziels, sondern seine Verbindun
 ===== Illusionär
 Mache Zaubersprüche der Zauberschule xref:core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm[Illusionismus] und eventuelle andere, exotischere Quellen können illusionären Schaden verursachen.
 Dieser Schaden tritt nur auf, wenn das Opfer wirklich daran glaubt, verwundet worden zu sein.
-Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_douptillusions[Illusion Durchschauen-Probe] würfeln.
+Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_douptillusions[Illusion Durchschauen-Probe] würfeln.
 Ist diese erfolgreich, nimmt er keinen Schaden.
 Sollte er überzeugt sein, dass er den Schaden erhält, wird eine <<ref_core_battle_damage_damagerolls,Schadensprobe>> gewürfelt.
 
@@ -1460,7 +1460,7 @@ Der Charakter erhält damit eine mittelschwere Verletzung.
 Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer <<ref_core_battle_wounds,Verletzung>> einen *Niederschlag* erleiden kann.
 Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht.
 Es wird ihm "Schwarz vor Augen" und wird er durch die Wucht des Angriffes niedergeschmettert.
-Um dies zu prüfen, muss der Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_knockdown[Niederschlags-Rettungswurf] ablegen.
+Um dies zu prüfen, muss der Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_knockdown[Niederschlags-Rettungswurf] ablegen.
 
 Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] wird durch den aktuell höchsten <<ref_core_battle_wounds_additional_wounds,Verletzungsgrad>>, die erhaltene Verletzung berücksichtigend, wie folgt kalkuliert:
 
@@ -1772,7 +1772,7 @@ Ein Charakter mit einem xref:core_rules_2d10_system.adoc#ref_core_2d10_character
 Eine Rüstung mit dieser Eigenschaft beeinträchtigt den Charakter in seiner Motorik.
 Er erhält einen Malus auf folgende xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE-basierte] Proben:
 
-* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_GE[GE-Rettungswürfe], damit auch xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswürfe]
+* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_GE[GE-Rettungswürfe], damit auch xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswürfe]
 * xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]
 * xref:core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen]
 * xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]

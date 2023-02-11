@@ -6,7 +6,8 @@
 
 Die Kreatur verfügt über einen Angriff mit einer spitzen Extremität, wie beispielsweise ein Horn, mit der sie ihre Opponenten schwere Wunden zufügen können und außerdem aufspießen können.
 
-Diese Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Diese Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
 Wird durch diesen Angriff eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung] verursacht, darf die Kreatur entscheiden, ob sie die angegriffene Kreatur aufspießen will.

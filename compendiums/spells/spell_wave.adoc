@@ -14,7 +14,7 @@ Kurz bevor das Wasser den Boden berührt, beginnt das Wasser zu sprudeln und zu 
 Das Wasser dehnt sich plötzlich aus und eine Welle mit einer Breite von 1,50 Metern rast bis zu 9,00 Metern in gerade Linie von Dir weg.
 Als Zutat benötigst Du eine kleine Menge Wasser, zum Beispiel den Inhalt eines Trinkschlauchs.
 
-Alle Kreaturen im Wirkungsbereich müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen.
+Alle Kreaturen im Wirkungsbereich müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen.
 Bei einem Misserfolg werden sie xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[niedergeschlagen].
 
 Alle Kreaturen im Wirkungsbereich erhalten außerdem einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W6 Schaden. +

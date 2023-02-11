@@ -13,8 +13,8 @@ Hans, lauf!
 
 == Profil
 
-*ST:* 5   *GE:* 2   *KO:* 6 +
-*ER:* 3   *EN:* 2   *SB:* 1   *CH:* 1 +
+*ST:* 5 (+2)  *GE:* 2 (+1)  *KO:* 6 (+2) +
+*ER:* 3 (+1)  *EN:* 2 (+1)  *SB:* 1 (+1)  *CH:* 1 (+1) +
 
 *TP:* 90  *MP:* 20  *SP:* - +
 
@@ -34,10 +34,10 @@ Hans, lauf!
 
 *Immunitäten:*
 
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheiten widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_disgust[Ekel]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
 * link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horror[Horror]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
@@ -57,12 +57,12 @@ Hans, lauf!
 
 * <<ref_bestiary_hangman_execute,Exekution>>
 * <<ref_bestiary_hangman_curse_of_the_hangman,Fluch des Galgenmannes>> 7
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 10 (Zweihändiges Henkersbeil: 2W10+6)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 8 (+2) (Zweihändiges Henkersbeil: 2W10+6)
 
 == Defensive
 
-* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] 8
-* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 6
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+1)
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 6 (+1)
 
 == Sonstiges
 

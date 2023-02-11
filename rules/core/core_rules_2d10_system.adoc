@@ -223,6 +223,9 @@ Alle Talente, die regulär allen Charakteren zur Verfügung stehen, finden sich 
 Jedes Talent kann einen eigenen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> für seine <<ref_core_2d10_checks_talentchecks,Probe>> vorgeben.
 Dieser gilt sowohl für <<ref_core_2d10_checks_singularrolls,einfache>> und <<ref_core_2d10_checks_concurrentrolls,konkurrierende>> Proben.
 Sollte keine explizite Vorgabe vorliegen, gilt der <<ref_core_2d10_checks_standardminiumroll,Standardmindestwurf>>.
+Viele Talente werden auch gegen durch den SL festgelegte Mindestwürfe gewürfelt oder gegen Ergebnisse von Proben anderer Charaktere.
+Solange der eigentliche Mindestwurf über dem SMG liegt, wird dieser ignoriert.
+Es zählt der anderweitig festgelegte Mindestwurf.
 
 [[ref_core_2d10_characters_talents_connectedattribut]]
 ==== Verwandtes Attribut
@@ -272,7 +275,7 @@ Dieser Abschnitt fasst die Situationen und zu verwenden Talente zusammen:
 * Der Umgang mit *Fallen* wird mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen] und xref:core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen] abgedeckt.
 * Soziale Interaktion wird mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_interrogate[Ausfragen], xref:core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern], xref:core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] und xref:core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] dargestellt.
 * Wer *heimlich* vorgehen möchte, findet die Regeln dazu in den Talenten xref:core_rules_talents_base.adoc#ref_talents_hide[Verstecken] und xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen].
-* Die Anwendung von Talenten, die im *Kampf* relevant sind, wie zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen], wird im Abschnitt link:core_rules_battlesystem.adoc[Kampfsystem] beschrieben.
+* Die Anwendung von Talenten, die im *Kampf* relevant sind, wie zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], wird im Abschnitt link:core_rules_battlesystem.adoc[Kampfsystem] beschrieben.
 * Detaillierte Informationen zur Verwendung von *Magie* und xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] wird im Abschnitt link:core_rules_magic_base.adoc[Magie] beschrieben.
 
 [NOTE]
@@ -310,7 +313,7 @@ Die Angabe "-" bedeutet, dass kein Überanstrengungsschaden anfällt.
 [[ref_core_2d10_checks]]
 == Proben
 Das Würfelsystem von Far Ages basiert auf 2 zehnseitigen Würfeln (*2W10*), deren Augenzahl inklusive von diverser Modifikatoren, einen definierten Wert erreichen muss.
-Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er 2W10 und addiert oder subtrahiert alle Modifkatoren.
+Muss ein Spieler oder ein NPC eine *Probe* bestehen, dann würfelt er 2W10 und addiert oder subtrahiert alle Modifikatoren.
 Diese Modifikatoren ermittelt sich meist direkt aus der <<ref_core_2d10_checks_situationalmodifiers,Situation>>, anhand seiner <<ref_core_2d10_checks_attributchecks,Attribute>> oder <<ref_core_2d10_checks_talentchecks,Talente>>.
 
 [[ref_core_2d10_checks_basicrole]]
@@ -382,6 +385,7 @@ Die folgende Tabelle zeigt eine beispielhafte Übersicht zu verschiedenen Mindes
 [[ref_core_2d10_checks_standardminiumroll]]
 === Standardmindestwurf
 Immer dann, wenn eine Probe einen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> erfordert, aber keiner explizit angegeben ist, gilt impliziert der *Standardmindestwurf* von *12*.
+Die Abkürzung für den Standardmindestwurf ist _SMW_.
 
 [[ref_core_2d10_checks_successes]]
 === Erfolge
@@ -448,7 +452,7 @@ Der Verteidiger legt dann ebenfalls eine Probe ab und bestimmt sein Ergebnis.
 [[ref_core_2d10_checks_concurrentrolls_defendingroll]]Man nennt diese Probe eine *Verteidigungsprobe*.
 Dieser Verteidigungswurf muss nicht unbedingt auf das gleiche Talent oder Attribut erfolgen.
 Üblicherweise bestimmen die Angriffe die Optionen zur Verteidigung.
-So kann beispielsweise eine Angriffsprobe durch xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] verteidigt werden.
+So kann beispielsweise eine Angriffsprobe durch xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] verteidigt werden.
 
 Eine konkurrierende Probe ist ein <<ref_core_2d10_checks_failures,Misserfolg>> für den Angreifer, wenn der Verteidiger ein gleiches oder höheres Ergebnis erzielt hat.
 Es werden beide Proben nach den üblichen Regeln von <<ref_core_2d10_checks_botches,Patzern>> und <<ref_core_2d10_checks_bonusdice,Bonuswürfeln>> ausgewertet.
@@ -744,18 +748,18 @@ Es gilt, dass wenn ein Charakter einen Vorteil auf einen bestimmten, attributssp
 .Standardrettungswürfe
 ====
 Ein Charakter erhält einen Bonus von +1 auf alle KO-basierten Rettungswürfe.
-Damit erhält er diesen Bonus auch auf KO-basierte Standardrettungswürfe wie zum Beispiel <<ref_core_2d10_check_saves_base_disgust,Ekel>>, <<ref_core_2d10_check_saves_base_poisonresist,Gift>> und <<ref_core_2d10_check_saves_base_sicknessresist,Krankheit>>.
+Damit erhält er diesen Bonus auch auf KO-basierte Standardrettungswürfe wie zum Beispiel <<ref_core_2d10_checks_saves_base_disgust,Ekel>>, <<ref_core_2d10_checks_saves_base_poisonresist,Gift>> und <<ref_core_2d10_checks_saves_base_sicknessresist,Krankheit>>.
 ====
 
 Andersherum gilt dies jedoch nicht, denn ein Vorteil auf einen bestimmten Standardrettungswurf bietet keinen Vorteil auf andere Standardrettungswürfe oder den allgemeinen Rettungswurf.
 
 .Standardrettungswürfe
 ====
-Ein Charakter erhält einen Bonus von +1 auf alle <<ref_core_2d10_check_saves_base_disgust,Ekel-Rettungswürfe>>.
-Er erhält diesen Bonus somit nicht auf die Standardrettungswürfe <<ref_core_2d10_check_saves_base_poisonresist,Gift>> oder <<ref_core_2d10_check_saves_base_sicknessresist,Krankheit>> oder den <<ref_core_2d10_checks_saves_KO,Rettungswurf auf KO>>.
+Ein Charakter erhält einen Bonus von +1 auf alle <<ref_core_2d10_checks_saves_base_disgust,Ekel-Rettungswürfe>>.
+Er erhält diesen Bonus somit nicht auf die Standardrettungswürfe <<ref_core_2d10_checks_saves_base_poisonresist,Gift>> oder <<ref_core_2d10_checks_saves_base_sicknessresist,Krankheit>> oder den <<ref_core_2d10_checks_saves_KO,Rettungswurf auf KO>>.
 ====
 
-[[ref_core_2d10_check_saves_base_disgust]]
+[[ref_core_2d10_checks_saves_base_disgust]]
 ===== Ekel
 *Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
 
@@ -766,7 +770,7 @@ Dennoch muss er für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_b
 * *Patzer:* Dem Charakter wird übel, jedoch kann er sich nicht mehr beherrschen und muss sich übergeben.
 Er gilt als <<ref_core_2d10_condition_dazed,benommen (Stufe 1)>>.
 
-[[ref_core_2d10_check_saves_base_falling]]
+[[ref_core_2d10_checks_saves_base_falling]]
 ===== Fallen
 *Attribut:* <<ref_core_2d10_characters_attribute_dexterity,GE>>
 
@@ -785,7 +789,7 @@ Er gilt als <<ref_core_2d10_condition_onground,am Boden>>.
 [NOTE]
 Natürliche Rüstung vermindert Fallschaden.
 
-[[ref_core_2d10_check_saves_base_fear]]
+[[ref_core_2d10_checks_saves_base_fear]]
 ===== Furcht
 *Attribut:* <<ref_core_2d10_characters_attribute_selfcontrol,SB>>
 
@@ -801,7 +805,7 @@ Nicht immer sind Auslöser für diese Proben deutlich zu sehen.
 Manche Zaubersprüche generieren einfach Furcht im Verstand des Charakters.
 Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfphasen, zum Beispiel 1W10 - SB (Minimum 1) Kampfphasen, geschickt werden.
 
-[[ref_core_2d10_check_saves_base_poisonresist]]
+[[ref_core_2d10_checks_saves_base_poisonresist]]
 ===== Gift
 *Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
 
@@ -813,11 +817,11 @@ Die Beschreibung eines Giftes enthält einen *sekundären Effekt* und einen *pri
 * *Misserfolg:* der primäre Effekt tritt sofort ein
 * *Patzer:* der primäre und der sekundäre Effekt treten sofort ein
 
-[[ref_core_2d10_check_saves_base_horror]]
+[[ref_core_2d10_checks_saves_base_horror]]
 ===== Horror
 *Attribut:* <<ref_core_2d10_characters_attribute_selfcontrol,SB>>
 
-Viel stärker als die <<ref_core_2d10_check_saves_base_fear,Furcht>> ist die Erkenntnis, dass manche Dinge eigentlich nicht existieren dürften.
+Viel stärker als die <<ref_core_2d10_checks_saves_base_fear,Furcht>> ist die Erkenntnis, dass manche Dinge eigentlich nicht existieren dürften.
 Kosmische Schrecken, unnatürliche Ereignisse und zur Wirklichkeit gewordene Alpträume kreuzen selten, aber wenn dann äußerst prägend, das Leben eines Abenteurers.
 
 * *Misserfolg:* Der Charakter ist schwer getroffen und konzentriert sich nur noch darauf, möglichst zu überleben.
@@ -827,7 +831,7 @@ Außerdem erhält er den Zustand <<ref_core_2d10_condition_fleeing,Fliehend>>.
 Der Charakter wird bewegungsunfähig solange wie der Auslöser des Horrors in seinem Blickfeld ist.
 Es gelten die gleichen Auswirkungen wie bei einem Misserfolg, allerdings verliert er 2 SP für jede volle 5 Punkte, die er unter dem Mindestwurf liegt.
 
-[[ref_core_2d10_check_saves_base_douptillusions]]
+[[ref_core_2d10_checks_saves_base_douptillusions]]
 ===== Illusion anzweifeln und durchschauen
 *Attribut:* <<ref_core_2d10_characters_attribute_perception,ER>>
 
@@ -836,7 +840,7 @@ Es gelten die gleichen Auswirkungen wie bei einem Misserfolg, allerdings verlier
 xref:core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm[Illusionismus]
 
 
-[[ref_core_2d10_check_saves_base_sicknessresist]]
+[[ref_core_2d10_checks_saves_base_sicknessresist]]
 ===== Krankheit
 *Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
 
@@ -850,7 +854,7 @@ Die Beschreibung einer Krankheit enthält einen *sekundären Effekt* und einen *
 * *Misserfolg:* der sekundäre Effekt tritt sofort ein
 * *Patzer:* der primäre Effekt tritt sofort ein
 
-[[ref_core_2d10_check_saves_base_knockdown]]
+[[ref_core_2d10_checks_saves_base_knockdown]]
 ===== Niederschlag
 *Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
 
@@ -860,7 +864,7 @@ Gerät der Charakter in eine Situation, die eine Niederschlags-Probe erfordert, 
 
 Für detaillierte Regeln siehe das Dokument Kampf im Kapitel xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag].
 
-[[ref_core_2d10_check_saves_base_reflex]]
+[[ref_core_2d10_checks_saves_base_reflex]]
 ===== Reflex
 *Attribut:* <<ref_core_2d10_characters_attribute_dexterity,GE>>
 
@@ -873,7 +877,7 @@ Um eine solche Gefahr abzuwenden, muss die Reflex-Probe einen angebenen <<ref_co
 
 .Rettungswürfe
 ====
-Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_2d10_check_saves_base_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_2d10_checks_saves_base_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
 
 Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Regeln] hoch genug, um den Zauberspruch zu wirken.
 Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen.
@@ -881,7 +885,7 @@ Thalvin und Khelbor würfeln jeweils einen eigenen Reflex-Rettungswurf.
 Je nach Ergebnis erleidet einer oder beide von Ihnen nur 15 Schadenspunkte.
 ====
 
-[[ref_core_2d10_check_saves_base_willpower]]
+[[ref_core_2d10_checks_saves_base_willpower]]
 ===== Willenskraft
 *Attribut:* <<ref_core_2d10_characters_attribute_selfcontrol,SB>>
 
@@ -939,7 +943,7 @@ Geschick (15)
 
 Reflex (20)
 
-Das erste Beispiel beschreibt eine <<ref_core_2d10_checks_attributchecks,Geschick-Probe>>, die einen Mindestwurf von 15 erfordert und das zweite Beispiel beschreibt einen <<ref_core_2d10_check_saves_base_reflex,Reflex-Rettungswurf>>, die einen Mindestwurf von 20 erfordert.
+Das erste Beispiel beschreibt eine <<ref_core_2d10_checks_attributchecks,Geschick-Probe>>, die einen Mindestwurf von 15 erfordert und das zweite Beispiel beschreibt einen <<ref_core_2d10_checks_saves_base_reflex,Reflex-Rettungswurf>>, die einen Mindestwurf von 20 erfordert.
 
 Für bekannte Mindestwürfe, zum Beispiel im Fall des <<ref_core_2d10_checks_standardminiumroll,Standardmindestwurfs>>, wird nur der Probenname genannt.
 
@@ -1171,7 +1175,7 @@ Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
 [[ref_core_2d10_condition_fleeing]]
 === Fliehend
 Manchmal ist Flucht die beste Verteidigung.
-Ein Charakter in diesem Zustand ist üblicherweise unfreiwillig auf der Flucht aus einer Kampfsituation, zum Beispiel aufgrund einer verpatzen <<ref_core_2d10_check_saves_base_fear,Furcht-Probe>>.
+Ein Charakter in diesem Zustand ist üblicherweise unfreiwillig auf der Flucht aus einer Kampfsituation, zum Beispiel aufgrund einer verpatzen <<ref_core_2d10_checks_saves_base_fear,Furcht-Probe>>.
 
 Ein fliehender Charakter muss in seiner Kampfphase seine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] ausschließlich darauf verwenden, um den Kampf zu entkommen.
 
@@ -1244,7 +1248,7 @@ Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_
 
 Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar gegenüber Kreaturen, die über andere Sinne als "Sicht" verfügen.
 Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
-Ebenso gilt Unsichtbarkeit nicht als <<ref_core_2d10_check_saves_base_douptillusions,Illusion>>, außer es ist explizit als solche beschrieben.
+Ebenso gilt Unsichtbarkeit nicht als <<ref_core_2d10_checks_saves_base_douptillusions,Illusion>>, außer es ist explizit als solche beschrieben.
 Es ist möglich, dass in einer Kampfsituation unsichtbare Charaktere von einigen Kampfteilnehmern erkannt werden und von anderen nicht.
 Alle Kreaturen, die unsichtbare Charaktere erkennen, behandeln diese, als würde der Zustand nicht gelten.
 

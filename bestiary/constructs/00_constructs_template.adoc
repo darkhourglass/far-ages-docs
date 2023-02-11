@@ -12,8 +12,8 @@ Lore
 
 == Profil
 
-*ST:* XXX     *GE:* XXX     *KO:* XXX +
-*ER:* XXX     *EN:* XXX     *SB:* XXX     *CH:* XXX +
+*ST:* XXX (+x)     *GE:* XXX (+x)     *KO:* XXX (+x) +
+*ER:* XXX (+x)     *EN:* XXX (+x)     *SB:* XXX (+x)    *CH:* XXX (+x) +
 
 //TP=(ST+KO)*5
 //MP=EN*10
@@ -40,11 +40,11 @@ Lore
 
 *Immunitäten:* +
 
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheiten widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_disgust[Ekel]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]

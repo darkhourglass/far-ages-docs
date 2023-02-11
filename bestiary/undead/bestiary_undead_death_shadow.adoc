@@ -11,8 +11,8 @@ Lore
 
 == Profil
 
-*ST:* 3   *GE:* 3   *KO:* 4 +
-*ER:* 4   *EN:* 7   *SB:* 2   *CH:* 1 +
+*ST:* 3 (+1)  *GE:* 3 (+1)  *KO:* 4 (+2) +
+*ER:* 4 (+2)  *EN:* 7 (+3)  *SB:* 2 (+1)  *CH:* 1 (+1) +
 
 *TP:* 35  *MP:* 70  *SP:* - +
 
@@ -32,10 +32,10 @@ Lore
 
 *Immunitäten:*
 
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheiten widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_disgust[Ekel]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
 * link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horror[Horror]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
@@ -58,7 +58,7 @@ Lore
 
 == Defensive
 
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+1)
 
 == Sonstiges
 

@@ -2,7 +2,7 @@
 
 == Hinweise zu den Einträgen
 
-*Kategorie:* Die generischen Talente sind in Kategorien aufgeteilt, die grob beschreiben, wofür das Talent gut ist, bzw. in welchen Bereich es am ehesten fällt.
+*Kategorie:* Die Talente sind in Kategorien aufgeteilt, die grob beschreiben, wofür das Talent gut ist, bzw. in welchen Bereich es am ehesten fällt.
 Dies hat keinen spieltechnischen Effekt, hilft jedoch der Übersicht.
 Kampagnen-spezifische Talente können sich auch in diese Kategorien einordnen.
 
@@ -13,28 +13,6 @@ Nicht ausschließlich für Schurken geeignet.
 * *Wissenstalente:* Talente in dieser Kategorie symbolisieren das Wissen des Charakters und seinen Umgang mit diesem.
 * *Magische Talente:* diese Kategorie beinhaltet den Umgang des Charakters mit den verschiedenen Aspekten der Magie.
 
-*Name:* der Name des Talents. Proben, die dieses Talent betreffen, werden in der bekannten Schreibweise angeben, diesen Namen verwendet.
-
-*Mindestwurf:* der Mindestwurf, der für dieses Talent gilt. Für generische Talente ist das immer der Standardmindestwurf.
-
-*Ungeübte Anwendung:* Ja oder Nein: Ja, wenn das Talent ungeübt angewendet werden kann, Nein, wenn nicht.
-Siehe dazu die Beschreibung von Talentproben im Dokument Würfelsystem.
-
-*Verwandtes Attribut:* das verwandte Attribut des Talents.
-
-*Kampf:* hier wird angegeben, wie das Talent bzw. dessen ungeübte Anwendung in einer Kampfrunde verwendet werden kann.
-Die Angabe ist in diesem Dokument entweder:
-
-* "A": Das Talent ist eine Aktion
-* “M”: Das Talent ist ein Bewegungs- oder Kampfmanöver
-* "W": wie weiterführend.
-Dies bedeutet, dass das Talent an keine feste Anzahl von Kampfphasen gebunden ist, sondern so lange dauert, wie der Benutzer es braucht.
-* "R": Das Talent ist eine Reaktion.
-* "F": Das Talent ist eine Freie Aktion.
-* “-”: Das Talent ist nicht im Kampf benutzbar.
-
-*Beschreibung:* Beschreibung und Regeln für die Anwendung des Talentes.
-
 == Kampftalente
 
 Diese Kategorie beinhaltet alle wichtigen Talente, die benötigt werden, um in einer kämpferischen Auseinandersetzung zu überleben.
@@ -43,10 +21,10 @@ Einige Talente sind nicht unbedingt mit dem Kampf verbunden, betreffen jedoch ho
 
 [[ref_talents_athletics]]
 === Athletik
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ST +
-*Kampf:* M +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Maneuver] +
 *Beschreibung:* Das Talent Athletik umfasst eine Reihe von körperlich anstrengenden Tätigkeiten, die Charaktere im Laufe ihres Abenteuerlebens benötigen.
 
 *Klettern:* Charaktere können an Wänden und Felswänden herauf- oder herabklettern.
@@ -59,10 +37,10 @@ Charaktere können die Hälfte ihrer BEW-Rate pro Kampfphase klettern.
 Eine Klettern-Probe auch kann in regelmäßigen Abständen durchgeführt werden, wenn zum Beispiel eine größere Strecke geklettert werden muss.
 Jede Probe stellt den Fortschritt des Charakters dar.
 Der SL kann Klettern-Proben auch verlangen, wenn die Charaktere sich über schwieriges Gelände bewegen.
-Die nötige Anzahl der Erfolge pro Probe ergibt aus der Beschaffenheit des Geländes und den Gegebenheiten der Situation.
+Der nötige xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] ergibt aus der Beschaffenheit des Geländes und den Gegebenheiten der Situation.
 
 * *Misserfolg:* Der Charakter schafft es nicht, den aktuellen Abschnitt zu erklettern.
-Er verliert alle Aktion und Manöver in der aktuellen Kampfrunde und kann erst in der nächsten Kampfphase wieder agieren.
+Er verliert alle Aktion und Manöver in der aktuellen Kampfphase und kann erst in der nächsten Kampfphase wieder agieren.
 * *Patzer:* Der Charakter fällt.
 
 *Schwimmen:* Das Überqueren von Körpern aus Wasser, zum Beispiel Seen und Flüssen, erfordert den Einsatz dieser Probe.
@@ -71,7 +49,7 @@ Ebenso wird sie wichtig, wenn Charaktere unabsichtlich in Wasser fallen.
 Ein Charakter kann pro Kampfphase die Hälfte seiner BEW-Rate schwimmen.
 Grundsätzlich kann der SL eine Schwimmen-Probe auch in regelmäßigen Abständen verlangen, um den Fortschritt des Charakters zu bestimmen.
 
-* *Misserfolg:* In dieser Kampfrunde ist der Charakter nicht vorangekommen.
+* *Misserfolg:* In dieser Kampfphase ist der Charakter nicht vorangekommen.
 Er verliert alle Aktion und Manöver in der aktuellen Kampfrunde und kann erst in der nächsten Kampfphase wieder agieren.
 * *Patzer:* Wie Misserfolg, jedoch erhält der Charakter zusätzlich 1W6 Schaden ohne Rüstungsschutz, da er Wasser in seine Lungen bekommt.
 
@@ -79,7 +57,7 @@ Er verliert alle Aktion und Manöver in der aktuellen Kampfrunde und kann erst i
 Ein Charakter kann maximal die Hälfte seiner BEW-Rate weit springen und nur ein Viertel hoch.
 
 Generell benötigt er Anlauf, für jeden weiten Sprung die gleiche Anzahl an Metern, für jeden hohen Sprung die gleiche Anzahl an Metern.
-Er erhält einen Malus von -1 auf die Würfe zum Erfolg für jede 1,50 Meter die er nicht Anlauf nimmt.
+Er erhält einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3  für jede 1,50 Meter die er nicht Anlauf nimmt.
 
 * *Misserfolg:* der Charakter landet nahe am Rand des zu überspringenden Gebietes bzw. kommt gerade so an die obere Kante ran.
 Der Charakter konnte sich gerade noch abrollen oder festhalten und ist sicher.
@@ -87,54 +65,54 @@ Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
 * *Patzer:* Der Charakter landet mitten in dem Gebiet, das er überspringen wollte.
 
 [[ref_talents_evade]]
-=== Hieb Ausweichen
-*Mindestwurf:* SMW +
+=== Ausweichen
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW]  / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampf:* R +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_reaction_usetalent[Reaktion] +
 *Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 
 [[ref_talents_meleeweapons]]
 === Nahkampfwaffen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* * +
-*Kampf:* A +
+*Verwandtes Attribut:* Abhängig von Waffe +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Angriff] +
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
 Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_resist_throwdown]]
 === Niederschlag Widerstehen
-*Mindestwurf:* SMW +
+*Mindestwurf:* speziell +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* KO +
-*Kampf:* F +
-*Beschreibung:* Mit diesem Talent können Niederschlagsproben gewürfelt werden.
+*Kampf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] +
+*Beschreibung:* Mit diesem Talent können xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_knockdown[Niederschlags-Rettungswürfe] gewürfelt werden.
 
 [[ref_talents_parade]]
 === Parade
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampf:* R
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_reaction_usetalent[Reaktion]
 *Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 Er muss dazu eine Einhand-Nahkampfwaffe in einer Hand halten.
 
 [[ref_talents_projectileweapons]]
 === Projektilwaffen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* * +
-*Kampf:* A +
+*Verwandtes Attribut:* Abhängig von Waffe +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Angriff] +
 *Beschreibung:* Solange der Charakter eine Projektilwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
 Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
 [[ref_talents_riding]]
 === Reiten
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* W +
+*Kampfphasen:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Maneuver] +
 *Beschreibung:* Der Charakter kann auf einem als Reittier ausgewiesenem Tier reiten.
 Dies geschieht üblicherweise automatisch, ohne, dass eine Probe nötig ist, und zwar sobald der Charakter mindestens eine Stufe in diesem Talent hat.
 Für ungewöhnliche und stressige Situationen muss der Charakter jedoch eine Probe ablegen, um zu verhindern, dass das Tier durchgeht oder er von diesem herunterfällt.
@@ -142,19 +120,19 @@ Solche Situationen können Kampfgetümmel sein, das Springen über ein Hindernis
 
 [[ref_talents_shield_defense]]
 === Schildverteidigung
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ST +
-*Kampf:* R +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_reaction_usetalent[Reaktion] +
 *Beschreibung:* Ein Charakter kann dieses Talent verwenden, um im Nahkampf eine Verteidigungsprobe zu würfeln.
 Das Talent kann nur verwendet werden, wenn der Charakter einen Schild verwendet.
 
 [[ref_talents_unarmed_combat]]
 === Unbewaffneter Kampf
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* * +
-*Kampf:* A +
+*Verwandtes Attribut:* GE/ST +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Angriff] +
 *Beschreibung:* Mit diesem Talent kann sich der Charakter auch ohne Waffen wehren und Proben auf Unbewaffneten Kampf würfeln.
 Dieses Talent kann mit dem Attribut xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] gewürfelt werden.
 Der Charakter oder die Kreatur muss diese Entscheidung mit Ansage der Talentprobe festlegen.
@@ -163,10 +141,10 @@ In diesem Fall ist keine Wahl möglich.
 
 [[ref_talents_throwingweapons]]
 === Wurfwaffen
-*Mindestwurf:* SWM +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* * +
-*Kampf:* A +
+*Verwandtes Attribut:* Abhängig von Waffe +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Angriff] +
 *Beschreibung:* Solange der Charakter eine Wurfwaffe führt, darf er alle Angriffsproben im Fernkampf mit diesem Talent würfeln.
 Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
@@ -177,10 +155,10 @@ Auch wenn der Name “Schurke” eine gewisse Illegalität beinhaltet, so sind d
 
 [[ref_talents_acrobatics]]
 === Akrobatik
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampf:* M +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Maneuver] +
 *Beschreibung:* Dieses Talent umfasst alle Manöver, die über eine durchschnittliche, sportliche Betätigung hinausgehen.
 Dazu gehören spektakuläre Aktionen, die man umgangssprachlich als zirkusreif beschreiben könnte, auch wenn wir die Abenteurer nicht zwangsweise in einen Zirkus stecken wollen.
 Beispiele für passende Situationen, die eine Akrobatik-Probe benötigen, sind:
@@ -189,29 +167,28 @@ Beispiele für passende Situationen, die eine Akrobatik-Probe benötigen, sind:
 Die BEW des Charakters wird halbiert.
 * Der Charakter möchte auf einer sehr unsicheren Oberfläche (ein zugefrorener See, ein rutschiges Schiffsdeck oder eine schwankende Hängebrücke) laufen.
 Die BEW des Charakters wird halbiert.
-* TODO schwieriges Gelände
+* Der Charakter möchte ohne Nachteile durch schwieriges Gelände manövrieren.
 * Der Charakter möchte beeindruckende Körperbewegungen durchführen: Purzelbäume, Handstand, Rad Schlagen und ähnliches
 * Der Charakter möchte die Bedrohungszone von Gegnern durchqueren, ohne einen Gelegenheitsangriff zu provozieren.
 * Der Charakter möchte schwierige Aktionen durchführen, ist jedoch teilweise eingeschränkt in seinen Bewegungen, zum Beispiel sind ihm die Hände gebunden und er möchte ein Schwert vom Boden aufheben.
-
-// TODO erlaube Klettern u.ä.
+* Der Charakter möchte _Klettern_ oder _Springen_ wie im Talent <<ref_talents_athletics,Athletik>> vorgestellt.
 
 Üblicherweise kann der Spieler einfach ankündigen, eine Akrobatik-Probe für ein xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] durchführen zu wollen.
-Der SL kann dann eine nötige Anzahl von Erfolgen festlegen oder aufgrund der Situation aus dem Regelsystem ableiten.
+Der SL kann dann einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] festlegen oder aufgrund der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers[Situation] Boni oder Mali ableiten.
 
 * *Misserfolg:* Der Charakter schafft sein Manöver nicht, er verliert alle xref:core_rules_battlesystem.adoc#ref_core_battle_actions[aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] für die aktuelle Kampfphase.
 * *Patzer:* Wie Misserfolg, jedoch ist der Charakter gleichzeitig zu Boden gegangen und beginnt die nächste Kampfphase am Boden liegend.
 
 [[ref_talents_disarmtraps]]
 === Fallen Entschärfen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
-*Kampf:* - +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion] +
 *Beschreibung:* Wenn ein Charakter eine Falle entdeckt hat, dann kann er mit diesem Talent versuchen, sie zu entschärfen.
 Selbst wenn der Auslöser einer entschärften Falle betätigt wird, wird kein Effekt ausgelöst.
 In einigen Fällen ist Werkzeug nötig, in anderen Fällen ist eine kontrollierte Zündung nötig.
-In den Beschreibungen der Fallen ist die Anzahl der Erfolge, die nötig sind, um die Falle zu entschärfen, angegeben. +
+In den Beschreibungen der Fallen ist der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf], um die Falle zu entschärfen, angegeben. +
 Ein Misserfolg verhindert die erfolgreiche Entschärfung, der Charakter muss mindestens 10 Minuten warten, bis er es wieder versuchen kann.
 Ein Patzer löst die Falle sofort aus. +
 Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
@@ -219,12 +196,12 @@ Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
 [[ref_talents_settraps]]
 === Fallen Stellen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampf:* - +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion] +
 *Beschreibung:* Mit diesem Talent kann der Charakter Fallen zusammenbauen und aufstellen.
-Die dazu nötigen Anzahl der Erfolge findet man in der Beschreibung der Fallen. +
+Den dazu nötigen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] findet man in der Beschreibung der Fallen. +
 Wirft der Charakter einen Misserfolg, so muss er mindestens 10 Minuten warten, bevor er versuchen kann, die Falle erneut aufzustellen.
 Ein Patzer zerstört die Falle. +
 Siehe das Dokument link:core_rules_adventures.adoc[Abenteuer] für einige Beispielfallen.
@@ -232,74 +209,68 @@ Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 
 [[ref_talents_sneak]]
 === Schleichen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampfn:* M +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Maneuver] +
 *Beschreibung:* Der Charakter muss ansagen, wenn er schleichen will, also wenn er sich leise und unbemerkt fortbewegen will. +
-Die Anzahl der Erfolge legt die nötige Anzahl von Erfolgen fest, die ein anderer Charakter mit einer Entdecken-Probe benötigt, um den schleichenden Charakter zu bemerken. +
+Das xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] legt den nötigen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] fest, die ein anderer Charakter mit einer <<ref_talents_discoverhidden,Verborgenes entdecken-Probe>> benötigt, um den schleichenden Charakter zu bemerken. +
 Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine. +
-Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort Entdecken-Proben von allen Kreaturen in der näheren Umgebung provoziert.
+Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort eine <<ref_talents_discoverhidden,Verborgenes entdecken-Probe>> von allen Kreaturen in der näheren Umgebung provoziert.
 
 [[ref_talents_lockpick]]
 === Schlösser knacken
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
-*Kampfphasen:* - +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion] +
 *Beschreibung:* Der Charakter kann diverse Schlösser knacken.
 Dazu benötigt er in der Regel einen Dietrich.
 Unterschiedliche Schlösser können unterschiedliches Werkzeug benötigen.
-Für jedes Schloss sollte der SL eine Anzahl von Erfolgen festlegen, die nötig sind, um das Schloss zu öffnen. +
+Für jedes Schloss sollte der SL einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] festlegen, der nötig ist, um das Schloss zu öffnen. +
 Bei einem Misserfolg gelingt es dem Charakter nicht, das Schloss zu knacken, er muss 10 Minuten warten, bevor er es nochmal versuchen kann.
-Bei einem Patzer bricht er sein Werkzeug entzwei. +
+Bei einem Patzer bricht er sein Werkzeug entzwei.
 Dieses Talent geht von einer leisen und heimlichen Aktion aus.
 Damit schließt sich Sprengstoff oder Troll als „Dietrich“ aus.
 Magisch verschlossene Türen lassen sich damit nicht öffnen.
 
 [[ref_talents_pickpocket]]
 === Taschendiebstahl
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* GE +
-*Kampf:* A +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
 *Beschreibung:* Mit diesem Talent kann ein Charakter ein ungefähr handgroßes Objekt unbemerkt dem Besitzer entwenden.
 Wie kreativ und heimlich der Charakter vorgeht, kann er selbst entscheiden und sollte sein Verhalten der jeweiligen Situation anpassen.
-Der SL kann die Anzahl der Erfolge entsprechend modifizieren.
-Als typische Situation wäre der übliche unbemerkte Taschendiebstahl auf dem belebten Marktplatz.
-Der Mindestwurf bleibt unverändert.
-Der SL verlangt 2 Erfolge, um einen Gegenstand zu ergattern.
-Den ersten Erfolg benötigt er, um den Gegenstand zu ergattern, den anderen, um nicht bemerkt zu werden.
-Größere oder besser geschützte Gegenstände erfordern im Allgemeinen mehr Erfolge. +
+Der SL kann den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] entsprechend modifizieren.
 Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreichen konnte, ein Patzer lässt den Dieb auf frischer Tat auffliegen.
 
 [[ref_talents_discoverhidden]]
 === Verborgenes Entdecken
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
-*Kampf:* M +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Maneuver] +
 *Beschreibung:* Viele Dinge sind nicht sofort zu sehen.
 Mit diesem Talent können die Charaktere diese verborgenen Dinge versuchen zu entdecken.
 Dabei unterscheidet das Regelsystem zwischen spontanem, passiven *Entdecken* und dem zeitintensiven, aktiven *Suchen*.
 
-Mit dem Einsatz eines xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Bewegungsmanövers] kann ein Charakter
+Mit dem Einsatz eines xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Bewegungsmanövers] kann ein Charakter:
 
 * spontan etwas Verstecktes entdecken, zum Beispiel einen im Gebüsch versteckten Charakter.
 Auf diese Weise können Überraschungsangriffe verhindert werden.
 * den Auslöser einer Falle entdecken.
 Er hat so die Chance die Falle in letzter Sekunde zu bemerken.
-* ein besonderes Detail der Situation ausmacken.
+* ein besonderes Detail der Situation ausmachen.
 
-Zum Erfolg ist eine bestimmte Anzahl von Erfolgen nötig.
-Möchte man statische Objekte oder Informationen entdecken, so ist diese Anzahl oft fest und kann vom SL festgelegt werden.
-Um beispielsweise eine <<ref_talents_hide, versteckte>> Kreatur zu entdecken, ist gegen eine zuvor gewürfelte Anzahl von Erfolgen zu werfen.
+Möchte man statische Objekte oder Informationen entdecken, so ist der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] im Allgemeinen vom SL festgelegt worden.
+Um beispielsweise eine <<ref_talents_hide,versteckte>> Kreatur zu entdecken, ist gegen einen zuvor gewürfelten Mindestwurf zu werfen.
 
 * *Misserfolg:* Der Charakter kann das versteckte Objekt oder die Kreatur nicht entdecken.
 * *Patzer:* keine zusätzlichen Auswirkungen.
 
 Ein Charakter kann außerdem ein abgegrenztes Gebiet, zum Beispiel einen Raum oder einen Gang, absuchen.
-Dazu benötigt der Charakter allerdings Zeit, daher kann Suchen nicht mit einem xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] abgedeckt werden.
+Dazu benötigt der Charakter allerdings Zeit, daher kann Suchen nicht mit einem xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Manöver] abgedeckt werden.
 Wird er von Feinden bedroht oder angegriffen, kann er nicht Suchen.
 
 * *Misserfolg:* Der Charakter findet nicht, wonach er sucht.
@@ -309,13 +280,12 @@ Er ist der Überzeugung, dass das Gesuchte nicht da ist.
 
 [[ref_talents_hide]]
 === Verstecken
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* GE +
-*Kampf:* M +
-*Beschreibung:* Der Charakter beherrscht es sich einer Umgebung gut anzupassen, so dass er die gegebenen Objekte nutzen kann, um sich darin, darunter, dahinter oder darüber zu verstecken. Seine gewürfelte Anzahl an Erfolgen bestimmt die benötigte Anzahl von Erfolgen von jedem, der ihn entdecken will.
-Daher müssen die Kreaturen, die ihn entdecken wollen, mit ihren Entdecken-Proben diese Anzahl um mindestens einen Erfolg übertreffen.
-Dabei kann der SL die Würfelanzahl je nach Situation anpassen, wenn es schwerer wird sich zu verstecken.
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Maneuver] +
+*Beschreibung:* Der Charakter beherrscht es sich einer Umgebung gut anzupassen, so dass er die gegebenen Objekte nutzen kann, um sich darin, darunter, dahinter oder darüber zu verstecken.
+Sein gewürfeltes xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] bestimmt den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für jedem, der ihn <<ref_talents_discoverhidden,entdecken>> will.
 
 == Soziale Talente
 
@@ -324,15 +294,15 @@ Weiterhin beinhaltet diese Gruppe auch Talente, die dem Charakter in einem sozia
 
 [[ref_talents_interrogate]]
 === Ausfragen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
-*Kampf:* M +
+*Kampf:* - +
 *Beschreibung:* Oft müssen Charaktere Informationen bekommen, in dem sie mit anderen Personen reden.
 Dies kann in vielerlei Situation vorkommen, sei es das Befragen von betrunkenen Seemännern in der Taverne oder beim diplomatischen Plausch mit dem hiesigen Landesfürsten.
 Immer wenn ein Charakter von einer Person eine Information erhalten will, kann er eine Ausfragen-Probe für diese Information würfeln.
 Ist die Probe erfolgreich, so erhält er die gesuchte Information.
-Die Anzahl der Erfolge ergibt sich aus mehreren Faktoren, wie wichtig und geheim ist die Information für die Person, die sie hat und diese Person zu dem fragenden Charakter steht.
+Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] und die xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers[Modifikatoren] ergibt sich aus mehreren Faktoren, wie wichtig und geheim ist die Information für die Person, die sie hat und diese Person zu dem fragenden Charakter steht.
 
 * *Misserfolg:* der Charakter kann von der Person die Information nicht erfragen.
 Die Person wird sie dem Charakter nicht mehr verraten.
@@ -341,22 +311,22 @@ Die Person wird sie dem Charakter nicht mehr verraten.
 [NOTE]
 Es kann durchaus sinnvoll sein, diese Probe etwas zu verallgemeinern.
 Ein Charakter könnte zum Beispiel in einer Bibliothek nach der Antwort auf eine Frage suchen oder einige Stunden von Kneipe zu Kneipe laufen, um ein bestimmtes Gerücht zu untersuchen.
-In diesem Fall kann der SL auch diese Talentprobe verwenden, wobei die Folgen eines Misserfolg und Patzers etwas angepasst werden müssen.
+In diesem Fall kann der SL auch diese Talentprobe verwenden, wobei die Folgen eines Misserfolgs und Patzers etwas angepasst werden müssen.
 
 [NOTE]
 Die Probe kann auch als konkurrierende Probe zwischen der Ausfragen-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
 
 [[ref_talents_intimidate]]
 === Einschüchtern
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
-*Kampf:* M +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Maneuver] +
 *Beschreibung:* Wo Diplomatie versagt, kann auch mal Gewalt helfen oder zumindest die Aussicht auf drastische Folgen, die ein Gegenüber nicht in Kaufen nehmen will und dann lieber kooperiert.
 
 Eine Anwendung dieser Probe simuliert, dass ein Charakter eine andere Person durch Drohungen zu einer bestimmten Tat zwingen kann, die diese Person normalerweise nicht ausführen würde.
 
-Die nötige Anzahl der Erfolge ist hierbei durch unterschiedliche Faktoren bestimmt, zum Beispiel, ob die Tat für die Person gefährlich ist und unter welcher Situation diese Drohung zusammen kommen.
+Der nötige xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] ist hierbei durch unterschiedliche Faktoren bestimmt, zum Beispiel, ob die Tat für die Person gefährlich ist und unter welcher Situation diese Drohung zusammen kommen.
 Ein Erfolg in der Probe bedeutet, dass der Charakter die Person erfolgreich dazu gebracht hat, die Tat durchzuführen.
 
 * *Misserfolg:* die Person zeigt sich unbeeindruckt von den Drohungen des Charakters.
@@ -367,7 +337,7 @@ Die Probe kann auch als konkurrierende Probe zwischen der Einschüchtern-Probe d
 
 [[ref_talents_craft]]
 === Handwerk [ein Handwerk]
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* KO +
 *Kampf:* - +
@@ -377,31 +347,31 @@ Die Ausprägung kann beispielsweise folgendermaßen ausfallen: Grobschmied, Fein
 Die Spieler und der SL können sich weitere Handwerke ausdenken, wenn Bedarf besteht.
 Ein Handwerk kann nur ausgeführt werden, wenn die entsprechenden Werkzeuge und Materialien vorhanden sind.
 Das Talent beinhaltet auch das Wissen des jeweiligen Handwerks.
-Die Anzahl der Erfolge für das Ausführen des Handwerks hängt vom Ziel ab.
-Mehr Erfolge können die Qualität der Arbeit erhöhen.
+Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für das Ausführen des Handwerks hängt vom Ziel ab, dass der Handwerker errreichen möchte.
+Höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrade] können die Qualität der Arbeit erhöhen.
 Schlechte Bedingungen, wie z.B. schlechtes Werkzeug, schlechtes Material usw. reduzieren die Würfelanzahl dieser Probe.
 
 [[ref_talents_art]]
 === Kunst [eine Kunst]
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* CH +
-*Kampf:* W +
+*Kampf:* - +
 *Beschreibung:* Ein Charakter mit diesem Talent beherrscht die Kunst, in der er das Talent gewählt hat, z.B.: Musik, Tanz, Schauspiel, Gesang, Malen/Zeichnen, Poesie, Gaukelei.
 Ein Erfolg bietet eine zufriedenstellende Darbietung der Kunst, erst mehrere Erfolge lassen etwas Besonderes entstehen, wofür andere auch bereit sind, Geld zu zahlen.
-Das Talent kann teilweise hilfreich sein, um andere, kunstferne Zwecke zu unterstützen, die nicht durch andere Talente abgedeckt werden.
-Der SL kann daher entscheiden, ob höhere Erfolgsgrade einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft, oder um kunstferne Aktionen durchzuführen.
+Das Talent kann teilweise hilfreich sein, um andere Zwecke zu unterstützen, die nicht durch andere Talente abgedeckt werden.
+Der SL kann daher entscheiden, ob höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrade] einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft.
 Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuchen zu fälschen.
 
 [[ref_talents_deceive]]
 === Täuschen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
-*Kampf:* W +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Maneuver] +
 *Beschreibung:* Die Wahrheit sagen ist nicht immer von Vorteil oder gar gesund.
 Wenn ein Charakter einen anderen Charakter belügen will oder ihm gegenüber einen anderen Sachverhalt vortäuschen, so ist eine Täuschen-Probe nötig.
-Dabei ist diese Probe immer eine konkurrierende Probe gegen eine Ausfragen-Probe des Gegenübers.
+Dabei ist diese Probe immer eine konkurrierende Probe gegen eine <<ref_talents_interrogate,Ausfragen-Probe>> des Gegenübers.
 Die Ausfragen-Probe wird hier als eine Befragung über die wahren Motive des Charakters interpretiert.
 
 * *Misserfolg:* der Charakter kann die Täuschung nicht durchsetzen, man glaubt ihm einfach nicht, bzw. er wird enttarnt.
@@ -409,25 +379,25 @@ Die Ausfragen-Probe wird hier als eine Befragung über die wahren Motive des Cha
 
 [[ref_talents_animalfriendship]]
 === Tierfreundschaft
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* CH +
-*Kampf:* A +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
 *Beschreibung:* Charaktere mit diesem Talent haben eine besondere Nähe zu Tieren entwickelt, so dass diese auf sie besser reagieren.
 Eine erfolgreiche Probe bedeutet, dass das Tier dem Charakter gegenüber neutral ist.
 Drei weitere erfolgreiche Proben im Laufe von drei folgenden Tagen bedeuten, dass das Tier freundlich gesinnt ist und bei zwölf entsprechenden Proben ist das Tier sogar loyal.
-Wilde oder fremde Tiere können den nötigen Erfolgsgrad erhöhen.
+Wilde oder fremde Tiere können den nötigen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] erhöhen.
 Außerdem kennt ein Charakter mit diesem Talent sich in der Pflege und Fürsorge von domestizierten Tieren wie zum Beispiel Pferden aus.
 
 [[ref_talents_persuade]]
 === Überzeugen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* CH +
-*Kampf:* W +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Maneuver] +
 *Beschreibung:* Manchmal können auch gute Argumente oder die richtigen Worte und Versprechungen die Meinung einer Person ändern.
 Die Anwendungsfälle sind vielfältig, von der Argumentation in einer politischen Diskussion bis zu Bestechung einer Wache.
-Damit eine Überzeugen-Probe erfolgreich ist, muss eine Anzahl von Erfolgen erreicht werden, die von unterschiedlichen Faktoren beeinflusst wird, wie beispielsweise von den Überzeugungen der Zielperson, der Argumente des Charakters und natürlich der Zielmeinung, der Charakter in der Person erwecken möchte.
+Damit eine Überzeugen-Probe erfolgreich ist, muss ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] erreicht werden, die von unterschiedlichen Faktoren beeinflusst wird, wie beispielsweise von den Überzeugungen der Zielperson, der Argumente des Charakters und natürlich der Zielmeinung, der Charakter in der Person erwecken möchte.
 
 * *Misserfolg:* die Person bleibt bei ihren Überzeugungen und lässt sich von den Argumenten des Charakters nicht davon abbringen.
 * *Patzer:* wie Misserfolg, jedoch provoziert der Charakter damit sofort eine stark ablehnende Reaktion.
@@ -441,14 +411,13 @@ Wissenstalente denken intellektuelle Leistungen des Charakters ab, sowie dessen 
 
 [[ref_talents_research]]
 === Forschen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
 *Kampf:* - +
 *Beschreibung:* Dieses Talent ermöglicht es dem Charakter durch intensive Suche in Büchereien, Bibliotheken, Gemeindearchiven, Datenbanken und ähnlichen Einrichtungen gezielt Wissen zusammenzutragen.
-Ist die Information selten, sehr speziell oder gar obskur,dann kann der SL die Erfolgsanzahl nach oben anpassen.
-Der Erfolgsgrad kann auch den Detailgrad einer Information verbessern.
-Weiterhin kann der Charakter mit diesem Talent Ausfragen-Proben würfeln.
+Ist die Information selten, sehr speziell oder gar obskur, dann kann der SL den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] nach oben anpassen.
+Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] kann auch den Detailgrad einer Information verbessern.
 
 .Forschen
 ====
@@ -459,28 +428,25 @@ Sehr genaues und eventuell verborgenes („zwischen den Zeilen verstecktes“) W
 Meistens sind solche Informationen an anderen Orten und in anderen Wälzern versteckt.
 ====
 
-Im Allgemeinen gilt: Wissen, was an einem Ort nicht gefunden werden kann, weil es dort nicht hinterlegt ist, kann auch nicht gewürfelt werden.
-
-Weiterhin darf der Charakter mit diesem Talent alle Standard-Proben des Typs Ausfragen würfen.
+[NOTE]
+Wissen, was an einem Ort nicht gefunden werden kann, weil es dort nicht hinterlegt ist, kann auch nicht gewürfelt werden.
 
 [[ref_talents_read_write]]
 === Lesen/Schreiben
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
 *Kampfphasen:* - +
 *Beschreibung:* Dieses Talent betrifft nur die Muttersprache.
-Je komplexer die Aufgabe ist, desto höhere Erfolgsgrade können angesetzt werden.
-Beispielsweise könnte ein umfangreicher, wissenschaftlicher Text erst mit einem Guten Erfolg völlig erfasst bzw. verfasst werden, während ein Brief an den besten Freund keinen Wurf im ganzen erfordern würde.
-Starke Ablenkung von außen, Lärm, Unruhe oder ein Kampf belegt die Würfe zum Erfolg mit einem Malus von mindestens -2.
-Weitere Anpassungen obliegen dem SL.
+Je komplexer die Aufgabe ist, desto höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwürfe] können angesetzt werden.
+Beispielsweise könnte ein umfangreicher, wissenschaftlicher Text erst mit einem Mindestwurf von 25 völlig erfasst, während ein Brief an den besten Freund mit dem SMW darstellbar ist.
 
 [[ref_talents_use_technomantic_device]]
 === Technomantisches Gerät Benutzen
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
-*Kampf:* A +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] / xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Angriff] +
 *Beschreibung:* Über die Jahrhunderte hinweg haben die Technomanten viele unterschiedliche Geräte entwickelt, die ebenso vielen Zwecken dienen. Für viele Uneingeweihte sind diese Apparaturen ein Buch mit sieben Siegeln.
 Ein Charakter mit diesem Talent kann technomantische Gerätschaften bedienen, und zwar so, dass er weiß, was er tut.
 Die ungeübte Anwendung soll zeigen, dass es nicht schwer ist Hebel umzulegen und Knöpfe zu drücken.
@@ -491,22 +457,24 @@ Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auc
 //TODO
 [[ref_talents_survival]]
 === Überleben
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampf:* A +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
 *Beschreibung:* tba
 
 [[ref_talents_knowledge]]
 === Wissen [Spezialgebiet]
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampf:* M +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Maneuver] +
 *Beschreibung:* Der Charakter besitzt auf einem Spezialgebiet besondere Kenntnisse, so dass er darüber entsprechendes Wissen abfragen kann.
-Ein Wurf auf dieses Talent deckt, je nach Erfolgsgrad eine Information auf, die aus dem jeweiligen Spezialgebiet stammt.
+Ein Wurf auf dieses Talent deckt, je nach xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] der Probe, eine Information auf, die aus dem jeweiligen Spezialgebiet stammt.
 Der SL kann dem Spieler diese Information mitteilen, in dem er eine detaillierte Beschreibung gibt, die entweder aus der Quelle im Spielmaterial stammt oder improvisiert ist.
-Für gewöhnlich werden jedoch keine Spielwerte weitergegeben, z.B. “diese Pflanze enthält ein Gift der Stärke 7” oder “das Wesen vor euch besitzt normalerweise 140 TP”, sondern solche Informationen werden ungefähr so ausgedrückt: “Die Pflanze enthält ein starkes Gift” und “Das Wesen ist sehr zäh und hält viele Treffer aus.”.
+Höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrade] können besondere Details oder gar obskure Informationen herbeiführen.
+
+Für gewöhnlich werden jedoch keine Spielwerte weitergegeben, z.B. "diese Pflanze enthält ein Gift der Stärke 7" oder “das Wesen vor euch besitzt normalerweise 140 TP”, sondern solche Informationen werden ungefähr so ausgedrückt: “Die Pflanze enthält ein starkes Gift” und “Das Wesen ist sehr zäh und hält viele Treffer aus.”.
 Jede weitere Dramatisierung ist natürlich angemessen.
 
 Die verfügbaren Spezialgebiete können aus folgender xref:../tables/table_talents_knowledge_topics.adoc[Tabelle] entnommen werden.
@@ -522,24 +490,25 @@ Sie bilden die Grundausrüstung für die Ausübung der Magie.
 
 [[ref_talents_aether_perception]]
 === Aether Wahrnehmung
-*Mindestwurf:* SMW +
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampf:* M +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_usetalent[Maneuver] +
 *Beschreibung:* Mit diesem Talent kann der Charakter in den Aether schauen, der parallel zu allen anderen Dimensionen liegt.
 Magische Gegenstände, magische Aktivitäten, Wesen und Zauber geben eine Art Strahlung ab, die sich im Aether als ungefähres Abbild manifestiert.
-Diese ungewohnten Eindrücke können nur mit entsprechender Übung interpretiert werden. Um einen magischen Effekt zu entdecken, muss die Anzahl der Erfolge die POT des Effekt überwürfeln bzw. im Fall eines Wesens, dass im Aetheraum lebt, dessen Energie-Attributsstufe.
+Diese ungewohnten Eindrücke können nur mit entsprechender Übung interpretiert werden.
+Um einen magischen Effekt zu entdecken, muss das xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] die POT des Effekts erreichen oder im Fall eines Wesens, dass im Aetheraum lebt, dessen Energie-Attributsstufe.
 
-Der Charakter erhält im Falle eines magischen Gegenstandes oder technomantischen Gerätes keine Auskunft über die exakte Wirkungsweise, sondern nur ob der Gegenstand verzaubert ist oder nicht (erreicht sein Wurf nicht die nötige Anzahl von Erfolgen, erscheint der Gegenstand ihm gewöhnlich).
+Der Charakter erhält im Falle eines magischen Gegenstandes oder technomantischen Gerätes keine Auskunft über die exakte Wirkungsweise, sondern nur ob der Gegenstand verzaubert ist oder nicht (bei einem Misserfolg erscheint der Gegenstand ihm gewöhnlich).
 Der SL kann zusätzliche Informationen wie eine ungefähre Machteinschätzung (z.B. schwache Strahlung, starke Strahlung, überwältigende Strahlung etc.) oder eine grobe Richtung der verwendeten Magie (z.B. “Der Gegenstand scheint mit Feuermagie verzaubert zu sein”) nach eigenem Ermessen geben.
 
 Der Charakter kann dieses Talent auch einsetzten, um für eine Weile in den Aether zu schauen.
-Dazu muss er mindestens einen durchschnittlichen Erfolg würfeln.
-Er kann dann so viele Runden in den Aether schauen, wie er Stufen in diesem Talent hat. Er entdeckt Aktivitäten automatisch, die eine POT bzw. eine EN-Stufe hat, die kleiner oder gleich als seiner Stufe in Aether Wahrnehmung ist.
+Er kann dann so viele Kampfphasen in den Aether schauen, wie er Stufen in diesem Talent hat.
+Er entdeckt Aktivitäten automatisch, die eine POT bzw. eine EN-Stufe hat, die kleiner oder gleich als seiner Stufe in Aether Wahrnehmung ist.
 
 Charaktere, die Aether Wahrnehmung benutzen, können nur auf ausgezeichnete magischem Wege geblendet werden.
 
-In der Interpretation der Eindrücke kann der SL frei entscheiden, ob der Charakter bei zu wenig Erfolgen vielleicht einen ungefähren Eindruck von dem erhält, was er beobachten und untersuchen möchte.
+In der Interpretation der Eindrücke kann der SL frei entscheiden, ob der Charakter ungefähren oder genauen Eindruck von dem erhält, was er beobachten und untersuchen möchte.
 Zum Beispiel wäre es möglich, Teilinformationen abzufragen, wie Art der Magie (Feuer, Nekromantie, etc.) oder ungefähre Macht (POT des Zauberspruches oder Befähigung des Verursachers).
 
 Ein Patzer kann zu völlig falschen Eindrücken führen, die der Charakter jedoch nicht als solche erkennt.
@@ -551,20 +520,19 @@ Grundsätzlich ist jede Verwendung von Aether Wahrnehmung mit einem kleinen, vis
 *Mindestwurf:* 8 + POT +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* SB +
-*Kampf:* F +
+*Kampf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] +
 *Beschreibung:* Mit diesem Talent kann der Charakter seine Konzentration wahren, wenn er Gefahr läuft, die Vorbereitung eines Zauberspruches zu verlieren.
 Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellburning[Magie].
 
 [[ref_talents_spellcasting]]
 === Spruchzauberei [Zauberschule]
-*Mindestwurf:* 8 + POT +
+*Mindestwurf:* 8 + POT / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] +
 *Ungeübte Anwendung:* Spezial +
 *Verwandtes Attribut:* EN +
-*Kampf:* A +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] / xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Angriff] +
 *Beschreibung:* Dieses Talent ermöglicht es dem Charakter die Magie der jeweils gewählten xref:core_rules_magic_base.adoc#ref_core_magic_schools_of_magic[Zauberschule] zu wirken.
 
 Um einen Zauberspruch oder allgemeiner einen magischen Effekt einer Zauberschule zu wirken, muss man diesen xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[vorbereiten].
-Die Beschreibung des Zauberspruches gibt außerdem Auskunft über die notwendige Anzahl von Erfolgen, um den Effekt erfolgreich auszusprechen.
 Bei einem Misserfolg muss der Zaubernde sofort eine Probe in xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellburning[Verbrennen Widerstehen] ablegen, bei einem Patzer kommt es zu einem xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_botches[Zauberpatzer].
 
 Weiterhin bietet das Dokument eine Liste von xref:core_rules_magic_base.adoc#ref_core_magic_schools_of_magic_overview[Zauberschulen], die besondere Regeln mit sich bringen und angeben, welche Zauberlisten gelernt werden können.
@@ -576,7 +544,7 @@ Das Talent verbietet im Normalfall die xref:core_rules_2d10_system.adoc#ref_core
 *Mindestwurf:* 8 + POT +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
-*Kampf:* F +
+*Kampf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] +
 *Beschreibung:* Schlägt die Vorbereitung eines Zauberspruches fehl, besteht die Gefahr des *Verbrennens*.
 Dies ist ein äußerst schmerzhafter Vorgang, der beschreibt, dass die arkanen Energien des Zauberspruches durch den Magier in die falsche Richtung gelenkt wurden und nun durch seinen Körper abgeleitet werden, wie ein Blitz, der in einen Baum einschlägt.
 

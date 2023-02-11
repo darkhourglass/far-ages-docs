@@ -15,8 +15,8 @@ Lore
 Dieses Profil beschreibt einen Zweigwächter der GK 5.
 Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twig_guardian_size,Kapitel>>.
 
-*ST:* 5       *GE:* 2     *KO:* 6 +
-*ER:* 3       *EN:* 2     *SB:* 3     *CH:* 3 +
+*ST:* 5 (+2)      *GE:* 2 (+1)    *KO:* 6 (+2) +
+*ER:* 3 (+1)      *EN:* 2 (+1)    *SB:* 3 (+1)    *CH:* 3 (+1) +
 
 *TP:* 45     *MP:* 20     *SP:* 30 +
 
@@ -34,11 +34,11 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twi
 
 *Immunitäten:* +
 
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheiten widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_disgust[Ekel]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
@@ -52,14 +52,14 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twi
 
 == Defensive
 
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] 10
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+1)
 
 == Sonstiges
 
 * xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_plant_rules_hibernate[Ruhezustand]
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 8
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 12
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 6 (+1)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8 (+1)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8 (+1)
 * <<ref_rules_twig_guardian_camouflage,Tarnung>>
 * link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
@@ -329,11 +329,11 @@ Der Zweigwächter besitzt aufgrund seiner Größe folgende Punkte-Pools.
 [[ref_rules_twig_guardian_size_talents]]
 ==== Talente
 
-Ein Zweigwächter erhält immer folgende Talente:
+Ein Zweigwächter erhält immer folgende Talente und Talentstufen:
 
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] 10
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 8
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 6
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8
 
 [[ref_rules_twig_guardian_size_skills]]

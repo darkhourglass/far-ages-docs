@@ -38,7 +38,7 @@ Das Erhalten eines Korruptionspunkt hat zunächst keine direkten Auswirkungen, j
 === Auswirkungen von Korruptionspunkten
 
 In dem Moment, in dem ein Charakter 1 oder mehr Korruptionspunkte erhält, muss er sofort eine Horror-Probe würfeln, wobei die Anzahl der nötigen Erfolge gleich der insgesamt vorhandenen Korruptionspunkte (inklusive des eben Erhaltenen) ist.
-Misslingt die Probe oder ist ein Patzer, gelten die üblichen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Regeln] für Horror-Rettungswürfe.
+Misslingt die Probe oder ist ein Patzer, gelten die üblichen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Regeln] für Horror-Rettungswürfe.
 Zusätzlich erhält der Charakter eine <<ref_corruptions_rules_receive_corruptions,Korruption>>.
 
 Bei einem Erfolg passiert dem Charakter vorerst nichts, allerdings kumulieren sich die Korruptionspunkte, so dass nachfolgende Proben gefährlicher werden.

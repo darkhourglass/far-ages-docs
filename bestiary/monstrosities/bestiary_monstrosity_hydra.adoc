@@ -27,8 +27,8 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 
 == Profil
 
-*ST:* 7     *GE:* 3     *KO:* 8 +
-*ER:* 2     *EN:* 3     *SB:* 2     *CH:* 1 +
+*ST:* 7 (+3)    *GE:* 3 (+1)   *KO:* 8 (+3) +
+*ER:* 2 (+1)    *EN:* 3 (+1)   *SB:* 2 (+1)    *CH:* 1 (+1) +
 
 *TP:* 95 bis 295 (<<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>)     *MP:* 30     *SP:* 30 +
 
@@ -51,8 +51,8 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 == Defensive
 
 * link:../skills/bestiary_skill_dodge.adoc[Ducken]
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] 8
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 14
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+1)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 6 (+3)
 
 == Sonstiges
 

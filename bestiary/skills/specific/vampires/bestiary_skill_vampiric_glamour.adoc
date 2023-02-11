@@ -12,8 +12,8 @@ Diese Fähigkeit kannst Du nur gegen eine link:../../../../rules/advanced/creatu
 Du musst direkten Sichtkontakt zu der Zielkreatur haben und sie darf nicht weiter als 9,00 Meter entfernt sein.
 
 Die Kreatur muss einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_CH[CH-Rettungswurf] ablegen.
-Die nötige Anzahl der Erfolg hängt von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab.
-Besteht sie diesen Rettungswurf nicht, erhältst Du einen Bonus auf die Würfe zum Erfolg für jede CH-abhängige Attributs- oder Talentprobe, die Du gegen die Zielkreatur ausführst.
+Der nötige Mindestwurf hängt von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab.
+Besteht sie diesen Rettungswurf nicht, erhältst Du einen Bonus für jede CH-abhängige Attributs- oder Talentprobe, die Du gegen die Zielkreatur ausführst.
 Dieser Effekt hält jedoch maximal bis zum Ende Deiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase].
 
 Mit einer höheren Machtstufe kannst Du mehrere Kreaturen gleichzeitig durch diese Fähigkeit beeinflussen.
@@ -21,42 +21,42 @@ Diese Zahl sowie die Schwierigkeit des Rettungswurfs und den Bonus wird in der n
 
 
 |===
-|Machtstufe |Anzahl Kreaturen |Erfolge Rettungswurf |Bonus
+|Machtstufe |Anzahl Kreaturen |Mindestwurf Rettungswurf |Bonus
 
 |1-2
 |1
-|1
-|+1 Würfe zum Erfolg
+|12
+|+2
 
 |3-4
 |2
-|2
-|+1 Würfe zum Erfolg
+|15
+|+4
 
 |5-6
 |3
-|2
-|+2 Würfe zum Erfolg
+|18
+|+6
 
 |7
 |5
-|3
-|+2 Würfe zum Erfolg
+|20
+|+8
 
 |8
 |6
-|3
-|+3 Würfe zum Erfolg
+|24
+|+10
 
 |9
 |8
-|4
-|+3 Würfe zum Erfolg
+|28
+|+15
 
 |10+
-|10 (+1 alle 3 Machtstufen nach 10)
-|5 (+1 alle 3 Machtstufen nach 10)
-|+4 Würfe zum Erfolg
+|10
+|30
+|+20
 |===
 
 [[ref_bestiary_skill_vampiric_glamour_legendary]]

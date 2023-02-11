@@ -218,7 +218,7 @@ Untote und Konstrukte sind immun gegen diesen Zauber. +
 Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon.
 Wenn er auf dem Boden einschlägt, zerberstet er zu einem Inferno mit einem Radius von 3 Metern um den Einschlagpunkt. +
 Jede Kreatur im Zielradius erleidet 4W6 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuerschaden].
-Alle Kreaturen dürfen einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen das Ergebnis Deiner Spruchzauberei-Probe würfeln.
+Alle Kreaturen dürfen einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] gegen das Ergebnis Deiner Spruchzauberei-Probe würfeln.
 Bei einem Erfolg werden die Schadenspunkte halbiert (Minimum 1).
 *Zusätzliche Effekte:* +
 +5 MP: Reichweite: +6,00 Meter +
@@ -440,7 +440,7 @@ Betrifft der Zauberspruch <<ref_core_magic_rules_spellcasting_spellspecifics_tar
 Dadurch kann es vorkommen, dass manche Ziele durch Zauberspruch betroffen werden und manche nicht.
 In keinem Fall zählt der Zauberspruch als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg], der Effekt tritt nur nicht ein.
 
-Viele Zaubersprüche, wie zum Beispiel link:../../compendiums/spells/spell_fireball.adoc[Feuerball], erlauben einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] oder vergleichbaren xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf], um den Schaden aus dem Zauberspruch zu reduzieren.
+Viele Zaubersprüche, wie zum Beispiel link:../../compendiums/spells/spell_fireball.adoc[Feuerball], erlauben einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] oder vergleichbaren xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf], um den Schaden aus dem Zauberspruch zu reduzieren.
 Diese Form des Rettungswurfs ist Teil des <<ref_core_magic_rules_spellcasting_spellspecifics_effect,Effekts>> und damit nicht durch die Angabe unter *Rettungswurf* abgedeckt.
 
 [[ref_core_magic_rules_spellcasting_spellburning]]
@@ -937,7 +937,7 @@ Eure Augen sind euer wichtigstes Hilfsmittel, um die Wunder des Multiversums wah
 
 Der *Illusionismus* befasst sich mit magisch erzeugten *Trugbildern*.
 Die Opfer dieser Trugbilder können versuchen diese zu durchschauen.
-Dies geschieht mit einer sogenannten xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_douptillusions[Illusion Durchschauen-Probe].
+Dies geschieht mit einer sogenannten xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_douptillusions[Illusion Durchschauen-Probe].
 Als Illusionen gelten alle Zaubersprüche, die als <<ref_core_magic_rules_spellcasting_spellspecifics_focus,Fokus>> _Illusion_ besitzen.
 Dabei ist es unerheblich aus welche Zauberspruchliste wirklich stammen.
 
@@ -1025,7 +1025,7 @@ Außerdem lernt der Menestrel mit der ersten Talentstufe in dieser Zauberschule 
 Auf ihrer Suche nach dem geheimen Wissen der dunkelsten Ecken des Multiversums und der schrecklichen Dimension Ebon geraten Nekromanten immer wieder an die Grenzen des humanoiden Verstandes.
 Trotz aller Vorsicht lässt sich die zwiespältige Natur der *Nekromantie*, der schmale Grat zwischen Genie und Wahnsinn, nicht umgehen.
 
-Um dies zu simulieren, müssen Charaktere, immer wenn sie eine gerade Stufe in ihrem Talent Spruchzauberei[Nekromantie] lernen (also auf Stufe 2, 4, 6, 8,...), einen xref:core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror-Rettungswurf] ablegen, wobei der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] 10 plus die jeweilige Talentstufe beträgt.
+Um dies zu simulieren, müssen Charaktere, immer wenn sie eine gerade Stufe in ihrem Talent Spruchzauberei[Nekromantie] lernen (also auf Stufe 2, 4, 6, 8,...), einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror-Rettungswurf] ablegen, wobei der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] 10 plus die jeweilige Talentstufe beträgt.
 
 [[ref_core_magic_schools_technomancy]]
 ===== Technomantie

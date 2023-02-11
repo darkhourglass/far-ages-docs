@@ -7,7 +7,8 @@
 Die Kreatur verfügt über Hörner oder Hauer, vielleicht sogar um sehr lange Klauen.
 Mit diesen kann die Kreatur nicht nur verheerende Wunden schlagen, sondern auch seine Gegner aufspießen.
 
-Eine Aufspießen-Attacke erfolgt als Probe im xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenten Kampf] mit der angegebenen *Angriffsstufe* oder mit dem gleichnamigen Talent der Kreatur.
+Eine Aufspießen-Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
 Bei einem erfolgreichen Treffer, der mindestens 1 Punkt Schaden verursacht, darf die Kreatur als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack_brawl[Raufen und Ringen] einsetzen.

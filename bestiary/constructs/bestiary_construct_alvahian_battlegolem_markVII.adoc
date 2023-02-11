@@ -12,8 +12,8 @@ Lore
 
 == Profil
 
-*ST:* 10      *GE:* 3       *KO:* 7 +
-*ER:* 2       *EN:* 2       *SB:* 3     *CH:* 1 +
+*ST:* 10 (+4)     *GE:* 3 (+1)      *KO:* 7 (+3) +
+*ER:* 2  (+1)     *EN:* 2 (+1)      *SB:* 3 (+1)     *CH:* 1 (+1) +
 
 *TP:* 145     *MP:* 140     *SP:* 20 +
 
@@ -31,11 +31,11 @@ Lore
 
 *Immunitäten:* +
 
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_poisonresist[Gift widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_sicknessresist[Krankheiten widerstehen]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_disgust[Ekel]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht]
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
@@ -45,12 +45,12 @@ Lore
 
 == Offensiv
 
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 16 (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]: 1W8)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] 15 (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer]: 5W6) (erlaubt link:../skills/specific/constructs/bestiary_skill_constructs_overcharge.adoc[Überladen] (2W6 Feuer-Schaden, 5 MP))
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (+4) (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]: 1W8)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] 5 (+4) (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer]: 5W6) (erlaubt link:../skills/specific/constructs/bestiary_skill_constructs_overcharge.adoc[Überladen] (2W6 Feuer-Schaden, 5 MP))
 
 == Defensive
 
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen] 8 (link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens])
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 5 (+1) (link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens])
 * link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_force_field.adoc[Kraftfeld]
 
 == Sonstiges
