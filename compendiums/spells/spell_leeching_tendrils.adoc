@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Geste +
 *Fokus:* Körper, Wachstum +
 *Vorbereitung:* 6 +
-*Anzahl der Erfolge:* 8 +
 *Reichweite:* 18,00 Meter +
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* Sofort +
@@ -15,7 +14,7 @@ Ihre Oberfläche ist mit unzähligen kleinen Dornen übersät und ihr Färbung i
 Die Ranken schlagen nach allen Kreaturen im Wirkungsbereich, reißen mit ihren Dornen kleine Schnitte in deren Haut.
 Am verstörendsten ist jedoch, dass sie das Blut durch kleine Membranen auf ihrer Oberfläche aus den Wunden aufsaugen.
 
-Alle Kreaturen, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] im Zielgebiet des Zauberspruches beginnen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] ablegen.
+Alle Kreaturen, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] im Zielgebiet des Zauberspruches beginnen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe ablegen.
 Besteht eine Kreatur diese Probe nicht, erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] von 4W10.
 
 Pro 5 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP], die eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur durch den Effekt dieses Zauberspruches verliert, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[heilst] Du 1 TP.
@@ -25,4 +24,3 @@ Du kannst nicht mehr TP erhalten, als es Dein TP-Pool zulässt.
 +5 MP: Reichweite +6,00 Meter +
 +10 MP, +1 POT: Radius +3,00 Meter +
 +5 MP, +1 POT: Schaden +1W10 +
-+5 MP, +1 POT: Nötige Anzahl der Erfolge für Reflex-Rettungswurf +1 +

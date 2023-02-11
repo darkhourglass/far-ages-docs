@@ -6,7 +6,6 @@
 *Komponenten:* Zutat +
 *Fokus:* Geist, Totem +
 *Vorbereitung:* 30 Minuten (Ritual) +
-*Anzahl der Erfolge:* 4 +
 *Reichweite:* - +
 *Anzahl der Ziele:* Radius 24,00 Meter +
 *Dauer:* 10 Kampfphasen +
@@ -14,10 +13,9 @@
 Du kannst in dieses Totem auch Materialien von Kreaturen einpflegen, die *nicht* von dem Effekt betroffen sein sollen, zum Beispiel ein Tropfen Blut oder Haare.
 
 Jede Kreatur, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] im Wirkungsbereich des Totems beginnt und dieses sehen kann, muss eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_fear[Furcht-Probe] würfeln und bestehen oder folgt den normalen Regeln zum Thema Furcht.
-Die nötige Anzahl der Erfolge beträgt 3.
+Der Mindestwurd wird durch das Ergebnis Deiner Spruchzauberei-Probe vorgegeben.
 
 Du bist grundsätzlich gegen diesen Effekt immun.
 
 *Zusätzliche Effekte:* +
 +10 MP: Radius +6,00 Meter +
-+3 POT: Nötige Anzahl Erfolge +1 +

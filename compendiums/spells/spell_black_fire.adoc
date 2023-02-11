@@ -14,13 +14,13 @@ Dabei reichst Du nicht nur in die für einen Elementaristen Deiner Erfahrung kom
 Von manchen auch das ultimate Feuer genannt, verbrennt das Schwarze Feuer alles ohne Gnade.
 
 Alle Kreaturen in der Wirkungsfläche des Zauberspruches erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer].
-Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Schadensbonus] für diesen Treffer beträgt 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] pro Erfolg in Deiner Spruchzauberei-Probe.
+Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Schadensbonus] für diesen Treffer beträgt 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] plus 2W6 per xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] Deiner Spruchzauberei-Probe.
 
 Jeder Schaden des Schwarzen Feuers gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbar].
 
 Die Verwendung dieses Zauberspruches hat jedoch seinen Preis.
-Jedes Mal, wenn Du ihn aussprichst, ob erfolgreich oder nicht, erfordert einen Rettungwurf auf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror(20)]. +
+Jedes Mal, wenn Du ihn aussprichst, ob erfolgreich oder nicht, erfordert einen Rettungswurf auf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_horror[Horror(25)]. +
 *Zusätzliche Effekte:* +
-+5 MP: Reichweite +6,00 Meter
-+5 MP: Radius +3,00 Meter
-+5 MP: Schaden: +1W6 Feuer-Schaden
++5 MP: Reichweite +6,00 Meter +
++5 MP: Radius +3,00 Meter +
++5 MP: Schaden: +1W6 Feuer-Schaden (Mindestwurf der Horrorprobe +1) (kumulativ) +

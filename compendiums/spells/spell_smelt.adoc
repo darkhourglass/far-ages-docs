@@ -6,7 +6,6 @@
 *Komponenten:* Geste +
 *Fokus:* Feuer +
 *Vorbereitung:* 4 +
-*Anzahl der Erfolge:* 4 +
 *Reichweite:* Berührung +
 *Anzahl der Ziele:* 1 Gegenstand +
 *Dauer:* Sofort +
@@ -28,4 +27,4 @@ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.a
 In diesem Fall steht ihnen ein xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] zu.
 Pro Erfolg, den Du erreichst, erhält das Konstrukt 1W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]. +
 *Zusätzliche Effekte:* +
-+5 MP, +1 POT: die erlaubten Dimensionen des Gegenstandes verdoppeln sich (kumulativ anwendbar)
++5 MP, +1 POT: die erlaubten Dimensionen des Gegenstandes verdoppeln sich (kumulativ anwendbar) +

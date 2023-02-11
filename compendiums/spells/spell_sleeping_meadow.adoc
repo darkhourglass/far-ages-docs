@@ -6,15 +6,14 @@
 *Komponenten:* Geste, Formel +
 *Fokus:* Geist, Wachstum +
 *Vorbereitung:* 7 +
-*Anzahl der Erfolge:* 12 +
 *Reichweite:* 24,00 Meter +
 *Anzahl der Ziele:* Radius 12,00 Meter +
 *Dauer:* 5 Kampfphasen +
 *Effekt:* Du verzauberst eine Blumenwiese, um magischen Pollen zu produzieren, der Kreaturen friedlich einschlafen lässt.
 Die Zielfläche muss keine Blumen enthalten, wenn Du Zauberspruch aussprichst, sie muss allerdings die Möglichkeit bieten, dass Blumen darauf wachsen können.
-Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] wachsen bunte Blumen aus dem Boden (falls keine da sind) und sprühen eine Pollenwolke in die Luft.
+Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] wachsen bunte Blumen aus dem Boden und sprühen eine Pollenwolke in die Luft.
 
-Jede Kreatur, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] im Wirkungsbereich beginnt, muss sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO_[KO-Rettungswurf] gegen die Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen.
+Jede Kreatur, die ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] im Wirkungsbereich beginnt, muss sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO_[KO-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen.
 Misslingt der Rettungswurf, schläft die Zielkreatur für die Dauer des Zauberspruches ein.
 Sie gilt so lange als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[bewusstlos].
 

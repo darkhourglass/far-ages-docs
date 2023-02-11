@@ -12,7 +12,9 @@
 *Effekt:* In einer Zeremonie reinigst Du Seele einer Kreatur von ihrer Verderbtheit.
 Als Zutat benötigst Du diverse, magische Kräuter, die Du in einer Runen-verzierten Schüssel im Rahmen des Rituals verbrennst.
 
-Pro 5 Erfolge in Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] entfernst Du 1 xref:../../rules/advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_receive_corruptionpoints[Punkt Korruption] von der Kreatur.
+Bei einem Erfolg in Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] entfernst Du 1 xref:../../rules/advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_receive_corruptionpoints[Punkt Korruption] von der Kreatur.
 So mächtig das Ritual auch ist, es kann keine bestehenden xref:../../rules/advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_receive_corruptions[Korruptionen] entfernen.
+Du kannst nur soviele Punkte Korruption von einer Kreatur entfernen, wie sie auch insgesamt hat.
 
 *Zusätzliche Effekte:* +
++10 MP, +2 POT: Entferne 1 Punkt Korruption mehr +

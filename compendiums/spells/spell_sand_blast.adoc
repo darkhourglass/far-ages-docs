@@ -6,15 +6,14 @@
 *Komponenten:* Formel, Geste +
 *Fokus:* Erde +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 3 +
 *Reichweite:* - +
 *Anzahl der Ziele:* Kegel 3,00 Meter +
 *Dauer:* Sofort +
 *Effekt:* Du formst Deine Hände zu einem Fächer und pustet in die Richtung, in die Du den Zauberspruch wirken möchtest.
 Aus Deinen Händen stößt eine Wolke aus Staub und Sand, die Deine Gegner blendet.
 
-Alle Kreaturen im Wirkungsbereich müssen eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Probe] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen oder erleiden einen Malus von -1 auf die Würfe zum Erfolg bis Ende ihrer nächsten Kampfphase.
+Alle Kreaturen im Wirkungsbereich müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] bestehen oder erleiden einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf alle Proben bis Ende ihrer nächsten Kampfphase.
 
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: Kegel +1,50 Meter +
-+5 MP, +1 POT: Malus Würde zum Erfolg erhöht sich um -1 (mehrfach anwendbar, max. -4) +
++10 MP, +2 POT: Malus erhöht sich um -3 (kumulativ anwendbar) +

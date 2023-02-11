@@ -6,7 +6,6 @@
 *Komponenten:* Geste, Formeln +
 *Fokus:* Körper, Wachstum +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 5 +
 *Reichweite:* 12,00 Meter +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* 5 Kampfphasen +
@@ -17,7 +16,6 @@ Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents
 Es gelten die normalen Regeln, das heißt, die Kreatur darf versuchen sich in jeder nachfolgenden Kampfphase versuchen zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver_breakfree[befreien].
 Der Zauberspruch endet, falls die Kreatur dies schafft oder die Dauer abgelaufen ist.
 
-Als konkurrierende ST-Stufe werfe für die Ranken so viele W10 wie der Zauberspruch POT hatte, als Du die Spruchzauberei-Probe gewürfelt hast.
-
+Als konkurrierende ST-Stufe würfel eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] für die Ranken mit einem Bonus gleich der POT des Zauberspruchs, als Du die Spruchzauberei-Probe gewürfelt hast. +
 *Zusätzliche Effekte:* +
 +2 MP, +1 POT: Dauer +1 Kampfphase

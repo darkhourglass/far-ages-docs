@@ -14,15 +14,14 @@ Diese Waffe darf nicht bereits magischer Natur sein oder von anderen magischen E
 Der Träger der Waffe ist von den Flammen nicht betroffen und die Waffe selbst nimmt keinen Schaden.
 
 Für die Dauer des Zauberspruches ändert sich der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] der Waffe zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
-Durch zusätzliche Effekte kann dieser Schadensbonus erhöht werden.
+Durch zusätzliche Effekte kann dieser Schadensbonus weiter erhöht werden.
 
 Die verzauberte Waffe verursacht nur zusätzlichen Schaden, wenn sie von einer Kreatur im Kampf verwendet wird.
 Eine Maschine, die kein link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] ist, würde daher nicht von der Verzauberung profitieren.
 
 Es können jedoch auch Projektilwaffen von der Verzauberung erfasst werden.
-In diesem Fall gehen die verschossenen Projektile in Flammen auf und verursachen den zusätzlichen Schaden.+
+In diesem Fall gehen die verschossenen Projektile in Flammen auf und verursachen den zusätzlichen Schaden. +
 *Zusätzliche Effekte:* +
-+1 MP: Dauer +1 Kampfphasen
-+5 MP: Anzahl der Ziele +1 Waffe
-+10 MP, +1 POT: +1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
-+
++1 MP: Dauer +1 Kampfphasen +
++5 MP: Anzahl der Ziele +1 Waffe  +
++10 MP, +1 POT: +1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] +

@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Gesten +
 *Fokus:* Feuer, Licht +
 *Vorbereitung:* 3 +
-*Anzahl der Erfolge:* 5 +
 *Reichweite:* 6,00 Meter +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* Sofort +
@@ -14,9 +13,8 @@
 Mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] entlässt Du einen imposanten Funkenregen auf Dein Ziel.
 
 Dieses erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Treffer] mit einem Schadensbonus von 3W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
-Weiterhin muss die Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO-Rettungswurf] gegen die Anzahl der Erfolge auf Deiner Spruchzauberei-Probe bestehen.
-Misslingt der Rettungswurf, ist die Kreatur bis zum Ende ihrer nächsten Kampfphase xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[blind].
-+
+Weiterhin muss die Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO-Rettungswurf] gegen Deine Spruchzauberei-Probe bestehen.
+Misslingt der Rettungswurf, ist die Kreatur bis zum Ende ihrer nächsten Kampfphase xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[blind]. +
 *Zusätzliche Effekte:* +
 +2 MP: Reichweite +3,00 Meter +
 +5 MP, +1 POT: Schadensbonus +2W6 Feuer-Schaden

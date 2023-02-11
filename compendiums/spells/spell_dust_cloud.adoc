@@ -12,7 +12,7 @@
 *Effekt:* Du nimmst eine kleine Menge Erde, Sand oder Staub in die Hand und pustet sie bei xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] in Richtung des Wirkungsbereiches.
 Eine Wolke aus Staub und Sand formt sich im Wirkungsbereich.
 
-Durch den aufgewirbelten Staub und Sand in der Luft, erhalten alle Kreaturen im Wirkungsbereich der Staubwolke einen Malus von -1 auf die Würfe zum Erfolg, solange sie sich in der Staubwolke aufhalten.
+Durch den aufgewirbelten Staub und Sand in der Luft, erhalten alle Kreaturen im Wirkungsbereich der Staubwolke einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf alle sicht-basierten Proben, solange sie sich in der Staubwolke aufhalten.
 
 Ein heftiger Windstoß kann die Staubwolke frühzeitig auflösen.
 Ein magisch erzeugter Wind-Effekt muss eine höhere POT als die Staubwolke aufweisen, um diese Wirkung zu zeigen.
@@ -21,4 +21,4 @@ Kreaturen, die keine visuelle Sicht benötigen, sind immun gegenüber dem Effekt
 +
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +
-+5 MP, +1 POT: Modifikator erhöht sich um -1 (kumulativ, max. bis -4)
++5 MP, +1 POT: Modifikator erhöht sich um -3 (kumulativ) +

@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Gesten, Zutaten (Obsidian im Wert von 1000 Silbermünzen) +
 *Fokus:* Feuer, Erde+
 *Vorbereitung:* 7 +
-*Anzahl der Erfolge:* 11 +
 *Reichweite:* 24,00 Meter +
 *Anzahl der Ziele:* Radius 12,00 Meter +
 *Dauer:* 3 Kampfphasen +
@@ -14,8 +13,8 @@
 Mit erfolgreicher Spruchzauberei-Probe reißt die Erde im Zielgebiet mit ohrenbetäubenden Getöse auf.
 Glühende Lava, heißer Dampf und Stichflammen schlagen aus unzähligen Rissen hervor.
 
-Jede Kreatur im Zielgebiet muss eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex]-Probe gegen Dein Ergebnis in Deiner Spruchzauberei-Probe würfeln.
-Besteht eine Kreatur die Probe, bewegt sie sich zwangsweise an den Rand des Zielgebiets und erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 5W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]-Schaden.
+Jede Kreatur im Zielgebiet muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf]e gegen Dein Ergebnis in Deiner Spruchzauberei-Probe würfeln.
+Besteht eine Kreatur die Probe, bewegt sie sich zwangsweise an den Rand des Zielgebiets und erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 5W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 
 Kreaturen hingegen, die die Probe nicht bestehen, sind in großer Gefahr.
 Kreaturen mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 4 oder weniger, fallen in den Riss.
@@ -26,5 +25,5 @@ Größere Kreaturen (GK 5 oder mehr) sind zu groß, um in einen Riss zu fallen, 
 
 *Zusätzliche Effekte:* +
 +10 MP: Dauer +1 Kampfphase +
-+5 MP, +1 POT: von Riss betroffene Kreaturen +1 GK (mehrfach anwendbar, max. bis GK 10)
-+5 MP, +1 POT: +1W10 Feuer-Schaden
++5 MP, +1 POT: von Riss betroffene Kreaturen +1 GK (mehrfach anwendbar, max. bis GK 10) +
++5 MP, +1 POT: +1W10 Feuer-Schaden +

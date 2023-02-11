@@ -6,7 +6,6 @@
 *Komponenten:* Geste +
 *Fokus:* Feuer, Wasser +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 3 +
 *Reichweite:* - +
 *Anzahl der Ziele:* Kegel 3,00 Meter +
 *Dauer:* Sofort +
@@ -14,9 +13,8 @@
 Aus Deinen Händen strömt ein Kegel von kochend heißem Dampf, der alle Kreaturen im Wirkungsbereich verbrüht.
 
 Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Treffer] mit 1W6+1 Schadenbonus.
-Jeder Kreatur steht ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen Deine Anzahl der Erfolge aus der Spruchzauberei-Probe zu.
-Bestehen Sie diese Probe, nehmen sie keinen Schaden.
-+
+Jeder Kreatur steht ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe zu.
+Bestehen Sie diese Probe, nehmen sie keinen Schaden. +
 *Zusätzliche Effekte:* +
-+5 MP, +1 POT: Kegel +1,50 Meter
-+5 MP: Schadensbonus +1W6+1
++5 MP, +1 POT: Kegel +1,50 Meter +
++5 MP: Schadensbonus +1W6+1 +

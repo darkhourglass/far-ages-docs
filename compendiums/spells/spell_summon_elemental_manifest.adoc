@@ -1,12 +1,11 @@
 = Beschwöre Elementar [Element]
 
 *Arkanes Geheimnis:* Nein +
-*POT:* 9 +
+*POT:* 9 + (2 pro Machtstufe) +
 *Rettungswurf:* +
 *Komponenten:* Formel +
 *Fokus:* Siehe Beschreibung, Beschwörung +
 *Vorbereitung:* 5 +
-*Anzahl der Erfolge:* 2 pro Machtstufe +
 *Reichweite:* 3,00 Meter +
 *Anzahl der Ziele:* - +
 *Dauer:* 5 Kampfphasen +
@@ -22,8 +21,6 @@ Das angegebene Element bestimmt, welche Typen von Manifesten der Magier beschwö
 Welche Elemente zur Verfügung stehen hängt von der Zauberspruchliste ab, in der dieser Zauberspruch gelernt wird.
 Ein Magier, der diesen Zauberspruch aus dem link:../spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers] lernt, kann nur Feuer-Elementare beschwören.
 Um andere Typen zu beschwören, muss der Magier diesen Zauberspruch mehrfach lernen.
-Lernt der Magier den Zauberspruch aus einer Liste, die mehrere Typen erlaubt, kann der Magier sich den Typ des Manifests zu Beginn der Vorbereitung aussuchen.
-+
+Lernt der Magier den Zauberspruch aus einer Liste, die mehrere Typen erlaubt, kann der Magier sich den Typ des Manifests zu Beginn der Vorbereitung aussuchen. +
 *Zusätzliche Effekte:* +
-+2 MP: Dauer +1 Kampfphae
-+
++2 MP: Dauer +1 Kampfphase +

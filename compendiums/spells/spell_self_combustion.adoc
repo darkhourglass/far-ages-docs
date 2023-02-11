@@ -6,7 +6,6 @@
 *Komponenten:* Formel +
 *Fokus:* Feuer, Körper +
 *Vorbereitung:* 4 +
-*Anzahl der Erfolge:* 6 +
 *Reichweite:* - +
 *Anzahl der Ziele:* speziell +
 *Dauer:* Sofort +
@@ -17,7 +16,7 @@ Besitzt Du keine Bedrohungszone, treffen die Flammen, die aus Deinem Körper sch
 
 Wähle mit Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] eine beliebige Zahl zwischen 1 und 8.
 Würfle entsprechend viele W10.
-Du erhälst sofort einen automatischen Treffer mit der gewürfelten Augenzahl als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbarer] Schaden.
+Du erhältst sofort einen automatischen Treffer mit der gewürfelten Augenzahl als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbarer] Schaden.
 
 Überlebst Du dies erhalten alle Kreaturen im Wirkungsbereich (wie oben beschrieben) ebenfalls einen automatischen Treffer mit 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] pro W10, den Du werfen musstest.
 
@@ -29,4 +28,4 @@ Alle Kreaturen im Wirkungsbereich erhalten einen automatischen Treffer mit 4*3 =
 ====
 
 *Zusätzliche Effekte:* +
-+5 MP, +1 POT: die maximale Zahl, die Du wählen kannst steigt um +1 (mehrfach anwendbar) +
++5 MP, +1 POT: die maximale Zahl, die Du wählen kannst, steigt um +1 (mehrfach anwendbar) +

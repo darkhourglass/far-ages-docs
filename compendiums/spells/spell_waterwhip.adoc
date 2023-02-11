@@ -6,14 +6,13 @@
 *Komponenten:* Formel, Geste +
 *Fokus:* Wasser +
 *Vorbereitung:* 1 +
-*Anzahl der Erfolge:* 1 +
 *Reichweite:* 3,00 Meter +
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* Sofort +
 *Effekt:* Du reißt Deinen Arm in die Höhe und führst eine Bewegung aus, als würdest Du eine Peitsche schwingen.
 In der Abwärtsbewegung formt sich ein Strahl aus Wasser in Deiner Hand, der auf die Kreatur wie eine dünne Peitsche herunterknallt.
 
-Die Zielkreatur macht eine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magieabwehr]-Probe gegen Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe.
+Die Zielkreatur macht eine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magieabwehr-Probe] gegen Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe].
 Bei einem Erfolg würfelst Du eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Schadensprobe] für Zaubersprüche.
 Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] beträgt 1W6+1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser-Schaden]. +
 *Zusätzliche Effekte:* +

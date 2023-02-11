@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Gesten +
 *Fokus:* Licht, Schatten, Geist +
 *Vorbereitung:* 7 +
-*Anzahl der Erfolge:* 8 +
 *Reichweite:* - +
 *Anzahl der Ziele:* Radius 64,00 Meter +
 *Dauer:* 10 Kampfphasen +
@@ -16,7 +15,7 @@ Kleine, irrlicht-artige Kugeln aus sanften Mondlicht erscheinen im Wirkungsberei
 Ist es dunkel, gilt im Wirkungsbereich helles Mondlicht.
 Es gelten die normalen Modifikatoren für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit].
 
-Weiterhin muss jede Kreatur einen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Magie-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegen, wenn sie sich im Wirkungsbereich des Zauberspruchs befinden und mindestens eine diese Voraussetzungen erfüllen:
+Weiterhin muss jede Kreatur einen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Magie-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] ablegen, wenn sie sich im Wirkungsbereich des Zauberspruchs befinden und mindestens eine diese Voraussetzungen erfüllen:
 
 * link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlöse] Wesen
 * xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbare] Wesen
@@ -24,8 +23,7 @@ Weiterhin muss jede Kreatur einen xref:../../rules/core/core_rules_magic_base.ad
 * verwandelte link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_shapeshifter.adoc[Gestaltwandler]
 * alle Kreaturen, die durch den Einsatz von Zaubersprüchen und Fähigkeiten eine andere Gestalt angenommen haben, zum Beispiel durch link:spell_animal_shape.adoc[Tierform]
 
-Bestehen sie diese Probe nicht, werden sie sichtbar und/oder verwandeln sich in ihre ursprüngliche Gestalt.
-
+Besteht eine Kreatur diese Probe nicht, wird sie sichtbar und/oder verwandelt sich in ihre ursprüngliche Gestalt. +
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +
 +5 MP: Radius +12,00 Meter +

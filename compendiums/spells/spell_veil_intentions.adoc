@@ -6,15 +6,13 @@
 *Komponenten:* Geste +
 *Fokus:* Geist +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 2 +
 *Reichweite:* Selbst/Berührung+
 *Anzahl der Ziele:* 1 Kreatur +
 *Dauer:* 1 Stunde +
 *Effekt:* Du bewegst Deine Hand über das Gesicht der Zielkreatur als würdest Du einen Vorhang vorziehen.
 Für die Dauer des Zauberspruches ist es für andere Kreaturen schwerer, die Intention des Zielkreatur aus ihrer Körpersprache oder Stimme zu interpretieren.
-Die Zielkreatur erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen]-Proben, wenn sie diese in einer konkurrierenden CH-Probe einsetzt.
-Dies können zum Beispiel xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_interrogate[Ausfragen]-Proben sein. +
+Die Zielkreatur erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen-Proben], wenn sie diese in einer konkurrierenden CH-Probe einsetzt.
+Dies können zum Beispiel xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_interrogate[Ausfragen-Proben] sein. +
 *Zusätzliche Effekte:* +
-+5 MP: Dauer 1 Stunde
-+5 MP, +1 POT: Bonus erhöht sich um +1 auf die Würfe zum Erfolg (kumulativ, max. +4)
-+
++5 MP: Dauer 1 Stunde +
++5 MP, +1 POT: Bonus erhöht sich um +3 (kumulativ anwendbar) +

@@ -1,21 +1,16 @@
 = Sabotiere Konstrukt
 
 *Arkanes Geheimnis:* Nein +
-*POT:* 7 +
+*POT:* 7 + (1 pro Machtstufe) +
 *Rettungswurf:* Ja +
 *Komponenten:* Formel, Geste +
 *Fokus:* Metall +
 *Vorbereitung:* 6 +
-*Anzahl der Erfolge:* (1 + Ziel-Machtstufe) +
 *Reichweite:* 12,00 Meter +
 *Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
 *Dauer:* 5 Kampfphasen +
 *Effekt:* Du zeigst auf ein Konstrukt in Reichweite und imitierst ein krachendes Geräusch als wurde etwas zerbrechen.
 Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] verweigert das Konstrukt für die Dauer des Zauberspruches jegliche Funktion.
 Nach Ablauf des Zauberspruches funktioniert es wieder normal. +
-
-Mit diesem Zauberspruch kannst Du nur Konstrukte der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_powerlevel_powerlevel[Machtstufe] 5 sabotieren.
-Für Konstrukte mit höheren Machtstufen musst Du zusätzliche Effekte einsetzen. +
 *Zusätzliche Effekte:* +
-+1 POT: maximale Machtstufe +1 (mehrfach anwendbar) +
 +2 MP: Dauer +1 Kampfphase

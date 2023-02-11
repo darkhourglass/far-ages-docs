@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Gesten +
 *Fokus:* Luft, Eis +
 *Vorbereitung:* 6 +
-*Anzahl der Erfolge:*  +
 *Reichweite:* 24,00 Meter +
 *Anzahl der Ziele:* Radius 15,00 Meter +
 *Dauer:* 5 Kampfphasen +
@@ -17,12 +16,12 @@ Der Nebel gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_b
 Zusätzliche Effekte können die Wirkung der Deckung verstärken.
 
 Zusätzlich muss jede link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase], in der sie sich im Wirkungsbereich des Zaubers befindet, einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner Spruchzauberei-Probe werfen.
-Bei einem Misserfolg erhält die Kreatur sofort 1W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]-Schaden. +
+Bei einem Misserfolg erhält die Kreatur sofort 1W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost-Schaden]. +
 *Zusätzliche Effekte:* +
-+1 MP: Dauer: +5 Kampfphasen
++1 MP: Dauer: +5 Kampfphasen +
 +2 MP: Reichweite: +3,00 Meter +
-+5 MP: Radius: +3,00 Meter
-+1 POT: Schaden pro Kampfphase +1W10 Frost-Schaden
-+10 MP, +1 POT: der Nebel verursacht mittlere Deckung
-+20 MP, +3 POT: der Nebel verursacht starke Deckung
-+30 MP, +5 POT: der Nebel verursacht totale Deckung
++5 MP: Radius: +3,00 Meter +
++1 POT: Schaden pro Kampfphase +1W10 Frost-Schaden +
++10 MP, +1 POT: der Nebel verursacht mittlere Deckung +
++20 MP, +3 POT: der Nebel verursacht starke Deckung +
++30 MP, +5 POT: der Nebel verursacht totale Deckung +

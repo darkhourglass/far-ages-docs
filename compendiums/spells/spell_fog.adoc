@@ -6,7 +6,6 @@
 *Komponenten:* Formel +
 *Fokus:* Wasser, Luft +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 3 +
 *Reichweite:* 24,00 Meter +
 *Anzahl der Ziele:* Radius 12,00 Meter +
 *Dauer:* 5 Kampfphasen +
@@ -20,8 +19,8 @@ Du kannst zusätzliche Effekte nutzen, um den Nebel dichter zu machen und die De
 Du kannst nur einen dieser zusätzlichen Effekte nutzen. +
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +
-+2 MP: Reichweite +6,00 Meter
-+5 MP: Radius +3,00  Meter
-+2 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[mittlere Deckung]
-+5 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[starke Deckung]
-+8 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[totale Deckung]
++2 MP: Reichweite +6,00 Meter +
++5 MP: Radius +3,00  Meter  +
++2 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[mittlere Deckung] +
++5 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[starke Deckung] +
++8 POT: Nebel verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[totale Deckung] +

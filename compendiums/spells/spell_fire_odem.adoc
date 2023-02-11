@@ -6,7 +6,6 @@
 *Komponenten:* Formel, Geste +
 *Fokus:* Feuer +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 6 +
 *Reichweite:* - +
 *Anzahl der Ziele:* Kegel 6,00 Meter +
 *Dauer:* Sofort +
@@ -15,9 +14,7 @@ Heiße Flammen schlagen einem Drachenatem gleich hervor.
 
 Der Wirkungsbereich des Zaubers breitet sich kegelförmig beginnend beim Magier aus.
 Jede Kreatur im Wirkungsbereich erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[automatischen Treffer] mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
-Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] halbiert diesen Schaden.
-+
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe halbiert diesen Schaden. +
 *Zusätzliche Effekte:* +
-+5 MP, +1 POT: Kegel +3,00 Meter
-+5 MP, +1 POT: Schaden +2W10 Feuer
-+
++5 MP, +1 POT: Kegel +3,00 Meter +
++5 MP, +1 POT: Schaden +2W10 Feuer +

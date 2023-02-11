@@ -6,13 +6,12 @@
 *Komponenten:* Formel, Zutat +
 *Fokus:* Wachstum+
 *Vorbereitung:* 10 Minuten (Ritual) +
-*Anzahl der Erfolge:* 12 +
 *Reichweite:* - +
 *Anzahl der Ziele:* Radius 120,00 Meter +
 *Dauer:* 12 Stunden+
 *Effekt:* In einem kurzen Ritual konzentrierst Du Dich auf die Geister der Erde und Pflanzen und beschwörst Sie, zu wachsen.
 Du kannst diesen Zauberspruch nur aussprechen, wenn sich in dessen Radius hauptsächlich natürlicher Boden befindet.
-Ein großer gepflasterter Platz funktioniert nicht, ein Feld durch das ein schmaler Steinweg führt, ist in Ordnung.
+Ein großer gepflasterter Platz funktioniert nicht, ein Feld mit einem schmalen Steinweg ist in Ordnung.
 Als Zutat benötigst Du ein Samenkorn eines Baumes.
 
 Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] wachsen innerhalb eines Augenblicks riesige Bäume und diverse Pflanzen aus dem Boden, auch wenn sie in der gegenwärtigen Landschaft normalerweise nicht wachsen könnten (zum Beispiel in der Wüste).
@@ -37,11 +36,11 @@ Darüber hinaus kannst Du aus der folgenden Liste an Kreaturen bis zu drei ausw�
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote]
 
 Kreaturen mit diesem primären Kreaturentyp können den Hain nicht ohne weiteres betreten.
-Um den Hain zu betreten, müssen diese Kreaturen einen link:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft-Rettungswurf] gegen die Anzahl der Erfolge aus Deiner Spruchzauberei-Probe bestehen oder müssen draußen bleiben.
+Um den Hain zu betreten, müssen diese Kreaturen einen link:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_check_saves_base_willpower[Willenskraft-Rettungswurf] gegen Deine Spruchzauberei-Probe bestehen oder müssen draußen bleiben.
 Sie müssen diese Probe auch würfeln, wenn sie normalerweise die Art von Rettungswürfen automatisch bestehen würden.
 
 Nach Ende des Zauberspruches verschwindet der Hain auf mysteriöse Weise und hinterlässt keine Spuren, dass es je da gewesen war. +
 *Zusätzliche Effekte:* +
 +10 MP: Dauer +12 Stunden +
 +10 MP, +1 POT: Radius +60,00 Meter +
-+100 MP, +5 POT: Dauer Permanent (Du kannst nur einen friedlichen Hain permanent verzaubern)
++100 MP, +5 POT: Dauer Permanent (Du kannst nur einen friedlichen Hain permanent verzaubern) +

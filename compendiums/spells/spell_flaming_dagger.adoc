@@ -6,7 +6,6 @@
 *Komponenten:* Formel +
 *Fokus:* Feuer, Beschwörung +
 *Vorbereitung:* 2 +
-*Anzahl der Erfolge:* 2 +
 *Reichweite:* Selbst +
 *Anzahl der Ziele:* Selbst +
 *Dauer:* 5 Kampfphasen +
@@ -14,6 +13,5 @@
 Du kannst mit diesem Dolch normal im Nahkampf agieren.
 Der Dolch folgt den Regeln eines gewöhnlichen Dolches, jedoch hat er einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] von 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuerschaden]. +
 *Zusätzliche Effekte:* +
-+2 MP: Dauer +1 Kampfphase
-+10 MP, +1 POT: Schadensbonus erhöht sich um +1W6 Feuer
-+
++2 MP: Dauer +1 Kampfphase +
++10 MP, +1 POT: Schadensbonus erhöht sich um +1W6 Feuer +
