@@ -21,10 +21,11 @@ Solange die Markierung anhält, kennt der Jäger die Himmelsrichtung und ungefä
 === Jagdgebiet
 Der Jäger besitzt ein angestammtes Gebiet, welches er zum Jagen verwendet und ist mit diesem sehr gut vertraut.
 Das Gebiet muss zu Beginn des Spiels festgelegt werden.
-Es muss sich dabei um einen begrenzten, geopraphischeb Ort handeln, z.B. ein bestimmtes Waldstück, eine Ebene oder eine Gebirgskette.
-Alternativ sind auch Stadtgebiete erlaubt. +
+Es muss sich dabei um einen begrenzten, geografischen Ort handeln, z.B. ein bestimmtes Waldstück, eine Ebene oder eine Gebirgskette.
+Alternativ sind auch Stadtgebiete erlaubt.
+
 Innerhalb dieses Gebiets erhält der Jäger die Fähigkeit link:../skills/core_skill_orientation.adoc[Orientierung].
-Darüber hinaus erhält einen Bonus von +1 auf die Würfe zum Erfolg auf alle xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen], wenn er sich in diesem Gebiet aufhält.
+Darüber hinaus erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf alle xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen-Proben], wenn er sich in diesem Gebiet aufhält.
 Dieser letztere Bonus kann nach Ermessen des SL auch in Gebieten verwendet werden, die von gleicher Beschaffenheit sind, z.B. in einem anderen Wald.
 
 // TODO Link creature types
@@ -32,9 +33,10 @@ Dieser letztere Bonus kann nach Ermessen des SL auch in Gebieten verwendet werde
 === Spezialisierte Jagdmethoden
 Der Jäger kennt die Eigenheiten und Schwächen bestimmter Beutewesen besonders gut und kann diese zu seinem Vorteil nutzen.
 Zu Beginn des Spiels muss der Jäger einen primären und eine sekundären Kreaturentyp auswählen.
-Jedes Mal wenn er eine Angriffsprobe gegen eine Kreatur mit entweder passenden primären oder sekundären Typ durchführt, erhält er einen Bonus von +1 auf die Würfe zum Erfolg.
-Im Fall einer Schadensprobe erhält diese außerdem einen Bonus von +4.
-Besitzt eine Kreatur sowohl den passenden primären und sekundären Typ, erhöhen sich die Boni kumulativ, d.h. die Angriffsprobe erhält einen Bonus von +2 auf die Würfe zum Erfolg und die Schadensprobe erhöht sich um +8.
+Würfelt er eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gegen eine Kreatur mit entweder passenden primären oder sekundären Typ, erhält er einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf diese Probe.
+Im Fall einer Schadensprobe erhält diese außerdem einen Bonus von +3.
+
+Besitzt eine Kreatur sowohl den passenden primären und sekundären Typ, erhöhen sich die Boni kumulativ, d.h. die Angriffsprobe erhält einen Bonus von +6 auf die Würfe zum Erfolg und die Schadensprobe erhöht sich um +6.
 
 [[ref_hunter_tracking]]
 === Spuren lesen

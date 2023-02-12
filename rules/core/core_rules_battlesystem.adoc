@@ -604,6 +604,13 @@ Blindes Zuschlagen auf einen Punkt, an dem ein Gegner vermutet wird, kann je nac
 
 Es ist durchaus möglich für unterschiedliche Materialien und Sichtverhältnisse im Zusammenhang mit Deckung mehr oder weniger Mali zu verteilen.
 
+Kreaturen, die hinter Deckung sich <<ref_core_battle_reaction_dogde,ducken>>, erhalten auf alle xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswürfe] einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] je nach Kategorie der Deckung:
+
+* Geringe Deckung: +5
+* Mittlere Deckung: +10
+* Starke Deckung: +15
+* Totale Deckung: +20
+
 [[ref_core_battle_melee_modifiers_darkness]]
 ==== Dunkelheit
 

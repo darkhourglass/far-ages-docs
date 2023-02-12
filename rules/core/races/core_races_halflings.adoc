@@ -11,19 +11,8 @@
 == Eigenschaften
 
 === Glück der Halblinge
-Das Schicksal scheint Halblingen besonders gewogen zu sein, so dass sie selbst aus misslichen Situationen besser herausvortreten.
-Für jede Stufe an xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[Charisma] kann ein Halbling pro Tag einen Patzer zu einem Misserfolg oder einen Misserfolg zu einem Erfolg bei einer beliebigen Anzahl an Proben ändern. +
-Dadurch kann sich ändern, ob die Probe insgesamt ein Patzer oder Misserfolg ist.
-Es ist auch möglich, wenn ein Halbling mindestens 2 Stufen CH besitzt, den gleichen Würfel mehrfach zu modifizieren.
-
-.Glück der Halblinge
-====
-Ein Halbling mit CH 3 muss eine Reflex-Probe mit 4 Würfeln bestehen und mindestens einen Erfolg erzielen.
-Bei der Probe würfelt er 1, 2, 4, 6 - kein einziger Erfolg und ein Patzer.
-Er nutzt somit sein Glück des Halbling und ändert den Patzer zuerst in einen Misserfolg und dann in einen Erfolg. +
-Damit ist die Probe insgesamt ein Erfolg.
-Außerdem kann er in dieser oder einer anderen Probe an diesem Tag noch einen Würfel ändern.
-====
+Das Schicksal scheint Halblingen besonders gewogen zu sein, so dass sie selbst aus misslichen Situationen besser herauskommen.
+Für jede Stufe an xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[Charisma] kann ein Halbling einmal pro Tag eine Probe wiederholen, wenn diese ein Misserfolg oder Patzer war.
 
 === Leichtfüßig
 Halblinge erhalten einen Bonus auf ihre xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] von 1,50 Metern.

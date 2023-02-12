@@ -14,13 +14,17 @@
 [[ref_duellist_duell]]
 === Duell
 Einmal als pro Kampfphase als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] darf der Duellist einen beliebigen Gegner in Sichtweite als Ziel seines Duells auswählen.
-Er erhält für die Dauer des Duells einen Bonus von +1 auf die Würfe zum Erfolg auf alle Angriffsproben gegen diesen Gegner.
+Er erhält für die Dauer des Duells einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsproben] gegen diesen Gegner.
+
 Das Duell endet, bzw. dieser Bonus geht verloren, sobald entweder der Duellist oder der Gegner von einem anderen Kampfteilnehmer xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] wird.
 Der Duellist darf immer nur einen Gegner gleichzeitig duellieren.
 
 [[ref_duellist_combattraining]]
 === Duellist-Kampftraining
-Duellisten lernen die beiden Fähigkeiten link:../skills/core_skill_acrobatic_attack.adoc[Akrobatischer Angriff] und link:../skills/core_skill_disarm.adoc[Entwaffnen] zu Beginn des Spiels ohne zusätzliche CP-Kosten.
+Duellisten lernen die folgenden Fähigkeiten  zu Beginn des Spiels ohne zusätzliche CP-Kosten:
+
+* link:../skills/core_skill_acrobatic_attack.adoc[Akrobatischer Angriff]
+* link:../skills/core_skill_disarm.adoc[Entwaffnen]
 
 [[ref_duellist_dangersense]]
 === Gefahrensinn

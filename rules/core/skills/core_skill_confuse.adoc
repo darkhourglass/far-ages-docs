@@ -9,7 +9,8 @@ Dadurch wird der Gesprächspartner verwirrt und wird eventuell das tun, was der 
 
 Die Fähigkeit erweitert das Talent Überzeugen.
 
-Für jeden Erfolg kann der Charakter eine Kreatur, die seine Sprache versteht und ihm zuhört verwirren.
+Bei einem Erfolg kann der Charakter eine Kreatur, die seine Sprache versteht und ihm zuhört verwirren.
 Der SL kann je nach Situation höhere Erfolgsgrade fordern.
-Wenn der Charakter dann in den nächsten 10 Minuten eine Überzeugen-Probe gegen den Verwirrten würfeln muss, dann erhält er einen Bonus von +1 auf die Würfe zum Erfolg.
-Jeder zusätzliche Erfolg erhöht die Dauer um 5 Minuten.
+Wenn der Charakter dann in den nächsten 10 Minuten eine xref:../core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen-Probe] gegen den Verwirrten würfeln muss, dann erhält er einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5.
+
+Jeder zusätzliche xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] erhöht die Dauer um 5 Minuten.

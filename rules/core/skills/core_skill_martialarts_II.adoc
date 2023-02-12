@@ -4,7 +4,9 @@
 *Überanstrengung:* -
 *CP-Kosten:* 300 +
 *Beschreibung:* Mit Erlernen dieser Fähigkeit kann der Charakter einen Angriff zum Niederschlag durchführen.
-Dazu wirft er eine Probe auf Unbewaffneten Kampf mit einem Malus von -1 auf die Würfe zum Erfolg.
+
+Dazu wirft er eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] auf xref:../core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] mit einem xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5.
 Er wirft dann die Schadensprobe wie sonst.
+
 Zur Bestimmung, ob der Gegner niedergeschlagen wird, wird ein Bonus von +5 angenommen.
 Der Charakter erhält außerdem einen kumulativen Schadensbonus von +1 auf Schadenswürfe im unbewaffneten Kampf.

@@ -11,23 +11,7 @@
 
 == Eigenschaften
 
-[[ref_menestrel_magicvoice]]
-=== Magische Stimme
-Menestrel dürfen das Talent Kunst[Gesang] verwenden, um die Spruchzauberei-Probe für Spruchzauber[Magie der Musik] auszuführen.
-Diese Eigenschaft zählt nicht, um höher-stufige Zaubersprüche zu lernen.
-Dafür zählen ausschließlich die Stufen in Spruchzauberei.
-
 [[ref_menestrel_magicperformance]]
 === Magischer Auftritt
-Besitzt der Menestrel ein weiteres Talent Kunst, welches den Gesang unterstützt (z.B. Kunst[Laute]), darf er sogar beide Talent-Stufen addieren, um die Spruchzauberei-Probe der <<ref_menestrel_magicvoice>> zu würfeln.
+Besitzt der Menestrel ein weiteres Talent Kunst, welches den Gesang unterstützt (z.B. Kunst[Laute]), darf er  die Spruchzauberei-Probe der als xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] würfeln.
 Ein Menestrel kann keine Kunst-Talente kombinieren, wenn diese den Einsatz von Gesang nicht gleichzeitig ermöglichen (z.B. Kunst[Flöte]).
-Der Menestrel kann maximal ein Talent über diese Fähigkeit zusätzlich einsetzen.
-
-.Magischer Auftritt
-====
-Ein Menestrel besitzt das Talent Kunst[Gesang] auf Stufe 5, das Talent Kunst[Laute] auf 3 und eine Attributsstufe von 3 in CH.
-Er kann damit die Spruchzauberei-Probe mit 5+3+3 Stufen würfen.
-====
-
-Diese Eigenschaft zählt nicht, um höher-stufige Zaubersprüche zu lernen.
-Dafür zählen ausschließlich die Stufen in Spruchzauberei.

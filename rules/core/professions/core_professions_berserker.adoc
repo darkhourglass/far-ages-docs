@@ -15,7 +15,8 @@
 === Dem Tod trotzen
 Erreicht der Berserker die xref:../core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[Todesschwelle] seines xref:../core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pools], darf er entscheiden, diese Eigenschaft sofort einzusetzen.
 In diesem Fall er mit seiner KO-Stufe entsprechend vielen W10.
-Das Ergebnis wird sofort seinem TP-Pool hinzugerechnet. +
+Das Ergebnis wird sofort seinem TP-Pool hinzugerechnet.
+
 Diese Fähigkeit kann der Berserker nach Gebrauch erst nach einer xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Rast] wieder eingesetzt werden.
 
 [[ref_berserker_berserk]]
@@ -24,5 +25,5 @@ Der Berserker lernt zu Beginn des Spiels die Fähigkeit link:../skills/core_skil
 
 [[ref_berserker_berserk_extended]]
 === Verlängerter Kampfrausch
-Jeder <<ref_berserker_berserk>> dauert doppelt so lange (Stufen in KO * 2 statt KO).
+Jeder <<ref_berserker_berserk,Kampfrausch>> dauert doppelt so lange.
 Dies gilt auch für die fortführenden Fähigkeiten.

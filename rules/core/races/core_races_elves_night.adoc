@@ -13,18 +13,19 @@
 Nachtelfen erhalten die Eigenschaften xref:core_races_elves_general.adoc#ref_elven_senses[Elfische Sinne] und xref:core_races_elves_general.adoc#ref_elven_intuition[Elfische Intuition], aber nicht xref:core_races_elves_general.adoc#ref_elven_skill[Elfische Begabung].
 
 === Wir sind die Nacht
-Nachtelfen sind perfekt an xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] gewöhnt, so dass sie nie negative Modifikatoren durch diese erleiden.
-Ausschließlich Absolute Dunkelheit belegt Nachtelfen mit einem Modifikator von -1 auf die Würfe zum Erfolg. +
+Nachtelfen sind perfekt an xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] gewöhnt, so dass sie nie negative Modifikatoren durch diese erleiden.
+Ausschließlich absolute Dunkelheit belegt Nachtelfen mit einem Modifikator von -3 auf die Würfe zum Erfolg.
+
 Auf der anderen Seite sind ihre Augen gegenüber Licht besonders empfindlich.
 Es gelten folgende Modifikatoren:
 
 * Normales Tageslicht oder Fackellicht führt nicht zu Einschränkungen
-* Helles Sonnenlicht (z.B. an einem sonnigen Nachmittag): -1 auf die Würfe zum Erfolg
-* Grelles Sonnenlicht wie an einem Mittag im Hochsommer oder in der Wüste: -2 auf die Würfe zum Erfolg
+* Helles Sonnenlicht (z.B. an einem sonnigen Nachmittag): -3 auf die Würfe zum Erfolg
+* Grelles Sonnenlicht wie an einem Mittag im Hochsommer oder in der Wüste: -10 auf die Würfe zum Erfolg
 
 Künstliches Licht kann nach Ermessen des SL ebenfalls entsprechende Modifikatoren mit sich bringen.
 
-Zaubersprüche, die durch Licht blenden und als Effekt negative Modifikatoren auf erlegen, sind um -1 auf die Würfe zum Erfolg effektiver gegen Nachtelfen.
+Zaubersprüche, die durch Licht blenden und als Effekt negative Modifikatoren auf erlegen, sind um -3 auf die Würfe zum Erfolg effektiver gegen Nachtelfen.
 
 === Was die Dunkelheit uns lehrt
 Nachtelfen lernen das Talent xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] mit SGM 1.

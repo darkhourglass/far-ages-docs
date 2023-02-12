@@ -14,35 +14,34 @@
 [[ref_necromancer_philosphy_of_death]]
 === Die Philosophie des Todes
 
-
 [[ref_necromancer_black_circle]]
 ==== Tod dem Untot (Schwarzer Zirkel)
 Manche wollen Feuer mit Feuer bekämpfen.
-Daher gibt es Nekromanten, die ihr zwielichtiges Handwerk lernen, um das prominenteste Erzeugnis, die Untoten, zu bekämpfen. +
+Daher gibt es Nekromanten, die ihr zwielichtiges Handwerk lernen, um das prominenteste Erzeugnis, die Untoten, zu bekämpfen.
+
 Die Gründe zum Eintritt in den Schwarzen Zirkel können vielfältig sein und sind pro Person unterschiedlich.
 Manche haben durch das Wirken eines skrupellosen Nekromanten vielleicht durch Untote ihre Geliebten verloren, andere zieht die Aussicht, etwas Gutes zu tun, an.
 
 * Jeder Schadenswurf einer beliebigen Angriffsprobe des Nekromanten gegen einen Untoten erhält einen einmaligen Bonus von 2W6.
-* Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen Untoten schaden soll, erhalten einen Bonus von +1 auf die Würfe zum Erfolg.
-Dieser Bonus gilt nur für Zaubersprüche, die nur gegen Untote gewirkt werden können.
+* Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen Untoten schaden soll, erhalten einen Bonus von +3.
+Dieser Bonus gilt für Zaubersprüche, die nur gegen Untote gewirkt werden können.
 
 [[ref_necromancer_grey_circle]]
 ==== Nützliche Werkzeuge (Grauer Zirkel)
 
 * Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen oder mehrere Untoten kontrollieren soll, erhalten einen Bonus von +1 auf die Würfe zum Erfolg.
-* Einmal pro Tag kann der Nekromant einen beliebigen Untoten im Umkreis von 3 Metern um 2W6 TP heilen oder 2W6 Schaden zufügen gegen den keine Rüstung schützt.
+* Einmal pro Tag kann der Nekromant einen beliebigen Untoten im Umkreis von 3,00 Metern um 2W6 TP heilen oder 2W6 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden zufügen.
 
 [[ref_necromancer_white_circle]]
 ==== Für die Ewigkeit (Weißer Zirkel)
 
 * Einmal pro Tag kann der Nekromant mit Einsatz von 5 MP aus einer humanoiden Leiche mit maximaler GK von 6 einen link:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoten] erschaffen.
-Der Untote kann maximal xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 3 erreichen.
+Der Untote kann maximal xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 0 erreichen.
 Der Nekromant erhält automatisch die Kontrolle über ihn.
 Der Untote zerfällt zu Staub nach 8 Stunden.
-* Einmal pro Tag kann der Nekromant einen beliebigen Untoten im Umkreis von 3 Metern um 4W6 TP heilen.
-* Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen Untoten erschaffen soll, erhalten einen Bonus von +1 auf die Würfe zum Erfolg.
+* Einmal pro Tag kann der Nekromant einen beliebigen Untoten im Umkreis von 3,00 Metern um 4W6 TP heilen.
+* Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen Untoten erschaffen soll, erhalten einen Bonus von +3.
 
 [[ref_necromancer_fear_no_death]]
 === Keine Furcht vor dem Tod
-Jeder Nekromant hat eine
-Diese Eigenschaft ist identisch zu dem Nachteil xref:../core_rules_disadvantages.adoc#ref_disadvantages_morbid[Morbide].
+Der Nekromant darf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht-Rettungswürfe] mit xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] würfeln, sofern ihre Auslöser Untote sind.

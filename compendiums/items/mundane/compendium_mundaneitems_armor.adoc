@@ -1,8 +1,5 @@
 = Rüstungen
 
-// TODO Move TABLES here, move Rules to "BATTLE", move prices/mods for size to "ADVENTURES"
-xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_initiative_malus[INI-Malus 1], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_dexterity_malus[GE-Malus 3]
-
 |===
 |Name |Größe |Rüstungsschutz |Trefferzonen |Gewicht |Preis |Eigenschaften
 

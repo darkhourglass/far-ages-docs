@@ -16,7 +16,8 @@
 === Gift auftragen
 Einmal pro Kampfphase kann der Assassine als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] Gift auf eine in der Hand gehaltene Waffe auftragen.
 Das Gift muss sich am Körper des Assassinen befinden.
-Verursacht er innerhalb der nächsten 5 Kampfphasen mit der Waffe (bzw. den Projektilen der Waffe) Schaden, muss das Opfer zusätzlich eine dem Gift passende Gift-Probe ablegen. +
+Verursacht er innerhalb der nächsten 5 Kampfphasen mit der Waffe (bzw. den Projektilen der Waffe) Schaden, muss das Opfer zusätzlich eine dem Gift passende Gift-Probe ablegen.
+
 Der Assassine ist so geübt in dieser Aktion, dass für ihn keine Gefahr durch das Gift besteht.
 
 [[ref_assassin_backstab]]
@@ -26,10 +27,9 @@ Der Assassine lernt die Fähigkeit link:../skills/core_skill_backstab.adoc[Hinte
 [[ref_assassin_weapon_concealment]]
 === Versteckte Waffen
 Der Assassin kann bis zu drei Waffen mit der jeweils maximalen Größe 3 an seinem Körper verstecken.
-Um diese zu entdecken, müssen andere Charaktere mindestens einen Erfolgsgrad höher werfen, als sonst üblichen.
-Wäre z.B. ein Guter Erfolgsgrad (4 Erfolge) nötig, ist nun ein Sehr Guter Erfolgsgrad (8 Erfolge) erforderlich.
+Um diese zu xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[entdecken], müssen andere Charaktere mindestens einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] höher werfen, als sonst üblichen.
 
 [[ref_assassing_surprisingly_stabby]]
 === Überraschend hinterhältig
-Führt der Assassine eine Angriffsprobe im Nahkampf aus, darf er seine Fähigkeit <<ref_assassin_backstab>> einsetzen, auch wenn die Bedingungen zum Durchführen für den Hinterhätigen Angriff nicht erfüllt sind, z.B. wenn der Kontrahent nicht xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] ist.
-Ist der Kontrahent explizit immun gegen Hinterhältige Angriffe, wirkt diese Fähigkeit allerdings nicht.
+Führt der Assassine eine Angriffsprobe im Nahkampf aus, darf er seine Fähigkeit <<ref_assassin_backstab,hinterhältiger Angriff>> einsetzen, auch wenn die Bedingungen zum Durchführen für den hinterhätigen Angriff nicht erfüllt sind, z.B. wenn der Kontrahent nicht xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] ist.
+Ist der Kontrahent explizit immun gegen hinterhältige Angriffe, wirkt diese Fähigkeit allerdings nicht.

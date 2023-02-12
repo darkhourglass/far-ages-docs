@@ -63,8 +63,8 @@ Von dieser hängen beispielsweise initiale <<ref_golemworkshop_creation_steps_pr
 Außerdem bestimmt die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis im Normalfall direkt die GK der weiteren Einzelteile.
 Dies stellt dar, dass ein Golem mit GK 5 auch Beine und Arme der gleichen GK hat.
 
-Jedes Einzelteil wird bezüglich der Konstruktion als eigenständiges xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Gerät] verstanden.
-Das bedeutet, dass der Technomant jedes Einzelteil separat herstellen muss und für jedes eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] ablegen muss.
+Jedes Einzelteil wird bezüglich der Konstruktion als eigenständiges xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Gerät] verstanden.
+Das bedeutet, dass der Technomant jedes Einzelteil separat herstellen muss und für jedes eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] ablegen muss.
 
 [NOTE]
 Nicht alle Einzelteile werden in allen Größenkategorien angeboten.
@@ -107,7 +107,7 @@ Die einzelnen Einträge für Chassis sind wie folgt aufgebaut:
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion eines Chassis abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+*Erfolge:* Um die Konstruktion eines Chassis abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
 
 *GK:* Hier wird die GK des Chassis angegeben.
@@ -137,8 +137,8 @@ xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.a
 Die Energieversorgung gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attribut] des Golems.
 Der Golem benutzt diese MP auch, um Fähigkeiten aus beispielsweise <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>> oder <<ref_golemworkshop_creation_steps_additions,Zusätzen>> zu aktivieren.
 
-Ein Technomant muss diese nach den üblichen xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[Regeln] herstellen.
-Am Ende der Konstruktionszeit macht er eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] gegen die gegebene Anzahl der Erfolge.
+Ein Technomant muss diese nach den üblichen xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Regeln] herstellen.
+Am Ende der Konstruktionszeit macht er eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] gegen die gegebene Anzahl der Erfolge.
 Es gelten die üblichen Regeln für Patzer und Misserfolge bei Technomantie-Proben.
 
 Je nach Energiezelle und xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] werden unterschiedliche Mengen an MP bereitgestellt.
@@ -157,7 +157,7 @@ Die einzelnen Einträge für Energiezellen sind wie folgt aufgebaut:
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Energiezelle abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+*Erfolge:* Um die Konstruktion einer Energiezelle abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
 
 *GK:* Hier wird die GK der Energiezelle angegeben.
@@ -175,7 +175,7 @@ Energiezellen haben die GK des <<ref_golemworkshop_creation_steps_chassis, Chass
 Als Bewaffnung werden meist offensive Geräte bezeichnet, die ein Golem gegen seine Feinde einsetzen kann.
 Dennoch fällt unter Bewaffnung auch eine größere Bandbreite von Ausrüstung, zum Beispiel auch das Werkzeug von Golems, die primäre für schwere Arbeiten verwendet werden (zum Beispiel Holzfäller).
 //TODO Link
-Jede Bewaffnung ist ebenfalls ein xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
+Jede Bewaffnung ist ebenfalls ein xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
 Wie viele Bewaffnungen für einen Golem montiert werden können, wird durch sein <<ref_golemworkshop_creation_steps_chassis_profiles, Chassis>> bestimmt.
 
 [[ref_golemworkshop_creation_steps_weaponary_mounted_on_arms]]
@@ -207,7 +207,7 @@ Die einzelnen Einträge für Bewaffnungen sind wie folgt aufgebaut:
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Bewaffnung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+*Erfolge:* Um die Konstruktion einer Bewaffnung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
 
 *GK:* Hier wird die GK der Bewaffnung angegeben.
@@ -234,7 +234,7 @@ Jede Golem benötigt eine Möglichkeit zur Fortbewegung.
 Unter den Begriff *Bewegungsoptionen* fallen beispielsweise Beine, aber auch andere Fortbewegungsmöglichkeiten wie zum Beispiel Räder oder Raupen.
 Außergewöhnlichere Varianten findet man in unwegsamen Gelände, wo Golems auf sechs spinnenartigen Beinen beispielsweise steile Berghänge erklettern.
 
-Analog zu anderen Einzelteilen ist auch eine Bewegungsoption ein xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
+Analog zu anderen Einzelteilen ist auch eine Bewegungsoption ein xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
 Die Größenkategorie einer Bewegungsoption, die einen Golem montiert wird, wird durch die seines <<ref_golemworkshop_creation_steps_chassis_profiles,Chassis>> bestimmt.
 
 [[ref_golemworkshop_creation_steps_movement_profiles]]
@@ -248,7 +248,7 @@ Die Größenkategorie einer Bewegungsoption, die einen Golem montiert wird, wird
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Bewegungsmöglichkeit abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+*Erfolge:* Um die Konstruktion einer Bewegungsmöglichkeit abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
 
 *GK:* Hier wird die GK der Bewegungsmöglichkeit angegeben.
@@ -269,7 +269,7 @@ Golems sind bereits robuste Konstrukte.
 *Panzerungen* können dies noch verstärken.
 Diese werden primär auf dem <<ref_golemworkshop_creation_steps_chassis,Chassis>> montiert, schützen jedoch den gesamten Körper des Golems.
 Üblicherweise schützt Panzerung wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung] auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen], sofern nicht anders angegeben.
-Eine Panzerung muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
+Eine Panzerung muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
 
 [[ref_golemworkshop_creation_steps_plating_heavy]]
 ===== Schwere Panzerung
@@ -287,7 +287,7 @@ Als *schwer* gekennzeichnete Panzerung muss analog zur <<ref_golemworkshop_creat
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Panzerung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+*Erfolge:* Um die Konstruktion einer Panzerung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
 
 *GK:* Hier wird die GK der Panzerung angegeben.
@@ -308,7 +308,7 @@ Zusätze zeichnen sich dadurch aus, dass die nicht zum Betrieb eines Golems notw
 Wie viele Zusätze ein Golem installiert bekommen kann, hängt von seinem <<ref_golemworkshop_creation_steps_chassis,Chassis>> und dessen xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] ab.
 Beispielsweise kann ein link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[humanoides Chassis] der GK 5 insgesamt 2 Zusätze mit sich führen.
 
-Ein Zusatz muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
+Ein Zusatz muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
 
 Im Gegensatz zu anderen Einzelteilen eines Golems haben Zusätze keine eigene GK.
 Das heißt, egal wie welche GK ein Chassis hat, der Zusatz wird immer in einen verfügbaren Einsatz für Zusätze verbaut.
@@ -329,7 +329,7 @@ Als *schwer* gekennzeichnete Zusätze müssen analog zur auf ein passendes <<ref
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion eines Zusatzes abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Probe] nötig.
+*Erfolge:* Um die Konstruktion eines Zusatzes abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
 Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
 
 *Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_additions_heavy,schwere Zusätze>>.
@@ -342,7 +342,7 @@ Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.
 [[ref_golemworkshop_creation_steps_finale]]
 ==== Finale Arbeiten
 
-Nachdem alle Einzelteile gewählt und erstellt wurden, muss der Technomant eine finale Probe mit seinem xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-Talent] ablegen, um den Golem zusammenzusetzen.
+Nachdem alle Einzelteile gewählt und erstellt wurden, muss der Technomant eine finale Probe mit seinem xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Talent] ablegen, um den Golem zusammenzusetzen.
 Die nötige Anzahl der Erfolge ist gleich die Anzahl der Einzelteile.
 
 Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] kann der Technomant die Arbeit nicht erfolgreich abschließen.
@@ -577,7 +577,7 @@ Je höher diese Zahl ist, desto länger benötigt der Technomant für die Progra
 
 Sowohl das <<ref_golemworkshop_programming_protocols,Protokoll>> als auch der <<ref_golemworkshop_programming_mode,Modus>> besitzten jeweils einen eigenen Wert als Schwierigkeit.
 Die *Summe* beider Werte ergibt die Gesamt-Programmierschwierigkeit (allgemein die Programmierschwierigkeit genannt).
-Aus diesem Gesamtwert ergibt sich nun die Dauer der Programmierung als auch die nötige Anzahl der Erfolge in der xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie-] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe].
+Aus diesem Gesamtwert ergibt sich nun die Dauer der Programmierung als auch die nötige Anzahl der Erfolge in der xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe].
 
 |===
 |Programmierschwierigkeit |Dauer (Stunden) |Erfolge
@@ -619,7 +619,7 @@ text-dauer+erfolge
 [[ref_golemworkshop_programming_complexity_botch]]
 ====== Patzer
 
-Ein Patzer bei der Programmierung wird wie xref:../../rules/core/core_rules_technomancy.adoc#ref_technomancy_technomancy_roll_botch[Patzer] bei einer allgemeinen Technomantie-Probe zur Konstruktion von technonatischen Geräten und Konstrukten behandelt.
+Ein Patzer bei der Programmierung wird wie xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_botch[Patzer] bei einer allgemeinen Technomantie-Probe zur Konstruktion von technonatischen Geräten und Konstrukten behandelt.
 
 [[ref_golemworkshop_programming_protocols]]
 ===== Protokolle

@@ -14,14 +14,23 @@ Waldelfen erhalten die Eigenschaften xref:core_races_elves_general.adoc#ref_elve
 
 === Beruhigende Aura
 Waldelfen haben eine tiefe Verbundenheit zu den Lebewesen in der freien Natur.
-Mit dem Einsatz von 5 MP kann ein Waldelf ein xref:../../../bestiary/index.adoc#ref_bestiary_animals[Tier], ein xref:../../../bestiary/index.adoc#ref_bestiary_animals_magical[Magisches Tier] oder eine xref:../../../bestiary/index.adoc#ref_bestiary_plants[Pflanzenwesen] im Umkreis von 3 Metern versuchen zu beruhigen. Das Ziel kann kein Schwarm sein. +
+Mit dem Einsatz von 5 MP kann ein Waldelf ein xref:../../../bestiary/index.adoc#ref_bestiary_animals[Tier], ein xref:../../../bestiary/index.adoc#ref_bestiary_animals_magical[Magisches Tier] oder eine xref:../../../bestiary/index.adoc#ref_bestiary_plants[Pflanzenwesen] im Umkreis von 3 Metern versuchen zu beruhigen.
+Das Ziel darf kein Schwarm sein.
+
 Dazu muss er eine konkurrierende xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]- oder xref:../core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen]-Probe durchführen, je nachdem welche Stufe seiner Talente höher ist.
-Hat er mindestens einen Erfolg, ist das betroffene Wesen für 10 Minuten ihm nicht aggressiv gegenüber. +
-Befindet sich das Wesen in einem Kampf mit Ihm oder seinen Verbündeten, beendet das Wesen die Kampfhandlungen und nimmt diese nur auf, wenn es wiederum angegriffen wird.
+Hat er Erfolg, ist das betroffene Wesen für 10 Minuten ihm nicht aggressiv gegenüber.
+
+Befindet sich das Wesen in einem Kampf mit ihm oder seinen Verbündeten, beendet das Wesen die Kampfhandlungen und nimmt diese nur auf, wenn es wiederum angegriffen wird.
 
 === Tarnung
-Befindet sich der Waldelf im Wald, erhält er einen Bonus von +1 auf die Würfe zum Erfolg für alle xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]-Proben.
+Befindet sich der Waldelf im Wald, erhält er einen Bonus von +3 auf alle xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen-Proben].
 
 === Wissen des Waldes
-Waldelfen können eines der folgenden Talente xref:../core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft], xref:../core_rules_talents_base.adoc#ref_talents_survival[Überleben], xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen[Tiere]] oder xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen[Pflanzen]] mit SGM 1 lernen.
+Waldelfen können eines der folgenden Talente  mit SGM 1 lernen:
+
+* xref:../core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft]
+* xref:../core_rules_talents_base.adoc#ref_talents_survival[Überleben]
+* xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen[Tiere]]
+* xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen[Pflanzen]]
+
 Die Wahl muss zur Charaktererfassung final getroffen werden.

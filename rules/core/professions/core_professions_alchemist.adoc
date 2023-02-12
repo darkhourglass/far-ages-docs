@@ -38,11 +38,11 @@ Ein Alchemist erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_ch
 [[ref_alchemist_potion_knowledge]]
 === Wissen über Substanzen
 Der Alchemist kann aufgrund von Geruch, Aussehen und Geschmack so ziemlich jede Flüssigkeit identifizieren.
-Er muss dazu die zu identifizierende Flüssigkeit untersuchen und eine Probe auf Wissen[Alchemie] würfeln.
+Er muss dazu die zu identifizierende Flüssigkeit untersuchen und eine Probe auf xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Alchemie)] würfeln.
 
 Dabei gilt, dass nicht-magische Flüssigkeiten im Allgemeinen einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[durchschnittlichen Erfolg] erfordern, um identifiziert zu werden.
-Exotische, nicht-magische Flüssigkeiten können nach Ermessen des SL einen höheren Erfolg erfordern.
-Das Identifizieren von magischen Tränken folgt den üblichen xref:../core_rules_magic_base.adoc#ref_magic_items_identification[Regeln], es wird jedoch das o.g. Talent verwendet.
+Exotische, nicht-magische Flüssigkeiten können nach Ermessen des SL einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[höheren Erfolgsgrad] erfordern.
+Das Identifizieren von magischen Tränken folgt den üblichen xref:../core_rules_magic_base.adoc#ref_magic_items_identification[Regeln], es wird jedoch das Wissens-Talent verwendet.
 
 Sofern nicht anders angegeben, erfolgt die Identifikation sofort.
 Sollte der Alchemist die Flüssigkeit nicht identifizieren können, kann er es erst nach Ablauf von 24 Stunden noch einmal versuchen.

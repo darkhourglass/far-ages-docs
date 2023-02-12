@@ -11,10 +11,10 @@
 == Eigenschaften
 
 === Adleraugen
-Aoehe erhalten einen Bonus von +1 auf die Würfe zum Erfolg xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen], wenn eine visuelle Betrachtung erforderlich ist.
+Aoehe erhalten einen Bonus von +3 auf alle Sicht-basieren xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen-Proben].
 
 === Flügel
 Ein Aoehe besitzt Flügel und kann damit fliegen.
-Er bewegt sich fliegend dreimal so schnell, wie er normalerweise auf dem Boden rennen würde (d.h. seine BEW multipliziert mit 3).
-Ein Aoehe kann so viele Kampfrunden in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
+Seine Bewegungsrate für das Fliegen entspricht seiner regulären BEW*2.
+Ein Aoehe kann so viele Kampfphasen in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
 Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_core_battle_actions_attack_airattack[Flugangriff] verwenden.

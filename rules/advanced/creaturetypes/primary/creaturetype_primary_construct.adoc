@@ -17,7 +17,7 @@ Konstrukte sind keine lebenden Kreaturen, die in der natürlichen Welt vorkommen
 Andere Kreaturen stellen für unterschiedlichste Zwecke Konstrukte her.
 
 Allen voran stehen die link:../../../core/professions/core_professions_technomancer.adoc[Technomanten], deren Konstrukte auch als Golems bezeichnet werden.
-Golems werden nach bestimmten Regeln gebaut, die im folgenden xref:../../../core/core_rules_technomancy.adoc#ref_technomancy_creating_constructs[Kapitel] detailliert beschrieben sind.
+Golems werden nach bestimmten Regeln gebaut, die im folgenden xref:../../../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_constructs[Kapitel] detailliert beschrieben sind.
 
 Konstrukte können auch anderen Ursprung haben, beispielsweise durch Magier erschaffen werden.
 In diesem Fall gilt der Vorgang als xref:../../../core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_talent[magischen Gegenstand erschaffen].
@@ -110,11 +110,11 @@ Als Voraussetzung gilt die Kenntnis von mindestens einem der folgenden Talente:
 
 * xref:../../../core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen][Mechanik]
 * xref:../../../core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen][Golems]
-* xref:../../../core/core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie]
+* xref:../../../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie]
 
 Nach Ermessen des SLs können auch andere Talente oder auch Fähigkeiten die Voraussetzung erfüllen.
 
-Material und Werkzeug werden vergleichbar mit den initialen xref:../../../core/core_rules_technomancy.adoc#ref_technomancy_creating_constructs[Materialkosten] in Silbermünzen dargestellt.
+Material und Werkzeug werden vergleichbar mit den initialen xref:../../../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_constructs[Materialkosten] in Silbermünzen dargestellt.
 Pro 10 volle TP (oder maximal 10), die repariert werden sollen, müssen 5% der Gesamtkosten des Konstrukts in Material und Werkzeug aufgewendet werden, sowie 5% der Konstruktionszeit.
 
 Der SL kann eine Probe verlangen, wenn er es für angemessen hält.

@@ -40,6 +40,15 @@ Die Machtstufen stehen für die Rarität des Gegenstandes und beeinflussen die R
 Die folgende link:../tables/magic/table_magic_items_powerlevels.adoc[Tabelle] gibt die Übersicht der Eigenschaften pro Machtstufe.
 Diese werden in den folgenden Kapiteln im Details beschrieben.
 
+Machtstufe
+Bezeichnung
+Mindestwurf für Herstellung
+Dauer der Herstellung
+Identifikation (Proben, Mindestwurf)
+Wert
+Zerstörung
+Beseelung möglich
+
 [[ref_magic_items_usage]]
 == Verwendung von magischen Gegenständen
 
@@ -90,7 +99,7 @@ Ein Ring, der wiederum +1 auf den Rüstungsschutz auf allen Trefferzonen bietet,
 Gerade Waffen und Rüstungen leiden unter den starken Belastungen eines Kampfes und profane, nicht-magische Varianten dieser Ausrüstungsgegenstände sind des Öfteren Opfer solcher Umstände und werden zerstört.
 
 Dasselbe Schicksal kann magischen Gegenständen passieren, jedoch sind sie sehr viel resistenter als ihre nicht-magischen Konterparts.
-Jedes Mal, wenn ein Effekt (zum Beispiel ein Patzer im Angriffstalent oder die Auswirkung eines Zauberspruches) den Gegenstand zerstören würde, notiert sich der Träger des Gegenstandes dies, am Besten in Form einer Strichliste.
+Jedes Mal, wenn ein Effekt (zum Beispiel ein Patzer im Angriffstalent oder die Auswirkung eines Zauberspruches) den Gegenstand zerstören würde, notiert sich der Träger des Gegenstandes dies, zum Beispiel in Form einer Strichliste.
 
 Hat der Gegenstand mehr „Striche“ als seine Machtstufe, dann ist er zerstört.
 
@@ -182,7 +191,7 @@ Gerade für Zauberer ist es interessant zu wissen, wie man ein *Grimoire herstel
 Ein Grimoire ist ein mächtiges, magisches Buch, dass Zaubersprüche enthält, die von anderen Zauberern gelernt werden können, aber auch wie bei einer Spruchrolle ausgesprochen werden können.
 
 Um ein Grimoire zu schreiben, sind die gleichen Voraussetzungen nötig, wie beim Schreiben einer <<ref_magic_items_createmagicalitem_scrolls, Spruchrolle>>.
-Jedesmal wenn der Zauberer einen Zauberspruch das Grimoire schreibt, gelten die gleichen Regeln, wie im Kapitel zum Schreiben der Spruchrolle beschrieben.
+Jedes Mal wenn der Zauberer einen Zauberspruch das Grimoire schreibt, gelten die gleichen Regeln, wie im Kapitel zum Schreiben der Spruchrolle beschrieben.
 Zusätzlich gilt, dass der Zauberer ein Grimoire nur in Arkaner Sprache verfassen kann.
 Er würfelt eine Spruchzauberei-Probe und muss dabei nötigen Erfolge erreichen, um den Zauberspruch auszusprechen plus die Anzahl der Zaubersprüche, die schon in das Buch eingebunden sind.
 Der Zauberer muss nicht das ganze Grimoire fertig geschrieben haben, sondern kann die folgenden Schritte auch in Etappen durchführen.
@@ -229,7 +238,6 @@ Sind die Zaubersprüche erfolgreich eingesetzt, dann muss der Charakter eine wei
 
 Das Ergebnis dieser Probe bestimmt dann die weitere Gestaltung des Gegenstands:
 
-[cols=",,",options="header"]
 |===
 |Erfolgsgrad |Effekt |Mindestwert des Gegenstandes in Silberstücken
 

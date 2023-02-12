@@ -706,7 +706,7 @@ Am Einfachsten ist der sogenannte *Magiespeicher*.
 Ein Gegenstand mit dieser Eigenschaft (auch zu identifizieren durch die Beschreibung des Gegenstandes in Form von „stellt dem Anwender x MP zur Verfügung“) besitzt eine festgelegte Obergrenze von MP, die er enthalten kann.
 Ein Magier kann diese MP genauso nutzen als wären es seine Eigenen.
 Dazu muss er diesen Gegenstand jedoch entweder in der Hand halten oder direkt am Körper tragen.
-Dazu zählt jeder Charakter mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] oder xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie] auf mindestens Stufe 1.
+Dazu zählt jeder Charakter mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] oder xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] auf mindestens Stufe 1.
 
 Diese Form von Gegenständen bietet üblicherweise einen reibungslosen Austausch von MP.
 Dies bedeutet, es hat für den Magier keine negativen Auswirkungen, wenn er die MP im Gegenstand verwendet.
@@ -715,7 +715,7 @@ Dies kann durchaus sinnvoll sein, wenn der Magier diese MP zu einem späteren Ze
 
 Magiespeicher enthalten immer einen magischen Kristall.
 Diese Kristalle müssen explizit als Magiespeicher behandelt werden.
-Dies funktioniert mit den Talenten xref:core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_talent[Magischen Gegenstand Herstellen] oder xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Technomantie].
+Dies funktioniert mit den Talenten xref:core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_talent[Magischen Gegenstand Herstellen] oder xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie].
 
 [[ref_core_magic_base_items_with_mp_magicalitems]]
 ===== Magische Gegenstände mit MP
@@ -1033,13 +1033,13 @@ Um dies zu simulieren, müssen Charaktere, immer wenn sie eine gerade Stufe in i
 [quote, Byhragast „Eisauge“]
 „Erstaunlicherweise hört man Technomanten meistens, bevor man sie sieht.“
 
-Die xref:core_rules_technomancy.adoc[Technomantie] besitzt nicht nur ihre eigene Zauberspruchliste, sondern auch ihr eigenes xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Talent].
+Die xref:core_rules_technomancy.adoc[Technomantie] besitzt nicht nur ihre eigene Zauberspruchliste, sondern auch ihr eigenes xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Talent].
 Diese Zaubersprüche sind exakt so aufgebaut, wie alle anderen Zaubersprüche auch, dennoch ist die Technomantie keine Zauberschule.
 Diese Zaubersprüche symbolisieren im Endeffekt die besonderen Fähigkeiten, die Technomanten ausmachen und mit denen sie ihre besondere Profession ausüben.
 
 So ist beispielsweise die Fähigkeit, einen Golem zu kontrollieren, ein Zauberspruch der Technomantie.
 
-Mit der Stufe im xref:core_rules_technomancy.adoc#ref_technomancy_talent_technomancy[Talent] Technomantie bestimmen Technomanten, welche Zaubersprüche er lernen lernt.
+Mit der Stufe im xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Talent] Technomantie bestimmen Technomanten, welche Zaubersprüche er lernen lernt.
 Technomanten müssen ihre Zaubersprüche *nicht* extra lernen und CP dafür ausgeben, sondern erhalten diese automatisch, sobald sie die entsprechende Stufe im Talent Technomantie erreichen.
 
 Das Talent wird außerdem für Spruchzauberei-Proben verwendet.

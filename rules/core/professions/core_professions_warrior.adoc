@@ -15,10 +15,11 @@
 === Adaptive Strategie
 Zu Beginn einer Kampfphase darf ein Krieger entscheiden, ob er einen defensiven oder offensiven Kampfstil annehmen möchte.
 Die Entscheidung muss mit xref:../core_rules_battlesystem.adoc#ref_core_battle_flow_do_actions[Beginn] der Aktion des Kriegers fallen.
-Die Entscheidung gilt für den Rest der Kampfphase. +
-Wählt der Krieger einen *defensiven* Kampfstil, erhält er einen Bonus von +1 auf die Würfe zum Erfolg für die Talente xref:../core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] und xref:../core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung].
-Gleichzeitig erhält er einen Malus von -1 auf die Würfe zum Erfolg auf die Talente xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] und xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen].
-+
+Die Entscheidung gilt für den Rest der Kampfphase.
+
+Wählt der Krieger einen *defensiven* Kampfstil, erhält er einen Bonus von +3 auf die Proben für die Talente xref:../core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] und xref:../core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung].
+Gleichzeitig erhält er einen Malus von -3 auf Proben für die Talente xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] und xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen].
+
 Wählt der Krieger hingegen einen *offensiven* Kampfstil, werden die Boni bzw. Mali des zuvor beschriebenen defensiven Kampfstils getauscht.
 
 [[ref_warrior_favoritefightingstyle]]
@@ -35,10 +36,11 @@ Die Fähigkeit ist nicht einsetzbar, wenn er keine passende Waffe führt.
 
 [[ref_warrior_heatofthebattle]]
 === In der Hitze des Gefechts
-Ein Krieger kann nach dem Würfeln einer beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] entscheiden entweder einen gewürfelten Patzer oder beliebige Misserfolge neu zu würfeln.
-Die entsprechenden Würfel werden mit den identischen Modifikatoren neu gewürfelt. +
+Ein Krieger kann nach dem Würfeln einer beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] entscheiden entweder einen gewürfelten Patzer oder Misserfolg neu zu würfeln.
+
 Der Krieger muss das neue Ergebnis akzeptieren, auch wenn es schlechter ist, als zuvor.
-Er muss diese Fähigkeit einsetzen, bevor eine etwaige xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe] gewürfelt wird. +
+Er muss diese Fähigkeit einsetzen, bevor eine etwaige xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe] gewürfelt wird.
+
 Pro Tag kann er diese Fähigkeit so oft einsetzen wie er Stufen in xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB] hat, jedoch maximal einmal pro xref:../core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase].
 
 [[ref_warrior_unbreakable]]

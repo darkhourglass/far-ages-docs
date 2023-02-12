@@ -12,20 +12,23 @@
 
 === Alberons Schleier
 Firbolgs stehen unter besonderem Schutz durch Alberon.
-Daher gewährt er Ihnen eine besondere Fähigkeit, die es ermöglicht, in Gefahrsituationen vor den Augen der Feinde zu verschwinden. +
-Einmal am Tag darf ein Firbold als Freie Aktion in seiner Kampfphase Alberons Schleier aktivieren.
-Dazu muss er 5 MP einsetzen. +
-Der Firbolg wird xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar] bis er einen Angriff durchführt, maximal jedoch seine EN-Stufe viele Kampfrunden.
+Daher gewährt er Ihnen eine besondere Fähigkeit, die es ermöglicht, in Gefahrsituationen vor den Augen der Feinde zu verschwinden.
+
+Einmal am Tag darf ein Firbold als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] in seiner Kampfphase Alberons Schleier aktivieren.
+Dazu muss er 5 MP einsetzen.
+
+Der Firbolg wird xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar] bis er einen Angriff durchführt, maximal jedoch seine EN-Stufe viele Kampfphasen.
 
 === Geheimnisse der Feen
 Firbolgs stehen in enger Verbindung mit den mystischen Untergebenen Alberons, den Feen.
-Zur Charaktererschaffung muss ein Firbolg einen Geländetyp wählen, z.B. Gebirge, Wald, Sumpf etc..
-In dem gewählten Geländetyp erleidet der Firbolg nie Einschränkungen auf seine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] durch schwieriges Gelände.
-Magische Effekte, die diese Attributseigenschaft beeinflussen, wirken jedoch normal.
+Zur Charaktererschaffung muss ein Firbolg einen Geländetyp wählen, beispielsweise Gebirge, Wald oder Sumpf.
+In dem gewählten Geländetyp erleidet der Firbolg nie Einschränkungen auf seine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] durch xref:../core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände].
+Magische Effekte, die seine BEW beeinflussen, wirken jedoch normal.
 
 === Stimme der Natur
 Firbolgs haben die natürliche Begabung mit Tieren und Pflanzen zu kommunizieren.
 Setzt ein Firbolg diese Fähigkeit ein, so verstehen Tiere und Pflanzen seine Worte.
-Sie können aus seinen Worten seine Intention und Wünsche ableiten. +
-Umgekehrt kann ein Firbolg jedoch nicht die Sprache von Tieren oder Pflanzen verstehen, sofern diese überhaupt vergleichbar kommunizieren. +
-Ein Firbolg erhält dadurch einen Bonus von +1 auf die Würfe zum Erfolg auf alle CH-basierten Proben, die Tiere oder Pflanzen betreffen.
+Sie können aus seinen Worten seine Intention und Wünsche ableiten.
+
+Umgekehrt kann ein Firbolg jedoch nicht die Sprache von Tieren oder Pflanzen verstehen, sofern diese überhaupt vergleichbar kommunizieren.
+Ein Firbolg erhält dadurch einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf die Würfe zum Erfolg auf alle CH-basierten Proben, die Tiere oder Pflanzen betreffen.

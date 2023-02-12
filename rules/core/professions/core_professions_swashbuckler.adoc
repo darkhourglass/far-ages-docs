@@ -14,7 +14,7 @@
 [[ref_swashbuckler_flexibleweaponhandling]]
 === Flexible Waffenverwendung
 Der Säbelrassler verlässt sich im Kampf gerne auf seine Schnelligkeit und Geschicklichkeit.
-Solange der Säbelrassler eine xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons[einhändige Nahkampfwaffe] trägt, die als verwandtes xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Attribut] xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] oder xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] vorgibt, kann er sich entscheiden, ob er für die Probe im Talent xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] seine Attributsstufe von ST oder GE verwendet.
+Solange der Säbelrassler eine xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons[einhändige Nahkampfwaffe] trägt, die als verwandtes xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Attribut] xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] oder xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] vorgibt, kann er sich entscheiden, ob er für die Probe im Talent xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] seinen Attributsbonus von ST oder GE verwendet.
 Dies muss er vor einer Probe in Nahkampfwaffen tun und seine Entscheidung gilt für alle weiteren Proben mit dieser Waffe in der aktuellen Kampfphase.
 Die Entscheidung beeinflusst nicht die xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe].
 Er kann diese Fähigkeit außerdem nicht einsetzen, wenn er einen Schild trägt.
@@ -22,18 +22,13 @@ Er kann diese Fähigkeit außerdem nicht einsetzen, wenn er einen Schild trägt.
 [[ref_swashbuckler_deadlygrace]]
 === Tödliche Eleganz
 Einmal pro Kampfphase, bevor eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] mit xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] gewürfelt wird, kann der Säbelrassler entscheiden, ob er diese Fähigkeit einsetzen möchte.
-Tut er dies, kann er seine Stufen in GE und CH zu seiner Talentstufe in Nahkampfwaffen für die Angriffsprobe addieren und entsprechend viele W10 würfeln. +
-Er kann diese Fähigkeit nur einsetzen, wenn er keinen Schild trägt.
-Die Fähigkeit ist in Kombination mit <<ref_swashbuckler_flexibleweaponhandling,Flexible Waffenverwendung>> einsetzbar, um eine Waffe, die normalerweise ST verwendet mit GE zu verwenden. +
-Er kann diese Fähigkeit so oft einsetzen, wie er Stufen in xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH] hat.
-Die Anwendungen stehen nach einer xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Rast] wieder zur Verfügung.
+Tut er dies, kann er seinen Attributsbonus in GE und CH zu seiner Talentstufe in Nahkampfwaffen für die Angriffsprobe addieren.
 
-.Tödliche Eleganz
-====
-Ein Säbelrassler hat eine GE-Stufe von 2, eine CH-Stufe von 2 und eine Talentstufe in Nahkampfwaffen von 3.
-Normalerweise hat er dadurch 5W10 für eine Angriffsprobe.
-Mit Einsatz von dieser Fähigkeit addiert er 2 Stufen durch sein CH hinzu und hat damit 7W10 bei der Angriffsprobe zur Verfügung.
-====
+Er kann diese Fähigkeit nur einsetzen, wenn er keinen Schild trägt.
+Die Fähigkeit ist in Kombination mit <<ref_swashbuckler_flexibleweaponhandling,Flexible Waffenverwendung>> einsetzbar, um eine Waffe, die normalerweise ST verwendet mit GE zu verwenden.
+
+Er kann diese Fähigkeit so oft einsetzen, wie er Stufen in xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH] hat.
+Die Anwendungen stehen nach einer xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[langen Rast] wieder zur Verfügung.
 
 [[ref_swashbuckler_taunt]]
 === Verspotten

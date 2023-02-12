@@ -12,11 +12,11 @@
 
 === Begabter Schwimmer
 Chelonias verbringen einen beachtlichen Teil ihres Lebens im Wasser.
-Sie erhalten einen Bonus von +1 auf die Würfe zum Erfolg für alle xref:../core_rules_talents_base.adoc#ref_talents_athletics[Athletik]-Proben, die Schwimmen erfordern.
+Sie erhalten einen Bonus von +3 auf alle xref:../core_rules_talents_base.adoc#ref_talents_athletics[Athletik-Proben], die Schwimmen erfordern.
 
 === Dunkelsicht
 Ein Charakter mit dieser Eigenschaft kann in der Nacht oder in der Dunkelheit noch genauso gut sehen wie mit Licht.
-In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] werden halbiert.
+In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] werden halbiert.
 
 === Harte Schale
 Der harte Panzer eines Chelonia bieten ihm auf den xref:../core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] Torso und Rücken xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürlichen Rüstungsschutz].
@@ -27,11 +27,14 @@ Ein Chelonia besitzt neben Lungen auch Kiemen.
 Diese ermöglichen ihm für so viele Stunden, wie er KO-Stufen besitzt, unter Wasser zu bleiben ohne Luft zu müssen.
 
 === Schwer
-Der schwere Panzer und der kräftige Körperbau eines Chelonias bewehrt ihm zwar einen erstaunlichen Schutz, aber macht ihn auch schwerfällig und teilweise unbeweglich. +
+Der schwere Panzer und der kräftige Körperbau eines Chelonias bewehrt ihm zwar einen erstaunlichen Schutz, aber macht ihn auch schwerfällig und teilweise unbeweglich.
+
 Daher erhalten Chelonia einen Malus von -1 auf ihren xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Wert] und einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswürfe].
 
 === Weicher Kern
 Chelonias können ihre Arme, Beine und Kopf in ihren Panzer einziehen.
-Dazu können sie einmal pro Kampfrunde ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen, um Arme, Beine und Kopf in den Panzer einzuziehen oder ausziehen. +
-Sind seine Extremitäten eingezogen, gilt er als xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind] und xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig]. +
+Dazu können sie einmal pro Kampfphase ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen, um Arme, Beine und Kopf in den Panzer einzuziehen oder ausziehen.
+
+Sind seine Extremitäten eingezogen, gilt er als xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind] und xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
+
 Für die Dauer dieser Zeit gelten jedoch seine Trefferzonen Arme, Beine und Kopf als hinter xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[totaler Deckung] und profitieren von dem natürlichen Rüstungsschutz seines Panzers in Höhe von 8 Punkten.

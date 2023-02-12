@@ -1,67 +1,67 @@
 = Machtstufen für magische Gegenstände
 
 |===
-|Machtstufe |Bezeichnung |Erfolge für Herstellung |Dauer der Herstellung |Identifikation (Proben, Erfolge) |Wert |Zerstörung |Beseelung möglich
+|Machtstufe |Bezeichnung |Mindestwurf für Herstellung |Dauer der Herstellung |Identifikation (Proben, Mindestwurf) |Wert |Zerstörung |Beseelung möglich
 
 |1
 |Simpel
-|2
+|15
 |1 Stunde
-|1, 2
+|1, 15
 |50
 |1
 |Nein
 
 |2
 |Gewöhnlich
-|3
+|18
 |4 Stunden
-|1, 3
+|1, 15
 |500
 |2
 |Nein
 
 |3
 |Selten
-|4
+|22
 |2 Tage
-|1, 4
+|1, 18
 |8000
 |4
 |Nein
 
 |4
 |Außergewöhnlich
-|6
+|25
 |4 Tage
-|2, 4
+|2, 18
 |20000
 |6
 |Ja
 
 |5
 |Heldenhaft
-|8
+|28
 |7 Tage
-|3, 4
+|3, 22
 |50000
 |8
 |Ja
 
 |6
 |Legendär
-|10
+|32
 |14 Tage
-|3, 5
+|3, 22
 |100000
 |12
 |Ja
 
 |7
 |Mystisch
-|12
+|35
 |28 Tage
-|4, 6
+|4, 25
 |500000
 |12
 |Ja
