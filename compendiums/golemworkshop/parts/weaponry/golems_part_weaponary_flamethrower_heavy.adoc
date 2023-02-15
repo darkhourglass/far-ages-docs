@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung  +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* link:../../../spells/spell_fire_odem.adoc[Feuerodem] +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 4 -10 +
 *Montage:* Arme, Schwer +
 *Attribute:* +1 ST +
@@ -15,54 +15,54 @@ Dieser folgt den üblichen Regeln für schwere Bewaffnungen und wird wie der Fla
 Abhängig von seiner xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] gelten jedoch folgende Werte:
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Reichweite |Schaden
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Reichweite |Schaden
 
 |4
 |12.000
 |10 Tage
-|3
+|15
 |Kegel 3,00 Meter
 |3W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |5
 |16.000
 |10 Tage
-|4
+|16
 |Kegel 4,50 Meter
 |4W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |6
 |20.000
 |14 Tage
-|5
+|17
 |Kegel 6,00 Meter
 |5W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |7
 |30.000
 |28 Tage
-|6
+|18
 |Kegel 9,00 Meter
 |5W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |8
 |48.000
 |26 Tage
-|8
+|20
 |Kegel 9,00 Meter
 |6W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |9
 |72.000
 |50 Tage
-|10
+|22
 |Kegel 12,00 Meter
 |6W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |10
 |100.000
 |64 Tage
-|12
+|24
 |Kegel 12,00 Meter
 |8W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 |===

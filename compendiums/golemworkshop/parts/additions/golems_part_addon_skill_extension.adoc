@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *Montage:* - +
 *MP-Kosten:* - +
 *Beschreibung:* Mit diesem Zusatz wird einem Golem das Wissen einprogrammiert, um eine beliebige xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_spendcp_skills[Fähigkeit] zu erlernen.
@@ -19,30 +19,30 @@ Abhängig von den xref:../../../../rules/core/core_rules_charactercreation.adoc#
 Sollte eine Fähigkeit zwischen zwei Werten der Tabelle liegen, wird immer die nächst höhere Zeile angewendet.
 
 |===
-|CP-Kosten |Materialkosten |Konstruktionszeit |Erfolge
+|CP-Kosten |Materialkosten |Konstruktionszeit |Mindestwurf
 
 |100
 |15.000
 |4 Tage
-|4
+|16
 
 |200
 |20.000
 |5 Tage
-|5
+|18
 
 |300
 |30.000
 |7 Tage
-|6
+|20
 
 |400
 |45.000
 |10 Tage
-|8
+|22
 
 |500
 |64.000
 |15 Tage
-|12
+|24
 |===

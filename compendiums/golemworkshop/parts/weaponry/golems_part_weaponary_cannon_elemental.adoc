@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* siehe Beschreibung +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 3 - 7 +
 *Montage:* - +
 *Attribute:* +1 EN +
@@ -50,12 +50,12 @@ Elementare Kanonen sind Vergleich zu link:golems_part_weaponary_cannon.adoc[Kano
 Folgende Tabelle zeigt die von der GK abhängigen Werte:
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus |Grundreichweite |Kosten
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus |Grundreichweite |Kosten
 
 |3
 |12.000
 |8 Tage
-|5
+|17
 |2W6
 |30,00  Meter
 |3 MP
@@ -63,7 +63,7 @@ Folgende Tabelle zeigt die von der GK abhängigen Werte:
 |4
 |15.000
 |12 Tage
-|6
+|18
 |2W6
 |45,00 Meter
 |5 MP
@@ -71,7 +71,7 @@ Folgende Tabelle zeigt die von der GK abhängigen Werte:
 |5
 |22.000
 |18 Tage
-|7
+|19
 |2W10
 |60,00 Meter
 |5 MP
@@ -79,7 +79,7 @@ Folgende Tabelle zeigt die von der GK abhängigen Werte:
 |6
 |30.000
 |24 Tage
-|8
+|20
 |4W6
 |75,00 Meter
 |7 MP
@@ -87,7 +87,7 @@ Folgende Tabelle zeigt die von der GK abhängigen Werte:
 |7
 |40.000
 |32 Tage
-|9
+|21
 |4W10
 |100,00 Meter
 |10 MP

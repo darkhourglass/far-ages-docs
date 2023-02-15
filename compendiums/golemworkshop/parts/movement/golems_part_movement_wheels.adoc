@@ -3,14 +3,14 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 1 - 10 +
 *Bewegungsmodifikator:* siehe Beschreibung +
-*Bewegungsmodus:* Standard (siehe <<ref_golems_part_movement_wheels_rules, Regeln>>) +
+*Bewegungsmodus:* Standard (siehe <<ref_golems_part_movement_wheels_rules,Regeln>>) +
 *Beschreibung:* Eine sehr populäre Fortbewegungsmethode ist die Bewegung über motorisierte Räder.
 Im Vergleich zu link:golems_part_movement_legs_2.adoc[Beinen] ist die Methode einfacher und günstiger umzusetzen.
 Außerdem können Golems damit weite Strecken schneller zurücklegen.
-Jedoch sind Golems mit dieser Bewegungsoption in anderen Fällen eingeschränkt, wie in den untengenannten <<ref_golems_part_movement_wheels_rules, Regeln>> nachzulesen ist.
+Jedoch sind Golems mit dieser Bewegungsoption in anderen Fällen eingeschränkt, wie in den untengenannten <<ref_golems_part_movement_wheels_rules,Regeln>> nachzulesen ist.
 
 Die Anzahl der verbauten Räder ist minimal 3 und üblicherweise 4.
 Eine höhere Anzahl kann nach Ermessen des SLs auch abgebildet werden.
@@ -18,66 +18,66 @@ Eine höhere Anzahl kann nach Ermessen des SLs auch abgebildet werden.
 Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 zur Verfügung und von dieser abhängig ergeben sich die folgenden Werte:
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Bewegungsmodifikator
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Bewegungsmodifikator
 
 |1
 |15.000
 |4 Tage
-|4
+|16
 |+1,50 Meter
 
 |2
 |17.500
 |5 Tage
-|4
+|16
 |+1,50 Meter
 
 |3
 |20.000
 |8 Tage
-|5
+|17
 |+3,00 Meter
 
 |4
 |25.000
 |10 Tage
-|6
+|18
 |+6,00 Meter
 
 |5
 |30.000
 |13 Tage
-|6
+|18
 |+6,00 Meter
 
 |6
 |36.000
 |16 Tage
-|7
+|19
 |+6,00 Meter
 
 |7
 |42.000
 |21 Tage
-|7
+|19
 |+9,00 Meter
 
 |8
 |50.000
 |28 Tage
-|8
+|20
 |+9,00 Meter
 
 |9
 |65.000
 |32 Tage
-|10
+|22
 |+12,00 Meter
 
 |10
 |90.000
 |40 Tage
-|12
+|24
 |+12,00 Meter
 |===
 
@@ -87,5 +87,5 @@ Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_characte
 In folgenden Punkten unterscheidet sich Fortbewegung durch Räder von den Standardregeln:
 
 * Bewegung durch xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] kostet mehr als die übliche halbierte xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
-Ein Golem mit Rädern kann nur ein Viertel (abgerundet, Minimum 1,50 Meter) seiner BEW in schwierigen Gelände verwenden. +
+Ein Golem mit Rädern kann nur ein Viertel (abgerundet, Minimum 1,50 Meter) seiner BEW in schwierigen Gelände verwenden.
 * Setzt ein Golem mit Rädern das Manöver xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver_run[Rennen] oder xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions_sprint[Sprinten] ein, muss er eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] aufwenden, um während dieser Bewegung die zum Start der Bewegung eingeschlagene Richtung zu ändern.

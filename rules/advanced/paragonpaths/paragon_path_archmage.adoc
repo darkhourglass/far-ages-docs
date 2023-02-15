@@ -10,11 +10,11 @@ Wissen ist Macht.
 
 Um Erzmagier Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen erfüllen:
 
-* Spruchzauberei 8
-* Wissen[Arkanes] 8
+* Spruchzauberei 6
+* Wissen[Arkanes] 6
 * Aether Wahrnehmung 4
 * Mindestens zwei unterschiedliche Zauberschulen auf Stufe 5
-* Kennt mindestens eine Zauberspruch mit POT 9 oder mehr
+* Kennt mindestens einen Zauberspruch mit POT 9 oder mehr
 
 == Stufen lernen
 
@@ -22,7 +22,7 @@ Erzmagier können ohne weitere Einschränkungen Stufen lernen.
 
 == Stufe 1
 
-Auf Stufe 1 lernt ein Erzmagier immer die Fähigkeit Aetherfeuer.
+Auf Stufe 1 lernt ein Erzmagier immer die Fähigkeit <<ref_archmage_aetherfire,Aetherfeuer>>.
 
 == Maximale Stufe
 
@@ -32,26 +32,29 @@ Der Schicksalspfad des Erzmagiers gibt keine maximale Stufe vor.
 
 Folgende Fähigkeiten können Erzmagier pro Stufe lernen, vorausgesetzt, sie erfüllen die weiteren Voraussetzungen.
 
+[[ref_archmage_aetherfire]]
 === Aetherfeuer
 *Voraussetzungen:* Erzmagier 1 +
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* EN +
-*Kampf:* A +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Aktion] +
 *Beschreibung:*
 
+[[ref_archmage_aethertransfusion]]
 === Aethertransfusion
 *Voraussetzungen:* Erzmagier 3 +
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* - +
-*Kampf:* M +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] +
 *Beschreibung:* Der Erzmagier hat Verständnis für die Ströme der Magie im Aether perfektioniert.
-Einmal pro Tag kann der Erzmagier die Aethertransfusion als Kampfmanöver einsetzen.
-Er regeneriert sofort 3W10 MP.
+Einmal pro Tag kann der Erzmagier die Aethertransfusion als xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen.
+Er xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] sofort 3W10 xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
 Die Fähigkeit kann mehrmals gelernt werden.
 Jedes Mal erhält der Erzmagier eine zusätzliche, tägliche Anwendung und die regenerierten MP steigen um 1W10.
 
+[[ref_archmage_arkanemight]]
 === Arkane Macht
 *Voraussetzungen:* Erzmagier 1 +
 *Mindestwurf:* - +
@@ -59,9 +62,10 @@ Jedes Mal erhält der Erzmagier eine zusätzliche, tägliche Anwendung und die r
 *Verwandtes Attribut:* - +
 *Kampf:* - +
 *Beschreibung:* Das Verständnis des Erzmagiers für die Komplexität von Zaubersprüchen wird geschärft.
-Der Erzmagier erhält einen permanenten Bonus auf seine Attributseigenschaften MaxPOT von +1 und MP von +20.
+Der Erzmagier erhält einen permanenten Bonus auf seine Attributseigenschaften xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxPOT] von +1 und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP] von +20.
 Er kann diese Fähigkeit mehrfach lernen, die Effekte sind kumulativ.
 
+[[ref_archmage_arkanewill]]
 === Arkaner Wille
 *Voraussetzungen:* Erzmagier 5 +
 *Mindestwurf:* - +
@@ -70,41 +74,45 @@ Er kann diese Fähigkeit mehrfach lernen, die Effekte sind kumulativ.
 *Kampf:* - +
 *Beschreibung:* Mit Erlernen dieser Fähigkeit addiert der Erzmagier seine Stufen im Talent Erzmagier zu allen Magieabwehr-Proben.
 
+[[ref_archmage_conjureduplicate]]
 === Duplikat beschwören
 *Voraussetzungen:* Erzmagier 3 +
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* - +
-*Kampf:* M +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] +
 *Beschreibung:* Der Erzmagier hat gelernt, die Essenz seinerselbst als aetherische Energie zu manifestieren, um seine Feinde zu verwirren.
 Mit dem Einsatz eines Kampfmanövers und 10 MP kann der Erzmagier eine visuell perfekte Kopie seines Erscheinungsbildes in einem Umkreis von 15 Meter erschaffen.
 Der Erzmagier muss den Ort der Manifestation einsehen können.
 Dieses Duplikat verursacht allerdings keine Geräusche und ist auch nicht körperlich berührbar, jedoch handelt es sich nicht um eine Illusion, die angezweifelt werden kann.
-Das Duplikat existiert tatsächlich. +
+Das Duplikat existiert tatsächlich.
+
 Der eigentliche Nutzen des Duplikates ist Tatsache, dass das Duplikat alle Talente, Fähigkeiten und Zaubersprüche des Erzmagiers beherrscht.
 Zu Beginn der Beschwörung muss der Erzmagier bestimmen, was das Duplikat tun soll, z.B. einen Zauberspruch aussprechen, sobald eine bestimmte Kreatur in Sichtweite kommt.
 Das Duplikat agiert dabei nach den gegebenen Möglichkeiten des Erzmagiers.
 D.h. im oberen Beispiel erkennt das Duplikat die gesuchte Kreatur ausschließlich auf Basis des Wissens, dass der Erzmagier zum Zeitpunkt der Beschwörung besitzt.
 Während seiner Existenz kann der Erzmagier den Auftrag an sein Duplikat nicht mehr ändern. +
-Das Duplikat existiert solange, bis der Auftrag ausgeführt wurde, jedoch maximal soviele Kampfrunden, wie der Erzmagier EN-Stufen*5 besitzt. +
+Das Duplikat existiert so lange bis der Auftrag ausgeführt wurde, jedoch maximal soviele Kampfrunden, wie der Erzmagier EN-Stufen*5 besitzt.
+
 Das Duplikat besitzt keine TP, MP oder SP.
 D.h. das Duplikat kann keine Zaubersprüche verkürzen oder zusätzliche Effekte einsetzen.
 
-
+[[ref_archmage_powerfullcounterspell]]
 === Mächtiger Gegenzauber
 *Voraussetzungen:* Erzmagier 5 +
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* EN +
-*Kampf:* R +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] +
 *Beschreibung:*
 
+[[ref_archmage_spellmastery]]
 === Zauberverständnis [Zauberspruch]
 *Voraussetzungen:* Erzmagier 1, Zauberspruch wurde gelernt +
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* - +
-*Beschreibung:* Durch das intensive Studieren eines Zauberspruches ist der Erzmagier so vertraut mit diesem, dass sein Ausprechen zu einer Leichtigkeit wird.
+*Beschreibung:* Durch das intensive Studieren eines Zauberspruches ist der Erzmagier so vertraut mit diesem, dass sein Aussprechen zu einer Leichtigkeit wird.
 Für den gewählten Zauberspruch reduziert sich die Vorbereitung auf 1 Kampfrunde.
 Die Fähigkeit kann mehrfach gelernt werden, jedoch immer für einen anderen Zauberspruch.

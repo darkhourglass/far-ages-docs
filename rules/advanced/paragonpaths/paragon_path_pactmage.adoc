@@ -11,8 +11,9 @@ Einige wenige Tollkühne suchen sich stattdessen andere Möglichkeiten.
 Ein Paktmagier sucht in der Erlangung von Macht, Wissen und mehr Einsicht in die Geheimnisse des Multiversums die Patronage einer Entität außerhalb der sterblichen Einschränkungen.
 
 Im Austausch von für seine Dienste erhofft sich ein Magier, der einen Pakt eingeht, von seinem Patron arkane Macht.
-Der Teil dieses Pakts, der vom Patron ausgeht, kann bestenfalls als fragwürdig beschrieben werden. +
-Die Motivaten eines Wesen, welches weit außerhalb menschlicher Vorstellungskraft existiert, einem Sterblichen bei seiner eigenen Ambition zu helfen, ist selten direkt begreiflich. +
+Der Teil dieses Pakts, der vom Patron ausgeht, kann bestenfalls als fragwürdig beschrieben werden.
+
+Die Motivation eines Wesens, welches weit außerhalb menschlicher Vorstellungskraft existiert, einem Sterblichen bei seiner eigenen Ambition zu helfen, ist selten direkt begreiflich.
 Jeder Paktmagier muss sich bewusst sein, dass er am kürzeren Ende seines Geschäfts steht.
 Den meisten ist dies erschreckenderweise bewusst.
 
@@ -27,13 +28,14 @@ Um Paktmagier Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen erf
 == Stufen lernen
 
 Paktmagier können ohne weitere Einschränkungen Stufen lernen mit der Ausnahme der Paktgeheimnisse.
-Ein Paktgeheimnis ist eine vom Patron abhängige Fähigkeit oder Talent, welches der Paktmagier ausschließlich von diesem Patron lernen kann. +
-Jedes Mal wenn der Paktmagier ein Paktgeheimnis lernen möchte, muss er in Kontakt mit seinem Patron treten und um das Geheimnis bitten. +
+Ein Paktgeheimnis ist eine vom Patron abhängige Fähigkeit oder Talent, welches der Paktmagier ausschließlich von diesem Patron lernen kann.
+
+Wenn der Paktmagier ein Paktgeheimnis lernen möchte, muss er in Kontakt mit seinem Patron treten und um das Geheimnis bitten.
 Es liegt im Ermessen des Patrons (und in diesem Fall des SLs), ob dieser das Geheimnis verrät. Im Normalfall sollte der Patron vom Magier eine Gegenleistung erwarten, z.B. eine Aufgabe erledigen oder ein Opfer bringen.
 
 == Stufe 1
 
-Auf Stufe 1 lernt der Paktmagier immer Unheimliches Feuer und Ritual des Kontakts.
+Auf Stufe 1 lernt der Paktmagier immer <<ref_pactmage_eldritchfire,Unheimliches Feuer>> und <<ref_pactmage_ritualofcontact,Ritual des Kontakts>>.
 
 == Maximale Stufe
 
@@ -41,19 +43,23 @@ Der Schicksalspfad des Paktmagier gibt keine maximale Stufe vor.
 
 == Fähigkeiten
 
+[[ref_pactmage_eldritchfire]]
 === Unheimliches Feuer
 *Voraussetzungen:* Paktmagier 1 +
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* EN +
-*Kampf:* A +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Aktion] +
 *Beschreibung:* Paktmagier lernen von ihren Patronen die Kanalisierung okkulter Energien, um ihre Feinde zu bezwingen.
 Unheimliches Feuer ist ein magischer Angriff, der es dem Paktmagier ohne komplexe Spruchzauberei erlaubt, seine Feinde aus sicherer Distanz zu verbrennen.
-Es manifestiert sich als eine Welle schattenhafter, feuerartiger Substanz, die aus den Händen des Paktmagiers in einem wie ein Blitz knisternden Bogen auf das Ziel überspringt. +
-Die Probe erfolgt jedoch als normale Spruchzauberei-Probe, für die eine Magie-Abwehr-Probe erlaubt ist.
-Der Paktmagier kann als Aktion in seiner Kampfrunde ein Ziel in Reichweite von 15 Metern angreifen.
-Pro Erfolg verursacht der Angriff 1W6 Schaden. +
+Es manifestiert sich als eine Welle schattenhafter, feuerartiger Substanz, die aus den Händen des Paktmagiers in einem wie ein Blitz knisternden Bogen auf das Ziel überspringt.
 
+Der Paktmagier kann in seiner Kampfphase ein Ziel in Reichweite von 15,00 Metern und direkter Sichtlinie mit dieser Fähigkeit angreifen.
+Die Probe erfolgt jedoch als normale xref:../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe], für die ein xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Magie-Rettungswurf] erlaubt ist.
+Das Ziel erhält bei erfolgreicher Angriffsprobe einen xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6 xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[aetherischen Schaden].
+Für jeden weiteren Erfolgsgrad erhöht sich dieser Schaden um 2W6.
+
+[[ref_pactmage_ritualofcontact]]
 === Ritual des Kontakts
 *Voraussetzungen:* Paktmagier 1 +
 *Mindestwurf:* SMW +
@@ -80,9 +86,10 @@ Bei anderen Paktgeheimnissen müssen die Voraussetzungen, z.B. erforderliche Stu
 *Kampf:* - +
 *Beschreibung:* Der Paktmagier lernt eines der Talente aus der Liste seines Patrons auf Stufe 1.
 Ab sofort kann er dieses Talent wie ein Berufstalent (SGM 1) steigern.
-Der Paktmagier kann diese Fähigkeit auch für ein Talente lernen, für das er bereits Stufen besitzt.
-In diesem Fall erhält er jedoch keine Stufe dazu, sondern der SGM des Talent senkt sich auf 1. +
-Das Erlernen von Paktwissen zählt nicht als Paktgeheimnis, es ist daher keine Aufgabe oder Opfer nötig. +
+Der Paktmagier kann diese Fähigkeit auch für ein Talent lernen, für das er bereits Stufen besitzt.
+In diesem Fall erhält er jedoch keine Stufe dazu, sondern der SGM des Talents senkt sich auf 1.
+
+Das Erlernen von Paktwissen zählt nicht als Paktgeheimnis, es ist daher keine Aufgabe oder Opfer nötig.
 Er kann diese Fähigkeit mehrfach lernen, jedes Mal für ein anderes Talent aus der Liste seines Patrons.
 
 == Patrone
@@ -91,19 +98,19 @@ Folgende Einträge beschreiben ein paar mögliche Patrone für Paktmagier.
 Diese Wesen sind allesamt äußert mächtige, übernatürliche Entitäten, die in den dunklen Ecken des Multiversums jenseits sterblicher Vorstellung existieren.
 Die Gründe, warum sie Sterbliche unter Ihren "Schutz" nehmen und sie ihrer Macht teilhaben lassen, ist bestenfalls zweifelhaft. +
 Die Einträge beschreiben Paktwissen und Paktgeheimnisse, sowie mögliche Forderungen, die der Patron im Austausch für sein Wissen bzw. Geheimnisse fordern könnte.
-Im letzeren Fall darf der SL jederzeit natürlich eigene Ideen einbringen.
+Im letzen Fall darf der SL jederzeit natürlich eigene Ideen einbringen.
 Entscheidend ist jedoch, dass der Eindruck entsteht, dass der Spielercharakter einen spürbaren  Einsatz erbringen muss.
 
 Folgende Patrone stehen zur Verfügung.
 Ihre Geschichte findet sich in den jeweiligen Dokumenten:
 
-* xref:../../../lore/supernaturals/lore_supernaturals_uxothual_eternal_prisoner.adoc[Uxothual, der Ewige Gefangene]
-* xref:../../../lore/supernaturals/lore_supernaturals_dhzyal_blazing_shadow.adoc[D'hzyal, der Lodernde Schatten]
+* xref:../../../lore/supernaturals/lore_supernaturals_uxothual_eternal_prisoner.adoc[Uxothual, der ewige Gefangene]
+* xref:../../../lore/supernaturals/lore_supernaturals_dhzyal_blazing_shadow.adoc[D'hzyal, der lodernde Schatten]
 * xref:../../../lore/supernaturals/lore_supernaturals_wild_hunt.adoc[Die Wilde Jagd]
 * xref:../../../lore/supernaturals/lore_supernaturals_rogwn_devouring_swarm.adoc[Rogwan, der Verschlinger-Schwarm]
 * xref:../../../lore/supernaturals/lore_supernaturals_athoth_keeper_of_secrets.adoc[Atoth, der Hüter der Geheimnisse]
 * xref:../../../lore/supernaturals/lore_supernaturals_hylia_feyqueen_of_sommer.adoc[Hylia, Feenkönigin des Sommers]
-* xref:../../../lore/supernaturals/lore_supernaturals_szarfael_the_undying_king.adoc[Szar'fael, der Unsterbliche König]
+* xref:../../../lore/supernaturals/lore_supernaturals_szarfael_the_undying_king.adoc[Szar'fael, der unsterbliche König]
 * xref:../../../lore/supernaturals/lore_supernaturals_witchgods.adoc#ref_lore_witchgods_baphomet[Baphomet]
 
 [[ref_pactmage_patron_uxothual]]
@@ -112,7 +119,7 @@ Ihre Geschichte findet sich in den jeweiligen Dokumenten:
 Vor vielen tausenden Jahren in ein außerdimensionales Gefängnis eingesperrt, sinnt Uxothual ausschließlich nach seiner Freiheit.
 Zuvor war Uxothual bereits skrupellos und blutrünstig, so hat seine Zeit in seiner ewig-nachtschwarzen Taschendimension diese Charakterzüge nur verstärkt.
 Uxothual kümmert sich selten darum, wer und aus welchen Gründen dieser seine Schutzherrschaft sucht.
-Der Gefangene sieht jeden als Gelegenheit, um seinem Plan, dem Entkommen, einen Schritt näher zu kommen.
+Der Gefangene sieht jeden als Gelegenheit, um seinem Plan, dem Entkommen, einen Schritt näherzukommen.
 
 ==== Paktwissen von Uxothual
 
@@ -139,7 +146,7 @@ Als Patron fordert Uxothual von seinen Dienern beispielsweise:
 D'hzyal sagt von sich, er sei einer der ersten Dämonenprinzen überhaupt, also ein Sterblicher, der zu einem Dämon wurde durch die Gunst der Kosmischen Prinzipien.
 Seit jeher herrscht er über Fhayr'Gamort, einer der ältestens Höllendimension des Chaos.
 Seine Motivationen, Ziele und Pläne sind fast kaum nachvollziehbar, sie erscheinen zu zufällig und destruktiv.
-Üblicherweise bevorzugt D'hzyal Anhänger der Chaos als Paktierer, aber er ist im Endeffekt nicht wählerisch.
+Üblicherweise bevorzugt D'hzyal Anhänger des Chaos als Paktierer, aber er ist im Endeffekt nicht wählerisch.
 Jeder rücksichtlose Psychopath ist willkommen.
 
 ==== Paktwissen von D'hzyal

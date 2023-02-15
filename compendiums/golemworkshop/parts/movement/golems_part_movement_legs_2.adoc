@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 1 - 10 +
 *Bewegungsmodifikator:* siehe Beschreibung +
 *Bewegungsmodus:* Standard +
@@ -16,65 +16,65 @@ Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_characte
 
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Bewegungsmodifikator
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Bewegungsmodifikator
 
 |1
 |20.000
 |4 Tage
-|5
+|17
 |-
 
 |2
 |25.000
 |6 Tage
-|5
+|17
 |-
 
 |3
 |30.000
 |9 Tage
-|6
+|18
 |+1,50 Meter
 
 |4
 |35.000
 |12 Tage
-|7
+|19
 |+3,00 Meter
 
 |5
 |40.000
 |14 Tage
-|7
+|19
 |+3,00 Meter
 
 |6
 |60.000
 |18 Tage
-|8
+|20
 |+3,00 Meter
 
 |7
 |90.000
 |25 Tage
-|8
+|20
 |+4,50 Meter
 
 |8
 |130.000
 |32 Tage
-|9
+|21
 |+4,50 Meter
 
 |9
 |175.000
 |40 Tage
-|11
+|23
 |+6,00 Meter
 
 |10
 |200.000
 |50 Tage
-|13
+|25
 |+6,00 Meter
 |===

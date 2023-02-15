@@ -3,7 +3,7 @@
 *Materialkosten:*  siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:*  - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 1 - 10 +
 *Rüstungsschutz:* siehe Beschreibung +
 *Montage:* Schwer +
@@ -16,75 +16,75 @@ Der Malus auf ihre xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_c
 Die Übersicht dazu, sowie anderer Eigenschaften, gibt die nachfolgende Tabelle.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz |Malus auf BEW
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Rüstungsschutz |Malus auf BEW
 
 |1
 |12.000
 |4 Tage
-|5
+|17
 |3
 |-1,50 Meter
 
 |2
 |14.000
 |8 Tage
-|3
+|18
 |3
 |-1,50 Meter
 
 |3
 |19.000
 |7 Tage
-|6
+|18
 |4
 |-1,50 Meter
 
 |4
 |21.500
 |12 Tage
-|7
+|19
 |5
 |-3,00 Meter
 
 |5
 |24.000
 |13 Tage
-|7
+|19
 |5
 |-3,00 Meter
 
 |6
 |36.000
 |16 Tage
-|8
+|20
 |6
 |-3,00 Meter
 
 |7
 |52.000
 |20 Tage
-|8
+|20
 |7
 |-4,50 Meter
 
 |8
 |80.000
 |26 Tage
-|9
+|21
 |9
 |-4,50 Meter
 
 |9
 |95.000
 |32 Tage
-|11
+|23
 |11
 |-4,50 Meter
 
 |10
 |120.000
 |40 Tage
-|13
+|25
 |13
 |-6,00 Meter
 |===

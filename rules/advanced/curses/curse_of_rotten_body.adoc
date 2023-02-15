@@ -9,13 +9,14 @@ Weiterhin alterst Du, benötigst Nahrung und Schlaf.
 
 [[ref_curse_of_rotting_body_harmless]]
 == Harmlos
-Äußerlich ist Deine Körper nicht verändert, jedoch geht von Dir ein subtiler, süßlicher Geruch von Tod und Versegung aus.
+Äußerlich ist Deine Körper nicht verändert, jedoch geht von Dir ein subtiler, süßlicher Geruch von Tod und Verwesung aus.
 Dies hat keine direkten negativen Auswirkungen, jedoch können Kreaturen, die mit Dir interagieren, verstört reagieren.
 
 [[ref_curse_of_rotting_body_weak]]
 == Schwach
 Dein Körper zeigt erste, kleine Anzeichen des Verrottens, die Du üblicherweise noch gut verstecken kannst, zum Beispiel durch Kleidung oder Schminke.
-Du erhältst einen Malus von -1 auf die Würfe zum Erfolg für alle xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH-basieren] xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributs-] und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentproben] gegenüber Kreaturen, die diese Anzeichen wahrnehmen.
+Du erhältst einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 für alle xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH-basieren] xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributs-] und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentproben] gegenüber Kreaturen, die diese Anzeichen wahrnehmen.
+Wenn Du es schaffst, die Anzeichen zu verbergen, erleidest Du den Malus nicht.
 
 Die Anzeichen des schwachen Fluches sind auf eine Körperregion beschränkt, zum Beispiel sind Deine Finger verfärbt oder die Haut um Deine Augen ist unnatürlich trocken und rissig.
 
@@ -24,10 +25,10 @@ Die Anzeichen des schwachen Fluches sind auf eine Körperregion beschränkt, zum
 Dein Körper zeigt deutliche, nur sehr schwer zu versteckende Zeichen der Verwesung.
 Deine Haut ist deutlich verfärbt, ganze Regionen Deines Körpers weisen faules Fleisch auf und Deine Augen sind trüb.
 
-Du erhältst den gleichen Malus wie aus der <<ref_curse_of_rotting_body_weak,schwachen>> Variante dieses Fluches, jedoch beträgt er -2.
+Du erhältst den gleichen Malus wie aus der <<ref_curse_of_rotting_body_weak,schwachen>> Variante dieses Fluches, jedoch beträgt er -6.
 
 [[ref_curse_of_rotting_body_deathcurse]]
 == Todesfluch
 Du bist nicht mehr von einer Leiche zu unterscheiden.
-Der Malus beträgt nun -4 auf die Würfe zum Erfolg.
+Der Malus beträgt nun -10 auf die Würfe zum Erfolg.
 Hüte Dich vor den Hexenjägern.

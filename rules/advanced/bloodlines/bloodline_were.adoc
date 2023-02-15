@@ -21,8 +21,8 @@ Um ein Werwesen zu werden, muss ein Charakter folgende Eigenschaften erfüllen:
 == Charaktererschaffung
 
 Zur xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation[Charaktererschafftung] darf ein Spieler mit Zustimmung des SL diese Blutlinie wählen.
-Dazu muss er nach der xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_race[Wahl seines Volkes] die <<ref_bloodline_were_skills_cp, CP-Kosten>> dieser Blutlinie bezahlen.
-Dadurch erhält er alle <<ref_bloodline_were_skills, Eigenschaften>> dieser Blutlinie, zusätzlich zu denen seines Volkes.
+Dazu muss er nach der xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_race[Wahl seines Volkes] die <<ref_bloodline_were_skills_cp,CP-Kosten>> dieser Blutlinie bezahlen.
+Dadurch erhält er alle <<ref_bloodline_were_skills,Eigenschaften>> dieser Blutlinie, zusätzlich zu denen seines Volkes.
 Alle Attributsboni und Eigenschaften seines Volks bleiben erhalten.
 Die Wahl seines Volkes wird im folgenden als *reguläre Form* bezeichnet.
 
@@ -39,20 +39,20 @@ In den folgenden Unterkapiteln werden die Eigenschaften von Werwesen beschrieben
 Für manche Eigenschaften wird die folgende link:../../tables/table_bloodline_were_overview.adoc[Tabelle] referenziert.
 
 [[ref_bloodline_were_skills_attributs]]
-=== Attributsbonus
-Der Charakter erhält die angegeben xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactorcreation_initialattributes[Attributsboni] für seine reguläre Form.
+=== Attribute
+Der Charakter erhält den angegebenen Bonus auf die xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactorcreation_initialattributes[Attribute] für seine reguläre Form.
 
 [[ref_bloodline_were_skills_manovers]]
 === Besondere Bewegungsmanöver
-Der Charakter erhält die aufgeführten Bewegungsmanöver in seiner regulären Form, <<ref_bloodline_were_skills_beastform, Tierform>> und <<ref_bloodline_were_skills_wereform, Werform>>, auch wenn die jeweilige Form dieses Manöver im Normalfall nicht zur Verfügung hat.
+Der Charakter erhält die aufgeführten xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] in seiner regulären Form, <<ref_bloodline_were_skills_beastform,Tierform>> und <<ref_bloodline_were_skills_wereform,Werform>>, auch wenn die jeweilige Form dieses Manöver im Normalfall nicht zur Verfügung hat.
 
 [[ref_bloodline_were_skills_cp]]
 === CP-Kosten
-Die angegebenen CP sind bei der <<ref_bloodline_were_charactercreation, Charaktererschaffung>> zu bezahlen.
+Die angegebenen CP sind bei der <<ref_bloodline_were_charactercreation,Charaktererschaffung>> zu bezahlen.
 
 [[ref_bloodline_were_skills_keensenses]]
 === Geschärfte Sinne
-Der Charakter erhält einen Bonus von +1 auf die Würfe zum Erfolg für jede xref:../../core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen]-Probe, die auf dem angegeben Sinn beruht.
+Der Charakter erhält einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 für jede xref:../../core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen-Probe], die auf dem angegebenen Sinn beruht.
 Dieser Bonus gilt in jeder seiner Formen.
 
 [[ref_bloodline_were_skills_beastform]]
@@ -67,7 +67,7 @@ In all seinen Formen hat die Kreatur die Fähigkeit link:../../../bestiary/skill
 
 [[ref_bloodline_were_skills_origin]]
 === Ursprung
-
+//TODO
 
 [[ref_bloodline_were_skills_wereform]]
 === Werform

@@ -26,7 +26,7 @@ Möglich sind hydraulische Elemente an den Gelenken, die dazu dienen den Golem z
 
 * *Röhren und Schläuche:* Besitzt ein Golem eventuell eine Art Kühlflüssigkeit oder ein Schmiermittel für seine Gelenke?
 Denkbar ist beides oder eine andere Anwendung für Flüssigkeit innerhalb eines Golems.
-Kupferfarbene Röhren und Schläuche (letztere aus einer gummiartigen Substanz) dienen als Transportwege.
+Kupferne Röhren und Schläuche aus einer gummiartigen Substanz dienen als Transportwege.
 
 * *Dampf:* Dampf in Form von Abgasen wie auch in Form von verdampfender Kühlflüssigkeit kann das Auftreten eines Golems bestimmen.
 So könnte der Golem eine oder mehrere Röhren haben, die regelmäßig Dampf entlassen oder er könnte kleine Dampfwolken ausstoßen, wenn er bestimmte, kraftintensive Bewegungen durchführt.
@@ -38,7 +38,7 @@ Daher ist es nicht einfach möglich, die Energiequelle des Golems durch Berühru
 Weiterhin können in Golems diverse technomantische Geräte eingebaut werden, die in ihrer Funktion den bereits Vorgestellten ähnlich sind bzw. ganz eigene, für Golems bestimmte Zwecke erfüllen.
 
 * *Körperform:* Man denkt berechtigterweise oft an große Maschinen, die eine grobe humanoide Form besitzen, jedoch können Golems auch völlig andere Formen haben.
-Die unter dem Begriff _technomantischem Konstrukt_ vorgestellten Maschinen sind im Grunde genommen alle Golems, auch wenn man mit einem Golem ein nahezu humanoides Erscheinungsbild assoziiert.
+Die unter dem Begriff _technomantischem Konstrukt_ vorgestellten Maschinen sind im Grunde genommen alle Golems.
 
 [[ref_golemworkshop_creation_steps]]
 === Schrittweise Anleitung
@@ -58,13 +58,13 @@ Die anderen Teile sind optional.
 Um einen Golem zu erschaffen, sind zunächst die oben genannten, erforderlichen Einzelteile zu wählen.
 Es können natürlich auch direkt alle optionalen Einzelteile gewählt werden, wie beispielsweise die <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>>.
 
-Unter den erforderlichen Einzelteilen bestimmt das Chassis zunächst die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] des Konstrukts.
+Unter den erforderlichen Einzelteilen bestimmt das Chassis zunächst die xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] des Konstrukts.
 Von dieser hängen beispielsweise initiale <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> ab.
-Außerdem bestimmt die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis im Normalfall direkt die GK der weiteren Einzelteile.
+Außerdem bestimmt die xref:..//core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis im Normalfall direkt die GK der weiteren Einzelteile.
 Dies stellt dar, dass ein Golem mit GK 5 auch Beine und Arme der gleichen GK hat.
 
-Jedes Einzelteil wird bezüglich der Konstruktion als eigenständiges xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Gerät] verstanden.
-Das bedeutet, dass der Technomant jedes Einzelteil separat herstellen muss und für jedes eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] ablegen muss.
+Jedes Einzelteil wird bezüglich der Konstruktion als eigenständiges xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Gerät] verstanden.
+Das bedeutet, dass der Technomant jedes Einzelteil separat herstellen muss und für jedes eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] ablegen muss.
 
 [NOTE]
 Nicht alle Einzelteile werden in allen Größenkategorien angeboten.
@@ -76,7 +76,7 @@ Wenn eine gewünschte Kombination aus Bewaffnung, Chassis oder weiteren Einzelte
 Das Chassis dient als Grundgerüst, auf dessen Basis der Golem geschaffen wird.
 Es kann fast wie ein Massenprodukt wahrgenommen werden und es gibt typische Konventionen für diese Einzelteile.
 
-Von der gewählte xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis hängen für die nachfolgenden Einzelteile ebenfalls die Größenkategorien ab.
+Von der gewählte xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis hängen für die nachfolgenden Einzelteile ebenfalls die Größenkategorien ab.
 Dies bedeutet, wird ein Golem mit einer bestimmten GK erbaut, sind implizit alle nachfolgenden Einzelteile ebenfalls in dieser GK zu verwenden.
 
 .GK des Chassis
@@ -107,8 +107,8 @@ Die einzelnen Einträge für Chassis sind wie folgt aufgebaut:
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion eines Chassis abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
-Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+*Mindestwurf:* Um die Konstruktion eines Chassis abzuschließen ist eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf], der mit dieser Talentprobe erreicht werden muss.
 
 *GK:* Hier wird die GK des Chassis angegeben.
 
@@ -133,16 +133,16 @@ Jeder Golem muss eine Energiezelle haben, die (üblicherweise) in das Chassis ei
 Sofern nicht anders angegeben, verbraucht eine Energieversorgung keine Zusätze, sondern es wird angenommen, dass jedes Chassis genau eine Option von Energieversorgung in entsprechender GK aufnehmen kann.
 
 Eine Energiezelle ist ein ebenfalls gesondertes technomatisches Gerät, das speziell dafür konzipiert wurde, Golems mit Energie in Form von MP zu versorgen.
-xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:../../rules/core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
-Die Energieversorgung gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attribut] des Golems.
+xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:../core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
+Die Energieversorgung gilt als xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attribut] des Golems.
 Der Golem benutzt diese MP auch, um Fähigkeiten aus beispielsweise <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>> oder <<ref_golemworkshop_creation_steps_additions,Zusätzen>> zu aktivieren.
 
-Ein Technomant muss diese nach den üblichen xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Regeln] herstellen.
-Am Ende der Konstruktionszeit macht er eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] gegen die gegebene Anzahl der Erfolge.
-Es gelten die üblichen Regeln für Patzer und Misserfolge bei Technomantie-Proben.
+Ein Technomant muss diese nach den üblichen xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Regeln] herstellen.
+Am Ende der Konstruktionszeit macht er eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] gegen den angegebenen Mindestwurf.
+Es gelten die üblichen Regeln für xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_botch[Patzer] und xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_failures[Misserfolge] bei Technomantie-Proben.
 
-Je nach Energiezelle und xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] werden unterschiedliche Mengen an MP bereitgestellt.
-Außerdem können manche Energiezellen MP automatisch xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regenerieren].
+Je nach Energiezelle und xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] werden unterschiedliche Mengen an MP bereitgestellt.
+Außerdem können manche Energiezellen MP automatisch xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regenerieren].
 
 [[ref_golemworkshop_creation_steps_core_profiles]]
 ===== Darstellung der Einträge
@@ -157,11 +157,11 @@ Die einzelnen Einträge für Energiezellen sind wie folgt aufgebaut:
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Energiezelle abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
-Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+*Mindestwurf:* Um die Konstruktion einer Energiezelle abzuschließen ist eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf], der mit dieser Talentprobe erreicht werden muss.
 
 *GK:* Hier wird die GK der Energiezelle angegeben.
-Energiezellen haben die GK des <<ref_golemworkshop_creation_steps_chassis, Chassis>>.
+Energiezellen haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 
 *MP:* Diese Angabe bestimmt die Anzahl der MP im MP-Pool dieser Energieversorgung.
 
@@ -175,7 +175,7 @@ Energiezellen haben die GK des <<ref_golemworkshop_creation_steps_chassis, Chass
 Als Bewaffnung werden meist offensive Geräte bezeichnet, die ein Golem gegen seine Feinde einsetzen kann.
 Dennoch fällt unter Bewaffnung auch eine größere Bandbreite von Ausrüstung, zum Beispiel auch das Werkzeug von Golems, die primäre für schwere Arbeiten verwendet werden (zum Beispiel Holzfäller).
 //TODO Link
-Jede Bewaffnung ist ebenfalls ein xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
+Jede Bewaffnung ist ebenfalls ein xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
 Wie viele Bewaffnungen für einen Golem montiert werden können, wird durch sein <<ref_golemworkshop_creation_steps_chassis_profiles, Chassis>> bestimmt.
 
 [[ref_golemworkshop_creation_steps_weaponary_mounted_on_arms]]
@@ -192,7 +192,7 @@ Grundsätzlich kann, außer es ist durch die <<ref_golemworkshop_creation_steps_
 
 Manche Bewaffnungen sind als *schwer* gekennzeichnet.
 Diese können nur auf <<ref_golemworkshop_creation_steps_chassis_profiles,Chassis>> verbaut werden, die dies explizit erlauben.
-Der Einsatz einer schweren Bewaffnung benötigt immer eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion], erfordert also den Einsatz der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und des xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] pro Kampfphase des Golems.
+Der Einsatz einer schweren Bewaffnung benötigt immer eine xref:../core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion], erfordert also den Einsatz der xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und des xref:../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] pro Kampfphase des Golems.
 
 [[ref_golemworkshop_creation_steps_weaponary_profiles]]
 ===== Darstellung der Einträge
@@ -207,8 +207,8 @@ Die einzelnen Einträge für Bewaffnungen sind wie folgt aufgebaut:
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Bewaffnung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
-Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+*Mindestwurf:* Um die Konstruktion einer Bewaffnung abzuschließen ist eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf], der mit dieser Talentprobe erreicht werden muss.
 
 *GK:* Hier wird die GK der Bewaffnung angegeben.
 Bewaffnungen haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
@@ -248,13 +248,13 @@ Die Größenkategorie einer Bewegungsoption, die einen Golem montiert wird, wird
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Bewegungsmöglichkeit abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
-Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+*Mindestwurf:* Um die Konstruktion einer Bewegungsmöglichkeit abzuschließen ist eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf], der mit dieser Talentprobe erreicht werden muss.
 
 *GK:* Hier wird die GK der Bewegungsmöglichkeit angegeben.
 Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 
-*Bewegungsmodifikator:* Der Golem erhält den angegebenen Bonus oder Malus auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
+*Bewegungsmodifikator:* Der Golem erhält den angegebenen Bonus oder Malus auf seine xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 
 *Bewegungsmodus:* Bei dieser Angabe handelt es sich um die Art, wie sich der Golem fortbewegt.
 Die Angabe _Standard_ deutet, dass alle üblichen Regeln gelten.
@@ -268,8 +268,8 @@ Andere Angaben entsprechen der jeweiligen Fähigkeit, zum Beispiel link:../../be
 Golems sind bereits robuste Konstrukte.
 *Panzerungen* können dies noch verstärken.
 Diese werden primär auf dem <<ref_golemworkshop_creation_steps_chassis,Chassis>> montiert, schützen jedoch den gesamten Körper des Golems.
-Üblicherweise schützt Panzerung wie xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung] auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen], sofern nicht anders angegeben.
-Eine Panzerung muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
+Üblicherweise schützt Panzerung wie xref:../core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung] auf allen xref:../core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen], sofern nicht anders angegeben.
+Eine Panzerung muss als eigenes xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
 
 [[ref_golemworkshop_creation_steps_plating_heavy]]
 ===== Schwere Panzerung
@@ -287,13 +287,13 @@ Als *schwer* gekennzeichnete Panzerung muss analog zur <<ref_golemworkshop_creat
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion einer Panzerung abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
-Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+*Mindestwurf:* Um die Konstruktion einer Panzerung abzuschließen ist eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf], der mit dieser Talentprobe erreicht werden muss.
 
 *GK:* Hier wird die GK der Panzerung angegeben.
 Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 
-*Rüstungsschutz:* bietet die Panzerung xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung], ist die in Form von Punkten angegeben
+*Rüstungsschutz:* bietet die Panzerung xref:../core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung], ist die in Form von Punkten angegeben
 
 *Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_plating_heavy,schwere Panzerung>>.
 
@@ -308,7 +308,7 @@ Zusätze zeichnen sich dadurch aus, dass die nicht zum Betrieb eines Golems notw
 Wie viele Zusätze ein Golem installiert bekommen kann, hängt von seinem <<ref_golemworkshop_creation_steps_chassis,Chassis>> und dessen xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] ab.
 Beispielsweise kann ein link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[humanoides Chassis] der GK 5 insgesamt 2 Zusätze mit sich führen.
 
-Ein Zusatz muss als eigenes xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
+Ein Zusatz muss als eigenes xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät] hergestellt werden, um im einen Golem verbaut werden zu können.
 
 Im Gegensatz zu anderen Einzelteilen eines Golems haben Zusätze keine eigene GK.
 Das heißt, egal wie welche GK ein Chassis hat, der Zusatz wird immer in einen verfügbaren Einsatz für Zusätze verbaut.
@@ -329,8 +329,8 @@ Als *schwer* gekennzeichnete Zusätze müssen analog zur auf ein passendes <<ref
 *Zaubersprüche:* Diese angegebenen Zauber müssen dem Technomanten bekannt sein oder in Form einer Spruchrolle oder durch einen Magier, der diese Zauber kennt, verfügbar sein.
 Es ist auch möglich, einen Gegenstand zu verwenden, der diesen Zauberspruch gespeichert hat.
 
-*Erfolge:* Um die Konstruktion eines Zusatzes abzuschließen ist eine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
-Dieser Eintrag verrät die nötige Anzahl von Erfolgen, die mit dieser Talentprobe erreicht werden müssen.
+*Mindestwurf:* Um die Konstruktion eines Zusatzes abzuschließen ist eine xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Probe] nötig.
+Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf], der mit dieser Talentprobe erreicht werden muss.
 
 *Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_additions_heavy,schwere Zusätze>>.
 
@@ -342,14 +342,20 @@ Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.
 [[ref_golemworkshop_creation_steps_finale]]
 ==== Finale Arbeiten
 
-Nachdem alle Einzelteile gewählt und erstellt wurden, muss der Technomant eine finale Probe mit seinem xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Talent] ablegen, um den Golem zusammenzusetzen.
-Die nötige Anzahl der Erfolge ist gleich die Anzahl der Einzelteile.
+Nachdem alle Einzelteile gewählt und erstellt wurden, muss der Technomant eine finale Probe mit seinem xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Talent] ablegen, um den Golem zusammenzusetzen.
+Der Mindestwurf ist hier 18 + Anzahl der Einzelteile.
 
-Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] kann der Technomant die Arbeit nicht erfolgreich abschließen.
+.Finale Arbeiten
+====
+Ein Golem besteht auf 1 Chassis, 1 Energiezelle, 2 Bewaffnungen, 1 Bewegungsoption und 3 Zusätzen.
+Der Mindestwurf für die finale Technomantie-Probe berechnet sich aus 18+1+1+2+1+3=26.
+====
+
+Bei einem xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] kann der Technomant die Arbeit nicht erfolgreich abschließen.
 Er verliert keine Materialien, nur Zeit.
 Die Probe kann jedoch erst nach 24 Stunden noch einmal durchgeführt werden.
 
-Sollte die Probe ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] sein, ist ein kritischer Fehler bei der Zusammensetzung entstanden.
+Sollte die Probe ein xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] sein, ist ein kritischer Fehler bei der Zusammensetzung entstanden.
 Der Technomant würfelt pro Einzelteil 1W10.
 Bei einer weiteren 1, muss er 25% der Zeit und des Wertes des Einzelteils noch einmal einsetzen, bevor er diese Probe wiederholen kann.
 
@@ -467,7 +473,7 @@ Diese bestimmt die initialen Attributsstufen, welche sich aus der nachfolgenden 
 |===
 
 Andere Komponenten, zum Beispiel die <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>>, können Modifikatoren auf Attributsstufen enthalten.
-Diese sind nach der Bestimmung der Attributsstufen aus der GK anzuwenden und vor der Bestimmung der <<ref_golemworkshop_creation_teps_profile_secondary_attributes,Attributseigenschaften des Golems>>.
+Diese sind nach der Bestimmung der Attributsstufen aus der GK anzuwenden und vor der Bestimmung des <<ref_golemworkshop_creation_steps_profile_attributebonus,Attributsbonus>> und der <<ref_golemworkshop_creation_steps_profile_secondary_attributes,Attributseigenschaften>> des Golems.
 
 .Attributsstufen
 ====
@@ -476,24 +482,28 @@ Diese Bewaffnung gewährt einen Bonus von +1 GE und +1 ST.
 Seine Stufen in diesen beiden Attributen ergeben daher jeweils 6+1 = 7.
 ====
 
-[[ref_golemworkshop_creation_teps_profile_secondary_attributes]]
+[[ref_golemworkshop_creation_steps_profile_attributebonus]]
+===== Attributsbonus
+Der Golem erhält nach den üblichen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Regeln] für jedes <<ref_golemworkshop_creation_steps_profile_attributes,Attribut>> einen Attributsbonus.
+
+[[ref_golemworkshop_creation_steps_profile_secondary_attributes]]
 ===== Attributseigenschaften
 
-Wenn die finalen <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> bestimmt sind, erhalten alle Golems nach den üblichen Regeln xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Attributseigenschaften].
+Wenn die finalen <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> bestimmt sind, erhalten alle Golems nach den üblichen Regeln xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Attributseigenschaften].
 
 Manche Komponenten modifizieren Attributseigenschaften, gehen zum Beispiel einen Bonus auf eine bestimmte Eigenschaft.
 Solche Modifikationen werden zusätzlich nach Bestimmung der Attributseigenschaften nach den zuvor genannten Regeln angewendet.
 
 Es gelten jedoch folgende Ausnahmen:
 
-* Auch wenn Golems als Konstrukte xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_general_rules[keine SP verlieren], berechnet sich dieser Wert wie üblich.
-* Weiterhin gilt, dass Konstrukte xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_general_rules[keine MP aufgrund ihres EN-Attributs] erhalten, sondern aus ihrer <<ref_golemworkshop_creation_steps_core,Energieversorgung>>.
+* Auch wenn Golems als Konstrukte xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_general_rules[keine SP verlieren], berechnet sich dieser Wert wie üblich.
+* Weiterhin gilt, dass Konstrukte xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_general_rules[keine MP aufgrund ihres EN-Attributs] erhalten, sondern aus ihrer <<ref_golemworkshop_creation_steps_core,Energieversorgung>>.
 
 .Attributseigenschaften
 ====
 Ein Golem der GK 6 hat eine GE-Attributsstufe von 2.
-Aufgrund seiner Größe hat er eine xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Basis-BEW] von 9,00 Metern.
-Seine Attributsstufe gibt dazu keinen xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary_calculate_overviewtable[Bonus] her.
+Aufgrund seiner Größe hat er eine xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Basis-BEW] von 9,00 Metern.
+Seine Attributsstufe gibt dazu keinen xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary_calculate_overviewtable[Bonus] her.
 Allerdings besitzt er als <<ref_golemworkshop_creation_steps_movement,Bewegungsmöglichkeit>> link:../../compendiums/golemworkshop/parts/movement/golems_part_movement_legs_2.adoc[Beine], die ihm einen Bonus von +3,00 Metern auf seine BEW geben.
 Somit hat er Gesamt-BEW von 12,00 Metern.
 ====
@@ -501,7 +511,7 @@ Somit hat er Gesamt-BEW von 12,00 Metern.
 [[ref_golemworkshop_creation_steps_profile_powerlevel]]
 ===== Machtstufe
 
-Jedes Konstrukt besitzt eine xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe].
+Jedes Konstrukt besitzt eine xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe].
 Golems erhalten eine Basis-Machtstufe aufgrund ihres <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 Andere Komponenten können diese Machtstufe erhöhen oder auch reduzieren, sofern dies explizit in ihrer Beschreibung aufgeführt ist.
 Die Summe der Basis-Machtstufe plus alle weiteren Modifikatoren ergibt die finale Machtstufe des Golems.
@@ -517,21 +527,20 @@ Ein Golem mit link:../../compendiums/golemworkshop/parts/chassis/golems_part_cha
 Der Golem erhält nur Talente, wenn seine Komponenten diese explizit aufführen.
 Üblicherweise sind dies <<ref_golemworkshop_creation_steps_weaponary,Bewaffnungen>> oder <<ref_golemworkshop_creation_steps_additions,Zusätze>>.
 Einzelne Komponenten geben das konkrete Talent sowie eine Stufe an.
-Diese Stufe ist jedoch ohne Attribut zu verstehen.
-Die finale xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe] ergibt sich somit aus dieser Zahl und der passenden <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufe>> des Golems.
+Der finale Bonus auf die jeweilige xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] ergibt wie sonst auch aus der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe] und dem passenden <<ref_golemworkshop_creation_steps_profile_attributebonus,Attributsbonus>>.
 
 .Talentstufen
 ====
 Ein Golem mit Attributsstufe 3 in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] erhält den Zusatz link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens], der das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] mit Talentstufe 5 gewährt.
-Damit erhält der Golem dieses Talent mit Stufe 8.
+Damit erhält der Golem für dieses Talent einen Bonus von 5+1=6.
 ====
 
 [[ref_golemworkshop_creation_steps_profile_skills]]
 ===== Fähigkeiten
 
-Alle Golems, die nach den Regeln dieses Kapitels erschaffen wurden, erhalten automatisch die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] und damit einen zusätzliche, Machtstufe-abhängigen Bonus auf einige ihrer <<ref_golemworkshop_creation_teps_profile_secondary_attributes,Attributseigenschaften>>.
+Alle Golems, die nach den Regeln dieses Kapitels erschaffen wurden, erhalten automatisch die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] und damit einen zusätzliche, Machtstufe-abhängigen Bonus auf einige ihrer <<ref_golemworkshop_creation_steps_profile_secondary_attributes,Attributseigenschaften>>.
 
-Golems erhalten außerdem alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_skills[Fähigkeiten] auf Basis ihres Kreaturentyps.
+Golems erhalten außerdem alle xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_skills[Fähigkeiten] auf Basis ihres Kreaturentyps.
 
 Weitere Fähigkeiten erhalten Golems nur, wenn ihre Komponenten diese explizit gewähren.
 
@@ -546,7 +555,7 @@ Dabei muss der Befehlshaber die Befehle aussprechen, sich innerhalb der Reichwei
 Jedes Konstrukt versteht einige typische Befehle und natürlich spezielle Befehle, die aus seiner Aufgabe resultieren.
 
 Der Golem ist auf besondere Weise mit dem Befehlshaber verbunden und kann ihn identifizieren, ohne dass dieser ein bestimmtes Erkennungsmerkmal tragen muss.
-Jedes Konstrukt versteht den Befehl seines aktuellen Befehlshaber, einen neuen Befehlshaber zu akzeptieren.
+Jedes Konstrukt versteht den Befehl seines aktuellen Befehlshabers, einen neuen Befehlshaber zu akzeptieren.
 
 Der Erschaffer eines Golems oder die Kreatur, die die <<ref_golemworkshop_creation_steps_finale,abschließende Probe>> erfolgreich ablegt, ist automatisch der Befehlshaber.
 
@@ -575,28 +584,28 @@ Programme können durch Zaubersprüche wie beispielsweise link:../../compendiums
 Jedes Programm besitzt eine *Programmierschwierigkeit*, die als Zahl ab 1 dargestellt wird.
 Je höher diese Zahl ist, desto länger benötigt der Technomant für die Programmierung und umso schwerer ist das Programm insgesamt in den Golem zu installieren.
 
-Sowohl das <<ref_golemworkshop_programming_protocols,Protokoll>> als auch der <<ref_golemworkshop_programming_mode,Modus>> besitzten jeweils einen eigenen Wert als Schwierigkeit.
+Sowohl das <<ref_golemworkshop_programming_protocols,Protokoll>> als auch der <<ref_golemworkshop_programming_mode,Modus>> besitzen jeweils einen eigenen Wert als Schwierigkeit.
 Die *Summe* beider Werte ergibt die Gesamt-Programmierschwierigkeit (allgemein die Programmierschwierigkeit genannt).
-Aus diesem Gesamtwert ergibt sich nun die Dauer der Programmierung als auch die nötige Anzahl der Erfolge in der xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe].
+Aus diesem Gesamtwert ergibt sich nun die Dauer der Programmierung als auch den nötigen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] in der xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-] oder xref:../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe].
 
 |===
-|Programmierschwierigkeit |Dauer (Stunden) |Erfolge
+|Programmierschwierigkeit |Dauer (Stunden) |Mindestwurf
 
 |1-3
 |4
-|2
+|14
 
 |4-5
 |6
-|4
+|18
 
 |6-9
 |8
-|6
+|20
 
 |9-10
 |10
-|8
+|22
 
 |11+
 |+2 alle 4 über 10
@@ -613,13 +622,13 @@ Die einzelnen Abstände dürfen jedoch nicht weiter als 1 Tag auseinanderliegen.
 Ein Technomant möchte einen Golem mit dem Protokoll Kämpfer und Modus Flexibel programmieren.
 Die Programmierschwierigkeit ergibt sich damit aus der Summe der Wert X und Y.
 Insgesamt ergibt sich daher ein Wert von XY.
-text-dauer+erfolge
+text-dauer+mindestwurf
 ====
 
 [[ref_golemworkshop_programming_complexity_botch]]
 ====== Patzer
 
-Ein Patzer bei der Programmierung wird wie xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_botch[Patzer] bei einer allgemeinen Technomantie-Probe zur Konstruktion von technonatischen Geräten und Konstrukten behandelt.
+Ein Patzer bei der Programmierung wird wie xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_botch[Patzer] bei einer allgemeinen Technomantie-Probe zur Konstruktion von technonatischen Geräten und Konstrukten behandelt.
 
 [[ref_golemworkshop_programming_protocols]]
 ===== Protokolle
@@ -703,7 +712,7 @@ Dieser Modus wird oft verwendet, wenn klar ist, dass das Konstrukt nicht viele n
 Ein Golem in diesem Modus kann sich auf neue Situationen innerhalb seines Arbeitsgebietes einfacher einstellen.
 Es kann beispielsweise verschiedene Produktionsabläufe auf neue, unbekannte Materialien anwenden.
 Außerdem kann es ohne Programmieränderung auf ähnliche Arbeitsabläufe umgestellt werden und auch innerhalb der vorgesehenen Arbeit diese anwenden.
-Das Konstrukt kann außerdem erkennen, dass ein Arbeitsablauf zurzeit nicht möglich ist, beispielsweise könnte ein Holzfäller-Golem erkennen, dass er kein Metall durchsägen kann, auch wenn man ihm ein Metallstück als Holz unterschiebt.
+Das Konstrukt kann ebenso erkennen, dass ein Arbeitsablauf zurzeit nicht möglich ist, beispielsweise könnte ein Holzfäller-Golem erkennen, dass er kein Metall durchsägen kann, auch wenn man ihm ein Metallstück als Holz unterschiebt.
 
 Allerdings bietet dieser Modus weiterhin keine Anwendungsfremden Aktionen.
 
@@ -725,7 +734,7 @@ Dieser Golem wurde anhand der Regeln aus diesem Kapitel erstellt.
 
 Der Golem besteht aus folgenden Einzelteilen:
 
-* *<<ref_golemworkshop_creation_steps_chassis,Chassis:>>* link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Humanoides Chassis] xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 6
+* *<<ref_golemworkshop_creation_steps_chassis,Chassis:>>* link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Humanoides Chassis] xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 6
 * *<<ref_golemworkshop_creation_steps_core,Energieversorgung:>>* link:../../compendiums/golemworkshop/parts/core/golems_part_core_basiccells.adoc[Standardzelle]
 * *<<ref_golemworkshop_creation_steps_movement,Bewegung:>>* link:../../compendiums/golemworkshop/parts/movement/golems_part_movement_legs_2.adoc[2 Beine]
 * *<<ref_golemworkshop_creation_steps_weaponary,Bewaffnung:>>* link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]
@@ -741,47 +750,47 @@ Die folgende Tabelle zeigt für diese eine Übersicht für die wichtigsten Eckda
 
 
 |===
-|Teil |Kosten (Silbermünzen) |Dauer (Tage) |Nötige Erfolge
+|Teil |Kosten (Silbermünzen) |Dauer (Tage) |Mindestwurf
 
 |Humanoides Chassis
 |100.000
 |30
-|6
+|18
 
 |Standardzelle
 |20.000
 |7
-|5
+|17
 
 |2 Beine
 |60.000
 |18
-|8
+|20
 
 |Kriegshammer
 |6.500
 |4
-|4
+|16
 
 |Flammenwerfer
 |10.000
 |7
-|5
+|17
 
 |Stahlpanzerung (Halb)
 |30.000
 |12
-|8
+|20
 
 |Schaltkreis des Ausweichens
 |20.000
 |5
-|7
+|17
 
 |Kraftfeld
 |50.000
 |14
-|7
+|22
 
 |*Gesamt*
 |*296.500*
@@ -826,7 +835,7 @@ Das Gleiche gilt für die Pools des Golems:
 *MP:* 140 (ergibt sich aus verbauter Standardzelle) +
 *SP:* (SB+CH) * 5 = 20 +
 
-Außerdem lernt der Golem die Talente xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] (Kriegshammer), xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] (Flammenwerfer) und xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] (Schaltkreis des Ausweichens).
+Außerdem lernt der Golem die Talente xref:../core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] (Kriegshammer), xref:../core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] (Flammenwerfer) und xref:../core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] (Schaltkreis des Ausweichens).
 
 Um das Profil zu vervollständigen, müssen noch Fähigkeiten aus dem primären link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Kreaturentyp] hinzugefügt werden.
 Der Golem besitzt keinen sekundären Kreaturentyp.

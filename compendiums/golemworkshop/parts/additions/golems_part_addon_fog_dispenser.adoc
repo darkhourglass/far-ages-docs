@@ -3,19 +3,19 @@
 *Materialkosten:* 30.000 +
 *Konstruktionszeit:* 3 Tage +
 *Zaubersprüche:* link:../../../spells/spell_fog.adoc[Nebel] +
-*Erfolge:* 4 +
+*Mindestwurf:* 16 +
 *Montage:* - +
 *MP-Kosten:* siehe Beschreibung +
 *Beschreibung:* Dieser Zusatz besteht aus einer semi-transparenten Kammer, in der eine neblige Masse wabert.
 Weiterhin benötigt dieser Zusatz einige Rohre, die am Körper des Golems von der Kammer aus verlaufen.
-Die Rohre enden in trichterförmigen Aufsätzen, die durch ein engmaschiges Netz abdeckt sind.
+Die Rohre enden in trichterförmigen Aufsätzen, die durch ein engmaschiges Netz abgedeckt sind.
 
 Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] kann der Golem mit ein Einsatz der MP-Kosten (siehe auch unten stehende Tabelle) den Effekt des Zauberspruches link:../../../spells/spell_fog.adoc[Nebel] in einem Radius von 12,00 Metern um sich herum erzeugen.
 
 Je nach MP-Kosten bestimmt der Golem die Intensität des Nebels:
 
 |===
-|MP-Kosten |Nebel-Effekt
+|MP-Kosten |Nebeleffekt
 
 |5
 |xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[geringe Deckung]

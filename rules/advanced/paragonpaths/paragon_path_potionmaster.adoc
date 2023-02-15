@@ -19,7 +19,7 @@ Braumeister können ohne weitere Einschränkungen Stufen lernen
 
 == Stufe 1
 
-Auf Stufe 1 lernt der Braumeister immer Braumeisterexpertise und y
+Auf Stufe 1 lernt der Braumeister immer <<ref_potionmaster_brewmastery,Braumeisterexpertise>>.
 
 == Maximale Stufe
 
@@ -27,6 +27,7 @@ Der Schicksalspfad des Braumeisters gibt keine maximale Stufe vor.
 
 == Fähigkeiten
 
+[[ref_potionmaster_brewmastery]]
 === Braumeisterexpertise
 *Voraussetzungen:* Braumeister 1 +
 *Mindestwurf:* - +
@@ -36,12 +37,15 @@ Der Schicksalspfad des Braumeisters gibt keine maximale Stufe vor.
 *Beschreibung:* Der Braumeister erhält ein tieferes Verständnis für die alchemistischen Geheimnisse.
 Folgende Talente sind für ihn ab sofort Berufstalente:
 
-* Disziplin
-* Spruchzauberei [Alchemie]
-* Wissen [Pflanzen]
-* Wissen [Gifte]
-* Wähle außerdem ein weitere Spruchzauberei-Talent aus der Liste: Weg des Feuers, Weg des Wassers, Weg der Erde oder Weg der Luft
+* xref:../../core/core_rules_talents_base.adoc#ref_talents_discipline[Disziplin]
+* xref:../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] xref:../../core/core_rules_magic_base.adoc#ref_core_magic_schools_alchemy[(Alchemie)]
+* xref:../../core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Pflanzen)]
+* xref:../../core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Gifte)]
+* Wähle außerdem ein weiteres Spruchzauberei-Talent aus der Liste: Weg des Feuers, Weg des Wassers, Weg der Erde oder Weg der Luft
 
+Besitzt er eines oder mehrere dieser Talente bereits als Berufstalente bringt dies keinen weiteren Bonus.
+
+[[ref_potionmaster_exquisitetaste]]
 === Exquisiter Tropfen [Getränk]
 *Voraussetzungen:* Braumeister 1, Handwerk [Brauen] 5 +
 *Mindestwurf:* - +
@@ -50,11 +54,11 @@ Folgende Talente sind für ihn ab sofort Berufstalente:
 *Kampf:* - +
 *Beschreibung:* Neben den Geheimnissen der Alchimie kann der Braumeister auch die Meisterung des profanen Genusses erlernen.
 Mit Erlernen dieser Fähigkeit muss der Braumeister ein bestimmtes, nicht-magisches Getränk festlegen.
-In Abstimmung mit dem SL kann zur Vereinfachung auch eine Gruppe gewählt werden, wie z.B. Biere.
+In Abstimmung mit dem SL kann zur Vereinfachung auch eine Gruppe gewählt werden, wie beispielsweise Biere.
 Der Braumeister besitzt nun Wissen, um das Getränk perfekt zu brauen.
 Er benötigt wie bei der Herstellung von anderen Gegenständen Zeit und Ressourcen.
 Beides ist jedoch um 25% reduziert.
-Weiterhin erziehlt jede reguläre Portion (z.B. eine Flasche, ein Fass) 25% mehr des üblichen Verkaufspreises.
+Weiterhin erzielt jede reguläre Portion (z.B. eine Flasche, ein Fass) 25% mehr des üblichen Verkaufspreises.
 Der Braumeister kann diese Fähigkeit mehrfach lernen, jedes Mal für ein anderes Getränk.
 
 === Improvisiertes Brauen
@@ -105,7 +109,7 @@ In Fall von Würfeln um mindesten 1 Würfel.
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* F / R +
-*Beschreibung:* Einmal pro Kampfrunde kann der Braumeister als Freie Aktion oder als Reaktion einen Trank trinken - normalerweise gilt dies als Kampfmanöver.
+*Beschreibung:* Einmal pro Kampfphase kann der Braumeister als Freie Aktion oder als Reaktion einen Trank trinken - normalerweise gilt dies als Kampfmanöver.
 Er muss den Trank irgendwo am Körper tragen.
 Tränke im Rucksack müssen nach den üblichen Regeln herausgesucht werden.
 
@@ -115,13 +119,13 @@ Tränke im Rucksack müssen nach den üblichen Regeln herausgesucht werden.
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* M +
-*Beschreibung:* Einmal pro Kampfrunde kann der Braumeister als Kampfmänöver einem beliebigen, direkt neben ihm stehenden Charakter einen Trank einflößen.
+*Beschreibung:* Einmal pro Kampfphase kann der Braumeister als Manöver einem beliebigen, direkt neben ihm stehenden Charakter einen Trank einflößen.
 Er muss den Trank irgendwo am Körper tragen.
 Tränke im Rucksack müssen nach den üblichen Regeln herausgesucht werden.
 Der Zielcharakter verliert keinerlei Aktionen.
 Die Effekte des Tranks treten entsprechend der üblichen Regeln ein.
 Möchte sich ein Charakter gegen das Einflößen wehren, wird eine konkurrierende Unbewaffneter Kampf-Probe gewürfelt.
-Erhält der Braumeister mehr Erfolge, ist die Anwendung der Fähigkeit erfolgreich.
+Erhält der Braumeister ein höheres Ergebnis, ist die Anwendung der Fähigkeit erfolgreich.
 
 === Verlängerter Effekt
 *Voraussetzungen:* Braumeister 3 +

@@ -14,7 +14,7 @@ Der SL kann jederzeit zu diesem Wurf von Dir verlangen.
 
 [[ref_curse_of_mad_whispers_harmless]]
 == Harmlos
-Du erhältst einen Malus von -1 auf die Würfe zum Erfolg für Deine nächste xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributsprobe], xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] oder xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe].
+Du erhältst einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 für Deine nächste xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributsprobe], xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] oder xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe].
 
 [[ref_curse_of_mad_whispers_weak]]
 == Schwach
@@ -23,7 +23,7 @@ Zusätzlich regenerierst Du bei Deiner nächsten xref:../../core/core_rules_2d10
 
 [[ref_curse_of_mad_whispers_strong]]
 == Stark
-Du erleidest die Konsequenzen der <<ref_curse_of_mad_whispers_weak,schwachen>> Variante mit einem Malus von -2.
+Du erleidest die Konsequenzen der <<ref_curse_of_mad_whispers_weak,schwachen>> Variante mit einem Malus von -10.
 Bei Deiner nächsten xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Rast] regenerierst Du keine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
 
 [[ref_curse_of_mad_whispers_deathcurse]]

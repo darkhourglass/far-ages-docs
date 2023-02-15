@@ -3,7 +3,7 @@
 *Materialkosten:*  siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* link:../../../spells/spell_sculpt_wood.adoc[Holz formen] +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 1 - 10 +
 *Rüstungsschutz:* siehe Beschreibung +
 *Montage:* - +
@@ -15,65 +15,65 @@ Die Holzpanzerung schützt alle xref:../../../../rules/core/core_rules_battlesys
 Allerdings bringt die Holzpanzerung den Nachteil mit sich, dass der Golem die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] für die Schadensart xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] erhält.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Rüstungsschutz
 
 |1
 |6.000
 |1 Tag
-|5
+|17
 |3
 
 |2
 |8.000
 |2 Tage
-|3
+|17
 |3
 
 |3
 |13.000
 |3 Tage
-|6
+|18
 |4
 
 |4
 |15.000
 |6 Tage
-|7
+|18
 |5
 
 |5
 |17.000
 |8 Tage
-|7
+|19
 |5
 
 |6
 |24.000
 |10 Tage
-|8
+|20
 |6
 
 |7
 |30.000
 |12 Tage
-|8
+|20
 |7
 
 |8
 |40.000
 |16 Tage
-|9
+|21
 |9
 
 |9
 |52.000
 |20 Tage
-|11
+|23
 |11
 
 |10
 |75.000
 |28 Tage
-|13
+|25
 |13
 |===

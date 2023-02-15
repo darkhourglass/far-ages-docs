@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 1-10 +
 *Attribute:* siehe Beschreibung +
 *Machtstufe:* siehe Beschreibung +
@@ -17,12 +17,12 @@ Das Chassis kann in den xref:../../../../rules/core/core_rules_charactercreation
 Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Attribute |Machtstufe |Bewaffnung |Zusätze
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Attribute |Machtstufe |Bewaffnung |Zusätze
 
 |1
 |10.000
 |3 Tage
-|4
+|16
 |+1 GE
 |1
 |2 Arme
@@ -31,7 +31,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |2
 |15.000
 |3 Tage
-|4
+|16
 |+1 GE
 |1
 |2 Arme
@@ -40,7 +40,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |3
 |20.000
 |8 Tage
-|5
+|17
 |+1 GE
 |2
 |2 Arme
@@ -49,7 +49,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |4
 |25.000
 |15 Tage
-|5
+|17
 |+2 GE
 |3
 |2 Arme, 1
@@ -58,7 +58,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |5
 |50.000
 |20 Tage
-|6
+|18
 |+2 GE, +1 KO
 |4
 |2 Arme, 1
@@ -76,7 +76,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |7
 |200.000
 |45 Tage
-|7
+|19
 |+3 GE, +2 KO
 |7
 |2 Arme, 2
@@ -85,7 +85,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |8
 |300.000
 |60 Tage
-|9
+|21
 |+4 GE, +3 KO
 |9
 |2 Arme, 4
@@ -94,7 +94,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |9
 |400.000
 |75 Tage
-|11
+|23
 |+4 GE, +4 KO
 |11
 |2 Arme, 5
@@ -103,7 +103,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |10
 |500.000
 |90 Tage
-|13
+|25
 |+5 GE, +5 KO
 |13
 |2 Arme, 6

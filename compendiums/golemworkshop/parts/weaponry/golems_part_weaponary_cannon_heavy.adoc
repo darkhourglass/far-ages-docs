@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 6 - 10 +
 *Montage:* Schwer +
 *Attribute:* - +
@@ -16,12 +16,12 @@ Schwere Kanonen können nicht auf xref:../../../../rules/advanced/advanced_rules
 Sie werden im Gegensatz zur regulären Kanone in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 6 bis 10 hergestellt.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus |Grundreichweite |Magazin
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus |Grundreichweite |Magazin
 
 |6
 |30.000
 |14 Tage
-|8
+|20
 |4W10
 |75,00 Meter
 |1
@@ -29,7 +29,7 @@ Sie werden im Gegensatz zur regulären Kanone in den xref:../../../../rules/core
 |7
 |45.000
 |20 Tage
-|8
+|20
 |6W10
 |90,00 Meter
 |1
@@ -37,7 +37,7 @@ Sie werden im Gegensatz zur regulären Kanone in den xref:../../../../rules/core
 |8
 |60.000
 |32 Tage
-|9
+|21
 |8W10
 |120,00 Meter
 |1
@@ -45,7 +45,7 @@ Sie werden im Gegensatz zur regulären Kanone in den xref:../../../../rules/core
 |9
 |90.000
 |45 Tage
-|9
+|21
 |9W10
 |150,00 Meter
 |1
@@ -53,7 +53,7 @@ Sie werden im Gegensatz zur regulären Kanone in den xref:../../../../rules/core
 |10
 |120.000
 |60 Tage
-|9
+|22
 |10W10
 |180,00 Meter
 |1

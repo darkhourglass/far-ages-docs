@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* TBA +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 5 - 8 +
 *Rüstungsschutz:* siehe Beschreibung +
 *Montage:* - +
@@ -28,33 +28,33 @@ Die folgende Tabelle zeigt die von der GK abhängigen Eigenschaften.
 Es handelt sich dabei um den *flüssigen* Zustand der Panzerung.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Rüstungsschutz |Malus auf BEW
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Rüstungsschutz |Malus auf BEW
 
 |5
 |100.000
 |16 Tage
-|7
+|22
 |8
 |-
 
 |6
 |120.000
 |19 Tage
-|8
+|23
 |10
 |-
 
 |7
 |160.000
 |24 Tage
-|8
+|24
 |12
 |-
 
 |8
 |200.000
 |32 Tage
-|9
+|25
 |14
 |-
 |===

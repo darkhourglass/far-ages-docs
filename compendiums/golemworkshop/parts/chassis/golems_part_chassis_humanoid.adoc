@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 1-10 +
 *Attribute:* siehe Beschreibung +
 *Machtstufe:* siehe Beschreibung +
@@ -21,12 +21,12 @@ Das Chassis kann in den xref:../../../../rules/core/core_rules_charactercreation
 Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Attribute |Machtstufe |Bewaffnung |Zusätze
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Attribute |Machtstufe |Bewaffnung |Zusätze
 
 |1
 |10.000
 |3 Tage
-|4
+|16
 |+1 ST
 |1
 |2 Arme
@@ -35,7 +35,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |2
 |15.000
 |5 Tage
-|4
+|16
 |+1 ST
 |1
 |2 Arme
@@ -44,7 +44,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |3
 |20.000
 |8 Tage
-|5
+|17
 |+1 ST
 |2
 |2 Arme
@@ -53,7 +53,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |4
 |25.000
 |15 Tage
-|5
+|17
 |+2 ST
 |3
 |2 Arme, 1
@@ -62,7 +62,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |5
 |50.000
 |20 Tage
-|6
+|18
 |+2 ST, +1 KO
 |4
 |2 Arme, 1
@@ -71,7 +71,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |6
 |100.000
 |30 Tage
-|6
+|18
 |+3 ST, +1 KO
 |7
 |2 Arme, 2
@@ -80,7 +80,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |7
 |200.000
 |45 Tage
-|7
+|19
 |+3 ST, +2 KO
 |7
 |2 Arme, 2
@@ -89,7 +89,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |8
 |300.000
 |60 Tage
-|9
+|21
 |+4 ST, +3 KO
 |9
 |2 Arme, 4
@@ -98,7 +98,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |9
 |400.000
 |75 Tage
-|11
+|23
 |+4 ST, +4 KO
 |11
 |2 Arme, 5
@@ -107,7 +107,7 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |10
 |500.000
 |90 Tage
-|13
+|25
 |+5 ST, +5 KO
 |13
 |2 Arme, 6

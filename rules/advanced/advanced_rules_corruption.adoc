@@ -1,7 +1,7 @@
 = Korruption
 
 [quote, Unbekannt]
-Schaue zu lange in den Abgrund und der Abgrund schaut zurück
+"Schaue zu lange in den Abgrund und der Abgrund schaut zurück"
 
 Das Multiversum ist nicht nur ein gefährlicher Ort für die körperliche (und geistige) Gesundheit der Sterblichen.
 Kreaturen und Wissen außerhalb der sterblichen Vorstellungskraft hinterlassen Spuren im Geist derjenigen, die das Pech haben, ihren Blick hinter den Schleier zu richten.
@@ -20,7 +20,7 @@ Sie sollen diejenigen Spieler unterstützen, die in ihrem Spiel mit düsteren Th
 Die Verderbnis eines Charakters (und auch eines Nicht-Spieler Charakters) wird in der Einheit *Korruptionspunkte* (oder einfach Korruption) gemessen.
 Zu Beginn des Spiels hat ein Charakter im Normalfall 0 Korruptionspunkte.
 
-Je mehr Korruptionspunkte ein Charakter erhält, umso schwerer wird es für Ihn, seine geistige Gesundheit zu behalten.
+Je mehr Korruptionspunkte ein Charakter erhält, umso schwerer wird es für ihn, seine geistige Gesundheit zu behalten.
 
 Außerdem kann eine hohe Anzahl von Korruptionspunkten zu körperlichen und geistigen Veränderungen, sogenannte *Korruptionen*, führen.
 Korruptionen sind Mutationen vielfältiger Natur, die zeigen sollen, dass ein Charakter, der sich den übernatürlichen Mächten zu häufig aussetzt, früher oder später seinen Preis bezahlt.
@@ -30,14 +30,15 @@ Korruptionen sind Mutationen vielfältiger Natur, die zeigen sollen, dass ein Ch
 
 Die Quellen, um Korruptionspunkte zu erhalten, sind vielfältig.
 Ein Charakter könnte einen Handel mit einem Dämonen eingehen, er könnte verbotenes Wissen lernen oder er ist einfach zur falschen Zeit am falschen Ort.
-In jedem Fall ist der Erhalt eines Korruptionspunkt explizit erwähnt, zum Beispiel durch eine Formulierung wie _"Der Charakter erhält 1 Korruptionspunkt"_.
+In jedem Fall ist der Erhalt eines Korruptionspunkts explizit erwähnt, zum Beispiel durch eine Formulierung wie: _"Der Charakter erhält 1 Korruptionspunkt"_.
 
-Das Erhalten eines Korruptionspunkt hat zunächst keine direkten Auswirkungen, jedoch erhöht sich die Gefahr langfristiger Folgen, die im übernächsten <<ref_corruptions_rules_receive_corruptions,Kapitel>> beschrieben werden.
+Das Erhalten eines Korruptionspunkts hat zunächst keine direkten Auswirkungen, jedoch erhöht sich die Gefahr langfristiger Folgen, die im übernächsten <<ref_corruptions_rules_receive_corruptions,Kapitel>> beschrieben werden.
 
 [[ref_corruptions_rules_corruptionspoints]]
 === Auswirkungen von Korruptionspunkten
 
-In dem Moment, in dem ein Charakter 1 oder mehr Korruptionspunkte erhält, muss er sofort eine Horror-Probe würfeln, wobei die Anzahl der nötigen Erfolge gleich der insgesamt vorhandenen Korruptionspunkte (inklusive des eben Erhaltenen) ist.
+In dem Moment, in dem ein Charakter 1 oder mehr Korruptionspunkte erhält, muss er sofort einen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror-Rettungswurf] würfeln, wobei der xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] sich aus der Formel 12 + alle aktuellen Korruptionspunkte ergibt.
+
 Misslingt die Probe oder ist ein Patzer, gelten die üblichen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Regeln] für Horror-Rettungswürfe.
 Zusätzlich erhält der Charakter eine <<ref_corruptions_rules_receive_corruptions,Korruption>>.
 
@@ -48,7 +49,7 @@ Weitere Auswirkungen von Korruptionspunkten sind situationsabhängig, zum Beispi
 [[ref_corruptions_rules_receive_corruptions]]
 === Korruptionen erhalten
 
-Korruptionen bzw. Mutationen sind die körperlichen oder auch geistigen Veränderungen, die den Charakter permanent zeichnen.
+*Korruptionen* sind die körperlichen oder auch geistigen Mutationen, die den Charakter permanent zeichnen.
 Insbesondere körperliche Mutationen können auf andere verstörend wirken und zeichnen den Charakter als _anders_ (auf die schlechte Art).
 Geistige Mutationen sind nicht sofort sichtbar, aber sie ändern die Verhaltensweisen des Charakters grundlegend, sodas andere ihn bestenfalls als exzentrisch wahrnehmen.
 
@@ -72,15 +73,15 @@ Unterschiedliche Quellen von Korruptionspunkten können auch Auswirkungen auf di
 In diesem Kapitel werden neue Varianten von Korruption vorgestellt, die mehr Detaillierung ermöglichen.
 
 Sofern nicht anders angegeben, sind Korruptionspunkte immer allgemein.
-Nur eine explizite Nennung, wie _"Der Charakter erhält 1 Korruptionspunkt (Aetherisch)"_ gewährt die konkrete Variante.
+Nur eine explizite Nennung, wie _"der Charakter erhält 1 Korruptionspunkt (Aetherisch)"_ gewährt die konkrete Variante.
 
-Charaktere müssen die Korruptionspunkte je Variante separat aufschreiben, allerdings gilt deren Gesamtsumme für die Bestimmung der nötigen Anzahl der Erfolge in der Horror-Probe (siehe <<ref_corruptions_rules_corruptionspoints,Auswirkungen von Korruptionspunkten>>).
+Charaktere müssen die Korruptionspunkte je Variante separat aufschreiben, allerdings gilt deren Gesamtsumme für die Bestimmung des Mindestwurfs des Horror-Rettungswurfs (siehe <<ref_corruptions_rules_corruptionspoints,Auswirkungen von Korruptionspunkten>>).
 
 .Varianten von Korruption
 ====
 Ein Charakter hat 3 Korruptionspunkte (Aetherisch), 2 Korruptionspunkte (Nekrotisch) und 2 weitere allgemeine Korruptionspunkte.
 Damit besitzt er insgesamt 7 Korruptionspunkte.
-Er hält einen weiteren Korruptionspunkt, muss er eine Horror-Probe gegen 7 Erfolge bestehen.
+Er hält einen weiteren Korruptionspunkt, muss er einen Horror-Rettungswurf gegen 12+7=19 bestehen.
 ====
 
 Der Charakter erhält eine <<ref_corruptions_rules_receive_corruptions,Korruption>> in der Wertigkeit der Variante der Korruption, die die Horror-Probe ausgelöst hat.

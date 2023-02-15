@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* TBA +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *Montage:* - +
 *MP-Kosten:* - +
 *Beschreibung:* Dieser Zusatz besteht aus einer komplizierten Anordnung aus hydraulischen Röhren und magischen Kristallen, die subtil und geräuschlos vibrieren.
@@ -16,12 +16,12 @@ Zur Auswahl stehen dabei die Attribute xref:../../../../rules/core/core_rules_2d
 Mit Einbau ändern sich alle xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Attributseigenschaften].
 
 |===
-|Attributsbonus |Materialkosten |Konstruktionszeit |Erfolge
+|Attributsbonus |Materialkosten |Konstruktionszeit |Mindestwurf
 
 |1
 |20.000
 |4 Tage
-|6
+|12
 
 |+1
 |+15.000

@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung  +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* link:../../../spells/spell_fire_odem.adoc[Feuerodem] +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 4 -10 +
 *Montage:* Arme +
 *Attribute:* - +
@@ -21,54 +21,54 @@ Der Flammenwerfer steht für Golems der xref:../../../../rules/core/core_rules_c
 Die folgende Tabelle gibt eine Übersicht die von der GK abhängigen Werte.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Reichweite |Schaden
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Reichweite |Schaden
 
 |4
 |6.000
 |5 Tage
-|3
+|15
 |Kegel 3,00 Meter
 |3W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |5
 |8.000
 |5 Tage
-|4
+|16
 |Kegel 4,50 Meter
 |4W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |6
 |10.000
 |7 Tage
-|5
+|17
 |Kegel 6,00 Meter
 |5W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |7
 |15.000
 |14 Tage
-|6
+|18
 |Kegel 9,00 Meter
 |5W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |8
 |24.000
 |18 Tage
-|8
+|20
 |Kegel 9,00 Meter
 |6W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |9
 |36.000
 |25 Tage
-|10
+|22
 |Kegel 12,00 Meter
 |6W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 
 |10
 |50.000
 |32 Tage
-|12
+|24
 |Kegel 12,00 Meter
 |8W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
 |===

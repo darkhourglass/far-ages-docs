@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 6 - 8 +
 *Montage:* Arme +
 *Attribute:* - +
@@ -27,12 +27,12 @@ Somit ist Die Anzahl der an Projektile pro Kampfphase begrenzt entweder durch di
 Repetier-Kanonen werden nur in den Größenkategorien 6 bis 8 hergestellt, da ihre Konstruktion und Ausführung sehr viel komplexer ist, als die regulärer Kanonen.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |Schadensbonus |Grundreichweite |Magazin
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus |Grundreichweite |Magazin
 
 |6
 |20.000
 |14 Tage
-|7
+|19
 |2W8
 |30,00 Meter
 |12
@@ -40,7 +40,7 @@ Repetier-Kanonen werden nur in den Größenkategorien 6 bis 8 hergestellt, da ih
 |7
 |28.000
 |18 Tage
-|8
+|20
 |4W8
 |45,00 Meter
 |14
@@ -48,7 +48,7 @@ Repetier-Kanonen werden nur in den Größenkategorien 6 bis 8 hergestellt, da ih
 |8
 |40.000
 |24 Tage
-|9
+|21
 |6W8
 |60,00 Meter
 |16

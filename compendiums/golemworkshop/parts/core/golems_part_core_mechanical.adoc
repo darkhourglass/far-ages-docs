@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* - +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 6 - 10 +
 *MP:* siehe Beschreibung +
 *MP-Regeneration:* - +
@@ -15,36 +15,36 @@ Beispielsweise kann ein Golem der GK 7 von einer Kreatur der GK 5 oder kleiner g
 Die Angaben in der folgenden Tabelle beziehen sich immer auf die GK des Golems.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |MP
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |MP
 
 |6
 |17.500
 |7 Tage
-|5
+|17
 |110
 
 |7
 |24.000
 |11 Tage
-|6
+|18
 |220
 
 |8
 |36.000
 |11 Tage
-|7
+|19
 |360
 
 |9
 |52.000
 |13 Tage
-|8
+|20
 |700
 
 |10
 |64.000
 |15 Tage
-|9
+|21
 |900
 |===
 

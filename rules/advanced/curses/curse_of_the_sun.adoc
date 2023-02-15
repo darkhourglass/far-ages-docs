@@ -12,15 +12,15 @@ Der Effekt richtet sich nach dem Typ des Fluches:
 
 [[ref_curse_of_the_sun_weak]]
 == Schwach
-Die Kreatur erleidet einen Malus von -1 auf die Würfe zum Erfolg auf alle Proben.
-Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1 Punkt xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] Schaden.
+Die Kreatur erleidet einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 alle Proben.
+Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1 Punkt xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 
 [[ref_curse_of_the_sun_strong]]
 == Stark
-Die Kreatur erleidet einen Malus von -2 auf die Würfe zum Erfolg auf alle Proben.
-Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1W10 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] Schaden.
+Die Kreatur erleidet einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -6 alle Proben.
+Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1W10 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 
 [[ref_curse_of_the_sun_deathcurse]]
 == Todesfluch
-Die Kreatur erleidet einen Malus von -3 auf die Würfe zum Erfolg auf alle Proben.
-Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 2W10+2 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] Schaden.
+Die Kreatur erleidet einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -10 alle Proben.
+Außerdem erhält sie jede xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 2W10+2 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].

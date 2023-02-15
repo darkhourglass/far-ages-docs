@@ -3,7 +3,7 @@
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
 *Zaubersprüche:* link:../../../spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementar], link:../../../spells/spell_elemental_transfusion.adoc[Elementare Transfusion], link:../../../spells/spell_elemental_barrier.adoc[Elementare Barriere] +
-*Erfolge:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
 *GK:* 5 - 10 +
 *MP:* siehe Beschreibung +
 *MP-Regeneration:* siehe Beschreibung +
@@ -22,47 +22,47 @@ Die Eigenschaft MP-Regeneration der Energiezelle ist jedoch von der Machtstufe d
 Die folgende Tabelle zeigt die Übersicht aller Eigenschaften dieser Energiezelle abhängig von deren GK.
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Erfolge |MP |MP-Regeneration
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |MP |MP-Regeneration
 
 |5
 |24.000
 |14 Tage
-|7
+|19
 |110
 |3 MP pro Machtstufe des Manifests pro Tag
 
 |6
 |30.000
 |18 Tage
-|9
+|21
 |140
 |3 MP pro Machtstufe des Manifests pro Tag
 
 |7
 |50.000
 |24 Tage
-|10
+|20
 |250
 |3 MP pro Machtstufe des Manifests pro Tag
 
 |8
 |72.000
 |28 Tage
-|12
+|22
 |400
 |4 MP pro Machtstufe des Manifests pro Tag
 
 |9
 |95.000
 |32 Tage
-|13
+|25
 |750
 |4 MP pro Machtstufe des Manifests pro Tag
 
 |10
 |120.000
 |36 Tage
-|14
+|26
 |1000
 |5 MP pro Machtstufe des Manifests pro Tag
 

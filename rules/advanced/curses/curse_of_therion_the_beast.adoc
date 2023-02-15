@@ -21,7 +21,7 @@ Nach Ermessen des SL können zusätzliche Proben im Umgang mit Tieren erforderli
 == Schwach
 Die Kreatur zeigt ungewöhnliche Verhaltensweisen, die üblicherweise von Tieren gezeigt werden.
 Dies könnte beispielsweise sind, dass die Kreatur andere Charaktere beschnuppert, sein Essen immer schnellstmöglich runterschlingt oder sein Haus besonders aggressiv verteidigt.
-Möchte die Kreatur eine Verhaltensweise unterdrücken, muss sie eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_willpower[Willenskraft]-Probe bestehen.
+Möchte die Kreatur eine Verhaltensweise unterdrücken, muss sie einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_willpower[Willenskraft-Rettungswurf] bestehen.
 
 [[ref_curse_of_therion_strong]]
 == Stark
@@ -38,8 +38,10 @@ Der Todesfluch von Therion verwandelt die Kreatur dauerhaft in ein reguläres li
 
 Erhält die Kreatur den Fluch zum ersten Mal, muss Sie 1W10 würfeln.
 Die erwürfelte Zahl stellt die Anzahl der Monate, die der Fluch nicht eintritt.
-Nach Ablauf dieser Anzahl Monate muss die Kreatur eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_willpower[Willenskraft]-Probe ablegen.
+Nach Ablauf dieser Anzahl Monate muss die Kreatur einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_willpower[Willenskraft-Rettungswurf] gegen 20 ablegen.
+
 Bei einem Misserfolg tritt der Fluch ein.
+
 Bei einem Erfolg würfelt die Kreatur einen weiteren W10.
 Dies ist wieder die Anzahl der Monate, die der Fluch nicht wirkt.
 Die Kreatur muss die Willenskraft-Probe und die Bestimmung der Monate so lange wiederholen, bis der Fluch gebannt wurde oder sie sich in ein Tier verwandelt.
