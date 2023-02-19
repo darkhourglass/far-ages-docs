@@ -196,12 +196,16 @@ Die Attributseigenschaften ergeben sich direkt aus den <<ref_core_characters_cha
 
 [[ref_core_characters_charactercreation_secondary_calculate_pool_tp]]
 ==== Trefferpunkte (TP)
-Die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[Trefferpunkte] eines Charakters berechnen zu Beginn des Spiels aus seinen Attributsstufen in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[Stärke] und xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[Konstitution] nach der Formel *(ST+KO)*5*.
+Die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[Trefferpunkte] eines Charakters berechnen zu Beginn des Spiels aus seinen Attributsstufen in xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[Stärke] und xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[Konstitution] nach der Formel *(ST+KO)*5 + TP-Bonus*.
+Der TP-Bonus ergibt sich aus der <<ref_core_characters_charactercreation_sizecategories_tpbonus,GK>> des Charakters.
 
 .Trefferpunkte
 ====
 Der Charakter von Michael besitzt eine Attributsstufe von 3 in Stärke und 2 in Konstitution.
-Daher hat der Charakter initial (3+2)*5 = 25 TP.
+Aus diesen Werten errechnen sich zunächst (3+2)*5 = 25 TP.
+Michael spielt außerdem einen Charakter mit GK 5.
+Dieser erhält einen Bonus von +10 auf seine TP.
+Insgesamt hat Michaels Charakter also 25+10=35 TP.
 ====
 
 [[ref_core_characters_charactercreation_secondary_calculate_pool_mp]]
@@ -382,11 +386,12 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 
 .Größenkategorien
 |===
-|Größenkategorie |Beispiel |Basisbewegung (Meter) |Primärhand |Sekundärhand |Zweihand |Am Körper getragene Rüstung
+|Größenkategorie |Beispiel |Basisbewegung (Meter) |TP-Bonus |Primärhand |Sekundärhand |Zweihand |Am Körper getragene Rüstung
 
 |1
 |Maus
 |0,75
+|+5
 |1
 |1
 |2
@@ -395,6 +400,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |2
 |Rabe
 |1,50
+|+5
 |2
 |1
 |3
@@ -403,6 +409,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |3
 |Hund
 |3,00
+|+5
 |3
 |2
 |4
@@ -411,6 +418,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |4
 |Zwerg
 |6,00
+|+10
 |4
 |3
 |5
@@ -419,6 +427,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |5
 |Mensch
 |7,50
+|+10
 |5
 |4
 |6
@@ -426,6 +435,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 
 |6
 |Troll
+|+15
 |9,00
 |5
 |5
@@ -434,6 +444,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 
 |7
 |Greif
+|+15
 |12,00
 |7
 |6
@@ -443,6 +454,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |8
 |Lindwurm
 |15,00
+|+20
 |8
 |7
 |9
@@ -451,6 +463,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |9
 |Drache
 |21,00
+|+20
 |9
 |8
 |10
@@ -459,6 +472,7 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 |10
 |Allschwinge
 |27,00
+|+25
 |10
 |9
 |11
@@ -469,6 +483,9 @@ Die folgende Tabelle gibt Aufschluss über die Größenkategorie und damit zusam
 *Basisbewegung:* dieser Wert beschreibt eine Distanz, die eine Kreatur der jeweiligen Größe innerhalb einer Kampfphase zurücklegen kann.
 Dieser Wert kann jedoch noch durch zusätzliche Modifikatoren beeinflusst werden.
 Die Basisbewegung bezieht sich nur auf die Bewegung am Boden, unterschiedliche Fortbewegungsmethoden (zum Beispiel Fliegen) werden separat behandelt.
+
+[[ref_core_characters_charactercreation_sizecategories_tpbonus]]
+Der *TP-Bonus* ist ein fester Wert, der bei <<ref_core_characters_charactercreation,Charaktererschaffung>> zu den <<ref_core_characters_charactercreation_secondary_calculate_pool_tp,initialen TP>> hinzuaddiert wird.
 
 [[ref_core_characters_charactercreation_sizecategories_primary_hand]]
 *Primärhand:* Waffen werden wie Charaktere abstrakt in Größen eingeteilt.
@@ -768,32 +785,25 @@ Die Eigenschaften des ersten Volkes bleiben vollständig erhalten.
 [[ref_core_character_advanced_rules_bloodlines]]
 === Blutlinien
 
-//    TODO: Blutlinien ändern
-// Anstelle Charakterschaffung wie Paragon-Path behandeln / als Paragon-Path behandlen
-// i.e. Exemplar of Elvenkind, Exemplar of Humankind, Exemplar of Dragons...
-
-
-Zur Charaktererschaffung und bei <<ref_core_characters_charactercreation_race,Wahl des Volkes>>, kann der Spieler entscheiden, ob er diese Option nutzen möchte.
-
-Im Stammbaum des Charakters befindet sich ein ungewöhnlicher Vorfahr aus einem anderen Volk oder sogar übernatürlicher Abstammung.
+Zur Charaktererschaffung und bei <<ref_core_characters_charactercreation_race,Wahl des Volkes>>, kann der Spieler entscheiden, ob er diese Option der *Blutlinie* nutzen möchte.
+Im Stammbaum des Charakters befindet sich ein außergewöhnlicher Vorfahr, wie ein Drache, oder sogar eine übernatürliche Abstammung.
 Dessen besondere und vielleicht einzigartige Attribute liegen der Familie sprichwörtlich im Blut, wobei nicht jeder (und vielleicht nur der Charakter selbst) diese Eigenschaften manifestiert.
 
-*Blutlinien* werden wie Talente in Stufen gelernt und ein Charakter muss die CP der ersten Stufe der Blutlinie bei der Charaktererschaffung lernen.
-Der Charakter kann immer nur einer Blutlinie angehören.
-Danach kostet jede Stufe *100 CP* multipliziert mit der Ziel-Stufe.
+Blutlinien müssen bei der <<ref_core_characters_charactercreation,Charaktererschaffung>> gewählt werden.
+Jede Blutlinie besitzt dazu Voraussetzungen und CP-Kosten, die von den <<ref_core_characters_charactercreation_initial_characterpoints,initialen CP>> bezahlt werden müssen.
+Wie bei regulären <<ref_core_characters_charactercreation_race,Völkern>>, <<ref_core_characters_charactercreation_profession,Berufen>> oder <<ref_core_characters_charactercreation_backround,Hintergründen>> erhält der Charakter eventuell Boni auf Attributsstufen, die sofort verrechnet werden, oder besondere Eigenschaften.
 
-Jede Stufe bringt eine Eigenschaft mit sich, die der Charakter mit Erlernen der Stufe sofort beherrscht.
-Stufen müssen in angegebener Reihenfolge gelernt werden und jede Blutlinie hat eine maximale Stufe.
-Wird diese erlernt, kann man keine CP mehr in diese investieren und neuen Stufen lernen.
+Die komplette Liste der Blutlinien findet sich hier: link:../advanced/advanced_rules_index_bloodlines.adoc[Blutlinien].
 
-Die komplette Liste der Blutlinien findet sich hier: link:../advanced/advanced_rules_bloodlines.adoc[Blutlinien]
+[NOTE]
+Ein Charakter mit einer außergewöhnlichen Blutlinie ist im Vergleich zu einem <<ref_core_character_advanced_rules_halfbloods,Halb-Blut>> keine direkte 'Mischung' aus zwei Völkern, sondern eher eine zufällige Laune des Schicksals.
+Die Differenzierung erfolgt grob daran, dass ein Volk wie Halb-Elfen neben link:races/core_races_humans.adoc[Menschen] und link:races/core_races_elves_general.adoc[Elfen] seit vielen Generationen existieren kann, während nur ein einziger link:../advanced/bloodlines/bloodline_dragon.adoc[Halb-Drache] auf dem ganzen Planeten zu finden ist.
 
 [[ref_core_character_advanced_rules_paragon_paths]]
 === Schicksalspfade
+*Schicksalspfade* schließen die Lücke zwischen der initialen Charakterdarstellung aus der Kombination <<ref_core_characters_charactercreation_race,Volk>>, <<ref_core_characters_charactercreation_profession,Beruf>> und <<ref_core_characters_charactercreation_backround,Hintergrund>> mit dem erfahrenen Abenteurer, der durch seine Taten über dieses hinausgewachsen ist.
 
-*Schicksalspfade* schließen die Lücke zwischen der initialen Charakterdarstellung aus der Kombination Völk, Beruf und Hintergrund mit dem erfahrenen Abenteurer, der durch seine Taten über dieses hinausgewachsen ist.
-
-Im Gegensatz zu <<ref_core_character_advanced_rules_halfbloods,Halb-Bluten>> oder <<,ref_core_character_advanced_rules_bloodlines,Blutlinien>> werden Schicksalspfade nicht bei der Charaktererschaffung ausgewählt (außer der SL erlaubt dies sehr explizit).
+Im Gegensatz zu <<ref_core_character_advanced_rules_halfbloods,Halb-Bluten>> oder <<ref_core_character_advanced_rules_bloodlines,Blutlinien>> werden Schicksalspfade nicht bei der Charaktererschaffung ausgewählt (außer der SL erlaubt dies sehr explizit).
 Stattdessen muss der Charakter die angegebenen Voraussetzungen erfüllen.
 Sobald er dies tut, kann er den Schicksalspfad lernen, in dem er die angegeben CP einmal ausgibt.
 Dieser Vorgang ist vergleichbar mit dem Erlernen einer besonderen Fähigkeit.
@@ -826,9 +836,26 @@ Er muss daher 5*200 = 1000 CP ausgeben.
 ====
 
 Die komplette Liste der Schicksalspfade finde sich hier:
-link:../advanced/advanced_rules_paragon_paths.adoc[Schicksalspfade].
+link:../advanced/advanced_rules_index_paragon_paths.adoc[Schicksalspfade].
+
+[NOTE]
+Schicksalspfade sind mit der Bestrebung erstellt, auf dem <<ref_core_characters_charactercreation_profession,Beruf>> eines Charakters heraus eine Bestimmung abzuleiten.
+Ergänzend dazu dienen <<ref_core_character_advanced_rules_exemplars,Exemplars>>, um dies für ein <<ref_core_characters_charactercreation_race,Volk>> darzustellen.
 
 ==== Optional: Anzahl der Schicksalspfade
-
 Die Anzahl der Schicksalspfade ist im System von Far Ages durch die Regeln nicht auf einen Schicksalspfad pro Charakter beschränkt.
 Der SL kann natürlich beliebig Beschränkungen einführen.
+
+[[ref_core_character_advanced_rules_exemplars]]
+=== Exemplars
+Wie ein <<ref_core_character_advanced_rules_paragon_paths,Schicksalspfad>> stellen *Exemplars* eine weiterführende Entwicklung eines Charakters nach seiner <<ref_core_characters_charactercreation,Erschaffung>> und im weiteren Verlauf des Abenteuerlebens dar.
+Allerdings beziehen sich Exemplars auf das <<ref_core_characters_charactercreation_race,Volk>> eines Charakters.
+
+Analog zu Schicksalspfaden sind Exemplar in Stufen eingeteilt und ein Charakter muss zunächste Stufe 1 lernen und die angegebenen CP ausgeben.
+Jede weitere Stufe kostet *200 CP* multipliziert mit der Ziel-Stufe.
+
+Pro Stufe kann der Charakter aus der je Exemplar angegebenen Liste von Fähigkeiten eine dieser auswählen und lernt diese sofort.
+Sofern nicht anders angegeben, kann jede Fähigkeit nur einmal gelernt werden.
+
+Im Gegensatz zu Schicksalspfaden kann ein Charakter immer nur genau einen Exemplar-Pfad lernen.
+Die Kombination aus Schicksalpfaden und Exemplars ist möglich.

@@ -17,7 +17,7 @@ Lore
 *ST:* XXX (+x)     *GE:* XXX (+x)     *KO:* XXX (+x) +
 *ER:* XXX (+x)     *EN:* XXX (+x)     *SB:* XXX (+x)    *CH:* XXX (+x) +
 
-//TP=(ST+KO)*5
+//TP=TP-Bonus (GK) + (ST+KO)*5
 //MP=EN*10
 //SP=(SB+CH)*5
 *TP:* XXX     *MP:* XXX     *SP:* XXX +

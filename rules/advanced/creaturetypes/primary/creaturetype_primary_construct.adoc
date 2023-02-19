@@ -43,12 +43,12 @@ Diese Konstrukte folgen, sofern nicht anders angegeben, den üblichen Regeln fü
 Beispielsweise trifft dies den Zauberspruch link:../../../../compendiums/spells/spell_control_construct.adoc[Konstrukt kontrollieren] zu, der Konstrukte abhängig von ihrer Machtstufe kontrollieren kann.
 
 // TODO link
-Beispiele für Konstrukte ohne explizite Machtstufe sind Konstrukte, die durch andere Kreaturen direkt gesteuert werden, wie Magierträger oder gar link:../secondary/creaturetype_secondary_living.adoc[lebendig] sind, wie link:../../../core/races/core_races_effigies.adoc[TBA].
+Beispiele für Konstrukte ohne explizite Machtstufe sind Konstrukte, die durch andere Kreaturen direkt gesteuert werden, wie Magierträger oder link:../secondary/creaturetype_secondary_living.adoc[lebendig] sind, wie link:../../../core/races/core_races_effigies.adoc[TBA].
 
 [[ref_constructs_rules_controll_and_behavior]]
 === Kontrolle und Verhalten
 
-Im Gegensatz zu link:creaturetype_primary_undead.adoc[Untoten] besitzen Konstrukte keine xref:creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_personality[Persönlichkeiten] (oder eher das Potential dazu), sondern ihr Verhalten wird ausschließlich durch ihr xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programm] bestimmt.
+Im Gegensatz zu link:creaturetype_primary_undead.adoc[Untoten] besitzen Konstrukte keine xref:creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_personality[Persönlichkeiten] (oder eher das Potenzial dazu), sondern ihr Verhalten wird ausschließlich durch ihr xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programm] bestimmt.
 Dieses Programm wird im Normalfall durch einen Technomanten (beziehungsweise den Erschaffer des Konstrukts) bei der Konstruktion festgelegt und kann auch unter Umständen nachträglich geändert wird.
 
 Solange ein Konstrukt ein solches Programm besitzt, wird es aktiv dieses Programm verfolgen.
@@ -126,7 +126,7 @@ In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Konstrukte vo
 * Konstrukte können nicht xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_drowing[ertrinken].
 * Konstrukte verlieren nie SP oder werden wahnsinnig.
 * Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
-* Konstrukte können TP nur <<ref_constructs_rules_repair,Reparatur>> regenerieren oder durch entsprechende Zaubersprüche wie link:../../../../compendiums/spells/spell_repair_construct.adoc[Konstrukt reparieren].
+* Konstrukte können TP nur durch eine <<ref_constructs_rules_repair,Reparatur>> regenerieren oder durch entsprechende Zaubersprüche wie link:../../../../compendiums/spells/spell_repair_construct.adoc[Konstrukt reparieren].
 * Konstrukte regenerieren MP nicht automatisch, außer sie besitzen eine passende xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
 * Konstrukte erhalten aus ihrem xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attribut] nicht zwangsläufig xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP], sondern besitzen eine xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
 

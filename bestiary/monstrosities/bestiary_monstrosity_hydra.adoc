@@ -30,7 +30,7 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 *ST:* 7 (+3)    *GE:* 3 (+1)   *KO:* 8 (+3) +
 *ER:* 2 (+1)    *EN:* 3 (+1)   *SB:* 2 (+1)    *CH:* 1 (+1) +
 
-*TP:* 95 bis 295 (<<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>)     *MP:* 30     *SP:* 30 +
+*TP:* 110 bis 310 (<<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>)     *MP:* 30     *SP:* 30 +
 
 *WID:* 20 +
 *BEW:* 12,00, link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 12,00 Meter +
@@ -70,7 +70,7 @@ Für diese gelten besondere Regeln, die im Folgenden vorgestellt werden:
 * Zu jedem Zeitpunkt kann eine Hydra maximal 12 Köpfe besitzen.
 * Zu Beginn einer Begegnung besitzt die Hydra eine vom SL bestimmte Zahl von Köpfen, maximal jedoch 12.
 Die Bestimmung kann zufällig durch 1W6+3 bestimmt werden.
-* Jeder Kopf bietet der Hydra 20 Punkt auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool], der minimal 95 TP beträgt (75 plus 1 Kopf).
+* Jeder Kopf bietet der Hydra 20 Punkt auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool], der minimal 110 TP beträgt (90 plus 1 Kopf).
 Dabei handelt es sich nicht um xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_temporary[temporäre] Punkte.
 * Eine Hydra ohne Köpfe, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt] sofort, unabhängig von ihren verbliebenen TP.
 * Solange die Hydra mehr als einen Kopf besitzt, kann sie ihre Fähigkeit link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] verwenden.

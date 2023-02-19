@@ -831,7 +831,7 @@ Nun können die Attributseigenschaften berechnet werden, wobei die Fähigkeit li
 
 Das Gleiche gilt für die Pools des Golems:
 
-*TP:* ((ST+KO) * 5)+ 60 = 145 +
+*TP:* 15 + ((ST+KO) * 5)+ 60 = 160 +
 *MP:* 140 (ergibt sich aus verbauter Standardzelle) +
 *SP:* (SB+CH) * 5 = 20 +
 
