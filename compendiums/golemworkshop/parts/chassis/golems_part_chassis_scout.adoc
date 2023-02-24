@@ -6,25 +6,24 @@
 *Mindestwurf:* siehe Beschreibung +
 *GK:* 1-10 +
 *Attribute:* siehe Beschreibung +
-*Machtstufe:* siehe Beschreibung +
 *Bewaffnung:* siehe Beschreibung +
 *Zusätze:* siehe Beschreibung +
+*Machtstufe:* 2 +
 *Beschreibung:* Ein Kundschafter-Chassis ist eine spezialisierte Variante des link:golems_part_chassis_humanoid.adoc[humanoiden Chassis], welches leichte Bewaffnung und Beweglichkeit unterstützt.
 
 Ein Kundschafter-Chassis bietet wie das humanoide Chassis 2 Arme, kann jedoch nur einen dieser Arme zur Bewaffnung verwenden.
 
 Das Chassis kann in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 hergestellt werden.
-Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
+Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Attribute |Machtstufe |Bewaffnung |Zusätze
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Attribute |Bewaffnung |Zusätze
 
 |1
 |10.000
 |3 Tage
 |16
 |+1 GE
-|1
 |2 Arme
 |1
 
@@ -33,7 +32,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |3 Tage
 |16
 |+1 GE
-|1
 |2 Arme
 |1
 
@@ -42,7 +40,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |8 Tage
 |17
 |+1 GE
-|2
 |2 Arme
 |1
 
@@ -51,7 +48,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |15 Tage
 |17
 |+2 GE
-|3
 |2 Arme, 1
 |2
 
@@ -60,7 +56,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |20 Tage
 |18
 |+2 GE, +1 KO
-|4
 |2 Arme, 1
 |2
 
@@ -69,7 +64,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |30 Tage
 |6
 |+3 GE, +1 KO
-|7
 |2 Arme, 2
 |3
 
@@ -78,7 +72,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |45 Tage
 |19
 |+3 GE, +2 KO
-|7
 |2 Arme, 2
 |4
 
@@ -87,7 +80,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |60 Tage
 |21
 |+4 GE, +3 KO
-|9
 |2 Arme, 4
 |5
 
@@ -96,7 +88,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |75 Tage
 |23
 |+4 GE, +4 KO
-|11
 |2 Arme, 5
 |6
 
@@ -105,7 +96,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attributen:
 |90 Tage
 |25
 |+5 GE, +5 KO
-|13
 |2 Arme, 6
 |8
 |===

@@ -7,6 +7,7 @@
 *GK:* 1 - 10 +
 *Bewegungsmodifikator:* siehe Beschreibung +
 *Bewegungsmodus:* Standard (siehe <<ref_golems_part_movement_wheels_rules,Regeln>>) +
+*Machtstufe:* 1 +
 *Beschreibung:* Eine sehr populäre Fortbewegungsmethode ist die Bewegung über motorisierte Räder.
 Im Vergleich zu link:golems_part_movement_legs_2.adoc[Beinen] ist die Methode einfacher und günstiger umzusetzen.
 Außerdem können Golems damit weite Strecken schneller zurücklegen.

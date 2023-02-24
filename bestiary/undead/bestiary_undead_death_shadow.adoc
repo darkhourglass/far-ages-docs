@@ -54,7 +54,7 @@ Lore
 
 == Offensiv
 
-* <<ref_bestiary_death_shadow_bloodfreeze, Blut gefrieren>> 11
+* <<ref_bestiary_death_shadow_bloodfreeze,Blut gefrieren>> 11
 
 == Defensive
 
@@ -76,6 +76,8 @@ Todesschatten attackieren ihre Opfer, in dem sie diese mit ihren schattenhaften 
 Diese Berührung alleine reicht aus, um diesen schweren Schaden zuzufügen.
 Die Attacke wird als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] mit Reichweite xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_range[Berührung] gewürfelt.
 Dem Opfer steht eine reguläre xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magieabwehr-Probe] zu.
+
+== Taktik
 
 Bei einem Erfolg wird ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Schadenswurf] mit einem Schadensbonus von 3W6+2 gewürfelt.
 

@@ -15,12 +15,12 @@ Lore
 *ST:* 10 (+4)     *GE:* 3 (+1)      *KO:* 7 (+3) +
 *ER:* 2  (+1)     *EN:* 2 (+1)      *SB:* 3 (+1)     *CH:* 1 (+1) +
 
-*TP:* 160    *MP:* 140     *SP:* 20 +
+*TP:* 180    *MP:* 140     *SP:* 20 +
 
 *WID:* 26 +
 *BEW:* 12,00 Meter +
 *INI:* 5 +
-*MaxTL:* 290 +
+*MaxTL:* 250 +
 *MaxPOT:* 5 +
 
 *Rüstung:* 6 (link:../../compendiums/golemworkshop/parts/plating/golems_part_plating_steel_half.adoc[Stahlpanzerung (Halb)]) +
@@ -63,9 +63,9 @@ Lore
 
 [[ref_bestiary_alvahian_battlegolem_markVII]]
 === Machtstufe
-Dieser Schlachtengolem ist ein Konstrukt der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe] 7.
+Dieser Schlachtengolem ist ein Konstrukt der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe] 8.
 
-
+== Taktik
 
 
 

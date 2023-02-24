@@ -124,7 +124,7 @@ Der SL kann eine Probe verlangen, wenn er es für angemessen hält.
 In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Konstrukte von anderen Wesen abweichen.
 
 * Konstrukte können nicht xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_drowing[ertrinken].
-* Konstrukte verlieren nie SP oder werden wahnsinnig.
+* Konstrukte besitzen keine SP, verlieren diese nie oder werden wahnsinnig.
 * Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
 * Konstrukte können TP nur durch eine <<ref_constructs_rules_repair,Reparatur>> regenerieren oder durch entsprechende Zaubersprüche wie link:../../../../compendiums/spells/spell_repair_construct.adoc[Konstrukt reparieren].
 * Konstrukte regenerieren MP nicht automatisch, außer sie besitzen eine passende xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].

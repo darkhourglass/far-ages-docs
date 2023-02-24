@@ -6,9 +6,9 @@
 *Mindestwurf:* siehe Beschreibung +
 *GK:* 1-10 +
 *Attribute:* siehe Beschreibung +
-*Machtstufe:* siehe Beschreibung +
 *Bewaffnung:* siehe Beschreibung +
 *Zusätze:* siehe Beschreibung +
+*Machtstufe:* 3 +
 *Beschreibung:* Dieses Chassis ist die schwere Variante des link:golems_part_chassis_humanoid.adoc[humanoiden Chassis], wobei es sich auf die Verwendung von xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_heavy[schwerer Bewaffnung] spezialisiert.
 Das Chassis gibt für die Bewaffnung ebenfalls 2 Arme vor, diese dürfen jedoch schwere Bewaffnung eingebaut bekommen.
 
@@ -18,14 +18,13 @@ Das Chassis kann in den xref:../../../../rules/core/core_rules_charactercreation
 Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 
 |===
-|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Attribute |Machtstufe |Bewaffnung |Zusätze
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Attribute |Bewaffnung |Zusätze
 
 |1
 |15.000
 |3 Tage
 |16
 |+1 ST, -1 GE, +1 KO
-|1
 |2 Arme (schwer)
 |1
 
@@ -34,7 +33,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |5 Tage
 |16
 |+1 ST, -1 GE, +1 KO
-|1
 |2 Arme (schwer)
 |1
 
@@ -43,7 +41,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |8 Tage
 |17
 |+1 ST, -1 GE, +1 KO
-|2
 |2 Arme (schwer)
 |1
 
@@ -52,7 +49,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |5 Tage
 |17
 |+2 ST, -1 GE, +1 KO
-|3
 |2 Arme (schwer), 1
 |2
 
@@ -61,7 +57,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |20 Tage
 |18
 |+2 ST, -1 GE, +2 KO
-|4
 |2 Arme (schwer), 1
 |2
 
@@ -70,7 +65,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |30 Tage
 |18
 |+3 ST, -1 GE, +2 KO
-|7
 |2 Arme (schwer), 2
 |3
 
@@ -79,7 +73,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |45 Tage
 |19
 |+4 ST, -1 GE,  +2 KO
-|7
 |2 Arme (schwer), 2
 |4
 
@@ -88,7 +81,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |60 Tage
 |21
 |+5 ST, -2 GE, +4 KO
-|9
 |2 Arme (schwer), 4
 |5
 
@@ -97,7 +89,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |75 Tage
 |23
 |+5 ST, -2 GE, +5 KO
-|11
 |2 Arme (schwer), 5
 |6
 
@@ -106,7 +97,6 @@ Die folgende Tabelle bietet den Überblick über die entsprechenden Attribute:
 |90 Tage
 |25
 |+6 ST, -2, GE, +6 KO
-|13
 |2 Arme (schwer), 6
 |8
 |===

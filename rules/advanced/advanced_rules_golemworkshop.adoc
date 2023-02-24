@@ -60,7 +60,7 @@ Es können natürlich auch direkt alle optionalen Einzelteile gewählt werden, w
 
 Unter den erforderlichen Einzelteilen bestimmt das Chassis zunächst die xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] des Konstrukts.
 Von dieser hängen beispielsweise initiale <<ref_golemworkshop_creation_steps_profile_attributes,Attributsstufen>> ab.
-Außerdem bestimmt die xref:..//core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis im Normalfall direkt die GK der weiteren Einzelteile.
+Außerdem bestimmt die xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Chassis im Normalfall direkt die GK der weiteren Einzelteile.
 Dies stellt dar, dass ein Golem mit GK 5 auch Beine und Arme der gleichen GK hat.
 
 Jedes Einzelteil wird bezüglich der Konstruktion als eigenständiges xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Gerät] verstanden.
@@ -114,15 +114,15 @@ Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref
 
 *Attribute:* In diesem Teil des Eintrags werden Boni oder Mali auf Attributsstufen angegeben, die ein Golem erhält, wenn er dieses Chassis erhält.
 
-*Machtstufe:* Jedes Chassis bringt eine Basis-Machtstufe mit sich.
-Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale Machtstufe des Konstrukts bestimmen.
-
 *Bewaffnung:* Jedes Chassis kann nur eine bestimmte Anzahl von <<ref_golemworkshop_creation_steps_weaponary,Bewaffnungen>> aufnehmen.
 Ist die Angabe *Arme* hinterlegt, die gibt diese Zahl die Anzahl der Arme am Chassis an.
 Manche Bewaffnung erfordert einen freien Arm zum Einbau.
 
 *Zusätze:* Jedes Chassis kann nur eine bestimmte Anzahl von <<ref_golemworkshop_creation_steps_additions,Zusätzen>> aufnehmen.
 Die hier angegeben Zahl gibt die maximale Anzahl dieser Zusätze an.
+
+*Machtstufe:* Jedes Chassis bringt einen Modifikator auf die Machtstufe mit sich.
+Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale <<ref_golemworkshop_creation_steps_profile_powerlevel,Machtstufe des Konstrukts>> bestimmen.
 
 *Beschreibung:* Dieser Abschnitt beschreibt das Chassis und kann weitere Regeln und Besonderheiten enthalten.
 
@@ -166,6 +166,9 @@ Energiezellen haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassi
 *MP:* Diese Angabe bestimmt die Anzahl der MP im MP-Pool dieser Energieversorgung.
 
 *MP-Regeneration:* Falls die Energiezelle eine automatische MP-Regeneration anbietet, ist hier die Anzahl der MP pro Zeiteinheit angegebenen, zum Beispiel "1 MP pro Kampfphase".
+
+*Machtstufe:* Jede Energiezelle bringt einen Modifikator auf die Machtstufe mit sich.
+Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale <<ref_golemworkshop_creation_steps_profile_powerlevel,Machtstufe des Konstrukts>> bestimmen.
 
 *Beschreibung:* Dieser Abschnitt beschreibt die Energiezelle und kann weitere Regeln und Besonderheiten enthalten.
 
@@ -225,6 +228,9 @@ Die Angabe eines Talents bedeutet immer, dass die Angriffsprobe für diese Bewaf
 *MP-Kosten:* Benötigt der Einsatz dieser Bewaffnung (ggf. damit zusätzlich zur Talent-Aktivierung) MP, so sind diese hier als Zahl angegeben.
 Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[Pool] abziehen.
 
+*Machtstufe:* Jede Bewaffnung bringt einen Modifikator auf die Machtstufe mit sich.
+Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale <<ref_golemworkshop_creation_steps_profile_powerlevel,Machtstufe des Konstrukts>> bestimmen.
+
 *Beschreibung:* Dieser Abschnitt beschreibt die Bewaffnung und kann weitere Regeln und Besonderheiten enthalten.
 
 [[ref_golemworkshop_creation_steps_movement]]
@@ -259,6 +265,9 @@ Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 *Bewegungsmodus:* Bei dieser Angabe handelt es sich um die Art, wie sich der Golem fortbewegt.
 Die Angabe _Standard_ deutet, dass alle üblichen Regeln gelten.
 Andere Angaben entsprechen der jeweiligen Fähigkeit, zum Beispiel link:../../bestiary/skills/bestiary_skill_move_swim.adoc[Schwimmen].
+
+*Machtstufe:* Jede Bewegungsoption bringt einen Modifikator auf die Machtstufe mit sich.
+Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale <<ref_golemworkshop_creation_steps_profile_powerlevel,Machtstufe des Konstrukts>> bestimmen.
 
 *Beschreibung:* Dieser Abschnitt beschreibt der Bewegungsmöglichkeit und kann weitere Regeln und Besonderheiten enthalten.
 
@@ -296,6 +305,9 @@ Sie haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 *Rüstungsschutz:* bietet die Panzerung xref:../core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung], ist die in Form von Punkten angegeben
 
 *Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, insbesondere <<ref_golemworkshop_creation_steps_plating_heavy,schwere Panzerung>>.
+
+*Machtstufe:* Jede Panzerung bringt einen Modifikator auf die Machtstufe mit sich.
+Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale <<ref_golemworkshop_creation_steps_profile_powerlevel,Machtstufe des Konstrukts>> bestimmen.
 
 *Beschreibung:* Dieser Abschnitt beschreibt der Panzerung und kann weitere Regeln und Besonderheiten enthalten.
 
@@ -337,18 +349,22 @@ Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref
 *MP-Kosten:* Benötigt der Einsatz dieses Zusatzes, so sind diese hier als Zahl angegeben.
 Der Golem muss diese MP von seinem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[Pool] abziehen.
 
+*Machtstufe:* Jeder Zusatz bringt einen Modifikator auf die Machtstufe mit sich.
+Der hier angegebene Wert wird addiert zu allen anderen Faktoren, die die finale <<ref_golemworkshop_creation_steps_profile_powerlevel,Machtstufe des Konstrukts>> bestimmen.
+
 *Beschreibung:* Dieser Abschnitt beschreibt den Zusatz im Detail und kann weitere Regeln und Besonderheiten enthalten.
 
 [[ref_golemworkshop_creation_steps_finale]]
 ==== Finale Arbeiten
 
 Nachdem alle Einzelteile gewählt und erstellt wurden, muss der Technomant eine finale Probe mit seinem xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie-Talent] ablegen, um den Golem zusammenzusetzen.
-Der Mindestwurf ist hier 18 + Anzahl der Einzelteile.
+Der Mindestwurf wird bestimmt durch die Formel *12 + <<ref_golemworkshop_creation_steps_profile_powerlevel,finale Machtstufe>> des Golems*.
 
 .Finale Arbeiten
 ====
 Ein Golem besteht auf 1 Chassis, 1 Energiezelle, 2 Bewaffnungen, 1 Bewegungsoption und 3 Zusätzen.
-Der Mindestwurf für die finale Technomantie-Probe berechnet sich aus 18+1+1+2+1+3=26.
+Insgesamt ergibt sich eine Machtstufe aus 8.
+Der Mindestwurf für die finale Technomantie-Probe berechnet sich aus 12+8=20.
 ====
 
 Bei einem xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] kann der Technomant die Arbeit nicht erfolgreich abschließen.
@@ -511,15 +527,9 @@ Somit hat er Gesamt-BEW von 12,00 Metern.
 [[ref_golemworkshop_creation_steps_profile_powerlevel]]
 ===== Machtstufe
 
-Jedes Konstrukt besitzt eine xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe].
-Golems erhalten eine Basis-Machtstufe aufgrund ihres <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
-Andere Komponenten können diese Machtstufe erhöhen oder auch reduzieren, sofern dies explizit in ihrer Beschreibung aufgeführt ist.
-Die Summe der Basis-Machtstufe plus alle weiteren Modifikatoren ergibt die finale Machtstufe des Golems.
-
-.Machtstufe
-====
-Ein Golem mit link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[humanoiden Chassis] und einer GK von 6 hat eine Machtstufe von 7.
-====
+Jedes xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] besitzt eine xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe].
+Golems erhalten eine Machtstufe aufgrund der Summe aller Machtstufen aus ihren <<ref_golemworkshop_creation_steps,Einzelteilen>>.
+Ein <<ref_golemworkshop_steps_example,Beispiel>> wird am Ende dieses Dokuments vorgestellt.
 
 [[ref_golemworkshop_creation_steps_profile_talents]]
 ===== Talente und Talentstufen
@@ -750,52 +760,61 @@ Die folgende Tabelle zeigt für diese eine Übersicht für die wichtigsten Eckda
 
 
 |===
-|Teil |Kosten (Silbermünzen) |Dauer (Tage) |Mindestwurf
+|Teil |Kosten (Silbermünzen) |Dauer (Tage) |Mindestwurf |Machtstufe
 
 |Humanoides Chassis
 |100.000
 |30
 |18
+|2
 
 |Standardzelle
 |20.000
 |7
 |17
+|1
 
 |2 Beine
 |60.000
 |18
 |20
+|1
 
 |Kriegshammer
 |6.500
 |4
 |16
+|1
 
 |Flammenwerfer
 |10.000
 |7
 |17
+|1
 
 |Stahlpanzerung (Halb)
 |30.000
 |12
 |20
+|1
 
 |Schaltkreis des Ausweichens
 |20.000
 |5
 |17
+|0
 
 |Kraftfeld
 |50.000
 |14
 |22
+|1
 
 |*Gesamt*
 |*296.500*
 |*97*
 |-
+|8
 |===
 
 Sind alle Einzelteile vollständig erstellt und die <<ref_golemworkshop_creation_steps_finale,abschließende Technomantie-Probe>> erfolgreich, ist der Golem funktionsbereit.
@@ -825,15 +844,15 @@ Nun können die Attributseigenschaften berechnet werden, wobei die Fähigkeit li
 
 *WID:* 26 (folgt aus KO + 6 aus Maschinenüberlegenheit)  +
 *BEW:* 12,00 Meter (Basis 9,00 durch GK +3,00 Meter aus Bewegungsoption) +
-*INI:* GE+ER = 5  +
-*MaxTL:* 290 (folgt aus ST +140 aus Maschinenüberlegenheit) +
+*INI:* GE+ER = 5 +
+*MaxTL:* 250 (folgt aus ST +140 aus Maschinenüberlegenheit) +
 *MaxPOT:* 5 (folgt aus EN) +
 
 Das Gleiche gilt für die Pools des Golems:
 
-*TP:* 15 + ((ST+KO) * 5)+ 60 = 160 +
+*TP:* 15 + ((ST+KO) * 5) + 80 = 180 +
 *MP:* 140 (ergibt sich aus verbauter Standardzelle) +
-*SP:* (SB+CH) * 5 = 20 +
+*SP:* - (Konstrukte besitzen keine SP) +
 
 Außerdem lernt der Golem die Talente xref:../core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] (Kriegshammer), xref:../core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] (Flammenwerfer) und xref:../core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] (Schaltkreis des Ausweichens).
 

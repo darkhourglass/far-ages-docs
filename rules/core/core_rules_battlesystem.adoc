@@ -430,7 +430,7 @@ Analog zu den üblichen Beschränkungen im eigenen Zug und pro Kampfphase gelten
 * max. 1 <<ref_core_battle_additionalactions_bonusreactions,Bonus-Reaktion>>
 
 [NOTE]
-Weitere Quellen besonderer, zusätzlicher Aktionen ist zum Beispiel die Kreaturen-Schablone link:../../bestiary/templates/bestiary_template_legendary.adoc[Legendär], die legendäre Aktionen, Manöver und Reaktionen erlaubt.
+Weitere Quellen besonderer, zusätzlicher Aktionen ist zum Beispiel der Kreaturentyp link:../advanced/creaturetypes/secondary/creaturetype_secondary_legendary.adoc[Legendär], die legendäre Aktionen, Manöver und Reaktionen erlaubt.
 
 [NOTE]
 Diese Regeln sind unabhängig von besonderen Fähigkeiten wie zum Beipiel link:../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff].
@@ -601,6 +601,7 @@ Der Malus beträgt hierbei *-10*.
 * *Starke Deckung:* Der Verteidiger ist bis zu 75% verdeckt. Der Malus beträgt dann *-15*.
 * *Totale Deckung:* Ist der Verteidiger nicht mehr zu sehen, kann er auch nicht getroffen werden.
 Blindes Zuschlagen auf einen Punkt, an dem ein Gegner vermutet wird, kann je nach Situation durch den SL mit einem Malus von *-20* belegt werden.
+Effekte einer beliebigen Quelle, die einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] erlauben, um verursachten Schaden zu halbieren, verursachen bei Charakteren in totaler Deckung keinen Schaden, wenn sie den Rettungswurf nicht schaffen.
 
 Es ist durchaus möglich für unterschiedliche Materialien und Sichtverhältnisse im Zusammenhang mit Deckung mehr oder weniger Mali zu verteilen.
 

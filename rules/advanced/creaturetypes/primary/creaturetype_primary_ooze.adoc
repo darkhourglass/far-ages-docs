@@ -12,6 +12,12 @@ Diese außergewöhnliche Anatomie erfordert eine Reihe neuer Regeln, die in den 
 ==== Eine Trefferzone
 Unabhängig welche Form der Körper des Schleims annimmt oder ob er als Attacke vielleicht Teile seiner Form ausdehnt, sein Körper gilt als seine einzige xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzone].
 
+[[ref_ooze_rules_fluid_body_free_movement]]
+==== Ungehinderte Bewegung
+Ein Schleim kann ungehindert in ein xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[besetztes Feld] einer anderen Kreatur vordringen.
+Die Kreatur kann den Schleim nicht aufhalten, allerdings gelten die üblichen Regeln für xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] bei dieser Bewegung.
+Weiterhin kann ein Schleim sich mit einer anderen Kreatur den Platz eines Feldes teilen, ohne sich herausbewegen zu müssen.
+
 [[ref_ooze_rules_fluid_body_flexible_size]]
 ==== Öffnungen und begrenzter Platz
 Schleime können sich durch die kleinsten Öffnungen quetschen, vorausgesetzt sie haben genug Zeit.
@@ -42,7 +48,6 @@ Dort erhält er sofort 4W10+4 Schadenspunkte.
 [[ref_ooze_rules_fluid_body_no_dicernable_anatomy]]
 ==== Keine erkennbare Anatomie
 Effekte aus beliebiger Quelle wie Zaubersprüche oder Fähigkeiten, wie beispielsweise link:../../../core/skills/core_skill_backstab.adoc[Hinterhältiger Angriff], die Wissen über die Anatomie des Ziels erfordern, haben keine zusätzliche Wirkung.
-Außerdem folgen einzelne <<ref_ooze_rules_skills,Fähigkeiten>> aus dieser besonderen Eigenschaft.
 
 [[ref_ooze_rules_fluid_body_difficult_terrain]]
 ==== Schwieriges Gelände
@@ -61,6 +66,7 @@ Beispielsweise kann kein Schleim verspottet werden oder zur Raserei gezwungen we
 * Schleimen sind immun gegenüber folgenden xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_conditions[Situationen] im Kampf:
 ** xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
 ** xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[Gefangen / Gehalten]
+* Schleime besitzen keine SP, verlieren diese nie oder werden wahnsinnig.
 
 [[ref_ooze_rules_skills]]
 === Fähigkeiten
@@ -69,4 +75,8 @@ Alle Schleime erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 * link:../../../../bestiary/skills/bestiary_skill_blindsense.adoc[Blindsinn] mit einer Reichweite von 30,00 Metern, falls nicht anders angegeben
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../../../../bestiary/skills/bestiary_skill_engulfing.adoc[Umschlingend]
 * link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]

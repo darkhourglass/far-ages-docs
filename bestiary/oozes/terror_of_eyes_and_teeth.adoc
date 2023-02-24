@@ -1,0 +1,94 @@
+= Schrecken aus Augen und Zähnen
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig]
+* -
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+In der Finsternis können Geräusche besonders schrecklich sein.
+Welche Fantasien erzeugen wohl ein feuchtes, schmatzendes Kriechen und das Knirschen von Zähnen?
+Die Wahrheit ist manchmal schlimmer als die Vorstellung, so diesem Fall einer besonders abscheulichen Kreatur.
+
+Der Schrecken aus Augen und Zähnen macht seinem Namen alle Ehre.
+Sein schleimiger, unförmiger Körper besteht aus einer zähen, blutroten Substanz, auf deren Oberflächen in unregelmäßigen Abständen unterschiedliche Augen und Öffnungen mit Reihen von Zähnen wachsen.
+Die lidlosen Augen starren unentwegt und ohne erkennbare Intelligenz, aber voller Verachtung für alles Lebende.
+Mehrere Reihen von ungleichen Zähnen liegen hinter lippenlosen Körperöffnungen und reiben konstant übereinander, einen unerträglich, knirschenden Ton erzeugend.
+
+Über die Herkunft dieser Art von Schleimen ist so gut wie nichts bekannt.
+Sie suchen oft die Nähe von Siedlungen und Städten, wo sie in den dunklen Ecken oder Außenbezirken jagen.
+Trotz ihrer beachtlichen Stärke und furchterregenden Erscheinung, sind die Schrecken keine mutigen Jäger.
+Sie suchen sich die Verwundeten, Schwachen und Kranken.
+Auch ihr konstantes Zähneknirschen verhindert subtile Taktiken.
+
+== Profil
+
+*ST:* 6 (+2)     *GE:* 1 (+1)     *KO:* 7 (+2) +
+*ER:* 3 (+1)     *EN:* 1 (+1)     *SB:* 4 (+2)    *CH:* 1 (+1) +
+
+*TP:* 80     *MP:* 10     *SP:* - +
+
+*WID:* 20 +
+*BEW:* 9,00 +
+*INI:* 4 +
+*MaxTL:* 90 +
+*MaxPOT:* 4 +
+
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 +
+*Resistenzen:* - +
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 6 (2W6+2)
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 6 (1W8)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] (Biss, <<ref_bestiary_terror_of_eyes_and_teeth_multiattack,siehe Beschreibung>>)
+
+== Defensive
+
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+1)
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] 5 (+1)
+
+== Sonstiges
+
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc#ref_ooze_rules_amorphous_body[Formloser Körper]
+* link:../skills/bestiary_skill_blindsense.adoc[Blindsinn] 30,00 Metern
+* <<ref_bestiary_terror_of_eyes_and_teeth_horrifing_gnawling,Furcheinflößendes Zermalen>> 7
+* <<ref_bestiary_terror_of_eyes_and_teeth_constant_gnawing,Konstantes Knirschen>>
+* link:../skills/bestiary_skill_engulfing.adoc[Umschlingend]
+* link:../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+
+[[ref_bestiary_terror_of_eyes_and_teeth_horrifing_gnawling]]
+=== Furchteinflößendes Zermalen
+Der Schrecken kann seine <<ref_bestiary_terror_of_eyes_and_teeth_constant_gnawing,Schwäche>> zu einer Stärke umwandeln.
+Seine Zähne kann er konzentriert zu einem ohrenbetäubenden, Mark erschütternden Zermalen einsetzen.
+Die Fähigkeit funktioniert wie link:../skills/bestiary_skill_fear.adoc[Furcht] mit der angegebenen Angriffsstufe.
+Hat jedoch der Schrecken eine Kreatur link:../skills/bestiary_skill_engulfing.adoc[umschlungen], wird die Furcht zu xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror].
+
+[[ref_bestiary_terror_of_eyes_and_teeth_multiattack]]
+=== Mehrfach-Angriff
+Der Schrecken kann seinen Mehrfach-Angriff nur gegen Kreaturen einsetzen, die er link:../skills/bestiary_skill_engulfing.adoc[umschlungen] hat.
+
+[[ref_bestiary_terror_of_eyes_and_teeth_constant_gnawing]]
+=== Konstantes Knirschen
+Die besondere Anatomie des Schreckens lässt seine unzähligen Münder konstant mit den Reihen von Zähnen knirschen.
+Dadurch erhält der Schrecken, sofern er sich bewegt, einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -20 auf alle xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen-Proben].
+
+== Taktik
+Wie die meisten Vertreter aus der Familie der Schleime ist der Schrecken aus Augen und Zähnen kein sonderlich subtiler Kombattant.
+Trotz seiner <<ref_bestiary_terror_of_eyes_and_teeth_constant_gnawing,Unfähigkeit>>, still zu sein, versteckt er sich in der Dunkelheit und wartet auf eine gute Gelegenheit, um seine Gegner zu überfallen.
+Zunächst hastet der Schrecken in eine Position, um mit seinem Wucht-Angriff viel Schaden anzurichten.
+Überlebt das Ziel diese Attacke oder ist danach gar niederschlagen, umfließt der Schrecken dieses, um seine <<ref_bestiary_terror_of_eyes_and_teeth_multiattack,mehrfache Biss-Attacke>> anzuwenden.
+Sind mehrere Kreaturen am Kampf beteiligt, nutzt der Schrecken sein <<ref_bestiary_terror_of_eyes_and_teeth_horrifing_gnawling,furchteinflößendes Zermalen>>.
+
+Manche Schrecken bevorzugen jedoch eine subtilere Taktik, indem sie ihr <<ref_bestiary_terror_of_eyes_and_teeth_horrifing_gnawling,furchteinflößendes Zermalen>> aus der Dunkelheit heraus nutzen, um ihre Ziele einzuschüchtern und zu terrorisieren, bevor sie angreifen.
