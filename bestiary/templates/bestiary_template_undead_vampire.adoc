@@ -26,7 +26,7 @@ Die Kreatur behält alle ihre Talente.
 == Fähigkeiten
 
 Die Kreatur übernimmt alle Fähigkeiten.
-Sie erhält alle Fähigkeiten ihrer neuen xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[primären] und xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[sekundären] Kreaturentypen.
+Sie erhält alle Fähigkeiten ihrer neuen xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_skills[primären] und xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[sekundären] Kreaturentypen.
 
 Die Kreatur erhält außerdem folgende Fähigkeiten:
 
@@ -36,8 +36,8 @@ Die Kreatur erhält außerdem folgende Fähigkeiten:
 === Untot
 Der primäre Kreaturentyp der Kreatur ändert sich in link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
 Sie verliert alle inkompatiblen, sekundären Kreaturentypen wie beispielsweise link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend].
-Es gelten alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_general_rules[Regeln] für Untote bis auf die unten genannten <<ref_undead_vampire_skills_undead_exceptions,Ausnahmen>>.
-Für die Besonderheiten bezüglich der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe], siehe das nachfolgende <<ref_vampire_rules_powerlevel,Kapitel>>.
+Es gelten alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_general_rules[Regeln] für Untote bis auf die unten genannten <<ref_undead_vampire_skills_undead_exceptions,Ausnahmen>>.
+Für die Besonderheiten bezüglich der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe], siehe das nachfolgende <<ref_secondary_creaturetype_vampire_rules_powerlevel,Kapitel>>.
 
 [[ref_undead_vampire_skills_undead_exceptions]]
 ==== Ausnahmen
@@ -65,19 +65,19 @@ Stattdessen erhalten sie für diese Schadensart link:../skills/bestiary_skill_da
 [[ref_undead_vampire_skills_undead_powerlevel]]
 ==== Machtstufe
 Die Machtstufe eines Vampirs ist gleichzeitig seine Machtstufe als Untoter.
-Untote besitzen aufgrund ihrer xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] bestimmte Einschränkungen und besondere Regeln.
+Untote besitzen aufgrund ihrer xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] bestimmte Einschränkungen und besondere Regeln.
 Im Fall des Vampirs passen diese Regeln nicht mehr, denn insbesondere bleibt die Persönlichkeit, Erinnerungen und Fähigkeiten der Kreatur bei der Verwandlung erhalten.
 
 Im Einzelnen bedeutet dies:
 
-* Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_steps[Attributs- und Talentstufen] bleiben erhalten und sind nicht beschränkt.
-* Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_pools[Punkte-Pools] des Vampirs werden unverändert übernommen.
-* Die Regeln zur Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_fear_skill[Furcht] bleiben erhalten.
-* Die Regeln zu xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_personality[Persönlichkeit], xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_control[Kontrolle] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_decay[Zerfall] finden keine Anwendung.
+* Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_steps[Attributs- und Talentstufen] bleiben erhalten und sind nicht beschränkt.
+* Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_pools[Punkte-Pools] des Vampirs werden unverändert übernommen.
+* Die Regeln zur Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_fear_skill[Furcht] bleiben erhalten.
+* Die Regeln zu xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_personality[Persönlichkeit], xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall] finden keine Anwendung.
 * Vampire sind dennoch anfällig gegenüber Zaubersprüchen, die explizit Untote betreffen.
 Jeder Vampir, dessen Machtstufe 10 oder höher ist, wird als äquivalenter Untote dieser Machtstufe behandelt.
 Ein Vampir, dessen Machtstufe 9 oder weniger beträgt, wird als Untoter der Stufe 10 behandelt.
-* Ein Vampir lernt wie jeder Untoter die Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_fear_skill[Furcht].
+* Ein Vampir lernt wie jeder Untoter die Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_fear_skill[Furcht].
 
 Im Gegensatz zu anderen Untoten kann ein Vampir damit eine Machtstufe von 9 oder weniger besitzen und als eigenständige Persönlichkeit agieren.
 
@@ -88,12 +88,12 @@ Ein Vampir der Machtstufe 1 kann nicht selbst Erschaffer sein.
 [[ref_undead_vampire_skills_vampir]]
 === Vampir
 Die Kreatur erhält den sekundären Kreaturtyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir].
-Sie erhält alle xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_initial_skills[initialen Fähigkeiten].
-Ihre xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ist identisch zu der ihrer <<ref_undead_vampire_skills_undead_powerlevel,Machtstufe>> als Untoter.
+Sie erhält alle xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_initial_skills[initialen Fähigkeiten].
+Ihre xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel[Machtstufe] ist identisch zu der ihrer <<ref_undead_vampire_skills_undead_powerlevel,Machtstufe>> als Untoter.
 
 [[ref_undead_vampire_skills_vampir_energydrain]]
 ==== Energieentzug
-Der verwendete Pool für die Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] ist xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
+Der verwendete Pool für die Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] ist xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
 Weiterhin wird für Vampire dieser Art der Energieentzug durch einen *Biss* und das Trinken von Blut durchgeführt.
 Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack_brawl[Ringen].
 Ist dieser Voraussetzung erfüllt, kann der Energieentzug nach den üblichen Regeln angewendet werden.
@@ -107,14 +107,14 @@ Kreaturen, die sich nicht wehren können, weil sie zum Beispiel xref:../../rules
 Eine Kreatur kann diese Schablone nur erhalten, in dem sie von einer anderen Kreatur, die diese Schablone schon besitzt, verwandelt wird.
 Diese Kreatur wird als Erschaffer bezeichnet.
 Der Erschaffer kann diesen Prozess nur willentlich durchführen.
-Dazu muss er zunächst die Zielkreatur mit seiner Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] aller TP berauben.
+Dazu muss er zunächst die Zielkreatur mit seiner Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_initial_skills_energydrain[Energieentzug] aller TP berauben.
 Die Kreatur xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt] sofort.
 Innerhalb von einer Minute muss dann der Erschaffer einen kleinen Teil seines Blutes in den Mund der Kreatur tropfen lassen.
 Nach 24 Stunden erwacht die Kreatur als Vampir.
 
 [[ref_undead_vampire_skills_vampir_bloodline]]
 ==== Blutlinie
-Der Vampir gehört einer Blutlinie von Vampiren an, die seine xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel_additional_skills_and_curses[Fähigkeiten und Flüche] vorbestimmt.
+Der Vampir gehört einer Blutlinie von Vampiren an, die seine xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills_and_curses[Fähigkeiten und Flüche] vorbestimmt.
 Die Blutlinie eines Vampirs ist immer die seines <<ref_undead_vampire_skills_vampir_sire,Erschaffers>>.
 
 Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit oder einen Fluch erhält, greift zuerst die Vorgabe.

@@ -50,7 +50,7 @@ Lore
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
-* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)]
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_secondary_creaturetype_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)]
 
 == Offensiv
 
@@ -94,7 +94,7 @@ Es reicht eine Fläche von leichtem Schatten, die eine Kreatur seine GK verdecke
 
 [[ref_bestiary_death_shadow_powerlevel]]
 === Machtstufe
-Der Todesschatten ist in Untoter der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 6 mit allen relevanten xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[Fähigkeiten].
+Der Todesschatten ist in Untoter der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6 mit allen relevanten xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules[Regeln] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_skills[Fähigkeiten].
 
 Um einen Todesschatten zu erschaffen, muss der Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] mit passender POT verwendet werden.
 Der Nekromant benötigt außerdem den Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] mit xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5 oder mehr.
@@ -107,7 +107,7 @@ Der Leichnam zerfällt urplötzlich zu Staub und an seiner Stelle erscheint ein 
 [[ref_bestiary_death_shadow_light_vulnerability]]
 === Verwundbar im Licht
 Fällt Licht auf den Todesschatten, zum Beispiel Fackelschein, wird er verwundbar.
-Er verliert seine Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)] solange er im Licht steht.
+Er verliert seine Fähigkeit xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_secondary_creaturetype_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)] solange er im Licht steht.
 
 Todesschatten sind außerdem besonders anfällig gegenüber Tageslicht und direktem Sonnenlicht.
 Zu Beginn seiner Kampfphase, wenn der Todesschatten sich im Tageslicht oder Sonnenlicht befindet, erhält er einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 10W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.

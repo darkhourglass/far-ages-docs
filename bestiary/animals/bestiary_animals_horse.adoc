@@ -1,1 +1,65 @@
 = Pferd
+
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* Secondary Type(s)
+* Templates
+* GK: X
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* XXX (+x)     *GE:* XXX (+x)     *KO:* XXX (+x) +
+*ER:* XXX (+x)     *EN:* XXX (+x)     *SB:* XXX (+x)    *CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX     *MP:* XXX     *SP:* XXX +
+
+// WID= 8 + (KO-1)*2
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*WID:* XXX +
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:* XXX +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+
+== Regeln
+
+== Taktik

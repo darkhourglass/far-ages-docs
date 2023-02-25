@@ -3,7 +3,7 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir, Magisch +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 5
 
 Dein Wille ist eine alles übertreffende Macht, die den Geist schwächerer Kreaturen mit Leichtigkeit vereinnahmt.
 
@@ -15,7 +15,7 @@ Würfle eine xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talent
 Alle Zielkreaturen müssen gegen das Ergebnis einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_willpower[Willenskraft-Rettungswurf] ablegen.
 Jede Kreatur, die dieser Rettungswurf misslingt, steht für die Dauer des Effekts unter Deiner Kontrolle.
 
-Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] bestimmt, wie viele Kreaturen Du beherrschen kannst und wie lange der Effekt maximal wirkt.
+Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel[Machtstufe] bestimmt, wie viele Kreaturen Du beherrschen kannst und wie lange der Effekt maximal wirkt.
 
 |===
 |Machtstufe |Anzahl Kreaturen |Dauer

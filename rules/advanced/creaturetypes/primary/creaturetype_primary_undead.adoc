@@ -1,21 +1,21 @@
 = Untote
 
-[[ref_undead_rules]]
+[[ref_primary_creaturetype_undead_rules]]
 == Regeln
 
-[[ref_undead_rules_creation]]
+[[ref_primary_creaturetype_undead_rules_creation]]
 === Untote erschaffen
 * Um einen Untoten zu erschaffen, benötigt es einen toten Körper einer vormals link:../secondary/creaturetype_secondary_living.adoc[lebenden] Kreatur.
 Der primäre Kreaturentyp ist typischerweise nicht relevant, außer dieser verbietet explizit das Erschaffen einer untoten Kreatur verbietet.
 Untote verlieren den sekundären Typ Lebend.
-* Jeder Untote besitzt eine <<ref_undead_rules_powerlevel,Machtstufe>>.
+* Jeder Untote besitzt eine <<ref_primary_creaturetype_undead_rules_powerlevel,Machtstufe>>.
 Machtstufen beschrieben die Stärke von Untoten auf einer abstrakten Ebene und haben Einfluss, wie unabhängig ein Untoter agieren kann und welche Zaubersprüche auf ihn wirken.
 * Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
 * Je nachdem welchen Untoten ein Nekromant erschaffen möchte, ist zunächst dessen Machtstufe zu ermitteln, entweder als Angabe im xref:../../../../bestiary/index.adoc#ref_bestiary_undead[Bestiarium] oder anhand o.g. Tabelle.
 Er muss dazu den angegebenen Zauberspruch beherrschen und erfolgreich aussprechen.
 * Sofern nicht anders angegeben, steht der Untote nicht sofort unter der Kontrolle des Schöpfers.
 
-[[ref_undead_rules_powerlevel]]
+[[ref_primary_creaturetype_undead_rules_powerlevel]]
 === Machtstufen
 Machtstufen von Untoten werden in Zahlen von 0 aufsteigend gemessen.
 Dabei gibt es kein Maximum, jedoch spiegeln bestimmte Machtstufen deutliche Sprünge in den Fähigkeiten der Untoten wider.
@@ -26,7 +26,7 @@ Abhängig von der Machtstufe entfalten sich die Fähigkeiten eines Untoten.
 Die Übersicht findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
 Die Einträge werden im Folgenden beschrieben.
 
-[[ref_undead_rules_powerlevel_steps]]
+[[ref_primary_creaturetype_undead_rules_powerlevel_steps]]
 ==== Attributs- und Talentstufen
 Abhängig von seiner Machtstufe besitzt ein Untoter Attributsstufen bzw. Talentstufen basierend auf seinem Profil als lebende Kreatur.
 Sofern nicht anders angegeben, werden die Attribusstufen von ST, GE und KO übernommen.
@@ -35,7 +35,7 @@ Die Attribute ER, EN, SB und CH bestehen folgende Optionen:
 
 * *"-"* bzw. *"Keine Angabe"*: Gerade primitive Untote besitzen keine nennenswerte Persönlichkeit und freien Willen mehr.
 Bestimmte Attribute sind daher ohne Stufe angegeben.
-Eine genaue Beschreibung zu diesem Fall findet sich in den <<ref_undead_rules_general_rules>>[Allgemeinen Regeln].
+Eine genaue Beschreibung zu diesem Fall findet sich in den <<ref_primary_creaturetype_undead_rules_general_rules>>[Allgemeinen Regeln].
 
 * *Maximale Stufe:* Die Stufe ist auf dieses Maximum festgelegt.
 War die Stufe zu Lebzeiten höher, wird sie passend auf das Maximum abgesengt.
@@ -46,7 +46,7 @@ War die Stufe zu Lebzeiten höher, wird sie passend auf das Maximum abgesengt.
 
 Abhängige Attributseigenschaften werden, falls nicht anders angegeben, neu berechnet nach den üblichen xref:../../../core/core_rules_charactercreation.adoc[Regeln].
 
-[[ref_undead_rules_powerlevel_pools]]
+[[ref_primary_creaturetype_undead_rules_powerlevel_pools]]
 ==== Punktepools
 Ebenso wie Attributs- und Talentstufen können die Punktepools TP, MP und SP modifiziert sein.
 
@@ -57,11 +57,11 @@ Er verliert somit nie Punkte und kann diese auch nicht einsetzen.
 
 * *Original:* Der Untote besitzt in diesem Punktepool seine originalen Punkte.
 
-[[ref_undead_rules_powerlevel_fear_skill]]
+[[ref_primary_creaturetype_undead_rules_powerlevel_fear_skill]]
 ==== Furcht
 Untote erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] auf der angegebenen Stufe.
 
-[[ref_undead_rules_powerlevel_personality]]
+[[ref_primary_creaturetype_undead_rules_powerlevel_personality]]
 ==== Persönlichkeit
 Die Angabe Persönlichkeit beschreibt die Flexibilität und Varianz im Handeln des Untoten.
 Die unterschiedlichen Kategorien sind im Folgenden beschrieben:
@@ -86,7 +86,7 @@ Untote mit dieser Persönlichkeit beherrschen Sprache so weit, dass sie Zauber w
 Er gilt nach allen Regeln als eigenständige Person.
 Untote mit vollständiger Persönlichkeit benötigen keine Kontrolle und beherrschen jede Sprache aus ihrem früheren Leben.
 
-[[ref_undead_rules_powerlevel_control]]
+[[ref_primary_creaturetype_undead_rules_powerlevel_control]]
 ==== Kontrolle
 Die Einträge zur Kontrolle beschreiben, ob der Untote durch einen Nekromanten bzw. einem Magieanwender mit Mitteln wie dem Zauberspruch link:../../../../compendiums/spells/spell_control_undead.adoc[Untoten kontrollieren] kontrolliert werden muss.
 Die unterschiedlichen Ausprägungen sind:
@@ -97,7 +97,7 @@ Es besteht keine Notwendigkeit für den Schöpfer in der Nähe zu bleiben.
 * *Vollständig:* Der Untote muss konstant in der Nähe (d.h. max. 24,00 Meter Umkreis) des Schöpfers sein.
 Ist dies nicht gegeben, erstarrt der Untote und führt keine Aktionen mehr aus.
 
-[[ref_undead_rules_powerlevel_decay]]
+[[ref_primary_creaturetype_undead_rules_powerlevel_decay]]
 ==== Zerfall
 Die meisten Untoten zerfallen automatisch nach einer bestimmten Zeit zu Staub.
 Dies bedeutet, dass die Magie, welche sie erschaffen hat, aufgebraucht ist und die Leiche verlässt.
@@ -108,7 +108,7 @@ Ein Untoter, der zerfallen ist, kann nicht wieder aus dem gleichen Körper neuer
 
 Um Zerfall aufzuhalten, sind üblicherweise weitere magische Aktionen nötig, wie z.B. der Einsatz des Zauberspruches link:../../../../compendiums/spells/spell_preserve_undead.adoc[Untoten präservieren].
 
-[[ref_undead_rules_general_rules]]
+[[ref_primary_creaturetype_undead_rules_general_rules]]
 === Allgemeine Regeln
 In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Untote von anderen Wesen abweichen.
 
@@ -120,7 +120,7 @@ Allerdings xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regenera
 * Die Reduzierung auf 0 TP vernichtet Untote endgültig.
 Es gilt, dass Untote sofort zerstört werden, wenn ihre TP das erste Mal auf 0 sinken, es gelten daher nicht die Regeln aus dem Kapitel xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod].
 
-[[ref_undead_rules_skills]]
+[[ref_primary_creaturetype_undead_rules_skills]]
 === Fähigkeiten
 Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
@@ -139,7 +139,7 @@ Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
-* <<ref_undead_rules_powerlevel_fear_skill,Furcht>>, die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], je nachdem welche höher ist.
+* <<ref_primary_creaturetype_undead_rules_powerlevel_fear_skill,Furcht>>, die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], je nachdem welche höher ist.
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])

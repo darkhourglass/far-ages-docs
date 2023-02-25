@@ -3,13 +3,13 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir, Übernatürlich +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 10
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 10
 
 Die Macht Deines Blutes vertreibt für einen kurzen Moment die mystische Schwäche der Vampire.
 Du bist für die Dauer der Fähigkeit immun gegenüber den Auswirkungen des Fluches link:../../../../rules/advanced/curses/curse_of_the_sun.adoc[Fluch der Sonne].
 Weiterhin können Dir andere negativen Effekte der Sonne oder alle Zaubersprüche mit Fokus *Licht* keinen Schaden zufügen.
 
-Wie lange diese Immunität anhält, hängt von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab:
+Wie lange diese Immunität anhält, hängt von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel[Machtstufe] ab:
 
 |===
 |Machtstufe |Dauer der Fähigkeit

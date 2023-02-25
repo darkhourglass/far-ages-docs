@@ -6,13 +6,13 @@
 
 Ein Untoter mit dieser Fähigkeit ist den Energien Ebons so verbunden, dass er andere Untote beherrschen kann.
 
-Der Untote kann andere Untote der xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufen] 0 bis 9 kontrollieren, so als wären sie dauerhaft unter dem Einfluss des Zaubers link:../../../../compendiums/spells/spell_control_undead.adoc[Untoten kontrollieren].
+Der Untote kann andere Untote der xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufen] 0 bis 9 kontrollieren, so als wären sie dauerhaft unter dem Einfluss des Zaubers link:../../../../compendiums/spells/spell_control_undead.adoc[Untoten kontrollieren].
 Dabei kann der Untote eine beliebige Anzahl Untoter gleichzeitig kontrollieren, solange die Summe ihrer Machtstufen kleiner oder gleich der eigenen Machtstufe multipliziert mit 5 entspricht.
 Untote der Machtstufe 0 werden im Sinne dieser Rechnung mit 1/2 Stufen gerechnet.
 Außerdem kann der Untote keine Untoten kontrollieren, deren Machtstufe gleich oder höher der Eigenen ist.
 
 Die Übernahme oder Abgabe der Kontrolle ist eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] pro kontrollierten Untoten.
-Die Kontrolle endet nicht automatisch und solange diese anhält, ist der Untote nicht von xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_decay[Zerfall] betroffen.
+Die Kontrolle endet nicht automatisch und solange diese anhält, ist der Untote nicht von xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall] betroffen.
 
 .Herr der Toten
 ====

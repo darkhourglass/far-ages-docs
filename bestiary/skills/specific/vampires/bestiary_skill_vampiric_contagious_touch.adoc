@@ -3,7 +3,7 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir, Angriff, Magisch +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 3
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 3
 
 Du fokussierst das Blut in Deinem Körper auf alles Krankhafte, zersetzende und fieberiges.
 Eine faule Energie jagt durch Deine Adern und überträgt sich auf eine Kreatur, die Du berührst.
@@ -11,7 +11,7 @@ Nutzt Du diese Fähigkeit im Nahkampf und Dein Ziel kann sich wehren, musst Du e
 Du giltst in diesem Fall als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_missingweapon[bewaffnet].
 
 Die berührte Kreatur muss sofort einen Rettungswurf gegen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheit] ablegen.
-Der Mindestwurf hängt wie folgt von Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab:
+Der Mindestwurf hängt wie folgt von Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel[Machtstufe] ab:
 
 |===
 |Machtstufe |Mindestwurf

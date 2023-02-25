@@ -16,8 +16,8 @@ Zunächst muss für link:../../../spells/spell_elemental_transfusion.adoc[Elemen
 Das Element für link:../../../spells/spell_elemental_barrier.adoc[Elementare Barriere] muss hingegen das gegenteilige Element sein: zum Beispiel bei einem beschworenen Feuer-Manifest, muss Elementare Barriere mit dem Element Wasser ausgesprochen werden.
 
 Diese Energiezelle wird nur in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größen] 5 bis 10 gebaut.
-Pro Punkt in GK muss mindestens ein Manifest beschworen werden, dessen xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_elementals_rules_powerlevel[Machtstufe] gleich oder größer als diese GK ist.
-Auf das Profil des Golems und seine eigene xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe] hat die Machtstufe des Manifests keine Auswirkung.
+Pro Punkt in GK muss mindestens ein Manifest beschworen werden, dessen xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] gleich oder größer als diese GK ist.
+Auf das Profil des Golems und seine eigene xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_powerlevel[Machtstufe] hat die Machtstufe des Manifests keine Auswirkung.
 Die Eigenschaft MP-Regeneration der Energiezelle ist jedoch von der Machtstufe des Manifests abhängig.
 
 Die folgende Tabelle zeigt die Übersicht aller Eigenschaften dieser Energiezelle abhängig von deren GK.
@@ -95,7 +95,7 @@ Beispielsweise kann ein link:../weaponry/golems_part_weaponary_flamethrower.adoc
 
 [[ref_golemparts_core_elementalmanifest_rule_mishap]]
 == Fehlfunktionen
-Tritt eine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_mishaps[Fehlfunktion] auf, berechne die Fehlfunktion wie beschrieben, jedoch addiere die halbierte Machtstufe (abgerundet, Minimum 1) des Manifests auf das Ergebnis in der link:../../../../rules/tables/table_constructs_general_mishaps.adoc[Tabelle für Fehlfunktionen] hinzu.
+Tritt eine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_mishaps[Fehlfunktion] auf, berechne die Fehlfunktion wie beschrieben, jedoch addiere die halbierte Machtstufe (abgerundet, Minimum 1) des Manifests auf das Ergebnis in der link:../../../../rules/tables/table_constructs_general_mishaps.adoc[Tabelle für Fehlfunktionen] hinzu.
 
 .Fehlfunktion
 ====
@@ -107,7 +107,7 @@ Befindet sich ein Manifest der Machtstufe 6 in der Energiezelle, müssten somit 
 
 [[ref_golemparts_core_elementalmanifest_rule_elemental_explosion]]
 == Elementare Explosion bei Zerstörung
-Wird der Golem xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_destroyed[zerstört], wird das Manifest befreit und verschwindet sofort wieder in seine Heimat-Ebene.
+Wird der Golem xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_death_destroyed[zerstört], wird das Manifest befreit und verschwindet sofort wieder in seine Heimat-Ebene.
 Jedoch bedankt es sich noch mit einer Explosion elementarer Energie.
 Alle Kreaturen im Umkreis von 1,50 Metern pro Machtstufe des Manifests um den Golem erhalten einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] pro Machtstufe des Manifests.
 Dieser hat einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[Schadenstyp] passend zum Element des Manifests, zum Beispiel xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]-Schaden im Fall eines Feuer-Manifests.

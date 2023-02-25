@@ -1,24 +1,24 @@
 = Schleime
 
-[[ref_ooze_rules]]
+[[ref_primary_creaturetype_ooze_rules]]
 == Regeln
 
-[[ref_ooze_rules_amorphous_body]]
+[[ref_primary_creaturetype_ooze_rules_amorphous_body]]
 === Formloser Körper
 Die herausragende und einzigartige Besonderheit von Schleimen ist ihr Körper, der aus meist dickflüssigen Material besteht.
 Diese außergewöhnliche Anatomie erfordert eine Reihe neuer Regeln, die in den folgenden Unterkapiteln zusammengefasst sind.
 
-[[ref_ooze_rules_fluid_body_one_hitzone]]
+[[ref_primary_creaturetype_ooze_rules_fluid_body_one_hitzone]]
 ==== Eine Trefferzone
 Unabhängig welche Form der Körper des Schleims annimmt oder ob er als Attacke vielleicht Teile seiner Form ausdehnt, sein Körper gilt als seine einzige xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzone].
 
-[[ref_ooze_rules_fluid_body_free_movement]]
+[[ref_primary_creaturetype_ooze_rules_fluid_body_free_movement]]
 ==== Ungehinderte Bewegung
 Ein Schleim kann ungehindert in ein xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[besetztes Feld] einer anderen Kreatur vordringen.
 Die Kreatur kann den Schleim nicht aufhalten, allerdings gelten die üblichen Regeln für xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] bei dieser Bewegung.
 Weiterhin kann ein Schleim sich mit einer anderen Kreatur den Platz eines Feldes teilen, ohne sich herausbewegen zu müssen.
 
-[[ref_ooze_rules_fluid_body_flexible_size]]
+[[ref_primary_creaturetype_ooze_rules_fluid_body_flexible_size]]
 ==== Öffnungen und begrenzter Platz
 Schleime können sich durch die kleinsten Öffnungen quetschen, vorausgesetzt sie haben genug Zeit.
 Pro Punkt Differenz zwischen der eigenen xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] und dem verfügbaren Platz benötigt ein Schleim ein xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver], um sich Stück für Stück durch eine Öffnung zu bewegen.
@@ -45,15 +45,15 @@ Somit wird angenommen, dass er auf der Startseite geblieben ist.
 Dort erhält er sofort 4W10+4 Schadenspunkte.
 ====
 
-[[ref_ooze_rules_fluid_body_no_dicernable_anatomy]]
+[[ref_primary_creaturetype_ooze_rules_fluid_body_no_dicernable_anatomy]]
 ==== Keine erkennbare Anatomie
 Effekte aus beliebiger Quelle wie Zaubersprüche oder Fähigkeiten, wie beispielsweise link:../../../core/skills/core_skill_backstab.adoc[Hinterhältiger Angriff], die Wissen über die Anatomie des Ziels erfordern, haben keine zusätzliche Wirkung.
 
-[[ref_ooze_rules_fluid_body_difficult_terrain]]
+[[ref_primary_creaturetype_ooze_rules_fluid_body_difficult_terrain]]
 ==== Schwieriges Gelände
 Bei der Bewegung durch xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] verliert ein Schleim keine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 
-[[ref_ooze_rules_general_rules]]
+[[ref_primary_creaturetype_ooze_rules_general_rules]]
 === Allgemeine Regeln
 In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Schleime von anderen Wesen abweichen.
 
@@ -68,7 +68,7 @@ Beispielsweise kann kein Schleim verspottet werden oder zur Raserei gezwungen we
 ** xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[Gefangen / Gehalten]
 * Schleime besitzen keine SP, verlieren diese nie oder werden wahnsinnig.
 
-[[ref_ooze_rules_skills]]
+[[ref_primary_creaturetype_ooze_rules_skills]]
 === Fähigkeiten
 Alle Schleime erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 

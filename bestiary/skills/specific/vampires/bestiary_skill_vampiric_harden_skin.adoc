@@ -3,7 +3,7 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_bloodcosts[Blut] 5
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[Bonus-Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 5
 
 Deine Haut wird härter und widerstandsfähiger gegenüber äußere Schäden.
 Als sichtbarer Effekt scheint Deine Haut die Struktur von Stein anzunehmen und leicht heller zu werden.
@@ -11,7 +11,7 @@ Als sichtbarer Effekt scheint Deine Haut die Struktur von Stein anzunehmen und l
 Setzt Du diese Fähigkeit ein, erhältst Du einen für eine bestimmte Anzahl von xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphasen] einen Bonus von xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürlichen Rüstungspunkten].
 Hast Du bereits aus anderer Quelle natürlichen Rüstungsschutz, addiert sich diese Bonus.
 
-Beide Werte hängen von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_vampire_rules_powerlevel[Machtstufe] ab.
+Beide Werte hängen von Deiner xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel[Machtstufe] ab.
 
 
 |===

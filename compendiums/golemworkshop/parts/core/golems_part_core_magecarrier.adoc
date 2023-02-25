@@ -66,7 +66,7 @@ Für diese Form der Energieversorgung gelten außerdem weitere Regeln.
 
 [[ref_golemparts_core_magecarrier_mishaps]]
 == Fehlfunktionen
-Erleidet der Magierträger (nicht der Magier selbst) nach den allgemeinen Regeln für link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] eine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_mishaps[Fehlfunktion], wird diese nach den vorgestellten Regeln bestimmt, jedoch wird eine eigene link:../../../../rules/tables/table_constructs_magecarrier_mishaps.adoc[Tabelle] verwendet.
+Erleidet der Magierträger (nicht der Magier selbst) nach den allgemeinen Regeln für link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] eine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_mishaps[Fehlfunktion], wird diese nach den vorgestellten Regeln bestimmt, jedoch wird eine eigene link:../../../../rules/tables/table_constructs_magecarrier_mishaps.adoc[Tabelle] verwendet.
 
 [[ref_golemparts_core_magecarrier_shared_attributs]]
 == Geteilte Attribute
@@ -103,7 +103,7 @@ Das bedeutet, der Magier muss sich entscheiden, welche Aktion er genau durchfüh
 * Grundsätzlich kann der Magier jedoch nur Aktionen oder Manöver durchführen, die Golem auch könnte.
 Kann der Magier beispielsweise fliegen, der Golem ab nicht, kann er dieses Manöver nicht nutzen.
 
-Der Golem kann nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden und gilt als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[inaktiv], wenn kein Magier den Golem besetzt.
+Der Golem kann nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden und gilt als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_death_deactivated[inaktiv], wenn kein Magier den Golem besetzt.
 
 Weiterhin muss der Magier jederzeit bei xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Bewusstsein] und nicht xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[tod] sein, um den Golem steuern zu können.
-Treten diese Fälle ein, gilt der Golem ebenso als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[inaktiv].
+Treten diese Fälle ein, gilt der Golem ebenso als xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_death_deactivated[inaktiv].

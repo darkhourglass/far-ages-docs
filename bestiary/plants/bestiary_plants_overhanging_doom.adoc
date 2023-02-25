@@ -7,7 +7,12 @@
 
 == Beschreibung
 
-Lore
+So manches harmlos erscheinendes Gewächs in luftiger Höhe ist es gar nicht.
+Dieser unscheinbare Ballen aus Vegetation verbirgt ein fleischähnliches Maul aus dem ein langer Tentakel wie eine Peitsche hervorschnellen kann.
+Unglückliche Opfer erfahren schnell, dass diese Tentakel mit einer äußerst klebrigen Substanz überzogen ist, die ein Entkommen nur schwer möglich macht.
+Das unangenehme Schicksal kumuliert darin, dass das Hängende Verderben sein Opfer an sein Maul heranzieht und mit rasiermesserscharfen, dornenartigen Auswüchsen, welche beunruhigend wie Zähne aussehen, beißt, um sein Blut aufzusaugen.
+Die Pflanze bevorzugt dunkle und wenig einsehbare Orte, um zu wachsen und auf ihre Opfer zu warten.
+Eine Kolonie von Hängenden Verderben kann schnell wachsen, wenn genug Nahrung vorhanden ist.
 
 == Profil
 
@@ -41,7 +46,7 @@ Lore
 
 * xref:../skills/bestiary_skill_reach.adoc[Reichweite] (Wucht, 3,00 Meter)
 * xref:../skills/bestiary_skill_blindsense.adoc[Blindsinn (9,00 Meter)]
-* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_plant_rules_hibernate[Ruhezustand]
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_primary_creaturetype_plant_rules_hibernate[Ruhezustand]
 * link:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 5 (+1)
 * link:../skills/bestiary_skill_rooted.adoc[Verwurzelt]
 

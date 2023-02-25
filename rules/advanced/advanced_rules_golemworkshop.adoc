@@ -133,7 +133,7 @@ Jeder Golem muss eine Energiezelle haben, die (üblicherweise) in das Chassis ei
 Sofern nicht anders angegeben, verbraucht eine Energieversorgung keine Zusätze, sondern es wird angenommen, dass jedes Chassis genau eine Option von Energieversorgung in entsprechender GK aufnehmen kann.
 
 Eine Energiezelle ist ein ebenfalls gesondertes technomatisches Gerät, das speziell dafür konzipiert wurde, Golems mit Energie in Form von MP zu versorgen.
-xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:../core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
+xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:../core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
 Die Energieversorgung gilt als xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attribut] des Golems.
 Der Golem benutzt diese MP auch, um Fähigkeiten aus beispielsweise <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>> oder <<ref_golemworkshop_creation_steps_additions,Zusätzen>> zu aktivieren.
 
@@ -386,7 +386,7 @@ Folgende Einzelteile sind mindestens notwendig:
 * eine <<ref_golemworkshop_creation_steps_movement,Bewegungsoption>>
 
 Ein Golem ist wenig überraschend eine Kreatur mit primären Kreaturentyp link:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt].
-Es gelten alle in diesem Kapitel vorgestellten xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules[Regeln].
+Es gelten alle in diesem Kapitel vorgestellten xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules[Regeln].
 
 [[ref_golemworkshop_creation_steps_profile_attributes]]
 ===== Attributsstufen
@@ -512,8 +512,8 @@ Solche Modifikationen werden zusätzlich nach Bestimmung der Attributseigenschaf
 
 Es gelten jedoch folgende Ausnahmen:
 
-* Auch wenn Golems als Konstrukte xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_general_rules[keine SP verlieren], berechnet sich dieser Wert wie üblich.
-* Weiterhin gilt, dass Konstrukte xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_general_rules[keine MP aufgrund ihres EN-Attributs] erhalten, sondern aus ihrer <<ref_golemworkshop_creation_steps_core,Energieversorgung>>.
+* Auch wenn Golems als Konstrukte xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_general_rules[keine SP verlieren], berechnet sich dieser Wert wie üblich.
+* Weiterhin gilt, dass Konstrukte xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_general_rules[keine MP aufgrund ihres EN-Attributs] erhalten, sondern aus ihrer <<ref_golemworkshop_creation_steps_core,Energieversorgung>>.
 
 .Attributseigenschaften
 ====
@@ -527,7 +527,7 @@ Somit hat er Gesamt-BEW von 12,00 Metern.
 [[ref_golemworkshop_creation_steps_profile_powerlevel]]
 ===== Machtstufe
 
-Jedes xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] besitzt eine xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_powerlevel[Machtstufe].
+Jedes xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] besitzt eine xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_powerlevel[Machtstufe].
 Golems erhalten eine Machtstufe aufgrund der Summe aller Machtstufen aus ihren <<ref_golemworkshop_creation_steps,Einzelteilen>>.
 Ein <<ref_golemworkshop_steps_example,Beispiel>> wird am Ende dieses Dokuments vorgestellt.
 
@@ -550,7 +550,7 @@ Damit erhält der Golem für dieses Talent einen Bonus von 5+1=6.
 
 Alle Golems, die nach den Regeln dieses Kapitels erschaffen wurden, erhalten automatisch die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] und damit einen zusätzliche, Machtstufe-abhängigen Bonus auf einige ihrer <<ref_golemworkshop_creation_steps_profile_secondary_attributes,Attributseigenschaften>>.
 
-Golems erhalten außerdem alle xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_constructs_rules_skills[Fähigkeiten] auf Basis ihres Kreaturentyps.
+Golems erhalten außerdem alle xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_skills[Fähigkeiten] auf Basis ihres Kreaturentyps.
 
 Weitere Fähigkeiten erhalten Golems nur, wenn ihre Komponenten diese explizit gewähren.
 

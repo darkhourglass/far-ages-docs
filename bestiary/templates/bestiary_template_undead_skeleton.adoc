@@ -26,18 +26,18 @@ Außerdem musst Du folgende Voraussetzungen erfüllen:
 
 * Du benötigst den Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Untoten erschaffen].
 Die Zielkreatur gilt als Ziel dieses Zauberspruches.
-Du kannst den Zauberspruch maximal für xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 9 wirken.
+Du kannst den Zauberspruch maximal für xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 9 wirken.
 * Wie üblich musst Du zu Beginn der xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[Vorbereitung] die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects[zusätzlichen Effekte] ansagen, welche in diesem Fall die Machtstufe bestimmen.
 * Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe erschaffst Du erfolgreich ein Skelett der gewählten Machtstufe.
 * Der primäre Typ der Kreatur ändert sich zu link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
-Es gelten die angegebenen xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules[Regeln].
+Es gelten die angegebenen xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules[Regeln].
 Folge den weiteren Regeln in diesem Kapitel, um dessen Profil zu bestimmen.
 
 [[ref_skeleton_attributes]]
 == Attribute
 
 Das Skelett erhält die Attribute der ursprünglichen Kreatur.
-Abhängig von der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] des Skeletts müssen manche Attributsstufen und Attributseigenschaften angepasst werden.
+Abhängig von der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] des Skeletts müssen manche Attributsstufen und Attributseigenschaften angepasst werden.
 Beispielsweise erhält ein Skelett der Machtstufe 4 nur die Hälfte seine Stufe in SB.
 
 Siehe dazu auch die folgende link:../../rules/tables/table_spells_create_undead.adoc[Tabelle].
@@ -61,7 +61,7 @@ Als Skelett verliert die Kreatur alle Talentstufen *außer* der folgenden:
 
 [[ref_skeleton_skill_bonus_tp]]
 === Bonus-TP
-Abhängig von seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] erhält das erschaffene Skelett einen Bonus auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
+Abhängig von seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] erhält das erschaffene Skelett einen Bonus auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
 
 |===
 |Machtstufe |Bonus TP
@@ -104,19 +104,19 @@ Sie erhalten dadurch einen xref:../../rules/core/core_rules_battlesystem.adoc#re
 [[ref_skeleton_skill_personality]]
 === Persönlichkeit
 Die Magie belebt nur den Körper wieder, die originale Persönlichkeit der Kreatur ist verloren.
-Daher können diese Untoten maximal eine xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_personality[rudimentäre Persönlichkeit] haben, auch wenn eine hohe Machtstufe eine komplexere Persönlichkeit erlaubt.
+Daher können diese Untoten maximal eine xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_personality[rudimentäre Persönlichkeit] haben, auch wenn eine hohe Machtstufe eine komplexere Persönlichkeit erlaubt.
 
 [[ref_skeleton_skill_omnious_bone_rattling]]
 === Ominöses Knochenklappern
 Einmal pro Kampfphase darf ein Skelett als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] mit seinen Knochen klappern.
 Das Geräusch ist im Radius von 6,00 Metern zu hören, vorausgesetzt, es existiert eine freie Luftlinie.
 Das Klappern verursacht bei Zuhörern üblicherweise ein verstörendes, beklemmendes Gefühl.
-Ein Skelett der  xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel[Machtstufe] 7 oder höher darf diese Fähigkeit auch einsetzen, um seine Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_fear_skill[Furcht] aktiv einzusetzen.
+Ein Skelett der  xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 7 oder höher darf diese Fähigkeit auch einsetzen, um seine Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_fear_skill[Furcht] aktiv einzusetzen.
 
 [[ref_skeleton_skill_undead]]
 === Untot
 Der primäre Kreaturentyp der Kreatur ändert sich in link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
 Sie verliert den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend].
-Ein Skelett lernt alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_skills[Fähigkeiten] von Untoten.
+Ein Skelett lernt alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_skills[Fähigkeiten] von Untoten.
 
 

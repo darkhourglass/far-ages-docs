@@ -57,8 +57,8 @@ Für diese Zaubersprüche gelten folgenden Sonderregeln:
 Es gelten die üblichen Regeln für Formulas.
 * Die xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[Vorbereitung] der Zaubersprüche beträgt nicht Kampfphasen, sondern Stunden.
 * Es sind zusätzliche xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_ingredients[Komponenten] im Wert von 100 Silbermünzen pro Punkt in POT nötg.
-* Alle Untoten, die durch diese Zaubersprüche erschaffen werden, gelangen automatisch und permanent unter die xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_control[Kontrolle] des Fleischskulpteur.
-Außerdem erleiden sie keinen xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_undead_rules_powerlevel_decay[Zerfall].
+* Alle Untoten, die durch diese Zaubersprüche erschaffen werden, gelangen automatisch und permanent unter die xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle] des Fleischskulpteur.
+Außerdem erleiden sie keinen xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall].
 * Der Fleischskulpteur kann außerdem maximal 3 Untote gleichzeitig auf diese Weise kontrollieren.
 Werden mehr Untote über diese Zaubersprüche erschaffen, verliert der Fleischskulpteur automatisch die Kontrolle über die ältesten erschaffenen Untoten.
 * Es können keine link:../../advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlosen] Untoten erschaffen werden.
