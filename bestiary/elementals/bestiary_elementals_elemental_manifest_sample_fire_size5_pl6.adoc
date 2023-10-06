@@ -1,0 +1,64 @@
+= Name
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] X, Fixierung)
+* Secondary Type(s)
+* Templates
+* *GK:* X
+* *CP:* TBA
+
+== Beschreibung
+
+_Das laute Knistern von Flammen und der Geruch wie bei einem Waldbrand liegt in der Luft.
+Wie ein Blitz vom Himmel lodert eine Flamme empor, die auf beunruhige Weise intelligent und lebendig wirkt.
+Eine wage, humanoide Gestalt formt sich aus den Flammen, die Augen schwarz wie Kohle._
+
+== Profil
+
+*ST:* 7 (+3)     *GE:* 4 (+2)     *KO:* 4 (+2) +
+*ER:* 4 (+2)     *EN:* 8 (+3)     *SB:* 2 (+1)    *CH:* 3 (+1) +
+
+*TP:* 65     *MP:* 80     *SP:* - +
+
+*WID:* 16 +
+*BEW:* 7,50 +
+*INI:* 10 +
+*MaxTL:* 105 +
+*MaxPOT:* 14 +
+
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:* - +
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer])
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Offensiv
+
+* link:../skills/specific/elementals/bestiary_skill_elementals_elemental_blast.adoc[Elementarer Stoß] 9 (3W6 Feuer)
+* link:../skills/bestiary_skill_attack_stroke.adoc.adoc[Hieb] 9 (2W6+2)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Hieb, 2)
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 3 (+2)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 3 (+3)
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] 3 (+2)

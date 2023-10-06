@@ -3,7 +3,7 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir, Sinn +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 5
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 5
 
 Innerhalb der Reichweite der Fähigkeit spürst Du die Anwesenheit aller link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen.
 Du erfährst ihren primären Kreaturentyp und ihre Anzahl (beispielsweise 5 Humanoide).

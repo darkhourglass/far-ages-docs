@@ -1,0 +1,125 @@
+= Rächer des sterbenden Waldes
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_awakend.adoc[Erwacht]
+* link:../templates/bestiary_template_awakend.adoc[Erwacht], link:../templates/bestiary_template_legendary.adoc[Legendär], link:../templates/bestiary_template_immortal.adoc[Unsterblich]
+* GK: 7
+* CP: TBA
+
+== Beschreibung
+
+_Der Wald war alt, seine Bäume knorrig und verwelkt.
+Aus kleinen Pfützen voll brauer Schlacke steigt ein übelriechender Gestank in eure Nasen.
+Dichtes, dorniges Gestrüpp versperrt bei jedem Schritt euer Vorankommen.
+Der Walt strahlt ein überwältigendes, drückendes Gefühl von Fäulnis, Tod und Verzweiflung aus.
+Auch wenn ihr kein einziges lebendes Wesen bisher gesehen habt, werdet ihr das Unbehagen nicht los, dass euch etwas beobachtet.
+Etwas Altes, Wütendes und Finsteres scheint jeden Schritt von euch zu folgen, wartend, lauernd, bis zum richtigen Moment._
+
+_Plötzlich, ohne Vorwarnung, rast ein massiver Schatten aus dem Unterholz auf Euch zu.
+Scheinbar mühelos und unbeeindruckt von Dornen und Schlingen bewegt sich die Gestalt, ein gewaltiges Geweih zum Angriff gesenkt._
+
+_Mit einem wütenden, tiefen Schrei jagt ein gewaltiger Elch aus dem Unterholz.
+Sein Fell ist kränklich grau und braun, wie die Pflanzen dieses Waldes.
+Glühende Augen und ein Geweih aus segnendem weißen Licht zeugen von einer übernatürlichen Wesenheit.
+
+_Am Verstörendsten erscheint jedoch sein Körper.
+Verrottend hängt sein Fell von seinen Knochen und die Rippen zeigen sich.
+Allerdings wachsen anstelle von Organen und Fleisch Ranken und Pflanzen, die einem Herzschlag nahe pulsieren und sich winden._
+
+Manche Orte sind mehr als das, was man an der Oberfläche sieht.
+Wälder, insbesondere, wachen seit vielen Jahren über das Land und ihre Bäume sahen Generationen von Völkern vorbeiziehen.
+Mächtige Pflanzen und Tiere geben den Ort mehr, als nur ein Platz in der Welt zu sein.
+Stirbt ein solcher Wald durch die rücksichtslose Hand der kurzlebigen Völker, kann ein Wesen geboren werden, dass als Rächer des sterbenden Waldes bekannt ist.
+Grundsätzlich ein Tier und Bewohner des Waldes, wird dieses Individuum zum Ausdruck des Zorns und der Verzweiflung, um diesen Tod vielleicht nicht mehr abwenden zu können, aber wenigstens noch diejenigen zu strafen, die die Schuld an dieser Tragödie tragen.
+
+Die genauen Umstände der Entstehung eines Rächers, ob und welche Magie eine Rolle spielt, oder ein infantiles Genus Loci der Auslöser ist, sind unbekannt.
+Der Legende nach kann ein Wald wieder auferstehen, wenn die Rache vollzogen wurde und der Rächer besiegt wurde.
+
+== Profil
+
+*ST:* 10 (+4)     *GE:* 4 (+2)     *KO:* 7 (+3) +
+*ER:* 5 (+2)      *EN:* 4 (+2)     *SB:* 6 (+2)    *CH:* 7 (+3) +
+
+*TP:* 100     *MP:* 40     *SP:* 65 +
+
+*WID:* 20 +
+*BEW:* 12,00 +
+*INI:* 8 +
+*MaxTL:* 150 +
+*MaxPOT:* 7 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor_unbreakable.adoc[Unnachgiebige natürliche Rüstung] 10 +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 14 (2W6+4)
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 10 (link:../../compendiums/spells/spell_acorn_barrage.adoc[Ahorn Barrage])
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 10 (link:../../compendiums/spells/spell_blinding_halo.adoc[Blendender Schein])
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 10 (link:../../compendiums/spells/spell_grappling_tendrils.adoc[Umschlingende Ranken])
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Klauen, 2)
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] 14 (3W8+4)
+* link:../skills/bestiary_skill_attack_trample.adoc[Zertreten] 14 (3W8+4)
+* link:../../rules/core/skills/core_skill_improved_charge.adoc[Verbesserter Sturmangriff]
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8 (+2)
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 5 (+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 5 (+2)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft] 5 (+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] 5 (+2)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 5 (+2)
+* <<ref_bestiary_revenger_of_the_dying_forest_rules_one_with_the_forest,Eins mit dem Wald>>
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* xref:../templates/bestiary_template_immortal.adoc#ref_template_immortal_skills_ageless_body[Zeitloser Körper]
+
+== Regeln
+
+[[ref_bestiary_revenger_of_the_dying_forest_rules_one_with_the_forest]]
+=== Eins mit dem Wald
+Der Rächer des sterbenden Waldes ignoriert alle Nachteile von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwierigem Gelände], solange er sich in seinem Wald aufhält.
+
+Außerdem erhält er in diesem Wald einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Situationsbonus] von *+10* auf alle Proben des folgenden Typs:
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken]
+
+[[ref_bestiary_revenger_of_the_dying_forest_rules_legendary]]
+=== Legendäre Kreatur
+Ein Rächer des sterbenden Waldes ist eine link:../templates/bestiary_template_legendary.adoc[legendäre] Kreatur.
+Die xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_attributs[Modifikatoren für Attribute] sind im Profil eingerechnet.
+Der Rächer darf seine xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendären Aktionen] (u.a.) wie folgt einsetzen:
+
+* Zertreten (legendäre Aktion)
+* Mehrfach-Angriff (legendäre Aktion)
+* Ausweichen (legendäre Reaktion)
+* Magische Fähigkeit (alle vorhandenen, legendäre Aktion)
+
+== Taktik
+Geschaffen als Ausdruck eines unbedingten Überlebenswillen, der Wut eines verletzten Tiers und der geballten Macht der Natur, ist ein Rächer des sterbenden Waldes ein gefährlicher und schlauer Gegner.
+Der Rächer nutzt seine natürliche <<ref_bestiary_revenger_of_the_dying_forest_rules_one_with_the_forest,Tarnung>>, um seine Gegner zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_supriseattack[überraschen].
+Als Eröffnung nutzt er idealerweise aus seiner Deckung einen direkten link:../../rules/core/skills/core_skill_improved_charge.adoc[Sturmangriff].
+Ist er größer als sein Gegenüber bevorzugt er link:../skills/bestiary_skill_attack_trample.adoc[Zertreten], sonst link:../skills/bestiary_skill_attack_ram.adoc[Rammen].
+
+Im direkten Nahkampf versucht der Rächer einzelne Kreaturen mit seinen link:../skills/bestiary_skill_attack_claw.adoc[Klauen] (und Mehrfach-Angriff) so schnell wie möglich kampfunfähig zu bekommen.
+Größere Gruppen versucht er mit seinen Fähigkeiten link:../../compendiums/spells/spell_blinding_halo.adoc[Blendender Schein] zu blenden (sein Geweih leuchtet auf) und link:../../compendiums/spells/spell_grappling_tendrils.adoc[Umschlingende Ranken] (die Pflanzen in seinem Körper versuchen seine Feinde zu fesseln) zu kontrollieren.
+
+Kreaturen, die aus der Ferne angreifen oder die sich durch seine anderen Fähigkeiten nicht kontrollieren lassen, erhalten eine link:../../compendiums/spells/spell_acorn_barrage.adoc[Ahorn Barrage].

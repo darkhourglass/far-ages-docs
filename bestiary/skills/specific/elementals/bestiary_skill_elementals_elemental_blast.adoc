@@ -1,0 +1,58 @@
+= Elementarer Stoß
+
+*Voraussetzungen:* Primärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementat] +
+*Typ:* Elementar, Arkanes +
+*CP:* tba +
+
+Elementare mit dieser Fähigkeit können die ihnen innenwohnende, ursprüngliche Energie in einen Stoß kanalisieren und auf entfernte Feinde abfeuern.
+
+Mit Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes[Aktion] kann der elementare Stoß eingesetzt werden.
+Dieser folgt dabei den Regeln für einen Angriff mit xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffen] und einer Grundreichweite von 6,00 Metern.
+
+Zur xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] würfelt der Elementar eine reguläre xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Probe] mit einem Gesamtbonus aus ihrer xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] plus ihrem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] in EN.
+
+Der elementare Stoß versucht bei einem Treffer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schaden] abhängig von der xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] des Elementars.
+
+
+|===
+|Machtstufe des Elementars |Schadenswürfel
+
+|1
+|2W4
+
+|2
+|2W4
+
+|3
+|2W6
+
+|4
+|2W6
+
+|5
+|3W6
+
+|6
+|3W6
+
+|7
+|4W6
+
+|8
+|4W6
+
+|9
+|5W6
+
+|10
+|5W6
+|===
+
+
+Weiterhin besitzt der elementare Stoß einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadenstyp] abhängig von der xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_elemental_fixation[Fixierung] des Elementars, zum Beispiel verursacht ein Feuer-fixiertes Elementar xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+
+.Elementarer Stoß
+====
+Ein Manifest der Luft mit Machtstufe 8 mit einer EN-Stufe von 7 (+3) würfelt seine Angriffsprobe mit einem Bonus vpn 8+3=11.
+Bei einem Treffer versucht das Elementar 4W6 Luft-Schaden.
+====

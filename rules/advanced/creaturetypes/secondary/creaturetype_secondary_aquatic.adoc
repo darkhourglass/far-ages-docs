@@ -3,5 +3,14 @@
 [[ref_secondary_creaturetype_aquatic_rules]]
 == Regeln
 
-* Die Kreatur erhält die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_move_swim.adoc[Schwimmen] für ihre BEW.
-* Die Kreatur kann unter Wasser atmen, zum Beispiel weil sie Kiemen besitzt, und ist damit immun gegenüber xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_drowing[Ertrinken].
+Kreaturen mit diesem sekundären Kreaturentyp sind auf das Leben im Wasser angepasst.
+Dies spiegelt sich in ihren Fähigkeiten wider.
+
+[[ref_secondary_creaturetype_aquatic_rules_skills]]
+=== Fähigkeiten
+
+Jede aquatische Kreatur erhält folgende Fähigkeiten:
+
+* link:../../../../bestiary/skills/bestiary_skill_move_swim.adoc[Schwimmen]: die BEW wird nach den üblichen xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary_calculate_movementrate[Regeln] bestimmt.
+Es ist möglich, dass eine Kreatur nur diese Art der xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[Fortbewegung] besitzt.
+* link:../../../../bestiary/skills/bestiary_skill_gills.adoc.adoc[Kiemen]: Die Kreatur kann problemlos unter Wasser atmen, auch wenn ihre anatomische Beschreibung nicht wortwörtlich Kiemen enthält.

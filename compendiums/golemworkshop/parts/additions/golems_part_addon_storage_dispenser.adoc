@@ -10,7 +10,7 @@
 *Beschreibung:* Mit diesem Zusatz lässt sich eine Einheit Lagermenge eines link:golems_part_addon_storage_tank.adoc[Tankbehälters] entladen.
 Der Golem muss mindestens einen solchen Tankbehälter (ebenfalls ein Zusatz) installiert haben.
 
-Mit dem Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] kann der Golem eine der folgenden Verwendung dieses Zusatzes durchführen:
+Mit dem Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] kann der Golem eine der folgenden Verwendung dieses Zusatzes durchführen:
 
 * Die Einheit kann harmlos abgelassen werden (ohne offensiven Einsatz).
 Die Aktion wird üblicherweise verwendet, um die link:golems_part_addon_storage_tank.adoc[Tankbehälter] des Golems zu leeren und deren Inhalt umzufüllen.

@@ -170,7 +170,7 @@ Ein Verlust von SP kann zu bleibenden Schäden in der Psyche führen und der Wah
 
 [[ref_core_2d10_characters_attributes_secondary_movementrate]]
 ==== Bewegungsrate (BEW)
-Die *Bewegungsrate (BEW)* bestimmt, wie weit sich ein Charakter einen begrenzten Zeitraum (einer xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase]) bewegen kann.
+Die *Bewegungsrate (BEW)* bestimmt, wie weit sich ein Charakter einen begrenzten Zeitraum (einer xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase]) bewegen kann.
 In Far Ages wird diese Entfernung in Metern gemessen.
 Charaktere mit einer hohen Attributsstufe in <<ref_core_2d10_characters_attribute_dexterity,Geschick>> bewegen sich schneller und weiter als weniger geschickte Charaktere.
 Weiterhin kann ein Charakter auch mehr als eine Bewegungsrate besitzen, beispielsweise in der Luft oder im Wasser.
@@ -179,7 +179,7 @@ Andere Bewegungsvarianten sind explizit angegeben.
 
 [[ref_core_2d10_characters_attributes_secondary_initiativebonus]]
 ==== Initiative-Bonus (INI)
-Der *Initiativebonus (INI)* bestimmt die xref:core_rules_battlesystem.adoc#ref_core_battle_flow_initiative[Reihenfolge] der Teilnehmer an einem Kampf innerhalb einer xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase].
+Der *Initiativebonus (INI)* bestimmt die xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_initiative[Reihenfolge] der Teilnehmer an einem Kampf innerhalb einer xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase].
 Je höher dieser Bonus ist, desto wahrscheinlicher ist es, dass ein Charakter vor einem anderen Charakter agieren kann.
 Besonders langsame Kreaturen können auch einen negativen INI-Wert haben.
 
@@ -711,6 +711,11 @@ Die folgenden Kapitel beschrieben solche standardisierten Rettungswürfe, die au
 
 In manchen Fällen werden Rettungswürfe als Verteidigung in einer <<ref_core_2d10_checks_concurrentrolls,konkurrierenden Probe>> benutzt.
 
+[NOTE]
+Sofern nicht explizit vorgeschrieben, muss ein Charakter oder eine Kreatur einen Rettungswurf nur einmal würfeln, um den Effekt aus einem Auslöser des Rettungswurfes zu bestimmen.
+Das bedeutet insbesondere, dass einmal erfolgreiche Rettungswürfe nicht wiederholt werden müssen.
+Fehlgeschlagene Rettungswürfe dürfen im Ermessen des SLs wiederholt werden.
+
 // TODO Rettungswürfe: Beispiele
 
 [[ref_core_2d10_checks_saves_ST]]
@@ -766,7 +771,7 @@ Er erhält diesen Bonus somit nicht auf die Standardrettungswürfe <<ref_core_2d
 Bei manchen Dingen kommt einem einfach die Galle hoch.
 
 * *Misserfolg:* Dem Charakter wird übel und er kann gerade noch schlimmeres verhindern.
-Dennoch muss er für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphasen] einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 hinnehmen.
+Dennoch muss er für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 hinnehmen.
 * *Patzer:* Dem Charakter wird übel, jedoch kann er sich nicht mehr beherrschen und muss sich übergeben.
 Er gilt als <<ref_core_2d10_condition_dazed,benommen (Stufe 1)>>.
 
@@ -995,7 +1000,7 @@ Im Allgemeinen sind die Zustände mit einem Auslöser verbunden, wie beispielswe
 Viele Begriffe und Regeln in diesem Kapitel verweisen bereits auf das Kapitel link:core_rules_battlesystem.adoc[Kampf], da Zustände im Allgemeinen während eines Kampfs besonders stark zur Geltung kommen.
 
 Weiterhin sind Zustände zeitlich beschränkt, wobei diese Dauer im Allgemeinen durch den Auslöser vorgegeben wird.
-Sofern nicht anders angegeben, wird die Dauer eines Zustands in xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphasen] angegeben.
+Sofern nicht anders angegeben, wird die Dauer eines Zustands in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] angegeben.
 
 Die folgende link:../tables/table_conditions_overview.adoc[Tabelle] führt alle besonderen Zustände auf mit einer Beschreibung ihrer Auswirkungen auf xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], die Charakter durchführen können.
 
@@ -1007,9 +1012,9 @@ Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Bei
 Charakter gilt am Boden, wenn er liegt.
 
 In diesem Zustand erhält der Charakter einen <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle Proben.
-Er darf außerdem nur die Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_standup[Aufstehen] und Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_run[Rennen] mit halbierter BEW (min. 1,50) verwenden.
+Er darf außerdem nur die Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_standup[Aufstehen] und Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_move[Rennen] mit halbierter BEW (min. 1,50) verwenden.
 
-Um den Zustand zu beenden, muss der Charakter das Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_standup[Aufstehen] in seiner Kampfphase verwenden.
+Um den Zustand zu beenden, muss der Charakter das Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_standup[Aufstehen] in seiner Kampfphase verwenden.
 
 [[ref_core_2d10_condition_corned]]
 === Bedrängt
@@ -1036,7 +1041,7 @@ Ein Charakter kann diese kumulativ erhalten, hat er beispielsweise bereits 2 Stu
 Diese schränkt die Handlungsfähigkeit eines Charakters in seiner Kampfphase wie folgt ein:
 
 |===
-|Stufe |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen]
+|Stufe |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegung] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen]
 
 |Benommen (Stufe 1)
 |Nein
@@ -1082,7 +1087,7 @@ Somit dauert die Benommenheit noch eine Kampfphase auf Stufe 1 an.
 [[ref_core_2d10_condition_immobile]]
 === Bewegungsunfähig
 Ein bewegungsunfähiger Charakter hat eine effektive BEW-Rate von 0, die nicht weiter modifiziert werden kann.
-Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] durchführen, solange diese keine BEW erfordern.
+Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] durchführen, solange diese keine BEW erfordern.
 Der Zustand endet üblicherweise nach Ablauf des verursachenden Effekts.
 
 [[ref_core_2d10_condition_blind]]
@@ -1166,7 +1171,7 @@ Der INI-Bonus kann auch negativ werden.
 Der Malus kann BEW des Charakters nicht unter 1,50 Meter bringen.
 * Der Charakter erhält ab Stufe 2 auf alle <<ref_core_2d10_checks_saves_ST,Stärke-basierten>> Proben einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 
-Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_KO,KO-Rettungswurf>> ablegen.
+Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_KO,KO-Rettungswurf>> ablegen.
 Besteht er diesen Rettungswurf nicht, wird er <<ref_core_2d10_condition_unconscious,ohnmächtig>>.
 
 Um eine oder mehrere Stufen Erschöpfung zu entfernen, muss der Charakter sich <<ref_core_2d10_regeneration,erholen>>.
@@ -1177,7 +1182,7 @@ Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
 Manchmal ist Flucht die beste Verteidigung.
 Ein Charakter in diesem Zustand ist üblicherweise unfreiwillig auf der Flucht aus einer Kampfsituation, zum Beispiel aufgrund einer verpatzen <<ref_core_2d10_checks_saves_base_fear,Furcht-Probe>>.
 
-Ein fliehender Charakter muss in seiner Kampfphase seine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] ausschließlich darauf verwenden, um den Kampf zu entkommen.
+Ein fliehender Charakter muss in seiner Kampfphase seine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ausschließlich darauf verwenden, um den Kampf zu entkommen.
 
 Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen oder wenn der Charakter den Kampfschauplatz verlassen hat.
 Letzteres liegt im Ermessen des SL.
@@ -1190,17 +1195,18 @@ Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen
 Gefangene Charaktere gelten als <<ref_core_2d10_condition_immobile,bewegungsunfähig>>.
 Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind oder der Auslöser für den Zustand sind, einen <<ref_core_2d10_checks_situationalmodifiers_bonus,Bonus>> von +5 aus alle Angriffsproben gegen diesen Charakter.
 
-Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attack_brawl[Raufen und Ringen].
+Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen].
 
 [[ref_core_2d10_condition_bondedincombat]]
 === Im Nahkampf gebunden
-Ein Charakter gilt als im Nahkampf gebunden, wenn er mindestens direkt neben einem Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
-Der Ausgang dieser Probe ist dabei nicht relevant.
+Ein Charakter gilt als im Nahkampf gebunden, wenn er in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
+Es können aufgrund einer einzelnen Angriffsprobe sowohl <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angreifer>> wie <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidiger>> im Nahkampf gebunden werden, wenn beide zum Zeitpunkt der Probe in der Bedrohungszone des jeweils anderen stehen.
+Das <<ref_core_2d10_checks_basicrole,Ergebnis>> dieser Probe ist dabei nicht relevant.
 Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm basieren.
 
 [[ref_core_2d10_condition_disabled]]
 === Kampfunfähig
-Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver], xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen] zur Verfügung.
+Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen] zur Verfügung.
 
 Sofern nicht anders angegeben, gelten keine anderen Zustände (wie zum Beispiel im Fall einer <<ref_core_2d10_condition_unconscious,Ohnmacht>> <<ref_core_2d10_condition_onground,am Boden>> zu liegen).
 Die Kampfunfähigkeit endet erst, wenn der Zustand explizit aufgehoben wird.
@@ -1391,7 +1397,7 @@ Hat beispielsweise ein Charakter noch 5 TP und erleidet 10 Schadenspunkte, hat e
 [[ref_core_2d10_death_condition_deathsdoor]]
 === Dem Tode nahe
 Dieser Zustand zeigt an, dass ein Charakter dem Tode nahe ist.
-Der Zustand schränkt den Charakter nicht weiter ein, daher ist es möglich, dass ein Charakter in diesem Zustand (und damit implizit mit beispielsweise 0 TP) weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] und so weiter einsetzen kann.
+Der Zustand schränkt den Charakter nicht weiter ein, daher ist es möglich, dass ein Charakter in diesem Zustand (und damit implizit mit beispielsweise 0 TP) weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] einsetzen kann.
 
 Der Zustand wird aufgehoben, sobald der Charakter keinen Punktepool auf dem Wert 0 hat.
 Das heißt, jeder Punktepool (außer <<ref_core_2d10_pools_sp,SP>>) muss einen Wert größer 0 haben.

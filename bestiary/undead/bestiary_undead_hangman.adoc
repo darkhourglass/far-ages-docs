@@ -1,6 +1,6 @@
 = Galgenmann
 
-* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6)
 * *GK:* 6
 * *CP:* TBA
 
@@ -24,6 +24,7 @@ Hans, lauf!
 *MaxTL:* 75 +
 *MaxPOT:* 6 +
 
+*Aktionen:* 3 +
 *Rüstung:* - +
 *Resistenzen:*
 
@@ -82,8 +83,9 @@ Zu Beginn seiner Kampfphase erhalten alle link:../../rules/advanced/creaturetype
 
 [[ref_bestiary_hangman_execute]]
 === Exekution
-Der Galgenmann darf eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] durchführen, um in seiner Kampfphase einen mit ihm xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] Charakter zweimal anzugreifen.
+Der Galgenmann darf eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] durchführen, um in seiner Kampfphase einen mit ihm xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] Charakter zweimal anzugreifen.
 Für diesen Angriff darf er nur sein Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwenden.
+Diese Fähigkeit kann er nur einmal pro Kampfphase einsetzen.
 
 [[ref_bestiary_hangman_curse_of_the_hangman]]
 === Fluch des Galgenmannes

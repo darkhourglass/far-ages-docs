@@ -1,0 +1,341 @@
+= Elementare Manifeste
+
+== Regeln
+
+[[ref_bestiary_elemental_rules_summoning]]
+=== Beschwörung
+Ein elementares Manifest ist kein Wesen der sterblichen Welt, sondern stammt von einer der elementaren Ebenen, der ursprünglichen und chaotischen Heimat der Elemente Feuer, Erde, Wasser und Luft.
+Elementare werden nicht geboren, sondern müssen beschwören werden, zum Beispiel durch Magie wie den Zauberspruch link:../../compendiums/spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementares Manifest].
+Manche Manifeste verlassen ihre Ebene manchmal durch ein Portal.
+
+In jedem Fall konzentriert sich ein winziger Teil einer elementaren Ebenen in einem fast physikalischen Körper und bildet ein Individuum, ein Manifest.
+
+Um das <<ref_bestiary_elemental_rules_profile,Profil>> des Manifests zu bestimmen, sind zunächst die folgenden drei Schritte der Bestimmung der <<ref_bestiary_elemental_rules_summoning_powerlevel,Machtstufe>>, <<ref_bestiary_elemental_rules_summoning_size,GK>> und <<ref_bestiary_elemental_rules_summoning_element,Element>> durchzuführen.
+
+[[ref_bestiary_elemental_rules_summoning_powerlevel]]
+==== Machtstufe
+Jedes elementare Manifest besitzt eine xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe], die verschiedene Aspekt seines Profils und Fähigkeiten bestimmt.
+Je höher die Machtstufe ist, desto stärker ist das Manifest und umso schwerer ist es üblicherweise es zu beschwören.
+Beispielsweise bestimmt ein Zauberer bei Einsatz von link:../../compendiums/spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementares Manifest] die Machtstufe des Manifests, dass er beschwören möchte.
+
+Dabei gilt die Einschränkung der Machtstufe von elementaren Manifesten von maximal 10.
+Ein Manifest kann daher die Machtstufen 1 (minimal für xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementare]) bis 10 besitzen.
+
+Ist die Machtstufe final festgelegt, kann nach den Regeln den folgenden Kapiteln die <<ref_bestiary_elemental_rules_summoning_size,Größe>> und das <<ref_bestiary_elemental_rules_profile,Profil>> eines Manifests bestimmt werden.
+
+[[ref_bestiary_elemental_rules_summoning_size]]
+==== Größe
+Durch die chaotische Natur der elementaren Ebenen und der Tatsache, dass ein Manifest in dem Sinne keinen festen Körper hat, ist die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größe] eines Manifests variabel.
+Erst im Augenblick des Eintretens in die sterbliche Welt wird bestimmt, wie groß das Manifest ist.
+
+Dazu muss in der folgenden Tabelle anhand der Machtstufe eine Größe zufällig bestimmt werden.
+
+|===
+|Machtstufe |Bestimmung der GK |Mögliche GKs
+
+|1
+|1W3+1
+|2-4
+
+|2
+|1W3+1
+|2-4
+
+|3
+|1W4+1
+|2-5
+
+|4
+|1W6+1
+|2-6
+
+|5
+|1W6+1
+|2-6
+
+|6
+|2W3+2
+|4-8
+
+|7
+|2W3+2
+|4-8
+
+|8
+|2W4+3 (max. 10)
+|5-10
+
+|9
+|2W4+3 (max. 10)
+|5-10
+
+|10
+|3W4+2 (max. 10)
+|5-10
+|===
+
+Die Kombination der Größe und Machtstufe bestimmt im Nachfolgenden die <<ref_bestiary_elemental_rules_profile_attributes,Attribute>> des Manifests.
+
+[NOTE]
+Um den Spielfluss nicht durch lange Profilerstellung zu behindern, kann der SL es den Spielern, die beispielsweise ein Manifest regelmäßig beschwören, ermöglichen, immer das gleiche Manifest zu beschwören.
+Dadurch muss dessen Machtstufe, Größe und Profil nur einmal bestimmt werden.
+
+[[ref_bestiary_elemental_rules_summoning_element]]
+==== Element
+Jedes elementare Manifest besitzt ein Element: Feuer, Erde, Wasser oder Luft.
+Dieses Element bestimmt aus Regelsicht die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_elemental_fixation[elementare Fixierung] des Elementars und damit einen Großteil seiner <<ref_bestiary_elemental_rules_profile_talents,Talente>> und <<ref_bestiary_elemental_rules_profile_skills,Fähigkeiten>>.
+
+Der Zauberspruch link:../../compendiums/spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementares Manifest] gibt beispielsweise vor, welches Element zur Verfügung steht.
+Sollte die Quelle des Elements nicht eindeutig sein oder SL ein bestimmtes Manifest erschaffen möchte, dann ist eine entsprechende Wahl natürlich möglich.
+
+[[ref_bestiary_elemental_rules_profile]]
+=== Profil
+In diesem Kapitel werden die einzelen Schritte beschrieben, um ein vollständiges Profil für ein elementares Manifest zu bestimmen.
+Dazu sind die Einzelteile <<ref_bestiary_elemental_rules_summoning_powerlevel,Machtstufe>>, ref_bestiary_elemental_rules_summoning_size,Größe>> und <<ref_bestiary_elemental_rules_summoning_element,Element>> aus dem vorherigen <<ref_bestiary_elemental_rules_summoning,Kapitel>> nötig.
+
+[[ref_bestiary_elemental_rules_profile_creaturetypes]]
+==== Kreaturentypen
+Alle elementaren Manifeste besitzen automatisch immer den primären Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar].
+Sie erhalten alle Fähigkeiten aus diesem Kreaturentyp und es gelten die vorgestellten Regeln.
+Manifeste erhalten keinen sekundären Kreaturentyp.
+
+[[ref_bestiary_elemental_rules_profile_attributes]]
+==== Attribute
+Die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes[Attributsstufen] und damit auch xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsboni] werden in zwei Schritten bestimmt.
+Es werden zuerst die Attributsstufen in xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST], xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO] aufgrund der Größe bestimmt und dann die restlichen Attribute auf Basis der Machtstufe.
+Außerdem erhält ein Manifest aufgrund seines <<ref_bestiary_elemental_rules_summoning_element,Elements>> weitere Boni.
+Die jeweiligen Stufen (Attributsboni in Klammern) lassen sich aus den folgenden Tabellen ablesen.
+
+|===
+|GK |ST |GE |KO
+
+|1
+|3 (+1)
+|3 (+1)
+|2 (+1)
+
+|2
+|3 (+1)
+|3 (+1)
+|2 (+1)
+
+|3
+|4 (+1)
+|3 (+1)
+|3 (+1)
+
+|4
+|4 (+1)
+|4 (+2)
+|3 (+1)
+
+|5
+|6 (+2)
+|4 (+2)
+|3 (+1)
+
+|6
+|6 (+2)
+|4 (+2)
+|4 (+2)
+
+|7
+|8 (+3)
+|6 (+2)
+|4 (+2)
+
+|8
+|8 (+3)
+|6 (+2)
+|6 (+2)
+
+|9
+|10 (+4)
+|6 (+2)
+|6 (+2)
+
+|10
+|12 (+4)
+|8 (+3)
+|10 (+4)
+|===
+
+|===
+|Machtstufe |ER |EN |SB |CH
+
+|1
+|2 (+1)
+|3 (+1)
+|2 (+1)
+|2 (+1)
+
+|2
+|2 (+1)
+|3 (+1)
+|2 (+1)
+|2 (+1)
+
+|3
+|2 (+1)
+|4 (+2)
+|2 (+1)
+|2 (+1)
+
+|4
+|3 (+1)
+|4 (+2)
+|2 (+1)
+|2 (+1)
+
+|5
+|4 (+2)
+|5 (+2)
+|3 (+1)
+|3 (+1)
+
+|6
+|4 (+2)
+|6 (+2)
+|3 (+1)
+|3 (+1)
+
+|7
+|5 (+2)
+|6 (+2)
+|4 (+2)
+|4 (+2)
+
+|8
+|5 (+2)
+|7 (+3)
+|4 (+2)
+|4 (+2)
+
+|9
+|6 (+2)
+|7 (+3)
+|5 (+2)
+|5 (+2)
+
+|10
+|7 (+3)
+|9 (+3)
+|6 (+3)
+|6 (+3)
+|===
+
+|===
+|Element |Bonus auf Attributsstufen
+
+|Erde
+|+2 ST, +1 KO, -1 ER
+
+|Feuer
+|+2 EN, +1 ST, -1 SB+
+
+|Luft
+|+2 CH, +1 GE, -1 KO
+
+|Wasser
+|+2 GE, +1 EN, -1 CH
+|===
+
+.Attributsstufen für elementare Manifeste
+====
+In diesem Beispiel berechnen wir die Attributsstufen für ein Feuer-Elementar der Machtstufe 6 und GK 5.
+
+Die Attributsstufen ergeben sich wie folgt:
+
+* ST: 6 + 1 = 7 (+3)
+* GE: 4 (+2)
+* KO: 3 (+1)
+* ER: 4 (+2)
+* EN: 6 + 2 = 8  (+3)
+* SB: 3 - 1 = 2  (+1)
+* CH: 3 (+1)
+====
+
+[[ref_bestiary_elemental_rules_profile_pools]]
+==== Punkte-Pools
+
+Die Punkte-Pools xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] für jedes Manifest berechnen sich nach den üblichen xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Regeln].
+
+Wie alle link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementare] besitzen Manifeste keine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP].
+
+[[ref_bestiary_elemental_rules_profile_secondary_attributes]]
+==== Attributseigenschaften
+Die Attributseigenschaften berechnen sich nach den üblichen xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Regeln].
+Abhängig von ihrem Element erhalten Manifeste außerdem noch die folgenden Modifikatoren.
+
+|===
+|Element |BEW |INI |MaxTL |MaxPOT |WID
+
+|Erde
+|-3,00 Meter (minimal 3,00 Meter)
+|-2
+|+50
+|-
+|+4
+
+|Feuer
+|-
+|+2
+|-
+|+3
+|+2
+
+|Luft
+|+3,00
+|+2
+|-
+|-
+|-2
+
+|Wasser
+|-
+|-
+|+25
+|+1
+|+2
+|===
+
+[[ref_bestiary_elemental_rules_profile_talents]]
+==== Talente
+Jedes Manifest lernt die folgenden Talente:
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen]
+
+Der Bonus für die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] berechnet sich aus dem üblichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus], der mit dem jeweiligen Talent assoziert wird und +1 pro 2 Machtstufen.
+
+.Talente für elementare Manifeste
+====
+Das Feuer-Manifest mit Machtstufe 6 aus dem vorherigen Beispiel erhält die folgenden Talentboni:
+
+* Ausweichen 3 (+2)
+* Niederschlag Widerstehen 3 (+1)
+* Verborgenes Erkennen 3 (+2)
+
+====
+
+[[ref_bestiary_elemental_rules_profile_skills]]
+==== Fähigkeiten
+Alle elementare Manifeste lernen die folgenden Fähigkeiten zusätzlich zu denen ihres xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_skills[Kreaturentyps]:
+
+* link:../skills/specific/elementals/bestiary_skill_elementals_elemental_blast.adoc[Elementarer Stoß]
+* link:../skills/bestiary_skill_attack_stroke.adoc.adoc[Hieb] ST-Bonus + Machtstufe (1W6+1 pro 3 Machtstufen)
+* Alle elementaren Manifeste lernen ab Machtstufe 6 die Fähigkeit link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Hieb, 2)
+* Alle elementaren Manifeste lernen ab Machtstufe 8 die Fähigkeit link:../skills/specific/elementals/bestiary_skill_elementals_primordial_spellcaster.adoc[Ursprünglicher Zauberer]
+* Manifeste der Erde lernen: link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 2 + Machtstufe
+* Manifeste der Luft lernen: link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 12,00 Meter (ab GK 6 15,00 Meter, ab GK 9 18,00 Meter)
+* Manifeste des Wassers lernen: link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 12,00 Meter (ab GK 6 15,00 Meter, ab GK 9 18,00 Meter)
+
+== Beispiele
+
+Auf Basis der vorgestellten Regeln wurden folgende Einträge im Bestiarium erstellt:
+
+* link:bestiary_elementals_elemental_manifest_sample_earth_size5_pl6.adoc[Erd-Manifest], Größe 5, Machtstufe 6
+* link:bestiary_elementals_elemental_manifest_sample_fire_size5_pl6.adoc[Feure-Manifest], Größe 5, Machtstufe 6
+* link:bestiary_elementals_elemental_manifest_sample_air_size5_pl6.adoc[Luft-Manifest], Größe 5, Machtstufe 6
+* link:bestiary_elementals_elemental_manifest_sample_water_size5_pl6.adoc[Wasser-Manifest], Größe 5, Machtstufe 6

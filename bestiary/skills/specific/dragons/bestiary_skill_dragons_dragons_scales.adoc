@@ -1,0 +1,9 @@
+= Drachenschuppen
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] +
+*Machtstufe:* 1 (kumulativ) +
+*Typ:* Drachen +
+*CP:* tba +
+*Aktivierung:* Passive +
+
+Pro xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel[Machtstufe] in dieser xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_skills[Fähigkeit] erhält der Drache einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürlichen Rüstungsschutz] von *3* auf allen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen].

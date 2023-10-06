@@ -13,12 +13,12 @@
 Rote, feurige Blitze formen sich in den Lücken zwischen den Wolken.
 Kommen diese hervor, erkennt der Beobachter, dass es sich um kleine, feurige Teufel handelt, deren Gesichter ein hämisches Grinsen mit messerscharfen Zähnen zeigen.
 
-Aller Kreaturen im Wirkungsbereich müssen zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO-Rettungswurf] gegen Deine Spruchzauberei-Probe bestehen.
+Aller Kreaturen im Wirkungsbereich müssen zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO-Rettungswurf] gegen Deine Spruchzauberei-Probe bestehen.
 Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] oder schlechter beißen oder reißen die Feuerteufel ihnen Wunden und erhalten sie einen automatischen Treffer mit 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] und 3W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt-Schaden].
 Du bist immun gegenüber den Feuerteufeln.
 
 Im Wirkungsbereich herrscht eine leichte xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] (sternenklare Nacht).
-Du bist von dieser Dunkelheit nicht betroffen, auch wenn Du beispielsweise keine link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] beherrschst. +
+Du bist von dieser Dunkelheit nicht betroffen, auch wenn Du beispielsweise keine link:../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht] beherrschst. +
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +
 +5 MP, +1 POT: erhöhe xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit-Modifikator] um -5 (max. -20) +

@@ -1,7 +1,7 @@
 = Schrecken aus Augen und Zähnen
 
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime]
-* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend]
 * -
 * GK: 6
 * CP: TBA
@@ -36,6 +36,7 @@ Auch ihr konstantes Zähneknirschen verhindert subtile Taktiken.
 *MaxTL:* 90 +
 *MaxPOT:* 4 +
 
+*Aktionen:* 3 +
 *Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 +
 *Resistenzen:* - +
 *Immunitäten:*
@@ -50,7 +51,7 @@ Auch ihr konstantes Zähneknirschen verhindert subtile Taktiken.
 
 * link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 6 (2W6+2)
 * link:../skills/bestiary_skill_attack_bite.adoc[Biss] 6 (1W8)
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] (Biss, <<ref_bestiary_terror_of_eyes_and_teeth_multiattack,siehe Beschreibung>>)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Biss, <<ref_bestiary_terror_of_eyes_and_teeth_multiattack,siehe Beschreibung>>)
 
 == Defensive
 
@@ -60,7 +61,7 @@ Auch ihr konstantes Zähneknirschen verhindert subtile Taktiken.
 == Sonstiges
 
 * xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc#ref_primary_creaturetype_ooze_rules_amorphous_body[Formloser Körper]
-* link:../skills/bestiary_skill_blindsense.adoc[Blindsinn] 30,00 Metern
+* link:../skills/bestiary_skill_senses_blindsense.adoc[Blindsinn] 30,00 Metern
 * <<ref_bestiary_terror_of_eyes_and_teeth_horrifing_gnawling,Furcheinflößendes Zermalen>> 7
 * <<ref_bestiary_terror_of_eyes_and_teeth_constant_gnawing,Konstantes Knirschen>>
 * link:../skills/bestiary_skill_engulfing.adoc[Umschlingend]

@@ -9,20 +9,20 @@
 *Reichweite:* - +
 *Anzahl der Ziele:* - +
 *Dauer:* 24 Stunden +
-*Effekt:* Du beschwörst ein elementares link:../../bestiary/elementals/bestiary_elementals_manifest.adoc[Manifest] des Feuers, dass sich Deinem Willen unterwirft.
+*Effekt:* Du beschwörst ein elementares link:../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc[Manifest] des Feuers, dass sich Deinem Willen unterwirft.
 Es brennt in einem gewaltigen Feuerball, der sich mit erfolgreicher Spruchzauberei-Probe zu einem Streitwagen, der von zwei Pferden gezogen wird, aus hellen Flammen formt. +
 
 Das Feuer des Streitwagens verbrennt Dich und eine beliebige von Dir bestimmte Anzahl von Kreaturen nicht.
 Du und 5 weitere Kreaturen Deiner Wahl können den Streitwagen betreten.
 Die Kreaturen können dabei maximal 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] größer sein als Du.
 
-Der Streitwagen bewegt sich mit einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] 24,00 Metern pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase].
+Der Streitwagen bewegt sich mit einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] 24,00 Metern pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase].
 Damit der Streitwagen sich bewegt, musst Du an Bord sein.
-Er verwendet ein eigenes xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver].
+Er wird dabei als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Reittier] behandelt.
 
-Für weitere Regeln wird angenommen, dass der Streitwagen ein  link:../../bestiary/elementals/bestiary_elementals_manifest.adoc[Manifest] des Machtstufe 9 ist.
+Für weitere Regeln wird angenommen, dass der Streitwagen ein  link:../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc[Manifest] des Machtstufe 9 ist.
 Das Manifest attackiert nicht selbst.
-Jedoch erhält jede Kreatur, die durch eine Bewegung des Streitwagens berührt wird, einen automatischen Treffer mit 6W10+6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]-Schaden.
+Jedoch erhält jede Kreatur, die durch eine Bewegung des Streitwagens berührt wird, einen automatischen Treffer mit 6W10+6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
 
 *Zusätzliche Effekte:* +
 +5 MP: Dauer +24 Stunden +

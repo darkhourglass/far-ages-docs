@@ -52,8 +52,20 @@ Die unten angebenden Regeln beziehen sich jedoch nicht explizit auf das Verwende
 Typische Begriffe, wie von der Seite angreifen, in den Rücken fallen, lassen sich direkt übertragen.
 An einigen Beispielen nutzen wir die Anschaulichkeit der Miniaturen, um das Spielprinzip zu erläutern.
 
-[[ref_core_battle_start_of_battle]]
-== Beginn des Kampfes
+[[ref_core_battle_cycle]]
+== Ablauf eines Kampfes
+
+In der Realität ist ein Kampf ein schwer kontrollierbares System aus Ereignissen, die oft gleichzeitig passieren.
+Dies lässt jedoch schwer für ein Spiel, welches an einem Tisch stattfindet, umsetzen.
+Daher ist der Ablauf eines Kampfes in <<ref_core_battle_cycle_battlephase,*Kampfphasen*>> unterteilt.
+Eine Kampfphase besteht nur aus ein paar Augenblicken, in denen unterschiedliche Ereignisse stattfinden können und die als abstrakte Maßeinheit dient.
+
+In jeder Kampfphase stehen jedem Teilnehmer unterschiedliche <<ref_core_battle_actions,Aktionen>> und <<ref_core_battle_reactions,Reaktionen>> zur Verfügung.
+Hat jeder Teilnehmer seine Aktionen in einer Kampfphase durchgeführt, ist diese vorbei und eine neue Kampfphase beginnt.
+Ein Kampf ist beendet, wenn in einer Kampfphase kein Teilnehmer Aktionen durchführen kann oder möchte.
+
+[[ref_core_battle_cycle_start]]
+=== Beginn des Kampfes
 
 [quote, Gratak „Eisenbieger“]
 Ein Kampf endet meistens genauso wie er anfangen hat.
@@ -63,37 +75,36 @@ Der Auslöser ist sicherlich aus der Handlung des Abenteuers herauszufiltern, un
 
 Das System von Far Ages unterscheidet jedoch zwischen zwei Möglichkeiten einen Kampf zu beginnen: Kampf, den beiden Seiten initialisiert und dem Kampf, den eine Seite initialisiert.
 
-Die erste Variante ist am einfachsten erläutert, denn in diesem Fall haben alle Parteien ihre Waffen gezogen und Vorbereitungen getroffen und es kommt direkt zur ersten <<ref_core_battle_flow_battlephase,Kampfphase>>.
+Die erste Variante ist am einfachsten erläutert, denn in diesem Fall haben alle Parteien ihre Waffen gezogen und Vorbereitungen getroffen und es kommt direkt zur ersten <<ref_core_battle_cycle_battlephase,Kampfphase>>.
 
 Die zweite Variante basiert auf der Annahme, dass eine Partei von der anderen überrascht wurde oder plötzlich zum Kampf gezwungen.
-In diesem Fall spricht man von einem <<ref_core_battle_flow_supriseattack,Überraschungsangriff>>.
+In diesem Fall spricht man von einem <<ref_core_battle_cycle_supriseattack,Überraschungsangriff>>.
 
-[[ref_core_battle_flow]]
-== Ablauf eines Kampfes
+[[ref_core_battle_cycle_supriseattack]]
+=== Überraschungsangriff
+Als *Überraschungsangriff* wird der <<ref_core_battle_cycle_start,Beginn eines Kampfes>> definiert, in dem eine Seite nicht agieren kann, da sie die aggressiven Aktionen der anderen Seite nicht hat sehen oder vorausahnen können.
 
-In der Realität ist ein Kampf ein schwer kontrollierbares System aus Ereignissen, die oft gleichzeitig passieren.
-Dies lässt jedoch schwer für ein Spiel, welches an einem Tisch stattfindet, umsetzen.
-Daher ist der Ablauf eines Kampfes in *Kampfphasen* unterteilt.
-Eine Kampfphase besteht nur aus ein paar Augenblicken, in denen unterschiedliche <<ref_core_battle_flow_battlephase,Ereignisse>> stattfinden können und die als abstrakte Maßeinheit dient.
+Eine Seite könnte im Kampf als Überraschungsangriff beispielsweise in den folgenden Situationen erfolgreich initialisieren:
 
-In jeder Kampfphase stehen jedem Teilnehmer unterschiedliche <<ref_core_battle_actions,Aktionen>> und <<ref_core_battle_maneuver,Manöver>> zur Verfügung.
-Hat jeder Teilnehmer seine Aktionen in einer Kampfphase durchgeführt, ist diese vorbei und eine neue Kampfphase beginnt.
-Ein Kampf ist beendet, wenn in einer Kampfphase kein Teilnehmer Aktionen durchführen kann oder möchte.
+* Die Angreifer legen sich mit erfolgreichen Proben auf xref:core_rules_talents_base.adoc#ref_talents_hide[Verstecken] oder xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] auf die Lauer und initialisieren die erste Kampfphase.
+Gleichzeitig schaffen die Verteidiger es nicht mit Proben in xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] die Ergebnisse der Angreifer zu schlagen.
+* XXX
 
-[[ref_core_battle_flow_battlephase]]
-=== Ablauf der Kampfphase
+Die maßgebliche Entscheidung, dass ein Überraschungsangriff vorliegt, liegt beim SL.
 
-Jede Kampfphase läuft nach dem gleichen Schema ab:
+Kommt es zu einem Überraschungsangriff, gelten für die erste <<ref_core_battle_cycle_battlephase,Kampfphase>> folgende Regeln:
 
-1. <<ref_core_battle_flow_initiative,Initiative bestimmen>>
-2. <<ref_core_battle_flow_do_actions,Aktionen durchführen>>
+* Zunächst wird die <<ref_core_battle_cycle_initiative,Initiative>> wie üblich bestimmt
+* die Seite, die den Überraschungsangriff erfolgreich initiiert, darf normal handeln
+* die überraschte Seite erhält keine <<ref_core_battle_cycle_battlephase_own_turn,eigenen Züge>>, sondern darf nur <<ref_core_battle_reactions,Reaktionen>> durchführen
+* alle <<ref_core_battle_reactions,Reaktionen>> der überraschten Seite müssen als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] gewürfelt werden, wenn sie Proben erfordern.
 
-Die folgenden Unterkapitel beschreiben die einzelnen Schritte im Detail.
+Nach dieser ersten Kampfphase läuft der Kampf normal weiter ohne die genannten Einschränkungen für die Verteidiger.
 
-[[ref_core_battle_flow_initiative]]
-==== Initiative bestimmen
+[[ref_core_battle_cycle_initiative]]
+=== Initiative bestimmen
+Zu Beginn eines Kampfs und vor der ersten <<ref_core_battle_cycle_battlephase,Kampfphase>> bestimmt jeder Teilnehmer seinen *Initiativewert* (oder auch einfach nur Initiative).
 
-Zu Beginn jeder Kampfphase bestimmt jeder Teilnehmer seinen *Initiativewert* (oder auch einfach nur Initiative).
 Dieser Wert wird pro Teilnehmer durch einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Basiswurf] bestimmt, zu dessen Ergebnis der xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[Initiativebonus (INI)] des Teilnehmers addiert wird.
 Es gelten für diesen Wurf alle xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Boni] und xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Mali], die explizit für Würfe zur Bestimmung der Initiative gelten.
 Ein solcher Wurf gilt nicht als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attibuts-] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe], so dass xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers[Modifikatoren] für diese Proben im Allgemeinen nicht zum Tragen kommen.
@@ -122,110 +133,197 @@ Kraags Initiativebonus ist jedoch höher.
 Damit ergibt sich folgende Initiativereihenfolge: Kraag, Teliskin, Me'ander.
 ====
 
-[[ref_core_battle_flow_initiative_fixed_inititive]]
-==== Optional: Feste Initiative-Reihenfolge
+[[ref_core_battle_cycle_battlephase]]
+=== Ablauf der Kampfphase
+Jede Kampfphase läuft nach dem gleichen Schema ab.
+In <<ref_core_battle_cycle_initiative,Initiativereihenfolge>> ist jeder Kampfteilnehmer nacheinander <<ref_core_battle_cycle_battlephase_own_turn,am Zug>>.
+Wenn alle Teilnehmer am Zug waren, ist die Kampfphase vorbei und der Ablauf beginnt von vorne, bis der <<ref_core_battle_cycle_end_of_battle,Kampf zu Ende>> ist.
 
-Als Alternative zu dem vorgestellten System kann die Initiative-Reihenfolge einmalig bei <<ref_core_battle_start_of_battle,Kampfbeginn>> festgelegt werden.
-Dadurch ist jeder Teilnehmer während des Kampfes in jeder Kampfphase zur gleichen Zeit am Zug.
-Diese Vereinfachung ist vor allem dazu gedacht, den Ablauf des Kampfs schneller zu durchzuführen.
+[[ref_core_battle_cycle_battlephase_own_turn]]
+==== Am Zug sein
+Sobald die Reihenfolge der Initiative es erlaubt, darf ein Kampfteilnehmer seine <<ref_core_battle_actions,Aktionen>> durchführen.
+Dies wird als *Zug* der jeweiligen Kreatur bezeichnet.
 
-[[ref_core_battle_flow_do_actions]]
-=== Aktionen durchführen
+Pro Kampfphase hat jeder Teilnehmer *3* <<ref_core_battle_actions,Aktionen>> zur Verfügung.
+Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion oder Kombination aus seinen möglichen Aktionen.
+Grundsätzlich stehen jedem Teilnehmer alle eigenen Aktionen für die gesamte Kampfphase zur Verfügung.
+Allerdings können Aktionen nur ausgeführt werden, wenn der Charakter am Zug ist, mit Ausnahme der besonderen Regelung, eine <<ref_core_battle_freeactions_readyaction,Aktion abzuwarten>>.
 
-Sobald die Reihenfolge der Initiative es erlaubt, darf ein Kampfteilnehmer seine Aktionen durchführen.
-Pro Kampfphase hat jeder Teilnehmer nur eine bestimmte Anzahl von Aktionen zur Verfügung:
+Weiterhin darf ein Teilnehmer in seinem Zug <<ref_core_battle_freeactions,freie Aktionen>> durchführen.
+Diese Aktionen sind so schnell und effektiv, dass sie keine "echten" Aktionen aufbrauchen.
+Die vollständigen Regeln zum Einsatz freier Aktionen finden sich im entsprechenden <<ref_core_battle_freeactions,Kapitel>>.
 
-* max. 1 <<ref_core_battle_actions,Aktion>> und 1 <<ref_core_battle_maneuver,Manöver>> _oder_ 1 <<ref_core_battle_complexactions,komplexe Aktion>>
-* max. 1 <<ref_core_battle_reactions,Reaktion>>
-* beliebige <<ref_core_battle_freeactions,freie Aktionen>>, wobei jede einzelne freie Aktion nur einmal durchgeführt werden kann
-
-Mit Beginn seines Zugs erklärt der Teilnehmer seine Aktion oder Kombination aus oben genannten Aktionen, mit Ausnahme der Reaktion.
-Grundsätzlich stehen jedem Teilnehmer alle genannten Aktionen, insbesondere seine Reaktionen, für die gesamte Kampfphase zur Verfügung.
-Allerdings können alle Aktionen außer Reaktionen nur ausgeführt werden, wenn der Charakter am Zug ist.
+Zu Beginn des eigenen Zugs muss ein Charakter <<ref_core_battle_actions_general_call_actions,seine Aktionen ansagen>>, bevor er diese durchführt.
 
 [NOTE]
-Die vorgestellte Aufzählung und Maxima stellen die allgemeine Ausgangslage dar.
-Charaktere, Monster und viele andere Kreaturen können durch Fähigkeiten mehr Aktionen, Manöver oder Reaktionen pro Kampfphase durchführen.
+Besitzt eine Kreatur eine andere Anzahl von Aktionen pro Kampfphase, ist diese explizit angegeben.
+Charaktere, Monster und viele andere Kreaturen können durch Fähigkeiten mehr Aktionen oder Reaktionen pro Kampfphase durchführen.
 
-[[ref_core_battle_flow_supriseattack]]
-=== Überraschungsangriff
+.Aktionen durchführen
+====
+TODO
+====
+
+[[ref_core_battle_cycle_battlephase_others_turn]]
+==== Nicht am Zug sein
+Ein Charakter oder eine Kreatur ist genau dann *nicht am Zug*, wenn in einer Kampfphase er seinen <<ref_core_battle_cycle_battlephase_own_turn,Zug>> entweder schon beendet hat oder aufgrund der <<ref_core_battle_cycle_initiative,Initiativereihenfolge>> noch nicht angetreten hat.
+
+Während dieser Zeit in der Kampfphase kann eine Kreatur nur <<ref_core_battle_reactions,Reaktionen>> durchführen.
+
+[[ref_core_battle_cycle_end_of_battle]]
+=== Ende eines Kampfs
+Wird ein Kampf beendet, endet auch die Aufteilung des Spiels in <<ref_core_battle_cycle_battlephase,Kampfphasen>>.
+Neben der Entscheidung des SLs können weitere Faktoren das Ende eines Kampfes bestimmen, zum Beispiel:
+
+* Eine der beteiligten Parteien ist besiegt, hat sich ergeben oder ist geflohen
+* In einer Kampfphase hat kein Teilnehmer <<ref_core_battle_actions,Aktionen>> ausgeführt (freiwillig wie unfreiwillig)
+
+Effekte, die während des Kampfs ausgelöst wurden und deren Dauer über das Ende des Kampfs hinausgehen, laufen normal weiter.
+Der SL bestimmt hier, wann der Effekt zu Ende geht.
+Typischerweise sind solche Situationen mit Zaubersprüchen verwunden, deren Dauer über den Kampf hinausgeht.
+
+[[ref_core_battle_actions_and_reactions]]
+== Aktionen und Reaktionen
+In den folgenden Unterkapiteln werden zunächst <<ref_core_battle_actions_general,allgemeine Regeln>> zu Aktionen und Reaktionen beschrieben.
+Danach folgen die verschiedenen Optionen, aus denen Charaktere auswählen können, um in einer Kampfphase zu agieren.
+
+[[ref_core_battle_actions_general]]
+=== Allgemeine Regeln
+Die folgenden Regeln sind grundsätzlich für alle Aktionen und Reaktionen gleich geltend.
+
+[[ref_core_battle_actions_general_call_actions]]
+==== Aktionen ansagen
+Beginnt ein Charakter <<ref_core_battle_cycle_battlephase_own_turn,seinen eigenen Zug>>, muss er zunächst die <<ref_core_battle_actions,Aktionen>>, die er in diesem Zug ausführen möchte ansagen.
+Danach kann er diese ausführen.
+Es kann dabei vorkommen, dass angesagte Aktionen nicht mehr durchführbar sind, zum Beispiel weil andere Teilnehmer <<ref_core_battle_freeactions_readyaction,Aktionen abgewartet>> haben und deren Ergebnisse die Folgeaktionen des Charakters behindern.
+
+Es steht dem SL frei, die Aktionen der Nicht-Spieler Charaktere und Kreatur anzusagen.
+Allerdings gelten auch für Nicht-Spieler Charaktere die beschriebenen Einschränkungen, falls ihre Aktionen im Laufe des eigenen Zugs ver- oder behindert werden.
+
+[NOTE]
+Der primäre Zweck dieser Regel ist, die verschieden, interagierenden Aktionen und Reaktionen in einer taktischen Reihenfolge zu ermöglichen.
+Wie tief oder auch wie strikt eine Gruppe diesem Ablauf folgt, soll aber auch explizit jedem selbst überlassen sein.
+
+[[ref_core_battle_actions_general_unique]]
+==== Einzigartige Aktionen und Reaktionen
+Aktionen können mit der Eigenschaft *einzigartig* versehen sein oder in ihrer Beschreibung explizit darauf verweisen.
+In diesem Fall kann ein Charakter diese Aktion in seinem <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zug>> maximal einmal einsetzen.
+
+[[ref_core_battle_actions_general_higher]]
+==== Aktionen mit höheren Kosten
+Manche Aktionen können höhere Kosten mit sich bringen.
+Dies bedeutet, dass sie statt genau 1 Aktion mehr Aktionen im <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zug>> aufbrauchen, zum Beispiel 2.
+
+[NOTE]
+Jede Aktion, die nicht explizit als Aktion mit höheren Kosten markiert ist, zählt immer als 1 Aktion.
+Die Regeln von Far Ages sind darauf ausgelegt, dass dies der Normalfall ist.
+
+[[ref_core_battle_actions_general_suppress_reaction]]
+==== Reaktionen unterdrücken
+Manche <<ref_core_battle_actions,Aktionen>> können explizit bestimmte <<ref_core_battle_reactions,Reaktionen>> *unterdrücken*.
+Ein Verteidiger darf für diese Aktion keine Reaktion ausführen, die explizit als unterdrückt gekennzeichnet ist.
+Er kann allerdings alle anderen Reaktionen ausführen, sofern sie ihm zustehen.
+Für andere Aktionen, auf die der Charakter eventuell in diese Kampfphase noch reagieren kann, steht die unterdrückte Reaktion wieder zur Verfügung.
+
+[[ref_core_battle_actions_general_cancel_reaction]]
+==== Reaktionen aussetzen
+Werden durch eine <<ref_core_battle_actions,Aktion>> oder einen anderen Effekt <<ref_core_battle_reactions,Reaktionen>> *ausgesetzt*, so kann der Verteidiger bis zum Beginn seines nächsten, <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zuges>> keine Reaktion mehr durchführen, unabhängig davon wie viele Reaktionen ihm zu stehen.
+Dies gilt auch insbesondere für alle anderen Aktionen, die auch Reaktionen erlauben würden.
+Sobald dieser Effekt erfolgreich eingetreten ist, muss jede betroffene Kreatur bis zu ihrem nächsten Zug warten, bis sie wieder Reaktionen einsetzen kann.
 
 [[ref_core_battle_actions]]
-== Aktionen
+=== Aktionen
 Als *Aktion* in einem Kampf nach dem System von Far Ages bezeichnen wir eine komplexe Handlung, die üblicherweise die Aufmerksamkeit des Charakters voll erfordert.
-Jeder Charakter kann pro Kampfphase in der Regel eine Aktion durchführen, daher muss er sich zwischen den folgenden Optionen entscheiden.
+Jeder Charakter kann pro Kampfphase in der Regel nur eine bestimmte Anzahl von Aktionen durchführen und nur wenn er <<ref_core_battle_cycle_battlephase_own_turn,am Zug ist>>.
 
-[[ref_core_battle_actions_attack]]
-=== Angriff
-Mit dieser Aktion initiiert der Charakter einen Nahkampf mit einem Gegner in unmittelbarer Reichweite.
+Dabei stehen die Optionen der folgenden Unterkapitel zur Verfügung.
+Sofern nicht explizit angegeben, ist innerhalb eines Zugs jede Aktion mehrfach anwendbar oder beliebige Aktionen sind kombinierbar.
 
-Der Charakter darf *nicht* bereits im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] sein.
-Er kann maximal die Hälfe seiner BEW entfernt sein und muss diese einsetzen, um sich auf den Gegner zu zubewegen.
-Er muss außerdem eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] würfeln.
-Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
+[[ref_core_battle_actions_attacks]]
+==== Attacken und Angriffe
+Jede Attacke oder Angriff gilt als eine Aktion.
+Die unterschiedlichen Optionen werden im Kapitel <<ref_core_battle_attacktypes,Typen von Angriffen>> beschrieben.
 
-Unabhängig von dem Erfolg der Angriffsprobe gilt der Charakter und sein Gegner als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden].
+Die Differenzierung der Begriffe _Attacke_ und _Angriff_ erfolgt dadurch, ob der Angreifer schon xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] ist.
+Ist er dies nicht, führt er einen _Angriff_ durch, üblicherweise mit dem Einsatz eines Teils seiner xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
+Ein Angreifer, der bereits gebunden ist, kann keinen Angriff durchführen, sondern nur eine _Attacke_.
 
-Bewegt sich der Charakter nicht und nutzt ein Talent, wie xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], gilt der Angriff ausschließlich als <<ref_core_battle_actions_usetalent,Talenteinsatz>>.
-Dasselbe gilt, wenn er bereits im Kampf gebunden ist und zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] verwendet.
+Üblicherweise bedarf über diese Differenzierung keine weitere Unterscheidung.
+Es gelten immer automatisch alle Regeln für Angriff wie für Attacken, außer es wird explizit dahingehend unterschieden.
 
-Besondere Angriffe sind in den folgenden Unterkapiteln aufgeführt.
-
-[[ref_core_battle_actions_attack_mountedattack]]
-==== Berittener Angriff
-Benutzt ein Charakter ein Reittier im Kampf, so gelten die vorgestellten Regeln für den <<ref_core_battle_actions_attack,Angriff>> und die Folgenden:
-
-Anstelle seiner BEW wird die BEW des Reittiers verwendet.
-Es gelten die besonderen <<ref_core_battle_damage_damagerolls,Regeln>> für die Schadensermittlung.
-
-Er muss eine <<ref_core_battle_items_weapons_tag_mounted_combat,passende Waffe>> führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
-
-[[ref_core_battle_actions_attack_airattack]]
-==== Flugangriff
-Dieser Angriff steht nur Wesen zur Verfügung, die fliegen können.
-Mit dieser Aktion heben sie sich in die Luft und stürzen auf ihre Gegner herab oder können andere Gegner, die sich in der Luft befinden angreifen.
-
-Die zurückgelegte Strecke kann maximal die Hälfte der BEW des Angreifers sein.
-Dabei wird die Luftbewegung genommen.
-Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW fortbewegen.
-
-[[ref_core_battle_actions_attack_aimedattack]]
-==== Gezielter Schlag / Schuss
-Der Charakter kann mit einer Angriffsprobe im Nahkampf oder Fernkampf versuchen, einen gezielten Treffer bei einem Gegner zu erlangen.
-Dazu sagt er die <<ref_core_battle_hits_hitzones,Trefferzone>> an, die er zu treffen beabsichtigt, vorausgesetzt er kann diese sehen.
-
-Der Angriffswurf ist mit einem xref:ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5* belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag oder Schuss darstellt.
-
-Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
-Es kann dadurch auch <<ref_core_battle_damage_armor,Rüstung>> umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
-
-[[ref_core_battle_actions_attack_brawl]]
-==== Raufen und Ringen
-Im xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] können Charakter die Option *Raufen und Ringen* wählen.
-
-Dazu würfelt der Charakter eine reguläre Probe auf xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf].
-Ist diese erfolgreich, verursacht er halbierten <<ref_core_battle_damage_damagerolls,Schaden>> (abgerundet, minimal 1).
-Die beiden Kontrahenten würfeln nun eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende] xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[ST-Probe].
-Derjenige Charakter, dessen Wurf das höhere Ergebnis erzielt hat, hält den Anderen xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[gefangen].
-
-Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfphase eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
-Dieser Versuch gilt als das Manöver <<ref_core_battle_maneuver_breakfree,befreien>>.
-Es kann also pro Kampfphase immer eine Probe gewürfelt werden und je nachdem, wer gewinnt, das Ergebnis folgen.
+[NOTE]
+Es ist möglich in seinem <<ref_core_battle_cycle_battlephase_own_turn,Zug>> alle Aktionen in Form von Angriffen und Attacken durchzuführen.
+Jeder einzelne Angriff kann durch den Verteidiger mit einer <<ref_core_battle_reactions,Reaktion>> beantwortet werden, sofern diese dem Verteidiger zustehen.
 
 [[ref_core_battle_actions_continueaction]]
-=== Aktion weiterführen
+==== Aktion weiterführen
 Manche Aktionen können länger dauern als eine Kampfphase.
 In diesem Fall spricht man vom *Weiterführen*.
 Charaktere, die mit entsprechend längeren Aktionen beschäftigt sind und diese nicht abbrechen möchten, müssen ihre Aktion zum Weiterführen verwenden.
 
 Ausnahme ist das xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_preparation[Vorbereiten von Zaubersprüchen], welches eine eigenständige <<ref_core_battle_actions_spell_preparation,Aktion>> darstellt.
 
+[[ref_core_battle_action_standup]]
+==== Aufstehen
+Befindet sich der Charakter in der Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[am Boden], kann er diese Aktion einsetzen, um sich aufzurichten.
+
+Sie kostet den Charakter die Hälfte seiner BEW-Rate pro Kampfphase.
+Kann er in dieser Kampfphase weitere BEW einsetzen, stehen ihm entsprechend weniger Einheiten zur Verfügung.
+
+Aufstehen verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
+
+[[ref_core_battle_action_breakfree]]
+==== Befreien
+Befindet sich der Charakter in der Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen], kann er diese Aktion einsetzen, um sich zu befreien.
+
+Dies erfordert gegebenenfalls eine zusätzliche Probe, zum Beispiel im Fall von <<ref_core_battle_attacktypes_unarmed_combat_brawl,Raufen und Ringen>>.
+Im Zweifel entscheidet der SL über die nötige Probe.
+
+[[ref_core_battle_action_move]]
+==== Bewegung
+Der Charakter kann mit dieser Aktion seine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW-Rate] verwenden, wenn er nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] ist.
+Zu Beginn der Aktion ist festzulegen, welche <<ref_core_battle_movementtypes,Arte der Bewegung>> genutzt wird, zum Beispiel, ob der Charakter sich zu Land, zu Wasser oder in der Luft bewegt.
+
+Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
+
+Auch diese Aktion kann ein Charakter in seinem <<ref_core_battle_cycle_battlephase_own_turn,Zug>> entsprechend seiner maximalen Anzahl an Aktionen beliebig einsetzen.
+Man spricht dabei auch:
+
+* Der Charakter *geht*, wenn er die Aktion nur einmal in seinem Zug einsetzt.
+* Der Charakter *rennt*, wenn er die Aktion zweimal einsetzt.
+* Der Charakter *sprintet*, wenn er die Aktion dreimal einsetzt.
+
+Es gelten weiterhin die Regeln für <<ref_core_battle_movement,Bewegung>>.
+Der Einsatz dieser Aktion verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
+
+[[ref_core_battle_action_readyitem]]
+==== Gegenstand vorbereiten
+Um einen Gegenstand zu <<ref_core_battle_actions_useitem,verwenden>>, muss sich dieser zuerst in der Hand des Charakters befinden.
+Mit diesem Manöver kann der Charakter einen Gegenstand in eine freie Hand nehmen, wenn dieser Gegenstand die folgende Bedingung erfüllt.
+Der Gegenstand muss sich entweder am Körper des Charakters oder im Abstand von maximal 1,50 Metern befinden.
+
+Das Manöver verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
+
+[[ref_core_battle_actions_useitem]]
+==== Gegenstand verwenden
+Ein Charakter kann einen Gegenstand verwenden, den er in der Hand hält, siehe <<ref_core_battle_action_readyitem,Gegenstand vorbereiten>>.
+
+Erfordert ein Gegenstand zum Einsatz eine Attributs- oder Talentprobe, ist diese in dieser Aktion inkludiert.
+Beispielsweise zählt ein Zauberstecken dazu, denn dieser wird durch das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] eingesetzt.
+Wird der Gegenstand offensiv genutzt, wird also eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gewürfelt, gilt diese Aktion auch als <<ref_core_battle_attacktypes,Attacke>>.
+
+Die Verwendung und der Effekt des Gegenstandes sind im Normalfall in der Beschreibung zu finden.
+Gegenstände, die nicht mit einer Aktion verwendet werden können, weisen dies aus.
+
+[NOTE]
+Hält ein Charakter eine Waffe in der Hand und nutzt diese zur <<ref_core_battle_actions_attacks,Attacke>>, gilt diese Verwendung nicht als Verwendung eines Gegenstands im Sinne dieser Aktion.
+
 [[ref_core_battle_actions_usetalent]]
-=== Talent einsetzen (Aktion)
+==== Talent einsetzen (Aktion)
 Der Charakter darf ein Talent einsetzen, welches im Kampf als Aktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft].
 
 [[ref_core_battle_actions_support]]
-=== Unterstützen
+==== Unterstützen
 Mit dieser Aktion kann der Charakter (der Unterstützer) einen anderen, befreundeten Charakter bei einer Probe zur Seite stehen.
 
 Der Unterstützer muss sich in Sicht- und Hörreichweite des zu Unterstützenden befinden.
@@ -234,178 +332,22 @@ Der Unterstützte erhält einen xref:core_rules_2d10_system.adoc#ref_core_2d10_c
 Um bei einer xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] zu unterstützen, muss der Unterstützer das Talent selbst beherrschen.
 
 [[ref_core_battle_actions_spell_preparation]]
-=== Zauber vorbereiten
+==== Zauber vorbereiten
 Bevor ein Zauberspruch ausgesprochen werden kann, formt ein Zauberer ihn aus dem Aether, dem magischen Zwischenreich zwischen den Dimensionen.
 Jeder Zauberspruch benötigt eine bestimmte Anzahl an Kampfphasen zur Vorbereitung.
 Mit dieser Aktion verringert sich diese Anzahl um 1.
 Die vollständigen Regeln finden sich unter xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[Zaubersprüche vorbereiten].
 
 [NOTE]
-Es gilt, dass die xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] in der letzten Kampfphase der Vorbereitung gewürfelt wird.
+Es gilt, dass die xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] in der letzten Aktion der Vorbereitung gewürfelt wird.
 In diesem Fall ist die Aktion der <<ref_core_battle_actions_usetalent,Talenteinsatz>> für Spruchzauberei.
 Dies gilt insbesondere für Zaubersprüche, deren Vorbereitung 1 ist.
 
-[NOTE]
-Siehe auch die komplexe Aktion <<ref_core_battle_complexactions_concentrated_spell_preparation,konzentriertes Vorbereiten von Zaubersprüchen>>.
+Wird die Vorbereitung eines Zauberspruches erfolgreich beendet und wird dieser offensiv genutzt, gilt diese Aktion auch als <<ref_core_battle_attacktypes,Attacke>>.
+Der Zauberspruch gilt dann als offensiv, wenn die xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gewürfelt wird.
 
-[[ref_core_battle_maneuver]]
-== Manöver
-Unter den Begriff *Manöver* fallen diverse Handlungen im Kampf wie zum Beispiel Rennen.
-Pro Kampfphase steht einem Charakter maximal ein solches Manöver zu.
-Er muss sich daher zwischen den folgenden Optionen entscheiden.
-
-[[ref_core_battle_maneuver_standup]]
-=== Aufstehen
-Befindet sich der Charakter in der Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[am Boden], kann er dieses Manöver einsetzen, um sich aufzurichten.
-
-Das Manöver kostet den Charakter die Hälfte seiner BEW-Rate pro Kampfphase.
-Kann er in dieser Kampfphase weitere BEW einsetzen, stehen ihm entsprechend weniger Einheiten zur Verfügung.
-
-Das Manöver verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
-
-[[ref_core_battle_maneuver_breakfree]]
-=== Befreien
-Befindet sich der Charakter in der Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen], kann er dieses Manöver einsetzen, um sich zu befreien.
-
-Dies erfordert gegebenenfalls eine zusätzliche Probe, zum Beispiel im Fall von <<ref_core_battle_actions_attack_brawl,Raufen und Ringen>>.
-Im Zweifel entscheidet der SL über die nötige Probe.
-
-[[ref_core_battle_maneuver_readyitem]]
-==== Gegenstand vorbereiten
-Um einen Gegenstand zu <<ref_core_battle_freeactions_useitem,verwenden>>, muss sich dieser zuerst in der Hand des Charakters befinden.
-Mit diesem Manöver kann der Charakter einen Gegenstand in eine freie Hand nehmen, wenn dieser Gegenstand die folgende Bedingung erfüllt.
-Der Gegenstand muss sich entweder am Körper des Charakters oder im Abstand von maximal 1,50 Metern befinden.
-
-Das Manöver verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
-
-[[ref_core_battle_maneuver_usetalent]]
-=== Talent einsetzen (Manöver)
-Der Charakter darf ein Talent einsetzen, welches als Manöver gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik] oder xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen].
-
-[[ref_core_battle_maneuver_run]]
-=== Rennen
-Der Charakter kann in dieser Kampfphase seine BEW-Rate verwenden, wenn er nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] ist.
-Es gelten die üblichen Regeln für <<ref_core_battle_movement,Bewegung>>.
-Das Manöver verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
-
-Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
-
-[[ref_core_battle_freeactions]]
-== Freie Aktionen
-*Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
-Grundsätzlich kann der Charakter also beliebig viele freie Aktionen durchführen, allerdings darf er jede konkrete freie Aktion nur einmal pro Kampfphase anwenden, zum Beispiel kann der Charakter einen Heiltrank trinken oder seinen Zauberstecken verwenden.
-Beide Aktionen fallen unter <<ref_core_battle_freeactions_useitem,Gegenstand verwenden>>, daher muss er sich für eines von beiden entscheiden.
-Freie Aktionen können nur angewendet werden, wenn der Charakter an der Reihe ist.
-
-[[ref_core_battle_freeactions_cancelaction]]
-=== Aktionen abbrechen
-Es kann vorkommen, dass Kampfteilnehmer aufgrund von anderen Ereignissen im Kampf zu der Ansicht kommen, dass sie ihre aktuell vorbereitete <<ref_core_battle_actions_continueaction,Aktion>> nicht mehr durchführen wollen.
-Beispielsweise könnte ein Zauberer einen Zauberspruch, den er gerade vorbereitet, abbrechen wollen, weil im Verlauf der letzten Kampfphase sein Ziel außer Sicht ging oder ein Teilnehmer ging durch einen Querschläger zu Boden, weswegen sein Kontrahent die aktuelle Attacke lieber gegen einen anderen nahestehenden Kampfteilnehmer richten will.
-
-Aktionen können in ihrer Vorbereitung oder auch am Ende ihrer Vorbereitung, also zur Durchführung, geändert oder abgebrochen werden, vorausgesetzt, diese Aktion erlaubt einen frühzeitigen Abbruch.
-Es kann dann zu negativen Folgen für den Abbrecher kommen, was jedoch von der Situation abhängig ist und keinen allgemeinen Regeln unterliegt.
-
-[[ref_core_battle_freeactions_readyaction]]
-=== Aktion abwarten
-Als freie Aktion darf ein Charakter zu Beginn der Kampfphase ansagen, dass seine <<ref_core_battle_actions,Aktion>> an ein bestimmtes Ereignis gebunden ist.
-Tritt das Ergebnis ein, ist der Charakter sofort dran, auch wenn seine Initiative schlechter ist.
-Tritt das Ereignis jedoch nicht ein, darf der Charakter erst am Ende der <<ref_core_battle_flow_initiative,Initiative-Reihenfolge>> handeln.
-
-Nach Ermessen des SLs dürfen auch Kombinationen aus <<ref_core_battle_actions,Aktion>> und <<ref_core_battle_maneuver,Manöver>> oder <<ref_core_battle_complexactions,komplexe Aktion>> abgewartet werden.
-Mit Anwendung dieser Regel können Aktionen außerhalb des eigenen Zugs innerhalb der Kampfphase durchgeführt werden.
-
-[[ref_core_battle_freeactions_dropitem]]
-=== Gegenstand fallenlassen
-Als freie Aktion darf ein Charakter jeden Gegenstand, den er bereits in den Händen hält, fallen lassen.
-
-[[ref_core_battle_freeactions_useitem]]
-=== Gegenstand verwenden
-Ein Charakter kann einen Gegenstand verwenden, dessen Einsatz keine eine Attributs- oder Talentprobe erfordert, oder deren Beschreibung keine <<ref_core_battle_actions,Aktion>> oder ähnliches erfordert.
-Dies kann zum Beispiel ein Heiltrank sein.
-Ein Zauberstecken zählt dabei nicht, denn dieser wird durch das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] eingesetzt.
-Die Verwendung und der Effekt des Gegenstandes sind im Normalfall in der Beschreibung zu finden.
-
-[[ref_core_battle_freeactions_quickstep]]
-=== Schneller Schritt
-Hat der Charakter in der aktuellen Kampfphase keines der Manöver <<ref_core_battle_maneuver_run>> oder <<ref_core_battle_complexactions_sprint>> eingesetzt und ist er nicht im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden], darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
-
-Dieser Schritt folgt den Regeln für <<ref_core_battle_movement,Bewegung>>, verursacht aber keinen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
-
-[[ref_core_battle_freeactions_speak]]
-=== Sprechen
-Der Charakter kann eine freie Aktion nutzen, um zu Sprechen.
-In der Kürze der Kampfphase sind dabei maximal 10 Worte oder 1 Satz erlaubt.
-
-[NOTE]
-Je nach Ermessen des SLs und Abstimmung in der Gruppe dürfen Charaktere auch längere Sätze verwenden.
-Die Vorgabe kann als grobe Richtlinie verstanden werden.
-
-[[ref_core_battle_reactions]]
-== Reaktionen
-*Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen <<ref_core_battle_flow_initiative,Initiativereihenfolge>> ausführen kann, also wenn er eigentlich nicht am Zug ist.
-Typische Reaktionen sind der Einsatz von <<ref_core_battle_reaction_usetalent,Talenten>> zur Verteidigung gegen <<ref_core_battle_actions_usetalent,Angriffen>>.
-Grundsätzlich können Reaktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
-Charaktere, die angegriffen werden und in der Lage sind, xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] einzusetzen, dürfen dieses Talent einsetzen.
-Die jeweiligen Beschreibungen geben Auskunft, ob Reaktionen andere Aktionen, die vorbereitet oder weitergeführt werden, unterbrechen.
-
-In jeder Kampfphase besitzt ein Charakter im Normalfall genau eine Reaktion.
-Zu Beginn seines Zuges in der aktuellen Kampfphase erhält ein Charakter alle aufgebrauchten Reaktionen zurück.
-
-[[ref_core_battle_reaction_dogde]]
-=== Ducken
-Muss der Charakter in seiner Kampfphase einen beliebigen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] würfeln, kann er als Reaktion sich ducken.
-In diesem Fall erhält er einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] für diesen Rettungswurf.
-Das betroffene Attribut ist dabei unerheblich.
-
-[[ref_core_battle_reaction_execute_attack_of_opportunity]]
-=== Gelegenheitsangriff durchführen
-Um einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>> durchzuführen, muss ein Charakter seine Reaktion einsetzen.
-Es gelten die Regeln im entsprechenden <<ref_core_battle_attacks_of_opportunity,Kapitel>>.
-Dabei ist zu beachten, dass Charaktere zum Ausführen eines Gelegenheitsangriffes auch Talente nutzen dürfen, die üblicherweise nicht als Reaktion klassifiziert sind, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen].
-
-[[ref_core_battle_reaction_usetalent]]
-=== Talente einsetzen (Reaktion)
-Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] oder xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
-
-[[ref_core_battle_complexactions]]
-== Komplexe Aktionen
-Als *komplexe Aktionen* werden Tätigkeiten bezeichnet, die in einer Kampfphase sehr viel Aufmerksamkeit eines Charakters erfordern.
-Komplexe Aktionen erfordern den Einsatz der <<ref_core_battle_actions,Aktion>> und des <<ref_core_battle_maneuver,Manövers>>, welches ein Charakter im Normalfall zur Verfügung hat.
-Hat ein Charakter keine Aktion und/oder kein Manöver, kann er keine komplexe Aktion durchführen.
-
-[[ref_core_battle_complexactions_sprint]]
-=== Sprinten
-Der Charakter kann in dieser Kampfphase seine doppelte BEW-Rate verwenden, wenn er nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] ist.
-Es gelten die üblichen Regeln für <<ref_core_battle_movement,Bewegung>>.
-
-Das Manöver verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
-
-Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
-
-Das Manöver <<ref_core_battle_maneuver_run,Rennen>> kann nicht in derselben Kampfphase wie Sprinten verwenden werden, auch wenn der Charakter eventuell mehr als ein <<ref_core_battle_maneuver,Manöver>> hätte.
-
-[[ref_core_battle_complexactions_concentrated_spell_preparation]]
-=== Konzentriertes Vorbereiten eines Zauberspruches
-Alternativ zu der Aktion <<ref_core_battle_actions_spell_preparation,Vorbereitung von Zaubersprüchen>> kann ein Zauberer auch diese komplexe Aktion wählen, um Zaubersprüche schneller vorzubereiten.
-Mit dieser Aktion verringert sich die nötige Vorbereitung um 2 Kampfphasen.
-
-Neben der allgemeinen Regel, dass er auf sein <<ref_core_battle_maneuver,Manöver>> verzichten muss, gilt diese komplexe Aktion außerdem, dass ein Charakter keine <<ref_core_battle_reactions,Reaktionen>> einsetzen darf, wenn er diese Aktion für seine Kampfphase wählt.
-
-[[ref_core_battle_complexactions_charge]]
-=== Sturmangriff
-Ein Charakter kann eine Bewegung und eine Attacke kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
-Er muss mindestens die Hälfte seiner BEW-Rate und maximal seine volle BEW-Rate von seinem Gegner in gerader Linie entfernt sein.
-Diese Linie darf nicht durch Hindernisse oder andere Kreaturen blockiert sein.
-Außerdem darf der Charakter nicht bereits im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] sein.
-
-Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
-
-Bewegt sich der Charakter durch die <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszonen>> anderer Kreaturen, so provoziert er <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
-
-Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
-
-[[ref_core_battle_complexactions_retreat]]
-=== Zurückweichen / Flucht
+[[ref_core_battle_actions_retreat]]
+==== Zurückweichen / Flucht
 Neben Angriff ist auch manchmal die Flucht die beste Verteidigung, wenn man einer Übermacht oder einem starken Gegner gegenüber steht.
 
 Ist ein Charakter im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden], kann er diese Aktion wählen, um sich aus dem Kampf zurückzuziehen.
@@ -418,65 +360,270 @@ Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
 Der Charakter provoziert allerdings nach regulären Regeln <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>>, wenn er sich während seiner Bewegung durch die <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> anderer Kreaturen bewegt.
 Die Bewegung des Charakters darf nicht in der <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> eines Gegners enden.
 
+Der Charakter erhält den Status xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_fleeing[fliehend].
+
+[[ref_core_battle_freeactions]]
+=== Freie Aktionen
+*Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.
+Grundsätzlich kann der Charakter also beliebig viele freie Aktionen durchführen, allerdings darf er jede konkrete freie Aktion nur *einmal* pro Kampfphase anwenden.
+Beispielsweise kann ein Charakter nicht zweimal <<ref_core_battle_freeactions_readyaction,eine Aktion abwarten>>, aber er könnte dies einmal tun und gleichzeitig <<ref_core_battle_freeactions_dropitem,einen Gegenstand fallenlassen>>.
+Freie Aktionen können nur angewendet werden, wenn der Charakter <<ref_core_battle_cycle_battlephase_own_turn,am Zug>> ist.
+
+[[ref_core_battle_freeactions_readyaction]]
+==== Aktion abwarten
+Als freie Aktion darf ein Charakter zu Beginn der Kampfphase ansagen, dass eine seiner <<ref_core_battle_actions,Aktionen>> an ein bestimmtes Ereignis gebunden ist.
+Tritt das Ergebnis ein, ist der Charakter sofort dran, auch wenn seine Initiative schlechter ist.
+Tritt das Ereignis jedoch nicht ein, darf der Charakter erst am Ende der <<ref_core_battle_cycle_initiative,Initiative-Reihenfolge>> handeln.
+
+Nach Ermessen des SLs dürfen auch Kombinationen aus bestimmten <<ref_core_battle_actions,Aktion>> abgewartet werden.
+Mit Anwendung dieser Regel können Aktionen außerhalb des eigenen Zugs innerhalb der Kampfphase durchgeführt werden.
+
+Ein Charakter kann dennoch nie mehr Aktionen ausführen, als ihm zusteht.
+Das bedeutet, auch wenn er eine abwartende Aktion ansagt, kann es passieren, dass er diese nicht mehr ausführen kann, wenn er seit der Ansage dieses Verhalten und dem Eintreten des Ereignisses alle seine Aktionen verloren hat.
+Weiterhin kann das Abwarten einer Aktion nicht über die Grenze einer Kampfphase hinaus gezögert werden.
+Mit Ende der aktuellen Kampfphase und Beginn einer neuer Kampfphase verfallen abgewartete Aktionen, falls das Ereignis nicht eingetreten ist.
+
+.Aktionen abwarten
+====
+TODO
+====
+
+[[ref_core_battle_freeactions_cancelaction]]
+==== Aktionen abbrechen
+Es kann vorkommen, dass Kampfteilnehmer aufgrund von anderen Ereignissen im Kampf zu der Ansicht kommen, dass sie ihre aktuell vorbereitete <<ref_core_battle_actions_continueaction,Aktion>> nicht mehr durchführen wollen.
+Beispielsweise könnte ein Zauberer einen Zauberspruch, den er gerade vorbereitet, abbrechen wollen, weil im Verlauf der letzten Kampfphase sein Ziel außer Sicht ging oder ein Teilnehmer ging durch einen Querschläger zu Boden, weswegen sein Kontrahent die aktuelle Attacke lieber gegen einen anderen nahestehenden Kampfteilnehmer richten will.
+
+Aktionen können in ihrer Vorbereitung oder auch am Ende ihrer Vorbereitung, also zur Durchführung, geändert oder abgebrochen werden, vorausgesetzt, diese Aktion erlaubt einen frühzeitigen Abbruch.
+Es kann dann zu negativen Folgen für den Abbrecher kommen, was jedoch von der Situation abhängig ist und keinen allgemeinen Regeln unterliegt.
+
+[[ref_core_battle_freeactions_dropitem]]
+==== Gegenstand fallenlassen
+Als freie Aktion darf ein Charakter jeden Gegenstand, den er bereits in den Händen hält, fallen lassen.
+
+[[ref_core_battle_freeactions_quickstep]]
+==== Schneller Schritt
+Hat der Charakter in der aktuellen Kampfphase keine <<ref_core_battle_action_move,Bewegung>> eingesetzt und ist er nicht im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden], darf er als freie Aktion einen einzelnen Schritt von 1,50 Metern durchführen.
+
+Dieser Schritt folgt den Regeln für <<ref_core_battle_movement,Bewegung>>, verursacht aber keinen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
+
+[[ref_core_battle_freeactions_speak]]
+==== Sprechen
+Der Charakter kann eine freie Aktion nutzen, um zu Sprechen.
+In der Kürze der Kampfphase sind dabei maximal 10 Worte oder 1 Satz erlaubt.
+
+[NOTE]
+Je nach Ermessen des SLs und Abstimmung in der Gruppe dürfen Charaktere auch längere Sätze verwenden.
+Die Vorgabe kann als grobe Richtlinie verstanden werden.
+
+[[ref_core_battle_reactions]]
+=== Reaktionen
+*Reaktionen* sind Aktionen, die ein Charakter außerhalb der normalen <<ref_core_battle_cycle_initiative,Initiativereihenfolge>> ausführen kann, also wenn er eigentlich <<ref_core_battle_cycle_battlephase_others_turn,nicht am Zug>> ist.
+
+Typische Reaktionen sind der Einsatz von <<ref_core_battle_reaction_use_defensive_talent,Talenten>> zur Verteidigung gegen <<ref_core_battle_actions_attacks,Angriffen>> und <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>>.
+
+Grundsätzlich können Reaktionen immer dann ausgeführt werden, wenn der Spielfluss sie erlaubt.
+Dies ist üblicherweise eine bestimmte Aktion eines anderen Teilnehmers am Kampf.
+Es gilt, dass pro Aktion, die eine Reaktion erlaubt, pro Teilnehmer, der reagieren kann, nur maximal eine Reaktion durchgeführt werden kann.
+Vereinfacht bedeutet dies, dass für einen Angriff der Verteidiger beispielsweise nicht zweimal ausweichen kann oder einen Konter und eine Verteidigung ausführen kann.
+
+Zu Beginn <<ref_core_battle_cycle_battlephase_own_turn,seines Zuges>> in einer Kampfphase erhält ein Charakter alle zuvor aufgebrauchten Reaktionen zurück.
+
+[[ref_core_battle_reaction_dogde]]
+==== Ducken
+Muss der Charakter in einer Kampfphase einen beliebigen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] würfeln, kann er als Reaktion sich ducken.
+In diesem Fall erhält er einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] für diesen Rettungswurf.
+Das betroffene Attribut ist dabei unerheblich.
+Ein Charakter, der diese Reaktion einsetzt, kann bis zum Beginn seines nächsten <<ref_core_battle_cycle_battlephase_own_turn,Zuges>> keine weiteren Reaktionen einsetzen.
+
+[[ref_core_battle_reaction_execute_attack_of_opportunity]]
+==== Gelegenheitsangriff durchführen
+Um einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>> durchzuführen, muss ein Charakter seine Reaktion einsetzen.
+Es gelten die Regeln im entsprechenden <<ref_core_battle_attacks_of_opportunity,Kapitel>>.
+Dabei ist zu beachten, dass Charaktere zum Ausführen eines Gelegenheitsangriffes auch Talente nutzen dürfen, die üblicherweise nicht als Reaktion klassifiziert sind, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen].
+Gelegenheitsangriffe stellen damit eine explizite Ausnahme gegenüber den Angaben in Talent-Beschreibungen dar.
+
+Pro Kampfphase kann jeder Teilnehmer nur einen Gelegenheitsangriff ausführen, unabhängig davon wie viele Gelegenheitsangriffe durch andere Teilnehmer ausgelöst werden.
+
+[[ref_core_battle_reaction_use_defensive_talent]]
+==== Verteidigungstalente einsetzen (Reaktion)
+Der Charakter darf ein Talent einsetzen, welches im Kampf als Reaktion gekennzeichnet ist, zum Beispiel xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] oder xref:core_rules_talents_base.adoc#ref_talents_parade[Parade] um einen <<ref_core_battle_actions_attacks,Angriff>> abzuwehren.
+
+Eine Kreatur kann auf einen einzelnen Angriff mit maximal einem Versuch zur xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigung] beantworten.
+Wird ein Angriff oder eine Attacke angesagt, muss der Verteidiger ansagen, ob:
+
+* er diese Reaktion einsetzt
+* oder einen <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> stattdessen einsetzt
+* oder auf eine Reaktion grundsätzlich verzichtet.
+
+Dies gilt immer unter der Voraussetzung, dass dem Charakter in diesem Moment eine Reaktion zusteht und der Angriff eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende Probe] erlaubt.
+Der Einsatz dieser Reaktion muss unmittelbar vor dem Ausführen der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] angesagt werden und kann nicht nachträglich geändert werden.
+Dies gilt auch für die Ansage der Angriffsprobe selbst, nachdem diese Reaktion deklariert wurde.
+
+Besitzt ein Charakter kein Verteidigungstalent, gelten die Regeln zur xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübten Anwendung].
+
+[[ref_core_battle_reaction_execute_retaliation_attacks]]
+==== Konter
+Angriff ist manchmal die beste Verteidigung.
+Diese Reaktion erlaubt als Reaktion auf einen Angriff einen eigenen Angriff, einen *Konter*, auszuführen.
+
+Analog zur <<ref_core_battle_reaction_use_defensive_talent,Verteidigung>> muss der Konter unmittelbar vor dem Ausführen der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] des Angreifers angesagt werden und kann nicht nachträglich geändert werden.
+Dies gilt auch für die Ansage der Angriffsprobe selbst, nachdem diese Reaktion deklariert wurde.
+
+Für die Angriffsprobe des Konters dürfen nur diejenigen Talente genutzt werden, die explizit mit Konter markiert sind.
+Dies sind üblicherweise:
+
+* xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen]
+* xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf]
+
+Der Ablauf des Konters verläuft ohne weitere Einflüsse immer gleich.
+Zunächst würfelt der Angreifer seinen Angriff regulär.
+Erreicht er in diesem Fall den xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_minimumroll[Mindestwurf], gilt der Angriff als <<ref_core_battle_hits,Treffer>> und wird vollständig abgewickelt.
+
+Erst *dann* kann der Verteidiger seinen Konter nach dem gleichen Muster würfeln, vorausgesetzt, dass er nach dem Angriff weiterhin in der Lage ist, Angriffsproben zu würfeln.
+Effekte, die dies verhindern, verhindern auch einen Konter.
+Beispielsweise könnte der Angriff zu einem <<ref_core_battle_knockdown,Niederschlag>> führen, so dass der Verteidiger keine Angriffsprobe mehr würfeln kann, bevor er <<ref_core_battle_action_standup,aufgestanden>> ist.
+Dies ist eine Aktion, die ihm während <<ref_core_battle_cycle_battlephase_others_turn,des Zugs des Angreifers>> nicht zu steht.
+
+[[ref_core_battle_complexactions]]
+=== Komplexe Aktionen
+Als *komplexe Aktionen* werden Tätigkeiten bezeichnet, die in einer Kampfphase sehr viel Aufmerksamkeit eines Charakters erfordern.
+Komplexe Aktionen erfordern den Einsatz aller <<ref_core_battle_actions,Aktionen>>, die ein Charakter in <<ref_core_battle_cycle_battlephase_own_turn,seinem Zug>> zur Verfügung hat.
+Auch Charaktere mit weniger als 3 Aktionen im eigenen Zug können komplexe Aktion durchführen.
+Voraussetzung ist, dass wenigstens 1 Aktion durchführbar ist.
+
+Auf der anderen Seite jedoch gilt, dass ein Charakter mit mehr als 3 Aktionen dennoch alle einsetzt.
+Eine komplexe Aktion erfordert immer alle Aktionen in einem Zug.
+
+Es kann grundsätzlich immer nur eine komplexe Aktion pro eigenem Zug durchgeführt werden, unabhängig von der Anzahl der Aktionen, die einem zur Verfügung stehen.
+
 [[ref_core_battle_additionalactions]]
-== Zusätzliche Aktionen
-Zusätzliche Aktionen, im Allgemeinen mit *Bonus* versehen, können Charakteren und Kreaturen zusätzlich zu den üblichen <<ref_core_battle_flow_do_actions,Aktionen>> zur Verfügung stehen.
-Dabei gilt, dass der Charakter diese Aktion (oder Manöver oder Reaktion) explizit durch eine Quelle, zum Beispiel eine Fähigkeit, erhalten muss, um sie einzusetzen.
+=== Zusätzliche Aktionen
+Zusätzliche Aktionen, im Allgemeinen mit *Bonus* versehen, können Charakteren und Kreaturen _zusätzlich_ zu den üblichen <<ref_core_battle_cycle_battlephase_own_turn,Aktionen>> zur Verfügung stehen.
+Dabei gilt, dass der Charakter diese Aktion oder Reaktion explizit durch eine Quelle, zum Beispiel eine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeit], erhalten muss, um sie einzusetzen.
+Es gelten immer die folgenden Einschränkungen:
 
-Analog zu den üblichen Beschränkungen im eigenen Zug und pro Kampfphase gelten immer die folgenden Einschränkungen:
-
-* max. 1 <<ref_core_battle_additionalactions_bonusactions,Bonus-Aktion>>
-* max. 1 <<ref_core_battle_additionalactions_bonusmaneuvers,Bonus-Manöver>>
-* max. 1 <<ref_core_battle_additionalactions_bonusreactions,Bonus-Reaktion>>
+* max. 1 <<ref_core_battle_additionalactions_bonusactions,Bonus-Aktion>> im <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zug>>
+* max. 1 <<ref_core_battle_additionalactions_bonusreactions,Bonus-Reaktion>> im <<ref_core_battle_cycle_battlephase_others_turn,Zug der anderen Teilnehmer>>
 
 [NOTE]
-Weitere Quellen besonderer, zusätzlicher Aktionen ist zum Beispiel der Kreaturentyp link:../advanced/creaturetypes/secondary/creaturetype_secondary_legendary.adoc[Legendär], die legendäre Aktionen, Manöver und Reaktionen erlaubt.
+link:../../bestiary/templates/bestiary_template_legendary.adoc[Legendäre] Kreaturen können außerdem legendäre Aktionen und Reaktionen einsetzen.
+Diese werden auch wie zusätzliche Aktionen behandelt.
 
 [NOTE]
-Diese Regeln sind unabhängig von besonderen Fähigkeiten wie zum Beipiel link:../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff].
-Dieser Angriff wird als eine reguläre <<ref_core_battle_actions,Aktion>> gewertet, ermöglicht jedoch, wie der Name vermuten lässt, mehrere <<ref_core_battle_actions_attack,Angriffe>> in einer Kampfphase.
+Diese Regeln sind unabhängig von besonderen Fähigkeiten wie zum Beispiel link:../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke].
+Dieser Angriff wird als eine reguläre <<ref_core_battle_actions,Aktion>> gewertet, ermöglicht jedoch, wie der Name vermuten lässt, mehrere <<ref_core_battle_attacktypes,Attacken>>.
 
 [[ref_core_battle_additionalactions_bonusactions]]
-=== Bonus-Aktionen
+==== Bonus-Aktionen
 Pro Kampfphase darf jeder Charakter eine *Bonus-Aktion* durchführen.
 Dabei gilt, dass der Charakter diese Aktion explizit durch eine Quelle, zum Beispiel eine Fähigkeit, erhalten muss, um sie einzusetzen.
 Besitzt eine Kreatur mehrere Optionen für eine Bonus-Aktion, muss sie sich für eine entscheiden.
-<<ref_core_battle_actions,Aktionen>>, <<ref_core_battle_maneuver,Manöver>> und Bonus-Aktionen sind in der Regel nicht untereinander austauschbar.
+<<ref_core_battle_actions,Aktionen>> und Bonus-Aktionen sind in der Regel nicht untereinander austauschbar.
 
 Eine Kreatur darf keine Bonus-Aktionen durchführen, wenn sie keine <<ref_core_battle_actions,Aktionen>> durchführen darf, zum Beispiel weil sie xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[bekommen] ist.
 
-Bonus-Aktionen und <<ref_core_battle_maneuver,Manöver>> können im Allgemeinen nicht kombiniert werden, um eine <<ref_core_battle_complexactions,komplexe Aktion>> durchzuführen.
-
-[[ref_core_battle_additionalactions_bonusmaneuvers]]
-=== Bonus-Manöver
-Analog zu <<ref_core_battle_additionalactions_bonusactions,Bonus-Aktionen>> kann ein Charakter, wenn ihm eine Fähigkeit oder vergleichbare Quelle dies erlaubt, pro Kampfphase ein *Bonus-Manöver* durchführen.
-
-Eine Kreatur darf keine Bonus-Manöver durchführen, wenn sie keine <<ref_core_battle_maneuver,Manöver>> durchführen darf, zum Beispiel weil sie xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[bekommen] ist.
-
-Bonus-Manöver und <<ref_core_battle_actions,Aktionen>> können im Allgemeinen nicht kombiniert werden, um eine <<ref_core_battle_complexactions,komplexe Aktion>> durchzuführen.
+Bonus-Aktionen können im Allgemeinen nicht mit <<ref_core_battle_complexactions,komplexen Aktionen>> kombiniert werden.
 
 [[ref_core_battle_additionalactions_bonusreactions]]
-=== Bonus-Reaktionen
+==== Bonus-Reaktionen
 Analog zu <<ref_core_battle_additionalactions_bonusactions,Bonus-Aktionen>> kann ein Charakter, wenn ihm eine Fähigkeit oder vergleichbare Quelle dies erlaubt, pro Kampfphase eine *Bonus-Reaktion* durchführen.
 Bonus-Reaktionen und reguläre <<ref_core_battle_reactions,Reaktionen>> sind im Allgemeinen nicht austauschbar, außer eine Fähigkeit erlaubt einem Charakter dies explizit.
 
 Ein Charakter, der keine <<ref_core_battle_reactions,Reaktionen>> durchführen darf, kann auch keine Bonus-Reaktionen durchführen.
 
+[[ref_core_battle_attacktypes]]
+== Typen von Angriffen
+In den folgenden Unterkapiteln werden unterschiedliche Typen von Angriffen und Attacken erläutert, die mit der passenden <<ref_core_battle_actions_attacks,Aktion>> durchgeführt werden können.
+
+[[ref_core_battle_attacktypes_rangedattack]]
+=== Attacke im Fernkampf
+Eine Attacke im Fernkampf ist definiert als eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] in dem Talent xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen].
+
+Das Ausführen dieser Attacke führt nicht dazu, dass der Charakter xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] wird, auch wenn er in der <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> seines Gegners steht.
+
+Der Charakter musse eine passende <<ref_core_battle_items_weapons,Waffe>> führen.
+Weiterhin gelten die Regeln für <<ref_core_battle_projectiles,Projektilwaffen>> und <<ref_core_battle_throwingweapons,Wurfwaffen>>.
+
+[[ref_core_battle_attacktypes_meleeattack]]
+=== Attacke im Nahkampf
+Mit dieser Aktion greift der Charakter einen Gegner in unmittelbarer Reichweite an.
+Eine Nahkampf-Attacke erfordert, dass der Charakter eine passende <<ref_core_battle_items_weapons,Waffe>> trägt.
+
+Er muss außerdem eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] würfeln.
+Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen].
+
+Unabhängig von dem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] der Angriffsprobe gilt der Charakter und sein Gegner als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden].
+
+Es gelten die Regeln zu <<ref_core_battle_melee_and_unarmed,Nah- und unbewaffneter Kampf>>.
+
+[[ref_core_battle_attacktypes_mountedcharge]]
+=== Berittener Sturmangriff
+Benutzt ein Charakter ein Reittier im Kampf, so kann er analog zum <<ref_core_battle_attacktypes_charge,Sturmangriff>> einen berittenen Angriff initiieren, falls er nicht im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] ist.
+
+Er kann die volle xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] des Reittiers verwenden, um sein Ziel zu erreichen.
+Es gelten die besonderen <<ref_core_battle_damage_damagerolls,Regeln>> für die Schadensermittlung.
+Weiterhin ist der Charakter und sein Gegner nach Abschluss des Angriffs xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden].
+
+Er muss eine <<ref_core_battle_items_weapons_tag_mounted_combat,passende Waffe>> führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
+
+Es gelten die weiterführenden Regeln zu <<ref_core_battle_mounted_combat,berittenen Kampf>>.
+
+[[ref_core_battle_attacktypes_airattack]]
+=== Flugangriff
+Dieser Angriff steht nur Wesen zur Verfügung, die fliegen können.
+Mit dieser Aktion heben sie sich in die Luft und stürzen auf ihre Gegner herab oder können andere Gegner, die sich in der Luft befinden angreifen.
+
+Die zurückgelegte Strecke kann maximal die Hälfte der BEW des Angreifers sein.
+Dabei wird die Luftbewegung genommen.
+Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW fortbewegen.
+
+[[ref_core_battle_attacktypes_unarmed_combat]]
+=== Unbewaffneter Kampf
+Manchmal muss man sich mit Fäusten wehren.
+Es handelt sich bei diesem Angriffstyp um eine Probe auf das Talent xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
+Es gelten die gleichen Regeln wie bei einer <<ref_core_battle_attacktypes_meleeattack,Attacke im Nahkampf>> sowie zu <<ref_core_battle_melee_and_unarmed,Nah- und unbewaffneter Kampf>>.
+
+[[ref_core_battle_attacktypes_unarmed_combat_brawl]]
+==== Raufen und Ringen
+Im xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] können Charakter die zusätzliche Option *Raufen und Ringen* wählen.
+
+Dazu würfelt der Charakter eine reguläre Probe auf xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf].
+Ist diese erfolgreich, verursacht er halbierten <<ref_core_battle_damage_damagerolls,Schaden>> (abgerundet, minimal 1).
+Die beiden Kontrahenten würfeln nun eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende] xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[ST-Probe].
+Derjenige Charakter, dessen Wurf das höhere Ergebnis erzielt hat, hält den Anderen xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[gefangen].
+
+Um sich aus dem Griff wieder zu befreien, muss der Unterlegene in seiner Kampfphase eine weitere konkurrierende ST-Probe ablegen und diese gewinnen.
+Dieser Versuch gilt als die entsprechende <<ref_core_battle_action_breakfree,Aktion>>.
+Es kann also pro Kampfphase immer eine Probe gewürfelt werden und je nachdem, wer gewinnt, das Ergebnis folgen.
+
+[[ref_core_battle_attacktypes_charge]]
+=== Sturmangriff
+Ein Charakter kann eine Bewegung und eine <<ref_core_battle_attacktypes_meleeattack,Nahkampf-Attacke>> kombinieren, um einen besonders schwungvollen Angriff durchzuführen.
+Er muss mindestens die Hälfte seiner BEW-Rate und maximal seine volle BEW-Rate von seinem Gegner in gerader Linie entfernt sein.
+Diese Linie darf nicht durch Hindernisse oder andere Kreaturen blockiert sein.
+Außerdem darf der Charakter nicht bereits im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] sein.
+
+Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort eine Angriffsprobe machen.
+
+Bewegt sich der Charakter durch die <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszonen>> anderer Kreaturen, so provoziert er <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
+
+Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
+
 [[ref_core_battle_melee_and_unarmed]]
 == Nahkampf und unbewaffneter Kampf
-
 Nahkampf beschreibt die direkte Auseinandersetzung mit dem Kontrahenten.
 Für gewöhnlich gilt alles, was mit einer Waffe geführt wird, die in der Hand behalten wird, und ihren Schaden auch da wirkt, als Nahkampf.
-Eine Projektilwaffe verursacht ihren Schaden also nicht an dem Ort, wo sie "stationiert" ist, sondern dort, wo das Projektil einschlägt.
+Eine Projektilwaffe verursacht ihren Schaden also nicht an dem Ort, wo sie abgefeuert wird, sondern dort, wo das Projektil einschlägt.
 
-Im Allgemeinen gilt, dass eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende Probe] im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu kontern, das heißt, er muss in der Lage sein, seine <<ref_core_battle_reactions,Reaktion>> einsetzen zu können.
-Zur Verteidigung darf der Verteidiger alle dazu ausgezeichneten Talente nutzen, dies sind zum Beispiel die xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen], xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] und xref:core_rules_talents_base.adoc#ref_talents_parade[Parade].
+Im Allgemeinen gilt, dass eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende Probe] im Nahkampf genau dann gewürfelt wird, wenn der Verteidiger in der Lage ist, den Angriff wahrzunehmen und auch bewusst genug ist, um diesen zu <<ref_core_battle_reaction_use_defensive_talent,verteidigen>>, das heißt, er muss in der Lage sein, seine <<ref_core_battle_reactions,Reaktion>> einsetzen zu können.
 
-Ist die Möglichkeit zur Verteidigung nicht gegeben, dann wird eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_singularrolls[einfache Probe] seitens des Angreifers gewürfelt und es gilt das xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis], das er gewürfelt hat.
+Ist die Möglichkeit oder der Wille zur <<ref_core_battle_reaction_use_defensive_talent,Verteidigung>> nicht gegeben, dann wird eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_singularrolls[einfache Probe] seitens des Angreifers gewürfelt und es gilt das xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis], das er gewürfelt hat.
+Die gilt auch insbesondere, wenn ein <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> als Reaktion gewählt wird.
 
-Benötigt ein Talent zum Angriff oder Verteidigung sowohl bei einer einfachen wie konkurrierenden Probe einen Mindestwurf, so ist dieser zuerst zu erreichen, damit eine Probe erfolgreich ist.
+Talente zum Angriff oder Verteidigung benötigen üblicherweise sowohl bei einer einfachen wie konkurrierenden Probe einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf].
+Dieser ist zuerst zu erreichen, damit eine Probe erfolgreich ist.
 Das bedeutet, dass ein Angriff scheitert, wenn der Mindestwurf nicht erreicht wird.
-In diesem Fall ist auch eine Verteidigungsprobe nicht notwendig.
+In diesem Fall ist auch eine Verteidigungsprobe nicht notwendig, ein Konter allerdings weiter möglich.
 Ein Verteidigungswurf muss sowohl den Mindestwurf als auch den Angriffswurf erreichen, um erfolgreich zu sein.
 
 Ist nach allen Varianten der Angreifer in seiner Probe xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[erfolgreich], gilt der Angriff als <<ref_core_battle_hits,Treffer>>.
@@ -496,7 +643,10 @@ Ebenso erhöht sich die Basis der Wesen ab der Größenkategorie 7 regelmäßig 
 Folgende Tabelle zeigt alle Bedrohungszonen und die sogenannte Größenbasis, also wie viele Kästchen eine Kreatur der jeweiligen Größenkategorie einnimmt.
 
 |===
-|Größenkategorie |Maximale Basis {empty}[Kachel] |Anzahl der Halbkreise für die Bedrohungszone {empty}[Kachel] |Radius des Halbkreises für die Bedrohungszone {empty}[Meter]
+|Größenkategorie
+|Maximale Basis {empty}[Kachel]
+|Anzahl der Halbkreise für die Bedrohungszone {empty}[Kachel]
+|Radius des Halbkreises für die Bedrohungszone {empty}[Meter]
 
 |1
 |1x1
@@ -583,12 +733,10 @@ Darüber hinaus findet sich in nachfolgenden <<ref_core_battle_items_shields,Kap
 
 [[ref_core_battle_melee_modifiers]]
 === Nahkampfmodifikatoren
-
 Für die xref:core_rules_2d10_system.adoc#ref_core_2d10_checks[Proben] im Nahkampf kann der SL die folgende xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers[Modifikatoren] ansetzen.
 
 [[ref_core_battle_melee_modifiers_coverage]]
 ==== Deckung
-
 Als Deckung können alle Gegenstände und Lebewesen dienen, die den verteidigenden Charakter bis zu einem gewissen Maß verdecken.
 Die Einteilung erfolgt in folgenden Kategorien:
 
@@ -623,23 +771,21 @@ Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürf
 * Absolute Dunkelheit: *-20 auf die Würfe zum Erfolg*
 
 [NOTE]
-Neben besonderen Fähigkeiten wie link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] kann der SL auch situationsbedingt bestimmen, dass nicht alle Probe von Dunkelheit betroffen sind.
+Neben besonderen Fähigkeiten wie link:../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht] kann der SL auch situationsbedingt bestimmen, dass nicht alle Probe von Dunkelheit betroffen sind.
 Beispielsweise kann ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] betroffen sein, denn auch der Instinkt wird Sicht unterstützt, während ein Rettungswurf auf xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheit] davon nicht betroffen wäre.
 
-[[ref_core_battle_melee_modifiers_height]]
-==== Höhenunterschiede
+[[ref_core_battle_melee_modifiers_aimedattack]]
+==== Gezielter Schlag / Schuss
+Der Charakter kann mit einer Angriffsprobe im Nahkampf (und auch Fernkampf) versuchen, einen gezielten Treffer bei einem Gegner zu erlangen.
+Dazu sagt er die <<ref_core_battle_hits_hitzones,Trefferzone>> an, die er zu treffen beabsichtigt, vorausgesetzt er kann diese sehen.
 
-Charaktere können sich aus verschiedenen Höhen attackieren.
-Es könnte einer auf einem Tisch stehen oder einem höher gelegenen Felsvorsprung.
+Der Angriffswurf ist mit einem xref:ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5* belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag oder Schuss darstellt.
 
-Ein Angreifer erhält einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil], wenn er mindestens um die Hälfte der Körperlänge des Gegners höher steht.
-
-Die Kontrahenten sollten gleich groß sein, dies ist jedoch von den Regeln nicht erzwungen.
-Der SL kann bei extremen <<ref_core_battle_melee_modifiers_size,Größenunterschieden>> diese Regel weglassen.
+Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
+Es kann dadurch auch <<ref_core_battle_damage_armor,Rüstung>> umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
 
 [[ref_core_battle_melee_modifiers_size]]
 ==== Größenunterschiede
-
 Nicht nur die Völker unterscheiden sich stark in der Größe, sondern auch die Kämpfe zwischen Charakteren und Monstern.
 Drachen und viele Dämonen sind verdammt groß.
 Diese Größenunterschiede werden im System von Far Ages in den xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] dargestellt, in die jedes Volk und jede Kreatur eingeordnet wird.
@@ -663,9 +809,18 @@ Ein Zwerg (Größenkategorie 4) kämpft gegen einen Lindwurm (Größenkategorie 
 Der Zwerg erhält gegen den Lindwurm einen Bonus von +6 auf die Würfe zum Erfolg auf seine Angriffsprobe, während der Lindwurm einen Malus von -6 auf seine Angriffsprobe erhält.
 ====
 
+[[ref_core_battle_melee_modifiers_height]]
+==== Höhenunterschiede
+Charaktere können sich aus verschiedenen Höhen attackieren.
+Es könnte einer auf einem Tisch stehen oder einem höher gelegenen Felsvorsprung.
+
+Ein Angreifer erhält einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil], wenn er mindestens um die Hälfte der Körperlänge des Gegners höher steht.
+
+Die Kontrahenten sollten gleich groß sein, dies ist jedoch von den Regeln nicht erzwungen.
+Der SL kann bei extremen <<ref_core_battle_melee_modifiers_size,Größenunterschieden>> diese Regel weglassen.
+
 [[ref_core_battle_melee_modifiers_back]]
 ==== Angriffe auf die Seite und den Rücken
-
 Angriffe auf die Seiten und den Rücken eines Charakters sind besonders gefährlich, denn er kann sich gegen diese nur schwer verteidigen.
 In diesem Fall erhalten die Angreifer zwar keinen Bonus auf ihre Angriffswürfe, jedoch bekommt der Verteidiger Mali auf seine Verteidigungswürfe.
 
@@ -687,7 +842,6 @@ Dadurch erleidet er nur 5 Schadenspunkte.
 
 [[ref_core_battle_melee_modifiers_twoweaponfighting]]
 ==== Kampf mit zwei Waffen
-
 Ein Charakter kann auch mit zwei Nahkampfwaffen in den Kampf ziehen, um eine weitere Attacke (mit nur einer <<ref_core_battle_actions,Aktion>>) durchführen zu können.
 Die Waffe, die der Charakter mit der xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories_primary_hand[Primärhand] führt, nennt man Haupt- oder Primärwaffe.
 Passend dazu ist die Waffe in der xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories_secondary_hand[Sekundärhand] die Zweit- oder Sekundärwaffe.
@@ -705,7 +859,6 @@ Die Attacke mit der Hauptwaffe erhält einen xref:core_rules_2d10_system.adoc#re
 
 [[ref_core_battle_melee_modifiers_oversized_items]]
 ==== Zu große Ausrüstungsgegenstände
-
 Ein Charakter kann versuchen, größere Gegenstände zu verwenden, als es seine xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] zulässt.
 
 Trägt mindestens einen Gegenstand, der zu groß für ihn ist, muss er einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5* pro Punkt Unterschied zu seiner maximal zugelassenen Größe und der Größe des Gegenstands für alle Proben hinnehmen, die er mit diesem Gegenstand durchführen möchte.
@@ -722,8 +875,7 @@ Sollte er das Schwert zur xref:core_rules_talents_base.adoc#ref_talents_parade[P
 ====
 
 [[ref_core_battle_melee_modifiers_reach]]
-==== Waffen mit erhöhter Nahkampfreichweite
-
+==== Nahkampfwaffen mit erhöhter Reichweite
 Manche Waffen, wie Speere, sind besonders lang, so dass sie den Kontrahenten auf Abstand halten können, bzw. diese angreifen können.
 Mit solchen Waffen kann ein Charakter Gegner angreifen, die in gerader Linie vor ihm stehen und 1,50 Meter (eine Kachel) entfernt stehen.
 Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> hinaus gehen würde.
@@ -734,7 +886,6 @@ Um diese Eigenschaft nutzen zu können, muss die Waffen dafür <<ref_core_battle
 
 [[ref_core_battle_melee_modifiers_missingweapon]]
 ==== Der Kampf zwischen einem Gegner mit Waffen und einem Unbewaffneten
-
 Diese Situation ist meistens für den Unbewaffneten von Nachteil.
 Dieser erhält für seine Angriffswürfe einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5*.
 Dies gilt, wenn der Unbewaffnete das Talent xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] einsetzt.
@@ -778,7 +929,7 @@ Eine Fernkampfprobe, die unter dem Mindestwurf bleibt, gilt als xref:core_rules_
 Das Projektil trifft kein Ziel.
 
 Der Mindestwurf ergibt sich aus der Distanz vom Schützen zum Ziel.
-Befindet das Ziel innerhalb der <<ref_core_battle_projectiles_baserange,Grundreichweite>>, benötigt der Schütze den üblichen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_minimumroll[Mindestwurf] seines Talents.
+Befindet das Ziel innerhalb der <<ref_core_battle_projectiles_baserange,Grundreichweite>>, benötigt der Schütze den üblichen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_minimumroll[Mindestwurf] seines Talents oder den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[Standardmindestwurf].
 Sollte dieser nicht bekannt sein, gilt der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[Standardmindestwurf].
 Pro Inkrement über der Grundreichweite erhöht sich der Mindestwurf um 5 Punkte.
 
@@ -805,41 +956,49 @@ Für die Angriffswürfe im Fernkampf gelten folgende Modifikatoren wie im Nahkam
 
 * <<ref_core_battle_melee_modifiers_coverage,Deckung>>
 * <<ref_core_battle_melee_modifiers_darkness,Dunkelheit>>
-* <<ref_core_battle_melee_modifiers_height,Höhenunterschiede>>
+* <<ref_core_battle_melee_modifiers_aimedattack,Gezielter Schlag>>
 * <<ref_core_battle_melee_modifiers_size,Größenunterschiede>>
+* <<ref_core_battle_melee_modifiers_height,Höhenunterschiede>>
 
 Weitere, spezifische Modifikatoren werden in den nachfolgenden Kapiteln vorgestellt.
 
 [[ref_core_battle_projectiles_modifiers_fire_in_crowd]]
-==== Feuern in ein Kampfgetümmel
-
+==== Feuern ins Kampfgetümmel
 Befindet sich ein Ziel im Kampf, ist somit xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden], so muss der Schütze einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5* auf seine Angriffsprobe hinnehmen, da er das Ziel aufgrund der Kampfhandlungen nicht genau anvisieren kann.
 
 Ist ein Ziel xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[bedrängt] oder befindet sich in einer Gruppe von mehr als 3 weiteren Kreaturen, erhöht sich der Malus auf *-10*.
 
 [[ref_core_battle_projectiles_modifiers_moving_and_firing]]
 ==== Nicht-Stationäres Feuern
-
-Nutzt ein Charakter ein <<ref_core_battle_maneuver,Manöver>> in seiner Kampfphase, bei dem seine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] verwendet wurde, und führt er danach eine Angriffsprobe im Fernkampf aus, erhält er für dieser Probe einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
+Nutzt ein Charakter eine <<ref_core_battle_actions,Aktion>> in seiner Kampfphase, bei dem seine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] verwendet wurde, und führt er danach eine Angriffsprobe im Fernkampf aus, erhält er für dieser Probe einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
 
 Dies gilt auch, wenn der Charakter auf einem <<ref_core_battle_mounted_combat,Reittier>> sitzt und dieses ein entsprechendes Manöver einsetzt.
 
 [[ref_core_battle_projectiles_modifiers_moving_targets]]
 ==== Feuern auf Nicht-Stationäre Ziele
-
 Feuert ein Charakter eine Fernkampfwaffe auf ein Ziel ab, das sich in derselben Kampfphase bewegt, so erhält er abhängig von der Geschwindigkeit des Ziels einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] seine Angriffsprobe.
-Hat sich das Ziel mit dem Kampfmanöver <<ref_core_battle_maneuver_run,Rennen>> fortbewegt, beträgt der Malus *-5*, hat das Ziel <<ref_core_battle_complexactions_sprint,Sprinten>> benutzt, beträgt der Malus *-10*.
+Hat sich das Ziel mit seiner <<ref_core_battle_action_move,Bewegung>> fortbewegt, beträgt der Malus *-5* pro Einsatz dieser Aktion in der aktuellen Kampfphase.
+
+[[ref_core_battle_projectiles_modifiers_aimedattack]]
+==== Gezielter Schuss
+Analog zu einem <<ref_core_battle_melee_modifiers_aimedattack,gezielten Schlag>> im Nahkampf kann ein Fernkämpfer einen gezielten Schuss (oder Wurf) abgeben.
+Es gelten die gleichen Regeln.
 
 [[ref_core_battle_throwingweapons]]
 == Wurfwaffen
-
 Wurfwaffen wie Wurfäxte oder Wurfdolche werden wie <<ref_core_battle_projectiles,Projekilwaffen>> behandelt, jedoch werden sie mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] abgehandelt.
 Es gelten die im genannten Kapitel Regeln bezüglich <<ref_core_battle_projectiles_baserange,Reichweiten und Inkrementen>>, <<ref_core_battle_projectiles_minimalsuccesses,Mindestwürfe>> und alle <<ref_core_battle_projectiles_modifiers,Modifikatoren>>.
 Darüber hinaus gelten die Regeln in den folgenden Unterkapiteln.
 
+[[ref_core_battle_throwingweapons_modifiers_improvised_weapons]]
+=== Improvisierte Wurfwaffen
+Wurfwaffen sind erfordern üblicherweise eine präzise Ausbalancierung, um effektiv im Kampf verwendet werden zu können.
+Jedoch manchmal muss man mit dem zurechtkommen, was vorhanden ist.
+So können auch andere Gegenstände verwendet werden, um unter den Regeln des Fernkampfs mit Wurfwaffen behandelt zu werden.
+Die Verwendung eines solchen Gegenstands als *improvisierte Wurfwaffe* bringt einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] auf die Angriffsprobe in Höhe von *-5* mit sich.
+
 [[ref_core_battle_throwingweapons_aoe]]
 === Wurfwaffen mit Flächenwirkung
-
 Einige Wurfwaffen verursacht einen Effekt in der Fläche, beispielsweise explodieren sie beim Einschlag.
 Eine solche Fläche wird in einem *Radius* in Metern angegeben.
 
@@ -853,7 +1012,6 @@ Alle Kreaturen im Wirkungsradius sind von dem Flächeneffekt in Form eines <<ref
 
 [[ref_core_battle_throwingweapons_cone]]
 === Kegelförmige Waffen
-
 Manche Kreaturen, Zaubersprüche und Waffen haben einen sogenannten kegelförmigen <<ref_core_battle_throwingweapons_aoe,Flächenschaden>>.
 Wie bei einem Radius ist dieser Kegel mit der Angabe einer Reichweite versehen.
 Ein Kegel beginnt an der vollen Front der Basis der Kreatur.
@@ -863,7 +1021,6 @@ Die folgende Zeichnung illustriert das Prinzip für einen Kegel von 4,50 Metern.
 
 [[ref_core_battle_mounted_combat]]
 == Berittener Kampf
-
 Ein Charakter auf einem Reittier kann im Kampf agieren, wie jeder andere Charakter auch.
 Sein Reittier gibt ihm eine verbesserte Position gegenüber Angriffen und er hat zusätzliche Kampfkraft, wenn das Tier entsprechend ausgebildet ist.
 
@@ -873,11 +1030,11 @@ Folgende Vor- und Nachteile hat ein Berittener:
 Pro xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie], die das Reittier größer ist als der Charakter, erhält dieser 25% Deckung, bis zu einem Maximum von 75%.
 * Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende aus, so gelten Boni für <<ref_core_battle_melee_modifiers_height,Höhenunterschiede>>.
 Dabei wird die GK des Reittieres zur Ermittlung herangezogen.
-Ist das Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann muss der Charakter eine Nahkampfwaffe tragen, die eine <<ref_core_battle_items_weapons_tag_reach,erhöhte Nahkampfreichweite>> hat.
+Ist das Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann muss der Charakter eine Nahkampfwaffe tragen, die eine <<ref_core_battle_items_weapons_tag_reach,erhöhte Reichweite>> hat.
 Ist das Reittier noch größer, kann der Reiter keine Nahkampfangriffe ausführen.
 * Der Reiter gilt als zusätzliche <<ref_core_battle_hits_hitzones,Trefferzone>> für das Reittier.
 <<ref_core_battle_projectiles,Fernangriffe>> werden auf das Reittier wie gewohnt ausgeführt.
-* Fern- wie Nahkampfangriffe können durch <<ref_core_battle_actions_attack_aimedattack,gezielter Schuss oder Schlag>> den Reiter oder das Reittier angreifen.
+* Fern- wie Nahkampfangriffe können durch <<ref_core_battle_melee_modifiers_aimedattack,gezielter Schuss oder Schlag>> den Reiter oder das Reittier angreifen.
 * Wird das Reittier durch einen Angriff <<ref_core_battle_knockdown,niedergeschlagen>>, so fällt der Reiter mit dem Reittier.
 Er erhält dadurch Fallschaden nach den üblichen Regeln, jedoch mindestens 1W6.
 Dasselbe gilt, wenn der Reiter selbst niedergeschlagen wird.
@@ -886,21 +1043,38 @@ Ist das Tier nicht geschult, so muss der Charakter eine xref:core_rules_talents_
 Er erhält für diese Probe pro weiteren Charakter oder Kreatur im Umkreis von 3,00 Metern einen Malus von -5.
 Misslingt die Probe, so verliert der Charakter seine <<ref_core_battle_actions,Aktion>> für diese Kampfphase.
 Gelingt sie, hat er das Pferd unter Kontrolle und kann normal agieren.
-* Das Reittier verwendet die <<ref_core_battle_flow_initiative,Initiative>> des Reiters.
+* Das Reittier verwendet die <<ref_core_battle_cycle_initiative,Initiative>> des Reiters.
 Seine Aktionen werden daher zum Zeitpunkt der Kampfphase durchgeführt, wenn der Reiter am Zuge ist.
 Sein eigener xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Wert] zählt in diesem Fall nicht.
 
 [[ref_core_battle_spellcasting]]
 == Spruchzauberei
-
 Die Zauberei ist ein komplexes und umfassendes Thema, dessen Gesamtheit sich im Dokument link:core_rules_magic_base.adoc[Magie] befindet.
 
 [[ref_core_battle_movement]]
-== Regeln zu Bewegungen
-
+== Bewegung
 In diesem Kapitel werden zusätzliche Regeln für die alle Manöver vorgestellt, bei denen ein Charakter sich bewegt.
-Diese gelten insbesondere für <<ref_core_battle_maneuver_run>> und <<ref_core_battle_complexactions_sprint>>.
-Neben diesen beiden Manövern gelten diese Regeln immer wenn ein Charakter seine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] einsetzt.
+Diese gelten insbesondere für die Aktion <<ref_core_battle_action_move,Bewegung>>.
+Diese Regeln gelten grundsätzlich immer, wenn ein Charakter seine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] einsetzt.
+
+[[ref_core_battle_movementtypes]]
+=== Typen der Bewegung
+
+
+[[ref_core_battle_movementtypes_onground]]
+==== Bewegung am Boden
+
+[[ref_core_battle_movementtypes_flying]]
+==== Fliegen
+
+
+[[ref_core_battle_movementtypes_climbing]]
+==== Klettern
+
+
+[[ref_core_battle_movementtypes_swimming]]
+==== Schwimmen
+
 
 [[ref_core_battle_movement_occupiedspaces]]
 === Besetzte Gebiete
@@ -926,14 +1100,14 @@ Das beinhaltet beispielsweise einmalige Hindernisse wie niedrige Mauern, Gräben
 
 Charakter, die unterschiedliche Bewegungsoptionen haben, wie zum Beispiel ein Reittier oder die Fähigkeit zu Fliegen, können unterschiedlich betroffen sein durch schwieriges Gelände.
 Fliegende Charakter sind vielleicht von dichtem Unterholz betroffen, denn sie fliegen einfach darüber.
-Allerdings könnten Sie durch niedrig hängende, dichte Äste behindert werden, während Charaktere am Boden drunterher laufen können.
+Allerdings könnten Sie durch niedrig hängende, dichte Äste behindert werden, während Charaktere am Boden darunter her laufen können.
 
 Weiterhin gilt auch das Durchqueren eines niedrigen Ganges oder einer Tür als schwieriges Gelände.
 
-Ein Charakter kann durch schwieriges Gelände seine Manöver <<ref_core_battle_maneuver_run,Rennen>> oder <<ref_core_battle_complexactions_sprint,Springen>> nur mit halbierter xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW-Rate] nutzen (abgerundet, minimal 1,50 Meter).
+Ein Charakter kann durch schwieriges Gelände seine Aktion <<ref_core_battle_action_move,Bewegung>> nur mit halbierter xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW-Rate] nutzen (abgerundet, minimal 1,50 Meter).
 
 [NOTE]
-Der SL kann nach Ermessen eine xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik]- oder xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik]-Probe verlangen, um zu prüfen, ob Charaktere erfolgreich durch das Gelände navigieren können.
+Der SL kann nach Ermessen eine xref:core_rules_talents_base.adoc#ref_talents_athletics[Athletik]- oder xref:core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik-Probe] verlangen, um zu prüfen, ob Charaktere erfolgreich durch das Gelände navigieren können.
 
 [[ref_core_battle_movement_diagionalmovement]]
 === Diagonale Bewegung (nur bei Kachelplänen)
@@ -942,28 +1116,22 @@ Der Einfachheit halber wird dieser Unterschied in den Regeln ignoriert.
 
 [[ref_core_battle_movement_provoke_attack_of_opportunity]]
 === Provokation von Gelegenheitsangriffe
-
 Ein Charakter in einer <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> eines Gegners, provoziert genau dann einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>, wenn er sich innerhalb dieser bewegt oder sich aus dieser hinausbewegt.
 
 [[ref_core_battle_attacks_of_opportunity]]
 == Gelegenheitsangriffe
-
 Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfphase, die durch unterschiedliche Situationen ausgelöst werden können.
-Sie finden außerhalb der <<ref_core_battle_flow_initiative,Initiative-Reihenfolge>> statt.
+Sie finden außerhalb der <<ref_core_battle_cycle_initiative,Initiative-Reihenfolge>> statt.
 Kampfteilnehmer, denen ein Gelegenheitsangriff zustehen, würfeln diese grundsätzlich mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf].
-Der Gelegenheitsangriff kosten den ausführenden Charakter eine <<ref_core_battle_reactions,Reaktion>>, auch wenn der
-Talenteinsatz üblicherweise eine <<ref_core_battle_actions_usetalent,Aktion>> ist.
 
-Jeder Charakter kann pro Kampfphase nur so viele Gelegenheitsangriffe ausführen, wie er <<ref_core_battle_reactions,Reaktionen>> besitzt und willig ist, diese einzusetzen.
-Provozieren daher mehr Gegner Gelegenheitsangriffe, so kann der Charakter diese nicht mehr ausführen, wenn keine Reaktionen mehr besitzt.
+Provozieren mehr Gegner Gelegenheitsangriffe, nach dem Charakter seine verfügbaren Gelegenheitsangriffe pro Kampfphase aufgebraucht hat, kann der Charakter diese nicht mehr ausführen.
 
 Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das heißt, sie stehen in der Bedrohungszone des Charakters.
 
-Der Gelegenheitsangriff gilt als <<ref_core_battle_actions_attack,Angriff>>.
+Der Gelegenheitsangriff gilt als <<ref_core_battle_attacktypes,Angriff>>.
 
 [[ref_core_battle_hits]]
 == Treffer
-
 Eine erfolgreiche xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] mit den Talenten xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen], xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] und deren ungeübter Anwendung führt zu einem *Treffer*.
 Fallen würfeln auch eine Angriffsprobe und erzeugen damit Treffer.
 Eine erfolgreiche xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] kann auch Treffer erzeugen, wenn dies in der Beschreibung des xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_effect[Effekts] zu dem gezauberten Spruch beschrieben ist.
@@ -1001,11 +1169,10 @@ Dies kann der SL von Situation zu Situation frei entscheiden.
 
 Der Torso gilt als *Standardtrefferzone* bei humanoiden, gleich großen Gegnern.
 
-Ein <<ref_core_battle_actions_attack_aimedattack,gezielter Angriff>> kann so gezielt werden, dass er die Trefferzonen betrifft, die nicht durch eine Rüstung geschützt sind.
+Ein <<ref_core_battle_melee_modifiers_aimedattack,gezielter Angriff>> kann so gezielt werden, dass er die Trefferzonen betrifft, die nicht durch eine Rüstung geschützt sind.
 
 [[ref_core_battle_hits_hitzones_variants]]
 ==== Variationen bei Trefferzonen
-
 Trefferzonen können jedoch auch variieren.
 Manche Wesen besitzen andere bzw. zusätzliche Trefferzonen:
 
@@ -1023,7 +1190,6 @@ Diese unzähligen Variationen aufzuzählen wäre sehr müßig, aber der SL kann 
 
 [[ref_core_battle_hits_hitzones_simplification_rule]]
 ==== Optional: Vereinfachung von Trefferzonen
-
 Die Aufteilung in Trefferzonen für Charaktere und für diverse Gegenspieler kann viel Extra-Management beinhalten.
 Diese optionale Regel ermöglicht daher eine einfachere Behandlung der Berechnung von Rüstungsschutz und Verletzungen.
 
@@ -1035,7 +1201,7 @@ Folgende Änderungen gelten bei Anwendung dieser Regel:
 * Arm- und Beinschienen haben keinen Effekt und werden als Teil der Torso-Rüstung betrachtet.
 * Helme werden auf den Torso-Rüstungsschutz gerechnet.
 * Schilde funktionieren normal
-* Das Kampfmanöver steht <<ref_core_battle_actions_attack_aimedattack,gezielter Schlag/Schuss>> nicht zur Verfügung.
+* Das Kampfmanöver steht <<ref_core_battle_melee_modifiers_aimedattack,gezielter Schlag/Schuss>> nicht zur Verfügung.
 * Über alle Rüstungsgegenstände gilt der höchste <<ref_core_battle_items_armor_tag_dexterity_malus,Malus auf GE>> und der höchste <<ref_core_battle_items_armor_tag_initiative_malus,Malus auf INI>>.
 
 .Vereinfachung von Trefferzonen
@@ -1056,7 +1222,6 @@ Die Regeln in diesem Kapitel treffen auch auf diese Situationen zu.
 
 [[ref_core_battle_damage_damagepoints]]
 === Schadenspunkte
-
 Das Endergebnis eines <<ref_core_battle_damage_damagerolls,Schadenswurfs>> wird die *Schadenspunkte* genannt.
 Üblicherweise werden Schadenspunkte von dem xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] des Charakters abgezogen.
 Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalten von Schadenspunkten.
@@ -1076,8 +1241,8 @@ Folgende Übersicht gibt Auskunft über die Berechnungen:
 
 * Nahkampfwaffen: *Attributsbonus (Waffe) + SB*
 * Nahkampfwaffen (<<ref_core_battle_items_weapons_tag_heavy,schwer>>): *Attributsbonus (Waffe) *2 + SB*
-* Nahkampfwaffen (<<ref_core_battle_actions_attack_mountedattack,Berittener Angriff>>): *Attributsbonus (Waffe) *2 + + SB*
-* Nahkampfwaffen (<<ref_core_battle_actions_attack_mountedattack,Berittener Angriff>>, <<ref_core_battle_items_weapons_tag_heavy,schwer>>): *Attributsbonus (Waffe) *4 + SB*
+* Nahkampfwaffen (<<ref_core_battle_attacktypes_mountedcharge,berittener Angriff>>): *Attributsbonus (Waffe) *2 + + SB*
+* Nahkampfwaffen (<<ref_core_battle_attacktypes_mountedcharge,berittener Angriff>>, <<ref_core_battle_items_weapons_tag_heavy,schwer>>): *Attributsbonus (Waffe) *4 + SB*
 * Projektilwaffen: *Attributsbonus (Waffe) + SB*
 * Projektilwaffen (<<ref_core_battle_items_weapons_tag_mechanical,mechanisch>>): *SB*
 * Wurfwaffen: *Attributsbonus (Waffe) + SB*
@@ -1149,7 +1314,6 @@ Auch Treffer durch Zaubersprüche und magische Effekte profitieren von <<ref_cor
 
 [[ref_core_battle_damage_damagerolls_no_modifiers]]
 ==== Schadenswürfe ohne weitere Modifikatoren
-
 Einige Quellen von Schaden verwenden eine feste Angabe von Würfeln und statischen Komponenten.
 Dies sind beispielsweise Fallen oder auch Angriffe, die durch Kreaturen ausgeführt werden.
 Im letzteren Fall ist auch eine konkrete Würfelkombination angegeben, die für den Schadenswurf verwendet wird.
@@ -1169,7 +1333,6 @@ Auch für diese Treffer kommen die Regeln zu <<ref_core_battle_damage_damageroll
 
 [[ref_core_battle_damage_armor]]
 === Rüstung
-
 Jede *Rüstung* gewährt eine Anzahl an *Rüstungspunkten* für eine oder mehrere <<ref_core_battle_hits_hitzones,Trefferzonen>>.
 Erhält ein Charakter einen <<ref_core_battle_hits,Treffer>> auf einer der geschützten Trefferzonen, werden die ermittelten <<ref_core_battle_damage_damagerolls,Schadenspunkte>> um die Rüstungspunkte reduziert.
 Dabei können Schadenspunkte auf 0 reduziert werden, aber nicht darunter.
@@ -1301,7 +1464,7 @@ Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende Säuren 
 Ätzende Gase werden von dieser Regel auch betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten assoziiert wird.
 Manche der Säuren gehören zum Verdauungsprozess einer Kreatur oder sind ein Abwehrmechanismus.
 
-Erreicht der Säureschaden die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Säureschaden.
+Erreicht der Säure-Schaden die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Säureschaden.
 
 [[ref_core_battle_damage_damagetype_aspectelemental_shock]]
 ===== Schock
@@ -1379,7 +1542,6 @@ Solche Kreaturen dürfen uneingeschränkt Fähigkeiten oder Talente (und so weit
 
 [[ref_core_battle_damage_nondeadly_damage]]
 === Nicht-tödlicher Schaden
-
 Weiterhin ist zwischen tödlichem und nicht-tödlichem Schaden zu unterscheiden.
 Im Endeffekt gelten für nicht-tödlichen Schaden alle bisherigen Regeln, jedoch mit folgenden Einschränkungen:
 
@@ -1396,12 +1558,11 @@ Für folgende Fälle wird jedoch automatisch nicht-tödlicher Schaden angenommen
 
 [[ref_core_battle_wounds]]
 == Verletzungen
-
-Als *Verletzung* bezeichnet man einen starken Verlust von xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[Trefferpunkten], der durch einen einzigen <<ref_core_battle_actions_attack,Angriff>> verursacht wurde.
+Als *Verletzung* bezeichnet man einen starken Verlust von xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[Trefferpunkten], der durch einen einzigen <<ref_core_battle_attacktypes,Angriff>> verursacht wurde.
 Eine Verletzung ist beispielsweise eine blutende Wunde oder ein gebrochener Knochen oder gar Schlimmeres.
 
 Zuerst muss die <<ref_core_battle_hits_hitzones,Trefferzone>> bestimmt werden, bei der die Verletzung zum Tragen kommt.
-Wurde der Angriff <<ref_core_battle_actions_attack_aimedattack,gezielt>> auf eine Trefferzone geführt, so wird diese genommen, ansonsten gilt die <<ref_core_battle_hits_hitzones,Standardtrefferzone>>.
+Wurde der Angriff <<ref_core_battle_melee_modifiers_aimedattack,gezielt>> auf eine Trefferzone geführt, so wird diese genommen, ansonsten gilt die <<ref_core_battle_hits_hitzones,Standardtrefferzone>>.
 
 Verursachte der Angriff dann mehr <<ref_core_battle_damage_damagepoints,Schadenspunkte>> als der Verteidiger xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] besitzt, erhält er eine Verletzung.
 Außerdem droht ein <<ref_core_battle_knockdown,Niederschlag>>, welcher im nachfolgenden Kapitel erläutert wird.
@@ -1451,7 +1612,6 @@ Erhält der Charakter eine weitere Verletzung auf einer anderen Trefferzone, zum
 
 [[ref_core_battle_wounds_additional_wounds]]
 === Höhere Verletzungsgrade durch höheren Schaden
-
 Wenn ein Charakter deutlich höheren Schaden als seinen WID erhält, kann er direkt einen höheren Verletzungsgrad erhalten.
 Für jedes ganzzahlige Vielfache des WID erhält der Charakter einen Verletzungsgrad mehr, bis hin zu tödlich.
 
@@ -1464,7 +1624,6 @@ Der Charakter erhält damit eine mittelschwere Verletzung.
 
 [[ref_core_battle_knockdown]]
 == Niederschlag
-
 Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer <<ref_core_battle_wounds,Verletzung>> einen *Niederschlag* erleiden kann.
 Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht.
 Es wird ihm "Schwarz vor Augen" und wird er durch die Wucht des Angriffes niedergeschmettert.
@@ -1507,11 +1666,10 @@ Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad leicht und die Nied
 ====
 
 Misslingt die Niederschlags-Probe, dass gilt der Charakter als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[am Boden] und ist bis zum Beginn seiner nächsten Kampfphase xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
-Er kann dann wieder <<ref_core_battle_maneuver_standup>>,aufstehen>>.
+Er kann dann wieder <<ref_core_battle_action_standup>>,aufstehen>>.
 
 [[ref_core_battle_items_weapons]]
 == Waffen
-
 In diesem Kapitel werden allgemeine Regeln zu Waffen vorgestellt.
 Eine umfangreiche Auswahl findet sich in den weiter unten verwiesenen Kompendien.
 Jede Beschreibung einer Waffe ist nach dem gleichen Muster aufgebaut:
@@ -1574,7 +1732,7 @@ Das folgende Kapitel beschreibt die zusätzlichen Eigenschaften, die Waffen habe
 
 *Gattungen:* Nahkampfwaffen
 
-Waffen mit dieser Eigenschaft erlauben die <<ref_core_battle_actions,Aktion>> <<ref_core_battle_actions_attack_mountedattack,betrittender Angriff>>.
+Waffen mit dieser Eigenschaft erlauben die <<ref_core_battle_actions,Aktion>> <<ref_core_battle_attacktypes_mountedcharge,betrittender Angriff>>.
 
 [[ref_core_battle_items_weapons_tag_one_time_use]]
 ==== Einmalige Verwendung
@@ -1582,7 +1740,7 @@ Waffen mit dieser Eigenschaft erlauben die <<ref_core_battle_actions,Aktion>> <<
 *Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
 
 Waffen mit dieser Eigenschaft können nur einmal verwendet werden.
-Unabhängig vom Erfolg des <<ref_core_battle_actions_attack,Angriffs>> ist die Waffe zerstört.
+Unabhängig vom Erfolg des <<ref_core_battle_attacktypes,Angriffs>> ist die Waffe zerstört.
 Typische Beispiele sind Bomben, die bei Aufschlag explodieren.
 
 [[ref_core_battle_items_weapons_tag_reach]]
@@ -1643,7 +1801,7 @@ Waffen mit dieser Eigenschaft besitzen besondere <<ref_core_battle_damage_damage
 *Gattungen:* Projektilwaffen
 
 Projektilwaffen erfordern in meisten Fällen Munition, zum Beispiel Bögen benötigen Pfeile, die in die Sehne gespannt werden, bevor die xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Talentprobe] erfolgen kann.
-Alle Waffen mit der Information *Munition* erfordern, dass der Verwender, diese parat hat, wenn er den <<ref_core_battle_actions_attack,Angriff>> durchführen möchte.
+Alle Waffen mit der Information *Munition* erfordern, dass der Verwender, diese parat hat, wenn er den <<ref_core_battle_attacktypes,Angriff>> durchführen möchte.
 
 *Magazin (optional):* Diese optionale Angabe informiert über die Anzahl der Schüsse, die abgefeuert werden können, bevor die Waffe nachgeladen werden muss.
 Ein Charakter kann jede Kampfphase feuern, bis das Magazin leer ist.
@@ -1691,8 +1849,10 @@ Wird er von einer Waffe getroffen, die die Eigenschaft 'Rüstungsbrechend 3' hat
 
 *Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
 
-Waffen mit dieser Eigenschaft können in einer Kampfphase zum Angriff als <<ref_core_battle_maneuver,Manöver>> anstelle als <<ref_core_battle_actions_attack,Aktion>> verwendet werden, auch wenn das <<ref_core_battle_actions_usetalent,Talent>> im Normalfall eine Aktion vorsieht.
-Dennoch kann die Waffe nur einmal in einer Kampfphase eingesetzt werden, solange keine weiteren Effekte etwas anderes erlaubt,
+Waffen mit dieser Eigenschaft können in einer Kampfphase mit einer <<ref_core_battle_attacktypes,Aktion>> zweimal verwendet werden.
+Das bedeutet, der Charakter kann mit dem Einsatz einer Aktion zwei Angriffsproben würfeln.
+Für jede Angriffsprobe steht dem Verteidiger seine üblichen Reaktionen zur Verfügung.
+Sofern keine weiteren Beschreibungen durch wie Waffe selbst gegeben sind, gilt dies für maximal eine Aktion je Kampfphase mit dieser Waffe.
 
 [[ref_core_battle_items_weapons_tag_heavy]]
 ==== Schwer
@@ -1765,7 +1925,7 @@ Der angegebene <<ref_core_battle_items_armor_armorpoints,Rüstungsschutz>> wirkt
 ==== INI-Malus
 
 Manche Rüstungen sind sehr schwer und schränken die Bewegungsfähigkeit des Trägers ein.
-Charaktere mit einer Rüstung mit dieser Eigenschaft erhalten eine angegebene Anzahl von Punkten Malus auf ihren <<ref_core_battle_flow_initiative,Initiative-Wert>>.
+Charaktere mit einer Rüstung mit dieser Eigenschaft erhalten eine angegebene Anzahl von Punkten Malus auf ihren <<ref_core_battle_cycle_initiative,Initiative-Wert>>.
 Ein Charakter mit mehreren Rüstungsteilen, die diese Eigenschaft besitzen, muss den Malus aller Rüstungsteile addieren.
 
 .INI-Malus
@@ -1809,7 +1969,7 @@ Schilde können alle <<ref_core_battle_items_armor_tags,Eigenschschaften von Rü
 ==== Deckung geben
 
 Schilde mit dieser Eigenschaft sind besonders massiv und eignen sich dazu, dahinter in Deckung zu gehen.
-Ein Charakter kann einmal pro Kampfphase einen beliebigen <<ref_core_battle_actions_attack,Angriff>> deklarieren, in dem sein Schild <<ref_core_battle_melee_modifiers_coverage,Deckung>> bietet.
+Ein Charakter kann einmal pro Kampfphase einen beliebigen <<ref_core_battle_attacktypes,Angriff>> deklarieren, in dem sein Schild <<ref_core_battle_melee_modifiers_coverage,Deckung>> bietet.
 
 Um die Eigenschaft nutzen zu können, muss die <<ref_core_battle_items_armor_size,Größe>> des Schilds größer sein als die xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Charakters, der es hält.
 Die Effektivität der Deckung hängt von der Differenz der beiden Größenangaben ab.

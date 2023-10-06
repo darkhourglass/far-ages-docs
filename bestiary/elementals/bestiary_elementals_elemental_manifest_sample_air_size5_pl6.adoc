@@ -1,0 +1,62 @@
+= Elementares Manifest der Luft
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar](xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] 6, Luft)
+* *GK:* 5
+* *CP:* TBA
+
+== Beschreibung
+
+_Eine wirbelnde Masse wie lebendiger Sturm erscheint vor Euch.
+Wage, humanoide Züge scheint ihr zwischen den Wolken auszumachen.
+Zwei Lichter, wie ein kondensierter Blitz, starren Euch entgegen, wo ihr ein Gesicht glaubt wahrzunehmen._
+
+== Profil
+
+*ST:* 6 (+2)     *GE:* 5 (+2)     *KO:* 3 (+1) +
+*ER:* 4 (+2)     *EN:* 6 (+2)     *SB:* 3 (+1)    *CH:* 5 (+2) +
+
+*TP:* 55     *MP:* 60     *SP:* - +
+
+*WID:* 10 +
+*BEW:* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 10,50 +
+*INI:* 9 +
+*MaxTL:* 90 +
+*MaxPOT:* 9 +
+
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:* - +
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft])
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Offensiv
+
+* link:../skills/specific/elementals/bestiary_skill_elementals_elemental_blast.adoc[Elementarer Stoß] 8 (3W6 Luft)
+* link:../skills/bestiary_skill_attack_stroke.adoc.adoc[Hieb] 8 (2W6+2)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Hieb, 2)
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 3 (+2)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 3 (+1)
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] 3 (+2)

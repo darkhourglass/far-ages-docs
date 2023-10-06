@@ -2,13 +2,85 @@
 
 [[ref_primary_creaturetype_elementals_rules]]
 == Regeln
-
+Im folgenden Abschnitt werden die besonderen Regeln für alle Kreaturen mit diesem Kreaturentyp vorgestellt.
 
 [[ref_primary_creaturetype_elementals_rules_powerlevel]]
 === Machtstufen
+Elementare sind Wesen mit *Machtstufe*, die wie bei anderen Kreaturen wie beispielsweise link:creaturetype_primary_undead.adoc[Untote] ein Maß für die Stärke und Macht des Elementars.
+Die Machtstufe wird in Zahlen ab 1 gezählt.
+Dabei sind Elementare der Machtstufe 1 die schwächsten Vertreter ihrer Art, während Elementare der Machtstufe 10 oder höher, wie Naturkatastrophen über die materielle Welt kommen können.
+
+Die Machtstufe eines Elementar beeinflusst beispielsweise die xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Schwierigkeit] für Zaubersprüche wie link:../../../../compendiums/spells/spell_ban_elemental_manifest.adoc[Verbanne Elementar] oder auch welche Fähigkeiten ein Elementar lernen kann.
+
+[[ref_primary_creaturetype_elementals_rules_elemental_fixation]]
+=== Elementare Fixierung
+Jede elementare Kreatur ist zwangsläufig eine Manifestierung roher Energie von einer der kosmischen, elementaren Ebenen.
+Somit ist jedes Elementar mit üblicherweise einem, seltener mehreren, Elementen verbunden.
+Die typischen Beispiele für eine singuläre Fixierung sind link:../../../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc[elementare Manifeste]: ein Feuer-Manifest ist mit der elementaren Ebene des Feuers verbunden.
+link:../../../../bestiary/elementals/bestiary_elementals_aspect_manifest.adoc[Aspekt-Manifeste] hingegen sind mit einer Aspekt-Ebene, wie zum Beispiel Härte, verbunden, die wiederum die Kombination aus zwei primären Elementen, in diesem Fall Erde und Feuer, ist.
+
+Jedes Elementar erhält auf Basis seines Elements eine Reihe von Fähigkeiten (siehe link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität], link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz]) wie in der folgenden Tabelle dargestellt.
+
+|===
+|Element |Schadensimmunität |Schadensresistenz
+
+|Erde
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde]
+|-
+
+|Feuer
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+|-
+
+|Luft
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft]
+|-
+
+|Wasser
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+|-
+
+|Bewegung
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock]
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft]
+
+|Härte
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_magma[Magma]
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde]
+
+|Stille
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft], xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+
+|Wachstum
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure]
+|xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde], xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+|===
 
 [[ref_primary_creaturetype_elementals_rules_general_rules]]
 === Allgemeine Regeln
+In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Elementare von anderen Wesen abweichen.
+
+* Elementare können nicht xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_drowing[ertrinken].
+* Elementare besitzen keine SP, verlieren diese nie oder werden wahnsinnig.
+* Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
+* Elementare, die 0 TP erreichen, würfeln keine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Todes-Rettungswürfe], sondern es kehrt ihre Essenz sofort auf ihre Heimat-Ebene zurück.
+Technisch gesehen ist dies ein xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[sofortiger Tod], auch wenn der Elementar nicht im klassischen Sinne stirbt.
+Ein Elementar hinterlässt im Normalfall keinen Leichnam.
 
 [[ref_primary_creaturetype_elementals_rules_skills]]
 === Fähigkeiten
+Alle Elementare erhalten zusätzlich zu den Fähigkeiten aus <<ref_primary_creaturetype_elementals_rules_elemental_fixation,elementare Fixierung>> alle der im Folgenden aufgelisteten Fähigkeiten.
+
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+* link:../../../../bestiary/skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]

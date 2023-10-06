@@ -1,0 +1,10 @@
+= Drachenpanzer
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache], link:bestiary_skill_dragons_dragons_scales.adoc[Drachenschuppen] +
+*Machtstufe:* 6 +
+*Typ:* Drachen +
+*CP:* tba +
+*Aktivierung:* Passiv +
+
+Immer wenn ein Drache eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung] erhält, verursacht diese Verletzung einen Verletzungsgrad weniger.
+Dies bedeutet, dass ein oberflächlicher Verletzungsgrad effektiv ignoriert wird.

@@ -2,14 +2,217 @@
 
 [[ref_secondary_creaturetype_swarm_rules]]
 == Regeln
+Schwärme sind eine große Ansammlung von Wesen der gleichen Art.
+Üblich sind kleine link:creaturetype_secondary_insect.adoc[Insekten] oder link:creaturetype_secondary_vermin.adoc[Schädlinge], die zu Abertausend eine surrende Masse der Verwüstung bilden.
 
+Im Gegensatz zu vielen anderen Kreaturentypen ist der Schwarm ein <<ref_secondary_creaturetype_swarm_rules_additional_type,ergänzender Kreaturentyp>>, der vergleichbar zu einer Schablone auf existierende Einträge aus dem Bestiarium angewendet werden kann.
+Der Schwarm gilt als eigener Kreaturentyp zusätzlich zu den Typen seiner Mitglieder.
 
-// GK der Einzelnen <> GK des Schwarms
-// no own zone of control except own "space"
-// no penalties moving through zones of controls / does not provoke AoO / do not execute AoO
-// loses TP only if WID is overturned / or has always high natural armor
-// immune to fear/horror
+[[ref_secondary_creaturetype_swarm_rules_additional_type]]
+=== Ergänzender Kreaturentyp
+Ein Schwarm besteht immer aus einer großen Masse von Individuen einer konkreten Kreatur.
+In diesem Kapitel wird vorgestellt, wie der SL Schwärme auf Basis bestehender Kreaturen aus dem Bestiarium erstellen kann.
 
-* Schwärme erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
-* Schwärme erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+Zunächst muss die xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] festgelegt werden, die der Schwarm erhalten soll.
+Davon abhängig von vor allem die zugrunde liegenden Kreaturen, die den Schwarm ausmachen können.
+Beispielsweise kann eine Kreatur der GK 5 keinen Schwarm der GK 5 bilden.
+Sie wäre das einzige Mitglied.
+Abhängig von der GK des Schwarms können die Individuen maximal eine bestimmte GK besitzen, um einen Schwarm zu bilden.
+
+Weiterhin erhalten Schwärme folgende Fähigkeiten:
+
+* link:../../../../bestiary/skills/bestiary_skill_naturalarmor_unbreakable.adoc[Unnachgiebige natürliche Rüstung]: Schwärme gewinnen ihre Stärke durch Masse.
+Um einen Schwarm ernsthaft zu verletzen, muss man einiges einsetzen.
+Diese Fähigkeit symbolisiert genau diese Schwierigkeit.
+Besitzt die individuelle Kreatur xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürliche Rüstung], so zählt der höhere Wert.
+Sollte dieser Fall eintreten, erhält diese Rüstung auch die Eigenschaft xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_unbreakable[unnachgiebig].
+* Der xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] eines Schwarms ist festgelegt durch seine GK.
+Die TP der einzelnen Kreaturen im Schwarm haben keinen Einfluss.
+Erreicht ein Schwarm xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[die erste Todesschwelle], löst er sich auf.
+Im Ermessen des SLs können einzelne Individuen überleben.
+* Alle Attacken, die ein Individuum ausführen kann, werden durch Schwarm mannigfaltig ausgeführt.
+Ein Schwarm erhält für alle Angriffsfähigkeiten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] mit der angegebenen Anzahl.
+
+[NOTE]
+Ein Schwarm hat mindestens die GK 3.
+
+Die folgende Tabelle gibt einen Überblick über die beschriebenen Eigenschaften:
+
+|===
+|GK des Schwarms |Max. GK einzelner Individuen |Natürliche Rüstung |TP-Pool |Anzahl Mehrfach-Angriff
+
+|3
+|1
+|10
+|60
+|2
+
+|4
+|1
+|12
+|80
+|2
+
+|5
+|1
+|15
+|100
+|3
+
+|6
+|2
+|18
+|120
+|3
+
+|7
+|2
+|20
+|140
+|4
+
+|8
+|3
+|25
+|160
+|4
+
+|9
+|4
+|28
+|180
+|5
+
+|10
+|5
+|30
+|200
+|5
+|===
+
+[NOTE]
+Auch wenn die Regeln in diesem Kapitel eher auf traditionelle Schwärme wie ein Heuschreckenschwarm ausgelegt sind, können sie natürlich auch verwendet werden, um Schwärme von anderen Kreaturen zu erschaffen.
+
+[[ref_secondary_creaturetype_swarm_rules_profil]]
+=== Profil des Schwarms
+Das Profil eines Schwarms basiert auf dem eines Individuums mit einigen Ausnahmen.
+Es gelten dabei die folgenden Regeln.
+
+* Die folgenden Attributsstufen erhalten einen Bonus abhängig von der GK des Schwarms
+
+|===
+|GK |ST |GE |KO |SB
+
+|1
+|+2
+|+1
+|+2
+|+1
+
+|2
+|+2
+|+1
+|+2
+|+2
+
+|3
+|+4
+|+2
+|+4
+|+3
+
+|4
+|+4
+|+2
+|+4
+|+4
+
+|5
+|+6
+|+3
+|+6
+|+5
+
+|6
+|+6
+|+3
+|+6
+|+6
+
+|7
+|+8
+|+4
+|+8
+|+7
+
+|8
+|+8
+|+4
+|+8
+|+8
+
+|9
+|+10
+|+5
+|+10
+|+9
+
+|10
+|+10
+|+5
+|+10
+|+10
+|===
+
+* Die Attributsstufen für xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[ER], xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN] und xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH] bleiben unverändert.
+* Alle xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsboni] werden auf Basis der neuen Stufen bestimmt.
+* Der Schwarm erhält alle xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents[Talente] und xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeiten] der Originalkreatur.
+* Der Schwarm erhält alle allgemeinen <<ref_secondary_creaturetype_swarm_rules_skills,Fähigkeiten>>, die mit Schwärmen assoziiert werden.
+
+[NOTE]
+Im Bestiarium finden sich Einträge für Kreaturen, die bereits ein Schwarm sind, ohne dabei einen Eintrag für das Individuum bereitzustellen.
+In diesem Fall gilt das angegebene Profil sowie alle anderen Regeln aus diesem Kapitel.
+
+[[ref_secondary_creaturetype_swarm_rules_zone_of_control]]
+=== Bedrohungszone des Schwarms
+Ein Schwarm besitzt keine xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] außer dem Platz, den er aufgrund seiner xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] als Basis einnimmt.
+
+Schwärme greifen ihre Gegner stattdessen an, in dem sie diese vollständig umgeben.
+Dies wird durch die initiale <<ref_secondary_creaturetype_swarm_rules_skills,Fähigkeit>> link:../../../../bestiary/skills/bestiary_skill_engulfing.adoc[Umschlingend] dargestellt.
+
+.Bedrohungszone des Schwarms
+====
+Ein Schwarm der GK 5 belegt eine Basis von 1,50 x 1,50 Metern.
+Üblicherweise würde eine Kreatur dieser GK weiterhin einen Bereich mit Radius 1,50 Metern um seine Basis bedrohen.
+Der Schwarm bedroht nur seine Basis.
+====
+
+[[ref_secondary_creaturetype_swarm_rules_attacks_of_opportunity]]
+=== Gelegenheitsangriffe des Schwarms
+Bewegungen eines Schwarms verursachen keine xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
+Dies ist durch ihre initiale <<ref_secondary_creaturetype_swarm_rules_skills,Fähigkeit>> link:../../../../bestiary/skills/bestiary_skill_move_nimble.adoc[Flink] dargestellt.
+
+Allerdings führen Schwärme auch niemals Gelegenheitsangriffe gegen ihre Gegner aus, wenn diese einen solchen in der Bedrohungszone des Schwarms verursachen würden.
+
+[[ref_secondary_creaturetype_swarm_rules_target_of_effects]]
+=== Ziel von Effekten
+Effekte und insbesondere Zaubersprüche, die den primären oder sekundären Kreaturentyp eines Individuums im Schwarm als xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_projectiles_modifiers_moving_targets[Ziel] haben, wirken gegen den Schwarm nur mit xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
+Außerdem erhält der Schwarm einen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +10 auf jeden xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] gegen diese Effekte oder Zaubersprüche.
+
+[[ref_secondary_creaturetype_swarm_rules_skills]]
+=== Fähigkeiten
+
+Alle Schwärme erhalten die folgenden Fähigkeiten:
+
+* link:../../../../bestiary/skills/bestiary_skill_move_nimble.adoc[Flink]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[Kampfunfähig]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../../../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (siehe <<ref_secondary_creaturetype_swarm_rules_additional_type,Beschreibung>>)
 * link:../../../../bestiary/skills/bestiary_skill_engulfing.adoc[Umschlingend]

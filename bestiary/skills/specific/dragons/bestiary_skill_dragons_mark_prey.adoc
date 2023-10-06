@@ -1,0 +1,30 @@
+= Beute markieren
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] +
+*Machtstufe:* 3 +
+*Typ:* Drachen +
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
+
+Mit dieser Fähigkeit kann der Drache eine beliebige link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur mit einem magischen Anker markieren, so dass der Drache die Anwesenheit und genaue Position der Kreatur spüren kann.
+
+Um ein Wesen zu markieren, muss der Drache eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] würfeln.
+Also xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] erhält er seine Machtstufe plus seinen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] in xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[ER].
+Die Kreatur darf mit einem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_willpower[Willenskraft-Rettungswurf] xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[verteidigen].
+
+Ein xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[durchschnittlicher Erfolg] reicht aus, um das Wesen zu markieren, jedoch weiß die Kreatur in diesem Moment um sein Schicksal.
+Erst ab einem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[sehr guten] Erfolg ist die Markierung so subtil erfolgt, dass die Kreatur diese nicht bemerkt.
+
+Solange die Kreatur markiert ist, weiß der Drache in einem Umkreis von 100 Meilen immer genau, wo die Kreatur ist und kann sie erspüren.
+
+Wenn der Drache xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsproben] gegen die Kreatur ausführt, erhält er einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5.
+
+Der Drache kann immer nur eine Kreatur markieren.
+Er kann eine Markierung jedoch auch jederzeit aufheben.
+
+Mit einem Erfolg in xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] kann diese magische Verbindung, die durch einen glühenden Faden dargestellt wird, welcher im Aether verschwindet, erkannt werden.
+Der xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für diese Probe wird berechnet durch: 12 + die Machtstufe des Drachen.
+
+[[ref_bestiary_skill_dragons_mark_prey_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Drache darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.

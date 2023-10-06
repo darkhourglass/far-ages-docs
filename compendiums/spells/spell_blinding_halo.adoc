@@ -10,7 +10,7 @@
 *Anzahl der Ziele:* Radius 3,00 Meter +
 *Dauer:* 5 Kampfphasen +
 *Effekt:* Um den Kopf des Magiers erscheint ein brennendes oder gleisendes Halo aus purem Licht.
-Alle Kreaturen im Wirkungsbereich, einem Radius zentriert um den Magier, müssen zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen, um sich abzuwenden oder sind für diese Kampfphase xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[blind].
+Alle Kreaturen im Wirkungsbereich, einem Radius zentriert um den Magier, müssen zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen, um sich abzuwenden oder sind für diese Kampfphase xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[blind].
 
 Es sind nur Kreaturen betroffen, die den Magier sehen können. +
 *Zusätzliche Effekte:* +

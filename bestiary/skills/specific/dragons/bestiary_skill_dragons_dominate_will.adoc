@@ -1,0 +1,27 @@
+= Beherrsche den Willen
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] +
+*Machtstufe:* 6 +
+*Typ:* Drachen, Magisch +
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion]
+
+Durch pure Kraft seines Willens kann ein Drache mit dieser Fähigkeit andere Kreaturen seinen Willen aufzwingen und sie wie eine Marionette steuern.
+
+Um die Fähigkeit einzusetzen, muss gegen das Ziel eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende Probe] auf das Attribut xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB] würfeln.
+Die Probe erhält zusätzlich einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] in Höhe der Machtstufe des Drachen.
+
+Die Verteidigungsprobe kann als xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_willpower[Willenskraft-Rettungswurf] gewürfelt werden.
+Hat die Ziel Kreatur ebenso den Kreaturentyp Drache, erhält einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] auf diesen Rettungswurf, der seiner Machtstufe entspricht.
+
+Bei einem Erfolg, muss die Kreatur die ihre nächste xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] aufwenden, um dem Willen des Drachen zu folgen.
+Für jeden weiteren xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] hält die Wirkung eine weitere Kampfphase an.
+
+Die einzige Ausnahme ist, dass das Ziel keine Handlungen durchführen wird, die für es selbst verletzend oder gar tödlich sind.
+Es würde sich also nicht von einer Klippe stürzen, wenn der Drache dies befiehlt.
+
+Die Beherrschung endet außerdem, wenn der Drache die Sichtlinie zu dem Ziel verliert.
+
+[[ref_bestiary_skill_dragons_dominate_will_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Drache darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.

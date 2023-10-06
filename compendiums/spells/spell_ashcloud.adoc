@@ -12,7 +12,7 @@
 *Effekt:* Du beschwörst eine Wolke aus schwarzer Asche, die das Zielgebiet verdunkelt.
 Jede Kreatur im Wirkungsbereich darf einen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] gegen Deine Spruchzauberei-Probe abgelegen.
 Misslingt der Kreatur diese Probe, gilt Sie als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[blind].
-Dies gilt auch, wenn sie link:../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht] oder link:../../bestiary/skills/bestiary_skill_infraredvision.adoc[Infrarotsicht] hat, denn die Asche legt sich auf den Augen nieder.
+Dies gilt auch, wenn sie link:../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht] oder link:../../bestiary/skills/bestiary_skill_senses_infraredvision.adoc[Infrarotsicht] hat, denn die Asche legt sich auf den Augen nieder.
 
 Die Blindheit wirkt, solange die Kreaturen sich in der Wolke befinden.
 Kreaturen, die die Aschewolke betreten, müssen ebenfalls den Rettungswurf ablegen oder werden von dem Effekt betroffen.

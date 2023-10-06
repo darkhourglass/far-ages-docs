@@ -57,7 +57,7 @@ Diese Entscheidung gilt auch für seinen Kontrahenten.
 *Kampf:* - +
 *Beschreibung:* Hat der Schwertmeister erfolgreich einen Gegner durch <<ref_swordmaster_provoke>> beeinflusst, kann er direkt nach der Probe entscheiden, ob er stattdessen eine Herausforderung aussprechen möchte.
 Entscheidet er sich dafür, reduziert sich der Malus aus Provokation um 1, d.h. wenn der Malus z.B. -2 beträgt und der Schwertmeister diese Fähigkeit einsetzt, reduziert sich der Malus auf -1.
-Außerdem muss der Gegner seine nächste xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] verwenden, um möglichst nahe an den Schwertmeister heranzukommen und anzugreifen.
+Außerdem muss der Gegner seine nächste xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] verwenden, um möglichst nahe an den Schwertmeister heranzukommen und anzugreifen.
 
 [[ref_swordmaster_combattraining]]
 === Kampftraining des Schwertmeisters
@@ -82,10 +82,11 @@ Die Boni sind kumulativ.
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
-*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
 *Beschreibung:* Der Schwertmeister lernt, seine Gegner durch gezielte Provokation aus der Fassung zu bringen und sie zu Fehlern zu zwingen.
-Einmal pro Kampfphase als Einsatz eines xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] kann er einen Gegner im Umkreis von 6,00 Metern versuchen zu provozieren.
-Der Betroffene muss den Schwertmeister sehen und hören können. +
+Einmal pro Kampfphase kann er einen Gegner im Umkreis von 6,00 Metern versuchen zu provozieren.
+Der Betroffene muss den Schwertmeister sehen und hören können.
+
 Der Schwertmeister würfelt dazu eine konkurrierende xref:../../core/core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen-Probe].
 Bei einem Erfolg erhält der Provozierte einen Malus von -3 auf alle Proben für eine Anzahl von Kampfphasen, die der CH-Stufe des Schwertmeisters entspricht.
 Für jeden weiteren xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] erhöht sich der Malus um weitere -1.

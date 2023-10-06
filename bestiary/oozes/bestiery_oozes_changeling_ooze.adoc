@@ -1,0 +1,202 @@
+= Formwandler (Schleim)
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_shapeshifter.adoc[Gestaltwandler], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend]
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 6 (+2)     *GE:* 6 (+2)     *KO:* 6 (+2) +
+*ER:* 9 (+3)     *EN:* 6 (+2)     *SB:* 9 (+3)    *CH:* 6 (+2) +
+
+*TP:* 90     *MP:* 60     *SP:* - +
+
+*WID:* 20 +
+*BEW:* 12,00 +
+*INI:* 6 +
+*MaxTL:* 150 +
+*MaxPOT:* 10 +
+
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:* +
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch]
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_tentacles.adoc[Tentakel] 8 (2W6+ST-Attributsbonus) (nur in natürlicher Form)
+* link:../../rules/core/skills/core_skill_backstab.adoc[Hinterhältiger Angriff] 2W6
+* <<ref_bestiary_changeling_ooze_outstanding_mimicry,Mimikry>>
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] 8 +GE-Attributsbonus
+* <<ref_bestiary_changeling_ooze_outstanding_mimicry,Mimikry>>
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 10 +CH-Modifikator
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 10 +GE-Modifikator
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] 12 +CH-Modifikator
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] 8 +CH-Modifikator
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes entdecken] 8 +ER-Modifikator
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8 +GE-Modifikator
+* <<ref_bestiary_changeling_ooze_incredible_intelligence,Außergewöhnliche Intelligenz>>
+* <<ref_bestiary_changeling_ooze_outstanding_change,Herausragende Wandlung>>
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc#ref_primary_creaturetype_ooze_rules_amorphous_body[Formloser Körper]
+* link:../skills/bestiary_skill_senses_blindsense.adoc[Blindsinn] (30,00 Meter)
+* link:../skills/bestiary_skill_engulfing.adoc[Umschlingend]
+* link:../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+
+[[ref_bestiary_changeling_ooze_incredible_intelligence]]
+=== Außergewöhnliche Intelligenz
+Im Gegensatz zu dem Großteil der link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime] ist der Formwandler keine geistlose, Instinkt gesteuerte Masse.
+Formwandler besitzen eine Selbsterkenntnis und Intelligenz, die link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] in nichts nachsteht.
+Durch diese besondere Fähigkeit sind Formwandler allerdings auch anfällig gegenüber Effekt und Zaubersprüchen, die explizit Humanoide als xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Ziel] besitzen.
+Ist ein xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Rettungswurf] erlaubt, erhalten Formwandler in diesem Fall immer einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf diesen Wurf.
+
+[[ref_bestiary_changeling_ooze_flexible_mutation]]
+=== Flexible Mutation
+Der Formwandler kann als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] seinen Körper beinahe beliebig verändern.
+Er kann dies sowohl in seiner natürlichen Form wie auch einer anderen <<ref_bestiary_changeling_ooze_outstanding_change,Form>> durchführen.
+Im letzten Fall muss er die Form nicht wechseln, allerdings können sich Teile seiner aktuellen Form für einen kurzen Moment in seine flüssige Form wandeln.
+Dadurch kann er erkannt werden.
+
+Nutzt er diese Fähigkeit, kann er eine der folgenden Optionen auswählen:
+
+* Er kann beliebige Stufen eines seiner Attribute auf ein anderes Attribut verschieben.
+Kein Attribut kann eine Stufe von 0 erreichen.
+Dadurch ändern sich die jeweiligen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsboni], allerdings keine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften].
+* Er erhält einen zusätzlichen Bonus von +6,00 Metern zu seiner xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
+* Er erhält einen zusätzlichen Bonus von +4 auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID].
+* Er erhält eine der folgenden Fortbewegungsmöglichkeiten mit seiner aktuellen BEW, auch wenn seine Form diese nicht bietet: link:../skills/bestiary_skill_move_flight.adoc[Fliegen], link:../skills/bestiary_skill_move_climb.adoc[Klettern], link:../skills/bestiary_skill_move_swim.adoc[Schwimmen]
+
+In jedem Fall kehrt das Profil des Formwandels am Anfang seiner nächsten Kampfphase in seinen Ursprung zurück.
+Er kann jedoch eine weitere xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen, um entweder das Profil zu behalten oder eine andere Option wählen, diese jedoch immer auf Basis seines ursprünglichen Profils.
+
+[[ref_bestiary_changeling_ooze_outstanding_change]]
+=== Herausragende Wandlung
+Die signifikate Fähigkeit des Formwandlers ist, beinahe jede Gestalt anzunehmen.
+Im Gegensatz zu den meisten link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_shapeshifter.adoc[Gestaltwandlern] wie Werwesen, verändert der Formwandler nicht seinen Körper vollständig, sondern seine glibbrige Masse formt eine beinahe perfekte Imitation von Fleisch, Haut, Stoff, Holz oder Metall.
+
+Um eine Form anzunehmen, muss der Formwandler diese zuvor beobachtet haben oder kennen.
+Dies kann je nach Form unterschiedlich kompliziert und aufwändig sein.
+Formwandler können die Eigenschaften von Formen unterschiedlich gut abbilden, die Unterkapitel beschrieben dies im Detail.
+Es gelten folgende Grundannahmen in allen Fällen:
+
+* Materialien entsprechen der Konsistenz und Textur bei oberflächlicher Beobachtung und Berührung.
+Sie besitzen allerdings nicht die typischen Eigenschaften, beispielweise ist ein Formwandler, der ein Stück Holz imitiert, nicht brennbarer als sonst.
+* Formwandler sind besonders gut darin, Humanoide Verhaltensweisen nachzuahmen, sowohl um <<ref_bestiary_changeling_ooze_outstanding_change_specific_humanoid,Individuen>> zu imitieren, als auch in der <<ref_bestiary_changeling_ooze_outstanding_change_general_humanoid,Masse>> nicht aufzufallen.
+Ähnlich wie bei Materialien sind Haut (oder Fell), aber auch subtile Merkmale wie Atmen oder Schweiß bei oberflächlicher Beobachtung nicht als Imitat zu erkennen.
+* Grundsätzlich gilt, im Gegensatz zu anderen Gestaltwandlungen, erhält ein gewandelter Formwandler genug Schaden, um seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] zu übertreffen, so wird seine Natur offensichtlich: Holz würde nicht splittern oder eine Wunde bluten.
+Stattdessen fließt seine Masse aus.
+Er erhält aufgrund seiner link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immunität] keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung], aber im Allgemeinen ist seine Tarnung aufgeflogen.
+* Für eine reine visuelle Enttarnung ist eine Probe in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] nötig.
+Der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] ist durch die Formel 20 + CH-Stufe des Formwandlers gegeben.
+Bei einem durchschnittlichen Erfolg fällt einem Beobachter etwas Merkwürdiges auf.
+Erst bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[kritischen Erfolg] entdeckt er, dass das beobachtete Objekt oder Kreatur ein Gestaltwandler ist.
+* Formen, die Talente und Fähigkeiten besitzen, gewähren dem Formwandler keinen Einsatz dieser, außer er beherrscht diese nach Ermessen des SLs selbst.
+Formwandler verlassen sich stattdessen auf ihre eigene Fähigkeit des <<ref_bestiary_changeling_ooze_outstanding_mimicry,Mimikry>>, um Talente und Fähigkeiten zu imitieren.
+* In seiner gewandelten Gestalt kann der Formwandler die Vorteile seines xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc#ref_primary_creaturetype_ooze_rules_amorphous_body[formlosen Körpers] nicht nutzen.
+* Im Gegensatz zu vergleichbaren Fähigkeiten wie link:../skills/bestiary_skill_shapeshift.adoc[Gestaltwandel] verändern sich die Attribute, Attributseigenschaften und Pools des Formwandlers in einer anderen Form nicht.
+* Ein Formwandler kann eine Form für 8 Stunden halten.
+Danach muss er für mindestens 4 Stunden in seiner natürlichen Form eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Rast] durchführen.
+Er kann versuchen dieses Limit auszudehnen, indem er einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_KO[KO-Rettungswurf] gegen den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] 18 ablegt.
+Er erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5 auf diesen Wurf für jede volle Stunde über dem Limit von 8 Stunden.
+Misslingt der Rettungswurf, verwandelt er sich sofort in seine natürliche Form zurück.
+
+Die folgenden Abschnitte beschrieben die unterschiedlichen Anwendungen mit den jeweiligen Details dieser Fähigkeit.
+
+[[ref_bestiary_changeling_ooze_outstanding_change_object]]
+==== Objekt
+Der Formwandler kann jedes einfache Objekt imitieren, dass er mindestens für 1 Minute beobachtet hat.
+Das Objekt muss aus mindestens 90% festem Material bestehen und kann bis zu 2 xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] größer sein als der Formwandler selbst (GKs 1-7).
+Der Formwandler kann komplexe Objekte nach Ermessen des SLs darstellen, jedoch kann er keine Funktion imitieren, die zusätzliche
+
+Während er sich in dieser Form befindet, kann der Formwandler sich jedoch nicht bewegen, ohne seine Form zu verlieren.
+Die Verwandlung in ein Objekt oder zurück in seine übliche Form ist durch den Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] möglich.
+
+[[ref_bestiary_changeling_ooze_outstanding_change_general_humanoid]]
+==== Allgemeine humanoide Form
+Formwandler sind besonders effektiv darin, link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide] zu imitieren.
+Als *allgemeine* Form in dieser Kategorie wird eine Gestalt genannt, die in allen Aspekten einen überzeugenden, lebenden Humanoiden darstellt.
+Allerdings kann mit dieser Form kein spezifische, existierende Person imitiert werden.
+Vielmehr bringt der Formwandler hier seine eigenen Erfahrungen und Geschmäcker ein.
+
+Formwandler nutzen diese Fähigkeit, um unauffällig humanoide Gesellschaften zu unterwandern.
+Sie können dabei jede humanoide Form annehmen, deren GK maximal 1 Punkt von einer eigenen abweicht (GKs 4-6).
+Dabei können sie jedes Volk imitieren, solange sie wenigstens einen Vertreter dieses Volks für 24 Stunden beobachten konnten.
+Sie können dabei Form beliebig gestalten, bevorzugen jedoch innerhalb der üblichen Varianten des Volks zu bleiben - beispielsweise könnten sie problemlos einen Menschen mit grünen Haaren imitieren.
+Weiterhin können sie im Rahmen der Form auch Kleidung und weitere Gegenstände darstellen.
+Allerdings können sie diese nicht ablegen oder verlieren.
+Weiterhin muss jedes Element immer zum Körper des Formwandlers verbunden bleiben.
+Imitiert der Formwandler beispielsweise Handschuhe, kann er sie zwar ausziehen, aber in dem Moment, in dem er sie loslassen würde, verschwinden sie.
+
+Die Imitation einer link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreatur ist vollständig mit oberflächlichen Körperfunktionen wie Augenblinzeln, Atmen, Schweiß usw.
+Auch kann ein Formwandler feste und flüssige Nahrung aufnehmen.
+
+Die Verwandlung in die allgemeine humanoide Form ist mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] möglich.
+
+[[ref_bestiary_changeling_ooze_outstanding_change_specific_humanoid]]
+==== Spezifische humanoide Form
+Mit dieser Variante können Formwandler die Form einer realen Person annehmen und diese imitieren.
+
+Es gelten die Regeln für die <<ref_bestiary_changeling_ooze_outstanding_change_general_humanoid,allgemeine humanoide Form>>.
+Allerdings benötigt der Formwandler mindestens 3 Tage, um ein Individuum zu imitieren.
+Im Ermessen des SLs kann diese Zeit deutlich erhöht werden, je nach Komplexität der Imitation.
+Aussehen, Kleidung, Haltung, Bewegung, Stimme, Mimik und alle weiteren äußerlichen Merkmale sind beinahe perfekte Imitationen.
+
+Vertraute der Person erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5 bis +10 nach Ermessen des SLs, um den Formwandler enttarnen zu können.
+
+Der Formwandler erhält kein Wissen oder Erinnerungen über seine Form, außer dem, dass er beobachten kann.
+
+[[ref_bestiary_changeling_ooze_outstanding_change_general_animal]]
+==== Tierische Form
+Formwandler können auch die Form von link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tieren] annehmen.
+Diese Imitation folgt den bisherigen Regeln.
+Ein Formwandler benötigt 1 Stunde Beobachtung, um ein beliebiges Tier imitieren.
+Die Verwandlung erfordert eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion].
+
+Im Gegensatz zu humanoiden Formen beinhaltet diese Option sowohl spezifische als auch allgemeine Tiere.
+
+[[ref_bestiary_changeling_ooze_outstanding_mimicry]]
+=== Mimikry
+Formwandler lernen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents[Talente] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeiten] nicht allein deswegen, weil sie eine Form annehmen oder jemanden imitieren, der diese Talente oder Fähigkeiten besitzt.
+Allerdings sind Formwandler extrem gut darin, durch Beobachten zu lernen und im Laufe ihres Lebens erreichen sie damit erstaunlich viel.
+
+Mimikry stellt die besondere Fähigkeit eines jeden Formwandlers dar, um beinahe jede Aktion imitieren zu können.
+Dabei gelten folgende Regeln:
+
+*Talente:* Immer wenn der Formwandler eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] auf ein beliebiges Talent ablegen möchte und er dieses xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[nicht beherrscht], kann er die Probe würfeln, auch wenn es keine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung] zulässt.
+Dies gilt sogar für xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], allerdings kann der Formwandler das Talent nur einsetzen, um beispielsweise Zauber von xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_scrolls[Spruchrollen] zu wirken.
+Zum xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Basiswurf] addiert der Formwandler den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] des xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_connectedattribut[verwandten Attributs] wie folgt:
+
+* für ein Talent mit xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung] _'ja'_: Attributsbonus x3
+* für ein Talent mit xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung] _'nein'_: Attributsbonus x2
+
+*Fähigkeiten:* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeiten] kann der Formwandler genau dann einsetzen, wenn er ihren Einsatz bei einer gewählten Form beobachtet hat.
+Hat ein Formwandler eine beliebige Fähigkeit jeweils in 3 unterschiedlichen Formen beobachtet und mindestens einmal erfolgreich eingesetzt, kann er sie in jeder anderen Form verwenden.
+Sind xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentproben] für die Anwendung der Fähigkeit nötig, so gelten die bereits vorgestellten Regeln.
+
+== Taktik
+Formwandler sind keine typischen offensiven Gegenspieler, sondern verlassen sich auf Tarnung und Täuschung.
+Ihre größte Waffe ist ihre perfekte Tarnung in humanoider Gesellschaft, die sie für ihre eigenen, oft unergründlichen Zwecke nutzen.
+Formwandler agieren sowohl einzeln als auch in einer Gruppe, um beispielsweise verschiedene Schlüsselpositionen in einer Gesellschaft zu übernehmen.
+Die Art ihrer Tarnung hängt von ihren Zielen ab, auch ob sie bestimmte Individuen "ersetzen".
+Ein Formwandler hat keine Skrupel, andere zu töten, die keine Formwandler sind.

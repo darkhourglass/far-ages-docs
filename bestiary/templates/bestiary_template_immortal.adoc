@@ -2,12 +2,45 @@
 
 // TODO Beschreibung
 
+[[ref_template_immortal_requirements]]
 == Voraussetzungen
+Die Kreatur muss folgende Voraussetzungen erfüllen:
 
+* Die Kreatur muss den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend] haben.
+* Die Kreatur darf nicht den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] haben.
+
+[[ref_template_immortal_attributs]]
 == Attribute
+Die Kreatur behält ihre Attribute und erhält aufgrund dieser Schablone keine Modifikatoren auf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes[Attributsstufen].
 
+[[ref_template_immortal_talents]]
 == Talente
+Die Kreatur behält ihre Talente ohne weitere Veränderung.
 
+[[ref_template_immortal_skills]]
 == Fähigkeiten
+Die Kreatur lernt folgende Fähigkeiten, sobald sie diese Schablone erhält.
 
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* <<ref_template_immortal_skills_ageless_body,Zeitloser Körper>>
+
+[[ref_template_immortal_skills_ageless_body]]
+=== Zeitloser Körper
+Die Kreatur kann nicht altern.
+Ihr Körper bleibt in dem Zustand und Verfassung zu dem Zeitpunkt, an dem sie diese Schablone erhält.
+Alternativ erreicht die Kreatur zunächst einen erwachsenen Status und verbleibt dann in einem zeitlosen Zustand.
+
+Die Kreatur ist im Allgemeinen immun gegenüber Effekten inklusive Zaubersprüchen, die Altern verursachen.
+
+Auch wenn die Kreatur nicht durch Altern sterben kann, so kann physische Gewalt sie töten.
+Es gelten die üblichen Regeln zum xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod], wenn beispielsweise die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[Trefferpunkte] der Kreatur 0 erreichen.
+Der Leichnam der Kreatur verwittert normal.
+
+Die Kreatur erhält aufgrund dieser Fähigkeit außerdem die folgenden Fähigkeiten:
+
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungwurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungwurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+
+[[ref_template_immortal_cp]]
 == CP

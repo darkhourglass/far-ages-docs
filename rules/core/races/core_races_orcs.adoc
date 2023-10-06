@@ -14,11 +14,11 @@
 [[ref_core_races_orcs_skill_adrenalin_surge]]
 === Adrenalinrausch
 Orks beherrschen ihren Körper und ihre natürliche Aggressivität so gut, dass diese kontrolliert einsetzen können, um für kurze Zeit schneller reagieren zu können.
-Einmal pro Tag kann ein Orc in einen Adrenalinrausch fallen, der so viele KO-viele xref:../core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphasen] andauert und am Ende dieser Zeit automatisch endet.
-In einer dieser Kampfphasen kann der Ork entweder eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] oder ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] mehr als sonst durchführen.
+Einmal pro Tag kann ein Orc in einen Adrenalinrausch fallen, der so viele KO-viele xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] andauert und am Ende dieser Zeit automatisch endet.
+In einer dieser Kampfphasen kann der Ork eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] mehr als sonst durchführen.
 
 Am Ende des Adrenalinrausches erhält der Ork eine Stufe xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung], egal ob er die zusätzliche Aktion oder das Manöver eingesetzt hat.
 
 [[ref_core_races_orcs_skill_darkvision]]
 === Dunkelsicht
-Ein Ork besitzt die Fähigkeit link:../../../bestiary/skills/bestiary_skill_darkvision.adoc[Dunkelsicht].
+Ein Ork besitzt die Fähigkeit link:../../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht].

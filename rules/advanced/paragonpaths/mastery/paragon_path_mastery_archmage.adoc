@@ -38,7 +38,7 @@ Folgende Fähigkeiten können Erzmagier pro Stufe lernen, vorausgesetzt, sie erf
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* EN +
-*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack[Aktion] +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes[Aktion] +
 *Beschreibung:*
 
 [[ref_archmage_aethertransfusion]]
@@ -47,9 +47,9 @@ Folgende Fähigkeiten können Erzmagier pro Stufe lernen, vorausgesetzt, sie erf
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* - +
-*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] +
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
 *Beschreibung:* Der Erzmagier hat Verständnis für die Ströme der Magie im Aether perfektioniert.
-Einmal pro Tag kann der Erzmagier die Aethertransfusion als xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen.
+Einmal pro Tag kann der Erzmagier die Aethertransfusion einsetzen.
 Er xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] sofort 3W10 xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
 Die Fähigkeit kann mehrmals gelernt werden.
 Jedes Mal erhält der Erzmagier eine zusätzliche, tägliche Anwendung und die regenerierten MP steigen um 1W10.
@@ -80,8 +80,8 @@ Er kann diese Fähigkeit mehrfach lernen, die Effekte sind kumulativ.
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* - +
-*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] +
-*Beschreibung:* Der Erzmagier hat gelernt, die Essenz seinerselbst als aetherische Energie zu manifestieren, um seine Feinde zu verwirren.
+*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
+*Beschreibung:* Der Erzmagier hat gelernt, die seine Essenz als aetherische Energie zu manifestieren, um seine Feinde zu verwirren.
 Mit dem Einsatz eines Kampfmanövers und 10 MP kann der Erzmagier eine visuell perfekte Kopie seines Erscheinungsbildes in einem Umkreis von 15 Meter erschaffen.
 Der Erzmagier muss den Ort der Manifestation einsehen können.
 Dieses Duplikat verursacht allerdings keine Geräusche und ist auch nicht körperlich berührbar, jedoch handelt es sich nicht um eine Illusion, die angezweifelt werden kann.

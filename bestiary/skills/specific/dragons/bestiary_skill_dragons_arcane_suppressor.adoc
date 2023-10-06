@@ -1,0 +1,39 @@
+= Arkaner Unterdrücker
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] +
+*Machtstufe:* 7 (kumulativ) +
+*Typ:* Drachen, Magisch +
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktions] +
+
+Ein Drache mit dieser Fähigkeit kann den Fluss der Energien des Aethers kurzfristig stören und damit die magischen Aktivitäten in seinem direkten Umfeld stören.
+
+Die Eigenschaften der Fähigkeit sind durch die Machtstufe bestimmt, mit der die Fähigkeit erworben wird.
+Die nachfolgende Tabelle zeigt dazu eine Übersicht.
+
+|===
+|Machtstufe |Malus |Reichweite
+
+|7
+|-5
+|12,00 Meter
+
+|9
+|-10
+|15,00 Meter
+
+|12
+|-15
+|24,00 Meter
+
+|15
+|-20
+|30,00 Meter
+|===
+
+Aktiviert der Drache die Fähigkeit, so wirkt sie in einem Radius der angegebenen _Reichweite_.
+
+Alle xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Proben], um einen Zauberspruch auszusprechen oder eine link:../../bestiary_skill_magicability.adoc[magische Fähigkeit] einzustehen, erhalten den angegebenen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] auf die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe].
+Der Drache ist davon nicht betroffen.
+
+Die Wirkung dieser Fähigkeit hält bis zum Ende seiner nächsten Kampfphase an.

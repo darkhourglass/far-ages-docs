@@ -26,8 +26,10 @@ Er muss dazu nicht die an der Fähigkeit angegebenen Voraussetzungen erfüllen.
 
 [[ef_brawler_opportunist]]
 === Opportunist
-Ist der Ringer mit einem Gegner im Nahkampf xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] und hat er in der aktuellen Kampfphase seine Aktion verwendet, um einen unbewaffneten Angriff durchzuführen, kann er ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen, um einen weiteren unbewaffneten Angriff gegen den gleichen Gegner zu führen.
-Diese Eigenschaft darf einmal pro Kampfphase angewendet werden.
+Ist der Ringer mit einem Gegner im Nahkampf xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] und hat er in der aktuellen Kampfphase seine Aktion verwendet, um einen unbewaffneten Angriff durchzuführen, kann er einen weiteren unbewaffneten Angriff gegen den gleichen Gegner ausführen ohne den weiteren Einsatz einer Aktion.
+
+Er erleidet pro Einsatz dieser Fähigkeit 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
+Die Fähigkeit kann nur einmal pro Kampfphase eingesetzt werden.
 
 [[ref_brawler_versatile_fightingstyle]]
 === Vielseitiger Kampfstil

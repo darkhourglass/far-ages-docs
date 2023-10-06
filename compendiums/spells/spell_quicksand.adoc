@@ -12,7 +12,7 @@
 *Effekt:* Du zielst auf eine Fläche aus natürliche Erde oder Stein im Wirkungsbereich und machst eine Geste mit Deinen Fingern, als würdest Du etwas herunterziehen.
 
 Im Wirkungsbereich verwandelt sich die Oberfläche in ein gefährliches Gemisch aus Sand und Wasser.
-Jede Kreatur im Wirkungsbereich muss zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ST[ST-Rettungswurf] bestehen.
+Jede Kreatur im Wirkungsbereich muss zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ST[ST-Rettungswurf] bestehen.
 Bei einem Misserfolg sinkt sie etwas in den Treibsand hinein.
 
 Solange sich eine Kreatur im Wirkungsbereich aufhält, erhält sie pro misslungenen ST-Rettungswurf einen Malus von -1,50 Meter auf ihre xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].

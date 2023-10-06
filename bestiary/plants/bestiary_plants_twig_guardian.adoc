@@ -13,7 +13,7 @@ Lore
 
 [NOTE]
 Dieses Profil beschreibt einen Zweigwächter der GK 5.
-Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twig_guardian_size,Kapitel>>.
+Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_bestiary_rules_twig_guardian_size,Kapitel>>.
 
 *ST:* 5 (+2)      *GE:* 2 (+1)    *KO:* 6 (+2) +
 *ER:* 3 (+1)      *EN:* 2 (+1)    *SB:* 3 (+1)    *CH:* 3 (+1) +
@@ -26,8 +26,8 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twi
 *MaxTL:* 75 +
 *MaxPOT:* 5 +
 
+*Aktionen:* 3 +
 *Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 7 +
-
 *Resistenzen:* +
 
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
@@ -46,9 +46,9 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twi
 
 == Offensiv
 
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] (Wucht, 2)
-* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] (8, 2W8+5)
-* link:../skills/bestiary_skill_attack_trample.adoc[Zertreten] (7, 2W6+5)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Wucht, 2)
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 8 (2W8+5)
+* link:../skills/bestiary_skill_attack_trample.adoc[Zertreten] 7 (2W6+5)
 
 == Defensive
 
@@ -60,136 +60,136 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_rules_twi
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 6 (+1)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8 (+1)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8 (+1)
-* <<ref_rules_twig_guardian_camouflage,Tarnung>>
+* <<ref_bestiary_rules_twig_guardian_camouflage,Tarnung>>
 * link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 
 == Regeln
 
-[[ref_rules_twig_guardian_creation]]
+[[ref_bestiary_rules_twig_guardian_creation]]
 === Erschaffung
 Zweigwächter sind magische Kreaturen, die üblicherweise durch den Ritus link:../../compendiums/spells/spell_twig_guardian.adoc[Zweigwächter] erschaffen werden.
 
-Jeder Zweigwächter hat die Form eines von seinem Erschaffer gewählten link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiers] einer <<ref_rules_twig_guardian_size,Größe>> von 1 bis 10.
+Jeder Zweigwächter hat die Form eines von seinem Erschaffer gewählten link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiers] einer <<ref_bestiary_rules_twig_guardian_size,Größe>> von 1 bis 10.
 Dabei muss die eigentliche Größe des Tiers sich nicht der Größe des Zweigwächters widerspiegeln.
 Ein Zweigwächter kann die Form eines Eichhörnchens der GK 10 haben, wenn der Erschaffer es wünscht.
 
 Der Zweigwächter besitzt die Fähigkeit link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar], um allen Einflüssen zu widerstehen, die seine Aufgaben beeinflussen.
 Nur sein Erschaffer kann dem Zweigwächter Befehle erteilen.
-Der Zweigwächter kennt nur die Fähigkeiten und Talente, die er nach diesem <<ref_rules_twig_guardian_size,Kapitel>> lernen kann.
+Der Zweigwächter kennt nur die Fähigkeiten und Talente, die er nach diesem <<ref_bestiary_rules_twig_guardian_size,Kapitel>> lernen kann.
 Seine Form hat keinen Einfluss.
 Gibt sein Erschaffer ihm beispielsweise eine Form mit Flügeln, kann der Zweigwächter nicht fliegen.
 
 Folgt ein Zweigwächter keinem Ziel oder Befehl seines Erschaffers, zeigt er Verhaltensweisen des Tiers, dessen Form er hat.
 
-[[ref_rules_twig_guardian_size]]
+[[ref_bestiary_rules_twig_guardian_size]]
 === Größe
 
 Jeder Zweigwächter besitzt abhängig von seiner xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] das gleiche Profil.
-Die gewählte <<ref_rules_twig_guardian_creation,Form>> hat dabei keine Auswirkung.
+Die gewählte <<ref_bestiary_rules_twig_guardian_creation,Form>> hat dabei keine Auswirkung.
 In den folgenden Kapiteln werden die einzelnen Abschnitte des Profils erläutert, um einen Zweigwächter der gewünschten GK zu erschaffen.
 Das Profil in diesem Kapitel beschreibt einen Zweigwächter der GK 5.
 
-[[ref_rules_twig_guardian_size_attributes]]
+[[ref_bestiary_rules_twig_guardian_size_attributes]]
 ==== Attribute
 
-Aufgrund seiner Größe besitzt ein Zweigwächter folgende Attributsstufen.
+Aufgrund seiner Größe besitzt ein Zweigwächter folgende Attributsstufen (Attributsbonus in Klammern angegeben).
 
 |===
 |GK |ST |GE |KO |ER |EN |SB |CH
 
 |1
-|1
-|2
-|2
-|3
-|2
-|3
-|3
+|1 (+1)
+|2 (+1)
+|2 (+1)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |2
-|2
-|2
-|3
-|3
-|2
-|3
-|3
+|2 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |3
-|3
-|2
+|3 (+1)
+|2 (+1)
+|4 (+1)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
+
 |4
-|3
-|2
-|3
-|3
-
-|4
-|4
-|2
-|5
-|3
-|2
-|3
-|3
+|4 (+2)
+|2 (+1)
+|5 (+2)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |5
-|5
-|2
-|6
-|3
-|2
-|3
-|3
+|5 (+2)
+|2 (+1)
+|6 (+2)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |6
-|6
-|2
-|7
-|3
-|2
-|3
-|3
+|6 (+2)
+|2 (+1)
+|7 (+3)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |7
-|7
-|2
-|8
-|3
-|2
-|3
-|3
+|7 (+3)
+|2 (+1)
+|8 (+3)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |8
-|8
-|2
-|9
-|3
-|2
-|3
-|3
+|8 (+3)
+|2 (+1)
+|9 (+3)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |9
-|9
-|2
-|10
-|3
-|2
-|3
-|3
+|9 (+3)
+|2 (+1)
+|10 (+4)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 
 |10
-|10
-|2
-|11
-|3
-|2
-|3
-|3
+|10 (+4)
+|2 (+1)
+|11 (+4)
+|3 (+1)
+|2 (+1)
+|3 (+1)
+|3 (+1)
 |===
 
-[[ref_rules_twig_guardian_size_pools]]
+[[ref_bestiary_rules_twig_guardian_size_pools]]
 ==== Punkte-Pools
 
 Der Zweigwächter besitzt aufgrund seiner Größe folgende Punkte-Pools.
@@ -248,9 +248,10 @@ Der Zweigwächter besitzt aufgrund seiner Größe folgende Punkte-Pools.
 |30
 |===
 
-[[ref_rules_twig_guardian_size_secondary_attributes]]
+[[ref_bestiary_rules_twig_guardian_size_secondary_attributes]]
 ==== Attributseigenschaften
 
+Aufgrund seiner GK erhält ein Zweigwächter die folgenden Attributseigenschaften.
 
 |===
 |GK |WID |BEW |INI |MaxTL |MaxPOT
@@ -326,7 +327,7 @@ Der Zweigwächter besitzt aufgrund seiner Größe folgende Punkte-Pools.
 |5
 |===
 
-[[ref_rules_twig_guardian_size_talents]]
+[[ref_bestiary_rules_twig_guardian_size_talents]]
 ==== Talente
 
 Ein Zweigwächter erhält immer folgende Talente und Talentstufen:
@@ -341,7 +342,7 @@ Ein Zweigwächter erhält immer folgende Talente und Talentstufen:
 
 Ein Zweigwächter erhält immer folgende Fähigkeiten:
 
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] (Wucht, 2)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Wucht, 2)
 * link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung]: 5 + 1/2 GK des Zweigwächters (abgerundet, minimal 1)
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
@@ -349,7 +350,7 @@ Ein Zweigwächter erhält immer folgende Fähigkeiten:
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 
 Außerdem erhält der Zweigwächter die Fähigkeiten link:../skills/bestiary_skill_attack_slam.adoc[Wucht] und link:../skills/bestiary_skill_attack_trample.adoc[Zertreten].
-Deren Angriffsstufen und Schadenswürfel hängen wiederum von seiner <<ref_rules_twig_guardian_size,Größe>> ab und kann aus der folgenden Tabelle entnommen werden.
+Deren Angriffsstufen und Schadenswürfel hängen wiederum von seiner <<ref_bestiary_rules_twig_guardian_size,Größe>> ab und kann aus der folgenden Tabelle entnommen werden.
 
 |===
 |Größe |Angriffsstufe Wucht |Schadenswürfel Wucht |Angriffsstufe Zertreten |Schadenswürfel Zertreten
@@ -415,7 +416,7 @@ Deren Angriffsstufen und Schadenswürfel hängen wiederum von seiner <<ref_rules
 |4W6+10
 |===
 
-[[ref_rules_twig_guardian_camouflage]]
+[[ref_bestiary_rules_twig_guardian_camouflage]]
 === Tarnung
 Ein Zweigwächter sieht auf den ersten Blick wie ein normales Tier aus.
 Nur subtile Hinweise deuten auf seine übernatürliche Art hin.
@@ -423,6 +424,6 @@ Geübte Beobachter können diese erkennen und die wahre Natur des Zweigwächters
 
 Dazu ist eine Probe auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Natur)] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] mit mindestens 6 Erfolgen nötig.
 
-Im Ermessen des SLs kann die Probe einfacher oder schwerer werden, jenachdem, ob die <<ref_rules_twig_guardian_creation,Form>> und <<ref_rules_twig_guardian_size,Größe>> des Zweigwächters mit der eines echten Tiers zusammenpasst.
+Im Ermessen des SLs kann die Probe einfacher oder schwerer werden, jenachdem, ob die <<ref_bestiary_rules_twig_guardian_creation,Form>> und <<ref_bestiary_rules_twig_guardian_size,Größe>> des Zweigwächters mit der eines echten Tiers zusammenpasst.
 
 == Taktik

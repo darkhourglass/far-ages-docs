@@ -38,6 +38,7 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 *MaxTL:* 105 +
 *MaxPOT:* 6 +
 
+*Aktionen:* 3 +
 *Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 +
 *Resistenzen:* - +
 *Immunitäten:* - +
@@ -46,7 +47,7 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 
 * link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9 (1W6+1)
 * link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 (2W10)
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] (Biss, <<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Biss, <<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>)
 
 == Defensive
 
@@ -73,13 +74,13 @@ Die Bestimmung kann zufällig durch 1W6+3 bestimmt werden.
 * Jeder Kopf bietet der Hydra 20 Punkt auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool], der minimal 110 TP beträgt (90 plus 1 Kopf).
 Dabei handelt es sich nicht um xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_temporary[temporäre] Punkte.
 * Eine Hydra ohne Köpfe, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt] sofort, unabhängig von ihren verbliebenen TP.
-* Solange die Hydra mehr als einen Kopf besitzt, kann sie ihre Fähigkeit link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Angriff] verwenden.
+* Solange die Hydra mehr als einen Kopf besitzt, kann sie ihre Fähigkeit link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] verwenden.
 Die Anzahl der Attacken entspricht der Anzahl ihrer Köpfe.
-* Solange die Hydra mehr als einen Kopf besitzt, kann sie pro eigener xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] eine zusätzliche xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_dogde[Reaktion] einsetzen, um einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] durchzuführen.
+* Solange die Hydra mehr als einen Kopf besitzt, kann sie pro eigener xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] eine zusätzliche xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_dogde[Reaktion] einsetzen, um einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] durchzuführen.
 * Die Hydra erhält pro Kopf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_SB[SB-] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_CH[CH-Rettungswürfe].
-* Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attack_aimedattack[gezielten Attacke] auf einen der Köpfe, kann ein Angreifer versuchen, diesen abzuschlagen.
+* Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielten Attacke] auf einen der Köpfe, kann ein Angreifer versuchen, diesen abzuschlagen.
 Dazu muss der Angreifer bei einem erfolgreichen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] mindestens 20 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] verursachen (die Anzahl entspricht sowohl der WID der Hydra wie auch den TPs eines Kopfes).
-* Zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] darf die Hydra, falls sie mindestens noch 1 Kopf hat, mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] 1 Kopf sofort regenerieren, bis zum oben genannten Maximum von 12 Köpfen.
+* Zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] darf die Hydra, falls sie mindestens noch 1 Kopf hat, mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] 1 Kopf sofort regenerieren, bis zum oben genannten Maximum von 12 Köpfen.
 Ein regenerierter Kopf verschafft der Hydra 20 TP.
 * Die Hydra kann einen zuvor abgeschlagenen Kopf mit gleich 2 Köpfen auf einmal regenerieren.
 * Ein Kopf, der durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] verloren wurde, kann erst nach Ablauf von 24 Stunden regeneriert werden.

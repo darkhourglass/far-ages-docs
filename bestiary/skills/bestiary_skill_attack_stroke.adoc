@@ -1,0 +1,11 @@
+= Hieb (Angriffsstufe, Schaden)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, ST +
+*CP:* tba +
+
+Die Kreatur nutzt eine der ursprünglichsten Angriffsmethoden: ihre Fäuste (oder vergleichbare Extremitäten).
+
+Eine Hieb-Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.

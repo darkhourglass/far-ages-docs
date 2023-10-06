@@ -357,16 +357,13 @@ Er muss dazu den Namen des Zauberspruches, eventuell ein Ziel, falls dies geford
 
 Ist die Dauer der Vorbereitung beispielsweise 3, dann gilt die Kampfphase, in der der Zauber angekündigt wurde, bereits als erste Kampfphase des Vorbereitens.
 
-In jeder darauffolgenden Kampfphase muss der Zauberer diese xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Aktion] (oder xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions_concentrated_spell_preparation[konzentrierte Vorbereitung]) verwenden, um die Vorbereitung zusammenhängend fortzuführen.
+In jeder darauffolgenden Kampfphase muss der Zauberer diese xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Aktion] verwenden, um die Vorbereitung zusammenhängend fortzuführen.
 Der Magier kann im Allgemeinen die Vorbereitung nicht pausieren, siehe dazu auch die nachfolgenden Kapitel zu <<ref_core_magic_rules_spellcasting_spellburning,Verbrennen>> und <<ref_core_magic_rules_spellcasting_cancelspell,Abbrechen von Zaubersprüchen>>.
 Es gilt, dass in der letzten Kampfphase des Vorbereitens der Zauberspruch fertig ist, und in auch dieser Kampfphase <<ref_core_magic_rules_spellcasting_roll,ausgesprochen>> werden kann.
 Das Vorbereiten selbst benötigt keine Probe.
 
 Nutzt der Zauberer die Aktion xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereiten], so reduziert sich die Vorbereitungszeit um 1 Kampfphase.
-Es ist im Rahmen der Regeln möglich xref:core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver], xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktionen] einzusetzen.
-
-Alternativ kann ein Zauberer auch die xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions_concentrated_spell_preparation[konzentrierte Vorbereitung] nutzen.
-In diesem Fall reduziert sich die Vorbereitungszeit des Zauberspruches um 2 Kampfphasen.
+Es ist im Rahmen der Regeln möglich xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktionen] einzusetzen.
 
 [[ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing]]
 ==== Zusätzliche Effekte, Verkürzen und MP
@@ -1261,7 +1258,7 @@ Für jeden Zauberspruch mit dem speziellen <<ref_core_magic_rules_spellcasting_s
 * Das Ergebnis des Rituals ist ein beispielsweise geschnitztes und verziertes Stück Holz, dass der Schamane wie eine passende sekundäre Waffe für seine xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] tragen kann.
 * Die Materialen, aus denen der Totem gefertigt wird, gelten als <<ref_core_magic_rules_spellcasting_components_ingredients,Zutat>>.
 * Der magische Effekt des Totems tritt erst dann ein, wenn der Totem von dem Schamanen in den Boden gerammt wird.
-Dies gilt als entsprechende xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions_useitem[Aktion].
+Dies gilt als entsprechende xref:core_rules_battlesystem.adoc#ref_core_battle_actions_useitem[Aktion].
 * Ab diesem Moment tritt der Effekt für die definierte <<ref_core_magic_rules_spellcasting_spellspecifics_duration,Dauer>> ein.
 * Nach Ablauf der Dauer zerfällt der Totem zu Staub und kann nicht wieder genutzt werden.
 * Ebenso, wenn der Totem mehr als 5 Punkte Schaden aus beliebigen Quellen nimmt, wird er zerstört und der Effekt endet sofort.

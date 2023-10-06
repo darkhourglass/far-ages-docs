@@ -13,7 +13,7 @@
 *Beschreibung:* Diese außergewöhnliche Bewaffnung bietet die Symbiose aus elementarer Magie und schwerer Bewaffnung.
 Sie bietet dem Golem eine flexible Waffe, die sowohl im Nahkampf gefährlich ist wie auch im Fernkampf.
 
-Mit seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] darf der Golem in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase] einen der folgenden Angriffe durchführen:
+Mit seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] darf der Golem in seiner xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] einen der folgenden Angriffe durchführen:
 
 * Für den Einsatz von 5 MP kann der Golem die elementare Lanze wie eine reguläre link:golems_part_weaponary_lance.adoc[Lanze] verwenden.
 Als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] und xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[Schadensart] gelten die Angaben aus dieser Beschreibung.

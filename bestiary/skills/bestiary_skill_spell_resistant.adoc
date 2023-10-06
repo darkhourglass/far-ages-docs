@@ -1,0 +1,12 @@
+= Zauber-Resistent
+
+*Voraussetzungen:* - +
+*Typ:* - +
+*CP:* tba +
+
+Die Kreatur erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] bei allen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Rettungswürfen] von Zaubersprüchen, unabhängig vom Attribut und Zauberspruch.
+
+Diese Fähigkeit gilt allerdings nicht für xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe], die im Rahmen eines xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_effect[Effekts] eines Zauberspruches gewürfelt werden, beispielsweise bei einem link:../../compendiums/spells/spell_fireball.adoc[Feuerball], um den erlittenen Schaden zu halbieren.
+
+== Legendär
+Die legendäre Variante dieser Fähigkeit erlaubt den Vorteil für Rettungswürfe, die im Rahmen eines Effekts von einem Zauberspruch gewürfelt werden.

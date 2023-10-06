@@ -346,6 +346,11 @@ Ein Charakter mit einer KO-Stufe von 4 hat nach der Übersichtstabelle eine WID 
 |+1 pro Stufe
 |===
 
+[NOTE]
+Um den Wert WID für eine beliebige Stufe in KO zu berechnen, kann die Formel *8 + (KO-1)*2* benutzt werden.
+Der Faktor KO-1 kann niemals kleiner als 0 sein.
+Die WID von 14 für eine Stufe 4 aus dem vorherigen Beispiel erreichnet sich also wie folgt: 8+(3-1)*2=8+6=14
+
 [[ref_core_characters_charactercreation_initialtalents]]
 === Initiale Talentstufen
 Anders als Attribute starten alle xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufen] immer auf 0.
@@ -802,6 +807,15 @@ Die Differenzierung erfolgt grob daran, dass ein Volk wie Halb-Elfen neben link:
 [[ref_core_character_advanced_rules_paragon_paths]]
 === Schicksalspfade
 *Schicksalspfade* schließen die Lücke zwischen der initialen Charakterdarstellung aus der Kombination <<ref_core_characters_charactercreation_race,Volk>>, <<ref_core_characters_charactercreation_profession,Beruf>> und <<ref_core_characters_charactercreation_backround,Hintergrund>> mit dem erfahrenen Abenteurer, der durch seine Taten über dieses hinausgewachsen ist.
+Unter dem Begriff des Schicksalspfades versammeln sich weitere Varianten, die das _Schicksal_ eines Charakters darstellen können:
+
+* <<ref_core_character_advanced_rules_paragon_paths_mastery,*Meisterschaften*>> sind herausragende Ausprägungen eines <<ref_core_characters_charactercreation_profession,Berufs>>.
+Intensives Training, Spezialisierung und jahrelange Erfahrung lässt einen Charakter eine Meisterschaft ergreifen.
+Beispiele für Meisterschaften sind zum Beispiel Erzmagier, Schwertmeister und Dämonenjäger.
+* <<ref_core_character_advanced_rules_paragon_paths_exemplars,*Exemplars*>> sind besondere Vertreter eines <<ref_core_characters_charactercreation_race,Volks>> und verkörpern die besten Eigenschaften, die mit diesem Volk assoziiert sind.
+Ein Exemplar der Elfen könnte beispielsweise die bereits scharfen Sinne seines Volks noch weiter verstärken, ein Exemplar der Zwerge hingegen die natürliche Robustheit.
+* Charaktere folgen <<ref_core_character_advanced_rules_paragon_paths_mythic_paths,mystischen*>> Pfaden üblicherweise aufgrund der erhaltenen Gunst einer übernatürlichen Quelle.
+Beispielsweise könnte ein Charakter einem mächtigen Progenitor wie Allschwinge gefällig sein und erhält dadurch Fähigkeit, von denen kein Sterblicher zu träumen wagt.
 
 Im Gegensatz zu <<ref_core_character_advanced_rules_halfbloods,Halb-Bluten>> oder <<ref_core_character_advanced_rules_bloodlines,Blutlinien>> werden Schicksalspfade nicht bei der Charaktererschaffung ausgewählt (außer der SL erlaubt dies sehr explizit).
 Stattdessen muss der Charakter die angegebenen Voraussetzungen erfüllen.
@@ -823,7 +837,7 @@ Ist dies der Fall, kann der Charakter nur entsprechend viele Stufen in diesem Sc
 //TODO
 .Schicksalspfade
 ====
-Me'ander möchte nach einem langen und intensivem Studium der Magie den Schicksalspfad des Erzmagiers beschreiten.
+Me'ander möchte nach einem langen und intensivem Studium der Magie die Meisterschaft des Erzmagiers beschreiten.
 Dazu prüft sein Spieler die Voraussetzungen dieses Schicksals.
 Es ist X, Y und Z.
 Me'ander erfüllt diese Anforderungen womit für den Einsatz X CP Me'ander zum Erzmagier wird. +
@@ -838,24 +852,32 @@ Er muss daher 5*200 = 1000 CP ausgeben.
 Die komplette Liste der Schicksalspfade finde sich hier:
 link:../advanced/advanced_rules_index_paragon_paths.adoc[Schicksalspfade].
 
-[NOTE]
-Schicksalspfade sind mit der Bestrebung erstellt, auf dem <<ref_core_characters_charactercreation_profession,Beruf>> eines Charakters heraus eine Bestimmung abzuleiten.
-Ergänzend dazu dienen <<ref_core_character_advanced_rules_exemplars,Exemplars>>, um dies für ein <<ref_core_characters_charactercreation_race,Volk>> darzustellen.
+[[ref_core_character_advanced_rules_paragon_paths_mastery]]
+==== Meisterschaft
+*Meisterschaften* können als Erweiterungen und Spezialisierungen von <<ref_core_characters_charactercreation_profession,Berufen>> verstanden werden, auch wenn normalerweise eine Meisterschaft nicht eine strenge, an einen Beruf gekoppelte, Voraussetzung enthält.
+So kann beispielsweise der link:../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_masterarcher.adoc[Meisterschütze] von allen gelernt werden, die in ihr Training im Fernkampf und dessen Beherrschung intensivieren wollen.
+Ob sie nun originär Kämpfer, Schurken, Jäger oder Barden sind, ist dabei unerheblich.
 
-==== Optional: Anzahl der Schicksalspfade
-Die Anzahl der Schicksalspfade ist im System von Far Ages durch die Regeln nicht auf einen Schicksalspfad pro Charakter beschränkt.
-Der SL kann natürlich beliebig Beschränkungen einführen.
-
-[[ref_core_character_advanced_rules_exemplars]]
-=== Exemplars
-Wie ein <<ref_core_character_advanced_rules_paragon_paths,Schicksalspfad>> stellen *Exemplars* eine weiterführende Entwicklung eines Charakters nach seiner <<ref_core_characters_charactercreation,Erschaffung>> und im weiteren Verlauf des Abenteuerlebens dar.
+[[ref_core_character_advanced_rules_paragon_paths_exemplars]]
+==== Exemplars
+*Exemplars* stellen eine weiterführende Entwicklung eines Charakters nach seiner <<ref_core_characters_charactercreation,Erschaffung>> und im weiteren Verlauf des Abenteuerlebens dar.
 Allerdings beziehen sich Exemplars auf das <<ref_core_characters_charactercreation_race,Volk>> eines Charakters.
 
-Analog zu Schicksalspfaden sind Exemplar in Stufen eingeteilt und ein Charakter muss zunächste Stufe 1 lernen und die angegebenen CP ausgeben.
-Jede weitere Stufe kostet *200 CP* multipliziert mit der Ziel-Stufe.
+Üblicherweise ist die Möglichkeit einen Schicksalspfad dieser Art zu lernen durch das eigene Volk vorgegeben.
 
-Pro Stufe kann der Charakter aus der je Exemplar angegebenen Liste von Fähigkeiten eine dieser auswählen und lernt diese sofort.
-Sofern nicht anders angegeben, kann jede Fähigkeit nur einmal gelernt werden.
+[[ref_core_character_advanced_rules_paragon_paths_mythic_paths]]
+==== Mystische Pfade
+*Mystische Pfade* sind nur wenigen Auserwählten vorbehalten, die aus einer übernatürlichen Quelle ungeahnte Macht ziehen können.
+Üblicherweise ist dazu das Wohlwollen einer besonders mächtigen Kreatur nötig, beispielsweise einer der geheimnisvollen Progenitoren, einer der finstigen Dämonenfürsten oder eine andere, übernatürliche Wesenheit.
+Der mystische Pfad stellt dar, dass ein Charakter einen Teil der Macht erhält, oft mit dem Ziel über die eigene Sterblichkeit hinauszuwachsen.
 
-Im Gegensatz zu Schicksalspfaden kann ein Charakter immer nur genau einen Exemplar-Pfad lernen.
-Die Kombination aus Schicksalpfaden und Exemplars ist möglich.
+Das Erlernen eines mystischen Pfads ist normalerweise an eine besondere Tat gebunden, ebenso wie das Steigern weiterer Stufen.
+Nur der Gefallen einer der genannten Mächte kann das Vorankommen in einem mystischen Pfad garantieren.
+
+[[ref_core_character_advanced_rules_paragon_paths_limits]]
+==== Optional: Limitierte Anzahl der Schicksalspfade
+Die Anzahl der Schicksalspfade ist im System von Far Ages durch die Regeln nicht auf einen Schicksalspfad pro Charakter beschränkt.
+Es ist durchaus möglich, dass bestimmte Pfade, insbesondere Exemplars, implizite Beschränkungen haben, so dass man nur einen Pfad dieser Art lernen kann.
+Dennoch ist es im Allgemeinen möglich, beliebige Kombinationen aus Schicksalspfaden zu lernen, solange ein Charakter die Voraussetzungen erfüllt.
+
+Der SL kann natürlich beliebig Beschränkungen einführen.

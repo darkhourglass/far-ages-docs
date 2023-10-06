@@ -1,0 +1,12 @@
+= Levitation (Bewegungsrate)
+
+*Voraussetzungen:* - +
+*Typ:* Bewegungsmanöver +
+*CP:* tba +
+
+Manche Kreaturen verwenden nicht Flügel, um zu fliegen, sondern generieren einen einzigartigen, magischen Effekt, genannt Levitation, der sie durch die Luft gleiten lässt.
+
+Die angegebene *Bewegungsrate* gilt als Bewegung durch die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_airattack[Luft].
+Die Kreatur ignoriert xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände].
+
+Darüber hinaus kann sie die Bewegungsrate in exakt vertikaler Bewegung ohne Einschränkung verwenden, sowie zu Beginn oder zum Ende ihrer Kampfphase an einem beliebigen Punkt verweilen, ohne den Boden oder eine vergleichbare Oberfläche zum Landen zu verwenden.

@@ -1,6 +1,6 @@
 = Todesschatten
 
-* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6)
 * link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos]
 * *GK:* 5
 * *CP:* TBA
@@ -22,6 +22,7 @@ Lore
 *MaxTL:* - +
 *MaxPOT:* 10 +
 
+*Aktionen:* 3 +
 *Rüstung:* - +
 *Resistenzen:*
 

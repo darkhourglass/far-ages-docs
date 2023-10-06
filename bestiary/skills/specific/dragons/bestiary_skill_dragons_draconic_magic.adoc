@@ -1,0 +1,36 @@
+= Drachenmagie
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] +
+*Machtstufe:* 5 (kumulativ)+
+*Typ:* Drachen, Magisch +
+*CP:* tba +
+*Aktivierung:* Speziell +
+
+Der Drache lernt das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] mit der speziellen xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_of_magic[Zauberschule] _Drachenmagie_.
+Die initiale Talentstufe in Spruchzauberei beträgt 3 und kann danach unabhängig xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_spendcp_talents[gesteigert] werden.
+
+Die Drachenmagie enthält eine Reihe von Optionen an Weg der Magie, die Drache lernen kann.
+Lernt der Drache diese Fähigkeit, kann er aus der folgenden Liste bis zu 3 Wege frei wählen:
+
+* link:../../../../compendiums/spelllists/compendium_spelllist_alchemy.adoc[Alchemie]
+* link:../../../../compendiums/spelllists/compendium_spelllist_universal.adoc[Universale Magie]
+* link:../../../../compendiums/spelllists/shadowmagic/compendium_spelllist_illusionism.adoc[Illusionismus]
+* link:../../../../compendiums/spelllists/shadowmagic/compendium_spelllist_wayofmusic.adoc[Weg der Musik]
+* link:../../../../compendiums/spelllists/shadowmagic/compendium_spelllist_wayofshadows.adoc[Weg der Schatten]
+* link:../../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofbody.adoc[Weg des Körpers]
+* link:../../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofspirit.adoc[Weg des Geistes]
+* link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde]
+* link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers]
+* link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft]
+* link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers]
+
+Neue Zaubersprüche muss der Drache nach den normalen Regeln xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_spendcp_spells[lernen].
+
+[NOTE]
+Diese Fähigkeit kann kumulativ gelernt werden.
+Für jede weitere Machtstufe kann der Drache 1 weiteren Weg aus der Liste wählen.
+Eine Änderung in seiner Talentstufe kann dadurch nicht erfolgen.
+
+[[ref_bestiary_skill_dragons_draconic_magic_legendary]]
+== Legendär
+Der Drache kann sein Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen, um Drachenmagie zu wirken.

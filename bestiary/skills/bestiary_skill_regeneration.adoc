@@ -1,0 +1,10 @@
+= Regeneration (TP)
+
+*Voraussetzungen:* - +
+*Typ:* Passiv +
+*CP:* tba +
+
+Kreaturen mit dieser Fähigkeit regenerieren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] besonders schnell.
+Solange die Kreatur nicht xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[tot] ist, erhält sie am Anfang ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] die angegebene Anzahl *TP* zurück, bis zu ihrem Maximum in diesem Pool.
+
+Diese Angabe kann ein fester Wert sein oder auch eine Kombination aus Würfeln.

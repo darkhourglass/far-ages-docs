@@ -21,7 +21,7 @@ Weiterhin kann ein Schleim sich mit einer anderen Kreatur den Platz eines Feldes
 [[ref_primary_creaturetype_ooze_rules_fluid_body_flexible_size]]
 ==== Öffnungen und begrenzter Platz
 Schleime können sich durch die kleinsten Öffnungen quetschen, vorausgesetzt sie haben genug Zeit.
-Pro Punkt Differenz zwischen der eigenen xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] und dem verfügbaren Platz benötigt ein Schleim ein xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver], um sich Stück für Stück durch eine Öffnung zu bewegen.
+Pro Punkt Differenz zwischen der eigenen xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] und dem verfügbaren Platz benötigt ein Schleim einw xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegung], um sich Stück für Stück durch eine Öffnung zu bewegen.
 
 .Schleime in der Enge (1)
 ====
@@ -72,7 +72,7 @@ Beispielsweise kann kein Schleim verspottet werden oder zur Raserei gezwungen we
 === Fähigkeiten
 Alle Schleime erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
-* link:../../../../bestiary/skills/bestiary_skill_blindsense.adoc[Blindsinn] mit einer Reichweite von 30,00 Metern, falls nicht anders angegeben
+* link:../../../../bestiary/skills/bestiary_skill_senses_blindsense.adoc[Blindsinn] mit einer Reichweite von 30,00 Metern, falls nicht anders angegeben
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]

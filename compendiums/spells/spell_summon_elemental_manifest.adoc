@@ -8,19 +8,21 @@
 *Vorbereitung:* 5 +
 *Reichweite:* 3,00 Meter +
 *Anzahl der Ziele:* - +
-*Dauer:* 5 Kampfphasen +
-*Effekt:* Der Magier beschwört mit diesem Zauberspruch ein link:../../bestiary/elementals/bestiary_elementals_manifest.adoc[Elementares Manifest] der gewählten Machtstufe.
-Die Anzahl der Erfolge der Spruchzauberei-Probe hängt von dieser Machtstufe ab.
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Der Magier beschwört mit diesem Zauberspruch ein link:../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc[Elementares Manifest] der gewählten Machtstufe.
+Zu Beginn der Vorbereitung muss der Magier die gewünschte xref:../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc#ref_bestiary_elemental_rules_summoning_powerlevel[Machtstufe] festlegen.
+Diese ist ein Wert zwischen 1 und 10.
 
-Das Elementar erscheint innerhalb von 3,00 Metern.
-Es bleibt 10 Kampfphasen lang auf dieser Ebene und verschwindet dann von selbst.
-Das Elementar gehorcht den Befehlen des Magiers.
-Der Magier kann das Elementar auch vor Ablauf dieser Zeit ohne Probe einfach wegschicken.
-
-Das angegebene Element bestimmt, welche Typen von Manifesten der Magier beschwören kann.
-Welche Elemente zur Verfügung stehen hängt von der Zauberspruchliste ab, in der dieser Zauberspruch gelernt wird.
+Das angegebene *Element* bestimmt, welche xref:../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc#ref_bestiary_elemental_rules_summoning_element[Typen von Manifesten] der Magier beschwören kann.
+Diese Aufwahl hängt von der Zauberspruchliste ab, in der dieser Zauberspruch gelernt wird.
 Ein Magier, der diesen Zauberspruch aus dem link:../spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers] lernt, kann nur Feuer-Elementare beschwören.
 Um andere Typen zu beschwören, muss der Magier diesen Zauberspruch mehrfach lernen.
-Lernt der Magier den Zauberspruch aus einer Liste, die mehrere Typen erlaubt, kann der Magier sich den Typ des Manifests zu Beginn der Vorbereitung aussuchen. +
+Lernt der Magier den Zauberspruch aus einer Liste, die mehrere Typen erlaubt, kann der Magier sich den Typ des Manifests zu Beginn der Vorbereitung aussuchen.
+
+Das Elementar erscheint innerhalb von 3,00 Metern.
+Es bleibt für eine Dauer von 10 Kampfphasen auf dieser Ebene und verschwindet dann von selbst.
+Das Elementar gehorcht in dieser Zeit den Befehlen des Magiers.
+Der Magier kann das Elementar auch vor Ablauf dieser Zeit als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] einfach wegschicken.
+
 *Zusätzliche Effekte:* +
 +2 MP: Dauer +1 Kampfphase +

@@ -2,3 +2,16 @@
 
 [[ref_secondary_creaturetype_magical_rules]]
 == Regeln
+Magische Kreaturen folgen den gleichen Regeln wie link:creaturetype_secondary_living.adoc[lebende] Kreaturen mit den im Folgenden beschriebenen Ausnahmen:
+
+[[ref_secondary_creaturetype_magical_rules_magical_nature]]
+=== Magische Natur
+Magische Kreaturen gelten auch ohne den Besitz des sekundären Kreaturentyps als link:creaturetype_secondary_living.adoc[lebende] Kreaturen, auch wenn es um die Bestimmung von xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Zielen] von Zaubersprüchen geht.
+Die gilt allerdings nur, wenn der Zauberspruch den primären Kreaturentyp explizit vorschreibt und dieser mit dem der Kreatur übereinstimmt.
+
+[[ref_secondary_creaturetype_magical_rules_skills]]
+=== Fähigkeiten
+Alle magischen Kreaturen erhalten folgenden folgende Fähigkeiten, sobald sie diesen sekundären Kreaturentyp erhalten:
+
+* link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+* link:../../../../bestiary/skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]

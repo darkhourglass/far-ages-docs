@@ -1,0 +1,28 @@
+= Hohe Drachenmagie
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache], link:bestiary_skill_dragons_draconic_magic.adoc[Drachenmagie] +
+*Machtstufe:* 7 (kumulativ)+
+*Typ:* Drachen, Magisch +
+*CP:* tba +
+*Aktivierung:* Speziell +
+
+Diese Fähigkeit erweitert die voraussetzende Fähigkeit link:bestiary_skill_dragons_draconic_magic.adoc[Drachenmagie].
+Der Drache kann mit Erlernen der hohen Drachenmagie aus der folgenden Liste von Wegen der Magie eine auswählen und mit seinem xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Talent] aussprechen:
+
+* link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofmovement.adoc[Weg der Bewegung]
+* link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofhardness.adoc[Weg der Härte]
+* link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofsilence.adoc[Weg der Stille]
+* link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofgrowth.adoc[Weg des Wachstums]
+* link:../../../../compendiums/spelllists/highmagic/compendium_spelllist_wayofconjuration.adoc[Weg der Beschwörung]
+* link:../../../../compendiums/spelllists/highmagic/compendium_spelllist_wayofevokation.adoc[Weg der Hervorrufung]
+* link:../../../../compendiums/spelllists/highmagic/compendium_spelllist_wayofrevelation.adoc[Weg der Offenbarung]
+* link:../../../../compendiums/spelllists/highmagic/compendium_spelllist_wayoftransmutation.adoc[Weg der Verwandlung]
+* link:../../../../compendiums/spelllists/outermagic/compendium_spelllist_necromancy.adoc[Nekromantie]
+* link:../../../../compendiums/spelllists/compendium_spelllist_runes.adoc[Weg der Runen]
+
+Auch in diesem Fall muss der Drache neue Zaubersprüche xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_spendcp_spells[lernen].
+
+[NOTE]
+Diese Fähigkeit kann kumulativ gelernt werden.
+Für jede weitere Machtstufe kann der Drache 1 weiteren Weg aus der Liste wählen.
+Eine Änderung in seiner Talentstufe kann dadurch nicht erfolgen.

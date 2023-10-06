@@ -1,0 +1,65 @@
+= Ursprünglicher Zauberer
+
+*Voraussetzungen:* Primärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementat] +
+*Typ:* Elementar, Arkanes +
+*CP:* tba +
+
+Elementare mit dieser Fähigkeit beherrschen Zaubersprüche der xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_elementarism[Zauberschule Elementarismus].
+Sie folgen dabei den normalen Regeln für das Aussprechen von xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Zaubersprüchen], sie müssen ihre Zaubersprüche somit zum Beispiel vorbereiten, sie können zusätzliche Effekte nutzen und erleiden Verbrennen.
+
+Die xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] wird ersetzt durch ihre xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] und ihren xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] in xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN].
+
+.Natürlicher Zauberer
+====
+Ein Elementar mit einer Machtstufe von 7 und einem EN-Attribut von 6 (+2) würfelt seine Spruchzauberei-Probe mit einem Bonus von ingesamt 7+2=9.
+====
+
+Das Elementar hat abhängig von seiner xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_elemental_fixation[elementaren Fixierung] Zugriff auf unterschiedliche Zauberspruchlisten:
+
+|===
+|Elementare Fixierung |Primärer Weg |Sekundäre Wege
+
+|Erde
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde]
+|-
+
+|Feuer
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers]
+|-
+
+|Luft
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft]
+|-
+
+|Wasser
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers]
+|-
+
+|Bewegung
+|link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofmovement.adoc[Weg der Bewegung]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers], link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft]
+
+|Härte
+|link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofhardness.adoc[Weg der Härte]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde], link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayoffire.adoc[Weg des Feuers]
+
+|Stille
+|link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofsilence.adoc[Weg der Stille]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofair.adoc[Weg der Luft], link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers]
+
+|Wachstum
+|link:../../../../compendiums/spelllists/elementarism/aspectelementarism/compendium_spelllist_wayofgrowth.adoc[Weg des Wachstums]
+|link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofearth.adoc[Weg der Erde],link:../../../../compendiums/spelllists/elementarism/compendium_spelllist_wayofwater.adoc[Weg des Wassers]
+|===
+
+Jedes Elementar hat aufgrund seiner xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] Zugriff auf Zaubersprüche der entsprechenden Stufe.
+Für seinen primären Weg entspricht seine Machtstufe der Stufe an verfügbaren Zaubersprüche (maximal jedoch 10), für seine sekundären Wege (so fern vorhanden), gilt seine halbierte Machtstufe (halbiert, minimal 1).
+
+.Natürlicher Zauberer
+====
+Das Elementar aus dem vorherigen Beispiel hat als elementare Fixierung Stille.
+Damit kann es Zaubersprüche aus dem Weg der Stille bis Stufe 7 aussprechen, aus den sekundären Wegen Luft und Wasser jeweils bis Stufe 3.
+====
+
+Sofern nicht anders angegeben, stehen dem Elementar alle Zaubersprüche außer xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret[arkane Geheimnisse] zur Verfügung.
+Die Zaubersprüche müssen nicht extra gelernt werden.

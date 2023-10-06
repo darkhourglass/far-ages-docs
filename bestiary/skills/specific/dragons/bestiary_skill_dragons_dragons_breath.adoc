@@ -1,0 +1,70 @@
+= Drachenodem (Angriffsstufe, Schaden, Schadensart, Reichweite)
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] +
+*Machtstufe:* 2 (kumulativ) +
+*Typ:* Drache, Odem +
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
+
+Eine der ikonischen Fähigkeiten der Drachen ist ihr gefürchteter, feuriger Atem.
+Der Drache erhält eine einzigartige Variante der Fähigkeit link:../../bestiary_skill_attack_odem.adoc[Odem].
+Der Einsatz der Fähigkeit und die Beschreibung der Parameter *Angriffsstufe*, *Schaden*, *Schadensart* und *Reichweite* entsprechen denen des Odems.
+
+Diese Parameter sind von der xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel[Machtstufe] und xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Drachen abhängig.
+Es zählt dabei die Machtstufe, mit der diese Fähigkeit gelernt wurde, siehe dazu das gesonderte xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills[Kapitel].
+
+Mit dem initialen Lernen und eventuell anderen Machtstufen im späteren Verlauf können die Parameter aus den nachfolgenden Formeln und Tabellen abgelesen werden:
+
+* *Angriffsstufe:* Machtstufe plus Attributsbonus EN oder xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] (höherer Wert kann genommen werden)
+* *Schaden:* 1W10 pro Machtstufe
+* *Schadensart:* siehe nachfolgende Beschreibung
+* *Reichweite:* siehe nachfolgende Tabelle
+
+|===
+|GK des Drachen |Reichweite (Kegel)
+
+|1-3
+|3,00 Meter
+
+|4-5
+|4,50 Meter
+
+|6
+|6,00 Meter
+
+|7
+|9,00 Meter
+
+|8
+|12,00 Meter
+
+|9
+|18,00 Meter
+
+|10
+|24,00 Meter
+|===
+
+Die *Schadensart* ist, falls nicht durch den SL anders entschieden, xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer].
+Im Ermessen des SLs können jedoch andere Schadensarten gewählt werden, je nach initaler Machtstufe mit der diese Fähigkeit gelernt wird.
+Eine einmal gewählte Schadensart kann nicht mehr geändert werden.
+
+|===
+|Machtstufe (Minimum) |Mögliche Schadensarten
+
+|2
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+
+|3-5
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure], xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]
+
+|6-8
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock], xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_magma[Magma]
+
+|9+
+|xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch], xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aetherisch]
+|===
+
+[[ref_bestiary_skill_dragons_dragons_breath_legendary]]
+== Legendär
+Ein link:../../../templates/bestiary_template_legendary.adoc[legendärer] Drache darf diese Fähigkeit auch als xref:../../../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen.

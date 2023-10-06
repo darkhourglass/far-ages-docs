@@ -195,7 +195,7 @@ Grundsätzlich kann, außer es ist durch die <<ref_golemworkshop_creation_steps_
 
 Manche Bewaffnungen sind als *schwer* gekennzeichnet.
 Diese können nur auf <<ref_golemworkshop_creation_steps_chassis_profiles,Chassis>> verbaut werden, die dies explizit erlauben.
-Der Einsatz einer schweren Bewaffnung benötigt immer eine xref:../core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion], erfordert also den Einsatz der xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und des xref:../core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manövers] pro Kampfphase des Golems.
+Der Einsatz einer schweren Bewaffnung benötigt eine xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] im Zug des Golems und kann nur einmal pro Kampfphase eingesetzt werden.
 
 [[ref_golemworkshop_creation_steps_weaponary_profiles]]
 ===== Darstellung der Einträge
@@ -548,7 +548,7 @@ Damit erhält der Golem für dieses Talent einen Bonus von 5+1=6.
 [[ref_golemworkshop_creation_steps_profile_skills]]
 ===== Fähigkeiten
 
-Alle Golems, die nach den Regeln dieses Kapitels erschaffen wurden, erhalten automatisch die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] und damit einen zusätzliche, Machtstufe-abhängigen Bonus auf einige ihrer <<ref_golemworkshop_creation_steps_profile_secondary_attributes,Attributseigenschaften>>.
+Alle Golems, die nach den Regeln dieses Kapitels erschaffen wurden, erhalten automatisch die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skill_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] und damit einen zusätzliche, Machtstufe-abhängigen Bonus auf einige ihrer <<ref_golemworkshop_creation_steps_profile_secondary_attributes,Attributseigenschaften>>.
 
 Golems erhalten außerdem alle xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_skills[Fähigkeiten] auf Basis ihres Kreaturentyps.
 
@@ -840,7 +840,7 @@ Aufgrund der Einzelteile Chassis und Kriegshammer erhält der Golem weitere Boni
 *SB:* 3 (+1) +
 *CH:* 1 (+1) +
 
-Nun können die Attributseigenschaften berechnet werden, wobei die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skills_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] berücksichtigt werden muss.
+Nun können die Attributseigenschaften berechnet werden, wobei die Fähigkeit link:../../bestiary/skills/specific/constructs/bestiary_skill_constructs_machine_supremacy.adoc[Maschinenüberlegenheit] berücksichtigt werden muss.
 
 *WID:* 26 (folgt aus KO + 6 aus Maschinenüberlegenheit)  +
 *BEW:* 12,00 Meter (Basis 9,00 durch GK +3,00 Meter aus Bewegungsoption) +

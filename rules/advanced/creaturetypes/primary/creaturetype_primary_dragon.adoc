@@ -2,6 +2,185 @@
 
 [[ref_primary_creaturetype_dragons_rules]]
 == Regeln
+In diesem Kapitel werden alle Regeln vorgestellt, die Kreaturen innehaben, die diesen Kreaturtyp *Drache* besitzen.
 
 [[ref_primary_creaturetype_dragons_rules_powerlevel]]
 === Machtstufen
+Alle Drachen besitzen eine *Machtstufe*, dargestellt durch eine Zahl von 1 aufwärts.
+Je höher diese Zahl, umso stärker ist der Drache und umso gefährlichere <<ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills,Fähigkeiten>> kann er einsetzen.
+
+Drachen erhalten Machtstufen üblicherweise, wenn sie älter werden.
+Seltener sind obskure Quellen wie arkane Rituale oder der persönliche Segen des Gottdrachen.
+
+[[ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills]]
+==== Drachenfähigkeiten
+Drachen besitzen ein riesiges Arsenal von außergewöhnlichen und manchmal übernatürlichen Fähigkeiten, die sie aufgrund ihrer Machtstufe erhalten können.
+Genauso wie jeder Drache ein Individuum ist, besitzt jeder Drache eine eigene Kombination von Fähigkeiten.
+
+Als Drachenfähigkeiten zählen alle Fähigkeiten, die explizit nur von Kreaturen gelernt werden können, die als Voraussetzung den Kreaturentypen Drache besitzen.
+
+Jede diese Fähigkeiten hat als Voraussetzung außerdem eine Angabe zur minimalen Machtstufe.
+Das heißt, ein Drache muss mindestens diese Machtstufe besitzen, um die Fähigkeit zu erlernen.
+Ein Drache kann allerdings nur eine begrenzte Anzahl von Fähigkeiten insgesamt auf diesem Weg lernen.
+Dazu gilt die einfache Formel, dass die Summe aller minimalen Machtstufen aller Drachenfähigkeiten nicht mehr als 3-mal so hoch sein darf, wie die Machtstufe des Drachen.
+
+.Drachenfähigkeiten
+====
+Ein Drache mit Machtstufe 4 hat eine Kapazität von 3*4=12 Machtstufen für seine Auswahl an Fähigkeiten.
+Er besitzt derzeit F1 mit Machtstufe X, F2 mit Machtstufe Y und F3 mit Machtstufe Z.
+Die Summe ergibt somit X+Y+Z=10.
+Der Drache könnte somit weitere Fähigkeiten lernen, solange deren Summe nicht mehr als 2 ergibt.
+====
+
+Grundsätzlich gibt es, sofern nicht explizit angegeben, keine Einschränkungen, in welcher Kombination ein Drache Fähigkeiten lernen kann.
+Allerdings können bestimmte Einträge im Bestiarium eine feste Auswahl von Fähigkeiten vorgeben.
+
+Weiterhin können die Fähigkeiten mit einer Machtstufe und *kumulativ* markiert sein.
+In diesem Fall muss der Drache die angegebene Machtstufe mindestens erfüllen.
+Die Fähigkeit wird jedoch mit steigender Machtstufe auch stärker.
+Es gilt dabei allerdings immer die eingesetze Machtstufe, nicht die echte Machtstufe des Drachen.
+Dennoch kann der Drache zu einem späteren Zeitpunkt die Fähigkeit mit einer höheren Machtstufe lernen.
+Er muss dazu nur die Differenz zur bereits gelernten Machtstufe und gewünschten Machtstufe lernen.
+Eine spätere Reduktion der investierten Machtstufen ist nicht möglich.
+
+.Drachenfähigkeiten
+====
+Die Fähigkeit link:../../../../bestiary/skills/specific/dragons/bestiary_skill_dragons_dragons_breath.adoc[Drachenodem] hat die Angabe _Machtstufe: 2 (kumulativ)_.
+Lernt ein Drache diese Fähigkeit zuerst mit Machtstufe 4, gelten die Regeln der Fähigkeit für genau diese Stufe.
+Er muss dazu von seinen verfügbaren Machtstufen auch nur 4 einsetzen.
+
+Zu einem späteren Zeitpunkt entscheidet er sich dazu, die Fähigkeit auf Machtstufe 6 zu lernen.
+Die Differenz beträgt 2.
+Insgesamt hat er damit nur 4+2=6 eingesetzt und kann ab jetzt die Fähigkeit mit Machtstufe 6 lernen.
+====
+
+[[ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills_options]]
+===== Zusätzliche Optionen
+
+Die folgenden, allgemeinen Fähigkeiten können als <<ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills,Drachenfähigkeiten>> unter Einsatz der angegebenen Machtstufen und eventuellen Parametern gelernt werden.
+
+
+|===
+|Fähigkeit |Machtstufe |Parameter |Beschreibung
+
+|link:../../../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen]
+|1
+|BEW: 3*BEW des Drachen
+|Auf majestätischen Schwingen beherrschen Drachen die Lüfte.
+
+|link:../../../../bestiary/skills/bestiary_skill_shapeshift.adoc[Gestaltwandel]
+|5
+|Alle link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen mit Kreaturentyp link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] oder link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] mit einer Differenz in xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] von bis zu 4.
+In seiner gewandelten Form kann der Drache alle <<ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills,Drachenfähigkeiten>> nutzen, so als wäre seine Gestalt nicht gewandelt.
+Allerdings muss der Drache eine Form wählen, die Flügel hat, um zu fliegen.
+|Drachen wählen gerne humanoide Formen wie Elfen oder Menschen, um in die verschiedensten Gesellschaften einzuwandern - zu welchem Zweck auch immer.
+
+|link:../../../../bestiary/skills/bestiary_skill_poison.adoc[Gift]
+|3
+|TBA
+|Manche Drachen können ihre Feinde mit ihren Klauen oder Bissen vergiften.
+
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|4
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+|Gifte können dem Drachen nichts mehr anhaben.
+
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|3
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+|-
+
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|5
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+|Drachen erleben in ihrem Leben viel und auf ihren Reisen durch den Weltraum sehen sie Dinge, die außerhalb der sterblichen Vorstellungskraft liegen.
+
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|4
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+|Krankheiten können dem Drachen nichts mehr anhaben.
+
+|link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
+|2
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+|-
+
+|link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
+|1
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+|-
+
+|link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
+|3
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+|-
+
+|link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
+|2
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+|-
+
+|link:../../../../bestiary/skills/bestiary_skill_move_levitation.adoc[Levitation]
+|6
+|BEW: 3*BEW des Drachen
+|Manche Drachen meistern die Fähigkeit der Levitation, um der Gravitation zu entkommen.
+
+|link:../../../../bestiary/skills/bestiary_skill_regeneration.adoc[Regeneration]
+|8
+|5 TP
+|Drachen heilen körperliche Wunden äußerst schnell.
+
+|link:../../../../bestiary/skills/bestiary_skill_senses_perfect_sight.adoc[Perfekte Sicht]
+|8
+|-
+|-
+
+|link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz]
+|4
+|Erde, Feuer, Luft, Wasser
+|Die Fähigkeit kann für unterschiedliche Schadensarten mehrfach gelernt werden.
+
+|link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz]
+|6
+|Frost, Magma, Säure, Schock
+|Die Fähigkeit kann für unterschiedliche Schadensarten mehrfach gelernt werden.
+
+|link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz]
+|9
+|Aetherisch, Nekrotisch
+|Die Fähigkeit kann für unterschiedliche Schadensarten mehrfach gelernt werden.
+
+|link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität]
+|6
+|Erde, Feuer, Luft, Wasser
+|Die Fähigkeit kann für unterschiedliche Schadensarten mehrfach gelernt werden.
+
+|link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität]
+|9
+|Frost, Magma, Säure, Schock
+|Die Fähigkeit kann für unterschiedliche Schadensarten mehrfach gelernt werden.
+
+|link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität]
+|12
+|Aetherisch, Nekrotisch
+|Die Fähigkeit kann für unterschiedliche Schadensarten mehrfach gelernt werden.
+
+|link:../../../../bestiary/skills/bestiary_skill_senses_unmistakable_sight.adoc[Untrügliche Sicht]
+|8
+|-
+|-
+
+|link:../../../../bestiary/skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+|5
+|-
+|Der Drache ist besonders resistent gegenüber magischen Attacken.
+
+|===
+
+
+[[ref_primary_creaturetype_dragons_rules_skills]]
+=== Fähigkeiten
+Alle Drachen erhalten zusätzlich zu ihren <<ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills,Drachenfähigkeiten>> automatisch alle hier aufgelisteten Fähigkeiten.
+
+* link:../../../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht] (60,00 Meter)
+* link:../../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht]: die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], je nachdem welche höher ist.

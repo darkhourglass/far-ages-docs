@@ -1,0 +1,78 @@
+= Gewöhnliche Drachen
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel[Machstufe] 6)
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend]
+* GK: 8
+* CP: TBA
+
+== Beschreibung
+
+[quote, unbekannt]
+Einer der schnellsten Wege zu sterben, ist es, einen gewöhnlichen Drachen auch als solchen zu bezeichnen.
+
+Lore
+
+[NOTE]
+Dieses Profil beschreibt einen Drachen der Machtstufe 6.
+
+== Profil
+
+*ST:* 12 (+4)     *GE:* 5 (+2)     *KO:* 12 (+4) +
+*ER:* 8 (+3)      *EN:* 6 (+2)     *SB:* 8 (+3)    *CH:* 12 (+4) +
+
+*TP:* 140     *MP:* 60     *SP:* 80 +
+
+*WID:* 30 +
+*BEW:* 15,00 link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 45,00 +
+*INI:* 14 +
+*MaxTL:* 180 +
+*MaxPOT:* 9 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/specific/dragons/bestiary_skill_dragons_dragons_scales.adoc[Drachenschuppen] 6 +
+*Resistenzen:* +
+
+* * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer])
+
+*Immunitäten:* +
+
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+
+== Offensiv
+
+* link:../skills/specific/dragons/bestiary_skill_dragons_dragons_breath.adoc[Drachenodem] 10 (4W10, xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], 12,00 Meter)
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 12 (3W8+5)
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 12 (4W6+5)
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 12 (3W8+5)
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Klaue, 2)
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8 (+2)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 10 (+4)
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 8 (+4)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 8 (+2)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] 8 (+3)
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht]
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 7
+* link:../skills/bestiary_skill_more_actions.adoc[Mehr Aktionen] 2
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+
+== Regeln
+
+Es gelten die üblichen Regeln für einen link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drachen] der Machtstufe (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel[Machstufe] 6.
+
+Dieses Profil repräsentiert einen erwachsenen Drachen ohne besondere magische Fähigkeiten, dass der SL als Ausgangsposition nutzen kann, um eigene Drachen zu entwerfen.
+Üblicherweise erreichen gewöhnliche Drachen jedoch keine höhere Machtstufe als 10.
+Sie können magische Fähigkeiten erlernen, jedoch keine mit dem Stichwort _kosmisch_.
+
+== Taktik
+
+Auch wenn die Beschreibung dieses Drachen das Wort _gewöhnlich_ enthält, ist eine kämpferische Auseinandersetzung mit einem solchen Wesen nie eine solche.
+Der Drache nutzt im Kampf seine ganze offensive Stärke und studiert die Schwächen seiner Gegner sehr genau.
+Er erkennt und nutzt seine taktische Überlegenheit aus der Luft und erkennt strategische Vorteile in seiner Umgebung.
+Gegenüber "schwächeren" Kreaturen neigen gewöhnliche Drachen zur Arroganz und Unvorsichtigkeit.

@@ -1,0 +1,137 @@
+= Hirte des Himmels
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] 10, Bewegung)
+* *GK:* 9
+* *CP:* TBA
+
+== Beschreibung
+
+_Ein gewaltiger Schatten gleitet langsam und majestätisch zwischen den Wolken hervor.
+Auf den ersten Blick beginnt ihr an euren Verstand zu zweifeln, als ihr die Gestalt als einen riesigen, gefiederten Wals mit Flügeln aus goldenen Flammen erfasst.
+Anstelle einer typischen Schwanzflosse steuert ein ebenso flammender Schweif seine Flugbahn.
+Die Luft ist erfüllt von dem Gesang unzähliger Vögel verschiedenster Arten, Größen und Farben, die den Wal in einem großen Schwarm umgeben._
+
+Ein Hirte des Himmels ist ein seltenes Manifest der elementaren Ebenen, dass die Gestalt eines Wals mit einigen außergewöhnlichen Eigenschaften annimmt.
+Hirten findet man fast ausschließlich nahe der Wolkendecke, wo sie eine Schar von Vögeln begleitet.
+Die exakten Bedingungen der Manifestation eines Hirten des Himmels sind nicht bekannt, oft begleiten jedoch große Umweltkatastrophen, sowohl bereits Stattgefundene als auch Drohende, sein Erscheinen.
+
+Ein Hirte des Himmels befindet sich im Normalfall ausschließlich in der Luft und besitzt keine Möglichkeit sich auf dem Land oder im Wasser zu bewegen.
+Dennoch sollte diese Einschränkung nicht als Schwäche verstanden werden.
+Auch friedfertigen Riesen können gewaltigen Schaden anrichten, wenn sie bedroht werden oder wenn sie sich zum Angriff entscheiden.
+Sie nutzen dazu ihre schiere Körperkraft, um andere fliegende Angreifer oder hinreichend exponierte Ziele zu rammen oder mit ihrem Schweif zu schlagen.
+Darüber hinaus beherrschen sie als mächtiges Elementar auch eine Reihe magischer Fähigkeiten.
+
+Selten, aber nicht gänzlich unbekannt, ist, dass ihre tierischen Begleiter in einen Konflikt miteinsteigen können, wenn es hart auf hart kommt.
+Weiterhin wird vermutet, dass der Hirte des Himmels mit manchen Vögeln aus seinem Schwarm eine tiefergehende Bindung eingehen kann, die es ihm ermöglicht, durch die Augen und Ohren eines Vogels zu sehen und zu hören.
+
+== Profil
+
+*ST:* 12 (+4)    *GE:* 5 (+2)     *KO:* 16 (+5) +
+*ER:* 9 (+3)     *EN:* 12 (+4)    *SB:* 8 (+3)    *CH:* 8 (+3) +
+
+*TP:* 160     *MP:* 120     *SP:* - +
+
+*WID:* 28 +
+*BEW:* link:../skills/bestiary_skill_move_flight.adoc[Flug] (120,00 Meter) +
+*INI:* 14 +
+*MaxTL:* 180 +
+*MaxPOT:* 15 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 12 +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Offensiv
+
+* link:../skills/specific/elementals/bestiary_skill_elementals_primordial_spellcaster.adoc[Ursprünglicher Zauberer] (Bewegung, 10 (+4))
+* link:../skills/bestiary_skill_attack_odem.adoc[Odem] 10 (2W10+2, xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], 15,00 Meter)
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] 10 (4W10+8)
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 10 (2W10+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer])
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+2)
+
+== Sonstiges
+
+* <<ref_bestiary_heavens_shepherd_eyes_of_the_volery,Die Augen des Vogelschwarms>>
+* <<ref_bestiary_heavens_shepherd_lord_of_the_volery,Herr des Vogelschwarms>>
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discipline[Disziplin] 8 (+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 8 (+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 12 (+4)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft] 8 (+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] 8 (+4)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8 (+3)
+* link:../skills/bestiary_skill_more_actions.adoc[Mehr Aktionen] 2
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+
+[[ref_bestiary_heavens_shepherd_powerlevel]]
+=== Machtstufe
+Ein Hirte des Himmels gilt als link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar] mit einer xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_powerlevel[Machtstufe] von 10.
+Seine xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc#ref_primary_creaturetype_elementals_rules_elemental_fixation[elementare Fixierung] ist der Aspekt _Bewegung_.
+
+[[ref_bestiary_heavens_shepherd_eyes_of_the_volery]]
+=== Die Augen des Vogelschwarms
+Außerhalb eines xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle[Kampfes] kann ein Hirte des Himmels bis zu 4 individuelle Vögel aus seinem Schwarm auswählen.
+Solange sich diese Vögel in einem Radius von bis zu 1000 Kilometer um den Hirten herum befinden, kann dieser alles wahrnehmen, was die Vögel auch wahrnehmen.
+Um xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes zu erkennen], darf der Hirte sein Talent einsetzen, wenn er dies wünscht.
+
+[[ref_bestiary_heavens_shepherd_lord_of_the_volery]]
+=== Herr des Vogelschwarms
+Auch wenn die Vögel im Schwarm des Hirten sich aus Kampfhandlungen heraushalten, können sie ihn dennoch unterstützen und tun dies bereitwillig, wenn das Überleben des Hirten davon abhängt.
+
+Als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] kann der Hirte eine der folgenden Effekte hervorrufen:
+
+* *Wütende Flügel:* Die Vögel umschwirren die Feinde des Hirten in einem chaotischen Reigen schlagender Flügel.
+Alle Kreaturen im Radius von 9,00 Metern des Hirten erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-10* auf alle Proben.
+* *Hackende Schnäbel:* Zu Beginn des eigenen Zugs in einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle[Kampfphase] muss eine Kreatur im Radius von 9,00 Metern des Hirten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] von 15 ablegen.
+Misslingt der Wurf, erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6+2 Schaden.
+* *TODO*
+
+Ein Effekt bleibt bestehen bis der Hirte einen anderen Effekt auswählt oder eine weitere Bonus-Aktion einsetzt, um den aktuellen Effekt zu beenden.
+
+Kreaturen, die von einem der Effekte betroffen sind, dürfen einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes[Angriff] gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] von 20 würfeln.
+Erreicht sie bei einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] mindestens 28 (WID des Hirten) Punkte, dann unterdrücken sie für sich den Effekt für die nächsten 3 Kampfphasen.
+
+== Taktik
+Wenn ein Hirte des Himmels kämpfen muss, nutzt er seine beachtliche Auswahl an zerstörerischen Fähigkeiten.
+Als Eröffnung versucht er größere Ziele zu link:../skills/bestiary_skill_attack_ram.adoc[rammen].
+Diese Fähigkeit nutzt er auch, um beispielsweise Strukturen zu beschädigen oder Fahrzeuge wie Schiffe oder Luftschiffe zu beschädigen.
+Gegen einzelne Ziele im Nahkampf nutzt er den Schlag mit seinem Schweif (link:../skills/bestiary_skill_attack_slam.adoc[Wucht]), während seinen link:../skills/bestiary_skill_attack_odem.adoc[Odem] richte er gegen Gruppen.
+
+Seinen <<ref_bestiary_heavens_shepherd_lord_of_the_volery,Schwarm>> ruft der Hirte nur zur Hilfe, wenn er xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[bedrängt] wird und Zaubersprüche nicht helfen (siehe nachfolgenden Abschnitt).
+
+Außerdem besitzt der Hirte dank link:../skills/specific/elementals/bestiary_skill_elementals_primordial_spellcaster.adoc[ursprünglicher Zauberer] ein breites Arsenal aus Zaubersprüchen (Weg der Bewegung Stufe 9, Weg des Feuers/Weg des Wassers jeweils Stufe 4).
+Er priorisiert dabei Zaubersprüche, die Ziele in Nahkampfreichweite liegen, zu behindern.
+Nur wenn Ziele außerhalb seiner Reichweite liegen, nutzt er Zaubersprüche mit hoher Reichweite und eventuell großem Wirkungsbereich, um diese Ziele zu treffen.
+
+
+
+
+
+
+

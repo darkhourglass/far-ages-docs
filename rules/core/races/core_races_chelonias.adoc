@@ -1,11 +1,17 @@
 = Chelonias
 
+Das Volk der Chelonia ist eine bekannte, wenn auch seltene humanoide Spezies, die Eigenschaften von Schildkröten in sich vereint.
+
+
+Chelonia bevorzugen Küstenregionen mit Zugang zu sowohl Süß- und Salzwasser und Land.
+
+
 *Attributsbonus:* -1 GE, +2 KO +
-*Größe:* 5 +
+*GK:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
-*Progenitor:* TBA (Allschwinge) +
+*Progenitor:* TBA +
 *CP:* 50 +
 
 == Eigenschaften
@@ -33,7 +39,7 @@ Daher erhalten Chelonia einen Malus von -1 auf ihren xref:../core_rules_2d10_sys
 
 === Weicher Kern
 Chelonias können ihre Arme, Beine und Kopf in ihren Panzer einziehen.
-Dazu können sie einmal pro Kampfphase ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen, um Arme, Beine und Kopf in den Panzer einzuziehen oder ausziehen.
+Dazu können sie einmal pro Kampfphase eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen, um Arme, Beine und Kopf in den Panzer einzuziehen oder ausziehen.
 
 Sind seine Extremitäten eingezogen, gilt er als xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind] und xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
 

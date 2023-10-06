@@ -1,7 +1,18 @@
 = Aoehe
 
+Aoehe sind die grazilen und majestätischen Herrn der Lüfte.
+Die Kinder des link:../../../lore/progenitors/lore_progenitors_hrafass.adoc[Herrn der Federn] tragen die Merkmale von Humanoiden und Adlern.
+Ihr Körperbau ist natürlicherweise schlank und muskulös und bedeckt mit einem Kleid aus Federn.
+Ein Paar gefiederter Flügel auf ihrem Rücken trägt sie in den Himmel.
+Ihr Kopf ist üblicherweise der eines Adlers - alte Legenden erzählen auch von anderen Varianten wie Falken oder Bussarde.
+Die Farbe ihres Gefieders variiert zwischen Weiß, Grau, diverse Braun und Schwarz-Schattierungen.
+
+Es wird erzählt, die Aoehe erbauten eine Zivilisation in den Himmeln des Multiversums, der Gravitation widersprechender Städte, die zwischen den Wolken wanderten.
+Doch als sie im ewigen Kampf der kosmischen Prinzipien sich für die Seite der Ordnung entschieden, wurden sie von einem Dämonenprinzen betrogen.
+Ihre magischen Städte stürzten zu Boden und die große Zivilisation der Aoehe versprengte sich in kleine Stämme auf den unterschiedlichsten Welten des Multiversums.
+
 *Attributsbonus:* -1 ST, +1 GE, +1 ER +
-*Größe:* 5 +
+*GK:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
@@ -10,11 +21,13 @@
 
 == Eigenschaften
 
+[[ref_races_aoehe_skill_eagleeyes]]
 === Adleraugen
-Aoehe erhalten einen Bonus von +3 auf alle Sicht-basieren xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen-Proben].
+Aoehe erhalten einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle Proben in  xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen], solange diese Sicht-basiert sind.
 
+[[ref_races_aoehe_skill_flight]]
 === Flügel
 Ein Aoehe besitzt Flügel und kann damit fliegen.
 Seine Bewegungsrate für das Fliegen entspricht seiner regulären BEW*2.
 Ein Aoehe kann so viele Kampfphasen in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
-Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_core_battle_actions_attack_airattack[Flugangriff] verwenden.
+Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_airattack[Flugangriff] verwenden.

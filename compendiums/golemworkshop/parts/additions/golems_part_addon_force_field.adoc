@@ -10,7 +10,7 @@
 *Beschreibung:* Kurze Blitze arkaner Energie zucken über den Körper des Golems und mit einem leichten Summen baut sich ein unsichtbarer Schutzschild auf, der den Golem vor Beschädigung schützt.
 
 Der Golem muss eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und 5 MP einsetzen, um das Kraftfeld zu aktivieren.
-Das Kraftfeld hält bis zum Ende seiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase].
+Das Kraftfeld hält bis zum Ende seiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase].
 Solange das Kraftfeld aktiv ist, kann der Golem es auch für den Einsatz von 1 MP um eine weitere Kampfphase verlängern.
 
 Ein Kraftfeld hält unabhängig von seiner Dauer insgesamt 30 Punkte xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schaden] ab.

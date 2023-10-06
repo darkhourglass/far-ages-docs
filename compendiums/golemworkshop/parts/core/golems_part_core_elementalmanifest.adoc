@@ -10,7 +10,7 @@
 *Machtstufe:* 3 +
 *Beschreibung:* Mit dieser Energieversorgung machen sich risikobereite Technomanten die Macht eines elementaren Manifests zur Versorgung eines Golems zunutze.
 
-Um die Arbeit an einer elementaren Zelle abzuschließen, muss ein link:../../../../bestiary/elementals/bestiary_elementals_manifest.adoc[elementares Manifest] mithilfe des Zauberspruches link:../../../spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementar] beschworen werden.
+Um die Arbeit an einer elementaren Zelle abzuschließen, muss ein link:../../../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc[elementares Manifest] mithilfe des Zauberspruches link:../../../spells/spell_summon_elemental_manifest.adoc[Beschwöre Elementar] beschworen werden.
 Das Element (Erde, Feuer, Luft oder Wasser) des beschworenen Manifests bestimmt die weiteren Zaubersprüche sowie einige weitere Effekte dieser Zelle.
 Zunächst muss für link:../../../spells/spell_elemental_transfusion.adoc[Elementare Transfusion] das verwendete Element identisch zu dem des Manifests sein.
 Das Element für link:../../../spells/spell_elemental_barrier.adoc[Elementare Barriere] muss hingegen das gegenteilige Element sein: zum Beispiel bei einem beschworenen Feuer-Manifest, muss Elementare Barriere mit dem Element Wasser ausgesprochen werden.

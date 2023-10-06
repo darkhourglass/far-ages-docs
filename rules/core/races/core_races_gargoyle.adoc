@@ -13,11 +13,11 @@
 [[ref_gargoyle_freeze]]
 === Erstarren
 Gargoyle besitzen die außergewöhnliche Eigenschaft, ihren Körper zum Erstarren zu bringen, so dass man sie von Statuen nicht unterscheiden kann.
-Um diesen Zustand zu erreichen, muss der Gargoyle ein xref:../core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] einsetzen können.
+Um diesen Zustand zu erreichen, muss der Gargoyle eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen können.
 Jegliche Mimik, Bewegung und subtile Motorik wird unterdrückt.
 Gleichzeit wird die Haut noch fester und rauer, womit sie noch mehr Stein gleicht.
 
-In diesem Zustand hat der Gargoyle keine Einschränkungen auf seine üblichen Sinne, auch seine Atmung funktioniert normal. Er kann keine Aktionen durchführen. Sein natürlicher Rüstungsschutz aus <<ref_gargoyle_hardasstone>> erhöht sich auf 10 Rüstungspunkte auf allen Treffenzonen.
+In diesem Zustand hat der Gargoyle keine Einschränkungen auf seine üblichen Sinne, auch seine Atmung funktioniert normal. Er kann keine Aktionen durchführen. Sein natürlicher Rüstungsschutz aus <<ref_gargoyle_hardasstone>> erhöht sich auf 10 Rüstungspunkte auf allen Trefferzonen.
 
 Wechselt der Gargoyle in diese Form, würfelt er eine xref:../core_rules_talents_base.adoc#ref_talents_hide[Verstecken-Probe] mit einem xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +10.
 Jeder zukünftige Beobachter muss gegen des in dieser Probe gewürfelten Ergebnis eine xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Entdecken-Probe] bestehen, um den Gargoyle von einer Statue zu unterscheiden.

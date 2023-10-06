@@ -3,7 +3,7 @@
 *Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
 *Typ:* Vampir +
 *CP:* tba +
-*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 5
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 5
 
 Du ziehst von der Ebene des Schattens finstere Tentakel aus Dunkelheit, die die Schatten in dieser Welt verstärken.
 Du scheinst dadurch mit dem Schatten selbst zu verschmelzen.
@@ -11,7 +11,7 @@ Um die Fähigkeit einsetzen zu können, musst Du Dich in einem Ort ohne direkte 
 
 Solange Du im Schatten verweilst, giltst Du als xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar].
 Sollte eine Lichtquelle die Dunkelheit erhellen oder Du aus dieser heraustrittst, wirst Du sofort wieder sichtbar.
-Die Unsichtbarkeit endet außerdem automatisch am Ende Deiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_flow_battlephase[Kampfphase].
+Die Unsichtbarkeit endet außerdem automatisch am Ende Deiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase].
 Du darfst jedoch in diesem Fall als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] die Unsichtbarkeit verlängern, solange die Voraussetzungen erfüllt sind und Du die Blutkosten noch einmal einsetzt.
 
 [[ref_bestiary_skill_vampiric_hide_in_shadows_legendary]]
