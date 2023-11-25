@@ -36,7 +36,7 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 
 *Immunitäten:* +
 
-* link:../skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 
 == Offensiv
 
@@ -49,7 +49,7 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 == Defensive
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8 (+2)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 10 (+4)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 10 (+4)
 
 == Sonstiges
 
@@ -59,8 +59,8 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 * link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht]
 * link:../skills/bestiary_skill_fear.adoc[Furcht] 7
 * link:../skills/bestiary_skill_more_actions.adoc[Mehr Aktionen] 2
-* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
-* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Gift widerstehen]
+* link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases_resist[Krankheiten widerstehen]
 
 == Regeln
 

@@ -53,7 +53,7 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 
 * link:../skills/bestiary_skill_dodge.adoc[Ducken]
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+1)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_throwdown[Niederschlag widerstehen] 6 (+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 6 (+3)
 
 == Sonstiges
 
@@ -77,7 +77,7 @@ Dabei handelt es sich nicht um xref:../../rules/core/core_rules_2d10_system.adoc
 * Solange die Hydra mehr als einen Kopf besitzt, kann sie ihre Fähigkeit link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] verwenden.
 Die Anzahl der Attacken entspricht der Anzahl ihrer Köpfe.
 * Solange die Hydra mehr als einen Kopf besitzt, kann sie pro eigener xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] eine zusätzliche xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_dogde[Reaktion] einsetzen, um einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] durchzuführen.
-* Die Hydra erhält pro Kopf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_SB[SB-] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_CH[CH-Rettungswürfe].
+* Die Hydra erhält pro Kopf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswürfe].
 * Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielten Attacke] auf einen der Köpfe, kann ein Angreifer versuchen, diesen abzuschlagen.
 Dazu muss der Angreifer bei einem erfolgreichen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] mindestens 20 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] verursachen (die Anzahl entspricht sowohl der WID der Hydra wie auch den TPs eines Kopfes).
 * Zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] darf die Hydra, falls sie mindestens noch 1 Kopf hat, mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] 1 Kopf sofort regenerieren, bis zum oben genannten Maximum von 12 Köpfen.

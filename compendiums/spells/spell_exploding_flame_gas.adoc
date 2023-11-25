@@ -13,7 +13,7 @@
 Dieses explodiert im Wirkungsbereich in einem verheerenden Flammeninferno.
 
 Alle Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
-Jeder Kreatur steht ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe zu.
+Jeder Kreatur steht ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe zu.
 Besteht eine Kreatur diesen Rettungswurf, erhält sie den halbierten Schaden (abgerundet, Minimum 1). +
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: Radius +1,50 Meter +

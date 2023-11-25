@@ -10,7 +10,7 @@ Ein Drache mit dieser Fähigkeit kann Kreaturen in seiner direkten Umgebung durc
 
 In seiner Kampfphase muss der Drache zunächst seine Fähigkeit link:../../bestiary_skill_fear.adoc[Furcht] einsetzen und gleichzeitig als Bonus-Aktion diese Aura aktivieren.
 
-Solange die Aura im Einsatz ist, muss jede Kreatur im Umkreis von 18,00 Metern zu Beginn seiner xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht-Rettungswurf] wiederholen, unabhängig von ihrem vorherigen Erfolg oder Misserfolg.
+Solange die Aura im Einsatz ist, muss jede Kreatur im Umkreis von 18,00 Metern zu Beginn ihres xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zuges] den xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] wiederholen, unabhängig von ihrem vorherigen Erfolg oder Misserfolg.
 
 Der Drache kann die Aura mit Einsatz einer Aktion die Aura xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_continueaction[weiterführen].
 Die Rettungswürfe können gegen das vorherige Ergebnis erneut gewürfelt werden, um dem Effekt zu entkommen.

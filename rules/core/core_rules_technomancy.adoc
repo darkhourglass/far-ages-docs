@@ -138,7 +138,7 @@ Die Rohmaterialen für den Gegenstand oder des Konstrukts können nicht wiederve
 Eine Überladung in den magischen Kristallen reisst das Gerät oder das Konstrukt auseinander und verursacht in einem Umkreis von 6,00 Metern eine verheerende Wirkung.
 Die Wirkung der Explosion verursacht bei allen Kreaturen und Gegenständen einen xref:core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 6W6 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[ref_core_battle_damage_damagerolls].
 
-Ein erfolgreicher xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] halbiert den Schaden.
+Ein erfolgreicher xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] halbiert den Schaden.
 
 [[ref_core_technomancy_rules_botch_glitch]]
 ==== Der Gegenstand/das Konstrukt hat eine Fehlfunktion

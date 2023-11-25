@@ -19,7 +19,8 @@ Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_da
 Jeder Schaden des Schwarzen Feuers gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbar].
 
 Die Verwendung dieses Zauberspruches hat jedoch seinen Preis.
-Jedes Mal, wenn Du ihn aussprichst, ob erfolgreich oder nicht, erfordert einen Rettungswurf auf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror(25)]. +
+Jedes Mal, wenn Du ihn aussprichst, ob erfolgreich oder nicht, musst Du einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen oder erhälst den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror].
+
 *Zusätzliche Effekte:* +
 +5 MP: Reichweite +6,00 Meter +
 +5 MP: Radius +3,00 Meter +

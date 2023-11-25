@@ -80,44 +80,39 @@ Allerdings muss der Drache eine Form wählen, die Flügel hat, um zu fliegen.
 |TBA
 |Manche Drachen können ihre Feinde mit ihren Klauen oder Bissen vergiften.
 
-|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 |4
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
+|-
 |Gifte können dem Drachen nichts mehr anhaben.
 
-|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand]
 |3
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 |-
 
-|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc.adoc[Immun gegenüber Zustand]
 |5
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
 |Drachen erleben in ihrem Leben viel und auf ihren Reisen durch den Weltraum sehen sie Dinge, die außerhalb der sterblichen Vorstellungskraft liegen.
 
-|link:../../../../bestiary/skills/bestiary_skill_immunity_to_save.adoc[Immun gegenüber Rettungswurf]
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
 |4
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+|-
 |Krankheiten können dem Drachen nichts mehr anhaben.
 
 |link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
 |2
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift widerstehen]
-|-
-
-|link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
-|1
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
+|xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Gift widerstehen]
 |-
 
 |link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
 |3
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
+|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin]
 |-
 
 |link:../../../../bestiary/skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf]
 |2
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten widerstehen]
+|xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases_resist[Krankheiten widerstehen]
 |-
 
 |link:../../../../bestiary/skills/bestiary_skill_move_levitation.adoc[Levitation]

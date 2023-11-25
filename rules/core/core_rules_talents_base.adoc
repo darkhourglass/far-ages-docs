@@ -81,13 +81,13 @@ Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
 Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
-[[ref_talents_resist_throwdown]]
+[[ref_talents_resist_knockdown]]
 === Niederschlag widerstehen
 *Mindestwurf:* speziell +
 *Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* KO +
+*Verwandtes Attribut:* ST +
 *Kampf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] +
-*Beschreibung:* Mit diesem Talent können xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_knockdown[Niederschlags-Rettungswürfe] gewürfelt werden.
+*Beschreibung:* Mit diesem Talent können xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlags-Proben] gewürfelt werden.
 
 [[ref_talents_parade]]
 === Parade

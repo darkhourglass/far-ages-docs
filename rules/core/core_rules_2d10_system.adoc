@@ -13,7 +13,6 @@ Diese betreffen erstmal nur diejenigen Charaktere, die einen entsprechenden Beru
 
 [[ref_core_2d10_characters]]
 == Charaktere
-
 Diese Kapitel stellt die Konzepte vor, die einen Charakter (Spieler- wie Nicht-Spieler-Charaktere) darstellen.
 Dabei beschreiben <<ref_core_2d10_characters_attributes,Attribute>> und <<ref_core_2d10_characters_attributes_secondary,Attributseigenschaften>> die angeborenen und im weiteren Leben trainierten Merkmale, die aus der körperlichen und geistigen Leistungsfähigkeit resultieren.
 <<ref_core_2d10_characters_talents,Talente>> und <<ref_core_2d10_characters_skills,Fähigkeiten>> beschreiben Dinge, die der Charakter gelernt hat.
@@ -25,7 +24,6 @@ Dennoch meint der Begriff _Charaktere_ üblicherweise die Charaktere der Spieler
 
 [[ref_core_2d10_characters_attributes]]
 === Attribute
-
 *Attribute* sind Werte, die den Charakter als Körper und Geist beschreiben.
 So steht beispielsweise das Attribut <<ref_core_2d10_characters_attribute_strength,Stärke>> für die körperliche Kraft des Charakters, ein starker Charakter wird einen schweren Stein eher heben können, als ein anderer.
 
@@ -37,9 +35,9 @@ Je mehr Stufen ein Charakter in einem Attribut besitzt, umso besser ist er in di
 Im System von Far Ages ist eine Attributsstufe von 2 oder 3 durchschnittlich für einen Charakter, der gerade erschaffen wurde.
 Werte über 10 sind wortwörtlich un- bzw. übermenschlich.
 
-Über die Arributsstufen werden zwei primäre Abhängigkeiten bestimmt:
+Über die Attributsstufen werden zwei primäre Abhängigkeiten bestimmt:
 
-* der <<ref_core_2d10_characters_attributes_bonus,Attributsbonus>> wird bei verschiebenen <<ref_core_2d10_checks,Proben>> als Wert zum Ergebnis hinzuaddiert.
+* der <<ref_core_2d10_characters_attributes_bonus,Attributsbonus>> wird bei verschiedenen <<ref_core_2d10_checks,Proben>> als Wert zum Ergebnis hinzuaddiert.
 * <<ref_core_2d10_characters_attributes_secondary,Attributseigenschaften>> sind weitere Elemente des Spiels, die helfen, den Charakter weiter zu beschreiben und seine Grenzen und Möglichkeiten darzustellen.
 Aus dem Attribut <<ref_core_2d10_characters_attribute_strength,Stärke>> folgt zum Beispiel die <<ref_core_2d10_characters_attributes_secondary_maxcarryingcapacity,Maximale Traglast>>, eine Zahl, die bestimme, wie viel ein Charakter mit sich herumschleppen kann.
 
@@ -139,6 +137,7 @@ Dies gilt für alle anderen Attribute.
 ====
 
 Die eigentliche Anwendung des Attributsbonus wird im späteren <<ref_core_2d10_checks,Kapitel>> zum Thema Proben beschrieben.
+Die Berechnung der Attributseigenschaften eines Charakters findet sich im Kapitel der xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary[Charaktererschaffung].
 
 [[ref_core_2d10_characters_attributes_secondary]]
 === Attributseigenschaften
@@ -679,23 +678,26 @@ Durch Modifikatoren können Attributstufen nie auf weniger als 0 fallen.
 
 [[ref_core_2d10_checks_saves]]
 === Rettungswürfe
-*Rettungswürfe* sind eine spezielle Form von <<ref_core_2d10_checks_attributchecks,Attributsproben>>, die den gleichen Regeln folgen.
+*Rettungswürfe* sind eine spezielle Form von <<ref_core_2d10_checks_attributchecks,Attributsproben>>, die nicht aktiv durch Charaktere ausgelöst werden.
+Sie sind erforderlich in gefährlichen Situationen, um zu bestimmen, ob ein bedrohter Charakter dieser Situation ausgesetzt wird oder nicht.
+Wann genau ein Rettungswurf nötig ist, liegt in der Entscheidung des SL oder wenn ein entsprechender Effekt des Spiels, wie zum Beispiel ein Zauberspruch, diesen explizit vorschreibt.
 
 Rettungswürfe können nur von Charakteren gewürfelt werden, wenn diese bei Bewusstsein sind.
-Bestimme Kreaturen, die kein Bewusstsein im traditionellen Sinne haben, wie link:../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] oder link:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte], dürfen allerdings auch Rettungswürfe würfeln.
+Bestimme Kreaturen, die kein Bewusstsein im traditionellen Sinne haben, wie link:../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] oder link:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte], würfeln allerdings auch Rettungswürfe.
 
-Im Gegensatz zu Attributsproben werden Rettungswürfe nicht aktiv durch Charaktere ausgelöst, sondern entstehen aus gefährlichen Situationen, in denen die _Reaktion_ der Charaktere gefragt ist.
-Wann genau ein Rettungswurf nötig ist, liegt in der Entscheidung des SL oder wenn ein beliebiger Effekt des Spiels, wie zum Beispiel ein Zauberspruch, diesen explizit vorschreibt.
+Rettungswürfe bestehen in im Gegensatz zu regulären <<ref_core_2d10_checks_attributchecks,Attributsproben>> aus zwei Attributen.
+Jeder Rettungswurf wird durch die reguläre <<ref_core_2d10_checks,Probe>> aus 2W10 plus den <<ref_core_2d10_characters_attributes_bonus,Attributsbonus>> beider Attribute, und eventueller weiteren Boni, bestimmt.
+Erhält ein Charakter einen <<ref_core_2d10_checks_advantage,Vor->> oder <<ref_core_2d10_checks_disadvantage,Nachteil>> auf wenigstens ein Attribut aus der Kombination des Rettungswurfs, wird den Rettungswurf selbst auch mit Vor- oder Nachteil gewürfelt.
 
 .Rettungswürfe
 ====
 Aus dem vorherigen Beispiel ergibt sich für Thalvin plötzlich eine gefährliche Situation.
 Beim Freiräumen des unterirdischen Ganges hat er versehentlich einen Geröllrutsch verursacht.
-Um nicht unter schweren Steinen begraben zu werden, verlangt der SL einen Rettungswurf auf Geschick.
-Thalvin hat 2 Stufen in Geschick und erhält einen Attributsbonus von +1.
+Um nicht unter schweren Steinen begraben zu werden, verlangt der SL einen Rettungswurf auf <<ref_core_2d10_checks_saves_reflex,Reflex>>.
+Reflex wird mit den kombinierten Attributen GE und ER gewürfelt.
+Thalvin hat jeweils 2 Stufen in Geschick und Erkenntnis und erhält einen Attributsbonus von je +1.
 Er würfelt eine 5 und 6.
-Damit ergibt sich als Ergebnis 5+6+1=12.
-Der Sl entscheidet, dass Thalvin von fallenden Steinen getroffen wird und 2W6 TP verliert.
+Damit ergibt sich als Ergebnis 5+6+1+1=13.
 ====
 
 Viele Rettungswürfe im laufenden Spielgeschehen sind üblicherweise sehr ähnlich beziehungsweise die Situationen, aus denen sie entstehen, ähnlichen sich.
@@ -716,187 +718,18 @@ Sofern nicht explizit vorgeschrieben, muss ein Charakter oder eine Kreatur einen
 Das bedeutet insbesondere, dass einmal erfolgreiche Rettungswürfe nicht wiederholt werden müssen.
 Fehlgeschlagene Rettungswürfe dürfen im Ermessen des SLs wiederholt werden.
 
-// TODO Rettungswürfe: Beispiele
-
-[[ref_core_2d10_checks_saves_ST]]
-==== Stärke-basierte Rettungswürfe
-
-[[ref_core_2d10_checks_saves_GE]]
-==== Geschick-basierte Rettungswürfe
-
-[[ref_core_2d10_checks_saves_KO]]
-==== Konstitution-basierte Rettungswürfe
-
-[[ref_core_2d10_checks_saves_ER]]
-==== Erkenntnis-basierte Rettungswürfe
-
-[[ref_core_2d10_checks_saves_EN]]
-==== Energie-basierte Rettungswürfe
-
-[[ref_core_2d10_checks_saves_SB]]
-==== Selbstbeherrschung-basierte Rettungswürfe
-
-[[ref_core_2d10_checks_saves_CH]]
-==== Charisma-basierte Rettungswürfe
-
-[[ref_core_2d10_checks_saves_base]]
-==== Standardrettungswürfe
-*Standardrettungswürfe* sind vereinheitlichte <<ref_core_2d10_checks_saves,Rettungswürfe>> und folgen somit den vorgestellten Regeln.
-Die Verwendung von Standardrettungswürfen dient vor allem folgenden Situationen:
-
-* Die Beschreibungen geben für häufig wiederkehrende Situationen einen einheitlichen Regelsatz vor, zum Beispiel für die Auswirkungen eines Misserfolgs oder Patzers.
-* Fähigkeiten, Talente, Zaubersprüche oder ähnliche Quellen können Effekte haben, die einen Standardrettungswurf vorsehen.
-In solchen Fällen ist keine neue Regel nötig, sondern der Effekt folgt den hier vorgestellten Regeln.
-
-Es gilt, dass wenn ein Charakter einen Vorteil auf einen bestimmten, attributsspezifischen Rettungswurf hat, dann gilt dieser Vorteil für alle Standardrettungswürfe, die von diesem Attribut abhängen.
-
-.Standardrettungswürfe
-====
-Ein Charakter erhält einen Bonus von +1 auf alle KO-basierten Rettungswürfe.
-Damit erhält er diesen Bonus auch auf KO-basierte Standardrettungswürfe wie zum Beispiel <<ref_core_2d10_checks_saves_base_disgust,Ekel>>, <<ref_core_2d10_checks_saves_base_poisonresist,Gift>> und <<ref_core_2d10_checks_saves_base_sicknessresist,Krankheit>>.
-====
-
-Andersherum gilt dies jedoch nicht, denn ein Vorteil auf einen bestimmten Standardrettungswurf bietet keinen Vorteil auf andere Standardrettungswürfe oder den allgemeinen Rettungswurf.
-
-.Standardrettungswürfe
-====
-Ein Charakter erhält einen Bonus von +1 auf alle <<ref_core_2d10_checks_saves_base_disgust,Ekel-Rettungswürfe>>.
-Er erhält diesen Bonus somit nicht auf die Standardrettungswürfe <<ref_core_2d10_checks_saves_base_poisonresist,Gift>> oder <<ref_core_2d10_checks_saves_base_sicknessresist,Krankheit>> oder den <<ref_core_2d10_checks_saves_KO,Rettungswurf auf KO>>.
-====
-
-[[ref_core_2d10_checks_saves_base_disgust]]
-===== Ekel
-*Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
-
-Bei manchen Dingen kommt einem einfach die Galle hoch.
-
-* *Misserfolg:* Dem Charakter wird übel und er kann gerade noch schlimmeres verhindern.
-Dennoch muss er für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 hinnehmen.
-* *Patzer:* Dem Charakter wird übel, jedoch kann er sich nicht mehr beherrschen und muss sich übergeben.
-Er gilt als <<ref_core_2d10_condition_dazed,benommen (Stufe 1)>>.
-
-[[ref_core_2d10_checks_saves_base_falling]]
-===== Fallen
-*Attribut:* <<ref_core_2d10_characters_attribute_dexterity,GE>>
-
-Diese Probe folgt meist als Reaktion auf eine misslungene xref:core_rules_talents_base.adoc#ref_talents_athletics[Klettern-Probe], kann aber auch bewusst eingesetzt werden, wenn jemand von einer erhöhten Position hinabspringt.
-Als Maßgabe für die Anwendung dieser Probe gilt: wenn ein Charakter von einer Abwärtsbewegung Schaden nehmen kann, wird sie gewürfelt.
-
-Für jede 3,00 volle Meter, die der Charakter fällt, muss er mindestens eine 10, um keinen Schaden zu nehmen.
-Misslingt die Probe, so erhält der Charakter pro 3,00 Meter automatisch 1W6 Schaden, der nicht von Rüstung abgehalten wird.
-Für eine Falldistanz von weniger als 3,00 Metern ist nur ein Mindestwurf von 10 nötig.
-Der Schaden im Fall eines Misserfolgs beträgt 1W6, den keine Rüstung abhalten kann.
-
-* *Misserfolg:* der Charakter kann keinen Schaden verhindern und nimmt den vollen Schaden.
-Er gilt als <<ref_core_2d10_condition_onground,am Boden>>.
-* *Patzer:* wie Misserfolg, jedoch fällt der Charakter zusätzlich so unglücklich, dass er zusätzlich zu den Folgen des Misserfolgs <<ref_core_2d10_condition_dazed,Benommenheit (Stufe 1)>> hinnehmen.
-
-[NOTE]
-Natürliche Rüstung vermindert Fallschaden.
-
-[[ref_core_2d10_checks_saves_base_fear]]
-===== Furcht
-*Attribut:* <<ref_core_2d10_characters_attribute_selfcontrol,SB>>
-
-Viele natürliche wie unnatürliche Gefahren wecken einen instinktiven Drang zur Flucht.
-
-* *Misserfolg:* Der Charakter ist von der Situation erschüttert, jedoch hat er sich noch einigermaßen im Griff.
-Solange der Auslöser seiner Furcht im Sichtfeld ist, ist er deutlich nervöser, was einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 bedeutet.
-* *Patzer:* Die Angst überkommt den Charakter und er muss sofort fliehen.
-Zusätzlich zu den Auswirkungen des Misserfolges erhält er den Zustand <<ref_core_2d10_condition_fleeing,fliehend>>.
-
-[NOTE]
-Nicht immer sind Auslöser für diese Proben deutlich zu sehen.
-Manche Zaubersprüche generieren einfach Furcht im Verstand des Charakters.
-Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfphasen, zum Beispiel 1W10 - SB (Minimum 1) Kampfphasen, geschickt werden.
-
-[[ref_core_2d10_checks_saves_base_poisonresist]]
-===== Gift
-*Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
-
-xref:core_rules_adventures.adoc#ref_core_adventures_hazards_poisons[Gifte] sind typische Verteidigungsmaßnahmen von Tieren oder Pflanzen gegen Fressfeinde.
-Räuberische Tiere oder Monster setzen Gift als gefährliche Waffe ein.
-
-Die Beschreibung eines Giftes enthält einen *sekundären Effekt* und einen *primären Effekt*, sowie den nötigen <<ref_core_2d10_checks_miniumroll,Mindestwurf>>.
-
-* *Misserfolg:* der primäre Effekt tritt sofort ein
-* *Patzer:* der primäre und der sekundäre Effekt treten sofort ein
-
-[[ref_core_2d10_checks_saves_base_horror]]
-===== Horror
-*Attribut:* <<ref_core_2d10_characters_attribute_selfcontrol,SB>>
-
-Viel stärker als die <<ref_core_2d10_checks_saves_base_fear,Furcht>> ist die Erkenntnis, dass manche Dinge eigentlich nicht existieren dürften.
-Kosmische Schrecken, unnatürliche Ereignisse und zur Wirklichkeit gewordene Alpträume kreuzen selten, aber wenn dann äußerst prägend, das Leben eines Abenteurers.
-
-* *Misserfolg:* Der Charakter ist schwer getroffen und konzentriert sich nur noch darauf, möglichst zu überleben.
-Er verliert 1 SP für jede volle 5 Punkte, um die er den nötigen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> verpasst hat, jedoch mindestens 1.
-Außerdem erhält er den Zustand <<ref_core_2d10_condition_fleeing,Fliehend>>.
-* *Patzer:* Der Verstand des Charakters setzt mit der Erkenntnis über die Schrecken aus.
-Der Charakter wird bewegungsunfähig solange wie der Auslöser des Horrors in seinem Blickfeld ist.
-Es gelten die gleichen Auswirkungen wie bei einem Misserfolg, allerdings verliert er 2 SP für jede volle 5 Punkte, die er unter dem Mindestwurf liegt.
-
-[[ref_core_2d10_checks_saves_base_douptillusions]]
-===== Illusion anzweifeln und durchschauen
-*Attribut:* <<ref_core_2d10_characters_attribute_perception,ER>>
-
-//TODO
-
-xref:core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm[Illusionismus]
+[[ref_core_2d10_checks_saves_alertness]]
+==== Aufmerksamkeit
+*Attribute:* ER+SB
 
 
-[[ref_core_2d10_checks_saves_base_sicknessresist]]
-===== Krankheit
-*Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
-
-Der Körper eines Abenteurers kann nicht nur von außen, sondern auch von innen attackiert werden.
-xref:core_rules_adventures.adoc#ref_core_adventures_hazards_diseases[Krankheiten] können natürlichen wie unnatürlichen Ursprungs sein.
-Der Aufenthalt in gefährlichen Gebieten kann zu einer Ansteckung führen oder der Kontakt mit einem Überträger.
-Manche Kreaturen tragen Krankheiten an ihren Klauen und ein Charakter steckt sich im Fall einer Verletzung an.
-
-Die Beschreibung einer Krankheit enthält einen *sekundären Effekt* und einen *primären Effekt*, sowie den nötigen <<ref_core_2d10_checks_miniumroll,Mindestwurf>>.
-
-* *Misserfolg:* der sekundäre Effekt tritt sofort ein
-* *Patzer:* der primäre Effekt tritt sofort ein
-
-[[ref_core_2d10_checks_saves_base_knockdown]]
-===== Niederschlag
-*Attribut:* <<ref_core_2d10_characters_attribute_constitution,KO>>
-
-Diese Probe wird ausgelöst durch einen körperlichen Schock, zum Beispiel eine xref:core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung].
-Der körperliche Schock kann dazu führen, dass der Charakter zu Boden geht oder sogar bewusstlos wird.
-Gerät der Charakter in eine Situation, die eine Niederschlags-Probe erfordert, muss er eine vorgegebene Anzahl von Erfolgen erreichen.
-
-Für detaillierte Regeln siehe das Dokument Kampf im Kapitel xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag].
-
-[[ref_core_2d10_checks_saves_base_reflex]]
-===== Reflex
-*Attribut:* <<ref_core_2d10_characters_attribute_dexterity,GE>>
-
-Eine Reflex-Probe beschreibt eine unbewusste, körperliche Reaktion auf eine plötzlich auftretende Gefahrensituation, zum Beispiel um einer Falle auszuweichen oder um zu prüfen, ob der Charakter schnell genug reagiert hat, um einer Explosion zu entgehen.
-Weitere typische Auslöser für Reflex-Proben sind plötzliche und unerwartete Ereignisse, wie zusammenbrechender Boden oder Steinschlag.
-Um eine solche Gefahr abzuwenden, muss die Reflex-Probe einen angebenen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> erreichen.
-
-* *Misserfolg:* Der Charakter erleidet sofort die negativen Folgen des Effekts, zum Beispiel wird er von der Falle getroffen.
-* *Patzer:* Keine zusätzliche Auswirkung.
-
-.Rettungswürfe
-====
-Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_2d10_checks_saves_base_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
-
-Zhulkir zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Regeln] hoch genug, um den Zauberspruch zu wirken.
-Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen.
-Thalvin und Khelbor würfeln jeweils einen eigenen Reflex-Rettungswurf.
-Je nach Ergebnis erleidet einer oder beide von Ihnen nur 15 Schadenspunkte.
-====
-
-[[ref_core_2d10_checks_saves_base_willpower]]
-===== Willenskraft
-*Attribut:* <<ref_core_2d10_characters_attribute_selfcontrol,SB>>
+[[ref_core_2d10_checks_saves_discipline]]
+==== Disziplin
+*Attribute:* SB+CH
 
 Dieser Rettungswurf wird üblicher gewürfelt, wenn der Charakter mit seinem Willen ringt oder sich besonders konzentrieren muss.
-Üblicherweise möchte ein Effekt, eine Situation oder eine Charaktereigenschaft den Charakter zu etwas drängen, was der Spieler nicht will.
-Um dies abzuwehren, muss eine Willenskraft-Probe abgelegt werden.
+Üblicherweise möchte ein Effekt oder eine Situation den Charakter zu etwas drängen, was er nicht will.
+Um dies abzuwehren, muss ein Disziplin-Rettungswurf abgelegt werden.
 
 * *Misserfolg:* Der Charakter gibt sofort dem Drang nach und er führt die ungewollte Aktion durch.
 Führt der Charakter gerade selbst eine Aktion durch, so wird diese unterbrochen.
@@ -905,9 +738,40 @@ Führt der Charakter gerade selbst eine Aktion durch, so wird diese unterbrochen
 [NOTE]
 Ein typisches Beispiel, wenn solche Würfe in Spiele kommen, ist, wenn der Charakter einen Nachteil hat, der zu gewissen Handlungen zwingt, zum Beispiel ist er kleptomanisch.
 Sieht er also ein besonders begehrenswertes Objekt, dann kann der Spieler verhindern, dass der Charakter versucht es zu stehlen.
-Dazu ist die Willenskraft-Probe nötig.
+Dazu ist dieser Rettungswurf nötig.
 Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell möchte, dass sein Charakter dies versucht.
 Um beispielsweise einen Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
+
+[[ref_core_2d10_checks_saves_fortitude]]
+==== Körperkraft
+*Attribute:* ST+KO
+
+
+[[ref_core_2d10_checks_saves_magic_defense]]
+==== Magieabwehr
+*Attribute:* EN+SB
+
+
+[[ref_core_2d10_checks_saves_reflex]]
+==== Reflex
+*Attribute:* GE+ER
+
+Ein Reflex-Rettungswurf beschreibt eine unbewusste, körperliche Reaktion auf eine plötzlich auftretende Gefahrensituation, zum Beispiel um einer Falle auszuweichen oder um zu prüfen, ob der Charakter schnell genug reagiert hat, um einer Explosion zu entgehen.
+Weitere typische Auslöser für diesen Rettungswurf sind plötzliche und unerwartete Ereignisse, wie zusammenbrechender Boden oder Steinschlag.
+
+* *Misserfolg:* Der Charakter erleidet sofort die negativen Folgen des Effekts, zum Beispiel wird er von der Falle getroffen.
+* *Patzer:* Keine zusätzliche Auswirkung.
+
+.Rettungswürfe
+====
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] erlaubt einen <<ref_core_2d10_checks_saves_reflex,Reflex-Rettungswurf>>, um den erlittenen Schaden zu reduzieren.
+
+Zhul zaubert Feuerball und würfelt für seine xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe gemäß der xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Regeln] hoch genug, um den Zauberspruch zu wirken.
+Im Radius des Feuerballs stehen Thalvin und Mitstreiter Khelbor und werden mit jeweils 30 Schadenspunkten getroffen.
+Thalvin und Khelbor würfeln jeweils einen eigenen Reflex-Rettungswurf.
+Je nach Ergebnis erleidet einer oder beide von Ihnen nur 15 Schadenspunkte.
+====
+
 
 [[ref_core_2d10_checks_talentchecks]]
 === Talentproben
@@ -948,7 +812,7 @@ Geschick (15)
 
 Reflex (20)
 
-Das erste Beispiel beschreibt eine <<ref_core_2d10_checks_attributchecks,Geschick-Probe>>, die einen Mindestwurf von 15 erfordert und das zweite Beispiel beschreibt einen <<ref_core_2d10_checks_saves_base_reflex,Reflex-Rettungswurf>>, die einen Mindestwurf von 20 erfordert.
+Das erste Beispiel beschreibt eine <<ref_core_2d10_checks_attributchecks,Geschick-Probe>>, die einen Mindestwurf von 15 erfordert und das zweite Beispiel beschreibt einen <<ref_core_2d10_checks_saves_reflex,Reflex-Rettungswurf>>, die einen Mindestwurf von 20 erfordert.
 
 Für bekannte Mindestwürfe, zum Beispiel im Fall des <<ref_core_2d10_checks_standardminiumroll,Standardmindestwurfs>>, wird nur der Probenname genannt.
 
@@ -1002,6 +866,18 @@ Viele Begriffe und Regeln in diesem Kapitel verweisen bereits auf das Kapitel li
 Weiterhin sind Zustände zeitlich beschränkt, wobei diese Dauer im Allgemeinen durch den Auslöser vorgegeben wird.
 Sofern nicht anders angegeben, wird die Dauer eines Zustands in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] angegeben.
 
+Ein Charakter kann von beliebig vielen Zuständen gleichzeitig betroffen sein.
+Ihre unterschiedlichen Effekte sind kumulativ, identische Effekte potenzieren sich jedoch nicht.
+Erhält beispielsweise ein Charakter aufgrund zwei unterschiedlicher Zustände einen <<ref_core_2d10_checks_disadvantage,Nachteil>> in bestimmten Proben, hat dies keinen potenzierten Effekt.
+Dennoch endet der Nachteil erst, wenn beide Zustände abgelaufen sind.
+
+Wird ein Charakter aus zwei oder mehr unterschiedlichen Quellen durch den gleichen Zustand betroffen, gibt es zu Varianten zu beachten:
+
+* Der Zustand besitzt keine Stufen, sondern nur eine Dauer.
+Alle Zustände laufen individuell ab, jedoch erleidet der Charakter den Effekt des Zustands nur einmal.
+* Der Zustand besitzt ein Stufensystem, beispielsweise <<ref_core_2d10_condition_dazed,Benommenheit>>.
+In diesem Fall addiert jede Quelle eine Stufe hinzu bis zum Maximum.
+
 Die folgende link:../tables/table_conditions_overview.adoc[Tabelle] führt alle besonderen Zustände auf mit einer Beschreibung ihrer Auswirkungen auf xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], die Charakter durchführen können.
 
 In den folgenden Kapiteln werden die Zustände ausführlich erläutert.
@@ -1011,15 +887,15 @@ In den folgenden Kapiteln werden die Zustände ausführlich erläutert.
 Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag].
 Charakter gilt am Boden, wenn er liegt.
 
-In diesem Zustand erhält der Charakter einen <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle Proben.
-Er darf außerdem nur die Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_standup[Aufstehen] und Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_move[Rennen] mit halbierter BEW (min. 1,50) verwenden.
+In diesem Zustand erhalten alle anderen Charaktere und Kreaturen einen <<ref_core_2d10_checks_advantage,Vorteil>> auf ihre <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsproben>> gegen den Charakter.
+Alle xref:core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegungen] können nur mit halbierter BEW (min. 1,50) verwendet werden - der Charakter bewegt sich kriechend voran.
 
-Um den Zustand zu beenden, muss der Charakter das Bewegungsmanöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_standup[Aufstehen] in seiner Kampfphase verwenden.
+Der Charakter muss die Aktionen xref:core_rules_battlesystem.adoc#ref_core_battle_action_standup[Aufstehen] nutzen, um diesen Zustand zu beenden.
 
 [[ref_core_2d10_condition_corned]]
 === Bedrängt
 Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 weitere Charaktere oder Kreaturen mit ihm <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind.
-Ein bedrängter Charakter erhält <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidiungsproben>> gegen diese Gegner.
+Ein bedrängter Charakter erhält <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen].
 
 Es ist dabei unerheblich, wo die Angreifer stehen und von wo sie attackieren, solange sie dies im Nahkampf tun.
 Es gelten auch diagonal attackierende Gegner zu der Rechnung.
@@ -1031,58 +907,40 @@ Dies setzt sich fort, und zwar ist eine Kreatur der Größenkategorie 7 erst von
 
 Um den Zustand zu verlassen, muss der betroffene Charakter mit weniger Kreaturen im Kampf gebunden sein.
 
+[[ref_core_2d10_condition_threatened]]
+=== Bedroht
+Ein Charakter gilt als bedroht, wenn er sich in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines anderen Charakters oder einer Kreatur befindet, allerdings mit dieser nicht <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> ist.
+Dieser Zustand hat keine direkten Auswirkungen, jedoch kann bestimmte Effekte von diesem abhängig sein.
+Der Zustand wird beendet, wenn der Charakter sich aus der Bedrohungszone herausbewegt.
+
 [[ref_core_2d10_condition_dazed]]
-=== Benommen (Stufen 1-4)
+=== Benommen
 Verletzungen, starke Schmerzen oder auch viele magische Effekte verursachen Benommenheit.
 Dabei unterscheiden die Regeln nicht, ob ein Charakter beispielsweise einen Schlag an den Kopf bekommen hat und dadurch nur Weiß vor den Augen sieht oder ob er durch einen Zauberspruch seine Umwelt nur noch eingeschränkt wahrnimmt.
 
-Benommenheit wird in den Stufen 1 bis 4 gemessen, wobei eine höhere Stufe eine stärkere Benommenheit darstellt.
-Ein Charakter kann diese kumulativ erhalten, hat er beispielsweise bereits 2 Stufen und erhält aus einer anderen Quelle eine weitere Stufe, dann gilt er als benommen in dritter Stufe.
-Diese schränkt die Handlungsfähigkeit eines Charakters in seiner Kampfphase wie folgt ein:
+Benommenheit wird in den Stufen (1, 2, ...) gemessen und ist im Gegensatz zu anderen Zuständen kumulativ.
+Für jede unterschiedliche Quelle, aus der ein Charakter diesen Zustand erhält, erhält eine Stufe Benommenheit.
 
-|===
-|Stufe |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] / xref:../core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegung] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] |xref:../core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen]
-
-|Benommen (Stufe 1)
-|Nein
-|Ja
-|Ja
-|Ja
-
-|Benommen (Stufe 2)
-|Nein
-|Nein
-|Ja
-|Ja
-
-|Benommen (Stufe 3)
-|Nein
-|Nein
-|Nein
-|Ja
-
-|Benommen (Stufe 4)
-|Nein
-|Nein
-|Nein
-|Nein
-|===
-
-Die Benommenheit dauert normalerweise eine bestimmte Anzahl von Kampfphasen.
+Jede Stufe in Benommenheit dauert eine bestimmte Anzahl von Kampfphasen.
 Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
 Dieser Wert muss mit Beginn des Zustands einmalig bestimmt werden.
 Dabei gilt außerdem, dass immer die nächst-niedrige Stufe erreicht wird, sobald die aktuelle Stufe endet.
+Der Zustand endet somit erst, wenn die erste Stufe abgelaufen ist.
 
 .Benommenheit
 ====
-Ein Charakter mit einer KO-Stufe von 3 erhält den Zustand Benommen (Stufe 2).
+Ein Charakter mit einer KO-Stufe von 3 erhält den Zustand _Benommen_ (Stufe 2).
 Er würfelt eine W10 und erhält eine 5.
 Damit dauert die Benommenheit für 5-3=2 Kampfphasen an.
-Mit Beginn der dritten Kampfphase beginnt der Zustand Benommen (Stufe 1).
+Mit Beginn der dritten Kampfphase beginnt der Zustand _Benommen_ (Stufe 1).
 In diesem Moment würfelt der Charakter einen weiteren W10 und subtrahiert seine KO-Stufe.
 Diesmal würfelt er insgesamt eine 1.
 Somit dauert die Benommenheit noch eine Kampfphase auf Stufe 1 an.
 ====
+
+Für jede Stufe der Benommenheit verliert der Charakter in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] eine seiner xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen].
+Er kann damit 0 Aktionen pro Zug erreichen.
+Außerdem werden unabhängig der Stufe alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] mit <<ref_core_2d10_checks_disadvantage,Nachteil>> gewürfelt.
 
 [[ref_core_2d10_condition_immobile]]
 === Bewegungsunfähig
@@ -1095,7 +953,7 @@ Der Zustand endet üblicherweise nach Ablauf des verursachenden Effekts.
 Ein Charakter kann geblendet werden, zum Beispiel durch grelles Licht, einen Zauberspruch oder weil jemand ihm eine Augenbinde umgelegt hat.
 
 Ein blinder Charakter gilt als stünde er in xref:core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[totaler Dunkelheit].
-Außerdem kann er keine xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] durchführen.
+Außerdem erhält er auf seine xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] einen <<ref_core_characters_charactercreation_disadvantages,Nachteil>>.
 
 Einige Kreaturen besitzen keine typischen Sinne oder ihre Wahrnehmung basiert nicht hauptsächlich auf Sicht, sondern zum Beispiel auf Gehör.
 Auch diese Kreaturen können diesen Zustand erhalten, allerdings muss die verursachende Quelle explizit den besonderen Sinn betreffen.
@@ -1105,7 +963,7 @@ Sollte diese nicht gegeben sein, so dauert die Blindheit 1W10 minus die ER-Stufe
 
 [[ref_core_2d10_condition_burning]]
 === Brennend
-Ein brennender Charakter erhält zu Beginn seiner Kampfphase eine festgelegte Anzahl von Schadenspunkten für die angegebene xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart].
+Ein brennender Charakter erhält zu Beginn xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seines Zuges] eine festgelegte Anzahl von Schadenspunkten für die angegebene xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart].
 Ist keine angegeben, wird 1W3 Schadenspunkte angenommen.
 Es gelten die üblichen Regeln für die Bestimmung oder Reduktion von xref:core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden].
 
@@ -1169,9 +1027,9 @@ Die Anzahl der Stufen in Erschöpfung haben kumulative Effekte.
 Der INI-Bonus kann auch negativ werden.
 * pro Stufe erhält der Charakter einen Malus von -1,50 Meter auf seine <<ref_core_2d10_characters_attributes_secondary_movementrate,BEW>>.
 Der Malus kann BEW des Charakters nicht unter 1,50 Meter bringen.
-* Der Charakter erhält ab Stufe 2 auf alle <<ref_core_2d10_checks_saves_ST,Stärke-basierten>> Proben einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
+* Der Charakter erhält ab Stufe 2 auf alle <<ref_core_2d10_checks_saves_fortitude,Körperkraft-Rettungswürfe>> einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 
-Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_KO,KO-Rettungswurf>> ablegen.
+Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_fortitude,Körperkraft-Rettungswurf>> ablegen.
 Besteht er diesen Rettungswurf nicht, wird er <<ref_core_2d10_condition_unconscious,ohnmächtig>>.
 
 Um eine oder mehrere Stufen Erschöpfung zu entfernen, muss der Charakter sich <<ref_core_2d10_regeneration,erholen>>.
@@ -1180,26 +1038,66 @@ Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
 [[ref_core_2d10_condition_fleeing]]
 === Fliehend
 Manchmal ist Flucht die beste Verteidigung.
-Ein Charakter in diesem Zustand ist üblicherweise unfreiwillig auf der Flucht aus einer Kampfsituation, zum Beispiel aufgrund einer verpatzen <<ref_core_2d10_checks_saves_base_fear,Furcht-Probe>>.
+Ein Charakter in diesem Zustand ist jedoch unfreiwillig auf der Flucht aus einer Kampfsituation, zum Beispiel aufgrund des Zustands <<ref_core_2d10_condition_fearful,Furcht erfüllt>>.
 
-Ein fliehender Charakter muss in seiner Kampfphase seine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ausschließlich darauf verwenden, um den Kampf zu entkommen.
+Ein fliehender Charakter muss in seinem xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] seine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ausschließlich darauf verwenden, um den Kampf zu entkommen, auch wenn seine Bewegung xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] provozieren kann.
 
 Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen oder wenn der Charakter den Kampfschauplatz verlassen hat.
 Letzteres liegt im Ermessen des SL.
 Sollte keine konkrete Anzahl an Kampfphasen angegeben sein, gelten 1W0 - SB-Stufe des Charakters (Minimum 1).
+
+[[ref_core_2d10_condition_fearful]]
+=== Furcht erfüllt
+Viele natürliche wie unnatürliche Gefahren wecken einen instinktiven Drang zur Flucht.
+
+Beginn ein Charakter seinen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] mit diesem Zustand, muss er einen <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswurf>> ablegen.
+Es treten dabei folgende Effekte ein:
+
+* *Erfolg:* Der Charakter kann in seinem Zug normal agieren.
+* *Misserfolg:* Der Charakter ist von der Situation erschüttert, jedoch hat er sich noch einigermaßen im Griff.
+Solange der Auslöser seiner Furcht im Sichtfeld ist, ist er deutlich nervöser, was einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 bedeutet.
+* *Patzer:* Die Angst überkommt den Charakter und er muss sofort fliehen.
+Zusätzlich zu den Auswirkungen des Misserfolges erhält er den Zustand <<ref_core_2d10_condition_fleeing,fliehend>>.
+
+Der Zustand hält so lange an, wie der Auslöser der Furcht in der Wahrnehmung des Charakters liegt oder der auslösende Effekt endet.
+Sollte keine konkrete Anzahl an Kampfphasen angegeben sein, gelten 1W0 - SB-Stufe des Charakters (Minimum 1).
+
+[NOTE]
+Nicht immer sind Auslöser für diese Proben deutlich zu sehen.
+Manche Zaubersprüche generieren einfach Furcht im Verstand des Charakters.
+Ist die Quelle eines dieser Gefühle nicht genau auszumachen, so kann der Charakter vom SL auch in eine zufällige Richtung für eine kurze Anzahl von Kampfphasen, zum Beispiel 1W10 - SB (Minimum 1) Kampfphasen, geschickt werden.
 
 [[ref_core_2d10_condition_held]]
 === Gefangen / Gehalten
 Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen, ein Charakter kann in die prekäre Situation kommen, gefangen zu sein.
 
 Gefangene Charaktere gelten als <<ref_core_2d10_condition_immobile,bewegungsunfähig>>.
-Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind oder der Auslöser für den Zustand sind, einen <<ref_core_2d10_checks_situationalmodifiers_bonus,Bonus>> von +5 aus alle Angriffsproben gegen diesen Charakter.
+Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind oder der Auslöser für den Zustand sind, einen <<ref_core_2d10_checks_advantage,Vorteil>> auf alle xref:core_rules_battlesystem.adoc#ref_core_battle_attacktypes[Attacken] gegen diesen Charakter.
 
 Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen].
 
+[[ref_core_2d10_condition_horrified]]
+=== Horror
+Viel stärker als die <<ref_core_2d10_condition_fearful,Furcht>> ist die Erkenntnis, dass manche Dinge eigentlich nicht existieren dürften.
+Kosmische Schrecken, unnatürliche Ereignisse und zur Wirklichkeit gewordene Alpträume kreuzen selten, aber wenn dann äußerst prägend, das Leben eines Abenteurers.
+
+Beginn ein Charakter seinen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] mit diesem Zustand, muss er einen <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswurf>> ablegen.
+Es treten dabei folgende Effekte ein:
+
+* *Erfolg:* Der Charakter kann in seinem Zug normal agieren.
+* *Misserfolg:* Der Charakter ist schwer getroffen und konzentriert sich nur noch darauf, möglichst zu überleben.
+Er verliert 1 SP für jede volle 5 Punkte, um die er den nötigen <<ref_core_2d10_checks_miniumroll,Mindestwurf>> verpasst hat, jedoch mindestens 1.
+Außerdem erhält er den Zustand <<ref_core_2d10_condition_fleeing,fliehend>>.
+* *Patzer:* Der Verstand des Charakters setzt mit der Erkenntnis über die Schrecken aus.
+Der Charakter wird <<ref_core_2d10_condition_disabled,kampfunfähig>> so lange wie der Auslöser des Horrors in seinem Blickfeld ist.
+Es gelten die gleichen Auswirkungen wie bei einem Misserfolg, allerdings verliert er 2 SP für jede volle 5 Punkte, die er unter dem Mindestwurf liegt.
+
+Der Zustand hält so lange an, wie der Auslöser der Furcht in der Wahrnehmung des Charakters liegt oder der auslösende Effekt endet.
+Sollte keine konkrete Anzahl an Kampfphasen angegeben sein, gelten 1W0 - SB-Stufe des Charakters (Minimum 1).
+
 [[ref_core_2d10_condition_bondedincombat]]
 === Im Nahkampf gebunden
-Ein Charakter gilt als im Nahkampf gebunden, wenn er in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines Gegner steht und mindestens eine Angriffsprobe gewürfelt wurde.
+Ein Charakter gilt als im Nahkampf gebunden, wenn er in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines Gegners steht und mindestens eine Angriffsprobe gewürfelt wurde.
 Es können aufgrund einer einzelnen Angriffsprobe sowohl <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angreifer>> wie <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidiger>> im Nahkampf gebunden werden, wenn beide zum Zeitpunkt der Probe in der Bedrohungszone des jeweils anderen stehen.
 Das <<ref_core_2d10_checks_basicrole,Ergebnis>> dieser Probe ist dabei nicht relevant.
 Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm basieren.
@@ -1220,12 +1118,11 @@ Manche Kämpfer nutzen diesen Zustand gezielt, um in einen link:skills/core_skil
 Jeder Effekt, der diesen Zustand verursacht, besitzt seine eigenen Regeln, wie sich der Zustand auf sein Ziel auswirkt.
 
 Rasende Charaktere erhalten grundsätzlich einen <<ref_core_2d10_checks_disadvantage,Nachteil>> für alle <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidigungsproben>>.
-Sofern nicht anders angegeben, endet der Zustand automatisch nach so vielen Kampfphasen, wie der Charakter Stufen in seinem Attribut KO besitzt.
-Endet dieser Zustand, muss der Charakter einen <<ref_core_2d10_checks_saves_KO,KO-Rettungswurf>> bestehen oder er erhält eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
+Sofern nicht anders angegeben, endet der Zustand automatisch nach so vielen Kampfphasen, wie der Charakter Stufen in seinem Attribut <<ref_core_2d10_characters_attribute_constitution,KO>> besitzt.
+Endet dieser Zustand, muss der Charakter einen <<ref_core_2d10_checks_saves_fortitude,Körperkraft-Rettungswurf>> bestehen oder er erhält eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
 
 Rasend kann nicht mit <<ref_core_2d10_condition_bewitched,verzaubert>> kombiniert werden.
 Sollte ein rasender Charakter den Zustand <<ref_core_2d10_condition_bewitched,verzaubert>> erreichen, schlägt dieser automatisch fehl.
-Während des Rausches kann der Charakter keine Kampfmanöver außer Raufen und Ringen, Rennen, Sprinten und Springen verwenden und auch keine Talente außer Kampftalente.
 
 [[ref_core_2d10_condition_sleeping]]
 === Schlafend
@@ -1237,12 +1134,11 @@ Schlafende Charaktere können diesen Zustand im Normalfall nicht freiwillig been
 Sofern nicht anders angegeben, schlafen die meisten Charaktere 6-8 Stunden.
 Magisch verursachter Schlaf endet, wenn der Effekt endet.
 
-Wenn ein Charakter aus dem Schlaf aufwachen möchte, bevor dieser vorbei ist, muss er einen <<ref_core_2d10_checks_saves_ER,ER-Rettungswurf>> bestehen.
+Wenn ein Charakter aus dem Schlaf aufwachen möchte, bevor dieser vorbei ist, muss er einen <<ref_core_2d10_checks_saves_alertness,Aufmerksamkeit-Rettungswurf>> bestehen.
 
 [[ref_core_2d10_condition_unconscious]]
 === Ohnmächtig
-Ein ohnmächtiger Charakter kann weder Aktionen noch Manöver und auch keine sonstigen Proben würfeln.
-Erst wenn die Ohnmacht endet, kann der Charakter wieder Aktionen durchführen.
+Ein ohnmächtiger Charakter kann weder Aktionen noch Reaktionen einsetzen.
 Sofern nicht anders angegeben, dauert die Ohnmacht 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
 Ein Charakter beginnt das Ende seiner Ohnmacht <<ref_core_2d10_condition_onground,am Boden>>.
 
@@ -1254,15 +1150,22 @@ Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_
 
 Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar gegenüber Kreaturen, die über andere Sinne als "Sicht" verfügen.
 Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
-Ebenso gilt Unsichtbarkeit nicht als <<ref_core_2d10_checks_saves_base_douptillusions,Illusion>>, außer es ist explizit als solche beschrieben.
+Unsichtbarkeit gilt im Allgemeinen nicht als xref:core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm_doupt_illusion[Illusion], außer es ist explizit als solche beschrieben.
 Es ist möglich, dass in einer Kampfsituation unsichtbare Charaktere von einigen Kampfteilnehmern erkannt werden und von anderen nicht.
 Alle Kreaturen, die unsichtbare Charaktere erkennen, behandeln diese, als würde der Zustand nicht gelten.
 
 Der Zustand endet üblicherweise nach Ende des auslösenden Effekts.
 
+[[ref_core_2d10_condition_nauseated]]
+=== Übelkeit
+Bei manchen Dingen kommt einem einfach die Galle hoch.
+
+Dem Charakter ist übel und er kämpft damit, noch schlimmeres verhindern.
+Er muss für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 hinnehmen.
+
 [[ref_core_2d10_condition_surprised]]
 === Überrascht
-Ein überraschter Charakter kann in der Kampfphase keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
+Ein überraschter Charakter kann in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
 Alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] erhalten einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 Der Zustand endet nach einer Kampfphase.
 
@@ -1276,7 +1179,7 @@ Der Zustand hat über den Effekt hinaus keine weiteren Regeln.
 Es kann jedoch sein, dass andere Effekte wie Zaubersprüche, den Zustand weiterhin beeinflussen können.
 
 Verzaubert kann nicht mit <<ref_core_2d10_condition_frenzy,rasend>> kombiniert werden.
-Sollte ein verzauberter Charakter den Zustand Rasend erreichen, schlägt dieser automatisch fehl.
+Sollte ein verzauberter Charakter diesen Zustand erreichen, schlägt dieser automatisch fehl.
 
 [[ref_core_2d10_pools]]
 == Pools
@@ -1288,7 +1191,6 @@ Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden 
 
 [[ref_core_2d10_pools_tp]]
 === Trefferpunkte (TP)
-
 *Trefferpunkte (TP)* sind ein Maß für die körperliche Verfassung des Charakters.
 Sie können als eine Mischung auch der physischen Unversehrtheit und Ausdauer des Charakters interpretiert werden.
 Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw. umso gefährlicher wird die Welt für ihn, denn er nähert sich dem Tod.

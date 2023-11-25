@@ -22,10 +22,10 @@ Nach Ermessen des SL können Effekte auf Gebäude und Gegenstände ebenfalls kum
 Weiterhin kann der SL ebenso Effekte auf diese anders gestalten (sowohl verstärken als auch abschwächen), je nach Einschätzung der Umgebung.
 
 Jeder aufgeführte Schaden in Effekten auf Kreaturen entspricht einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit dem angegebenen Schaden zu Beginn der Kampfphase einer Kreatur.
-Dieser kann immer durch einen erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] halbiert werden.
+Dieser kann immer durch einen erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] halbiert werden.
 Die nötige Anzahl der Erfolge entspricht der Stärke des Erdbebens.
 
-Außerdem muss jede Kreatur zu Beginn ihrer Kampfphase eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_knockdown[Niederschlagsprobe] bestehen oder gehen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
+Außerdem muss jede Kreatur zu Beginn ihrer Kampfphase eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlags-Probe] bestehen oder gehen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
 Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des Erdbebens.
 
 //TODO
@@ -75,6 +75,19 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 [[ref_core_adventures_hazards_poisons]]
 === Gifte
 
+[[ref_core_adventures_hazards_poisons_resist]]
+==== Gift widerstehen
+Gifte sind typische Verteidigungsmaßnahmen von Tieren oder Pflanzen gegen Fressfeinde.
+Räuberische Tiere oder Monster setzen Gift als gefährliche Waffe ein.
+
+Kommt ein Charakter in Kontakt mit einem Gift, muss er einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körperkraft-Rettungswurf] ablegen.
+Der Mindestwurf für die Probe hängt von der <<ref_core_adventures_hazards_poisons_strengh,Giftstärke>> ab.
+Bei einem xref:ref_core_2d10_checks_successes[Erfolg] bleibt der Charakter von dem Gift verschont.
+
+Jede Beschreibung eines Giftes enthält einen *sekundären Effekt* und einen *primären Effekt*.
+Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] tritt der primäre Effekt sofort ein.
+Im Fall eines xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzers] treten der primäre und der sekundäre Effekt sofort ein.
+
 [[ref_core_adventures_hazards_poisons_strengh]]
 ==== Giftstärke
 
@@ -107,6 +120,20 @@ Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des 
 [[ref_core_adventures_hazards_diseases]]
 === Krankheiten
 
+[[ref_core_adventures_hazards_diseases_resist]]
+==== Krankheiten widerstehen
+Der Körper eines Abenteurers kann nicht nur von außen, sondern auch von innen attackiert werden.
+xref:core_rules_adventures.adoc#ref_core_adventures_hazards_diseases[Krankheiten] können natürlichen wie unnatürlichen Ursprungs sein.
+Der Aufenthalt in gefährlichen Gebieten kann zu einer Ansteckung führen oder der Kontakt mit einem Überträger.
+Manche Kreaturen tragen Krankheiten an ihren Klauen und ein Charakter steckt sich im Fall einer Verletzung an.
+
+Kommt ein Charakter in Kontakt mit einer Krankheit, muss er einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körperkraft-Rettungswurf] ablegen.
+Der Mindestwurf für die Probe hängt von der <<ref_core_adventures_hazards_diseases_strengh,Stärke der Krankheit>> ab.
+Bei einem xref:ref_core_2d10_checks_successes[Erfolg] bleibt der Charakter von der Krankheit verschont.
+
+Jede Beschreibung einer Krankheit enthält einen *sekundären Effekt* und einen *primären Effekt*.
+Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] tritt der primäre Effekt sofort ein.
+Im Fall eines xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzers] treten der primäre und der sekundäre Effekt sofort ein.
 
 [[ref_core_adventures_hazards_diseases_strengh]]
 ==== Stärke der Krankheit
@@ -267,9 +294,6 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sturm der Stärke 3 verursacht be
 
 [[ref_core_adventures_harards_missing_food_and_water]]
 === Unterernährung / Dehydrierung
-
-[[ref_core_adventures_hazards_sickness]]
-=== Krankheiten
 
 [[ref_core_adventures_items]]
 == Gegenstände

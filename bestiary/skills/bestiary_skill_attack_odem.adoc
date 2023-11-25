@@ -17,7 +17,7 @@ Der Kegel hat dabei eine Ausdehnung gemäß der angegebenen *Reichweite* oder 1,
 Die Schadensprobe wird mit dem angegebenen *Schaden* gewürfelt, wobei der angegebene xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[*Schadenstyp*] verursacht wird.
 Sollte keine Schadenwürfel angegeben sein, wird die Schadensprobe mit 1W6 pro EN-Stufe gewürfelt.
 
-Kreaturen im Wirkungsbereich dürfen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_reflex[Reflex-Rettungswurf] gegen das Ergebnis der Angriffsprobe ablegen.
+Kreaturen im Wirkungsbereich dürfen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen das Ergebnis der Angriffsprobe ablegen.
 Bei einem Erfolg können sie den versuchten Schaden halbieren.
 
 .Atemattacke

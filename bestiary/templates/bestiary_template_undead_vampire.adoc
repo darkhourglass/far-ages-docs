@@ -44,15 +44,16 @@ Für die Besonderheiten bezüglich der xref:../../rules/advanced/creaturetypes/p
 Vampire sind außergewöhnliche Untote für die nicht alle üblichen Regeln gelten.
 Folgende Ausnahmen sind zu beachten:
 
-* Entgegen der Regeln für Untote gelten für folgende Proben die üblichen Regeln für Vampire:
-** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_disgust[Ekel]
-** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_fear[Furcht]
-** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_horror[Horror]
-* Vampire sind allerdings immun gegenüber xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_poisonresist[Gift] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_base_sicknessresist[Krankheiten].
+* Entgegen der Regeln für Untote gelten die üblichen Regeln für Vampire:
+** Vampire sind nicht immun gegen den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
+** Vampire sind nicht immun gegen den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror]
+* Vampire erhalten die Fähigkeit link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* Vampire erhalten die Fähigkeit link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
 * Vampire sind nicht gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
-* Vampire sind nur immun gegenüber folgenden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_conditions[Situationen]:
+* Vampire sind nur immun gegenüber folgenden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_conditions[Zuständen]:
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * Vampire können SP verlieren und erleben alle damit verbundenen Konsequenzen.
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär]).

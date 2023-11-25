@@ -11,7 +11,7 @@ Um das Hortgespühr zu aktivieren, muss der Drache nur seinen Hort bestimmen.
 Als Hort gilt dann ein abgeschlossener Raum, den er als seine Heimat ansieht, beispielsweise ein Höhlensystem, eine Bergspitze oder ein Krater.
 
 Sobald eine andere link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur den Hort betritt, muss sie eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Probe] in xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] oder xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] (ihre Wahl) ablegen.
-Der Drache würfelt gegen dieses Ergebnis einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ER[ER-Rettungswurf].
+Der Drache würfelt gegen dieses Ergebnis einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit-Rettungswurf].
 
 Besteht er den Rettungswurf gegen den Eindringling, weiß er sofort, dass dieser anwesend ist, unabhängig wo im Multiversum der Drache sich derzeit befindet.
 Erst wenn der Eindringling den Hort verlässt, spürt der Drache seine Anwesenheit nicht mehr.

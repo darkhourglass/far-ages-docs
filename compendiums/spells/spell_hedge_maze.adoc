@@ -15,7 +15,7 @@ Die Pflanzen wachsen im Wirkungsbereich des Zauberspruches aus dem Boden und fan
 Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] werden alle Kreaturen im Wirkungsbereich im Labyrinth eingesperrt, auch Du, solltest Du Dich im Wirkungsbereich befinden.
 Mit dieser Probe darfst Du initial entscheiden, die Kreaturen in Gruppen einzuteilen, die gemeinsam an der gleichen Stelle im Labyrinth starten.
 
-Beginnt eine Kreatur ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] im Labyrinth, muss sie zunächst einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_ER[ER-Rettungswurf] gegen Deine Spruchzauberei-Probe ablegen.
+Beginnt eine Kreatur ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] im Labyrinth, muss sie zunächst einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit-Rettungswurf] gegen Deine Spruchzauberei-Probe ablegen.
 Gruppen von Kreaturen können auch eine Kreatur bestimmen, die einen Rettungswurf für Gruppen würfelt, jedoch müssen dann alle Gruppenmitglieder mit dem Ergebnis leben.
 Misslingt die Probe, irrt die Kreatur diese Kampfphase ziellos im Labyrinth umher und verliert damit ihre Kampfphase.
 
