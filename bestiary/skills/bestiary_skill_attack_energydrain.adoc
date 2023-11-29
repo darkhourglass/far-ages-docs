@@ -11,8 +11,8 @@ Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Das Ziel hat immer eine die Möglichkeit zu einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe], solange sie nicht von der angreifenden Kreatur xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten] wird und bei Bewusstsein ist.
 Die Art der Verteidigungsprobe ist von dem *Pool* abhängig wie folgt:
 
-* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP]: xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körperkraft-Rettungswurf] +
-* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP]: xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic_defense[Magieabwehr-Rettungswurf] +
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP]: xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] +
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP]: xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] +
 * xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP]: xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] +
 
 Die angegebene *Reichweite* kann eine beliebige Angabe in Metern sein.

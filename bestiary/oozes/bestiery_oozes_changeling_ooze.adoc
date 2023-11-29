@@ -11,10 +11,17 @@ Lore
 
 == Profil
 
-*ST:* 6 (+2)     *GE:* 6 (+2)     *KO:* 6 (+2) +
-*ER:* 9 (+3)     *EN:* 6 (+2)     *SB:* 9 (+3)    *CH:* 6 (+2) +
+*ST:* 6 (+2) +
+*GE:* 6 (+2) +
+*KO:* 6 (+2) +
+*ER:* 9 (+3) +
+*EN:* 6 (+2) +
+*SB:* 9 (+3) +
+*CH:* 6 (+2) +
 
-*TP:* 90     *MP:* 60     *SP:* - +
+*TP:* 90 +
+*MP:* 60 +
+*SP:* - +
 
 *WID:* 20 +
 *BEW:* 12,00 +
@@ -35,6 +42,14 @@ Lore
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +5 +
+*Körper:* +4 +
+*Magie:* +5 +
+*Reflex:* +5 +
 
 == Offensiv
 
@@ -117,7 +132,7 @@ Formwandler verlassen sich stattdessen auf ihre eigene Fähigkeit des <<ref_best
 * Im Gegensatz zu vergleichbaren Fähigkeiten wie link:../skills/bestiary_skill_shapeshift.adoc[Gestaltwandel] verändern sich die Attribute, Attributseigenschaften und Pools des Formwandlers in einer anderen Form nicht.
 * Ein Formwandler kann eine Form für 8 Stunden halten.
 Danach muss er für mindestens 4 Stunden in seiner natürlichen Form eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Rast] durchführen.
-Er kann versuchen dieses Limit auszudehnen, indem er einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körperkraft-Rettungswurf] gegen den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] 18 ablegt.
+Er kann versuchen dieses Limit auszudehnen, indem er einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] 18 ablegt.
 Er erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5 auf diesen Wurf für jede volle Stunde über dem Limit von 8 Stunden.
 Misslingt der Rettungswurf, verwandelt er sich sofort in seine natürliche Form zurück.
 

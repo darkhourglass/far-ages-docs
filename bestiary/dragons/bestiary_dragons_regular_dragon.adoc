@@ -17,10 +17,17 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 
 == Profil
 
-*ST:* 12 (+4)     *GE:* 5 (+2)     *KO:* 12 (+4) +
-*ER:* 8 (+3)      *EN:* 6 (+2)     *SB:* 8 (+3)    *CH:* 12 (+4) +
+*ST:* 12 (+4) +
+*GE:* 5 (+2) +
+*KO:* 12 (+4) +
+*ER:* 8 (+3) +
+*EN:* 6 (+2) +
+*SB:* 8 (+3) +
+*CH:* 12 (+4) +
 
-*TP:* 140     *MP:* 60     *SP:* 80 +
+*TP:* 140 +
+*MP:* 60 +
+*SP:* 80 +
 
 *WID:* 30 +
 *BEW:* 15,00 link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 45,00 +
@@ -38,6 +45,14 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 
+== Rettungswürfe
+
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +7 +
+*Körper:* +8 +
+*Magie:* +5 +
+*Reflex:* +5 +
+
 == Offensiv
 
 * link:../skills/specific/dragons/bestiary_skill_dragons_dragons_breath.adoc[Drachenodem] 10 (4W10, xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], 12,00 Meter)
@@ -49,7 +64,6 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 == Defensive
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8 (+2)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 10 (+4)
 
 == Sonstiges
 

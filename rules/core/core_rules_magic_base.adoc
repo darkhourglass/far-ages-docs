@@ -425,7 +425,7 @@ In dem Moment der Spruchzauberei-Probe muss die xref:core_rules_2d10_system.adoc
 ==== Rettungswürfe
 Viele Zaubersprüche erlauben es dem Ziel, sich gegen den magischen Angriff zu verteidigen.
 Die Angabe „Ja“ unter *Rettungswurf* gibt an, dass ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] erlaubt ist.
-Sofern nicht anders angegeben, wird die Probe mit dem Rettungswurf.adoc#ref_core_2d10_checks_saves_magic_defense[Magieabwehr] gewürfelt.
+Sofern nicht anders angegeben, wird die Probe mit dem Rettungswurf xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] gewürfelt.
 Die Angabe „Nein“ gibt an, dass keinen Rettungswurf erlaubt (oder nötig) ist.
 
 Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“ beziehen sich darauf, dass der Zauberspruch unterschiedliche <<ref_core_magic_rules_spellcasting_spellspecifics_targets,Ziele>> ansprechen kann, zum Beispiel „Selbst/Berührung“.
@@ -449,29 +449,25 @@ Diese Form des Rettungswurfs ist Teil des <<ref_core_magic_rules_spellcasting_sp
 Während der Vorbereitung ist es natürlich möglich, dass der Zauberer unterbrochen wird.
 Dies wird sogar von halbwegs intelligenten Gegnern besonders verfolgt, denn die wenigstens warten ab, bis die Beschwörungsgesänge, die angedeuteten grünen Wolken und die düster gemurmelten Worte des Magiers sich in gleißende Magie entlädt und auf die Unglücklichen niederprasselt.
 
-Somit kann ein Magier, der zu einer anderen xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] als xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereiten] oder dem Verwenden eines Talents gezwungen wird, die Vorbereitung für den Zauber verlieren.
+Somit kann ein Magier, der zu einer anderen xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] als xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereiten] die Vorbereitung für den Zauber verlieren.
 Anders formuliert, wenn ein Magier in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] eine Aktion ausführt, die nicht xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereiten] ist, obwohl er einen Zauberspruch vorbereitet, ist durch diese Regeln der Unterbrechung betroffen.
+Ebenso bei einem xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag] muss der Magier diesen Regeln folgen.
 
 Der Zauberer kann im Fall einer Unterbrechung versuchen, seine Konzentration zu halten.
-Dazu würfelt er eine Talent-Probe in xref:core_rules_talents_base.adoc#ref_talents_discipline[Disziplin], wobei der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] aus der Formel 8 + POT (siehe auch die <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>>) berechnet wird.
+Dazu würfelt er eine Probe auf xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen], wobei der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] aus der Formel 8 + POT (siehe auch die <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>>) berechnet wird.
+
 Besteht er die Probe, behält er die Vorbereitung und kann diese in seiner nächsten Aktion weiterführen.
 Diese kann auch erst in seinem nächsten Zug liegen.
-Ein xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag] bedeutet immer den automatischen Verlust der Vorbereitung.
-
-Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] muss er eine Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen] würfeln.
-Auch hier berechnet sich der Mindestwurf aus der Formel 8 + POT.
-
-Besteht der Charakter die Proben nicht, so erhält er einen xref:core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit POT*1W3 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.
+Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] erhält er einen xref:core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit POT*1W3 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.
 
 .Verbrennen
 ====
 Bei dem Versuch, einen Zauberspruch mit POT 6 auszusprechen, wird der Zauberer unterbrochen.
-Zuerst würfelt er eine Probe auf Disziplin mit dem Mindestwurf 8+6=14.
-Schafft er diese Probe nicht, muss er eine weitere Probe auf Verbrennen widerstehen gegen 8+6=14 ablegen.
+Er muss eine Probe auf Verbrennen widerstehen gegen 8+6=14 ablegen.
 Schlägt auch diese fehl, erhält er 6W3 Schaden.
 ====
 
-Ist die Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen Widerstehen] ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer], tritt außerdem ein <<ref_core_magic_rules_spellcasting_spell_botches,Zauberpatzer>> ein.
+Ist die Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer], tritt neben dem Schaden des Misserfolgs außerdem ein <<ref_core_magic_rules_spellcasting_spell_botches,Zauberpatzer>> ein.
 
 [[ref_core_magic_rules_spellcasting_cancelspell]]
 ==== Freiwilliges Abbrechen eines Zauberspruches

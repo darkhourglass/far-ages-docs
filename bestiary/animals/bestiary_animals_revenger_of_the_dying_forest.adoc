@@ -37,10 +37,17 @@ Der Legende nach kann ein Wald wieder auferstehen, wenn die Rache vollzogen wurd
 
 == Profil
 
-*ST:* 10 (+4)     *GE:* 4 (+2)     *KO:* 7 (+3) +
-*ER:* 5 (+2)      *EN:* 4 (+2)     *SB:* 6 (+2)    *CH:* 7 (+3) +
+*ST:* 10 (+4) +
+*GE:* 4 (+2) +
+*KO:* 7 (+3) +
+*ER:* 5 (+2) +
+*EN:* 4 (+2) +
+*SB:* 6 (+2) +
+*CH:* 7 (+3) +
 
-*TP:* 100     *MP:* 40     *SP:* 65 +
+*TP:* 100 +
+*MP:* 40 +
+*SP:* 65 +
 
 *WID:* 20 +
 *BEW:* 12,00 +
@@ -58,6 +65,14 @@ Der Legende nach kann ein Wald wieder auferstehen, wenn die Rache vollzogen wurd
 *Immunitäten:*
 
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +5+ +
+*Körper:* +7 +
+*Magie:* +4 +
+*Reflex:* +4 +
 
 == Offensiv
 

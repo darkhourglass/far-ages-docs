@@ -13,14 +13,22 @@ Lore
 == Profil
 
 // TODO
+
 [NOTE]
 Dieses Profil basiert auf einem menschlichen Nekromanten.
 Es wurde das XXX-Profil zur Verteilung der Attribute und Talente verwendet.
 
-*ST:* 5 (+2)    *GE:* 3 (+1)    *KO:* 3 (+1) +
-*ER:* 8 (+3)    *EN:* 8 (+3)    *SB:* 4 (+2)    *CH:* 2 (+1) +
+*ST:* 5 (+2) +
+*GE:* 3 (+1) +
+*KO:* 3 (+1) +
+*ER:* 8 (+3) +
+*EN:* 8 (+3) +
+*SB:* 4 (+2) +
+*CH:* 2 (+1) +
 
-*TP:* 65     *MP:* 125     *SP:* - +
+*TP:* 65 +
+*MP:* 125 +
+*SP:* - +
 
 *WID:* 12 +
 *BEW:* 7,50 +
@@ -57,6 +65,14 @@ Es wurde das XXX-Profil zur Verteilung der Attribute und Talente verwendet.
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +3 +
+*Körper:* +3 +
+*Magie:* +5 +
+*Reflex:* +4 +
+
 == Offensiv
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei (Nekromantie)] 10 (+3)
@@ -74,7 +90,6 @@ Es wurde das XXX-Profil zur Verteilung der Attribute und Talente verwendet.
 == Sonstiges
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] 10 (+3)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discipline[Disziplin] 10 (+2)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_research[Forschen] 8 (+3)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Goldschmied)] 4 (+1)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_read_write[Lesen/Schreiben] 10 (+3)

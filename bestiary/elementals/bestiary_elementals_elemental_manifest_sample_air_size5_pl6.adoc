@@ -12,10 +12,17 @@ Zwei Lichter, wie ein kondensierter Blitz, starren Euch entgegen, wo ihr ein Ges
 
 == Profil
 
-*ST:* 6 (+2)     *GE:* 5 (+2)     *KO:* 3 (+1) +
-*ER:* 4 (+2)     *EN:* 6 (+2)     *SB:* 3 (+1)    *CH:* 5 (+2) +
+*ST:* 6 (+2) +
+*GE:* 5 (+2) +
+*KO:* 3 (+1) +
+*ER:* 4 (+2) +
+*EN:* 6 (+2) +
+*SB:* 3 (+1) +
+*CH:* 5 (+2) +
 
-*TP:* 55     *MP:* 60     *SP:* - +
+*TP:* 55 +
+*MP:* 60 +
+*SP:* - +
 
 *WID:* 10 +
 *BEW:* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 10,50 +
@@ -44,6 +51,14 @@ Zwei Lichter, wie ein kondensierter Blitz, starren Euch entgegen, wo ihr ein Ges
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
+== Rettungswürfe
+
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +3 +
+*Körper:* +3 +
+*Magie:* +3 +
+*Reflex:* +4 +
+
 == Offensiv
 
 * link:../skills/specific/elementals/bestiary_skill_elementals_elemental_blast.adoc[Elementarer Stoß] 8 (3W6 Luft)
@@ -53,7 +68,6 @@ Zwei Lichter, wie ein kondensierter Blitz, starren Euch entgegen, wo ihr ein Ges
 == Defensive
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 3 (+2)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 3 (+1)
 
 == Sonstiges
 

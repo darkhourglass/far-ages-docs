@@ -304,7 +304,6 @@ Abhängig von ihrem Element erhalten Manifeste außerdem noch die folgenden Modi
 Jedes Manifest lernt die folgenden Talente:
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen]
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen]
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen]
 
 Der Bonus für die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] berechnet sich aus dem üblichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus], der mit dem jeweiligen Talent assoziert wird und +1 pro 2 Machtstufen.
@@ -314,7 +313,6 @@ Der Bonus für die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d
 Das Feuer-Manifest mit Machtstufe 6 aus dem vorherigen Beispiel erhält die folgenden Talentboni:
 
 * Ausweichen 3 (+2)
-* Niederschlag Widerstehen 3 (+1)
 * Verborgenes Erkennen 3 (+2)
 
 ====

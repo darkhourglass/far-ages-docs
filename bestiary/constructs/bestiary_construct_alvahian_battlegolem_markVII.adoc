@@ -10,10 +10,17 @@ Lore
 
 == Profil
 
-*ST:* 10 (+4)     *GE:* 3 (+1)      *KO:* 7 (+3) +
-*ER:* 2  (+1)     *EN:* 2 (+1)      *SB:* 3 (+1)     *CH:* 1 (+1) +
+*ST:* 10 (+4) +
+*GE:* 3 (+1) +
+*KO:* 7 (+3) +
+*ER:* 2 (+1) +
+*EN:* 2 (+1) +
+*SB:* 3 (+1) +
+*CH:* 1 (+1) +
 
-*TP:* 180    *MP:* 140     *SP:* 20 +
+*TP:* 180 +
+*MP:* 140 +
+*SP:* 20 +
 
 *WID:* 26 +
 *BEW:* 12,00 Meter +
@@ -45,6 +52,14 @@ Lore
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +7 +
+*Magie:* +2 +
+*Reflex:* +2 +
 
 == Offensiv
 

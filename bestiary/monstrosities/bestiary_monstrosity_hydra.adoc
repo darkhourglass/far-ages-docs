@@ -27,8 +27,13 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 
 == Profil
 
-*ST:* 7 (+3)    *GE:* 3 (+1)   *KO:* 8 (+3) +
-*ER:* 2 (+1)    *EN:* 3 (+1)   *SB:* 2 (+1)    *CH:* 1 (+1) +
+*ST:* 7 (+3) +
+*GE:* 3 (+1) +
+*KO:* 8 (+3) +
+*ER:* 2 (+1) +
+*EN:* 3 (+1) +
+*SB:* 2 (+1) +
+*CH:* 1 (+1) +
 
 *TP:* 110 bis 310 (<<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>)     *MP:* 30     *SP:* 30 +
 
@@ -43,6 +48,14 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 *Resistenzen:* - +
 *Immunitäten:* - +
 
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +3 +
+*Körper:* +6 +
+*Magie:* +2 +
+*Reflex:* +2 +
+
 == Offensiv
 
 * link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9 (1W6+1)
@@ -53,7 +66,6 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 
 * link:../skills/bestiary_skill_dodge.adoc[Ducken]
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+1)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 6 (+3)
 
 == Sonstiges
 

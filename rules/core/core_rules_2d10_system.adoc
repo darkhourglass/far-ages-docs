@@ -743,12 +743,12 @@ Dieses System soll jedoch nicht verhindern, dass der Spieler eventuell möchte, 
 Um beispielsweise einen Nachteil bewusst auszuspielen, kann die Probe einfach ignoriert werden.
 
 [[ref_core_2d10_checks_saves_fortitude]]
-==== Körperkraft
+==== Körper
 *Attribute:* ST+KO
 
 
-[[ref_core_2d10_checks_saves_magic_defense]]
-==== Magieabwehr
+[[ref_core_2d10_checks_saves_magic]]
+==== Magie
 *Attribute:* EN+SB
 
 
@@ -1027,9 +1027,9 @@ Die Anzahl der Stufen in Erschöpfung haben kumulative Effekte.
 Der INI-Bonus kann auch negativ werden.
 * pro Stufe erhält der Charakter einen Malus von -1,50 Meter auf seine <<ref_core_2d10_characters_attributes_secondary_movementrate,BEW>>.
 Der Malus kann BEW des Charakters nicht unter 1,50 Meter bringen.
-* Der Charakter erhält ab Stufe 2 auf alle <<ref_core_2d10_checks_saves_fortitude,Körperkraft-Rettungswürfe>> einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
+* Der Charakter erhält ab Stufe 2 auf alle <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswürfe>> einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 
-Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_fortitude,Körperkraft-Rettungswurf>> ablegen.
+Hat ein Charakter am Ende seiner aktuellen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] mindestens 1 Stufe Erschöpfung mehr als er Stufen in KO hat, muss er einen <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswurf>> ablegen.
 Besteht er diesen Rettungswurf nicht, wird er <<ref_core_2d10_condition_unconscious,ohnmächtig>>.
 
 Um eine oder mehrere Stufen Erschöpfung zu entfernen, muss der Charakter sich <<ref_core_2d10_regeneration,erholen>>.
@@ -1119,7 +1119,7 @@ Jeder Effekt, der diesen Zustand verursacht, besitzt seine eigenen Regeln, wie s
 
 Rasende Charaktere erhalten grundsätzlich einen <<ref_core_2d10_checks_disadvantage,Nachteil>> für alle <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidigungsproben>>.
 Sofern nicht anders angegeben, endet der Zustand automatisch nach so vielen Kampfphasen, wie der Charakter Stufen in seinem Attribut <<ref_core_2d10_characters_attribute_constitution,KO>> besitzt.
-Endet dieser Zustand, muss der Charakter einen <<ref_core_2d10_checks_saves_fortitude,Körperkraft-Rettungswurf>> bestehen oder er erhält eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
+Endet dieser Zustand, muss der Charakter einen <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswurf>> bestehen oder er erhält eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
 
 Rasend kann nicht mit <<ref_core_2d10_condition_bewitched,verzaubert>> kombiniert werden.
 Sollte ein rasender Charakter den Zustand <<ref_core_2d10_condition_bewitched,verzaubert>> erreichen, schlägt dieser automatisch fehl.
@@ -1167,7 +1167,7 @@ Er muss für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesys
 === Überrascht
 Ein überraschter Charakter kann in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
 Alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] erhalten einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
-Der Zustand endet nach einer Kampfphase.
+Der Zustand endet üblicherweise nach einer Kampfphase.
 
 [[ref_core_2d10_condition_bewitched]]
 === Verzaubert

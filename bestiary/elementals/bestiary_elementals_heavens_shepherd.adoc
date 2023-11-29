@@ -26,10 +26,17 @@ Weiterhin wird vermutet, dass der Hirte des Himmels mit manchen Vögeln aus sein
 
 == Profil
 
-*ST:* 12 (+4)    *GE:* 5 (+2)     *KO:* 16 (+5) +
-*ER:* 9 (+3)     *EN:* 12 (+4)    *SB:* 8 (+3)    *CH:* 8 (+3) +
+*ST:* 12 (+4) +
+*GE:* 5 (+2)  +
+*KO:* 16 (+5) +
+*ER:* 9 (+3)  +
+*EN:* 12 (+4) +
+*SB:* 8 (+3) +
+*CH:* 8 (+3) +
 
-*TP:* 160     *MP:* 120     *SP:* - +
+*TP:* 160 +
+*MP:* 120 +
+*SP:* - +
 
 *WID:* 28 +
 *BEW:* link:../skills/bestiary_skill_move_flight.adoc[Flug] (120,00 Meter) +
@@ -62,6 +69,14 @@ Weiterhin wird vermutet, dass der Hirte des Himmels mit manchen Vögeln aus sein
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
+== Rettungswürfe
+
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +6 +
+*Körper:* +9 +
+*Magie:* +7 +
+*Reflex:* +5 +
+
 == Offensiv
 
 * link:../skills/specific/elementals/bestiary_skill_elementals_primordial_spellcaster.adoc[Ursprünglicher Zauberer] (Bewegung, 10 (+4))
@@ -77,9 +92,7 @@ Weiterhin wird vermutet, dass der Hirte des Himmels mit manchen Vögeln aus sein
 
 * <<ref_bestiary_heavens_shepherd_eyes_of_the_volery,Die Augen des Vogelschwarms>>
 * <<ref_bestiary_heavens_shepherd_lord_of_the_volery,Herr des Vogelschwarms>>
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discipline[Disziplin] 8 (+3)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 8 (+3)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 12 (+4)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft] 8 (+3)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] 8 (+4)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8 (+3)

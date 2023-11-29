@@ -16,10 +16,17 @@ Eine Kolonie von Hängenden Verderben kann schnell wachsen, wenn genug Nahrung v
 
 == Profil
 
-*ST:* 5 (+2)     *GE:* 2 (+1)     *KO:* 4 (+2) +
-*ER:* 3 (+1)     *EN:* 2 (+1)     *SB:* 2 (+1)    *CH:* 1 (+1) +
+*ST:* 5 (+2) +
+*GE:* 2 (+1) +
+*KO:* 4 (+2) +
+*ER:* 3 (+1) +
+*EN:* 2 (+1) +
+*SB:* 2 (+1) +
+*CH:* 1 (+1) +
 
-*TP:* 55     *MP:* 20     *SP:* 15 +
+*TP:* 55 +
+*MP:* 20 +
+*SP:* 15 +
 
 *WID:* 14 +
 *BEW:* - +
@@ -33,6 +40,14 @@ Eine Kolonie von Hängenden Verderben kann schnell wachsen, wenn genug Nahrung v
 *Immunitäten:* +
 
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +4 +
+*Magie:* +2 +
+*Reflex:* +2 +
 
 == Offensiv
 

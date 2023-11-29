@@ -86,8 +86,8 @@ Als *Überraschungsangriff* wird der <<ref_core_battle_cycle_start,Beginn eines 
 Eine Seite könnte im Kampf als Überraschungsangriff beispielsweise in den folgenden Situationen erfolgreich initialisieren:
 
 * Die Angreifer legen sich mit erfolgreichen Proben auf xref:core_rules_talents_base.adoc#ref_talents_hide[Verstecken] oder xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] auf die Lauer und initialisieren die erste Kampfphase.
-Gleichzeitig schaffen die Verteidiger es nicht mit Proben in xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] die Ergebnisse der Angreifer zu schlagen.
-* XXX
+* Je nach Spielsituation kann der SL erlauben, die Verteidiger Proben in xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit-Rettungswürfen] versuchen zu lassen, die Ergebnisse der Angreifer zu schlagen.
+* Hierbei können manche Verteidiger weiterhin xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_surprised[überrascht] sein und ein Teil nicht.
 
 Die maßgebliche Entscheidung, dass ein Überraschungsangriff vorliegt, liegt beim SL.
 
@@ -95,8 +95,7 @@ Kommt es zu einem Überraschungsangriff, gelten für die erste <<ref_core_battle
 
 * Zunächst wird die <<ref_core_battle_cycle_initiative,Initiative>> wie üblich bestimmt
 * die Seite, die den Überraschungsangriff erfolgreich initiiert, darf normal handeln
-* die überraschte Seite erhält keine <<ref_core_battle_cycle_battlephase_own_turn,eigenen Züge>>, sondern darf nur <<ref_core_battle_reactions,Reaktionen>> durchführen
-* alle <<ref_core_battle_reactions,Reaktionen>> der überraschten Seite müssen als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] gewürfelt werden, wenn sie Proben erfordern.
+* die überraschte Seite beziehungsweise alle Verteidiger, die den Überraschungsangriff nicht abwehren konnten, erhalten für diese erste Kampfphase den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_surprised[überrascht].
 
 Nach dieser ersten Kampfphase läuft der Kampf normal weiter ohne die genannten Einschränkungen für die Verteidiger.
 
@@ -1633,8 +1632,7 @@ Der Charakter erhält damit eine mittelschwere Verletzung.
 Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer <<ref_core_battle_wounds,Verletzung>> einen *Niederschlag* erleiden kann.
 Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht.
 Es wird ihm "Schwarz vor Augen" und wird er durch die Wucht des Angriffes niedergeschmettert.
-Um dies zu prüfen, muss der Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körperkraft-Rettungswurf] ablegen.
-Es auch möglich das Talent xref:core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] zu nutzen.
+Um dies zu prüfen, muss der Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] ablegen.
 
 Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für den Rettungswurf wird durch den aktuell höchsten <<ref_core_battle_wounds_additional_wounds,Verletzungsgrad>>, die erhaltene Verletzung berücksichtigend, wie folgt kalkuliert:
 

@@ -14,10 +14,17 @@ Eine wage, humanoide Gestalt formt sich aus den Flammen, die Augen schwarz wie K
 
 == Profil
 
-*ST:* 7 (+3)     *GE:* 4 (+2)     *KO:* 4 (+2) +
-*ER:* 4 (+2)     *EN:* 8 (+3)     *SB:* 2 (+1)    *CH:* 3 (+1) +
+*ST:* 7 (+3) +
+*GE:* 4 (+2) +
+*KO:* 4 (+2) +
+*ER:* 4 (+2) +
+*EN:* 8 (+3) +
+*SB:* 2 (+1) +
+*CH:* 3 (+1) +
 
-*TP:* 65     *MP:* 80     *SP:* - +
+*TP:* 65 +
+*MP:* 80 +
+*SP:* - +
 
 *WID:* 16 +
 *BEW:* 7,50 +
@@ -46,6 +53,14 @@ Eine wage, humanoide Gestalt formt sich aus den Flammen, die Augen schwarz wie K
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
+== Rettungswürfe
+
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +2 +
+*Körper:* +5 +
+*Magie:* +4 +
+*Reflex:* +4 +
+
 == Offensiv
 
 * link:../skills/specific/elementals/bestiary_skill_elementals_elemental_blast.adoc[Elementarer Stoß] 9 (3W6 Feuer)
@@ -55,7 +70,6 @@ Eine wage, humanoide Gestalt formt sich aus den Flammen, die Augen schwarz wie K
 == Defensive
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 3 (+2)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 3 (+3)
 
 == Sonstiges
 

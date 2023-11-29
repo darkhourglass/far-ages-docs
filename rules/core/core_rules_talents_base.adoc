@@ -81,14 +81,6 @@ Er verliert jedoch alle Aktionen und Manöver in dieser Kampfrunde.
 *Beschreibung:* Solange der Charakter eine Nahkampfwaffe führt, darf er alle Angriffsproben im Nahkampf mit diesem Talent würfeln.
 Das verwandte Attribut ist von der xref:core_rules_battlesystem.adoc#ref_core_battle_items_weapons_attribut[Waffe] anhängig, die verwendet wird.
 
-[[ref_talents_resist_knockdown]]
-=== Niederschlag widerstehen
-*Mindestwurf:* speziell +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* ST +
-*Kampf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] +
-*Beschreibung:* Mit diesem Talent können xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlags-Proben] gewürfelt werden.
-
 [[ref_talents_parade]]
 === Parade
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] +
@@ -363,6 +355,15 @@ Das Talent kann teilweise hilfreich sein, um andere Zwecke zu unterstützen, die
 Der SL kann daher entscheiden, ob höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrade] einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft.
 Zum Beispiel könnte ein guter Zeichner eine Unterschrift oder ein Siegel versuchen zu fälschen.
 
+[[ref_talents_insight]]
+=== Motiv erkennen
+=== Täuschen
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* ER +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
+*Beschreibung:*
+
 [[ref_talents_deceive]]
 === Täuschen
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
@@ -403,7 +404,7 @@ Damit eine Überzeugen-Probe erfolgreich ist, muss ein xref:core_rules_2d10_syst
 * *Patzer:* wie Misserfolg, jedoch provoziert der Charakter damit sofort eine stark ablehnende Reaktion.
 
 [NOTE]
-Die Probe kann auch als konkurrierende Probe zwischen der Überzeugen-Probe des Charakters und einer Willenskraft-Probe gewürfelt werden.
+Die Probe kann auch als konkurrierende Probe zwischen der Überzeugen-Probe des Charakters und einer Disziplin-Probe gewürfelt werden.
 
 == Wissenstalente
 
@@ -515,15 +516,6 @@ Ein Patzer kann zu völlig falschen Eindrücken führen, die der Charakter jedoc
 
 Grundsätzlich ist jede Verwendung von Aether Wahrnehmung mit einem kleinen, visuellen Effekt versehen, beispielsweise ein leichtes Glühen um die Augen oder die Augen werden komplett weiß oder ein untersuchter Gegenstand wird von einem leichten Schimmern erfasst, dessen Ursprung in den Augen des Charakters liegt.
 
-[[ref_talents_discipline]]
-=== Disziplin
-*Mindestwurf:* 8 + POT +
-*Ungeübte Anwendung:* Ja +
-*Verwandtes Attribut:* SB +
-*Kampf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] +
-*Beschreibung:* Mit diesem Talent kann der Charakter seine Konzentration wahren, wenn er Gefahr läuft, die Vorbereitung eines Zauberspruches zu verlieren.
-Siehe dazu die Beschreibung im Dokument xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellburning[Magie].
-
 [[ref_talents_spellcasting]]
 === Spruchzauberei [Zauberschule]
 *Mindestwurf:* 8 + POT / xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] +
@@ -544,8 +536,12 @@ Das Talent verbietet im Normalfall die xref:core_rules_2d10_system.adoc#ref_core
 *Mindestwurf:* 8 + POT +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* EN +
-*Kampf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] +
+*Kampf:* Speziell +
 *Beschreibung:* Schlägt die Vorbereitung eines Zauberspruches fehl, besteht die Gefahr des *Verbrennens*.
 Dies ist ein äußerst schmerzhafter Vorgang, der beschreibt, dass die arkanen Energien des Zauberspruches durch den Magier in die falsche Richtung gelenkt wurden und nun durch seinen Körper abgeleitet werden, wie ein Blitz, der in einen Baum einschlägt.
+
+[NOTE]
+Dieses Talent wird nur genutzt, wenn der Magier seine Vorbereitung verliert.
+Es ist weder eine Aktion noch eine Reaktion und verbraucht auch keine dieser.
 
 Für die vollständigen Regeln, siehe das passende xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellburning[Kapitel] im Dokument Magie.

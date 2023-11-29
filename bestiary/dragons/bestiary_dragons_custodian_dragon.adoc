@@ -15,13 +15,20 @@ Dieses Profil beschreibt einen Wächterdrachen der Machtstufe X.
 
 == Profil
 
-*ST:* XXX (+x)     *GE:* XXX (+x)     *KO:* XXX (+x) +
-*ER:* XXX (+x)     *EN:* XXX (+x)     *SB:* XXX (+x)    *CH:* XXX (+x) +
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
 
 //TP=TP-Bonus (GK) + (ST+KO)*5
 //MP=EN*10
 //SP=(SB+CH)*5
-*TP:* XXX     *MP:* XXX     *SP:* XXX +
+*TP:* XXX +
+*MP:* XXX +
+*SP:* XXX +
 
 // WID= 8 + (KO-1)*2
 // BEW= GK-Basis + (GE-5) * 1,50 (min 0)
@@ -39,6 +46,14 @@ Dieses Profil beschreibt einen Wächterdrachen der Machtstufe X.
 *Rüstung:* XXX +
 *Resistenzen:* XXX +
 *Immunitäten:* XXX +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +
+*Körper:* ST+KO +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +
 
 == Offensiv
 

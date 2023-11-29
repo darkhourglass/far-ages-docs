@@ -12,10 +12,17 @@ Das Gesicht mit minimalistischen Zügen zeigt kaum Regung._
 
 == Profil
 
-*ST:* 8 (+3)     *GE:* 4 (+2)     *KO:* 5 (+2) +
-*ER:* 3 (+1)     *EN:* 6 (+2)     *SB:* 3 (+1)    *CH:* 3 (+1) +
+*ST:* 8 (+3) +
+*GE:* 4 (+2) +
+*KO:* 5 (+2) +
+*ER:* 3 (+1) +
+*EN:* 6 (+2) +
+*SB:* 3 (+1) +
+*CH:* 3 (+1) +
 
-*TP:* 75     *MP:* 60     *SP:* - +
+*TP:* 75 +
+*MP:* 60 +
+*SP:* - +
 
 *WID:* 20 +
 *BEW:* 4,50 +
@@ -44,6 +51,14 @@ Das Gesicht mit minimalistischen Zügen zeigt kaum Regung._
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +5 +
+*Magie:* +3 +
+*Reflex:* +3 +
+
 == Offensiv
 
 * link:../skills/specific/elementals/bestiary_skill_elementals_elemental_blast.adoc[Elementarer Stoß] 8 (3W6 Erde)
@@ -53,7 +68,6 @@ Das Gesicht mit minimalistischen Zügen zeigt kaum Regung._
 == Defensive
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 3 (+2)
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_knockdown[Niederschlag widerstehen] 3 (+2)
 
 == Sonstiges
 
