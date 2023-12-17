@@ -1,12 +1,17 @@
 = Orks
 
-*Attributsbonus:* +1 ST, +1 KO, -1 SB +
+*Attribute:* +1 ST, +1 KO, -1 SB +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +3/+0 +
+*Rettungswürfe:* - +
 *Größe:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanen +
-*CP:* 50 +
+*Eigenschaften:* <<ref_core_races_orcs_skill_adrenalin_surge,Adrenalinrausch>>, link:../skills/racial/core_racial_skill_senses_darkvision.adoc[Dunkelsicht (50,00 Meter)] +
+*Fortitudo:* 2 +
 
 [[ref_core_races_orcs_skills]]
 == Eigenschaften
@@ -15,10 +20,6 @@
 === Adrenalinrausch
 Orks beherrschen ihren Körper und ihre natürliche Aggressivität so gut, dass diese kontrolliert einsetzen können, um für kurze Zeit schneller reagieren zu können.
 Einmal pro Tag kann ein Orc in einen Adrenalinrausch fallen, der so viele KO-viele xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] andauert und am Ende dieser Zeit automatisch endet.
-In einer dieser Kampfphasen kann der Ork eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] mehr als sonst durchführen.
+In *einer* dieser Kampfphasen kann der Ork eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] mehr als sonst durchführen.
 
-Am Ende des Adrenalinrausches erhält der Ork eine Stufe xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung], egal ob er die zusätzliche Aktion oder das Manöver eingesetzt hat.
-
-[[ref_core_races_orcs_skill_darkvision]]
-=== Dunkelsicht
-Ein Ork besitzt die Fähigkeit link:../../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht].
+Am Ende des Adrenalinrausches erhält der Ork eine Stufe xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung], egal ob er eine zusätzliche Aktion eingesetzt hat.

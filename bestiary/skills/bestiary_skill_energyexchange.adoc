@@ -2,6 +2,7 @@
 
 *Voraussetzungen:* link:bestiary_skill_attack_energydrain.adoc[Energieentzug] +
 *Typ:* Passiv, Verstärkung +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Verwendet die Kreatur die Fähigkeit link:bestiary_skill_attack_energydrain.adoc[Energieentzug] kann sie als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] die entzogenen Punkte einem anderen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Pool] zuweisen.

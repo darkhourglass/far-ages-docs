@@ -1,16 +1,12 @@
 = Gargoyle, geflügelte
 
-*Attributsbonus:* +2 ST, -1 GE, +1 KO, -1 CH +
+*Attribute:* +2 ST, -1 GE, +1 KO, -1 CH +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +1/+2 +
+*Rettungswürfe:* xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
 *Größe:* 4 +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 70 +
-
-== Eigenschaften
-
-Geflügelte Gargoyle erhalten die Eigenschaften xref:core_races_gargoyle.adoc#ref_gargoyle_freeze[Erstarren], xref:core_races_gargoyle.adoc#ref_gargoyle_hardasstone[Hard wie Stein] und xref:core_races_gargoyle.adoc#ref_gargoyle_resilient[Resistent].
-
-=== Flügel
-Ein geflügelter Gargoyle bewegt sich fliegend zweimal so schnell, wie er normalerweise auf dem Boden rennen würde (d.h. seine BEW multipliziert mit 2).
-Er kann so viele Kampfphasen in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
-Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_airattack[Flugangriff] verwenden.
+*Eigenschaften:* link:../skills/racial/core_racial_skill_bulwark.adoc[Bollwerk], xref:core_races_gargoyle.adoc#ref_core_races_gargoyle_freeze[Erstarren], link:../skills/racial/core_racial_skill_move_wings.adoc[Flügel], link:../skills/racial/core_racial_skill_naturalarmor.adoc[Natürliche Rüstung (3)] +
+*Fortitudo:* 3 +

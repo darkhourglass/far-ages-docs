@@ -11,7 +11,6 @@ Die Kreatur darf nicht folgende Schablonen bereits besitzen:
 * link:bestiary_template_collossus.adoc[Koloss]
 
 == Attribute
-
 Die Attributsstufen der Kreatur werden übernommen, außer die Werte für xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO].
 Im Vergleich zu anderen Schablonen werden hier neue Werte festgesetzt, damit die bisherigen überschrieben.
 ST und KO nehmen jeweils den Wert 26 (+8) an.
@@ -45,7 +44,7 @@ Besitzt sie bereits diese Fähigkeit, erhöhen sich die aktuellen Punkte in nat�
 
 [[ref_template_megacollossus_skill_trample]]
 === Zertreten
-Die Kreatur erlernt die Fähigkeit link:../skills/bestiary_skill_attack_trample.adoc[Zertreten].
+Die Kreatur erlernt die Fähigkeit link:../skills/bestiary_skill_attack_trample.adoc[Zertreten] (3x).
 Seine Angriffsstufe entspricht seiner Stufe im Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffenter Kampf].
 Der Schadensbonus beträgt 12W6.
 

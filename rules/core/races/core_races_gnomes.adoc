@@ -1,26 +1,20 @@
 = Gnome
 
-*Attributsbonus:* -1 ST, -1 KO, +2 EN, +1 CH +
+*Attribute:* -1 ST, -1 KO, +2 EN, +1 CH +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +0/+3 +
+*Rettungswürfe:* - +
 *Größe:* 4 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 60 +
+*Eigenschaften:* link:../skills/racial/core_racial_skill_senses_darkvision.adoc[Dunkelsicht (50,00 Meter)], link:../skills/racial/core_racial_skill_intuitive_magic.adoc[Intuitive Magie], link:../skills/racial/core_racial_skill_vulnerable_to_magic.adoc[Magieanfällig], <<ref_core_races_gnomes_additional_mp,Mehr Magiepunkte>> +
+*Fortitudo:* 2 +
 
 == Eigenschaften
 
-=== Dunkelsicht
-Ein Charakter mit dieser Eigenschaft kann in der Nacht oder in der Dunkelheit noch genauso gut sehen wie mit Licht.
-In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] werden halbiert.
-
-=== Intuitive Magie
-Alle Gnome besitzen ein intuitives Bewusstsein für Magie und können deswegen auch ohne Ausbildung magische Effekte hervorrufen.
-Zur Charaktererschaffung lernt ein Gnom einen xref:../core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[Arkanen Trick] aus einer beliebigen Zauberschule.
-Für diesen Zauberspruch darf der Gnome eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung] auf xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] würfeln.
-
-=== Magieanfällig
-Gnome erleiden einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf alle xref:../core_rules_magic_base.adoc.adoc#ref_core_magic_rules_spellcasting_magicdefence[Rettungswürfe] gegen xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Proben].
-
+[[ref_core_races_gnomes_additional_mp]]
 === Mehr Magiepunkte
 Gnome erhalten einen Bonus von 10 MP auf ihren xref:../xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP-Pool].

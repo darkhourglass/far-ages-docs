@@ -1,7 +1,8 @@
-= Zertreten (Angriffsstufe, Schaden)
+= Zertreten (Angriffsstufe, Schaden, Anzahl)
 
 *Voraussetzungen:* - +
 *Typ:* Angriff, ST +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Die Zertreten-Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
@@ -17,3 +18,7 @@ Eine Kreatur der GK 7 greift mit Zertreten eine Kreatur der GK 5 an.
 Zwischen diesen Größenkategorien besteht ein Unterschied von 2.
 Damit erhält die angreifende Kreatur einen zusätzlichen Bonus von 2W6 auf die Schadensprobe.
 ====
+
+Die angegebene *Anzahl* gibt an, wie oft die Kreatur im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] diese Fähigkeit einsetzen kann.
+Jeder einzelne Einsatz kostet eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Ist die Anzahl nicht explizit angegeben, kann die Kreatur die Fähigkeit nur einmal pro eigenem Zug einsetzen.

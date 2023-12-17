@@ -1,37 +1,30 @@
 = Gargoyle
 
-*Attributsbonus:* +2 ST, -1 GE, +1 KO, -1 CH +
+*Attribute* +2 ST, -1 GE, +1 KO, -1 CH +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +3/+0 +
+*Rettungswürfe:* xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
 *Größe:* 4 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 60 +
+*Eigenschaften:* link:../skills/racial/core_racial_skill_bulwark.adoc[Bollwerk], <<ref_core_races_gargoyle_freeze,Erstarren>>, link:../skills/racial/core_racial_skill_naturalarmor.adoc[Natürliche Rüstung (3)] +
+*Fortitudo:* 2 +
 
 == Eigenschaften
 
-[[ref_gargoyle_freeze]]
+[[ref_core_races_gargoyle_freeze]]
 === Erstarren
 Gargoyle besitzen die außergewöhnliche Eigenschaft, ihren Körper zum Erstarren zu bringen, so dass man sie von Statuen nicht unterscheiden kann.
 Um diesen Zustand zu erreichen, muss der Gargoyle eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen können.
 Jegliche Mimik, Bewegung und subtile Motorik wird unterdrückt.
 Gleichzeit wird die Haut noch fester und rauer, womit sie noch mehr Stein gleicht.
 
-In diesem Zustand hat der Gargoyle keine Einschränkungen auf seine üblichen Sinne, auch seine Atmung funktioniert normal. Er kann keine Aktionen durchführen. Sein natürlicher Rüstungsschutz aus <<ref_gargoyle_hardasstone>> erhöht sich auf 10 Rüstungspunkte auf allen Trefferzonen.
+In diesem Zustand hat der Gargoyle keine Einschränkungen auf seine üblichen Sinne, auch seine Atmung funktioniert normal. Er kann keine Aktionen durchführen. Sein natürlicher Rüstungsschutz erhöht sich auf 10 Rüstungspunkte auf allen Trefferzonen.
 
 Wechselt der Gargoyle in diese Form, würfelt er eine xref:../core_rules_talents_base.adoc#ref_talents_hide[Verstecken-Probe] mit einem xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +10.
 Jeder zukünftige Beobachter muss gegen des in dieser Probe gewürfelten Ergebnis eine xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Entdecken-Probe] bestehen, um den Gargoyle von einer Statue zu unterscheiden.
 
 Das Erstarren endet, wenn der Gargoyle eine Aktion durchführt oder spätestens nach 24 Stunden.
-
-[[ref_gargoyle_hardasstone]]
-=== Hart wie Stein
-Die steinerne Haut eines Gargoyles gewährt ihm 3 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[Natürlichen Rüstungsschutz] auf allen Trefferzonen.
-
-[[ref_gargoyle_resilient]]
-=== Resistent
-Gargoyle erhalten einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf alle Proben, um xref:../core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Giften] oder xref:../core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Krankheiten] zu widerstehen.
-
-[[ref_gargoyle_unbreakable]]
-=== Unverwüstlich
-Der Charakter erhält einen Bonus von +2 xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID].

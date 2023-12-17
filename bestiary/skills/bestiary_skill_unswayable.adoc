@@ -2,12 +2,13 @@
 
 *Voraussetzungen:* - +
 *Typ:* Passiv +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Eine Kreatur mit dieser Fähigkeit kann nicht durch Effekte aus Talenten, Fähigkeiten oder Zaubersprüchen beeinflusst werden.
 
 [NOTE]
-Die Ausnahme bilden Effekte, die explizit Kreaturen betreffen, die den primären Kreaturentyp der Kreatur betreffen.
+Die Ausnahme bilden Effekte, die explizit Kreaturen betreffen, die den primären Kreaturentyp der Kreatur explizit betreffen.
 Beispielsweise besitzen link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] und link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] diese Fähigkeit aufgrund ihrer eigentümlichen Natur.
 Es gibt jedoch Zaubersprüche, um sie zu kontrollieren.
 Diese Zaubersprüche ignorieren diese Fähigkeit.

@@ -1,7 +1,8 @@
 = Odem (Angriffsstufe, Schaden, Schadensart, Reichweite)
 
 *Voraussetzungen:* - +
-*Typ:* Angriff, EN +
+*Typ:* Angriff, EN,xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiert] +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Die Kreatur besitzt eine Atemwaffe, die sie gegen ihre Gegner einsetzen kann.

@@ -1,0 +1,10 @@
+= Flügel
+
+*Voraussetzungen:* Volk +
+*Typ:* Bewegung +
+*Überanstrengung:* - +
+*CP-Kosten:* - +
+*Beschreibung:* Der Charakter besitzt Flügel und kann damit fliegen.
+Seine Bewegungsrate für das Fliegen entspricht seiner regulären xref:../../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW]*2.
+Er kann so viele xref:../../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] in der Luft bleiben, die seiner xref:../../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes[Attributsstufe] in xref:../../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO] multipliziert mit 20 entsprechen.
+Der Charakter kann das Kampfmanöver xref:../../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_airattack[Flugangriff] verwenden.

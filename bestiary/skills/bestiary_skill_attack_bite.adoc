@@ -1,7 +1,8 @@
-= Biss (Angriffsstufe, Schaden)
+= Biss (Angriffsstufe, Schaden, Anzahl)
 
 *Voraussetzungen:* - +
 *Typ:* Angriff, ST +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Die Kreatur verfügt über einen Angriff mit ihrem Maul, in dem es versucht, seinen Kontrahenten zu beißen.
@@ -13,3 +14,7 @@ Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
 Bei einer erfolgreichen Angriffsprobe gegen ein Wesen, dessen xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] kleiner ist als die Kreatur, kann die Kreatur als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] sein Gegenüber xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[gefangen] (Stufe 1) nehmen.
+
+Die angegebene *Anzahl* gibt an, wie oft die Kreatur im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] diese Fähigkeit einsetzen kann.
+Jeder einzelne Einsatz kostet eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Ist die Anzahl nicht explizit angegeben, kann die Kreatur die Fähigkeit nur einmal pro eigenem Zug einsetzen.

@@ -1,28 +1,16 @@
 = Zwerge
 
-*Attributsbonus:* +1 KO, + 1 SB, -1 CH +
+*Attributs:* +1 KO, + 1 SB, -1 CH +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen], xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Schmiedekunst)], xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Steinmetz)]+
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +3/+0 +
+*Rettungswürfe:* xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
 *Größe:* 4 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten +
-*CP:* 30 +
+*Eigenschaften:* link:../skills/racial/core_racial_skill_bulwark.adoc[Bollwerk], link:../skills/racial/core_racial_skill_senses_infraredvision.adoc[Infrarotsicht (50,00 Meter]) +
+*Fortitudo:* 2 +
 
 == Eigenschaften
-
-=== Bollwerk
-Zwerge erhalten Bonus von +2 auf ihre Attributseigenschaft xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[Widerstand].
-
-=== Infrarotsicht
-Zwerge erhalten die Fähigkeit link:../../../bestiary/skills/bestiary_skill_senses_infraredvision.adoc[Infrarotsicht].
-
-=== Zwergische Begabung
-Zwerge lernen eines der folgenden Talente mit SGM 1:
-
-* xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen]
-* xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk]
-
-Die Wahl muss zur Charaktererfassung final getroffen werden.
-
-=== Resistent
-Zwerge erhalten einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf alle Proben, um xref:../core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Giften] oder xref:../core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Krankheiten] zu widerstehen.

@@ -1,7 +1,8 @@
-= Aufspießen (Angriffsstufe, Schaden)
+= Aufspießen (Angriffsstufe, Schaden, Anzahl)
 
 *Voraussetzungen:* - +
 *Typ:* Angriff, ST +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Die Kreatur verfügt über Hörner oder Hauer, vielleicht sogar um sehr lange Klauen.
@@ -13,3 +14,7 @@ Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
 Bei einem erfolgreichen Treffer, der mindestens 1 Punkt Schaden verursacht, darf die Kreatur als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen] einsetzen.
 Sie erhält dabei einen Bonus von +1 auf die Würfe zum Erfolg für die ST-Probe, um das getroffene Ziel zu halten.
+
+Die angegebene *Anzahl* gibt an, wie oft die Kreatur im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] diese Fähigkeit einsetzen kann.
+Jeder einzelne Einsatz kostet eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Ist die Anzahl nicht explizit angegeben, kann die Kreatur die Fähigkeit nur einmal pro eigenem Zug einsetzen.

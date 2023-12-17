@@ -1,20 +1,25 @@
 = Menschen
 
-*Attributsbonus:* - +
+*Attribute:* - +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +2/+2 +
+*Rettungswürfe:* - +
 *Größe:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten +
-*CP:* 20 +
+*Eigenschaften:* <<ref_core_races_humans_versatility,Vielseitigkeit>> +
+*Fortitudo:* 1 +
 
 == Eigenschaften
 
-=== Freie Attributsstufe
+[[ref_core_races_humans_versatility]]
+=== Vielseitigkeit
 Zur Charaktererschaffung erhalten Menschen einen Bonus von +1 Stufe auf ein frei wählbares Attribut.
 
-=== Freie Talentstufe
-Zur Charaktererschaffung erhalten Menschen einen Bonus von +1 Stufe auf ein frei wählbares Talent, welches sie mit SGM 1 oder 2 lernen.
+Zur Charaktererschaffung erhalten Menschen einen Bonus von +1 Stufe auf eines ihrer xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_professional_talents[Berufstalente].
 
-=== Vielseitig interessiert
-Zur Charaktererschaffung dürfen Menschen ein beliebiges Talent mit SGM 1 lernen, für dass sie die Voraussetzungen erfüllen.
+Zur Charaktererschaffung dürfen Menschen ein beliebiges Talent als xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_professional_talents[Berufstalent] lernen, für dass sie die Voraussetzungen erfüllen.
+

@@ -61,9 +61,8 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_bestiary_
 
 == Offensiv
 
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Wucht, 2)
-* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 8 (2W8+5)
-* link:../skills/bestiary_skill_attack_trample.adoc[Zertreten] 7 (2W6+5)
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 8 (2W8+5) 2x
+* link:../skills/bestiary_skill_attack_trample.adoc[Zertreten] 7 (2W6+5) 2x
 
 == Defensive
 
@@ -357,7 +356,6 @@ Ein Zweigwächter erhält immer folgende Talente und Talentstufen:
 
 Ein Zweigwächter erhält immer folgende Fähigkeiten:
 
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Wucht, 2)
 * link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung]: 5 + 1/2 GK des Zweigwächters (abgerundet, minimal 1)
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]

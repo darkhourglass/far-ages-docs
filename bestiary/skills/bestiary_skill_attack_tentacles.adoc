@@ -1,7 +1,8 @@
-= Tentakel (Angriffsstufe, Schaden)
+= Tentakel (Angriffsstufe, Schaden, Anzahl)
 
 *Voraussetzungen:* - +
 *Typ:* Angriff, ST +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Die Kreatur verfügt über einen Angriff mit einem Tentakel (manchmal auch mehreren).
@@ -10,3 +11,7 @@ Eine Tentakel-Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.a
 Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 Jeder Angriff mit einem Tentakel gilt als ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed[Nahkampf-Angriff] mit xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_reach[Reichweite].
+
+Die angegebene *Anzahl* gibt an, wie oft die Kreatur im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] diese Fähigkeit einsetzen kann.
+Jeder einzelne Einsatz kostet eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Ist die Anzahl nicht explizit angegeben, kann die Kreatur die Fähigkeit nur einmal pro eigenem Zug einsetzen.

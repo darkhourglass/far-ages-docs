@@ -1,30 +1,14 @@
 = Sidhe
 
-*Attributsbonus:* +1 GE, +1 CH+
+*Attribute:* +1 GE, +1 CH+
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +0/+3 +
+*Rettungswürfe:* - +
 *Größe:* 2 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Alberon +
-*CP:* 50 +
-
-== Eigenschaften
-
-=== Flügel
-Ein Sidhe besitzt Flügel und kann damit fliegen.
-Er bewegt sich fliegend doppelt so schnell, wie er normalerweise auf dem Boden rennen würde (d.h. seine BEW multipliziert mit 2).
-Ein Aoehe kann so viele Kampfphasen in der Luft bleiben, die seiner KO-Stufe multipliziert mit 20 entsprechen.
-Der Charakter kann das Kampfmanöver xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_airattack[Flugangriff] verwenden.
-
-=== Feenmagie
-Sidhe lernen zu Beginn des Spiels 3 xref:../../core/core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[Arkane Tricks], welche sie aus den folgenden Zauberspruchlisten frei wählen können:
-
-* xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_druids.adoc[Magie der Druiden]
-* xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_schamanism.adoc.adoc[Schamanismus]
-* xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofbody.adoc.adoc[Weg des Körpers]
-* xref:../../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofspirit.adoc.adoc[Weg des Geistes]
-
-Der Sidhe darf für diesen Zauberspruch eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung] auf xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] würfeln.
-
-=== Tarnung
-Befindet sich ein Sidhe in einer natürlichen Umgebung (also z.B. in einem Wald, aber nicht in einem Stall aus Holz), erhält er einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf die Würfe zum Erfolg für alle xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen-Proben].
+*Eigenschaften:* link:../skills/racial/core_racial_skill_intuitive_magic.adoc[Intuitive Magie], link:../skills/racial/core_racial_skill_move_wings.adoc[Flügel], link:../skills/racial/core_racial_skill_fleet_footed.adoc[Leichtfüßig] +
+*Fortitudo:* 2 +

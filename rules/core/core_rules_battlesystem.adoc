@@ -206,11 +206,11 @@ Allerdings gelten auch für Nicht-Spieler Charaktere die beschriebenen Einschrä
 Der primäre Zweck dieser Regel ist, die verschiedenen, interagierenden Aktionen und Reaktionen in einer taktischen Reihenfolge zu ermöglichen.
 Wie tief oder auch wie strikt eine Gruppe diesem Ablauf folgt, soll aber auch explizit jedem selbst überlassen sein.
 
-[[ref_core_battle_actions_general_unique]]
-==== Einzigartige Aktionen und Reaktionen
-Aktionen und Reaktionen können mit der Eigenschaft *einzigartig* versehen sein oder in ihrer Beschreibung explizit darauf verweisen.
-In diesem Fall kann ein Charakter diese Aktion in seinem <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zug>> maximal einmal einsetzen.
-Dies gilt analog für einzigartige Reaktionen.
+[[ref_core_battle_actions_general_limited_action_and_reaction]]
+==== Limitierte Aktionen und Reaktionen
+Aktionen und Reaktionen können mit der Eigenschaft *limitiert* versehen sein oder in ihrer Beschreibung explizit darauf verweisen.
+In diesem Fall kann ein Charakter diese Aktion in seinem <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zug>> maximal *einmal* einsetzen.
+Dies gilt analog für limitierte Reaktionen.
 
 [[ref_core_battle_actions_general_higher]]
 ==== Aktionen mit höheren Kosten
@@ -378,12 +378,20 @@ Tritt das Ergebnis ein, ist der Charakter sofort dran, auch wenn seine Initiativ
 Tritt das Ereignis jedoch nicht ein, darf der Charakter erst am Ende der <<ref_core_battle_cycle_initiative,Initiative-Reihenfolge>> handeln.
 
 Nach Ermessen des SLs dürfen auch Kombinationen aus bestimmten <<ref_core_battle_actions,Aktion>> abgewartet werden.
-Mit Anwendung dieser Regel können Aktionen außerhalb des eigenen Zugs innerhalb der Kampfphase durchgeführt werden.
+Mit Anwendung dieser Regel können Aktionen außerhalb des <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zugs>> innerhalb der Kampfphase durchgeführt werden.
 
 Ein Charakter kann dennoch nie mehr Aktionen ausführen, als ihm zusteht.
 Das bedeutet, auch wenn er eine abwartende Aktion ansagt, kann es passieren, dass er diese nicht mehr ausführen kann, wenn er seit der Ansage dieses Verhalten und dem Eintreten des Ereignisses alle seine Aktionen verloren hat.
 Weiterhin kann das Abwarten einer Aktion nicht über die Grenze einer Kampfphase hinaus gezögert werden.
 Mit Ende der aktuellen Kampfphase und Beginn einer neuen Kampfphase verfallen abgewartete Aktionen, falls das Ereignis nicht eingetreten ist.
+
+Das Abwarten einer Aktion kann den Zug eines anderen Teilnehmers unterbrechen.
+In diesem Fall gilt, dass der erste Teilnehmer seinen Zug durchführt, bis das Ereignis eintritt, dass zur abgewarteten Aktion gehört.
+Dann beginnt der Zug desjenigen, der die Aktion abgewartet hat.
+Danach, falls möglich, kann der erste Teilnehmer seinen Zug fortführen.
+
+[NOTE]
+Diese Trennung hat die Auswirkung, dass der Charakter, dessen Zug unterbrochen wurde, nach den üblichen Regeln <<ref_core_battle_reactions,Reaktionen>> durchführen darf.
 
 .Aktionen abwarten
 ====
@@ -510,10 +518,6 @@ Es gelten immer die folgenden Einschränkungen:
 [NOTE]
 link:../../bestiary/templates/bestiary_template_legendary.adoc[Legendäre] Kreaturen können außerdem legendäre Aktionen und Reaktionen einsetzen.
 Diese werden auch wie zusätzliche Aktionen behandelt.
-
-[NOTE]
-Diese Regeln sind unabhängig von besonderen Fähigkeiten wie zum Beispiel link:../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke].
-Dieser Angriff wird als eine reguläre <<ref_core_battle_actions,Aktion>> gewertet, ermöglicht jedoch, wie der Name vermuten lässt, mehrere <<ref_core_battle_attacktypes,Attacken>>.
 
 [[ref_core_battle_additionalactions_bonusactions]]
 ==== Bonus-Aktionen
@@ -1080,6 +1084,11 @@ Diese Regeln gelten grundsätzlich immer, wenn ein Charakter seine xref:core_rul
 [[ref_core_battle_movementtypes_swimming]]
 ==== Schwimmen
 
+[[ref_core_battle_movementtypes_sneak]]
+==== Schleichen
+
+[[ref_core_battle_movementtypes_jump]]
+==== Springen
 
 [[ref_core_battle_movement_occupiedspaces]]
 === Besetzte Gebiete
@@ -1325,11 +1334,11 @@ Im letzteren Fall ist auch eine konkrete Würfelkombination angegeben, die für 
 
 .Schadenswürfe ohne weitere Modifikatoren
 ====
-Ein link:../../bestiary/animals/bestiary_animals_wolf.adoc besitzt die Fähigkeit link:../../bestiary/skills/bestiary_skill_attack_bite.adoc[Biss, (4, 2W6+2)].
+Ein link:../../bestiary/animals/bestiary_animals_wolf.adoc besitzt die Fähigkeit link:../../bestiary/skills/bestiary_skill_attack_bite.adoc[Biss 4 (2W6+2)].
 Die Einträge im Bestiarium sind so ausgelegt, dass sie keine Berechnung von Angriffs- oder Schadenssboni mehr benötigen.
 Daher würfelt der Wolf mit 4W10 seine Angriffsprobe und verursacht bei einem Treffer 2W6+2 Schadenspunkte.
 Sein Attributsbonus in ST haben keinen weiteren Einfluss mehr.
-Ein Drache beherrscht die gleiche Fähigkeit, jedoch mit einer anderen Konfiguration: Biss (12, 8W8+8).
+Ein Drache beherrscht die gleiche Fähigkeit, jedoch mit einer anderen Konfiguration: Biss 12 (8W8+8).
 ====
 
 Erhöhen bestimmte Effekte oder Fähigkeiten den Schadenswurf durch einen festen Wert (zum Beispiel +2) oder Würfeln (+1W6), so werden diese zusätzlich zur bestimmten Würfelkombination hinzugefügt.

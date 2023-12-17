@@ -1,19 +1,23 @@
 = Halblinge
 
-*Attributsbonus:* -1 ST, +1 GE, +1 CH +
+*Attribute:* -1 ST, +1 GE, +1 CH +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +2/+1 +
+*Rettungswürfe:* - +
 *Größe:* 4 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 30 +
+*Eigenschaften:* <<ref_core_races_halflings_luck_of_small_folks,Glück des kleinen Volkes>>, link:../skills/racial/core_racial_skill_fast.adoc[Schnell] +
+*Fortitudo:* 2 +
 
 == Eigenschaften
 
-=== Glück der Halblinge
+[[ref_core_races_halflings_luck_of_small_folks]]
+=== Glück des kleinen Volkes
 Das Schicksal scheint Halblingen besonders gewogen zu sein, so dass sie selbst aus misslichen Situationen besser herauskommen.
 Für jede Stufe an xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[Charisma] kann ein Halbling einmal pro Tag eine Probe wiederholen, wenn diese ein Misserfolg oder Patzer war.
 
-=== Leichtfüßig
-Halblinge erhalten einen Bonus auf ihre xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] von 1,50 Metern.
 

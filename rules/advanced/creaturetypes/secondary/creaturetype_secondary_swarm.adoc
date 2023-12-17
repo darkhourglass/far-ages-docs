@@ -31,7 +31,7 @@ Die TP der einzelnen Kreaturen im Schwarm haben keinen Einfluss.
 Erreicht ein Schwarm xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[die erste Todesschwelle], löst er sich auf.
 Im Ermessen des SLs können einzelne Individuen überleben.
 * Alle Attacken, die ein Individuum ausführen kann, werden durch Schwarm mannigfaltig ausgeführt.
-Ein Schwarm erhält für alle Angriffsfähigkeiten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] mit der angegebenen Anzahl.
+Ein Schwarm erhält für alle Angriffsfähigkeiten die angegebene Anzahl an Einsetzen pro Kampfphase.
 
 [NOTE]
 Ein Schwarm hat mindestens die GK 3.
@@ -39,7 +39,7 @@ Ein Schwarm hat mindestens die GK 3.
 Die folgende Tabelle gibt einen Überblick über die beschriebenen Eigenschaften:
 
 |===
-|GK des Schwarms |Max. GK einzelner Individuen |Natürliche Rüstung |TP-Pool |Anzahl Mehrfach-Angriff
+|GK des Schwarms |Max. GK einzelner Individuen |Natürliche Rüstung |TP-Pool |Anzahl Angriff
 
 |3
 |1
@@ -214,5 +214,4 @@ Alle Schwärme erhalten die folgenden Fähigkeiten:
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
-* link:../../../../bestiary/skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (siehe <<ref_secondary_creaturetype_swarm_rules_additional_type,Beschreibung>>)
 * link:../../../../bestiary/skills/bestiary_skill_engulfing.adoc[Umschlingend]

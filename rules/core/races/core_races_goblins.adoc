@@ -1,23 +1,21 @@
 = Goblins
 
-*Attributsbonus:* -1 ST, +2 GE, -1 KO, -1 CH +
+*Attribute:* -1 ST, +2 GE, -1 KO, -1 CH +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +2/+1 +
+*Rettungswürfe:* - +
 *Größe:* 4 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 10 +
+*Eigenschaften:* link:../skills/racial/core_racial_skill_senses_darkvision.adoc[Dunkelsicht (50,00 Meter)], link:../skills/racial/core_racial_skill_fleet_footed.adoc[Leichtfüßig], <<ref_core_races_goblins_small_and_mean,Klein und gemein>> +
+*Fortitudo:* 1 +
 
 == Eigenschaften
 
-=== Dunkelsicht
-Ein Charakter mit dieser Eigenschaft kann in der Nacht oder in der Dunkelheit noch genauso gut sehen wie mit Licht.
-In einem Umkreis von 50 Metern wirkt dieser Vorteil und die üblichen Modifikator in der xref:../core_rules_battlesystem.adoc#ref_battle_dakrness[Dunkelheit] werden halbiert.
-
-=== Eins mit der Dunkelheit
-Goblins sind an das Leben in der Dunkelheit perfekt angepasst.
-Sie erhalten in Dunkelheit immer einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle Proben in xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen].
-
+[[ref_core_races_goblins_small_and_mean]]
 === Klein und Gemein
 Was Goblins an körperlicher Stärke gegenüber den meisten (größeren) Völkern fehlt, machen sie durch Geschick, Cleverness und manchmal Hinterlist wett.
 Jeder Schadenswurf gegen ein Wesen, dessen GK größer ist als der des Goblins, erhält einen Bonus von +3.

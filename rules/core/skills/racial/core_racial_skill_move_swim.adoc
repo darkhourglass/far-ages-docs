@@ -1,0 +1,12 @@
+= Schwimmen (Bewegungsrate)
+
+*Voraussetzungen:* Volk +
+*Typ:* Bewegung +
+*Überanstrengung:* - +
+*CP-Kosten:* - +
+
+Die Kreatur kann sich mühelos durch Wasser bewegen.
+
+Kommt es zu einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_usage[Anwendung einer Schwimmen-Probe] durch das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athletik], so nutzt die Kreatur die vollständig angegebene *Bewegungsrate*.
+
+Um diese Art der Fortbewegung zu nutzen, ist die Aktion xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegen] einzusetzen mit der angegebenen *Bewegungsrate*.

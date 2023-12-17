@@ -1,0 +1,56 @@
+= Zusätzliche TP
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache] +
+*Machtstufe:* 1 +
+*Typ:* Drachen +
+*CP:* tba +
+*Aktivierung:* - +
+
+Der Drache erhält einen festen Bonus auf seinen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
+Dieser Bonus besteht aus einem Teil basierend auf seiner xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] und zum weiteren Teil auf seiner xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel[Machtstufe].
+
+Beide Teile werden addiert und zum regulären TP-Pool des Drachen addiert.
+
+Die Bonus auf Basis der GK kann auf folgender Tabelle ermittelt werden:
+
+
+|===
+|GK |TP-Bonus
+
+|1
+|+10
+
+|2
+|+10
+
+|3
+|+15
+
+|4
+|+15
+
+|5
+|+20
+
+|6
+|+25
+
+|7
+|+35
+
+|8
+|+50
+
+|9
+|+70
+
+|10
+|+100
+|===
+
+Auf Basis seiner Machtstufe erhält der Drache außerdem einen Bonus von Machtstufe*15.
+
+.Beispiel
+====
+Ein Drache der GK 8 und Machtstufe 6 erhält einen Bonus von 50+90=140.
+====

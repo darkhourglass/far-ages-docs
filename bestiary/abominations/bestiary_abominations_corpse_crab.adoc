@@ -1,0 +1,162 @@
+= Leichenkrabbe
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_aquatic.adoc[Aquatisch], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_arachnid.adoc[Arachnid]
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+_Eine massive, krabbenartige Monstrosität und eine schmächtige, humanoide Gestalt schält sich aus der Dunkelheit der feuchten Höhle.
+Die Luft ist erfüllt mit dem überwältigen Gestank nach Meer, Salzwasser, Blut und Tod.
+Das Scheusal überragt leicht jeden Menschen.
+Sein massiger Körper wird durch einen Panzer dicken Schalen geschützt und von 6 spinnenartigen Beinen getragen.
+Wie bei einem Krebs besitzt die Kreatur ein Paar Arme, die in bedrohlichen Scheren enden._
+
+_Neben seiner enormen Größe zeigen andere Eigenschaften die Widernatürlichkeit der Kreatur.
+Der scheinbar viel zu kleine Kopf versteckt sich zwischen dem Brustpanzer und dem kuppelförmigen Rückenpanzer.
+Mehrere kleine, boshafte Augen, ähnlich einer Spinne umrahmen ein langgezogenes, mit mehrere Reihen scharfer, winziger Zähnen versehenes Maul.
+Aus einer Lücke zwischen zwei Panzerplatten lugt ein dünner Tentakel, der mit kleinen scharfen Zahnreihen überzogen ist.
+Im Dämmerlicht, dass durch den Höhleneingang fällt, erkennt man nun, die grausame Wahrheit.
+Die humanoide Gestalt ist schon lange tot, ihr Körper aufgedunsen von Feuchtigkeit und Tod.
+Wässrige Augen starren blind geradeaus.
+Der Tentakel der Krabbe steckt durch eine Wunde im Hinterkopf, durch die Leiche wie eine groteske Marionette bewegt wird.
+Zu allem Überfluss beginnt die Leiche zu sprechen.
+Eine gurgelnde, raspelnde Stimme spricht über geschundene Stimmbänder, doch nicht das ehemals bekannte Gesicht spricht, sondern das Monster aus der Dunkelheit._
+
+Diese blutrünstigen und für ihre schiere Masse und Brutalität erschreckend intelligenten Scheusale sind zum Glück selten und fast immer Einzelgänger.
+Auch als _Thanapod_ bezeichnet, gehören Leichenkrabben zu den düsteren Schrecken von Seeleuten und Küstenbewohnern.
+Ihren allgemein bekannten Namen erhielten diese Kreaturen durch ihre Fähigkeit, Leichen kurzzeitig zum Unleben zu erwecken und über sie mit link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] zu kommunizieren.
+
+Thanapoden ernähren sich ausschließlich von frischem Fleisch, in sie ihre Opfer, bevorzugt noch lebend, mit ihrer schieren Körpermasse und Kraft zu blutigen Brei zerstampfen.
+Je älter ein Körper ist, umso weniger Interesse hat eine Leichenkrabbe, diesen als Nahrung zu verwerten.
+Die Meisten verschmähen Leichen, die schon wenige Tage alt sind.
+Wenige Thanapoden haben bereits nach wenigen Stunden keinen Appetit mehr auf ihre Beute.
+Auch wenn Thanapoden oft diverse Tiere des Meeres und der nahen Küstenstreifen jagen, ist ihre wahre Beute intelligente Humanoide.
+
+Dabei unterscheidet sich das Jagdschema von Thanapod zu Thanapod oft.
+Einige nutzen ihre Intelligenz, um dauerhaft in der Nähe einer humanoiden Siedlung unterzukommen und zwingen durch Manipulation und Einschüchterung einen Teil der Gemeinschaft dazu, sie regelmäßig mit Nahrung versorgen.
+Andere machen sich diesen Aufwand nicht zu ziehen eine Schneise der Zerstörung hinter sich, in dem sie von Dorf zu Dorf ziehen, dass sie üblicherweise vollständig ausradieren.
+Dennoch sind sie schlau und aufmerksam genug, um sich von größeren und schwer bewaffneten Siedlungen fernzuhalten.
+Manche Thanapoden greifen auch Schiffe auf hoher See an, in dem sie mit ihren mächtigen Klauen Löcher in den Rumpf reißen, um die Besatzung kurz vor dem Untergang abzufangen.
+
+Thanapoden vermehren sich asexuell und nur einmal in ihrem Leben.
+Kommt diese Zeit, beginnt ein Thanapod eine große Menge frischen Fleischs anzuhäufen und legt üblicherweise in wenigen Stunden dutzende, kleine milchig-weiße Eier.
+Diese schlüpfen ebenfalls nach wenigen Stunden.
+Die neugeborenen Thanapods gleichen den Erwachsenen in Körperbau und Form, doch sind ihre Schalen noch weich und transparent.
+Die Neugeborenen verfallen nach dem Schlüpfen in einen makaberen Blutrausch und vertilgen möglichst viel von dem angehäuften Fleisch, aber auch ihre Artgenossen und eventuell noch nicht geschlüpfte Eier sind nur ein weiterer Quell der Nahrung.
+Ebenso wenig wird das Elternteil verschont, denn nach dem Eierlegen, wird der Thanapod immer träger, bis entweder seine Organe von selbst versagen oder seine Brut ihre scharfen Krallen in ihn schlägt.
+Die genaue Lebenszeit eines Thanapods ist nicht bekannt.
+Manche Thanapods leben Hunderte von Jahren bevor sie Eier legen, manche nur wenige Dutzend.
+
+== Profil
+
+*ST:* 6 (+2) +
+*GE:* 3 (+1) +
+*KO:* 7 (+3) +
+*ER:* 4 (+2) +
+*EN:* 2 (+1) +
+*SB:* 4 (+2) +
+*CH:* 3 (+1) +
+
+*TP:* 80 +
+*MP:* 20 +
+*SP:* 35 +
+
+*WID:* 20 +
+*BEW:* 12,00 Meter, link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 12,00 Meter, link:../skills/bestiary_skill_move_climb.adoc[Klettern] 12,00 Meter +
+*INI:* 7 +
+*MaxTL:* 90 +
+*MaxPOT:* 5 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 8 / link:../skills/bestiary_skill_naturalarmor_unbreakable.adoc[Unnachgiebige Natürliche Rüstung] 10 (<<ref_bestiary_corpse_crap_rules_hard_shell,Harte Schale>>) +
+*Resistenzen:* +
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +3 +
+*Körper:* +5 +
+*Magie:* +3 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_impale.adoc[Aufspießen] 4 (2W8+2)
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 4 (2W8) 2x
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 6 (2W10) 2x
+
+== Defensive
+
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 5 (+1)
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] 6 (+2)
+* <<ref_bestiary_corpse_crap_rules_hard_shell,Harte Schale>>
+
+== Sonstiges
+
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athletik] 5 (+2)
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 5 (+1)
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 4 (+1)
+* link:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 4 (+1)
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht]
+* link:../skills/bestiary_skill_gills.adoc.adoc[Kiemen]
+* <<ref_bestiary_corpse_crap_rules_dead_thrall,Versklavter Körper>>
+
+== Regeln
+
+[[ref_bestiary_corpse_crap_rules_hard_shell]]
+=== Harte Schale
+Die Panzerung der Leichenkrabbe gewährt einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürlichen Rüstungsschutz] in Höhe von 8 Punkten.
+Diese sind bereits im Profil vermerkt.
+Der kuppelartige Panzer, der die Rückseite der Leichenkrabbe bedeckt, ist besonders widerstandsfähig: sie gewährt 10 für diese Trefferzone und hat die Eigenschaft xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_unbreakable[unnachgiebig].
+
+Darüber hinaus erhalten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielte Attacken] auf den Kopf der Leichenkrabbe einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
+
+[[ref_bestiary_corpse_crap_rules_dead_thrall]]
+=== Versklavter Körper
+Thanapoden nutzen manche humanoiden Opfer nicht als Nahrung, sondern reanimieren ihre Leichen für ihre unheilvollen Zwecke.
+Da Thanapoden ihre Beute üblicherweise zu unkenntlichen Brei zermalen, entscheiden sie sich für die Verwendung einer animierten Leiche ausschließlich, wenn sie dafür einen trieftigen Grund sehen, um ihre teuflischen Pläne zu verwirklichen.
+
+Um diese Fähigkeit einzusetzen, benötigt der Thanapod einen halbwegs intakten Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden].
+Der Leichname kann Beschädigungen enthalten, zum Beispiel fehlende Arme und Beine oder gebrochene Knochen.
+Die Animierung durch die Leichenkrabbe kann diese Einschränkungen nicht beseitigen.
+
+Um einen Leichman zu animieren, muss die Leichenkrabbe einen seiner Tentakel in den Kopf des Leichnams bohren.
+Es ist dazu keine weitere Probe nötig, der Leichnam animiert zu Beginn des nächsten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] der Leichenkrabbe.
+Dies gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] der Leichenkrabbe.
+
+Solange der Leichnam durch einen Tentakel verbunden ist, kann der Thanapod unter der Voraussetzung eines intakten Torsos und Kopfes diesen nutzen, um humanoide Sprache zu verwenden.
+Dabei benutzt der Thanapod die Sprache beziehungsweise eine der dem Leichnam zu Lebzeiten bekannten Sprachen nutzen.
+Ein Leichnam kann sich maximal 3,00 Meter am Tentakel weit weg bewegen.
+Im Kampf wird ein solcher Leichnam wie ein link:../undead/bestiary_undead_zombie_sample_human.adoc[Zombie] behandelt und kann eigene xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] durchführen.
+Jeder Thanapod besitzt nur zwei Tentakel und kann damit maximal 2 Leichname gleichzeitig direkt steuern.
+
+Der Thanapode kann animierte Leichname für maximal 24 Stunden von seinen Tentaklen abtrennen und ihnen simple Aufgaben zuweisen, die sie erfüllen.
+Ist ein Leichnam einmal getrennt, fällt er nach 24 Stunden in sich zusammen und kann durch den Thanapoden nicht mehr reanimiert werden.
+Mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielten Schlag] können die Tentakel auch abgetrennt werden, wenn wenigstens die halbe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] der Leichenkrabbe (10) an Schaden erreicht wird.
+Diesen Angriff kann die Leichenkrabbe nur mit ihrem Talent link:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] verteidigen.
+Ein abgetrennter Tentakel renegeriert sich nach einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_break[langen Rast].
+
+== Taktik
+Leichenkrabben sind blutrünstige und rücksichtslose Wesen, die nichts und niemand wertschätzen oder als etwas anderes als 'Nahrung', 'Spielzeug' oder 'Gefahr' verstehen.
+Auch wenn eine Leichenkrabbe ein gefährlicher Gegner ist, suchen Leichenkrabben nicht immer sofort die direkte Konfrontation.
+Wenn sie eine Gelegenheit haben, einen Gegner zu überraschen oder hinterrücks anzugreifen, nutzen sie dies nach besten Möglichkeiten aus.
+In einer offenen und direkten Konfrontation nutzt die Leichenkrabbe ihre körperlichen Fähigkeiten, um möglichst viel Schaden auf einmal anzurichten.
+
+Auch versuchen einige Leichenkrabben eine temporäre Basis in der Nähe einer humanoiden Siedlung zu errichten.
+Sie nutzen ihre sozialen Fähigkeiten und Manipulation, um einige der Bewohner zu überzeugen, sie wären ein Gott oder höheres Wesen, um von diesen einen stetigen Schub an Nahrung zu erhalten.
+Eine Leichenkrabbe nutzt dabei Taktik, die auf  link:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern], Erpressung und Bedrohung beruht.
+In vollständiger Ermangelung an Empathie, sowohl für sich als auch für alle anderen, sind Leichenkrabben zu subtiler oder einfühlsamer Manipulation nicht fähig.
+Dabei nutzen Leichenkrabben ihre <<ref_bestiary_corpse_crap_rules_dead_thrall,Fähigkeit>>, um mit seinen Opfern zu kommunizieren und ihnen gleichzeitig ihr Schicksal vorzuführen, wenn sie ihren Forderungen nicht nachkommen.
+
+Manche Leichenkrabben sind jedoch auch für diese Taktik zu blutrünstig und agieren sehr offen.
+Sie greifen direkt und brutal ihre Opfer an, um sie umgehend zu zerstampfen und zu konsumieren.
+Auch diese Leichenkrabben greifen eher ungeschützte oder schwache Opfer an und wagen sich selten an offensichtlich überlegene Gegner.
+Jedoch sind Leichenkrabben, die diesen Lebensstil verfolgen, verglichen mit anderen Leichenkrabben deutlich unvorsichter und können die Gleichgewichte im Kampf schlecht einschätzen.
+
+Die Leichenkrabbe nutzt ihre schweren, gepanzerte Arme auch zur Verteidigung, was sich in ihrem Talent link:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] darstellt.

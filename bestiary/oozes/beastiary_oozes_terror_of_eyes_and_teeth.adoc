@@ -64,9 +64,8 @@ Auch ihr konstantes Zähneknirschen verhindert subtile Taktiken.
 
 == Offensiv
 
-* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 6 (2W6+2)
-* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 6 (1W8)
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Biss, <<ref_bestiary_terror_of_eyes_and_teeth_multiattack,siehe Beschreibung>>)
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 6 (2W6+2) 2x
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 6 (1W8) 3x <<ref_bestiary_terror_of_eyes_and_teeth_multiattack,siehe Beschreibung>>
 
 == Defensive
 
@@ -92,8 +91,8 @@ Die Fähigkeit funktioniert wie link:../skills/bestiary_skill_fear.adoc[Furcht] 
 Hat jedoch der Schrecken eine Kreatur link:../skills/bestiary_skill_engulfing.adoc[umschlungen], wird die Furcht zu xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror].
 
 [[ref_bestiary_terror_of_eyes_and_teeth_multiattack]]
-=== Mehrfach-Angriff
-Der Schrecken kann seinen Mehrfach-Angriff nur gegen Kreaturen einsetzen, die er link:../skills/bestiary_skill_engulfing.adoc[umschlungen] hat.
+=== Biss-Angriff
+Der Schrecken kann seinen Biss-Angriff nur gegen Kreaturen einsetzen, die er link:../skills/bestiary_skill_engulfing.adoc[umschlungen] hat.
 
 [[ref_bestiary_terror_of_eyes_and_teeth_constant_gnawing]]
 === Konstantes Knirschen

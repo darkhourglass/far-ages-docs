@@ -5,3 +5,8 @@
 
 [[ref_secondary_creaturetype_arachnid_rules]]
 == Regeln
+
+Jede arachnide Kreatur erhält folgende Fähigkeiten:
+
+* link:../../../../bestiary/skills/bestiary_skill_move_climb.adoc[Klettern]: die BEW wird nach den üblichen xref:../../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary_calculate_movementrate[Regeln] bestimmt.
+Es ist möglich, dass eine Kreatur nur diese Art der xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[Fortbewegung] besitzt.

@@ -1,17 +1,21 @@
 = Nachtelfen
 
-*Attributsbonus:* +1 GE, -1 KO, +1 ER, +1 CH +
+*Attribute:* +1 GE, -1 KO, +1 ER, +1 CH +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +1/+2 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
 *Größe:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* unbekannt +
-*CP:* 70 +
+*Eigenschaften:* link:../skills/racial/core_racial_skill_keen_ears.adoc[Feine Ohren], link:../skills/racial/core_racial_skill_keen_eyes.adoc[Scharfe Augen], <<ref_core_races_elves_night_we_are_the_night,Wir sind die Nacht>>, <<ref_core_races_elves_night_what_darkness_teaches_us,Was die Dunkelheit uns lehrt>> +
+*Fortitudo:* 3 +
 
 == Eigenschaften
 
-Nachtelfen erhalten die Eigenschaften xref:core_races_elves_general.adoc#ref_elven_senses[Elfische Sinne] und xref:core_races_elves_general.adoc#ref_elven_intuition[Elfische Intuition], aber nicht xref:core_races_elves_general.adoc#ref_elven_skill[Elfische Begabung].
-
+[[ref_core_races_elves_night_we_are_the_night]]
 === Wir sind die Nacht
 Nachtelfen sind perfekt an xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] gewöhnt, so dass sie nie negative Modifikatoren durch diese erleiden.
 Ausschließlich absolute Dunkelheit belegt Nachtelfen mit einem Modifikator von -3 auf die Würfe zum Erfolg.
@@ -27,6 +31,6 @@ Künstliches Licht kann nach Ermessen des SL ebenfalls entsprechende Modifikator
 
 Zaubersprüche, die durch Licht blenden und als Effekt negative Modifikatoren auf erlegen, sind um -3 auf die Würfe zum Erfolg effektiver gegen Nachtelfen.
 
+[[ref_core_races_elves_night_what_darkness_teaches_us]]
 === Was die Dunkelheit uns lehrt
-Nachtelfen lernen das Talent xref:../core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] mit SGM 1.
-Besitzt ein Nachtelf den Fähigkeit link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] erhält er einen Bonus von +1 auf die Schadensproben pro Stufe in dieser Fähigkeit.
+Besitzt ein Nachtelf den Fähigkeit link:../skills/core_skill_backstab.adoc[hinterhältiger Angriff] erhält er einen Bonus von +1 auf die Schadensproben pro Stufe in dieser Fähigkeit.

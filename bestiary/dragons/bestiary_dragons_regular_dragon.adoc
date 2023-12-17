@@ -25,7 +25,7 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 *SB:* 8 (+3) +
 *CH:* 12 (+4) +
 
-*TP:* 140 +
+*TP:* 280 +
 *MP:* 60 +
 *SP:* 80 +
 
@@ -56,10 +56,10 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 == Offensiv
 
 * link:../skills/specific/dragons/bestiary_skill_dragons_dragons_breath.adoc[Drachenodem] 10 (4W10, xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], 12,00 Meter)
-* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 12 (3W8+5)
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 12 (3W8+5) 2x
 * link:../skills/bestiary_skill_attack_bite.adoc[Biss] 12 (4W6+5)
-* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 12 (3W8+5)
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Klaue, 2)
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 12 (3W8+5) 2x
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Klaue)
 
 == Defensive
 
@@ -75,6 +75,7 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 * link:../skills/bestiary_skill_more_actions.adoc[Mehr Aktionen] 2
 * link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Gift widerstehen]
 * link:../skills/bestiary_skill_advantage_to_save.adoc[Vorteil gegenüber Rettungswurf] xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_diseases_resist[Krankheiten widerstehen]
+* link:../skills/specific/dragons/bestiary_skill_dragons_additional_tp.adoc[Zusätzliche TP] (in Profil enthalten)
 
 == Regeln
 
@@ -82,7 +83,9 @@ Es gelten die üblichen Regeln für einen link:../../rules/advanced/creaturetype
 
 Dieses Profil repräsentiert einen erwachsenen Drachen ohne besondere magische Fähigkeiten, dass der SL als Ausgangsposition nutzen kann, um eigene Drachen zu entwerfen.
 Üblicherweise erreichen gewöhnliche Drachen jedoch keine höhere Machtstufe als 10.
-Sie können magische Fähigkeiten erlernen, jedoch keine mit dem Stichwort _kosmisch_.
+Sie können Drachen-Fähigkeiten mit dem Stichtwort _magisch_ erlernen, jedoch keine mit dem Stichwort _kosmisch_.
+
+Gewöhnliche Drachen erhalten außerdem die Fähigkeit link:../skills/specific/dragons/bestiary_skill_dragons_additional_tp.adoc[zusätzliche TP] automatisch.
 
 == Taktik
 

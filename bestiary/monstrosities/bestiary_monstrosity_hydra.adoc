@@ -58,9 +58,8 @@ Daher ist dieses ein gefragter Schatz für Alchemisten und Magier.
 
 == Offensiv
 
-* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9 (1W6+1)
-* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 (2W10)
-* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Biss, <<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>)
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9 (1W6+1) <<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 (2W10) 2x
 
 == Defensive
 
@@ -86,8 +85,7 @@ Die Bestimmung kann zufällig durch 1W6+3 bestimmt werden.
 * Jeder Kopf bietet der Hydra 20 Punkt auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool], der minimal 110 TP beträgt (90 plus 1 Kopf).
 Dabei handelt es sich nicht um xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_temporary[temporäre] Punkte.
 * Eine Hydra ohne Köpfe, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt] sofort, unabhängig von ihren verbliebenen TP.
-* Solange die Hydra mehr als einen Kopf besitzt, kann sie ihre Fähigkeit link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] verwenden.
-Die Anzahl der Attacken entspricht der Anzahl ihrer Köpfe.
+* Die Hydra kann ihre Attacke link:../skills/bestiary_skill_attack_bite.adoc[Biss] pro Kampfphase sooft einsetzen, wie sie Köpfe hat.
 * Solange die Hydra mehr als einen Kopf besitzt, kann sie pro eigener xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] eine zusätzliche xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_dogde[Reaktion] einsetzen, um einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] durchzuführen.
 * Die Hydra erhält pro Kopf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswürfe].
 * Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielten Attacke] auf einen der Köpfe, kann ein Angreifer versuchen, diesen abzuschlagen.

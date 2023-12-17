@@ -1,22 +1,26 @@
 = Satyre
 
-*Attributsbonus:* +1 GE, +1 SB +
+*Attribute:* +1 GE, +1 SB +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +0/+3 +
+*Rettungswürfe:* - +
 *Größe:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten (Blut der Bestie) +
-*CP:* 40 +
+*Eigenschaften:* link:../skills/racial/core_racial_skill_blood_of_the_beast.adoc[Blut der Bestie], <<ref_core_races_satyrs_mental_armor,Mentale Rüstung>>, <<ref_core_races_satyrs_spiritual_guidance,Spirituell Unterstützung>> +
+*Fortitudo:* 2 +
 
 == Eigenschaften
 
-=== Blut der Bestie
-
-
+[[ref_core_races_satyrs_mental_armor]]
 === Mentale Rüstung
 Die Psyche eines Satyre ist äußerst robust und gegen den korrumpierenden Einfluss des Wahnsinns gewappnet.
 Ein Satyre besitzt 5 Punkte xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung] für die Schadensart xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental].
 
+[[ref_core_races_satyrs_spiritual_guidance]]
 === Spirituelle Unterstützung
 Satyre besitzen eine beruhigende Aura, die andere Lebewesen mit Selbstbewusstsein füllt und sie in schweren Zeiten unterstützt.
 Der Satyre kann einmal am Tag diese Eigenschaft als xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen.

@@ -249,18 +249,15 @@ Das Talent Parade erlaubt eine ungeübte Anwendung und das verwandte Attribut is
 Varrik's Spieler überprüft Varrik's Attributsstufe in Geschick und bemerkt, dass Varrik einen Bonus von +1 aufgrund seiner 2 Stufen würfeln kann, um sich mit seinem Zauberstab zu verteidigen.
 ====
 
-[[ref_core_2d10_characters_talents_sgm]]
-==== Steigerungsmodifikator
-Jedes Talent, welches ein Charakter kennt (damit mindestens eine Talentstufe von 1 besitzt), erhält einen *Steigerungsmodifikator* (SGM).
+[[ref_core_2d10_characters_talents_professional_talents]]
+==== Berufstalente
+*Berufstalente* sind Talente, die von dem xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_profession[Beruf] eines Charakters favorisiert sind und besonders intensiv von diesem Beruf benutzt und gelernt werden.
+Sie erhalten daher *keinen Modifikator* auf ihre xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_talents[CP-Kosten], wenn sie gelernt und gesteigert werden.
 
-* *SGM 1* beschreibt *Berufstalente*, also Talente, die von dem xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_profession[Beruf] favorisiert sind und insbesondere von diesem Beruf benutzt und gelernt werden.
-* *SGM 2* beschreibt Talente, die nahe verwandt sind mit dem Beruf.
-* *SGM 3* beinhaltet Talente, die nur wenig mit dem Beruf zu tun hat und sie sind daher schwierig zu lernen.
-
-Durch die xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_profession[Wahl des Berufs] erhält der Charakter eine bestimmte Anzahl von Talenten mit SGM 1 und SGM 2.
-Alle anderen Talente sind implizit immer SGM 3.
-
-Der Steigerungsmodifikator beeinflusst die Kosten, um die Stufe in einem Talent zu xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_talents[steigern].
+[[ref_core_2d10_characters_talents_gerneral_talents]]
+==== Allgemeine Talente
+Alle Talente, die keine <<ref_core_2d10_characters_talents_professional_talents,Berufstalente>> für einen Charakter sind, gelten als *allgemeine Talente*.
+Diese Talente sind für Charaktere etwas schwerer zu lernen und erhalten einen *Modifikator von x2* auf ihre xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_talents[CP-Kosten].
 
 [[ref_core_2d10_characters_talents_usage]]
 ==== Anwendung von Talenten
@@ -953,7 +950,7 @@ Der Zustand endet üblicherweise nach Ablauf des verursachenden Effekts.
 Ein Charakter kann geblendet werden, zum Beispiel durch grelles Licht, einen Zauberspruch oder weil jemand ihm eine Augenbinde umgelegt hat.
 
 Ein blinder Charakter gilt als stünde er in xref:core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[totaler Dunkelheit].
-Außerdem erhält er auf seine xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] einen <<ref_core_characters_charactercreation_disadvantages,Nachteil>>.
+Außerdem erhält er auf seine xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 
 Einige Kreaturen besitzen keine typischen Sinne oder ihre Wahrnehmung basiert nicht hauptsächlich auf Sicht, sondern zum Beispiel auf Gehör.
 Auch diese Kreaturen können diesen Zustand erhalten, allerdings muss die verursachende Quelle explizit den besonderen Sinn betreffen.

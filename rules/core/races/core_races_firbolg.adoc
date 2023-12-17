@@ -1,15 +1,21 @@
 = Firbolg
 
-*Attributsbonus:* +1 ST, +1 EN +
+*Attribute:* +1 ST, +1 EN +
+*Talente:* - +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +1/+2 +
+*Rettungswürfe:* - +
 *Größe:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Alberon +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_races_firbold_alberons_veil,Alberons Schleier>>, <<ref_core_races_firbold_secrets_of_the_fey,Geheimnisse der Feen>>, <<ref_core_races_firbold_secrets_natures_voice,Stimme der Natur>> +
+*Fortitudo:* 2 +
 
 == Eigenschaften
 
+[[ref_core_races_firbold_alberons_veil]]
 === Alberons Schleier
 Firbolgs stehen unter besonderem Schutz durch Alberon.
 Daher gewährt er Ihnen eine besondere Fähigkeit, die es ermöglicht, in Gefahrsituationen vor den Augen der Feinde zu verschwinden.
@@ -19,12 +25,14 @@ Dazu muss er 5 MP einsetzen.
 
 Der Firbolg wird xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar] bis er einen Angriff durchführt, maximal jedoch seine EN-Stufe viele Kampfphasen.
 
+[[ref_core_races_firbold_secrets_of_the_fey]]
 === Geheimnisse der Feen
 Firbolgs stehen in enger Verbindung mit den mystischen Untergebenen Alberons, den Feen.
 Zur Charaktererschaffung muss ein Firbolg einen Geländetyp wählen, beispielsweise Gebirge, Wald oder Sumpf.
 In dem gewählten Geländetyp erleidet der Firbolg nie Einschränkungen auf seine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] durch xref:../core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände].
 Magische Effekte, die seine BEW beeinflussen, wirken jedoch normal.
 
+[[ref_core_races_firbold_secrets_natures_voice]]
 === Stimme der Natur
 Firbolgs haben die natürliche Begabung mit Tieren und Pflanzen zu kommunizieren.
 Setzt ein Firbolg diese Fähigkeit ein, so verstehen Tiere und Pflanzen seine Worte.

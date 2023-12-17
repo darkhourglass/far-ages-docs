@@ -2,6 +2,7 @@
 
 *Voraussetzungen:* - +
 *Typ:* Passiv +
+*Überanstrengung:* - +
 *CP:* tba +
 
 Diese Fähigkeit verleiht einer Kreatur effektiv xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageimmunity[Schadensimmunität] für die angegebene *Schadensart*, allerdings wird zusätzlich der eigentlich verursachte Schaden absorbiert und dem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] angerechnet, so als würde die Kreatur heilen.
