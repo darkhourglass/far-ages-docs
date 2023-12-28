@@ -1,16 +1,22 @@
 = Zwerge
 
 *Attributs:* +1 KO, + 1 SB, -1 CH +
-*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen], xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Schmiedekunst)], xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Steinmetz)]+
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen], xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Schmiedekunst)], xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Steinmetz)] +
 *Fähigkeiten:* - +
 *TP/MP-Steigerung:* +3/+0 +
-*Rettungswürfe:* xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin] +
 *Größe:* 4 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten +
-*Eigenschaften:* link:../skills/racial/core_racial_skill_bulwark.adoc[Bollwerk], link:../skills/racial/core_racial_skill_senses_infraredvision.adoc[Infrarotsicht (50,00 Meter]) +
+*Eigenschaften:* <<ref_core_races_dwarfs_hold_the_grude,Hege den Groll>>, link:../skills/racial/core_racial_skill_senses_infraredvision.adoc[Infrarotsicht (50,00 Meter]), link:../skills/racial/core_racial_skill_hardy_metabolism.adoc[Widerstandsfähiger Metabolismus] +
 *Fortitudo:* 2 +
 
-== Eigenschaften
+[[ref_core_races_dwarfs_hold_the_grude]]
+== Hege den Groll
+Das Gedächtnis der Zwerge und ihre über Generationen gehegten Grolle sind weltbekannt.
+Um diese Fähigkeit zu nutzen, musst Du gegenüber einer Kreatur einen Groll deklarieren.
+Für nächsten 24 Stunden erhältst Du einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf eine beliebige xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gegen das Ziel.
+Du kannst die Verwendung dieses Bonus frei wählen, sogar nachdem die Würfel initial gewürfelt hast.
+Nach Verwendung dieses Bonus kannst Du ihn nicht wieder gegen die gleiche Kreatur einsetzen.

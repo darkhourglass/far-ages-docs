@@ -1,35 +1,28 @@
 = Assassine
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Hieb Ausweichen, Nahkampfwaffen, Wurfwaffen, Schleichen, Fallen Stellen, Verstecken+
-*Talentliste (SGM 2):* Athletik, Akrobatik, Projektilwaffen, Fallen Entschärfen, Täuschen, Schloss Knacken, Verborgenes Erkennen, Wissen [Gifte], 1 freies Wissenstalent +
-*Attributsbonus:* +1 GE, +1 ER +
-*Besondere Fähigkeiten:* +
+*Attribute:* +1 GE, +1 ER +
+*Talente:* Athletik, Akrobatik, Ausweichen, Fallen Entschärfen, Fallen Stellen, Nahkampfwaffen, Projektilwaffen, Täuschen, Schleichen, Schloss Knacken, Wurfwaffen, Verborgenes Erkennen, Verstecken, Wissen [Gifte], 1 freies Wissenstalent +
+*Fähigkeiten:* link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] +
 *TP/MP-Steigerung:* +6/+4 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
 *Startausrüstung:* Armbrust, Dolch, Lederrüstung, Umhang, Wurfmesser +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_professions_assassin_coat_poison,Gift auftragen>>, <<ref_core_professions_assassin_weapon_concealment,Versteckte Waffen>>, <<ref_core_professions_assassin_surprisingly_stabby,Überraschend hinterhältig>> +
+*Fortitudo:* 4 +
 
-== Eigenschaften
-
-[[ref_assassing_coat_poison]]
-=== Gift auftragen
-Einmal pro Kampfphase kann der Assassine als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] Gift auf eine in der Hand gehaltene Waffe auftragen.
+[[ref_core_professions_assassin_coat_poison]]
+== Gift auftragen
+Im xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] kann der Assassine als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] Gift auf eine in der Hand gehaltene Waffe auftragen.
 Das Gift muss sich am Körper des Assassinen befinden.
-Verursacht er innerhalb der nächsten 5 Kampfphasen mit der Waffe (bzw. den Projektilen der Waffe) Schaden, muss das Opfer zusätzlich eine dem Gift passende Gift-Probe ablegen.
-
+Verursacht er innerhalb der nächsten 5 Kampfphasen mit der Waffe (bzw. den Projektilen der Waffe) Schaden, muss das Opfer zusätzlich eine dem Gift passenden xref:../core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Rettungswurf] ablegen.
 Der Assassine ist so geübt in dieser Aktion, dass für ihn keine Gefahr durch das Gift besteht.
 
-[[ref_assassin_backstab]]
-=== Hinterhältiger Angriff
-Der Assassine lernt die Fähigkeit link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] zu Beginn des Spiels ohne zusätzliche CP-Kosten und ohne die Voraussetzungen erfüllen zu müssen.
-
-[[ref_assassin_weapon_concealment]]
-=== Versteckte Waffen
+[[ref_core_professions_assassin_weapon_concealment]]
+== Versteckte Waffen
 Der Assassin kann bis zu drei Waffen mit der jeweils maximalen Größe 3 an seinem Körper verstecken.
 Um diese zu xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[entdecken], müssen andere Charaktere mindestens einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] höher werfen, als sonst üblichen.
 
-[[ref_assassing_surprisingly_stabby]]
-=== Überraschend hinterhältig
-Führt der Assassine eine Angriffsprobe im Nahkampf aus, darf er seine Fähigkeit <<ref_assassin_backstab,hinterhältiger Angriff>> einsetzen, auch wenn die Bedingungen zum Durchführen für den hinterhätigen Angriff nicht erfüllt sind, z.B. wenn der Kontrahent nicht xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] ist.
+[[ref_core_professions_assassin_surprisingly_stabby]]
+== Überraschend hinterhältig
+Führt der Assassine eine Angriffsprobe im Nahkampf aus, darf er seine Fähigkeit link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] einsetzen, auch wenn die Bedingungen zum Durchführen für den hinterhältigen Angriff nicht erfüllt sind, beispielsweise. wenn der Kontrahent nicht xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] ist.
 Ist der Kontrahent explizit immun gegen hinterhältige Angriffe, wirkt diese Fähigkeit allerdings nicht.
+Außerdem kann er diese Fähigkeit pro Kontrahent und Kampf nur einmal einsetzen.

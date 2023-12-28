@@ -1,35 +1,23 @@
 = Duellist
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Akrobatik, Konversation, Nahkampfwaffen, Parade, Überzeugen, 1 freies Wissenstalent +
-*Talentliste (SGM 2):* Athletik, Hieb Ausweichen, Verborgenes Entdecken +
-*Attributsbonus:* +1 GE, +1 CH +
+*Attribute:* +1 GE, +1 CH +
+*Talente:* Athletik, Akrobatik, Ausweichen, Konversation, Nahkampfwaffen, Parade, Überzeugen, Verborgenes Entdecken, 1 freies Wissenstalent +
+*Fähigkeiten:* link:../skills/core_skill_acrobatic_attack.adoc[Akrobatischer Angriff], link:../skills/core_skill_disarm.adoc[Entwaffnen] +
 *TP/MP-Steigerung:* +8/+2 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
 *Startausrüstung:* Rapier, Lederweste, elegante Kleidung, Rucksack +
-*CP:* 60 +
+*Eigenschaften:* <<ref_core_professions_duellist_duell,Duell>>, <<ref_core_professions_duellist_dangersense,Gefahrensinn>> +
+*Fortitudo:* 5 +
 
-== Eigenschaften
-
-[[ref_duellist_duell]]
-=== Duell
-Einmal als pro Kampfphase als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] darf der Duellist einen beliebigen Gegner in Sichtweite als Ziel seines Duells auswählen.
+[[ref_core_professions_duellist_duell]]
+== Duell
+Im xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] darf der Duellist einen beliebigen Gegner in Sichtweite als Ziel seines Duells auswählen.
 Er erhält für die Dauer des Duells einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsproben] gegen diesen Gegner.
 
 Das Duell endet, bzw. dieser Bonus geht verloren, sobald entweder der Duellist oder der Gegner von einem anderen Kampfteilnehmer xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] wird.
 Der Duellist darf immer nur einen Gegner gleichzeitig duellieren.
 
-[[ref_duellist_combattraining]]
-=== Duellist-Kampftraining
-Duellisten lernen die folgenden Fähigkeiten  zu Beginn des Spiels ohne zusätzliche CP-Kosten:
-
-* link:../skills/core_skill_acrobatic_attack.adoc[Akrobatischer Angriff]
-* link:../skills/core_skill_disarm.adoc[Entwaffnen]
-
-[[ref_duellist_dangersense]]
-=== Gefahrensinn
+[[ref_core_professions_duellist_dangersense]]
+== Gefahrensinn
 Der erste xref:../core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] einer Kampfphase, der gegen den Duellist geführt wird, wird ignoriert.
 
-[[ref_duellist_improvedinitiative]]
-=== Verbesserte Initiative
-Der Duellist erhält einen Bonus von +2 auf seinen xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Wert].

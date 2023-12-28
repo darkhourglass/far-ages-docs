@@ -131,6 +131,13 @@ Es ist nicht zwingend notwendig, einen beliebigen Hintergrund Wort für Wort zu 
 Gefällt einem Spieler beispielsweise die link:backrounds/core_backrounds_cityguard.adoc[Stadtwache], aber er möchte seinen Charakter nicht an eine Stadt binden, sondern an ein kleines Dorf und dessen Umgebung, dann kann dies natürlich für den Charakter angepasst werden.
 Auch hier gilt, dass die Abstimmung mit dem SL erfolgen muss und dieser das letzte Wort hat.
 
+[[ref_core_characters_charactorcreation_initial_commitments]]
+=== Initiale Festlegungen
+Manche Völker, Berufe oder Hintergründe enthalten Beschreibungen für Optionen oder Wahlmöglichkeiten zwischen Talenten oder Fähigkeiten.
+Beispielsweise ermöglicht der Beruf des link:professions/core_professions_hunter.adoc[Jägers] die Wahl eines freien xref:core_rules_talents_base.adoc#ref_talents_craft[Handwerkstalent].
+Mit der Berufswahl muss der Charakter dieses Talent sofort auswählen, unabhängig davon, ob er von seinen <<ref_core_characters_charactercreation_initialtalents,initialen Talentstufen>> dieses Talent mit einer Stufe versieht oder nicht.
+Ebenso müssen alle Fähigkeiten oder Eigenschaften, die eine Auswahl beinhalten, zum Beispiel das xref:professions/core_professions_scholar.adoc#ref_core_professions_scholar_deep_study[vertiefende Studium] des link:professions/core_professions_scholar.adoc[Scholaren], getroffen werden, bevor die Charaktererschaffung abgeschlossen wird.
+
 [[ref_core_characters_charactorcreation_initialattributes]]
 === Bestimmung der initialen Attributsstufen
 In jedem Attribut startet ein neuer Charakter mit einer festen Attributsstufe.
@@ -561,7 +568,7 @@ Nach einer Steigerung addiert der Charakter die gegebene Zahl von TP und MP zu s
 .TP und MP steigern
 ====
 Michaels Charakter besaß zu Beginn aufgrund seiner Attributsstufen 30 TP und 10 MP.
-Der gewählte Beruf des link:professions/core_professions_scoundrel.adoc[Schurken] bietet eine TP/MP-Steigerung +6/+2 und sein Volk +3/+0.
+Der gewählte Beruf des link:professions/core_professions_scoundrel_thief.adoc[Schurken] bietet eine TP/MP-Steigerung +6/+2 und sein Volk +3/+0.
 Seine TP/MP-Steigerung beträgt damit insgesamt +9/+2
 Michael gibt für die erste Steigerung 100 CP aus und schon erhöhen sich die TP auf 39 und die MP auf 12.
 Die zweite Steigerung kostet bereits 2*100 = 200 CP und erhöht auf 48 TP und 14 MP.

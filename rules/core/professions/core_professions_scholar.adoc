@@ -1,22 +1,20 @@
 = Scholar
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Ausfragen, Forschen, Lesen/Schreiben, Technomantisches Gerät Benutzen, Verborgenes Entdecken, Überzeugen, 2 freie Wissenstalente +
-*Talentliste (SGM 2):* Aether Wahrnehmung, Hieb Ausweichen, 2 freie Wissenstalente +
-*Attributsbonus:* +1 EN, +1 ER +
+*Attribute:* +1 EN, +1 ER +
+*Talente:* Aether Wahrnehmung, Ausfragen, Ausweichen, Forschen, Lesen/Schreiben, Technomantisches Gerät Benutzen, Verborgenes Entdecken, Überzeugen, 4 freie Wissenstalente +
+*Fähigkeiten:* (speziell) +
 *TP/MP-Steigerung:* +2/+8+
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin] +
 *Startausrüstung:* Reisekleidung, Rucksack, 3 Bücher über unterschiedliche Wissensgebiete, Tinte, Papier +
-*CP:* 60  +
+*Eigenschaften:* <<ref_core_professions_scholar_arcane_study,Arkanes Studium>>, <<ref_core_professions_scholar_spontaneous_tutoral,Spontanes Tutorial>>,<<ref_core_professions_scholar_deep_study,Vertiefendes Studium>>,<<ref_core_professions_scholar_universal_study,Universelles Studium>> +
+*Fortitudo:* 5 +
 
-== Eigenschaften
+[[ref_core_professions_scholar_arcane_study]]
+== Arkanes Studium
+Der Scholar lernt xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] als xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_professional_talents[Berufstalent].
 
-[[ref_scholar_arkanestudy]]
-=== Arkanes Studium
-Der Scholar darf das Talent xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen [Arkanes]] als SGM 1 Talent lernen.
-
-[[ref_scholar_spontaneoustutoral]]
-=== Spontanes Tutorial
+[[ref_core_professions_scholar_spontaneous_tutoral]]
+== Spontanes Tutorial
 Der Scholar kann sein umfangreiches Wissen und Verständnis mit anderen Kreaturen teilen.
 Er muss dazu 10 Minuten aufwenden, in denen die Zielkreaturen ihm zuhören können.
 Nach Abschluss des Tutorials erhalten die Kreaturen für 24 Stunden einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf eine beliebige Talentprobe nach Wahl des Scholaren.
@@ -24,22 +22,22 @@ Alle Kreaturen können nur für dasselbe Talent profitieren.
 
 Der Effekt dieser Eigenschaft kann auf so viele Kreaturen gleichzeit angewendet werden, wie der Scholar Stufen in xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[ER] hat.
 
-[[ref_scholar_deepstudy]]
-=== Vertiefendes Studium
+[[ref_core_professions_scholar_deep_study]]
+== Vertiefendes Studium
 Zu Beginn des Spiels wählt der Scholar eine der folgenden link:../core_rules_skills.adoc[Fähigkeiten] aus:
 
 * link:../skills/core_skill_alchemy.adoc[Alchemie]
 * link:../skills/core_skill_artefactlore.adoc[Artefaktkunde]
 * link:../skills/core_skill_runelore.adoc[Runenlehre]
 
-Er lernt diese Fähigkeit ohne die Voraussetzungen erfüllen zu müssen und ohne zusätzliche CP-Kosten.
+Er lernt diese Fähigkeit ohne die Voraussetzungen erfüllen zu müssen.
 
-[[ref_scholar_universalstudy_i]]
-=== Universelles Studium I
-Zu Beginn des Spiels kann der Scholar eine beliebige link:../core_rules_skills.adoc[Fähigkeit] aus, deren CP-Kosten maximal 100 betragen darf.
-Er lernt diese Fähigkeit ohne die Voraussetzungen erfüllen zu müssen und ohne zusätzliche CP-Kosten.
+[[ref_core_professions_scholar_universal_study]]
+== Universelles Studium
+Du kannst xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeiten] lernen und dabei eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_skills_requirements[Voraussetzung] ignorieren, sofern diese Voraussetzung auf einem Talent, Attribut oder Beruf besteht.
+Voraussetzungen, die auf Völkern, Kreaturentypen oder anderen Fähigkeiten beruhen, können nicht ignoriert werden.
+Eine Fähigkeit mit mehreren Voraussetzungen behält alle anderen Voraussetzungen, auf die Du diese Fähigkeit nicht anwendest.
 
-[[ref_scholar_universalstudy_ii]]
-=== Universelles Studium II
-Zu Beginn des Spiels kann der Scholar eine beliebige link:../core_rules_skills.adoc[Fähigkeit] aus, deren CP-Kosten maximal 100 betragen darf.
-Er lernt diese Fähigkeit ohne die Voraussetzungen erfüllen zu müssen und ohne zusätzliche CP-Kosten.
+Du kannst die Fähigkeit somit mit reduzierten Voraussetzungen erlernen und somit auch Fähigkeiten lernen, die Du üblicherweise nicht erreichen könntest.
+
+Allerdings erhöhen sich die xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_skills_cp[CP-Kosten] um 20%, wenn Du auf diese Weise eine Fähigkeit erlernst.

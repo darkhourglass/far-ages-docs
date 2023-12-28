@@ -1,36 +1,22 @@
 = Kundschafter
 
-
-Athletik
-Nahkampfwaffen
-Fallen Entschärfen
-Fallen Stellen
-Reflex
-Schloss Knacken
-
-Forschen
-
-
-*Beschreibung:* +
-*Talentliste (SGM 1):* Hieb Ausweichen, Projektilwaffen, Schleichen, Wissen [Überleben] Kundschafterspezialisierung I +
-*Talentliste (SGM 2):* Reiten, Tierfreundschaft, Verborgenes Entdecken
-Kundschafterspezialisierung II, 1 freies Handwerkstalent +
-*Attributsbonus:* +1 GE +
+*Attribute:* +1 KO +
+*Talente:* Athletik, Ausweichen, Nahkampfwaffen, Fallen Entschärfen, Fallen Stellen, Forschen, Projektilwaffen, Schloss Knacken, Schleichen, Reiten, Tierfreundschaft, Verborgenes Entdecken, Verstecken, Überleben +
+*Fähigkeiten:* link:../skills/core_skill_tracking.adoc[Spuren lesen] +
 *TP/MP-Steigerung:* +6/+4 +
-*Rettungswürfe:* TBA +
-*Startausrüstung:* +
-*CP:* +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin] +
+*Startausrüstung:* Kurzbogen, Kurzschwert, leichte Lederrüstung, Proviant für 7 Tage, Karte der Umgebung, wetterfeste Reisekleidung +
+*Eigenschaften:* <<ref_core_professions_scout_hidden_watcher,Heimlicher Beobachter>>, <<ref_core_professions_scout_fast_stealth,Schnelle List>>, <<ref_core_professions_scout_sure_footed,Sicherer Schritt>> +
+*Fortitudo:* 6 +
 
-== Kundschafterspezialisierung I
-Der Charakter kann eine der folgenden Spezialisierungen wählen und die gelisteten Talente mit SGM 1 aufschreiben:
+[[ref_core_professions_scout_hidden_watcher]]
+== Heimlicher Beobachter
+Solange Du erfolgreich xref:../core_rules_talents_base.adoc#ref_talents_hide[versteckt] bist, kannst Proben auf xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] mit xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] würfeln.
 
-* X: Athletik, Nahkampfwaffen,  Wissen [Militärtaktiken]
-* Y: Fallen Stellen, Forschen, Schloss Knacken, Wissen [Natur]
-* Z: Akrobatik, Fallen entschärfen, Schloss knacken, Täuschen
+[[ref_core_professions_scout_fast_stealth]]
+== Schnelle List
+Du darfst Dein Talent xref:../core_rules_talents_base.adoc#ref_talents_hide[Verstecken] als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] verwenden.
 
-== Kundschafterspezialisierung II
-Der Charakter kann passend zu Kundschafterspezialisierung I folgende Liste an Talenten mit SGM 2 aufschreiben.
-
-* X
-* Y
-* Z
+[[ref_core_professions_scout_sure_footed]]
+== Sicherer Schritt
+Einmal in Deinem Zug darfst Du eine xref:../core_rules_battlesystem.adoc#ref_core_battle_movement[Bewegung] ausführen und dabei die Effekte von xref:../core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwierigen Gelände] ignorieren.

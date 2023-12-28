@@ -4,25 +4,18 @@
 *Talente:* - +
 *Fähigkeiten:* - +
 *TP/MP-Steigerung:* +3/+0 +
-*Rettungswürfe:* - +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
 *Größe:* 6 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Titanten (Blut der Bestie) +
-*Eigenschaften:*  link:../skills/racial/core_racial_skill_blood_of_the_beast.adoc[Blut der Bestie], <<ref_core_races_taures_incredible_constitution,Außergewöhnliche Konstitution>>, <<ref_core_races_taures_powerful_presence,Machtvolle Präsenz>> +
+*Eigenschaften:*  link:../skills/racial/core_racial_skill_blood_of_the_beast.adoc[Blut der Bestie], <<ref_core_races_taures_powerful_presence,Machtvolle Präsenz>>, link:../skills/racial/core_racial_skill_sturdy.adoc[Massiv] +
 *Fortitudo:* 2 +
 
-== Eigenschaften
-
-[[ref_core_races_taures_incredible_constitution]]
-=== Außergewöhnliche Konstitution
-Ihr muskulöser und stämmiger Körperbau lässt Tauren auch schwere Verletzungen besser aushalten.
-Ein Taure besitzt einen Bonus von 15 auf seine TP.
-
 [[ref_core_races_taures_powerful_presence]]
-=== Machtvolle Präsenz
+== Machtvolle Präsenz
 Taure dürfen sich von dem Würfel einer xref:../core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] entscheiden, ob sie die Probe mit dem Attributsbonus ihrer ST- oder CH-Stufe würfen wollen.
 
-Außerdem gewährt diese Eigenschaft einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil], wenn die betroffene Kreatur die Größe 5 oder niedriger hat.
+Außerdem gewährt diese Eigenschaft einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil], wenn die betroffene Kreatur die xref:../core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5 oder niedriger hat.
 

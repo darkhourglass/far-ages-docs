@@ -1,17 +1,17 @@
 = Magus
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Lesen/Schreiben, Spruchzauberei [XXX], Verbrennen Widerstehen,  Wissen [Arkanes] +
-*Talentliste (SGM 2):* Forschen, Verborgenes Erkennen, 2 freie Wissenstalente +
-*Attributsbonus:* +1 EN +
+*Attribute:* +1 EN +
+*Talente:* Aether Wahrnehmung, Forschen, Lesen/Schreiben, Spruchzauberei [XXX], Verbrennen Widerstehen,
+Verborgenes Erkennen, Wissen [Arkanes], 2 freie Wissenstalente +
+*Fähigkeiten:* - +
 *TP/MP-Steigerung:* +0/+10 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* +
-*CP:* +
+*Eigenschaften:* <<ref_core_professions_magus_create_homunkulus,Homunkulus erschaffen>> +
+*Fortitudo:* TBA +
 
-== Eigenschaften
-
-=== Homunkulus
+[[ref_core_professions_magus_create_homunkulus]]
+== Homunkulus erschaffen
 Ein Homunkulus ist ein kleines, aus den Energien des Aethers geformtes Wesen, welches dem Charakter treu ergeben ist.
 Ein Homunkulus kann jede Gestalt bis einer GK 3 annehmen.
 In jeder dieser Gestalten erkennt man jedoch, dass irgendetwas "nicht stimmt", d.h. spätestens auf den zweiten Blick bemerkt ein Betrachter, dass der Homunkulus kein normales Wesen dieser Gestalt ist.

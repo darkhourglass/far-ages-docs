@@ -4,7 +4,7 @@
 *Talente:* - +
 *Fähigkeiten:* - +
 *TP/MP-Steigerung:* +0/+3 +
-*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Größe:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
@@ -13,15 +13,13 @@
 *Eigenschaften:* <<ref_core_races_elves_star_arcane_might,Arkane Macht>>, <<ref_core_races_elves_star_intuitive_spell_knowledge,Intuitives Zauberwissen>>, link:../skills/racial/core_racial_skill_vulnerable_to_magic.adoc[Magieanfällig], link:../skills/racial/core_racial_skill_keen_eyes.adoc[Scharfe Augen] +
 *Fortitudo:* 4 +
 
-== Eigenschafen
-
 [[ref_core_races_elves_star_arcane_might]]
-=== Arkane Macht
+== Arkane Macht
 Sternenelfen stehen der Magie und den Energien des Aethers deutlich näher als all ihre Verwandten und viele andere Völker.
 Ein Sternenelf erhält einen Bonus von +1 MaxPot und seine MP erhöhen sich um 20 Punkte.
 
 [[ref_core_races_elves_star_intuitive_spell_knowledge]]
-=== Intuitives Zauberwissen
+== Intuitives Zauberwissen
 Sternenelfen lernen arkane Zauber viel leichter als andere.
 Die Kosten für das xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_spells[Erlernen von Zaubersprüchen] werden reduziert um den Faktor -2 auf die POT des Zauberspruches.
 Ein Zauberspruch kosten minimal 100 CP.

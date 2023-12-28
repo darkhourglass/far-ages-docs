@@ -1,21 +1,21 @@
 = Nekromant
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Lesen/Schreiben, Spruchzauberei [Nekromantie], Verbrennen Widerstehen, Wissen [Arkanes], Wissen [Alchemie], Wissen [Untote] +
-*Talentliste (SGM 2):* Forschen, Schleichen, Verborgenes Erkennen, 1 freies Handwerkstalent +
-*Attributsbonus:* +1 EN, +1 SB +
+*Attribute:* +1 EN, +1 SB +
+*Talente:* Aether Wahrnehmung, Forschen, Lesen/Schreiben, Schleichen, Spruchzauberei [Nekromantie], Verborgenes Erkennen,Verbrennen Widerstehen, Wissen [Arkanes], Wissen [Alchemie], Wissen [Untote], 1 freies Handwerkstalent +
+*Fähigkeiten:* +
 *TP/MP-Steigerung:* +2/+8 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin] +
 *Startausrüstung:* Stab, Robe, persönliches Grimoire +
-*CP:* 50 +
+*Eigenschaften:* <<ref_core_professions_necromancer_philosphy_of_death,Die Philosophie des Todes>>, <<ref_core_professions_necromancer_fear_no_death,Keine Furcht vor dem Tod>> +
+*Fortitudo:* 5 +
 
-== Eigenschaften
+[[ref_core_professions_necromancer_philosphy_of_death]]
+== Die Philosophie des Todes
+Bei Charaktererschaffung muss ein Nekromant festlegen, wie er zu den Untoten steht und wie er seine Berufung interpretiert.
+Dazu muss eine der folgenden Optionen gewählt werden.
 
-[[ref_necromancer_philosphy_of_death]]
-=== Die Philosophie des Todes
-
-[[ref_necromancer_black_circle]]
-==== Tod dem Untot (Schwarzer Zirkel)
+[[ref_core_professions_necromancer_black_circle]]
+=== Tod dem Untot (Schwarzer Zirkel)
 Manche wollen Feuer mit Feuer bekämpfen.
 Daher gibt es Nekromanten, die ihr zwielichtiges Handwerk lernen, um das prominenteste Erzeugnis, die Untoten, zu bekämpfen.
 
@@ -26,14 +26,14 @@ Manche haben durch das Wirken eines skrupellosen Nekromanten vielleicht durch Un
 * Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen Untoten schaden soll, erhalten einen Bonus von +3.
 Dieser Bonus gilt für Zaubersprüche, die nur gegen Untote gewirkt werden können.
 
-[[ref_necromancer_grey_circle]]
-==== Nützliche Werkzeuge (Grauer Zirkel)
+[[ref_core_professions_necromancer_grey_circle]]
+=== Nützliche Werkzeuge (Grauer Zirkel)
 
 * Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen oder mehrere Untoten kontrollieren soll, erhalten einen Bonus von +1 auf die Würfe zum Erfolg.
 * Einmal pro Tag kann der Nekromant einen beliebigen Untoten im Umkreis von 3,00 Metern um 2W6 TP heilen oder 2W6 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden zufügen.
 
-[[ref_necromancer_white_circle]]
-==== Für die Ewigkeit (Weißer Zirkel)
+[[ref_core_professions_necromancer_white_circle]]
+=== Für die Ewigkeit (Weißer Zirkel)
 
 * Einmal pro Tag kann der Nekromant mit Einsatz von 5 MP aus einer humanoiden Leiche mit maximaler GK von 6 einen link:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoten] erschaffen.
 Der Untote kann maximal xref:../../advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 0 erreichen.
@@ -42,6 +42,6 @@ Der Untote zerfällt zu Staub nach 8 Stunden.
 * Einmal pro Tag kann der Nekromant einen beliebigen Untoten im Umkreis von 3,00 Metern um 4W6 TP heilen.
 * Alle Spruchzauberei-Proben, die für einen Zauberspruch gewürfelt werden, der einen Untoten erschaffen soll, erhalten einen Bonus von +3.
 
-[[ref_necromancer_fear_no_death]]
-=== Keine Furcht vor dem Tod
+[[ref_core_professions_necromancer_fear_no_death]]
+== Keine Furcht vor dem Tod
 Der Nekromant darf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswürfe] mit xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] würfeln, sofern ihre Auslöser Untote sind.

@@ -1,18 +1,16 @@
 = Krieger
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Athletik, Hieb Ausweichen, Nahkampfwaffen, Projektilwaffen, Schildverteidigung, Parade, Wurfwaffen +
-*Talentliste (SGM 2):* Tierfreundschaft, Reiten, Verborgenes Entdecken, Überleben, 1 freies Handwerkstalent, 1 freies Wissenstalent +
-*Attributsbonus:* +1 KO +
+*Attribute:* +1 ST, +1 KO +
+*Talente:* Athletik, Ausweichen, Nahkampfwaffen, Parade, Projektilwaffen, Reiten, Schildverteidigung, Tierfreundschaft, Überleben, Verborgenes Entdecken, Wurfwaffen, 1 freies Handwerkstalent, 1 freies Wissenstalent +
+*Fähigkeiten:* - +
 *TP/MP-Steigerung:* +8/+2 +
-*Rettungswürfe:* TBA +
-*Startausrüstung:* +
-*CP:* 50 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
+*Startausrüstung:* TBA +
+*Eigenschaften:* <<ref_core_professions_warrior_adaptive_strategy,Adaptive Strategie>>, <<ref_core_professions_warrior_favorite_fighting_style,Bevorzugte Kampfweise>>, <<ref_core_professions_warrior_heat_of_the_battle,In der Hitze des Gefechts>>  +
+*Fortitudo:* 5 +
 
-== Eigenschaften
-
-[[ref_warrior_adaptivestrategy]]
-=== Adaptive Strategie
+[[ref_core_professions_warrior_adaptive_strategy]]
+== Adaptive Strategie
 Zu Beginn einer Kampfphase darf ein Krieger entscheiden, ob er einen defensiven oder offensiven Kampfstil annehmen möchte.
 Die Entscheidung muss mit xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Beginn] der Aktion des Kriegers fallen.
 Die Entscheidung gilt für den Rest der Kampfphase.
@@ -22,8 +20,8 @@ Gleichzeitig erhält er einen Malus von -3 auf Proben für die Talente xref:../c
 
 Wählt der Krieger hingegen einen *offensiven* Kampfstil, werden die Boni bzw. Mali des zuvor beschriebenen defensiven Kampfstils getauscht.
 
-[[ref_warrior_favoritefightingstyle]]
-=== Bevorzugte Kampfweise
+[[ref_core_professions_warrior_favorite_fighting_style]]
+== Bevorzugte Kampfweise
 Zu Beginn des Spiels wählt der Krieger einen der folgenden Kampfstile:
 
 * xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons[Einhandwaffe]
@@ -31,18 +29,13 @@ Zu Beginn des Spiels wählt der Krieger einen der folgenden Kampfstile:
 * xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons[Schwere Projektilwaffe]
 * xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons[Wurfwaffe]
 
-Kämpft er mit einer passenden Waffe bzw. Kombination aus Waffen und Schild, darf er in einer Kampfphase eine weitere Angriffsprobe mit dieser Waffe führen ohne eine weitere Aktion aufzuwenden.
-Die Fähigkeit kann maximal einmal pro Kampfphase genutzt werden und ist nicht einsetzbar, wenn er keine passende Waffe führt.
+Kämpft er mit einer passenden Waffe, darf er in xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] einen weiteren xref:../core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Angriff] als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion]
 
-[[ref_warrior_heatofthebattle]]
-=== In der Hitze des Gefechts
+[[ref_core_professions_warrior_heat_of_the_battle]]
+== In der Hitze des Gefechts
 Ein Krieger kann nach dem Würfeln einer beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] entscheiden entweder einen gewürfelten Patzer oder Misserfolg neu zu würfeln.
 
 Der Krieger muss das neue Ergebnis akzeptieren, auch wenn es schlechter ist, als zuvor.
 Er muss diese Fähigkeit einsetzen, bevor eine etwaige xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe] gewürfelt wird.
 
 Pro Tag kann er diese Fähigkeit so oft einsetzen wie er Stufen in xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB] hat, jedoch maximal einmal pro xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase].
-
-[[ref_warrior_unbreakable]]
-=== Unverwüstlich
-Ein Krieger erhält einen einmaligen Bonus von 15 Punkten auf sein xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_tp[TP-Pool].

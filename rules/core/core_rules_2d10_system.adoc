@@ -1101,7 +1101,7 @@ Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm
 
 [[ref_core_2d10_condition_disabled]]
 === Kampfunfähig
-Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen], xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktionen] zur Verfügung.
+Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] unbd xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] zur Verfügung.
 
 Sofern nicht anders angegeben, gelten keine anderen Zustände (wie zum Beispiel im Fall einer <<ref_core_2d10_condition_unconscious,Ohnmacht>> <<ref_core_2d10_condition_onground,am Boden>> zu liegen).
 Die Kampfunfähigkeit endet erst, wenn der Zustand explizit aufgehoben wird.
@@ -1160,9 +1160,20 @@ Bei manchen Dingen kommt einem einfach die Galle hoch.
 Dem Charakter ist übel und er kämpft damit, noch schlimmeres verhindern.
 Er muss für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -5 hinnehmen.
 
+[[ref_core_2d10_condition_encumbered]]
+=== Überlastet
+Ein Charakter ist *überlastet*, wenn er zu viel Gewicht mit sich trägt.
+Üblicherweise wird dieser Zustand erreichent, wenn ein Charakter seine <<ref_core_characters_charactercreation_secondary_calculate_maxcarringcapacity,maximale Traglast>> übertrifft.
+
+Ein überlasteter Charakter wird behandelt als hätte er eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
+Der Zustand endet erst, wenn der Charakter seine maximale Traglast wieder unterschreitet.
+Sollte ein anderer Effekt diesen Zustand erzeugen, gilt die Dauer des Effekts.
+
+Sollte der Charakter bereits Stufen in Erschöpfung besitzen, wird diese virtuelle Stufe zur Bestimmung des Gesamteffekts gezählt, ist aber nicht relevant für das Beenden des Zustands der Erschöpfung.
+
 [[ref_core_2d10_condition_surprised]]
 === Überrascht
-Ein überraschter Charakter kann in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
+Ein *überraschter* Charakter kann in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
 Alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] erhalten einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 Der Zustand endet üblicherweise nach einer Kampfphase.
 

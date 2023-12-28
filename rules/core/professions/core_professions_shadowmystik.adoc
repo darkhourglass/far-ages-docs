@@ -1,26 +1,20 @@
 = Schattenmystiker
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Fallen Entschärfen, Hieb Ausweichen, Nahkampfwaffen, Reflex, Schloss Knacken, Spruchzauberei [Weg der Schatten], Verbrennen Widerstehen, Wissen [Arkanes]
-*Talentliste (SGM 2):* Lesen/Schreiben, Taschendiebstahl, Verborgenes Entdecken, 1 freies Wissenstalent +
-*Attributsbonus:* +1 EN +
+*Attribute:* +1 GE, +1 EN +
+*Talente:* Ausweichen, Fallen Entschärfen, Lesen/Schreiben, Nahkampfwaffen, Schloss Knacken, Spruchzauberei [Weg der Schatten], Taschendiebstahl, Verbrennen widerstehen, Verborgenes entdecken, Wissen [Arkanes], 1 freies Wissenstalent +
+*Fähigkeiten:* link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] +
 *TP/MP-Steigerung:* +4/+6 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* Kurzschwert, 1 Wurfmesser, Diebeswerkzeuge, Leichte Lederrüstung +
-*CP:* 50 +
+*Eigenschaften:* <<ref_core_professions_shadowmystic_deviousmagic,Hinterhältige Magie>>, <<ref_core_professions_shadowmystic_shadow_tricks,Schattentricks>> +
+*Fortitudo:* 7 +
 
-== Eigenschaften
-
-[[ref_shadowmystic_backstab]]
-=== Hinterhältiger Angriff
-Ein Schattenmystiker lernt die Fähigkeit link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] zu Beginn des Spiels ohne zusätzliche CP-Kosten und ohne die Voraussetzungen erfüllen zu müssen.
-
-[[ref_shadowmystic_deviousmagic]]
-=== Hinterhältige Magie
-Der Schattenmystiker kann seinen <<ref_shadowmystic_backstab,Hinterhältigen Angriff>> auf Schadenswürfe anwenden, die aus xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Angriffsproben entstehen.
+[[ref_core_professions_shadowmystic_deviousmagic]]
+== Hinterhältige Magie
+Der Schattenmystiker kann seinen link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] auf Schadenswürfe anwenden, die aus xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Angriffsproben entstehen.
 Die Voraussetzungen für den hinterhältigen Angriff müssen weiterhin erfüllt sein.
 
-[[ref_shadowmystic_]]
-=== X
+[[ref_core_professions_shadowmystic_shadow_tricks]]
+== Schattentricks
 Aus der Hand des Schattenmystikers entsteht eine kleine Masse von lebendigem Schatten, der für ihn entfernte Objekte manipulieren kann.
 Der Schattenmystiker kann Proben auf xref:../core_rules_talents_base.adoc#ref_talents_lockpick[Schloss knacken], xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen] und xref:../core_rules_talents_base.adoc#ref_talents_pickpocket[Taschendiebstahl] auch auf eine Entfernung von 15,00 Metern ausführen, solange er Sichtkontakt hat.

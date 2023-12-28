@@ -1,26 +1,19 @@
 = Technomant
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Forschen, Handwerk[Schmied], Technomantisches Gerät Benutzen, Verbrennen Widerstehen, Wissen[Architektur und Ingenieur], Wissen[Arkanes], 1 freies Handwerkstalent +
-*Talentliste (SGM 2):* Fallen Entschärfen, Kunst [Metallverzierungen], Lesen/Schreiben, Verborgenes Entdecken, 1 freies Wissengebiet +
-*Attributsbonus:* +1 EN +
+*Attribute:* +1 EN +
+*Talente:* Aether Wahrnehmung, Fallen Entschärfen, Forschen, Handwerk[Schmied], Kunst [Metallverzierungen], Lesen/Schreiben, Technomantisches Gerät benutzen, Verborgenes entdecken, Verbrennen widerstehen, Wissen[Architektur und Ingenieur], Wissen[Arkanes], 1 freies Handwerkstalent, 1 freies Wissengebiet +
+*Fähigkeiten:* link:../skills/core_skill_mechanics.adoc[Mechanik] +
 *TP/MP-Steigerung:* +4/+6 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* Werkzeug, Lederwams, Schmiedehammer +
-*CP:* 60 +
+*Eigenschaften:* <<ref_core_professions_technomancer_remarkable_equipment,Außergewöhnliche Ausrüstung>>, <<ref_core_professions_technomancer_technomancy,Technomantie>> +
+*Fortitudo:* 7 +
 
-== Eigenschaften
-
-[[ref_technomancer_remarkableequipment]]
-=== Außergewöhnliche Ausrüstung
+[[ref_core_professions_technomancer_remarkable_equipment]]
+== Außergewöhnliche Ausrüstung
 Zu Beginn des Spiels erhält der Technomant ein xref:../core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät] im Wert von maximal 20000 Silbermünzen, welches kein xref:../core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_constructs[Konstrukt] sein darf.
 
-[[ref_technomancer_technomancy]]
-=== Technomantie
-Der Technomant lernt das Talent xref:../core_rules_technomanc .adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] als SGM 1 Talent.
-Er kann nach den regulären Regeln Talentstufen lernen, sobald er die angegebenen Voraussetzungen erfüllt.
-
-[[ref_technomancher_mechanics]]
-=== Mechanik
-Der Technomant lernt die Fähigkeit link:../skills/core_skill_mechanics.adoc[Mechanik] zu Beginn des Spiels ohne zusätzliche CP-Kosten.
-Er muss dazu nicht die angegebenen Voraussetzungen erfüllen.
+[[ref_core_professions_technomancer_technomancy]]
+== Technomantie
+Der Technomant lernt das Talent xref:../core_rules_technomanc .adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] als xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_professional_talents[Berufstalent].
+Er kann nach den regulären Regeln Stufen für dieses Talent erwerben, sobald er die angegebenen Voraussetzungen erfüllt.

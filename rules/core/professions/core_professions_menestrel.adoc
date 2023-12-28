@@ -1,17 +1,15 @@
 = Menestrel
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Akrobatik, Ausfragen, Forschen, Lesen/Schreiben, Spruchzauberei [Menestrel], Kunst[Gesang], 1 freies Kunsttalent, Überzeugen +
-*Talentliste (SGM 2):* Fallen entschärfen, Hieb Ausweichen, Schleichen, Schloss Knacken, Täuschen, Projektilwaffen, Verborgenes Erkennen, 1 freies Wissenstalent +
-*Attributsbonus:* +1 GE, +1 CH +
-*TP/MP-Steigerung:* +5/+5 +
-*Rettungswürfe:* TBA +
+*Attribute:* +1 GE, +1 CH +
+*Talente:* Akrobatik, Ausfragen, Ausweichen, Fallen entschärfen, Forschen, Lesen/Schreiben, Projektilwaffen, Schleichen, Schloss Knacken, Spruchzauberei [Magie der Musik], Täuschen, Kunst[Gesang], Überzeugen, Verborgenes Erkennen, 1 freies Kunsttalent, 1 freies Wissenstalent +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +4/+6 +
+*Rettungswürfe:* - +
 *Startausrüstung:* Lederrüstung, Gute Kleidung, Rucksack, Musikinstrument, 1 Geschichtsbuch +
-*CP:* 80 +
+*Eigenschaften:* <<ref_core_professions_menestrel_magic_performance,Magischer Auftritt>> +
+*Fortitudo:* 6 +
 
-== Eigenschaften
-
-[[ref_menestrel_magicperformance]]
-=== Magischer Auftritt
-Besitzt der Menestrel ein weiteres Talent Kunst, welches den Gesang unterstützt (z.B. Kunst[Laute]), darf er  die Spruchzauberei-Probe der als xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] würfeln.
+[[ref_core_professions_menestrel_magic_performance]]
+== Magischer Auftritt
+Besitzt der Menestrel ein weiteres Talent, welches den Gesang unterstützt (z.B. Kunst[Laute]), darf er die Spruchzauberei-Probe der als xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] würfeln.
 Ein Menestrel kann keine Kunst-Talente kombinieren, wenn diese den Einsatz von Gesang nicht gleichzeitig ermöglichen (z.B. Kunst[Flöte]).

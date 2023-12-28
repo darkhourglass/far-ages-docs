@@ -1,44 +1,34 @@
 = Jäger
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Athlethik, Fallen stellen, Projektilwaffen, Schleichen, Tierfreundschaft, Verborgenes Erkennen, Verstecken, Wissen [Tiere] +
-*Talentliste (SGM 2):* Akrobatik, Hieb Ausweichen, Fallen entschärften, Wissen [Monster], 1 freies Handwerkstalent +
-*Attributsbonus:* +1 GE, +1 ER +
+*Attribute:* +1 GE, +1 ER +
+*Talente:* Akrobatik, Athlethik, Ausweichen, Fallen entschärften, Fallen stellen, Projektilwaffen, Schleichen, Tierfreundschaft, Verborgenes Erkennen, Verstecken, Wissen [Tiere], Wissen [Monster], 1 freies Handwerkstalent +
+*Fähigkeiten:* link:../skills/core_skill_tracking.adoc[Spuren lesen] +
 *TP/MP-Steigerung:* +6/+4 +
-*Rettungswürfe:* TBA +
-*Startausrüstung:* Langbogen, Köcher mit 10 Pfeilen, Kurzschwert, Lederrüstung, Wetterfeste Kleidung +
-*CP:* 70+
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit] +
+*Startausrüstung:* Langbogen, Köcher mit 10 Pfeilen, Kurzschwert, Lederrüstung, wetterfeste Kleidung +
+*Eigenschaften:* <<ref_core_professions_hunter_mark_prey,Beute markieren>>, <<ref_core_professions_hunter_hunting_grounds,Jagdgebiet>>, <<ref_core_professions_hunter_specialised_hunting,Spezialisierte Jagdmethoden>> +
+*Fortitudo:* 6 +
 
-== Eigenschaften
-
-[[ref_hunter_markprey]]
-=== Beute markieren
-Mit dem Einsatz eines xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] kann der Jäger eine beliebige Kreatur in Sichtweite markieren.
+[[ref_core_professions_hunter_mark_prey]]
+== Beute markieren
+Mit dem Einsatz einer xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] kann der Jäger eine beliebige Kreatur in Sichtweite markieren.
 Diese Markierung hält für genauso viele Stunden an, wie der Jäger Stufen im Attribut xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[ER] hat.
 Solange die Markierung anhält, kennt der Jäger die Himmelsrichtung und ungefähre Entfernung, in der die Kreatur sich von ihm aus befindet.
 
-[[ref_hunter_huntinggrounds]]
-=== Jagdgebiet
+[[ref_core_professions_hunter_hunting_grounds]]
+== Jagdgebiet
 Der Jäger besitzt ein angestammtes Gebiet, welches er zum Jagen verwendet und ist mit diesem sehr gut vertraut.
 Das Gebiet muss zu Beginn des Spiels festgelegt werden.
-Es muss sich dabei um einen begrenzten, geografischen Ort handeln, z.B. ein bestimmtes Waldstück, eine Ebene oder eine Gebirgskette.
+Es muss sich dabei um einen begrenzten, geografischen Ort handeln, beispielsweise ein bestimmtes Waldstück, eine Ebene oder eine Gebirgskette.
 Alternativ sind auch Stadtgebiete erlaubt.
 
-Innerhalb dieses Gebiets erhält der Jäger die Fähigkeit link:../skills/core_skill_orientation.adoc[Orientierung].
+Innerhalb dieses Gebiets erhält der Jäger die Vorteile der Fähigkeit link:../skills/core_skill_orientation.adoc[Orientierung] ohne sie aktiv lernen zu müssen.
 Darüber hinaus erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf alle xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen-Proben], wenn er sich in diesem Gebiet aufhält.
-Dieser letztere Bonus kann nach Ermessen des SL auch in Gebieten verwendet werden, die von gleicher Beschaffenheit sind, z.B. in einem anderen Wald.
+Dieser letztere Bonus kann nach Ermessen des SL auch in Gebieten verwendet werden, die von gleicher Beschaffenheit sind.
 
-// TODO Link creature types
-[[ref_hunter_specialisedhunting]]
-=== Spezialisierte Jagdmethoden
+[[ref_core_professions_hunter_specialised_hunting]]
+== Spezialisierte Jagdmethoden
 Der Jäger kennt die Eigenheiten und Schwächen bestimmter Beutewesen besonders gut und kann diese zu seinem Vorteil nutzen.
-Zu Beginn des Spiels muss der Jäger einen primären und eine sekundären Kreaturentyp auswählen.
-Würfelt er eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gegen eine Kreatur mit entweder passenden primären oder sekundären Typ, erhält er einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf diese Probe.
-Im Fall einer Schadensprobe erhält diese außerdem einen Bonus von +3.
-
-Besitzt eine Kreatur sowohl den passenden primären und sekundären Typ, erhöhen sich die Boni kumulativ, d.h. die Angriffsprobe erhält einen Bonus von +6 auf die Würfe zum Erfolg und die Schadensprobe erhöht sich um +6.
-
-[[ref_hunter_tracking]]
-=== Spuren lesen
-Der Jäger lernt die Fähigkeit link:../skills/core_skill_tracking.adoc[Spuren lesen] zu Beginn des Spiels ohne zusätzliche CP-Kosten.
-Er muss die Voraussetzungen dazu nicht erfüllen.
+Zu Beginn des Spiels muss der Jäger einen primärenentyp auswählen.
+Würfelt er eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gegen eine Kreatur mit passenden primären Typ, erhält er einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf diese Probe.
+Besitzt eine Kreatur sowohl den passenden primären und sekundären Typ erhöht sich auch die Schadensprobe um +3.

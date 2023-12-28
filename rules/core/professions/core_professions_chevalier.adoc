@@ -1,32 +1,29 @@
 = Kavalier
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Nahkampfwaffen, Reiten, Schildverteidigung +
-*Talentliste (SGM 2):* Athletik, Akrobatik, Konversation, Parade, Tierfreundschaft, Wissen[Tiere] +
-*Attributsbonus:* +1 ST, + 1 KO +
+*Attribute:* +1 ST, +1 KO +
+*Talente:* Athletik, Akrobatik, Konversation, Nahkampfwaffen, Parade, Reiten, Schildverteidigung, Tierfreundschaft, Wissen[Tiere] +
+*Fähigkeiten:* - +
 *TP/MP-Steigerung:* +8/+2 +
-*Rettungswürfe:* TBA +
-*Startausrüstung:* Lanze, Nahkampfwaffe, Pflege und Versorgungsmittel für sein Reittier, Wetterfeste Kleidung, Lederrüstung +
-*CP:* 60 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin] +
+*Startausrüstung:* Lanze, Nahkampfwaffe, Pflege und Versorgungsmittel für sein Reittier, wetterfeste Kleidung, Lederrüstung +
+*Eigenschaften:* <<ref_core_professions_chevalier_inspiring_presence,Inspirierende Präsenz>>, <<ref_core_professions_chevalier_trusty_steed,Treues Reittier>>, <<ref_core_professions_chevalier_symbiotic_figthing,Symbiotischer Kampfstil>>, <<ref_core_professions_chevalier_animal_care,Tierpflege>> +
+*Fortitudo:* 5 +
 
-== Eigenschaften
-
-[[ref_chevalier_inspiringpresenz]]
-=== Inspirierende Präsenz
-Einmal pro Kampfphase kann der Kavalier für den Einsatz einer xref:../core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einen beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] eines Verbündeten im Umkreis von 6,99 Metern wiederholen lassen.
+[[ref_core_professions_chevalier_inspiring_presence]]
+== Inspirierende Präsenz
+Einmal pro Kampfphase kann der Kavalier für den Einsatz einer xref:../core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einen beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungswurf] eines Verbündeten im Umkreis von 9,00 Metern wiederholen lassen.
 Es zählt das bessere Ergebnis.
 Um diese Fähigkeit anwenden zu können, muss der Kavalier auf seinem Reittier reiten.
 
-[[ref_chevalier_trustysteed]]
-=== Treues Reittier
+[[ref_core_professions_chevalier_trusty_steed]]
+== Treues Reittier
 Zu Beginn des Spiels erhält der Kavalier ein xref:../core_rules_advantages.adoc#ref_advantage_mount[Reittier].
-Darüber hinaus hat das Reittier Stresssituationen trainiert (z.B. den Kampf) und bleibt ruhig.
-Es kann an Kämpfen teilnehmen.
+Darüber hinaus hat das Reittier Stresssituationen wie den Kampf trainiert und kann daher an diesen teilnehmen.
 Es gilt außerdem als ein xref:../core_rules_advantages.adoc#ref_advantage_animalcompandion[Tiergefährte] für den Charakter.
-Jedes Mal, wenn der Kavalier eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP des Reittiers um 6.
+Jedes Mal, wenn der Kavalier eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP/MP des Reittiers um +6/+1.
 
-[[ref_chevalier_symbioticfigthing]]
-=== Symbiotischer Kampfstil
+[[ref_core_professions_chevalier_symbiotic_figthing]]
+== Symbiotischer Kampfstil
 Das Kampftraining, dass der Kavalier mit seinem Reittier von Beginn dessen Leben absolvierte, führt zu einer außergewöhnlichen Koordination im Kampf.
 Zusätzlich zu den üblichen Regeln zum xref:../core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Berittener Kampf] gelten folgende Punkte, wenn der Kavalier im Sattels seines Reittieres kämpft:
 
@@ -34,9 +31,11 @@ Zusätzlich zu den üblichen Regeln zum xref:../core_rules_battlesystem.adoc#ref
 Die GK-abhängigen Modifikationen ändern sich entsprechend, jedoch nur für einen Gegner und nur bis zum Ende der aktuellen Kampfphase.
 * Zur Ermittelung der Initiative darf der Kavalier den xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Bonus] seines Reittieres zu seinem hinzuaddieren, falls er dies wünscht.
 
-[[ref_chevalier_animalcare]]
-=== Tierpflege
+[[ref_core_professions_chevalier_animal_care]]
+== Tierpflege
 Einmal pro Tag darf der Kavalier eine der folgenden Aktionen durchführen:
 
 * Eine xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde] seines Reittiers automatisch heilen.
 * Sein Reittier regeneriert 2W10 TP.
+
+Dies gilt zusätzlich zu eventuellen xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Pausen und Rasten].

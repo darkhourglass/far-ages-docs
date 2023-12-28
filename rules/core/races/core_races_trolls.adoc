@@ -13,15 +13,13 @@
 *Eigenschaften:* <<ref_core_races_troll_fast_tissue_repair,Schnelle Wundheilung>>, <<ref_core_races_troll_sponatenous_regeneration,Spontane Regeneration>> +
 *Fortitudo:* 2 +
 
-== Eigenschaften
-
 [[ref_core_races_troll_fast_tissue_repair]]
-=== Schnelle Wundheilung
+== Schnelle Wundheilung
 Erhalten Trolle den Zustand xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend], so endet dieser 1 Kampfphase früher.
 Dadurch kann es vorkommen, dass der Zustand gar nicht eintritt, da die Dauer auf 0 Kampfphasen reduziert wird.
 Außerdem halbieren sich alle Heilungsperioden für xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzungen].
 
 [[ref_core_races_troll_sponatenous_regeneration]]
-=== Spontane Regeneration
+== Spontane Regeneration
 Einmal pro Tag als xref:../core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] darf ein Troll 1W10 würfeln, um verlorene TP zu heilen.
 Die erreichte Augenzahl stellt sofort entsprechend viel TP wieder her, jedoch nie über die maximalen TP hinaus.

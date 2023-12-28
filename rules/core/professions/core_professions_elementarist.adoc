@@ -1,18 +1,16 @@
 = Elementarist
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Lesen/Schreiben, Spruchzauberei [Elementarismus], Verbrennen Widerstehen, Wissen [Arkanes] +
-*Talentliste (SGM 2):* Forschen, Verborgenes Erkennen, 2 freie Wissenstalente +
-*Attributsbonus:* +1 EN +
+*Attribute:* +1 EN +
+*Talente:* Aether Wahrnehmung, Forschen, Lesen/Schreiben, Spruchzauberei [Elementarismus], Verbrennen Widerstehen, Verborgenes Erkennen, Wissen [Arkanes], 2 freie Wissenstalente +
+*Fähigkeiten:* - +
 *TP/MP-Steigerung:* +2/+8 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* Stab, Robe, persönliches Grimoire, Federkil, Tinte, Rucksack +
-*CP:* 20 +
+*Eigenschaften:* <<ref_core_professions_elementarist_summon_elemental_manifest,Elementares Manifest beschwören>> +
+*Fortitudo:* 3 +
 
-== Eigenschaften
-
-[[ref_elementarist_elementalmanifest]]
-=== Elementares Manifest
+[[ref_core_professions_elementarist_summon_elemental_manifest]]
+== Elementares Manifest beschwören
 Basierend auf seinem xref:../core_rules_magic_base.adoc#ref_core_magic_schools_elementarism_elemenatalfocus[Elementarfokus] kann der Elementarist ein xref:../../../bestiary/elementals/bestiary_elementals_elemental_manifest.adoc[Manifest] der Machtstufe 1 beschwören.
 Ist der Elementarfokus beispielsweise Feuer, so wird ein Feuer-Manifest beschwören.
 

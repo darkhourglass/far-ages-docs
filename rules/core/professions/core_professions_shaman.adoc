@@ -1,18 +1,16 @@
 = Schamane
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Handwerk [Arzt], Spruchzauberei [Schamanismus], Verbrennen Widerstehen, Wissen [Pflanzen] +
-*Talentliste (SGM 2):* Hieb Ausweichen, Konversation, Verborgenes Erkennen, Wurfwaffen, Wissen [Alchemie], Wissen [Überleben] +
-*Attributsbonus:* +1 EN +
-*TP/MP-Steigerung:* +4/+6 +
-*Rettungswürfe:* TBA +
+*Attribute:* +1 EN, +1 SB +
+*Talente:* Aether Wahrnehmung, Ausweichen, Handwerk [Arzt], Spruchzauberei [Schamanismus], Überleben, Verbrennen widerstehen, Verborgenes erkennen, Wurfwaffen, Wissen [Alchemie], Wissen [Pflanzen] +
+*Fähigkeiten:* - +
+*TP/MP-Steigerung:* +2/+8 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* Robe, Fetisch, Wurfaxt, Wanderstab, Arztkoffer +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_professions_shaman_guardian_spirit,Schutzgeist>>, <<ref_core_professions_shaman_familiar_environment,Vertraute Umgebung>>+
+*Fortitudo:* 6 +
 
-== Eigenschaften
-
-=== Schutzgeist
-
+[[ref_core_professions_shaman_guardian_spirit]]
+== Schutzgeist
 Schamanen gehen eine enge spirituelle Bindung mit der Welt um sich ein.
 Diese Bindung symbolisiert sich in der Manifestierung eines Schutzgeistes, der den Schamanen dauerhaft begleitet. +
 Im Normalfall ist der Geist unsichtbar und existiert nur im Aether.
@@ -32,8 +30,7 @@ Im Normalfall folgt der Geist den Worten des Schamanen.
 * Wenn der Schamane sich konzentriert, kann er durch die Augen des Geistes sehen.
 Während er dies tut, kann er keine eigenen Aktionen durchführen und gilt als xref:../core_rules_2d10_system.adoc.adoc#ref_core_2d10_condition_disabled[Kampfunfähig].
 
-==== Elementare Geister
-
+=== Elementare Geister
 Elementare Geister sind Schutzgeister, die aus den Sphären der Elemente stammen.
 Sie gehören jeweils einem Element an und gewähren jeweils andere Fähigkeiten:
 
@@ -55,8 +52,7 @@ Sollte er später xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[
 Ein elementarer Schutzgeist manifestiert sich üblicherweise immer in Gestalt seines Elements, z.B. als Flamme oder Welle.
 Dabei nimmt er unterschiedliche Gestalten an, die von verschiedenen Tieren bis abstrakten, geometrischen Formen reichen.
 
-==== Feengeist
-
+=== Feengeist
 Feengeister stammen aus dem xref:../core_rules_magic_base.adoc#ref_magic_lore_empyreum[Empyreum], dem Rand des Aethers, der Ursprung der xref:../core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic[Wilden Magie] ist.
 Neben schrecklichen Wesen wie Dämonen ist das Empyreum auch Heimat der Feen, der Kinder xref:../../../lore/progenitors/lore_progenitors_alberon.adoc[Alberons]. Feengeister manifestieren sich in verschiedenen verwandten Wesen, wie zum Beispiel Irrlichtern oder Nymphen. +
 Feengeister bieten dam Schamanen folgende Fähigkeiten:
@@ -64,8 +60,7 @@ Feengeister bieten dam Schamanen folgende Fähigkeiten:
 * Der Schamane erhält einen Bonus von 10 MP auf seinen xref:../xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP-Pool].
 * Der Schamane erhält einen Bonus von +3 auf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex]-Proben.
 
-==== Tiergeister
-
+=== Tiergeister
 Tiergeister symbolisieren die Verbundenheit des Schamanen mit der natürlichen Welt.
 Jeder Tiergeist manifestiert sich als geisterhafte Erscheinung des jeweiligen Tieres und bietet dem Schamanen folgende Fähigkeiten:
 
@@ -77,7 +72,7 @@ Jeder Tiergeist manifestiert sich als geisterhafte Erscheinung des jeweiligen Ti
 Jeder Tiergeist lehrt den Schamanen einen xref:../core_rules_skills.adoc[Besondere Fähigkeit].
 Der Schamane benötigt in diesem Fall nicht die Voraussetzungen erfüllen und lernt die Fähigkeit sofort.
 
-=== Vertraute Umgebung
-Zur Charaktererschaffung muss ein Schamane einen Geländetyp wählen, z.B. Gebirge, Wald, Sumpf etc..
+[[ref_core_professions_shaman_familiar_environment]]
+== Vertraute Umgebung
+Zur Charaktererschaffung muss ein Schamane einen Geländetyp wählen, beispielsweise Gebirge, Wald, Sumpf etc..
 In dem gewählten Geländetyp erleidet er nie Einschränkungen auf seine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] durch schwieriges Gelände.
-Magische Effekte, die diese Attributseigenschaft beeinflussen, wirken jedoch normal.

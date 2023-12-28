@@ -6,37 +6,31 @@ Ich komme mit der Macht von Fell und Klaue, Sonne und Mond, Feuer und Blitz.
 Eine Armee ist nicht vonnöten.
 
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Spruchzauberei [Druide], Tierfreundschaft, Verbrennen Widerstehen, Wissen [Tiere], Wissen[Pflanzen], Wissen [Überleben], 1 freies Wissenstalent +
-*Talentliste (SGM 2):* Aether Wahrnehmung, Schleichen, Verborgenes Erkennen, Verstecken +
-*Attributsbonus:* +1 EN +
-*TP/MP-Steigerung:* +2/+8 +
-*Rettungswürfe:* TBA +
+*Attribute:* +1 EN +
+*Talente:* Aether Wahrnehmung, Schleichen, Spruchzauberei [Druide], Tierfreundschaft, Verbrennen Widerstehen, Verborgenes Erkennen, Verstecken, Wissen [Tiere], Wissen[Pflanzen], Wissen [Überleben], 1 freies Wissenstalent +
+*Fähigkeiten:* +
+*TP/MP-Steigerung:* +4/+6 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* Wanderstab, Robe, Wetterfester Umhang, Lederrucksack +
-*CP:* 50 +
+*Eigenschaften:* <<ref_core_professions_through_the_animals_eyes,Durch die Augen des Tieres>>, <<ref_core_professions_druid_soulmate,Seelenverwandter Gefährte>> +
+*Fortitudo:* 5 +
 
-== Eigenschaften
-
-[[ref_throughtheanimalseyes]]
-=== Durch die Augen des Tieres
+[[ref_core_professions_through_the_animals_eyes]]
+== Durch die Augen des Tieres
 Der Druide kann seinen Geist in ein link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendes] link:../../advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier] versetzen und durch seine Augen sehen und die Bewegung des Tiers steuern.
 
 Um diese Fähigkeit anzuwenden, muss der Druide das Tier berühren und eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] aufwenden.
-Beide werfen eine konkurrierende xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB]-Probe.
+Beide werfen eine konkurrierende xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB-Probe].
 Hat der Druide das höhere Ergebnis, kann er das Tier kontrollieren.
 
 Während der Druide ein Tier kontrolliert, sinkt er in eine tiefe Trance, so dass er seine Umgebung nicht mehr wahrnimmt.
-Er gilt als xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[ohnmächtig]. +
+Er gilt als xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[ohnmächtig].
 Der Druide kann die Kontrolle jederzeit beenden, jedoch dauert jede Kontrolle maximal so viele Stunden, wieder Druide mehr Erfolge gewürfelt hat.
-Der <<ref_druid_animalcompendian,Tiergefährte>> des Druiden wird diese Fähigkeit ohne Probe zulassen.
+Der <<ref_core_professions_druid_soulmate,Tiergefährte>> des Druiden wird diese Fähigkeit ohne Probe zulassen.
 
-[[ref_druid_animalcompendian]]
-=== Tiergefährte
-Der Druide erhält einen xref:../core_rules_advantages.adoc#ref_advantage_animalcompandion[Tiergefährten] ohne zusätzliche CP-Kosten.
-
-[[ref_druid_soulmate]]
-=== Seelenverwandt
-Der Druide und sein <<ref_druid_animalcompendian,Tiergefährte>> teilen eine besonders tiefe Verbundenheit, die weit über das Verständnis zwischen Tier und Mensch (oder Elf oder Zwerg) hinausgeht.
+[[ref_core_professions_druid_soulmate]]
+== Seelenverwandter Gefährte
+Der Druide erhält einen xref:../core_rules_advantages.adoc#ref_advantage_animalcompandion[Tiergefährten], mit dem er eine besonders tiefe Verbundenheit teilt, die weit über das Verständnis zwischen Tier und Mensch (oder Elf oder Zwerg) hinausgeht.
 Diese Verbundenheit bringt folgende Eigenschaften mit sich:
 
 * Beide besitzen eine emphatische Verbindung zueinander und teilen Ihre Gedanken.
@@ -46,3 +40,4 @@ Um sich zu unterhalten, müssen beide in Sichtweite voneinander sein.
 * Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerungen] durchführt, erhält der Tiergefährte einen TP-Bonus von 6.
 * Erreicht der Tiergefährte 0 TP, erhält der Druide sofort eine xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde] und verliert entsprechend seiner xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] viele TP.
 
+Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP/MP des Gefährten um +6/+1.

@@ -1,38 +1,20 @@
 = Ringer
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Akrobatik, Athletik, Einschüchtern, Hieb Ausweichen, Unbewaffneter Kampf, Wurfwaffen, 1 freies Handwerkstalent +
-*Talentliste (SGM 2):* Projektilwaffen, Verborgenes Entdecken, Willenskraft, 1 freies Wissenstalent +
-*Attributsbonus:* +1 GE, +1 KO +
+*Attribute:* +1 GE, +1 KO +
+*Talente:* Akrobatik, Athletik, Ausweichen, Einschüchtern, Unbewaffneter Kampf, Verborgenes Entdecken, Wurfwaffen, 1 freies Handwerkstalent, 1 freies Wissenstalent +
+*Fähigkeiten:* link:../skills/core_skill_martialarts_I.adoc[Kampfkunst I] +
 *TP/MP-Steigerung:* +8/+2 +
-*Rettungswürfe:* TBA +
-*Startausrüstung:* +
-*CP:* 60 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
+*Startausrüstung:* TBA +
+*Eigenschaften:* <<ref_core_professions_brawler_opportunist,Opportunist>>, <<ref_core_professions_brawler_versatile_fightingstyle,Vielseitiger Kampfstil>> +
+*Fortitudo:* 3 +
 
-== Eigenschaften
+[[ref_core_professions_brawler_opportunist]]
+== Opportunist
+Ist der Ringer mit einem Gegner im Nahkampf xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] und hat er xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[in seinem Zug] eine Aktion verwendet, um einen unbewaffneten Angriff durchzuführen, kann er einen weiteren unbewaffneten Angriff gegen den gleichen Gegner als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] ausführen.
 
-[[ref_brawler_thickskull]]
-=== Dickschädel
-Ein Ringer erhält einen Bonus von +2 auf seinen Wert in xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID].
-
-[[ref_brawler_pitfighter]]
-=== Faustrecht
-Der Ringer lernt zu Beginn des Spiels die folgenden Fähigkeiten ohne zusätzliche CP-Kosten:
-
-* link:../skills/core_skill_acrobatic_attack.adoc[Akrobatischer Angriff]
-* link:../skills/core_skill_martialarts_I.adoc[Kampfkunst I]
-
-Er muss dazu nicht die an der Fähigkeit angegebenen Voraussetzungen erfüllen.
-
-[[ef_brawler_opportunist]]
-=== Opportunist
-Ist der Ringer mit einem Gegner im Nahkampf xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[gebunden] und hat er in der aktuellen Kampfphase seine Aktion verwendet, um einen unbewaffneten Angriff durchzuführen, kann er einen weiteren unbewaffneten Angriff gegen den gleichen Gegner ausführen ohne den weiteren Einsatz einer Aktion.
-
-Er erleidet pro Einsatz dieser Fähigkeit 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
-Die Fähigkeit kann nur einmal pro Kampfphase eingesetzt werden.
-
-[[ref_brawler_versatile_fightingstyle]]
-=== Vielseitiger Kampfstil
+[[ref_core_professions_brawler_versatile_fightingstyle]]
+== Vielseitiger Kampfstil
 Ein Ringer kann vor dem Werfen einer Probe in dem Talent xref:../core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf] _immer_ entscheiden, ob er als verwandtes Attribut ST oder GE verwenden möchte.
 Diese Wahl keine Auswirkung auf eine nachfolgende xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe].
 Die Entscheidung gilt für alle weiteren Proben in der aktuellen Kampfphase.

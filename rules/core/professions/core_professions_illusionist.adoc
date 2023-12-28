@@ -1,30 +1,28 @@
 = Illusionist
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Aether Wahrnehmung, Lesen/Schreiben, Konversation, Spruchzauberei [Illusionismus], Verbrennen Widerstehen, Wissen [Arkanes], 1 Freies Wissensgebiet +
-*Talentliste (SGM 2):* Forschen, Verborgenes Erkennen +
-*Attributsbonus:* + 1 EN, +1 CH +
+*Attribute:* +1 EN, +1 CH +
+*Talente:* Aether Wahrnehmung, Forschen, Lesen/Schreiben, Konversation, Spruchzauberei [Illusionismus], Verborgenes Erkennen, Verbrennen Widerstehen, Wissen [Arkanes], 1 Freies Wissensgebiet +
+*Fähigkeiten:* +
 *TP/MP-Steigerung:* +2/+8 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* Stab, Robe, persönliches Grimoire, Federkil, Tinte, Rucksack +
-*CP:* 50 +
+*Eigenschaften:* <<ref_core_professions_illusionist_tricks_of_the_trade,Berufsgeheimnisse>>, <<ref_core_professions_illusionist_minor_illusion,Einfache Illusion>>, <<ref_core_professions_illusionist_dangerous_illusion,Gefährliche Illusion>> +
+*Fortitudo:* 5 +
 
-== Eigenschaften
-
-[[ref_illusionist_tricksofthetrade]]
-=== Berufsgeheimnisse
+[[ref_core_professions_illusionist_tricks_of_the_trade]]
+== Berufsgeheimnisse
 Kann man einen Betrüger betrügen?
 Durch ihre Vertrautheit mit Illusionen erhalten Illusionisten einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3, um eine xref:../core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm_doupt_illusion[Illusion] zu durchschauen.
 
-[[ref_illusionist_minorillusion]]
-=== Einfache Illusion
+[[ref_core_professions_illusionist_minor_illusion]]
+== Einfache Illusion
 Der Illusionist kann eine simple Illusion erschaffen ohne eine xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe würfeln zu müssen.
 Dafür muss der Illusionist eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen.
 Die Illusion kann maximal eine GK von 1 haben und kann keinen Schaden verursachen.
 Es gelten die üblichen Regeln, um xref:../core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm_doupt_illusion[Illusion] zu durchschauen.
 Die POT der einfachen Illusion ist 3.
 
-[[ref_illusionist_dangerousillusion]]
-=== Gefährliche Illusion
+[[ref_core_professions_illusionist_dangerous_illusion]]
+== Gefährliche Illusion
 Wenn der Illusionist einen Zauberspruch des xref:../../../compendiums/spelllists/shadowmagic/compendium_spelllist_illusionism.adoc[Illusionismus] ausspricht, der xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[illusionären] Schaden verursacht, darf er wählen, ob er stattdessen xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden mit diesem Zauberspruch verursachen möchte.
 In diesem Fall erhöht sich die POT des Zauberspruchs um 3.

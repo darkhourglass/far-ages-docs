@@ -19,10 +19,8 @@ Chelonia bevorzugen Küstenregionen mit Zugang zu sowohl Süß- und Salzwasser u
 *Eigenschaften:* link:../skills/racial/core_racial_skill_senses_darkvision.adoc[Dunkelsicht (50,00 Meter)], <<ref_core_races_chelonians_hard_shell,Harte Schale>>, link:../skills/racial/core_racial_skill_gills.adoc[Kiemen], link:../skills/racial/core_racial_skill_move_swim.adoc[Schwimmen (BEW)], <<ref_core_races_chelonians_soft_core,Weicher Kern>> +
 *Fortitudo:* 2 +
 
-== Eigenschaften
-
 [[ref_core_races_chelonians_hard_shell]]
-=== Harte Schale
+== Harte Schale
 Der harte Panzer eines Chelonia bieten ihm auf den xref:../core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] Torso und Rücken xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürlichen Rüstungsschutz].
 Der Torso erhält 3 Punkte Rüstungsschutz, der Rücken sogar 8 Punkte.
 
@@ -31,7 +29,7 @@ Der schwere Panzer und der kräftige Körperbau eines Chelonias beschert ihm zwa
 Daher erhalten Chelonia einen Malus von -1 auf ihren xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[INI-Wert] und einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -1 auf alle xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswürfe].
 
 [[ref_core_races_chelonians_soft_core]]
-=== Weicher Kern
+== Weicher Kern
 Chelonias können ihre Arme, Beine und Kopf in ihren Panzer einziehen.
 Dazu können sie einmal pro Kampfphase eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen, um Arme, Beine und Kopf in den Panzer einzuziehen oder ausziehen.
 

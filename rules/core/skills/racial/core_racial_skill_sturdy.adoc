@@ -1,0 +1,29 @@
+= Massiv
+
+*Voraussetzungen:* Volk +
+*Typ:* Passiv +
+*Überanstrengung:* - +
+*CP-Kosten:* - +
+
+Der Charakter erhält einen initialen Bonus auf sein xref:../../core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool].
+Dieser hängt von seiner xref:../../core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] ab und kann aus der folgenden Tabelle ermittelt werden.
+
+
+|===
+|GK |TP-Bonus
+
+|1-3
+|+5
+
+|4-5
+|+10
+
+|6-7
+|+15
+
+|8-9
+|+20
+
+|10
+|+25
+|===

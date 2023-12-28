@@ -1,22 +1,16 @@
 = Alchemist
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Handwerk [Brauen], Hieb Ausweichen, Fallen Entschärfen, Forschen, Wissen [Arkanes], Wissen [Alchemie], Verborgenes Entdecken, Wurfwaffen +
-*Talentliste (SGM 2):* Aether Wahrnehmung, Lesen/Schreiben, Spruchzauberei [Alchemie], Verbrennen Widerstehen, 1 freies Wissenstalent +
-*Attributsbonus:* +1 GE, +1 EN +
+*Attribute:* +1 GE, +1 EN +
+*Talente:* Aether Wahrnehmung, Ausweichen, Handwerk [Brauen], Fallen Entschärfen, Forschen, Lesen/Schreiben, Spruchzauberei [Alchemie], Verbrennen Widerstehen, Wissen [Arkanes], Wissen [Alchemie], Verborgenes Entdecken, Wurfwaffen, 1 freies Wissenstalent +
+*Fähigkeiten:* link:../skills/core_skill_alchemy.adoc[Alchemie] +
 *TP/MP-Steigerung:* +4/+6 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
 *Startausrüstung:* Alchmieausrüstung, einfache Roben, Lederschürze, Augenschutz, Handschuhe, Dolch +
-*CP:* 65 +
+*Eigenschaften:* <<ref_core_professions_alchemist_create_bombs,Bomben herstellen>>, <<ref_core_professions_alchemist_poison_resist,Gift-Resistent>>, <<ref_core_professions_alchemist_potion_knowledge,Wissen über Substanzen>> +
+*Fortitudo:* 4 +
 
-== Eigenschafen
-
-[[ref_alchemist_alchemy]]
-=== Alchemie
-Alchemisten lernen zu Beginn des Spiels die Fähigkeit link:../skills/core_skill_alchemy.adoc[Alchemie] ohne dabei die Voraussetzungen erfüllen zu müssen.
-
-[[ref_alchemist_create_bombs]]
-=== Bomben herstellen
+[[ref_core_professions_alchemist_create_bombs]]
+== Bomben herstellen
 Der Alchemist lernt die besondere Fähigkeit Bomben herzustellen.
 Bomben im Sinne dieser Fähigkeit sind kleine, mit alchemistischer Mixtur, gefüllte Behälter, die einen bestimmten Effekt in einem Umkreis bei Auslösung verursachen.
 Die Auslösung erfolgt im Allgemeinen durch Werfen und bei Aufprall.
@@ -31,12 +25,12 @@ Dieser wirkt nun in dem Effektradius der Bombe.
 Einmal pro Tag darf der Alchemist eine Bombe ohne Materialkosten herstellen.
 Ansonsten kosten Bomben pro POT des gewählten Zauberspruches 1000 Goldmünzen.
 
-[[ref_alchemist_poison_resist]]
-=== Gift-Resistent
+[[ref_core_professions_alchemist_poison_resist]]
+== Gift-Resistent
 Ein Alchemist erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf alle Proben, um einem xref:../core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Giften zu widerstehen].
 
-[[ref_alchemist_potion_knowledge]]
-=== Wissen über Substanzen
+[[ref_core_professions_alchemist_potion_knowledge]]
+== Wissen über Substanzen
 Der Alchemist kann aufgrund von Geruch, Aussehen und Geschmack so ziemlich jede Flüssigkeit identifizieren.
 Er muss dazu die zu identifizierende Flüssigkeit untersuchen und eine Probe auf xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Alchemie)] würfeln.
 

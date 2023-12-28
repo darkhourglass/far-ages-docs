@@ -21,5 +21,10 @@ Ihre magischen Städte stürzten zu Boden und die große Zivilisation der Aoehe 
 *Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
 *Generation:* 4 oder höher +
 *Progenitor:* Hrafass +
-*Eigenschaften:* link:../skills/racial/core_racial_skill_move_wings.adoc[Flügel], link:../skills/racial/core_racial_skill_keen_eyes.adoc[Scharfe Augen] +
+*Eigenschaften:* link:../skills/racial/core_racial_skill_move_wings.adoc[Flügel], link:../skills/racial/core_racial_skill_keen_eyes.adoc[Scharfe Augen], <<ref_core_races_aoehe_superior_maneuverability,Überlegene Manövrierbarkeit>> +
 *Fortitudo:* 2 +
+
+[[ref_core_races_aoehe_superior_maneuverability]]
+== Überlegene Manövrierbarkeit
+Wenn ein Aoehe einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_airattack[Flugangriff] ausführt, erhält er einen Bonus von +3,00 Metern auf seine xref:./../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
+Das bedeutet effekt, er kann die Hälfte seiner regulären BEW plus 1,50 Meter weiter fliegen, angreifen und dann noch einmal die gleiche Strecke nutzen.

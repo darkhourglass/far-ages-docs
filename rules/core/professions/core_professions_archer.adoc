@@ -1,41 +1,30 @@
 = Schütze
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Akrobatik, Hieb Ausweichen, Projektilwaffen, Verborgenes Erkennen, Wurfwaffen +
-*Talentliste (SGM 2):* Athletik, Handwerk [Bogen und Pfeile], Reiten, Schleichen, Verstecken, 1 freies Wissentalent +
-*Attributbonus:* +1 GE, +1 ER +
+*Attribute:* +1 GE, +1 ER +
+*Talente:* Akrobatik, Athletik, Ausweichen, Handwerk[Bogen und Pfeile], Reiten, Schleichen, Projektilwaffen, Verborgenes Erkennen, Verstecken, Wurfwaffen, 1 freies Wissentalent +
+*Fähigkeiten:* link:../skills/core_skill_trick_shot.adoc[Trickschuss] +
 *TP/MP-Steigerung:* +6/+4 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
 *Startausrüstung:* Komposit-Bogen, Köcher mit 20 Pfeilen, Lederrüstung, 10 Wurfmesser, Rucksack +
-*CP:* 50 +
+*Eigenschaften:* <<ref_core_professions_archer_focus_shot,Fokussierter Schuss>>, <<ref_core_professions_archer_improvised_volley,Improvisierte Salve>> +
+*Fortitudo:* 3 +
 
-== Eigenschaften
-
-[[ref_archer_focus_shot]]
-=== Fokussierter Schuss
+[[ref_core_professions_archer_focus_shot]]
+== Fokussierter Schuss
 Der Schütze fokussiert seine Konzentration auf den einen Schuss (oder Wurf), um auch schwer zu treffende Ziele anzugreifen.
 Bei einer xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] auf xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] erhält der Schütze einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf die Probe zu erhalten.
 Er erleidet pro Einsatz dieser Fähigkeit 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
 Die Fähigkeit kann nur einmal pro Kampfphase eingesetzt werden.
 
-[[ref_archer_improvised_volley]]
-=== Improvisierte Salve
+[[ref_core_professions_archer_improvised_volley]]
+== Improvisierte Salve
 Der Schütze versucht mit der Hilfe seiner schnellen Reflexe in kurzer Zeit 2 Projektile zu verschießen.
-In seiner Kampfphase, wenn er eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] auf xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] erfolgreich durchgeführt hat, darf er eine weitere, identische Angriffsprobe gegen das gleiche Ziel würfeln.
+In xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug], wenn er eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] auf xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] erfolgreich durchgeführt hat, darf er eine weitere, identische Angriffsprobe gegen das gleiche Ziel würfeln.
 
 Diese Probe erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5.
-Die Bedingung ist auch erfüllt, wenn die erste Probe getroffen, aber keinen Schaden verursacht hat. +
-Diese Fähigkeit kann nicht in Kombination mit <<ref_archer_focus_shot>> verwendet werden.
+Die Bedingung ist auch erfüllt, wenn die erste Probe getroffen, aber keinen Schaden verursacht hat.
+Diese Fähigkeit kann nicht in Kombination mit <<ref_core_professions_archer_focus_shot>> verwendet werden.
 
 Er erleidet pro Einsatz dieser Fähigkeit 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
 Die Fähigkeit kann nur einmal pro Kampfphase eingesetzt werden.
-
-[[ref_archer_trick_shot]]
-=== Trickschuss
-Mit einem Trickschuss demonstriert der Schütze seine überragenden Fähigkeiten mit Pfeil und Bogen (oder vergleichbaren Waffen).
-Führt der Schütze einen xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielten Schuss] mit einem der Talente xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen], darf er entscheiden, ob er Trickschuss einsetzt.
-
-Tut er dies, entfällt der  xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf die Probe für den gezielten Schuss.
-Im Fall einer erfolgreichen Probe, wird keine Schadensprobe gewürfelt, stattdessen erhält das Ziel 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen], xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_nondeadly_damage[nicht-tödlichen] Schaden auf die entsprechende Trefferzone, der durch keine Rüstung reduziert werden kann.
-
 

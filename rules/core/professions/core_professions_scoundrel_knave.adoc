@@ -1,0 +1,23 @@
+= Schelm
+
+*Attribute:* +1 GE +
+*Talente:* Akrobatik, Ausweichen, Forschen, Lesen/Schreiben, Schloss knacken, Taschendiebstahl, Täuschen, Überzeugen, Verborgenes entdecken, Verstecken, Wurfwaffen, 1 freies Wissenstalent,  +
+*Fähigkeiten:* link:../skills/core_skill_confuse.adoc[Verwirren] +
+*TP/MP-Steigerung:* +6/+4 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
+*Startausrüstung:* 1 Wurfaxt, 4 Wurfmesser, Diebeswerkzeuge, Leichte Lederrüstung +
+*Eigenschaften:* <<ref_core_professions_scoundrel_knave_my_own_mind,Mein eigener Kopf>>, <<ref_core_professions_scoundrel_knave_backflip,Rückwärtssalto>> +
+*Fortitudo:* 5 +
+
+[[ref_core_professions_scoundrel_knave_my_own_mind]]
+== Mein eigener Kopf
+Musst Du einen beliebigen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] würfeln, um einem xref:../core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_effect[Effekt] eines Zauberspruchs oder anderen magischen Effekts abzuwehren, der Dich zu einer Handlung zwingt, erhältst Du einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] für diese Probe.
+Diese Fähigkeit kann nicht eingesetzt werden, wenn der Effekt des Zauberspruches xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Schaden] verursacht.
+
+[[ref_core_professions_scoundrel_knave_backflip]]
+== Rückwärtssalto
+Wenn Du eine xref:../core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einsetzt, die eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks[Probe] erfordert, aber keine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe], kannst Du stattdessen eine Probe auf xref:../core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik] würfeln.
+Für diese Probe gelten die gleichen Parameter, wie xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] oder xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers[Modifikatoren].
+Ist diese Probe erfolgreich, kannst Du Dich ohne Auslösen von xref:../core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffen] bis zu 1/3 Deiner xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] (abgerundet, minimal 1,50 Meter) bewegen.
+Deine Bewegung findet vor Auswertung des Effekts der auslösenden Aktion statt.
+Im Sinne dieser Fähigkeit kann Akrobatik als Reaktion genutzt werden.

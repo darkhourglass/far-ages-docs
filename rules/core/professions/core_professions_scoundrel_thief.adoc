@@ -1,0 +1,18 @@
+= Dieb
+
+*Attribute:* +1 GE +
+*Talente:* Akrobatik, Ausweichen, Fallen entschärfen, Lesen/Schreiben, Projektilwaffen, Schleichen, Schloss knacken, Taschendiebstahl, Täuschen, Verborgenes entdecken, Wurfwaffen, 1 freies Wissenstalent +
+*Fähigkeiten:* link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] +
+*TP/MP-Steigerung:* +6/+4 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
+*Startausrüstung:* Kurzschwert oder Armbrust, 1 Wurfmesser, Diebeswerkzeuge, Leichte Lederrüstung +
+*Eigenschaften:* <<ref_core_professions_scoundrel_thief_steady_hand,Ruhige Hand>>, <<ref_core_professions_scoundrel_thief_fast_exit,Schneller Abgang>> +
+*Fortitudo:* 5 +
+
+[[ref_core_professions_scoundrel_thief_steady_hand]]
+== Ruhige Hand
+Befindest Du Dich nicht in einer Kampfsituation, kannst Du eine erste Probe, um eine konkrete xref:../core_rules_talents_base.adoc#ref_talents_disarmtraps[Falle zu entschärfen] oder ein xref:../core_rules_talents_base.adoc#ref_talents_lockpick[Schloss zu knacken] mit xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] würfeln.
+
+[[ref_core_professions_scoundrel_thief_fast_exit]]
+== Schneller Abgang
+Du darfst Deine xref:../core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegung] auch also xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen.

@@ -1,29 +1,22 @@
 = Berserker
 
-*Beschreibung:* +
-*Talentliste (SGM 1):* Athletik, Hieb Ausweichen, Nahkampfwaffen, Unbewaffneter Kampf, Überleben +
-*Talentliste (SGM 2):* Akrobatik, Willenskraft, 1 freies Wissenstalent, Wurfwaffen +
-*Attributsbonus:* +1 ST +
+*Attribute:* +1 ST, +1 KO +
+*Talente:* Athletik, Akrobatik, Ausweichen, Nahkampfwaffen, Unbewaffneter Kampf, Überleben, Willenskraft, Wurfwaffen, 1 freies Wissenstalent +
+*Fähigkeiten:* link:../skills/core_skill_berserker.adoc[Berserker] +
 *TP/MP-Steigerung:* +10/+0 +
-*Rettungswürfe:* TBA +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
 *Startausrüstung:* 1H-Axt, 2H-Schwert, Lederrüstung +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_professions_berserker_deathdenied,Dem Tod trotzen>>, <<ref_core_professions_berserker_berserk_extended,Verlängerter Kampfrausch>> +
+*Fortitudo:* 3 +
 
-== Eigenschaften
-
-[[ref_berserker_deathdenied]]
-=== Dem Tod trotzen
+[[ref_core_professions_berserker_deathdenied]]
+== Dem Tod trotzen
 Erreicht der Berserker die xref:../core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[Todesschwelle] seines xref:../core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pools], darf er entscheiden, diese Eigenschaft sofort einzusetzen.
-In diesem Fall er mit seiner KO-Stufe entsprechend vielen W10.
-Das Ergebnis wird sofort seinem TP-Pool hinzugerechnet.
+Er erhält sofort KO+1W10 TP.
 
 Diese Fähigkeit kann der Berserker nach Gebrauch erst nach einer xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Rast] wieder eingesetzt werden.
 
-[[ref_berserker_berserk]]
-=== Berserker
-Der Berserker lernt zu Beginn des Spiels die Fähigkeit link:../skills/core_skill_berserker.adoc[Berserker] ohne zusätzliche CP-Kosten und ohne die Voraussetzungen erfüllen zu müssen.
-
-[[ref_berserker_berserk_extended]]
-=== Verlängerter Kampfrausch
-Jeder <<ref_berserker_berserk,Kampfrausch>> dauert doppelt so lange.
+[[ref_core_professions_berserker_berserk_extended]]
+== Verlängerter Kampfrausch
+Jeder Kampfrausch aus der Fähigkeit link:../skills/core_skill_berserker.adoc[Berserker] dauert doppelt so lange.
 Dies gilt auch für die fortführenden Fähigkeiten.

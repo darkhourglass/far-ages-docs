@@ -1,0 +1,26 @@
+= Betrüger
+
+*Attribute:* +1 GE +
+*Talente:* Ausweichen, Forschen, Handwerk [Fälschen], Lesen/Schreiben, Nahkampfwaffen, Projektilwaffen,Taschendiebstahl, Täuschen, Überzeugen, Verstecken, Verborgenes entdecken, Wissen [Untergrund] +
+*Fähigkeiten:* link:../skills/core_skill_backstab.adoc[Hinterhältiger Angriff] +
+*TP/MP-Steigerung:* +6/+4 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit], xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
+*Startausrüstung:* Kurzschwert oder Armbrust, 1 Wurfmesser, Diebeswerkzeuge, Leichte Lederrüstung +
+*Eigenschaften:* +
+*Fortitudo:* 5 +
+
+[[ref_core_professions_scoundrel_beguiler_spontaneous_disguise]]
+== Spontane Tarnung
+Durch wenige, fast unmöglich erscheinende Handgriffe, Mimik, Gestik oder improvisierte Verkleidung bist Du plötzlich jemand anders.
+Würfle eine xref:../core_rules_talents_base.adoc#ref_talents_deceive[Täuschen-Probe], um den xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] zu bestimmen, der nötig ist, um Dich zu identifizieren.
+Alle Kreaturen, die Dich in Deiner Tarnung flüchtig betrachten, würfeln ihre Proben um Dich zu erkennen mit xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
+Die Anwendung dieser Fähigkeit gilt als xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+
+Eine genaue Betrachtung oder Untersuchung kann Deine Tarnung nach Ermessen des SLs jedoch leicht auffliegen lassen.
+
+[[ref_core_professions_scoundrel_beguiler_many_excuses]]
+== Viele Ausreden
+Verwendet Du xref:../core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] oder xref:../core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] zum ersten Mal gegenüber einer empfänglichen Kreatur, erhältst Du einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] für diese Probe.
+Sind nach dem Einsatz dieser Fähigkeit mehr als 24 Stunden vergangen, kannst Du diese Fähigkeit auch wieder gegenüber der gleichen Kreatur einsetzen.
+
+
