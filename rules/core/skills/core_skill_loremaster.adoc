@@ -1,6 +1,8 @@
 = Gelehrter [Wissensgebiet]
 
-*Voraussetzungen:* Wissen [Wissengebiet] 2 +
+*Voraussetzungen:* Wissen [Wissensgebiet] 2 +
+*Typ:* Bewegung, Passiv +
 *Überanstrengung:* - +
-*CP-Kosten:* 100 +
-*Beschreibung:* Der Charakter erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5 auf alle Proben in dem Wissenstalent für dieses Wissensgebiet.
+*CP:* 100 +
+
+Der Charakter erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5 auf alle Proben in dem Wissenstalent für dieses Wissensgebiet.

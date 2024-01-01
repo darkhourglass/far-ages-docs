@@ -1,9 +1,11 @@
 = Entwaffnen
 
 *Voraussetzungen:* Nahkampfwaffen 3 oder Unbewaffenter Kampf 3 +
-*CP-Kosten:* 200 +
+*Typ:* Verbesserung (Angriff) +
 *Überanstrengung:* - +
-*Beschreibung:* Mit dieser Fähigkeit kannst Du versuchen, einem anderen Charakter die Waffe aus der Hand zu schlagen.
+*CP:* 200 +
+
+Mit dieser Fähigkeit kannst Du versuchen, einem anderen Charakter die Waffe aus der Hand zu schlagen.
 Du erhältst einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5* bei Deiner Angriffsprobe.
 
 Ist die jeweilige Probe erfolgreich, würfeln beide Kontrahenten anstelle einer xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende] xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST-Probe].

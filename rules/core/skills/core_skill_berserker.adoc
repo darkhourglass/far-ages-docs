@@ -1,9 +1,11 @@
 = Berserker
 
 *Voraussetzungen:* KO 2 +
+*Typ:* Passiv +
 *Überanstrengung:* - +
-*CP-Kosten:* 200 +
-*Beschreibung:* Am Anfang seiner Kampfphase darf ein Charakter mit dieser Fähigkeit sich freiwillig in den Zustand xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[rasend] versetzen.
+*CP:* 100 +
+
+Am Anfang seiner Kampfphase darf ein Charakter mit dieser Fähigkeit sich freiwillig in den Zustand xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[rasend] versetzen.
 Dies gilt als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion].
 
 Es gelten die in der Beschreibung des Zustands aufgeführten xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Regeln].

@@ -1,8 +1,10 @@
 = Waffentraining [Projektilwaffe]
 
 *Voraussetzungen:* Projektilwaffen 3 +
+*Typ:* Passiv +
 *Überanstrengung:* - +
-*CP-Kosten:* 200 +
-*Beschreibung:* Kämpft ein Charakter mit einer im Waffentraining gewählten Waffe, erhält er einen Bonus von +3 auf seine Angriffsproben.
+*CP:* 200 +
+
+Kämpft ein Charakter mit einer im Waffentraining gewählten Waffe, erhält er einen Bonus von +3 auf seine Angriffsproben.
 Die Auswahl erfolgt auf Basis einer bestimmten Waffenart, wie zum Beispiel Kurzbogen, Langbogen oder schwere Armbrust.
 Diese Fähigkeit kann mehrfach gelernt werden, jedoch immer nur für eine andere Waffe.
