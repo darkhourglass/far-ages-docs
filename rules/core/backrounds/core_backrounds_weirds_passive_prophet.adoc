@@ -1,0 +1,22 @@
+= Passiver Prophet
+
+// TODO Beschreibung
+
+*Attribute:* - +
+*Talente:* - +
+*Eigenschaften:* <<ref_core_backrounds_passive_prophet_prophecies,Prophezeiungen>> +
+*Fortitudo:* 5 +
+
+[[ref_core_backrounds_passive_prophet_prophecies]]
+== Prophezeiungen
+Du kannst vage Prophezeiungen über die Zukunft oder das Schicksal von link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen empfangen.
+Dazu musst Du die Kreatur berühren.
+Ob Du eine Prophezeiung empfängst, liegt im Ermessen des SLs.
+Der Inhalt einer Prophezeiung kann jedoch von Dir beeinflusst werden, in Du eine der folgenden Optionen wählst:
+
+* Die nächste xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks[Probe], die Du gegenüber der Kreatur ausführst, erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil]
+* Der nächte xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf], den die Kreatur ausführen muss, erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil]
+* Du kannst bis zu 3 Fragen über die Kreatur stellen, die der SL beantworten kann.
+Im Sinne vager Prophezeiungen müssen seine Antworten nicht konkret sein.
+
+Wählst Du die letzte Option, versetzen Dich die Visionen in eine tiefe Trance und bist Du für 1W4+1 xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].

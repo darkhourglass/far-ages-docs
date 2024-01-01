@@ -4,13 +4,12 @@ Die hohe See hat Dich schon immer fasziniert.
 Stundenlang konntest Du auf das schier endlose Wasser, welches den Horizont bedeckt, starren.
 Kaum warst Du alt genug, hast auf einem Schiff angeheuert und bist seither mehr auf dem Wasser als auf dem Land.
 
-*Attributsbonus:* - +
+*Attribute:* - +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Segeln)] +
-*Spezial:* <<ref_core_backrounds_sailor_special_sailors_legs,Seemanns Beine>> +
-*Startkapital:* 1/2 +
-*CP:* 30 +
+*Eigenschaften:* <<ref_core_backrounds_sailor_sailors_legs,Seemanns Beine>> +
+*Fortitudo:* 3 +
 
-[[ref_core_backrounds_sailor_special_sailors_legs]]
+[[ref_core_backrounds_sailor_sailors_legs]]
 == Seemanns Beine
 Immer, wenn Du durch einen xref:../core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag] oder durch einen anderen Effekt xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden] gehst, darfst Du einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] ablegen.
 Bestehst Du diesen Rettungswurf, bleibst Du stehen.

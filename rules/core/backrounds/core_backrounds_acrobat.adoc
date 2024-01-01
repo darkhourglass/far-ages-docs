@@ -9,13 +9,12 @@ Typischerweise hast Du bisher in einem Umfeld gelebt, in dem Du Deine Fähigkeit
 Auch wenn Du vielleicht nicht mehr aktiv in diesem Umfeld bist, Deine Körperbeherrschung übertrifft immer noch weit die Erwartungen gegenüber anderen.
 Sicherlich eine Fähigkeit, die Dich in Deinem Abenteurerleben vor mancher Gefahr bewahren wird.
 
-*Attributsbonus:* +1 GE+ +
-*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik], xref:../core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] +
-*Spezial:* <<ref_core_backrounds_acrobat_special_balancing_act,Drahtseilakt>> +
-*Startkapital:* 1/2 +
-*CP:* 50 +
+*Attribute:* +1 GE+ +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik] +
+*Eigenschaften:* <<ref_core_backrounds_acrobat_balancing_act,Drahtseilakt>> +
+*Fortitudo:* 4 +
 
-[[ref_core_backrounds_acrobat_special_balancing_act]]
+[[ref_core_backrounds_acrobat_balancing_act]]
 == Drahtseilakt
 Deine Körperbeherrschung lässt Dich in extremen Situationen außergewöhnliches erreichen.
 Nutzt Du Dein xref:../core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik-Talent], um Dich über oder um Hindernisse zu bewegen, durch xref:../core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] oder für sonstige akrobatische Manöver, wird Deine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] nicht wie beschrieben halbiert.

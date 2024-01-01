@@ -7,13 +7,12 @@ Oder Du fühlst in der schweren Hitze einer Schmiede wohl und hämmerst von Hufe
 Deine Arbeit und Erfahrung ließ Dich zu einem gefragten Meister Deines Faches werden.
 Wahrscheinlich konntest Du bisher (und könntest auch in Zukunft) gut von Deiner Arbeit leben.
 
-*Attributsbonus:* +1 KO +
-*Talente:* ein xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk] Deiner Wahl+
-*Spezial:* <<ref_core_backrounds_craftsman_special_trademastery,Meisterliches Handwerk>> +
-*Startkapital:* - +
-*CP:* 40 +
+*Attribute:* +1 KO +
+*Talente:* ein xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk] Deiner Wahl +
+*Eigenschaften:* <<ref_core_backrounds_craftsman_trade_mastery,Meisterliches Handwerk>> +
+*Fortitudo:* 4 +
 
-[[ref_core_backrounds_craftsman_special_trademastery]]
+[[ref_core_backrounds_craftsman_trade_mastery]]
 == Meisterliches Handwerk
 Zu Beginn des Spiels musst Du ein xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk], zum Beispiel Schmieden, wählen.
 Für dieses Handwerk erhältst Du zum einen den xref:../core_rules_charactercreation.adoc#ref_core_characters_charactercreation_backround[Talentbonus] und zum anderen gilt für dieses Handwerk der Bonus dieser Fähigkeit.

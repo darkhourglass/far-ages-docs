@@ -6,6 +6,27 @@
 // Travel per Day, travel too much, exhaustion
 // food per day / water per day
 
+[[ref_core_adventures_terrain]]
+== Gelände
+
+[[ref_core_adventures_terrain_jungles]]
+=== Dschungel
+
+[[ref_core_adventures_terrain_snow_ice_frost]]
+=== Schnee, Eis und Frost
+
+[[ref_core_adventures_terrain_snow_ice_swamps]]
+=== Sümpfe
+
+[[ref_core_adventures_terrain_tundra]
+=== Tundra
+
+[[ref_core_adventures_terrain_woods]]
+=== Wälder
+
+[[ref_core_adventures_terrain_deserts]]
+=== Wüsten
+
 [[ref_core_adventures_hazards]]
 == Gefahren
 
@@ -394,7 +415,12 @@ Eine Waffe hat eine feste Exzellenz, die nicht nach oben oder unten verändert w
 === Ausrüstung
 
 [[ref_core_adventures_items_destroy_items]]
-== Gegenstände zerstören
+=== Gegenstände zerstören
+
+[[ref_core_adventures_items_improvised_weapons]]
+=== Improvisierte Waffen
+
+// GK Objekt -> Schadenwürfel
 
 [[ref_core_adventures_obstacles]]
 == Objekte und Hindernisse

@@ -5,13 +5,12 @@ Typischerweise verbindet man damit die Positions des Navigators auf einem Schiff
 Du kannst Karten lesen und Dich anhand Sternen, dem Kompass und Horizont orientieren.
 Außerdem kannst Du das Wetter und Deine Umgebung gut interpretieren, um Dich vor möglichen Gefahren zu schützen.
 
-*Attributsbonus:* +1 ER +
+*Attribute:* +1 ER +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen], xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Navigation)] +
-*Spezial:* <<ref_core_backrounds_navigator_special_exceptional_orientation,Außergewöhnliche Orientierung>> +
-*Startkapital:* - +
-*CP:* 60 +
+*Eigenschaften:* <<ref_core_backrounds_navigator_exceptional_orientation,Außergewöhnliche Orientierung>> +
+*Fortitudo:* 6 +
 
-[[ref_core_backrounds_navigator_special_exceptional_orientation]]
+[[ref_core_backrounds_navigator_exceptional_orientation]]
 == Außergewöhnliche Orientierung
 Zu Beginn des Spiels bei der xref:../core_rules_charactercreation.adoc#ref_core_characters_charactercreation[Charaktererschaffung] musst Du ein Gebiet wählen, indem Du navigieren gelernt hast.
 Dies können beispielsweise die offene See, Flüsse, der Untergrund, Berge, Wälder oder auch die Luftschifffahrt sein.

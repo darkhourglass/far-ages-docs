@@ -660,6 +660,30 @@ Arkane Tricks unterscheiden sich zu Zaubersprüchen in folgenden Punkten:
 * Ein Arkaner Trick verursacht nie einen <<ref_core_magic_rules_spellcasting_spell_botches,Zauberpatzer>> und <<ref_core_magic_rules_spellcasting_spellburning,Verbrennen>>.
 Dies gilt auch, wenn er aus einem Gegenstand gewirkt wird.
 
+[[ref_core_magic_base_spell_like_abilities]]
+=== Zauber-ähnliche Fähigkeiten
+Manche Charaktere und Kreaturen beherrschen angeborene magische Kräfte, die den Effekt von einem bestimmten Zauberspruch erzeugen.
+Dies nennt man eine *zauber-ähnliche Fähigkeit*.
+Üblicherweise benennt die Fähigkeit den konkreten Zauberspruch, der mit ihr gewirkt werden kann.
+Dabei existieren folgende Unterschiede zu einem Zauberspruch:
+
+* Die MaxPOT der Kreatur ist nicht relevant, um die Fähigkeit einzusetzen.
+* Die Vorbereitung beträgt immer 1 und die Fähigkeit wird als xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] eingesetzt.
+* Die Fähigkeit gilt ohne explizite Ausnahme immer als xref:core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiert].
+* Es können keine zusätzlichen Effekte eingesetzt werden.
+* Es tritt kein <<ref_core_magic_rules_spellcasting_spellburning,Verbrennen>> ein, allerdings muss ein  <<ref_core_magic_rules_spellcasting_spell_botches,Zauberpatzer>> ausgewürfelt werden.
+
+Die magische Fähigkeit zählt nicht als xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Talent], um als Voraussetzung für andere Fähigkeiten zu gelten.
+Allerdings können andere Fähigkeiten oder Zauber, die normalerweise Zaubersprüche betreffen, auf die magische Fähigkeit angewendet werden.
+
+Es muss nach den üblichen Regeln eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> abgelegt werden, bei der kein <<ref_core_magic_rules_spellcasting_spellburning,Verbrennen>> eintritt.
+Diese Probe wird nach folgenden Kriterien ermitteln:
+
+* Ist für die Fähigkeit eine konkrete Stufe angegeben, wird diese verwendet.
+* Ohne Angabe einer Stufe und besitzt die Kreatur nicht das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], würfelt die Kreatur eine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_untrainedcheck[ungeübte Anwendung] von Spruchzauberei.
+Dies ist in diesem Fall erlaubt.
+* Besitzt die Kreatur Stufen im Talent Spruchzauberei, darf sie diese verwenden.
+
 [[ref_core_magic_base_magicpoints]]
 === Magiepunkte
 

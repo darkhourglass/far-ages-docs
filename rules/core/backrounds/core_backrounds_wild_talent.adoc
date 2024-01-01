@@ -6,13 +6,12 @@ So musstest Du nicht lange staubige Bücher wälzen und endlose Tutorien in arka
 Die Magie kam freiwillig zu Dir.
 Von manchen bewundert, von manchen gefürchtet und von den Meisten beneidet, nutzt Du Dein instinktives Verständnis für Magie, um in einer Welt zu bestehen, für die Du vor allem ein Außenseiter bleiben wirst.
 
-*Attributsbonus:* - +
+*Attribute:* - +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] (Arkanes) +
-*Spezial:* <<ref_core_backrounds_wild_talent_special_imbued_by_magic,Erfüllt mit Magie>> +
-*Startkapital:* - +
-*CP:* 40 +
+*Eigenschaten:* <<ref_core_backrounds_wild_talent_imbued_by_magic,Erfüllt mit Magie>> +
+*Fortitudo:* 4 +
 
-[[ref_core_backrounds_wild_talent_special_imbued_by_magic]]
+[[ref_core_backrounds_wild_talent_imbued_by_magic]]
 == Erfüllt mit Magie
 Du beherrschst instinktiv einen magischen Trink.
 Mit der xref:../core_rules_charactercreation.adoc#ref_core_characters_charactercreation[Charaktererschaffung] wähle einen beliebigen xref:../core_rules_magic_base.adoc#ref_core_magic_base_arcanetrick[arkanen Trick] auf einer der folgenden Zauberspruchlisten:

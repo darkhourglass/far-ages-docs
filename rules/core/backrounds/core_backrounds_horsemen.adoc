@@ -2,13 +2,12 @@
 
 // TODO Beschreibung
 
-*Attributsbonus:* +1 GE+ +
+*Attribute:* +1 GE+ +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_riding[Reiten], xref:../core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft] +
-*Spezial:* <<ref_core_backrounds_horsemen_special_fast_rider,Flinker Reiter>> +
-*Startkapital:* 1/2 +
-*CP:* 50 +
+*Eigenschaften:* <<ref_core_backrounds_horsemen_fast_rider,Flinker Reiter>> +
+*Fortitudo:* 50 +
 
-[[ref_core_backrounds_horsemen_special_fast_rider]]
+[[ref_core_backrounds_horsemen_fast_rider]]
 == Flinker Reiter
 Befindest Du Dich auf dem Rücken Deines Reittiers, kannst Du zu Beginn eines Kampfes oder Kampfphase Deinen xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_initiative[Initiative-Wurf] wiederholen.
 Du darfst den höheren Wert der beiden Würfe nutzen.

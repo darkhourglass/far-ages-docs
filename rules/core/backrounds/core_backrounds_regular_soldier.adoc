@@ -9,13 +9,12 @@ Und vielleicht Du hast gelernt einen treuen Kameraden wertzuschätzen
 
 Nach Deiner aktiven Zeit beim Militär suchst Du Dir nun Deine Kämpfe und Schlachtfelder selbst aus.
 
-*Attributsbonus:* - +
+*Attribute:* - +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:../core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] +
-*Spezial:* <<ref_core_backrounds_soldier_special_military_training,Militärisches Training>> +
-*Startkapital:* - +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_backrounds_soldier_military_training,Militärisches Training>> +
+*Fortitudo:* 3 +
 
-[[ref_core_backrounds_soldier_special_military_training]]
+[[ref_core_backrounds_soldier_military_training]]
 == Militärisches Training
 Dein Training bei der Armee und die Kampferfahrung in militärischen Einheiten ermöglicht es Dir auch in brenzlichen Situationen einen kühlen Kopf zu bewahren.
 Befindest Du Dich im Kampf (Du bist Teil einer xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_initiative[Initiative-Reihenfolge]), wertest Du den ersten, xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[fehlgeschlagenen] xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] als xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg].

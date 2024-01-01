@@ -5,13 +5,12 @@ Vielleicht warst Du Mitglied in einem Tempel oder Kloster.
 Dein Glauben hat bisher Dein Leben bestimmt und Dich zu weltlichen Verzicht geführt.
 Dafür suchst Du Sinn in der Spiritualität und im Opfer für das große Ganze.
 
-*Attributsbonus:* +1 SB +
+*Attribute:* +1 SB +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Religion)] +
-*Spezial:* <<ref_core_backrounds_disciple_special_spiritual_guidance,Spirituelle Unterstützung>> +
-*Startkapital:* - +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_backrounds_disciple_spiritual_guidance,Spirituelle Unterstützung>> +
+*Fortitudo:* 4 +
 
-[[ref_core_backrounds_disciple_special_spiritual_guidance]]
+[[ref_core_backrounds_disciple_spiritual_guidance]]
 == Spirituelle Unterstützung
 Du kannst Dich oder einen anderen Charakter durch die Kraft des Glaubens und innere Stärke für kommende Aufgaben vorbereiten.
 Um diese Fähigkeit nutzen, musst Du für die Dauer einer xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_short_break[kurzen Pause] meditieren.

@@ -1,0 +1,16 @@
+= Diviner
+
+// TODO Beschreibung
+
+*Attribute:* - +
+*Talente:* - +
+*Eigenschaften:* <<ref_core_backrounds_diviner_story_collector,Geschichtensammler>> +
+*Fortitudo:* 4 +
+
+[[ref_core_backrounds_diviner_story_collector]]
+== Geschichtensammler
+Du erfährst auf übernatürliche Weise Geschichten und Geheimnisse von Gegenständen allein durch Berührung.
+Berührst Du einen Gegenstand und setzt Deine Fähigkeit ein, musst Du einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen, der im Ermessen des SLs auch höhere xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] erfordert.
+Bei einem Erfolg erfährst Du die Geschichte des Gegenstandes und kannst dem SL auch konkrete Fragen zu dem Gegenstand stellen.
+Misslingt der Wurf, bist Du für eine Kampfphase xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[benommen] und Du must xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange rasten], bis Du die Fähigkeit erneut einsetzen kannst.
+Deine Fähigkeit funktioniert auch bei magischen Gegenständen.

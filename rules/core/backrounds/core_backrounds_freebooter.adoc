@@ -2,13 +2,12 @@
 
 // TODO Beschreibung
 
-*Attributsbonus:* - +
+*Attribute:* - +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade], xref:../core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] +
-*Spezial:* <<ref_core_backrounds_freebooter_special_hit_and_round,Geld oder Leben>> +
-*Startkapital:* - +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_backrounds_freebooter_hit_and_round,Geld oder Leben>> +
+*Fortitudo:* 4 +
 
-[[ref_core_backrounds_freebooter_special_hit_and_round]]
+[[ref_core_backrounds_freebooter_hit_and_round]]
 == Geld oder Leben
 Üblicherweise ist es besser mit der Beute zu entkommen, als seine Gegner in lange Gefechte zu binden.
 Benutzt Du xref:../core_rules_battlesystem.adoc#ref_core_battle_actions_retreat[Flucht/Zurückweichen], kannst Du 3,00 Meter zusätzlich zurückweichen.

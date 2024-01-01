@@ -6,13 +6,12 @@ Deine gesellschaftliche Position mag noch Verpflichtungen mit sich bringen, wie 
 Dein Beruf ist oft mit Deiner Aufgabe im Adelshaus verbunden, teilweise auch nur aus reinem Prestige.
 Manche Adeligen jedoch verfolgen mit ihrem Beruf die Distanzierung von ihrem Leben in der hohen Gesellschaft.
 
-*Attributsbonus:* +1 CH +
+*Attribute:* +1 CH +
 *Talente:* xref:../core_rules_talents_base.adoc#ref_talents_riding[Reiten] +
-*Spezial:* <<ref_core_backrounds_noble_special_blue_blood,Blaues Blut>> +
-*Startkapital:* x2 +
-*CP:* 60 +
+*Eigenschaften:* <<ref_core_backrounds_noble_blue_blood,Blaues Blut>> +
+*Fortitudo:* 5 +
 
-[[ref_core_backrounds_noble_special_blue_blood]]
+[[ref_core_backrounds_noble_blue_blood]]
 == Blaues Blut
 Gelegentlich kannst Du Dich dank Deines adeligen Hintergrunds auf Deine Privilegien und sozialen Status berufen.
 Setzt Du xref:../core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] oder xref:../core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] gegen einen anderen Charakter ein, kannst Du dieses Spezial einsetzen.

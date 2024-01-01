@@ -2,13 +2,12 @@
 
 // TODO Beschreibung
 
-*Attributsbonus:* - +
+*Attribute:* - +
 *Talente:* ein xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk] oder eine xref:../core_rules_talents_base.adoc#ref_talents_art[Kunst] Deiner Wahl, xref:../core_rules_talents_base.adoc#ref_talents_read_write[Lesen/Schreiben]+
-*Spezial:* <<ref_core_backrounds_guildmember_special_secrets_of_the_trade,Berufsgeheimnisse>> +
-*Startkapital:* - +
-*CP:* 40 +
+*Eigenschaften:* <<ref_core_backrounds_guildmember_secrets_of_the_trade,Berufsgeheimnisse>> +
+*Fortitudo:* 4 +
 
-[[ref_core_backrounds_guildmember_special_secrets_of_the_trade]]
+[[ref_core_backrounds_guildmember_secrets_of_the_trade]]
 == Berufsgeheimnisse
 In Deinem xref:../core_rules_talents_base.adoc#ref_talents_craft[Handwerk] oder xref:../core_rules_talents_base.adoc#ref_talents_art[Kunst] gehörst Du einer mächtigen Gruppierung an, die alle die gleichen Fähigkeiten besitzen und ihre Kompetenzen bündeln können.
 

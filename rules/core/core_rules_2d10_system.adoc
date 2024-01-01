@@ -858,16 +858,15 @@ Ein solcher Zustand beeinflusst die Optionen des Charakters, die ihm für gewöh
 Dies kann sowohl positiv wie auch negativ beeinflusst werden.
 Im Allgemeinen sind die Zustände mit einem Auslöser verbunden, wie beispielsweise dem Misslingen eines <<ref_core_2d10_checks_saves,Rettungswurfs>>.
 
-Viele Begriffe und Regeln in diesem Kapitel verweisen bereits auf das Kapitel link:core_rules_battlesystem.adoc[Kampf], da Zustände im Allgemeinen während eines Kampfs besonders stark zur Geltung kommen.
-
 Weiterhin sind Zustände zeitlich beschränkt, wobei diese Dauer im Allgemeinen durch den Auslöser vorgegeben wird.
 Sofern nicht anders angegeben, wird die Dauer eines Zustands in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] angegeben.
 
 Ein Charakter kann von beliebig vielen Zuständen gleichzeitig betroffen sein.
-Ihre unterschiedlichen Effekte sind kumulativ, identische Effekte potenzieren sich jedoch nicht.
+Ihre unterschiedlichen Effekte sind kumulativ, sofern möglich.
 Erhält beispielsweise ein Charakter aufgrund zwei unterschiedlicher Zustände einen <<ref_core_2d10_checks_disadvantage,Nachteil>> in bestimmten Proben, hat dies keinen potenzierten Effekt.
 Dennoch endet der Nachteil erst, wenn beide Zustände abgelaufen sind.
 
+Gleiche Zustände potenzieren in der Regel jedoch nur, wenn ihre Beschreibung dies explizit erwähnen.
 Wird ein Charakter aus zwei oder mehr unterschiedlichen Quellen durch den gleichen Zustand betroffen, gibt es zu Varianten zu beachten:
 
 * Der Zustand besitzt keine Stufen, sondern nur eine Dauer.
@@ -1101,7 +1100,7 @@ Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm
 
 [[ref_core_2d10_condition_disabled]]
 === Kampfunfähig
-Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] unbd xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] zur Verfügung.
+Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] zur Verfügung.
 
 Sofern nicht anders angegeben, gelten keine anderen Zustände (wie zum Beispiel im Fall einer <<ref_core_2d10_condition_unconscious,Ohnmacht>> <<ref_core_2d10_condition_onground,am Boden>> zu liegen).
 Die Kampfunfähigkeit endet erst, wenn der Zustand explizit aufgehoben wird.
@@ -1137,13 +1136,14 @@ Wenn ein Charakter aus dem Schlaf aufwachen möchte, bevor dieser vorbei ist, mu
 === Ohnmächtig
 Ein ohnmächtiger Charakter kann weder Aktionen noch Reaktionen einsetzen.
 Sofern nicht anders angegeben, dauert die Ohnmacht 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
-Ein Charakter beginnt das Ende seiner Ohnmacht <<ref_core_2d10_condition_onground,am Boden>>.
+Ein Charakter gilt als <<ref_core_2d10_condition_onground,am Boden>>.
 
 [[ref_core_2d10_condition_invisible]]
 === Unsichtbar
 Ob durch Magie oder einen genialen, optischen Trick, verschwinden unsichtbare Charaktere aus dem Sichtfeld der Umgebung.
 Unsichtbare Charaktere können nicht direktes Ziel einer <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsprobe>> oder Interaktion sein.
 Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
+Unsichtbare Kreaturen haben außerdem einen <<ref_core_2d10_checks_advantage,Vorteil>> auf ihre eignen <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsproben>> gegenüber anderen Kreaturen, die sie nicht sehen können.
 
 Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar gegenüber Kreaturen, die über andere Sinne als "Sicht" verfügen.
 Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
@@ -1163,7 +1163,7 @@ Er muss für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesys
 [[ref_core_2d10_condition_encumbered]]
 === Überlastet
 Ein Charakter ist *überlastet*, wenn er zu viel Gewicht mit sich trägt.
-Üblicherweise wird dieser Zustand erreichent, wenn ein Charakter seine <<ref_core_characters_charactercreation_secondary_calculate_maxcarringcapacity,maximale Traglast>> übertrifft.
+Üblicherweise wird dieser Zustand erreicht, wenn ein Charakter seine <<ref_core_characters_charactercreation_secondary_calculate_maxcarringcapacity,maximale Traglast>> übertrifft.
 
 Ein überlasteter Charakter wird behandelt als hätte er eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
 Der Zustand endet erst, wenn der Charakter seine maximale Traglast wieder unterschreitet.

@@ -8,12 +8,6 @@
 Die Kreatur beherrscht eine angeborene, magische Fähigkeit, die einem Zauberspruch nahekommt.
 
 Die entspricht dem angegebenen *Zauberspruch* und wird mit der angegebenen *Angriffsstufe* verwendet, als würde eine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] gewürfelt.
-Die magische Fähigkeit hat folgende Unterschiede zu einem Zauberspruch:
+Es gelten die Regeln für xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_base_spell_like_abilities[zauber-ähnliche Fähigkeiten].
 
-* Die MaxPOT der Kreatur ist nicht relevant, um die Fähigkeit einzusetzen.
-* Die Vorbereitung ist immer 1 und die Fähigkeit wird als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] eingesetzt
-* Es können keine zusätzlichen Effekte eingesetzt werden.
-
-Die magische Fähigkeit gilt nicht als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Talent], um beispielsweise Fähigkeiten zu lernen.
-Allerdings können andere Fähigkeiten oder Zauber, die normalerweise Zaubersprüche betreffen, auf die magische Fähigkeit angewendet werden.
 Wird keine Angriffsstufe angegeben, wird entweder die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Stufe] oder, falls vorhanden, xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] verwendet.

@@ -2,12 +2,11 @@
 
 // TODO Beschreibung
 
-*Attributsbonus:* - +
-*Talente:* Nach Deiner Wahl xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:../core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen] +
-*Spezial:* <<ref_core_backrounds_bounty_hounter_special_guerilla_tactics,Guerilla Taktik>> +
-*Startkapital:* - +
-*CP:* 40 +
+*Attribute:* - +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen] +
+*Eigenschaften:* <<ref_core_backrounds_bounty_hounter_guerilla_tactics,Guerilla Taktik>> +
+*Fortitudo:* 4 +
 
-[[ref_core_backrounds_bounty_hounter_special_guerilla_tactics]]
+[[ref_core_backrounds_bounty_hounter_guerilla_tactics]]
 == Guerilla Taktik
 // Jeder Beruf hat ein "Spezial", hier als Unterkapitel zu beschreiben
