@@ -451,7 +451,6 @@ Dies wird sogar von halbwegs intelligenten Gegnern besonders verfolgt, denn die 
 
 Somit kann ein Magier, der zu einer anderen xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] als xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereiten] die Vorbereitung für den Zauber verlieren.
 Anders formuliert, wenn ein Magier in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] eine Aktion ausführt, die nicht xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereiten] ist, obwohl er einen Zauberspruch vorbereitet, ist durch diese Regeln der Unterbrechung betroffen.
-Ebenso bei einem xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag] muss der Magier diesen Regeln folgen.
 
 Der Zauberer kann im Fall einer Unterbrechung versuchen, seine Konzentration zu halten.
 Dazu würfelt er eine Probe auf xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen], wobei der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] aus der Formel 8 + POT (siehe auch die <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>>) berechnet wird.

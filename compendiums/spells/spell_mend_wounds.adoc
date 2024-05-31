@@ -8,13 +8,12 @@
 *Vorbereitung:* 3 +
 *Reichweite:* Selbst/Berührung +
 *Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur +
-*Dauer:* Sofort +
+*Dauer:* 8 Stunden +
 *Effekt:* Du legst Deine Hände auf eine Wunde der Zielkreatur.
 Ein angenehmer, warmer Strom arkaner Energie geht von Dir auf die Zielkreatur über.
-Bei erfolgreicher Spruchzauberei-Probe schließt sich sofort eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung] der Zielkreatur.
-Sie gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_wounds_curing_wounds[geheilt].
+Bei erfolgreicher Spruchzauberei-Probe ist die Kreatur nicht mehr von negativen Effekten der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzungen] betroffen.
 
-Hat die Kreatur mehr als eine Wunde, musst Du die zusätzlichen Effekte dieses Zauberspruches nutzen oder warten.
-Eine Kreatur kann erst nach Ablauf von 24 Stunden wieder Ziel dieses Zauberspruches werden.
+Endet der Zauberspruch und die Kreatur liegt noch unter einer Schwelle ihres TP-Pools, gelten die üblichen Regeln und sie erleidet die negativen Effekte.
+
 *Zusätzliche Effekte:* +
-+1 POT, +5 MP: heile 1 weitere Wunde +
++1 POT, +5 MP: Dauer +1 Stunde +

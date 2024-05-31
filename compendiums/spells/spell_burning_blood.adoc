@@ -15,16 +15,14 @@ Die Komponenten werden im Rahmen der rituellen Vorbereitung zu einer roten, warm
 Mit erfolgreicher Spruchzauberei-Probe glühen die Runen kurz auf und verschwinden in der Haut der Kreatur.
 
 Für die Dauer des Zauberspruches ist das Blut der Kreatur verzaubert.
-Tritt es aus, zum Beispiel durch eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde], schlagen Flammen aus dem Körper der Kreatur.
+Tritt es aus schlagen Flammen aus dem Körper der Kreatur.
 Diese Flammen schaden ihr nicht, aber nahestehende andere und eventuell auch den Verursacher der Wunde.
 
-Erhält die verzauberte Kreatur durch eine Schadensquelle genug Schaden, um eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde] zu verursachen, tritt die übliche Wirkung einer solchen nicht ein.
-Das heißt, die Kreatur muss keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlags-Probe] ablegen und erleidet keine Mali.
-Sie erhält somit effektiv keine Wunde.
-Die Flammen, die aus ihrem Körper schlagen, verschließen die Wunde sofort.
+Erhält die verzauberte Kreatur durch eine Schadensquelle genug Schaden, um eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzung] zu verursachen, tritt der Zustand wie üblich ein, aber die Kreatur leidet nicht unter dem Effekt dieses Zustands solange der Zauberspruch anhält.
 Die Kreatur verliert jedoch regulär den angerichteten Schaden als TP.
 
 Darüber hinaus erhalten alle Kreaturen, die sich zu diesem Zeitpunkt in der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] einen automatischen Treffer, der 5W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] verursacht.
-Dieser Schaden durch einen erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe halbiert werden (Minimum 1). +
+Dieser Schaden durch einen erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe halbiert werden (Minimum 1).
+
 *Zusätzliche Effekte:* +
 + 10 MP: Dauer +12 Stunden +

@@ -10,7 +10,7 @@
 |3
 |50
 |45,00 Meter
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mechanical[Mechanisch], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mechanical[Mechanisch], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
 
 |Armbrust (schwer)
 |ST
@@ -19,7 +19,7 @@
 |4
 |70
 |60,00 Meter
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mechanical[Mechanisch],xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mechanical[Mechanisch],xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
 
 |Handarmbrust
 |GE
@@ -28,7 +28,7 @@
 |2
 |50
 |15,00 Meter
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mechanical[Mechanisch], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_quick[Schnell]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mechanical[Mechanisch], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_quick[Schnell]
 
 |Kurzbogen
 |GE
@@ -37,7 +37,7 @@
 |3
 |40
 |25,00 Meter
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
 
 |Kompositbogen
 |ST
@@ -46,7 +46,7 @@
 |4
 |60
 |75,00 Meter
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[Zweihand-Waffe]
 
 |Langbogen
 |ST
@@ -91,5 +91,5 @@
 |1
 |5
 |12,00 Meter
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Munition], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 |===

@@ -268,35 +268,31 @@ Die Attributseigenschaften berechnen sich nach den üblichen xref:../../rules/co
 Abhängig von ihrem Element erhalten Manifeste außerdem noch die folgenden Modifikatoren.
 
 |===
-|Element |BEW |INI |MaxTL |MaxPOT |WID
+|Element |BEW |INI |MaxTL |MaxPOT |
 
 |Erde
 |-3,00 Meter (minimal 3,00 Meter)
 |-2
 |+50
 |-
-|+4
 
 |Feuer
 |-
 |+2
 |-
 |+3
-|+2
 
 |Luft
 |+3,00
 |+2
 |-
 |-
-|-2
 
 |Wasser
 |-
 |-
 |+25
 |+1
-|+2
 |===
 
 [[ref_bestiary_elemental_rules_profile_talents]]

@@ -18,7 +18,7 @@
 [[ref_core_adventures_terrain_snow_ice_swamps]]
 === Sümpfe
 
-[[ref_core_adventures_terrain_tundra]
+[[ref_core_adventures_terrain_tundra]]
 === Tundra
 
 [[ref_core_adventures_terrain_woods]]
@@ -46,7 +46,7 @@ Jeder aufgeführte Schaden in Effekten auf Kreaturen entspricht einem xref:../..
 Dieser kann immer durch einen erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] halbiert werden.
 Die nötige Anzahl der Erfolge entspricht der Stärke des Erdbebens.
 
-Außerdem muss jede Kreatur zu Beginn ihrer Kampfphase eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlags-Probe] bestehen oder gehen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
+Außerdem muss jede Kreatur zu Beginn ihrer Kampfphase einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] bestehen oder sie geht xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
 Auch bei dieser Probe ist die nötige Anzahl der Erfolge gleich der Stärke des Erdbebens.
 
 //TODO

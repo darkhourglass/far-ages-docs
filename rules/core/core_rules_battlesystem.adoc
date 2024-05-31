@@ -491,7 +491,7 @@ Erreicht er in diesem Fall den xref:core_rules_2d10_system.adoc#ref_core_2d10_ch
 
 Erst *dann* kann der Verteidiger seinen Konter nach dem gleichen Muster würfeln, vorausgesetzt, dass er nach dem Angriff weiterhin in der Lage ist, Angriffsproben zu würfeln.
 Effekte, die dies verhindern, verhindern auch einen Konter.
-Beispielsweise könnte der Angriff zu einem <<ref_core_battle_knockdown,Niederschlag>> führen, so dass der Verteidiger keine Angriffsprobe mehr würfeln kann, bevor er <<ref_core_battle_action_standup,aufgestanden>> ist.
+Beispielsweise könnte der Angriff zu einem <<ref_core_battle_attacktypes_knockdown,Niederschlag>> führen, so dass der Verteidiger keine Angriffsprobe mehr würfeln kann, bevor er <<ref_core_battle_action_standup,aufgestanden>> ist.
 Dies ist eine Aktion, die ihm während <<ref_core_battle_cycle_battlephase_others_turn,des Zugs des Angreifers>> nicht zu steht.
 
 [[ref_core_battle_complexactions]]
@@ -562,6 +562,36 @@ Unabhängig von dem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicr
 
 Es gelten die Regeln zu <<ref_core_battle_melee_and_unarmed,Nah- und unbewaffneter Kampf>>.
 
+[[ref_core_battle_attacktypes_spell_attacks]]
+=== Attacken durch Zaubersprüche
+// TODO
+
+[[ref_core_battle_attacktypes_knockdown]]
+=== Angriff zum Niederschlag
+Ein Charakter kann einen Angriff zum Niederschlag gegen einen Gegner ansagen, um diesen durch die schwiere Wucht seines Angriffs zu Fall zu bringen.
+Dafür benötigt er eine Waffe mit der Eigenschaft <<ref_core_battle_items_weapons_tag_heavy,Schwer>> oder <<ref_core_battle_items_weapons_tag_impact,Wucht>>.
+
+Es wird eine reguläre xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] gewürfelt.
+Kommt es zum <<ref_core_battle_damage_damagerolls,Schadenswurf>>, wird der ermittelte Schaden zuerst halbiert (abgerundet, Minimum 1) und erst dann durch <<ref_core_battle_damage_armor,Rüstung>> und <<ref_core_battle_damage_damageresistence,Resistenzen>> reduziert.
+
+Verursacht dieser Angriff mindestens 1 Schadenspunkt, besteht die Gefahr, dass dem Opfer "schwarz vor Augen" wird und es zu Boden geht.
+Um dies zu prüfen, muss der angegriffene Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] ablegen.
+Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für diesen Rettungswurf ergibt sich aus der Formel 5 + den tatsächlich erlittenen Schaden.
+
+.Niederschlag
+====
+Ein Charakter erzielt bei einem Angriff zum Niederschlag 20 Schadenspunkte gegen seinen Gegner.
+Halbiert ergeben sich 10 Schadenspunkte, die jetzt gegen die Rüstung des Gegners verrechnet werden.
+Trägt dieser eine Rüstung mit 5 Rüstungspunkten, erleidet er insgesamt 5 Schadenspunkte.
+Dadurch ergibt sich der Mindestwurf 5+5=10 für seinen Rettungswurf.
+====
+
+xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misslingt] der Rettungswurf, geht der Charakter als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
+Er kann dann wieder <<ref_core_battle_action_standup>>,aufstehen>>.
+Im Fall eines xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzers] erhält der Charakter außerdem eine Stufe xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
+
+Die Aktion ist <<ref_core_battle_actions_general_limited_action_and_reaction,limitiert>>.
+
 [[ref_core_battle_attacktypes_mountedcharge]]
 === Berittener Sturmangriff
 Benutzt ein Charakter ein Reittier im Kampf, so kann er analog zum <<ref_core_battle_attacktypes_charge,Sturmangriff>> einen berittenen Angriff initiieren, falls er nicht im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden] ist.
@@ -573,6 +603,7 @@ Weiterhin ist der Charakter und sein Gegner nach Abschluss des Angriffs xref:cor
 Er muss eine <<ref_core_battle_items_weapons_tag_mounted_combat,passende Waffe>> führen, um den Angriff effizient ausführen zu können, bzw. eine Waffe, die eine passende Länge hat.
 
 Es gelten die weiterführenden Regeln zu <<ref_core_battle_mounted_combat,berittenen Kampf>>.
+Die Aktion ist <<ref_core_battle_actions_general_limited_action_and_reaction,limitiert>>.
 
 [[ref_core_battle_attacktypes_airattack]]
 === Flugangriff
@@ -582,16 +613,20 @@ Mit dieser Aktion heben sie sich in die Luft und stürzen auf ihre Gegner herab 
 Die zurückgelegte Strecke kann maximal die Hälfte der BEW des Angreifers sein.
 Dabei wird die Luftbewegung genommen.
 Nachdem die Attacke (und eventuelle Reaktionen) ausgeführt wurde, kann sich der fliegende Angreifer sich mit der verbleibenden BEW fortbewegen.
+Die Aktion ist <<ref_core_battle_actions_general_limited_action_and_reaction,limitiert>>.
 
-[[ref_core_battle_attacktypes_unarmed_combat]]
-=== Unbewaffneter Kampf
-Manchmal muss man sich mit Fäusten wehren.
-Es handelt sich bei diesem Angriffstyp um eine Probe auf das Talent xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
-Es gelten die gleichen Regeln wie bei einer <<ref_core_battle_attacktypes_meleeattack,Attacke im Nahkampf>> sowie zu <<ref_core_battle_melee_and_unarmed,Nah- und unbewaffneter Kampf>>.
+[[ref_core_battle_attacktypes_aimedattack]]
+=== Gezielte Attacke
+Der Charakter kann mit einer Angriffsprobe einen gezielten Treffer bei einem Gegner zu erlangen.
+Dazu sagt er die <<ref_core_battle_hits_hitzones,Trefferzone>> an, die er zu treffen beabsichtigt, vorausgesetzt er kann diese sehen.
 
-[[ref_core_battle_attacktypes_spell_attacks]]
-=== Attacken durch Zaubersprüche
-// TODO
+Der Angriffswurf ist mit einem xref:ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5* belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag oder Schuss darstellt.
+
+Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
+Es kann dadurch auch <<ref_core_battle_damage_armor,Rüstung>> umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
+
+Verwendet der Charakter eine Waffe mit der Eigenschaft <<ref_core_battle_items_weapons_tag_precise,Präzise>>, beträgt der ref:ref_core_2d10_checks_situationalmodifiers_malus[Malus] nur *-2*.
+Die Aktion ist <<ref_core_battle_actions_general_limited_action_and_reaction,limitiert>>.
 
 [[ref_core_battle_attacktypes_unarmed_combat_brawl]]
 ==== Raufen und Ringen
@@ -617,7 +652,14 @@ Er führt das Manöver aus, bewegt er sich auf den Gegner zu und kann sofort ein
 
 Bewegt sich der Charakter durch die <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszonen>> anderer Kreaturen, so provoziert er <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>>, aber keinen bei seinem Ziel.
 
-Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
+Verwendet der Charakter ein Reittier, gelten die Regeln für den <<ref_core_battle_attacktypes_mountedcharge,betrittenen Sturmangriff>>.
+Die Aktion ist <<ref_core_battle_actions_general_limited_action_and_reaction,limitiert>>.
+
+[[ref_core_battle_attacktypes_unarmed_combat]]
+=== Unbewaffneter Kampf
+Manchmal muss man sich mit Fäusten wehren.
+Es handelt sich bei diesem Angriffstyp um eine Probe auf das Talent xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
+Es gelten die gleichen Regeln wie bei einer <<ref_core_battle_attacktypes_meleeattack,Attacke im Nahkampf>> sowie zu <<ref_core_battle_melee_and_unarmed,Nah- und unbewaffneter Kampf>>.
 
 [[ref_core_battle_melee_and_unarmed]]
 == Nahkampf und unbewaffneter Kampf
@@ -782,16 +824,6 @@ Zusätzlich zu allen Modifikationen können Lichtverhältnisse die Angriffswürf
 [NOTE]
 Neben besonderen Fähigkeiten wie link:../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht] kann der SL auch situationsbedingt bestimmen, dass nicht alle Probe von Dunkelheit betroffen sind.
 Beispielsweise kann ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] betroffen sein, denn auch der Instinkt wird Sicht unterstützt, während ein Rettungswurf für xref:core_rules_adventures.adoc#ref_core_adventures_hazards_diseases_resist[Krankheit] davon nicht betroffen wäre.
-
-[[ref_core_battle_melee_modifiers_aimedattack]]
-==== Gezielter Schlag / Schuss
-Der Charakter kann mit einer Angriffsprobe im Nahkampf (und auch Fernkampf) versuchen, einen gezielten Treffer bei einem Gegner zu erlangen.
-Dazu sagt er die <<ref_core_battle_hits_hitzones,Trefferzone>> an, die er zu treffen beabsichtigt, vorausgesetzt er kann diese sehen.
-
-Der Angriffswurf ist mit einem xref:ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5* belegt, um die Schwierigkeit zu symbolisieren, die ein solcher Schlag oder Schuss darstellt.
-
-Ist der Angriff erfolgreich, so wurde die entsprechende Trefferzone getroffen und der Schaden wird komplett in diese Trefferzone gelegt.
-Es kann dadurch auch <<ref_core_battle_damage_armor,Rüstung>> umgangen werden, da Rüstung nicht immer alle Trefferzonen abdeckt.
 
 [[ref_core_battle_melee_modifiers_size]]
 ==== Größenunterschiede
@@ -965,7 +997,6 @@ Für die Angriffswürfe im Fernkampf gelten folgende Modifikatoren wie im Nahkam
 
 * <<ref_core_battle_melee_modifiers_coverage,Deckung>>
 * <<ref_core_battle_melee_modifiers_darkness,Dunkelheit>>
-* <<ref_core_battle_melee_modifiers_aimedattack,Gezielter Schlag>>
 * <<ref_core_battle_melee_modifiers_size,Größenunterschiede>>
 * <<ref_core_battle_melee_modifiers_height,Höhenunterschiede>>
 
@@ -990,7 +1021,7 @@ Hat sich das Ziel mit seiner <<ref_core_battle_action_move,Bewegung>> fortbewegt
 
 [[ref_core_battle_projectiles_modifiers_aimedattack]]
 ==== Gezielter Schuss
-Analog zu einem <<ref_core_battle_melee_modifiers_aimedattack,gezielten Schlag>> im Nahkampf kann ein Fernkämpfer einen gezielten Schuss (oder Wurf) abgeben.
+Analog zu einem <<ref_core_battle_attacktypes_aimedattack,gezielten Schlag>> im Nahkampf kann ein Fernkämpfer einen gezielten Schuss (oder Wurf) abgeben.
 Es gelten die gleichen Regeln.
 
 [[ref_core_battle_throwingweapons]]
@@ -1040,11 +1071,11 @@ Pro xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation
 * Führt der Charakter vom Rücken seines Tieres Angriffe auf am Boden Kämpfende aus, so gelten Boni für <<ref_core_battle_melee_modifiers_height,Höhenunterschiede>>.
 Dabei wird die GK des Reittieres zur Ermittlung herangezogen.
 Ist das Reittier zwei Größenkategorien größer als die Kreaturen am Boden, dann muss der Charakter eine Nahkampfwaffe tragen, die eine <<ref_core_battle_items_weapons_tag_reach,erhöhte Reichweite>> hat.
-Ist das Reittier noch größer, kann der Reiter keine Nahkampfangriffe ausführen.
+Ist das Reittier noch größer, kann der Reiter keine <<ref_core_battle_attacktypes_meleeattack,Angriffe im Nahkampf>> ausführen.
 * Der Reiter gilt als zusätzliche <<ref_core_battle_hits_hitzones,Trefferzone>> für das Reittier.
 <<ref_core_battle_projectiles,Fernangriffe>> werden auf das Reittier wie gewohnt ausgeführt.
-* Fern- wie Nahkampfangriffe können durch <<ref_core_battle_melee_modifiers_aimedattack,gezielter Schuss oder Schlag>> den Reiter oder das Reittier angreifen.
-* Wird das Reittier durch einen Angriff <<ref_core_battle_knockdown,niedergeschlagen>>, so fällt der Reiter mit dem Reittier.
+* Durch <<ref_core_battle_attacktypes_aimedattack,gezielte Attacken>> können Reiter oder Reittier explizit angegriffen werden.
+* Wird das Reittier durch einen Angriff <<ref_core_battle_attacktypes_knockdown,niedergeschlagen>>, so fällt der Reiter mit dem Reittier.
 Er erhält dadurch Fallschaden nach den üblichen Regeln, jedoch mindestens 1W6.
 Dasselbe gilt, wenn der Reiter selbst niedergeschlagen wird.
 * Das Reittier des Charakters muss auf den Kampf geschult sein, um selbstständig Gegner zu attackieren und um das Kampfgetümmel mühelos ertragen.
@@ -1183,7 +1214,7 @@ Dies kann der SL von Situation zu Situation frei entscheiden.
 
 Der Torso gilt als *Standardtrefferzone* bei humanoiden, gleich großen Gegnern.
 
-Ein <<ref_core_battle_melee_modifiers_aimedattack,gezielter Angriff>> kann so gezielt werden, dass er die Trefferzonen betrifft, die nicht durch eine Rüstung geschützt sind.
+Eine <<ref_core_battle_attacktypes_aimedattack,gezielte Attacke>> kann so eingesetzt werden, dass sie die Trefferzonen betrifft, die nicht durch eine Rüstung geschützt sind.
 
 [[ref_core_battle_hits_hitzones_variants]]
 ==== Variationen bei Trefferzonen
@@ -1215,7 +1246,6 @@ Folgende Änderungen gelten bei Anwendung dieser Regel:
 * Arm- und Beinschienen haben keinen Effekt und werden als Teil der Torso-Rüstung betrachtet.
 * Helme werden auf den Torso-Rüstungsschutz gerechnet.
 * Schilde funktionieren normal
-* Das Kampfmanöver steht <<ref_core_battle_melee_modifiers_aimedattack,gezielter Schlag/Schuss>> nicht zur Verfügung.
 * Über alle Rüstungsgegenstände gilt der höchste <<ref_core_battle_items_armor_tag_dexterity_malus,Malus auf GE>> und der höchste <<ref_core_battle_items_armor_tag_initiative_malus,Malus auf INI>>.
 
 .Vereinfachung von Trefferzonen
@@ -1431,7 +1461,6 @@ Alle elementaren Schadensarten werden von <<ref_core_battle_damage_armor,normale
 
 [[ref_core_battle_damage_damagetype_elemental_earth]]
 ===== Erde
-
 //TODO
 
 [[ref_core_battle_damage_damagetype_elemental_fire]]
@@ -1439,16 +1468,12 @@ Alle elementaren Schadensarten werden von <<ref_core_battle_damage_armor,normale
 Das Feuer ist eine zerstörerische und unbändige Kraft, die so lange konsumiert, bis nichts mehr da ist.
 Feuerschaden kann viele Quellen haben, vom Lagerfeuer bis zum Waldbrand, viele Zaubersprüche nutzen die Kraft des Feuers oder auch Kreaturen und Konstrukte, die Feuer spucken.
 
-Erreicht der Feuerschaden die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Feuerschaden.
-
 [[ref_core_battle_damage_damagetype_elemental_air]]
 ===== Luft
-
 //TODO
 
 [[ref_core_battle_damage_damagetype_elemental_water]]
 ===== Wasser
-
 //TODO
 
 [[ref_core_battle_damage_damageetypes_aspectelemental]]
@@ -1465,11 +1490,8 @@ Eiskalt und lebensfeindlich ist der Frost.
 Er lässt sogar den Atem gefrieren und das Blut in den Adern stillstehen.
 Frost-Schaden kommt natürlicherweise in besonders kalten Gebieten vor, wie zum Beispiel die Eiswüsten nördlich von Kchrun.
 
-Erreicht der Frostschaden die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Frostschaden.
-
 [[ref_core_battle_damage_damagetype_aspectelemental_magma]]
 ===== Magma
-
 //TODO
 
 [[ref_core_battle_damage_damagetype_aspectelemental_acid]]
@@ -1478,14 +1500,10 @@ Viele Kreaturen und andere Phänomene in der Natur produzieren ätzende Säuren 
 Ätzende Gase werden von dieser Regel auch betroffen, auch wenn der Begriff Säure meistens mit Flüssigkeiten assoziiert wird.
 Manche der Säuren gehören zum Verdauungsprozess einer Kreatur oder sind ein Abwehrmechanismus.
 
-Erreicht der Säure-Schaden die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Säureschaden.
-
 [[ref_core_battle_damage_damagetype_aspectelemental_shock]]
 ===== Schock
 Schock-Schaden ist elektrisierende Energie, die durch den Körper ihrer Opfer fließt und diese lähmt.
 Typische Quellen sind Blitzschläge, natürliche, wie magische, bestimmte technomantische Spielzeuge und diverse Phänomene, die auf statischer Ladung beruhen.
-
-Erreicht der Schockschaden die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] eines Charakters, erhält er den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend] mit 1W3 Schockschaden.
 
 [[ref_core_battle_damage_damagetypes_magical]]
 ==== Magische Schadensarten
@@ -1509,8 +1527,6 @@ Sollte er überzeugt sein, dass er den Schaden erhält, wird eine <<ref_core_bat
 Nekrotischer Schaden entsteht aus der dunkeln und lebensfeindlichen Energie von Ebon.
 Nur wenige Lebewesen überstehen Schaden aus dieser Quelle mit weniger als nur körperlichen Schaden.
 <<ref_core_battle_damage_armor,Rüstung>> schützt nur, wenn dies explizit angegeben ist.
-
-Erreicht der Schockschaden die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] eines Charakters, erleidet er zusätzlich 1W3 <<ref_core_battle_damage_damagetype_primary_mental,mentalen>> Schaden.
 
 [[ref_core_battle_damage_damageresistence]]
 === Schadensresistenz
@@ -1547,9 +1563,6 @@ Auch xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[erschöp
 Überanstrengungsschaden entsteht somit normalerweise durch eine bewusste Entscheidung des Charakters und selten durch äußere Einwirkung.
 
 Überanstrengungsschaden gilt als <<ref_core_battle_damage_damagetype_primary_physical,physischer>>, <<ref_core_battle_damage_inevitable,unabwendbarer>> Schaden und es gelten die üblichen Regeln.
-Es gilt jedoch die Ausnahme, dass Überanstrengungsschaden keine <<ref_core_battle_wounds,Verletzungen>> verursacht.
-Sollte ein Charakter genug Überanstrengungsschaden erhalten, um seine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] zu übertreffen, gelten die üblichen Regeln für den <<ref_core_battle_knockdown,Niederschlag>>.
-
 Wie in der Beschreibung zu <<ref_core_battle_damage_inevitable,unabwendbaren Schaden>> zu lesen, kann Überanstrengungsschaden nur durch eine <<ref_core_battle_damage_damageimmunity,Schadensimmunität>>[<<ref_core_battle_damage_damagetype_primary_physical,Physisch>>] abgewendet werden.
 Kreaturen, die diese Schadensimmunität ausweisen, sind die einzigen Ausnahmen, in denen Überanstrengungsschaden nicht den Verlust von TP verursacht.
 Solche Kreaturen dürfen uneingeschränkt Fähigkeiten oder Talente (und so weiter) einsetzen, die Überanstrengungsschaden erfordern.
@@ -1560,7 +1573,6 @@ Weiterhin ist zwischen tödlichem und nicht-tödlichem Schaden zu unterscheiden.
 Im Endeffekt gelten für nicht-tödlichen Schaden alle bisherigen Regeln, jedoch mit folgenden Einschränkungen:
 
 * nicht-tödlicher Schaden reduziert die xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] eines Charakters maximal auf 0 und führt nicht in den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe], sondern in den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[bewusstlos].
-* nicht-tödlicher Schaden verursacht keine <<ref_core_battle_wounds,Verletzungen>>, aber kann zu <<ref_core_battle_knockdown,Niederschlägen>> führen.
 
 Grundsätzlich gilt, dass alles, egal ob Waffe, Zauberspruch, Zähne oder Klaue tödlichen Schaden verursacht.
 Nicht-tödlicher Schaden wird genau dann verursacht, wenn dieser explizit beschrieben ist.
@@ -1569,119 +1581,6 @@ Für folgende Fälle wird jedoch automatisch nicht-tödlicher Schaden angenommen
 
 * Im <<ref_talents_unarmed_combat,waffenlosen Kampf>> verursacht ein Charakter immer nicht-tödlichen Schaden, wenn keine natürlichen Waffen zum Einsatz kommen.
 * xref:core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm[Illusionen] verursachen immer nicht-tödlichen Schaden, außer der Zauberspruch erwähnt explizit tödlichen Schaden.
-
-[[ref_core_battle_wounds]]
-== Verletzungen
-Als *Verletzung* bezeichnet man einen starken Verlust von xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[Trefferpunkten], der durch einen einzigen <<ref_core_battle_attacktypes,Angriff>> verursacht wurde.
-Eine Verletzung ist beispielsweise eine blutende Wunde oder ein gebrochener Knochen oder gar Schlimmeres.
-
-Zuerst muss die <<ref_core_battle_hits_hitzones,Trefferzone>> bestimmt werden, bei der die Verletzung zum Tragen kommt.
-Wurde der Angriff <<ref_core_battle_melee_modifiers_aimedattack,gezielt>> auf eine Trefferzone geführt, so wird diese genommen, ansonsten gilt die <<ref_core_battle_hits_hitzones,Standardtrefferzone>>.
-
-Verursachte der Angriff dann mehr <<ref_core_battle_damage_damagepoints,Schadenspunkte>> als der Verteidiger xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] besitzt, erhält er eine Verletzung.
-Außerdem droht ein <<ref_core_battle_knockdown,Niederschlag>>, welcher im nachfolgenden Kapitel erläutert wird.
-
-Verletzungen kumulieren sich auf einer Trefferzone immer weiter, je öfter diese getroffen wird.
-Man spricht dabei vom *Verletzungsgrad*.
-Abhängig von diesem Grad erleidet ein Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] auf für alle Proben, bis die Verletzungen xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration_wounds_curing_wounds[geheilt] sind.
-Es gilt, dass immer nur der höchste Verletzungsgrad auf einer beliebigen Trefferzone für die Bestimmung des Malus herangezogen wird.
-
-|===
-|Erlittene Verletzungen auf einer Trefferzone |Verletzungsgrad |Malus
-
-|1
-|Oberflächlich
-|-
-
-|2
-|Leicht
-|-5
-
-|3
-|Mittelschwer
-|-10
-
-|4
-|Schwer
-|-15
-
-|5
-|Gefährlich
-|-20
-
-|6+
-|Tödlich
-|-25
-|===
-
-
-.Verletzungen
-====
-Ein Charakter mit einem WID von 12 erhält auf seine Standardtrefferzone Torso eine erste Verletzung durch 14 Schadenspunkte.
-Der Verletzungsgrad für den Torso des Charakters beträgt nun Oberflächlich.
-Dies bedeutet noch keine Mali auf die Würfe zum Erfolg.
-Erhält derselbe Charakter einen weiteren Treffer auf dieselbe Trefferzone, der insgesamt 12 oder mehr Schadenspunkte verursacht, so klettert der Verletzungsgrad auf Leicht und der Charakter hat ab dann einen verletzungsbedingten Malus von -5.
-Erhält der Charakter eine weitere Verletzung auf einer anderen Trefferzone, zum Beispiel dem Kopf, so bleibt der Malus bei -5.
-====
-
-[[ref_core_battle_wounds_additional_wounds]]
-=== Höhere Verletzungsgrade durch höheren Schaden
-Wenn ein Charakter deutlich höheren Schaden als seinen WID erhält, kann er direkt einen höheren Verletzungsgrad erhalten.
-Für jedes ganzzahlige Vielfache des WID erhält der Charakter einen Verletzungsgrad mehr, bis hin zu tödlich.
-
-.Höhere Verletzungsgrade
-====
-Ein Charakter hat einen WID von 10 und hat bereits eine oberflächliche Verletzung an einer Trefferzone.
-Nun erhält er durch einen Angriff weitere 22 Schadenspunkte auf diese Trefferzone, was seinem WID*2 entspricht und damit zwei weitere Verletzungsgrade.
-Der Charakter erhält damit eine mittelschwere Verletzung.
-====
-
-[[ref_core_battle_knockdown]]
-== Niederschlag
-Grundsätzlich gilt, dass ein Charakter durch das Erhalten einer <<ref_core_battle_wounds,Verletzung>> einen *Niederschlag* erleiden kann.
-Dies bedeutet, dass der Charakter durch den körperlichen Schock, der durch eine Verletzung ausgelöst wird, zu Boden geht.
-Es wird ihm "Schwarz vor Augen" und wird er durch die Wucht des Angriffes niedergeschmettert.
-Um dies zu prüfen, muss der Charakter einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] ablegen.
-
-Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für den Rettungswurf wird durch den aktuell höchsten <<ref_core_battle_wounds_additional_wounds,Verletzungsgrad>>, die erhaltene Verletzung berücksichtigend, wie folgt kalkuliert:
-
-|===
-|Verletzungsgrad |Mindestwurf
-
-|Oberflächlich
-|10
-
-|Leicht
-|15
-
-|Mittel
-|20
-
-|Schwer
-|25
-
-|Gefährlich
-|30
-
-|Tödlich
-|35
-|===
-
-.Niederschlag
-====
-In einem Kampf wird Elias, ein menschlicher Kämpfer, von einem Gegner angegriffen, der bei seinem Angriff 26 Schadenspunkte erreicht.
-Sein Angriff war gezielt auf den Kopf von Elias, der jedoch einen Eisenhelm auf hatte, der ihm 3 Punkte Rüstungsschutz lieferte.
-Somit verursacht der Treffer 23 Schadenspunkte.
-Mit einem Widerstand von 12 ist der Charakter schon sehr zäh, aber 23 Schadenspunkte sind dennoch zu viel.
-
-Der Verletzungsgrad ist nur oberflächlich, womit Elias eine Niederschlags-Probe gegen 10 bestehen muss.
-
-Hätte Elias keinen Helm getragen, wäre der Verletzungsgrad leicht und die Niederschlags-Probe hätte gegen 15 gewürfelt werden müssen.
-====
-
-xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misslingt] der Rettungswurf, geht der Charakter als xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
-Er kann dann wieder <<ref_core_battle_action_standup>>,aufstehen>>.
-Im Fall eines xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzers] erhält der Charakter außerdem eine Stufe xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
 
 [[ref_core_battle_falling]]
 == Fallen
@@ -1781,19 +1680,16 @@ Eine Übersicht der verfügbaren, profanen Waffen findet sich in den folgenden K
 
 [[ref_core_battle_items_weapons_tags]]
 === Eigenschaften
-
 Das folgende Kapitel beschreibt die zusätzlichen Eigenschaften, die Waffen haben können.
 
 [[ref_core_battle_items_weapons_tag_mounted_combat]]
 ==== Berittener Kampf
-
 *Gattungen:* Nahkampfwaffen
 
 Waffen mit dieser Eigenschaft erlauben die <<ref_core_battle_actions,Aktion>> <<ref_core_battle_attacktypes_mountedcharge,betrittender Angriff>>.
 
 [[ref_core_battle_items_weapons_tag_one_time_use]]
 ==== Einmalige Verwendung
-
 *Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
 
 Waffen mit dieser Eigenschaft können nur einmal verwendet werden.
@@ -1802,14 +1698,12 @@ Typische Beispiele sind Bomben, die bei Aufschlag explodieren.
 
 [[ref_core_battle_items_weapons_tag_reach]]
 ==== Erhöhte Reichweite
-
 *Gattungen:* Nahkampfwaffen
 
 Nahkampfwaffen mit dieser Eigenschaft sind für den Einsatz mit <<ref_core_battle_melee_modifiers_reach,erhöhter Reichweite>> geeignet.
 
 [[ref_core_battle_items_weapons_tag_aoe]]
 ==== Flächenschaden
-
 *Gattungen:* Wurfwaffen
 
 Waffen mit dieser Eigenschaften fallen unter die Regeln von Waffen mit <<ref_core_battle_throwingweapons_aoe,Flächenschaden>> oder auch <<ref_core_battle_throwingweapons_cone,Kegeln>>.
@@ -1830,7 +1724,6 @@ Dies bedeutet im Radius von 3,00 Metern um den Einschlagpunkt werden alle Kreatu
 
 [[ref_core_battle_items_weapons_tag_mounted_flexibel]]
 ==== Flexibel
-
 *Gattungen:* Nahkampfwaffen
 
 Diese Waffen können als Einhand- oder als <<ref_core_battle_items_weapons_tag_2_hands_required,Zweihandwaffe>> geführt werden.
@@ -1838,7 +1731,6 @@ Der erste Wert im Feld Schadensbonus steht für den Schaden, den die Waffe verur
 
 [[ref_core_battle_items_weapons_tag_lightweight]]
 ==== Leichtgewichtig
-
 *Gattungen:* Nahkampfwaffen
 
 Waffen mit dieser Eigenschaft sind leicht und kompakt, so dass sie in der xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories_secondary_hand[Zweithand] eines Charakters gut geführt werden können.
@@ -1847,14 +1739,12 @@ Ist die Waffe größer, bietet diese Eigenschaft jedoch keine Vorteile mehr.
 
 [[ref_core_battle_items_weapons_tag_mechanical]]
 ==== Mechanisch
-
 *Gattungen:* Projektilwaffen
 
 Waffen mit dieser Eigenschaft besitzen besondere <<ref_core_battle_damage_damagerolls,Schadenswürfe>>, die nicht von einem Attribut des Charakters abhängen.
 
 [[ref_core_battle_items_weapons_tag_ammunition]]
 ==== Munition
-
 *Gattungen:* Projektilwaffen
 
 Projektilwaffen erfordern in meisten Fällen Munition, zum Beispiel Bögen benötigen Pfeile, die in die Sehne gespannt werden, bevor die xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Talentprobe] erfolgen kann.
@@ -1879,14 +1769,18 @@ Eine Pistole mit der Angabe 'Magazin (6, Aktion)' bedeutet, dass nach 6 Schuss m
 
 [[ref_core_battle_items_weapons_tag_nondeadly]]
 ==== Nicht-tödlich
-
 *Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
 
 Diese Waffe verursacht ausschließlich <<ref_core_battle_damage_nondeadly_damage,nicht-tödlichen>> Schaden.
 
+[[ref_core_battle_items_weapons_tag_precise]]
+==== Präzise
+*Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
+
+Mit dieser Waffen können <<ref_core_battle_attacktypes_aimedattack,gezielte Attacken>> leichter durchgeführt werden, siehe dazu die Beschreibung in dem entsprechenden Kapitel.
+
 [[ref_core_battle_items_weapons_tag_armorpiercing]]
 ==== Rüstungsbrechend
-
 *Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
 
 Rüstungsbrechende Waffen durchschlagen <<ref_core_battle_damage_armor,Rüstung>> oft mühelos.
@@ -1903,7 +1797,6 @@ Wird er von einer Waffe getroffen, die die Eigenschaft 'Rüstungsbrechend 3' hat
 
 [[ref_core_battle_items_weapons_tag_quick]]
 ==== Schnell
-
 *Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
 
 Waffen mit dieser Eigenschaft können in einer Kampfphase mit einer <<ref_core_battle_attacktypes,Aktion>> zweimal verwendet werden.
@@ -1913,16 +1806,21 @@ Sofern keine weiteren Beschreibungen durch wie Waffe selbst gegeben sind, gilt d
 
 [[ref_core_battle_items_weapons_tag_heavy]]
 ==== Schwer
-
 *Gattungen:* Nahkampfwaffen
 
 Waffen mit dieser Eigenschaft müssen immer in zwei Händen gehalten werden, wenn die angegebene <<ref_core_battle_items_weapons_size,Größe>> auf die xref:../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories_primary_hand[Primärhand] des Trägers passt.
 Er kann diesem Fall keine Waffe in der Sekundärhand führen.
 Es gelten die <<ref_core_battle_damage_damagerolls,Schadenswürfe>> für schwere Waffen.
+Außerdem können Waffen mit dieser Eigenschaft für <<ref_core_battle_attacktypes_knockdown,Angriffe zum Niederschlag>> genutzt werden.
+
+[[ref_core_battle_items_weapons_tag_impact]]
+==== Wucht
+*Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
+
+Waffen mit dieser Eigenschaft können für <<ref_core_battle_attacktypes_knockdown,Angriffe zum Niederschlag>> genutzt werden.
 
 [[ref_core_battle_items_weapons_tag_2_hands_required]]
 ==== Zweihand-Waffe
-
 *Gattungen:* Nahkampfwaffen, Projektilwaffen
 
 Waffen mit dieser Eigenschaft müssen mit beiden Händen gehalten werden.

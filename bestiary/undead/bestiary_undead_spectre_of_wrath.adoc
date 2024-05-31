@@ -1,0 +1,111 @@
+= Gespenst des Zorns
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6)
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos]
+* *GK:* 5
+* *CP:* TBA
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +
+*MP:* XXX +
+*SP:* - +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[Kampfunfähig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +
+*Körper:* ST+KO +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+
+== Regeln
+
+
+== Taktik
+
+
+
+
+
+
+

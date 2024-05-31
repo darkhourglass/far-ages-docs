@@ -38,7 +38,6 @@ Weiterhin wird vermutet, dass der Hirte des Himmels mit manchen Vögeln aus sein
 *MP:* 120 +
 *SP:* - +
 
-*WID:* 28 +
 *BEW:* link:../skills/bestiary_skill_move_flight.adoc[Flug] (120,00 Meter) +
 *INI:* 14 +
 *MaxTL:* 180 +
@@ -128,7 +127,7 @@ Misslingt der Wurf, erhält sie einen xref:../../rules/core/core_rules_battlesys
 Ein Effekt bleibt bestehen bis der Hirte einen anderen Effekt auswählt oder eine weitere Bonus-Aktion einsetzt, um den aktuellen Effekt zu beenden.
 
 Kreaturen, die von einem der Effekte betroffen sind, dürfen einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes[Angriff] gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] von 20 würfeln.
-Erreicht sie bei einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] mindestens 28 (WID des Hirten) Punkte, dann unterdrücken sie für sich den Effekt für die nächsten 3 Kampfphasen.
+Erreicht sie bei einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] mindestens 28 Punkte, dann unterdrücken sie für sich den Effekt für die nächsten 3 Kampfphasen.
 
 == Taktik
 Wenn ein Hirte des Himmels kämpfen muss, nutzt er seine beachtliche Auswahl an zerstörerischen Fähigkeiten.

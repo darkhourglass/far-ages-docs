@@ -11,10 +11,10 @@ Diese Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_
 Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
 Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
 
-Wird durch diesen Angriff eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung] verursacht, darf die Kreatur entscheiden, ob sie die angegriffene Kreatur aufspießen will.
+Wird durch diesen Angriff xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden] verursacht, darf die Kreatur entscheiden, ob sie die angegriffene Kreatur aufspießen will.
 Dies ist nur möglich, wenn die Ziel-Kreatur maximal 2 xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] größer oder kleiner ist.
-In diesem Fall kommt es nicht zu einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag].
-Stattdessen wird die angegriffene Kreatur aufgespießt und gilt als durch die Kreatur als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen].
+Die angegriffene Kreatur muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen 10 + den angerichteten Schaden ablegen.
+Misslingt der Rettungswurf, wird die angegriffene Kreatur aufgespießt und gilt als durch diese Kreatur als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen].
 
 Die angegebene *Anzahl* gibt an, wie oft die Kreatur im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] diese Fähigkeit einsetzen kann.
 Jeder einzelne Einsatz kostet eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].

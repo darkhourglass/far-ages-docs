@@ -1,0 +1,13 @@
+= Verfluchen (Stufe, Fluch, Auslöser)
+
+*Voraussetzungen:* - +
+*Typ:* Übernatürlich +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur kann den angegebenen *Fluch* mit entsprechender *Stufe* gegen gültige Ziele einsetzen, um diese zu xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_bestow_curse[verfluchen].
+
+Sofern kein anderer, expliziter *Auslöser* angegeben oder beschrieben ist, gilt das Verfluchen als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] mit der Besonderheit, dass die Kreatur jedes individuelle Ziel maximal einmal pro 24 Stufen verfluchen kann, unabhängig des xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolgs] der Verfluchung.
+Es kann kein Ziel verflucht werden, die bereits durch diese Fähigkeit verflucht wurde oder bereits aus anderer Quelle unter dem gleichen Fluch leidet.
+
+Als Ziele gelten alle xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_targets[Optionen], die der Fluch betreffen kann.

@@ -12,7 +12,7 @@
 *Effekt:* Du zielst auf ein Konstrukt in Reichweite des Zauberspruches und machst mit Deinen Händen eine zerbrechende Bewegung.
 
 Bei einer erfolgreichen xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] würfle 2W6.
-Übertriffst Du damit die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] des Konstrukts, bestimme die Differenz, die Dein Wurf höher liegt als die WID des Konstrukts.
+Übertriffst Du damit die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO] des Konstrukts, bestimme die Differenz, die Dein Wurf höher liegt als die KO des Konstrukts.
 
 Das Ergebnis führt zu einer entsprechenden link:../../rules/tables/table_constructs_general_mishaps.adoc[Fehlfunktion].
 Dieses Vorgehen ist analog zu einer regulären xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_mishaps[Fehlfunktion] bei Konstrukten.

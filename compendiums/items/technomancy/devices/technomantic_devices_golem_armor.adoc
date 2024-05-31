@@ -1,0 +1,118 @@
+= Golem-Rüstung
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* TBA +
+*Mindestwurf:* siehe Beschreibung +
+*Preis:* Materialkosten x 2,5 +
+*Beschreibung:* +
+
+[[ref_golem_armor_crafting]]
+== Herstellung
+Eine Golem-Rüstung wird nach den üblichen xref:../../../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[Regeln] zur Herstellung von technomantischen Gegenständen hergestellt.
+
+Die folgende Tabelle listet die notwendigen Angaben für Materialkosten, Konstruktionszeit und Mindestwurf auf.
+Weitere Angaben sind im nachfolgenden <<ref_golem_armor_rules,Kapitel>> erläutert.
+Außerdem kann jede Golem-Rüstung mit <<ref_golem_armor_additional_devices,zusätzlicher Ausrüstung>> bestückt werden.
+Diese ist jedoch nicht in der Herstellung in diesem Kapitel enthalten.
+Die Standard-Ausrüstung der Golem-Rüstung enthält folgende äquivalente xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps[Einzelteile]:
+
+* 2 link:../../../golemworkshop/parts/weaponry/golems_part_weaponary_hand.adoc[Hände]
+* link:../../../golemworkshop/parts/plating/golems_part_plating_steel_full.adoc[Stahlpanzerung] (Rüstungspunkte siehe Tabelle)
+* link:../../../golemworkshop/parts/core/golems_part_core_basiccells.adoc[Standardzelle] zur xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] mit 100 MP.
+
+Bis auf die Hände können die aufgezählten Komponenten nicht verändert werden.
+Die Hände nach den Regeln zu <<ref_golem_armor_additional_devices,zusätzlicher Ausrüstung>> durch xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary[Waffen] ersetze werden.
+
+Alle Golem-Rüstungen und Komponenten entsprechen der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5.
+
+[NOTE]
+Für einen Aufschlag von 25% können Golem-Rüstungen für Kreaturen der GK 4 und 6 hergestellt werden.
+Dabei gelten Golem-Rüstungen für Kreaturen der GK 4 dennoch als Rüstungen der GK 5.
+
+[NOTE]
+Weiterhin passen Golem-Rüstungen nur xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoiden] Kreaturen mit 2 Armen und Beinen.
+Besondere Körpermerkmale wie Flügel oder schwere Panzer können das Tragen einer (nicht explizit angepassten) Golem-Rüstung nach Ermessen des SL verhindern.
+
+|===
+|Qualität |Materialkosten |Konstruktionszeit |Mindestwurf |ST-Stufe |KO-Stufe |Bonus Rettungswurf Körper |MaxTL |BEW | Rüstungspunkte
+
+|Standard (Mark I)
+|60.000
+|12 Tage
+|16
+|7 (+3)
+|5 (+2)
+|+5
+|105
+|12,00
+|7
+
+|Außergewöhnlich (Mark II)
+|80.000
+|12 Tage
+|19
+|9 (+3)
+|6 (+3)
+|+6
+|135
+|12,00
+|9
+
+|Elite (Mark III)
+|110.000
+|16 Tage
+|22
+|10 (+4)
+|7 (+3)
+|+7
+|165
+|15,00
+|11
+
+|Meisterlich (Mark IV)
+|150.000
+|20 Tage
+|25
+|13 (+5)
+|7 (+3)
+|+8
+|195
+|15,00
+|14
+|===
+
+
+[[ref_golem_armor_additional_devices]]
+== Zusätzliche Ausrüstung
+Jede Golem-Rüstung kann ihre initial verfügbaren Hände durch bis zu 2 xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary[Waffen] oder 1 xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_heavy[schwere Waffe] ersetzen.
+
+Weiterhin kann in einer Golem-Rüstung ein xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions[Zusatz] verbaut werden, der nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions_heavy[schwer] sein darf.
+
+Alle Waffen und Zusätze muss die GK 5 haben und müssen separat hergestellt werden.
+Ein Auswechseln oder Montieren ist in der Regel durch einfache Handgriffe möglich, im Kampf ist dies eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion].
+
+Bewaffnungen und Zusätze, die Attribute eine Golems verändert, können montiert werden, allerdings bieten sie diese Boni nicht auf das Profil der Golem-Rüstung oder des Charakters, der sie trägt.
+Ihre sonstigen Effekte gelten ohne Einschränkungen.
+
+Weiterhin bieten Waffen und Zusätze keine zusätzlichen Talente oder Talent-Stufen.
+Es werden immer die Talente des Charakters verwendet.
+
+[[ref_golem_armor_rules]]
+== Regeln
+Golem-Rüstungen ersetzen bestimmte Werte eines Charakters, solange dieser sie trägt.
+Es gelten dabei folgende Regeln:
+
+* *ST-Stufe:* Solange der Charakter die Golem-Rüstung trägt, beträgt seine ST-Stufe den hier angegeben Wert, inklusive des xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributs-Bonus].
+Der Bonus wird auf alle xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributsproben] auf ST und xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentproben] mit dem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_connectedattribut[verwandtes Attribut] ST angewendet, allerdings nicht auf xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe].
+* *KO-Stufe:* Analog zur Angabe für ST, allerdings auf das Attribut KO.
+* *Bonus Rettungswurf Körper:* Die Basis des Rettungswurfs xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] wird durch diesen Wert ersetzt.
+Zusätzliche Boni des Charakters aus weiteren Quelle wie zum Beispiel aus Fähigkeiten oder Berufen werden wie üblich hinzugerechnet.
+* *MaxTL:* Jede Golem-Rüstung besitzt eine feste xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxTL], die nicht durch die Attribute des Charakters oder weitere Boni modifiziert werden kann.
+Solange der Charakter die Golem-Rüstung trägt, gilt für ihn die angegebene MaxTL.
+* *BEW:* Analog zur MaxTL gelten die beschriebenen Regeln auch für die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
+* *Rüstungspunkte:* Jede Golem-Rüstung bietet auf allen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] die angegebenen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstungspunkte].
+Andere Quellen, die dem Charakter Rüstungspunkte bieten, außer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürliche Rüstung], können nicht angewendet werden.
+
+[NOTE]
+Die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools], insbesondere TP, bleiben unverändert, trotz anderer Stufen in ST und KO.

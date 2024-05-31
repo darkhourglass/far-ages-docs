@@ -27,13 +27,11 @@ Lore
 *MP:* XXX +
 *SP:* XXX +
 
-// WID= 8 + (KO-1)*2
 // BEW= GK-Basis + (GE-5) * 1,50 (min 0)
 // INI= GE+ER
 // MAXTL= ST*15
 // MAXPOT=EN+3
 
-*WID:* XXX +
 *BEW:* XXX +
 *INI:* XXX +
 *MaxTL:* XXX +
@@ -50,6 +48,7 @@ Lore
 
 * link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]

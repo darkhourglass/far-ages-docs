@@ -4,7 +4,6 @@
 
 [[ref_template_undead_source_requirements]]
 == Voraussetzungen
-
 Um eine Geißel zu werden, muss die Kreatur folgende Voraussetzungen erfüllen:
 
 * der primäre Kreaturentyp der Kreatur muss einer der Folgenden sein:
@@ -21,7 +20,6 @@ Es gelten die <<ref_template_undead_source_skill_souljar,Regeln>> nach diesem Ka
 
 [[ref_template_undead_source_attributes]]
 == Attribute
-
 Die Attributsstufen der Kreatur werden übernommen.
 
 Sie erhält außerdem folgende Boni auf diese Attributsstufen:
@@ -40,12 +38,10 @@ Dadurch ändern sich die Attributseigenschaften der Kreatur wie folgt:
 
 [[ref_template_undead_source_talents]]
 == Talente
-
 Die Kreatur behält alle ihre Talente.
 
 [[ref_template_undead_source_skills]]
 == Fähigkeiten
-
 Die Kreatur übernimmt alle Fähigkeiten.
 Sie erhält außerdem folgende hinzu:
 
@@ -74,7 +70,7 @@ Die Geißel wird also nach 24 Stunden wiederbelebt.
 Im Gegensatz zu allen anderen Seelengefäßen kann das Seelengefäß beliebig oft verwendet werden.
 Es zerfällt nach dem Einsatz nicht zu Staub.
 Allerdings ist auch gleichzeitig die größte Schwachstelle der Geißel.
-Wird das Seelengefäß anderweitig zerstört, wird die Geißel auch sofort zerstört.
+Wird das Seelengefäß zerstört, kann die Geißel nicht auferstehen.
 Aus diesem Grund verstecken und bewachen Geißeln ihre Seelengefäße bis aufs Äußerste.
 
 [[ref_template_undead_source_skill_regeneration]]

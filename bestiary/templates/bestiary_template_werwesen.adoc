@@ -1,0 +1,55 @@
+= Werwesen
+
+// TODO Beschreibung
+
+[[ref_template_werwesen_skills_requirements]]
+== Voraussetzungen
+
+Um ein Werwesen zu werden, muss die Kreatur ein link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebender] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] sein.
+
+Sie darf nicht bereits den sekundären Kreaturtenyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_shapeshifter.adoc[Gestaltwandler] besitzen.
+
+[[ref_template_werwesen_skills_attributs]]
+== Attribute
+Die Attributsstufen der Kreatur werden übernommen.
+
+[[ref_template_werwesen_talents]]
+== Talente
+Die Kreatur behält alle ihre Talente.
+
+[[ref_template_werwesen_skills]]
+== Fähigkeiten
+Die Kreatur übernimmt alle Fähigkeiten und erhält außerdem die folgenden Fähigkeiten hinzu:
+
+[[ref_template_werwesen_skills_manovers]]
+=== Besondere Bewegungsmanöver
+Der Charakter erhält die aufgeführten xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes[Arten der Bewegung] in seiner regulären Form, <<ref_bloodline_were_skills_beastform,Tierform>> und <<ref_bloodline_were_skills_wereform,Werform>>, auch wenn die jeweilige Form dieses Manöver im Normalfall nicht zur Verfügung hat.
+
+[[ref_template_werwesen_skills_shapeshifter_and_forms]]
+=== Gestaltwandler und Formen
+Die Kreatur erhält den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_shapeshifter.adoc[Gestaltwandler].
+
+Sie erhält die Fähigkeit link:../skills/bestiary_skill_shapeshift.adoc[Gestaltwandel] für die hier in diesem Kapitel beschrieben Formen <<ref_template_werwesen_skills_shapeshift_hybrid_form,Werform>> und <<ref_template_werwesen_skills_shapeshift_animal_form,Tier>>.
+Welche Wertier-Form die Kreatur erhält, kann durch den SL frei bestimmt werden oder nach folgenden Ideen bestimmt werden:
+
+* Erhält die Kreatur diese Schablone aufgrund eines Fluchs, kann der Fluch die Werform vorgeben.
+* Überträgt eine andere Kreatur zum Beispiel durch einen Biss diese Schablone, hat die Kreatur die gleiche Werform.
+
+[[ref_template_werwesen_skills_keensenses]]
+=== Geschärfte Sinne
+Die Kreatur erhält die Fähigkeit link:../../bestiary/skills/bestiary_skill_senses_keensenses.adoc[Geschärfte Sinne], die auf dem link:../../rules/tables/table_werwesen_overview.adoc[angegebenen Sinn] beruht.
+Dieser Bonus gilt in jeder seiner Formen.
+
+[[ref_template_werwesen_skills_shapeshift_hybrid_form]]
+=== Werform (Neue Form)
+Diese Gestalt ist eine (je nach Werwesen mehr oder weniger) furchterregende oder merkwürdige Mischform aus seiner regulären Form und der Form seines Wertieres.
+Ein Werwolf beispielsweise erscheint als humanoider Wolf, der auf zwei Beinen läuft und dessen Hände in langen Klauen enden.
+
+Das Profil der Werform entspricht dem seiner regulären Form plus die in der link:../../rules/tables/table_werwesen_overview.adoc[Tabelle] angegeben Attributsboni in der Spalte Werform sowie die dort angegeben Fähigkeiten.
+
+[[ref_template_werwesen_skills_shapeshift_animal_form]]
+=== Tier (Neue Form)
+Er erhält die Möglichkeit, sich in das jeweilige, reguläre Tier seines Wertieres zu verwandelt.
+So erhält beispielsweise ein Werwolf die Fähigkeit sich in einen normalen link:../../bestiary/animals/bestiary_animals_wolf.adoc[Wolf] zu verwandeln.
+
+== CP

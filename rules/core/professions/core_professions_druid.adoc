@@ -38,6 +38,6 @@ Der Druide kann dem Tiergefährten genaue Anweisungen geben, was dieser tun soll
 Dabei wird das Tier keine offensichtlichen Gefahren eingehen, die es normalerweise ebenso eingehen würde, allerdings verteidigt es den Druiden im Kampf.
 Um sich zu unterhalten, müssen beide in Sichtweite voneinander sein.
 * Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerungen] durchführt, erhält der Tiergefährte einen TP-Bonus von 6.
-* Erreicht der Tiergefährte 0 TP, erhält der Druide sofort eine xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde] und verliert entsprechend seiner xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] viele TP.
+* Erreicht der Tiergefährte 0 TP, erhält der Druide sofort einen xref:../core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W10+1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.
 
 Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP/MP des Gefährten um +6/+1.

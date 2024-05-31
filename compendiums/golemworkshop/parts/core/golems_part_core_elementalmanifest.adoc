@@ -99,7 +99,7 @@ Tritt eine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_pr
 
 .Fehlfunktion
 ====
-Ein Konstrukt mit der elementaren Energiezelle und einer WID von 14 erhält 18 Schadenspunkte.
+Ein Konstrukt mit der elementaren Energiezelle und einer KO von 14 erhält 18 Schadenspunkte.
 Nach den Regeln besteht eine Differenz von 4, womit der Eintrag 3-4 in der Tabelle für Fehlfunktionen gelten würde.
 Zu dieser Differenz muss nun die halbierte Machtstufe des Manifests addiert werden.
 Befindet sich ein Manifest der Machtstufe 6 in der Energiezelle, müssten somit 3 Punkte hinzuaddiert werden, womit sich der Wert 7 ergibt und stattdessen der Eintrag für 5-9 für die Fehlfunktion gilt.

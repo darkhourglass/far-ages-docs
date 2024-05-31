@@ -1,0 +1,104 @@
+= Kadaver-Schleim
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+Selten würde man Schleime im Allgemeinen als "normale" Wesen ansehen.
+Da erscheint es umso widernatürlicher sich den Ursprung des Kadaver-Schleims zu erklären.
+Vermutlich mit der richtigen Mischung aus latenter nekrotischer Magie und Verwesungszustand, entsteht aus einem verwesenden Kadaver und den austretenden Leichensäften ein Kadaver-Schleim.
+Alle organischen Überreste bis auf Knochen verflüssigen sich und bilden den fahlen, dickflüssigen Körper des Schleims.
+
+Wie durch Geisterhand scheint der Schleim sich immer um das Skelett zu bilden und dieses wie ein schlechter Marionettenspieler ungelenkt mitzubewegen.
+Vielleicht benötigt der Schleim andererseits auch die Knochen, um sich selbst zu bewegen.
+Durch diese verstörende Eigenschaft kann der unaufmerksame Beobachter zu dem Schluss kommen, dass ein Untoter auf ihn zu wackelt.
+
+Die bedrohlichsten Eigenschaften des Kadaver-Schleims sind jedoch seine Berührung, die lebenden Wesen ihre Kraft entzieht und den Schleim selbst stärkt.
+Gelingt es, den Kadaver-Schleim zu töten, so ist noch nicht sicher, denn die nekrotischen Energien werden sofort in einer Explosion freigesetzt, die Nahestehende verletzen können.
+
+Wie die meisten Schleime sind auch Kadaver-Schleime keine intelligenten Kreaturen und werden von den einfachsten Instinkten gesteuert.
+Kadaver-Schleime insbesondere suchen sich ausschließlich lebende Wesen als Opfer.
+Ihre ausgefeiltesten Taktiken beinhalten das Lauern in dunklen Ecken, um Ihre Opfer zu überraschen.
+Ein Kadaver-Schleim interessiert sich nicht für andere Kreaturen und auch nicht für andere Kadaver-Schleime.
+Nur an Orten, in denen viel Tod und Leichen auftreten, wie Friedhöfe, Massengräber oder Schlachtfelder, ist damit zu rechnen, mehrere Kadaver-Schleime zu finden.
+
+== Profil
+
+*ST:* 4 (+2) +
+*GE:* 2 (+1) +
+*KO:* 6 (+2) +
+*ER:* 2 (+1) +
+*EN:* 3 (+1) +
+*SB:* 3 (+1) +
+*CH:* 1 (+1) +
+
+*TP:* 60 +
+*MP:* 30 +
+*SP:* 20 +
+
+*BEW:* 9,00 +
+*INI:* 4 +
+*MaxTL:* 60 +
+*MaxPOT:* 6 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 +
+*Resistenzen:* +
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +4 +
+*Magie:* +2 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 6 2W6+1 (3x)
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 7 (link:../../compendiums/spells/spell_touch_of_live_stealing.adoc[Lebendsraubende Berührung])
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 4
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 4
+
+== Sonstiges
+
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc#ref_primary_creaturetype_ooze_rules_amorphous_body[Formloser Körper]
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
+* link:../skills/bestiary_skill_senses_blindsense.adoc[Blindsinn] 30,00 Metern
+* <<ref_bestiary_corpse_ooze_necrotic_explosion,Nekrotische Explosion>>
+* link:../skills/bestiary_skill_engulfing.adoc[Umschlingend]
+* link:../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+
+[NOTE]
+Ein Kadaver-Schleim der angegeben GK 5 entsteht überlicherweise auf einem korrespondieren Leichnam.
+Um einen Kadaver-Schleim, der aus einem Leichnam einer anderen GK entstand, lassen sich die Schablonen link:../templates/bestiary_template_sizemodification_small.adoc[Klein] oder link:../templates/bestiary_template_sizemodification_giant.adoc[Riesig] einsetzen.
+
+
+[[ref_bestiary_corpse_ooze_necrotic_explosion]]
+=== Nekrotische Explosion
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirbt] ein Kadaver-Schleim destabilisiert sich die nekrotische Energie, die ihn zuvor belebt hat, so sehr, dass seine Überreste in einer Explosion nekrotischer Energie auseinanderreißen.
+Alle Kreaturen im Umkreis von 3,00 Metern erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6+4 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischen Schaden].
+Ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[erfolgreicher] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] halbiert diesen Schaden (abgerundet, minimal 1).
+
+== Taktik

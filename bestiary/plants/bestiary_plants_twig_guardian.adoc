@@ -27,7 +27,6 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_bestiary_
 *MP:* 20 +
 *SP:* 30 +
 
-*WID:* 16 +
 *BEW:* 9,00 +
 *INI:* 4 +
 *MaxTL:* 75 +
@@ -71,6 +70,7 @@ Für Zweigwächter anderer Größenkategorien siehe das folgende <<ref_bestiary_
 == Sonstiges
 
 * xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_primary_creaturetype_plant_rules_hibernate[Ruhezustand]
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 6 (+1)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8 (+1)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8 (+1)
@@ -268,73 +268,63 @@ Der Zweigwächter besitzt aufgrund seiner Größe folgende Punkte-Pools.
 Aufgrund seiner GK erhält ein Zweigwächter die folgenden Attributseigenschaften.
 
 |===
-|GK |WID |BEW |INI |MaxTL |MaxPOT
+|GK |BEW |INI |MaxTL |MaxPOT
 
 |1
-|10
 |3,00
 |4
 |15
 |5
 
 |2
-|12
 |3,00
 |4
 |30
 |5
 
 |3
-|14
 |4,50
 |4
 |45
 |5
 
 |4
-|14
 |7,50
 |4
 |60
 |5
 
 |5
-|16
 |9,00
 |4
 |75
 |5
 
 |6
-|18
 |13,50
 |4
 |90
 |5
 
 |7
-|20
 |15,00
 |4
 |105
 |5
 
 |8
-|22
 |16,50
 |4
 |120
 |5
 
 |9
-|24
 |22,50
 |4
 |135
 |5
 
 |10
-|26
 |28,50
 |4
 |150

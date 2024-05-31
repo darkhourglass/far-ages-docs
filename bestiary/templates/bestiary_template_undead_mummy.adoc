@@ -1,0 +1,212 @@
+= Mumie
+
+// TODO Beschreibung
+
+[[ref_template_undead_mummy_requiments]]
+== Voraussetzungen
+Um eine Mumie zu werden, muss die Kreatur folgende Voraussetzungen erfüllen:
+
+* der primäre Kreaturentyp der Kreatur muss einer der Folgenden sein:
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* sie muss den sekundären Kreaturtyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] besitzen
+* sie darf nicht den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos] besitzen
+* Die Kreatur muss in einem Ritual getötet werden, wobei ihr Körper einbalsamiert und in ihrem <<ref_template_undead_mummy_skills_bound_to_the_burial,zukünftigen Grab>> begraben werden muss.
+Im Rahmen des Rituals müssen alle <<ref_template_undead_mummy_skills_organ_jars,Organgefäße>> mit den gewünschten Organen verwendet werden.
+* Erreicht die Mumie aufgrund ihrer Organgefäße eine Machtstufe von 10 oder weniger, muss der Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Untoten erschaffen] verwendet werden.
+* Ab Machtstufe 11 muss der Zauberspruch link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis] verwendet werden.
+
+[[ref_template_undead_mummy_attributs]]
+== Attribute
+Die Attributsstufen der Kreatur werden übernommen.
+Die Mumie erhält immer folgende Modifikationen:
+
+* +2 ST
+* -2 GE (xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks_step_0[Stufe 0] möglich)
+* +4 KO
+
+Außerdem erhält sie eine Kombination von kumulativen Boni auf Basis ihrer <<ref_template_undead_mummy_skills_organ_jars,Organgefäße>>.
+
+.Attribute
+====
+TODO
+====
+
+[[ref_template_undead_mummy_talents]]
+== Talente
+Die Kreatur behält abhängig von ihrer xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufen] ihre Talente, beziehungsweise einen Teil dieser.
+
+* Machtstufe 3-6: Alle Talente mit xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_connectedattribut[verwandten Attributen] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[KO].
+* Machtstufe 7-9: wie Machtstufen 3-6 plus alle Talente mit xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_connectedattribut[verwandten Attributen] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_dexterity[GE] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[ER].
+* Machtstufe 10 und höher: alle
+
+[[ref_template_undead_mummy_skills]]
+== Fähigkeiten
+Die Kreatur übernimmt alle Fähigkeiten, sofern sie xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 10 oder höher erreicht.
+Ansonsten erhält sie nur die folgenden Fähigkeiten, die für Mumien vorgesehen sind und nicht Machtstufe 10 oder höher erfordern.
+
+[[ref_template_undead_mummy_skills_mummies_curse]]
+=== Fluch der Mumie
+Eine Mumie lernt die Fähigkeit link:../skills/bestiary_skill_bestow_curse.adoc[Verfluchen], wenn sie aufgrund ihrer xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] einen Fluch erhält.
+Eine Mumie kann immer nur einen Fluch besitzen.
+Wenn ihre Machtstufe zu gering ist, um irgendeinen Fluch zu erhalten, lernt sie die Fähigkeit nicht.
+
+Die Mumie xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_bestow_curse[verflucht] mit einer Stufe gleich ihrer halbierten Machtstufe (abgerundet).
+Der Fluch kann von der Mumie jedoch nicht frei ausgelöst werden, sondern nur unter einer der folgenden Bedingungen:
+
+* Jemand stört die Ruhe der Mumie und öffnet unerlaubt ihr <<ref_template_undead_mummy_skills_bound_to_the_burial,Grab, ihren Sarg oder eine vergleichbare Ruhestätte>>.
+In diesem Fall wird der Fluch sofort einmal gegen alle beteiligten link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen ausgelöst.
+* Die Mumie wird xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[vernichtet].
+Der Fluch wird gegen eine oder mehrere link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen ausgelöst, wenn diese direkt an dem Tod der Mumie beteiligt sind.
+* Die Mumie kann den Fluch unter dem Einsatz von 40 ihrer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] auslösen, sofern sie sich innerhalb ihrer <<ref_template_undead_mummy_skills_bound_to_the_burial,Grabstätte>> befindet.
+Dies kann Sie nur einmal alle 7 Tage einsetzen.
+
+Die folgende Tabelle zeigt die Übersicht, wann die Mumie welchen Fluch erhält.
+
+|===
+|Machtstufe |Fluch
+
+|1-6
+|Kein Fluch
+
+|7-9
+|link:../../rules/advanced/curses/mummycurses/mummy_curse_of_the_scarab.adoc[Fluch des Skarabäus]
+
+|10-11
+|link:../../rules/advanced/curses/mummycurses/mummy_curse_of_the_fever.adoc[Fluch des Fiebers]
+
+|12-14
+|link:../../rules/advanced/curses/mummycurses/mummy_curse_of_suffocation.adoc[Fluch des Erstickens]
+
+|15+
+|link:../../rules/advanced/curses/mummycurses/mummy_curse_of_withering.adoc[Fluch des Verwitterns]
+|===
+
+[[ref_template_undead_mummy_skills_bound_to_the_burial]]
+=== Gebunden an ein Grab
+Jede Mumie ist an ein Grab mystisch gebunden, wenn auch sie nicht gezwungen ist, sich nur in diesem Grab aufzuhalten.
+Das Grab kann ein einfacher Sarg auf einem Friedhof sein, genauso wie ein opulentes Mausoleum oder eine gewaltige Pyramide.
+
+Innerhalb ihres Grabs sitzt die Mumie besondere <<ref_template_undead_mummy_skills_organ_jars_anchors,Macht>> und kann Eindringlinge mit <<ref_template_undead_mummy_skills_mummies_curse,ihrem Fluch>> belegen.
+
+Weiterhin betrifft die Mumie kein xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall] oder benötigt sie xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle], solange sie sich in ihrem Grab befindet und ihre Machtstufe diese Regeln erfordert.
+
+Befindet sich eine Mumie mit Machtstufe 10 oder höher in ihrem Grabmal übernimmt sie automatisch die Kontrolle über alle anderen Mumien mit Machtstufe 9 oder weniger, die auch diesem Grab gebunden sind.
+
+[[ref_template_undead_mummy_skills_vulnerable_to_fire]]
+=== Feuer-anfällig
+Alle Mumien erhalten die Fähigkeit link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer].
+
+[[ref_template_undead_mummy_skills_organ_jars]]
+=== Organgefäße
+Bei jeder Mumie wird im Rahmen ihrer Einbalsamierung die Körperflüssigkeiten und Organe entnommen.
+Organe, die in einem speziellen link:../../compendiums/items/magical/misc/magical_item_organjar.adoc[Organgefäß] aufbewahrt werden, bestimmen Attribute, Fähigkeiten und Machtstufen der Mumie.
+Jede Mumie benötigt mindestens ein Organgefäß aus der unten stehenden Tabelle, dass als *Anker* (siehe <<ref_template_undead_mummy_skills_organ_jars_anchors,eigenes Kapitel>>) definiert ist.
+Das heißt, jede Mumie, die erschaffen wird, muss minimal ihr Gehirn oder Herz in einem Organgefäß bewahren.
+Jedes Organ benötigt sein eigenes Organgefäß, dass separat geschaffen werden muss.
+
+.Organgefäße
+====
+TODO
+====
+
+Aus der folgenden Tabelle zeigt die Optionen für Organgefäße.
+Alle Angaben sind kumulativ.
+
+* *Attribute:* Die Mumie erhält die angegeben Modifikatoren auf ihre Attributsstufen
+* *Fähigkeiten:* Die Mumie erhält die Fähigkeit.
+Magische Fähigkeiten erhalten die Angriffsstufe in Höhe der Machtstufe der Mumie plus ihren Attributsbonus in EN.
+* *Machtstufe:* Modifikator für die Machtstufe der Mumie
+* *Anker:* Angabe, ob das Gefäß als <<ref_template_undead_mummy_skills_organ_jars_anchors,Anker>> dient
+
+|===
+|Organ |Attribute |Fähigkeit |Machtstufe |Anker
+
+|Darm
+|+2 SB
+|link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] link:../../compendiums/spells/spell_noxious_gas_cloud.adoc[Giftgaswolke]
+|+2
+|Nein
+
+|Gehirn
+|+2 EN
+|link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura]
+|+3
+|Ja
+
+|Herz
+|+2 CH
+|-
+|+1
+|Ja
+
+|Leber
+|+2 ST
+|link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 4
+|+2
+|Nein
+
+|Lunge
+|+2 GE
+|link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] link:../../compendiums/spells/spell_summon_animal_swarm.adoc[Beschwöre Schwarm] (nur Insekten)
+|+2
+|Nein
+
+|Magen
+|+2 KO
+|link:../skills/bestiary_skill_damageabsorption.adoc[Schadensabsorption] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+|+3
+|Nein
+
+|Milz
+|+2 ER
+|-
+|+1
+|Nein
+
+|Niere
+|+2 ST
+|link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+|+2
+|Nein
+
+|===
+
+[[ref_template_undead_mummy_skills_organ_jars_anchors]]
+==== Anker
+Organgefäße, die ein *Anker* sind, halten die Mumie im Reich der Lebenden und verleihen ihnen Fähigkeiten, die sie besonders schwer zu vernichten machen.
+
+Solange sich die Mumie in ihrem <<ref_template_undead_mummy_skills_bound_to_the_burial,Grab>> befindet und wenigstens ein Organgefäß mit dieser Eigenschaft noch existiert, kann sie:
+
+* alle 8 Stunden 1W10 MP und 1W10 TP regenerieren
+* Erreicht die Mumie xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[0 TP] zerfällt sie zwar wie jeder Untote sofort zu Staub, aber steht nach 7 Tagen in der Grabstätte wieder vollständig auf
+
+Eine Mumie kann nur vollständig und endgültig vernichtet werden, wenn sie keine Organgefäße mehr besitzt, die ein Anker sind.
+
+[[ref_template_undead_mummy_skills_organ_jars_destroy]]
+==== Zerstörte Organgefäße
+Werden Organgefäße der Mumie zerstört, verliert die Mumie jede Fähigkeit, die das jeweilige Organgefäß zur Verfügung gestellt hat.
+Sie behält jedoch die daraus resultierende Machtstufe und ihre Attributsboni.
+Zerstörte Organgefäße können nicht wiederhergestellt werden, da die enthaltenen Organe nicht zu ersetzen sind.
+
+[[ref_template_undead_mummy_skill_undead]]
+=== Untot
+Der primäre Kreaturentyp der Kreatur ändert sich in link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
+Sie verliert den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend].
+Die Mumie lernt alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_skills[Fähigkeiten] von Untoten.
+
+Jede Mumie besitzt eine minimale xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] von 2 plus die Summe aller Boni auf die Machtstufe gemäß der Anzahl und Art der <<ref_template_undead_mummy_skills_organ_jars,Organgefäße>>, die bei ihrer Erschaffung verwendet wurden.
+
+.Machtstufe
+====
+Eine Mumie, deren Organe Herz, Lunge und Niere in Organgefäßen präpariert werden, erhält eine Machtstufe von 2+3+2+2=9.
+====
+
+Folgende Punkte aus dem Kreaturentyp sind für Mumien zu beachten:
+
+* Die Regeln zur Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_fear_skill[Furcht] bleiben erhalten.
+* Die Regeln zu xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_personality[Persönlichkeit], xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall] finden abhängig von der Machtstufe Anwendung.
+
+== CP

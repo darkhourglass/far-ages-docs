@@ -63,7 +63,6 @@ Manche Thanapods leben Hunderte von Jahren bevor sie Eier legen, manche nur weni
 *MP:* 20 +
 *SP:* 35 +
 
-*WID:* 20 +
 *BEW:* 12,00 Meter, link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 12,00 Meter, link:../skills/bestiary_skill_move_climb.adoc[Klettern] 12,00 Meter +
 *INI:* 7 +
 *MaxTL:* 90 +
@@ -115,7 +114,7 @@ Die Panzerung der Leichenkrabbe gewährt einen xref:../../rules/core/core_rules_
 Diese sind bereits im Profil vermerkt.
 Der kuppelartige Panzer, der die Rückseite der Leichenkrabbe bedeckt, ist besonders widerstandsfähig: sie gewährt 10 für diese Trefferzone und hat die Eigenschaft xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_unbreakable[unnachgiebig].
 
-Darüber hinaus erhalten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielte Attacken] auf den Kopf der Leichenkrabbe einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
+Darüber hinaus erhalten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielte Attacken] auf den Kopf der Leichenkrabbe einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
 
 [[ref_bestiary_corpse_crap_rules_dead_thrall]]
 === Versklavter Körper
@@ -138,7 +137,7 @@ Jeder Thanapod besitzt nur zwei Tentakel und kann damit maximal 2 Leichname glei
 
 Der Thanapode kann animierte Leichname für maximal 24 Stunden von seinen Tentaklen abtrennen und ihnen simple Aufgaben zuweisen, die sie erfüllen.
 Ist ein Leichnam einmal getrennt, fällt er nach 24 Stunden in sich zusammen und kann durch den Thanapoden nicht mehr reanimiert werden.
-Mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielten Schlag] können die Tentakel auch abgetrennt werden, wenn wenigstens die halbe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] der Leichenkrabbe (10) an Schaden erreicht wird.
+Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielten Attacke] können die Tentakel auch abgetrennt werden, wenn wenigstens 10 Schadenspunkte erreicht werden.
 Diesen Angriff kann die Leichenkrabbe nur mit ihrem Talent link:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] verteidigen.
 Ein abgetrennter Tentakel renegeriert sich nach einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_break[langen Rast].
 

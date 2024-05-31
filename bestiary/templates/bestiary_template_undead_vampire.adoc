@@ -55,7 +55,7 @@ Folgende Ausnahmen sind zu beachten:
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * Vampire können SP verlieren und erleben alle damit verbundenen Konsequenzen.
-* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
+* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen].
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]).
@@ -71,8 +71,6 @@ Im Fall des Vampirs passen diese Regeln nicht mehr, denn insbesondere bleibt die
 
 Im Einzelnen bedeutet dies:
 
-* Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_steps[Attributs- und Talentstufen] bleiben erhalten und sind nicht beschränkt.
-* Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_pools[Punkte-Pools] des Vampirs werden unverändert übernommen.
 * Die Regeln zur Fähigkeit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_fear_skill[Furcht] bleiben erhalten.
 * Die Regeln zu xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_personality[Persönlichkeit], xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle] und xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall] finden keine Anwendung.
 * Vampire sind dennoch anfällig gegenüber Zaubersprüchen, die explizit Untote betreffen.

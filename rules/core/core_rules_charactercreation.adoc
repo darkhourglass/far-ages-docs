@@ -134,7 +134,7 @@ Auch hier gilt, dass die Abstimmung mit dem SL erfolgen muss und dieser das letz
 [[ref_core_characters_charactorcreation_initial_commitments]]
 === Initiale Festlegungen
 Manche Völker, Berufe oder Hintergründe enthalten Beschreibungen für Optionen oder Wahlmöglichkeiten zwischen Talenten oder Fähigkeiten.
-Beispielsweise ermöglicht der Beruf des link:professions/core_professions_hunter.adoc[Jägers] die Wahl eines freien xref:core_rules_talents_base.adoc#ref_talents_craft[Handwerkstalent].
+Beispielsweise ermöglicht der Beruf des link:professions/core_professions_hunter.adoc[Jägers] die Wahl eines freien xref:core_rules_talents_base.adoc#ref_talents_craft[Handwerk-Talents].
 Mit der Berufswahl muss der Charakter dieses Talent sofort auswählen, unabhängig davon, ob er von seinen <<ref_core_characters_charactercreation_initialtalents,initialen Talentstufen>> dieses Talent mit einer Stufe versieht oder nicht.
 Ebenso müssen alle Fähigkeiten oder Eigenschaften, die eine Auswahl beinhalten, zum Beispiel das xref:professions/core_professions_scholar.adoc#ref_core_professions_scholar_deep_study[vertiefende Studium] des link:professions/core_professions_scholar.adoc[Scholaren], getroffen werden, bevor die Charaktererschaffung abgeschlossen wird.
 
@@ -261,80 +261,55 @@ Seine Attributsstufe in Energie ist nur 1.
 Daher ist seine MaxPOT 5.
 ====
 
-[[ref_core_characters_charactercreation_secondary_calculate_threshold]]
-==== Widerstand (WID)
-Die Eigenschaft xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] hängt von der Stufe des Attributs xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_constitution[Konstitution] ab und lässt sich aus der <<ref_core_characters_charactercreation_secondary_calculate_overviewtable,Tabelle>> am Ende des Dokumentes ermitteln.
-
-.Widerstand
-====
-Ein Charakter mit einer KO-Stufe von 4 hat nach der Übersichtstabelle eine WID von 14.
-====
-
 [[ref_core_characters_charactercreation_secondary_calculate_overviewtable]]
 .Attributseigenschaften
 |===
-|Attributsstufe |BEW |WID |MaxPot
+|Attributsstufe |BEW |MaxPot
 
 |1
 |+0
-|8
 |4
 
 |2
 |+0
-|10
 |5
 
 |3
 |+0
-|12
 |6
 
 |4
 |+0
-|14
 |7
 
 |5
 |+1,50
-|16
 |8
 
 |6
 |+3,00
-|18
 |9
 
 |7
 |+4,50
-|20
 |10
 
 |8
 |+6,00
-|22
 |11
 
 |9
 |+7,50
-|24
 |12
 
 |10
 |+9,00
-|26
 |13
 
 |11+
 |+1,50 pro Stufe
-|+2 pro Stufe
 |+1 pro Stufe
 |===
-
-[NOTE]
-Um den Wert WID für eine beliebige Stufe in KO zu berechnen, kann die Formel *8 + (KO-1)*2* benutzt werden.
-Der Faktor KO-1 kann niemals kleiner als 0 sein.
-Die WID von 14 für eine Stufe 4 aus dem vorherigen Beispiel erreichnet sich also wie folgt: 8+(3-1)*2=8+6=14
 
 [[ref_core_characters_charactercreation_initialtalents]]
 === Initiale Talentstufen
@@ -711,7 +686,7 @@ Elfen besitzen die Attributsmodifikationen: +1 GE, -1 KO, +1 ER.
 Aus der +1 GE und +1 ER kann eine Auswahl getroffen werden, zum Beispiel +1 GE.
 Der Malus -1 KO muss gewählt werden.
 
-Aus der Liste der Eigenschaften der Elfen wählt der Spieler xref:skills/racial/core_racial_skill_keen_eyes.adoc[Scharfe Augen].
+Aus der Liste der Eigenschaften der Elfen wählt der Spieler xref:skills/races/core_skill_races_keen_eyes.adoc[Scharfe Augen].
 Die Eigenschaften des ersten Volkes bleiben vollständig erhalten.
 
 Der Fortitudo-Wert des Half-Elfen beträgt 1+1/2=1.

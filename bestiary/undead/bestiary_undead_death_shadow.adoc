@@ -23,7 +23,6 @@ Lore
 *MP:* 70 +
 *SP:* - +
 
-*WID:* 14 +
 *BEW:* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 60,00 Meter +
 *INI:* 7 +
 *MaxTL:* - +
@@ -53,7 +52,7 @@ Lore
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
-* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
@@ -77,11 +76,11 @@ Lore
 
 == Sonstiges
 
-* <<ref_bestiary_death_shadow_one_with_shadows, Eins mit den Schatten>>
+* <<ref_bestiary_death_shadow_one_with_shadows,Eins mit den Schatten>>
 * link:../skills/bestiary_skill_fear.adoc[Furcht] 7
 * link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 * link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
-* <<ref_bestiary_death_shadow_light_vulnerability, Verwundbar im Licht>>
+* <<ref_bestiary_death_shadow_light_vulnerability,Verwundbar im Licht>>
 
 == Regeln
 
@@ -92,15 +91,9 @@ Diese Berührung alleine reicht aus, um diesen schweren Schaden zuzufügen.
 Die Attacke wird als xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] mit Reichweite xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_range[Berührung] gewürfelt.
 Dem Opfer steht eine reguläre xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Magieabwehr-Probe] zu.
 
-== Taktik
-
 Bei einem Erfolg wird ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[Magie-Schadenswurf] mit einem Schadensbonus von 3W6+2 gewürfelt.
 
-Schlägt der Todesschatten dabei eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde], xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] er die erwürfelten Schadenspunkte als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] (bis zu seinem Maximum).
-
-Todesschatten ignorieren alle Kreaturen, die nicht link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] sind.
-
-Dieser Angriff wirkt auch gegen Kreaturen, die nicht körperlos sind.
+Schlägt der Todesschatten dabei eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzung], xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] er die erwürfelten Schadenspunkte als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] (bis zu seinem Maximum).
 
 [[ref_bestiary_death_shadow_one_with_shadows]]
 === Eins mit den Schatten
@@ -130,3 +123,8 @@ Keine Rüstung, Schadensresistenz oder Immunität kann diesen Schaden reduzieren
 Besonders dunkle Tage oder wenn die Sonne hinter Wolken versteckt ist, können im Ermessen des SLs für den Todesschatten sicher sein.
 
 Todesschatten verstecken sich Tagsüber an dunklen Ort und vermeiden natürliches Licht um jeden Preis.
+
+
+== Taktik
+
+Todesschatten ignorieren alle Kreaturen, die nicht link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] sind.

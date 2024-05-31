@@ -64,7 +64,7 @@ Dieses Attribut gibt an, wie robust der Körper des Charakters ist.
 Ausdauer und Widerstand sind weitere charakterisierende Begriffe.
 Ein Charakter mit hoher Konstitution ist gegen Krankheiten resistenter, kann über längere Zeit körperliche Anstrengungen unternehmen und regeneriert Wunden schneller.
 
-Abhängige Attributseigenschaften sind <<ref_core_2d10_characters_attributes_secondary_pool_tp,Trefferpunkte>> und <<ref_core_2d10_characters_attributes_secondary_threshold,Widerstand>>.
+Abhängige Attributseigenschaften sind <<ref_core_2d10_characters_attributes_secondary_pool_tp,Trefferpunkte>>.
 
 [[ref_core_2d10_characters_attribute_perception]]
 ==== Erkenntnis (ER)
@@ -125,7 +125,7 @@ Die folgende Tabelle zeigt diese Entwicklung für die ersten 12 Attributststufen
 |10-12
 |+4
 
-|+3
+|+3 - +3
 |+1
 |===
 
@@ -198,11 +198,6 @@ Jeder Zauberspruch besitzt eine Magiepotenz (POT).
 Dieser Wert zeigt an, wie stark der Zauberspruch ist.
 Zauber der POT 2 oder POT 3 sind sehr schwache, einfache Zaubersprüche, die Lehrlinge lernen, um ihre ersten Erfahrungen mit Magie zu machen.
 Zaubersprüche mit POT 10 sind mächtige Rituale, die es vermögen, gewaltige Energien freizusetzen.
-
-[[ref_core_2d10_characters_attributes_secondary_threshold]]
-==== Widerstand (WID)
-*Widerstand (WID)* gibt an, wie viel Schaden der Charakter durch einen Angriff einstecken kann, bevor er xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[niedergeschlagen] wird.
-Ein Charakter, der niedergeschlagen wurde, ist ein leichtes Ziel für Gegner.
 
 [[ref_core_2d10_characters_talents]]
 === Talente
@@ -667,6 +662,7 @@ Diese Stufe symbolisiert eine außergewöhnliche Unfähigkeit in dem jeweiligen 
 Beispielsweise ist eine Kreatur mit Stufe 0 in Stärke besonders schwach.
 
 Es gelten damit folgende Regeln:
+
 * Zur Bestimmung von xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_secondary [Attributseigenschaften] wird eine Attributsstufe von 0 als Attributsstufe 1 angesehen (so fern nötig).
 * Jede Probe eine <<ref_core_2d10_checks_attributchecks,Attributsprobe>> oder <<ref_core_2d10_checks_saves,Rettungswurf>> auf dem betroffenen Attribut, sowie <<ref_core_2d10_checks_talentchecks,Talentproben>> und deren <<ref_core_2d10_characters_talents_untrainedcheck,ungeübte Anwendung>> werden als <<ref_core_2d10_checks_disadvantage,Nachteil>> gewürfelt.
 
@@ -880,7 +876,7 @@ In den folgenden Kapiteln werden die Zustände ausführlich erläutert.
 
 [[ref_core_2d10_condition_onground]]
 === Am Boden
-Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlag].
+Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_core_battle_attacktypes_knockdown[Niederschlag].
 Charakter gilt am Boden, wenn er liegt.
 
 In diesem Zustand erhalten alle anderen Charaktere und Kreaturen einen <<ref_core_2d10_checks_advantage,Vorteil>> auf ihre <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsproben>> gegen den Charakter.
@@ -1031,6 +1027,7 @@ Besteht er diesen Rettungswurf nicht, wird er <<ref_core_2d10_condition_unconsci
 Um eine oder mehrere Stufen Erschöpfung zu entfernen, muss der Charakter sich <<ref_core_2d10_regeneration,erholen>>.
 Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
 
+// TODO to SP specific condition
 [[ref_core_2d10_condition_fleeing]]
 === Fliehend
 Manchmal ist Flucht die beste Verteidigung.
@@ -1042,6 +1039,7 @@ Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen oder wenn der Cha
 Letzteres liegt im Ermessen des SL.
 Sollte keine konkrete Anzahl an Kampfphasen angegeben sein, gelten 1W0 - SB-Stufe des Charakters (Minimum 1).
 
+// TODO to SP specific condition
 [[ref_core_2d10_condition_fearful]]
 === Furcht erfüllt
 Viele natürliche wie unnatürliche Gefahren wecken einen instinktiven Drang zur Flucht.
@@ -1072,6 +1070,7 @@ Außerdem erhalten alle Kreaturen, die mit dem gefangenen Charakter <<ref_core_2
 
 Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.adoc#ref_core_battle_action_breakfree[Befreien] erfolgreich einsetzen, siehe auch xref:core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen].
 
+// TODO to SP specific condition
 [[ref_core_2d10_condition_horrified]]
 === Horror
 Viel stärker als die <<ref_core_2d10_condition_fearful,Furcht>> ist die Erkenntnis, dass manche Dinge eigentlich nicht existieren dürften.
@@ -1189,6 +1188,13 @@ Es kann jedoch sein, dass andere Effekte wie Zaubersprüche, den Zustand weiterh
 Verzaubert kann nicht mit <<ref_core_2d10_condition_frenzy,rasend>> kombiniert werden.
 Sollte ein verzauberter Charakter diesen Zustand erreichen, schlägt dieser automatisch fehl.
 
+[[ref_core_2d10_conditions_immunity]]
+=== Immunität gegenüber Zuständen
+Kreaturen und Charakteren können gegenüber einzelnen Zuständen immun sein.
+
+Dies bedeutet zunächst, wenn ein <<ref_core_2d10_checks_saves,Rettungswurf>> nötig ist, um den Zustand abzuwehren, besteht die Kreatur diese Probe automatisch, unabhängig von allen <<ref_core_2d10_checks_situationalmodifiers,Modifikatoren>> oder sonstigen Umständen.
+Weiterhin gilt, dass die Kreatur diesen Zustand nicht erreicht oder seine Auswirkungen erdulden muss, auch wenn sie die Voraussetzungen erfüllen würde.
+
 [[ref_core_2d10_pools]]
 == Pools
 *Punktepools* stellen im System von Far Ages verschiedene Aspekte der Verfassung eines Charakters dar.
@@ -1196,6 +1202,62 @@ Sie werden in Zahlen gemessen und je geringer diese sind, umso gefährlicher wir
 Dieses Kapitel erläutert die verschiedenen Pools.
 
 Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden sich die Regeln zu Ermittlung der Pools für jeden Charakter.
+
+[[ref_core_2d10_pools_conditions_and_thresholds]]
+=== Pool-spezifische Zustände und Schwellen
+*Pool-spezifische Zustände* treten ein, wenn ein oder mehrere Punkte-Pools einer Kreatur eine fest definierte *Schwelle* unterschreiten.
+Sie werden dabei wie bereits vorgestellte <<ref_core_2d10_conditions,Zustände>> behandelt.
+Dies bedeutet insbesondere, dass sie so lange für einen Charakter oder eine Kreatur gelten, bis diese die Schwelle ihres entsprechenden Pools wiederhergestellt hat.
+Für jeden einzelnen Pool gilt die jeweils schwerwiegendste Schwelle, gleichzeitig sind über alle Pools gesehen die einzelnen unterschrittenen Schwellen kumulativ.
+Ein Beispiel folgt zum Ende des Kapitels.
+
+Charaktere und Kreaturen können auch gegenüber diesen Zuständen <<ref_core_2d10_conditions_immunity,immun>> sein, auch wenn ihr Pool die entsprechende Schwelle erreicht.
+Manche Kreaturen haben gar keine Punkte in bestimmten Pool, zum Beispiel link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] in <<ref_core_2d10_pools_sp,SP>>.
+In diesem Fall sind Kreaturen immer gegenüber Pool-spezifischen Zuständen <<ref_core_2d10_conditions_immunity,immun>>, auch wenn sie explizit keine passende Fähigkeit besitzen.
+
+Einen Wert von 0 in einem Pool zu erreichen, ist *kein* Zustand, sondern wird mit spezifischen Regeln <<ref_core_2d10_death,Tod>> behandelt.
+
+In der folgenden Tabelle zeigt die Zustände, die bei Unterschreiten einer Schwelle je Pool eintreten.
+Der angegebene Malus gilt Pool-übergreifend für die Schwellen, falls der jeweilige Zustand einen <<ref_core_2d10_checks_situationalmodifiers_malus,Situationsmodifikator>> verursacht.
+
+[NOTE]
+Die Schwellen sind für jeden Pool gleich, jedoch sind die Zustände unterschiedlich.
+
+|===
+|Schwelle |Prozent |TP |MP |SP |Malus
+
+|1
+|51-75%
+|<<ref_core_2d10_pools_tp_condition_1_slightly_injured,leicht verletzt>>
+|<<ref_core_2d10_pools_tp_condition_2_injured,verletzt>>
+|<<ref_core_2d10_pools_tp_condition_3_heavyly_injured,schwer verletzt>>
+|-1
+
+|2
+|26-50%
+|<<ref_core_2d10_pools_mp_condition_1_strained,angestrengt>>
+|<<ref_core_2d10_pools_mp_condition_2_stressed,gestresst>>
+|<<ref_core_2d10_pools_mp_condition_3_depleted,ausgelaugt>>
+|-3
+
+|3
+|1-25%
+|<<ref_core_2d10_pools_sp_condition_1_insecure,unsicher>>
+|<<ref_core_2d10_pools_sp_condition_2_fearful,Furcht erfüllt>>
+|<<ref_core_2d10_pools_sp_condition_3_panicked,panisch>>
+|-6
+
+|===
+
+
+.Pool-spezifische Zustände
+====
+Ein Charakter hat insgesamt 40 TP, 20 MP und 20 SP.
+Seine aktuellen Pools enthalten noch 29 TP, 9 MP und 18 SP.
+Somit ist sein Zustand aufgrund der unterschrittenen Schwelle im TP-Pool <<ref_core_2d10_pools_tp_condition_1_slightly_injured,leicht verletzt>> (40*0,75=30) und analog im MP-Pool <<ref_core_2d10_pools_mp_condition_2_stressed,gestresst>> (20*0,5=10).
+Sein SP-Pool verursacht keinen Zustand, da 18 SP noch über 75% seines SP-Pools liegen.
+====
+
 
 [[ref_core_2d10_pools_tp]]
 === Trefferpunkte (TP)
@@ -1205,12 +1267,19 @@ Je weniger Trefferpunkte ein Charakter hat, umso schlechter steht es um ihn, bzw
 
 Der Verlust von TP kann aus sehr unterschiedlichen Situation entstehen, die Häufigste ist das Erhalten von Verletzungen, zum Beispiel aus dem link:core_rules_battlesystem.adoc[Kampf].
 
-In sehr wenigen Fällen besitzt eine Kreatur keinen TP-Pool.
-Solche Wesen sind vollständig immun gegen jeden Schaden, der vom TP-Pool abgerechnet wird.
+[[ref_core_2d10_pools_tp_condition_wounding]]
+==== Eine Verletzung verursachen
+Wird der TP-Pool einer Kreatur durch eine beliebige, einzige xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Attacke] über eine der <<ref_core_2d10_pools_conditions_and_thresholds,Schwellen>> dieses Pools gebracht, wird dies *eine Verletzung verursachen* genannt.
+Welche Schwelle dabei übertroffen wird, ist dabei nicht relevant.
 
-Erreicht dieser Pool den Wert 0 befindet sich der betreffende Charakter üblicherweise in einer lebensbedrohenden Lage.
-Es droht der <<ref_core_2d10_death,Tod>>, weil beispielsweise er zu viel Blut verloren hat oder er schwere Verletzungen erlitten hat.
-Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_core_2d10_death,Tod>>.
+[[ref_core_2d10_pools_tp_condition_1_slightly_injured]]
+==== Leicht verletzt (Zustand)
+
+[[ref_core_2d10_pools_tp_condition_2_injured]]
+==== Verletzt (Zustand)
+
+[[ref_core_2d10_pools_tp_condition_3_heavyly_injured]]
+==== Schwer verletzt (Zustand)
 
 [[ref_core_2d10_pools_mp]]
 === Magiepunkte (MP)
@@ -1218,13 +1287,28 @@ Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_core_2d10_death,Tod>>.
 MP werden üblicherweise beim Aussprechen von xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Zaubersprüchen] verbraucht, um diese zu verkürzen oder mit zusätzlichen Effekten zu versehen.
 Die Schadensart xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt] wird ebenfalls von diesem Pool abgezogen.
 
-Magier müssen mit Bedacht ihre MP einsetzen, denn auch hier bedeutet das Erreichen des Wertes 0 eine gefährliche Situation.
-Es gelten die üblichen Regeln im Kapitel zum Thema <<ref_core_2d10_death,Tod>>.
+[[ref_core_2d10_pools_mp_condition_1_strained]]
+==== Angestrengt (Zustand)
+
+[[ref_core_2d10_pools_mp_condition_2_stressed]]
+==== Gestresst (Zustand)
+
+[[ref_core_2d10_pools_mp_condition_3_depleted]]
+==== Ausgelaugt (Zustand)
 
 [[ref_core_2d10_pools_sp]]
 === Stabilitätspunkte (SP)
 
 //TODO
+
+[[ref_core_2d10_pools_sp_condition_1_insecure]]
+==== Unsicher (Zustand)
+
+[[ref_core_2d10_pools_sp_condition_2_fearful]]
+==== Furcht erfüllt (Zustand)
+
+[[ref_core_2d10_pools_sp_condition_3_panicked]]
+==== Panisch (Zustand)
 
 [[ref_core_2d10_pools_temporary]]
 === Temporäre Punkte
@@ -1241,10 +1325,10 @@ Sie können jedoch einen ohnmächtigen Charakter insoweit helfen, indem sie zuk�
 
 [[ref_core_2d10_regeneration]]
 == Heilung und Rasten
-Verlorene <<ref_core_2d10_pools_tp,TP>> und <<ref_core_2d10_pools_mp,MP>> können regeneriert werden.
+Verlorene <<ref_core_2d10_pools_tp,TP>>, <<ref_core_2d10_pools_mp,MP>> und <<ref_core_2d10_pools_sp,SP>> können regeneriert werden.
 Dies geschieht für gewöhnlich nur, wenn der Charakter sich ausruht und schläft.
-Abhängig von seiner Ruhezeit regeneriert ein Charakter unterschiedlich viele TP und MP.
-Grundsätzlich kann eine Regeneration nie die maximalen TP oder MP übertreffen.
+Abhängig von seiner Ruhezeit regeneriert ein Charakter unterschiedlich viele Punkte seiner Pools.
+Grundsätzlich kann eine Regeneration nie die maximalen Punkte eines Pools übertreffen.
 
 [[ref_core_2d10_regeneration_short_break]]
 === Kurze Pause
@@ -1255,6 +1339,7 @@ Konnte die kurze Pause ohne Unterbrechung durchgeführt werden, darf der Charakt
 
 * würfle 1W10 und regeneriere entsprechende TP
 * würfle 1W10 und regeneriere entsprechende MP
+* würfle 1W10 und regeneriere entsprechende SP
 * entferne eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>>
 
 [[ref_core_2d10_regeneration_long_break]]
@@ -1280,6 +1365,8 @@ Konnte die Rast erfolgreich beendet werden, erhält der Charakter folgende Vorte
 Das Ergebnis wird als TP regeneriert.
 * Er würfelt so viele W10, wie er EN-Stufen besitzt und addiert die Augen zusammen.
 Das Ergebnis wird als MP regeneriert.
+* Er würfelt so viele W10, wie er SB-Stufen besitzt und addiert die Augen zusammen.
+Das Ergebnis wird als SP regeneriert.
 * Er kann bis zu 3 Stufen <<ref_core_2d10_condition_exhausted,Erschöpfung>> entfernen.
 
 [[ref_core_2d10_regeneration_long_rest]]
@@ -1288,11 +1375,6 @@ Eine *lange Rast* dauert 24 Stunden (oder 1 Tag) und erfordert mindestens 8 Stun
 Es gelten die gleichen Regeln wie für die reguläre <<ref_core_2d10_regeneration_rest,Rast>>.
 Bei einer erfolgreichen langen Rast regeneriert der Charakter alle verlorenen TP und MP.
 Er verliert außerdem alle Stufen von <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
-
-[[ref_core_2d10_regeneration_wounds_curing_wounds]]
-=== Verletzungen heilen
-
-//TODO
 
 [[ref_core_2d10_death]]
 == Tod
@@ -1319,7 +1401,7 @@ Erhält ein Charakter in diesem Zustand auf dem Energiepunktepool, in dem er der
 Ein Todesrettungswurf ist ein besonderer <<ref_core_2d10_checks_saves,Rettungswurf>>, den ein Charakter würfeln muss, wenn er <<ref_core_2d10_death_condition_deathsdoor,dem Tode nahe>> ist und weiteren Schaden erhält.
 
 Der Todesrettungswurf besteht ausschließlich aus einem <<ref_core_2d10_checks_basicrole,Basiswurf>> und ist an kein Attribut geknüpft.
-Es gelten keine <<ref_core_2d10_checks_situationalmodifiers,Situationsmodifikatoren>> oder Modifikatoren durch xref:core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzungen].
+Es gelten keine <<ref_core_2d10_checks_situationalmodifiers,Situationsmodifikatoren>>.
 Nur wenn Modifikatoren explizit Todesrettungswürfe betreffen, sind diese anzuwenden.
 Der <<ref_core_2d10_checks_miniumroll,Mindestwurf>> beträgt 10.
 

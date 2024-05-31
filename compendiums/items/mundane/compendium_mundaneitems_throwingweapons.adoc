@@ -28,7 +28,7 @@
 |0.5
 |7
 |9,00 Meter
-|-
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Wurfdolch
 |GE
@@ -37,7 +37,7 @@
 |0.25
 |6
 |9,00 Meter
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_quick[Schnell]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_quick[Schnell]
 
 |Wurfspeer
 |ST
@@ -46,7 +46,7 @@
 |1
 |15
 |12,00 Meter
-|-
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise]
 
 |Wurfstern
 |GE
@@ -55,7 +55,7 @@
 |0.25
 |35
 |12,00 Meter
-|-
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise]
 |===
 
 ^1^ anstatt eines Schadenswurfs machen die Kontrahenten eine konkurrierende ST-Probe.

@@ -1,0 +1,99 @@
+= Mumie (Gruft-Diener)
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 3)
+* -
+* link:../templates/bestiary_template_undead_mummy.adoc[Mumie]
+* *GK:* 5
+* *CP:* 0 +TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 3 (+1) +
+*GE:* 1 (+1) +
+*KO:* 6 (+2) +
+*ER:* 2 (+1) +
+*EN:* 2 (+1) +
+*SB:* 1 (+1) +
+*CH:* 4 (+2) +
+
+*TP:* 55 +
+*MP:* 20 +
+*SP:* - +
+
+*BEW:* 9,00 +
+*INI:* 3 +
+*MaxTL:* 45 +
+*MaxPOT:* 5 +
+
+*Aktionen:* 3 +
+*Rüstung:* 3 (Rundschild) +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[Kampfunfähig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +3 +
+*Körper:* +2 +
+*Magie:* +2 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 4 (Speer, 1W6+2)
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] 4
+
+== Sonstiges
+
+* xref:../templates/bestiary_template_undead_mummy.adoc#ref_template_undead_mummy_skills_bound_to_the_burial[Gebunden an ein Grab]
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 2
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+
+
+=== Organgefäße
+Der Gruft-Diener besitzt ein einziges xref:../templates/bestiary_template_undead_mummy.adoc#ref_template_undead_mummy_skills_organ_jars[Organgefäß (Herz)], das sein xref:../templates/bestiary_template_undead_mummy.adoc#ref_template_undead_mummy_skills_organ_jars_anchors[Anker] ist.
+Das Organgefäß eines Dieners wird mit vielen anderen seines Standes in einem großen Raum gelagert sein, der wenn auch verschlossen, sonst nicht geschützt ist.
+
+== Taktik
+
+
+
+
+
+
+

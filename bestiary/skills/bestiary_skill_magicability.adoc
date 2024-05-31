@@ -11,3 +11,8 @@ Die entspricht dem angegebenen *Zauberspruch* und wird mit der angegebenen *Angr
 Es gelten die Regeln für xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_base_spell_like_abilities[zauber-ähnliche Fähigkeiten].
 
 Wird keine Angriffsstufe angegeben, wird entweder die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Stufe] oder, falls vorhanden, xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] verwendet.
+
+Alle magischen Fähigkeiten sind xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte] Aktionen.
+
+== Legendär
+Diese Fähigkeit kann als xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzt werden.

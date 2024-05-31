@@ -3,23 +3,10 @@
 [[ref_bloodline_were_requirements]]
 == Voraussetzungen
 
-Um ein Werwesen zu werden, muss ein Charakter folgende Eigenschaften erfüllen:
-
-* Die Kreatur darf nicht einen der folgenden primären Kreaturentypen haben:
-** link:../creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
-** link:../creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
-** link:../creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon]
-** link:../creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar]
-** link:../creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleim]
-* Die Kreatur muss vom sekundären Kreaturentyp link:../creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend] sein.
-* Die Kreatur darf nicht einen der folgenden sekundären Kreaturentypen haben:
-** link:../creaturetypes/secondary/creaturetype_secondary_aetherial.adoc[Aetherisch]
-** link:../creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos]
-** link:../creaturetypes/secondary/creaturetype_secondary_swarm.adoc[Schwarm].
+Um diese Blutlinie wählen zu können, muss die Kreatur ein link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebender] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] sein.
 
 [[ref_bloodline_were_charactercreation]]
 == Charaktererschaffung
-
 Zur xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation[Charaktererschafftung] darf ein Spieler mit Zustimmung des SL diese Blutlinie wählen.
 Dazu muss er nach der xref:../../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_race[Wahl seines Volkes] die <<ref_bloodline_were_skills_cp,CP-Kosten>> dieser Blutlinie bezahlen.
 Dadurch erhält er alle <<ref_bloodline_were_skills,Eigenschaften>> dieser Blutlinie, zusätzlich zu denen seines Volkes.
@@ -27,16 +14,15 @@ Alle Attributsboni und Eigenschaften seines Volks bleiben erhalten.
 Die Wahl seines Volkes wird im folgenden als *reguläre Form* bezeichnet.
 
 Als erste Entscheidung muss der Charakter entscheiden, welches Tier seinem Werwesen (*Wertier*) zugeordnet wird.
-Die verfügbaren Werwesen werden in folgender link:../../tables/table_bloodline_were_overview.adoc[Tabelle] zufassen gefasst.
+Die verfügbaren Werwesen werden in folgender link:../../tables/table_werwesen_overview.adoc[Tabelle] zufassen gefasst.
 Diese gibt außerdem eine Übersicht über die Eigenschaften in Abhängigkeit vom Wertier.
 
 Manche Eigenschaften erfordern außerdem ein paar endgültige Entscheidung, welche zur Charaktererschaffung getroffen werden muss.
 
 [[ref_bloodline_were_skills]]
 == Eigenschaften
-
 In den folgenden Unterkapiteln werden die Eigenschaften von Werwesen beschrieben.
-Für manche Eigenschaften wird die folgende link:../../tables/table_bloodline_were_overview.adoc[Tabelle] referenziert.
+Für manche Eigenschaften wird die folgende link:../../tables/table_werwesen_overview.adoc[Tabelle] referenziert.
 
 [[ref_bloodline_were_skills_attributs]]
 === Attribute
@@ -75,7 +61,7 @@ Anstelle sich in einer <<ref_bloodline_were_skills_beastform,Tierform>> kann das
 Diese Gestalt ist eine (je nach Werwesen mehr oder weniger) furchterregende oder merkwürdige Mischform aus seiner regulären Form und der Form seines Wertieres.
 Ein Werwolf beispielsweise erscheint als humanoider Wolf, der auf zwei Beinen läuft und dessen Hände in langen Klauen enden.
 
-Das Profil der Werform entspricht dem seiner regulären Form plus die in der link:../../tables/table_bloodline_were_overview.adoc[Tabelle] angegeben Attributsboni in der Spalte Werform sowie die dort angegeben Fähigkeiten.
+Das Profil der Werform entspricht dem seiner regulären Form plus die in der link:../../tables/table_werwesen_overview.adoc[Tabelle] angegeben Attributsboni in der Spalte Werform sowie die dort angegeben Fähigkeiten.
 
 Es gelten die üblichen Regeln für die Fähigkeit xref:../../../bestiary/skills/bestiary_skill_shapeshift.adoc[Gestaltwandel], außer dass die Werform nur einmal pro Tag angenommen werden kann.
 

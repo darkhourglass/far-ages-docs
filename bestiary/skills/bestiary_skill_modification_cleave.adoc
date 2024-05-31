@@ -1,0 +1,17 @@
+= Rundumschlag (Attacke)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, Modifikation +
+*Überanstrengung:* 3 +
+*CP:* tba +
+
+Die Kreatur kann die angegebene *Attacke* für einen Rundumschlag verwenden, der mehrere Kreaturen gleichzeitig treffen kann.
+Dazu würfelt die Kreatur eine normale xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Angriffsprobe] mit dieser Attacke.
+Alle Kreaturen in der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] werden von dieser Attacke getroffen, unabhängig, ob diese Freund oder Feind sind.
+Dabei wird die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_execute_retaliation_attacks[Konter] für alle betroffenen Kreaturen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_suppress_reaction[unterdrückt].
+Die Verteidigungswürfe werden für jede Kreatur separat gewürfelt und individuell ausgewertet.
+Es wird nur eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] gewürfelt, die für alle Kreaturen gilt, die ihren Verteidigungswurf nicht geschafft haben.
+
+Der Rundumschlag kostet 3 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung] und gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Aktion].
+Die Limitierung bezieht sich dabei nicht auf die originale Fähigkeit.
+Es ist daher möglich, dass die Kreatur ihre Aktionen auf einen Rundumschlag und 2 weitere reguläre Attacken ausführt.

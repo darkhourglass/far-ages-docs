@@ -1,0 +1,22 @@
+= Schwanzschlag (Angriffsstufe, Schaden)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, ST +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Manche Kreaturen, wie zum Beispiel Drachen, besitzen einen Schwanz, den sie wie eine Waffe einsetzen können.
+
+Möchte die Kreatur diese Attacke einsetzen, muss sie zuerst festlegen, welchen Teil ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] betroffen werden soll.
+Die Kreatur muss ein zusammenhängendes Viertel seiner Bedrohungszone auswählen, auch wenn sich dieser Teil im Rücken der Kreatur befindet.
+Der Schwanzschlag wird immer gegen alle Kreaturen in diesem Teil der Bedrohungszone angewendet, unabhängig von Freund oder Feind.
+
+Der Schwanzschlag erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
+Die Verteidigungswürfe werden für jede betroffene Kreatur separat gewürfelt und individuell ausgewertet.
+Es wird nur eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] gewürfelt, die für alle Kreaturen gilt, die ihren Verteidigungswurf nicht geschafft haben.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
+
+Dabei wird die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_execute_retaliation_attacks[Konter] für alle betroffenen Kreaturen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_suppress_reaction[unterdrückt].
+
+Dieser Angriff gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Aktion].

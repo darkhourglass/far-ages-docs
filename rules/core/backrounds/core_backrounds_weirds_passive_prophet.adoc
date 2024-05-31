@@ -10,8 +10,9 @@
 [[ref_core_backrounds_passive_prophet_prophecies]]
 == Prophezeiungen
 Du kannst vage Prophezeiungen über die Zukunft oder das Schicksal von link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen empfangen.
-Dazu musst Du die Kreatur berühren.
-Ob Du eine Prophezeiung empfängst, liegt im Ermessen des SLs.
+Dazu musst Du die Kreatur berühren und 1W10 würfeln.
+Würfelst Du eine 10, erhältst Du eine Prophezeiung.
+Du kannst diesen Wurf nur einmal pro Kreatur in 24 Stunden durchführen.
 Der Inhalt einer Prophezeiung kann jedoch von Dir beeinflusst werden, in Du eine der folgenden Optionen wählst:
 
 * Die nächste xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks[Probe], die Du gegenüber der Kreatur ausführst, erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil]
@@ -20,3 +21,7 @@ Der Inhalt einer Prophezeiung kann jedoch von Dir beeinflusst werden, in Du eine
 Im Sinne vager Prophezeiungen müssen seine Antworten nicht konkret sein.
 
 Wählst Du die letzte Option, versetzen Dich die Visionen in eine tiefe Trance und bist Du für 1W4+1 xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
+
+[NOTE]
+Alternativ kann auch durch SL-Entscheid eine Prophezeiung hervorgerufen werden.
+Nicht alle Wesen führen ein so schicksalhaftes Leben.

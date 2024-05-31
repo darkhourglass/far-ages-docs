@@ -29,7 +29,6 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 *MP:* 60 +
 *SP:* 80 +
 
-*WID:* 30 +
 *BEW:* 15,00 link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 45,00 +
 *INI:* 14 +
 *MaxTL:* 180 +
@@ -58,8 +57,10 @@ Dieses Profil beschreibt einen Drachen der Machtstufe 6.
 * link:../skills/specific/dragons/bestiary_skill_dragons_dragons_breath.adoc[Drachenodem] 10 (4W10, xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer], 12,00 Meter)
 * link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 12 (3W8+5) 2x
 * link:../skills/bestiary_skill_attack_bite.adoc[Biss] 12 (4W6+5)
+* link:../skills/bestiary_skill_attack_tail_swipe.adoc[Schwanzschlag] 12 (4W8+5)
 * link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 12 (3W8+5) 2x
 * link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] (Klaue)
+* link:../skills/bestiary_skill_modification_cleave.adoc[Rundumschlag] (Wucht)
 
 == Defensive
 

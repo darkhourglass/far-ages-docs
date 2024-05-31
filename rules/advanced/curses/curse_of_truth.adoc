@@ -27,8 +27,6 @@ Für die nächsten 24 Stunden erhält er außerdem einen xref:../../core/core_ru
 [[ref_curse_of_truth_deathcurse]]
 == Todesfluch
 
-Der Charakter nimmt sofort so viele xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbare] Schadenspunkte, wie er xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_thresholdWID] besitzt.
-Er erhält damit eine xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde].
-Es ist jedoch kein xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_knockdown[Niederschlags-Rettungswurf] nötig.
+Der Charakter nimmt sofort 1W10+1 xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbare] Schadenspunkte.
 
 Für die nächsten 24 Stunden erhält er außerdem einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -10 auf alle xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Willenskraft-Rettungswürfe].

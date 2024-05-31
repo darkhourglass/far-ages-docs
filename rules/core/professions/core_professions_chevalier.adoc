@@ -35,7 +35,8 @@ Die GK-abhängigen Modifikationen ändern sich entsprechend, jedoch nur für ein
 == Tierpflege
 Einmal pro Tag darf der Kavalier eine der folgenden Aktionen durchführen:
 
-* Eine xref:../core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunde] seines Reittiers automatisch heilen.
 * Sein Reittier regeneriert 2W10 TP.
+* Sein Reittier regeneriert 2W10 MP.
+* Sein Reittier regeneriert 2W10 SP.
 
 Dies gilt zusätzlich zu eventuellen xref:../core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Pausen und Rasten].

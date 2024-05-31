@@ -49,7 +49,6 @@ Der Legende nach kann ein Wald wieder auferstehen, wenn die Rache vollzogen wurd
 *MP:* 40 +
 *SP:* 65 +
 
-*WID:* 20 +
 *BEW:* 12,00 +
 *INI:* 8 +
 *MaxTL:* 150 +
@@ -92,6 +91,7 @@ Der Legende nach kann ein Wald wieder auferstehen, wenn die Rache vollzogen wurd
 
 == Sonstiges
 
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 5 (+3)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 5 (+2)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_animalfriendship[Tierfreundschaft] 5 (+3)

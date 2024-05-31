@@ -1,0 +1,118 @@
+= Mumie (Einbalsamierter Zauberer)
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 18)
+* -
+* link:../templates/bestiary_template_undead_mummy.adoc[Mumie]
+* *GK:* 5
+* *CP:* 16900 +TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 10 (+3) +
+*GE:* 4 (+2) +
+*KO:* 12 (+4) +
+*ER:* 10 (+3) +
+*EN:* 12 (+4) +
+*SB:* 10 (+3) +
+*CH:* 8 (+2) +
+
+*TP:* 120 +
+*MP:* 120 +
+*SP:* - +
+
+*BEW:* 9,00 +
+*INI:* 14 +
+*MaxTL:* 150 +
+*MaxPOT:* 15 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 4 +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[Kampfunfähig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
+* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +5 +
+*Körper:* +7 +
+*Magie:* +7 +
+*Reflex:* +5 +
+
+== Offensiv
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 8 (Kampfstab, 1W6+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_alchemy[Alchemie] 10
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_necromancy[Nekromantie] 12
+* link:../skills/bestiary_skill_bestow_curse.adoc[Verfluchen] (link:../../rules/advanced/curses/mummycurses/mummy_curse_of_withering.adoc[Fluch des Verwitterns]) 9
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] link:../../compendiums/spells/spell_summon_animal_swarm.adoc[Beschwöre Schwarm] (nur Insekten)
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] link:../../compendiums/spells/spell_noxious_gas_cloud.adoc[Giftgaswolke].
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 8
+* xref:../templates/bestiary_template_undead_mummy.adoc#ref_template_undead_mummy_skills_bound_to_the_burial[Gebunden an ein Grab]
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] 6
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* link:../skills/bestiary_skill_damageabsorption.adoc[Schadensabsorption] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 6
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes entdecken] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] 10
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 6
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Alchemie)] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Untote)] 9
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Regeln
+
+=== Organgefäße
+
+Der abtrünnige Zauberer besitzt eine Menge xref:../templates/bestiary_template_undead_mummy.adoc#ref_template_undead_mummy_skills_organ_jars[Organgefäße] (Darm, Gehirn, Herz, Leber, Lunge, Magen, Milz und Niere), davon gleich zwei Anker (Herz und Gehirn).
+Im Gegensatz zu traditionelleren Mumien versteckt er seine Organgefäße nicht nur in seinem Grab, sondern weit verstreut über die Länder.
+Auch ist der Zauberer öfters außerhalb seines Grabs zu finden, um sein Wissen über verbotene arkane und alchemistische Praktiken zu erweitern.
+
+== Taktik
+
+
+
+
+
+
+

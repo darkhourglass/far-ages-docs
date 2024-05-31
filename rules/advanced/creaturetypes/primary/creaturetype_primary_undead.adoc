@@ -5,61 +5,38 @@
 
 [[ref_primary_creaturetype_undead_rules_creation]]
 === Untote erschaffen
-* Um einen Untoten zu erschaffen, benötigt es einen toten Körper einer vormals link:../secondary/creaturetype_secondary_living.adoc[lebenden] Kreatur.
-Der primäre Kreaturentyp ist typischerweise nicht relevant, außer dieser verbietet explizit das Erschaffen einer untoten Kreatur verbietet.
-Untote verlieren den sekundären Typ Lebend.
+Um einen Untoten zu erschaffen, sind mehrere Komponenten nötig:
+
+* Zunächst muss entschieden werden, welche Kreatur in welche Art von Untoten verwandelt werden soll.
+Üblicherweise sind dazu _Schablonen_ nötig, wie zum Beispiel link:../../../../bestiary/templates/bestiary_template_undead_skeleton.adoc[Skelett] or link:../../../../bestiary/templates/bestiary_template_undead_zombie.adoc[Zombie].
+Auch manche direkte Kreaturen-Einträge wie der link:../../../../bestiary/undead/bestiary_undead_death_shadow.adoc[Todesschatten] können Regeln enthalten, um einen Untoten dieser Form zu erschaffen.
+* Üblicherweise benötigt wenigstens einen toten Körper einer vormals link:../secondary/creaturetype_secondary_living.adoc[lebenden] Kreatur.
+Der primäre Kreaturentyp ist typischerweise nicht relevant, außer dieser verbietet explizit das Erschaffen einer untoten Kreatur verbietet oder die verwendete Schablone tut dies.
+Untote verlieren den sekundären Typ link:../secondary/creaturetype_secondary_living.adoc[lebend].
 * Jeder Untote besitzt eine <<ref_primary_creaturetype_undead_rules_powerlevel,Machtstufe>>.
 Machtstufen beschrieben die Stärke von Untoten auf einer abstrakten Ebene und haben Einfluss, wie unabhängig ein Untoter agieren kann und welche Zaubersprüche auf ihn wirken.
-* Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
-* Je nachdem welchen Untoten ein Nekromant erschaffen möchte, ist zunächst dessen Machtstufe zu ermitteln, entweder als Angabe im xref:../../../../bestiary/index.adoc#ref_bestiary_undead[Bestiarium] oder anhand o.g. Tabelle.
-Er muss dazu den angegebenen Zauberspruch beherrschen und erfolgreich aussprechen.
-* Sofern nicht anders angegeben, steht der Untote nicht sofort unter der Kontrolle des Schöpfers.
+Abhängig davon sind die Zaubersprüche link:../../../../compendiums/spells/spell_create_undead.adoc[Untoten erschaffen] oder link:../../../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis] erforderlich.
+Eine Übersicht über von Machtstufen abhängige Informationen findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
 
 [[ref_primary_creaturetype_undead_rules_powerlevel]]
 === Machtstufen
 Machtstufen von Untoten werden in Zahlen von 0 aufsteigend gemessen.
 Dabei gibt es kein Maximum, jedoch spiegeln bestimmte Machtstufen deutliche Sprünge in den Fähigkeiten der Untoten wider.
 So ist ein Untoter der Machtstufe 0 der primitivste Typ, der konstante Kontrolle benötigt und nur wenige Fähigkeiten besitzt.
-Auf der anderen Seite sind Untote ab Machtstufe 10, sowie 11 und mehr, autonome, teilweise vollständige Persönlichkeiten mit erschreckendem Verstand und einer großen Vielfalt an Fähigkeiten.
+Auf der anderen Seite sind Untote ab Machtstufe 10 autonome und vollständige Persönlichkeiten mit erschreckendem Verstand und einer großen Vielfalt an Fähigkeiten.
 
 Abhängig von der Machtstufe entfalten sich die Fähigkeiten eines Untoten.
 Die Übersicht findet sich in dieser link:../../../tables/table_spells_create_undead.adoc[Tabelle].
 Die Einträge werden im Folgenden beschrieben.
 
-[[ref_primary_creaturetype_undead_rules_powerlevel_steps]]
-==== Attributs- und Talentstufen
-Abhängig von seiner Machtstufe besitzt ein Untoter Attributsstufen bzw. Talentstufen basierend auf seinem Profil als lebende Kreatur.
-Sofern nicht anders angegeben, werden die Attribusstufen von ST, GE und KO übernommen.
-
-Die Attribute ER, EN, SB und CH bestehen folgende Optionen:
-
-* *"-"* bzw. *"Keine Angabe"*: Gerade primitive Untote besitzen keine nennenswerte Persönlichkeit und freien Willen mehr.
-Bestimmte Attribute sind daher ohne Stufe angegeben.
-Eine genaue Beschreibung zu diesem Fall findet sich in den <<ref_primary_creaturetype_undead_rules_general_rules>>[Allgemeinen Regeln].
-
-* *Maximale Stufe:* Die Stufe ist auf dieses Maximum festgelegt.
-War die Stufe zu Lebzeiten höher, wird sie passend auf das Maximum abgesengt.
-
-* *1/2 Original:* Die Stufe in diesem Attribut wird halbiert (abgerundet, mindestens 1).
-
-* *Original:* Die Stufe in diesem Attribut wird ohne Veränderung übernommen.
-
-Abhängige Attributseigenschaften werden, falls nicht anders angegeben, neu berechnet nach den üblichen xref:../../../core/core_rules_charactercreation.adoc[Regeln].
-
-[[ref_primary_creaturetype_undead_rules_powerlevel_pools]]
-==== Punktepools
-Ebenso wie Attributs- und Talentstufen können die Punktepools TP, MP und SP modifiziert sein.
-
-* *"-"* bzw. *"Keine Angabe"*: Der Untote besitzt diesen Punktepool nicht.
-Er verliert somit nie Punkte und kann diese auch nicht einsetzen.
-
-* *1/2 Original:* Der Untote besitzt 1/2 Punkte des jeweiligen, originalen Punktepools (abgerundet, mindestens 1).
-
-* *Original:* Der Untote besitzt in diesem Punktepool seine originalen Punkte.
-
 [[ref_primary_creaturetype_undead_rules_powerlevel_fear_skill]]
 ==== Furcht
 Untote erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] auf der angegebenen Stufe.
+
+[[ref_primary_creaturetype_undead_rules_powerlevel_SP]]
+==== Stabilitätspunkte
+Untote aller Machtstufen besitzen keine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP].
+Sie sind gegenüber allen Effekten immun, diesen Punkte-Pool betreffen.
 
 [[ref_primary_creaturetype_undead_rules_powerlevel_personality]]
 ==== Persönlichkeit
@@ -120,6 +97,15 @@ Allerdings xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regenera
 * Die Reduzierung auf 0 TP vernichtet Untote endgültig.
 Es gilt, dass Untote sofort zerstört werden, wenn ihre TP das erste Mal auf 0 sinken, es gelten daher nicht die Regeln aus dem Kapitel xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod].
 
+[[ref_primary_creaturetype_undead_rules_general_steps]]
+==== Attributs- und Talentstufen
+Welche Attributs- oder Talentstufen der Untote behält oder wie sich diese verändern, ist von der Art des Untoten abhängig.
+
+[[ref_primary_creaturetype_undead_rules_general_pools]]
+==== Punktepools
+Üblicherweise bleiben die Punkte-Pools xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] erhalten.
+Alle Untoten besitzen keine <<ref_primary_creaturetype_undead_rules_powerlevel_SP,SP>>.
+
 [[ref_primary_creaturetype_undead_rules_skills]]
 === Fähigkeiten
 Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
@@ -138,7 +124,7 @@ Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
 * <<ref_primary_creaturetype_undead_rules_powerlevel_fear_skill,Furcht>>: die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], je nachdem welche höher ist.
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])

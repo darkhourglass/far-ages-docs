@@ -6,5 +6,8 @@
 *CP:* tba +
 *Aktivierung:* Passiv +
 
-Immer wenn ein Drache eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung] erhält, verursacht diese Verletzung einen Verletzungsgrad weniger.
-Dies bedeutet, dass ein oberflächlicher Verletzungsgrad effektiv ignoriert wird.
+Immer wenn ein Drache einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Zustand] aufgrund seines xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] erhält, gelten die Regeln für den nächst-besten Zustand.
+Beispielsweise gelten für einen Drachen im Zustand xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_2_injured[verletzt] erleidet nur die Nachteile des Zustands xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_1_slightly_injured[leicht verletzt].
+Der Zustand xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_1_slightly_injured[leicht verletzt] hat damit gar keine Auswirkungen.
+Die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Regeln] zu 0 TP bleiben unberührt.
+

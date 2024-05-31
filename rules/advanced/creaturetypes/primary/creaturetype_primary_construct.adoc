@@ -26,7 +26,6 @@ Trotz ihres unterschiedlichen Ursprungs und Natur werden alle Konstrukte nach de
 
 [[ref_primary_creaturetype_constructs_rules_powerlevel]]
 === Machtstufen
-
 Konstrukte besitzen wie link:creaturetype_primary_undead.adoc[Untote] Machtstufen, die als Zahl ab 0 gemessen werden.
 Je höher eine Machtstufe ist, umso mächtiger, flexibler und üblicherweise auch gefährlicher ist das Konstrukt.
 
@@ -47,7 +46,6 @@ Beispiele für Konstrukte ohne explizite Machtstufe sind Konstrukte, die durch a
 
 [[ref_primary_creaturetype_constructs_rules_controll_and_behavior]]
 === Kontrolle und Verhalten
-
 Im Gegensatz zu link:creaturetype_primary_undead.adoc[Untoten] besitzen Konstrukte keine xref:creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_personality[Persönlichkeiten] (oder eher das Potenzial dazu), sondern ihr Verhalten wird ausschließlich durch ihr xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programm] bestimmt.
 Dieses Programm wird im Normalfall durch einen Technomanten (beziehungsweise den Erschaffer des Konstrukts) bei der Konstruktion festgelegt und kann auch unter Umständen nachträglich geändert wird.
 
@@ -57,16 +55,15 @@ Dennoch können Konstrukte durch den Einsatz passender Zaubersprüche oder magis
 
 [[ref_primary_creaturetype_constructs_rules_mishaps]]
 === Fehlfunktionen
+Konstrukte sind aufgrund ihrer Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[immun] gegenüber den Effekten von xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzungen].
+Verliert ein Konstrukt jedoch genug TP, um eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] zu übertreffen, nach regulären Regeln die Voraussetzung für eine Wunde, so erleidet das Konstrukt stattdessen eine *Fehlfunktion*.
 
-Konstrukte sind immun gegenüber xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Wunden und Verletzungen], so als besäßen sie die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen].
-Verliert ein Konstrukt jedoch genug TP, um seine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] zu übertreffen, nach regulären Regeln die Voraussetzung für eine Wunde, so erleidet das Konstrukt stattdessen eine *Fehlfunktion*.
-
-Zur Ermittlung dieser Fehlfunktion wird zuerst die Differenz zwischen der WID des Konstrukts und des erlittenen Schadens aus der betreffenden Attacke berechnet.
+Zur Ermittlung dieser Fehlfunktion wird zuerst die Differenz zwischen der KO des Konstrukts und des erlittenen Schadens aus der betreffenden Attacke berechnet.
 Das Ergebnis bestimmt die Auswirkung der Fehlfunktion nach folgender link:../../../tables/table_constructs_general_mishaps.adoc[Tabelle].
 
 .Fehlfunktion
 ====
-Ein Konstrukt eine WID von 14.
+Ein Konstrukt eine KO von 14.
 Es erhält durch eine einzelne Attacke 18 Schadenspunkte.
 Somit beträgt die Differenz 4.
 Es tritt somit die Fehlfunktion im Eintrag 3-4 auf.
@@ -74,7 +71,6 @@ Es tritt somit die Fehlfunktion im Eintrag 3-4 auf.
 
 [[ref_primary_creaturetype_constructs_rules_death]]
 === Tod
-
 Konstrukte sind üblicherweise keine link:../secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen.
 Dies bedeutet insbesondere, dass die üblichen Regeln aus dem Kapitel xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod] nicht auf sie zutreffen.
 Stattdessen können sie <<ref_primary_creaturetype_constructs_rules_death_destroyed,zerstört>> oder <<ref_primary_creaturetype_constructs_rules_death_deactivated,deaktiviert>> werden.
@@ -83,7 +79,6 @@ Grundsätzlich gilt ein Konstrukt mit 0 TP oder 0 MP gilt als besiegt.
 
 [[ref_primary_creaturetype_constructs_rules_death_destroyed]]
 ==== Zerstört
-
 Ein Konstrukt, dessen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] auf 0 reduziert werden, gilt als *zerstört*, ohne die Regeln aus dem Kapitel xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe] anzuwenden.
 Es erhält keine Möglichkeit, xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Todesrettungswürfe] abzulegen.
 
@@ -92,7 +87,6 @@ Er hält ein Konstrukt aus einer erfolgreichen Reparatur mehr als 0 TP, kann es 
 
 [[ref_primary_creaturetype_constructs_rules_death_deactivated]]
 ==== Deaktiviert
-
 Ein Konstrukt, dessen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] auf 0 reduziert werden,
 gilt als *deaktiviert*.
 Wie bei <<ref_primary_creaturetype_constructs_rules_death_destroyed,zerstört>> gelten die üblichen Regeln für den Zustand xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe] nicht.
@@ -102,7 +96,6 @@ Erhält ein Konstrukt wieder mehr als 0 MP, beispielsweise dank seiner xref:../.
 
 [[ref_primary_creaturetype_constructs_rules_repair]]
 === Konstrukte reparieren
-
 Verlorene xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] können von einem Konstrukt nicht xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] werden, sondern müssen *repariert* werden.
 Dies kann durch jede Kreatur erfolgen, die zum einen das passende Wissen hat und zum anderen, entsprechendes Material und Werkzeug besitzt.
 
@@ -136,7 +129,8 @@ Alle Konstrukte erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]

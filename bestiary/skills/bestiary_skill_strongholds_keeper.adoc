@@ -1,0 +1,40 @@
+= Hüter der Festung (Festung)
+
+*Voraussetzungen:* - +
+*Typ:* Passiv, Festung +
+*Überanstrengung:* - +
+*CP:* speziell +
+
+Die Kreatur ist der Hüter einer mächtigen und wehrhaften Festung (oder einer vergleichbaren Struktur).
+
+Jede Festung hat wenigstens eine der folgenden Eigenschaften:
+
+* *Aktionen:* Solange sich der Hüter in der Festung aufhält, kann in seinem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine der beschriebenen Aktionen ausführen.
+Sofern nicht anders angegeben, handelt es sich dabei um xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[reguläre Aktionen], die gegen sein Limit im Zug zählen.
+Der Hüter kann nicht mehrere Aktionen, die ihm seine Festung gewährt, in einem Zug durchführen, sondern muss sich eine aussuchen.
+Eine link:../templates/bestiary_template_legendary.adoc[legende] Kreatur kann seine xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendären Aktionen] einsetzen.
+* *Reaktionen:* Analog zu Aktionen erhält der Hüter innerhalb seiner Festung besondere xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen], die er einsetzen kann.
+Pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] kann er aus den gegebenen Optionen maximal eine Reaktion nutzen.
+Es gelten die üblichen Regeln, dass Reaktionen nur genutzt werden können, wenn ihre Auslöser erfüllt sind.
+* *Passive Effekte:* Eine Festung erzeugt möglicherweise einen oder mehrere passive und permanente Effekte.
+Sie gelten immer nur in der Ausdehnung der Festung.
+Betreffen diese bestimmte Kreaturen, zum Beispiel den Hüter selbst, seine Gefolgschaft oder aber Eindringlinge, beginnen sie, sobald die Kreaturen die Festung betreten und enden, wenn sie diese verlassen.
+* *Umgebungseffekte:* Manche Festungen sind erfüllt von arkaner Kraft, die weit über ihre Grenzen Wirkung zeigt.
+Umgebungseffekte wirken üblicherweise in einem Umkreis von 5 bis 10 Kilometern um die Festung herum.
+
+Die *CP* für diese Fähigkeit sind abhängig von der gewählten *Festung*.
+
+Jede Festung kann grundsätzlich mehrere Hüter besitzen, also Kreaturen, die diese Eigenschaft besitzen.
+Alle Kreaturen können somit die bereitgestellten Aktionen und Reaktionen nutzen, sofern sie sich in der Festung befinden.
+Allerdings darf eine Kreatur für nie mehr als eine Festung gleichzeitig Hüter sein.
+Ob ein Wechsel zwischen zwei Festungen möglich ist, liegt im Ermessen des SLs.
+
+[NOTE]
+Die vorgestellten Festungen sollen als Vorlage und nicht feste Schauplätze dienen.
+So ist es natürlich denkbar, dass der wahnsinnige Erzmagier nicht in einem link:../../compendiums/strongholds/stronghold_arcane_tower.adoc[arkanen Turm] residiert, sondern in einer arkanen Zitadelle.
+Der SL nutzt einfach die vorgestellten besonderen Effekte des Orts in einer anderen Beschreibung.
+
+[NOTE]
+Weiterhin sollte man sich nicht an dem Begriff _Festung_ stören, denn auch ein link:../../compendiums/strongholds/stronghold_blighted_forest.adoc[verdorbener Wald] gilt im Sinne dieser Fähigkeit als eine Festung.
+Auch sind die eigentlichen Ausdehnungen einer Festung nicht festgelegt.
+Ein Waldgebiet ist vielleicht deutlich größer als der Turm eines Zauberers.

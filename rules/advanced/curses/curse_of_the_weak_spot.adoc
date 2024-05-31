@@ -6,8 +6,8 @@
 *Beschreibung:* Die Kreatur besitzt einen Schwachpunkt an ihrem Körper, der besonders empfindlich ist.
 So kann eine vergleichsweise harmlose Wunde an der falschen Stelle, tödliche Konsequenzen haben.
 
-Wird die Kreatur an der angegebenen xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzone] durch einen Treffer mit dem genannten *Auslöser* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_wounds[verwundet], tritt der Fluch in Kraft.
-Dazu ist zum einen ein xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_aimedattack[gezielter Treffer] nötig.
+Wird die Kreatur an der angegebenen xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzone] durch einen Treffer mit dem genannten *Auslöser* xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[verwundet], tritt der Fluch in Kraft.
+Dazu ist zum einen eine xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielter Attacke] nötig.
 Der Auslöser ist beispielsweise eine bestimmte Waffe (zum Beispiel in angeschärfter Zweig eines Olivenbaums) oder eine Waffe aus einem bestimmten Material (zum Beispiel ein Pfeil mit silberner Pfeilspitze).
 
 Der Effekt ergibt sich aus dem Typ des Fluches:

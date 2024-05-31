@@ -1,0 +1,106 @@
+= Manihrynn (Mond-Hirsch)
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 8 (+2) +
+*GE:* 6 (+2) +
+*KO:* 6 (+2) +
+*ER:* 5 (+1) +
+*EN:* 7 (+2) +
+*SB:* 5 (+1) +
+*CH:* 5 (+1) +
+
+*TP:* 85 +
+*MP:* 70 +
+*SP:* 50 +
+
+*BEW:* 12,00 +
+*INI:* 11 +
+*MaxTL:* 120 +
+*MaxPOT:* 10 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 +
+*Resistenzen:* +
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aether])
+
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +4 +
+*Magie:* +3 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] 6 (2W6+2)
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 6 (2W6+2)
+* <<ref_bestiary_animals_lunar_stag_rules_light_wave,Lichtwelle>> 8 (2W12+4, xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aether])
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht] (60,00 Meter)
+* link:../skills/bestiary_skill_move_rush.adoc[Eilig]
+* <<ref_bestiary_animals_lunar_stag_rules_moonlight,Mondlicht>>
+* <<ref_bestiary_animals_lunar_stag_rules_moonphase,Mondphase>>
+
+== Regeln
+
+[[ref_bestiary_animals_lunar_stag_rules_moonlight]]
+=== Mondlicht
+Im Umkreis von 9,00 Metern um einen Manihrynn gilt die Umgebung als erleuchtet von hellem Mondlicht.
+Es gelten die Regeln für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] in einer sternenklaren Nacht.
+Effekte, die Mondlicht erfordern, gelten in diesem Umkreis.
+Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freien Aktion] kann ein Mond-Hirsch diesen Effekt einmal pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] aktivieren oder deaktivieren.
+Ist diese Fähigkeit nicht aktiv, kann der Manihrynn seine Fähigkeiten <<ref_bestiary_animals_lunar_stag_rules_moonphase,Mondphase>> und <<ref_bestiary_animals_lunar_stag_rules_light_wave,Lichtwelle>> nicht einsetzen.
+
+[[ref_bestiary_animals_lunar_stag_rules_moonphase]]
+=== Mondphase
+Wie der schwindende und wachsende Mond den Nachthimmel mehr oder weniger erhellt, kann ein Manihrynn seinen Körper zum Teil den Aether versetzen.
+In diesem Zustand, der Mondphase, erscheint ein Manihrynn nur teilweise körperlich und sein Licht scheint dimmer.
+Um diese Fähigkeit einzusetzen, muss der Manihrynn eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und 10 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] einsetzen.
+Während der Mondphase erhält er folgende Boni:
+
+* Seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] verdoppelt sich.
+* Seine Bewegung ist nicht durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] beeinflusst.
+* Er erhält die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch]).
+
+Die Fähigkeit endet automatisch zum Ende seines nächsten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] und kann für die nächsten 10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] nicht eingesetzt werden.
+
+[[ref_bestiary_animals_lunar_stag_rules_light_wave]]
+=== Lichtwelle
+xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[Einmal] im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugs] darf der Manihrynn eine Welle aus Licht aus seinem Geweih freilassen, um mit lunarer Magie seine Feinde abzuwehren.
+Dies gilt als Einsatz einer xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_base_spell_like_abilities[Zauber-ähnlichen Fähigkeit] mit der im Profil angegeben Stufe.
+Als Ziel kann der Manihrynn eine beliebige Kreatur in Sichtweite bis zu 15,00 Metern auswählen.
+Ein regulärer xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_save[Magie-Rettungswurf] steht dem Ziel zu.
+Bei einem Erfolg des Hirsches erhält das Ziel einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit dem angegebenen Schaden.
+
+== Taktik
+Manihrynn leben wie ihre gewöhnlichen Verwandten, Rehe und Hirsche, in Gruppen.
+Auch weibliche Manihrynn tragen ein Geweih und somit ein ernst zunehmer Gegner.
+Manihrynn ziehen selten von sich aus in einen Konflikt, sondern vermeiden Kontakt mit anderen gefährlichen Kreaturen.
+
+Sollten Manihrynn zu einem Kampf gezwungen werden, verteidigen sie erstaunlich taktisch.
+Stärkere Mitglieder der Gruppe werden Gegner im direkten Nahkampf binden, während andere ihre <<ref_bestiary_animals_lunar_stag_rules_light_wave,Lichtwelle>> einsetzen, um diese aus der Ferne zu schwächen.
+
+Seine Fähigkeit <<ref_bestiary_animals_lunar_stag_rules_moonphase,Mondphase>> nutzt ein Manihrynn üblicherweise für zwei Situationen: um aus einer gefährlichen Situation zu fliehen oder um seine Position im Kampf zu verbessern.
+Letzteres allerdings nur, wenn er den Kampf dadurch deutlich zu seinen Gunsten wenden kann.

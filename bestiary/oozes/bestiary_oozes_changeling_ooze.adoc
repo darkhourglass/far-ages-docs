@@ -23,7 +23,6 @@ Lore
 *MP:* 60 +
 *SP:* - +
 
-*WID:* 20 +
 *BEW:* 12,00 +
 *INI:* 6 +
 *MaxTL:* 150 +
@@ -37,7 +36,7 @@ Lore
 
 *Immunitäten:*
 
-* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Wunden und Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
@@ -99,7 +98,6 @@ Nutzt er diese Fähigkeit, kann er eine der folgenden Optionen auswählen:
 Kein Attribut kann eine Stufe von 0 erreichen.
 Dadurch ändern sich die jeweiligen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsboni], allerdings keine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften].
 * Er erhält einen zusätzlichen Bonus von +6,00 Metern zu seiner xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
-* Er erhält einen zusätzlichen Bonus von +4 auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID].
 * Er erhält eine der folgenden Fortbewegungsmöglichkeiten mit seiner aktuellen BEW, auch wenn seine Form diese nicht bietet: link:../skills/bestiary_skill_move_flight.adoc[Fliegen], link:../skills/bestiary_skill_move_climb.adoc[Klettern], link:../skills/bestiary_skill_move_swim.adoc[Schwimmen]
 
 In jedem Fall kehrt das Profil des Formwandels am Anfang seiner nächsten Kampfphase in seinen Ursprung zurück.
@@ -119,9 +117,9 @@ Es gelten folgende Grundannahmen in allen Fällen:
 Sie besitzen allerdings nicht die typischen Eigenschaften, beispielweise ist ein Formwandler, der ein Stück Holz imitiert, nicht brennbarer als sonst.
 * Formwandler sind besonders gut darin, Humanoide Verhaltensweisen nachzuahmen, sowohl um <<ref_bestiary_changeling_ooze_outstanding_change_specific_humanoid,Individuen>> zu imitieren, als auch in der <<ref_bestiary_changeling_ooze_outstanding_change_general_humanoid,Masse>> nicht aufzufallen.
 Ähnlich wie bei Materialien sind Haut (oder Fell), aber auch subtile Merkmale wie Atmen oder Schweiß bei oberflächlicher Beobachtung nicht als Imitat zu erkennen.
-* Grundsätzlich gilt, im Gegensatz zu anderen Gestaltwandlungen, erhält ein gewandelter Formwandler genug Schaden, um seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_threshold[WID] zu übertreffen, so wird seine Natur offensichtlich: Holz würde nicht splittern oder eine Wunde bluten.
+* Grundsätzlich gilt, im Gegensatz zu anderen Gestaltwandlungen, erhält ein gewandelter Formwandler genug Schaden, um eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzung] zu erhalten, so wird seine Natur offensichtlich: Holz würde nicht splittern oder eine Wunde bluten.
 Stattdessen fließt seine Masse aus.
-Er erhält aufgrund seiner link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immunität] keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung], aber im Allgemeinen ist seine Tarnung aufgeflogen.
+Er erhält aufgrund seiner link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immunität] keinen  xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Pool-spezifischen Zustand], aber im Allgemeinen ist seine Tarnung aufgeflogen.
 * Für eine reine visuelle Enttarnung ist eine Probe in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] nötig.
 Der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] ist durch die Formel 20 + CH-Stufe des Formwandlers gegeben.
 Bei einem durchschnittlichen Erfolg fällt einem Beobachter etwas Merkwürdiges auf.

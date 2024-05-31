@@ -34,7 +34,6 @@ Die Sichtung von Sha'yuun gilt in vielen Kulturen als böses Omen.
 *MP:* 50 +
 *SP:* 45 +
 
-*WID:* 12 +
 *BEW:* link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 9,00 +
 *INI:* 9 +
 *MaxTL:* 30 +
@@ -80,7 +79,7 @@ Die Sichtung von Sha'yuun gilt in vielen Kulturen als böses Omen.
 
 [[ref_bestiary_shayuun_rules_leech_pain]]
 === Schmerzen aufsaugen
-Attackiert ein Sha'yuun eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur erfolgreich mit einem Tentakel und verursacht eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_wounds[Verletzung], kann die Kreatur in den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror] zwingen.
+Attackiert ein Sha'yuun eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur erfolgreich mit einem Tentakel und bringt sie über eine beliebige xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] ihre TP-Pools, kann die Kreatur in den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror] zwingen.
 Der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] berechnet sich aus 12 plus dem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] des Sha'yuun in seinem Attribut xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH].
 
 Wurde die Kreatur paralysiert, erhält sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -10 auf diese Probe.

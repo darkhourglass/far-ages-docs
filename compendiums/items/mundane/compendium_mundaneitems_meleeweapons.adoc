@@ -9,7 +9,7 @@
 |1W6
 |0.5
 |50
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_lightweight[Leichtgewichtig]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_lightweight[Leichtgewichtig], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise]
 
 |Bastardschwert
 |ST
@@ -41,7 +41,7 @@
 |1W4
 |1
 |30
-|-
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_lightweight[Leichtgewichtig], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_quick[Schnell]
 
 |Dolch
 |GE
@@ -49,7 +49,7 @@
 |1W4
 |2
 |8
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_lightweight[Leichtgewichtig], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_quick[Schnell]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_lightweight[Leichtgewichtig], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_quick[Schnell]
 
 |Doppelflegel mit Kette
 |ST
@@ -105,7 +105,8 @@
 |1W6
 |1
 |15
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_reach[Erhöhte Reichweite]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_reach[Erhöhte Reichweite], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
+
 
 |Kettenpeitsche
 |ST
@@ -129,7 +130,7 @@
 |-1
 |3
 |20
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_nondeadly[Nicht-tödlich]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_nondeadly[Nicht-tödlich], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Kampfflegel
 |ST
@@ -153,7 +154,7 @@
 |1W8
 |4
 |40
-|-
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Kurzschwert
 |GE
@@ -161,7 +162,7 @@
 |1W6
 |2
 |30
-|-
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_precise[Präzise]
 
 |Langschwert
 |ST
@@ -185,7 +186,7 @@
 |1W6
 |1
 |40
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_reach[Erhöhte Reichweite]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_reach[Erhöhte Reichweite], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Schwerer Kriegshammer
 |ST
@@ -209,5 +210,5 @@
 |1W8
 |4
 |40
-|-
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 |===
