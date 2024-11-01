@@ -3,7 +3,7 @@
 *Attribute:* +1 ST, +1 KO +
 *Talente:* Athletik, Akrobatik, Konversation, Nahkampfwaffen, Parade, Reiten, Schildverteidigung, Tierfreundschaft, Wissen[Tiere] +
 *Fähigkeiten:* - +
-*TP/MP-Steigerung:* +8/+2 +
+*Pool-Steigerung:* +8/+2/+2 +
 *Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin] +
 *Startausrüstung:* Lanze, Nahkampfwaffe, Pflege und Versorgungsmittel für sein Reittier, wetterfeste Kleidung, Lederrüstung +
 *Eigenschaften:* <<ref_core_professions_chevalier_inspiring_presence,Inspirierende Präsenz>>, <<ref_core_professions_chevalier_trusty_steed,Treues Reittier>>, <<ref_core_professions_chevalier_symbiotic_figthing,Symbiotischer Kampfstil>>, <<ref_core_professions_chevalier_animal_care,Tierpflege>> +
@@ -20,7 +20,7 @@ Um diese Fähigkeit anwenden zu können, muss der Kavalier auf seinem Reittier r
 Zu Beginn des Spiels erhält der Kavalier ein link:../skills/professions/core_skill_professions_mount.adoc[Reittier].
 Darüber hinaus hat das Reittier Stresssituationen wie den Kampf trainiert und kann daher an diesen teilnehmen.
 Es gilt außerdem als ein xref:../skills/professions/core_skill_professions_animal_companion.adoc[Tiergefährten] für den Charakter.
-Jedes Mal, wenn der Kavalier eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP/MP des Reittiers um +6/+1.
+Jedes Mal, wenn der Kavalier eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_pools[Steigerung] durchführt, erhöhen sich ebenfalls der TP-Pools des Reittiers um +6.
 
 [[ref_core_professions_chevalier_symbiotic_figthing]]
 == Symbiotischer Kampfstil

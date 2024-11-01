@@ -119,55 +119,7 @@ geschätzt bei Elementaristen, die mit dem Weg des Feuers arbeiten.
 Besonders selten sind Kristalle, die zu einem gleichen Teil zwei
 unterschiedliche Energien gleichmäßig vereinen.
 
-[[ref_core_magic_lore_spheres_and_planes]]
-=== Sphären und Ebenen
 
-// TODO
-
-[[ref_core_magic_lore_spheres_halfspheres]]
-=== Halbebenen und Knotenpunkte
-
-Halbebenen sind endliche Universen, die meistens sehr klein sind und unvollendet wirken.
-Sie existieren nicht als eigenständige Universen in der großen Kosmologie, sondern als „Blasen“ im Aether, die sich nahe der Anziehungskraft eines großen Universums wie Satelliten bewegen.
-
-Halbebenen werden meistens dazu benutzt, um innerhalb von derselben Dimension zu reisen.
-
-Ebenso verhalten sich Knotenpunkte: konzentrierte Verbindungspunkte zwischen verschiedenen Sphären.
-
-[[ref_core_magic_lore_portals]]
-=== Portale
-
-Portale sind Verbindungen zwischen verschiedenen Welten und Dimensionen.
-Würde man sich die verschiedenen Dimensionen als Geraden vorstellen, die
-beliebig angeordnet sind, dann sind Schnittpunkte dieser Geraden
-mögliche Stellen, an denen ein Portal entstehen kann. Mit der nötigen
-Magie können die Grenzen zwischen den Welten geöffnet werden, so dass
-man hindurchwandern kann.
-
-Portalreisen sind von Beginn an eine gefährliche Unternehmung gewesen,
-denn man kann nie wissen, was hinter einem Portal steckt, wenn man es
-entdeckt und öffnet. Allerdings gaben die Portale den Gelehrten einen
-guten Einblick in die Funktionsweisen des Multiversums. Man konnte die
-Ebenen „anordnen“ und ihnen Rotationen zuordnen. Die Ebenen und Sphären
-bewegen sich also zueinander, wie Planeten um Sonnen kreisen und die
-Sonnen in ihrer Galaxie wiederum um schwere Massezentren kreisen.
-
-Ebenen, die sich nahe kommen, beeinflussen sich gegenseitig, so zum
-Beispiel Askalot, die Ebene, in der die Ghargoyle heimisch sind, bewegt
-sich auf die Elementarsphäre der Erde zu und wird damit mehr und mehr zu
-einer steinernen Welt.
-
-Portalreisen sind auch innerhalb von Dimensionen möglich. Dazu sucht man
-sich ein Portal in eine andere Dimension, von der aus man wiederum ein
-Portal sucht, das an den Punkt in der eigenen Dimension führt, zu dem
-man hinwill.
-
-So durchquert man andere Dimensionen, um Abkürzungen in der Eigenen zu
-finden. Dies mag widersinnig klingen, aber tatsächlich kann es sein,
-dass dadurch weniger Zeit vergeht, als auf dem normalen Weg, denn die
-Dimension haben bei weitem kein einheitliches Zeitsystem. Wer 10 Jahre
-in einer Dimension X verbringt, kann in Dimension Y zurückkehren und
-feststellen, dass er nur wenige Augenblicke weg war.
 
 [[ref_core_magic_rules]]
 == Regeln
@@ -446,7 +398,7 @@ Diese Form des Rettungswurfs ist Teil des <<ref_core_magic_rules_spellcasting_sp
 
 [[ref_core_magic_rules_spellcasting_spellburning]]
 ==== Unterbrechen der Vorbereitung und Verbrennen
-Während der Vorbereitung ist es natürlich möglich, dass der Zauberer unterbrochen wird.
+Während der Vorbereitung kann es vorkommen, dass der Zauberer unterbrochen wird.
 Dies wird sogar von halbwegs intelligenten Gegnern besonders verfolgt, denn die wenigstens warten ab, bis die Beschwörungsgesänge, die angedeuteten grünen Wolken und die düster gemurmelten Worte des Magiers sich in gleißende Magie entlädt und auf die Unglücklichen niederprasselt.
 
 Somit kann ein Magier, der zu einer anderen xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] als xref:core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereiten] die Vorbereitung für den Zauber verlieren.
@@ -457,20 +409,21 @@ Dazu würfelt er eine Probe auf xref:core_rules_talents_base.adoc#ref_talents_re
 
 Besteht er die Probe, behält er die Vorbereitung und kann diese in seiner nächsten Aktion weiterführen.
 Diese kann auch erst in seinem nächsten Zug liegen.
-Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] erhält er einen xref:core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit POT*1W3 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.
+Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] erhält er einen xref:core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit POT*1W3 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aether-Schaden].
+
 
 .Verbrennen
 ====
 Bei dem Versuch, einen Zauberspruch mit POT 6 auszusprechen, wird der Zauberer unterbrochen.
 Er muss eine Probe auf Verbrennen widerstehen gegen 8+6=14 ablegen.
-Schlägt auch diese fehl, erhält er 6W3 Schaden.
+Schlägt auch diese fehl, erhält er 6W3 Aether-Schaden.
 ====
 
 Ist die Probe in xref:core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer], tritt neben dem Schaden des Misserfolgs außerdem ein <<ref_core_magic_rules_spellcasting_spell_botches,Zauberpatzer>> ein.
 
 [[ref_core_magic_rules_spellcasting_cancelspell]]
 ==== Freiwilliges Abbrechen eines Zauberspruches
-Grundsätzlich gilt, dass ein Zauberer die Vorbereitung, in seiner Kampfphase freiwillig xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions_cancelaction[aufgeben] kann, ohne dabei <<ref_core_magic_rules_spellcasting_spellburning,Verbrennen>> zu erleiden.
+Grundsätzlich gilt, dass ein Zauberer die Vorbereitung in seiner Kampfphase freiwillig xref:core_rules_battlesystem.adoc#ref_core_battle_freeactions_cancelaction[aufgeben] kann, ohne dabei <<ref_core_magic_rules_spellcasting_spellburning,Verbrennen>> zu erleiden.
 
 [[ref_core_magic_rules_spellcasting_spell_botches]]
 ===== Zauberpatzer
@@ -576,7 +529,7 @@ Zauber, deren Ziel die Psyche des Ziels angreifen, können nach Ermessen des SLs
 ==== Kumulative Effekte von Zaubersprüchen
 Im Allgemeinen gilt, dass Charaktere gleiche Boni aus gleichen Quellen nur einmal erhalten.
 Ebenso sind Boni, die dasselbe bewirken, nicht kumulativ.
-Es zählt grundsätzlich immer der höchste Bonus außer ein Zauberspruch oder magischer Effekt schließt diese Beschränkung explizit aus.
+Es zählt grundsätzlich immer der höchste Bonus, außer der Zauberspruch oder magischer Effekt schließt diese Beschränkung explizit aus.
 
 .Effekte von Zaubersprüchen
 ====
@@ -635,7 +588,7 @@ Würfelt der Charakter einen <<ref_core_magic_rules_spellcasting_spell_botches,Z
 *Zauberstecken* sind meist kunstvoll gestaltete Stäbe, die einen oder mehrere Zaubersprüche enthalten können.
 Diese Zauber sind im Gegensatz zu einer  <<ref_core_magic_rules_spellcasting_scrolls,Spruchrolle>> nicht zwangsläufig nur einmal einsetzbar, aber auch nicht unbedingt beliebig oft wie bei einem <<ref_core_magic_rules_spellcasting_grimoire,Grimoire>>.
 Zum Verwenden und Aussprechen eines Zauberspruches aus einem Stecken, folgt man den gleichen Regeln wie Spruchrollen.
-Jeder Zauberstecken definiert entweder ist eine feste Anzahl von Anwendungen oder besitzt einen eigenen Pool an <<ref_core_magic_base_items_with_mp,MP>> aus dem der Zauberspruch gesprochen wird.
+Jeder Zauberstecken definiert entweder ist eine feste Anzahl von Anwendungen oder besitzt einen eigenen Pool an <<ref_core_magic_base_items_with_mp,MP>>, aus dem der Zauberspruch gesprochen wird.
 
 Wenn nicht anders erwähnt, muss der Anwender dann eine Spruchzauberei-Probe oder eine Energie-Probe ablegen.
 Manche Zauberstecken und magische Gegenstände entfachen ihre Wirkung einfach auf Kommando.
@@ -707,8 +660,7 @@ Manche Gegenstände ermöglichen es, diese Batterie auszutauschen oder Magier k�
 
 [[ref_core_magic_base_items_with_mp_storage]]
 ===== Magiespeicher
-Am Einfachsten ist der sogenannte *Magiespeicher*.
-Ein Gegenstand mit dieser Eigenschaft (auch zu identifizieren durch die Beschreibung des Gegenstandes in Form von „stellt dem Anwender x MP zur Verfügung“) besitzt eine festgelegte Obergrenze von MP, die er enthalten kann.
+Ein *Magiespeicher*  (auch zu identifizieren durch die Beschreibung des Gegenstandes in Form von „stellt dem Anwender x MP zur Verfügung“) besitzt eine festgelegte Obergrenze von MP, die er enthalten kann.
 Ein Magier kann diese MP genauso nutzen als wären es seine Eigenen.
 Dazu muss er diesen Gegenstand jedoch entweder in der Hand halten oder direkt am Körper tragen.
 Dazu zählt jeder Charakter mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] oder xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] auf mindestens Stufe 1.
@@ -749,22 +701,15 @@ Für beide Vorgänge haben die Technomanten eigene <<ref_core_magic_schools_tech
 [[ref_core_magic_base_items_with_mp_corruptedstorages]]
 ===== Verunreinigte Magiespeicher
 Weiterhin bezeichnet man Gegenstände mit MP als *verunreinigt*, wenn bei ihrer Bearbeitung beispielsweise ein Fehler aufgetreten ist.
-Magische Kristalle, die in der freien Wildbahn existieren, gelten ohne Behandlung auch als verunreinigt.
-
-Weiterhin gelten Gegenstände als verunreinigt, wenn sie für den Austausch von MP nicht ausgelegt sind.
+Magische Kristalle ohne vorherige Behandlung gelten als verunreinigt.
 
 Ein Magier muss pro einem entzogenen MP aus einem verunreinigten Gegenstand 1W10 TP opfern.
 Dieser Schaden gilt als xref:core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbar].
 Verunreinigte Gegenstände können noch andere Auswirkungen haben.
 Dies wird dann explizit bei den Gegenständen angegeben.
 
-.Gegenstände mit Magiepunkten (Fortsetzung)
-====
-Wenn Ghato die MP in dem Zauberstecken für sich nutzen will, so verliert er 1W10 TP für jeden 1 MP, den dem Stecken entzieht.
-====
-
 [[ref_core_magic_schools_of_magic]]
-=== Regeln für Zauberschulen
+=== Zauberschulen
 Eine *Zauberschule* steht für eine umfassende Sammlung an Wissen, arkaner Traditionen und natürlich Zaubersprüche.
 Dabei hat jede Zauberschule hat ihre Eigenheiten und Besonderheiten.
 Ein Charakter lernt eine Zauberschule mit einem korrespondierende Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei].
@@ -825,7 +770,7 @@ Der Charakter muss sich daher entscheiden, welchen Zauber er lernt.
 
 Ein Charakter kann niemals eine ergänzende Zauberspruchliste mehrfach lernen oder verschiedenen Zauberspruchlisten zuordnen.
 
-Im Ermessen des SLs können die hier vorgestellten Regeln auch verwendet werden, um andere Zauberspruchlisten, die nicht explizit ergänzende Zauberspruchlisten sind.
+Im Ermessen des SLs können die hier vorgestellten Regeln auch auf Zauberspruchlisten verwendet werden, die nicht explizit als ergänzende Zauberspruchlisten gekennzeichnet sind.
 
 [[ref_core_magic_schools_of_magic_overview]]
 ==== Übersicht der Zauberschulen
@@ -927,6 +872,11 @@ je 5 Zaubersprüche aus Weg der Erde, Weg der Wasser
 ====== Elementarismus der ungeteilten Elemente
 Ein sehr erfahrener Elementarist kann den Pfad des Schicksals link:../../rules/advanced/paragonpaths/paragon_path_master_of_undivided_elements.adoc[Meister der ungeteilten Elemente] wählen, um die Zauberspruchliste Weg der ungeteilten Elemente zu lernen.
 
+[[ref_core_magic_schools_highmagic]]
+===== Hohe Magie
+
+//TODO
+
 [[ref_core_magic_schools_illusionsm]]
 ===== Illusionismus
 
@@ -1000,31 +950,46 @@ Erst wenn der Charakter diese Wand berührt und damit ihre illusionäre Natur au
 Der SL kann den Charakteren auch Erlauben nach den bisher genannten Vorgaben aktiv nach Illusionen zu schauen.
 
 [[ref_core_magic_schools_music]]
-===== Magie der Musik
+===== Musik
 
 [quote, Byhragast „Eisauge“]
 „Nicht nur die Magier verwenden Magie. Die Magie der Musik ist erstaunlich mächtig und vielseitig.“
 
 Die Magie der Musik basiert allein auf Melodie, Gesang und einer besonderen Auslegung arkaner Spruchzauberei.
 Ihr häufigsten Anwender sind die xref:professions/core_professions_menestrel.adoc[Menestrel] oder xref:professions/core_professions_scald.adoc[Skalden].
-Die folgenden Regeln beziehen sich nur auf die Zaubersprüche in der Zauberschule *Magie der Musik*.
+Die folgenden Regeln beziehen sich nur auf die Zaubersprüche in der Zauberschule *Weg der Musik*.
 
-* Zaubersprüche erlernt der Anwender über das Talent xref:../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] nach den üblichen Regeln.
-* Der Anwender benötigt keine der üblichen Gesten, Materialien oder Zauberformel, selbst dann nicht, wenn diese explizit in der Zauberbeschreibung stehen.
-Stattdessen müssen die Zaubersprüche gesungen werden.
-Sie benötigen also die Vorbereitungszeit, um den Zauberspruch durch ein Lied darzustellen.
-Die Vorbereitungszeit kann nicht verkürzt werden.
-* Es tritt auch kein Verbrennen ein, allerdings führt eine Unterbrechung des Gesangs zu dem Verlust der Vorbereitung.
-* Sie müssen während der Dauer eines Zauberspruches nicht singen, außer es handelt sich um ein *Zauberlied*.
-Diese wiederum enden automatisch, wenn der Anwender aufhört zu singen (aus welchen Gründen auch immer).
-* Zauberlieder betreffen nur lebende, humanoide Wesen, die die Sprache des Anwenders verstehen.
-Wesen, die gegen Zauber der Geistesbeeinflussung immun sind, sind auch immun gegenüber Zauberliedern.
-* Das Lernen der Zaubersprüche folgt nach den normalen Regeln.
+* Zaubersprüche erlernt der Anwender über das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] nach den üblichen Regeln.
+* Der Weg der Musik enthält eine eigene Form von Zaubersprüchen, den <<ref_core_magic_schools_music_spellsongs,Zauberliedern>>, deren Regeln im eigenen Kapitel beschrieben sind.
+* Für alle anderen Zauber, die keine Zauberlieder sind, gelten die üblichen Regeln zum Erlernen und Aussprechen
 
-Außerdem lernt der Magie mit der ersten Talentstufe in dieser Zauberschule eine der folgenden Listen:
+Außerdem lernt der Charakter mit der ersten Talentstufe in dieser Zauberschule eine der folgenden Listen:
 
 * link:../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofspirit.adoc[Weg des Geistes]
 * link:../../compendiums/spelllists/primordialmagic/compendium_spelllist_wayofbody.adoc[Weg des Körpers]
+
+[[ref_core_magic_schools_music_spellsongs]]
+====== Zauberlieder
+Zaubersprüche des Wegs der Musik können mit Fokus *Zauberlied* markiert sein.
+Diese besondere Art von Zaubern funktioniert leicht anders als die üblichen Zaubersprüche.
+
+* Alle Zauberlieder müssen durch den Charakter 'aufgeführt' werden, analog zu anderen Zaubern aus dem Weg der Musik.
+Der Charakter muss also in der Lage sein, Musik zu spielen und zu singen.
+* Zauberlieder besitzen keine <<ref_core_magic_rules_spellcasting_spellspecifics_preparation,Vorbereitung>> und keine <<ref_core_magic_rules_spellcasting_spellspecifics_duration,Dauer>>.
+Stattdessen beginnen Zauberlieder ihren <<ref_core_magic_rules_spellcasting_spellspecifics_effect,Effekt>> zu wirken, in dem Moment, in dem der Charakter anfängt zu singen und enden, sobald er aufhört.
+* Wie jeder Zauberspruch muss der Einsatz eines Zauberliedes zu Beginn des xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] begonnen werden.
+Dazu würfelt der Charakter eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> nach den üblichen Regeln.
+Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg] tritt der Effekt des Zauberliedes sofort ein.
+* Zu Beginn der nachfolgenden xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Züge] muss der Charakter entscheiden, ob das Zauberlied weiterführt oder abbricht.
+Endet das Lied, endet sein Effekt in der Regel sofort.
+* Das Singen eines Zauberlieds gilt als xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion].
+* Eine Unterbrechung des Gesangs führt nicht zum <<ref_talents_resist_spellburning,Verbrennen>>.
+* Formal benötigt ein Charakter außerdem eine Variante des Talents xref:core_rules_talents_base.adoc#ref_talents_art[Kunst], um beispielsweise in Instrument zu spielen oder zu singen.
+Dazu ist in der Regel keine Probe nötig, allerdings kann der SL unter stressigen Situationen eine Probe verlangen.
+* Zauberlieder betreffen nur lebende, humanoide Wesen, die die Sprache des Anwenders verstehen.
+Wesen, die gegen Zauber der Geistesbeeinflussung immun sind, sind auch immun gegenüber Zauberliedern.
+Der Charakter kann beim Einsatz eines Zauberliedes immer die entscheiden, ob aus Zauberlied entweder seine Verbündeten, seine Feinde oder beide Gruppen betreffen soll.
+Es ist allerdings nicht möglich, einzelne Individuen einer Gruppe auszuschließen.
 
 [[ref_core_magic_schools_necromancy]]
 ===== Nekromantie
@@ -1036,111 +1001,7 @@ Auf ihrer Suche nach dem geheimen Wissen der dunkelsten Ecken des Multiversums u
 Trotz aller Vorsicht lässt sich die zwiespältige Natur der *Nekromantie*, der schmale Grat zwischen Genie und Wahnsinn, nicht umgehen.
 
 Um dies zu simulieren, müssen Charaktere, immer wenn sie eine gerade Stufe in ihrem Talent Spruchzauberei[Nekromantie] lernen (also auf Stufe 2, 4, 6, 8,...), einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen, wobei der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] 10 plus die jeweilige Talentstufe beträgt.
-Bei einem Misserfolg erhalten sie den Zustand xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror].
-
-[[ref_core_magic_schools_technomancy]]
-===== Technomantie
-
-[quote, Byhragast „Eisauge“]
-„Erstaunlicherweise hört man Technomanten meistens, bevor man sie sieht.“
-
-Die xref:core_rules_technomancy.adoc[Technomantie] besitzt nicht nur ihre eigene Zauberspruchliste, sondern auch ihr eigenes xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Talent].
-Diese Zaubersprüche sind exakt so aufgebaut, wie alle anderen Zaubersprüche auch, dennoch ist die Technomantie keine Zauberschule.
-Diese Zaubersprüche symbolisieren im Endeffekt die besonderen Fähigkeiten, die Technomanten ausmachen und mit denen sie ihre besondere Profession ausüben.
-
-So ist beispielsweise die Fähigkeit, einen Golem zu kontrollieren, ein Zauberspruch der Technomantie.
-
-Mit der Stufe im xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Talent] Technomantie bestimmen Technomanten, welche Zaubersprüche er lernen lernt.
-Technomanten müssen ihre Zaubersprüche *nicht* extra lernen und CP dafür ausgeben, sondern erhalten diese automatisch, sobald sie die entsprechende Stufe im Talent Technomantie erreichen.
-
-Das Talent wird außerdem für Spruchzauberei-Proben verwendet.
-Techmantische Zaubersprüche gelten für alle Regel-Belange als Spruchzauberei.
-Das Talent Technomantie kann nicht als Voraussetzung für andere xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents[Talente] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[besondere Fähigkeiten] genutzt werden, die das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] beinhalten.
-
-Ansonsten gilt, dass ein Technomant seine Zauber genauso vorbereiten muss, wie ein Zauberer.
-Er kann weiterhin auf die übliche Weise die Vorbereitungszeit verkürzen und zusätzliche Effekte verwenden.
-Ebenso kann er in der Vorbereitung unterbrochen werden und muss aufpassen, dass ihn das Verbrennen nicht trifft.
-
-Patzer werden nach den üblichen Regeln abgehandelt.
-
-Technomantische Zaubersprüche können _nicht_ auf <<ref_core_magic_rules_spellcasting_scrolls,Spruchrollen>> oder in <<ref_core_magic_rules_spellcasting_grimoire,Grimoire>> geschrieben werden oder von diesen gewirkt werden.
-
-Das Dokument link:core_rules_technomancy.adoc[Technomantie] erweitert die Technomantie in Far Ages um die technische Seite dieser Art der Magie.
-In dem Dokument finden sich Regeln und Ideen zum Entwickeln eigener technomantischer Gegenständen sowie eine große Liste von unterschiedlichen Gegenständen von Feuerstäben bis Schlachtengolems.
-
-[[ref_core_magic_schools_wild_magic]]
-===== Wilde Magie
-
-[quote, Byhragast „Eisauge“]
-"Hütet euch vor der Wilden Magie.
-Sie ist wie ein ungebändigtes Pferd, das seinen Reiter im wilden Galopp von seinem Rücken wirft.
-Traut ihr nicht und lasst euch nicht von ihrer Kraft verführen.
-Sie bringt nichts Gutes."
-
-Als *wilde Magie* bezeichnen Magier beunruhigende Phänomene, die man überall im Multiversum findet.
-Magie ist ein unstetiger und unregelmäßiger Fluss von Energien, die sich in manchen Fällen im Aether zusammenballen.
-
-Was ist an wilder Magie nun gefährlich?
-Wie Byhragast es bereits erwähnt hat, ist wilde Magie unberechenbar.
-Und tatsächlich ist es für einen Zauberer gefährlich, seine Magie innerhalb einer *Zone wilder Magie* zu wirken.
-Die Wilde Magie kann auf seine Magie einen katastrophalen Effekt haben, fast so, als hätte er einen Zauberpatzer verursacht.
-Auf der anderen Seite kann wilde Magie dazu führen, dass Zaubereffekte verstärkt oder gar verändert werden.
-Zauberei innerhalb eines solchen Feldes gleicht somit eher einem Glücksspiel, das unter keiner Kontrolle steht.
-
-Weiterhin ist bekannt, dass Zonen wilder Magie häufig eigenständig magische Effekte generieren, die „echter“ Spruchzauberei ähnlich sind.
-//TODO
-Beispielsweise könnte in einem Feld ein Zaubereffekt ähnlich Rankenwuchs (Weg des Wachstum 1) kombiniert mit Fruchtbare Erde (Weg des Wachstums 1) existieren, der dazu führt, dass die dortigen Pflanzen in ungebändigter Manier wachsen und gedeihen.
-Eine andere, weitaus bedrohlichere Variante wäre, wenn dort Animiere Baum (Schamanismus 6) und Verursache Raserei (Weg des Geistes 5) wirken würde: dann bekäme man es mit wild gewordenen Baumgeistern in Form großer Eichen zu tun.
-
-In anderen Fällen wurde berichtet, dass Kinder, die in Zonen Wilder Magie geboren wurden, seltsame Kräfte und körperliche Veränderungen entwickelt haben.
-Lebende Wesen, Tier wie Humanoide, die sich zu lange in einer solchen Zone aufhalten, beginnen ebenfalls sich zu verändern, die einen mehr, die anderen weniger.
-
-Unzählige Gerüchte und unerklärliche Phänomene lassen sich mehr oder weniger direkt auf wilde Magie zurückführen.
-
-[[ref_core_magic_schools_wild_magic_spellcasting]]
-====== Einsatz von Wilder Magie im Spiel
-Wilde Magie ist ein sehr mächtiges Stilmittel für eine Far Ages-Kampagne, da sie zufällig und unberechenbar erscheint.
-Jedoch sollte der SL ihren Einsatz genau planen.
-Wilde Magie kann jederzeit und überall auftreten, plötzlich erscheinen und ebenso plötzlich wieder verschwinden – zumindest sollte es so aussehen.
-
-In diesem Kapitel wollen wir einige als Inspiration dienende Richtlinien vorstellen, die es einem SL ermöglichen, Spielercharaktere in Feldern wilder Magie mit einigen Überraschungen zu versorgen.
-
-Immer wenn ein Charakter xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] in einem Feld wilder Magie verwendet, so kann der SL mithilfe der folgenden xref:../tables/magic/tables_magic_wildmagic_effects.adoc[Tabelle] einen zufälligen Effekt bestimmen, der aufgrund der Spruchzauberei ausgelöst wird.
-
-[[ref_core_magic_schools_wild_magic_learing_casting]]
-====== Spruchzauberei mit Wilder Magie
-Neben der allgegenwärtigen Spruchzauberei, die die Magie in Rituale und Traditionen verfasst hat, haben sich seit vielen Generationen Magier auch damit beschäftigt, die beinahe unzähmbaren Energien der wilden Magie für sich zu nutzen.
-Diese Magier, die viele Namen tragen, wie Hexer, Wilder oder Scharlatane, ignorieren bewusst die magischen Traditionen der großen Spruchzauberei-Schulen und stürzen sich in die ungebändigte Macht der wilden Magie.
-
-Ein Zauberer, der wilde Magie als Spruchzauberei „Schule“ lernt, kann diese nutzen, um ähnlich den gelehrten Magiern Zaubersprüche zu wirken.
-Im Gegensatz zu Magiern hat der Hexer jedoch keine Zauberformeln gelernt, sondern zieht die gewünschten Zaubereffekten aus der eigenen Erfahrung und Inspiration.
-
-Aus Sicht der Regeln ist die Verwendung von Zaubersprüchen und Spruchzauberei-Proben identisch, das heißt auch ein Hexer muss Zaubersprüche vorbereiten, kann MP einsetzen, muss sich an Einschränkungen aufgrund seiner MaxPOT halten und erleidet Zauberpatzer.
-
-Es gelten jedoch folgende, zusätzlichen Regeln und Änderungen:
-
-* Die Zauberschule der wilden Magie bringt keine eigene Zauberspruchliste mit.
-Der Hexer kann aus allen Zauberspruchschulen Zaubersprüche lernen, solange seine Talentstufe in Spruchzauberei [Wilde Magie] hoch genug ist und er die CP aufbringt.
-Beispielsweise muss er die Talentstufe 3 erreicht haben, um einen Zauberspruch aus dem Weg des Feuers Stufe 3 lernen will.
-* Im Gegensatz zu einem anderen Spruchzauberern kann der Hexer nur eine begrenzte Anzahl von Zaubersprüchen lernen.
-Die Anzahl der Zaubersprüche, die der Hexer lernen kann, berechnet sich aus seiner Talentstufe in Spruchzauberei[Wilde Magie] und seinem Attributsbonus aus EN wie folgt: 2 + (Talentstufe * Attributsbonus).
-
-.Zauber mit Wilder Magie lernen
-====
-Zeraph hat eine Talentstufe von 3 in Spruchzauberei [Wilde Magie] und einen EN-Attributsbonus von 2.
-Er kann damit insgesamt 2 + (3 * 2) = 8 Zaubersprüche lernen.
-====
-
-* Gelernte Zaubersprüche können nicht „verlernt“ werde, um Platz für neue Zaubersprüche machen.
-* Bei einem Misserfolg gilt der Zauberspruch als wie in einer Zone wilder Magie gewirkt, d.h. ein zusätzlicher Effekt wie oben beschrieben tritt ein.
-* Im Fall eines Zauberpatzers tritt zusätzlich zum Zauberpatzer ein Effekt wilder Magie.
-Dieser Effekt wird bestimmt, als wäre der Zauberspruch mit 2*POT ausgesprochen worden.
-* Ein Hexer kann Spruchzauberei[Wilde Magie] nutzen, um Zaubersprüche von Spruchrollen und aus Grimoire zu wirken.
-Er kann das Talent allerdings nicht nutzen, um diese Gegenstände zu schreiben.
-* Ein Hexer kann auch andere Spruchzauberei-Talente lernen.
-Allerdings zaubert er über diese Talente nie mit wilder Magie und er muss Zaubersprüche zu dieser Zauberschule erneut lernen.
-Hat er beispielsweise Feuerball aus dem Weg des Feuers als Zauberspruch für Wilde Magie gelernt, und lernt nun Spruchzauberei[Elementarismus], so muss er Feuerball für Elementarismus noch einmal lernen.
-* Ein Magier, der Wilde Magie lernt, muss die gleichen Einschränkungen wie im vorherigen Punkt beschrieben hinnehmen, jedoch umgekehrt.
+Bei einem Misserfolg verliert er 1W6 SP.
 
 [[ref_core_magic_schools_runes]]
 ===== Runenmagie
@@ -1223,14 +1084,42 @@ Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier 
 |
 |===
 
-[[ref_core_magic_schools_highmagic]]
-===== Hohe Magie
+[[ref_core_magic_schools_shadowtricks]]
+===== Schattentricks
 
-//TODO
+[[ref_core_magic_schools_technomancy]]
+===== Technomantie
+
+[quote, Byhragast „Eisauge“]
+„Erstaunlicherweise hört man Technomanten meistens, bevor man sie sieht.“
+
+Die xref:core_rules_technomancy.adoc[Technomantie] besitzt nicht nur ihre eigene Zauberspruchliste, sondern auch ihr eigenes xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Talent].
+Diese Zaubersprüche sind exakt so aufgebaut, wie alle anderen Zaubersprüche auch, dennoch ist die Technomantie keine Zauberschule.
+Diese Zaubersprüche symbolisieren im Endeffekt die besonderen Fähigkeiten, die Technomanten ausmachen und mit denen sie ihre besondere Profession ausüben.
+
+So ist beispielsweise die Fähigkeit, einen Golem zu kontrollieren, ein Zauberspruch der Technomantie.
+
+Mit der Stufe im xref:core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Talent] Technomantie bestimmen Technomanten, welche Zaubersprüche er lernen lernt.
+Technomanten müssen ihre Zaubersprüche *nicht* extra lernen und CP dafür ausgeben, sondern erhalten diese automatisch, sobald sie die entsprechende Stufe im Talent Technomantie erreichen.
+
+Das Talent wird außerdem für Spruchzauberei-Proben verwendet.
+Techmantische Zaubersprüche gelten für alle Regel-Belange als Spruchzauberei.
+Das Talent Technomantie kann nicht als Voraussetzung für andere xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents[Talente] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[besondere Fähigkeiten] genutzt werden, die das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] beinhalten.
+
+Ansonsten gilt, dass ein Technomant seine Zauber genauso vorbereiten muss, wie ein Zauberer.
+Er kann weiterhin auf die übliche Weise die Vorbereitungszeit verkürzen und zusätzliche Effekte verwenden.
+Ebenso kann er in der Vorbereitung unterbrochen werden und muss aufpassen, dass ihn das Verbrennen nicht trifft.
+
+Patzer werden nach den üblichen Regeln abgehandelt.
+
+Technomantische Zaubersprüche können _nicht_ auf <<ref_core_magic_rules_spellcasting_scrolls,Spruchrollen>> oder in <<ref_core_magic_rules_spellcasting_grimoire,Grimoire>> geschrieben werden oder von diesen gewirkt werden.
+
+Das Dokument link:core_rules_technomancy.adoc[Technomantie] erweitert die Technomantie in Far Ages um die technische Seite dieser Art der Magie.
+In dem Dokument finden sich Regeln und Ideen zum Entwickeln eigener technomantischer Gegenständen sowie eine große Liste von unterschiedlichen Gegenständen von Feuerstäben bis Schlachtengolems.
 
 [[ref_core_magic_schools_druidism]]
 ===== Magie der Druiden
-Druiden nutzen urspüngliche Magie.
+Druiden nutzen ursprüngliche Magie.
 Für <<ref_core_magic_rules_spellcasting_spell_botches,Patzer>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
 
 Mit Lernen der ersten Talentstufe in dieser Zauberschule muss der Druide sich für eine der folgenden Zauberspruchlisten entscheiden, die zusätzlich zur Verfügung stehen:
@@ -1244,8 +1133,7 @@ Die Zaubersprüche der gewählten Liste lernt der Zauberer nach den üblichen Re
 
 [[ref_core_magic_schools_schamanism]]
 ===== Magie der Schamanen
-Wie Druiden nutzen Schamanen urspüngliche Magie.
-Für <<ref_core_magic_rules_spellcasting_spell_botches,Patzer>> nutzen sie eine eigene xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
+Wie Druiden nutzen Schamanen ursprüngliche Magie und nutzen damit auch bei einem <<ref_core_magic_rules_spellcasting_spell_botches,Patzer>> die entsprechende xref:../tables/table_magic_spellfailure_primoridal.adoc[Tabelle].
 
 Mit Lernen der ersten Talentstufe in dieser Zauberschule muss der Schamane sich für eine der folgenden Zauberspruchlisten entscheiden, die zur Verfügung stehen:
 
@@ -1272,3 +1160,78 @@ Dies gilt als entsprechende xref:core_rules_battlesystem.adoc#ref_core_battle_ac
 * Nach Ablauf der Dauer zerfällt der Totem zu Staub und kann nicht wieder genutzt werden.
 * Ebenso, wenn der Totem mehr als 5 Punkte Schaden aus beliebigen Quellen nimmt, wird er zerstört und der Effekt endet sofort.
 * Ein Schamane kann immer nur ein Totem der gleichen Art gleichzeitig besitzen und einsetzen.
+
+
+[[ref_core_magic_schools_wild_magic]]
+===== Wilde Magie
+
+[quote, Byhragast „Eisauge“]
+"Hütet euch vor der Wilden Magie.
+Sie ist wie ein ungebändigtes Pferd, das seinen Reiter im wilden Galopp von seinem Rücken wirft.
+Traut ihr nicht und lasst euch nicht von ihrer Kraft verführen.
+Sie bringt nichts Gutes."
+
+Als *wilde Magie* bezeichnen Magier beunruhigende Phänomene, die man überall im Multiversum findet.
+Magie ist ein unstetiger und unregelmäßiger Fluss von Energien, die sich in manchen Fällen im Aether zusammenballen.
+
+Was ist an wilder Magie nun gefährlich?
+Wie Byhragast es bereits erwähnt hat, ist wilde Magie unberechenbar.
+Und tatsächlich ist es für einen Zauberer gefährlich, seine Magie innerhalb einer *Zone wilder Magie* zu wirken.
+Die Wilde Magie kann auf seine Magie einen katastrophalen Effekt haben, fast so, als hätte er einen Zauberpatzer verursacht.
+Auf der anderen Seite kann wilde Magie dazu führen, dass Zaubereffekte verstärkt oder gar verändert werden.
+Zauberei innerhalb eines solchen Feldes gleicht somit eher einem Glücksspiel, das unter keiner Kontrolle steht.
+
+Weiterhin ist bekannt, dass Zonen wilder Magie häufig eigenständig magische Effekte generieren, die „echter“ Spruchzauberei ähnlich sind.
+//TODO
+Beispielsweise könnte in einem Feld ein Zaubereffekt ähnlich Rankenwuchs (Weg des Wachstum 1) kombiniert mit Fruchtbare Erde (Weg des Wachstums 1) existieren, der dazu führt, dass die dortigen Pflanzen in ungebändigter Manier wachsen und gedeihen.
+Eine andere, weitaus bedrohlichere Variante wäre, wenn dort Animiere Baum (Schamanismus 6) und Verursache Raserei (Weg des Geistes 5) wirken würde: dann bekäme man es mit wild gewordenen Baumgeistern in Form großer Eichen zu tun.
+
+In anderen Fällen wurde berichtet, dass Kinder, die in Zonen Wilder Magie geboren wurden, seltsame Kräfte und körperliche Veränderungen entwickelt haben.
+Lebende Wesen, Tier wie Humanoide, die sich zu lange in einer solchen Zone aufhalten, beginnen ebenfalls sich zu verändern, die einen mehr, die anderen weniger.
+
+Unzählige Gerüchte und unerklärliche Phänomene lassen sich mehr oder weniger direkt auf wilde Magie zurückführen.
+
+[[ref_core_magic_schools_wild_magic_spellcasting]]
+====== Einsatz von Wilder Magie im Spiel
+Wilde Magie ist ein sehr mächtiges Stilmittel für eine Far Ages-Kampagne, da sie zufällig und unberechenbar erscheint.
+Jedoch sollte der SL ihren Einsatz genau planen.
+Wilde Magie kann jederzeit und überall auftreten, plötzlich erscheinen und ebenso plötzlich wieder verschwinden – zumindest sollte es so aussehen.
+
+In diesem Kapitel wollen wir einige als Inspiration dienende Richtlinien vorstellen, die es einem SL ermöglichen, Spielercharaktere in Feldern wilder Magie mit einigen Überraschungen zu versorgen.
+
+Immer wenn ein Charakter xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] in einem Feld wilder Magie verwendet, so kann der SL mithilfe der folgenden xref:../tables/magic/tables_magic_wildmagic_effects.adoc[Tabelle] einen zufälligen Effekt bestimmen, der aufgrund der Spruchzauberei ausgelöst wird.
+
+[[ref_core_magic_schools_wild_magic_learing_casting]]
+====== Spruchzauberei mit Wilder Magie
+Neben der allgegenwärtigen Spruchzauberei, die die Magie in Rituale und Traditionen verfasst hat, haben sich seit vielen Generationen Magier auch damit beschäftigt, die beinahe unzähmbaren Energien der wilden Magie für sich zu nutzen.
+Diese Magier, die viele Namen tragen, wie Hexer, Wilder oder Scharlatane, ignorieren bewusst die magischen Traditionen der großen Spruchzauberei-Schulen und stürzen sich in die ungebändigte Macht der wilden Magie.
+
+Ein Zauberer, der wilde Magie als Spruchzauberei „Schule“ lernt, kann diese nutzen, um ähnlich den gelehrten Magiern Zaubersprüche zu wirken.
+Im Gegensatz zu Magiern hat der Hexer jedoch keine Zauberformeln gelernt, sondern zieht die gewünschten Zaubereffekten aus der eigenen Erfahrung und Inspiration.
+
+Aus Sicht der Regeln ist die Verwendung von Zaubersprüchen und Spruchzauberei-Proben identisch, das heißt auch ein Hexer muss Zaubersprüche vorbereiten, kann MP einsetzen, muss sich an Einschränkungen aufgrund seiner MaxPOT halten und erleidet Zauberpatzer.
+
+Es gelten jedoch folgende, zusätzlichen Regeln und Änderungen:
+
+* Die Zauberschule der wilden Magie bringt keine eigene Zauberspruchliste mit.
+Der Hexer kann aus allen Zauberspruchschulen Zaubersprüche lernen, solange seine Talentstufe in Spruchzauberei [Wilde Magie] hoch genug ist und er die CP aufbringt.
+Beispielsweise muss er die Talentstufe 3 erreicht haben, um einen Zauberspruch aus dem Weg des Feuers Stufe 3 lernen will.
+* Im Gegensatz zu einem anderen Spruchzauberern kann der Hexer nur eine begrenzte Anzahl von Zaubersprüchen lernen.
+Die Anzahl der Zaubersprüche, die der Hexer lernen kann, berechnet sich aus seiner Talentstufe in Spruchzauberei[Wilde Magie] und seinem Attributsbonus aus EN wie folgt: 2 + (Talentstufe * Attributsbonus).
+
+.Zauber mit Wilder Magie lernen
+====
+Zeraph hat eine Talentstufe von 3 in Spruchzauberei [Wilde Magie] und einen EN-Attributsbonus von 2.
+Er kann damit insgesamt 2 + (3 * 2) = 8 Zaubersprüche lernen.
+====
+
+* Gelernte Zaubersprüche können nicht „verlernt“ werde, um Platz für neue Zaubersprüche machen.
+* Bei einem Misserfolg gilt der Zauberspruch als wie in einer Zone wilder Magie gewirkt, d.h. ein zusätzlicher Effekt wie oben beschrieben tritt ein.
+* Im Fall eines Zauberpatzers tritt zusätzlich zum Zauberpatzer ein Effekt wilder Magie.
+Dieser Effekt wird bestimmt, als wäre der Zauberspruch mit 2*POT ausgesprochen worden.
+* Ein Hexer kann Spruchzauberei[Wilde Magie] nutzen, um Zaubersprüche von Spruchrollen und aus Grimoire zu wirken.
+Er kann das Talent allerdings nicht nutzen, um diese Gegenstände zu schreiben.
+* Ein Hexer kann auch andere Spruchzauberei-Talente lernen.
+Allerdings zaubert er über diese Talente nie mit wilder Magie und er muss Zaubersprüche zu dieser Zauberschule erneut lernen.
+Hat er beispielsweise Feuerball aus dem Weg des Feuers als Zauberspruch für Wilde Magie gelernt, und lernt nun Spruchzauberei[Elementarismus], so muss er Feuerball für Elementarismus noch einmal lernen.
+* Ein Magier, der Wilde Magie lernt, muss die gleichen Einschränkungen wie im vorherigen Punkt beschrieben hinnehmen, jedoch umgekehrt.

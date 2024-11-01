@@ -47,7 +47,7 @@ Auch ihr konstantes Zähneknirschen verhindert subtile Taktiken.
 *Resistenzen:* - +
 *Immunitäten:*
 
-* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)]
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
@@ -87,7 +87,6 @@ Auch ihr konstantes Zähneknirschen verhindert subtile Taktiken.
 Der Schrecken kann seine <<ref_bestiary_terror_of_eyes_and_teeth_constant_gnawing,Schwäche>> zu einer Stärke umwandeln.
 Seine Zähne kann er konzentriert zu einem ohrenbetäubenden, Mark erschütternden Zermalen einsetzen.
 Die Fähigkeit funktioniert wie link:../skills/bestiary_skill_fear.adoc[Furcht] mit der angegebenen Angriffsstufe.
-Hat jedoch der Schrecken eine Kreatur link:../skills/bestiary_skill_engulfing.adoc[umschlungen], wird die Furcht zu xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror].
 
 [[ref_bestiary_terror_of_eyes_and_teeth_multiattack]]
 === Biss-Angriff

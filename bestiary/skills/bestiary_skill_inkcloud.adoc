@@ -1,0 +1,45 @@
+= Tintenwolke
+
+*Voraussetzungen:* - +
+*Typ:* Magisch +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Mit Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] kann die Kreatur eine Wolke aus einer undurchsichtigen Substanz ausstoßen, um seine Gegner zu blenden.
+Seinen Namen erhält die Fähigkeit von der ähnlichen Verteidigung von Tintenfischen.
+Allerdings funktioniert diese Fähigkeit auch außerhalb des Wassers.
+
+Die Kreatur kann die Tintenwolke nur direkt neben sich erzeugen, muss aber nicht in dieser stehen.
+Die Tintenwolke hat einen Radius abhängig der xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] (siehe Tabelle in diesem Kapitel) der Kreatur und gilt als Gebiet mit xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit (Nacht ohne Sterne)].
+Im Gegensatz zu regulärer Dunkelheit kann kein Licht diese Dunkelheit aufheben.
+
+Die Tintenwolke löst sich von selbst auf, sobald der nächste xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigene Zug] der Kreatur beginnt.
+
+|===
+|GK der Kreatur |Ausdehnung
+
+|1-3
+|1,50 x 1,50 Meter
+
+|4
+|Radius 1,50 Meter
+
+|5-6
+|Radius 3,00  Meter
+
+|7-8
+|Radius 4,50 Meter
+
+|9-10
+|Radius 6,00 Meter
+|===
+
+[[ref_bestiary_skill_inkcloud_advanced]]
+== Verbessert
+Kann die Kreatur die verbesserte Version dieser Fähigkeit einsetzen, erhöht sich der Radius der Tintenwolke um weitere 3,00 Meter.
+
+[[ref_bestiary_skill_inkcloud_legendary]]
+== Legendär
+link:../templates/bestiary_template_legendary.adoc[Legendäre] Kreaturen mit dieser Fähigkeit ignorieren die negativen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Auswirkungen] auf sichtbasierte xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks[Proben] innerhalb der Tintenwolke.
+
+Die Kreatur kann eine xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] verwenden, um ihre Form zu wandeln.

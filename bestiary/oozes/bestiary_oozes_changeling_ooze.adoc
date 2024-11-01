@@ -36,7 +36,7 @@ Lore
 
 *Immunitäten:*
 
-* link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)]
 * link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[Bedrängt]
 * link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[Am Boden]
@@ -119,7 +119,7 @@ Sie besitzen allerdings nicht die typischen Eigenschaften, beispielweise ist ein
 Ähnlich wie bei Materialien sind Haut (oder Fell), aber auch subtile Merkmale wie Atmen oder Schweiß bei oberflächlicher Beobachtung nicht als Imitat zu erkennen.
 * Grundsätzlich gilt, im Gegensatz zu anderen Gestaltwandlungen, erhält ein gewandelter Formwandler genug Schaden, um eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzung] zu erhalten, so wird seine Natur offensichtlich: Holz würde nicht splittern oder eine Wunde bluten.
 Stattdessen fließt seine Masse aus.
-Er erhält aufgrund seiner link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immunität] keinen  xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Pool-spezifischen Zustand], aber im Allgemeinen ist seine Tarnung aufgeflogen.
+Er erhält aufgrund seiner link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immunität] keinen  xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Pool-spezifischen Zustand], aber im Allgemeinen ist seine Tarnung aufgeflogen.
 * Für eine reine visuelle Enttarnung ist eine Probe in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] nötig.
 Der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] ist durch die Formel 20 + CH-Stufe des Formwandlers gegeben.
 Bei einem durchschnittlichen Erfolg fällt einem Beobachter etwas Merkwürdiges auf.

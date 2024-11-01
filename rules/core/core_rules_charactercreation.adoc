@@ -69,7 +69,7 @@ Das Talent gilt unabhängig von der Wahl des <<ref_core_characters_charactercrea
 * *Fähigkeiten:* Völker können bereits das Wissen über bestimmte xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[besondere Fähigkeiten] mit sich bringen.
 Charaktere lernen diese Fähigkeiten automatisch mit Wahl des Volkes und müssen dabei nicht die sonst üblichen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills_requirements[Voraussetzungen] erfüllen.
 * *Rettungswürfe:* Der Charakter erhält einen permanenten xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf die hier aufgezählten xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe].
-* *TP/MP-Steigerung:* Angabe der Volks-spezifischen <<ref_core_characters_spendcp_tp_and_mp,TP/MP-Steigerung>>, zum Beispiel +3/+0.
+* *Pool-Steigerung:* Angabe der Volks-spezifischen <<ref_core_characters_spendcp_pools,Pool-Steigerung>>, zum Beispiel +3/+0/+3.
 * *Größe:* Jedes Volk hat eine <<ref_core_characters_charactercreation_sizecategories,Größenkategorie>>, die als ein Wert von 1 bis 10 angegeben ist.
 * *Primärer Typ:* Jedes Lebewesen besitzt genau einen primären Kreaturentyp.
 Dieser bringt im allgemeinen eigene Regeln mit sich, die zusätzlich für den Charakter gelten.
@@ -98,7 +98,7 @@ Die Beschreibung eines Berufs beinhaltet folgende Informationen:
 * *Fähigkeiten:* Berufe können bereits das Wissen über bestimmte xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[besondere Fähigkeiten] mit sich bringen.
 Charaktere lernen diese Fähigkeiten automatisch mit Wahl des Berufs und müssen dabei nicht die sonst üblichen xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills_requirements[Voraussetzungen] erfüllen.
 * *Rettungswürfe:* Der Charakter erhält einen permanenten xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf die hier aufgezählten xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe].
-* *TP/MP-Steigerung:* Angabe der berufsspezifischen <<ref_core_characters_spendcp_tp_and_mp,TP/MP-Steigerung>>, zum Beispiel +6/+4.
+* *Pool-Steigerung:* Angabe der berufsspezifischen <<ref_core_characters_spendcp_pools,Pool-Steigerung>>, zum Beispiel +6/+4/+0.
 * *Startausrüstung:* eine Liste von Ausrüstungsgegenständen, die der Charakter zu Beginn des Spiels besitzt.
 * *Eigenschaften:* Jeder Beruf bringt im Normalfall eine Reihe von besonderen Eigenschaften mit.
 Diese Eigenschaften sind Regelerweiterungen, die für diesen Beruf gelten und sofort in Kraft treten, wenn der jeweilige Beruf gewählt wird.
@@ -527,24 +527,27 @@ Dies kostet Michael 3*200 = 600 CP.
 Durch die Steigerung ändern sich sofort abhängige Attributseigenschaften und die Würfelanzahlen für Talente mit dem verwandten Attribut GE.
 ====
 
-xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften] lassen sich im Normalfall nicht direkt steigern mit Ausnahme von <<ref_core_characters_spendcp_tp_and_mp,TP und MP>>.
+xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften] lassen sich im Normalfall nicht direkt steigern mit Ausnahme von <<ref_core_characters_spendcp_pools,Pools>>.
 Stattdessen steigen die abhängigen Werte mit, wenn eine Attributsstufe gesteigert wird.
 
 Wenn Boni oder Mai Attributseigenschaften beeinflussen, zum Beispiel aufgrund des Berufs oder einen Vor- oder Nachteil, dann greifen diese immer erst nach Berechnung der Attributseigenschaft aus der Attributsstufe.
 
-[[ref_core_characters_spendcp_tp_and_mp]]
-=== Trefferpunkte und Magiepunkte steigern
-Die meisten xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften] sind nur indirekt steigerbar, jedoch kann ein Charakter auch TP und MP abhängig von seinem <<ref_core_characters_charactercreation_race,Volks>> zbd <<ref_core_characters_charactercreation_profession,Beruf>> steigern, ohne dafür seine Attributsstufen zu erhöhen.
-Die Werte sind unter dem jeweilen Eintrag *TP/MP-Steigerung* angegeben und werden immer kumulativ verstanden.
+[[ref_core_characters_spendcp_pools]]
+=== Poole steigern
+Die meisten xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary[Attributseigenschaften] sind nur indirekt steigerbar, jedoch kann ein Charakter auch seine xref:core_rules_2d10_system.adoc#ref_core_2d10_pools[Pools], TP, MP und SP, abhängig von seinem <<ref_core_characters_charactercreation_race,Volk>> und <<ref_core_characters_charactercreation_profession,Beruf>> steigern, ohne dafür seine Attributsstufen zu erhöhen.
+Die Werte sind unter dem jeweiligen Eintrag *Pool-Steigerung* angegeben und werden immer kumulativ verstanden.
 
-Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der zu erreichenden TP/MP-Steigerungen.
-Nach einer Steigerung addiert der Charakter die gegebene Zahl von TP und MP zu seinem aktuellen Wert hinzu und kann diese Punkte normal nutzen.
+Jede Steigerung kostet *100 CP* multipliziert mit der Anzahl der zu erreichenden Pool-Steigerungen.
+Nach einer Steigerung addiert der Charakter die gegebene Zahl von TP, MP und SP zu seinem aktuellen Wert hinzu und kann diese Punkte normal nutzen.
 
-.TP und MP steigern
+[NOTE]
+Jede Pool-Steigerung ist immer als Triplet angegeben, dass in der gegebenen Reihenfolge die Boni für TP/MP/SP darstellen.
+
+.Poole steigern
 ====
-Michaels Charakter besaß zu Beginn aufgrund seiner Attributsstufen 30 TP und 10 MP.
-Der gewählte Beruf des link:professions/core_professions_scoundrel_thief.adoc[Schurken] bietet eine TP/MP-Steigerung +6/+2 und sein Volk +3/+0.
-Seine TP/MP-Steigerung beträgt damit insgesamt +9/+2
+Michaels Charakter besaß zu Beginn aufgrund seiner Attributsstufen 30 TP, 10 MP und 10 SP.
+Der gewählte Beruf des link:professions/core_professions_scoundrel_thief.adoc[Schurken] bietet eine Pool-Steigerung +6/+2/+0 und sein Volk +3/+0/+0.
+Seine Pool-Steigerungen beträgt damit insgesamt +9/+2/+0
 Michael gibt für die erste Steigerung 100 CP aus und schon erhöhen sich die TP auf 39 und die MP auf 12.
 Die zweite Steigerung kostet bereits 2*100 = 200 CP und erhöht auf 48 TP und 14 MP.
 Eine dritte Steigerung kostet 3*100 = 300 CP und erhöht auf 57 TP und 16 MP.

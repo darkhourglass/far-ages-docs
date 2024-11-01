@@ -3,3 +3,19 @@
 [[ref_secondary_creaturetype_aetherial_rules]]
 == Regeln
 
+[[ref_secondary_creaturetype_aetherial_rules_astral_resurgence]]
+=== Astrale Wiederauferstehung
+Wenn eine aetherische Kreatur außerhalb des Aethers xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death[stirbt], dann wird sie nach kurzer Zeit wiedergeboren.
+Ihr Körper zerfällt zu Staub und nach 24 Stunden minus ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Stufe] (minimal 1 Stunde) wird sie im Aether vollständig wiederbelebt.
+Alle ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Pools] sind aufgefüllt und eventuelle xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung] wird aufgehoben.
+
+Stirbt sie hingegen im Aether, ist dieser Tod endgültig.
+
+[[ref_secondary_creaturetype_aetherial_rules_skills]]
+=== Fähigkeiten
+
+Alle aetherischen Kreaturen erhalten die folgenden Fähigkeiten:
+
+* link:../../../../bestiary/skills/bestiary_skill_move_levitation.adoc[Levitation] (BEW)
+* link:../../../../bestiary/skills/bestiary_skill_damageabsorption.adoc[Schadensabsorption] xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+* link:../../../../bestiary/skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]

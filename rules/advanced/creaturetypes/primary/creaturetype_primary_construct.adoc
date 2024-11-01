@@ -55,7 +55,7 @@ Dennoch können Konstrukte durch den Einsatz passender Zaubersprüche oder magis
 
 [[ref_primary_creaturetype_constructs_rules_mishaps]]
 === Fehlfunktionen
-Konstrukte sind aufgrund ihrer Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[immun] gegenüber den Effekten von xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzungen].
+Konstrukte sind aufgrund ihrer Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[immun] gegenüber den Effekten von xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzungen].
 Verliert ein Konstrukt jedoch genug TP, um eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] zu übertreffen, nach regulären Regeln die Voraussetzung für eine Wunde, so erleidet das Konstrukt stattdessen eine *Fehlfunktion*.
 
 Zur Ermittlung dieser Fehlfunktion wird zuerst die Differenz zwischen der KO des Konstrukts und des erlittenen Schadens aus der betreffenden Attacke berechnet.
@@ -117,7 +117,7 @@ Der SL kann eine Probe verlangen, wenn er es für angemessen hält.
 In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Konstrukte von anderen Wesen abweichen.
 
 * Konstrukte können nicht xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_drowing[ertrinken].
-* Konstrukte besitzen keine SP, verlieren diese nie oder werden wahnsinnig.
+* Konstrukte besitzen keine SP und verlieren diese nie.
 * Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
 * Konstrukte können TP nur durch eine <<ref_primary_creaturetype_constructs_rules_repair,Reparatur>> regenerieren oder durch entsprechende Zaubersprüche wie link:../../../../compendiums/spells/spell_repair_construct.adoc[Konstrukt reparieren].
 * Konstrukte regenerieren MP nicht automatisch, außer sie besitzen eine passende xref:../../advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung].
@@ -129,12 +129,11 @@ Alle Konstrukte erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (MP)]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]

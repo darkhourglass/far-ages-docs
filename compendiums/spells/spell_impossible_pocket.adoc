@@ -1,0 +1,32 @@
+= Unmögliche Tasche
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Geste +
+*Fokus:* - +
+*Vorbereitung:* 3 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Gegenstand (siehe Beschreibung) +
+*Dauer:* Permanent +
+*Effekt:* Mit diesem Zauberspruch kannst Du einen Gegenstand in eine spontan erschaffene Miniaturtaschendimension im Aether verfrachten, von der Du diesen Gegenstand jederzeit herausziehen kannst.
+
+Der Gegenstand muss eine xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] von 3 oder weniger haben.
+Zusätzliche Effekte können diese maximale Größe erhöhen.
+
+Mit erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe] verschwindet der Gegenstand in der Taschendimension.
+Diese folgt Dir überall hin.
+Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] kannst Du den Gegenstand jederzeit in Deine Hand nehmen.
+Du kannst den Gegenstand mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freien Aktion] innerhalb der nächsten 5 Kampfphasen wieder zurücklegen.
+Schaffst Du dies nicht, verschwindet die unmögliche Tasche und Du musst den Zauberspruch erneut wirken.
+
+In der unmöglichen Tasche kann immer nur der Gegenstand liegen, für den Du den Zauber gewirkt hast.
+Eine Kreatur kann die Tasche nie betreten, auch Du nicht.
+Eine anderen Kreatur kann den Gegenstand nicht aus der Tasche holen.
+
+Wenn ein Effekt die Magie dieses Zauberspruches aufhebt, fällt der Gegenstand sofort neben Dir auf den Boden.
+
+Du kannst mehrere unmögliche Taschen gleichzeitig haben, jeweils für andere Gegenstände.
+
+*Zusätzliche Effekte:* +
++ 1 POT: maximale GK des Gegenstands +1

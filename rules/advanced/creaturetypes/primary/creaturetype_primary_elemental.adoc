@@ -62,7 +62,7 @@ Jedes Elementar erhält auf Basis seines Elements eine Reihe von Fähigkeiten (s
 In diesem Abschnitt werden allgemeine Regeln vorgestellt, in denen Elementare von anderen Wesen abweichen.
 
 * Elementare können nicht xref:../../../core/core_rules_adventures.adoc#ref_core_adventures_hazards_drowing[ertrinken].
-* Elementare besitzen keine SP, verlieren diese nie oder werden wahnsinnig.
+* Elementare besitzen keine SP und verlieren diese nie.
 * Grundsätzlich braucht ein Konstrukt keine Nahrung oder Schlaf.
 * Elementare, die 0 TP erreichen, würfeln keine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Todes-Rettungswürfe], sondern es kehrt ihre Essenz sofort auf ihre Heimat-Ebene zurück.
 Technisch gesehen ist dies ein xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[sofortiger Tod], auch wenn der Elementar nicht im klassischen Sinne stirbt.
@@ -76,8 +76,6 @@ Alle Elementare erhalten zusätzlich zu den Fähigkeiten aus <<ref_primary_creat
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])

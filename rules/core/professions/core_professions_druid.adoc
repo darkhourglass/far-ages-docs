@@ -9,7 +9,7 @@ Eine Armee ist nicht vonnöten.
 *Attribute:* +1 EN +
 *Talente:* Aether Wahrnehmung, Schleichen, Spruchzauberei [Druide], Tierfreundschaft, Verbrennen Widerstehen, Verborgenes Erkennen, Verstecken, Wissen [Tiere], Wissen[Pflanzen], Wissen [Überleben], 1 freies Wissenstalent +
 *Fähigkeiten:* +
-*TP/MP-Steigerung:* +4/+6 +
+*Pool-Steigerung:* +4/+6/+2 +
 *Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
 *Startausrüstung:* Wanderstab, Robe, Wetterfester Umhang, Lederrucksack +
 *Eigenschaften:* <<ref_core_professions_through_the_animals_eyes,Durch die Augen des Tieres>>, <<ref_core_professions_druid_soulmate,Seelenverwandter Gefährte>> +
@@ -37,7 +37,5 @@ Diese Verbundenheit bringt folgende Eigenschaften mit sich:
 Der Druide kann dem Tiergefährten genaue Anweisungen geben, was dieser tun soll.
 Dabei wird das Tier keine offensichtlichen Gefahren eingehen, die es normalerweise ebenso eingehen würde, allerdings verteidigt es den Druiden im Kampf.
 Um sich zu unterhalten, müssen beide in Sichtweite voneinander sein.
-* Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerungen] durchführt, erhält der Tiergefährte einen TP-Bonus von 6.
+* Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_pools[Steigerung] durchführt, erhält der Tiergefährte einen TP-Bonus von 6.
 * Erreicht der Tiergefährte 0 TP, erhält der Druide sofort einen xref:../core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W10+1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] Schaden.
-
-Jedes Mal, wenn der Druide eine xref:../core_rules_charactercreation.adoc#ref_core_characters_spendcp_tp_and_mp[TP/MP-Steigerung] durchführt, erhöhen sich ebenfalls die TP/MP des Gefährten um +6/+1.

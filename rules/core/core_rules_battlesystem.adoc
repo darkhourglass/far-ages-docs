@@ -131,6 +131,9 @@ Kraags Initiativebonus ist jedoch höher.
 Damit ergibt sich folgende Initiativereihenfolge: Kraag, Teliskin, Me'ander.
 ====
 
+[NOTE]
+Nach den Standardregeln wird die Initiativereihenfolge einmal zu Beginn des Kampfs bestimmt.
+
 [[ref_core_battle_cycle_battlephase]]
 === Ablauf der Kampfphase
 Jede Kampfphase läuft nach dem gleichen Schema ab.
@@ -296,6 +299,36 @@ Man spricht dabei auch:
 Es gelten weiterhin die Regeln für <<ref_core_battle_movement,Bewegung>>.
 Der Einsatz dieser Aktion verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
 
+[[ref_core_battle_action_block]]
+==== Blocken
+Gut gerüstete Charaktere können eine defensive Haltung einnehmen, um Angriffe besser abwehren zu können.
+
+Die Aktion gewährt einen *Block-Wert*, der den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[Mindestwurf] für den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] eines <<ref_core_battle_attacktypes_meleeattack,Nahkampfangriffes>> auf den Charakter ersetzt, sofern der Block-Wert über 12 liegt.
+
+Der Block-Wert wird aus der Summe aller <<ref_core_battle_items_armor_armorpoints,Rüstungspunkte>> gebildet, die der Charakter aktuell ausgerüstet hat.
+Die Aktion kann mehrfach in einem <<ref_core_battle_cycle_battlephase_own_turn,Zug>> verwendet werden, um den Block-Wert weiter zu erhöhen.
+Allerdings erhöhen weitere Anwendungen dieser Aktionen den Block-Wert nur um die Hälfte der Rüstungspunkte (abgerundet, minimal 1).
+Einmal angewendet, verbleibt der Block-Wert bis zum Beginn des nächsten <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zugs>>.
+
+Solange ein Charakter oder eine Kreatur einen Block-Wert verwendet, gelten folgende Einschränkungen:
+
+* die Reaktion <<ref_core_battle_reaction_dogde,Ducken>> kann nicht genutzt werden
+* <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> und <<ref_core_battle_reaction_execute_attack_of_opportunity,Gelegenheitsangriffe>> werden mit xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] gewürfelt.
+* das Talent xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[verwendet] werden.
+* Die Aktionen <<ref_core_battle_actions_retreat,Zurückweichen>> und <<ref_core_battle_actions_support,Unterstützen>> können nicht verwendet werden.
+
+Nur Charaktere und Kreaturen mit <<ref_core_battle_damage_armor,Rüstungspunkten>> (beispielsweise dank getragener <<ref_core_battle_items_armor,Rüstung>> und <<ref_core_battle_items_shields,Schilde>>) können diese Aktion einsetzen.
+<<ref_core_battle_damage_naturalarmor,Natürliche Rüstung>> erlaubt diese Aktion *nicht* und kann grundsätzlich nicht mit einbezogen werden.
+
+.Blocken
+====
+Die Stadtwache Dhroga trägt ihre typische Ausrüstung: einen Brustpanzer mit 6 Rüstungspunkten, einen Vollhelm mit 5 Rüstungspunkten und schließlich noch einen Rundschild mit 3 Rüstungspunkten.
+Verwendet Dhroga in ihrem Zug die Aktion Blocken zum ersten Mal, erhält sie einen Block-Wert von 6+5+3=14, also 2 Punkte über dem Standardmindestwurf.
+
+Verwendet sie Blocken ein weiteres Mal in der aktuellen Kampfphase, erhält sie weitere 14/2=7 Punkte für ihren Block-Wert, der auf 21 steigt.
+Nutzt Dhroga auch noch ihre dritte Aktion, beträgt ihr Block Wert sogar 28 Punkte.
+====
+
 [[ref_core_battle_action_readyitem]]
 ==== Gegenstand vorbereiten
 Um einen Gegenstand zu <<ref_core_battle_actions_useitem,verwenden>>, muss sich dieser zuerst in der Hand des Charakters befinden.
@@ -353,14 +386,18 @@ Neben Angriff ist auch manchmal die Flucht die beste Verteidigung, wenn man eine
 
 Ist ein Charakter im xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[Kampf gebunden], kann er diese Aktion wählen, um sich aus dem Kampf kontrolliert zurückzuziehen.
 
-Ein Charakter muss mit dieser Aktion seine gesamte BEW-Rate einsetzen, um sich von seinem Kontrahenten zu entfernen.
-Verwendet der Charakter ein Reittier, wird dessen BEW-Rate verwendet.
-Der Charakter einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>, wenn er sich die durch Bedrohungszone seines Gegners bewegt, allerdings nicht für die initiale Bewegung dieser Aktion.
+Ein Charakter muss mit dieser Aktion seine halbierte BEW-Rate (abgerundet, minimal 1,50 Meter) einsetzen, um sich von seinem Kontrahenten zu entfernen.
+Verwendet der Charakter ein Reittier, wird dessen BEW-Rate zugrunde gelegt.
+Der Charakter löst einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>> aus, wenn er sich am Ende dieser Bewegung noch in der Bedrohungszone seines Gegners befindet, allerdings nicht für die initiale Bewegung dieser Aktion.
 
 Der Charakter provoziert regulär <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>>, wenn er sich während dieser Bewegung durch die <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> anderer Kreaturen bewegt.
 Der Charakter darf keine <<ref_core_battle_actions_attacks,Angriffe>> gegenüber dem Gegner ausführen, vor dem er zurückweicht.
 
-In diesem Fall erhält der Charakter nicht den Status xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_fleeing[fliehend].
+Befindet sich der Charakter mit mehreren Gegnern im Kampf gebunden, kann er mit dieser Aktion vor allen gleichzeitig zurückweichen.
+Es gelten die dabei die beschriebenen Regeln für alle Gegner, das bedeutet insbesondere, dass der zurückweichende Charakter sich durch mehrere Bedrohungszonen ohne Gelegenheitsangriff bewegen kann, allerdings auch, wenn er seine Bewegung in mehreren Bedrohungszonen beendet, dass auch mehrere Gelegenheitsangriffe auslösen kann.
+
+[NOTE]
+In diesem Fall erhält der Charakter nicht den Status xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[fliehend].
 Dieser ist für eine unfreiwillige Flucht vorgesehen.
 
 [[ref_core_battle_freeactions]]
@@ -373,7 +410,7 @@ Eine Kreatur darf keine freien Aktionen durchführen, wenn sie keine <<ref_core_
 
 [[ref_core_battle_freeactions_readyaction]]
 ==== Aktion abwarten
-Als freie Aktion darf ein Charakter zu Beginn der Kampfphase ansagen, dass eine seiner <<ref_core_battle_actions,Aktionen>> an ein bestimmtes Ereignis gebunden ist.
+Als freie Aktion darf ein Charakter zu Beginn <<ref_core_battle_cycle_battlephase_own_turn,seines Zuges>> ansagen, dass eine seiner <<ref_core_battle_actions,Aktionen>> an ein bestimmtes Ereignis gebunden ist.
 Tritt das Ergebnis ein, ist der Charakter sofort dran, auch wenn seine Initiative schlechter ist.
 Tritt das Ereignis jedoch nicht ein, darf der Charakter erst am Ende der <<ref_core_battle_cycle_initiative,Initiative-Reihenfolge>> handeln.
 
@@ -505,6 +542,7 @@ Auf der anderen Seite jedoch gilt, dass ein Charakter mit mehr als 3 Aktionen de
 Eine komplexe Aktion erfordert immer alle Aktionen in einem Zug.
 
 Es kann grundsätzlich immer nur eine komplexe Aktion pro eigenem Zug durchgeführt werden, unabhängig von der Anzahl der Aktionen, die einem zur Verfügung stehen.
+Ein Charakter erhält außerdem einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf alle seine <<ref_core_battle_reactions,Reaktionen>> bis zum Beginn der nächsten Kampfphase.
 
 [[ref_core_battle_additionalactions]]
 === Zusätzliche Aktionen
@@ -934,7 +972,6 @@ Außerdem löst der Angriff des Unbewaffneten einen <<ref_core_battle_attacks_of
 
 [[ref_core_battle_projectiles]]
 == Projektilwaffen
-
 Zu Projektilwaffen zählen beispielsweise Bögen und Armbrüste.
 Einige technomantische Waffen zählen auch als Fernwaffen und fallen in diese Kategorie.
 Als Richtlinie gilt, dass jede Waffe, die in der Ausrüstungsliste mit einer Reichweitenangabe versehen ist, eine Fernkampfwaffe ist.
@@ -992,7 +1029,6 @@ Damit ergibt sich ein Mindestwurf von 12+4*5=32, den der Schütze mindestens err
 
 [[ref_core_battle_projectiles_modifiers]]
 === Fernkampfmodifikatoren
-
 Für die Angriffswürfe im Fernkampf gelten folgende Modifikatoren wie im Nahkampf:
 
 * <<ref_core_battle_melee_modifiers_coverage,Deckung>>
@@ -1089,7 +1125,7 @@ Sein eigener xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute
 
 [[ref_core_battle_spellcasting]]
 == Spruchzauberei
-Die Zauberei ist ein komplexes und umfassendes Thema, dessen Gesamtheit sich im Dokument link:core_rules_magic_base.adoc[Magie] befindet.
+Die Gesamtheit der Zauberei wird in einem eigenen link:core_rules_magic_base.adoc[Dokument] beschrieben.
 
 [[ref_core_battle_movement]]
 == Bewegung
@@ -1107,10 +1143,8 @@ Diese Regeln gelten grundsätzlich immer, wenn ein Charakter seine xref:core_rul
 [[ref_core_battle_movementtypes_flying]]
 ==== Fliegen
 
-
 [[ref_core_battle_movementtypes_climbing]]
 ==== Klettern
-
 
 [[ref_core_battle_movementtypes_swimming]]
 ==== Schwimmen
@@ -1165,15 +1199,15 @@ Ein Charakter in einer <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedroh
 
 [[ref_core_battle_attacks_of_opportunity]]
 == Gelegenheitsangriffe
-Gelegenheitsangriffe sind zusätzliche Attacken in einer Kampfphase, die durch unterschiedliche Situationen ausgelöst werden können.
-Sie finden außerhalb der <<ref_core_battle_cycle_initiative,Initiative-Reihenfolge>> statt.
+Gelegenheitsangriffe sind zusätzliche Attacken außerhalb des <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zuges>> einer Kampfphase, die durch unterschiedliche Situationen ausgelöst werden können.
 Kampfteilnehmer, denen ein Gelegenheitsangriff zustehen, würfeln diese grundsätzlich mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf].
-
-Provozieren mehr Gegner Gelegenheitsangriffe, nach dem Charakter seine verfügbaren Gelegenheitsangriffe pro Kampfphase aufgebraucht hat, kann der Charakter diese nicht mehr ausführen.
-
 Gelegenheitsangriffe können immer nur gegen Gegner geführt werden, die sich unmittelbar in der Nähe des ausführenden Charakters aufhalten, das heißt, sie stehen in der Bedrohungszone des Charakters.
 
-Der Gelegenheitsangriff gilt als <<ref_core_battle_attacktypes,Angriff>>.
+Jeder Charakter und Kreatur hat ohne weitere Angaben immer nur 1 Gelegenheitsangriff pro Kampfphase zur Verfügung.
+Provozieren mehr Gegner Gelegenheitsangriffe, nach dem Charakter seine verfügbaren Gelegenheitsangriffe pro Kampfphase aufgebraucht hat, kann der Charakter diese nicht mehr ausführen.
+Es kann auf das Ausführen eines Gelegenheitsangriffs verzichtet werden.
+
+Ein Gelegenheitsangriff gilt als <<ref_core_battle_attacktypes,Angriff>> und <<ref_core_battle_reaction_execute_attack_of_opportunity,Reaktion>>.
 
 [[ref_core_battle_hits]]
 == Treffer
@@ -1307,13 +1341,18 @@ Die Schadenspunkte durch diesen Treffer betragen daher: 2W6+2.
 
 [[ref_core_battle_damage_damagerolls_criticalhit]]
 ==== Kritische Treffer
-Erreicht eine Angriffsprobe bei einem erfolgreichen <<ref_core_battle_hits,Treffer>> oder <<ref_core_battle_hits_automatic_hit,automatischen Treffer>> mindestens einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[kritischen Erfolgsgrad], wird der variable <<ref_core_battle_damage_damagerolls,Schadensbonus>> in *seiner Würfelanzahl verdoppelt*.
+Erreicht eine Angriffsprobe bei einem erfolgreichen <<ref_core_battle_hits,Treffer>> oder <<ref_core_battle_hits_automatic_hit,automatischen Treffer>> mindestens einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[kritischen Erfolgsgrad], gilt dieser als Treffer als *kritischer Treffer*.
+Für diesen wird der variable <<ref_core_battle_damage_damagerolls,Schadensbonus>> in *seiner Würfelanzahl verdoppelt*.
 
 .Kritische Treffer
 ====
 Hätte Kraag einen kritischen Erfolgsgrad erreicht, dürfte er für seinen Schadenswurf 4W6+2 anstelle von 2W6+2 würfeln.
 Der statische Schadensbonus wird nicht verdoppelt.
 ====
+
+Wurde außerdem durch einen kritischen Treffer Schaden verursacht, verliert die betroffene Kreatur zusätzlich 1W6 xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP].
+Dies gilt als <<ref_core_battle_damage_damagetype_primary_mental,mentaler Schaden>>.
+Kreaturen, die keine SP besitzen oder verlieren können, sind von dieser Konsequenz eines kritischen Treffers gefeit.
 
 [[ref_core_battle_damage_damagerolls_bonusdice]]
 ==== Bonuswürfel bei Schadenswürfen
@@ -1686,7 +1725,7 @@ Das folgende Kapitel beschreibt die zusätzlichen Eigenschaften, die Waffen habe
 ==== Berittener Kampf
 *Gattungen:* Nahkampfwaffen
 
-Waffen mit dieser Eigenschaft erlauben die <<ref_core_battle_actions,Aktion>> <<ref_core_battle_attacktypes_mountedcharge,betrittender Angriff>>.
+Waffen mit dieser Eigenschaft erlauben die <<ref_core_battle_actions,Aktion>> <<ref_core_battle_attacktypes_mountedcharge,betrittener Angriff>>.
 
 [[ref_core_battle_items_weapons_tag_one_time_use]]
 ==== Einmalige Verwendung
@@ -1742,6 +1781,7 @@ Ist die Waffe größer, bietet diese Eigenschaft jedoch keine Vorteile mehr.
 *Gattungen:* Projektilwaffen
 
 Waffen mit dieser Eigenschaft besitzen besondere <<ref_core_battle_damage_damagerolls,Schadenswürfe>>, die nicht von einem Attribut des Charakters abhängen.
+Dies bedeutet insbesondere, dass Attributsboni nie für Schadenswürfe dieser Waffe genutzt werden.
 
 [[ref_core_battle_items_weapons_tag_ammunition]]
 ==== Munition

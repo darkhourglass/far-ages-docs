@@ -4,7 +4,7 @@
 == Regeln
 
 * Körperlose Wesen erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen].
-* Körperlose Wesen erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen].
+* Körperlose Wesen erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)].
 * Körperlose Wesen erhalten die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag].
 * Körperlose Wesen sind nicht durch physikalische Objekte oder Grenzen in Ihrer Bewegung beeinträchtigt.
 Ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] kann immer ohne Beeinträchtigung voll genutzt werden, solange nicht explizit körperlose Wesen betroffen sind.

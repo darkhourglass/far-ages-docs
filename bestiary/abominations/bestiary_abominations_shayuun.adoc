@@ -79,12 +79,12 @@ Die Sichtung von Sha'yuun gilt in vielen Kulturen als böses Omen.
 
 [[ref_bestiary_shayuun_rules_leech_pain]]
 === Schmerzen aufsaugen
-Attackiert ein Sha'yuun eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur erfolgreich mit einem Tentakel und bringt sie über eine beliebige xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] ihre TP-Pools, kann die Kreatur in den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror] zwingen.
+Attackiert ein Sha'yuun eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur erfolgreich mit einem Tentakel und bringt sie über eine beliebige xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] ihre TP-Pools, kann die Kreatur in den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt] oder xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Raserei] zwingen.
 Der xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] berechnet sich aus 12 plus dem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] des Sha'yuun in seinem Attribut xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH].
 
-Wurde die Kreatur paralysiert, erhält sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -10 auf diese Probe.
-
 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misslingt] diese Probe, erhält der Sha'yuun sofort 5 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] bis zu seinem Maximum.
+
+Diese Aktion ist xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiert].
 
 == Taktik
 Sha'yuun bevorzugen den Angriff in der Gruppe, mit der sie durch link:../skills/bestiary_skill_move_nimble.adoc[flinke] Bewegung versuchen, ein Ziel zu xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_corned[umzingeln].

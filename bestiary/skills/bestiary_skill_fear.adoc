@@ -8,6 +8,6 @@
 Die Kreatur hat eine unheilvolle Präsenz, vielleicht durch eine magische Aura oder wie ein Drache durch lautes Gebrüll, dass die andere erschüttern vermag.
 
 Um Furcht einzusetzen, würfelt sie eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe* und jede andere Kreatur einen konkurrierenden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf].
-Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] im Rettungswurf erhält eine betroffene Kreatur den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt].
+Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] im Rettungswurf erhält eine betroffene Kreatur den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt] für 1 Kampfphase.
 
 Verwendet die Kreatur Furcht als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], sind alle anderen Kreaturen um Umkreis von 18,00 Metern betroffen.

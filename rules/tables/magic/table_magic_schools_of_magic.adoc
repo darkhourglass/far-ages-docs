@@ -5,7 +5,8 @@
 |Zauberschule |Zauberspruchlisten |Anmerkungen
 
 |Alchemie
-|Alchemie
+|Alchemie +
+Universelle Schule
 |
 
 |Elementarismus
@@ -25,6 +26,14 @@ Weg des Wachstums +
 |Elementarimus der ungeteiligen Elemente
 |Weg der Ungeteilten Elemente
 |Benötigt Pfad des Schicksals
+
+|Hohe Magie
+|Weg der Beschwörung +
+Weh der Hervorrufung +
+Weg der Erkenntnis +
+Weg der Verwandlung +
+Universelle Schule +
+|
 
 |Illusionismus
 |Illusionismus +
@@ -57,6 +66,10 @@ Weg des Geistes* +
 Weg des Körpers* +
 | *Menestrel wählen zu Beginn des Spiels eine Liste aus
 
+|Runenmagie
+| Weg der Runen
+|
+
 |Schattentricks
 |Weg der Schatten
 |
@@ -69,20 +82,8 @@ Weg des Körpers* +
 | *
 | * siehe Regeln für xref:../core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic[Wilde Magie]
 
-|Runenmagie
-| Weg der Runen
-|
 
-|Alchemie
-|Universelle Schule
-|
 
-|Hohe Magie
-|Weg der Beschwörung +
-Weh der Hervorrufung +
-Weg der Erkenntnis +
-Weg der Verwandlung +
-Universelle Schule +
-|
+
 
 |===

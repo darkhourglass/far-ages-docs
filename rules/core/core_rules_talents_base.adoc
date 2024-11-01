@@ -332,7 +332,7 @@ Die Probe kann auch als konkurrierende Probe zwischen der Einschüchtern-Probe d
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* KO +
-*Kampf:* - +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion] +
 *Beschreibung:* Dieses Talent kann mehrfach gelernt werden.
 Welche Handwerke gelernt werden können, kann auch von der Berufung des Charakters abhängen.
 Die Ausprägung kann beispielsweise folgendermaßen ausfallen: Grobschmied, Feinschmied, Waffenschmied, Tischler, Maurer, Dachdecker, Metallgießer, Bauer, Fleischer...
@@ -348,8 +348,8 @@ Schlechte Bedingungen, wie z.B. schlechtes Werkzeug, schlechtes Material usw. re
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* CH +
-*Kampf:* - +
-*Beschreibung:* Ein Charakter mit diesem Talent beherrscht die Kunst, in der er das Talent gewählt hat, z.B.: Musik, Tanz, Schauspiel, Gesang, Malen/Zeichnen, Poesie, Gaukelei.
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion] +
+*Beschreibung:* Ein Charakter mit diesem Talent beherrscht die Kunst, in der er das Talent gewählt hat, beispielsweise: Musik, Tanz, Schauspiel, Gesang, Malen/Zeichnen, Poesie, Gaukelei.
 Ein Erfolg bietet eine zufriedenstellende Darbietung der Kunst, erst mehrere Erfolge lassen etwas Besonderes entstehen, wofür andere auch bereit sind, Geld zu zahlen.
 Das Talent kann teilweise hilfreich sein, um andere Zwecke zu unterstützen, die nicht durch andere Talente abgedeckt werden.
 Der SL kann daher entscheiden, ob höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrade] einem Charakter eventuell einen Bonus von +1 Würfel (pro Erfolgsgrad) auf eine andere Probe verhilft.
@@ -414,7 +414,7 @@ Wissenstalente denken intellektuelle Leistungen des Charakters ab, sowie dessen 
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Ja +
 *Verwandtes Attribut:* ER +
-*Kampf:* - +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion] +
 *Beschreibung:* Dieses Talent ermöglicht es dem Charakter durch intensive Suche in Büchereien, Bibliotheken, Gemeindearchiven, Datenbanken und ähnlichen Einrichtungen gezielt Wissen zusammenzutragen.
 Ist die Information selten, sehr speziell oder gar obskur, dann kann der SL den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] nach oben anpassen.
 Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] kann auch den Detailgrad einer Information verbessern.
@@ -436,7 +436,7 @@ Wissen, was an einem Ort nicht gefunden werden kann, weil es dort nicht hinterle
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
-*Kampfphasen:* - +
+*Kampfphasen:* xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[Komplexe Aktion] +
 *Beschreibung:* Dieses Talent betrifft nur die Muttersprache.
 Je komplexer die Aufgabe ist, desto höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwürfe] können angesetzt werden.
 Beispielsweise könnte ein umfangreicher, wissenschaftlicher Text erst mit einem Mindestwurf von 25 völlig erfasst, während ein Brief an den besten Freund mit dem SMW darstellbar ist.

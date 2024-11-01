@@ -44,9 +44,7 @@ Für die Besonderheiten bezüglich der xref:../../rules/advanced/creaturetypes/p
 Vampire sind außergewöhnliche Untote für die nicht alle üblichen Regeln gelten.
 Folgende Ausnahmen sind zu beachten:
 
-* Entgegen der Regeln für Untote gelten die üblichen Regeln für Vampire:
-** Vampire sind nicht immun gegen den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Furcht erfüllt]
-** Vampire sind nicht immun gegen den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_horrified[Horror]
+* Vampire erhalten nicht Fähigkeit link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (SP)]
 * Vampire erhalten die Fähigkeit link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * Vampire erhalten die Fähigkeit link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
 * Vampire sind nicht gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
@@ -55,7 +53,7 @@ Folgende Ausnahmen sind zu beachten:
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * Vampire können SP verlieren und erleben alle damit verbundenen Konsequenzen.
-* Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immunity_to_wounds.adoc[Immun gegenüber Verletzungen].
+* Vampire erhalten nicht die Fähigkeiten link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)] und link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (MP)].
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]).
