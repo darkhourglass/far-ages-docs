@@ -26,9 +26,9 @@ Dieses Profil beschreibt einen Coatl der Machtstufe X.
 //TP=TP-Bonus (GK) + (ST+KO)*5
 //MP=EN*10
 //SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
+*TP:* XXX +10 +
+*MP:* XXX +10 +
+*SP:* XXX +10 +
 
 // BEW= GK-Basis + (GE-5) * 1,50 (min 0)
 // INI= GE+ER
@@ -47,11 +47,11 @@ Dieses Profil beschreibt einen Coatl der Machtstufe X.
 
 == Rettungswürfe
 
-*Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +
-*Magie:* EN+SB +
-*Reflex:* GE+ER +
+*Aufmerksamkeit:* ER+SB +3 +
+*Disziplin:* SB+CH +3 +
+*Körper:* ST+KO +3 +
+*Magie:* EN+SB +3 +
+*Reflex:* GE+ER +3 +
 
 == Offensiv
 

@@ -21,7 +21,7 @@ Zwei Lichter, wie ein kondensierter Blitz, starren Euch entgegen, wo ihr ein Ges
 *CH:* 5 (+2) +
 
 *TP:* 55 +
-*MP:* 60 +
+*MP:* 80 +
 *SP:* - +
 
 *BEW:* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 10,50 +
@@ -36,14 +36,8 @@ Zwei Lichter, wie ein kondensierter Blitz, starren Euch entgegen, wo ihr ein Ges
 
 * link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft])
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
@@ -52,8 +46,8 @@ Zwei Lichter, wie ein kondensierter Blitz, starren Euch entgegen, wo ihr ein Ges
 
 *Aufmerksamkeit:* +3 +
 *Disziplin:* +3 +
-*Körper:* +3 +
-*Magie:* +3 +
+*Körper:* +6 +
+*Magie:* +6 +
 *Reflex:* +4 +
 
 == Offensiv

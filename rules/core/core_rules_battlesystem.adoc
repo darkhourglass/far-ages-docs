@@ -396,10 +396,6 @@ Der Charakter darf keine <<ref_core_battle_actions_attacks,Angriffe>> gegenüber
 Befindet sich der Charakter mit mehreren Gegnern im Kampf gebunden, kann er mit dieser Aktion vor allen gleichzeitig zurückweichen.
 Es gelten die dabei die beschriebenen Regeln für alle Gegner, das bedeutet insbesondere, dass der zurückweichende Charakter sich durch mehrere Bedrohungszonen ohne Gelegenheitsangriff bewegen kann, allerdings auch, wenn er seine Bewegung in mehreren Bedrohungszonen beendet, dass auch mehrere Gelegenheitsangriffe auslösen kann.
 
-[NOTE]
-In diesem Fall erhält der Charakter nicht den Status xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[fliehend].
-Dieser ist für eine unfreiwillige Flucht vorgesehen.
-
 [[ref_core_battle_freeactions]]
 === Freie Aktionen
 *Freie Aktionen* beschreiben einfache oder schnell ausführbare Manöver, die einen Charakter nicht sonderlich aufhalten.

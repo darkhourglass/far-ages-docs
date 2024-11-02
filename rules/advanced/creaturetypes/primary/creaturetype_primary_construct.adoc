@@ -1,5 +1,20 @@
 = Konstrukte
 
+[[ref_primary_creaturetype_constructs_pools]]
+== Pools
+
+Konstrukte erhalten folgende zusätzlichen Boni auf ihre Pools:
+
+* TP: +30
+
+[[ref_primary_creaturetype_contructs_saves]]
+== Rettungswürfe
+
+Konstrukte erhalten folgende zusätzlichen Boni auf ihre Rettungswürfe:
+
+* Körper: +6
+* Magie: +6
+
 [[ref_primary_creaturetype_constructs_rules]]
 == Regeln
 
@@ -55,8 +70,8 @@ Dennoch können Konstrukte durch den Einsatz passender Zaubersprüche oder magis
 
 [[ref_primary_creaturetype_constructs_rules_mishaps]]
 === Fehlfunktionen
-Konstrukte sind aufgrund ihrer Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[immun] gegenüber den Effekten von xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_wounding[Verletzungen].
-Verliert ein Konstrukt jedoch genug TP, um eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] zu übertreffen, nach regulären Regeln die Voraussetzung für eine Wunde, so erleidet das Konstrukt stattdessen eine *Fehlfunktion*.
+Konstrukte sind aufgrund ihrer Fähigkeit link:../../../../bestiary/skills/bestiary_skill_immunity_conditions.adoc[immun] gegenüber den Zuständen der Kategorie Körper.
+Verliert ein Konstrukt genug TP, um eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] zu übertreffen, so erleidet das Konstrukt stattdessen eine *Fehlfunktion*.
 
 Zur Ermittlung dieser Fehlfunktion wird zuerst die Differenz zwischen der KO des Konstrukts und des erlittenen Schadens aus der betreffenden Attacke berechnet.
 Das Ergebnis bestimmt die Auswirkung der Fehlfunktion nach folgender link:../../../tables/table_constructs_general_mishaps.adoc[Tabelle].
@@ -129,16 +144,8 @@ Alle Konstrukte erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (MP)]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])

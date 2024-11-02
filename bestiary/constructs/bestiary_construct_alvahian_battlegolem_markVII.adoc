@@ -18,7 +18,7 @@ Lore
 *SB:* 3 (+1) +
 *CH:* 1 (+1) +
 
-*TP:* 180 +
+*TP:* 210 +
 *MP:* 140 +
 *SP:* 20 +
 
@@ -38,16 +38,8 @@ Lore
 
 * link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-* link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)]
-* link:../skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (MP)]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
-* link:../skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
@@ -56,8 +48,8 @@ Lore
 
 *Aufmerksamkeit:* +2 +
 *Disziplin:* +2 +
-*Körper:* +7 +
-*Magie:* +2 +
+*Körper:* +13 +
+*Magie:* +8 +
 *Reflex:* +2 +
 
 == Offensiv

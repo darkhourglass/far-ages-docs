@@ -871,62 +871,67 @@ Im Dokument link:core_rules_charactercreation.adoc[Charaktererschaffung] finden 
 
 [[ref_core_2d10_pools_conditions_and_thresholds]]
 === Schwellen
-Über jeden Pool hinweg sind *Schwellen* definiert, die, sobald sie erreicht werden, automatisch <<ref_core_2d10_conditions,Zustände>> auslösen.
-Dies bedeutet insbesondere, dass sie so lange für einen Charakter oder eine Kreatur gelten, bis diese die Schwelle ihres entsprechenden Pools wiederhergestellt hat.
-Für jeden einzelnen Pool gilt die jeweils schwerwiegendste Schwelle, gleichzeitig sind über alle Pools gesehen die einzelnen unterschrittenen Schwellen kumulativ.
-Ein Beispiel folgt zum Ende des Kapitels.
+Über jeden Pool hinweg sind *Schwellen* definiert, die, sobald sie erreicht werden, automatisch <<ref_core_2d10_conditions,Zustände>> auslösen können.
+Dies sind in der Regel allerdings keine Zustände, die direkt mit dem Erreichen der Schwelle und Wiederherstellen des Pools verbunden bleiben.
+Die Schwelle beschreibt eher einen Punkt der
 
-Charaktere und Kreaturen können auch gegenüber diesen Zuständen <<ref_core_2d10_conditions_immunity,immun>> sein, auch wenn ihr Pool die entsprechende Schwelle erreicht.
-Manche Kreaturen haben gar keine Punkte in bestimmten Pool, zum Beispiel link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] in <<ref_core_2d10_pools_sp,SP>>.
-In diesem Fall sind Kreaturen immer gegenüber Pool-spezifischen Zuständen <<ref_core_2d10_conditions_immunity,immun>>, auch wenn sie explizit keine passende Fähigkeit besitzen.
+Es können Charaktere und Kreaturen gegenüber den ausgelösten Zuständen <<ref_core_2d10_conditions_immunity,immun>> sein.
+In diesem Fall hat das Erreichen der Schwelle in dem jeweiligen Pool keine Auswirkung.
+Manche Kreaturen haben in Pools gar keine Punkte, zum Beispiel besitzen link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] keine <<ref_core_2d10_pools_sp,SP>>.
+In diesem Fall sind Kreaturen immer gegenüber den Folgen der Zustände <<ref_core_2d10_conditions_immunity,immun>> und der jeweiligen Schwelle.
 
 Erreicht ein Pool den Wert 0, treten die unter Schwelle 4 aufgeführten Effekte oder Zustände automatisch ein.
-
-In der folgenden Tabelle zeigt die Zustände, die bei Unterschreiten einer Schwelle je Pool eintreten.
-Der angegebene Malus gilt Pool-übergreifend für die Schwellen, falls der jeweilige Zustand einen <<ref_core_2d10_checks_situationalmodifiers_malus,Situationsmodifikator>> verursacht.
 
 [NOTE]
 Die Schwellen sind für jeden Pool gleich, jedoch sind die Zustände unterschiedlich.
 
-|===
-|Schwelle |Prozent |TP |MP |SP |Malus
+Die Regeln und Parameter für alle Schwellen sind über die folgenden zwei Tabellen verteilt.
+Die erste Tabelle zeigt alle Schwellen und welche Prozentwerte der Pools für sie gelten.
+Der hier angegebene Mindestwurf bezieht sich auf dem Rettungswurf aus der zweiten Tabelle, der mit dem auch dort vorgegebenen Rettungswurf zu erreichen ist.
+Misslingt dieser Rettungswurf, erhält der Charakter eine Stufe des angegebenen Zustands.
 
+|===
+|Schwelle |Prozent |Mindestwurf
 |1
 |51-100%
-|-
-|-
-|-
 |-
 
 |2
 |26-50%
-|<<ref_core_2d10_pools_tp_condition_2_slightly_injured,leicht verletzt>>
-|<<ref_core_2d10_pools_mp_condition_2_strained,angestrengt>>
-|<<ref_core_2d10_condition_insecure,unsicher>>
-|-2
+|15
 
 |3
 |1-25%
-|<<ref_core_2d10_pools_tp_condition_3_heavyly_injured,schwer verletzt>>
-|<<ref_core_2d10_pools_mp_condition_3_depleted,ausgelaugt>>
-|<<ref_core_2d10_condition_fearful,Furcht erfüllt>>
-|-5
+|25
 
 |4
 |0
-|<<ref_core_2d10_death_condition_deathsdoor,Dem Tode nahe>>
-|<<ref_core_2d10_condition_unconscious,Ohnmächtig>>
-|<<ref_core_2d10_condition_panicked,Panisch>>
-|-10
-
+|-
 |===
 
-.Pool-spezifische Zustände
+|===
+|Pool |Rettungswurf |Zustand |Schwelle 4
+|TP
+|<<ref_core_2d10_checks_saves_fortitude,Körper>>
+|<<ref_core_2d10_condition_dazed,Benommen>>
+|<<ref_core_2d10_death,Tod>>
+
+|MP
+|<<ref_core_2d10_checks_saves_magic,Magie>>
+|<<ref_core_2d10_condition_exhausted,Erschöpft>>
+|<<ref_core_2d10_condition_unconscious,Ohnmächtig>>
+
+|SP
+|<<ref_core_2d10_checks_saves_discipline,Disziplin>>
+|<<ref_core_2d10_condition_fearful,Furcht erfüllt>>
+|<<ref_core_2d10_condition_panicked,Panisch>>
+|===
+
+.Schwellen
 ====
-Ein Charakter hat insgesamt 40 TP, 20 MP und 20 SP.
-Seine aktuellen Pools enthalten noch 29 TP, 9 MP und 18 SP.
-Somit ist sein Zustand aufgrund der unterschrittenen Schwelle im MP-Pool <<ref_core_2d10_pools_mp_condition_2_strained,angestrengt>> (20*0,5=10).
-Seine beiden Pools TP und SP verursachen keinen Zustand, beide über 50% des Gesamtwerts liegen.
+Ein Charakter hat eine Pool-Aufteilung wie folgt: TP 60, MP 30 und SP 20.
+Fällt sein TP-Pool auf 30, erreicht er 50% und somit Schwelle 2.
+Damit muss der Charakter einen Körper-Rettungswurf gegen den Mindestwurf 15 bestehen oder er erhält eine Stufe Benommenheit.
 ====
 
 [[ref_core_2d10_pools_tp]]
@@ -942,46 +947,17 @@ Der Verlust von TP kann aus sehr unterschiedlichen Situation entstehen, die Häu
 Wird der TP-Pool einer Kreatur durch eine beliebige, einzige xref:core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Attacke] über eine der <<ref_core_2d10_pools_conditions_and_thresholds,Schwellen>> dieses Pools gebracht, wird dies *eine Verletzung verursachen* genannt.
 Welche Schwelle dabei übertroffen wird, ist dabei nicht relevant.
 
-[[ref_core_2d10_pools_tp_condition_2_slightly_injured]]
-==== Leicht verletzt (Zustand)
-Die Kreatur erhält den angegebenen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> auf alle seine <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswürfe>>.
-
-Sie muss außerdem einmalig einen <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswurf>> gegen den <<ref_core_2d10_checks_miniumroll,Mindestwurf>> von 15 bestehen, oder erhält eine Stufe in <<ref_core_2d10_condition_dazed,Benommenheit>>
-
-[[ref_core_2d10_pools_tp_condition_3_heavyly_injured]]
-==== Schwer verletzt (Zustand)
-Die Kreatur erhält den angegebenen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> auf alle seine <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswürfe>>.
-
-Sie muss außerdem einmalig einen <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswurf>> gegen den <<ref_core_2d10_checks_miniumroll,Mindestwurf>> von 25 bestehen, oder erhält eine Stufe in <<ref_core_2d10_condition_dazed,Benommenheit>>
-
 [[ref_core_2d10_pools_mp]]
 === Magiepunkte (MP)
 *Magiepunkte (MP)* stellen das teils angeborene, teils erlernte magische Potenzial eines Charakters dar.
 MP werden üblicherweise beim Aussprechen von xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting[Zaubersprüchen] verbraucht, um diese zu verkürzen oder mit zusätzlichen Effekten zu versehen.
 Die Schadensart xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt] wird ebenfalls von diesem Pool abgezogen.
 
-[[ref_core_2d10_pools_mp_condition_2_strained]]
-==== Angestrengt (Zustand)
-Die Kreatur erhält den angegebenen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> auf alle seine <<ref_core_2d10_checks_saves_reflex,Reflex-Rettungswürfe>>.
-
-Sie muss außerdem einmalig einen <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswurf>> gegen den <<ref_core_2d10_checks_miniumroll,Mindestwurf>> von 15 bestehen, oder erhält eine Stufe in <<ref_core_2d10_condition_exhausted,Erschöpfung>>
-
-[[ref_core_2d10_pools_mp_condition_3_depleted]]
-==== Ausgelaugt (Zustand)
-Die Kreatur erhält den angegebenen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> auf alle seine <<ref_core_2d10_checks_saves_reflex,Reflex-Rettungswürfe>>.
-
-Sie muss außerdem einmalig einen <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswurf>> gegen den <<ref_core_2d10_checks_miniumroll,Mindestwurf>> von 25 bestehen, oder erhält eine Stufe in <<ref_core_2d10_condition_exhausted,Erschöpfung>>
-
 [[ref_core_2d10_pools_sp]]
 === Stabilitätspunkte (SP)
 *Stabilitätspunkte (SP)* sind eine Repräsentation der Psyche und Moral des Charakters oder Kreatur.
 Je weniger SP im Pool einer Kreatur verbleiben, umso unsicherer wird sie.
 Gerät eine Kreatur unter eine Schwelle dieses Pools, besteht die Gefahr, dass sie der aktuellen Kampfsituation oder Bedrohung entflieht.
-Das Erreichen einer <<ref_core_2d10_pools_conditions_and_thresholds,Schwelle>> in diesem Pool verursacht immer einen <ref_core_2d10_conditions,Zustand>>, der zu Beginn des xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugs] betroffenen Kreatur in der Regel durch einen <<ref_core_2d10_checks_saves,Rettungswurf>> ausgewertet wird.
-
-Werden diese Zustände durch das Erreichen der Schwelle verursacht, enden sie zusätzlich immer, wenn der SP-Pool der Kreatur die Schwelle übertrifft.
-Die Zustände können jedoch auch durch andere Effekte verursacht werden, wie zum Beispiel link:../../bestiary/skills/bestiary_skill_fear.adoc[furchterregende] Kreaturen oder Zaubersprüche.
-In diesem Fall spielt der Status im Pool keine weitere Rolle, egal ob der Pool den Zustand zulassen oder aufheben würde.
 
 [[ref_core_2d10_pools_temporary]]
 === Temporäre Punkte
@@ -1098,7 +1074,6 @@ Die in diesem Kapitel vorgestellten Regeln richten vor allem Spielercharaktere.
 Im Ermessen des SLs können diese natürlich auch auf andere Kreaturen Nicht-Spielercharaktere angewendet werden.
 Dies gilt nicht für Kreaturen, die explizit die Regeln zum Thema Tod ausschließen, wie beispielsweise link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote].
 
-
 [[ref_core_2d10_conditions]]
 == Zustände
 Als (besonderen) *Zustand* im Regelsystem wird eine körperliche, geistige oder gar magische Situation beschrieben, in der sich ein Charakter befinden kann.
@@ -1120,14 +1095,14 @@ Wird ein Charakter aus zwei oder mehr unterschiedlichen Quellen durch den gleich
 * Der Zustand besitzt keine Stufen, sondern nur eine Dauer.
 Alle Zustände laufen individuell ab, jedoch erleidet der Charakter den Effekt des Zustands nur einmal.
 * Der Zustand besitzt ein Stufensystem, beispielsweise <<ref_core_2d10_condition_dazed,Benommenheit>>.
-In diesem Fall addiert jede Quelle eine Stufe hinzu bis zum Maximum.
-
-Die folgende link:../tables/table_conditions_overview.adoc[Tabelle] führt alle besonderen Zustände auf mit einer Beschreibung ihrer Auswirkungen auf xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen], die Charakter durchführen können.
+In diesem Fall addiert jede Quelle eine Stufe hinzu.
 
 In den folgenden Kapiteln werden die Zustände ausführlich erläutert.
 
 [[ref_core_2d10_condition_onground]]
 === Am Boden
+*Kategorie:* -
+
 Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_core_battle_attacktypes_knockdown[Niederschlag].
 Charakter gilt am Boden, wenn er liegt.
 
@@ -1138,6 +1113,8 @@ Der Charakter muss die Aktionen xref:core_rules_battlesystem.adoc#ref_core_battl
 
 [[ref_core_2d10_condition_corned]]
 === Bedrängt
+*Kategorie:* -
+
 Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 weitere Charaktere oder Kreaturen mit ihm <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind.
 Ein bedrängter Charakter erhält <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen].
 
@@ -1153,41 +1130,39 @@ Um den Zustand zu verlassen, muss der betroffene Charakter mit weniger Kreaturen
 
 [[ref_core_2d10_condition_threatened]]
 === Bedroht
+*Kategorie:* -
+
 Ein Charakter gilt als bedroht, wenn er sich in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines anderen Charakters oder einer Kreatur befindet, allerdings mit dieser nicht <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> ist.
 Dieser Zustand hat keine direkten Auswirkungen, jedoch kann bestimmte Effekte von diesem abhängig sein.
 Der Zustand wird beendet, wenn der Charakter sich aus der Bedrohungszone herausbewegt.
 
 [[ref_core_2d10_condition_dazed]]
 === Benommen
-Verletzungen, starke Schmerzen oder auch viele magische Effekte verursachen Benommenheit.
+*Kategorie:* Körper
+
+Verletzungen, starke Schmerzen oder auch viele magische Effekte verursachen *Benommenheit*.
 Dabei unterscheiden die Regeln nicht, ob ein Charakter beispielsweise einen Schlag an den Kopf bekommen hat und dadurch nur Weiß vor den Augen sieht oder ob er durch einen Zauberspruch seine Umwelt nur noch eingeschränkt wahrnimmt.
 
-Benommenheit wird in den Stufen (1, 2, ...) gemessen und ist im Gegensatz zu anderen Zuständen kumulativ.
+Benommenheit wird in den Stufen gemessen und kumulativ.
 Für jede unterschiedliche Quelle, aus der ein Charakter diesen Zustand erhält, erhält eine Stufe Benommenheit.
 
-Jede Stufe in Benommenheit dauert eine bestimmte Anzahl von Kampfphasen.
-Sollte diese nicht gegeben sein, so dauert die Benommenheit 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
-Dieser Wert muss mit Beginn des Zustands einmalig bestimmt werden.
-Dabei gilt außerdem, dass immer die nächst-niedrige Stufe erreicht wird, sobald die aktuelle Stufe endet.
-Der Zustand endet somit erst, wenn die erste Stufe abgelaufen ist.
+Beginn ein Charakter seinen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] mit mindestens einer Stufe Benommenheit, muss er einen <<ref_core_2d10_checks_saves_fortitude,Körper-Rettungswurf>> ablegen:
 
-.Benommenheit
-====
-Ein Charakter mit einer KO-Stufe von 3 erhält den Zustand _Benommen_ (Stufe 2).
-Er würfelt eine W10 und erhält eine 5.
-Damit dauert die Benommenheit für 5-3=2 Kampfphasen an.
-Mit Beginn der dritten Kampfphase beginnt der Zustand _Benommen_ (Stufe 1).
-In diesem Moment würfelt der Charakter einen weiteren W10 und subtrahiert seine KO-Stufe.
-Diesmal würfelt er insgesamt eine 1.
-Somit dauert die Benommenheit noch eine Kampfphase auf Stufe 1 an.
-====
+* *Erfolg:* Der Charakter kann in seinem Zug normal agieren und verliert eine Stufe Benommenheit.
+* *Misserfolg:* Der Charakter verliert eine Stufe Benommenheit am Ende seines Zuges.
+Es treten die Folgen der Benommenheit ein.
+* *Patzer:* Der Charakter verliert keine Stufe Benommenheit und es treten die Folgen ein.
 
-Für jede Stufe der Benommenheit verliert der Charakter in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] eine seiner xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen].
+Für jede Stufe der Benommenheit, die der Charakter nach dem Rettungswurf noch besitzt, verliert er in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] eine seiner xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen].
 Er kann damit 0 Aktionen pro Zug erreichen.
 Außerdem werden unabhängig der Stufe alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] mit <<ref_core_2d10_checks_disadvantage,Nachteil>> gewürfelt.
 
+Außerhalb des Kampfs entfernt eine <<ref_core_2d10_regeneration_short_break,kurze Rast>> alle Stufen in Benommenheit.
+
 [[ref_core_2d10_condition_immobile]]
 === Bewegungsunfähig
+*Kategorie:* -
+
 Ein bewegungsunfähiger Charakter hat eine effektive BEW-Rate von 0, die nicht weiter modifiziert werden kann.
 Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] durchführen, solange diese keine BEW erfordern.
 Der Zustand endet üblicherweise nach Ablauf des verursachenden Effekts.
@@ -1195,6 +1170,8 @@ Der Charakter kann keine <<ref_core_2d10_checks_saves_reflex,Reflexrettungswürf
 
 [[ref_core_2d10_condition_blind]]
 === Blind
+*Kategorie:* Körper
+
 Ein Charakter kann geblendet werden, zum Beispiel durch grelles Licht, einen Zauberspruch oder weil jemand ihm eine Augenbinde umgelegt hat.
 
 Ein blinder Charakter gilt als stünde er in xref:core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[totaler Dunkelheit].
@@ -1208,6 +1185,8 @@ Sollte diese nicht gegeben sein, so dauert die Blindheit 1W10 minus die ER-Stufe
 
 [[ref_core_2d10_condition_burning]]
 === Brennend
+*Kategorie:* -
+
 Ein brennender Charakter erhält zu Beginn xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seines Zuges] eine festgelegte Anzahl von Schadenspunkten für die angegebene xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart].
 Ist keine angegeben, wird 1W3 Schadenspunkte angenommen.
 Es gelten die üblichen Regeln für die Bestimmung oder Reduktion von xref:core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden].
@@ -1258,6 +1237,8 @@ Sollte diese nicht gegeben sein, so dauert der Zustand 1W10 minus die KO-Stufe K
 
 [[ref_core_2d10_condition_exhausted]]
 === Erschöpft
+*Kategorie:* Körper
+
 Abenteuer haben ein anstrengendes Leben.
 Viele unterschiedliche Auslöser können die körperliche Leistungsfähigkeit eines Charakters beeinträchtigen, beispielsweise intensives xref:core_rules_adventures.adoc#ref_core_adventures_journies[Reisen] oder <<ref_core_2d10_condition_frenzy,Kampfrausch>>.
 
@@ -1267,7 +1248,7 @@ Sobald ein Charakter mindestens eine Stufe Erschöpfung hat, gilt er im Sinne di
 
 Die Anzahl der Stufen in Erschöpfung haben kumulative Effekte.
 
-* für jede xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion], die der Charakter durchführen will, nimmt er 1 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
+* für jede xref:core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion], die der Charakter durchführen will, nimmt er 1 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden] pro Stufe Erschöpfung.
 * pro Stufe erhält der Charakter einen Malus von -5 auf seine <<ref_core_2d10_characters_attributes_secondary_initiativebonus,INI>>.
 Der INI-Bonus kann auch negativ werden.
 * pro Stufe erhält der Charakter einen Malus von -1,50 Meter auf seine <<ref_core_2d10_characters_attributes_secondary_movementrate,BEW>>.
@@ -1282,13 +1263,20 @@ Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
 
 [[ref_core_2d10_condition_fearful]]
 === Furcht erfüllt
-Beginn ein Charakter seinen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] mit diesem Zustand, muss er einen <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswurf>> ablegen.
-Es treten dabei folgende Effekte ein:
+*Kategorie:* Verstand
 
-* *Erfolg:* Der Charakter kann in seinem Zug normal agieren.
-* *Misserfolg:* Der Charakter ist von der Situation erschüttert, jedoch hat er sich noch einigermaßen im Griff.
+Viele Schrecken lauern auf dem Weg eines Abenteurers.
+Dieser Zustand beschreibt, dass auch der Mutigste eventuell irgendwann das Weite suchen muss.
+
+*Furcht* wird in den Stufen gemessen und kumulativ.
+Für jede unterschiedliche Quelle, aus der ein Charakter diesen Zustand erhält, erhält eine Stufe *Furcht*.
+
+Beginn ein Charakter seinen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] mit mindestens einer Stufe Furcht, muss er einen <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswurf>> ablegen:
+
+* *Erfolg:* Der Charakter kann in seinem Zug normal agieren und verliert eine Stufe Furcht.
+* *Misserfolg:* Der Charakter verliert eine Stufe Furcht am Ende seines Zuges.
 Der Charakter erhält einen <<ref_core_2d10_checks_disadvantage,Nachteil>> auf seine nächste Probe.
-* *Patzer:* Die Angst überkommt den Charakter und er muss sofort fliehen.
+* *Patzer:* Der Charakter verliert keine Stufe Furcht und er muss sofort fliehen.
 
 Ein fliehender Charakter muss zu Beginn seines xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zuges] wenigstens seine erste xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] ausschließlich darauf verwenden, um den Kampf zu entkommen (siehe xref:core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegung]).
 Ist keine direkte, sichere Route möglich, nimmt er auch xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] in Kauf.
@@ -1296,12 +1284,10 @@ Möchte der Charakter für seine zweite oder dritte Aktion etwas anderes einsetz
 
 Während seiner Flucht erhält der Charakter einen <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> und darf keine xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] ausführen.
 
-Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen oder wenn der Charakter den Kampfschauplatz verlassen hat.
-Letzteres liegt im Ermessen des SL.
-Sollte keine konkrete Anzahl an Kampfphasen angegeben sein, gelten 1W10 - SB-Stufe des Charakters (Minimum 1).
-
 [[ref_core_2d10_condition_held]]
 === Gefangen / Gehalten
+*Kategorie:* -
+
 Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen, ein Charakter kann in die prekäre Situation kommen, gefangen zu sein.
 
 Gefangene Charaktere gelten als <<ref_core_2d10_condition_immobile,bewegungsunfähig>>.
@@ -1311,6 +1297,8 @@ Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.
 
 [[ref_core_2d10_condition_bondedincombat]]
 === Im Nahkampf gebunden
+*Kategorie:* -
+
 Ein Charakter gilt als im Nahkampf gebunden, wenn er in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines Gegners steht und mindestens eine Angriffsprobe gewürfelt wurde.
 Es können aufgrund einer einzelnen Angriffsprobe sowohl <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angreifer>> wie <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidiger>> im Nahkampf gebunden werden, wenn beide zum Zeitpunkt der Probe in der Bedrohungszone des jeweils anderen stehen.
 Das <<ref_core_2d10_checks_basicrole,Ergebnis>> dieser Probe ist dabei nicht relevant.
@@ -1318,6 +1306,8 @@ Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm
 
 [[ref_core_2d10_condition_disabled]]
 === Kampfunfähig
+*Kategorie:* -
+
 Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] zur Verfügung.
 
 Sofern nicht anders angegeben, gelten keine anderen Zustände (wie zum Beispiel im Fall einer <<ref_core_2d10_condition_unconscious,Ohnmacht>> <<ref_core_2d10_condition_onground,am Boden>> zu liegen).
@@ -1325,6 +1315,8 @@ Die Kampfunfähigkeit endet erst, wenn der Zustand explizit aufgehoben wird.
 
 [[ref_core_2d10_condition_unconscious]]
 === Ohnmächtig
+*Kategorie:* Körper
+
 Ein ohnmächtiger Charakter kann weder Aktionen noch Reaktionen einsetzen.
 Sofern nicht anders angegeben, dauert die Ohnmacht 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
 Ein Charakter gilt als <<ref_core_2d10_condition_onground,am Boden>>.
@@ -1332,6 +1324,8 @@ Ohnmächtige Charaktere können keine <<ref_core_2d10_checks_saves,Rettungswürf
 
 [[ref_core_2d10_condition_panicked]]
 === Panisch
+*Kategorie:* Verstand
+
 Noch dramatischer als die <<ref_core_2d10_condition_fearful,Furcht>> ist die Panik.
 
 Beginn ein Charakter seinen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] mit diesem Zustand, muss er einen <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswurf>> ablegen.
@@ -1350,6 +1344,8 @@ Sollte ein anderer Effekt diesen Zustand auslösen und der Charakter mehr als 0 
 
 [[ref_core_2d10_condition_frenzy]]
 === Rasend
+*Kategorie:* Verstand
+
 Rasende Charaktere sind in einem regelrechten Wahn verfallen.
 Sie sind nur noch auf ein Ziel fokussiert ohne Rücksicht auf Verluste und eigene Sicherheit.
 Manche Kämpfer nutzen diesen Zustand gezielt, um in einen link:skills/core_skill_berserker.adoc[Kampfrausch] zu verfallen, was ihre Kampfkraft deutlich verbessert.
@@ -1365,6 +1361,8 @@ Sollte ein rasender Charakter den Zustand <<ref_core_2d10_condition_bewitched,ve
 
 [[ref_core_2d10_condition_sleeping]]
 === Schlafend
+*Kategorie:* Verstand
+
 Dieser Zustand wird üblicherweise erreicht, wenn eine <<ref_core_2d10_regeneration_long_rest,lange Rast>> eingeschlagen wird.
 Manche magischen Effekte können diesen Zustand auch verursachen.
 
@@ -1377,6 +1375,8 @@ Wenn ein Charakter aus dem Schlaf aufwachen möchte, bevor dieser vorbei ist, mu
 
 [[ref_core_2d10_condition_nauseated]]
 === Übelkeit
+*Kategorie:* Körper
+
 Bei manchen Dingen kommt einem einfach die Galle hoch.
 
 Dem Charakter ist übel und er kämpft damit, noch schlimmeres verhindern.
@@ -1384,6 +1384,8 @@ Er muss für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesys
 
 [[ref_core_2d10_condition_encumbered]]
 === Überlastet
+*Kategorie:* -
+
 Ein Charakter ist *überlastet*, wenn er zu viel Gewicht mit sich trägt.
 Üblicherweise wird dieser Zustand erreicht, wenn ein Charakter seine <<ref_core_characters_charactercreation_secondary_calculate_maxcarringcapacity,maximale Traglast>> übertrifft.
 
@@ -1395,28 +1397,20 @@ Sollte der Charakter bereits Stufen in Erschöpfung besitzen, wird diese virtuel
 
 [[ref_core_2d10_condition_surprised]]
 === Überrascht
+*Kategorie:* -
+
 Ein *überraschter* Charakter kann in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
 Alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] erhalten einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
 Der Zustand endet üblicherweise nach einer Kampfphase.
 
-[[ref_core_2d10_condition_insecure]]
-=== Unsicher
-Beginn ein Charakter seinen xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] mit diesem Zustand, muss er einen <<ref_core_2d10_checks_saves_discipline,Disziplin-Rettungswurf>> ablegen.
-Es treten dabei folgende Effekte ein:
-
-* *Erfolg:* Der Charakter erhält keinen weiteren Malus.
-* *Misserfolg* / *Patzer:* Der Charakter erhält bis zum Beginn seines nächsten xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zuges] einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -1 auf alle Proben.
-
-Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen oder wenn der Charakter den Kampfschauplatz verlassen hat.
-Letzteres liegt im Ermessen des SL.
-Sollte keine konkrete Anzahl an Kampfphasen angegeben sein, gelten 1W10 - SB-Stufe des Charakters (Minimum 1).
-
 [[ref_core_2d10_condition_invisible]]
 === Unsichtbar
+*Kategorie:* -
+
 Ob durch Magie oder einen genialen, optischen Trick, verschwinden unsichtbare Charaktere aus dem Sichtfeld der Umgebung.
 Unsichtbare Charaktere können nicht direktes Ziel einer <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsprobe>> oder Interaktion sein.
 Sie verursachen keine xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
-Unsichtbare Kreaturen haben außerdem einen <<ref_core_2d10_checks_advantage,Vorteil>> auf ihre eignen <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsproben>> gegenüber anderen Kreaturen, die sie nicht sehen können.
+Unsichtbare Kreaturen haben außerdem einen <<ref_core_2d10_checks_advantage,Vorteil>> auf ihre eigenen <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsproben>> gegenüber anderen Kreaturen, die sie nicht sehen können.
 
 Sofern nicht anders erwähnt, gelten unsichtbare Charaktere auch als unsichtbar gegenüber Kreaturen, die über andere Sinne als "Sicht" verfügen.
 Charaktere und Kreaturen benötigen besondere Fähigkeiten oder Zauber, um unsichtbare Charaktere zu erkennen.
@@ -1428,6 +1422,8 @@ Der Zustand endet üblicherweise nach Ende des auslösenden Effekts.
 
 [[ref_core_2d10_condition_bewitched]]
 === Verzaubert
+*Kategorie:* Verstand
+
 Ein magischer Effekt beeinflusst das Denken und Handeln eines Charakters.
 Der Charakter muss dem Effekt folgen, bis dieser endet oder er einen eventuellen <<ref_core_2d10_checks_saves,Rettungswurf>> besteht.
 Solange der Effekt keine Einschränkungen vorgibt, besitzt der Charakter alle Aktionen in einer Kampfphase.

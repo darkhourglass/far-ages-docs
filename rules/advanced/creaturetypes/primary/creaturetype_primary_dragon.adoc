@@ -1,5 +1,25 @@
 = Drache
 
+[[ref_primary_creaturetype_dragons_pools]]
+== Pools
+
+Drachen erhalten folgende zusätzliche Boni auf ihre Pools:
+
+* TP: +10
+* MP: +10
+* SP: +10
+
+[[ref_primary_creaturetype_dragons_saves]]
+== Rettungswürfe
+
+Drachen erhalten folgende zusätzlichen Boni auf ihre Rettungswürfe:
+
+* Aufmerksamkeit: +3
+* Disziplin: +3
+* Körper: +3
+* Magie: +3
+* Reflex: +3
+
 [[ref_primary_creaturetype_dragons_rules]]
 == Regeln
 In diesem Kapitel werden alle Regeln vorgestellt, die Kreaturen innehaben, die diesen Kreaturtyp *Drache* besitzen.
@@ -59,7 +79,6 @@ Insgesamt hat er damit nur 4+2=6 eingesetzt und kann ab jetzt die Fähigkeit mit
 
 Die folgenden, allgemeinen Fähigkeiten können als <<ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills,Drachenfähigkeiten>> unter Einsatz der angegebenen Machtstufen und eventuellen Parametern gelernt werden.
 
-
 |===
 |Fähigkeit |Machtstufe |Parameter |Beschreibung
 
@@ -90,9 +109,9 @@ Allerdings muss der Drache eine Form wählen, die Flügel hat, um zu fliegen.
 |xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 |-
 
-|link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen]
+|link:../../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen]
 |7
-|xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP]
+|Verstand
 |Drachen erleben in ihrem Leben viel und auf ihren Reisen durch den Weltraum sehen sie Dinge, die außerhalb der sterblichen Vorstellungskraft liegen.
 
 |link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
@@ -171,7 +190,6 @@ Allerdings muss der Drache eine Form wählen, die Flügel hat, um zu fliegen.
 |Der Drache ist besonders resistent gegenüber magischen Attacken.
 
 |===
-
 
 [[ref_primary_creaturetype_dragons_rules_skills]]
 === Fähigkeiten

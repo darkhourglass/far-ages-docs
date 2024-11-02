@@ -1,5 +1,20 @@
 = Elementare
 
+[[ref_primary_creaturetype_elementals_pools]]
+== Pools
+
+Elementare erhalten folgende zusätzliche Boni auf ihre Pools:
+
+* MP: +20
+
+[[ref_primary_creaturetype_elementals_saves]]
+== Rettungswürfe
+
+Elementare erhalten folgende zusätzlichen Boni auf ihre Rettungswürfe:
+
+* Körper: +3
+* Magie: +3
+
 [[ref_primary_creaturetype_elementals_rules]]
 == Regeln
 Im folgenden Abschnitt werden die besonderen Regeln für alle Kreaturen mit diesem Kreaturentyp vorgestellt.
@@ -74,10 +89,8 @@ Alle Elementare erhalten zusätzlich zu den Fähigkeiten aus <<ref_primary_creat
 
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
 * link:../../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 * link:../../../../bestiary/skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]

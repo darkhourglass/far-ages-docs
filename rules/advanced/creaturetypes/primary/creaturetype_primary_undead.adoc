@@ -1,5 +1,15 @@
 = Untote
 
+[[ref_primary_creaturetype_undead_pools]]
+== Pools
+
+Untote erhalten keinen zusätzlichen Bonus auf ihre Pools.
+
+[[ref_primary_creaturetype_undead_saves]]
+== Rettungswürfe
+
+Untote erhalten keinen zusätzlichen Bonus auf ihre Rettungswürfe.
+
 [[ref_primary_creaturetype_undead_rules]]
 == Regeln
 
@@ -112,18 +122,8 @@ Alle Untoten erhalten automatisch alle hier aufgelisteten Fähigkeiten.
 
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (TP)]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_pool_conditions.adoc[Immun gegenüber Pool-spezifischen Zuständen (MP)]
-
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommen]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_blind[Blind]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[Kampfunfähig]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Rasend]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_sleeping[Schlafend]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[Verzaubert]
-* link:../../../../bestiary/skills/bestiary_skill_immunity_to_condition.adoc[Immun gegenüber Zustand] xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
 * link:../../../../bestiary/skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
 * <<ref_primary_creaturetype_undead_rules_powerlevel_fear_skill,Furcht>>: die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], je nachdem welche höher ist.
 * link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])

@@ -25,7 +25,7 @@ Lore
 //TP=TP-Bonus (GK) + (ST+KO)*5
 //MP=EN*10
 //SP=(SB+CH)*5
-*TP:* XXX +
+*TP:* XXX +10 +
 *MP:* XXX +
 *SP:* XXX +
 
@@ -47,10 +47,10 @@ Lore
 == Rettungswürfe
 
 *Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +
+*Disziplin:* SB+CH +3 +
+*Körper:* ST+KO +5 +
 *Magie:* EN+SB +
-*Reflex:* GE+ER +
+*Reflex:* GE+ER +3 +
 
 == Offensiv
 

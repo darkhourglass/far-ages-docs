@@ -1,13 +1,23 @@
 = Pflanzen
 
-[[ref_primary_creaturetype_plant_rules]]
+[[ref_primary_creaturetype_plants_pools]]
+== Pools
+
+Pflanzen erhalten keinen zusätzlichen Bonus auf ihre Pools.
+
+[[ref_primary_creaturetype_plants_saves]]
+== Rettungswürfe
+
+Pflanzen erhalten keinen zusätzlichen Bonus auf ihre Rettungswürfe.
+
+[[ref_primary_creaturetype_plants_rules]]
 == Regeln
 
 Kreaturen, die als Pflanzen gelten, unterscheiden sich deutlich von den Lebewesen, die wir üblicherweise als Pflanzen verstehen.
 Pflanzenkreaturen besitzen, zum Beispiel im Vergleich zur Zimmerpflanze, eine Möglichkeit zur xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[Fortbewegung].
-Grundsätzlich gelten für alle Pflanzen die gleichen Regeln wie für xref:creaturetype_primary_humanoid.adoc#ref_primary_creaturetype_humanoid_rules[Humanoide] mit folgenden Ausnahmen.
+Grundsätzlich gelten für alle Pflanzen die gleichen Regeln wie für xref:creaturetype_primary_humanoid.adoc#ref_primary_creaturetype_humanoids_rules[Humanoide] mit folgenden Ausnahmen.
 
-[[ref_primary_creaturetype_plant_rules_hibernate]]
+[[ref_primary_creaturetype_plants_rules_hibernate]]
 === Ruhezustand
 Pflanzenwesen sind üblicherweise link:../secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen.
 Alle Pflanzen mit diesem sekundären Kreaturentyp müssen nach üblichen Regeln xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[rasten], um ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools] zu regenerieren.

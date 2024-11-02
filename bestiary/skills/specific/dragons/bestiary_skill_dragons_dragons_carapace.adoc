@@ -6,7 +6,6 @@
 *CP:* tba +
 *Aktivierung:* Passiv +
 
-Immer wenn ein Drache einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Zustand] aufgrund seines xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] erhält, gelten die Regeln für den nächst-besten Zustand.
-Beispielsweise gelten für einen Drachen im Zustand xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp_condition_2_slightly_injured[leicht verletzt] erleidet keine Nachteile des Zustands.
-Die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Regeln] zu 0 TP bleiben unberührt.
+Immer wenn ein Drache in seinem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_conditions_and_thresholds[Schwelle] überschreitet, erhält einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf den xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf].
+Der Drachenpanzer bietet keine Vorteile, wenn der xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod] eintritt, der TP-Pool als 0 erreicht.
 
