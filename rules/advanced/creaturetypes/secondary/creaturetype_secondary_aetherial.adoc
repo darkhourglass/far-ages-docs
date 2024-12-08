@@ -1,5 +1,8 @@
 = Aetherisch
 
+Aetherische Kreaturen sind Bewohners des Aethers und der xref:../../../../lore/cosmology/outers/lore_cosmology_outers_the_aether.adoc#ref_lore_aether_endless_see[Endlosen See].
+
+
 [[ref_secondary_creaturetype_aetherial_rules]]
 == Regeln
 
@@ -10,6 +13,18 @@ Ihr Körper zerfällt zu Staub und nach 24 Stunden minus ihre xref:../../../core
 Alle ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Pools] sind aufgefüllt und eventuelle xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung] wird aufgehoben.
 
 Stirbt sie hingegen im Aether, ist dieser Tod endgültig.
+
+[[ref_secondary_creaturetype_aetherial_rules_inhabitor_of_the_void]]
+=== Bewohner der Leere
+Aetherische Kreaturen sind der materiellen Welt so weit entrückt, dass sie sich mit den sterblichen Bedürfnissen nicht mehr belasten müssen.
+Sie benötigen keine Nahrung und müssen nicht schlafen.
+Sie müssen nach den üblichen Regeln zur xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[Regeneration] ihre Pools auffüllen, jedoch schlafen sie dabei nicht.
+Aetherische Kreaturen können nicht den Kreaturentyp link:creaturetype_secondary_living.adoc[lebendig] besitzen, allerdings gelten sie zur Bestimmung von Effekten, zum Beispiel bei xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Zielen], als lebendig.
+Dies gilt allerdings nur, wenn der Zauberspruch den primären Kreaturentyp explizit vorschreibt und dieser mit dem der Kreatur übereinstimmt.
+
+[[ref_secondary_creaturetype_aetherial_rules_astral_phase]]
+=== Astrale Phase
+Mit dem Einsatz einer xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexen Aktion] kann die Kreatur zwischen dem Aether und der materiellen Welt wechseln und damit den xref:../../../../lore/cosmology/outers/lore_cosmology_outers_the_aether.adoc#ref_lore_aether_veil[Schleier] überqueren.
 
 [[ref_secondary_creaturetype_aetherial_rules_skills]]
 === Fähigkeiten

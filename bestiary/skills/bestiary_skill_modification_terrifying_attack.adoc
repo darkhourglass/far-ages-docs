@@ -1,0 +1,23 @@
+= Furchterregende Attacke (Attacke, SP)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, Modifikation +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur kann die angegebene *Attacke* für einen furchterregenden Angriff nutzen, um das Ziel nicht nur körperlich, sondern auch mental zu bekämpfen.
+Die Attacke besticht vielleicht durch außergewöhnliche und beunruhigende Gewalt, zum Beispiel ursachen Klauen tiefe Wunden, Bisse reißen Fleischstücke aus dem Opfer.
+Die furchterregende Attacke hinterläßt Narben in Körper und Seele seiner Opfer.
+
+Dazu würfelt die Kreatur eine normale xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Angriffsprobe] mit dieser Attacke.
+Verursacht die Kreatur wenigstens 1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkt] verliert das Ziel außerdem die angegebenen *SP*.
+Dies gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[mentaler Schaden].
+Diese sind kumulativ mit eventuellen Verlusten von xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP] durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_criticalhit[kritische Treffer].
+
+Werden mehrere Charaktere oder Kreaturen durch die Attacke getroffen, gelten für sie alle diese Regeln.
+
+Darüber hinaus müssen alle Beobachter der furchterregenden Attacke im Umkreis von 3,00 Metern einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen oder verlieren auch die angebenen SP.
+
+Die furchterregende Attacke ist eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Aktion].
+Die Limitierung bezieht sich dabei nicht auf die originale Fähigkeit.
+Es ist daher möglich, dass die Kreatur ihre Aktionen auf eine furchterregende Attacke und 2 weitere reguläre Attacken ausführt.

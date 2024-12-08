@@ -411,7 +411,6 @@ Besteht er die Probe, behält er die Vorbereitung und kann diese in seiner näch
 Diese kann auch erst in seinem nächsten Zug liegen.
 Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] erhält er einen xref:core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit POT*1W3 xref:core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aether-Schaden].
 
-
 .Verbrennen
 ====
 Bei dem Versuch, einen Zauberspruch mit POT 6 auszusprechen, wird der Zauberer unterbrochen.
@@ -502,6 +501,18 @@ Jedoch muss er dafür xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situ
 * für jede fehlende Zutat: -20
 
 Alle Mali sind kumulativ.
+
+[[ref_core_magic_rules_spellcasting_cast_spell_as_reaction]]
+==== Zauberspruch als Reaktion wirken
+Manche Zaubersprüche können als xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] ausgesprochen werden.
+<<ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing,zusätzlichen Effekte>> oder xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeiten] müssen dem Zauberer das explizit erlauben.
+
+Ein als Reaktion ausgesprochener Zauber wird normalerweise nicht <<ref_core_magic_rules_spellcasting_spell_preparation,vorbereitet>>.
+Die Vorbereitung muss vollständig <<ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing,verkürzt>> werden und genau dann ausgesprochen, wenn dem Zauberer eine Reaktion xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_others_turn[zu steht].
+Es gelten die normalen Regeln für die <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>>.
+
+[NOTE]
+Wie bei anderen Reaktionen, muss der Zauberer den Zauberspruch nicht ankündigen, sondern muss nur die vollständige Vorbereitung mit seinen MP bezahlen, wenn er die Reaktion einsetzt.
 
 [[ref_core_magic_rules_spellcasting_extend_of_spells]]
 ==== Einschränkungen der Ausdehnung von Zaubersprüchen
@@ -599,7 +610,7 @@ Bei einem Patzer tritt das normale Verbrennen ein.
 Zur Bestimmung der Auswirkung des Patzers wird in der link:../tables/table_magic_spellfailure_items.adoc[Tabelle] die Spalte *MP-Basiert* verwendet.
 
 [[ref_core_magic_base_arcanetrick]]
-=== Arkane Tricks
+==== Arkane Tricks
 Es gibt Zaubersprüche, die sehr simpel sind und dadurch einfach und ohne wenig Risiko gewirkt werden.
 Üblicherweise sind diese Zauber die Ersten, die Zauberer aus seiner Zauberschule lernt.
 Jede <<ref_core_magic_schools_of_magic,Zauberspruchliste>> besitzt eine eigene Sektion, die zu dieser Liste gehörige Arkane Tricks auflistet.
@@ -613,7 +624,7 @@ Arkane Tricks unterscheiden sich zu Zaubersprüchen in folgenden Punkten:
 Dies gilt auch, wenn er aus einem Gegenstand gewirkt wird.
 
 [[ref_core_magic_base_spell_like_abilities]]
-=== Zauber-ähnliche Fähigkeiten
+==== Zauber-ähnliche Fähigkeiten
 Manche Charaktere und Kreaturen beherrschen angeborene magische Kräfte, die den Effekt von einem bestimmten Zauberspruch erzeugen.
 Dies nennt man eine *zauber-ähnliche Fähigkeit*.
 Üblicherweise benennt die Fähigkeit den konkreten Zauberspruch, der mit ihr gewirkt werden kann.

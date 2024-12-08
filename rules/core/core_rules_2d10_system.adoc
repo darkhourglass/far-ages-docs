@@ -1358,6 +1358,7 @@ Endet dieser Zustand, muss der Charakter einen <<ref_core_2d10_checks_saves_fort
 
 Rasend kann nicht mit <<ref_core_2d10_condition_bewitched,verzaubert>> kombiniert werden.
 Sollte ein rasender Charakter den Zustand <<ref_core_2d10_condition_bewitched,verzaubert>> erreichen, schlägt dieser automatisch fehl.
+Ein Charakter, der bereits eine Stufe <<ref_core_2d10_condition_exhausted,Erschöpfung>> hat, kann diesen Zustand nicht erreichen.
 
 [[ref_core_2d10_condition_sleeping]]
 === Schlafend

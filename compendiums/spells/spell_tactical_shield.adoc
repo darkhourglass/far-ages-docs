@@ -1,0 +1,27 @@
+= Taktischer Schild
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Schatten +
+*Vorbereitung:* 4 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* - +
+*Dauer:* 3 Kampfphasen +
+*Effekt:* +
+
+Du erzeugst eine semi-transparente, kuppelförmige, dünne Schicht aus magischer Energie, die wie ein Schild Dich vor Schaden schützt.
+
+Der taktische Schild hat einen eigenen Pool von 80 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkten], die er von Dir abwendet, wenn Du Ziel eines beliebigen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Angriffs] bist, der Deinen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] reduzieren würde.
+Angriffe auf andere Pools werden durch den taktischen Schild nicht abgewehrt.
+Wenn der Pool des taktischen Schilds aufgebraucht ist oder die Dauer abgelaufen ist, erleidest Du durch Angriffe normale Verluste von TP.
+Verursacht ein Angriff mehr Schadenspunkte als der Pool des taktischen Schilds abwehren würde, endet der Zauberspruch sofort und Du erhältst die Differenz als Schadenspunkte.
+
+*Zusätzliche Effekte:* +
++2 POT: Du kannst diesen Zauber als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_cast_spell_as_reaction[aussprechen] +
++5 MP: Du kannst den Schild ausdehnen und 1 weitere Kreatur mit aufnehmen, die maximal 3,00 Meter von Dir entfernt steht und nicht mehr als 1 xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] größer ist als Du.
+Die Kreatur erhält die gleichen Vorteile durch den Schild wie Du.
+Du kannst diesen Effekt mehrfach anwenden und mehrere Kreaturen aufnehmen. +
++2 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: Erhöhe den Pool des taktischen Schilds um 20 Schadenspunkte +

@@ -1,0 +1,19 @@
+= Frostodem
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Feuer +
+*Vorbereitung:* 2 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Kegel 6,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* Du pustest in die Luft vor Dir, es formen sich Eiskristalle und sichtbarer kalter Nebel in Deinem Atem und ein Schwall elementarer Magie stößt nach vorne.
+
+Der Wirkungsbereich des Zaubers breitet sich kegelförmig beginnend vor Dir aus.
+Jede Kreatur im Wirkungsbereich erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_spells[automatischen Treffer] mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost].
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe halbiert diesen Schaden. +
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Kegel +3,00 Meter +
++5 MP, +1 POT: Schaden +2W10 Frost +

@@ -1,0 +1,17 @@
+= Verstärkte magische Fähigkeit (Angriffsstufe, Zauberspruch, Anzahl Effekte)
+
+*Voraussetzungen:* - +
+*Typ:* Magisch +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur beherrscht eine angeborene, magische Fähigkeit, die einem Zauberspruch nahekommt.
+Dies entspricht der regulären link:bestiary_skill_magicability.adoc[Fähigkeit], allerding mit einer Ausnahme zu den allgemeinen Regeln für xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_base_spell_like_abilities[zauber-ähnliche Fähigkeiten].
+
+Die verstärkte magische Fähigkeit erlaubt das Verwenden von xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects[zusätzlichen Effekten] für angegebenen *Zauberspruch*.
+Setzt die Kreatur die Fähigkeit ein, kann sie eine beliebige Kombination für diesen Zauberspruch zur Verfügung stehenden Effekte einsetzt, jedoch maximal die angegebene *Anzahl*.
+Haben die zusätzlichen Effekte Kosten in Form von MP, muss die Kreatur diese aus ihrem eigenen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] bezahlen.
+Effekte, deren Kosten die Erhöhung der MaxPOT beinhalten, haben implizit keine zusätzlichen Kosten.
+
+== Legendär
+Diese Fähigkeit kann als xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzt werden.

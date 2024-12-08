@@ -2,18 +2,108 @@
 
 == Beschreibung
 
-// TODO LORE
+Das Labor eines Alchemisten ist ein Ort der Wissenschaft und Kreativität - mit einem deutlichen Anteil Gefahr.
+Bunte Flüssigkeiten in kleinen wie großen, bauchigen Glasbehältern dampfen über kleinen Flammen.
+Eine merkwürdige Mischung aus vielen Gerüchen liegt in der Luft.
+Auf vielen Tischen und Regalen liegen handschriftliche Notizen und in den Ecken stapeln sich Bücher, Vorräte und Fässer aus Metal.
+
+Das Labor, auch wenn es keine klassische Verteidigungsanlage ist, bietet dem Besitzer (und vielleicht einem gelernten Kenner) ein riesiges Potenzial an Optionen, um Chaos unter Angreifern zu sähen.
 
 == Aktionen
+*Aktionen pro Kampfphase:* 1
 
-=== Aktion 1
+[[ref_stronghold_alchemists_lab_action_unstable_experimentation_bonus]]
+=== Instabiles Experiment (Bonus)
+Experimentieren macht Spaß und manchmal hilft es auch.
+Wenn Du diese Aktion einsetzt, musst ein Ziel innerhalb einer Entfernung von bis zu 3,00 Metern auswählen.
+Dies kann eine Kreatur sein, Du selbst, ein Gegenstand oder ein Punkt.
+Würfle 1W10, um den Effekt Deines Experiments zu bestimmen:
+
+* 1: Das Experiment scheitert, es passiert nichts.
+* 2-3: Ist eine Kreatur das Ziel, erhält sie sofort 2W6 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] zurück, bis zum Maximum ihres Pools.
+* 4-5: An dem definierten Punkt entsteht ein <<ref_stronghold_alchemists_lab_action_acid_splash,Säure-Spritzer>> nach den vorgestellten Regeln.
+Ist das Ziel eine Kreatur, erhält nur sie einen Treffer nach den Regeln des Säure-Spritzers.
+* 6: In einem Radius von 3,00 Metern um das Ziel beginnt es zu regnen.
+Dieser Effekt entspricht dem Zauberspruch link:../../compendiums/spells/spell_rain.adoc[Regen].
+* 7: Ist das Ziel eine Kreatur, wird sie in eine zufällige Richtung 1W6+1 Meter weit teleportiert.
+Ist das Ziel keine Kreatur, würfle noch einmal auf dieser Liste.
+Sollte kein verwertbares Ergebnis herauskommen, passiert nichts weiter.
+* 8-9: Am Ziel entsteht eine <<ref_stronghold_alchemists_lab_reaction_steam_cloud,Dampfwolke>>.
+* 10: Würfle 2W10: Jeder Würfel verursacht einen Effekt aus dieser Liste, auch weitere 10er.
+
+[[ref_stronghold_alchemists_lab_action_flamming_blaze]]
+=== Lodernde Flammen
+Du kombinierst zwei Substanzen, die normalerweise besser voneinander gehalten werden.
+
+Die Flammen breiten sich xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_cone[kegelförmig] bis zu 6,00 Meter von Dir aus.
+Alle Kreaturen in diesem Bereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6+4 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Mit einem erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] kann der Schaden halbiert werden (abgerundet, minimal 1).
+
+[[ref_stronghold_alchemists_lab_action_acid_splash]]
+=== Säure Spritzer
+Du gibst einer Substanz in einem offenen Behälter mit Zugabe einer kleinen Zutat den letzten Schubs, um instabil zu werden.
+Die Substanz brodelt hoch und spritzt unkontrolliert in alle Richtungen.
+Du kannst in einer Entfernung von bis 3,00 Metern eine Explosion verursachen mit einem Radius von 1,50 Metern.
+Alle Kreaturen in diesem Bereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6+4 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden].
+Mit einem erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] kann der Schaden halbiert werden (abgerundet, minimal 1).
+
+[[ref_stronghold_alchemists_lab_action_unstable_selfdestruct_legendary]]
+=== Selbstzerstörung (Legendär)
+Du lässt alle Substanzen, stabil wie instabil, gleichzeitig brodeln oder aktivierst einen geheimen Mechanismus, der explosives Gas verteilt und entzündet.
+Ab dem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug], in dem Du die Aktion einsetzt, bis zum Beginn der übernächsten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase], tickt ein Countdown.
+Nach Ablauf explodiert die gesamte Anlage.
+Alle Kreaturen, die sich zu diesem Zeitpunkt auf dem Gelände des Alchemisten-Labors, befindet, erhalten einen xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W10+10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden], 4W10+10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden] und 4W10+10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen Schaden], als Wolken aus brennenden Substanzen, zerfetzte Behälter und Trümmer durch die Luft fliegen.
 
 == Reaktionen
 
-=== Reaktion 1
+[[ref_stronghold_alchemists_lab_reaction_steam_cloud]]
+=== Dampfwolke
+Als Reaktion auf einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Nahkampf-Angriff] kannst Du eine Dampfwolke auslösen, die Dich vor Deinen Angreifern verbirgt.
+Der Dampf breitet sich um Dich in einem Radius 3,00 Metern herum aus und gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[totale Dunkelheit].
+Der Modifikator gilt in diesem Moment für die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe].
+Zum Ende Deines nächsten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zuges] verschwindet der Dampf automatisch.
 
+[[ref_stronghold_alchemists_lab_reaction_water_jet]]
+=== Wasserstrahl
+Anstelle eines regulären xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_execute_retaliation_attacks[Konters] kannst Du einen heißen Wasserstrahl in die Angriffsbewegung Deines Gegners lenken.
+Der Angreifer erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe].
+Er muss außerdem einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] bestehen oder erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser-Schaden].
+
+[[ref_stronghold_alchemists_lab_passive]]
 == Passiver Effekt
+Die exzellente Ausrüstung des Labors bietet dem Hüter folgende Boni:
 
+* Solange er sich in der Festung aufhält, erhalten alle variablen Komponenten eines Zauberspruches aus der xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_alchemy[Zauberschule Alchemie], den der Hüter ausspricht, einen zusätzlichen Würfel.
+* Alle xref:../../rules/core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_potions[Tränke], die im Labor durch den Hüter hergestellt wurden, erhalten einen zusätzlichen Würfel auf ihre variablen Komponenten.
+
+.Alchemistenlabor
+====
+Der Zauberspruch link:../../compendiums/spells/spell_blast_of_acid.adoc[Säurestoß] der Zauberschule der Alchemie verursacht in seiner Basisausführung 4W8 Säureschaden.
+Durch diesen passiven Effekt erhöht sich der Schaden auf 5W8.
+====
+
+[[ref_stronghold_alchemists_lab_servants]]
+== Diener
+Der Hüter des Labors erhält keine Diener.
+
+[[ref_stronghold_alchemists_lab_evenviroment]]
 == Umgebungseffekt
+Das Labor des Alchemisten verursacht folgende Effekte in seiner Umgebung:
+
+[[ref_stronghold_alchemists_lab_evenviroment_spillage]]
+=== Leck
+Trotz der Sicherheitsvorkehrungen eines verantwortungsvollen Wissenschaftlers können instabile Substanzen in die Umgebung gelangen.
+Befinden sich Charaktere in einem Umkreis von 1 Kilometer um das Labor (aber nicht innerhalb des Labors) für wenigstens 1 Tag, dann können sie auf ein Leck im Labor treffen.
+Dazu würfelt der SL 1W10 und bei einer 1, finden sie ein Leck, zum Beispiel tritt auf einem gebrochenen Rohr ein heißer Dampf aus oder aus einem Abwasserrohr wird ätzende Flüssigkeit gespült.
+
+Um dem Leck auszuweichen, muss einer der Charaktere eine Probe auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überlegen] gegen den Mindestwurf 18 bestehen.
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misslingt] der Wurf, müssen alle Charaktere einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] bestehen oder sie erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W10+2 Schadenspunkten einer zufälligen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart], die wie folgt bestimmt werden kann (1W10):
+
+* 1-2: xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* 3-4: xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]
+* 5-6: xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* 7-8: xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure]
+* 9-10: xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock]
 
 == CP
+5000

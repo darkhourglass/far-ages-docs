@@ -558,16 +558,16 @@ Diese werden auch wie zusätzliche Aktionen behandelt.
 Pro Kampfphase darf jeder Charakter eine *Bonus-Aktion* durchführen.
 Dabei gilt, dass der Charakter diese Aktion explizit durch eine Quelle, zum Beispiel eine Fähigkeit, erhalten muss, um sie einzusetzen.
 Besitzt eine Kreatur mehrere Optionen für eine Bonus-Aktion, muss sie sich für eine entscheiden.
-<<ref_core_battle_actions,Aktionen>> und Bonus-Aktionen sind in der Regel nicht untereinander austauschbar.
+<<ref_core_battle_actions,Aktionen>> und Bonus-Aktionen sind nicht untereinander austauschbar.
 
 Eine Kreatur darf keine Bonus-Aktionen durchführen, wenn sie keine <<ref_core_battle_actions,Aktionen>> durchführen darf, zum Beispiel weil sie xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[bekommen] ist.
 
-Bonus-Aktionen können im Allgemeinen nicht mit <<ref_core_battle_complexactions,komplexen Aktionen>> kombiniert werden.
+Bonus-Aktionen können nicht mit <<ref_core_battle_complexactions,komplexen Aktionen>> kombiniert werden.
 
 [[ref_core_battle_additionalactions_bonusreactions]]
 ==== Bonus-Reaktionen
 Analog zu <<ref_core_battle_additionalactions_bonusactions,Bonus-Aktionen>> kann ein Charakter, wenn ihm eine Fähigkeit oder vergleichbare Quelle dies erlaubt, pro Kampfphase eine *Bonus-Reaktion* durchführen.
-Bonus-Reaktionen und reguläre <<ref_core_battle_reactions,Reaktionen>> sind im Allgemeinen nicht austauschbar, außer eine Fähigkeit erlaubt einem Charakter dies explizit.
+Bonus-Reaktionen und reguläre <<ref_core_battle_reactions,Reaktionen>> sind nicht austauschbar, außer eine Fähigkeit erlaubt einem Charakter dies explizit.
 
 Ein Charakter, der keine <<ref_core_battle_reactions,Reaktionen>> durchführen darf, kann auch keine Bonus-Reaktionen durchführen.
 

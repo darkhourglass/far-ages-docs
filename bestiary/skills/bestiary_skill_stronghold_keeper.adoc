@@ -11,16 +11,23 @@ Jede Festung hat wenigstens eine der folgenden Eigenschaften:
 
 * *Aktionen:* Solange sich der Hüter in der Festung aufhält, kann in seinem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine der beschriebenen Aktionen ausführen.
 Sofern nicht anders angegeben, handelt es sich dabei um xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[reguläre Aktionen], die gegen sein Limit im Zug zählen.
-Der Hüter kann nicht mehrere Aktionen, die ihm seine Festung gewährt, in einem Zug durchführen, sondern muss sich eine aussuchen.
-Eine link:../templates/bestiary_template_legendary.adoc[legende] Kreatur kann seine xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendären Aktionen] einsetzen.
+Jede dieser Aktionen gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiert].
+* *Aktionen pro Kampfphase:* Der Abschnitt zu *Aktionen* beschreibt die Anzahl der Aktionen, die der Hüter pro Kampfphase in seinem Zug maximal einsetzen darf.
+Dies bezieht sich nur auf die Aktionen, die durch die Festung angeboten werden, nicht auf seine individuelle Anzahl Aktionen pro Kampfphase.
+<<ref_skill_stronghold_keeper_legendary,Legendäre>> Hüter einer Festung erhalten einen Bonus von +1 auf diese Angabe.
 * *Reaktionen:* Analog zu Aktionen erhält der Hüter innerhalb seiner Festung besondere xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen], die er einsetzen kann.
 Pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] kann er aus den gegebenen Optionen maximal eine Reaktion nutzen.
 Es gelten die üblichen Regeln, dass Reaktionen nur genutzt werden können, wenn ihre Auslöser erfüllt sind.
+Analog zu Aktionen sind diese Reaktionen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiert].
 * *Passive Effekte:* Eine Festung erzeugt möglicherweise einen oder mehrere passive und permanente Effekte.
 Sie gelten immer nur in der Ausdehnung der Festung.
 Betreffen diese bestimmte Kreaturen, zum Beispiel den Hüter selbst, seine Gefolgschaft oder aber Eindringlinge, beginnen sie, sobald die Kreaturen die Festung betreten und enden, wenn sie diese verlassen.
-* *Umgebungseffekte:* Manche Festungen sind erfüllt von arkaner Kraft, die weit über ihre Grenzen Wirkung zeigt.
-Umgebungseffekte wirken üblicherweise in einem Umkreis von 5 bis 10 Kilometern um die Festung herum.
+* *Diener:* Festungen können dem Hüter auch Diener zur Verfügung stellen.
+Das Spektrum ist dabei weitgefasst: Es kann sich um typische Diener wie Kammermädchen, Köche, Stallburschen oder Nachtwächter sein.
+Oder auch die Wache, spezialisierte Handwerker wie Schmiede oder Zimmerleute.
+Ob sie dem Hüter im Kampf helfen oder den Alltag erleichtern, in welchem Umfang sie zur Verfügung stehen, dies ist je Festung beschrieben.
+* *Umgebungseffekte:* Manche Festungen sind erfüllt von mystischer Kraft, die weit über ihre Grenzen Wirkung zeigt.
+Umgebungseffekte wirken üblicherweise in einem Umkreis (in Kilometern) um die Festung herum.
 
 Die *CP* für diese Fähigkeit sind abhängig von der gewählten *Festung*.
 
@@ -38,3 +45,15 @@ Der SL nutzt einfach die vorgestellten besonderen Effekte des Orts in einer ande
 Weiterhin sollte man sich nicht an dem Begriff _Festung_ stören, denn auch ein link:../../compendiums/strongholds/stronghold_blighted_forest.adoc[verdorbener Wald] gilt im Sinne dieser Fähigkeit als eine Festung.
 Auch sind die eigentlichen Ausdehnungen einer Festung nicht festgelegt.
 Ein Waldgebiet ist vielleicht deutlich größer als der Turm eines Zauberers.
+
+[[ref_skill_stronghold_keeper_bonus]]
+== Bonus-Aktionen und Reaktionen
+Aktionen oder Reaktionen der Festung können als *Bonus* markiert sein.
+In diesem Fall handelt es sich um xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktionen] beziehungsweise xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusreactions[Bonus-Reaktionen].
+Diese sind nicht durch die Angabe der *Aktionen pro Kampfphase* eingeschränkt.
+Nach den Regeln hat jede Kreatur nur eine Bonus-Aktion pro eigenem Zug und kann diese auf eine Aktion seiner Festung verwenden.
+
+[[ref_skill_stronghold_keeper_legendary]]
+== Legendäre Aktionen und Reaktionen
+Aktionen oder Reaktionen der Festung können als *Legendär* markiert sein.
+Nur eine link:../templates/bestiary_template_legendary.adoc[legendäre] Kreatur diese als xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendären Aktion] beziehungsweise xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_reactions[legendäre Reaktion] einsetzen.
