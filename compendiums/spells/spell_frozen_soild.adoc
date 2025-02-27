@@ -1,0 +1,38 @@
+= Tiefgefroren
+
+*Arkanes Geheimnis:* Ja +
+*POT:* 18 +
+*Rettungswurf:* Ja +
+*Komponenten:* Gesten, Formel +
+*Fokus:* Körper, Stille +
+*Vorbereitung:* 8 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebende] Kreatur +
+*Dauer:* +
+*Effekt:* +
+Dieser boshafte Zauberspruch lässt sein Ziel zu Eis erstarren.
+Bei erfolgreicher Spruchzauberei-Probe wird die Kreatur von einem kleinen Sturm aus Schnee und Eis umwirbelt. Wenn ich dieser lichtet,
+Dies entspricht einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[sofortigen Tod], allerdings ohne, dass die Kreatur formal auf 0 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] fällt.
+Dies ist insbesondere relevant für Kreaturen wie beispielsweise link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote], die bei Erreichen von 0 TP zu Staub zerfallen.
+Die Kreatur wird stattdessen in ein xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles[Objekt] verwandelt beziehungsweise als solches behandelt, konkret eine Steinstatue, die exakte Maße und Aussehen dieser Kreatur aufweist.
+Ihr Gewicht verdoppelt sich.
+
+Ein xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing[zusätzlicher Effekt] dieses Zauberspruches hebt den Vereisungs-Effekt auf.
+Es reicht in diesem Fall erfolgreiche xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe], es ist kein Rettungswurf nötig.
+Die Umkehr auch auf Kreaturen angewendet werden, die durch eine Variante des Zauberspruches (zum Beispiel als Effekt eines Fluches oder einer xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_base_spell_like_abilities[Zauber-ähnlichen Fähigkeit]) betroffen wurden.
+Es gilt, dass die POT der Umkehr höher als die POT auslösenden Effekts sein muss, damit sie überhaupt wirken kann.
+Außerdem muss die vereiste Kreatur möglichst vollständig oder unbeschädigt sein.
+Wurde die vereiste Kreatur zur Gewalteinwirkung zu Staub zermahlen oder in Stücke geschlagen, schlägt die Umkehr automatisch fehl.
+Oberflächliche Beschädigungen oder nicht-tödliche Verletzungen können im Ermessen des SLs diese Einschränkung nicht betreffen.
+Die vereiste Kreatur verwandelt sich in ihr ursprüngliches Selbst zurück.
+Ihre TP (und anderen Pools) entsprechen denen, die sie zum Zeitpunkt ihrer Vereisung hatten.
+Die Kreatur kann in diesem Moment weitere TP verlieren, um die beschriebenen Beschädigungen darzustellen.
+
+Eine vereiste Kreatur erinnert sich nicht an die Zeit ihrer Vereisung.
+[NOTE]
+=====
+Dieser Zauberspruch gilt als Versteinerungs-Effelt analog zu link:spell_petrify.adoc[Versteinern]-
+=====
+*Zusätzliche Effekte:* +
++ 1 POT, +10 MP, materielle Komponente (Edelsteine im Wert von 1000 Silbermünzen): Ziele auf eine vereiste Kreatur, es wird der Effekt umgekehrt, siehe Beschreibung +
++ 5 MP: Reichweite +3,00 Meter +

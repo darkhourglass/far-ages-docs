@@ -1,0 +1,30 @@
+= Glamour
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* - +
+*Fokus:* Illusion, Schatten +
+*Vorbereitung:* 3 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* - +
+*Dauer:* 1 Stunde +
+*Effekt:* Diese Illusion verändert Deine Erscheinung in subtilen Wegen.
+Du wirst immer noch als Du erkannt, allerdings wirst Du wohlwollender wahrgenommen, was Dir Vorteile in sozialen Interaktionen verschafft.
+Der Glamour kann viele kleine Veränderungen erzeugen, zum Beispiel verdeckte Narben, straffe Haut, geänderte Augen- oder Haarfarben.
+Es kann auch Dreck oder Schmutz auf Haut und Kleidung verdeckt werden.
+Der Zauber kann nicht ein anderes Volk oder Geschlecht vorgaukeln.
+
+Du erhältst für die Dauer einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +4 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Proben] für eines der folgenden Talente:
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_interrogate[Ausfragen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_persuade[Überreden]
+
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] musst Du festlegen, auf welches Talent der Bonus gelten soll.
+Während der Dauer kannst Du das ausgewählte Talent nicht ändern, nur ein erneutes Zaubern ermöglicht eine Änderung.
+
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Stunde +
++1 POT, +5 MP: Bonus für Talentprobe +2 +

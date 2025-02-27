@@ -1,0 +1,119 @@
+= Medusa
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* Templates
+* GK: X
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+Es heißt, die ersten Medusen waren Kinder des Progenitors link:../../lore/progenitors/lore_progenitors_ouroboros.adoc[Ouroboros] bevor sich dieser selbst in die zwei Hälften biss.
+
+== Profil
+
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +10 +
+*MP:* XXX +
+*SP:* XXX +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* +
+
+* link:../skills/bestiary_skill_resistence_to_poison.adoc[Giftresistenz]
+* link:../skills/bestiary_skill_resistence_to_diseases.adoc[Krankheitsresistenz]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+
+*Immunitäten:* XXX +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +3 +
+*Körper:* ST+KO +5 +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] (8, 1W6+2, link:../skills/bestiary_skill_poison.adoc[Gift], xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_weakening_venom[schwächend (15)], 1x)
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] (7, 2W6+3, 2x)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] (7, Speer 1W6+1)
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 8 link:../../compendiums/spells/spell_glamour.adoc[Glamour]
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_parade[Parade] 7
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_insight[Motiv erkennen] 7
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 9
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
+
+== Regeln
+
+[[bestiary_medusa_medusas_gaze]]
+=== Medusas Blick
+Die Medusa kann ihren Blick als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Aktion] einsetzen.
+Diese Aktion gilt als link:../skills/bestiary_skill_magicability.adoc[magische Fähigkeit] (beziehungsweise folgt den gleichen Regeln) mit dem Zauber link:../../compendiums/spells/spell_petrify.adoc[Versteinern] und der im Profil angegebenen Stufe.
+Das Ziel muss die beiden Augen des humanoiden Gesichts der Medusa sehen können.
+Ihr Blick funktioniert beispielsweise nicht in Dunkelheit oder wenn das Ziel blind ist.
+
+[[bestiary_medusa_medusas_curse]]
+=== Medusas Fluch
+Die Medusa ist immun gegenüber allen magischen Effekten oder Flüchen, die sie versteinern können.
+Dies gilt insbesondere für den Zauberspruch link:../../compendiums/spells/spell_petrify.adoc[Versteinern].
+Außer, die Quelle dieses Effekts ist eine andere Medusa beziehungsweise deren <<bestiary_medusa_medusas_gaze,Blick>>.
+Durch ihre link:../skills/bestiary_skill_spell_resistant.adoc[Zauberresistenz] erhält sie in der Regel einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] für den Rettungswurf.
+In diesem Fall kann dieser Vorteil nicht durch einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] aus einer anderen Quelle negiert werden.
+
+Allerdings ist jede Medusa gegenüber ihres eigenen Blicks äußerst verwundbar, weswegen sie üblicherweise spiegelnder Oberflächen, seien dies reguläre Spiegel oder Wasserflächen, meiden.
+Sollte eine Medusa ihr Spiegelbild sehen, trifft sie ihr eigener <<bestiary_medusa_medusas_gaze,Blick>>.
+Sie kann eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einsetzen, abhängig davon, ob gerade ihr xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] ist oder nicht, um ihren eigenen Blick abzuwenden.
+Sie erhält dadurch eine Stufe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit], muss aber keine weiteren negativen Konsequenzen bis zum Beginn ihres eigenen nächsten Zuges fürchten.
+
+Kann oder will sie ihren Blick nicht abwenden, muss sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Todesrettungswurf] ablegen.
+Besteht sie diesen nicht, wird sie sofort versteinert.
+Besteht sie ihn, ist sie gegenüber ihrem eigenen Blick für 1 Stunde immun.
+
+== Taktik
+Eine Medusa nutzt ihre Fähigkeit link:../../compendiums/spells/spell_glamour.adoc[Glamour], um ihre wahre Natur vor anderen zu verbergen.
+Der Zauber verdeckt ihre Schlangen und Haut.
+Je nach Situation posiert sie so als junge oder alte, humanoide Frau, um sich Opfern anzunähern oder aus bedrohlichen Situationen zu entkommen.
+Wenige Medusen nutzen diese Fähigkeit zur Infiltration von humanoiden Siedlungen und Gemeinschaften, um ihre eigenen Ziele zu verfolgen.
+
+Die Medusa wird zuerst versuchen, mit ihren Schlangenhaaren, die gefährlichsten oder nächsten Gegner im Nahkampf zu beißen, um ihr schwächendes Gift zu verabreichen.
+Geschwächte Gegner erleiden Nachteile auf ihre Rettungswürfe.
+Diesen Umstand wird die Medusa ausnutzen, um ihren <<bestiary_medusa_medusas_gaze,Blick>> gegen diese Gegner einzusetzen.
+
+Neben link:../../compendiums/spells/spell_glamour.adoc[Glamour] und ihren sozialen Fähigkeiten wird eine Meduda eine direkte Konfrontation, die für sie tödlich enden kann, meiden oder auch verlassen.
+Auch so getarnt, in humanoider Gesellschaft, nutzt die Medusa skrupellos ihre Vorteile, um ihre Ziele zu verfolgen.
+Medusen leben sehr viel länger als die meisten Humanoiden, daher haben sie oft viel Geduld.

@@ -1246,3 +1246,88 @@ Er kann das Talent allerdings nicht nutzen, um diese Gegenstände zu schreiben.
 Allerdings zaubert er über diese Talente nie mit wilder Magie und er muss Zaubersprüche zu dieser Zauberschule erneut lernen.
 Hat er beispielsweise Feuerball aus dem Weg des Feuers als Zauberspruch für Wilde Magie gelernt, und lernt nun Spruchzauberei[Elementarismus], so muss er Feuerball für Elementarismus noch einmal lernen.
 * Ein Magier, der Wilde Magie lernt, muss die gleichen Einschränkungen wie im vorherigen Punkt beschrieben hinnehmen, jedoch umgekehrt.
+[[ref_core_magic_aether_perception]]
+=== Aether Wahrnehmung
+In diesem Kapitel wird das Talent xref:./core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] detaillierter beschrieben mit Regeln und Richtlinien, wie man im Spiel dieses Talent einsetzen kann.
+Diejenigen, die dieses Talent erlernt haben, können ihren Geist öffnen und den Schleier zwischen der materiellen Welt und dem Aether im geringen Maße durchdringen und Eindrücke aus dem Aether sammeln.
+Dabei handelt es sich nicht um eine astrale Projektion, d.h. man betritt mit seinem Geist nicht den Aether.
+Doch auch dieser eingeschränkte Blick kann dem Anwender wertvolle Informationen über bestehende magische Effekte, Kreaturen oder Gegenstände in unmittelbarer Umgebung bieten.
+Dazu würfelt der Anwender eine reguläre xref:./core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talentprobe] auf das Talent Aether Wahrnehmung.
+Es muss mindestes der xref:./core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Standardmindestwurf] erreicht werden, sonsts schafft die Kreatur es gar nicht erst, den Schleier zu durchdringen.
+Grundsätzlich gilt, dass der Anwender seine Umgebung der materiellen Welt im Aether wiederfindet und bis zu 9,00 Meter weit schauen kann.
+Gelingt wenigstens dies kann der SL im eigenen Ermeesen folgende Informationen weitergeben:
+- gibt der Abdruck des Aethers die Umgebung des Anwenders ungefähr wieder. Magische Effekte können Teile des Aethers verzerren - eine weitere Probe mit höherem Ergebnis wäre nötig
+- Kreaturen in der Umgebung sind auch abgebildet und entsprechen ihrem materiellen Eindruck. Kreaturen mit anderen Kreaturentypen wie z.B. Untote, erscheinen im Aether anders als in der materiellen Welt.
+- Gegenstände und Onjekte finden sich wieder und sind nicht verzerrt. Magische und auch technomantische Gegenstände haben ggf. einen anderen Abdruck im Aether.
+Für weitere Details sind höhere Ergebnisse nötig, ungefähr in dieser Form:
+- Um einen magischen Effekt als solchen wahrzunehmen, muss das Ergebnis der Probe gleich oder höher der <<ref_core_magic_rules_spellcasting_spellspecifics_potent,Potenz>> des Zauberspruchs bzw. Effekt liegen. Gelingt dies, weiß der Anwender, dass ein magischer Effekt vorliegt, ungefähr wo dieser liegt.
+Mit einem xref:./core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[höheren Erfolgsgrad] kann der Charakter weitere Informationn erfahen:
+- Sehr gut: ist der Effekt gegen Kreaturen gerichtet, die sich ihm nähern
+- Kritisch: in der Effektsignatur finden sich Anzeichen für den Ursprung: Zauberschule und eventuelle Foki.
+Um den Effekt bzw. Zauberspruch genau zu identifzieren, muss der Charakter eine Probe auf xref:./core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] ablegen, siehe auch <<ref_core_magic_identrify_spells,Zauber identifizieren>>.
+[NOTE]
+Aktive Illusionen, deren POT erreicht wird, werden durchschaut, so als wären sie angezweifelt worden.
+Um eine Kreatur genauer zu untersuchen, muss die Probe mindestens den Wert aus der foglenden Tabelle erreichen:
+
+|===
+|Primärer Kreaturentyp |Mindestwurf | Beschreibung
+|Drachen
+|21
+|der aetherische Abruck der Kreatur ist eine beeindrucke Erscheinung aus gleißendem Licht und schimmernden Kristallen. Diese Kreatur ist ein Drache.
+
+|Untote
+|+ Machtstufe des Untoten
+|Die Umrisse der Kreatur sind erfüllt von einem schwarzen Abgrund, der nach Tod und Verwesung riecht. Doese Kreatur ist ein Geschöpf nekromatischer Rituale.
+
+|Scheusale
+|13
+|Der Abdruck der Kreatur entspricht ihrem Erscheinungsbild in der materiellen Welt, allerdings ist der aergerische Abdruck durchzogen von schwarz-glänzenden, öligen Strängen. Diese Kreatur ist ein Scheusal, ihre widernatürliche und korrupte Natur zeigt sich deutlich in ihrem Abdruck.
+
+|Dämonen
+|+ Machtstufe des Dämons
+|Du erkennst im aetherischen Abdruck der Kreatur ihre Umrisse wieder, allerings ist die Kreatur umgeben von einer Aura aus Leere und einem Abgrund der Verzweiflung. Diese Kreatur ist ein Geschöpf der Leere, ein Dämon.
+
+|Konstrukte
+|+ Machtstufe des Konstrukts
+|Du erkennst den Abdruck der Kreatur eindeutig und sie ist erf+llt von magischer Energie, Zahnrädern, Schläuchen, hyraulischen Gelenken und anderen Maschinenteilen. Diese Kreatur ist geschaffen worden, sie ist ein Konstukt.
+
+|Empyrean
+|18
+|Du erkennst den Abdruck der Kreatur wieder, allerdings scheint sie mehr zu sein. Ihre Energie wirkt jedoch mehr als in diese Kreaturen zu passen scheint. Aus der Ferne hörst Du Gelächter, Musik und warme Sonnenstrahlen scheinen von der Kreatur auszugehen. Eindeutig ist sie ein Kind der Morgenröte, eine Fee.
+
+|Sonstige
+|15
+|Du erkennst anhand des Abdrucks im Aether den primären Kreaturentyp der Kreatur ohne Probleme.
+|===
+Sekundäre Kreaturntypen können im Ermessen des SLs erkannt werden. In der Regel wird der Typ link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] automatisch mit erkennt. Alle anderen erfordern ein Ergebnis mit +5 pro weiteren Typ.
+[[ref_core_magic_identrify_spells]]
+=== Zauber identifizieren
+In diversen Situationen kann es nötig sein, dass ein geübter Anwender durch Beobachtung und Wissen einen Zauberspruch identifizieren will. Ziel der Identifizkation ist in der Regel, Name des Zaubers, seine Wirkung, die Zauberschule und eventuelle Gegenmaßnahmen.
+Grundsötzlich gitl, dass derjedinge, der identifzieren möchte, den Effekt des Zaubers beobachten können muss, z.B. durch <<ref_core_magic_aether_perception,Aether Wahrnehmung>>. Zauber, deren Effekte dauerhaft in der materiellen Welt wirken und dort beobachtbar sind, fallen auch unter diese Voraussetzung. Das Beobachten eines Magiers, der einen Zauber mit Gesten und Formeln wirkt, kann auch dazu gehören, ist jedoch deutlich schwerer (siehe unten).
+Der Beobachter muss eine Probe auf xref:./core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] ablegen. Als Mindestwurf für diese Probe wird das Ergebnis Spruchzauberei-Probe des Zaubernden verwendet.
+Der Wurf wird durch folgende xref:./core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Modifikatoren] beeinflusst.
+
+|===
+|Situation |Modifikator
+
+|Zauber wurde bei der Vorbereitung (Gesten und Formeln) beobachtet
+|-5
+
+|Beobachter und Zauberer haben die gleiche Zauberschule mit ihrem Spruchzauberei-Talent gelernt.
+|+1
+
+|Beobachter hat den Zauberspruch selbst gelernt
+|+2
+
+|Column 1, row 4
+|Column 2, row 4
+
+|Column 1, row 5
+|Column 2, row 5
+
+|Column 1, row 6
+|Column 2, row 6
+
+|Column 1, row 7
+|Column 2, row 7
+|===

@@ -1,0 +1,15 @@
+= Ungeziefer Herrschaft
+
+*Voraussetzungen:* Symbiont der Legion +
+*Typ:* Aktion +
+*Überanstrengung:* - +
+*CP:* tba +
+Der Schwarm der Legion ist eine massive, psionische Macht, die ihren Willen anderen Wesen aufzwingen kann, maßgeböoch allen link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen mit sekundendären Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer].
+Dies umfasst neben monstrlsen Instektion insbesodere Mitglieder des Schwarms.
+Die Kreatur kann diese Fähigkeit gegen eine passende Kreatur im Umkreis von bis zu 9,00 Metern Sichtweite einsetzen.
+Der Einsatz der F#higkeit erforder eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Die Kreatur würfelt eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attronutsprobee] auf xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH]. Zu dem Ergebnis der Probe addiert die Kreatur ihren link:bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus].
+Die betroffene Kreatur darf einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen, zu dem sie auch ihren link:bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] addieren darf, hat sie diese Fähigkeit nicht, ist der Bonus an dieser Stelle 0. Der Mindestwurf ist das Ergebnis der Kreatur, die diese Fähigkeit einsetzt.
+Misslingt der Rettungswurf, muss die Zielkreatur den Befehlen der Kreatur Folge leisten, auch wenn für sie körperlicher Schaden droht.
+Die Befehle werden rein telephatisch durch das Schwarmbewusstsein übermittelt.
+Im Ermessen des SL kann die Probe zwischen zwei Schwarmmigliedern, also Kreaturen mit Symbionanten und einem Unterschiedlichen Schwarmstatus von mindestens 5 ausgelassen werden und die Fähigkeit funktioniert sofort.

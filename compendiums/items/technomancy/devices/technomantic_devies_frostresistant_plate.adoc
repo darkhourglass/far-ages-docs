@@ -1,0 +1,20 @@
+= Frostsichere Platte
+
+*Materialkosten:* 15.000 +
+*Konstruktionszeit:* 30 Tage +
+*Zaubersprüche:* link:../../../spells/spell_damage_resistence.adoc[Resistenz] (Frost, Stille) +
+*Mindestwurf:* 14 +
+*Preis:* 30.000 +
+*Beschreibung:* +
+Diese technomantische Erfindung stammt aus den eisigen Regionen im Norden, insbesondere aus der freien Stadt Feuerkreis.
+Auf den ersten Blick handelt es sich um eine kupferfarbene Plattenrüstung mit flexiblen, übereeinandergreifenden Platten.
+Auf dem Rücken geschallt befindet sich ein Konstruktion, die an eine Taucherflasche erinnert.
+Die frostsichere Platte gilt als Vollplattenrüstung für alle Trefferzonen mit einem Rüstungswert von 8 einem xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_initiative_malus[INI-Malus von 3] und einem xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_dexterity_malus[GE-Malus von 3].
+Sie hat ein Gewicht von 90.
+Die Rüstung besitzt einen Einlass für einen link:teechnomantic_devices_elemental_charger.adoc[Elementaren Lader].
+Wird in die Rüstung eine Ladung mit Element *Feuer* gesetzt, gewährt die Rüstung für die Dauer der Ladung immunität gegenüber den Wetterbedingungen xref:../../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_terrain_snow_ice_frost[Schnee, Eis und Frost] sowie xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost].
+Wird eine Ladgung mit dem Element *Magma* genutzt, gewährt die R+stung zusätzlich link:../../../../bestiary/skills/bestiary_skill_damageabsorption.adoc[Schadensabsortion] xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer].
+[NOTE]
+====
+Im Ermessen des SLs können andere Elementare Ladungen anderen Kombinationen von Resistenzen erlauben.
+====

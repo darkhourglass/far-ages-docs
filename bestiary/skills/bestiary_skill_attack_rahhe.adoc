@@ -1,0 +1,10 @@
+= Reichweite (Angriffsstufe, Inkrekrement Schaden, Anzahl)
+*Voraussetzungen:* - +
+*Typ:* Angriff, Prpjektil, GE +
+*Überanstrengung:* - +
+*CP:* tba +
+Die Kreatur verf+ügt über einen Fernangriff. Vielleicht kann sie Gift spucken oder Knochenst+cke verfeuern.
+Es handelt es sich einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projekilangriff] mit dem angebenen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles_baserange[Inkrement bzw. Grundreichweite].
+Ein erfolgreicher xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] verursacht den angegebenen *Schaden*. Pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenem Zug] kann die Kreatur diese Fähigkeit so oft wie unter *Anzahl* virgefeveb eibsetzen.
+Jeder einzelne Einsatz kostet eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Ist die Anzahl nicht explizit angegeben, kann die Kreatur die Fähigkeit nur einmal pro eigenem Zug einsetzen.

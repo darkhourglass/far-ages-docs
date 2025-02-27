@@ -1,0 +1,11 @@
+= Sprungangriff (Angriff)
+
+*Voraussetzungen:* - +
+*Typ:* Sprung, Aktion +
+*Überanstrengung:* 1 +
+*CP:* tba +
+Die Kreatur führt ohne zusätzliche xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes_jump[Sprung] aus.
+Sie muss dabei in der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrphungszone] eines validen Ziels für einen Angriff, dann sie den parametrisierten *Angriff* dirkt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonusaktion] landen und kann diesen Angriff normal ausfÜhren.
+Formal gilt dies als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_charge[Sturmangriff], der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_suppress_reaction[Konter unterdrückt].
+[NOTE]
+Sprung und Angriff sind insgesamt durch diese Fähigkeit 1 Aktion, aber weiterhin getrennte Proben.

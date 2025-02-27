@@ -207,8 +207,10 @@ Dieses Talent kann nur bei nicht-magische Fallen angewendet werden.
 *Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
 *Beschreibung:* Der Charakter muss ansagen, wenn er schleichen will, also wenn er sich leise und unbemerkt fortbewegen will. +
 Das xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] legt den nötigen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] fest, die ein anderer Charakter mit einer <<ref_talents_discoverhidden,Verborgenes entdecken-Probe>> benötigt, um den schleichenden Charakter zu bemerken. +
-Der SL kann Würfel von der Probe anziehen, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine. +
+Der SL kann die Probe modifizieren, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine. +
 Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort eine <<ref_talents_discoverhidden,Verborgenes entdecken-Probe>> von allen Kreaturen in der näheren Umgebung provoziert.
+Ein schleichender Charakter bewegt sich mit halbierter BEW voran.
+
 
 [[ref_talents_lockpick]]
 === Schlösser knacken
@@ -454,6 +456,13 @@ Ungeübte Anwender sollten sich des Risikos stets bewusst sein.
 
 Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auch Angriffsproben, die üblicherweise mit anderen Talenten geführten werden, substituieren, wenn sie technomantische Waffen damit führen.
 
+[[ref_talents_specialist]]
+=== Spezialist
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* ER +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
+*Beschreibung:* tba
 //TODO
 [[ref_talents_survival]]
 === Überleben

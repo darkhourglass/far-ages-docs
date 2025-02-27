@@ -1,0 +1,115 @@
+= Krampus
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+
+Ein Krampus ist ein furchterregender Anblick.
+Sein Körperbau ähnelt dem von großen Menschenaffen wie beispielsweise einem Gorilla.
+Allerdings muss der Krampus nicht seine Arme nutzen, um sich am Boden abzustützen.
+Dennoch sind genau diese auffällig länger als seine Beine im Vergleich zu den restlichen Proportionen seines Körpers.
+Die kräftigen Beine tragen seinen massiven und muskulösen Körper mit erstaunlicher Leichtigkeit.
+Der Krampus besitzt ein langes, zotteliges Fell, dass verschiedene Brauntöne annehmen kann.
+Nur wenige Exemplare weisen ein schwarzes oder sogar weißes Fell auf.
+Die Hände des Krampus enden in langen, scharfen Klauen.
+Der Kopf ähnelt dem eines Wolfs, jedoch mit einer kurzen und breiten Schnauzen, allerdings mit genauso scharfen Zähnen, einer breiten Nase und wulstigen Augenbrauen.
+In seinen Augen funkelt ein boshafter und grausamer Verstand auf.
+Seinen Kopf krönen zwei lange Hörner, die auch Bergziegen haben können.
+Außerdem hat er einen langen Schwanz, der ähnlich wie bei Ziegen in einem breiteren Fellbusch endet.
+
+Im Volksmund wird der Krampus auch als "Dämon des Winters" bezeichnet.
+Eine mystische Verbindung zu den Jahreszeiten lässt einen Krampus nur in den dunklen und kältesten Tagen des Jahres erwachen, während gleichzeitig sein Erwachen den Winter verschlimmert.
+Es fällt mehr Schnee, Frost bildet sich schneller und intensiver.
+Der Wind heult lauter und die sowieso langen Nächte bleiben länger dunkel.
+Sogar die Sonne scheint weniger oder verschwindet als bleicher, verschwommener Punkt hinter weißen Wolken.
+
+
+
+== Profil
+
+*ST:* 8 (+3) +
+*GE:* 5 (+2) +
+*KO:* 6 (+2) +
+*ER:* 6 (+2) +
+*EN:* 4 (+2) +
+*SB:* 7 (+3) +
+*CH:* 3 (+1) +
+
+*TP:* 85 +
+*MP:* 40 +
+*SP:* 50 +
+
+*BEW:* 9,00 +
+*INI:* 11 +
+*MaxTL:* 120 +
+*MaxPOT:* 7 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 +
+*Resistenzen:* - +
+*Immunitäten:* +
+
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +8 +
+*Disziplin:* +4 +
+*Körper:* +8 +
+*Magie:* +8 +
+*Reflex:* +4 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 (2W6+4) 2x
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8 (3W8+4)
+* link:../skills/bestiary_skill_modification_terrifying_attack.adoc[Furchterregende Attacke] (Biss, 1W6+1)
+* link:../skills/bestiary_skill_magicability_empowered.adoc[Verstärkte magische Fähigkeit] 8 (link:../../compendiums/spells/spell_frost_odem.adoc[Frostodem]) 2
+* link:../skills/bestiary_skill_modification_rend.adoc[Zerreißen] (Klauen)
+
+== Defensive
+
+* * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 10
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 10
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 10
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8
+* link:../skills/bestiary_skill_move_strider_frost.adoc[Frostwanderer]
+* link:../skills/bestiary_skill_senses_lightsensitivity.adoc[Lichtempfindlich]
+* link:../skills/bestiary_skill_move_fasttrack.adoc[Schnell]
+* <<ref_bestiary_krampus_rules_herald_of_winter,Vorbote des Winters>>
+
+== Regeln
+
+[[ref_bestiary_krampus_rules_herald_of_winter]]
+=== Vorbote des Winters
+Der Krampus ist eng mit dem Winter und der damit einhergehenden Kälte verbunden.
+Ob mystische Kräfte oder Magie am Werk sind, sicher ist nur, ein Krampus ausschließlich bei ausreichender Kälte und Dunkelheit erscheint.
+Gleichzeitig verstärkt seine Anwesenheit die Wetterphänomene der winterlichen Jahreszeit.
+Die Nächte sind dunkler, es fällt mehr Schnee und Eisflächen breiten sich schneller aus.
+Winter und Krampus stehen in einer unheimlichen, symbiotischen Wechselwirkung zueinander.
+
+Dies äußert sich insofern, als ein Krampus erst dann aktiv wird, wenn die Temperaturen in einem Umkreis von mindestens 5 Kilometern über einen Zeitraum von 24 Tagen maximal 0 Grad betragen.
+Außerhalb dieses Zeitfensters ist ein Krampus nicht aktiv.
+Er kann im Ermessen des SL einen "Sommerschlaf" halten oder er verschwindet sogar in eine düstere und kalte Zwischenwelt, in der er ruht.
+Die latent übernatürliche Natur des Krampus lässt ihn problemlos diese Zeit ohne Nahrung überstehen.
+
+Die Anwesenheit einen aktiven Krampus verstärkt in der Umgebung von bis zu 10 Kilometern den Winter.
+Alle Effekte für xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_terrain_snow_ice_frost[Schnee, Eis und Frost] sind eine Stufe höher als normal und alle xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf ihre xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe], um diesen Umgebungseffekten zu widerstehen.
+
+== Taktik
+Aufgrund seines wilden und brutalen Wesens ist ein Krampus in einer direkten Auseinandersetzung ein gefährlicher Kontrahent.
+Dennoch sollte man keinen einfachen Schlägertypen erwarten.
+Auch ein Krampus ist sich taktischen Vorteile bewusst und setzt seine Fähigkeiten gezielt gegen starke Gegner ein.
+Der Krampus nutzt seine Fähigkeit in der Dunkelheit zu sehen und Heimlichkeit aus, um seine Gegner zu überraschen.
+Das Ziel des Krampus ist es, die Moral und den Willen seiner Opfer zu brechen, daher nurzt er seine link:../skills/bestiary_skill_modification_terrifying_attack.adoc[furchterregende Attacke] möglichst oft.
+Seine Fähigkeit zum link:../skills/bestiary_skill_modification_rend.adoc[Zerreißen] nutzt er bewusst gegen schwer gepanzerte Gegner.
