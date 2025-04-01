@@ -1,0 +1,90 @@
+= Feuergreif
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* *Progenitor:* Couatl
+* GK: 7
+* CP: TBA
+
+== Beschreibung
+__„Als die Sonne unterging und die Nacht hereinbrach erhellten die Flammen der Bäume den Wald, jedoch reichte sein Schein nicht hinauf bis zu den Sternen.
+Trotz seines tödlichen Wesens ist der Flammenwald bei Nacht ein wunderschöner Anblick. Nur ein Wunder ist scheinbar noch größer: wenn sich bei Nacht die Feuergreifen aus ihren Nestern in den Bäumen erheben und von Flammenzungen verfolgt den Nachthimmel durchstreifen.“
+__
+Als der Flammenwald noch nicht in seiner heutigen Form war, lebten in diesem Waldstück eine große Zahl von Greifen.
+Durch das Sonnenfeuer und die damit verbundene magische Energie fingen nicht nur die Bäume Feuer, sondern auch die Greifen.
+Allerdings vergingen sie nicht zu Asche, sondern entzündeten sich zu lebenden Feuerbällen.
+Ein Feuergreif sieht aus wie ein gewöhnlicher Greif, jedoch scheint er aus rotgoldenen Flammen zu bestehen.
+Tatsächlich verwandelte die Magie des Sonnenfeuers die Greifen in eine Art Halbelementar des Feuers.
+Es wird gemunkelt, dass der böse Zwilling von Couatl, Leviathan, seinen Einfluss nutzte, um die Couatls Greifen in diese Form zu korrumpieren.
+Die Feuergreifen sind immer noch lebene Wesen und führen einen entsprechenden Lebenszyklus, jedoch bestehen ihre Haut und ihre Federn aus elementarem Feuer.
+Die Feuergreifen leben in Nestern aus Obsidian in den Gipfeln der Flammenbäume.
+Sie sind nachtaktiv und jagen in Rudeln von bis zu 7 Tieren.
+Immer nur ein Tier ist weiblich und die Anführerin des Rudels.
+Nur die dem Rudel angehörigen Männchen haben eine Chance, das Weibchen zu begatten. Regelmäßig ersetz das Weibchen ihre Männchen, in dem sie fremde Männchen, die entweder keinem Rudel angehören oder aus einem anderen Rudel in das Rudel des Weibchens kommen wollen, mit ihren Männchen kämpfen lässt.
+Der Überlebende gehört dann zu ihr.
+Zu den Beutetieren eines Feuergreifenrudels gehören große Tiere der umliegenden Länder, daher niesten Feuergreifen oft an den Rändern des Flammenwaldes.
+Sie werden oft als die Wächter des Flammenwaldes bezeichnet, da sie oft auch die wenigen Humanoiden angreifen, die sich dem Flammenwald nähern.
+Nur der Seeweg ist relativ sicher, denn die Feuergreifen fürchten Wasser.
+Eine Tatsache, die sich allzu neugierige und wagemutige Abenteurer merken sollten.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 9 (+3) +
+*ER:* 8 (+2) +
+*EN:* 8 (+2) +
+*SB:* 5 (+1) +
+*CH:* 6 (+2) +
+
+*TP:* 60 +
+*MP:* 80 +
+*SP:* 55 +
+
+*BEW:* 15,00 Meter, link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 24,00 Meter +
+*INI:* +4 +
+*MaxTL:* 135 +
+*MaxPOT:* 11 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürloche Rüstung] 5 (alle Trefferzonen) +
+*Resistenzen:* - +
+*Immunitäten:* - +
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +3 +
+*Körper:* +6 +
+*Magie:* +3 +
+*Reflex:* +4 +
+
+== Offensiv
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] (7, 2W6 Feuer, 2x)
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] (7, 2W6+2 Feuer, 1x)
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] (8, 4W10 Feuer)
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (8, link:../../compendiums/spells/spell_fire_odem.adoc[Feuerodem])
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+== Sonstiges
+* <<ref_bestiary_firegriffon_ever_burning, Immer brennnend>>
+* <<ref_bestiary_firegriffon_flaming_death, Feuriger Tod>>
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] 8
+* link:../skills/bestiary_skill_move_rush.adoc[Eilig]
+* link:../skills/bestiary_skill_senses_keensenses.adoc[Scharfe Sinne (Augen)]
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht]
+* link:../skills/bestiary_skill_highly_intelligent_animal.adoc[Außegewöhnlich intelligentes Tier]
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadenaanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+== Regeln
+[[ref_bestiary_firegriffon_ever_burning]]
+=== Immer Brennend
+Feuergreifen sind ein ewiges Feuer.
+Alle ihre physischen Angriffe verursachen immer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Schaden].
+Gleichzeitig fürchten Feuergreifen das Wasser.
+Wenn ein Feuergreif eine größere Wassermasse überqueren bzw. überfliegen muss, muss er zuerst einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen oder weicht von seinem Weg zurück.
+[[ref_bestiary_firegriffon_flaming_death]]
+=== Feuriger Tod
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirbt] ein Feuergreif, wird sein Körper durch eine grelle Stichflamme verzehrt und er zerföllt zu Asche.
+Ein Feuergreif hinterlässt keinen Leichnam.
+== Taktik

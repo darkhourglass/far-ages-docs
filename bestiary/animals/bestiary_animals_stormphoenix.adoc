@@ -1,0 +1,77 @@
+= Sturm Phönix
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* *Progenitor:* Couatl
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 6 (+2) +
+*GE:* 9 (+2) +
+*KO:* 6 (+2) +
+*ER:* 9 (+3) +
+*EN:* 12 (+4) +
+*SB:* 9 (+3) +
+*CH:* 12 (+4) +
+
+*TP:* 80 +
+*MP:* 120 +
+*SP:* 85 +
+*BEW:* 9,00, link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 12,00 +
+*INI:* +7 +
+*MaxTL:* 75 +
+*MaxPOT:* 15 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 (alle Trefferzonen) +
+*Resistenzen:* +
+*Immunitäten:*  +
+* link:../skills/bestiary_skill_damageabsorption.adoc[Schadensabsorbtion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock]
+
+== Rettungswürfe
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +7 +
+*Körper:* +6 +
+*Magie:* +7 +
+*Reflex:* +5 +
+
+== Offensiv
+
+* Talent 1
+* <<ref_bestiary_stormphoenix_lighting_strike, Blitzschlag>> 8 4W8+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock]
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 10
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* <<ref_bestiary_stormphoenix_eye_of_the_storm,Auge des Sturms>>
+* <<ref_bestiary_stormphoenix_eternal_storm,Der ewige Sturm>>
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 link:../../compendiums/spells/spell_thundering_teleport.adoc[Donnerender Teleport]
+
+== Regeln
+[[ref_bestiary_stormphoenix_eye_of_the_storm]]
+=== Auge des Sturms
+Jeder Sturmphönix erzeugt einen xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms[Gewitter Sturm] der xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms_magnitudes[Strärke] 1 in einem Umkreis von 50,00 Metern um sich herum.
+Schließen sich mehrere Sturmphönixe zu einer Gruppe zusammen, steigt die Stärke des erzeugten Sturms um 1 pro 3 Phönixe in dieser Gruppe.
+[[ref_bestiary_stormphoenix_lighting_strike]]
+=== Blitzschlag
+Der Sturmphönix kann aus seinem Körper einen Blitzschlag generieren, der in seiner unmmitelbaren Umgebung donnerend einschlägt.
+Alle Kreaturen im Umkreis von 1,50 Metern um den Stormphönix, erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit dem angegebenen Schaden.
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen die Angriffprobe des Sturmphönix, halbiert den Schaden (abgerundet, Minimum 1).
+[[ref_bestiary_stormphoenix_eternal_storm]]
+=== Der ewige Sturm
+Wie sein feuriger Cousin, der link:bestiary_animals_phoenix.adoc[Phönix], ist auch der Sturmphönix durch seinen Progenitor Couatl mit der Ewigkeit in Form der Wiedergeburt gesegnet.
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirbt] ein Sturmphönix, wird seine inherite Energie in einem lauten Donnerschlag freigesetzt.
+In einem Umkreis von 3,00 Metern erhalten alle Kreaturen einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6+4 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden].
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] halbiert den Schaden (abgerundet, Minimal 1).
+Sein Körper wird vollständig verzehrt, allerdings formt sich nach 24h ein Ei mit sturmgrauer Färbung und aus einem steinharten Material.
+Nach 3 Tagen schlüpft der verstorbe Sturmphönix aus diesem Ei und verursacht nocheinmal den beschriebene Donnerschlag.
+Für Sturmohönix gelten die gleichen Annahmen für ihre Wiedergeburt bei reguären xref:./bestiary_animals_phoenix.adoc#ref_bestiary_phoenix_reborn_from_ashes[Phönixen].
+== Taktik

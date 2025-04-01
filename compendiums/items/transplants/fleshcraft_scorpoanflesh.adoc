@@ -1,4 +1,4 @@
-=Scorpianfleisch Transplantae
+=Scorpionfleisch Transplante
 
 == Voraussetzungen
 Um ein Transplant aus dieser Liste zu bekommen und halten zu können, musss die empfangende Kreatur von einem link:../../../bestiary/abominations/abominations_symbiote_of_the_legion.adoc[Symbiont der Legion] als Wirt verbunden sind.
@@ -6,25 +6,26 @@ Nur link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_
 Kreaturen mit einem Transplant aus dieser Liste erhalten automatisch den sekundären Kreaturentyp link:../../rules/creturetypes/secondary/creaturetype_secondary_vemin.adoc[Ungeziefer] hinzu.
 [[scorpopnflesh_transplant_chinious_growths]]
 ==Chitinöse AuswÜchse
-Auf Gelnken, Extermitäten und schwachen Körperstellen wachsen der Kreatur körpelige Chitinplatten, die ihre Muskulator, ihr Skeltett stärken.
-Die Kreatur erhält einen Bonus auf fpögende Attribute +5 ST, +8 KO.
+Auf Gelenken, Extermitäten und schwachen Körperstellen wachsen der Kreatur körpelige Chitinplatten, die ihre Muskulator, ihr Skelett stärken.
+Die Kreatur erhält einen Bonus auf folgende Attribute +5 ST, +8 KO.
 Das Transplantat kann mehrfach durch die Gabe von xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal] angewendet werden. DIe Boni werden kumulativ angewendet. Zusätzlich erhöht sich die GK der kreatur um 1 sowie ihr *Schwarmstatus* um 3.
-[[scorpopnflesh_transplant_ppoision_glands]]
+[[scorpopnflesh_transplant_poision_glands]]
 ==Giftdrüsen
 Mit diesem Transplant bilden sich in der Speiseröhre körpereigene Drüsen, die verschiedene Gifte enthalten können. Andere Transplantate ideser Liste benötigen diese als Voraussetzung.
 [[scorpopnflesh_plates]]
 == Panzerplatten
 Due Kreatur bekommt schwarzglänzende Cithinplatten von Köprern von Riesenskorpionen verplfanzt, die sie vor phyikalischer Gewalteinwirkung schützen sollen.
-Jedees transplant dieser Art muss auf eine konkrete Treffferuzone der Kreatur anwendet werden. Dpe Terefferzone erhält  link:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstunh] von 7 Punkten.
+Jedees transplant dieser Art muss auf eine konkrete Treffferuzone der Kreatur anwendet werden. Dpe Terefferzone erhält  link:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung] von 7 Punkten.
 Das Transplant kann mehrfach angewendet werden, jeweils auf eine neue Trefferzone.
-EIne bestehende Trefferzone kann mit EInsatz xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee ROyal] erneut behandelt werden. Der Bonus wird kumulativ angewendet.
+EIne bestehende Trefferzone kann mit Einsatz xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee ROyal] erneut behandelt werden. Der Bonus wird kumulativ angewendet.
+Da die Panzerplatten exterm schwer sind, erhält die Kreatur einen Malus auf ihren INI-Wert von -3, wenn ihre Stufe in ST kleiner als 10 ist.
 [[scorpopnflesh_transplant_pinceers]]
 == Greifscheren
 Anstelle ihrer Arme erhält die Kreatur massige Greifscheren eines Riesenscorpions. Mit diesen kann sie andere Kreaturn versuchen zu xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[greifen und festzuhalten].
-Sie erhölt die Fähigkeit link:../../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klauen] mit *Angriffsstufe* 7 plus ihren ST-Bonus, einem Schaden von 2W6+1 plus ihren ST-Bonus und dem Einsatz pro Zug von 2X.
+Sie erhält die Fähigkeit link:../../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klauen] mit *Angriffsstufe* 7 plus ihren ST-Bonus, einem Schaden von 2W6+1 plus ihren ST-Bonus und dem Einsatz pro Zug von 2X.
 [[scorpopnflesh_transplant_poision_Bite]]
 == Giftiger Biss
-Für dieses Transplantat muss die Kreatur bereits <<scorpopnflesh_transplant_ppoision_glands,Giftdrüsen>> besitzen.
+Für dieses Transplantat muss die Kreatur bereits <<scorpopnflesh_transplant_poision_glands,Giftdrüsen>> besitzen.
 Die Zähne der Kreatur
 Die Kreatur erhält eine neue link:../../skills/bestiary_skill_attack_bite.adoc[Biss-Attacke]mit einer *Angriffsstufe* von +7 plus ihren ST-Bonus. Der *Schaden* veträgt 1W6 plus den ST-Bonus. Der Biss kann 1x pro  xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] einhesetzt werden. Zus#tzlich wird dieser Angriff durch die FÄhigkeit link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] erweitert. Verursacht der Biss Schaden, wird ein xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_paralyzing_venom[paralysierendes Gift] mit xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_strengh[Giftstärke] 13 freigesetzt.
 [[scorpopnflesh_transplant_razoerblade_tongue]]
@@ -36,7 +37,7 @@ Die Attack kann einmal pro eigenem Zug eingesetzt werden.
 [[scorpopnflesh_transplant_swarm_overseer]]
 == Swarm Aufseher
 Die Kreatur erhält, falls noch nicht vorhanden, die Fähigkeit link:../../../bestiary/skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft] und ihr *Schwarmstatus* erhöhrt sich um 4.
-FOr dieses Transplantat wird xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee ROyal] benötigt.
+FOr dieses Transplantat wird xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal] benötigt.
 [[scorpopnflesh_transplant_lower_body_tramsformation]]
 == Scropionenkörper
 Der Unterkörper der Kreatur wird ersetzt durch den Körper eines Riesenskorpien.
@@ -51,32 +52,35 @@ In beiden Varianten erhält die Kreatur die folgenden Fähigkeiten:
 Die neue Physiologie ermöglicht der Kreatur das Durchführen eines xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_mountedcharge[berittenen Angriffs] mit den passenden Waffen, wie z.B. einer Lanze oder einem Speer.
 Au0erdem besitzt der Körper einen <<scorpopnflesh_transplant_stinger_and_tail,Skorpionenshwanz>>.
 Der *Schwarmstatus* der Kreatur erhöht sich um 2.
-[scorpopnflesh_transplant_hidden_stinger]]
+[[scorpopnflesh_transplant_hidden_stinger]]
 == Versteckter Stachel
-
-[scorpopnflesh_transplant_stinger_and_tail]]
+Die Kreatur besitzt in den Handgelenken aus flexiblen, ein und ausziehbaren scharfen Knochenstachel, die sie verwenden kann, um einen überraschenden Angriff auszuführen.
+Sie erhält als Versteckter Stachel aufgef+hrt die Fähigkeit link:../../../bestiary/skills/bestiary_skill_attack_stroke.adoc[Hieb] mit einer _*Angriffstufe*_ von 6 ülus ihren GE-Bonus und Schadens von 2W8.
+Die Fähigkeit ist 1x im xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] einsetzbar und qualifiziert für einen link:../../../rules/core/skills/core_skill_backstab.adoc[Hinterhältigen Angriff].
+Besitzt die Kreatur <<scorpopnflesh_transplant_poision_glands,Giftdrüsen>>, erhält sie die F#higkeit link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] für diesen Angriff. Verursacht der Stachel Schaden, wird ein xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_paralyzing_venom[paralysierendes Gift] mit xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_strengh[Giftstärke] 13 freigesetzt.
+[[scorpopnflesh_transplant_stinger_and_tail]]
 == Scorpionenschwanz
 Der Anrgiff mit dm Stachel auf der Spitze des Schwanzes wird als Angriff von Typ link:../../../bestiary/skills/bestiary_skill_attack_stroke.adoc[Hieb] behandelt. Die *Anhrifffstufe* betr#gt 7 plus den ST-Bonus der Kreatur. Der *Schaden* beträgt 2W6 + 1 +  ST-Bonus.
-Der Anrgfiff darf 1-mal im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] einhesetzt werden. Zus#tzlich wird dieser Angriff durch die FÄhigkeit link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] erweitert. Verursacht der Stachel Schaden, wird ein xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_paralyzing_venom[paralysierendes Gift] mit xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_strengh[Giftstärke] 13 freigesetzt.
-[scorpopnflesh_transplant_digestive_acid]]
+Der Anrgfiff darf 1-mal im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] einhesetzt werden. Zus#tzlich wird dieser Angriff durch die Fähigkeit link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] erweitert. Verursacht der Stachel Schaden, wird ein xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_paralyzing_venom[paralysierendes Gift] mit xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_strengh[Giftstärke] 13 freigesetzt.
+[[scorpopnflesh_transplant_digestive_acid]]
 == Verdauerungssäfte
 Wie alle Archrachnoiden verdauen Skorpione ihre Beute nicht in ihrem Magen, sondern onjezieren eine Verdaieringsäure, um ihr Inneres zu verflüssigen.
 Dueses Implantat lässt die Kreatur eine #tuende Magensäure produzieren
-Doe Kreatur erhäöt eine neue Attacke "Spucken" vom Typ link:../../../bestiary/skills/bestiary_skill_attack_rahhe.adoc[Reichweite]. Doe *Angriffstufe* beträgt 7 plus den GE-Bonus der Kreatur. Die  *Basisreichweite* beträgt 6,00 Meter. Ein Treffer verursacht 2W8+1 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säire] *Schaden*.
-Doe Fähigkkeit kann 1-mal pro eigeneme Zug eingesetzt werden.
-[scorpopnflesh_transplant_wings]]
+Doe Kreatur erhäöt eine neue Attacke "Spucken" vom Typ link:../../../bestiary/skills/bestiary_skill_attack_range.adoc[Reichweite]. Doe *Angriffstufe* beträgt 7 plus den GE-Bonus der Kreatur. Die  *Basisreichweite* beträgt 6,00 Meter. Ein Treffer verursacht 2W8+1 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säire] *Schaden*.
+Doe Fähigkeit kann 1-mal pro eigenen Zug eingesetzt werden.
+[[scorpopnflesh_transplant_wings]]
 == Flügel
-Die Legion nutzt neben Skorppionen auch andere monströse Insekten wie Riesige Käfer oder Fliegen.
+Die Legion nutzt neben Skorppionen auch andere monströse Insekten wie riesige Käfer oder Fliegen.
 Besonders gewagte Fleischformer transplantieren auch Teile dieser Tiere.
-Die Kreatur erhält ein paar Insektenflügel, die ihr die FÄhigkeit link:../../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen] 15,00 Meter verleiht.
+Die Kreatur erhält ein paar Insektenflügel, die ihr die F#higkeit link:../../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen] 15,00 Meter verleiht.
 Dieses Transplantat benötigt den Einsatz xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal].
-[scorpopnflesh_shadow_of_the_swarm]]
+[[scorpopnflesh_shadow_of_the_swarm]]
 == Schatten des Schwarms
-Das kollektive Bewusstsein der Legion ist ein mächtiger psionischer Wille, der wie eine Flutwelle über den ungeüntem Geist einfallen kann.
+Das kollektive Bewusstsein der Legion ist ein mächtiger psionischer Wille, der wie eine Flutwelle über den ungeübtem Geist einfallen kann.
 Die Kreatur hat gelernt, diese Kakaphonie aus abertausend summenden Stimmen in ihren Kopf ihr direktes Umfeld zu projezieren.
 Dazu muss die Kreatur eine xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] in ihrem Zug wowie 10 MP einsetzen.
 Alle link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen im Umkreis von 9,00 Metern, die nicht Teoö der Legion sind, sind betroffen.
 Das Schwarmbewusstsein manifestiert sich als surrende Wolke unzähliger Insekten, deren Flügelbewegungen sich eine lauten, vielschichtigen Stimme erheben.
 Alle Kreaturen im oben genannten Umkreis müssen einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen 10 plus den Schwarmstaus der Kreatur bestehen oder sie erleiden einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf alle xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Anriffsprobe] gegebenüber der Kreatur.
-Der Effekt endetr automatisch nach 3 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen].
-Diese G#higkeit erhält die Kreatur nicht durch ein klassiches Implantat, sondern durch die Einnahme alchemistischer und arkaner Substanzen, sowie xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal], die die Gehinstruktur so verändern, dass die Kreatur diese psopnische Leistung bringen kann.
+Der Effekt endet automatisch nach 3 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen].
+Diese G#higkeit erhält die Kreatur nicht durch ein klassiches Implantat, sondern durch die Einnahme alchemistischer und arkaner Substanzen, sowie xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal], die die Gehinstruktur so verändern, dass die Kreatur diese psionische Leistung bringen kann.

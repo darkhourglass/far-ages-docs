@@ -1,0 +1,77 @@
+= Roc
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* *Progenitor:* Couatl
+* GK: 10
+* CP: TBA
+
+== Beschreibung
+
+Lore
+Der Roc, auch Ruuk genannt, ist der Legende nach das geliebte Kind des Progenitors Couatl, der gefiederten Schlange.
+Ein Roc ist ein riesger Vogel mit einer Flügelspannweite von bis zu 8 Metern.
+Angeblich schuf Couatl die Rocs, um nach dem link:bestiary_animals_phoenix.adoc[Phönix] die perfekte Schönheit zu kreaieren.
+Das Gefieder eines Rocs weißt eine Mischung aus goldenen und roten Federn auf.
+Grundsätzlich, wenn der Roc nicht so eine gefähliche Kreatur wäre, könnte man leicht bei seinem Anblick in Bewunderung verfallen.
+Rocs nisten in luftigen Höhen auf entlegenen Berggipfeln.
+Sie sind schlau genug, um sich von größeren Siedlungen der Humanoiden entfernt zu halten, aber auch mutig genug, um im Zweifelsfall, Herden von Nutztieren zu bejagen.
+Das Sichten eines Rocs in Nähe von bewohnten Gebieten, ist üblicherweise ein schlechtes Omen.
+Gut vorbereitete Siedlungen nutzen schwere Waffen wie Speerschleudern zu Verteidigung.
+Der Roc ist groß und stark genug, um schwere Beutetiere wie Elefanten oder Büffel mühelos mit seinen Klauen aus dem Sturzflug zu greifen und wegzutragen.
+Rocs, die sich bedroht fühlen, greifen auch Humanoide an, nehmen sie mit den Klauen hoch und entweder zerreißen sie in der Luft oder lassen sie nach ein paar steigenden Flügschlägen fallen.
+Rocs fürchten Humanoide nicht.
+Diejenigen, die einen Angriff eines Rocs überlebt haben, zucken nicht selten zusmmen, wenn eine Wolke ihren Schatten vor die Sonne wirft.
+== Profil
+*ST:* 12 (+4) +
+*GE:* 3 (+1) +
+*KO:* 10 (+3) +
+*ER:* 12 (+4) +
+*EN:* 8 (+2) +
+*SB:* 10 (+3) +
+*CH:* 9 (+3) +
+*TP:* 135 +
+*MP:* 80 +
+*SP:* 95 +
+*BEW:* 9,00 Meter, link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 24,00 Meter +
+*INI:* +5 +
+*MaxTL:* 720 +
+*MaxPOT:* 11 +
+
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:*
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Phyisch]+
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+
+== Rettungswürfe
+*Aufmerksamkeit:* +7 +
+*Disziplin:* +7 +
+*Körper:* +7 +
+*Magie:* +5 +
+*Reflex:* +5 +
+
+== Offensiv
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 12 4W6+4, 2x
+* link:../skills/bestiary_skill_attack_bite.adoc[Schnabel] 12 4W6+4, 1x
+* link:../skills/bestiary_skill_modification_rend.adoc[Zerreißen] Klauen
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 10
+== Sonstiges
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht]
+* link:../skills/bestiary_skill_highly_intelligent_animal.adoc[Außegewöhnlich intelligentes Tier]
+* link:../skills/bestiary_skill_absurdly_strong.adoc[Absurd Stark]
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 12
+== Regeln
+
+== Taktik
+Ein Roc nutzt seine Größe, Kraft und Flugfähigkeit gegenüber Bedrohungen gnadenlos ein.
+Ein Roc nutzt einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_airattack[Flugangriff] mit seinen Klauen, um einen Gegner zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[packen] und mit dem Rest seiner BEW fortzutragen.
+Das hilflose Opfer ist den Attacken des Roc ausgeliefert oder wird aus großer Höhe fallengelassen.
+Ein Roc ist intelligent genug, um zwischen verschiedenen Zielen und den Gefahren, die sie darstellen, zu unterscheiden.
+EIn Roc wird also eher einen ungepanzerten Magier angreifen, als einen Schlachtengolem.
+Weoterhin ist denkbar, dass ein Roc einen großen Felsen vom Boden aufnehmen kann und auf Gefahren herabfallen lassen wird, z.B. auf befestigte Stellungen mit schwerem Kriegsgerät.

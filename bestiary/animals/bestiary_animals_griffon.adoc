@@ -1,0 +1,94 @@
+= Greif
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* *Progenitor:* Couatl
+* GK: 7
+* CP: TBA
+
+== Beschreibung
+_„Deckung!“_
+
+Greifen sind majestätische und gefährliche Jäger der Lüfte.
+Der Körper eines Greifen ähnelt dem eines Löwen und kann bis zu 5 Meter Länge bei Erwacsenen aufweisen.
+Der Körper endet in einem Löwenschwanz und besitzt an den vier Beinen Löwentatzen mit extrem scharfen Krallen.
+Der Kopf eines Greifen ist der eines großen Adlers mit einem gebogenen Schnabel.
+In die Lüfte hebt sich der Greif mit zwei Flügeln auf dem Rücken seines Körpers.
+Diese gleichen ebenso denen eines Adlers und können eine Spannweite von bis zu 10 oder gar 12 Metern erreichen.
+Greifen leben in Gemeinschaften von bis zu 10 Tieren.
+Meistens findet man sie auf entlegenen Berggipfeln oder in tiefen Wäldern.
+Gruppen von Greifen verteidigen ihr Terretorium vorallem gegen Fressfeinde, selten greifen sie daher Humanoide an.
+Es ist jedoch möglich, dass sie Rinder oder Schafe reissen, wenn der unvorsichtige Hirte seine Tiere in das Gebiet der Greifen lenkt, denn Greifen haben keine Angst vor Humanoiden, meiden jedoch häufig ihre Gegenwart.
+Greifen jagen meistens in Gruppen von 3 Tieren.
+Man sieht sie bei klarem Wetter häufig am Himmel kreisen.
+Greifen vermehren sich zweigeschlechtlich.
+Einmal im Jahr kann ein Greifenweibchen befruchtet werden.
+Die Männchen veranstalten dann einen Lufttanz, der einem ritualisierten Kampf gleicht, bei dem aber kein Greif verletzt wird.
+Diese Tänze sind immer ein sehr faszinierender und ästhetischer Anblick.
+Es sind diverse vorherrschende Greifenunterarten bekannt.
+Als weitere, sehr viel eher verbreitete, Unterart ist der *Berggreif* bekannt. Diese leben, wie der Name vermuten lässt, in den hohen Gipfeln der Berge.
+Ihr Gefieder und ihr Fell nehmen dunkle, braune Farben an. Manchmal sieht man weiße Schwingen.
+Sie organisieren sich in Gruppen von bis zu 20 Tieren, die in einer Bergspitze ihre Nester bauen.
+Für gewöhnlich jagen im Wechsel jeden Tag 2x3 Tiere in einer Gruppe.
+Die weitaus seltenere ist der *Diamantgreif*. Der Diamantgreif bevorzugt niedrige Berge und dichte Wälder als Unterschlupf.
+Erkennbar ist der Diamantgreif an seinem hellem Gefieder und Fell.
+Sein Schnabel ist schneeweiss und glitzert manchmal in der Sonne, was ihn diesen Namen verlieh.
+Tatsächlich haben schon viele Jäger deswegen ihr Glück versucht und jagten diese Tiere.
+Sie waren nicht oft erfolgreich, aber wenn dann stellten sie fest, dass ihre Hoffnung auf Reichtum wohl nicht erfüllt würde.
+Der Diamantgreif lebt jedoch eher allein und als Einzelgänger.
+Nur zur Jahreszeit, wenn die Weibchen fruchtbar sind, üblicherweise der Herbst, treffen sie sich an bestimmten Orten, um die Lufttänze durchzuführen.
+In kalten und eisigen Schneegebieten soll es den ebenso weißgefiederten *Schneegreif* geben.
+[NOTE]
+Egal, welche Greifenart einen Auftritt erhaltn soll, sie alle teilen sich das gleiche hier vorgestellte Profil.
+== Profil
+
+*ST:* 6 (+2) +
+*GE:* 2 (+1) +
+*KO:* 4 (+1) +
+*ER:* 8 (+2) +
+*EN:* 3 (+1) +
+*SB:* 3 (+1) +
+*CH:* 6 (+2) +
+
+*TP:* 65 +
+*MP:* 30 +
+*SP:* 45 +
+
+*BEW:* 15,00 Meter, link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 24,00 Meter +
+*INI:* 10 +
+*MaxTL:* 90 +
+*MaxPOT:* 6 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürloche Rüstung] 5 (alle Trefferzonen) +
+*Resistenzen:* - +
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +3 +
+*Körper:* +3 +
+*Magie:* +2 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] (6, 2W6, 2x)
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] (6, 2W6+2, 1x)
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] (7, 4W10)
+* link:../../rules/core/skills/core_skill_backstab.adoc[Hinterhältiger Angriff]
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+
+== Sonstiges
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Erkennen] 8
+* link:../skills/bestiary_skill_move_rush.adoc[Eilig]
+* link:../skills/bestiary_skill_senses_keensenses.adoc[Scharfe Sinne (Augen)]
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht]
+* link:../skills/bestiary_skill_highly_intelligent_animal.adoc[Außegewöhnlich intelligentes Tier]
+
+== Regeln
+
+== Taktik
+Greifen sind intelligente J#ger und verwenden Rudelstrategien, wie isolieren und umzingeln des Ziels.

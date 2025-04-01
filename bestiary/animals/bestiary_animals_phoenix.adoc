@@ -1,0 +1,87 @@
+= Phönix
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* *Progenitor:* Couatl
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+Lore
+Es heißt, der Progenitor Couatl, die gefiederte Schlange, schuf den Phönix als Exemplar der Schönheit und Ewigkeit.
+Ein Phönix ist ein Vogel mit einer Flügelspannweite von bis zu 6,00 Metern bei ausgewachenen Tieren.
+Sein Körperbau ist schlank mit einem langen Hals und langen Schnabel.
+Seine Federn sind rot, gelb orange gefärbt und erinneren an Flammen.
+Trotz seiner Affinität und Assoziation zu Feuer, brennt der Phönix nicht.
+Dennoch strahlt er eine starke Hitze aus und verwendet natürlicherweise Feuermagie.
+
+== Profil
+
+*ST:* 6 (+2) +
+*GE:* 9 (+2) +
+*KO:* 6 (+2) +
+*ER:* 9 (+3) +
+*EN:* 12 (+4) +
+*SB:* 9 (+3) +
+*CH:* 12 (+4) +
+
+*TP:* 80 +
+*MP:* 120 +
+*SP:* 85 +
+*BEW:* 9,00, link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 12,00 +
+*INI:* +7 +
+*MaxTL:* 75 +
+*MaxPOT:* 15 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 (alle Trefferzonen) +
+*Resistenzen:* +
+*Immunitäten:*  +
+* link:../skills/bestiary_skill_damageabsorption.adoc[Schadensabsorbtion] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+
+== Rettungswürfe
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +7 +
+*Körper:* +6 +
+*Magie:* +7 +
+*Reflex:* +5 +
+== Offensiv
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 link:../../compendiums/spells/spell_flame_nova.adoc[Flammennova]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 link:../../compendiums/spells/spell_intimidating_ignition.adoc[Einschüchterndes Entflammen]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 link:../../compendiums/spells/spell_wall_of_flames.adoc[Flammenwall]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 link:../../compendiums/spells/spell_heat.adoc[Erhitzen]
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8 2W6+2, 2x
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 0 2W6+4 2x
+
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 10
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+== Sonstiges
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 10
+* <<ref_bestiary_phoenix_death_in_fire, Tod im Feuer>>
+* <<ref_bestiary_phoenix_reborn_from_ashes, Wiedergeboren von der Asche>>
+* link:../skills/bestiary_skill_highly_intelligent_animal.adoc[Außergewöhnlich intelligentes Tier]
+== Regeln
+[[ref_bestiary_phoenix_death_in_fire]]
+=== Tod im Feuer
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirbt] ein Phönix, verglüht sein Körper in einer grellen Stichflamme zu Asche.
+Alle Kreaturen im Umrkeis von 3,00 Metern erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 6W6+6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]. Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] halbiert den Schaden (abgerundet, Minimal 1).
+Nach 24 Stunden formet sich an der Stelle, ein Straußen-Ei großes Ei mit einer schwarzen Schale, die an Lavagestein/Obsidian erinnert.
+Das Ei strahlt eine angenehme Wärme aus.
+Diese erfolgt auch, wenn die Asche des Phonix zerstreut wird.
+Das Ei widersteht den meisten physikalischen Kräften.
+Es absorbiert Feuer-Schaden, wie der Phönix selbst.
+Ein unbeschädigtes Ei lässt nach 3 Tagen den Phönix schlüpfen, es gelten die Regeln
+<<ref_bestiary_phoenix_reborn_from_ashes,Wiedergeboren von der Asche>>.
+[NOTE]
+Wir geben keine expliziten Regeln an, wie ein Phönix-Ei zerstört werden kann, sondern die Möglichkeit zu diesem Akt obliegt dem SL.
+Diejenigen, die es ggf. schaffen ein Phönix-Ei zu zerstören, verhindern zwar die Wiedergeburt dieses einen Phönix, handeln sich aber auch die Feindschaft des Progeniors Couatl ein.
+[[ref_bestiary_phoenix_reborn_from_ashes]]
+=== Wiedergeboren von der Asche
+Der Phönix schlüoft aus seinem Ei, wie er zu <<ref_bestiary_phoenix_death_in_fire,Asche zerfiel>>.
+Es entsteht die gleiche Stichflamme und der Phönix entsteht mit seinen vollen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools] und identischen Profil zum Zeitpunkt seines Todes neu.
+Phönixe erinneren sich an den Augenblick ihres Todes und erkennen im Zweifel ihre Möder wieder.
+== Taktik
+Phönixe nutzen ihre magischen Feuer-Fähigkeiten offensiv und effektiv ein.
+Kämpfen mehrere Phönixe gemeinsam gegen einen gemeinsamen Gegner, können sie sich auf gegenseitig mit den Zauber wie z.B.  link:../../compendiums/spells/spell_flame_nova.adoc[Flammennova] heilen, aufgrund ihrere Schadensabsorbtion Feuer.

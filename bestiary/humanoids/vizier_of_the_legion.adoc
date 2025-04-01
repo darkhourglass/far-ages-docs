@@ -2,78 +2,87 @@
 
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
 * link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer]
-* Templates
-* GK: X
-* CP: 16900+
+* GK: 7
+* CP: 29400+
 
 == Beschreibung
-
-Lore
-
+_"Diese Kreatur umgibt eine eigenartige Aura. Ihre monströsen Züge scheinen durch ihre Ausstrahlung in den Hintergrund zu rücken. Der humanoide Oberkörper weißt eine braungebrannt, kufperstichige Färbung der Haut auf. Langes schwarzes Haar umrahmt ein scharf geschnittenes edles Gesicht mit tiefschwarzen Augen. Herrschaftliche Gewänder und punkvoller Schmuck ziehern den humanoiden Teil. Trotzdem ist der Unterlaib eines Riesenscorpions mit seinem Stachelschwanz nicht zu unterschätzten."_
+Viziere der Legion stellen den Hochadel innerhalb der Schwarmgesellschaft dar, insofern man bei einem kollektiven Bewusstsein überhaupt von Hierarchie sprechen kann.
+Der Schwarm der Legion ist durch den Willen von Legion geprägt, dennoch teilt sich der Schwarm in diverse Unterschwärme auf, die wiederum von einer link:broodmother_of_the_legion.adoc[Brutmutter] aufgebaut und von iheren Vizieren gelenkt werden.
 == Profil
 [NOTE]
-Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind ber+clsucgtigt.
-*ST:* 4 (+x) +
-*GE:* 6 (+x) +
-*KO:* 4 (+x) +
-*ER:* 8 (+x) +
-*EN:* 6 (+x) +
-*SB:* 8 (+x) +
-*CH:* 1ß (+x) +
-
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
-
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
-
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
-
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind berücksichtigt.
+*ST:* 31 (+10) +
+*GE:* 6 (+2) +
+*KO:* 42 (+14) +
+*ER:* 6 (+2) +
+*EN:* 10 (+3) +
+*SB:* 10 (+3) +
+*CH:* 1ß (+3) +
+*TP:* 380 +
+*MP:* 100 +
+*SP:* 100 +
+*BEW:* 15,00 Meter +
+*INI:* +5 +
+*MaxTL:* 465 +
+*MaxPOT:* 13 +
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
-*Immunitäten:* XXX +
-
+*Rüstung:* (Brust, Arme, Rücken: 7 Kettenpanzer, (Skorpionenkörper 7) +
+*Resistenzen:*  +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität]
 == Rettungswürfe
-
-*Aufmerksamkeit:* ST+KO+3 +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO+3 +
-*Magie:* EN+SB+3 +
-*Reflex:* GE+ER +
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +6 +
+*Körper:* +27 +
+*Magie:* +6 +
+*Reflex:* +5 +
 
 == Offensiv
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
-
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] +17 1W6+7 1x
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] (Weg des Körpers) 8+3 <<ref_bestiary_vizier_arkane_knowledge,Arkanes Wissen>>
+* link:../../../bestiary/skills/bestiary_skill_attack_stroke.adoc[Scorpionenschwanz] 16, 2W6+10, 1x
+*  link:../../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klauen] 17, 2W6+10, 2x
+* link:../../../bestiary/skills/bestiary_skill_move_rush.adoc[Eilig]
+* link:../../../bestiary/skills/bestiary_skill_move_fasttrack.adoc.adoc[Schnell]
+* link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] (Biss, Scorpionenschwanz, paralysierendes Gift, 13)** **
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_shadow_of_the_swarm[Schatten des Schwarms]
 == Defensive
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
-
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 9
 == Sonstiges
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_interrogate[Ausfragen] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschütern] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_insight[Motiv erkennen] 11
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] 11
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_use_technomantic_device[Technomatischen Gerät benutzen] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Alchemie)] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Akanes)] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Gifte)] 12
+* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
+* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 11
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+* link:../skills/specific/bestiary_skill_retunie.adoc[Gefolgschaft] (2 link:elite_warrior_of_the_legion.adoc[Elite Krieger der Legion), 3 link:../animals/bestiary_animals_giant_scorpion.adoc[Riesenskorpione], Leibwächter)
 
 == Regeln
-
+=== Implantate
+Als Angehöriger des noblen Adels der Legion besitzt dieser Vizier eine Reihe von Implantaen, die seiner Stellung gerecht werden:
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse] (3x GK 5 auf 7)
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_lower_body_tramsformation[Scropionenkörper]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_ppoision_glands[Giftdrüsen]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_poision_Bite[Gifter Biss]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorponflesh_scorpopnflesh_transplant_stinger_and_tail[Scorpionenschwanz]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_swarm_overseer[Schwarmaufseher]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_shadow_of_the_swarm[Schatten des Schwarms]
+[[ref_bestiary_vizier_arkane_knowledge]]
+=== Arkanes Wissen
+Veziere der Legion sind neben Aufgabe als Representaten einer König auch dafür zuständig, Implantate zu verpflanzen. Sie beherrschen daher außerdem die Zusatz-Zauberliste:
+link:../../compendiums/supplementspelllists/compendium_supplementspelllist_fleshcrafting.adoc[Fleischformen]
 == Taktik
+Auch wenn ein Vizier nicht die gleiche Kampferfahrung wie ein link:elite_warrior_of_the_legion.adoc[Elite Krieger der Legion] besitzt, ist er ein gefährlicher Gegner, der nicht zu unterschätzen ist. Auch der Vezier nutzt die Vorteile seines hybriden Skorpionenkörper und seines giftigen Bisses, um Angreifer einzeln auszuschalten.
+Viziere besitzen auch magisches Potential, dass zwar nicht an das eines link:high_arkanist_of_the_legion.adoc[Hocharkanisten] herankommt, dennoch nutzen sie es effekiv zu ihrem Vorteil.
+Besonders vorsichtig sollte man for den sozialen Fähigkeiten des Viziers und seiner boshaften Intelligenz sein, denn er wird versuchen, Opposition auseinanderzutreiben, Verschwörungen zu gestalten und Hinterhalte zu legen.
+Viziere werden von anderen Mitgliedern der Legion üblicherweise begleitet und fanatisch beschützt.

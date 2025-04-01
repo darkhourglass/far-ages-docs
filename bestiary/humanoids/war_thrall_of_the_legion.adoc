@@ -1,0 +1,72 @@
+= Kriegssklave der Legion
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer]
+* GK: 5
+* CP: 1700+
+
+== Beschreibung
+_"Diese humanoide Kreatur ist am ganzen Körper mit dicken, schwarzen Panzerplatten bedeckt.
+Ihr Gesicht ist bedeckt durch eine helmartige Panzer-Formation, die einen kleinen Schlitz für den Mund und für die Augen enthält. An dieser Stelle und an wenigen Gelenken scheint menschliche Haut durch. Durch ihre schweren Panzerplatten wirkt die Kreatur sehr massiv."_
+
+
+== Profil
+[NOTE]
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind ber+clsucgtigt.
+*ST:* 10 (+3) +
+*GE:* 3 (+1) +
+*KO:* 11 (+3) +
+*ER:* 2 (+1) +
+*EN:* 2 (+1) +
+*SB:* 2 (+1) +
+*CH:* 1 (+1) +
+*TP:* 120 +
+*MP:* 20 +
+*SP:* 15 +
+*BEW:* 9,00 +
+*INI:* +3 +
+*MaxTL:* 150 +
+*MaxPOT:* 5 +
+*Aktionen:* 3 +
+*Rüstung:* 12 (Alle Trefferzonen: ink:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung] 7 + 5 Schild) +
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität]
+== Rettungswürfe
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +2 +
+*Körper:* +9 +
+*Magie:* +5 +
+*Reflex:* +2 +
+== Offensiv
+* link:../../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klauen] 10, 2W6+4, 2x
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] Speer +9, 2W6+3
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6
+== Sonstiges
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athlethik]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen]
+* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
+* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 1
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+== Regeln
+=== Implante
+Alle Kriegssklaven der Legion erhalten die gleichen Implantate:
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_pinceers[Greifscheren]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_plates[Panzerplatten] (alle Trefferzonen)
+== Taktik
+Die Kriegssklaven der Legion sind vor allem Kanonenfutter und Masse, die zwischen wichtige Mitglieder des Schwarms und die Gegner geworfen werden.
+Trotz ihrer Klauen, die bereits für sich tödliche Waffen sind, werden die Kriegssklaven trainiert, mit Schild und Speer zu kämpfen, um Einheitentaktiken und Formationskampf einsetzen zu können.
+In einem Handgemenge können Kriegssklaven die Waffen ablegen und ihre Klauen nutzen.
+Ihre Klauen erlauben es ihnen nicht, komplizierte Waffen zu verwenden, wie Bögen oder Armbrüste.
+Die Legion organisert ihre Einheiten in mehreren Dutzend Kriegssklaven, angeführt von einem link:elite_warrior_of_the_legion.adoc[Elite-Krieger].
+[NOTE]
+Kriegssklaven werden von jungen Symbioten übernommen, die sich erst Status verdienen müssen.
+Es ist denkbar, dass es Einheiten von kriegssklaven gibt, die keine Klauen erhalten und damit jede Waffengattung nutzen können.
+Kriegssklaven mit Lanzen auf Riesenskorpionen als Kavalierieregiment, sind auch denkbar.

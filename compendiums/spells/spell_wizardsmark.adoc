@@ -1,0 +1,27 @@
+= Zauberer-Zeichen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Gesten +
+*Fokus:* Geist +
+*Vorbereitung:* 1 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* Permanent +
+*Effekt:* +
+Du schreibst ein Zeichen in Luft und brennst magische Schrift in eins der folgenden Ziele: ein Gegenstand, ein Objekt, eine Kreatur oder eine beliebige Oberfläche.
+Eine Kreatur darf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] ablegen, um sich gegen das Gezeichnet werden zu wehren.
+Ein Zauberer-Zeichen existiert nur im Aether, kann daher nur mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] gesehen und entziffert werden.
+Das Zauberer-Zeichen enthält immer die Information, von wem es geschrieben wurde.
+Dazu ist ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[guter Erfolg] in o.g. Talent-Prob nötig.
+Außer dem darfst Du bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] festlegen, ob weitere Informationen in Form von geschriebener Sprache hinterlassen möchtest.
+Dabei bist Du auf maximal 20 Worte beschränkt.
+Magier nutzen dieses Zeichen zum einen für weiterführende Zauber, die mit einem Zauberer-Zeichen interagieren oder um Botschaften zu hinterlassen, wie z.B. "Eigentum von...", "Bis hierher und nicht weiter".
+Du kannst den Zauber mehrfach aussprechen, aber Du kannst maximal nur so viele Zauberer-Zeichen gleichzeitig aktiv haben, wie Du Stufen in Deinem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_perception[ER-Attribut] hast.
+Du kannst jedes Deiner Zauberer-Zeichen als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] auflösen, wenn Du im Abstand von bis zu 6,00 Metern bist.
+[NOTE]
+Die Praxis Zauberer-Zeichen zu verwenden, ist nicht unbekannt, sondern im allgemeinen Wissen.
+Jeder mit wenigstens einer Stufe in Wissen Arkanes, erkennt Zauberer-Zeichen immer als solche, wenn er in den Aether schauen kann.
+*Zusätzliche Effekte:* +
++ 1 MP: Reichweite +6,00 Meter

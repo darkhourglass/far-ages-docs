@@ -1895,7 +1895,17 @@ Waffen mit dieser Eigenschaft müssen mit beiden Händen gehalten werden.
 Es ist nicht möglich, die Waffe ausschließlich mit der xref:../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Primärhand] zu führen, sondern benötigt die Sekundärhand ebenfalls.
 Diese Eigenschaft gilt nicht automatisch als <<ref_core_battle_items_weapons_tag_heavy,schwer>>.
 Alle Waffen ohne diese Eigenschaft gelten implizit als Einhandwaffe.
-
+[[ref_core_battle_items_weapons_tag_suppress_defence_or_retailation]]
+==== Verteidigung oder Konter unterdrücken
+*Gattungen:* Nahkampfwaffen
+Wird ein <<ref_core_battle_attacktypes_charge,Angriff>> mit dieser Eigenschaft durchgeführt, wird die jeweilige Reaktion <<ref_core_battle_reaction_use_defensive_talent,Verteidigung>> oder <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> <<ref_core_battle_actions_general_suppress_reaction,unterdrückt>>.
+[NOTE]
+Die Eigenschaft kann als Verdeigung unterdrücken odr als Konter unterdrücken angegeben sein.
+[[ref_core_battle_items_weapons_tag_charge_breaker]]
+==== Angriffsbrecher
+*Gattungen:* Nahkampfwaffen
+Die Eigenschaft hebt die Eigenschaft <<ref_core_battle_items_weapons_tag_suppress_defence_or_retailation, Verteidigung oder Konter unterdrücken>> auf.
+Angegriffene, die eine Waffe mit dieser Eigenschaft tragen, dürfen Reaktionen einsetzen, gegen Angreifer mit Waffen der anderen Eigenschaft.
 [[ref_core_battle_items_armor]]
 == Rüstungen
 
