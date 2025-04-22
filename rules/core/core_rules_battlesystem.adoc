@@ -173,6 +173,7 @@ Während dieser Zeit in der Kampfphase kann eine Kreatur nur <<ref_core_battle_r
 
 [NOTE]
 Die Anzahl der Reaktionen, die ein Charakter oder eine Kreatur in einer Kampfphase einsetzen kann, ist in Summe nicht beschränkt.
+// TODO would 3 make sense?
 Allerdings kann jeder Kampfteilnehmer immer nur maximal eine Reaktion auf eine Aktion eines Anderen einsetzen, sofern er dazu berechtigt ist.
 
 [[ref_core_battle_cycle_end_of_battle]]
@@ -969,8 +970,11 @@ Außerdem löst der Angriff des Unbewaffneten einen <<ref_core_battle_attacks_of
 [[ref_core_battle_projectiles]]
 == Projektilwaffen
 Zu Projektilwaffen zählen beispielsweise Bögen und Armbrüste.
-Einige technomantische Waffen zählen auch als Fernwaffen und fallen in diese Kategorie.
-Als Richtlinie gilt, dass jede Waffe, die in der Ausrüstungsliste mit einer Reichweitenangabe versehen ist, eine Fernkampfwaffe ist.
+Einige technomantische Waffen zählen auch als Projektilwaffen und fallen in diese Kategorie.
+Als Richtlinie gilt, dass jede Waffe, die in der Ausrüstungsliste mit einer Reichweitenangabe versehen ist, eine Fernkampfwaffe ist, die entweder als Projektil oder Wurfwaffe behandlet wird.
+[NOTE]
+Sofern nicht aufgrund der Listung oder Beschreibung ersichtlich, gilt, dass eine Waffe, die in der Hand es Nutzers verbleibt und dennoch in der Distanz Schaden verursacht, eine Projektilwaffe ist.
+
 Grundsätzlich werden Angriffsproben mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] gewürfelt.
 Eventuelle technomantische Geräte, die wie Projektilwaffen behandelt werden, können auch mit xref:core_rules_talents_base.adoc#ref_talents_use_technomantic_device[Technomantisches Gerät Benutzen] verwendet werden.
 
@@ -1055,11 +1059,15 @@ Hat sich das Ziel mit seiner <<ref_core_battle_action_move,Bewegung>> fortbewegt
 ==== Gezielter Schuss
 Analog zu einem <<ref_core_battle_attacktypes_aimedattack,gezielten Schlag>> im Nahkampf kann ein Fernkämpfer einen gezielten Schuss (oder Wurf) abgeben.
 Es gelten die gleichen Regeln.
+[[ref_core_battle_projectiles_modifiers_fire_from_a_crowd]]
+=== Feuern aus dem Getümmel heraus
+Ist ein Charakter xref:./core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kamof gebunden] und möchte eine Projektilwaffe abfeuern, würfelt er seine Angriffsprobe mit xref:./core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
 
 [[ref_core_battle_throwingweapons]]
 == Wurfwaffen
 Wurfwaffen wie Wurfäxte oder Wurfdolche werden wie <<ref_core_battle_projectiles,Projekilwaffen>> behandelt, jedoch werden sie mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] abgehandelt.
 Es gelten die im genannten Kapitel Regeln bezüglich <<ref_core_battle_projectiles_baserange,Reichweiten und Inkrementen>>, <<ref_core_battle_projectiles_minimalsuccesses,Mindestwürfe>> und alle <<ref_core_battle_projectiles_modifiers,Modifikatoren>>.
+Wurfwaffen haben nur eine <<ref_core_battle_projectiles_baserange,Grundreichweite>>, die Regeln bezüglich der Inkremente kommen nicht zum tragen.
 Darüber hinaus gelten die Regeln in den folgenden Unterkapiteln.
 
 [[ref_core_battle_throwingweapons_modifiers_improvised_weapons]]

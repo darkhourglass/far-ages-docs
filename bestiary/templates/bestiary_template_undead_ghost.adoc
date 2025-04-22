@@ -1,0 +1,71 @@
+= Geist
+
+// TODO Beschreibung
+Stirbt ein Lebewese, löst sich der Bund zwischen ihrem Körper und ihrem aetherischen Selbst.
+Üblicherweise vergeht der aetherische Teil des Wesens in der unendlichen Weite der Astralen See.
+Allerdings, durch ungeklärte Umstände, kann dieser Teil in der materiellen Welt verbleiben und wird zu einem Geist, einer körperlösen Erscheinung, die die Welt der Lebenden terrorisieren kann.
+Geister sind die aetherische Überreste einer ehemals lebendigen Kreatur, die sich beim Tod dieser Kreatur nicht im Aether aufgelöst haben, sondern verbleiben.
+Möglicherweise entstehen Geister aus dem puren Willen der Kreatur heraus, weil sie beim Tod unvollended war und noch Ziele verfolgte.
+Vielleicht führen auch magische Umstände und Zufälle zum Entstehen eines Geistes.
+Nekromantische Kenntnisse zum bewussten Erschaffen eines Geistes, der formal ein Untoter ist, existieren nicht.
+
+== Voraussetzungen
+Um ein Geist zu werden, muss die Kreatur folgende Voraussetzungen erfüllen:
+
+* der primäre Kreaturentyp der Kreatur muss einer der Folgenden sein:
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* sie muss den sekundären Kreaturtyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] besitzen
+* sie darf nicht bereits den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos] besitzen
+Warum die Kreatur ein Geist wird, ist dem SL überlassen.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen.
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten und erhält die folgenden dazu:
+
+=== Untot
+Die Kreatur erhält den primören Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
+Zu Bestimmung der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe], siehe den nachfolgenden <<ref_template_ghost_kill_occult_powerlevel,Abschnitt>>.
+=== Körperlos
+Die Kreatur erhält den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos].
+[[ref_template_ghost_kill_occult_powerlevel]]
+=== Machtstufe
+Als Untoter hat auch jeder Geist eine Machtstufe, die mit einer Zahl von 0 bis 10 gemessen wird.  In der Regel gibt es keine Geister mit einer Machtstufe deutlich über 10.
+Zu Bestimmung der Machtstufe kann der SL die Formel 5+EN-Stufe der Kreatur benutzen.
+Dabei kann der Wert 10 überschritten werden.
+.Machtstufe bei Geistern
+====
+Eine Kreatur mit einer EN-Stufe von 3 erhält diese Schablone.
+Damit beträgt ihre Machtstufe 5+3=8.
+====
+=== Energieentzug
+Die Kreatur erhält die Fähigkeit link:../skills/bestiary_skill_attack_energydrain.adoc[Energieentzug] auf dem Pool xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
+Die *Reichweite* ist Berührung und die *Angriffsstufe* entspricht der Machtstufe des Geists.
+Der *Schaden* wird mit  2W6+EN-Stufe berechnet.
+
+[[ref_template_ghost_kill_energy_conversion]]
+=== Energieumwandlung
+Wie alle Untoten können Geister nicht xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[rasten], um verlorene TP zu regenerieren.
+Stattdessen können sie eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] einsetzen, um 5 MP in 1 TP pro Machtstufe direkt umzuwandeln.
+
+[[ref_template_ghost_kill_occult_weakness]]
+=== Okkulte Schwäche
+Alle Geister sind an einen materiellen Anker gebunden, der verhindert, dass sie entgültig vernichtet werden können und die ewige Ruhe finden können.
+Dieser Anker ist in der Regel entweder ein Teil ihrer sterblichen Überreste, wie ihre Knochen, oder in Ausnahmefällen ein besonderer Gegenstand, vergleichbar mit einem link:../../compendiums/items/magical/misc/magical_item_souljar.adoc[Seelengefäß].
+Um einen Geist sofort und vollständig zu vernichten, muss der Anker gesalzen und verbrannt werden.
+Dazu kann ein Brandbeschleuniger wie Öl verwendet werden.
+Der Geist xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt sofort].
+Um dies zu wissen, muss ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[guter Erfolg] mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Okkultes)] erfolgen.
+Solange der Anker existiert, gelten die Regeln eines Seelengefäßes zu Wiederbelebung der Kreatur.
+
+== CP

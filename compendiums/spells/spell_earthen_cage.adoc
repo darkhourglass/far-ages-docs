@@ -1,0 +1,26 @@
+= Erdkäfig
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Geste, 1 Handvoll Erde +
+*Fokus:* Erde +
+*Vorbereitung:* 3 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur der GK 6 oder weniger +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Du kannst als Ziel für diesen Zauberspruch nur eine Kreatur mit GK 6 oder geringer auswählen.
+Du kannst einen zusätzlichen Effekt einsetzen, um eine Kreatur mit höherer GK einzusperren.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] streust Du Erde in die Luft, die vom Wind um die Kreatur gewirbelt wird und einen Käfig aus Erde, Stein und Lehm formt.
+Der Käfig besitzt Gitterstäbe (die Kreatur kann im Zweifel also atmen), keinen Ausgang und ist am Boden und an der Decke massiv.
+Während die Kreatur im Käfig gefangen ist, gilt sie als:
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen]
+* xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[unbeweglich]
+Dieser Zauberspruch überschreibt eventuelle Immunitäten gegenüber diesen Zuständen, solange die Kreatur physikal gefangen gehalten werden kann.
+Der Käfig gilt als Objekt und kann xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_destroy_items[zerstört] werden.
+
+*Zusätzliche Effekte:* +
++1 POT, +10 MP: maximale GK der Zielkreatur +1
++1 MP: Dauer 1 Kamfphase
++2 MP: Reichweite +6,00 Meter

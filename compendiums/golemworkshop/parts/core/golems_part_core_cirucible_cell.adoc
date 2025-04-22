@@ -1,0 +1,47 @@
+= Schmelztigel Zelle
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* link:../../../spells/spell_control_fire.adoc[Kontrolliere Feuer], link:../../../spells/spell_magma_orb.adoc[Magma Orb] +
+*Mindestwurf:* siehe Beschreibung +
+*GK:* 5-8 +
+*MP:* siehe Beschreibung +
+*MP-Regeneration:* 1 +
+*Machtstufe:* 3 +
+*Beschreibung:* +
+Diese besondere Art von Energiezelle ist zusammenfassend ein Hochhofen, der von elementarer Magie angetrieben wird.
+In seinem Innern herrscht ein brüllendes Inferno aus feuriger Energie, dass direkt aus dem Aether gespeist wird.
+Technomantische Rezeptoren zweigen elementare Energien ab und stellen sie dem Golem zur Verfügung.
+Die Idee zu dieser Konstruktion stammt aus den technomantischen Schmelzen, die verschiedene seltene und schwere Metalle herstellen können wie Titanium.
+Die Schmelztigel Zelle stellt dauerhaft eine link:../../../items/technomancy/devices/teechnomantic_devices_elemental_charger.adoc[elementare Ladung] vom Typ Magma zu Verfügung.
+Allen Golems der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 5 bis 8 können Schmelztigel Zelle eingebaut werden.
+
+Jedes Konstrukt kann nur eine Schmelztigel Zelle mit korrespondierender GK erhalten.
+Abhängig von der benötigten GK verändern sich die Werte
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |MP
+|5
+|26.000
+|7 Tage
+|17
+|110
+
+|6
+|40.000
+|7 Tage
+|17
+|140
+
+|7
+|56.000
+|11 Tage
+|18
+|250
+
+|8
+|80.000
+|11 Tage
+|19
+|400
+|===
+Wird das Konstrukt mit dieser Energiezelle xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_death[zerstört], was dem Zusatz link:../additions/golems_part_addon_self_destruction_device.adoc[Selbstzerstörungsmechanicmus] entspricht, dieser jedoch nicht übersteuert werden kann.

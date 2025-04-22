@@ -1,0 +1,51 @@
+= Arkaner Kondensator
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* siehe Beschreibung +
+*Mindestwurf:* siehe Beschreibung +
+*Montage:* Arme +
+*MP-Kosten:* siehe Beschreibung +
+*Machtstufe:* 0 +
+*Beschreibung:* +
+Der arkane Kondensator besteht aus einer filigranen Konstruktion, die zwei magische Kristalle hält.
+Der Kondensator wird mit einem Abdruck eines wählbaren Zaubersoruchens erstellt.
+Dadurch wird der Golem befähigt, der den Kondensator erhält, diesen Zauberspruch auszusprechen.
+Zur Konstruktion ist der gewählte Zauberspruch zu nutzen.
+Formal erhölt der Golem die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_magicability.adoc[Magsiche Fähigkeit] für den gewählten Zauberspruch.
+Seine *Angriffsstufe* für diese Fähigkeit ergibt sich aus seinem  xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] seines xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attributs] plus einen Bonus basierend auf seiner Machtstufe:
+|===
+|Machtstufe |Bonus zu Spruchzauberei-Probe
+
+|1
+|2
+
+|2
+|2
+
+|3
+|4
+
+|4
+|4
+
+|5
+|6
+
+|6
+|6
+
+|7
+|8
+
+|8
+|8
+
+|9
+|9
+
+|10
+|9
+|===
+Die Materialkosten ergeben sich aus der POT des Zauberspruches: POT*2.500.
+Genso die Konstruktionszeit: POT*1,5 Tage.

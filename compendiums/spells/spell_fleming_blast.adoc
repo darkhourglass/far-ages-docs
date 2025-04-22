@@ -1,0 +1,19 @@
+= Flammende Druckwelle
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Gesten +
+*Fokus:* Feuer +
+*Vorbereitung:* 4 +
+*Reichweite:* selbst +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* Sofort +
+*Effekt:* +
+Flammen flackern Deine Arme hoch, als Du Deine Fäuste zusammenschläjst.
+Mit Deiner xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] explodieren die Flammen in einem weiß glühenden Feuerball.
+Alle Kreaturen, die mit Dir xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden sind], müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körperrettungswurf] geben das Ergebnis Deiner Spruchzauberei-Probe abgelegn.
+Misslingt der Rettungswurf, muss die jeweilige Kreatur 1,50 Meter zurückweichen.
+Dies ist für die Kreatur keine Aktion oder Bewegung und verursacht keine Gelegenheitsangriffe.
+Kann die Kreatur nicht zurückweichen, erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden],
+*Zusätzliche Effekte:* +

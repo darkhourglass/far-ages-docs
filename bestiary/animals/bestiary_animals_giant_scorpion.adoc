@@ -1,77 +1,58 @@
 = Riesenskorpion
 
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
-* Secondary Type(s)
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer]
 * Templates
-* GK: X
+* GK: 5
 * CP: TBA
 
 == Beschreibung
 
-Lore
-
+Diese Kreatur ist ein Skorpion, mit der erschreckenden Eigenschaft, die Größe eines Ponies zu erreichen.
 == Profil
 
-*ST:* XXX (+x) +
-*GE:* XXX (+x) +
-*KO:* XXX (+x) +
-*ER:* XXX (+x) +
-*EN:* XXX (+x) +
-*SB:* XXX (+x) +
-*CH:* XXX (+x) +
-
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
-
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
-
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
-
+*ST:* 7 (+3) +
+*GE:* 6 (+2) +
+*KO:* 9 (+3) +
+*ER:* 3 (+1) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 4 (+1) +
+*TP:* 95 +
+*MP:* 30 +
+*SP:* 50 +
+*BEW:* 15,00 Meter +
+*INI:* 9 +
+*MaxTL:* 105 +
+*MaxPOT:* 6 +
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
-*Immunitäten:* XXX +
+*Rüstung:* 7 (Alle Trefferzonen: ink:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung]) +
+*Resistenzen:* +
+*Immunitäten:*
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 
 == Rettungswürfe
-
-*Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +
-*Magie:* EN+SB +
-*Reflex:* GE+ER +
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +3 +
+*Körper:* +5 +
+*Magie:* +3 +
+*Reflex:* +3 +
 
 == Offensiv
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* link:../../../bestiary/skills/bestiary_skill_attack_stroke.adoc[Scorpionenschwanz] 7, 2W6+2, 1x
+* link:../../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klauen] 9, 2W6+2, 2x
+* link:../../../bestiary/skills/bestiary_skill_move_rush.adoc[Eilig]
+* link:../../../bestiary/skills/bestiary_skill_move_fasttrack.adoc.adoc[Schnell]
+* link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] (Scorpionenschwanz, paralysierendes Gift, 13)** **
 
 == Defensive
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 9
 
 == Sonstiges
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athlethik] 10
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 5
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 9
 
 == Regeln
 

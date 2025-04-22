@@ -179,7 +179,7 @@ Als Bewaffnung werden meist offensive Geräte bezeichnet, die ein Golem gegen se
 Dennoch fällt unter Bewaffnung auch eine größere Bandbreite von Ausrüstung, zum Beispiel auch das Werkzeug von Golems, die primäre für schwere Arbeiten verwendet werden (zum Beispiel Holzfäller).
 //TODO Link
 Jede Bewaffnung ist ebenfalls ein xref:../core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät], welches individuell hergestellt werden muss.
-Wie viele Bewaffnungen für einen Golem montiert werden können, wird durch sein <<ref_golemworkshop_creation_steps_chassis_profiles, Chassis>> bestimmt.
+Wie viele Bewaffnungen für einen Golem montiert werden können, wird durch sein <<ref_golemworkshop_creation_steps_chassis_profiles,Chassis>> bestimmt.
 
 [[ref_golemworkshop_creation_steps_weaponary_mounted_on_arms]]
 ===== Arme und Bewaffnung
@@ -216,7 +216,7 @@ Dieser Eintrag verrät den nötigen xref:../core/core_rules_2d10_system.adoc#ref
 *GK:* Hier wird die GK der Bewaffnung angegeben.
 Bewaffnungen haben die GK des <<ref_golemworkshop_creation_steps_chassis,Chassis>>.
 
-*Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, zum Beispiel die Montage auf <<ref_golemworkshop_creation_steps_weaponary_mounted_on_arms, Armen>> oder <<ref_golemworkshop_creation_steps_weaponary_heavy, schwere Bewaffnung>>.
+*Montage:* Bei dieser Angabe werden Besonderheiten zur Montage angegeben, zum Beispiel die Montage auf <<ref_golemworkshop_creation_steps_weaponary_mounted_on_arms,Armen>> oder <<ref_golemworkshop_creation_steps_weaponary_heavy,schwere Bewaffnung>>.
 
 *Attribute:* Manche Bewaffnungen gewähren Boni auf Attributsstufen, zum Beispiel +1 ST.
 

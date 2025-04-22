@@ -1,0 +1,23 @@
+= Magma Orb
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 10 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Magma, Härte +
+*Vorbereitung:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen+
+*Effekt:* +
+Du beschörst eine Kugel aus purer Magma aus der elementaren Ebene der Härte.
+Die Kugel hat einen Durchmesser von 30 Zentimeter und hält stabil ihre Form.
+Sie schwebt vor Dir über dem Boden.
+Für die Dauer des Zaubers kannst Du in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinem Zug] eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen, um den Magma Orb von seinem aktuellen Standard 9,00 Meter zu bewegen.
+Alle Kreaturen, die der Orb auf seinem Weg berührt, erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 3W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_magma[Magma-Schaden].
+Sie dürfen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] ablegen und bei Erfolg den Schaden halbieren (abgerundet, Minimum 1).
+Alternativ dürfen sie eine ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] einsetzen, um einen 1,50 Meter Schritt zur Seite zu machen und dem Orb auszuweichen.
+Letztere Option ist nur möglich, wenn sie noch Reaktionen in dieser Kampfphase ausführen dürfen.
+*Zusätzliche Effekte:* +
++2 MP: Dauer +1 Kampfphase
++1 POT, +5 MP: Orb verursacht zusätzlichen +1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_magma[Magma] Schaden

@@ -136,8 +136,13 @@ Im Fall eines xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patz
 
 // primary
 // secondary
-
 // malus or disadvantage on saves
+[[ref_core_adventures_hazards_poisons_deadly_venom]]
+==== Tödliches Gift
+// primary
+// secondary
+// High damage values
+
 
 [[ref_core_adventures_hazards_heat]]
 === Hitze
@@ -432,13 +437,55 @@ Eine Waffe hat eine feste Exzellenz, die nicht nach oben oder unten verändert w
 [[ref_core_adventures_obstacles]]
 == Objekte und Hindernisse
 
-[[ref_core_adventures_obstacles_destroy_obstacle]]
+[[ref_core_adventures_obstacles_destroy_object]]
 === Objekte zerstören
 
-// Threshold: minimal damage to break anything
-// TP -> GK
-// Threshold -> Material / Dicke / Verarbeitung
+[[ref_core_adventures_obstacles_destroy_object_hardness]]
+==== Härte
+Jedes Objekt besitzt, in der Regel abhängig von seinem Material, einen *Härte*-Wert, der mit einer Zahl gemessen wird.
+Dieser Wert ist vergleichbar mit xref:./core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstungsschutz].
+Nur wenn eine Schadensquelle einem Gegenstand Schaden zufügt, der über diesem Härtewert liegt, beschädigt das Objekt, so dass es <<ref_core_adventures_obstacles_destroy_object_intergrety,Integrität>> verliert.
+Folge Tabelle zeigt einige beispielhafte Härte-Werte für verschiedene Matrialien.
 
+|===
+|Material |Härte-Wert
+
+|Erde
+|5
+
+|Holz
+|5
+
+|Stein
+|10
+
+|Stahl
+|15
+
+|Titanium
+|25
+
+|Obsidian
+|35
+
+|Gold
+|5
+
+|Stoff, Leder
+|3
+|===
+
+[[ref_core_adventures_obstacles_destroy_object_intergrety]]
+==== Integrität
+Wie Kreaturen xref:./core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools], insbesondere TO, besitzen, um ihre körperliche Verfassung darzustellen, besitzen Objekte *Integritäts-Punkte*.
+Erriechen diese den Wert 0, ist das Objekt zerstört.
+Als Daumenregel und falls nicht explizit angegeben, besitzt ein Objekt pro Punkt in xref:./core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 10 Integritäts-Punkte.
+[[ref_core_adventures_obstacles_destroy_object_patially]]
+==== Teil-Objekte zerstören
+Nicht immer stellt sich die Frage, ob ein bestimmtes Objekt zerstört werden soll, sondern nur ein Teil eines größeren Objekts.
+So könnte zum Beispiel ein Teil-Abschnitt einer Mauer eingerissen werden.
+In diesem Fall nur dieser Teil des Objekts betrachtet, mit eigenem Härte-Wert und Integritäts-Punktepool.
+Inwiefern die Zerstörung des Teils zum Kollaps des Rests beträgt, liegt im Ermessen des SL.
 IV.Ausrüstung und Geld
 
 Nicht nur Geschick, Talent und Magie bestimmen das Überleben eines

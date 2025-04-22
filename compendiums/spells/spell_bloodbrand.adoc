@@ -1,0 +1,19 @@
+= Blutmal
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Gesten +
+*Fokus:* Geist +
+*Vorbereitung:* 1 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* Permanent +
+*Effekt:* +
+Dieser Zauber funktioniert analog zum link:spell_wizardsmark.adoc[Zaubererzeichen], mit folgenden Unterschieden:
+Gegenstände, Objekte und Flächen musst Du mit Deinem Blut kennzeichnen.
+Kreaturen würfeln immer einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf], wenn Du sie markieren willst.
+Du kannst Kreaturen mit bis zu jeweils 3 Blutmalen belegen.
+Weitergehende Zauber, die ein Zaubererzeichen benötigen, wie beispielsweise * link:./spell_call_marked.adoc[Rufe Gezeichenete], können nicht auf das Blutmal angewendet werden.
+
+*Zusätzliche Effekte:* +

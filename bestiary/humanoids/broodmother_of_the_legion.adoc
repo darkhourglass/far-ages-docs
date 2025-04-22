@@ -1,88 +1,103 @@
 = Brutmutter der Legion
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
 * link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer]
-* Templates
-* GK: X
-* CP: TBA
+* GK: 6
 
 == Beschreibung
 
 Lore
-
+Eine Brutmutter oder Schwarmkönigin ist die einzige nicht-sterile Kreatur im Schwarm und kann neue Symbioten gebären.
+Wie genau sie dies ohne Partner erreicht, ist unbekannt.
+Es wird spekuliert, dass sich die Symbionten grundsätzlich asexuell fortpflanzen, allerdings eine weibliche Anatomie benötigen.
+Die besondere Fleischform der Brutmutter, die Verbindung einer humanoiden Frau und einem weiblichen Riesenskorpion, scheint die grundlegende Forbedigung zu sein.
+Brutmütter werden aus der humanoiden Gesellschaft durch die Symbionten gezielt ausgesucht, sobald ein Symbiont genug Status erlangt hat, die Verwandlung in eine Brutmutter verdient zu haben.
 == Profil
 [NOTE]
-Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind ber+clsucgtigt.
-*ST:* XXX (+x) +
-*GE:* XXX (+x) +
-*KO:* XXX (+x) +
-*ER:* XXX (+x) +
-*EN:* XXX (+x) +
-*SB:* XXX (+x) +
-*CH:* XXX (+x) +
-
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
-
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
-
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
-
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind berücksichtigt.
+*ST:* 20 (+6) +
+*GE:* 9 (+3) +
+*KO:* 18 (+6) +
+*ER:* 12 (+4) +
+*EN:* 18 (+6) +
+*SB:* 10 (+3) +
+*CH:* 15 (+5) +
+*TP:* 205 +
+*MP:* 180 +
+*SP:* 125 +
+*BEW:* 15,00 Meter +
+*INI:* +7 +
+*MaxTL:* 300 +
+*MaxPOT:* 21 +
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
-*Immunitäten:* XXX +
-
+*Rüstung:* 7 (Alle Trefferzonen: ink:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung])+
+*Resistenzen:*  +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität]
 == Rettungswürfe
-
-*Aufmerksamkeit:* ST+KO+3 +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO+3 +
-*Magie:* EN+SB+3 +
-*Reflex:* GE+ER +
-
+*Aufmerksamkeit:* +10 +
+*Disziplin:* +8 +
+*Körper:* +15 +
+*Magie:* +12 +
+*Reflex:* +7 +
 == Offensiv
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* link:../../../bestiary/skills/bestiary_skill_attack_stroke.adoc[Scorpionenschwanz] 17, 2W6+11, 1x
+* link:../../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klauen] 19, 2W6+11, 2x
+* link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] (Scorpionenschwanz, paralysierendes Gift, 13)** **
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_shadow_of_the_swarm[Schatten des Schwarms]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] (Schattentricks) 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] (Wef des Geistes) 8
 
 == Defensive
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
-
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 9
 == Sonstiges
-
-* Talent 1
-* Talent 2
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aetjer Wahrnehmung] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_insight[Einsicht] 7
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_interrogate[Ausfragen] 7
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] 9
+* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 25
 * <<ref_broodmother_heart_of_theswarm,Herz des Schwarms>>
 * <<ref_broodmother_rocal_jelly,Gelee Royal>>
+* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 
 == Regeln
-[ref_broodmother_rocal_jelly]
+=== Implantate
+Brutmütter der Legion sind humanoide Frauen, die mit einem weiblichen Riesenskorpion durch die perfinden Retiuale der Legion zu monströsen Anführern und Schwarmkönigen.
+Der <<ref_broodmother_body,Bruttmutter Körper>> ist formal ein Implantat, dass aber nur an eine potentielle Brutmutter vergeben wird.
+Andere Mitglieder des Schwarms können dieses nicht erhalten.
+* <<ref_broodmother_body,Brutmutter Körper>>
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_shadow_of_the_swarm[Schatten des Schwarms]
+[[ref_broodmother_body]]
+=== Brutmutter Körper
+Der Körper eines weiblichen Riesenskopions und einer mit einem Symbionten infizierten humanoiden Frau werden wie bei anderen Mitgliedern der Legion miteinander durch magische und alchemistische Prozesse miteinander verpflanzt.
+Die unheilige Kombination beider Fortpflanzungsorgane, ermöglicht es einer Brutmutter, regelmäßig Eier zu legen.
+Diese Eier sind groß genug, dass ein Mensch aufrecht stehend, neben ihnen klein erscheint und sie sind von schwarzer, glänzender Farbe, vergleichbar mit dem Panzer eines Riesenskorpions.
+Nach einer Brutphase von bis zu 9 Monaten schlüpfen aus diesen Eiern junge link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten der Legion].
+Weiterhin besitzt dieser Körper eine besondere Eigenschaft: der humanoide Körper ist vollständig vorhanden, also weiterhin hat der menschliche Körper seine Beine.
+Die Verbindung zwischen beiden Körpern ist flexibel, und mit dem Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexen Aktion] kann sich die Brutmutter von ihrem Skorpionenkörper trennen oder wieder ankoppeln und nur ihren humanoiden Körper nutzen.
+Diese Transformation ist für Unbeteiligte äußerst verstörend. Jede Beobachter muss bei seiner ersten Beobachtung einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen oder er verliert 1W6 SP.
+Das Profil der abgekoppelten Brutmuttet entspricht dem eines link:infiltrator_of_the_legion.adoc[Infiltatiors der Legion], sie behält ihre Talente und Fähigkeiten.
+Die Attributsanpassungen für ihre fusionierte Form sind im Profil enthalten.
+Der Körper gewährt der Brutmutter außerdem die Fähigkeiten:
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorponflesh_scorpopnflesh_transplant_stinger_and_tail[Scorpionenschwanz]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_plates[Panzerplatten]
+Der Körper ist direkt für ihre Fähigkeit <<ref_broodmother_rocal_jelly,Gelee Royal>> verantwortlich, die Brutmutter kann diesen also nur verwenden, wenn sie mit ihrem Skorpionenköper fusioniert ist.
+[[ref_broodmother_rocal_jelly]]
 === Gelee Royal
 Brutmütter werden vom Schwarm immer mit den besten Nahrungsmitteln versorgt.
 Spezielle Enzyme im Abdomen der Brutmutter erzeugen eine besonders nahrhafte und magische Substranz mit dem Name Gelee Royal.
-Die Brutmutter kann beliebige eine Portion auswürgen und verfüttern.
-Dazu auserwählt werden in der Regel nur die eloyalsten und effektivesten Mitglieder des Schwarms oder ohre bevorzugten Haustiere.
-Einige Transplante der Lehion erfodern den EInsatz des Gelee Royal um verplanzt werden zu können.
-Die gigantischen Schlachtenbrecher-Skorpione (TODO Link) reifenur durch den konstanten Konsum von Feelee Royal über mehrere Wochen zu ihren monströsen Ausmaßen.
-[ref_broodmother_heart_of_theswarm]
+Die Brutmutter kann bis zu dreimal am Tag beliebig eine Portion auswürgen und verfüttern.
+Dazu auserwählt werden in der Regel nur die loyalsten und effektivesten Mitglieder des Schwarms oder ohre bevorzugten Haustiere.
+Einige link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplante der Lehion] erfordern den EInsatz des Gelee Royal um verpflanzt werden zu können.
+Die gigantischen link:../animals/bestiary_animals_gianr_scorpion_siegebreaker.adoc[Schlachtenbrecher-Skorpione] reife nur durch den konstanten Konsum von Feelee Royal über mehrere Wochen zu ihren monströsen Ausmaßen.
+[[ref_broodmother_heart_of_theswarm]]
 === Herz des Schwarms
-Eine Brutmutter gehärt zur Absoluten Elite der LEgion. Ihr _*Schwarmstatus*_ beträgt 11.
+Eine Brutmutter gehört zur absoluten Elite der LEgion. Ihr _*Schwarmstatus*_ beträgt 25.
+Sie besitzt die Fähigkeit link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft].
 == Taktik

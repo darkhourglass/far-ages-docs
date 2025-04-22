@@ -1,0 +1,33 @@
+= Traumwandler
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 13 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten, Räucherwerk im Wert von 100 Silbermünzen +
+*Fokus:* Geist +
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* - +
+*Dauer:* 8 Stunden +
+*Effekt:* +
+Du zeichnest einen Kreis um den Platz, wo Du schlafen möchtest.
+Kerzen verbrennen Kräuter, die den Ort dieses Rituals in einen wohlriechenden exotischen Dampf hüllen.
+Bevor Du die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] ablegst, musst Du Dich hinlegen.
+Bei erfolgreicher Probe schläfst Du sofort ein und betritst mit Deinem Geist den Teil des Aether, der das xref:../../lore/cosmology/outers/lore_cosmology_outers_the_aether.adoc#ref_lore_aether_dreams[Traumsilber] genannt wird.
+In diesem Teil des Aethers sammeln sich alle Träume aller schlafenden Kreaturen.
+Durch dieses Ritual ist es Dir möglich, Träume von kreaturen zu beobachten und zu betreten.
+Um den Traum einer bestimmten kreatur zu betreten, musst Du diese Kreatur persönlich kennen oder einen Gegenstand von Ihr besitzen, der Teil des Rituals ist.
+Würfle eine weitere xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] der Ziel-Kreatur.
+Gewinnt sie, kannst Du ihren Traum nicht betreten und Du musst einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen, sonst wachst sofort auf und der Effekt endet.
+Gewinnst Du hingegen, erhälst Du Zugriff auf die Träume der Kreatur und kannst sie genau beobachten.
+Welche Informationen Du erhältst, liegt im Ermessen des SLs und welche Fragen Du über die Kreaturen stellst.
+Du kannst einen einmal betreten Traum jederzeit verlassen, allerdings kannst Du den Traum nicht beeinflussen.
+Du kannst einen zusötzlichen Effekt einsetzen, um weitere Kreaturen mitzunehmen.
+Für diese gelten dieselben Regeln wie für Dich, allerdings können Dir nur folgen und keine eigenen Entscheidungen treffen, welche Träume sie betrachen wollen.
+Es gilt, dass Träume gefährlich für Traumwandler sein können.
+Verlierst Du oder einer Deiner Begleiter Punkte aus einem beliebigen Eurer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Pools], sind diese Punkte beim Aufwachen auch verloren.
+Niemand kann während des Aufenthalts im Traumsilber Zauber aussprechen, die nicht explizit im Traumsilber zauberbar sind.
+Du kannst Kreaturen, deren Träume Du betrittst keinen Schaden zufügen, allerdings kannst Du Kontrakt mit Ihnen aufnehmen und mit ihnen sprechen.
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Stunde
++ 2 POT, +10 MP: Eine weitere Kreatur begleitet Dich ins Traumsilber (kumulativ anwendbar)

@@ -1,0 +1,21 @@
+= Rückkehr zum Zauberzeichen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Teleport +
+*Vorbereitung:* 4 +
+*Reichweite:* Selbst+
+*Anzahl der Ziele:* bis 3 weitere Kreaturen  +
+*Dauer:* Sofort +
+*Effekt:* +
+Der Zauberer und bis zu 3 weitere Kreaturen, die den Zauberer berühren müssen, können durch Teleportation zu einem bestimmten Ort zurückkehren.
+Dieser Ort muss durch ein spezielles link:spell_wizardsmark.adoc[Zaubererzeichen] des Zauberers gekennzeichnet sein.
+Der Zauberer muss dieses link:spell_wizardsmark.adoc[Zaubererzeichen] auf eine Fläche von mindesten 1,50x1,50 Metern pro Person zeichnen und dort verzaubern.
+Der Zauberer kann insgesamt nur ein solches Zeichen haben und das Zeichen ist nach der Benutzung unbrauchbar und muss erneuert werden.
+Beim xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Ausprechen] dieses Zauberspruchee werden alle Ziele des Zaubers und der Zauberer zu diesem Zeichen teleportiert.
+Dabei spielt Entfernung keine Rolle.
+Jedoch funktioniert dies nur innerhalb eines Planeten auf einer Ebene.
+*Zusätzliche Effekte:* +
++1 POt, +5 MP: Anzahl Ziele +1 Kreatur

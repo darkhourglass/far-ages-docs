@@ -1,0 +1,19 @@
+= Schleudere Flammen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln +
+*Fokus:* Feuer, Geist +
+*Vorbereitung:* 2 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* Selbst/1 kreatur +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Über Deine oder die Arme der Kreatur, die Du berührst, flackern kleine Flammen.
+Diese verursachen keinen Schaden und können nichts entzünden.
+Die Verzauberung dieses Zaubers ermöglicht es jedoch der verzauberten Kreatur aus ihren Händen
+Für die Dauer des Zaubers darf die verzauberte Kreatur in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen, um aus ihren Händen Flammen auf eine Kreatur zu werfen.
+Dies gilt als Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons[Wurfwaffe] und wird mit dem xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen-Talent] gewürfelt.
+Die kleinen flammenen Bälle gelten als Wurfwaffen mit einer Reichweite von 12,00 Metern und verursachen 1W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+*Zusätzliche Effekte:* +

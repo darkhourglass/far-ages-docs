@@ -1,0 +1,23 @@
+= Überwinde die Kluft
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, eine Handvoll Erde +
+*Fokus:* Erde +
+*Vorbereitung:* 6 +
+*Reichweite:* 24,00 Meter +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Das Ziel dieses Zauberspruches sind die Ränder einer Schlucht oder Kluft.
+Beide Ränder müssen innerhalb der Reichweite liegen.
+Am Ende der Vorbereitung pustet Du eine Handvoll Erde in Richtung der Schlucht und bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] formt die diese Erde eine feste Brücke aus Erde zwischen den Rändern der Kluft.
+Diese Brücke verschwindet am Ende der Dauer des Zauberspruches, alle Kreaturen, die noch auf der Br+cke sind, fallen in die Tiefe.
+Vor Ende des Effektes kann diese Brücke gefahrlos genutzt werden, um die Kluft zu überwinden. Sie trägt das Gewicht von bis zu 150 Punkten an Summe an xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] an Kreaturen.
+Sollte die Summe aller GKs diese Grenze überschreiten, endet der Zauberspruch früher automatisch.
+Du kannst außerdem mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freien Aktion] den Zauber innerhalb seiner Dauer jederzeit beenden.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase
++1 POT, +2 MP Reichweite +12,00 Meter

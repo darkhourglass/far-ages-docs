@@ -1,0 +1,55 @@
+= Zauberwirker-Hand
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:* 25 +
+*GK:* 1- 10 +
+*Montage:* Arme +
+*Attribute:* +2 EN +
+*Talente:* siehe Beschreibung +
+*MP-Kosten:* siehe Beschreibung +
+*Machtstufe:* - +
+*Beschreibung:* +
+Diese komplizierte Variante einer Golem-Hand besitzt eine komplizierte Vorrichtung, die es ermöglicht einen Zauberstecken in der Hand des Golems zu fixieren und ermöglicht es dem Golem auch den Zauber aus dem Zauberstecken zu wirken.
+Der Zauberstecken muss separat hergestellt werden.
+Ein Technomant kann mit einer einfachen Probe auf sein Technomantie-Talent Zauberstecken einsetzen und tauschen.
+Es gelten die Regeln zum Wirken von Zaubern aus xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken].
+Der Golem muss die MP für den Zauber aus seiner eigenen Energieversorgung bezahlen.
+Als Spruchzauberei-Probe nutzt er seinen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] seines xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attributs] plus einen Bonus basierend auf seiner Machtstufe:
+
+|===
+|Machtstufe |Bonus zu Spruchzauberei-Probe
+
+|1
+|2
+
+|2
+|2
+
+|3
+|4
+
+|4
+|4
+
+|5
+|6
+
+|6
+|6
+
+|7
+|8
+
+|8
+|8
+
+|9
+|9
+
+|10
+|9
+|===
+Jedem Golem der GK 1 bis 10 kann eine passende Zauberwirker-Hand verbaut werden.
+Die Materialkosten betragen 5.000 pro GK und die Konstruktionszeit beträgt 2 Tage pro GK.

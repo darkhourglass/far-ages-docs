@@ -1,0 +1,87 @@
+= Spinnenbeine
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:* siehe Beschreibung +
+*GK:* 1 - 10 +
+*Bewegungsmodifikator:* siehe Beschreibung +
+*Bewegungsmodus:* Standard, <<ref_golems_part_movement_spiderlegs_rules,siehe Beschreibung>> +
+*Machtstufe:* 2 +
+*Beschreibung:* +
+Eine seltene und ungewöhnliche Art der Golemfortbewegung sind die Spinnenbeine.
+Wie bei ihren natürlichen Vorbilden sind die einzelnen Beine lang und besitzen mehrere flexible Gelenke.
+Sie enden in stabilen Haken, die  bei der Stabilisierung während der Bewegung helfen.
+Wie eine echte Spinne besitzt ein Golem mit dieser Fortbewegungsoption insgesamt 8 Beine, die am unteren Ende seines Torsos in einem Kreis angeordnet sind.
+Je nach Chassis können die Beine anders montiert sein.
+Diese Art der Golembauweise ist beliebt in sehr passierbaren Gelände wie Berge, stark bewachsener Untergrund, Flussbett und Geröllhalden.
+Die Bewegungsoption ist viel komplizierter und teurer zu konstrieren als nur link:golems_part_movement_legs_2.adoc[Beine], allerdings steht sie in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 1 bis 10 zur Verfügung und von dieser abhängig ergeben sich die folgenden Werte:
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Bewegungsmodifikator
+
+|1
+|40.000
+|6 Tage
+|19
+|+1,50 Meter
+
+|2
+|50.000
+|8 Tage
+|19
+|+1,50 Meter
+
+|3
+|60.000
+|11 Tage
+|20
+|+3,00 Meter
+
+|4
+|60.000
+|14 Tage
+|21
+|+3,00 Meter
+
+|5
+|80.000
+|16 Tage
+|21
+|+4,50 Meter
+
+|6
+|120.000
+|22 Tage
+|22
+|+6,00 Meter
+
+|7
+|180.000
+|27 Tage
+|22
+|+6,00 Meter
+
+|8
+|260.000
+|34 Tage
+|23
+|+9,00 Meter
+
+|9
+|350.000
+|42 Tage
+|26
+|+9,00 Meter
+
+|10
+|400.000
+|52 Tage
+|28
+|+12,00 Meter
+|===
+[[ref_golems_part_movement_spiderlegs_rules]]
+== Regeln für Fortbewegung mit Spinnenbeinen
+Golems mit Spinnenbeinen sind deutlich flexibler, allerdings weitentfernt von der Beweglichkeit von echten Spinnen.
+Golems erhalten die Fähigkeit: link:../../../../bestiary/skills/bestiary_skill_move_fasttrack.adoc[Schnell], außerdem können sie xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] ohne Abzug von Ihrer BEW durchqueren.
+Modifikationen, die auf Arme montiert werden dürfen, können auch auf die Spinnenbeine montiert werden.
+Bewaffnungen können auf Spinnenbeine nicht montiert werden.

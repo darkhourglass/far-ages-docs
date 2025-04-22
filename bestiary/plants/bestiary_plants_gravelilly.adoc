@@ -1,0 +1,74 @@
+= Grabeslilie
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* GK: 1
+* CP: TBA
+
+== Beschreibung
+_"Schön, aber tödlich"_
+Diese wunderschöne, weiße Blume wächst in einem zusammenhängenden Beet.
+Bei genauerer Betrachtung fällt auf, dass die Umrisse des Beets stark an einen humanoiden Körper erinnern.
+Die eigentliche Kreatur, wenn auch nur eine einfache, instinktgesteuerte, Wesenheit, ist ein umfassendes Geflächt aus Wurzeln, dass unter der Erde wächst.
+Die Grabeslilie wächst aus toten Körpern, die sie als Nährstoffquelle benötigt.
+Leider ist sie auch hochgiftig und nutzt dieses Gift als Waffe, um neue Nahrungsquellen zu erschließen.
+Friedhöfe sind äußerst darauf bedacht, bei einem Befall von Grabeslilien, diese schnell mit Feuer zu entfernen.
+
+== Profil
+*ST:* 1 (+1) +
+*GE:* 1 (+1) +
+*KO:* 1 (+1) +
+*ER:* 1 (+1) +
+*EN:* 1 (+1) +
+*SB:* 1 (+1) +
+*CH:* 1 (+1) +
+*TP:* 30 +
+*MP:* 10 +
+*SP:* 20 +
+*BEW:* 0 (Verwurzelt) +
+*INI:* 2 +
+*MaxTL:* 0 +
+*MaxPOT:* 4 +
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+*Immunitäten:* XXX +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +2 +
+*Magie:* +2 +
+*Reflex:* +2 +
+
+== Offensiv
+* <<ref_bestiary_gravelily_poisonspores,Giftsporen>>
+
+== Defensive
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_primary_creaturetype_plants_rules_hibernate[Ruhezustand]
+* link:../skills/bestiary_skill_rooted.adoc[Verwurzelt]
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* <<ref_bestiary_gravelily_consumecorpse, Konsumiere Leichnam>>
+
+== Regeln
+[[ref_bestiary_gravelily_poisonspores]]
+=== Giftsporen
+Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexen Aktion] kann die Grabeslilie eine Wolke giftiger Sporen aussenden.
+Die Sporen breiten sich in einem Radius von 3,00 Metern um die Lilie aus und gelten als xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_deadly_venom[tödliches Gift] mit xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_strengh[Giftstärke] 18.
+Diese Attacke setzt sie ein, um neue Nahrung, neue Leichname zu sammeln.
+Es reicht meistens aus, um kleine Tiere direkt zu töten.
+Umsichtige Beobachten können frühzeitig die Überreste von Hasen, Füchsen und Mäusen erspähen, vebor sie einer Grabeslilie zu Nahe kommen.
+[[ref_bestiary_gravelily_consumecorpse]]
+=== Konsumiere Leichnam
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirbt] eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur, die einen Körper hinterlässt, auf dem Beet der Lilie oder maximal 3,00 Meter entfernt, streckt die Lilie ihre Wurzeln in das Fleisch des Toten und beginnt, Nährstoffe abzuziehen sowie ihre Sätzlinge in den Leichnam zu verteilen, so dass ein neues Beet aus Grabeslilien wachsen kann.
+Dazu braucht die Lilie weniger als 2 Stunden, wonach der Leichnam komplett unter Erde im Wurzelwerk der Lilie verschwunden ist.
+
+== Taktik
+Die Grabeslilie ist keine intelligente oder willentlich agierde Kreatur, sondern reagiert nur auf ihre Umwelt aufgrund von Instinkten.
+Daher stellt sie für unvorsichtige Abenteurer eine nicht zu unterschätzende Gefahr dar, da sie ihre <<ref_bestiary_gravelily_poisonspores,Giftsporen>> versprühen wird, sobald geeignete Lebewesen in Reichweite sind.
