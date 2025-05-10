@@ -1,0 +1,22 @@
+= Helm der Konstruktkontrolle
+
+*Materialkosten:* 100.000 +
+*Konstruktionszeit:* 20 Tage +
+*Zaubersprüche:* link:../../../spells/spell_control_construct.adoc[Konstrukt kontrollieren], link:../../../spells/spell_message.adoc[Nachricht] +
+*Mindestwurf:* 20 +
+*Preis:* 175.000 +
+*Beschreibung:* + Dieser kupferfarbene Helm besitzt eine komplizierte Kombination aus arkanen und technomantischen Schaltkreisen und Einzelteilen. Ein Benutzer des Helms kann diesen mit einem Gurt um seinen Kopf festschnallen und ein durchsichtiges Visier herunterklappen. In diesem Moment mit der Helm mit einem zuvor festgelegten link:../../../golemworkshop/parts/additions/golems_part_addon_control_receicer.adoc[Empfänger] Kontakt auf.
+Der Helm verändert die Wahrnehmung des Benutzers, er nimmt die Umgebung des verbundenen Konstrukts wahr, also würde er durch dessen Augen sehen.
+Insgesamt ist dies eine verstörende Erfahrung, die lange Übung braucht, um den Helm effektic einzusetzen, denn das Konstrukt besitzt einen Körper aus Metall und außer der Sicht und besitzt es keine Sinneseindrücke, wie Tasten, Geruch oder Geräusche.
+Während der Verbindung mit dem Konstrukt können und werden diese Sinne nur von dem Körper des Benutzers bedient, was verwirrende Eindrücke der Realität ergeben kann.
+Dennoch nutzen Technomnanten diese Technik, um Konstrukte auf sichere Entfernung direkt zu steuern.
+Denn der Effekt des Helms ist auch, dass der Träger über das Konstrukt volle Kontrolle besitzt, unabhängig von dessen Programm.
+Die Reichweite des Helms ist beinahe unbegrenzt, solange sich das Konstrukt auf dem gleichen Planeten und Ebene befindet.
+Zu Beginn eines xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zugs] des kontrollierten Konstrukts muss der Benutzer einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen, um trotzder wiedersprüchlichen Sinneseindrücke das Konstrukt steuern zu können.
+Dieser Wurf erhält einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[situationsbedingten Malus] von -1 für jede vollen 1.000 Meter Distanz zwischen Helm und Konstrukt, maximal jedoch bis zu -20.
+* bei einem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg] bestimmt der Technomant in diesem Zug die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] des Konstrukts
+* bei einem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] folgt das Konstrukt seinem Programm und der Träger verliert 1W6 SP
+* bei einem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] gelten die Regeln wie beim Misserfolgt und außerdem verliert der Helm und das Konstrukt seine Verbindung und müssen neu verbunden werden (siehe unten)
+Wenn das Konstrukt zerstört wird, wird die Verbindung auch aufgehoben.
+Ein Technomant kann mit einer einfachen Probe auf xref:../../../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] Helm und Empfänger aufeinander einstimmen, wenn er beide berühren kann.
+Bestehende Verbindungen können auf diese Weise auch gelöst werden.

@@ -1,0 +1,17 @@
+= Wind Schale
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Luft +
+*Vorbereitung:* 5 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 5 Kampfphasen+
+*Effekt:* + Die Zielkreatur wird eingehüllt in eine Schale aus Wind, die selbst nicht einschränkt, allerdings vor Projektilen schützt.
+Alle xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernangriffe] gegen diese Kreatur erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 MP
++2 POT, +10 MP: Malus steigt um weitere -5

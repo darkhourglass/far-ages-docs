@@ -1,4 +1,5 @@
 = Zauberei (Ergänzende Liste)
+Diese ergänzende Zauberspruchliste ist eine Liste von weiterverbreiteten Zaubersprüchen, die praktische Anwenundungen im Leben und Alltag eines Spruchwirkers darstellen.
 
 *Voraussetzungen:* das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] auf Stufe 1 oder höher. Die Zauberschule ist dabei nicht relevant
 
@@ -9,9 +10,11 @@
 * link:../spells/spell_scry_wizardsmark.adoc[Spüre Zauberer-Zeichen auf]
 
 == Stufe 2
-link:../spells/spell_bibliokenetic.adoc[Bibliokentic]
-== Stufe 3
+* link:../spells/spell_bibliokenetic.adoc[Bibliokentic]
+* link:../spells/spell_encrypt_missive.adoc[Verschlüssle Schreiben]
 
+== Stufe 3
+* link:../spells/spell_message.adoc[Nachricht]
 == Stufe 4
 
 == Stufe 5
@@ -27,3 +30,4 @@ link:../spells/spell_bibliokenetic.adoc[Bibliokentic]
 == Stufe 9
 
 == Stufe 10
+* link:../spells/spell_arcane_distortion_field.adoc[Arkanes Unterbrechungsfeld]

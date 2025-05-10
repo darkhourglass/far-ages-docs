@@ -5,7 +5,7 @@
 *Zaubersprüche:* - +
 *Mindestwurf:* siehe Beschreibung +
 *GK:* 1 - 10 +
-*Montage:* Arme +
+*Montage:* Arme, Schwer +
 *Attribute:* +1 GE, +1 ST +
 *Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (ST) +
 *MP-Kosten:* - +
@@ -16,7 +16,7 @@ Typische Modelle ersetzen die ganze Hand durch einen kunstvoll verzierten Hammer
 Der Kriegshammer wird wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed[Nahkampfwaffe] eingesetzt.
 Zur Schadensermittlung gelten die üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Regeln].
 Die Armklinge wird über das Attribut xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] des Golems behandelt und einen individuellen Schadensbonus bei.
-
+Der Kriegshammer hat die Waffeneigenschaften xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] des Kriegshammers wie folgt ab:
 
 |===

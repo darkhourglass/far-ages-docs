@@ -1,0 +1,90 @@
+= Hohe Medusa
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* *Progenitor:* Leviathan
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+Hohe oder auch Levithans Medusen unterscheiden sich von anderen link:./bestiary_monstrosity_medusa.adoc[Medusen], dahingehend, dass sie anstelle von Beinen einen riesigen Schlangenunterlaib besitzen und grundsätzlich größer und stärker sind.
+Ihre Züge haben die Schönheit Couatls verloren und zeigen ein mehr monströses Antlitz, mit spitzen Zähnen, Augen aus denen Bosheit glänzt.
+Viele Hohe Medusen beherrschen neben ihren natürlichen magischen Fähigkeiten noch verschiedene Zauberschulen.
+Der Legende nach, formte Leviathan die erste hohe Medusa aus einer Schlange, die vom Kopf einer der ersten Medusen abgeschlagen wurde.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 7 (+2) +
+*KO:* 8 (+2) +
+*ER:* 9 (+3) +
+*EN:* 12 (+4) +
+*SB:* 8 (+2) +
+*CH:* 9 (+3) +
+*TP:* 105 +
+*MP:* 90 +
+*SP:* 75 +
+*BEW:* 12,00 Meter +
+*INI:* +5 +
+*MaxTL:* 115 +
+*MaxPOT:* 15 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] (alle Trefferzonen 7) +
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+*Immunitäten:*  +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +8 +
+*Körper:* +10 +
+*Magie:* +6 +
+*Reflex:* +8 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] (9, 1W6+4, link:../skills/bestiary_skill_poison.adoc[Gift], xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_weakening_venom[schwächend (15)], 1x)
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] (9, 2W6+6, 2x)
+* link:../skills/bestiary_skill_modification_rend.adoc[Zerreißen (Klauen)]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] (9, Speer 1W6+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei (Weg des Geistes)] 10
+[NOTE]
+Eine hohe Medusa kann beliebe Zauberschulen lernen, jedoch selten lernt eine Hohe Medusa Schamanismus oder den Weg der Druiden.
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_parade[Parade] 7
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_insight[Motiv erkennen] 7
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_deceive[Täuschen] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 9
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
+* link:../../../bestiary/skills/bestiary_skill_move_rush.adoc[Eilig]
+* link:../../../bestiary/skills/bestiary_skill_move_fasttrack.adoc.adoc[Schnell]
+
+== Regeln
+
+[[bestiary_high_medusa_medusas_gaze]]
+=== Medusas Blick
+Siehe xref:./bestiary_monstrosity_medusa.adoc#bestiary_medusa_medusas_gaze[Medusas Blick].
+[[bestiary_high_medusa_medusas_curse]]
+=== Medusas Fluch
+Analog zu xref:./bestiary_monstrosity_medusa.adoc#bestiary_medusa_medusas_curse[Medusas Fluch], allerdings sind hohe Medusen immun gegen ihren eigenen FLuch.
+
+== Taktik
+Hohe Medusen sehen sich als überlegene Wesen an, inbesondere gegenüber anderen Medusen und Humanoiden.
+Nicht selten führt eine hohe Medusa einen Kult aus Getreuen an.
+Im Kampf verlassen sich hohe Medusen wie ihre xref:bestiary_monstrosity_medusa.adoc#bestiary_medusa_medusas_tactics[kleinen Schwestern] auf ihren versteinerenden Blick und scharfen Klauen.

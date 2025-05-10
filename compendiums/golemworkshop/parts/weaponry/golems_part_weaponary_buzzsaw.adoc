@@ -1,0 +1,52 @@
+= Kreissäge
+
+*Materialkosten:* siehe Bschreibung +
+*Konstruktionszeit:* siehe Bschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:* siehe Bschreibung +
+*GK:* 4-8 +
+*Montage:* Arme +
+*Attribute:* +2 ST +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (ST), xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Holzfäller)] +
+*MP-Kosten:* - +
+*Machtstufe:* 1 +
+*Beschreibung:* +
+Mit dieser Bewaffnung endet der Arm des Golem, auf diese montiert ist, in einer Haltung, in der ein kreisrundes Sägeblatt aufgehangen ist und durch einen Motor unter der Kontrolle des Golems zum Rotieren gebracht werden kann.
+Die scharfen Reißzähne sorgen für brutale Wunden und gleichzeitig kann diese Ausstattung für handwerkliche Holz- und Fällarbeiten genutzt werden.
+Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] der Kreissäge wie folgt ab:
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus
+
+|4
+|2.000
+|2 Tage
+|15
+|2W3
+
+|5
+|2.000
+|2 Tage
+|15
+|2W3
+
+|6
+|3.000
+|2 Tage
+|15
+|2W4
+
+|7
+|4.000
+|3 Tage
+|16
+|2W4
+
+|8
+|5.000
+|3 Tage
+|16
+|2W6
+|===
+Die Kreissäge hat die Waffen-Eigenschaften xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_armorpiercing[Rüstungsbrechend] und xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_suppress_defence_or_retailation[Unterdrücke Konter].
+[NOTE]
+Die Kreissäge ist eine rein mechanische Waffe und erfordert keine Verzauberungen bei der Konstruktion.

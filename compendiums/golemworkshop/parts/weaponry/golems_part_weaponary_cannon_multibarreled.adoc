@@ -18,10 +18,9 @@ Der Golem kann die Repetier-Kanone beim Einsatz einer xref:../../../../rules/cor
 Um die Repetier-Funktion zu nutzen, muss der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] einsetzen.
 In diesem Fall beginnt der Lauf der Kanone zu rotieren, um eine beliebige Anzahl von Projektilen zu verschießen.
 Für das erste Projektil wird eine reguläre Probe auf xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen.
-Danach kann der Golem ein weiteres Projektil verschießen, jedoch mit einem Malus von -1 Würfel zum Erfolg.
-Dies kann der Golem beliebig wiederholen, jedoch erhöht sich der Malus jeweils um -1 Würfel.
+Danach kann der Golem ein weiteres Projektil verschießen, jedoch mit einem Malus von -1 auf die Würfe zum Erfolg.
+Dies kann der Golem beliebig wiederholen, jedoch erhöht sich der Malus jeweils um -1.
 
-Der Golem muss jedoch immer mindestens 1 Würfel zu Verfügung haben.
 Weiterhin kann der Golem keine Projektile verschießen, die nicht in seinem Magazin sind.
 Somit ist die Anzahl der an Projektile pro Kampfphase begrenzt entweder durch die Magazingröße oder die verfügbaren Stufen im Talent Projektilwaffen.
 

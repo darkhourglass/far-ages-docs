@@ -8,7 +8,7 @@
 == Beschreibung
 _"Diese Kreatur umgibt eine eigenartige Aura. Ihre monströsen Züge scheinen durch ihre Ausstrahlung in den Hintergrund zu rücken. Der humanoide Oberkörper weißt eine braungebrannt, kufperstichige Färbung der Haut auf. Langes schwarzes Haar umrahmt ein scharf geschnittenes edles Gesicht mit tiefschwarzen Augen. Herrschaftliche Gewänder und punkvoller Schmuck ziehern den humanoiden Teil. Trotzdem ist der Unterlaib eines Riesenscorpions mit seinem Stachelschwanz nicht zu unterschätzten."_
 Viziere der Legion stellen den Hochadel innerhalb der Schwarmgesellschaft dar, insofern man bei einem kollektiven Bewusstsein überhaupt von Hierarchie sprechen kann.
-Der Schwarm der Legion ist durch den Willen von Legion geprägt, dennoch teilt sich der Schwarm in diverse Unterschwärme auf, die wiederum von einer link:broodmother_of_the_legion.adoc[Brutmutter] aufgebaut und von iheren Vizieren gelenkt werden.
+Der Schwarm der Legion ist durch den Willen von Legion geprägt, dennoch teilt sich der Schwarm in diverse Unterschwärme auf, die wiederum von einer link:bestiary_humanoids_broodmother_of_the_legion.adoc[Brutmutter] aufgebaut und von iheren Vizieren gelenkt werden.
 == Profil
 [NOTE]
 Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind berücksichtigt.
@@ -65,7 +65,7 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
 * link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 11
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
-* link:../skills/specific/bestiary_skill_retunie.adoc[Gefolgschaft] (2 link:elite_warrior_of_the_legion.adoc[Elite Krieger der Legion), 3 link:../animals/bestiary_animals_giant_scorpion.adoc[Riesenskorpione], Leibwächter)
+* link:../skills/specific/bestiary_skill_retunie.adoc[Gefolgschaft] (2 link:bestiary_humanoids_elite_warrior_of_the_legion.adoc[Elite Krieger der Legion), 3 link:../animals/bestiary_animals_giant_scorpion.adoc[Riesenskorpione], Leibwächter)
 
 == Regeln
 === Implantate
@@ -82,7 +82,7 @@ Als Angehöriger des noblen Adels der Legion besitzt dieser Vizier eine Reihe vo
 Veziere der Legion sind neben Aufgabe als Representaten einer König auch dafür zuständig, Implantate zu verpflanzen. Sie beherrschen daher außerdem die Zusatz-Zauberliste:
 link:../../compendiums/supplementspelllists/compendium_supplementspelllist_fleshcrafting.adoc[Fleischformen]
 == Taktik
-Auch wenn ein Vizier nicht die gleiche Kampferfahrung wie ein link:elite_warrior_of_the_legion.adoc[Elite Krieger der Legion] besitzt, ist er ein gefährlicher Gegner, der nicht zu unterschätzen ist. Auch der Vezier nutzt die Vorteile seines hybriden Skorpionenkörper und seines giftigen Bisses, um Angreifer einzeln auszuschalten.
-Viziere besitzen auch magisches Potential, dass zwar nicht an das eines link:high_arkanist_of_the_legion.adoc[Hocharkanisten] herankommt, dennoch nutzen sie es effekiv zu ihrem Vorteil.
+Auch wenn ein Vizier nicht die gleiche Kampferfahrung wie ein link:bestiary_humanoids_elite_warrior_of_the_legion.adoc[Elite Krieger der Legion] besitzt, ist er ein gefährlicher Gegner, der nicht zu unterschätzen ist. Auch der Vezier nutzt die Vorteile seines hybriden Skorpionenkörper und seines giftigen Bisses, um Angreifer einzeln auszuschalten.
+Viziere besitzen auch magisches Potential, dass zwar nicht an das eines link:bestiary_humanoids_high_arkanist_of_the_legion.adoc[Hocharkanisten] herankommt, dennoch nutzen sie es effekiv zu ihrem Vorteil.
 Besonders vorsichtig sollte man for den sozialen Fähigkeiten des Viziers und seiner boshaften Intelligenz sein, denn er wird versuchen, Opposition auseinanderzutreiben, Verschwörungen zu gestalten und Hinterhalte zu legen.
 Viziere werden von anderen Mitgliedern der Legion üblicherweise begleitet und fanatisch beschützt.

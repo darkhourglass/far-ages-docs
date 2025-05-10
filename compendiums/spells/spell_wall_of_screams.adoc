@@ -1,0 +1,24 @@
+= Wall aus Schreien
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Schatten, Geist +
+*Vorbereitung:* 7 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Du erschaffst 3,00 Meter hohen Wall aus unzähligen, spektralen, schmerzverzerrten Gesichtern, die laut schreien.
+Der Wall aus Schreien besteht aus 6 Segmenten, die jeweils 1,50 x 1,50 Meter Platz abdecken.
+Du kannst die Verteilung der Segmente frei bestimmen, sie müssen jedoch alle zusammenhängen.
+Der Wall ist normal passierbar und bildet kein physikalisches Hindernis, allerdings geht eine psychische Belastung mit dem Wall einher.
+Jedes link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Wesen, dass die Ausdehnung des Walls passieren möchte oder xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinen Zug] innerhalb der Ausdehnung des Walls beginnt, muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen oder es verliert 1W6 SP und muss seine BEW einsetzen, um aus dem Wall zu entkommen.
+
+[NOTE]
+Dieser Zauber ist keine Illusion.
+*Zusätzliche Effekte:* +
++1 MP: Reichweite +3,00 Meter +
++1 MP: Dauer +1 Kampfphase +
++5 MP, +1 POT: erschaffe zusätzliches Segment für den Wall +

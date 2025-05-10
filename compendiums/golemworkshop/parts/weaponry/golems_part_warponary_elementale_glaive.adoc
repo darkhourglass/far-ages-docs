@@ -1,0 +1,67 @@
+= Elementare Glefe
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* link:../../../spells/spell_elemental_guardian_weapon.adocElementare Wächterwaffe] +
+*Mindestwurf:* siehe Beschreibung +
+*GK:* 5-10 +
+*Montage:* Arme +
+*Attribute:* +4 ST +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen (ST)] 8 +
+*MP-Kosten:* - +
+*Machtstufe:* 3 +
+*Beschreibung:* +
+Die elementare Glefe ähnelt ihrem regulären Vorbild, einer Stangenwaffe für Infanterie.
+Die Stange endet in einer langgezogenen Schwertförmuigen Klinge aus einem kristallähnlichem, gläsernen Material, dass trotz seiner gebrechlichen Erscheinung hart und schneidet ist.
+Wie das Vorbild besitzt sie einen harten zusätzlichen Kopf, um wuchtige Schläge zu ermöglichen.
+Diese Golemswaffe wird wie die reguläre link:../../../items/mundane/compendium_mundaneitems_meleeweapons.adoc#ref_weapon_glaive[Glefe] eingesetzt, besitzt die gleichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tags[Eigenschaften].
+Die Waffe besitzt außerdem eine elementare Ladung, die beispielweise durch einen link:../../../../compendiums/items/technomancy/devices/teechnomantic_devices_elemental_charger.adoc[Elementaren Lader] vorgegeben wird.
+Die Glefe enthält eine Einlassung, um einen solchen lader einzusetzen.
+Dadurch erhalten die Schadenswerte auch die Schadensart des Laders.
+Ist beispielsweise ein Lader mit Feuer-Ladung eingesetzt, verursacht die Gleve xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Die folgende Tabelle gibt eine Übersicht die von der GK abhängigen Werte.
+Die Spalte Schaden enthält den variablen Anteil, zusätzlich kommt der ST-Attributsbonus des Golems hinzu.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schaden
+
+|5
+|8.000
+|5 Tage
+|16
+|3W6
+
+|6
+|10.000
+|7 Tage
+|17
+|
+|3W6
+
+|7
+|15.000
+|14 Tage
+|18
+|4W6
+
+|8
+|24.000
+|18 Tage
+|20
+|4W6
+
+|9
+|36.000
+|25 Tage
+|22
+|Kegel 12,00 Meter
+|6W6
+
+|10
+|50.000
+|32 Tage
+|24
+|6W6
+|===
+Der Golem lernt außerdem den effektiven Einsatz und Taktik hinter der Gleve, die als Stoßwaffe, gegen Rüstungen effektiv ist oder als Wuchtwaffe, um Gegner niederzuschlagen.
+Zusätzlich stellt die elemenatare Glefe dem Golem die Fähigkeit link:../../../../bestiary/skills/specific/constructs/bestiary_skill_constructs_overcharge.adoc[Überladen (1W6, 1 MP)] zur Verfügung.

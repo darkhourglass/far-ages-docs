@@ -1,0 +1,62 @@
+= Korruption durch die Sternenbestie
+
+Die Sternenbestie ist eine uralte geschodene Kreatur, die von den Überlebenen Sternengeborenen vor Aeonen in einem magischen Gefängnis aus Eis auf Al'vaha eingesperrt wurde und seit dem als Gott unter dem Eis bezeichnet wird - zumindest von denjenigen Wenigen, die von ihrer Existenz überhaupt wissen.
+Die Sternenbestie ist eine groteskte Verzerrung eines Drachen der zweiten Progenitor Generation und durstet nach Freiheit und der ungehemmten Zerstörung und Neubesiedlung der Welt.
+Das Gefängnis sollte diese uralte Wesenheit nicht ewig binden, denn seine Gedanken und kleine Ranken ihres korrupten Fleisches sickern durch die kalte Oberfläche und durchtränken die Erde unter unseren Füßen.
+Kreaturen, die dem Einfluss der Sternenbestie ausgesetzt sind, können diese spezielle Form der xref:../advanced_rules_corruption.adoc#ref_corruptions_rules[Korrpuption] erhalten und werden schrittweise nach den irren Vorstellungen der Sternenbestie geformt.
+Oder sind es die Vorstellungen der Sternengeborenen, die vor 1,5 Millionen Jahren der Anmaßung verfielen, selbst wie ein Progenitor Leben zu schaffen, und nun durch unvollstellbare Folter zur Unkenntlichkeit verändert wurden?
+
+[[ref_corruption_starbeast_destructive_rage]]
+== Zerstörerische Raserei
+Die Gedanken der Kreatur werden von dem Wesen der Sternenbestie überrannt.
+Sie kann nur noch wutentbrannter Raserei fühlen.
+In einer kämpferischen Auseinandersetzung muss sie zu Beginn jedes xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen.
+Besteht sie diesen Rettungswurf, erhöht sich der Mindestwurf ihres nächsten Disziplin-Rettungswurfs unabhängig des Auslösers um 5.
+Misslingt der Rettungswurf, erhält die Kreatur den Status xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_fearful[Rasierei] und greif jede Kreatur, ob Freund oder Feind an.
+
+[[ref_corruption_starbeast_fungal_tissue]]
+== Pilzgewebe
+Teile der Haut der Kreatur trocknen aus und verfärben sich bräunlich oder bläulich.
+Es können an manchen Stellen des Körpers pilzartige Auswüche wachsen, scheibenformige Pilzflechten, als würden sie am Stamm eines Baums wachsen oder eine Zusammenfassung vieler Knuppelförmiger Pilze, die wie ein hügeliger Teppich sich über größere Flächen des Körpers legen.
+Diese teiweise Transformation in einen Pilz hinterlässt eine deutliche, visuelle Spur der Korruption.
+Die Kreatur erhält einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf alle Attributs- und Talentproben mit xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH].
+[[ref_corruption_starbeast_hardend_tissue]]
+== Verhärtetes Gewebe
+Das <<ref_corruption_starbeast_fungal_tissue,Pilzgewebe>> Kreatur verhärtet sich und nimmt eine fast holzarige Struktur an.
+Die Kreatur erhält die Fähigkeiten:
+* link:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 (alle Trefferzonen)
+* link:../../../bestiary/skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+[[ref_corruption_starbeast_nourished_By_the_rotten]]
+== Ernährung von den Verrotteten
+Wie ein echter Pilz kann sich die Kreatur nun von verrottenen organischen Material ernähren, zum Beispiel Leichen, morschem Holz, verrottenen Pflanzen.
+Sie erleidet keine negativen Folgen von diesen sonst unbekömmlichen Dingen.
+
+[[ref_corruption_starbeast_exhale_the_spores]]
+== Sporen ausatmen
+Die Kreatur kann die faulige Korrupion der Sternenbestie in Form von Pilzsporen versprühen.
+Sie erhält die FÄhigkeit link:../../../bestiary/skills/bestiary_skill_attack_odem.adoc[Odem] als _Sporen ausatmen_ mit den Eigenschaften:
+* *Angriffstufe:* 5+EN-Attributsbonus
+* *Schaden*: siehe weitere Beschreibung
+* *Reichweiche*: 3,00 Meter
+Alle link:../creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebenden] Kreaturen in Reichweite müssen einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] ablegen:
+* Bei einem Erfolg erleidet sie 2W6 xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-schaden]
+* Bei einem Patzer oder Misserfolg erhalten sie 1 Korruptionspunkt der Sternenbestie.
+
+[[ref_corruption_starbeast_fuse_with_the_myzel]]
+== Mit dem Myzel verwachsen
+An den Händen und Füßen der Kreatur wachen dünne, weiße Wurzelähnliche Tentakel.
+Diese sind Wurzeln das Myzels, das die Sternenbestie wie ein Spinnennetz unter der Erde spinnt.
+Berührt die Kreatur mit diesen Wurzeln eine Oberfläche, unter der das Myzel der Sternenbestie wächst (SL-Entscheid, wo dies vorliegt), verbinden sich beide Wurzelgeflechte miteinander und die Kreatur gerät in Gefahr gefangen zu werden.
+Sie muss einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen, dessen Mindestwurf aus 10 + ihre Korruptionspunkte berechnet wird.
+Besteht sie ihn, kann sie ihre Extremitäten sicher zurückziehen.
+Misslingt er, verwachsen beide Wurzelgeflecht und die Kreatur gilt als link:../../../bestiary/skills/bestiary_skill_rooted.adoc[Verurzelt].
+Im Ermessen des SLs kann die Kreatur durch operative oder magische Maßnahmen gerettet werden.
+Ansonsten, verwächst sie nach und nach mit dem Myzel aus der Erde. Es bildet sich ein Kokon aus
+pilzartigem Gewebe und nach einer Inkubationszeit von 1W3 Monaten schlüpft eine link:../../../bestiary/templates/bestiary_template_mycelian.adoc[Myzelische Kreatur], deren GK maximal gleich der GK dieser Kreatur ist, außer mehrere Kreaturen mit dieser Korruption in mittelbarer Nähe verschmelzen zu einem Kokoon.
+In diesem Fall wird die GK als Summe über alle verpuppten Kreaturen bzw. deren GK ermittelt.
+Die exakte Natur kann durch den SL bestimmt werden.
+
+[[ref_corruption_starbeast_baneful_mutation]]
+== Unheilvolle Mutation
+Die verändernden Kräfte der Sternenbestie übermannen den sterblichen Körper der Kreatur und sie wird vollständig zu einer Erweiterung des Willens der Sternenbestie.
+Die Kreatur erhält die Schablone link:../../../bestiary/templates/bestiary_template_mycelian.adoc[Myzelian].

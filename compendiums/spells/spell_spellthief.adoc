@@ -1,0 +1,25 @@
+= Zauberdieb
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 10 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Geist, Ather +
+*Vorbereitung:* 30 Minuten (Ritual) +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* 12,00 Meter, siehe Beschreibung +
+*Dauer:* 24 Stunden +
+*Effekt:* +
+In diesem Ritual webst Du eine besondere, aetherische Matrix, genannt einen Zauberdieb.
+Wie ein Spinnennetz spannt sich diese Matrix im Aether auf und folgt Dir für die Dauer des Effekts.
+Der Zauberdieb kann die aetherische Energie und Gewebe eines anderen Zauberspruches aufnehmen und einfangen.
+Wird während der Dauer innerhalb der Reichweite von 12,00 Metern ein magischer Effekt ausgelöst, kannst Du versuchen, diesen mit dem Zauberdieb einzufangen.
+Der magische Effekt muss durch eine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Soruchzauberei-Probe] ausgelöst werden, somit sind Zauber eines Zauberers, magische Fallen und magische Fähigkeiten von Kreaturen eingeschlossen.
+Du musst dazu eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einsetzen (können) und nach den Regeln den xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_identrify_spells[Zauber identifizieren].
+Gelingt Dir diese Probe, kannst Du, sofern die POT des Effekts geringer als die POT des Zauberdiebs ist (i.d.R also weniger als 10), den Effekt ohne weitere Proben im Netz des Zauberdiebs einfangen.
+Das hat zunächst die Folge, dass der Zaubereffekt nicht eintritt.
+Solange die Dauer des Zauberdiebs anhält, kannst Du den eingefangenen Zauber wie folgt für Dich nutzen, jeweils als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]
+* Du kannst den Zauberspruch im Zauberdieb freilassen und wirken, als wär er von Dir vorbereitet worden. Du benötigst keine Vorbereitung und kannst nur die zusätzlichen Effekte nutzen, die originär verwendet wurden. Du musst allerdings eine Spruchzauber-Probe ablegen, so als würdest Du den Zauber wirken.
+* Du kannst den Zauber in Energie umwandeln. Du erhältst POT*Vorbereitung des Zaubers als MP, die Du entweder direkt für einen eigenen Zauber einsetzen kannst oder verlorene MP aus deinem eigenen Pool ersetzen, jedoch nie mehr als Dein eigenes Maximum erlaubt.
+Nach einer dieser Optionen endet der Zauberdieb.
+*Zusätzliche Effekte:* +

@@ -8,7 +8,7 @@ Kreaturen mit einem Transplant aus dieser Liste erhalten automatisch den sekund�
 ==Chitinöse AuswÜchse
 Auf Gelenken, Extermitäten und schwachen Körperstellen wachsen der Kreatur körpelige Chitinplatten, die ihre Muskulator, ihr Skelett stärken.
 Die Kreatur erhält einen Bonus auf folgende Attribute +5 ST, +8 KO.
-Das Transplantat kann mehrfach durch die Gabe von xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal] angewendet werden. DIe Boni werden kumulativ angewendet. Zusätzlich erhöht sich die GK der kreatur um 1 sowie ihr *Schwarmstatus* um 3.
+Das Transplantat kann mehrfach durch die Gabe von xref:../../../bestiary/humanoids/bestiary_humanoids_broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal] angewendet werden. DIe Boni werden kumulativ angewendet. Zusätzlich erhöht sich die GK der kreatur um 1 sowie ihr *Schwarmstatus* um 3.
 [[scorpopnflesh_transplant_poision_glands]]
 ==Giftdrüsen
 Mit diesem Transplant bilden sich in der Speiseröhre körpereigene Drüsen, die verschiedene Gifte enthalten können. Andere Transplantate ideser Liste benötigen diese als Voraussetzung.
@@ -17,7 +17,7 @@ Mit diesem Transplant bilden sich in der Speiseröhre körpereigene Drüsen, die
 Due Kreatur bekommt schwarzglänzende Cithinplatten von Köprern von Riesenskorpionen verplfanzt, die sie vor phyikalischer Gewalteinwirkung schützen sollen.
 Jedees transplant dieser Art muss auf eine konkrete Treffferuzone der Kreatur anwendet werden. Dpe Terefferzone erhält  link:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung] von 7 Punkten.
 Das Transplant kann mehrfach angewendet werden, jeweils auf eine neue Trefferzone.
-EIne bestehende Trefferzone kann mit Einsatz xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee ROyal] erneut behandelt werden. Der Bonus wird kumulativ angewendet.
+EIne bestehende Trefferzone kann mit Einsatz xref:../../../bestiary/humanoids/bestiary_humanoids_broodmother_of_the_legion.adoc#_gelee_royal[Gelee ROyal] erneut behandelt werden. Der Bonus wird kumulativ angewendet.
 Da die Panzerplatten exterm schwer sind, erhält die Kreatur einen Malus auf ihren INI-Wert von -3, wenn ihre Stufe in ST kleiner als 10 ist.
 [[scorpopnflesh_transplant_pinceers]]
 == Greifscheren
@@ -37,7 +37,7 @@ Die Attack kann einmal pro eigenem Zug eingesetzt werden.
 [[scorpopnflesh_transplant_swarm_overseer]]
 == Swarm Aufseher
 Die Kreatur erhält, falls noch nicht vorhanden, die Fähigkeit link:../../../bestiary/skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft] und ihr *Schwarmstatus* erhöhrt sich um 4.
-FOr dieses Transplantat wird xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal] benötigt.
+FOr dieses Transplantat wird xref:../../../bestiary/humanoids/bestiary_humanoids_broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal] benötigt.
 [[scorpopnflesh_transplant_lower_body_tramsformation]]
 == Scropionenkörper
 Der Unterkörper der Kreatur wird ersetzt durch den Körper eines Riesenskorpien.
@@ -73,7 +73,7 @@ Doe Fähigkeit kann 1-mal pro eigenen Zug eingesetzt werden.
 Die Legion nutzt neben Skorppionen auch andere monströse Insekten wie riesige Käfer oder Fliegen.
 Besonders gewagte Fleischformer transplantieren auch Teile dieser Tiere.
 Die Kreatur erhält ein paar Insektenflügel, die ihr die F#higkeit link:../../../bestiary/skills/bestiary_skill_move_flight.adoc[Fliegen] 15,00 Meter verleiht.
-Dieses Transplantat benötigt den Einsatz xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal].
+Dieses Transplantat benötigt den Einsatz xref:../../../bestiary/humanoids/bestiary_humanoids_broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal].
 [[scorpopnflesh_shadow_of_the_swarm]]
 == Schatten des Schwarms
 Das kollektive Bewusstsein der Legion ist ein mächtiger psionischer Wille, der wie eine Flutwelle über den ungeübtem Geist einfallen kann.
@@ -83,4 +83,4 @@ Alle link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary
 Das Schwarmbewusstsein manifestiert sich als surrende Wolke unzähliger Insekten, deren Flügelbewegungen sich eine lauten, vielschichtigen Stimme erheben.
 Alle Kreaturen im oben genannten Umkreis müssen einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen 10 plus den Schwarmstaus der Kreatur bestehen oder sie erleiden einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf alle xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Anriffsprobe] gegebenüber der Kreatur.
 Der Effekt endet automatisch nach 3 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen].
-Diese G#higkeit erhält die Kreatur nicht durch ein klassiches Implantat, sondern durch die Einnahme alchemistischer und arkaner Substanzen, sowie xref:../../../bestiary/humanoids/broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal], die die Gehinstruktur so verändern, dass die Kreatur diese psionische Leistung bringen kann.
+Diese G#higkeit erhält die Kreatur nicht durch ein klassiches Implantat, sondern durch die Einnahme alchemistischer und arkaner Substanzen, sowie xref:../../../bestiary/humanoids/bestiary_humanoids_broodmother_of_the_legion.adoc#_gelee_royal[Gelee Royal], die die Gehinstruktur so verändern, dass die Kreatur diese psionische Leistung bringen kann.

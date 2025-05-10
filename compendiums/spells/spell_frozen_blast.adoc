@@ -1,0 +1,19 @@
+= Gefrorene Druckwelle
+
+*Arkanes Geheimnis:* Nein  +
+*POT:* 9 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Formel, Gesten, 1 Handvoll Schnee +
+*Fokus:* Eis, Stille +
+*Vorbereitung:* 3 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Kegel 9,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* + Du pustest eine Handvollschnee in eine von Dir gewählte Richtung. Die Magie dieses Zaubers vergrößert die Menge an Schnee explosionsartig zu einem Kegel aus dichtem Eis, dass Kreaturen von Dir wegdrückt.
+Alle Kreaturen im Wirkungsbereich müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen das Ergebnis Deiner xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] ablegen.
+Bei einem Misserfolg, werden sie von Dir weg an den Rand des Wirkungsbereichs bewegt, sofern Platz ist. Diese Bewegung endet am nächstmöglichen Punkt des Wirkungsbereichs.
+Bei einem Erfolg bleibt die Kreatur an Ort und Stelle.
+In beiden Fällen erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost-Schaden].
+
+*Zusätzliche Effekte:* +
++1 POT, +10 MP: Ziele: Kegel +3,00 Meter

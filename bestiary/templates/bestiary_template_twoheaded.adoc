@@ -1,0 +1,27 @@
+= Zweiköpfig
+
+// TODO Beschreibung
+
+== Voraussetzungen
+Die Kreatur muss wenigstens 1 Kopf und darf nicht bereits mehrere besitzen, wie beispielweise eine link:../monstrosities/bestiary_monstrosity_hydra.adoc[Hydra].
+Sie muss den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] besitzen.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen und wie folgt angepasst:
+* +5 ER
+* +5 SB
+* - 3 CH (minimal 1)
+Zwei Köpfe sehen mehr als einer und können mehr Willen aufbauen, jedoch sinkt ihre gesellschaftliche Akzeptanz.
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten.
+Sie erhält hinzu:
++1 Aktion pro eigenem Zug
+
+== CP

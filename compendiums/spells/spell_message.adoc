@@ -1,0 +1,21 @@
+= Nachricht
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Formel, Gesten, die Nachricht muss gesprochen werden +
+*Fokus:* GEist, Telepathie +
+*Vorbereitung:* 3 +
+*Reichweite:* siehe Beschreibung +
+*Anzahl der Ziele:* 1 lebende Kreatur +
+*Dauer:* Sofort+
+*Effekt:* Während der Vorbereitung konzentrierst Du Dich auf eine Dir bekannte, link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur.
+Eine Kreatur mit einem link:spell_wizardsmark.adoc[Zaubererzeichen] von Dir gilt automatisch als passende Ziel, sofern ihr Kreaturentyp passt.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] kannst Du dieser Kreatur eine Nachricht schicken.
+Dazu muss sich die Kreatur nur auf dem gleichen Planeten und Ebene befinden.
+Die Nachricht darf nicht mehr als 50 Wörter enthalten und in jeder Sprach verfasst sein, die Du beherrschst.
+Die Kreatur darf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magierettungswurf] ablegen, wenn sie die Nachricht nicht empfangen möchte.
+Bei einem Erfolg hört sie Deine Nachricht, als würde sie jemand die direkt in ihren Kopf flüstern.
+Dieser Zauberspruch ist in magiebegabten Kreisen hinreichend bekannt, dass ein Empfänger mit ausreichender Bildung vor plötzlichen Stimmen in seinem Kopf nicht vollständig in Panik gerät, bei Wesen ohne diese Bildung mag dies anders ausgehen.
+
+*Zusätzliche Effekte:* +

@@ -1,0 +1,70 @@
+= Riesenwolfspinne
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig]
+* Templates
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 5 (+2) +
+*GE:* 6 (+3) +
+*KO:* 9 (+3) +
+*ER:* 9 (+3) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 3 (+1) +
+*TP:* 90 +
+*MP:* 30 +
+*SP:* 45 +
+*BEW:* 12,00 Meter, link:../skills/bestiary_skill_move_climb.adoc[Klettern] 12,00 Meter +
+*INI:* +6 +
+*MaxTL:* 225 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 (harte Chitinpanzerung auf allen Trefferzonen) +
+*Resistenzen:* +
+*Immunitäten:* +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +4 +
+*Körper:* +5 +
+*Magie:* +4 +
+*Reflex:* +6 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 6 3W6, 1x
+* link:../skills/bestiary_skill_attack_jump_attack.adoc[Sprungangriff (Biss)]
+* link:../skills/bestiary_skill_modification_terrifying_attack.adoc[Furchterregender Angriff (Sprungangriff, 1W4+1)]
+* link:../skills/bestiary_skill_move_rush.adoc[Eilig]
+* link:../skills/bestiary_skill_move_fasttrack.adoc.adoc[Schnell]
+
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 10
+* link:../skills/bestiary_skill_fearless.adoc[Furchtlos]
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_senses_blindsense.adoc[Blindsinn 12,00 Meter]
+* link:../skills/bstiary_skill_skilledjumper.adoc[Fähiger Springer]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athlethik] 12
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 9
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 5
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 9
+
+== Regeln
+
+== Taktik
+Wie ihre normal großen Verwandten, sind Riesenwolfspinnen aktive Jäger, die ihre BEute verfolgen und nicht mit einem Netz einfangen.
+Die Riesenspinnen sind agil und flexibel, sie können klettern und weit springen.
+Dadurch können sie ihre Ziele oder Gegner schnell umzingeln und umstellen.
+Fühlen sich die Spinnen bedroht, richten sie sich auf und führen Drohgebärden aus.
+Wer sich dann zurückzieht, kommt eventuell mit seinem Leben davon, wer allerdings weiter vordringt, muss mit der vollen Härte rechnen, denn diese Tiere kennen keine Angst.

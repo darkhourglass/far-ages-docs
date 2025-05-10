@@ -17,7 +17,7 @@ Sie sollen diejenigen Spieler unterstützen, die in ihrem Spiel mit düsteren Th
 [[ref_corruptions_rules]]
 == Regeln
 
-Die Verderbnis eines Charakters (und auch eines Nicht-Spieler Charakters) wird in der Einheit *Korruptionspunkte* (oder einfach Korruption) gemessen.
+Die Verderbnis eines Charakters (und auch eines NPCs) wird in der Einheit *Korruptionspunkte* (oder einfach Korruption) gemessen.
 Zu Beginn des Spiels hat ein Charakter im Normalfall 0 Korruptionspunkte.
 
 Je mehr Korruptionspunkte ein Charakter erhält, umso schwerer wird es für ihn, seine geistige Gesundheit zu behalten.
@@ -74,13 +74,13 @@ In diesem Kapitel werden neue Varianten von Korruption vorgestellt, die mehr Det
 Sofern nicht anders angegeben, sind Korruptionspunkte immer allgemein.
 Nur eine explizite Nennung, wie _"der Charakter erhält 1 Korruptionspunkt (Aetherisch)"_ gewährt die konkrete Variante.
 
-Charaktere müssen die Korruptionspunkte je Variante separat aufschreiben, allerdings gilt deren Gesamtsumme für die Bestimmung des Mindestwurfs des Horror-Rettungswurfs (siehe <<ref_corruptions_rules_corruptionspoints,Auswirkungen von Korruptionspunkten>>).
+Charaktere müssen die Korruptionspunkte je Variante separat aufschreiben, allerdings gilt deren Gesamtsumme für die Bestimmung des Mindestwurfs des Rettungswurfs (siehe <<ref_corruptions_rules_corruptionspoints,Auswirkungen von Korruptionspunkten>>).
 
 .Varianten von Korruption
 ====
 Ein Charakter hat 3 Korruptionspunkte (Aetherisch), 2 Korruptionspunkte (Nekrotisch) und 2 weitere allgemeine Korruptionspunkte.
 Damit besitzt er insgesamt 7 Korruptionspunkte.
-Er hält einen weiteren Korruptionspunkt, muss er einen Horror-Rettungswurf gegen 12+7=19 bestehen.
+Er hält einen weiteren Korruptionspunkt, muss er einen Rettungswurf gegen 12+7=19 bestehen.
 ====
 
 Der Charakter erhält eine <<ref_corruptions_rules_receive_corruptions,Korruption>> in der Wertigkeit der Variante der Korruption, die die Horror-Probe ausgelöst hat.

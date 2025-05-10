@@ -1,0 +1,19 @@
+= Schwere Füße
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Formel, Geste, 1 Unze Blei +
+*Fokus:* Bewegung +
+*Vorbereitung:* 6 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Kreaturen im Effektbereich fühlen, dass ihre Füße schwer und müde werdem, dass es ihnen schwerer fällt, vorwärtszukommen.
+Jede link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur, die ihren xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] im Wirkungsbereich dieses Zaubers beginnt, muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen 8 + POT dieses Zaubers bestehen oder hat für diesen Zug ihre xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] nur halbiert (abgerundet, minimal 1,50 Meter) zur Verfügung.
+Kreaturen, deren Bewegungsapparat nicht den Boden berührt, sind immun gegenüber diesem Zauber, so zum Beispiel fliegende Kreaturen.
+Sollten diese den Boden berühren, gilt der Effekt auf für sie.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase
++1 POT, +10 MP: Radius +3,00 Meter

@@ -1,0 +1,79 @@
+= Zwillingsverbunde Kanone
+
+*Materialkosten:*  siehe Beschreibung +
+*Konstruktionszeit:*  siehe Beschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:*  siehe Beschreibung +
+*GK:* 5 - 10+
+*Montage:* Arme, Schwer+
+*Attribute:* +1 ST +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 5 (ST) +
+*MP-Kosten:* 5 MP +
+*Machtstufe:* 2 +
+*Beschreibung:* +
+Diese Bewaffnung ersetzt in der Regel einen kompletten Arm des Golems.
+An der Schulter aufgehangen ist die Zwillingsverbunde Kanone eine Konstruktion, die aus einem automatisierten Kugellager besteht und einer doppelläufigen Feuereinrichtung.
+
+Golems setzen die Kanone wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffe] mit dem Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] ein.
+Die besondere Ausstattung dieses Kanonensystems, erlaubt es dem Golem beide Läufe zu laden und gleichzeitig abzufeuern. In jedem Zug kann der Golem folgende Aktionen durchführen:
+* einen der Läufe laden und abfeuern: Einzel-Projektil nach den üblichen Regeln abfeuern
+* beide Käufe laden und abfeuern: nach den Regeln des Einzel-Projektils, allerdings wird die Angriffs-Probe mit xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] gewürfelt.
+Die Technomanten stellen duesen Kanonen in den xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorien] 5 bis 10 her.
+Von dieser hängen die Werte wie folgt ab:
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus |Grundreichweite |Magazin
+
+|5
+|10.000
+|12 Tage
+|17
+|1W10
+|45,00  Meter
+|6
+
+|6
+|18.000
+|8 Tage
+|17
+|1W10
+|45,00  Meter
+|8
+
+|7
+|24.000
+|12 Tage
+|18
+|2W6
+|60,00 Meter
+|10
+
+|8
+|30.000
+|20 Tage
+|19
+|2W10
+|75,00 Meter
+|12
+
+|9
+|24.000
+|24 Tage
+|20
+|4W6
+|90,00 Meter
+|16
+
+|10
+|60.000
+|36 Tage
+|21
+|4W10
+|120,00 Meter
+|15
+|===
+
+Da diese Kanone eine rein mechanischen Konstrukt ist, besitzt der Golem nur eine begrenzte Zahl an Schüssen, bevor das Magazin leer ist.
+Diese Anzahl ist in der Spalte Magazingröße angegeben.
+Ist das Magazin leer, muss es ersetzt werden.
+Ein Technomant oder Charakter mit dem Talent xref:../../../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] kann dies einfach vornehmen.
+.

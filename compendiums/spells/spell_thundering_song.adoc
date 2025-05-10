@@ -1,0 +1,18 @@
+= Donnerndes Lied
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* - +
+*Fokus:* xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_music_spellsongs[Zauberlied] +
+*Vorbereitung:* - +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* - +
+*Effekt:* Mit diesem Lied beschwörst und besingst Du die Urgewalten von Sturm und Gewitter. In Deinem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] kannst Du als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierter Aktion] einen Akkord spielen, der einen Donner- und Blitzschlag erzeugt.
+Bestimme innehalb der Reichweite eine Kreatur und führe eine weitere xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] durch.
+Die Kreatur darf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] dagegen ablegen.
+Hast Du Erfolg, erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6+1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden].
+
+*Zusätzliche Effekte:* +
++ 10 MP, +1 POT: Du kannst den Blitzschlag 2x pro Zug einsetzen.

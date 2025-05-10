@@ -1,0 +1,18 @@
+= Geist zerreißen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Geist, Schatten +
+*Vorbereitung:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur +
+*Dauer:* Sofort +
+*Effekt:* Dieser boshafte Zauber wirkt wie ein Dolch in den Gedankensträngen der Zielkreatur und kann diese abtrennen, so dass die Kreatur spontan Dinge vergisst.
+Bei einer erfolgreichen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] vergisst die Kreatur ihren aktuellen Gedankengang und wendet sich anderen Dingen zu.
+Die konkreten Auswirkungen außerhalb des Kampfes liegen im Ermessen des SL.
+Innerhalb eines Kampfes, verliert die Kreatur 1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] für ihren nächsten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug].
+*Zusätzliche Effekte:* +
++1 MP: Reichweite +3,00 Meter
++2 POT, +5 MP Ziele +1 lebene Kreatur

@@ -1,0 +1,18 @@
+= Arkane Aufhebungssphere
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Aether, Geist +
+*Vorbereitung:* 30 Minuten (Ritual) +
+*Reichweite:* 3,00 Meter +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* 24 Stunden +
+*Effekt:*  Mit diesem Ritual erschaffst Du eine Sphere aus Anti-Magie, die magische Effekte unterdrückt.
+Innerhalb des Wirkungsbereichs des Zaubers können keine andere Zaubersprüche gewirkt werden, deren POT kleiner 11 ist.
+JEde xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] ist ein automatischer xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_botches[Patzer].
+Alle Zaubersprüche, deren Wirkungsbereich sich mit dem Wirkungsbereich der Sphere überschneiden, wirken in dieser Intersektion nicht, wenn ihre POT geringer als 11 ist.
+*Zusätzliche Effekte:* +
++1 POT, +2 MP: Dauer +6 Stunden
++1 POT, +10 MP: Radius +3,00 Meter

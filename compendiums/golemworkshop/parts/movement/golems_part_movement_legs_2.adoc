@@ -79,3 +79,7 @@ Die Bewegungsoption steht in den xref:../../../../rules/core/core_rules_characte
 |25
 |+6,00 Meter
 |===
+Ab GK 7 erhält der Golem außerdem die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_attack_trample.adoc[Zertreten] mit den Eigenschaften:
+* *Angriffstufe:* 5 + ST-Bonus
+* *Schaden:* GK 7: 5W6, +1W6 pro weitere GK über 7 plus ST-Bonus
+* *Anzahl:* 1x

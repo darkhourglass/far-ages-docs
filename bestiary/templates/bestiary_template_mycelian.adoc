@@ -1,0 +1,25 @@
+= Myzelian
+
+// TODO Beschreibung
+
+== Voraussetzungen
+Die Kreatur muss den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] haben darf *nicht* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] sein.
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen und wie folgt angepasst:
+* + 5 ST
+* + 8 KO
+* - 3 CH (minimal 1)
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten. Sie erhält dazu:
+* link:../skills/specific/starbeast/bestiary_skill_dominated_by_the_stars.adoc[Dominiert von den Sternen]
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5, alle Trefferzonen
+
+== CP

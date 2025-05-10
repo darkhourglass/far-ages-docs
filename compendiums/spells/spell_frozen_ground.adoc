@@ -1,0 +1,19 @@
+= Gefrorener Boden
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Festen, Formeln +
+*Fokus:* Stille, Eis +
+*Vorbereitung:* 4 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] legt sich glitzerende, kalte Luft um das Zielgebiet und Eiskristalle formen sich auf dem Boden.
+Für die Dauer des Effekts gilt der Boden im Zielgebiet als xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_terrain_snow_ice_frost[vereister Boden].
+Für jede Kamfpphase, in der dder Boden durch eine ausreichende Wärmequelle wie die Sonne erwärmt wird, reduziert sich die Effektdauer um eine Kampfphase.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase
++2 MP: Reichweite +3,00 Meter
++1 POT, +5 MP: Radius +6,00 Meter

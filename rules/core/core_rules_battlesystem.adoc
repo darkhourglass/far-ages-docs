@@ -959,6 +959,7 @@ Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine <<re
 Allerdings können <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>> nur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
 
 Um diese Eigenschaft nutzen zu können, muss die Waffen dafür <<ref_core_battle_items_weapons_tag_reach,geeignet>> sein.
+Angegriffene Kreatoren können gegen diese Waffen keinen <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> einsetzen, wenn sie Waffen ohne diese Eigenschaft tragen oder aufgrund ihrer Größe eine grö0ere <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> besitzen.
 
 [[ref_core_battle_melee_modifiers_missingweapon]]
 ==== Der Kampf zwischen einem Gegner mit Waffen und einem Unbewaffneten

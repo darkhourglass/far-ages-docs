@@ -1,0 +1,24 @@
+= Arkanes Unterbrechungsfeld
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11  +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Aether, Geist +
+*Vorbereitung:* 8 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 3 Kampfphasen +
+*Effekt:* +
+Du erzeugst ein Feld um Dich herum, dass die Realität kurzfristig vom Aether abtrennt.
+Dieses Feld bewegt sich mit Dir.
+Das Feld hat folgende Wirkung in seinem Effektbereich:
+* Alle link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte], die eine xref:../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_core[Energieversorgung] besitzen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] ablegen oder sind bis zum Anfang ihrer nächsten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
+* Alle anderen Kreaturen erhalten einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W10 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_magical[Magie-Schaden].
+Ein erfolgreicher xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] halbiert den Schaden.
+* alle bestehenden magischen Effekte und Zaubersprüche werden für 1 Kampfphase unterdrückt, wenn ihre POT gleich oder weniger als 10 beträgt.
+Diese Effekte werden einmal zu Beginn Deines xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zuges] ausgewertet, solange der Zauber anhält.
+Du bist gegen die Auswirkungen Deines eigenen Felds immum, allerdings kannst Du in einem fremdem Arkanen Unterbrechungsfeld unter den o.g. Auswirkungen leiden.
+*Zusätzliche Effekte:* +
++1 MP, Dauer + 1 Kampfphase
++2 POT, +10 MP: Radius +6,00 Meter

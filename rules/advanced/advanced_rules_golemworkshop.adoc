@@ -133,7 +133,7 @@ Jeder Golem muss eine Energiezelle haben, die (üblicherweise) in das Chassis ei
 Sofern nicht anders angegeben, verbraucht eine Energieversorgung keine Zusätze, sondern es wird angenommen, dass jedes Chassis genau eine Option von Energieversorgung in entsprechender GK aufnehmen kann.
 
 Eine Energiezelle ist ein ebenfalls gesondertes technomatisches Gerät, das speziell dafür konzipiert wurde, Golems mit Energie in Form von MP zu versorgen.
-xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:../core/core_rules_battlesystem.adoc[Manöver] (und so weiter) einzusetzen.
+xref:../advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_death_deactivated[Konstrukte] benötigen mindestens 1 MP, um xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] einzusetzen.
 Die Energieversorgung gilt als xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] und hängt nicht vom xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-Attribut] des Golems.
 Der Golem benutzt diese MP auch, um Fähigkeiten aus beispielsweise <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>> oder <<ref_golemworkshop_creation_steps_additions,Zusätzen>> zu aktivieren.
 
@@ -195,7 +195,7 @@ Grundsätzlich kann, außer es ist durch die <<ref_golemworkshop_creation_steps_
 
 Manche Bewaffnungen sind als *schwer* gekennzeichnet.
 Diese können nur auf <<ref_golemworkshop_creation_steps_chassis_profiles,Chassis>> verbaut werden, die dies explizit erlauben.
-Der Einsatz einer schweren Bewaffnung benötigt eine xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] im Zug des Golems und kann nur einmal pro Kampfphase eingesetzt werden.
+Der Einsatz einer schweren Bewaffnung benötigt eine xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] im Zug des Golems und kann nur einmal pro Kampfphase eingesetzt werden, gilt also als xref:../core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Aktion].
 
 [[ref_golemworkshop_creation_steps_weaponary_profiles]]
 ===== Darstellung der Einträge
@@ -283,7 +283,7 @@ Eine Panzerung muss als eigenes xref:../core/core_rules_technomancy.adoc#ref_cor
 [[ref_golemworkshop_creation_steps_plating_heavy]]
 ===== Schwere Panzerung
 
-Als *schwer* gekennzeichnete Panzerung muss analog zur <<ref_golemworkshop_creation_steps_weaponary_heavy, Bewaffnung>> auf ein passendes <<ref_golemworkshop_creation_steps_chassis,Chassis>> montiert werden.
+Als *schwer* gekennzeichnete Panzerung muss analog zur <<ref_golemworkshop_creation_steps_weaponary_heavy,Bewaffnung>> auf ein passendes <<ref_golemworkshop_creation_steps_chassis,Chassis>> montiert werden.
 
 [[ref_golemworkshop_creation_steps_plating_profiles]]
 ===== Darstellung der Einträge
@@ -461,27 +461,27 @@ Diese bestimmt die initialen Attributsstufen, welche sich aus der nachfolgenden 
 |3
 
 |8
-|10
+|14
 |1
-|10
+|14
 |2
 |2
 |1
 |3
 
 |9
-|12
+|18
 |1
-|12
+|18
 |2
 |2
 |1
 |3
 
 |10
-|14
+|20
 |1
-|14
+|20
 |2
 |2
 |1
@@ -490,6 +490,9 @@ Diese bestimmt die initialen Attributsstufen, welche sich aus der nachfolgenden 
 
 Andere Komponenten, zum Beispiel die <<ref_golemworkshop_creation_steps_weaponary,Bewaffnung>>, können Modifikatoren auf Attributsstufen enthalten.
 Diese sind nach der Bestimmung der Attributsstufen aus der GK anzuwenden und vor der Bestimmung des <<ref_golemworkshop_creation_steps_profile_attributebonus,Attributsbonus>> und der <<ref_golemworkshop_creation_steps_profile_secondary_attributes,Attributseigenschaften>> des Golems.
+[CAUTION]
+Ein Golem, der durch diese Modifikationen eine xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks_step_0[Attributsstufe 0] erreichen würde, erhält im betroffenen Attribut eine Stufe von 1.
+Für jedes Attribut, dass auf diese Weise auf 1 festgesetzt wurde, steigen die Gesamtkosten des Golems um 10%.
 
 .Attributsstufen
 ====
@@ -744,7 +747,7 @@ Dieser Golem wurde anhand der Regeln aus diesem Kapitel erstellt.
 
 Der Golem besteht aus folgenden Einzelteilen:
 
-* *<<ref_golemworkshop_creation_steps_chassis,Chassis:>>* link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Humanoides Chassis] xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 6
+* *<<ref_golemworkshop_creation_steps_chassis,Chassis:>>* link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_humanoid.adoc[Humanoides Chassis] mit xref:../core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 6
 * *<<ref_golemworkshop_creation_steps_core,Energieversorgung:>>* link:../../compendiums/golemworkshop/parts/core/golems_part_core_basiccells.adoc[Standardzelle]
 * *<<ref_golemworkshop_creation_steps_movement,Bewegung:>>* link:../../compendiums/golemworkshop/parts/movement/golems_part_movement_legs_2.adoc[2 Beine]
 * *<<ref_golemworkshop_creation_steps_weaponary,Bewaffnung:>>* link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]

@@ -1,0 +1,19 @@
+= Lied der Verlockung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* siehe Beschreibung +
+*Fokus:* xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_music_spellsongs[Zauberlied] +
+*Vorbereitung:* - +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 9,00 Meter +
+*Dauer:* - +
+*Effekt:* Bei diesem Lied musst Du ein Instrument spielen, zum Beispiel eine Flöte.
+Dein Spiel lässt die Gedanken der Zuhörer sich nur noch um die Musik und das Lied drehen, so dass sie nie wollen, dass sie es nicht mehr hören können.
+Jede Kreatur, die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[ihren Zug] im Effektbereich des Lieds der Verlockung beginnt, muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen das Ergebnis Deiner xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] bestehen oder dürfen ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] nur einsetzen, um in der Nähe zu bleiben.
+Du kannst Dich mit dem Zauberlied normal bewegen und eine ganze Gruppe von Kreaturen Dir folgen lassen.
+Kreaturen sind jedoch Gefahren gegenüber aufmerksam.
+Sie würden daher nicht tiefe Schluchten oder Lava-Gruben ignorieren.
+Kreaturen, die angegriffen werden, sind automatisch immun gegenüber dem Lied der Verlockung.
+*Zusätzliche Effekte:* +

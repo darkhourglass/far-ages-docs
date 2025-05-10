@@ -1,0 +1,17 @@
+= Flugverbotszone
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja, siehe Beschreibung +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Körper, Bewegung +
+*Vorbereitung:* 5 +
+*Reichweite:* 0 Meter +
+*Anzahl der Ziele:* Radius 24,00 Meter +
+*Dauer:* 1 Stunde +
+*Effekt:* +
+Alle Kreaturen, die in den Wirkungsbereich dieses Zaubers eintreten und eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes_flying[Flug-BEW] besitzen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen Dein Ergebnis aus Deiner xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] bestehen oder dürfen den Wirkungsbereich nicht betreten.
+Alle Kreaturen im Wirkungsbereich können keine  xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes_flying[Flug-BEW] einsetzen, solange sie im Wirkungsbereich sind.
+*Zusätzliche Effekte:* +
++1 POT, 1 MP: Dauer +1 Stunde
++ 1 POT, 5 MP: Radius +6,00 Meter

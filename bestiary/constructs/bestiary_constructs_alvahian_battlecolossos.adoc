@@ -1,0 +1,90 @@
+= Kampfkolossos 'Triumph' (Alvaha)
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+* GK: 10
+* CP: TBA
+
+== Beschreibung
+
+Diese unwirklich riesige Kriegsmaschine ist nicht nur ein Ausdruck militärischer Macht, sondern auch ein Zeichen der Ingeneurskunst, dass da noch mehr kommen könnte und man auch vor größenwahnsinnigen Projekten nicht zurückschreckt, sollte es darauf ankommen.
+Die *_Triumph_* wurde im Erbfolgekrieg nach dem Fall des Ewigen Reiches von den Technomanten aus Aleth und den Schmieden der freien Zwergenstädte am Titanengrad gemeinsamer Anstrengung entwickelt und gebaut.
+Die pure Androhung ihres Einsatzes und der havarierten, mobilen Festung "Titan" ließ den hegemonalen Bund seine terretorialen Ansprüche überdenken.
+Heute lagert die Triumph in einem eigens angefertigten Dock bei Erstfeuer in einem Bergmassiv.
+Die Triumpf ist ein Schlachtengolem gigantischen Ausmaßes.
+Abweichend von einem humanoiden Körper, ist ihr Hauptrumpf inklusive Energieversorgung und Waffenmontage in Form mit einem Schiff vergleichbar.
+Zur Forderseite ist ein helmförmiger Kopf montiert, an den Seiten sind die Waffen an großen Armen montiert. Schwere Panzerplatten schützen Schultergelenke und die Mechanik im Rumpf. An der Unterseite sind die gewaltigen Beine montiert, die sehr prakmatisch gebaut sind.
+Lange und schwere Stahlträger verbinden die Gelenke und Füße.
+Letzter sind fast hausgroße, stabile Blöcke aus Stahl, die Triumph Halt und eine weitere gefährliche Waffe zur Verfügung stellen.
+Die Standardbewaffung der Triumph ist eine gewaltige Lanze, die angeblich die Schuppen von Drachen durchbrechen kann, sowie eine Kanone, deren Kugeln so riesig sind, dass ein einziger Schuss ganz Städte zu Staub verwandeln kann.
+Die Triumph wird nicht von einer Crew gesteuert, sondern durch technomantische Magie aus der Ferne.
+
+[NOTE]
+Die Triumph wurde nach den Regeln des link:../../rules/advanced/advanced_rules_golemworkshop.adoc[Golem-Workshops] gebaut, jedoch mit der künstlerischen Freiheit, das Chassis in Erscheinung anzupassen.
+Ohne Zusätze hat sie Konstruktion der Triumph 239 Tage gedauert und 1280000 Silber gekostet.
+Die Technomanten sind reiche Bastarde!
+
+== Profil
+
+*ST:* 27 (+8) +
+*GE:* 1 (+1) +
+*KO:* 25 (+8) +
+*ER:* 2 (+1) +
+*EN:* 3 (+1) +
+*SB:* 1 (+1) +
+*CH:* 3 (+1) +
+*TP:* 355 +
+*MP:* 1000 +
+*SP:* - +
+*BEW:* 23,50 Meter +
+*INI:* +2 +
+*MaxTL:* 875 +
+*MaxPOT:* 4 +
+*Aktionen:* 3 +
+*Rüstung:* 15, alle Trefferzonen link:../../compendiums/golemworkshop/parts/plating/golems_part_plating_steel_full.adoc[volle Stahlpanzerung] +
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft])
+== Rettungswürfe
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +22 +
+*Magie:* +8 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_trample.adoc[Zertreten] +13, 8W6+8, 1x
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_lance_heavy.adoc[Schwere Golemlanze]) +13 8W10+8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_cannon_heavy.adoc[Schwere Golemkanone]) +13 10W10, 180 Meter
+* 2 link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_grenade_launcher.adoc[Granatwerfer]
+* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_arcane_wave_generator.adoc[Arkaner Wellengenerator]
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6
+
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../skills/specific/constructs/bestiary_skill_constructs_machine_supremacy.adoc[Maschinen Überlegenheit]
+
+== Regeln
+Die Triumph ist ein Konstrukt der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_powerlevel[Machtstufe] *17*.
+Sie besitzt als Energieversorgung eine link:../../compendiums/golemworkshop/parts/core/golems_part_core_elementalmanifest.adoc[elementare Zelle], die einen link:../elementals/bestiary_elementals_elemental_manifest.adoc[Manifest der Luft] der Machtstufe 10 enthält.
+Es sind folgende Zusätze verbaut:
+* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_control_receicer.adoc[Kontrollempfänger] (es heißt, der passende link:../../compendiums/items/technomancy/devices/technomantic_device_helm_of_contruct_control.adoc[Kontrollhelm] wurde im Tresor des Gildenmeisters verschlossen und kann nur vom diesem authorisiert werden)
+* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_force_field.adoc[Kraftfeld]
+* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_circuit_of_evading.adoc[Schaltkreis des Ausweichens]
+* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_grenade_launcher.adoc[Granatwerfer]
+* link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_arcane_wave_generator.adoc[Arkaner Wellengenerator]
+== Taktik

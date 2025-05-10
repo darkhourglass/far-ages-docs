@@ -1,0 +1,27 @@
+= Verbesserte Telekinese
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* - +
+*Fokus:* Geist +
+*Vorbereitung:* 1 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* 1 Kampfphase +
+*Effekt:* Durch die reine Kraft Deines Willens kannst Du Gegenstände bewegen.
+
+Mit diesem Zauberspruch kannst Du beliebige Objekt mit einem Gesamtgewicht von 20 Kilogramm innerhalb der Reichweite bis zum Ende Deines nächsten xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] bewegen, ohne diese berühren zu müssen.
+
+Der Zauberspruch kann nicht auf Kreaturen direkt angewendet werden.
+
+Du kannst diesen Zauberspruch jedoch auf ein Objekt anwenden, dass von einer Kreatur gehalten oder getragen wird.
+Wird das Objekt getragen, muss es sich durch eine einfache Mechanik vom Körper lösen lassen, zum Beispiel durch das Öffnen eines Knopfes.
+Weiterhin kannst Du Objekte nutzen, um sie auf andere Kreaturen zu werden.
+In den beiden genannten Fällen steht den betroffenen Kreaturen ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] zu.
+Gehaltene Objekte fallen auf den Boden und müssen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_readyitem[aufgehoben] werden.
+Objekte, die bereits xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadenwürfel] besitzen, richten diese bei Erfolg an.
+Für andere Objekte können die Regeln zu xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_improvised_weapons[improvisierten Waffen] genutzt werden.
+
+*Zusätzliche Effekte:* - +
++2 POT, +5 MP: maximales Gewicht +20 Kilo (mehrfach anwendbar)
