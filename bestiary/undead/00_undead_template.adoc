@@ -57,11 +57,10 @@ Lore
 * link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
 
 == Rettungswürfe
-
 *Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +
-*Magie:* EN+SB +
+*Disziplin:* SB+CH +3 +
+*Körper:* ST+KO +5 +
+*Magie:* EN+SB +5 +
 *Reflex:* GE+ER +
 
 == Offensiv

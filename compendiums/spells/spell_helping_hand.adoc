@@ -1,0 +1,21 @@
+= Helfende Hand
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Gesten +
+*Fokus:* Geist, Aether, Schatten +
+*Vorbereitung:* 1 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 24,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* Du beschwörst ein aetherisches Duplikat Deiner Hand, die Du innerhalb des Wirkungsbereichs des Zauberspruches beliebig bewegen und einsetzen kann.
+Die Hand eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes_flying[Flug-BEW] von 9,00 Metern und sie kann alle Gegenstände und Werkzeuge verwenden, die Du auch verwenden könntest mit Deiner eigentlichen Hand.
+In xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinem Zug] kannst Du Deine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] einsetzen, um die Hand zu steuern:
+* bewege die Hand innerhalb des Wirkungsbereichs. Die Hand kann den Wirkungsbereich nicht verlassen, bezüglich Hinternissen oder beengten Raum, gilt sie als Kreatur der Grö0e 1.
+* Führe mit der Hand eine Aktion aus. Benötigt die Hand dazu eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Attributs] oder xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Probe], würfelst Du mit Deinen Werten.
+Du kannst die Hand nicht einsetzen, um andere Kreaturen anzugreifen.
+Die Hand kann andere Kreaturen nicht berühren.
+
+*Zusätzliche Effekte:* +
++1 POT, +5 MP: Radius +3,00 Meter

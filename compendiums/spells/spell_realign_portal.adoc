@@ -1,0 +1,19 @@
+= Portal ausrichten
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 12 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Aether, Portale +
+*Vorbereitung:* 1 Stunde (Ritual) +
+*Reichweite:* 9,00 Meter  +
+*Anzahl der Ziele:* 1 xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_portals[Portal] +
+*Dauer:* Sofort +
+*Effekt:* Mit diesem Ritual versuchst Du das Zielportal mit einem anderen Portal, dass Dir bekannt ist zu verbinden.
+Dazu musst Du zwei xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Proben] würfelen, und zwar jeweils gegen die xref:../../rules/core/core_rules_magic_base.adoc#ref_portals_portal_difficulty[Portalschwierigkeit] der Portale, die miteinander verbunden werden sollen.
+Die Proben werden erschwert:
+* +10, das Portal liegt auf einer anderen Ebene
+* +5 das Portal liegt auf der gleichen Ebene, aber Du siehst es nicht
+Nur wenn beide Proben erfolgreich sind, ist das Ritual erfolgreich und beide Portal bilden nun zwei neue Gegenseiten.
+
+*Zusätzliche Effekte:* +

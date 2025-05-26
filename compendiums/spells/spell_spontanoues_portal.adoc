@@ -1,0 +1,19 @@
+= Spontanes Portal
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 12 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Aether, Portale +
+*Vorbereitung:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:*  siehe Beschreibung +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Du erschaffst innerhalb der Reichweite ein neues, xref:../../rules/core/core_rules_magic_base.adoc#ref_portals_open_portal[offenes Portal], dass zuvor nicht da war.
+All Gegenstelle musst Du ein Portal wählen, dass Du kennst.
+Also Mindestwurf für Deine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] gilt die xref:../../rules/core/core_rules_magic_base.adoc#ref_portals_portal_difficulty[Portalschwierigkeit] des Zielportals +8.
+Bei einem Erfolg erschaffst Du ein Portal zu dem Zielportal.
+Dein spontanes Portal schließt nach Ablauf der Dauer automatisch und kann danach nicht mehr geöffnet werden.
+*Zusätzliche Effekte:* +
++1MP: Dauer +1 Kampfphase

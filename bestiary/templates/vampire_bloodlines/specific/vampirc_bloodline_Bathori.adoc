@@ -1,0 +1,37 @@
+= Bathori
+Die Blutlinie der Bathori entlehnt ihren Namen nach der angeblichen ersten Vampirin, einer sterblichen, adeligen Okkultistin Elisabeth Bathory.
+Bathory vollführte Blutrituale, für die sie unschuldige Mädchen opferte, um ihre eigene Sterblichkeit zu umgehen.
+So traf sie der Fluch von Nachtmahr und sie wurde zu einem Vampir und Begründerin dieser Blutlinie.
+Heutige Bathori sind oft Mitglieder höherer sozialer Zirkel wie Adligen oder Aristokraten.
+Im Vergleich zu anderen Vampiren und den Sterblichen sehen sich Bathori als Überlegen und natürliche Anführer.
+Die meisten Bathori kleiden sich in eleganter Kleidung oder tragen verzierte Rüstungen.
+Bathori setzen auf Fähigkeiten des Glamours, Manipulation und ihrer Grausamkeit, um ihren Gegnern entgehen zu treten.
+Außerdem rühmen sich viele Bathori, ehrenwerte Kämpfer im direkten Duell zu sein, anstatt auf heimtückiche Techniken der Schattenmagie und Heimlichkeiten, wie bei anderen Blutlinien, zu setzen.
+Arroganz und Stolz posieren die Bathori als die heimlichen Herrscher der Nacht.
+
+== Voraussetzungen
+Es muss die Schblone link:../../bestiary_template_undead_vampire.adoc[Vampir (Untod)] angewendet werden und diese Blutlinie beim Erschaffer vorliegen.
+
+== Attribute
+Der Vampir dieser Blutlinie erhält folgende Modifikationen auf seine Attributstufen:
+* +4 ST
+* +2 GE
+* +4 KO
+
+== Talente und Fähigkeiten
+Ein Vampir dieser Blutlinie behält die Talente und Fähigkeiten seiner sterblichen Vergangenheit.
+
+== Vampirfähigkeiten
+Der Vampir dieser Blutlinie hat Zugriff auf folgende Vampirfähigkeiten
++ link:../../../skills/specific/vampires/bestiary_skill_vampiric_hypnotic_gaze.adoc[Hypnotischer Blick]
+* link:../../../skills/specific/vampires/bestiary_skill_vampiric_dark_presence.adoc[Finstere Präsenz]
+* link:../../../skills/specific/vampires/bestiary_skill_vampiric_glamour.adoc[Glamour]
+* link:../../../skills/specific/vampires/bestiary_skill_vampiric_majestic_aura.adoc[Majestätische Aura]
+* // TODO: Bloodsense / Transfusion?
+
+== Okkulte Schwächen
+Die Blutlinie dieses Vampirs besitzt folgende okkulten Schwächen:
+* link:../../../skills/specific/occult/skill_occult_missing_reflexion.adoc[Fehlende Reflexion]
+
+== CP
+200

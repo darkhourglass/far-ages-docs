@@ -1,0 +1,47 @@
+= Banschee
+"die Geisterhafte Erscheinung einer Frau in weißen Gewändern erscheint wie sanfte Mondstrahlen in der Dunkelheit. Ihre Augen fixen Euch mit einem kaltblauen Starren, dass Hass auf alles warmblütige Leben beinhaltet."
+Ein Banschee ist eine gefürchtete Form von Geist bzw. untoter Erscheinung, die oft Orte mit viel Tod und Leid aufsucht. Ihre markerschütternden Schreie sind in der Nacht zu hören und können die Lebenen in den Wahnsinn treiben.
+Es heißt ein Banshee wird geboren, wenn einem Sterblichen eine schwere Ungerechtigkeit und ein Leid erfahren ist, dass ein Leben nicht ausreicht, um dieses zu betrauern.
+
+== Voraussetzungen
+Um ein Banshee zu werden, muss die Kreatur folgende Voraussetzungen erfüllen:
+
+* der primäre Kreaturentyp der Kreatur muss einer der Folgenden sein:
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] (Geschlecht: weiblich)
+* sie muss den sekundären Kreaturtyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] besitzen
+* sie darf nicht bereits den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos] besitzen
+Banshees können nicht durch nekromantische Zauber wie link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untote] geschaffen werden.
+Wann ein Humanoider als Banshee wieder aufersteht, liegt im Ermessen des SL.
+
+=== Geist
+Ein Banshee ist eine Form von Geist.
+Daher wird zuerst die Schablone link:bestiary_template_undead_ghost.adoc[Geist] auf die Kreatur angewendet. Es gelten allerding die in dieser Schablone genannten Voraussetzungen und Attribute.
+Der Banshee erhält die gleichen Fähigkeiten wie ein Geist, plus die in der Schablone genannten.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen. Die Kreatur erhält die Folgenden Boni auf diese Attributsstufen:
+* +4 EN
+* +2 ER
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten des link:bestiary_template_undead_ghost.adoc[Geist] und erhält die folgenden dazu:
+
+=== Untot
+Die Kreatur erhält den primären Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
+Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] eines Banshees ist immer 9.
+
+[[ref_template_banshee_skill_wail_of_the_banshee]]
+=== Schrei des Banshee
+Die berüchtigte Eigenschaft des Banshee ist sein Schrei.
+Die Kreatur ehrhält link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] mit
+* *Angriffsstufe:* (Machtstufe/2, abgerundet) + Ihr EN-Bonus
+* *Zauberspruch:* link:../../compendiums/spells/spell_horrifying_wail.adoc[Erschreckendes Klagen]
+
+
+== CP

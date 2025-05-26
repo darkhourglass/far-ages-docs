@@ -1,0 +1,132 @@
+= Nofretari, Königin der Banschee-Küste
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 12)
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos]
+* link:../../../bestiary/templates/bestiary_template_undead_banshee.adoc[Banschee], link:../../../bestiary/templates/bestiary_template_legendary.adoc[Legendär]
+* *GK:* 5
+* *CP:* 29400 + leg + banchsee
+
+== Beschreibung
+
+Als wahrscheinlich der ältesten Wesen auf Al'vaha regiert die Banshee Königin Nofretari absolut über die Nekropole xref:../../worlds/alvaha/nations_and_factions/dead_lands.adoc#ref_lore_dead_lands_necropolis[Al'Farrilzum] in den link:../../worlds/alvaha/nations_and_factions/dead_lands.adoc[bleichen Landen].
+Der Legende nach, war Nofretari viele Jahrhunderte Mitglied des regierenden Zirkels aus link:../../../bestiary/templates/bestiary_template_undead_mummy.adoc[einbalsamierter] untersterblicher Adliger.
+Mit der Erruption des Sonnenfeuers und den nachfolgenden Beben im Aether versagte, die nekromantische Magie, die Nofretari und ihre anderen untoten Oligarchen am Unleden erhilten.
+Nur Nofretari gelang es, ihre Existenz als Banshee zu verlängern, ob durch unbekannte nekromantische Rituale oder purem Willen, ist unbekannt.
+Als ihre Kollegen und Kontrahenten zu Staub zerfielhen, erhob sich Nofretari auf den Thron auf der Spitze des xref:../../worlds/alvaha/nations_and_factions/dead_lands.adoc#ref_lore_dead_lands_necropolis_ziggurat_of_fleeting_shadows[Ziggurats der fliehenden Schatten], einem ikonischen und zentralen Bauwerk von Al'Farrilzum.
+Es heißt, ihr alter, einmalsamierter Leichnam wurde durch magische Rituale auf dem Thron konserviert und dient ihres geisterhaften Seins als Anker in dieser Welt.
+Scheint die Sonne, zieht sich Nofretari in den Leichnam zurück und bei Nacht kommt ihre Banshee-Gestalt in die Welt.
+Diejenigen unserer Zeit, die Nofretari mit eigenen Augen gesehen haben und noch leben, um davon zu erzählen, beschreiben sie als wunderschöne geisterhafte Frau, die in ihrem Leben wohl ebenhölzerne Haut und Augen gehabt haben muss.
+Das Mondlicht scheint sich in ihrer Gestalt zu reflektieren, sie von innen heraus strahlen zu lassen.
+Der brennende unbeugsame Willen der unsterblichen Königin brennt in ihren Augen.
+Wie andere Banschees hallt ihr Schrei beizeiten durch den Nachthimmel von Al'Farrilzum, um die Lebenden zu vertreiben, da die Straßen den Toten gehören, die vor Nofretari niederknien.
+
+== Profil
+
+*ST:* 6 (+2) +
+*GE:* 12 (+4) +
+*KO:* 6 (+2) +
+*ER:* 12 (+4) +
+*EN:* 14 (+4) +
+*SB:* 10 (+3) +
+*CH:* 12 (+4) +
+*TP:* 75 +
+*MP:* 140 +
+*SP:* - +
+*BEW:* 9,00 Meter +
+*INI:* +6 +
+*MaxTL:* 60 +
+*MaxPOT:* 17 +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:*
+
+* link:../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../../../bestiary/skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../../../bestiary/skill/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../../../bestiary/skill/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../../../bestiary/skill/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../../../bestiary/skill/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../../../bestiary/skill/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +7 +
+*Disziplin:* +10 +
+*Körper:* +9 +
+*Magie:* +13 +
+*Reflex:* +8 +
+
+== Offensiv
+
+*  link:../../../bestiary/skills/bestiary_skill_attack_energydrain.adoc[Energieentzug] 16 2W6+4
+* <<ref_nofretari_wail,Nofretaris Schrei des Banschee>> 10
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] (Nekromantie) 14 (10+4)
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] (Schattentricks) 12 (8+4)
+
+
+== Defensive
+
+* * xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 10
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] 14
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] 12
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Okkultes)] 10
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Geschichte)] 12
+
+
+== Sonstiges
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmun] 14
+* link:../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] 13
+* link:../../../bestiary/skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../../../bestiary/skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura]
+* link:../../../bestiary/skills/bestiary_skill_stronghold_keeper.adoc[Hüter der Festung] <<ref_nofretari_rules_queen_of_the_nekropolis,Nekropolis>>
+* xref:../../../bestiary/templates/bestiary_template_undead_ghost.adoc#ref_template_ghost_skill_energy_conversion[Energieumwandlung]
+* xref:../../../bestiary/templates/bestiary_template_undead_ghost.adoc#ref_template_ghost_kill_occult_weakness[Okkulte Schwächen] (siehe <<ref_nofretari_rules_occult_anchor,okkulter Anker>>)
+* link:../../../bestiary/skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten]
+
+== Regeln
+
+[[ref_nofretari_rules_powerlevel]]
+=== Machstufe
+Nofretari ist eine deutliche mächtigere Untote, als vergleichbare Banschees, daher beträgt ihre Machtstufe 12, nicht 9 wie von der Schablone vorgegegeben.
+
+[[ref_nofretari_rules_queen_of_the_nekropolis]]
+=== Herrscherin der Nekropole
+Nofretari ist die Herrscherin über Al'Farrilzum und dem Ziggurat der fliehenden Schatten.
+Dies wird durch die Fähigkeit link:../../../bestiary/skills/bestiary_skill_stronghold_keeper.adoc[Hüter der Festung] in den Regeln dargestellt.
+Auf dem gesamten Gebiet von Al'Farrilzum gilt Nofretari als die Hüterin eines link:../../../compendiums/strongholds/stronghold_nekrotic_tomb.adoc[nekrotisches Grabs].
+Befindet sich Nofretari im Ziggurat, gilt sie zusätzlich als Hüter eines link:../../../compendiums/strongholds/stronghold_mythic_megalith.adoc[mystischen Menhirs].
+Der Megalith bietet als xref:../../../compendiums/strongholds/stronghold_mythic_megalith.adoc#ref_mythic_megalith_perpemante_enchantment[Permanente Verzauberung] die Effekte der folgenden Zauber:
+* link:../../../compendiums/spells/spell_zone_of_eternal_undeath.adoc[Zone der ewigen Untoten]
+* link:../../../compendiums/spells/spell_statis.adoc[Stasis].
+Die Zone der ewigen Untoten wird auf die ganze Nekropole projeziert und Stasis nur auf den Thorn, auf dem Nofretaris ehemaliger, einbalsamierter Körper liegt.
+[[ref_nofretari_rules_occult_anchor]]
+=== Okkulter Anker
+Wie jeder Banschee ist Nofretari auch ein Geist mit der okkulten Schäche link:../../../bestiary/skills/specific/occult/skill_occult_anchored_to_remains.adoc[Gebunden an die eigenen Überreste].
+Nofretaris Überreste wurden von Ihr in den Thron des Ziggurats der fliehenden Schatten eingelassen.
+Ihr Körper ist nun ein Teil des Throns, der wie eine schlafende Figur aus dem Thron sitzt, alt, vertrocket, mit verfaulten Leinen, die von dürren Armen herabhängen.
+Die <<ref_nofretari_rules_queen_of_the_nekropolis,Verzauberung>> des Ziggurats verhindert, dass der Körper auf natürliche Weise verrottet und Nofretari ihren Anker verliert.
+Ebenso bewirkt der Statiszauber, dass von außen keine Beschädigung an den Leichnam vorgenommen werden kann.
+Nur mächte Anti-Magie oder die Unterbrechung der Magie des Zigguraths könnte die Magie der Verzauberung beenden und damit Nofretaris Schicksal für immer besiegeln.
+Die Banscheekönigin ist sich dieser Gefahr sehr bewusst und somit ist das Zigurrath der best bewachteste Ort in ganz Al'Farrilzum.
+
+[[ref_nofretari_wail]]
+== Nofretaries Schrei des Banshees
+Wie jeder Banshee besitzt auch Nofretarie die Fähigkeit xref:../../../bestiary/templates/bestiary_template_undead_banshee.adoc#ref_template_banshee_skill_wail_of_the_banshee[Schrei des Banshee].
+Sie kann die Eigenschat xref:../../../compendiums/strongholds/stronghold_mythic_megalith.adoc#ref_mythic_megalith_amplify_spell_reach[Verstärke Zauberreichweite] des Ziggaraths nutzen, um den Schrei in die Straßen der Nekropole reichen zu lassen.
+== Taktik
+Als primär körperlose Untote hat Nofretari wenig direkten Einfluss auf die materielle Welt.
+Sollte sie zum Kampf herausgefordert werden,
+
+
+
+
+
+

@@ -36,11 +36,9 @@ Folge den weiteren Regeln in diesem Kapitel, um dessen Profil zu bestimmen.
 [[ref_skeleton_attributes]]
 == Attribute
 
-Das Skelett erhält die Attribute der ursprünglichen Kreatur.
-Abhängig von der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] des Skeletts müssen manche Attributsstufen und Attributseigenschaften angepasst werden.
-Beispielsweise erhält ein Skelett der Machtstufe 4 nur die Hälfte seine Stufe in SB.
-
-Siehe dazu auch die folgende link:../../rules/tables/table_spells_create_undead.adoc[Tabelle].
+Das Skelett erhält die Attribute der ursprünglichen Kreatur mit folgenden Anpassungen:
+* +2 ST
+* +2 KO
 
 [[ref_skeleton_talents]]
 == Talente
@@ -57,7 +55,8 @@ Als Skelett verliert die Kreatur alle Talentstufen *außer* der folgenden:
 
 [[ref_skeleton_skills]]
 == Fähigkeiten
-
+Als Skelett behält die Kreatur alle Fähigkeiten, die auf den behaltenen <<ref_skeleton_talents,Talenten>> basieren.
+Sollte die Kreaturen Voraussetzungen für eine Fähigkeit verlieren, verliert sie diese Fähigkeit automatisch.
 [[ref_skeleton_skill_bonus_tp]]
 === Bonus-TP
 Abhängig von seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] erhält das erschaffene Skelett einen Bonus auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].

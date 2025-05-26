@@ -1,0 +1,62 @@
+= Immersive Steuerung
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:* siehe Beschreibung +
+*GK:* 6 - 10 +
+*MP:* siehe Beschreibung +
+*MP-Regeneration:* - +
+*Machtstufe:* 0 +
+*Beschreibung:* Diese Pilotenkabine ist eine Weiterentwicklung der link:golems_part_core_mechanical.adoc[mechanischen Steuerung].
+Auch diese Kabine erlaubt es einer (üblicherweise link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoiden]) Kreatur den Golem direkt zu steuern.
+Die Besonderheit ist, dass die immersive Steuerung den Effekt eines link:../../../items/technomancy/devices/technomantic_device_helm_of_contruct_control.adoc[Helms der Konstrukt Kontrolle] rekreiert, ohne dass der link:../additions/golems_part_addon_control_receicer.adoc[Kontrollempfänger] eingebaut werden muss.
+
+Die Pilotenkabine kann von einer einzelnen Kreatur bemannt werden, deren eigene xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] mindestens 1 Punkt kleiner ist, als die des Golems.
+Beispielsweise kann ein Golem der GK 6 von einer Kreatur der GK 5 oder kleiner gesteuert werden.
+Der Pilot benötigt das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist (Golemsteuerung)] mindestens auf Stufe 1, um den Golem effektiv steuern zu können.
+Der SL darf Proben auf dieses Talent verlangen, um komplizierte Manöver oder ungewöhnliche Situationen darzustellen.
+Die Angaben in der folgenden Tabelle beziehen sich immer auf die GK des Golems.
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |MP
+
+|6
+|24.000
+|11 Tage
+|19
+|110
+
+|7
+|36.000
+|13 Tage
+|20
+|220
+
+|8
+|42.000
+|17 Tage
+|22
+|360
+
+|9
+|64.000
+|19 Tage
+|22
+|700
+
+|10
+|72.000
+|19 Tage
+|23
+|900
+|===
+
+Auch die Pilotenkabine besitzt eine Energieversorgung, die analog zur link:golems_part_core_basiccells.adoc[Standardzelle] funktioniert.
+Die steuernde Kreatur hat keinen direkten Zugriff auf die MP, sondern verwendet diese nach den üblichen Regeln, um die Fähigkeiten des Golems einzusetzen.
+Ein link:../../../spells/spell_energytransfer.adoc[Energietransfer] ist normal möglich.
+
+Der Pilot und der gesteuerte Golem gilt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Reiter und Reittier] für die Regeln im Kampf.
+Durch die besondere Panzerung und Abschirmung des Piloten erhält ein xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielter Angriff] einen zusätzlichen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von 10 auf die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe].
+
+Golems mit dieser Energieversorgung können nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden.

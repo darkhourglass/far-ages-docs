@@ -116,63 +116,49 @@ Somit beträgt seine Angriffsstufe in dieser Fähigkeit 2+6 = 8W10.
 Der Schadensbonus beträgt 1W8.
 ====
 
-[[ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills_and_curses]]
-==== Zusätzliche Fähigkeiten und Flüche
-Abhängig von seiner Machtstufe erhält der Vampir zusätzliche Fähigkeiten, die speziell für Vampire ausgelegt sind, siehe folgende <<ref_secondary_creaturetype_vampire_appendix_list_vampiric_skills,Liste>>.
-Sofern nicht durch andere Regeln vorgegeben, kann der Vampir diese Fähigkeiten bei seiner Verwandlung aussuchen.
-Gleichzeitig erhält er jedoch ebenso <<ref_secondary_creaturetype_vampire_appendix_list_vampiric_curses,Flüche>>, die speziell auf Vampire wirken, sobald sie verwandelt werden.
-Diese Flüche sind im allgemeinen bekannte link:../../advanced_rules_curses.adoc[Flüche] sein, wie zum Beispiel link:../../curses/curse_of_hunger.adoc[der Hunger], jedoch sind diese niemals xref:../../advanced_rules_curses.adoc#ref_curses_breaking[entfernbar] (außer durch die Vernichtung des Vampirs natürlich).
-Die korrumpierende Macht von Nachtmahr ist ein zweischneidiges Schwert.
-
-Jede Fähigkeit oder Fluch kann nur einmal gewählt werden.
-Die folgende Tabelle zeigt die Anzahl der möglichen Fähigkeiten pro Machtstufe.
-
+[[ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills]]
+==== Vampirfähigkeiten
+Abhängig von seiner Machtstufe erhält der Vampir spezielle Vampir-eigene Fähigkeiten.
+Die folgende <<ref_secondary_creaturetype_vampire_appendix_list_vampiric_skills,Liste>> fasst einige dieser Fähigkeiten zusammen.
+In der Regel gibt die Schablone vor, welche dieser Fähigkeiten der Vampir bei seiner Verwandlung erhält.
+Jede Fähigkeit kann nur einmal gewählt werden.
+Abhängig von der <<ref_secondary_creaturetype_vampire_rules_powerlevel,Machtstufe>> des Vampirs, kann er eine maximale Anzahl von Fähigkeiten lernen.
+Diese Anzahl kann aus der folgenden Tabelle entnommen werden:
 |===
-|Machtstufe des Vampirs |Anzahl der Vampirfähigkeiten |Anzahl der Vampirflüche
+|Machtstufe des Vampirs |Anzahl der Vampirfähigkeiten
 
 |1
 |0
-|1
 
 |2
-|1
 |1
 
 |3
 |1
-|2
 
 |4
-|2
 |2
 
 |5
 |2
-|2
 
 |6
 |2
-|3
 
 |7
-|3
 |3
 
 |8
 |3
-|3
 
 |9
 |3
-|4
 
 |10
-|4
 |4
 
 |10+
 |+1 pro 4 Machtstufen (maximal 6)
-|4
 |===
 
 [NOTE]
@@ -181,8 +167,7 @@ Wird der Vampirismus über eine Schablone übertragen, so kann es sein, dass die
 Als eine generelle Regel wird angenommen, dass alle Fähigkeiten, die über die <<ref_secondary_creaturetype_vampire_rules_powerlevel_initial_skills,initialen Fähigkeiten>> hinausgehen und explizit als <<ref_secondary_creaturetype_vampire_appendix_list_vampiric_skills,Vampirfähigkeiten>> geführt sind, gegen die oben genannten Maxima zählen.
 ====
 
-Sollte sich die Machtstufe eines Vampirs im Laufe seiner Existenz verändern, verliert oder gewinnt der Vampire keine Fähigkeiten oder Flüche.
-In diesem Fall handelt es sich um eine initiale Ausstattung bei seiner Erschaffung.
+Sollte sich die Machtstufe eines Vampirs im Laufe seiner Existenz verändern, gewinnt der Vampir neue Fähigkeiten, verliert im Zweifel allerdings keine.
 
 [[ref_secondary_creaturetype_vampire_rules_bloodcosts]]
 === Blutkosten für Vampirfähigkeiten
@@ -201,6 +186,10 @@ Keine Rast kann die Pools wieder auffüllen.
 Dennoch können Vampire weiterhin gezwungen sein, regelmäßig schlafen, beispielsweise, wenn sie weiterhin den Kreaturentyp link:creaturetype_secondary_living.adoc[lebend] besitzen.
 Sie können jedoch nicht den Vorteil einer Rast nutzen.
 
+[[ref_secondary_creaturetype_vampire_rules_occult_weaknesses]]
+=== Okkulte Schwächen
+Das Multiversum verfluchte Nachtmar für seine Tat, somit sind auch Nachtmars Kinder gezeichnet.
+Jeder Vampir kann eine Reihe okkulter Schwächen erhalten, die in der Regel durch die Schablone vorgegeben wird.
 [[ref_secondary_creaturetype_vampire_rules_source_of_vampirism]]
 === Quelle des Vampirismus
 Vampirismus wurde auf das Multiversum durch die Aktionen des Progenitors link:../../../../lore/progenitors/lore_progenitors_nachtmare.adoc[Nachtmahr] losgelassen.
@@ -254,15 +243,3 @@ Folgende Liste fasst alle Fähigkeiten zusammen, die Vampire aufgrund ihrer <<re
 * link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_mistform.adoc[Tierform] +
 * link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_forbidden_knowledge.adoc[Verbotenes Wissen] +
 * link:../../../../bestiary/skills/specific/vampires/bestiary_skill_vampiric_sunwalker.adoc[Wanderer unter der Sonne] +
-
-[[ref_secondary_creaturetype_vampire_appendix_list_vampiric_curses]]
-=== Liste der Vampirflüche
-
-Die folgenden Unterkapitel beschreiben typische Vampirflüche, mit denen Vampire aufgrund ihrer <<ref_secondary_creaturetype_vampire_rules_powerlevel,Machtstufe>> belegt werden.
-Sie können durch den SL vorgegeben werden, sobald der Vampir verwandelt wird.
-
-* link:../../curses/curse_of_cold_touch.adoc#curse_of_cold_touch_harmless[Fluch der kalten Berührung (harmlos)] +
-* link:../../curses/curse_of_hunger.adoc[Der Hunger] +
-* link:../../curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_strong[Fluch der Sonne (stark)] +
-* link:../../curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_deathcurse[Fluch der Sonne (Todesfluch)]: dieser kann anstelle von 2 einzelnen Flüche gewählt werden +
-* link:../../curses/curse_of_the_weak_spot.adoc#ref_curse_of_the_weakspot_strong[Fluch des Schwachpunkts (Standard, Holzpflock)]

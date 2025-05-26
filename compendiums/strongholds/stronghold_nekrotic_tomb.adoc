@@ -1,22 +1,48 @@
 = Nekrotisches Grab
 
 == Beschreibung
+Die Toten sind ruhelos und wandeln die Hallen ihrer Begräbnisstätte.
+Das nekrotische Grabmal ist ein Mausoleum oder eine Totenstätte, die von nekromantischer Energie und der fauligen Korruption Ebons, heimgesucht wird.
 
-// TODO LORE
+
 
 == Aktionen
-*Aktionen pro Kampfphase:* X
+*Aktionen pro Kampfphase:* 1
 
-=== Aktion 1
+[[ref_nekrotic_tomb_action_call_undead_servant]]
+=== Rufe untote Diener
+Der Hüter ruft Untote, die sich im nekrotischen Grab aufhalten. Diese erscheinen in seiner Sichtweite innerhalb von 1W4 Kampfphasen.
+
+[[ref_nekrotic_tomb_action_create_undead]]
+=== Erschaffe Untoten
+Aus einem Leichnam im nekrotischen Grab kann der Hüter neue Untote erschaffen.
+Die Aktion wirkt wie eine link:../../bestiary/skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] für den Zauber link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten].
+Besitzt der Hüter Stufen in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], kann die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzaueberei-Probe] damit würfeln, ansonsten gilt seine EN-Stufe.
+
+[[ref_nekrotic_tomb_action_open_casket]]
+=== Öffne Sarg
+Der Hüter kann jeden Sarg oder verschlossenes Einzelgrab im nekrotischen Grab allein durch seinen Willen öffnen. Dabei ist es unergeblich, ob ein Schloss vorliegt oder eine schwere Steinplatte auf diesem Sarg liegt. Das Grab öffnet sich von Geisterhand.
 
 == Reaktionen
 
-=== Reaktion 1
+[[ref_nekrotic_tomb_reaction_foggy_retreat]]
+=== Nebeliger Rückzug
+Als Reaktion darf der Hüter schweren Nebel beschwören, als würde er den Zauber link:../spells/spell_fog.adoc[Nebel] nutzen.
+Besitzt der Hüter Stufen in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], kann die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzaueberei-Probe] damit würfeln, ansonsten gilt seine EN-Stufe.
 
 == Passiver Effekt
+Der Hüter erhält die Fähigkeit link:../../bestiary/skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten], auch wenn die Voraussetzung ein Untoter zu sein, nicht erfüllt.
+Die Fähigkeit gilt nur innerhalb des nekrotischen Grabes und für Untote, diesem in diesem existieren und geschaffen wurden.
+Besitzt der Hüter eine Machtstufe, wird dieser Berechnung der Fähigkeit genutzt, sonst gilt in diesem Sinn die Machtstufe: seine EN-Stufe/2 (abgerundet).
+Grundsätzlich ist der Hüter des nekrotischen Grabes immer in xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle] über die Untoten in dem nekrotischen Grab, vorausgesetzt, diese Untoten erfordern Kontrolle.
+Das nekrotische Grab verhindert außerdem den xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall] der Untoten im nekrotischen Grab.
 
 == Diener
+Das nekrotische Grab bietet seinem Hüter eine Reihe untoter Diener (max. 10 link:../../bestiary/templates/bestiary_template_undead_zombie.adoc[Zombies] der Machtstufe 1), die seinem Willen folgen, sei es um Arbeiten zu verrichten oder im Kampf zu helfen.
 
 == Umgebungseffekt
+Nekrotische Gräber strahlen ihre unheilige Verderbnis weiter in ihre Umgebung hinaus.
+Schatten flüstern und raunen in tiefen Stimmen einer lang vergessenen Sprache.
+Kalten Nebel lingern über den Boden.
 
 == CP

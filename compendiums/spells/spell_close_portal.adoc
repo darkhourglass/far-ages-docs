@@ -1,0 +1,18 @@
+= Schließe Portal
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Aether, Portale+
+*Vorbereitung:* 5 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 xref:../../rules/core/core_rules_magic_base.adoc#ref_portals_open_portal_portal[offenes] Portal +
+*Dauer:* Sofort +
+*Effekt:* Mit diesem Zauberspruch schließt Du ein offenes xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_portals[Portal] innerhalb der Reich- und Sichtweite.
+Deine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] muss die
+xref:../../rules/core/core_rules_magic_base.adoc#ref_portals_portal_difficulty[Portalschwierigkeit] des Portals übertreffen.
+Geligt dieser Wurf, wird das Portal innerhalb der nächsten 1W6 Kampfphasen xref:../../rules/core/core_rules_magic_base.adoc#ref_portals_closed_portal[geschlossen].
+
+*Zusätzliche Effekte:* +
++2 POT: schließe das Portal sofort, Schwierigkeit steigt um +8

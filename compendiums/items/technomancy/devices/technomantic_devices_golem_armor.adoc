@@ -1,4 +1,12 @@
 = Golem-Rüstung
+_"Die beeindrukenden Geräusche der hydraulischen Antriebe und die schweren Schritte gepanzerter Füße, die im Gleichschritt maschieren, reicht aus, um Gegner in die Flucht zu treiben, lange bevor sie die Waffenstarrenden, schwer gepanzerten Regementer sehen."_
+[quote, Gratak „Eisenbieger“, Veteran und Ausbilder beim 3.Regiment des Hauses der Gekreuzten Klingen über den Marsch der Ambosswächter]
+Eine Golem-Rüstung ist eine technonatische und mechanische Errungenschaft, um Infantrieeinheiten mit der zerstörerischen Kraft von Schlachtengolems auszurüsten.
+Eine Golem-Rüstung ist eine Ganzkörperrüstung, die durch mechanische und hyraulische Gelenke es dem Träger ermöglicht, schwere Golem-Waffen und Panzerung zu tragen.
+Dabei wird die Rüstung nur durch die Körperbewegungen gesteuert.
+Das Anlegen einer solchen Rüstung ist kompliziert und erfordert die Hilfe von geschulten Technomanten und Hebekrähnen.
+[NOTE]
+Diese Ausrüstung wurde inspiriert, durch die Engel des Todes eines gewissen falschen Imperators.
 
 *Materialkosten:* siehe Beschreibung +
 *Konstruktionszeit:* siehe Beschreibung +
@@ -89,14 +97,14 @@ Jede Golem-Rüstung kann ihre initial verfügbaren Hände durch bis zu 2 xref:..
 
 Weiterhin kann in einer Golem-Rüstung ein xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions[Zusatz] verbaut werden, der nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions_heavy[schwer] sein darf.
 
-Alle Waffen und Zusätze muss die GK 5 haben und müssen separat hergestellt werden.
+Alle Waffen und Zusätze müssen die GK 5 haben und separat hergestellt werden.
 Ein Auswechseln oder Montieren ist in der Regel durch einfache Handgriffe möglich, im Kampf ist dies eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion].
 
-Bewaffnungen und Zusätze, die Attribute eine Golems verändert, können montiert werden, allerdings bieten sie diese Boni nicht auf das Profil der Golem-Rüstung oder des Charakters, der sie trägt.
+Bewaffnungen und Zusätze, die Attribute eine Golems verändert, können montiert werden, allerdings bieten sie diese Boni nur auf das Profil der Golem-Rüstung, wenn sie die Attribute ST oder kO betreffen.
 Ihre sonstigen Effekte gelten ohne Einschränkungen.
 
-Weiterhin bieten Waffen und Zusätze keine zusätzlichen Talente oder Talent-Stufen.
-Es werden immer die Talente des Charakters verwendet.
+Talent-Stufen aus Waffen oder Zusätzen, werden auf die Talent-Stufen des Charakters gerechnet, wenn er mit den Komponenten agiert.
+Sonst werden immer die Talente des Charakters verwendet.
 
 [[ref_golem_armor_rules]]
 == Regeln
@@ -108,7 +116,7 @@ Der Bonus wird auf alle xref:../../../../rules/core/core_rules_2d10_system.adoc#
 * *KO-Stufe:* Analog zur Angabe für ST, allerdings auf das Attribut KO.
 * *Bonus Rettungswurf Körper:* Die Basis des Rettungswurfs xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] wird durch diesen Wert ersetzt.
 Zusätzliche Boni des Charakters aus weiteren Quelle wie zum Beispiel aus Fähigkeiten oder Berufen werden wie üblich hinzugerechnet.
-* *MaxTL:* Jede Golem-Rüstung besitzt eine feste xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxTL], die nicht durch die Attribute des Charakters oder weitere Boni modifiziert werden kann.
+* *MaxTL:* Jede Golem-Rüstung besitzt eine feste xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxTL], die nicht durch die Attribute des Charakters oder weitere Boni modifiziert wird.
 Solange der Charakter die Golem-Rüstung trägt, gilt für ihn die angegebene MaxTL.
 * *BEW:* Analog zur MaxTL gelten die beschriebenen Regeln auch für die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 * *Rüstungspunkte:* Jede Golem-Rüstung bietet auf allen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] die angegebenen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstungspunkte].
@@ -116,3 +124,5 @@ Andere Quellen, die dem Charakter Rüstungspunkte bieten, außer xref:../../../.
 
 [NOTE]
 Die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools], insbesondere TP, bleiben unverändert, trotz anderer Stufen in ST und KO.
+Wie andere technonantischen oder magische Gegenstände, besitzt die Golem-Rüstung einen festen MP-Pool, der genutzt wird, um MP-Kosten von Waffen oder anderen Komponenren zu bezahlen.
+Ein Charakter mit dem passenden Wissen, kann diese MP nach den Regeln xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_base_items_with_mp_technomanticalitems[nutzen].

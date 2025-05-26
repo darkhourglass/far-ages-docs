@@ -1,0 +1,57 @@
+= Armmontierter Flammenwerfer
+
+*Materialkosten:* 15.000 pro GK +
+*Konstruktionszeit:* 2 Tage pro GK +
+*Zaubersprüche:* link:../../../spells/spell_fire_odem.adoc[Feuerodem] +
+*Mindestwurf:* 23 +
+*Montage:* Arm +
+*MP-Kosten:* 5 +
+*Machtstufe:* 2 +
+*Beschreibung:* Wie die link:golems_part_addon_armounted_boltergun.adoc[Bolzenkanone] kann dieser vergleichweise kleine Bruder des link:../weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer] auf einen Arm zusätzlich montiert werden, allerdings nicht gleichzeitig mit anderen armmontierten Zusätzen.
+Der armmontierte Flammenwerfer kann als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] eingesetzt und wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_cone[kegelförmige Wurfwaffe] behandelt.
+Der Golem dazu das xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Talent] verwenden, diese Zusatz gewährt jedoch keine zusätzlichen Boni.
+Abhängig von der GK dieses Zusatzes, die gleich der GK des Golems ist, auf dem er montiert wird, wird die Reichweite als Kegel und die Schadenswürfel bestimmt:
+
+|===
+|GK |Riechweite (Kegel, in Meter) |Schadenswürfel
+
+|1
+|3,00
+|2W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|2
+|4,50
+|2W6+2 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|3
+|6,00
+|3W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|4
+|6,00
+|3W6+2 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|5
+|7,50
+|4W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|6
+|9,00
+|4W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|7
+|9,00
+|4W6+4 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|8
+|12,00
+|4W6+4 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|9
+|12,00
+|5W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+
+|10
+|13,50
+|6W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden]
+|===

@@ -1,0 +1,20 @@
+= Pfahl durchs Herz
+
+*Voraussetzungen:* - +
+*Typ:* Okkult, Übernatürlich +
+*Überanstrengung:* - +
+*Beschreibung:* +
+Die Kreatur besitzt einen einzigartigen Schwachpunkt an ihrem Körper, dessen Verletzung tödliche Konsequenzen hat.
+Wird die Kreatur an der xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzone] Brust durch einen Treffer mit einem Holzpflock getroffen, tritt die weiter unten beschriebene Konsequenz ein.
+Es ist dazu eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielter Attacke] nötig.
+Der Angriff verursacht zunächst den üblichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden].
+Wird mindestens 1 Schadenspunkt verursacht, darf der Angriffer eine konkurrierende xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST-Probe] gegen einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] der Kreatur ablegen.
+Bei einem Erfolg, wird der Pfahl weiter in das Herz der Kreatur gestoßen.
+Solange, der Pfahl steckt, ist die Kreatur xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig] und xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[bewegungsunfähig].
+Der xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[sofortige Tod] der gepfählten Kreatur tritt ein, wenn die gleiche konkurrierende Probe mindestens dreimal in Folge für den Angreifer gewonnen wird.
+Dies ist für den Angreifer jeweils eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Gewinnt die gepfählte Kreatur jedoch mindestens zweimal in Folge, konnte sie den Pfahl entfernen.
+[NOTE]
+Der Pfahl muss aus Holz sein, ein Pfahl aus Metal gilt nicht für diese Schwäche.
+*Wissen(Okkultes):* Um das Wissen über diese Schwäche zu Erfahren, ist der Mindestwurf 18 zu erreichen.
+*CP:* tba +

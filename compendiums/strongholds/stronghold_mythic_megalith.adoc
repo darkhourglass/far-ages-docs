@@ -5,17 +5,54 @@
 // TODO LORE
 
 == Aktionen
-*Aktionen pro Kampfphase:* X
+*Aktionen pro Kampfphase:* 1
 
-=== Aktion 1
+[[ref_mythic_megalith_amplify_spell_reach]]
+=== Verstärke Zauberreichweite
+Als Aktion darf der Hüter zusätzlich zum Aussprechen eines Zauberspruches diesen verstärkern.
+Er muss diese Aktion zusätzlich zur xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] einsetzen für einen beliebigen Zauber, der einen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing[zusätzlichen Effekt] hat, der seine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_range[Reichweite] oder
+xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Radius] erhöht.
+erhöht.
+Der zusätzlich Effekt wird sooft angewendet, wie der Menhir <<ref_mythic_megalith_powerlevel,Stärke>> besitzt.
+
+[[ref_mythic_megalith_amplify_spell_effect]]
+=== Verstärker Zauber Effekt
 
 == Reaktionen
 
 === Reaktion 1
 
 == Passiver Effekt
+[[ref_mythic_megalith_powerlevel]]
+=== Menhir Stärke
+Jeder Menhir hat eine magische Stärke, die vergleichbar zu einer Machtstufe in Zahlen von 1 bis 10 oder höher gemessen wird.
+Diese Stärke bestimmt weiterführende Regeln für diese Art der Festung.
+Jeder Menhin kann eine eigene Stärke haben.
+
+[[ref_mythic_megalith_reach]]
+=== Einflussbereich des Menhirs
+Der Menhir ist das Kraftzentrum einer alten magischen Quelle.
+Er stellt den Mittelpunkt dieser Macht dar, deren Ausdehnung die <<ref_mythic_megalith_perpemante_enchantment,permantente Verzauberung>> enthält.
+Ein Mehin hat abhängig von seiner <<ref_mythic_megalith_powerlevel,Stärke>> eine Ausdehnung: Stärke * 10,00 Meter.
+
+
+[[ref_mythic_megalith_perpemante_enchantment]]
+=== Permanente Verzauberung
+Jeder Menhir kann eine permanente Verzauberung, eine Kombination von dauerhaften magischen Effekten, die in seiner Ausdehnung wirken.
+Die Art der Effekte ist je Menhin anders und kann durch den SL nach u.g. Regeln gestaltet werden oder im Ermessen nach den Bedürfnissen und Vorstellungen des Hüters.
+Ein Zauberspruch kann Teil der permanenten Verzauberung werden, wenn er eine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_duration[Dauer] von mehr als 1 Kampfphase besitzt und als xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Ziel] einen Wirkungsbereich.
+Falls es der SL erlaubt, können auch Zauber genutzt werden, die als Ziel eine Kreatur haben, dies dann immer der Hüter ist.
+Die Verzauberung kann aus einer beliebigen Kombination von Zaubersprüchen bestehen, die die bisherigen Voraussetzungen erfüllen, deren Summe in xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_potent[POT] maximal die <<ref_mythic_megalith_powerlevel,Menhir Stärke>> *2 beträgt.
+Dabei können keine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing[zusätzlichen Effekte] eingesetzt werden.
+Die Zaubersprüche, die für diese Verzauberung ausgewählt wurden, wirken ihren Effekt im gesammten <<ref_mythic_megalith_reach,Einflussbereich des Menhirs>>.
+
+.Beispiel
+====
+Ein Menhir der Stärke 10 bietet die Möglichkeit der Verzauberung von 10*2 = 20 POT und bis zu 100,00 Meter Umkreis.
+====
 
 == Diener
+Der mystische Menhin bietet dem Hüter keine Diener.
 
 == Umgebungseffekt
 

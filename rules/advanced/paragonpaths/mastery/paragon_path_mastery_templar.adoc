@@ -1,0 +1,102 @@
+= Ordensritter
+
+== Beschreibung
+Ein Ritterordern ist ein Zusammenschluss auf Basis gemeinsamer Ideale und Ziele von bewaffneten Kämpfern, jedoch nicht zwangsläuft der berittenen Sorte.
+Letzteres kann der Geschichte einer Kampagnenwelt natürlich möglich sein, da berittener Kampf in der Regel Adligen und wohlhabenen Personen von hohen sozialen Stand vorbehalten war.
+Eben solchen Gruppen sind auch in der Lage große, paramilitärische Organisationen zu gründen und leiten, um ein gemeinsames Ziel zu verfolgen.
+Diese Ziele können unterschiedlicher Natur sein, zum BeispieL:
+* Der Schutz von heiligen Stätten
+* Soziale und karitative Aufgaben
+* Prestige und Stand wahren
+* Die Organisation und Durchführung von Expeditionen in gefährliche Gebiete und die Suche nach verlorenen Artefakten
+
+== Voraussetzungen
+Ein Charakter, der einem Ritterorden beitreten will und damit dessen Schicksalspfad folgen möchtem muss folgene Voraussetzungen erfüllen:
+* Nahkampfwaffen 8
+* link:../../../core/skills/core_skill_weapontraining_melee.adoc[Waffentraining]
+* Jeder Aspirant muss eine <<ref_templar_requirement_anointment,Salbung>> erhalten, um ein vollwertiges Mitglied eines Ritterordens zu werden
+[[ref_templar_requirement_anointment]]
+=== Salbung zum Ordensritter
+Um Mitglied eines Ritterordens zu werden, muss ein Charakter neben den Voraussetzungen an Talenten und Fähigkeiten eine Ordensspezifische Salbung erhalten, also ein Ritual vollziehen, so dass bestehende Mitglieder des Ordens ihn als Ihresgleich aufnehmen.
+
+[NOTE]
+Jede Kampagnenwelt kann eigene Ritterorden anbieten, die eigene Ausprägungen der Initialisierung, Voraussetzung und Fähigkeiten anbieten.
+
+== Stufen lernen
+
+Ordensritter können ohne weitere Einschränkungen Stufen lernen.
+
+== Stufe 1
+Auf Stufe 1 erhalten Ordensritter <<ref_templar_orders_wargear,die Kriegsausrüstung>> des Orderns für den <<ref_templar_orders_rank,einfachsten Rang>>.
+Außerdem ist er ab Stufe 1 unter der Verpflichtung den <<ref_templar_orders_ideale,Idealen>> des Ordens zu folgen.
+
+== Maximale Stufe
+Dieser Schicksalspfad besitzt abhängig vom Orden ggf. eine maximale Stufe, ansonsten gilt die übliche 10.
+
+== Fähigkeiten
+Folgende Fähigkeiten können Ordensritter pro Stufe lernen, vorausgesetzt, sie erfüllen die weiteren Voraussetzungen.
+[[ref_templar_orders_wargear]]
+=== Excellente Ausrüstung des Ordens
+Jedem Mitglied eines Orderns steht dessen Waffenkammer zur Verfügung.
+Viele Ordern besitzen eigene Traditionen, was Ausrüstung und Bewaffnung angeht und tragen diese ggf. sogar als Insignien der Zugehörigkeit und sozialem Status.
+Diese Fähigkeit beschreibt, dass der Charakter als Ritter eines bestimmten Ordens diese Ausrüstung erhält.
+Welche Ausrüstung dies genau ist, hängt vom jeweiligen Orden ab.
+[[ref_templar_orders_rank]]
+=== Ordensrang
+Jeder Orden hat eine interne Rangstruktur nach dem Vorbild vieler Armeen.
+Je höher ein Ritter im Rang steht, desto mehr Autorität hat er gegenüber anderen Ordensmitgliedern und führt vielleicht eigene Regimenter an und er hat ggf. Vorrecht auf besondere <<ref_templar_orders_wargear,Ausrüstung>>.
+Welche Ränge zur Verfügung stehen und wie man diese erreichen kann, hängt vom jeweiligen Orden ab.
+Oft werden die Aspiranten eines Rings von 3 Mitgliedern des angestrebten Rangs bewertet oder vor Herausforderungen gestellt, um als würdig für den Aufstieg zu gelten.
+Die folgende Tabelle zeigt eine beispielhafte Rangordnung, die in vielen Orden ggf. mit anderen Namen für die jeweiligen Ränge gelebt wird:
+
+|===
+|Rang |Name |Beschreibung
+
+|1
+|Knappe / Novize
+|Neu aufgenommenen Rittern beginnen ihren Dienst mit der Unterstützung der gedienten Ritter, mit den typischen Tätigkeiten, die ein Knappe für einen Ritter erledigt.
+
+|2
+|Ritteranwärter
+|Bewehrte Knappen dürfen als Ritteranwärter auf diesem Rang in kriegerischen Auseinandersetzungen teilnehmen und sich als Kämpfer beweisen.
+
+|3
+|Ritter
+|Auf diesem Rang sind die meisten als vollwertige Mitglieder des Ordens angekommen und erhalten die traditionelle Ausrüstung des Orderns. Oft sind Ritter in Regimentern organisiert, die von einem Paladin (Rang 6) angeführt werden.
+
+|4
+|Paladin
+|Ein Paladin ist ein Ritter, der ein Regiment von Rittern anführt. Paladin übersehen die Bewegungen und Aktionen des Regiments und bewerten die Ausbildung der Knappen und Anwärter.
+
+|5
+|Kürassier
+|Kürassier sind Ritter in schwerer oder Spezial-Ausrüstung, üblicherweise bereits erfahrene Kämpfer, die mit der teueren und anspruchsvollen Ausrüstung betraut werden.
+
+|6
+|Hoch Kürassier
+|Vergleichbar zu dem Paladin ist der Hoch Kürassier ein erfahrener Ritter, der Regimeneter von Kürassieren anführt.
+
+
+|7
+|Marschall
+|Wie der General einer Armee, der mehrere Regimenter befehligt, ist der Marschall eines Ritterordens verantwortlich für mehrere Regimenter von Rittern und gibt seine Befehle über die Paladine unter sich weiter.
+
+|8
+|Groß Marschall
+|An oberster Stelle des Ordens steht der Groß-Marschall. Alle Fäden im Orden kommen an diesem Rang zusammen. Neben dieser großen Macht, wird der Groß-Marschall auch als das Herz des Ordens verstanden, der seine Ideale und Werte am besten vertreten kann.
+|===
+
+[[ref_templar_orders_training]]
+=== Ordenstraining
+Jede Orden bietet seinen Mitgliedern intensives training an, erfahrene Ordensbrüder geben ihr Wissen an jüngere weiter.
+Jeder Order bietet sein eigenes Training an, dass aus Steigerungen von Attributen, Talenten und Fähigkeiten bestehen kann und je Orden einzigartig ist.
+Die Fähigkeit kann mehrmals gelernt werden und der Charakter lernt jedesmal etwas anderes aus dem Angebot seines Ordens.
+
+[[ref_templar_orders_ideale]]
+=== Ideale des Ordens
+Jeder Ritterorden vertritt bzw. steht für besondere Ideale.
+Der Orden als Organisation erwartet daher von jedem seiner Mitglieder, nach diesen Idealen zu leben und den Orden zu repräsentieren.
+Ordensritter, die nachweislich die Ideale des Ordens verraten, können durch ein Gericht bestehend aus den oberen Rängen des Ordens eine Strafe verhängen.
+Diese Strafen reichen je nach Schwere der Vergehen von Strafarbeiten bzw. Aufträgen, die sonst niemand freiwillig machen würde (_geas_) bis zum Ausschluss (_excummicatee_) aus dem Orden.
+In beiden Fällen darf der Charakter keine weiteren Stufen dieses Schicksalspfades lernen, bis seine Strafe verbüßt wurde.
+Jeder Ritterorden vertritt andere Ideale, die aus der Beschreibung des Ordens entnommen werden können.

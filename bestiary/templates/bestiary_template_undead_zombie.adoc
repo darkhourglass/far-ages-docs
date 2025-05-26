@@ -3,11 +3,93 @@
 // TODO Beschreibung
 
 == Voraussetzungen
+Um eine Kreatur in einen Zombie zu verwandeln, muss sie folgende Voraussetzungen erfüllen:
 
+* Die Kreatur muss den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend] haben.
+* Die Kreatur darf nicht den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] haben.
+
+* Die Kreatur darf initial keinen der folgenden primären Kreaturentypen haben:
+
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_elemental.adoc[Elementar]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleim]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]
+
+* Die Kreatur muss xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[tot] sein.
+* Die Kreatur muss einen Leichnam hinterlassen.
+
+Außerdem musst Du folgende Voraussetzungen erfüllen:
+
+* Du benötigst den Zauberspruch link:../../compendiums/spells/spell_create_undead.adoc[Untoten erschaffen].
+Die Zielkreatur gilt als Ziel dieses Zauberspruches.
+Du kannst den Zauberspruch maximal für xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 9 wirken.
+* Wie üblich musst Du zu Beginn der xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spell_preparation[Vorbereitung] die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects[zusätzlichen Effekte] ansagen, welche in diesem Fall die Machtstufe bestimmen.
+* Bei erfolgreicher xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]-Probe erschaffst Du erfolgreich einen Zombie der gewählten Machtstufe.
+* Der primäre Typ der Kreatur ändert sich zu link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
+Es gelten die angegebenen xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules[Regeln].
+Folge den weiteren Regeln in diesem Kapitel, um dessen Profil zu bestimmen.
+
+[[ref_zombie_attributes]]
 == Attribute
+Der Zombie erhält die Attribute der ursprünglichen Kreatur mit folgenden Anpassungen:
+* +4 ST
+* +4 KO
+* -2 CH (min Stufe 0)
 
+[[ref_zombie_talents]]
 == Talente
+Als Zombie verliert die Kreatur alle Talentstufen *außer* der folgenden:
 
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild-Verteidigung]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_parade[Parade]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] (nur für untote Reittiere)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf]
+
+[[ref_zombie_skills]]
 == Fähigkeiten
+Als Zombie behält die Kreatur alle Fähigkeiten, die auf den behaltenen <<ref_skeleton_talents,Talenten>> basieren.
+Sollte die Kreaturen Voraussetzungen für eine Fähigkeit verlieren, verliert sie diese Fähigkeit automatisch.
 
-//Machtstufen bis 9 möglich
+=== Natürliche Rüstung
+Die verderbliche Magie, die Leichname zu Untoten wiedererweckt, macht sie außerdem äußerst widerstandsfähig gegenüber Schaden.
+Um dies zu symbolisieren, lernen alle Zombies die Fähigkeit link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] auf allen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen]. Der Rüstungswert wird abhängig von ihrer Machtstufe ermittelt:
+
+|===
+|Machtstufe| Rüstungswert
+
+|1
+|1
+
+|2
+|3
+
+|3
+|4
+
+|4
+|5
+
+|5
+|6
+
+|6
+|7
+
+|7
+|8
+
+|8
+|9
+
+|9
+|11
+|===
+
+[[ref_zombie_cp]]
+== CP
++50 pro Machtstufe

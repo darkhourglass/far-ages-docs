@@ -130,12 +130,35 @@ Durch Verzauberungen oder technomatische Expertise können auch Fahrzeuge, übli
 [[ref_lore_aether_dreams]]
 == Träume
 Eine besondere Eigenschaft des Aether ist, dass man mit Gedanken auf ihn Einfluss nehmen kann.
-Genauso ist es mit Träumen, die von schlafenden Lebenwesen ausgehen.
+Genauso ist es mit Träumen, die von schlafenden Lebewesen ausgehen.
 Diese können sich im Aether manifestieren und Bilden zusammen allen anderen Träumen eine silberne Schicht, die durch den Aether zieht, wie andere arkane Energien.
 Diese Schicht wird auch das _*Traumsilber*_ oder _*Oneiroi*_  genannt und kann durch entsprechende Magie betreten oder beobachtet werden.
-Drachen sind bekannt dafür, über ihre Träume und das Traumsilber, dass sie im Schlaf erzeugen, erhöhte Kontolle zu haben.
+Drachen sind bekannt dafür, über ihre Träume und das Traumsilber, dass sie im Schlaf erzeugen, erhöhte Kontrolle zu haben.
+
+[[ref_lore_aether_dreams_dreamlands]]
+=== Traumlande
+Die Summe aller <<ref_lore_aether_dreams,Träume>> aus dem Traumsilber bilden die *Traumlande+, ein realer Ort, der wie jede andere Ebene im Aether existiert und betreten werden kann.
+Die außergewöhnliche Magie der Träume erschafft eine parallele Dimension, die wie eine 1 zu 1 Kopie der materiellen Welt wirkt, jedoch durchsetzt mit den subtilen Details, die nur im Traum entstehen können.
+Reale Orte und Lebewesen können als ihre Traumkopie besucht oder betreten werden.
+Jedoch können Architekturen und Aufbauten stark verzerrt sein, da die Erinnerungen, die Lebewesen in ihren Träumen erleben bzw, verarbeiten, nicht vollständig oder verzerrt sind.
+
+[[ref_lore_aether_dreams_kadath]]
+=== Kadath
+Die träumende Stadt *Kadath* oder auch *das unbekannte Kadath* ist einer der wenigen stabilen Orte in den <<ref_lore_aether_dreams_dreamlands,Traumländern>>.
+Kadath ist ein uralter und übernatürlicher Ort, der nur in Traumlanden existiert.
+Es heißt, dass Kadath der Traum eines uralten Lebewesens ist, das auf Augenhöhe mit einem Progenitor stehen soll.
+Träumende können Kadath besuchen, um vergessenes Wissen aus dem Anbeginn des Multiversums zu erforschen oder die vielfältigen Wunder der Stadt zu entdecken.
+Allerding ist Kadath auch Machtzentrum vieler esoterischer und übernatürlicher Wesen, die jenseits der sterblichen Vorstellungskraft liegen und eifersüchtig ihre Geheimnisse verteidigen.
+Die Wenigen, die Kadath besuchen können, erleben die Stadt als ein archtektonisches Wunder.
+Kadath thront auf dem verschneiten und vereisten Gipfel eines steilen und zerklüfteten Berges wie die steinerne Krone eines Riesen.
+Schwarze Türme ragen in den dunklen Himmel der Traumlande, den eisige Stürmen des Gipfels trotzend.
+
 [[ref_lore_aether_veil_weak_points]]
-=== Schwache Stellen
+== Schwache Stellen
+Der Schleier, der die materielle Welt und den Aether trennt, hat manchmal *schwache Stellen*.
+Hier ist der Schleier so dünn, dass zwischen beiden Existenzebenen gewechselt werden kann.
+Zauber wie Astrale Projektionen (TODO) oder die Interaktion mit Portalen basiert auf schwachen Stellen.
+Allerdings können auch viele der <<ref_lore_aether_natives_of_the_aether,nativen Bewohner>> des Aethers diese schwachen Stellen im Schleier nutzen, um in die materielle Welt einzudringen.
 
 [[ref_lore_aether_natives_of_the_aether]]
 == Einheimische Wesen des Aethers
@@ -154,7 +177,7 @@ Das Navigieren und Bewegen über die Höhe eines Weltenbaums ist nicht trivial u
 Auch wenn ein Weltenbaum in der <<ref_lore_aether_endless_see,endlosen See>> wächst, generiert er eine Athmosphäre in seiner unmittelbaren Umgebung, so dass eine schwebende Bewegung nicht möglich ist und auch keine Schutzzauber, um in der endlosen See zu überleben.
 Gleichzeitig bedeutet dies, allerdings auch, dass ein versehentlicher Fall aus dem Geäst des Baumes, tödlich enden kann.
 Die Wurzeln eines Weltenbaums erstrecken sich kilometerweit in der eigenen Taschendimension, können in seltenen Fällen allerdings auch den Schleier durchdringen und zu anderen Welten führen.
-Das Wurzelgeflächt kann gewaltige, natürliche Kathedralen formen.
+Das Wurzelgeflecht kann gewaltige, natürliche Kathedralen formen.
 Jeder Weltenbaum trägt Früchte.
 Diese ungefähr kopfgroßen weichen Früchte erinneren in Form und Geschmack an eine Physialis.
 Man sagt ihnen magische Kräfte und Wunderheilung nach.
@@ -171,8 +194,10 @@ Die Rinde des Weltenbaumes färbte sich immer dunkler, bis sie fast schwarz wurd
 Die sonst gesunden, goldenen Blättern verloren ihren Glanz.
 Und die sonst heilsamen Früchte, verloren ihre Kraft und stattdessen füht ihr Verzehr dazu, dass der Progenitor seine finstere Agenda weiterführen kann.
 So geschehen mit den überlebenen xref:../../progenitors/lore_progenitors_titans.adoc#ref_lore_titans_aesari_and_venari[Aesari und Vanari], die zu den link:../../worlds/alvaha/nations_and_factions/jotuns_and_jotungrad[Jotun] wurden.
+[[ref_ather_rules]]
 == Regeln
 
+[[ref_ather_rules_living_creatures]]
 === Lebende Wesen
-
+[[ref_ather_rules_movement]]
 === Fortbewegung

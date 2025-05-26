@@ -1,0 +1,38 @@
+= Kann laufendes Wasser nicht überqueren
+
+*Voraussetzungen:* - +
+*Typ:* Okkult, Übernatürlich +
+*Überanstrengung:* Passiv +
+*Beschreibung:* Die Kreatur kann fließendes Wasser nicht überqueren.
+Möchte sie das dennoch tun, muss sie einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen.
+Der Mindestwurf wird bestimmt von der Art des fließenden Wassers:
+
+|===
+|Beschreibung| Mindestwurf
+
+|dünnes Rinnsal, z.b. ausgeknipptes Glas Wasser
+|7
+
+|Ruhiger Bach
+|10
+
+|Reißender Bach
+|15
+
+|Fluss
+|18
+
+|Fluss mit Hochwasser / starker Strömung
+|21
+
+|Ozean
+|25
+|===
+Die Kreatur kann bei einem erfolgreichen Rettungswurf, das Wasser überqueren.
+Allerdings, sollte eine Bewegungsaktion nicht ausreichen, um das Wasser zu überqueren, muss der Rettungwurf zu Beginn jedes xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] wiederholt werden.
+Bei einem Erfolg kann die Kreatur ihre Bewegung fortsetzen.
+Bei einem Misserfolg muss die Kreatur ihre Aktionen einsetzen, um so schnell wie möglich zum nächstmöglichen Ufer zu gelangen.
+Gleichzeigt nimmt sie sofort 1W6 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren Schaden].
+
+*Wissen(Okkultes):*  Um das Wissen über diese Schwäche zu Erfahren, ist der Mindestwurf 15 zu erreichen.
+*CP:* tba +

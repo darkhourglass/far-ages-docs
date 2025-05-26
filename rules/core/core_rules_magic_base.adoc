@@ -1333,7 +1333,7 @@ Der Wurf wird durch folgende xref:./core_rules_2d10_system.adoc#ref_core_2d10_ch
 |Column 2, row 7
 |===
 [[ref_core_magic_dispel_magic]]
-== Magiebann
+=== Magiebann
 Als *Magiebann* bezeichnet man den erfolgreichen Versuch, einen aktiven Zauberspruch, der zuvor beobachtet und <<ref_core_magic_identrify_spells,identifiziert>> wurde.
 [NOTE]
 Als aktiven Zauberspruch verstehen wir hier jeden Zauberspruch dessen Effekt über die Dauer _sofort_ hinausgeht, also eine bestimmte Anzahl von Kampfrunden andauert oder sogar _permanent_ ist.
@@ -1347,3 +1347,15 @@ Als *spontaner Magiebann* wird ein <<ref_core_magic_dispel_magic,Magiebann>> bez
 Um einen solchen Magiebann zu wirken, muss ein Magier dies explizit als xref:./core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeit] besitzten.
 Es gelten die Regeln, um einen Magiebann zu wirken, jedoch muss der Magier eine Reaktion einsetzen, die gegen sein Maximum pro Kampfphase zählt.
 Ein spontaner Magiebann ist immer eine xref:./core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Reaktion].
+
+[[ref_core_magic_portals]]
+=== Portale
+Als *Portal* wird ein magisches Phänomen bezeichnet, dass zwei Punkte im Multiversum miteinander verbindet, so dass man leicht von einem Punkt zum anderen kommt, so als würde man durch eine Tür treten.
+Die Gelehrten unterscheiden dabei zwischen zwei Arten von Portalen:
+* *Wurmlöcher:* verbinden zwei Punkte innerhalb derselben Ebene bzw. Sphere miteinander und wechseln nicht die Dimensionen
+* *Weltentore:* beide Endpunkte befinden sich jeweils in einer andern Ebene und verbinden somit zwei Dimensionen miteinander.
+Jedes Portal, egal welcher Art, besitzt folgende Eigenschaften:
+[[ref_portals_destination]] *Ziel:* jedes Portal endet in einer anderen Position, wo sich ein Gegenportal befindet
+[[ref_portals_portal_difficulty]] *Portalschwierigkeit:* eine Portalschwierigkeit ist ein Wert ab 10, der für Interaktion mit dem Portal wie Zaubersprüche einen Mindestwurf darstellt.
+[[ref_portals_open_portal]] Ein *offenes Portal* ermöglicht, dass Kreaturen an einer Seite hindurchtreten und sofort an der Gegenseite herauskommen. Man sieht ein offenes Portal wie ein Riss in der Luft.
+[[ref_portals_closed_portal]] Ein *geschlossens Portal* erlaubt kein Durchkommen, es reicht, dass eine Seite geschlossen ist.

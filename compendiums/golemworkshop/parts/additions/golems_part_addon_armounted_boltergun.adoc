@@ -1,0 +1,64 @@
+= Armmontierte Bolzenfeuerkanonen
+
+*Materialkosten:* 10.000 pro GK +
+*Konstruktionszeit:* 1 Tag pro GK +
+*Zaubersprüche:* //TODO +
+*Mindestwurf:* 16 +
+*Montage:* Arm +
+*MP-Kosten:* 2 +
+*Machtstufe:* 1 +
+*Beschreibung:* Dieser Zusatz kann auf jeden Arm montiert werden, auch wenn dieser breits eine andere Bewaffnung besitzt.
+Die Bolzenkanone ist eine kleine Konstruktion, die in der Regel auf den Handrücken montiert wird, so dass der Golem ganz sprichwörtlich aus dem Handgelenk einen Bolzen abfeuern kann.
+Der Golem kann dies in xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] durchführen.
+Die Angriffsprobe erfolgt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilangriff].
+Der Golem kann dazu sein Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projekilwaffen] benutzen, dieser Zusatz bietet jedoch keinen zusätzlichen Bonus für das Talent.
+Die Grundreichweite udn Schadenswürfel sind von der GK des Golems abhängig, wie jeder Zusatz wird auch die Bolzenkanone in der GK angefertigt und montiert, die der Zielgolem besitzt.
+Die folgende Tabelle zeigt die GK-abhängigen Werte:
+
+|===
+|GK |Grundreichweite in Meter |Schadenswürfel
+
+|1
+|3,00
+|1W6
+
+|2
+|4,50
+|1W6+1
+
+|3
+|6,00
+|1W8
+
+|4
+|7,50
+|1W8+1
+
+|5
+|9,00
+|2W6
+
+|6
+|10,50
+|2W6+1
+
+|7
+|12,00
+|3W6
+
+|8
+|13,50
+|3W6+3
+
+|9
+|15,00
+|4W6
+
+|10
+|18,00
+|4W6+4
+|===
+Die Bolzenkanone besitzt ein Magazin von X Bolzen, wobei X gleich der GK des Zusatzes ist.
+Nach dem Abfeuern eines Bolzens, muss der Lauf mit einem Bolzen aus dem Magazin nachgeladen werden, bevor die Kanone erneut abgefeuert werden kann.
+Dies kann der Golem durch eine eigene Bonus-Aktion in seinem Zug durchführen.
+Es ist nicht möglich in einem Zug den Bolzen zu laden und zu feuern.

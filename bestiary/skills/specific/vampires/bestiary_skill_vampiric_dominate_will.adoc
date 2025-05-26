@@ -12,7 +12,7 @@ Dazu musst Du alle Ziele, die Du beeinflussen möchtest, in direkter Sichtlinie 
 Du kannst nur link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide] als Ziel auswählen.
 
 Würfle eine xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei-Probe], falls Du das Talent beherrscht, oder eine Probe Bonus +1 pro Machtstufe plus Deinen Attributsbonus in xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_selfcontrol[SB].
-Alle Zielkreaturen müssen gegen das Ergebnis einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Willenskraft-Rettungswurf] ablegen.
+Alle Zielkreaturen müssen gegen das Ergebnis einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen.
 Jede Kreatur, die dieser Rettungswurf misslingt, steht für die Dauer des Effekts unter Deiner Kontrolle.
 
 Deine xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel[Machtstufe] bestimmt, wie viele Kreaturen Du beherrschen kannst und wie lange der Effekt maximal wirkt.

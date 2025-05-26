@@ -53,13 +53,16 @@ Folgende Ausnahmen sind zu beachten:
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[Ohnmächtig]
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit]
 * Vampire können SP verlieren und erleben alle damit verbundenen Konsequenzen.
-* Vampire erhalten nicht die Fähigkeiten link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)] und link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)].
+* Vampire erhalten _nicht_ (TODO really) die Fähigkeiten link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)] und link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)].
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]).
 Stattdessen erhalten sie für diese Schadensart link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz].
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung]).
 * Vampire erhalten nicht die Fähigkeit link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper].
+* Vampire sind nicht vom xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall] betroffen.
+* Vampire sind unsterblich, ihre Körper altern nicht mehr, dennoch ist ihr Körper effektiv tot. Sie haben keinen Herzschlag, atmen nicht (benötigen auch keine Luft), ihre Berührung ist kalt.
+
 
 [[ref_undead_vampire_skills_undead_powerlevel]]
 ==== Machtstufe
@@ -111,72 +114,26 @@ Nach 24 Stunden erwacht die Kreatur als Vampir.
 
 [[ref_undead_vampire_skills_vampir_bloodline]]
 ==== Blutlinie
-Der Vampir gehört einer Blutlinie von Vampiren an, die seine xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills_and_curses[Fähigkeiten und Flüche] vorbestimmt.
+Der Vampir gehört einer Blutlinie von Vampiren an, die verschiedene Askepte definiert:
+* Attributsanpassungen
+* Fähigkeiten
+* eine Vorbestimmung von xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-.Fähigkeiten].
+* Bestimmte xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_occult_weaknesses[Okkulte Schwächen] zusätzlich zu den <<ref_undead_vampire_skills_vampir_occult_weaknesses,allgemeinen>>.
 Die Blutlinie eines Vampirs ist immer die seines <<ref_undead_vampire_skills_vampir_sire,Erschaffers>>.
+Folgende Blutlinien stehen zur Auswahl:
+* link:vampire_bloodlines/specific/vampirc_bloodline_Bathori.adoc[Bathori]
+* link:vampire_bloodlines/specific/vampirc_bloodline_Moroi.adoc[Moroi]
+* link:vampire_bloodlines/specific/vampirc_bloodline_Nosferatu.adoc[Nosferatu]
+* link:vampire_bloodlines/specific/vampirc_bloodline_Strigoi.adoc[Strigoi]
 
-Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit oder einen Fluch erhält, greift zuerst die Vorgabe.
-Erhält er fünfte oder weitere Fähigkeit beziehungsweise Fluch aufgrund seiner Machtstufe, besteht dann eine freie Wahl.
+Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit erhält, greift zuerst die Vorgabe.
+Erhält er fünfte oder weitere Fähigkeit aufgrund seiner Machtstufe, besteht dann eine freie Wahl.
 
-|===
-|Blutlinie |Erste Fähigkeit |Zweite Fähigkeit |Dritte Fähigkeit |Vierte Fähigkeit
+[[ref_undead_vampire_skills_vampir_occult_weaknesses]]
+=== Allgemeine okkulte Schwächen untoter Vampire
 
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_bathori[Bathori]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_hypnotic_gaze.adoc[Hypnotischer Blick]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_dark_presence.adoc[Finstere Präsenz]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_glamour.adoc[Glamour]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_majestic_aura.adoc[Majestätische Aura]
-
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_moroi[Moroi]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_hide_in_shadows.adoc[Im Schatten verschwinden]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_dark_intellect.adoc[Finsterer Intellekt]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_shadow_step.adoc[Schattenschritt]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_blood_transfusion.adoc[Bluttransfusion]
-
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_nosferatu[Nosferatu]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_hide_in_shadows.adoc[Im Schatten verschwinden]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_dark_might.adoc[Finstere Macht]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_contagious_touch.adoc[Infektiöse]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_horrid_visage.adoc[Grauenvolles Antlitz]
-
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_strigoi[Strigoi]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_animal_shape.adoc[Tierform]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_dark_might.adoc[Finstere Macht]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_command_nightcreatures.adoc[Befehlige Kreaturen der Nacht]
-|link:../skills/specific/vampires/bestiary_skill_vampiric_mistform.adoc[Nebelform]
-|===
-
-|===
-|Blutlinie |Erster Fluch |Zweiter Fluch |Dritter Fluch |Vierter Fluch
-
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_bathori[Bathori]
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_weak[Fluch der Sonne (Schwach)]
-|tba
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_strong[Fluch der Sonne (Stark)]
-|tba
-
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_moroi[Moroi]
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_strong[Fluch der Sonne (Stark)]
-|tba
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_deathcurse[Fluch der Sonne (Todesfluch)]
-|tba
-
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_nosferatu[Nosferatu]
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_weak[Fluch der Sonne (Schwach)]
-|tba
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_strong[Fluch der Sonne (Stark)]
-|tba
-
-|xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_strigoi[Strigoi]
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_weak[Fluch der Sonne (Schwach)]
-|tba
-|xref:../../rules/advanced/curses/curse_of_the_sun.adoc#ref_curse_of_the_sun_strong[Fluch der Sonne (Stark)]
-|tba
-|===
-
-Manche Flüche existieren als unterschiedliche xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_types[Typen], die ihre Stärke darstellen.
-Ein Vampir erhält immer zuerst die Variante xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_type_weak[schwach].
-Die xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_type_harmless[harmlose] Variante wird übersprungen.
-Erhält ein Vampir einen Fluch noch einmal, steigt die Stärke des Fluches auf xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_type_strong[stark] und bei einem weiteren Mal auf den Typ xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_type_deathcurse[Todesfluch].
+* link:../skills/specific/occult/skill_occult_weakness_to_sunlight.adoc[Schwäche gegen Sonnenlicht (Mittel)]
+* link:../skills/specific/occult/skill_occult_stake_to_the_heart.adoc[Pfahl durchs Herz]
 
 .Blutlinie
 ====
@@ -185,4 +142,4 @@ Text
 
 [[ref_undead_vampire_cp]]
 == CP
-500
+500 + Kosten aus Blutlinie

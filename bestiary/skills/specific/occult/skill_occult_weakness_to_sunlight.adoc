@@ -1,0 +1,26 @@
+= Schwäche gegen Sonnenlicht (Intensität)
+
+*Voraussetzungen:* - +
+*Typ:* Occult, Übernatürlich +
+*Überanstrengung:* - +
+*Beschreibung:* Die Kreatur verbrennt im Licht der Sonne.
+Diese Anfälligkeit tritt ein, wenn die Kreatur im direkten Licht der Sonne steht.
+Befindet sich die Kreatur im Schatten eines hinreichend großen Hindernisses, wie beispielsweise eine Hauswand, ist sie geschützt.
+Auch indirektes Licht verursacht keinen negativen Effekt.
+Je nach *Intensität* wirkt sich die Schwäche aus:
+
+== Schwach
+
+Die Kreatur erleidet einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 alle Proben.
+Außerdem erhält sie jede xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1 Punkt xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+
+== Mittel
+Die Kreatur erleidet einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -6 alle Proben.
+Außerdem erhält sie jede xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 1W10 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+
+== Stark
+Die Kreatur erleidet einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -10 alle Proben.
+Außerdem erhält sie jede xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase], in der sie im Licht der Sonne steht, 2W10+2 Punkte xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren] xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+
+*Wissen(Okkultes):* Um über die Kreatur diese Schwäche herauszufinden, ist der Mindestwurf auf das Wissenstalent berechnet aus 12 + (Schwach+3, Mittel+2, Stark+1).
+*CP:* tba +

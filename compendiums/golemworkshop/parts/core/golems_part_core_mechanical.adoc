@@ -12,6 +12,9 @@
 Dieser Kern erlaubt es einer (üblicherweise link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[humanoiden]) Kreatur den Golem aus einer Pilotenkabine in dessen Rumpf zu steuern.
 
 Eine Pilotenkabine mit mechanischer Steuerung kann von einer einzelnen Kreatur bemannt werden, deren eigene xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] mindestens 2 Punkte kleiner ist, als die des Golems.
+Der Pilot benötigt das Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist (Golemsteuerung)] mindestens auf Stufe 1, um den Golem effektiv steuern zu können.
+Der SL darf Proben auf dieses Talent verlangen, um komplizierte Manöver oder ungewöhnliche Situationen darzustellen.
+Dies ist vergleichbar mit Proben auf xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten].
 Beispielsweise kann ein Golem der GK 7 von einer Kreatur der GK 5 oder kleiner gesteuert werden.
 Die Angaben in der folgenden Tabelle beziehen sich immer auf die GK des Golems.
 
@@ -54,5 +57,6 @@ Die steuernde Kreatur hat keinen direkten Zugriff auf die MP, sondern verwendet 
 Ein link:../../../spells/spell_energytransfer.adoc[Energietransfer] ist normal möglich.
 
 Der Pilot und der gesteuerte Golem gilt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Reiter und Reittier] für die Regeln im Kampf.
+Durch die besondere Panzerung und Abschirmung des Piloten erhält ein xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielter Angriff] einen zusätzlichen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von 5 auf die xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe].
 
 Golems mit dieser Energieversorgung können nicht xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[programmiert] werden.

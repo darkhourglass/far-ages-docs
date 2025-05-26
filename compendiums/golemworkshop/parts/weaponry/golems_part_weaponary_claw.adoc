@@ -1,0 +1,81 @@
+= Klaue
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:* siehe Beschreibung +
+*GK:* 1 - 10 +
+*Montage:* Arme +
+*Attribute:* +2 ST +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (ST) +
+*MP-Kosten:* - +
+*Machtstufe:* 1 +
+*Beschreibung:* Diese Nahkampfwaffe besteht aus zwei großen Zwangenscheren, die vom Golem genutzt werden können, um andere Kreaturen festzuhalten.
+Die Waffe kann auf zwei Arten verwendet werden:
+* Der Golem nutzt die schweren Scheren zum Zuschlagen und würfelt bei erfolgreichem Angriff eine Schadensprobe mit dem u.g. Schadenswürfeln
+* Der Golem versucht eine Kreatur mit gleicher oder kleiner GK zu greifen. Der Angriff folgt den Regeln zum xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen], auch wenn er technisch gesehen nicht unbewaffnet ist.
+
+Diese Art der Bewaffnung wird in Größenkategorien 1 bis 10 hergestellt und die folgende Tabelle enthält die davon abhängigen Werte:
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus
+
+|1
+|3.000
+|4 Tage
+|15
+|1W4+ST-Bonus
+
+|2
+|5.000
+|4 Tage
+|15
+|1W4+1+ST-Bonus
+
+|3
+|6.000
+|6 Tage
+|15
+|1W6+ST-Bonus
+
+|4
+|8.000
+|7 Tage
+|16
+|1W6+1+ST-Bonus
+
+|5
+|9.000
+|7 Tage
+|16
+|2W6+ST-Bonus
+
+|6
+|11.000
+|9 Tage
+|16
+|1W8+ST-Bonus
+
+|7
+|14.000
+|10 Tage
+|17
+|2W8+ST-Bonus
+
+|8
+|19.000
+|12 Tage
+|17
+|2W8+2+ST-Bonus
+
+|9
+|27.000
+|14 Tage
+|17
+|3W6+ST-Bonus
+
+|10
+|32.000
+|18 Tage
+|18
+|4W6+ST-Bonus
+|===

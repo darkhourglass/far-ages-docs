@@ -1,0 +1,22 @@
+= Sperre / Entsperre Portal
+
+*Arkanes Geheimnis: Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten, 1 Schloss und 1 passender Schlüssel +
+*Fokus:* Aether, Portale +
+*Vorbereitung:* 8 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* 1 xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_portals[Portal] +
+*Dauer:* 24 Stunden +
+*Effekt:* Du versperrst ein Portal mit einem Schloss, so als würdest Du eine Tür abschließen.
+Deine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] wird gegen die xref:../../rules/core/core_rules_magic_base.adoc#ref_portals_portal_difficulty[Portalschwierigkeit] des Zielportals gewürfelt.
+Bei einem Erfolg kann niemand mehr das Zielportal durchschreiten.
+Als Schlüssel dient ein Kennwort, dass Du festlegen kannst.
+Spricht jemand dieses Kennwort vor dem Portal, kann er es durchschreiten.
+Alternativ kannst Du einen Gegenstand, zum Beispiel einen Schlüssel, bestimmen, der getragen werden muss, um das Portal durchqueren zu können.
+Du musst Dich für eine Möglichkeit entscheiden, Du kannst die Entscheidung später nicht mehr ändern.
+Portal, die mit diesem Zauber belegt sind, kannst Du über einen zusätzlichen Effekt versuchen, zu entsperren.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +6 Stunden
++3 POT, +10 MP: versuche Portal zu entsperren. Mindestwurf ändert sich um +5.

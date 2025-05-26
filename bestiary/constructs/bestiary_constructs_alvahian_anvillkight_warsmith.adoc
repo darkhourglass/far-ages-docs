@@ -1,0 +1,77 @@
+= Kriegsschmied der Ambossritter (Al'vaha)
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+* GK: 7
+
+== Beschreibung
+[quote, Armok tan'Olkazun, Paladin der Ambossritter zu einem Anwärter auf den KürassierRang]
+_"Seid vorsichtig damit, es braucht fast 100 Tage bis ein neuer Ritter aus den Schmieden hervorgebracht werden kann"_
+Dieser Golem steht auf zwei Beinen und trögt einen ornamentierten Schild und einen schweren Kriegshammer.
+Seine leichte Bauweise und die besteigbare Pilotenkabine fallen direkt ins Auge.
+
+[NOTE]
+Der Kriegsschmied in seiner einfachsten Konfiguration wurde nach den Regeln des link:../../rules/advanced/advanced_rules_golemworkshop.adoc[Golem-Workshops] gebaut.
+Ohne Zusätze dauert die Konstruktion 99 Tage und hat 510000 Silber gekostet.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 10 (+3) +
+*ER:* 2 (+1) +
+*EN:* 2 (+1) +
+*SB:* 3 (+1) +
+*CH:* 1 (+1) +
+*TP:* 140 +
+*MP:* 220 +
+*SP:* - +
+*BEW:* 21,00 Meter +
+*INI:* +3 +
+*MaxTL:* 135 +
+*MaxPOT:* 4 +
+*Aktionen:* 3 +
+*Rüstung:* 6 (link:../../compendiums/golemworkshop/parts/plating/golems_part_plating_steel_half.adoc[Stahlpanzerung (Halb)]) +
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +8 +
+*Magie:* +8 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 8 (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_warhammer.adoc[Kriegshammer]: 1W8+3)
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] 8
+
+== Sonstiges
+
+* link:../skills/specific/constructs/bestiary_skill_constructs_machine_supremacy.adoc[Maschinenüberlegenheit]
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+Der Kriegschmied der Ambossritter ist ein Konstrukt der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_powerlevel[Machtstufe] *4*.
+Ein Mitgleid der xref:../../lore/worlds/alvaha/rules/knightyOrders.adoc#ref_options_templars_forgebound_anvilguardians[Ambosswächter] kann den Kriegsschmied in einer link:../../compendiums/golemworkshop/parts/core/golems_part_core_mechanical.adoc[mechanischen Pilotenkabine] steuern.
+Die hier vorgestellte Konfiguration besitzt keine xref:../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions[Zusätze], dass verwendete link:../../compendiums/golemworkshop/parts/chassis/golems_part_chassis_scout.adoc[Kundschafter-Chassis] erlaubt weitere 4 Zusätze.
+
+== Taktik
+Der Kriegschmied ist eine vergleichsweise leichte Kriegsmaschine, die von höher gestellten Rittern der Ambosswächter gesteuert werden.
+Die agile und leichte Bauweise des Golems erlaubt eine schnelle Fortbewegung und Manöver, die schwereren Golems vorbehalten sind.
+Die Ausstattung mit Kriegshammer und Schild spricht für eine Taktik, die den Golem schnell über Distanzen in den Nahkampf bringen soll, um die Rolle von berittenen Kriegern zu übernehmen.
+Manche Konfigurationen dieses Golems beinhalten zusätzliche Komponten, die die Manövrierbarkeit bessern, wie z.B. link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_teleportation_device.adoc[Teleporter] oder link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_jetpack.adoc[Jetpack].
