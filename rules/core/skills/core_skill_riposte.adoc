@@ -1,0 +1,11 @@
+= Riposte
+
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] 5, xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 3 +
+*Typ:* Bewegung, Passiv +
+*Überanstrengung:* 1 +
+*CP:* 100 +
+Nutzt Du xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] erfolgreich zur xref:../core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Verteidigung] gegen eine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Attacke im Nahkampf], darfst Du sofort eine eigene Attacke durchführen, ohne dass es Dich eine xref:../core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] kostet.
+Die Attacke wird als xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Attacke im Nahkampf] gewertet, der xref:../core_rules_battlesystem.adoc#ref_core_battle_actions_general_suppress_reaction[Reaktionen unterdrückt].
+Du musst dafür Dein xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen-Talent] für diesen Angriff nutzen.
+Führe xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadenswürfe] wie sonst aus.
+Der Einsatz dieser Fähigkeit kostet 1 Punkt xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung] und muss mit Einsatz Deiner Reaktion angesagt werden.

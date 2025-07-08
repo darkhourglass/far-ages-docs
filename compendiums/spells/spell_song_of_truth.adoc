@@ -1,0 +1,17 @@
+= Lied der Wahrheit
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Gesang und Instrumente +
+*Fokus:* xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_music_spellsongs[Zauberlied] +
+*Vorbereitung:* - +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 9,00 Meter +
+*Dauer:* - +
+*Effekt:* +
+Die Magie dieses Liedes enthüllt Illusionen innerhalb des Wirkungsbereiches.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] wird die POT des Lieds mit der POT im Wirkungsbereiches vorhandenen Illusionen verglichen.
+Jede Illusion, deren POT kleiner oder gleich dieser Anzahl ist, wird für alle Anwesenden im Wirkungsbereich als xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm_doupt_illusion[Illusion enttarnt].
+Dies gilt auch für neu gewirkte Illusionen.
+*Zusätzliche Effekte:* +

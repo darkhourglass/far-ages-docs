@@ -1,0 +1,81 @@
+= Name
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_fungus.adoc[Pilz]
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +
+*MP:* XXX +
+*SP:* XXX +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5, alle Trefferzonen +
+link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+*Immunitäten:*  link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental] +
+link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB+3+0 +
+*Disziplin:* SB+CH+3 +
+*Körper:* ST+KO+3+3 +
+*Magie:* EN+SB+3-1 +
+*Reflex:* GE+ER-1 +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+* link:../skills/specific/starbeast/bestiary_skill_dominated_by_the_stars.adoc[Dominiert von den Sternen]
+* Fähigkeit 2
+
+== Regeln
+
+== Taktik

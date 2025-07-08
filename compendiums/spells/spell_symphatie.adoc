@@ -1,0 +1,18 @@
+= Sympathie
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln +
+*Fokus:* Geist +
+*Vorbereitung:* 4 +
+*Reichweite:* 9,00  Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur +
+*Dauer:* 10 Kampfphasen+
+*Effekt:* +
+Du erzeugst in dem Zielwesen ein Gefühl der positiven Resonanz, so dass die Zielperson Dir oder ein Dir gewählten Person aufgeschlossener und vertrauensvoll entgegentritt. Diese erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +4 auf alle  xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[Charisma]-basieren Proben für die Dauer des Zaubers gegen das Ziel.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++2 POT, +10 MP: Bonus ist +6 statt +4
++4 POT, +20 MP: Bonus ist +8 statt +4

@@ -1,0 +1,19 @@
+= Dorniger Wuchs
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein/Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Wachstum, Körper +
+*Vorbereitung:* 5 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebdende] Kreatur +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] wachsen der Zielkreatur lange und spitze Dornen am Körper.
+Diese haben den folgenden Effekt:
+In der Situation xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen] verursacht die verzauberte Kreatur immer 2W6 zusätzlichen Schaden, auch wenn sie angegriffen wird.
+Wenn sie eine Attacke mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf] ausführt, gilt sie als bewaffnet und erhält einen zusätzlichen Schadensbonus von 1W6.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

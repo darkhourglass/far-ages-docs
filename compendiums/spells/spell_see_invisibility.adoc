@@ -1,0 +1,17 @@
+= Durchschaue Unsichtbarkeit
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Geist, Erkenntnis +
+*Vorbereitung:* 3 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 10 Kampfphasen+
+*Effekt:*
+Für die Dauer des Zauberspruches können alle verzauberten Kreatur durch den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[Unsichtbar] sehen.
+Wird dieser bei anderen Kreaturen durch einen magischen Effekt ausgelöst, muss dessen POT geringer sein, als die POT mit dem dieser Zauber ausgesprochen wurde.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++2 POT, +5 MP: Anzahl Ziele +1 Kreatur

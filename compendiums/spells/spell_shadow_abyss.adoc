@@ -1,0 +1,20 @@
+= Abyss der Schatten
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Schatten +
+*Vorbereitung:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* 5 Kampfphasen+
+*Effekt:*
+Du beschwörst eine wirbelnde Wolke aus Schattenfetzen, die im Wirkungsbereich alle Kreaturen wie einen Strudel umgeben.
+Gleichzeitig greifen aus einer schattigen Tiefe pechschwarze Arme nach oben und schlagen mit Fäusten auf die Kreaturen ein.
+Zu Beginn xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[ihre Zuges], wenn eine Kreatur sich im Wirkungsbereichs befinden, erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatsichen Treffer] mit 6W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden.
+Die Kreatur draf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] ablegen, um den o.g. Schaden zu halbieren (abrunden, Minium 1).
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++2 POT, +10 MP: Radius +3,00 Meter

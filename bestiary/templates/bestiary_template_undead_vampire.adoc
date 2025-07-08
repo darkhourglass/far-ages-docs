@@ -4,8 +4,7 @@
 
 [[ref_undead_vampire_requirements]]
 == Voraussetzungen
-
-Um eine Kreatur in einen Vampir der Brut des xref:../../lore/progenitors/lore_progenitors_nachtmare.adoc#ref_progenitors_nachtmare_vampires_strigoi[Strigoi] zu verwandeln, muss die Kreatur folgende Voraussetzungen erfüllen.
+Um eine Kreatur in einen Vampir zu verwandeln, muss die Kreatur folgende Voraussetzungen erfüllen.
 
 * Sie muss den primären Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] besitzen
 * Sie muss den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend] besitzen
@@ -15,12 +14,12 @@ Um eine Kreatur in einen Vampir der Brut des xref:../../lore/progenitors/lore_pr
 [[ref_undead_vampire_attributs]]
 == Attribute
 
-Die Attributsstufen der Kreatur werden übernommen.
+Die Attributsstufen der Kreatur werden übernommen und durch die Vorgaben der <<ref_undead_vampire_skills_vampir_bloodline,Blutlinie>> angepasst.
 
 [[ref_undead_vampire_talents]]
 == Talente
 
-Die Kreatur behält alle ihre Talente.
+Die Kreatur behält alle ihre Talente und durch die Vorgaben der <<ref_undead_vampire_skills_vampir_bloodline,Blutlinie>> erweitert.
 
 [[ref_undead_vampire_skills]]
 == Fähigkeiten
@@ -30,6 +29,7 @@ Sie erhält alle Fähigkeiten ihrer neuen xref:../../rules/advanced/creaturetype
 
 Die Kreatur erhält außerdem folgende Fähigkeiten:
 
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] (Feuer)
 * link:../skills/bestiary_skill_energyexchange.adoc[Energieaustausch]
 
 [[ref_undead_vampire_skills_undead]]
@@ -47,6 +47,7 @@ Folgende Ausnahmen sind zu beachten:
 * Vampire besitzen in der Regel SP.
 * Vampire erhalten die Fähigkeit link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * Vampire erhalten die Fähigkeit link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* Vampire erhalten die Fähigkeit link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit (Feuer)]
 * Vampire sind nicht gegen Talente und Zauber immun, die den Geist oder die Gefühle einer Person angreifen.
 * Vampire sind nur immun gegenüber folgenden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_conditions[Zuständen]:
 ** xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpft]
@@ -97,11 +98,17 @@ Der verwendete Pool für die Fähigkeit xref:../../rules/advanced/creaturetypes/
 Weiterhin wird für Vampire dieser Art der Energieentzug durch einen *Biss* und das Trinken von Blut durchgeführt.
 Um die Fähigkeit Energieentzug anwenden zu können, muss der Vampir sein Opfer zunächst xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[festhalten], beispielsweise durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Ringen].
 Ist dieser Voraussetzung erfüllt, kann der Energieentzug nach den üblichen Regeln angewendet werden.
-Dieser Akt gilt nun als Biss.
+Dieser Akt gilt nun als link:../skills/bestiary_skill_attack_bite.adoc[Biss-Angriff].
 
 [NOTE]
 Kreaturen, die sich nicht wehren können, weil sie zum Beispiel xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_unconscious[ohnmächtig] sein, können direkt gebissen werden.
-
+[[ref_undead_vampire_skills_vampir_burial_ground]]
+==== Grabstätte
+Alle Vampire sind auf mystische Art dem Tod verbunden, auch wenn sie als wandelnde Leichen diesem trotzen.
+Geht die Sonne auf, muss ein Vampir schlafen gehen und er kann erst wieder aufstehen,  wenn die Sonne untergegangen ist.
+Der Vampir muss dabei nicht zwingend in einem Sarg liegen, allerdings bieten diese tagsüber in der Regel Schutz vor zufälligen Sonnenstrahlen.
+Der Sarg oder die Gruft, in der der Vampir schläft, als *Grabstätte* bezeichnet, ist der Ort, an dem er seine Fähigkeit link:../skills/bestiary_skill_energyexchange.adoc[Energieaustausch] nutzen kann.
+Gleichzeitig gilt die Grabstätte als link:../../compendiums/items/magical/misc/magical_item_souljar.adoc[Seelengefäß], dass jedoch nicht Einsatz zerfällt.
 [[ref_undead_vampire_skills_vampir_sire]]
 ==== Erschaffer
 Eine Kreatur kann diese Schablone nur erhalten, in dem sie von einer anderen Kreatur, die diese Schablone schon besitzt, verwandelt wird.
@@ -114,11 +121,11 @@ Nach 24 Stunden erwacht die Kreatur als Vampir.
 
 [[ref_undead_vampire_skills_vampir_bloodline]]
 ==== Blutlinie
-Der Vampir gehört einer Blutlinie von Vampiren an, die verschiedene Askepte definiert:
-* Attributsanpassungen
-* Fähigkeiten
-* eine Vorbestimmung von xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-.Fähigkeiten].
-* Bestimmte xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_occult_weaknesses[Okkulte Schwächen] zusätzlich zu den <<ref_undead_vampire_skills_vampir_occult_weaknesses,allgemeinen>>.
+Der Vampir gehört einer Blutlinie von Vampiren an, die verschiedene Aspekte definiert:
+* Anpassungen bei Attributsstufen
+* Zusätzliche Talente und Fähigkeiten
+* eine Vorbestimmung von xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-Fähigkeiten].
+* Bestimmte xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_occult_weaknesses[okkulte Schwächen] zusätzlich zu den <<ref_undead_vampire_skills_vampir_occult_weaknesses,allgemeinen>>.
 Die Blutlinie eines Vampirs ist immer die seines <<ref_undead_vampire_skills_vampir_sire,Erschaffers>>.
 Folgende Blutlinien stehen zur Auswahl:
 * link:vampire_bloodlines/specific/vampirc_bloodline_Bathori.adoc[Bathori]
@@ -126,19 +133,68 @@ Folgende Blutlinien stehen zur Auswahl:
 * link:vampire_bloodlines/specific/vampirc_bloodline_Nosferatu.adoc[Nosferatu]
 * link:vampire_bloodlines/specific/vampirc_bloodline_Strigoi.adoc[Strigoi]
 
-Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit erhält, greift zuerst die Vorgabe.
-Erhält er fünfte oder weitere Fähigkeit aufgrund seiner Machtstufe, besteht dann eine freie Wahl.
+Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit erhält, greift zuerst die Vorgabe der Blutlinie.
+Erhält er eine weitere Fähigkeit aufgrund seiner Machtstufe, besteht dann eine freie Wahl.
 
 [[ref_undead_vampire_skills_vampir_occult_weaknesses]]
 === Allgemeine okkulte Schwächen untoter Vampire
-
+Alle Vampire haben folgende okkulte Schwächen fix:
+* link:../skills/specific/occult/skill_occcut_the_hunger.adoc[Der Hunger (Blut)]
 * link:../skills/specific/occult/skill_occult_weakness_to_sunlight.adoc[Schwäche gegen Sonnenlicht (Mittel)]
 * link:../skills/specific/occult/skill_occult_stake_to_the_heart.adoc[Pfahl durchs Herz]
+Okkulte Schwächen der Blutlinie kommen hinzu.
+Jeder Vampire teilt außerdem <<ref_undead_vampire_skills_vampir_general_properties,allgemeine Eigenschaften>>, die mit dem Vampirismus einhergehen.
+[[ref_undead_vampire_skills_vampir_power_of_the_blood]]
+==== Macht des Vampirebluts
+Vampirblut hat inherent mystische Kräfte, die jeder Vampir ohne weitere explizite Fähigkeiten nutzen kann.
+Alle diese Fähigkeiten können durch xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Okkultes)] ermittelt werden.
 
-.Blutlinie
-====
-Text
-====
+[[ref_undead_vampire_skills_vampir_create_progeny]]
+===== Nachkommen zeugen
+Als Untote sind Vampire steril, sie können nur neue Vampire zeugen.
+Dies kann jeder Vampir mit einer Machtstufe größe 1 nach den Regeln ein <<ref_undead_vampire_skills_vampir_sire,Erschaffer>> werden.
+Das Zeugen von Nachkommen ist in der Gesellschaft der Vampire ein Privileg, dass es sich zu verdienen gilt.
+Ungerechtfertige Nachkommen stehen in permanenter Gefahr vernichtet zu werden.
+
+[[ref_undead_vampire_skills_vampir_dominate_progeny]]
+===== Dominiere Nachkommen
+Ein <<ref_undead_vampire_skills_vampir_sire,Erschaffer>> besitzt über seine <<ref_undead_vampire_skills_vampir_create_progeny,Nachkommen>> eine gewisse Macht.
+Der Erschaffer weiß instinktiv immer, wo sich die Nachkommen aufhalten, vorausgesetzt, sie befinden auf dem gleichen Planeten und gleichen Ebene.
+Der Erschaffer kann seinen Nachkommen auch Befehle geben, deren nicht Befolgen, große körperliche Schmerzen verursacht.
+Erst wenn der Erschaffer seine Nachkommen freispricht, verschwindet diese Macht über sie.
+
+[[ref_undead_vampire_skills_vampir_diablerie]]
+==== Diablerie
+Als *Diablerie* wird der Akt bezeichnet, mit dem ein Vampir einen anderen Vampir aussaugt und somit dessen Tod verursacht sowie Blut trinkt.
+In der Vampirgesellschaft wird dies als schweres Verbrechen gesehen und nach Diablaristen werden oft gejagt und selbst vernichtet.
+Trotzdem lockt dieser abscheuliche Akt mit gewissen Vorteilen:
+* der Diablarist erlangt Wissen über die xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-Fähigkeiten] des Ausgesaugten und kann diese lernen, wenn er aufgrund seiner Machtstufe weitere Fähigkeiten aufnehmen kann.
+* Der Diablarist kann seine eigene Machtstufe um 1 erhöhen, wenn der Ausgesaugte mindestens 1 Machtstufe höher als war.
+
+[[ref_undead_vampire_skills_vampir_create_bloodbond]]
+===== Blutband schließen
+Ein Vampir kann lebene Wesen und andere Vampire freiwillig kleine Mengen von seinem Blut trinken lassen.
+Geschieht dies in mindestens 3 aufeinanderfolgenden Nächten, entsteht ein *Blutband*.
+Empfangende Wesen des Blutbandes sind durch den Vampir leichter zu beeinflussen.
+Sie erhalten einen Nachteil auf alle Rettungswürfe, um den Einfluss des Vampirs zu widerstehen.
+Gleichzeitig macht das Blut auch süchtig und viele gegen somit freiwillig einen solchen Bund ein.
+
+[[ref_undead_vampire_skills_vampir_healing]]
+===== Heilungskräfte
+Vampir Blut hat enorme Heilungskräfte.
+Ein Vampir, der freiwillig sein Blut auf Wunden einer lebenen Kreatur reibt, erzielt damit, dass sich zum einen die Wunden sofort schließen und die Kreatur 1W10 TP regeneriert.
+Vampire nutzen diese Fähigkeit auch, um ihre Bissmale zu verschleiern.
+
+[[ref_undead_vampire_skills_vampir_general_properties]]
+==== Allgemeine Eigenschaften von Vampiren
+In diesem Kapitel werden Eigenschaften von Vampiren zusammengefasst, die nicht als Regeln, sondern als erzählerische Werkzeuge genutzt werden können.
+* Vampire haben charaktertische Fangzähne, die sie aber nur benötigen, wenn sie Blut trinken, also beim Einsatz von <<ref_undead_vampire_skills_vampir_energydrain,Energieentzug>>.
+* Die Augen von Vampiren reflektieren Licht stärker und scheinen daher zu glühen.
+* Vampire, die nicht kürzlich Blut getrunken haben, sind kalt und blass wie eine Leiche.
+Vampire, die kürzlich Blut getrunken haben, haben dagegeben eine rosarote Hautfärbung, bleiben aber kalt.
+* Vampire schwitzen oder frieren nicht
+* Vampire, die geköpft werden oder deren Körper vollständig verbrannt wird, können nicht wiederauferstehen (siehe <<ref_undead_vampire_skills_vampir_burial_ground,Grabstätte>>)
+* Vampire altern nicht, sie behalten die Form vom Tag ihrer Vampirwerdung
 
 [[ref_undead_vampire_cp]]
 == CP

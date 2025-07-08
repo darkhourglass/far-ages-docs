@@ -1,0 +1,10 @@
+= Schwerer Schildschlag
+
+*Voraussetzungen:* link:core_skill_improved_shield_bash.adoc[Verbesserter Schildschlag] +
+*Typ:* Angriff +
+*Überanstrengung:* - +
+*CP:* 100 +
+Nutzt Du den link:core_skill_improved_shield_bash.adoc[verbesserten Schildschlag] kannst Du, anstatt den Schaden zu verursachen, Dir aussuchen, das Ziel Deines Angriffs zu betäuben.
+Entscheidest Du Dich dafür, würfelst Du eine xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe], die jedoch nicht vom xref:../core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] Deines Gegners abgezogen wird.
+Stattdessen muss dieser einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen das Ergebnis Deiner Schadensprobe ablegen.
+Bei einem Misserfolg erhält die Kreatur 1 Stufe xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].

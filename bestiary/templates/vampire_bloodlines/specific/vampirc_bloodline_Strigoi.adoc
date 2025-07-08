@@ -1,21 +1,34 @@
-= Name
-// Invisibility, Turn into Animals
-// TODO Beschreibung
+= Strigoi
+Die Strigoi sind eine alte Blutlinie von Vampiren, die dem tierischen Aspekt eines Jägers und Blutsaugers näher steht als dem untoten Aspekt.
+Strigoi lauern in Wäldern und an abgelegenen Bergen, im dunklen Moor oder sogar am ruhigen See, der zum Trinken einlädt.
+Strigoi besitzen eine tiefe Verbindung zu Tieren der Nacht und Jagd.
+Es heißt, sie können die Felle von Tieren anlegen und so getarnt die Sterblichen ausspionieren oder sich unerkannt bewegen.
+Der Legende nach wurde der erste Stigoi von einem tollwütigen Wolf gebissen.
+Doch anstelle der nachfolgenden Krankheit und dem Fieber zu erliegen, wurde er zu einem Vampir.
 
 == Voraussetzungen
 
 == Attribute
-Der Vampir dieser Blutlinie erhält folgende Modifikationen auf seine Attributstufen:
+Der Vampir dieser Blutlinie erhält folgende Modifikationen auf seine Attributsstufen:
+* +4 GE
+* +4 ER
+* -2 SB
 
 == Talente und Fähigkeiten
 Ein Vampir dieser Blutlinie behält die Talente und Fähigkeiten seiner sterblichen Vergangenheit.
+Sollte der Charakter die folgenden Talente nicht als xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_professional_talents[Berufstalente] besitzten, so tut er dies nun:
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf]
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben]
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen]
 
 == Vampirfähigkeiten
 Der Vampir dieser Blutlinie hat Zugriff auf folgende Vampirfähigkeiten
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_animal_shape.adoc[Tierform]
+* link:../../../skills/specific/vampires/bestiary_skill_vampiiric_grow_claws.adoc[Klauen]
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_dark_might.adoc[Finstere Macht]
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_command_nightcreatures.adoc[Befehlige Kreaturen der Nacht]
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_mistform.adoc[Nebelform]
+
 == Okkulte Schwächen
 Die Blutlinie dieses Vampirs besitzt folgende okkulten Schwächen:
 

@@ -224,8 +224,9 @@ Diese sind angegeben als <<ref_core_magic_rules_spellcasting_components_formulas
 
 [[ref_core_magic_rules_spellcasting_spellspecifics_focus]]
 *Fokus:*
-Jeder Zauberspruch hat mindestens einen Zauberfokus und kann beliebig viele haben.
+Jeder Zauberspruch hat mindestens einen <<ref_core_magic_spell_foci,Zauberfokus>> und kann beliebig viele haben.
 Viele besondere Fähigkeiten für Magier basieren auf Zauberfoki und der Verbesserung der Spruchzauberei.
+Manche Zauberfoki bringen auch besondere Regeln mit sich.
 
 [[ref_core_magic_rules_spellcasting_spellspecifics_preparation]]
 *Vorbereitung:*
@@ -897,7 +898,7 @@ Eure Augen sind euer wichtigstes Hilfsmittel, um die Wunder des Multiversums wah
 Der *Illusionismus* befasst sich mit magisch erzeugten *Trugbildern*.
 Die Opfer dieser Trugbilder können versuchen diese zu durchschauen.
 Dies geschieht mit einem  Rettungswurf auf <<ref_core_magic_schools_illusionsm_doupt_illusion,Illusion durchschauen>>.
-Als Illusionen gelten alle Zaubersprüche, die als <<ref_core_magic_rules_spellcasting_spellspecifics_focus,Fokus>> _Illusion_ besitzen.
+Als Illusionen gelten alle Zaubersprüche, die als <<ref_core_magic_rules_spellcasting_spellspecifics_focus,Fokus>> <<ref_core_magic_spell_foci_illusion,Illusion>> besitzen.
 Dabei ist es unerheblich aus welcher Zauberspruchliste wirklich stammen.
 
 [[ref_core_magic_schools_illusionsm_doupt_illusion]]
@@ -981,7 +982,7 @@ Außerdem lernt der Charakter mit der ersten Talentstufe in dieser Zauberschule 
 
 [[ref_core_magic_schools_music_spellsongs]]
 ====== Zauberlieder
-Zaubersprüche des Wegs der Musik können mit Fokus *Zauberlied* markiert sein.
+Zaubersprüche des Wegs der Musik können mit Fokus <<ref_core_magic_spell_foci_spellsong,*Zauberlied* markiert sein.
 Diese besondere Art von Zaubern funktioniert leicht anders als die üblichen Zaubersprüche.
 
 * Alle Zauberlieder müssen durch den Charakter 'aufgeführt' werden, analog zu anderen Zaubern aus dem Weg der Musik.
@@ -1185,6 +1186,9 @@ Sie bringt nichts Gutes."
 Als *wilde Magie* bezeichnen Magier beunruhigende Phänomene, die man überall im Multiversum findet.
 Magie ist ein unstetiger und unregelmäßiger Fluss von Energien, die sich in manchen Fällen im Aether zusammenballen.
 
+
+[[ref_core_magic_schools_wild_magic_zones_of_wild_magic]]
+====== Zonen Wilder Magie
 Was ist an wilder Magie nun gefährlich?
 Wie Byhragast es bereits erwähnt hat, ist wilde Magie unberechenbar.
 Und tatsächlich ist es für einen Zauberer gefährlich, seine Magie innerhalb einer *Zone wilder Magie* zu wirken.
@@ -1193,9 +1197,10 @@ Auf der anderen Seite kann wilde Magie dazu führen, dass Zaubereffekte verstär
 Zauberei innerhalb eines solchen Feldes gleicht somit eher einem Glücksspiel, das unter keiner Kontrolle steht.
 
 Weiterhin ist bekannt, dass Zonen wilder Magie häufig eigenständig magische Effekte generieren, die „echter“ Spruchzauberei ähnlich sind.
-//TODO
-Beispielsweise könnte in einem Feld ein Zaubereffekt ähnlich Rankenwuchs (Weg des Wachstum 1) kombiniert mit Fruchtbare Erde (Weg des Wachstums 1) existieren, der dazu führt, dass die dortigen Pflanzen in ungebändigter Manier wachsen und gedeihen.
-Eine andere, weitaus bedrohlichere Variante wäre, wenn dort Animiere Baum (Schamanismus 6) und Verursache Raserei (Weg des Geistes 5) wirken würde: dann bekäme man es mit wild gewordenen Baumgeistern in Form großer Eichen zu tun.
+Beispielsweise könnte in einem Feld ein Zaubereffekt ähnlich
+link:../../compendiums/spells/spell_vine_growth.adoc[Rankenwuchs]
+ kombiniert mit * link:../../compendiums/spells/spell_fertile_soil.adoc[Fruchtbare Erde] existieren, der dazu führt, dass die dortigen Pflanzen in ungebändigter Manier wachsen und gedeihen.
+Eine andere, weitaus bedrohlichere Variante wäre, wenn dort link:../../compendiums/spells/spell_awaken_plant.adoc[Erwecke Pflanze] und * link:../../compendiums/spells/spell_incite_frenzy.adoc[Verursache Raserei] wirken würde: dann bekäme man es mit wild gewordenen Baumgeistern in Form großer Eichen zu tun.
 
 In anderen Fällen wurde berichtet, dass Kinder, die in Zonen Wilder Magie geboren wurden, seltsame Kräfte und körperliche Veränderungen entwickelt haben.
 Lebende Wesen, Tier wie Humanoide, die sich zu lange in einer solchen Zone aufhalten, beginnen ebenfalls sich zu verändern, die einen mehr, die anderen weniger.
@@ -1210,14 +1215,32 @@ Wilde Magie kann jederzeit und überall auftreten, plötzlich erscheinen und ebe
 
 In diesem Kapitel wollen wir einige als Inspiration dienende Richtlinien vorstellen, die es einem SL ermöglichen, Spielercharaktere in Feldern wilder Magie mit einigen Überraschungen zu versorgen.
 
-Immer wenn ein Charakter xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] in einem Feld wilder Magie verwendet, so kann der SL mithilfe der folgenden xref:../tables/magic/tables_magic_wildmagic_effects.adoc[Tabelle] einen zufälligen Effekt bestimmen, der aufgrund der Spruchzauberei ausgelöst wird.
+[[ref_core_magic_schools_wild_magic_spells_in_wild_magic_zones]]
+===== Zaubersprüche in Zonen Wilder Magie wirken
+Immer wenn ein Charakter xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] in einer <<ref_core_magic_schools_wild_magic_zones_of_wild_magic, Zone Wilder Magie>> einsetzen,  besteht die Gefahr, dass die wilde Magie die eigentlich zu wirkende Magie beeinflusst.
+Zeigt die Augenzahl der <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> in Summe einen Wert unter der <<ref_core_magic_rules_spellcasting_spellspecifics_potent,POT>> des gezauberten Zaubers liegt, entsteht ein zusätzlicher Effekt Wilder Magie.
+Dieser wird durch einen weiteren Wurf von 2W10 + POT
+so kann der SL mithilfe der folgenden xref:../tables/magic/tables_magic_wildmagic_effects.adoc[Tabelle] einen zufälligen Effekt bestimmen, der aufgrund der Spruchzauberei ausgelöst wird.
+Dieser Wurf wird außerdem noch wie folgt modifiziert:
+* -1: Die Spruchzauberei-Probe ist ingesamt erfolgfreich
+* +5+: Die Spruchzauberei-Probe ist ingesamt in Misserfolg
+* +10: Die Spruchzauberei-Probe ist ingesamt ein Parzer
+.Wilde Magie
+====
+Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] unter Zunahme von zusätzlichen Effekten wird mit einer POT von 8 in einer Zone Wilder Magie ausgesprochen.
+Die Spruchzauberei-Probe zeigt eine Augenzahl von 3 und 4, somit 7.
+Dank der Talent-Stufen erreicht der Magier den nötigen Wert, um den Zauber auszusprechen.
+Somit tritt ein Effekt wilder Magie ein: der SL oder auch der Magier würfelt 2W10 und addiert die POT (8) hinzu.
+In diesem Beispiel wird 5,6 gewürfelt, somit 5+6+8=19.
+Der Effekt mit Wert 19 aus der o.g. Tabelle ist: TODO
+====
 
 [[ref_core_magic_schools_wild_magic_learing_casting]]
-====== Spruchzauberei mit Wilder Magie
+====== Zauberschule der wilden Magie
 Neben der allgegenwärtigen Spruchzauberei, die die Magie in Rituale und Traditionen verfasst hat, haben sich seit vielen Generationen Magier auch damit beschäftigt, die beinahe unzähmbaren Energien der wilden Magie für sich zu nutzen.
 Diese Magier, die viele Namen tragen, wie Hexer, Wilder oder Scharlatane, ignorieren bewusst die magischen Traditionen der großen Spruchzauberei-Schulen und stürzen sich in die ungebändigte Macht der wilden Magie.
 
-Ein Zauberer, der wilde Magie als Spruchzauberei „Schule“ lernt, kann diese nutzen, um ähnlich den gelehrten Magiern Zaubersprüche zu wirken.
+Ein Zauberer, der __**wilde Magie **__als Spruchzauberei „Schule“ lernt, kann diese nutzen, um ähnlich den gelehrten Magiern Zaubersprüche zu wirken.
 Im Gegensatz zu Magiern hat der Hexer jedoch keine Zauberformeln gelernt, sondern zieht die gewünschten Zaubereffekten aus der eigenen Erfahrung und Inspiration.
 
 Aus Sicht der Regeln ist die Verwendung von Zaubersprüchen und Spruchzauberei-Proben identisch, das heißt auch ein Hexer muss Zaubersprüche vorbereiten, kann MP einsetzen, muss sich an Einschränkungen aufgrund seiner MaxPOT halten und erleidet Zauberpatzer.
@@ -1225,7 +1248,7 @@ Aus Sicht der Regeln ist die Verwendung von Zaubersprüchen und Spruchzauberei-P
 Es gelten jedoch folgende, zusätzlichen Regeln und Änderungen:
 
 * Die Zauberschule der wilden Magie bringt keine eigene Zauberspruchliste mit.
-Der Hexer kann aus allen Zauberspruchschulen Zaubersprüche lernen, solange seine Talentstufe in Spruchzauberei [Wilde Magie] hoch genug ist und er die CP aufbringt.
+Der Hexer kann aus allen Zauberspruchschulen bzw. Listen Zaubersprüche lernen, solange seine Talentstufe in Spruchzauberei [Wilde Magie] hoch genug ist und er die CP aufbringt.
 Beispielsweise muss er die Talentstufe 3 erreicht haben, um einen Zauberspruch aus dem Weg des Feuers Stufe 3 lernen will.
 * Im Gegensatz zu einem anderen Spruchzauberern kann der Hexer nur eine begrenzte Anzahl von Zaubersprüchen lernen.
 Die Anzahl der Zaubersprüche, die der Hexer lernen kann, berechnet sich aus seiner Talentstufe in Spruchzauberei[Wilde Magie] und seinem Attributsbonus aus EN wie folgt: 2 + (Talentstufe * Attributsbonus).
@@ -1237,15 +1260,14 @@ Er kann damit insgesamt 2 + (3 * 2) = 8 Zaubersprüche lernen.
 ====
 
 * Gelernte Zaubersprüche können nicht „verlernt“ werde, um Platz für neue Zaubersprüche machen.
-* Bei einem Misserfolg gilt der Zauberspruch als wie in einer Zone wilder Magie gewirkt, d.h. ein zusätzlicher Effekt wie oben beschrieben tritt ein.
-* Im Fall eines Zauberpatzers tritt zusätzlich zum Zauberpatzer ein Effekt wilder Magie.
-Dieser Effekt wird bestimmt, als wäre der Zauberspruch mit 2*POT ausgesprochen worden.
 * Ein Hexer kann Spruchzauberei[Wilde Magie] nutzen, um Zaubersprüche von Spruchrollen und aus Grimoire zu wirken.
 Er kann das Talent allerdings nicht nutzen, um diese Gegenstände zu schreiben.
 * Ein Hexer kann auch andere Spruchzauberei-Talente lernen.
 Allerdings zaubert er über diese Talente nie mit wilder Magie und er muss Zaubersprüche zu dieser Zauberschule erneut lernen.
 Hat er beispielsweise Feuerball aus dem Weg des Feuers als Zauberspruch für Wilde Magie gelernt, und lernt nun Spruchzauberei[Elementarismus], so muss er Feuerball für Elementarismus noch einmal lernen.
 * Ein Magier, der Wilde Magie lernt, muss die gleichen Einschränkungen wie im vorherigen Punkt beschrieben hinnehmen, jedoch umgekehrt.
+* Wird das Talent Spruchzauberei[Wilde Magie] genutzt, gelten die Regeln als wäre der Zauber in einer <<ref_core_magic_schools_wild_magic_spells_in_wild_magic_zones,Zone Wilder Magie>> ausgesprochen worden.
+
 [[ref_core_magic_aether_perception]]
 === Aether Wahrnehmung
 In diesem Kapitel wird das Talent xref:./core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] detaillierter beschrieben mit Regeln und Richtlinien, wie man im Spiel dieses Talent einsetzen kann.
@@ -1359,3 +1381,23 @@ Jedes Portal, egal welcher Art, besitzt folgende Eigenschaften:
 [[ref_portals_portal_difficulty]] *Portalschwierigkeit:* eine Portalschwierigkeit ist ein Wert ab 10, der für Interaktion mit dem Portal wie Zaubersprüche einen Mindestwurf darstellt.
 [[ref_portals_open_portal]] Ein *offenes Portal* ermöglicht, dass Kreaturen an einer Seite hindurchtreten und sofort an der Gegenseite herauskommen. Man sieht ein offenes Portal wie ein Riss in der Luft.
 [[ref_portals_closed_portal]] Ein *geschlossens Portal* erlaubt kein Durchkommen, es reicht, dass eine Seite geschlossen ist.
+
+[[ref_core_magic_spell_foci]]
+=== Zauberfoki
+==== Elementare Foki
+
+==== Aspektelementare Foki
+==== Geist und Körper
+
+[[ref_core_magic_spell_foci_illusion]]
+==== Illusion
+
+[[ref_core_magic_spell_foci_spellsong]]
+==== Zauberlied
+
+[[ref_core_magic_spell_foci_teleport]]
+==== Teleport
+==== Schatten
+==== Ebon
+
+==== Ordnung und Chaos

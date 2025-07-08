@@ -1,0 +1,18 @@
+= Schneller Wechsel Teleport
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Teleport, Schatten +
+*Vorbereitung:* 4 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:*
+Du visierst eine Kreatur an und machst eine Handbewegung mit ausgestreckten Fingern, die ihre Position wechsel.
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] der Zielkreatur wechselst Du sofort mit der Kreatur den Platz.
+Dies ist ein Teleport-Effekt.
+Du kannst nur den Platz mit einer Kreatur tauschen, deren GK gleich Deiner ist.
+*Zusätzliche Effekte:* +
++1 POT, +2 MP: Reichweite +6,00 Meter

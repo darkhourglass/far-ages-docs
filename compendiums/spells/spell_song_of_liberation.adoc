@@ -1,0 +1,17 @@
+= Lied der Befreiung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Gesang und Instrumente +
+*Fokus:* xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_music_spellsongs[Zauberlied] +
+*Vorbereitung:* - +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 9,00 Meter +
+*Dauer:* - +
+*Effekt:* +
+Alle Kreaturen, die im Wirkungsbereich des Zauberlieds, ihren xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] im Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen] beginnen, dürfen sofort einen passenden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] ablegen, um diesen Zustand aufzulösen.
+Dies gilt für die Kreatur als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion].
+
+*Zusätzliche Effekte:* +
++2 POT, +10 MP: Betroffene Kreaturen erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5 auf ihren Rettungswurf (kumulativ anwendbar)

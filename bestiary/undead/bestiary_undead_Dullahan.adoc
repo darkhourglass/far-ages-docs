@@ -1,0 +1,126 @@
+= Dullahan, kopfloser Reiter
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 10)
+* *GK:* 5
+* *CP:* TBA
+
+== Beschreibung
+"Aus der nebligen Finsterniss der Nacht hallen immer näherkommende Hufschläge. Mondlicht fällt durch die Wipfel der Bäume und erleuchtet nur gering die Nebelschwaden, die schwer über dem Boden und zwischen den Zweigen hängen.
+Als der Hufschlag in Euren Ohren wiederhalt, schält sich langsam eine Gestalt aus der Dunkelheit. Hoch zu Ross, ein Krieger ohne Kopf."
+Legenden ranken sich um kopflose Reiter, die des Nachts Jagd auf die Lebenden machen.
+Das alte Wort Dullahan beschreibt eine solche untote Kreatur.
+Ein Dullahan trägt seinen abgetrennten Kopf in einer Hand oder unter seinem Arm.
+Die leichenblasse Haut spannt sich eng über den Knochen des Kopfes.
+In zwei pechschwarzen Augen brennen unirdische Flammen wie kleine Kometen, die konstant wie wahnsinnig hin und her zucken.
+Die Zähne sind spitz und unnatürlich lang und sein Mund ist zu einem diabolischen Grinsen verzerrt.
+In seiner freien Hand trägt Dullahan eine grausige Peitsche aus menschlichen Wirbelsäulen Knochen.
+Der Dullahan reitet auf einem schwarzen, geisterhaften Phantom Ross.
+
+== Profil
+
+*ST:* 8 (+2) +
+*GE:* 6 (+2) +
+*KO:* 9 (+3) +
+*ER:* 6 (+2) +
+*EN:* 6 (+2) +
+*SB:* 6 (+2) +
+*CH:* 9 (+3) +
+*TP:* 100 +
+*MP:* 60 +
+*SP:* - +
+*BEW:* xref:bestiary_undead_phantom_steed.adoc#ref_phantom_steed_rule_ghostwalk[Geistwandeln 12,00 Meter] +
+*INI:* +4 +
+*MaxTL:* 120 +
+*MaxPOT:* 10 +
+*Aktionen:* 3 +
+*Rüstung:* 5 (Kettenhemd und Haube bei Brust und Kopf) +
+*Resistenzen:*
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +7 +
+*Körper:* +10 +
+*Magie:* +9 +
+*Reflex:* +4 +
+
+== Offensiv
+
+* <<ref_undead_dullahan_skiLL_bone_whip,Knochenpeitsche>> +8 2W6+2 1x
+* <<ref_undead_dullahan_skiLL_evil_eye,Böser Blick>> +11
+* link:../skills/bestiary_skill_attack_multi_attack.adoc[Mehrfach-Attacke] <<ref_undead_dullahan_skiLL_bone_whip,Knochenpeitsche>>
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] +8 Kurzschwert 1W6+2
+* <<ref_undead_dullahan_skiLL_deaths_call,Todesruf>> +11
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 5
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild Verteidigung] 6
+
+== Sonstiges
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] 8
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../skills/bestiary_skill_mount.adoc[Reittier] link:bestiary_undead_phantom_steed.adoc[Phantom Ross]
+* link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura] 3,00 Meter
+* link:../skills/specific/occult/skill_occult_weakness_to_sunlight.adoc[Schwäche gegen Sonnenlicht (leicht)]
+
+== Regeln
+
+[[ref_undead_dullahan_skiLL_bone_whip]]
+=== Knochenpeitsche
+Jeder Dullahan erhält zu Beginn seiner untoten Existenz eine Peitsche aus sein einen Wirbelsäulenknochen.
+Diese gilt als link:../skills/bestiary_skill_attack_stroke.adoc[Hieb-Angriff] mit den im Profil angegebenen Werten zu Angriffsstufe und Schadenswürfel.
+Die Knochenpeitsche ist eine ST-basierte Nahkampfwaffen mit den Eigenschaften xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_reach[erhöhte Reichweite] und xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht].
+Keine andere Kreatur außer der Dullahan kann diese Waffe führen.
+
+[[ref_undead_dullahan_skiLL_evil_eye]]
+=== Böser Blick
+Dullahan hält seinen abgetrennten Kopf in einer Hand und kann seine toten Augen auf eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur richten.
+Diese Fähigkeit ersetzt die für Untote übliche Fähigkeit link:../skills/bestiary_skill_fear.adoc[Furcht] und funktioniert mit der angebenen Anstriffsstufe analog.
+
+[[ref_undead_dullahan_skiLL_deaths_call]]
+=== Todesruf
+Dullahans wird die mystische Kraft nachgesagt, dass sie den Tod einer Kreatur vorhersagen können, wenn sie deren Namen sagen.
+Um diese Fähigkeit einzusetzen, muss Dullahan den Namen einer Kreatur in Reichweite von 12,00 Metern aussprechen und mit der angegebenen Angriffsstufe eine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] ablegen.
+Die Zielkreatur erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf].
+Bei einem Erfolg des Dullahan, erhält die Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe] inklusive xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Todesrettungswürfe], solange der Dullahan innerhalb 12,00 Metern zur Kreatur verweilt.
+
+[[ref_undead_dullahan_variant_headless_coachman]]
+=== Variante: Kopfloser Kutscher
+Manche Dullahans geistern nicht nur mit einem Phantom Ross, sondern mit einem ganzen Fuhrwerk durch dien Nacht.
+Als kopfloser Kutscher ist das angebene Profil analog bis auf:
+Die geisterhafte Kutsche wird von zwei Phantom Rössern gezogen, die ihre eigenen Angriffe mitbringen.
+Die Kutsche als Objekt teilt die xref:bestiary_undead_phantom_steed.adoc#ref_phantom_steed_rule_ghostwalk[Geistwandeln 12,00 Meter] Eigenschaft und bietet als Objekt der GK 7 dem Dullahan xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[geringe Deckung] vor xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernkampfangriffen].
+
+[[ref_undead_dullahan_variant_headless_headless]]
+=== Variante: Kopflos Kopflos
+Manche Dullahans haben ihren Kopf nicht bei sich.
+Sie besitzen nicht die Fähigkeit <<ref_undead_dullahan_skiLL_evil_eye,Böse Blick>>, dafür wie alle Untoten link:../skills/bestiary_skill_fear.adoc[Furcht].
+Gleichzeitig gilt, sollten sie mit ihrem Kopf vereint werden, werden sie umgehend xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[zerstört].
+Teilweise suchen Dullahans explizit ihren Kopf, um den ewigen Unleben zu entkommen.
+
+== Taktik
+Ein Dullahan ist ein furchteinflößender Gegner, der mobil und flexibel das Schlachtfeld auf seinem Phantom Ross beherrschen kann, sowohl mit seinen körperlichen wie mentalen Fähigkeiten.
+Dullahans können von Nekromanten nicht erschaffen werden, sondern entstehen im Ermessen des SLs aufgrund eines brutalen Todes durch Enthauptung einer Kreatur, die das Talent Reiten beherrscht.
+Dullahans bewachen einen begrenzten Ort, wie eine Straßenkreuzung, einen einsamen Waldweg oder einen Friedhof.
+Manche Dullahans erscheinen auch aufgrund eines Fluchs, der in der Gegend herrscht und verschwinden erst, wenn dieser gebrochen wird.
+
+
+
+
+
+

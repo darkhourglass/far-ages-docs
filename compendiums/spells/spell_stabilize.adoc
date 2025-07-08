@@ -1,0 +1,15 @@
+= Stabilisieren
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Körper +
+*Vorbereitung:* 3 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:* +
+Berühre eine link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebene] Kreatur im Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_condition_deathsdoor[dem Tode nahe].
+Die Kreatur besteht automatisch einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_save_deathsave[Todes-Rettungswurf] und erhält genug xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] zurück, um insgesamt 1 TP zu besitzen.
+*Zusätzliche Effekte:* +

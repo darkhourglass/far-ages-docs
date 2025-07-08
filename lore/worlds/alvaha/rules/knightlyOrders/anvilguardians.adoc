@@ -1,0 +1,91 @@
+=Die Ambosswächter
+//Authors Note
+// if this order reminds you something. i.e. the Brotherhood of Steel
+// or the Astardes, well you are right. I am no stranger to both fanchises
+// i just thought, the technomants are crazy and ambitious enough to do it
+Die *Ambosswächter* sind ein Ritterorden, der als gemeinsames Projekt des xref:../nations_and_factions/noble_houses_of_the_heartlands.adoc#ref_house_of_the_forge[haus der Schmiede], den xref:../../nations_and_factions/smithingguild_of_titanspine.adoc[Schmiedegilden des Titanengrads] und xref:../../nations_and_factions/heartland.adoc#lore_heartlands_technomancy_guild_of_aleth[Technomantengilde] aus Aleth bzw. Illusk gegründet wurde.
+Alle drei Parteien neigen zum handwerklichen und technonantischen Größenwahn, was auch bei der Struktur und Ausrüstung dieses Ritterordens deutlich wird.
+Bekannt und berüchtigt ist der Ritterorden, in dem Einsatz von schwer gepanzerten und bewaffneten Infanterie-Regimentern in link:../../../../../compendiums/items/technomancy/devices/technomantic_devices_golem_armor.adoc[Golemrüstung] und spezialsierte Einheiten, die aus Golems bestehen, die von gesteuert werden.
+Die militärische Bedeutung dieses Ordens ist für die Region der Schmiedegilden nicht zu unterschätzen.
+Mit Unterstützung der regionalen Armeen, denen nominell der Groß-Marschall des Ambosswächter, als General vorsteht, können fast alle militärischen Aufgaben erfüllt werden.
+Die schließt die Abschreckung des xref:../../nations_and_factions/heartland.adoc#lore_heartlands_hegemonal_covanant[hegemonalen Bundes] für Gebiete westliche des Titanengrad bis xref:../../nations_and_factions/heartland.adoc#lore_heartlands_city_zhelebhain[Zhelebhain] ein, sowie der wichtigen Handelsrouten nach xref:../../nations_and_factions/heartland.adoc#lore_heartlands_city_illusk[Illusk] und xref:../../nations_and_factions/heartland.adoc#lore_heartlands_saddrics_gate[Saddrics Tor].
+Auch mit den Nachwirkungen des Schwarzen Winters und dem Erstarken von Monstern und Scheusalen, spielen die Ambosswächter eine entscheidene Rolle in der Sicherheit der beschriebenen Ländereien.
+Die Ambosswächter organisieren sich in Regimenter von 10 Mitgliedern im Rang Ritter angeführt von 1 Paladin, jeweils mit den angehörigen Rängen Ritteranwärter und Knappen.
+Von diesen Regimentern kann der Orden bereits 10 aufstellen, wenn es sein muss.
+Die meisten dieser Regimenter sind durch ihre Bewaffnung an bestimmte Rollen gebunden.
+Manche fokussieren auch den direkten Angriff, der im Nahkampfgemenge enden soll, andere nutzen Waffen auf Entfernung und übernehmen die Rolle von unterstützender Artillerie oder Fernkämpfern.
+Den Rang der Kürasse und die Bemannung mit link:../../../../../bestiary/constructs/bestiary_constructs_alvahian_anvillkight_warsmith.adoc[Kriegschmieden] wird seltener erreicht, auch aufgrund der Investition in diese Ausrüstung.
+Derzeit besitzt der Orden 2 Regimenter mit je 10 Kürassen und 1 Hoch-Kürass.
+Diese übernehmen in Ihren Golems die Aufgabe von Kavallerie.
+
+== Salbung zum Ambosswächter
+Um ein Mitglied der Ambosswächter zu werden, muss ein Charakter dem xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_character_advanced_rules_paragon_paths_mastery[Schicksalspfad] des link:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc[Ordensritters] einschlagen.
+Die xref:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_requirement_anointment[Salbung] erfolgt nur, wenn eine der folgenden Voraussetzungen erfüllt ist:
+* Der Charakter ist link:../../rules/joining_a_house.adoc[Mitglied] des Hauses der Schmiede
+* Der Charakter ist ein link:../../../../../rules/core/professions/core_professions_technomancer.adoc[Technomant] mit entsprechender Kampfausbildung
+* Der Charakter hat für eine der o.g. Parteien eine herausragende Leistung erbracht und wurde von hochgestellten Mitgliedern der Gilden bzw. Häuser vorgeschlagen.
+[NOTE]
+Spielercharakteren extrem teure und gefährliche Ausrüstung durch Einstieg in einen Ritterorden zu ermöglichen, mag zuerst abschrecken.
+Die Ambosswächter wählen ihre Novizen sehr strikt aus, genauso wie sie nicht mal eben jemanden in den Rang eines Ritters oder gar Kürassiers erheben.
+Oft wird Adeligen aus finanzstarken Häusern erwartet, dass sie für ihre Ausrüstung selbst aufkommen.
+
+=== Ordensränge und Ausrüstung
+Die xref:../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_rank[Ränge] im Orden der Ambossritter entsprechen den vorgestellten und die xref:../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_wargear[Ausrüstung] wird diesen Rängen zu geordnet. Die folgende Tabelle zeigt die Ausrüstung, die den jeweiligen R#ngen zur VErfügung steht,
+
+
+|===
+|Rang |Name |Verfügbare Ausrüstung
+
+|1
+|Knappe / Novize
+|keine Besondere
+
+|2
+|Ritteranwärter
+|1 xref:../../../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_masterweapons[exzellente Nahkampfwaffe] und xref:../../../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_masterarmour_shields[exzellente Rüstung].
+
+|3
+|Ritter
+|1 link:../../../../../compendiums/items/technomancy/devices/technomantic_devices_golem_armor.adoc[Golemrüstung] mit einer Golembewaffnung nach Wahl des SL
+
+|4
+|Paladin
+|1 link:../../../../../compendiums/items/technomancy/devices/technomantic_devices_golem_armor.adoc[Golemrüstung] mit einer Golembewaffnung nach eigener Wahl
+
+|5
+|Kürassier
+|1 link:../../../../../bestiary/constructs/bestiary_constructs_alvahian_anvillkight_warsmith.adoc[Kriegsschmied] in Standardausstattung
+
+|6
+|Hoch Kürassier
+|1 link:../../../../../bestiary/constructs/bestiary_constructs_alvahian_anvillkight_warsmith.adoc[Kriegsschmied] mit individeller Bewaffung und Zusätzen
+
+|7
+|tba
+|tba
+
+|8
+|tba
+|tba
+
+|9
+|tba
+|tba
+
+|10
+|Großmeister
+|tba
+|===
+=== Training der Ambosswächter
+Der Orden bietet seinen Mitgliedern xref:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_training[Training] an.
+Für jede Wahl des Trainings kann:
+* eines der folgenden Talente um 1 Stufe erhöht werden, auch wenn es kein Berufstalent ist:
+** xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_use_technomantic_device[Technomantisches Gerät verwenden]
+** xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] (Schmiedekunst, Mechanik, Technomantie)
+** xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] (Golemsteuerung)
+** xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_craft[Handwerk] (Schmiedekunst, Metallbearbeitung)
+=== Ideale der Ambosswächter
+Die xref:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_ideale[Ideale] der Ambosswächter werden in wenigen Regeln zusammengefasst:
+* _Ehre Deine Ausrüstung._ Der schludrige, rücksichtslose Umgang mit Ausrüstung, der zur Beschädigung führt, ist eine Sünde. Die mutwillige Zerstörung von Schmiedeausrüstung ebenso.
+* _Ehre die Schmiedefeuer._ Ein Ambosswächter muss sich dafür einsetzen, dass Schmiedefeuer nicht erlischen. Die Feuerwache ist eine heilige Pflicht.
+* _Gemeinsam gegen die Nacht._ Der Orden der Ambosswächter ist ein militärischer Orden, der dem Schutz der traditionellen Städte der Zwerge im Titanengrad verpflichtet ist. Es wird von den Mitgliedern erwartet, den Schutz von Zivilisten und Handwerkern in der Region zu gewährleisten, sei es gegenüber Gesetzlosen oder Monstern.

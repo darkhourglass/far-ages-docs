@@ -6,11 +6,14 @@ Heutige Bathori sind oft Mitglieder höherer sozialer Zirkel wie Adligen oder Ar
 Im Vergleich zu anderen Vampiren und den Sterblichen sehen sich Bathori als Überlegen und natürliche Anführer.
 Die meisten Bathori kleiden sich in eleganter Kleidung oder tragen verzierte Rüstungen.
 Bathori setzen auf Fähigkeiten des Glamours, Manipulation und ihrer Grausamkeit, um ihren Gegnern entgehen zu treten.
-Außerdem rühmen sich viele Bathori, ehrenwerte Kämpfer im direkten Duell zu sein, anstatt auf heimtückiche Techniken der Schattenmagie und Heimlichkeiten, wie bei anderen Blutlinien, zu setzen.
+Außerdem rühmen sich viele Bathori, ehrenwerte Kämpfer im direkten Duell zu sein, anstatt auf heimtückische Techniken der Schattenmagie und Heimlichkeiten, wie bei anderen Blutlinien, zu setzen.
 Arroganz und Stolz posieren die Bathori als die heimlichen Herrscher der Nacht.
 
+
 == Voraussetzungen
-Es muss die Schblone link:../../bestiary_template_undead_vampire.adoc[Vampir (Untod)] angewendet werden und diese Blutlinie beim Erschaffer vorliegen.
+Bathori nehmen selten Sterbliche in ihre Reihen auf, die Motive sind meistens wenig altruistisch, sondern dienen dem Zweck der Blutlinie.
+Reiche, adelige und einflussreiche Sterblich in Positionen von Macht können zum Werkzeug der Bathori werden und sollten sie das Potential haben, zum Unsterblichen werden.
+Es muss die Schablone link:../../bestiary_template_undead_vampire.adoc[Vampir (Untod)] angewendet werden und diese Blutlinie beim Erschaffer vorliegen.
 
 == Attribute
 Der Vampir dieser Blutlinie erhält folgende Modifikationen auf seine Attributstufen:
@@ -27,7 +30,8 @@ Der Vampir dieser Blutlinie hat Zugriff auf folgende Vampirfähigkeiten
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_dark_presence.adoc[Finstere Präsenz]
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_glamour.adoc[Glamour]
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_majestic_aura.adoc[Majestätische Aura]
-* // TODO: Bloodsense / Transfusion?
+* link:../../../skills/specific/vampires/bestiary_skill_vampiric_blood_transfusion.adoc[Bluttransfusion]
+
 
 == Okkulte Schwächen
 Die Blutlinie dieses Vampirs besitzt folgende okkulten Schwächen:

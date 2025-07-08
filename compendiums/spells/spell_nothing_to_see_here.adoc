@@ -1,0 +1,25 @@
+= Hier gibt es nichts zu sehen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* speziell, siehe Beschreibung +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Schatten, Geist +
+*Vorbereitung:* 3 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Du bereitest mir einer Reihe verschwischender Handbewegungen den Zauberspruch vor.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] verdeckst Du kurz Deine Augen und erzeugst im Wirkungsbereich eine Aura der Harmlosigkeit und Unaufgeregtheit.
+So als gäbe es dort, egal was vorliegt, nichts zu sehen.
+Kannst bis zu 5 Kreaturen Deiner Wahl vom Effekt dieses Zaubers ausschließen.
+Alle anderen Kreaturen, die während der Dauer in den Wirkungsbereich eintreten, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen das Ergebnis Deiner xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] bestehen oder sind von dem Effekt betroffen.
+Sie nehmen in der Zone keine verdächtigen Aktivitäten, Gegenstände oder Kreaturen bzw. deren Verhalten wahr.
+Dies äußert sich dadurch, dass sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -10 auf Proben in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen], xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_insight[Motiv erkennen], xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen] und xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_research[Forschen] erleiden.
+Der SL darf den o.f. Rettungswurf mit xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Boni] belegen, wenn dargelegt Szenerie zu extrem ist, dass sie bei gesundem Verstand nicht zu ignorieren wäre, z.B. bei Gewaltdarstellung oder Ausübung.
+
+*Zusätzliche Effekte:* +
++1 MP: Reichweite: +3,00 Meter
++1 MP: Dauer +1 Kampfphase
++1 POT, +5 MP: Radius +3,00 Meter

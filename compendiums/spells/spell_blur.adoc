@@ -1,0 +1,18 @@
+= Verwischen
+
+*Arkanes Geheimnis:* Nein  +
+*POT:* 8 +
+*Rettungswurf:* nein/ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Schatten, Geist +
+*Vorbereitung:* 6 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 5 Kampfphasen+
+*Effekt:* +
+Die Kreatur verschwimmt von der Sicht.
+Für die Dauer des Zauberspruchs hat die Kreatur xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[geringe Deckung].
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++1 POT, +5 MP: Effekt: Mittlere Deckung statt geringe Deckung
++3 POT, +15 MP: Effekt: Totale Deckung statt geringe Deckung

@@ -1,11 +1,26 @@
-= Name
+= Nosferatu
 
-// TODO Beschreibung
-// Unclean, Diseases, Incubus
+Vampire sind Monster, die als Sterbliche posieren können.
+Mit Täuschung und Anpassung wandeln Vampire unerkannt in menschlicher Gesellschaft.
+Nicht so die Nosferatu.
+Der Fluch dieser Blutlinie zeigt das Monster auch von außen.
+Nosferatu sind verunstaltete und gezeichnete Aussätzige, die im Untergrund Schutz suchen und ihre Opfer von unterhalb der Straßen auflauern.
+Nosferatu werden von ihren Mitvampiren als unrein und Krankheitsträger angesehen und gelten als Vampire niederen Status.
+Das sollte allerdings nicht täuschen.
+Die Nosferatu sind gefährlich wie alle anderen Vampire.
+Ähnlich wie die link:./vampirc_bloodline_Moroi.adoc[Moroi] setzen die Nosferatu auf Heimlichkeit, Verstecken in der Dunkelheit und die Magie der Schatten.
+Die beiden Blutlinien geraten aufgrund der Überscheidungen ihrer Nischen regelmäßig in Konflikt miteinander.
+Wie die Blutlinie der Nosferatu entstand und wie sie zum ersten Vampir steht, ist nicht überliefert.
+
 == Voraussetzungen
+Es muss die Schablone link:../../bestiary_template_undead_vampire.adoc[Vampir (Untod)] angewendet werden und diese Blutlinie beim Erschaffer vorliegen.
 
 == Attribute
 Der Vampir dieser Blutlinie erhält folgende Modifikationen auf seine Attributstufen:
+* +4 ST
+* +2 KO
+* +2 ER
+* CH wird auf xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks_step_0[Stufe 0] gesetzt.
 
 == Talente und Fähigkeiten
 Ein Vampir dieser Blutlinie behält die Talente und Fähigkeiten seiner sterblichen Vergangenheit.
@@ -13,11 +28,14 @@ Ein Vampir dieser Blutlinie behält die Talente und Fähigkeiten seiner sterblic
 == Vampirfähigkeiten
 Der Vampir dieser Blutlinie hat Zugriff auf folgende Vampirfähigkeiten
 * link:../../../skills/specific/vampires/bestiary_skill_vampiric_hide_in_shadows.adoc[Im Schatten verschwinden]
-* link:../../skills/specific/vampires/bestiary_skill_vampiric_dark_might.adoc[Finstere Macht]
-* link:../../skills/specific/vampires/bestiary_skill_vampiric_contagious_touch.adoc[Infektiöse]
-* link:../../skills/specific/vampires/bestiary_skill_vampiric_horrid_visage.adoc[Grauenvolles Antlitz]
+* link:../../../skills/specific/vampires/bestiary_skill_vampiric_dark_might.adoc[Finstere Macht]
+* link:../../../skills/specific/vampires/bestiary_skill_vampiric_contagious_touch.adoc[Infektiöse Berührung]
+* link:../../../skills/specific/vampires/bestiary_skill_vampiric_horrid_visage.adoc[Grauenvolles Antlitz]
 
 == Okkulte Schwächen
 Die Blutlinie dieses Vampirs besitzt folgende okkulten Schwächen:
 * link:../../../skills/specific/occult/skill_occult_weakness_to_sunlight.adoc[Schwäche gegen Sonnenlicht (Intensiv)]
+* [[ref_okkult_weakness_hidoues_apperance]] *Fürchterliche Erscheinung:* Die körperliche Erscheinung eines Nosferatu ändert sich drastisch, sobald er zum Vampir wird. Seine Gesichtszüge werden bestialischer mit spitzen Ohren, gelben Augen, einer knochigen Nase und einem verzerrten Mund voll spitzer Zähne. Nosferatu können ihre Widernatürlichkeit kaum verbergen und jeder, der einen Nosferatu in seiner unverhüllten Gestalt sieht, ihn als das erkennen, was er ist - ein Monster.
+
 == CP
+150

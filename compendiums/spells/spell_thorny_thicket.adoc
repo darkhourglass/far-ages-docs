@@ -1,0 +1,21 @@
+= Dorniges Gestrüpp
+
+*Arkanes Geheimnis:* Nein  +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Wachstum +
+*Vorbereitung:* 5 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] beschwörst Du im Wirkungsbereich einem dichte, dornigen Pflanzenwuchs.
+Kreaturen, die den Wirkungsbereich mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement[Bewegung] am Boden durchqueren wollen, haben folgende Optionen:
+* Sie halbieren ihre BEW, um den Wirkungsbereich zu durchqueren (es wird analog zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwierigen Gelände] behandelt)
+* Die nutzen ihre reguläre BEW, müssen allerdings einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] bestehen oder erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W6 Schaden.
+
+Besitzt das Zielgebiet keine Anlage, um Pflanzenleben zu unterstützen, hat der Zauber keinen Effekt.
+Dies kann im Ermessen des SLs in Situationen gelten, wenn karger Stein, Wüstensand oder tiefgefrohrer Boden vorliegt.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

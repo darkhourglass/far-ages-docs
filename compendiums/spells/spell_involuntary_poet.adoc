@@ -1,0 +1,18 @@
+= Unfreiwilliger Dichter
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel +
+*Fokus:* Geist, Körper +
+*Vorbereitung:* 3 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 10 Kampfphasen+
+*Effekt:*
+Dieser Zauber zwingt das Ziel ununterbrochen in Reimen zu sprechen.
+Für die Dauer des Zauberspruches muss das Ziel also auf alles einen Reim finden, bzw. das, was es sagt in Zeilen und Absätzen zu sprechen, so dass ein Reim und ein Metrum vorhanden sind (verschiedene Reimformen sind erlaubt).
+Jedes Mal, wenn das Ziel spricht, muss es zuerst einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen 17 ablegen, um so zu reimen, dass seine Sprache verständlich bleibt. Gelingt die Probe nicht, so sind die Reime für Zuhörer völlig missverständlich formuliert: das Ziel wählte einfach irgendwelche Worte, um den Reim zu konstruieren.
+Neben der irritierenden Sprechweise, die sicherlich einige Probleme im sozialen Kontext verursacht, wird außerdem die Fähigkeit zu Spruchzauberei eingeschränkt: xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formelen] können nicht adequat aufgesagt werden.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase

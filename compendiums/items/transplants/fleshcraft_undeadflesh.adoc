@@ -1,0 +1,21 @@
+= Untote Transplantate
+
+== Voraussetzungen
+Diese Liste von Transplanten enthält eine besonders widerwärtige Seite des Fleischformens.
+Fleischformer mit Kenntnissen dieser Transplantate kombinieren das Fleisch Lebender mit dem der Toten.
+Alle Transplantate bestehen aus untoten Teilen und nekromantischer Bearbeitung.
+Jedes Transplantat kann in link:../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] verpflanzt werden.
+Dazu ist auch die Kenntnis des Zaubers link:../../../compendiums/spells/spell_control_undead.adoc[Kontrolliere Untote] nötig.
+Untote mit einer komplexen oder vollständigen xref:../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_personality[Persönlichkeit] können Transplantate nur freiwillig aufnehmen.
+Die Diabolik dieser Art von Transplantate ist, dass auch link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen mit totem Fleisch verändert werden können.
+Alle lebenden Kreaturen, die ein Transplantat aus dieser Liste erhält, erhält automatisch link:../../../bestiary/skills/bestiary_skill_abhorrent.adoc[Abscheulich (Untot)].
+
+[[undeadflesh_transplant_nekrotic_bomb]]
+== Nekrotische Bombe
+Die Kreatur entwickelt eine wulstige, schwarze, tumarartige Masse an ihrem Körper, die mit nekrotischer Energie geladen ist.
+Diese Bombe geht hoch, wenn eine der folgenden Bedingungen erfüllt wird:
+* die Kreatur xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[stirbt]
+* die Kreatur erreicht 1/2 ihrer xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] und ihr misslingt ein xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungwurf] gegen 13.
+In jedem Fall ist die Kreatur xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[sofort tot], als ihr Körper in einer nekrotischen Explosion zerfetzt wird.
+Außerdem halten alle Kreaturn im Umkreis von 3,00 Metern einen xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W6+4 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischen] Schaden.
+Ein erfolgreicher xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] halbiert den Schaden (abgerundet, minimal 1).

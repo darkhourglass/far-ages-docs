@@ -1,0 +1,19 @@
+= Der Hunger (Typ)
+
+*Voraussetzungen:* - +
+*Typ:* Okkult Übernatürlich +
+*Überanstrengung:* - +
+*Beschreibung:* Die Kreatur wird von einem schrecklichen Hunger getrieben, der nur durch sehr spezielle Nahrung gestillt werden kann.
+Folgende *Typen* werden unterschieden:
+* Blut: Die Kreatur muss das Blut lebender Humanoider trinken (TP-Pool)
+* Interlekt: Die Kreatur kann Gedanken und Energie aus dem Gehirn lebener Kreaturen abziehen sich davon ernähren (MP-Pool)
+* Gefühle: Auch Gefühlsregungen lebener Humanoiden können Nahrung von übernatürlichen Wesen sein (SP-Pool)
+Diese Fähigkeit gibt der Kreatur nicht die Möglichkeit, die jeweiligen Pools von anderen Kreaturen anzugreifen, sondern stellt nur die Regel dar, um den Hunger darzustellen.
+Gerade wenn die Kreatur selbst im eigenen TP-Pool nur noch wenige Punkte übrig hat, könnte der Hunger eintreten.
+Also Daumenregel gilt 10% als gefährliche Schwelle.
+Gerät die Kreatur unter diese Schwelle, muss sie zu Beginn des eigenen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zugs] einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen oder muss ein potenzielles Opfer in Sichtweite angreifen.
+Die Kreatur erhält den Status xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Raserei].
+Dieser Zustand endet erst, wenn der Punktepool die Schwelle überschritte hat, keine Opfer mehr in Sichtweite sind oder im Ermessen des SL ein weiterer Disziplin-Rettungswurf bestanden wird.
+
+*Wissen(Okkultes):*  Um das Wissen über diese Schwäche zu Erfahren, ist der Mindestwurf 13 zu erreichen.
+*CP:* tba +

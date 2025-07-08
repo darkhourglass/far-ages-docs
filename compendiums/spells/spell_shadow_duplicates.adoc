@@ -1,0 +1,25 @@
+= Schattenduplikate
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Schatten +
+*Vorbereitung:* 4 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:*
+Du beschwörst in Deiner unmittelbaren Nähe einen Schatten, der Dir exakt ähnelt inklusive der von Dir getragenen Kleidung und Ausrüstung, nur vollständig aus Schattenmaterial bestehend.
+Das Duplikat beherrscht die gleichen Talente und Stufen wie Du und agiert mit 3 Aktionen pro Kampfphase parallen zu Dir in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinem Zug].
+Der Schatten kann allerdings nicht das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] einsetzen, außerdem sind die Duplikate Deiner Ausrüstung gewöhnlich und nicht magisch oder technomnatisch.
+Dein Duplikat könnte daher mit einer Schattenwaffe im Nahkampf agieren, aber keine magischen Fähigkeiten einsetzen.
+Während Deines Zuges darfst Du als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] Dein Duplikat opfern: statt Dir wird es Ziel eines Angriffs.
+Das Duplikat beherrscht die gleichen Verteidigungstalente wie Du, trägt den gleichen Rüstungsschutz, besitzt jedoch nur 5 TP.
+Ein Duplikat, dass 0 TP erreicht, löst sich in Luft auf.
+Schattenduplikate agieren nach Deinem Willen und können auch Gegenstände bewegegen.
+
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++2 POT, +5 MP, +1 Vorbereitungs: +1 Schattenduplikaz

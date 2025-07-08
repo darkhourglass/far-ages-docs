@@ -1,0 +1,23 @@
+= Sucher
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Geist +
+*Vorbereitung:* 5 +
+*Reichweite:* 36,00 Meter +
+*Anzahl der Ziele:* - +
+*Dauer:* 10 Kampfphasen +
+*Effekt:*
+Mit diesem Zauberspruch kannst Du jede natürliche Substanz in Reichweite des Zaubers entdecken und anvisieren.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] musst Du Dich auf eine Substanz festlegen, z.B. Wasser, ein bestimmtes Metall oder Gestein.
+Wenn es ein Vorkommen innerhalb der Reichweite gibt, spürst Du instinktiv für die Dauer des Zaubers die Richtung, in der sich dieses Vorkommen relativ zu Dir befindet.
+Du kannst den Zauber auch für andere Dinge einsetzen, um sie aufzuspüren:
+* bestimmte Pflanzen wie konkrete Kräuter oder Blumen, aber keine Kreaturen vom Typ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+* Einen Ort
+Egal welches Ziel Du anvisierst, Du musst es grundsätzlich kennen, d.h. Du kannst kein Metall suchen, wenn Du es nicht kennst.
+Befindet sich kein gesuchtest Objekt in Reichweite, erhälst Du diese Information durch die Magie des Zauberspruches.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++1 POT, +10 MP: Reichweite +12,00 Meter

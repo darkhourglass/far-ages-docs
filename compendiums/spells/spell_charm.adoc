@@ -1,0 +1,20 @@
+= Bezaubern
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln +
+*Fokus:* Geist +
+*Vorbereitung:* 4 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebener] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Dauer:* 10 Kampfphasen +
+*Effekt:*
+Mit diesem Zauber versuchst Du die Attitüde der Zielkreatur Dir gegenüber offener und freundlicher zu beeinflussen.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe]
+erhält die Kreatur den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[verzaubert].
+Der Zustand endet nach Ablauf des Zaubers und wenn Du eine aggressive Handlung gegenüber der Kreatur ausführst.
+Während dieser Zustand anhält, erhälst Du einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +7 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH-basierten] Proben, die Du gegenüber der Kreatur ablegst.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

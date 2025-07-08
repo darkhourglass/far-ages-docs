@@ -1,0 +1,20 @@
+= Schattententakel
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln +
+*Fokus:* Schatten +
+*Vorbereitung:* 4 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Selbst +
+*Dauer:* 5 Kampfphasen +
+*Effekt:*
+Einer Deiner Arme verwandelt sich für die Dauer des Zaubers in einen schwarzen Tentakel.
+Du kannst mit diesem Tentakel in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinem Zug] eine Kreatur in direkter Reichweite bis zu 3,00 Meter angreifen.
+Dies gilt als bewaffneter xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed[Nahkampfangriff].
+Diesen kannst Du mit einer Deiner Stufen in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] diesen Angriff durchführen (welche Stufe Du wählst, ist Dir überlassen).
+Die angegriffene Kreatur darf auf die Attacke xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[reagieren].
+Bei einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer], verursachst Du 2W6 + Deinen EN-Modifikator xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

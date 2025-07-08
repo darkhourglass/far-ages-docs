@@ -1,0 +1,24 @@
+= Beschwöre Glühwürmchen Schwarm
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Aether, Wachstum +
+*Vorbereitung:* 4 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:*
+Im Wirkungsbereich des Zauberspruches erscheinen bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] abertausende von aetherischen Glühwürmchen, die den Wirkungsbereich in ein sanftes Licht hüllen.
+Im Wirkungsbereich herrscht Licht und eliminiert negative Folgen von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit].
+Die Glühwürmchen formen außerdem ein dichtes Netz aus Körper, das Kreaturen in ihrer Aufmerksamkeit und Bewegung einschränkt.
+Kreaturen, die ihren xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] im Bereich des Schwarm beginnen, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] bestehen oder erhalten 1 Stufe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
+
+Der Schwarm folgt den Regeln für link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_swarm.adoc[Schwärme] und kann vor Ablauf der Dauer durch 10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] in einem Angriff vertrieben werden.
+Diese Schadenspunkte müssen durch einen Flächschaden entstehen, der im Wirkungsbereich des Schwarms ausgeteilt wird.
+Der Schwarm kann nicht als Kreatur anvisiert werden.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++2 MP: Reichweite +3,00 Meter
++1 POT, +5 MP: Radius +1,50 Meter

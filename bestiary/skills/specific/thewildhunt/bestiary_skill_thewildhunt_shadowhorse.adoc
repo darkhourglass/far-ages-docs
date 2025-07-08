@@ -1,0 +1,12 @@
+= Schattenpferd
+
+*Voraussetzungen:* Teil der Wilden Jagd +
+*Typ:* Übernatürlich, Reittier, Passiv +
+*Überanstrengung:* - +
+*CP:* 150 +
+Das Mitglied der Wilden Jagd darf ein Pferd aus purem Schatten reiten.
+Das Profil dieser übernatürlichen Wesenheit entspricht dem eines regulären link:../../../animals/bestiary_animals_horse.adoc[Pferdes], jedoch mit folgenden Ausnahmen:
+* Der primäre Kreaturentyp des Schattenpferds ist link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_empyrean.adoc[Empyrean]
+* Das Schattenpferd erhält die Fähigkeit link:../../bestiary_skill_move_flight.adoc[Fliegen] 24,00 Meter
+* Das Schattenpferd erhält die Fähigkeit link:../../bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch]
+* Das Schattenpferd erhält einen Bonus von +5 auf alle xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe]

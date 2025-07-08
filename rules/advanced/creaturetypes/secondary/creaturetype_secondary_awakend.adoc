@@ -1,5 +1,9 @@
 = Erwacht
 
+== Voraussetzungen
+Keine zwingende, aber in der Regel sind link:../primary/creaturetype_primary_animal.adoc[Tiere]
+oder link:../primary/creaturetype_primary_plant.adoc[Pflanzen] zu erwarten.
+
 [[ref_secondary_creaturetype_awakend_rules]]
 == Regeln
 Alle erwachten Kreaturen erhalten eine Persönlichkeit, Lernfähigkeit und Erkenntnisfähigkeit eines Angehörigen eines link:../primary/creaturetype_primary_humanoid.adoc[Volkes] wie link:../../../core/races/core_races_humans.adoc[Menschen], link:../../../core/races/core_races_elves_general.adoc[Elfen] oder link:../../../core/races/core_races_dwarfs.adoc[Zwergen].

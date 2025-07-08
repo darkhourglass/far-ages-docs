@@ -1,0 +1,22 @@
+= Spöttische Veränderung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Illusion, Körper +
+*Vorbereitung:* 4 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] +
+*Dauer:* 5 Kampfphasen +
+*Effekt:*
+Du fokussiert Dich auf die Kreatur, die Du verzaubern möchtest und berührst die Stellen in Deinem Gesicht, die nachher bei der Kreatur verändert werden sollen.
+Mit der xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] zeigst Du dem Ziel eine lange Nase.
+Ist die Spruchzauberei-Probe erfolgreich, wird eine Karikatur des Gesichts der Kreatur in ihrem Gesicht erzeugt.
+Ihr Ohren könnten wie lange Schlappohren erscheinen, ihre Nase könnte anschwellen und rot leuchten oder ihre Zähne können überproportional anwachsen.
+Diese Illusion beinträchtigt die Kreatur selbst fast nicht, allerdings laufen Betrachter Gefahr, ihre Beherrschung zu behalten.
+Jede Kreatur, die die Kreatur sieht und in der Lage ist, Gefühle zu erleben, muss zu Beginn des xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen oder brechen in lautes Lachen aus.
+Die Kreatur selbst erhält für die Dauer des Zaubers einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH-basierte] Proben.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

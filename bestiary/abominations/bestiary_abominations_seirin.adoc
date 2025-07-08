@@ -1,0 +1,126 @@
+= Seirin (Sirene)
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_aquatic.adoc[Aquatisch], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* GK: 6
+* CP: 2500
+
+== Beschreibung
+_"Diese Musik"_
+Sirinen sind übernatürliche Monstren, die in dunklen und gefährlichen Gewässern auf Opfer lauern, die sie mit ihrem magischen Gesang in Untiefen und den sicheren Tod locken, um sie zu verspeisen.
+Eine Sirene hat eine erstaublich große und kräftige Gestalt, die einer humnoiden Frau ähnlich ist, jedoch ist sie mit dichten, grünen Schuppen überzogen ist.
+Ihr Kopf ist der eines garstigen Tiefseefisches, mit großen Augen und einem breiten Maul voller spitzer Zähne.
+Aus der Stirn dieses furchtbaren Gesichts wächst ein kleiner tentakel förmiger Fortsatz, an dessen Ende eine kleine biolumineszente Kugel hängt.
+Siren sind für ihre übernatürliche Fähigkeit bekannt, Humanoide mit einem übernatürlichen Gesang in ihren Bann zu ziehen, so dass sie das furchterregende Aussehen der Sirene vergessen.
+Siren sind wahrscheinlich Kreationen des Progenitors xref:../../lore/progenitors/lore_progenitors_ouroboros.adoc#ref_progenitors_ouroboros_2nd_leviathan[Leviathan].
+Da viele Sirenen sich an der xref:../../lore/worlds/alvaha/nations_and_factions/dead_lands.adoc#ref_lore_dead_lands_coast_of_the_banshee_queen[Küste der Banshee Königin] aufhalten, wird vermutet, dass sie entweder ehemals Juton oder Nachtelfen waren, die den Progenitor verärgert haben oder einen dunklen Pakt eingegangen sind.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 6 (+2) +
+*ER:* 9 (+3) +
+*EN:* 9 (+3) +
+*SB:* 6 (+2) +
+*CH:* 12 (+4) +
+*TP:* 90 +
+*MP:* 90 +
+*SP:* 105 +
+*BEW:* link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] +
+*INI:* +5 +
+*MaxTL:* 135 +
+*MaxPOT:* 12 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[natürliche Rüstung] 2 (dickes, schleimiges Schuppengeflecht, alle Trefferzonen) +
+*Resistenzen:* +
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+*Immunitäten:* XXX +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +6 +
+*Körper:* +8 +
+*Magie:* +8 +
+*Reflex:* +5 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8 2W6+5 <<ref_bestiary_skill_bloodsucker,Blutsauger>>, 1x
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 2W8+5 2x
+* <<ref_bestiary_skill_hypnotic_light,Hypnotisches Licht>> 12 1x
+* <<ref_bestiary_skill_eldritch_instrument,Übernatürliches Instrument>> 12 1x
+* <<ref_bestiary_skill_enthrallment,Versklavung>> 12 1x
+* link:../skills/bestiary_skill_modification_cleave.adoc[Rundumschlag](Klauen)
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 link:../../compendiums/spells/spell_greater_disguise.adoc[Verbesserter Mummenschanz (nur selbst)]
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 9
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht, 18 Meter]
+* link:../skills/bestiary_skill_gills.adoc.adoc[Kiemen]
+* <<ref_bestiary_skill_luring_song,Verlockender Gesang>>, Mwst: 18, Radius 24,00 Meter
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
+
+== Regeln
+
+[[ref_bestiary_skill_luring_song]]
+=== Verlockender Gesang
+Bewusst oder unbewusst geht von der Sirene konstant ein unirdischer Gesang aus, der link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide] verwirrt.
+Zu Beginn des jeweiligen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugs] muss jede Kreatur mit der o.g. Kombination aus Kreaturentypen, einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen den angegebenen Mindestwurf bestehen, oder sie muss ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] verwenden, um sich in direkter Richtung der Sirene zu bewegen.
+Kreaturen, die auf diese Weise xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_bewitched[verzaubert] wurden, achten nicht auf ihre Umwelt und laufen ggf. in Fallen oder gefährliches Gelände.
+Sirenen nutzen dies, um Opfer in Untiefen zu locken oder auf Felsen prallen zu lassen.
+Der Zustand hält an, bis die Kreatur entweder außerhalb des Wirkungsbereiches ist, einen Rettungswurf besteht oder die Sirene stirbt.
+Diese Fähigkeit wirkt im angebenen Radius um die Sirene.
+
+[[ref_bestiary_skill_hypnotic_light]]
+=== Hypnotisches Licht
+Die Sirene besitzt ein einzigartiges Leuchtorgan, dass auf einem kleinen tentakelähnlichen Fortsatz, ähnlich einer Angel aus der Forderstirn der Sirene wächst.
+Das Leuchten dieses Organs zieht link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen in den Bann der Sirene.
+Im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] darf die Sirene eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen, um diese Fähigkeit zu nutzen.
+Sie würfelt eine Probe auf diese Fähigkeit gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] der Zielkreatur.
+Bei einem Erfolg erhält die Kreatur eine Stufe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
+Die Fähigkeit hat eine Reichweite von 6,00 Metern.
+
+[[ref_bestiary_skill_eldritch_instrument]]
+=== Übernatürliches Instrument
+Jede Sirene trägt ein Instrument bei sich.
+Lange Zeit dachten Scholaren, dass dies die Quelle des übernatürlichen Gesangs der Sirene ist, jedoch scheint dieser ein eigenständiger Effekt zu sein.
+Die Untersuchungen von toten Sirenen hat außerdem ergeben, dass das Instrument mehr ein Organ ist, dass außerhalb des Körpers der Sirene existiert und tatsächlich wie Musikinstrument funktioniert.
+Sirenen tragen dieses Instrument üblicherweise in ihrer Hand.
+Die Form und Oberfläche erinnert an ein Organ wie eine Mischung aus Gehirn und Magen.
+Mit dem Körper der Siren ist das Organ verbunden durch dünne Nervenfäden an ihrer linken oder rechten Körperseite.
+Die Sirene kann dieses Instrument mit ihrem Mund spielen.
+Pustet sie hinein, expandieren kleine tentakelförmige Fortschätze aus der Masse des Organs und es ertönt ein tiefer, beunruhigender Ton ähnlich eines Schiffshorns.
+Die Sirene kann dieses Instrument mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen.
+Dazu würfelt sie eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit dem angegebenen Modififkator, diese gilt als xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe].
+Alle link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen im Umkreis von 18,00 Metern, die hören können, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen den Wurf der Sirine ablegen.
+Bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] verliert die Kreatur 1W6+2 xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP], bei einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] sogar 2W6+4.
+Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[Gezielten Attacke], die mit einer Klingenwaffe ausgeführt wird und mindestens mit einem Schlag 10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schadenspunkte] verursacht, kann das Organ vom Körper der Sirene abgetrennt werden.
+Durch den Schmerz erhält die Sirene sofort 1 Stufe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
+Sie kann diese Fähigkeit nicht mehr einsetzen, bis innerhalb von 7 Tagen die Wunden geheilt sind und die Sirine durch ein magisches Ritual das Organ wieder anwachsen lässt oder ein neues Organ ausgebildet wird.
+
+[[ref_bestiary_skill_bloodsucker]]
+=== Blutsauger
+Verursacht die Sirine mit ihrer link:../skills/bestiary_skill_attack_bite.adoc[Biss] Attacke xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden] an einer link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreautr, so erhält sie sofort 1W6+1 Punkte auf ihr eigenes  xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] zurück.
+Die Sirine kann nicht über ihr Maximum TP erhalten.
+
+[[ref_bestiary_skill_enthrallment]]
+=== Versklavung
+Die Sirene kann ihre magischen Fähigkeiten des <<ref_bestiary_skill_luring_song,verlockenden Gesangs>> und <<ref_bestiary_skill_hypnotic_light,hypnotischen Lichts>> zu einem Effekt kombieren, der den Geist ihres Opfers leert und es der Sirene untertan macht.
+Dazu muss die Sirene eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] gegen einen link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden] einsetzen.
+Die würfelt eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffs-Probe] gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] der Zielkreatur.
+Bei einem Erfolg übernimmt der SL die Kontrolle über die Kreatur und sie wird alles tun, was die Sirene will.
+Die Kontrolle hält so lange an, die Kreatur den <<ref_bestiary_skill_luring_song,verlockenden Gesang>> hören kann.
+Bei einem Misserfolg oder Patzer erhält die Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5 gegenüber allen zukünftigen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfen] gegen Fähigkeiten und Talente der Sirene.
+
+== Taktik

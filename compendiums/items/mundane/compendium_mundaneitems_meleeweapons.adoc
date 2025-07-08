@@ -57,7 +57,8 @@
 |2W6+2
 |7
 |100
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer],
+xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Dreizack
 |GE
@@ -82,7 +83,8 @@ xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weap
 |3W6
 |9
 |70
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer],
+xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Großer Streitkolben
 |ST
@@ -90,7 +92,8 @@ xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weap
 |3W6+1
 |9
 |80
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer],
+xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Handaxt
 |ST
@@ -147,7 +150,8 @@ xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weap
 |3W6
 |8
 |70
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer],
+xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Kampfsense
 |ST
@@ -189,7 +193,7 @@ xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weap
 |50
 |xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mounted_combat[Berittener Kampf], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_suppress_defence_or_retailation[Unterdrücke Konter]
 
-|Peitsche
+|Peitsche [[ref_weapon_whip]]
 |GE
 |6
 |1W6
@@ -203,7 +207,8 @@ xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weap
 |3W6
 |10
 |100
-|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer]
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[Schwer],
+xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht]
 
 |Speer [[ref_weapon_speer]]
 |ST

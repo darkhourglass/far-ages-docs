@@ -1,0 +1,19 @@
+= Lied des motivierenden Tanzens
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Ja +
+*Komponenten:* Gesang und Instrumente +
+*Fokus:* xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_music_spellsongs[Zauberlied] +
+*Vorbereitung:* - +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* +
+*Effekt:* +
+Du spielst ein Lied mit einer rhytmischen und eingänglichen Melodie, das Zuhörer dazu bewegt, mit zu singen und zu tanzen.
+Jede Kreatur, die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[ihren Zug] im Effektbereich des Lieds der Verlockung beginnt, muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen das Ergebnis Deiner xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] bestehen oder dürfen ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] nur einsetzen, um zu Tanzen.
+Sie sind formal xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig].
+Kreaturen, die angegriffen werden, sind automatisch immun gegenüber dem Lied der Verlockung.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

@@ -1,0 +1,11 @@
+= Pflanzen und Kräuter
+In diesem Abschnitt finden der SL eine List von Pflanzen und Kräutern, die von Charakteren in der Wildniss gefunden oder bei Alchemisten gekauft werden können.
+Das folgenden Kapitel beschreibt den Aufbau der Einträge.
+
+== Beschreibung der Einträge
+*Name:* Name der Pflanze
+*Gebiet:* Verbreitungsgebiet der Pflanze, z.B. Wälder, Felder +
+*Rarität:* eine ungefähre Beschreibung wie oft, die Pflanze im Verbreitungsgebiet wächst+
+*Sammel/Erkennen:* Angabe des xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurfs], um die Pflanze und ihren Effekt zu erkennen. Passende Talent dafür sind im Ermessen des SLs beispielsweise xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] oder xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Pflanzen), Wissen (Alchemie)] +
+*Wert:* Angabe des Werts in Silbermünzen für eine Portion der Pflanzen und Kräuter +
+*Effekt:* + Beschreibung und Regeln bzgl. der Pflanze

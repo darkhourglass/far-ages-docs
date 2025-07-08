@@ -1,0 +1,20 @@
+= Zone des Friedens
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten, Feder einer Taube +
+*Fokus:* Geist, Körper+
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 24,00 Meter +
+*Dauer:*  12 Stunden +
+*Effekt:*
+Mit diesem Ritual erschaffst Du eine Zone absoluten Friedens, die jegliche aggressive Handlung unterdrückt.
+Alle Kreaturen, die die Zone betreten bzw. sich in dieser befinden, müssen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen 21 ablegen, sollten die eine beliebige xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes[Attacke] ohne ähnliche Handlung ausführen wollen.
+Bei einem Erfolg dürfen sie ihre Aktion ausführen.
+Bei einem Misserfolg müssen sie stattdessen ihre Aktion nutzen, um die Zone durch Bewegung zu verlassen.
+Kreaturen vom Typ link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] oder link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] ignorieren die Einschränkungen dieser Zone.
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Stunde +
++5 POT, +30 MP: Dauer: permanent

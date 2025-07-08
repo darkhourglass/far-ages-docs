@@ -1,0 +1,19 @@
+= Aura der Unsichtbarkeit
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Illusion, Schatten +
+*Vorbereitung:* 6 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 9,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:*
+Du erschaffst eine Aura um Dich herum, die alle Kreaturen im Wirkungsbereich xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar] macht gegenüber allen Kreaturen, die außerhalb der Aura stehen.
+Die Unsichtbarkeit wird gebrochen, wenn eine der unsichtbaren eine aggressive Aktion durchführt.
+Die Aura bewegt sich mit Dir und kann Kreaturen neu aufnehmen oder verlieren.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++2 POT, +5 MP: Radius +3,00 Meter

@@ -1,0 +1,23 @@
+= Tanzendes Tau
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Geist +
+*Vorbereitung:* 4 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* 1 Tau oder Seil bis zu 12,00 Meter +
+*Dauer:* 10 Kampfphasen+
+*Effekt:*
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] verzauberst Du ein Seil oder Tau in Reichweite, dessen maximale Länge 12,00 Meter nicht überschreiten darf.
+Für die Dauer des Zaubers darfst Du in Deinem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen, um das Seil zu steuern.
+Folgende Aktionen kann das Seil unter Deiner Kontrolle verwenden:
+*Bewegungen:* Das Seil schwebt auf magische Weise 12,00 Meter in eine vor Dir bestimmte Richtung.
+*Knoten:* Das Seil wickelt sich um einen Gegenstand und verknotet sich. Das Seil kann mehrere Knoten bilden, solange es freie Länge hat.
+*Knoten lösen:* Das Seil löst eine beliebigen Knoten auf.
+*Spannen:* Das Seil spannt sich auf, entweder zwischen allen vorhanden Knoten oder frei schwebend. Es kann damit auch als Hinterniss dienen.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++1 POT, +5 MP: Max. Seillänge +12,00 Meter

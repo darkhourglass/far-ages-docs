@@ -1,10 +1,10 @@
 = Korruption durch die Sternenbestie
 
-Die Sternenbestie ist eine uralte geschodene Kreatur, die von den Überlebenen Sternengeborenen vor Aeonen in einem magischen Gefängnis aus Eis auf Al'vaha eingesperrt wurde und seit dem als Gott unter dem Eis bezeichnet wird - zumindest von denjenigen Wenigen, die von ihrer Existenz überhaupt wissen.
+Die Sternenbestie ist eine uralte geschundene Kreatur, die von den Überlebenden Sternengeborenen vor Aeonen in einem magischen Gefängnis aus Eis auf Al'vaha eingesperrt wurde und seit dem als Gott unter dem Eis bezeichnet wird - zumindest von denjenigen Wenigen, die von ihrer Existenz überhaupt wissen.
 Die Sternenbestie ist eine groteskte Verzerrung eines Drachen der zweiten Progenitor Generation und durstet nach Freiheit und der ungehemmten Zerstörung und Neubesiedlung der Welt.
 Das Gefängnis sollte diese uralte Wesenheit nicht ewig binden, denn seine Gedanken und kleine Ranken ihres korrupten Fleisches sickern durch die kalte Oberfläche und durchtränken die Erde unter unseren Füßen.
 Kreaturen, die dem Einfluss der Sternenbestie ausgesetzt sind, können diese spezielle Form der xref:../advanced_rules_corruption.adoc#ref_corruptions_rules[Korrpuption] erhalten und werden schrittweise nach den irren Vorstellungen der Sternenbestie geformt.
-Oder sind es die Vorstellungen der Sternengeborenen, die vor 1,5 Millionen Jahren der Anmaßung verfielen, selbst wie ein Progenitor Leben zu schaffen, und nun durch unvollstellbare Folter zur Unkenntlichkeit verändert wurden?
+Oder sind es die Vorstellungen der Sternengeborenen, die vor 1,5 Millionen Jahren der Anmaßung verfielen, selbst wie ein Progenitor Leben zu schaffen, und nun durch unvorstellbare Folter zur Unkenntlichkeit verändert wurden?
 
 [[ref_corruption_starbeast_destructive_rage]]
 == Zerstörerische Raserei
@@ -59,4 +59,6 @@ Die exakte Natur kann durch den SL bestimmt werden.
 [[ref_corruption_starbeast_baneful_mutation]]
 == Unheilvolle Mutation
 Die verändernden Kräfte der Sternenbestie übermannen den sterblichen Körper der Kreatur und sie wird vollständig zu einer Erweiterung des Willens der Sternenbestie.
-Die Kreatur erhält die Schablone link:../../../bestiary/templates/bestiary_template_mycelian.adoc[Myzelian].
+Die Kreatur erhält die Schablone link:../../../bestiary/templates/bestiary_template_mycelian.adoc[Myzelian] oder verwandelt sich in eine link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_fungus.adoc[Plizkreatur] nach Wahl des SLs, z.B.
+* link:../../../bestiary/humanoids/bestiary_humanoids_fungal_thrall.adoc[Fungalsklave]
+// TODO

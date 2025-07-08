@@ -1,0 +1,93 @@
+=  Schlachtengolem "Phalanx" (Alvaha)
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+Das Modell Phalanx ist durch eine auffällige Bauweise gekennzeichnet.
+Sein fassähnlicher Körper, auf dessen Rücken eine massive Kanone montiert ist, wird von vier Beinen getragen, wobei die vordereren Zwei mit schweren Schild-ähnlichen Panzerplatten versehen sind.
+Die Entwickler der Phalanx haben bewusst mit Konventionen gebrochen und sich von den mächtigen xref:../animals/bestiary_animals_bisons.adoc#ref_bestiary_bison_variant_horned_bisons[gehörnten Bisons] der Steppen Ungoltas inspirieren lassen.
+So wirkt dieser Golem auch mehr wie ein Tier.
+Dennoch sollte man seine Kampfkraft und strategeischen Vorteil nicht unterschätzen.
+Im Kampf kann der Golem seine beiden Schilde zu einem massiven Wall aus Stahl vereinen und so hinter selbst getragener Deckung verschwinden, um seine Kanone gegen Gegner einzusetzen.
+Zusätzlich sind zwei kleine Flammenwerfer direkt in der Höhe der Schilde verbaut, so dass diejenigen, die es doch schaffen nahe kommen, direkt verbrannt werden können.
+[NOTE]
+Das Modell Phalanx wurde nach den Regeln des link:../../rules/advanced/advanced_rules_golemworkshop.adoc[Golem-Workshops] gebaut, jedoch mit der künstlerischen Freiheit, das Chassis und Beinen in Erscheinung anzupassen.
+Die Konstruktion einer Phalanx dauert 52 Tage und kostet 124.000 Silber.
+
+
+== Profil
+
+*ST:* 7 (+2) +
+*GE:* 2 (+1) +
+*KO:* 6 (+2) +
+*ER:* 2 (+1) +
+*EN:* 4 (+1) +
+*SB:* 3 (+1) +
+*CH:* 1 (+1) +
+*TP:* 230 +
+*MP:* 110 (link:../../compendiums/golemworkshop/parts/core/golems_part_core_basiccells.adoc[Basiszelle])+
+*SP:* - +
+*BEW:* 9,00 Meter +
+*INI:* +3 +
+*MaxTL:* 605 +
+*MaxPOT:* 7 +
+*Aktionen:* 3 +
+*Rüstung:* 8 (5 von link:../../compendiums/golemworkshop/parts/plating/golems_part_plating_steel_half.adoc[Stahlpanzerung (Halb)], 3 von Schilden)+
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:* +
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +2 +
+*Körper:* +8 +
+*Magie:* +8 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] (link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_cannon_elemental.adoc[Elementare Kanone]) 6 2W10+1 60,00 Meter, 1x
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] (link:../../compendiums/golemworkshop/parts/additions/golems_part_addon_armounted_flamethrower.adoc[Armmontierter Flammenwerfer] 5 4W6+1 7,50 Meter 2x
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild Verteidigung] 8
+* <<ref_bestiary_skill_phalanx_defensemode,Verteidigungsmodus>>
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../../compendiums/golemworkshop/parts/additions/golem_part_addon_elemental_override.adoc[elementare Überbrückung] (Schock)
+* link:../skills/specific/constructs/bestiary_skill_constructs_machine_supremacy.adoc[Maschinen Überlegenheit]
+
+== Regeln
+Eine Phalanz ist ein Konstrukt der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_powerlevel[Machtstufe] *12*.
+[[ref_bestiary_skill_phalanx_defensemode]]
+=== Verteidigungsmodus
+Einzigartig bei diesem Modell von Schlachtengolem ist eine Verteidigungsstellung, die der Golem mit Einsatz einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einnehmen und aufheben kann.
+Setzt er diese Aktion ein, rammt er die beiden Schilde seiner Vorderbeine zusammen, die eine solide Wand bilden.
+Dadurch erhält der Golem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[volle Deckung] und einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild Verteidigung].
+Es kann seine link:../../compendiums/golemworkshop/parts/weaponry/golems_part_weaponary_cannon_elemental.adoc.adoc[elementare Kanone] weiterhin benutzen, deren Rohr sicher auf dem Zusammenschluss der Schilde Stabilität findet.
+Der Golem erhält damit einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf seine Angriffsproben mit der Kanone.
+
+== Taktik
+Das Modell Phalanx wurde entworfen, um die Stadt xref:../../lore/worlds/alvaha/nations_and_factions/ungolta_and_cities_of_the_east.adoc#ref_lore_east_kotimbur_city_of_weapons[Kotimbur] vor der endlosen Flut von monströsen Skorpionen der link:../../lore/worlds/alvaha/nations_and_factions/the_legion.adoc[Legion] zu verteidigen.
+Die natürliche Schwäche der Symbionten ausnutzend, wird die elementare Überbrückung mit Schock-Schaden genutzt.
+Einzeln kämpfend bahnt sich eine Phalanx den Weg durch Gegner mir ihrer Masse und den nach vorne gerichteten Flammenwerfern.
+Die Verteidigungsstellung wird gegen eine Überzahl an Gegnern eingesetzt, um deren Anzahl mithilfe der Kanone zu reduzieren.
+Eine Phalanx kann ihre Schilde auch nutzen, um Mitkämpfende zu schützen oder überlässt Verbündeten auch die Deckung.

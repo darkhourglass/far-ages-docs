@@ -23,19 +23,8 @@ Die Kreatur lernt folgende Fähigkeiten, sobald sie diese Schablone erhält.
 
 * link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
-* <<ref_template_immortal_skills_ageless_body,Zeitloser Körper>>
-
-[[ref_template_immortal_skills_ageless_body]]
-=== Zeitloser Körper
-Die Kreatur kann nicht altern.
-Ihr Körper bleibt in dem Zustand und Verfassung zu dem Zeitpunkt, an dem sie diese Schablone erhält.
-Alternativ erreicht die Kreatur zunächst einen erwachsenen Status und verbleibt dann in einem zeitlosen Zustand.
-
-Die Kreatur ist im Allgemeinen immun gegenüber Effekten inklusive Zaubersprüchen, die Altern verursachen.
-
-Auch wenn die Kreatur nicht durch Altern sterben kann, so kann physische Gewalt sie töten.
-Es gelten die üblichen Regeln zum xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod], wenn beispielsweise die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[Trefferpunkte] der Kreatur 0 erreichen.
-Der Leichnam der Kreatur verwittert normal.
+* link:../skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
 
 [[ref_template_immortal_cp]]
 == CP
++500

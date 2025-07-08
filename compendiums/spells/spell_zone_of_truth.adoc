@@ -1,0 +1,18 @@
+= Zone der Wahrheit
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste, Weihrauch im Wert von 1000 Silber +
+*Fokus:* Geist +
+*Vorbereitung:* 1 Stunde (Ritual) +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 24 Stunden +
+*Effekt:*
+Mit diesem Ritual erschaffst Du eine Zone, in der keine Lüge gesprochen werden kann.
+Jede Kreatur, die innerhalb des Wirkungsbereichs, fähig ist, zu sprechen und zu lügen, muss, falls sie dies tut, einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen 10 + POT des Zaubers ablegen oder ist nicht in der Lage die gelogenen Worte auszusprechen.
+Magische Lügen wie Illusionen werden automatisch xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_dispel_magic[aufgehoben], wenn ihre POT unter der POT der Zone der Wahrheit liegt.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Stunde +
++1POT, +10 MP: Radius +3,00 Meter

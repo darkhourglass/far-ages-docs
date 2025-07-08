@@ -1,0 +1,21 @@
+= In die Irre führen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Geste +
+*Fokus:* Schatten, Geist +
+*Vorbereitung:* 5 Minuten (Ritual) +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 24 Stunden +
+*Effekt:* +
+Du verzauberst einen Bereich, in dem niemand einen klaren Gedanken fassen kann und die Orientierung verliert.
+Jede Kreatur, die den Wirkungsbereich betritt, muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen 5+POT des Zaubers ablegen.
+Misslingt, der Rettungswurf, kann die Kreatur ihre Aktionen nur zu Bewegung einsetzen, deren Richtung zufällig bestimmt wird.
+Verlässt die Kreatur dadurch den Bereich des Zaubers, hat sie ihr eigentliches Ziel vergessen und erst nach xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[langen Rast] kehrt ihre Erinnerung zurück.
+Im Wirkungsbereich ist es nicht mögliche, Deine Spuren zu verfolgen.
+
+*Zusätzliche Effekte:* +
++1 POT, +5 MP: Dauer +1 Stunde
++1 POT, +5 MP: Radius +6,00 Meter

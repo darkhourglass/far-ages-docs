@@ -7,13 +7,13 @@
 *Montage:* Arm +
 *MP-Kosten:* 5 +
 *Machtstufe:* 2 +
-*Beschreibung:* Wie die link:golems_part_addon_armounted_boltergun.adoc[Bolzenkanone] kann dieser vergleichweise kleine Bruder des link:../weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer] auf einen Arm zusätzlich montiert werden, allerdings nicht gleichzeitig mit anderen armmontierten Zusätzen.
+*Beschreibung:* Wie die link:golems_part_addon_armounted_boltergun.adoc[Bolzenkanone] kann dieser vergleichweise kleine Bruder des link:../weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfers] auf einen Arm zusätzlich montiert werden, allerdings nicht gleichzeitig mit anderen armmontierten Zusätzen.
 Der armmontierte Flammenwerfer kann als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] eingesetzt und wie eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_cone[kegelförmige Wurfwaffe] behandelt.
-Der Golem dazu das xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Talent] verwenden, diese Zusatz gewährt jedoch keine zusätzlichen Boni.
+Der Golem kann das xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Talent] verwenden, dieser Zusatz gewährt jedoch einen zusätzlichen Bonus von +3.
 Abhängig von der GK dieses Zusatzes, die gleich der GK des Golems ist, auf dem er montiert wird, wird die Reichweite als Kegel und die Schadenswürfel bestimmt:
 
 |===
-|GK |Riechweite (Kegel, in Meter) |Schadenswürfel
+|GK |Reichweite (Kegel, in Meter) |Schadenswürfel
 
 |1
 |3,00

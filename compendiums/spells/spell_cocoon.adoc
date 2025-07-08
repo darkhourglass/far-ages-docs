@@ -1,0 +1,26 @@
+= Kokon
+
+*Arkanes Geheimnis:* Ja +
+*POT:* 13 +
+*Rettungswurf:* Nein/Ja +
+*Komponenten:* Formeln, Gesten, präperiete Nährflüssigkeit für 10.000 Silbermünzen +
+*Fokus:* Körper, Wachstum, Aether +
+*Vorbereitung:* 4 Stunden (Ritual) +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendige] Kreatur +
+*Dauer:* 28 Tage +
+*Effekt:*
+Während dieses Rituals wird die Zielkreatur in die verzauberte Nährflüssigkeit gelegt, die sich bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] zu einer harten, chitin-artigen Substanz verdickt, die die Kreatur einschließt.
+Eine Kreatur kann nur freiwillig Ziel dieses Zaubers sein.
+Die Kreatur wird für die Dauer des Zaubers im Kokon am Leben erhalten, sie erhält Nahrung, Wasser und Luft und befindet sich in einem tiefen, schlafähnlichen Zustand.
+Die Kreatur gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[bewegungsunfähig].
+Pro volle 8 Stunden im Kokon xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] die Kreatur je 1W10 TP, MP und SP bis zu ihrem jeweiligen Pool-Maximum.
+Darüber hinaus heilen schwere Wunden und sogar verlorene Gliedmaßen.
+Tödliche Verletzungen wie beispielsweise ein abgetrennter Kopf oder ein Stich durch das Herz können ohne zusätzliche Effekte nicht regeneriert werden.
+Während der Verweildauer der Kreatur im Kokon kann die Kreatur nicht Ziel eines Zauberspruchs werden, außer dieser wird vom Zauberer des Kokons ausgesprochen.
+Am Ende der Dauer des Zaubers löst sich der Kokon in Flüssigkeit auf und versickert im Boden.
+Die Kreatur erwacht von selbst.
+Der Kokon ist ein xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles[Objekt] mit einer xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object_hardness[Härte] gleich der POT dieses Zaubers und einer xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object_intergrety[Integrität] von % * POT des Zauberspruches.
+Wird der Kokon vor Ablauf der Dauer xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object[zerstört], erwacht die Kreatur wie bei einem normalen Ende des Zaubers, jedoch mit dem Stand der Regeneration zum Zeitpunkt der Zerstörung des Kokons.
+*Zusätzliche Effekte:* +
++5 POT, +20 MP: eine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[tote] Kreatur wird im Kokon eingewoben und erwacht am Ende der Dauer des Zaubers vollständig geheilt mit vollen Pools aus dem Kokon.

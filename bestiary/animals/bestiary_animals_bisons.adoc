@@ -1,0 +1,78 @@
+= Bison
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* GK: 6
+* CP: 150
+
+== Beschreibung
+_"Natürlich sind sie friedlich, sie wissen, wir können ihnen nichts antun. Und wenn wir es versuchen würden, wären wir im Nachteil."_
+Bisons oder auch von manchen Gelehrten als Wisents bezeichnet, sind eine Rindergattung, die in den weiten Steppen Ungoltas am verbreitesten sind.
+Bisons sind große und schwere Tiere mit einer Schulterhöhe von bis zu 2,5 Metern und einem Gewicht von bis zu 1 Tonne für erwachsene Bullen.
+Die Kinder Ungols, also link:../../rules/core/races/core_races_satyrs.adoc[Satyre] und link:../../rules/core/races/core_races_taures.adoc[Tauren], die noch in großen Stammesstrukturen in den Steppen Ungoltas leben, sind bekannt dafür, riesige Herden dieser Tiere zu halten und zu pflegen.
+Die Herden sind den Stämmen heilig, jede Aggression gegenüber den Tieren zieht den Zorn des Stammes auf sich.
+Abgesehen davon, dass Aggression gegenüber Bisons schon sehr gefährlich ist.
+
+== Profil
+
+*ST:* 12 (+4) +
+*GE:* 3 (+1) +
+*KO:* 12 (+4) +
+*ER:* 6 (+2) +
+*EN:* 3 (+1) +
+*SB:* 9 (+3) +
+*CH:* 6 (+2) +
+*TP:* 140 +
+*MP:* 30 +
+*SP:* 75 +
+*BEW:* 12,00 Meter +
+*INI:* +4 +
+*MaxTL:* 720 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 (dickes Fell, alle Trefferzonen +
+*Resistenzen:* - +
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +5 +
+*Körper:* +8 +
+*Magie:* +4 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] +8 3W6+3 1x
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht]  +7 2W6+2 2x
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] +6
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] +8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] +10
+* link:../skills/bestiary_skill_absurdly_strong.adoc[Absurd Stark]
+
+== Regeln
+
+[[ref_bestiary_bison_variant_horned_bisons]]
+=== Variante: Gehörnte Bisons
+In den Weiten von Ungolta lebt eine seltene Variante von Bisons, die durch eine deutliche Veränderung in der Physiologie auffällt.
+Während reguläre Bisons auch deutliche Hörner haben können, sind diese bei *gehörnten Bisons* oder auch bekannt als *Knochenköpfe* besonders ausgeprägt.
+Dieser Bisonsspezies wachsen auf ihrem Forderkopf schwere Knochenplatten mit gewundenen, am Kopf angelegenen Hörnen, die vom Bison wie eine gefährliche Ramme benutzt werden können.
+Sogar weibliche Tiere haben diese offensive Waffe ausgeprägt, nur männliche Tiere tragen diese deutlicher.
+Gehörnte Bisons verwenden das gleiche Profil, wie das hier vorgestellte reguläre Bison, mit folgenden Anpassungen:
+* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 (Kopf)
+* Die Attacke link:../skills/bestiary_skill_attack_ram.adoc[Rammen] erhält die Boni: +3 auf ihre Angriffsstufe und +1W6+1 zu Schadensbonus.
+[NOTE]
+Der SL kann das Profil des regulären Bisons auch für Yaks verwenden, eine andere Rinderspezies, die in Ungolta heimisch ist, jedoch haben die Yaks keine natürliche Rüstung und auch nicht die Fähigkeit Absurd Stark.
+
+== Taktik
+Wird eine Bison Herde bedroht, bilden erwachsene Bisons einen Verteidigungsring um schwache Mitglieder, wie Jungtiere.
+Gegen einzelne Angreifer werden die starken und aggressiveren Männchen ausfallen und gezielt angreifen.
+Bisons werden zuerst versuchen, durch Drohungen Angreiffer zu vertreiben und wenn dies nicht funktioniert, greifen sie mit einem Sturmangriff an, um den Angreifer mit ihren schweren Köpfen und Hörnern zu Fall zu bringen.
+Diejenigen, die einen solchen Angriff überleben, sind gut beraten, die Flucht zu ergreifen.

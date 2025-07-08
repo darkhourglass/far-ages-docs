@@ -1,0 +1,46 @@
+= Klauen
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*Typ:* Vampir, Angriff +
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 5
+Der Vampir kann seine Hände in scharfe Klauen verwandeln, die leicht durch Rüstung und Fleisch schneiden können.
+Der Angriff mit Klauen erfolgt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat[unbewaffnete Attacke], was die nötigen Talente und xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadenwürfe] betrifft.
+Die Klauen gelten als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_armorpiercing[rüstungsbrechend] und verursachen einen Schadensbonus abhängig von der Machtstufe des Vampirs:
+
+|===
+|Machtstufe |Schadensbonus der Klauen
+
+|1-2
+|1W6
+
+|3-4
+|1W6+1
+
+|5
+|2W6
+
+|6
+|2W6+2
+
+|7
+|3W6
+
+|8
+|3W3+3
+
+|9-10
+|4W6
+
+|11-12
+|5W6
+
+|13+
+|6W6
+|===
+Einmal aktiviert, bleiben die Klauen für so viele Kampfphasen aktiv und benutzbar, wie der Vampir Machtstufe hat.
+Ein Vampir der Machstufe 5 kann also 5 Kampfphasen hintereinander seine Klauen einsetzen, bevor ers sie erneut aktivieren muss.
+Der Vampir kann die Klauen auch vorher als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion] einfahren.
+
+
+

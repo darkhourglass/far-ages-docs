@@ -1,0 +1,11 @@
+= Stangenwaffen Meisterschaft
+
+*Voraussetzungen:* link:core_skill_weapontraining_melee.adoc[Nahkampfwaffentraining] (Hellebarde) +
+*Typ:* Bewegung, Passiv +
+*Überanstrengung:* - +
+*CP:* 125 +
+Du darfst mit dem leichten Ende Deiner Stangenwaffe zuschlagen.
+Dies gilt als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion].
+Du würfelst die xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] nach den üblichen Regeln.
+Deine Schadensprobe richtet sich jedoch nach den Schadenswerten für link:../../tables/table_improvised_weapon_damage.adoc[Improvisierte Waffen].
+Du kannst die Fähigkeit für jede xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_heavy[schwere] Stangenwaffe lernen.

@@ -210,7 +210,7 @@ Das xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] le
 Der SL kann die Probe modifizieren, wenn der Untergrund für das Schleichen ungeeignet ist, z.B. Kieselsteine. +
 Ein Misserfolg verhindert, dass der Charakter sich leise bewegt, während ein Patzer sofort eine <<ref_talents_discoverhidden,Verborgenes entdecken-Probe>> von allen Kreaturen in der näheren Umgebung provoziert.
 Ein schleichender Charakter bewegt sich mit halbierter BEW voran.
-
+Ein Character erhält einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +1 für jeden Punkt, die seine xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] den Wert 5 unterbietet, während ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -1 für jeden Punkt, der die GK 5 überbietet, angewendet wird.
 
 [[ref_talents_lockpick]]
 === Schlösser knacken
@@ -280,6 +280,8 @@ Er ist der Überzeugung, dass das Gesuchte nicht da ist.
 *Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
 *Beschreibung:* Der Charakter beherrscht es sich einer Umgebung gut anzupassen, so dass er die gegebenen Objekte nutzen kann, um sich darin, darunter, dahinter oder darüber zu verstecken.
 Sein gewürfeltes xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Ergebnis] bestimmt den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für jedem, der ihn <<ref_talents_discoverhidden,entdecken>> will.
+Ein Character erhält einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +1 für jeden Punkt, die seine xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] den Wert 5 unterbietet, während ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -1 für jeden Punkt, der die GK 5 überbietet, angewendet wird.
+
 
 == Soziale Talente
 
@@ -341,9 +343,9 @@ Die Ausprägung kann beispielsweise folgendermaßen ausfallen: Grobschmied, Fein
 Die Spieler und der SL können sich weitere Handwerke ausdenken, wenn Bedarf besteht.
 Ein Handwerk kann nur ausgeführt werden, wenn die entsprechenden Werkzeuge und Materialien vorhanden sind.
 Das Talent beinhaltet auch das Wissen des jeweiligen Handwerks.
-Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für das Ausführen des Handwerks hängt vom Ziel ab, dass der Handwerker errreichen möchte.
+Der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für das Ausführen des Handwerks hängt vom Ziel ab, dass der Handwerker erreichen möchte.
 Höhere xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrade] können die Qualität der Arbeit erhöhen.
-Schlechte Bedingungen, wie z.B. schlechtes Werkzeug, schlechtes Material usw. reduzieren die Würfelanzahl dieser Probe.
+Schlechte Bedingungen, wie z.B. schlechtes Werkzeug, schlechtes Material usw. können die Probe xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[negativ beeiflussen].
 
 [[ref_talents_art]]
 === Kunst [eine Kunst]
@@ -457,20 +459,30 @@ Ungeübte Anwender sollten sich des Risikos stets bewusst sein.
 Berufe, die dieses Talent als Berufstalent lernen, können mit diesem Talent auch Angriffsproben, die üblicherweise mit anderen Talenten geführten werden, substituieren, wenn sie technomantische Waffen damit führen.
 
 [[ref_talents_specialist]]
-=== Spezialist
+=== Spezialist (Maschine)
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
 *Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
-*Beschreibung:* tba
-//TODO
+*Beschreibung:*
+Der Charakter ist ein ausgebildeter Operator für die ausgewählte *Maschine*.
+Es handelt sich dabei in der Regel um eine komplizierte oder gefährliche Maschine, die eine Schulung in ihrer Bedienung benötigt.
+Das können zum Beispiel die Schmelzöfen der Schmiedegilde sein, Kriegsgeräte wie Speerschleudern oder Kanonen.
+
 [[ref_talents_survival]]
 === Überleben
 *Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* ER +
 *Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
-*Beschreibung:* tba
+*Beschreibung:*
+Ein Charakter mit diesem Talent hat die Tricks und Kniffe gelernt, in der Wildniss zu überleben.
+Das Talent kann für folgende Tätigkeiten eingesetzt werden:
+*Spuren lesen:* Der Charakter kann versuchen einer Spur zu folgen, z.B. Abdrücke auf Erde, umgeknickte Vegetation. Der SL legt den Mindestwurf fest oder es wird konkurrierend zu <<ref_talents_sneak,Schleichen>> gewürfelt.
+*Pflanzen und Tiere identifizieren:* Anstelle eines passenden <<ref_talents_knowledge,Wissensgebiet>> kann der Charakter versuchen, Pflanzen oder Tiere anhand von Beobachtungen zu identifizieren und überlebensrelevante Informationen erhalten.
+Tiere können auch über indirekte Hinweise identifiziert werden, wie Spuren, Fellreste, Ausscheidungen und Hinterlassenschaften von Mahlzeiten.
+*Wasser und Nahrung finden:* Der Charakter kann versuchen eine Tagesportion Wasser und Nahrung (z.B. Pilze, Wurzeln) zu beschaffen. Die Schwierigkeit wird vom SL auf Basis des Terrains bestimmt.
+*Unterkunft und Schutz:* Der Charakter kann aus natürlichen Materialen eine Unterkunft mit Schutz vor der Witterung errichten.
 
 [[ref_talents_knowledge]]
 === Wissen [Spezialgebiet]

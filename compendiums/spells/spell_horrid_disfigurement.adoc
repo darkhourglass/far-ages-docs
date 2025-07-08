@@ -1,0 +1,19 @@
+= Schreckliche Verstümmelung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Illusion, Körper, Schatten +
+*Vorbereitung:* 7 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur +
+*Dauer:* 5 Kampfphasen +
+*Effekt:*
+Du beschwörst einen Blitz aus grüner, übelriechender Energie, die Du mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] gegen Dein Ziel schleuderst.
+Dieser Zauber imitiert die Magie der Nekromantie und erzeugt bei der Zielkreatur den Eindruck, dass sie Opfer einer scheußlichen Verzauberung wurde, die ihren Körper verstümmelt hat.
+Für die Dauer des Zauberspruches ist die Zielkreatur damit beschäftigt, sich über die illusionäre Verstümmelung zu sorgen.
+Sie verliert 1 ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigen Zug] und erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf alle xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen].
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

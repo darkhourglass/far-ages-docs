@@ -1,0 +1,7 @@
+= Schneller Auslöser
+
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 5, link:core_skill_weapontraining_projectile.adoc[Waffentraining (Projektilwaffe)] +
+*Typ:* Angriff +
+*Überanstrengung:* - +
+*CP:* 100 +
+Wenn Du in Deinem xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine Aktion aufwendest, um Deine Projektilwaffe zu xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[laden], darfst Du in Deinem nächsten Zug eine xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] nutzen, um Deine Projektilwaffe abzufeuern.

@@ -1,13 +1,159 @@
 = Meisterschütze
 
 == Beschreibung
+Der Meisterschütze sieht die Kunst im Kampf auf Distanz.
+Er wertschätzt Präzision und Stil gegenüber roher Gewalt.
+Ein zielsicherer Pfeil kann mehr wert sein, als ein scharfes Schwert.
+Dennoch ist der Meisterschütze kein Heckenschütze oder Assassine, sondern steht offen zu seiner Profession.
+Ob auf dem Schlachtfest oder Jahrmarkt und Turnier, eine Demonstration seiner überlegenen Schusskünste, lässt jeden mit stockendem Atem zurück.
 
 == Voraussetzungen
+Um ein Meisterschütze der Stufe 1 zu werden, muss ein Charakter folgende Voraussetzungen erfüllen:
+
+* xref:../../../core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] auf Stufe 5
+* link:../../../core/skills/core_skill_weapontraining_projectile.adoc.adoc[Waffentraining] mit einem Bogen oder vergleichbarer Projektilwaffe oder auch Wurfwaffe.
 
 == Stufen lernen
-
+Meisterschützen können ohne Beschränkungen Stufen lernen.
 == Stufe 1
+Meisterschützen erhalten keine Vorgaben für die Stufe 1.
 
 == Maximale Stufe
+Der Schicksalspfad des Meisterschützen gibt keine maximale Stufe vor.
 
 == Fähigkeiten
+Der Meisterschütze darf pro Stufe aus der Liste der folgenden Fähigkeiten wählen.
+* link:../../../core/skills/core_skill_trick_shot.adoc[Trickschuss] (ab Meister Schütze 1)
+* link:../../../core/skills/restricted/core_restricted_skill_evasion.adoc[Evasion] (ab Meister Schütze 3)
+* link:../../../core/skills/restricted/core_restricted_skill_throw_everything.adoc[Wirf alles] (ab Meister Schütze 3)
+* link:../../../core/skills/restricted/core_restricted_skill_stalker.adoc[Pirscher]  (ab Meister Schütze 6)
+
+
+=== Schützentraining
+*Voraussetzungen:* Meisterschütze 5 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* GE +
+*Kampf:* Passiv
+*Überanstrengung:* -
+*Beschreibung:*
+Du erhälst auf die Angriffsproben mit der Waffe aus link:../../../core/skills/core_skill_weapontraining_projectile.adoc[Waffentraining] einen weiteren, kumulativen Bonus von +3.
+Diese Fähigkeit kann nur einmal gelernt werden.
+
+=== Erweitertes Schützentraining
+*Voraussetzungen:* Meisterschütze 8, Schützentraining +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* GE +
+*Kampf:* Passiv
+*Überanstrengung:* -
+*Beschreibung:*
+Der Bonus aus Schützentraining erhöht sich von +3 auf +6.
+Diese Fähigkeit kann nur einmal gelernt werden.
+
+=== Krümmender Schuss
+*Voraussetzungen:* Meisterschütze 1 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* GE +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]
+*Überanstrengung:* 1
+*Beschreibung:*
+Durch geschickte Manipulation der Fliehkräfte Deines Projektils, erzeugst Du eine gekrümmte Flugbahn und kann mit einem Schuss, bis zu Zwei Ziele anvisieren, die maximal 3,00 Meter weitweg voneinderstehen.
+Führe für diese Aktion eine normale xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Attacke im Fernkampf] gegen das erste Ziel aus.
+Bei einem Erfolg kannst Du das nächste Ziel mit der gleichen Aktion angreifen, Du musst jedoch eine neue Attacke würfeln.
+
+=== Arkaner Schütze
+*Voraussetzungen:* Meisterschütze 1, xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] 1 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* Passiv +
+*Beschreibung:*
+Du hast gelernt, Deine Profession des Schützen mit arkanen Energien aufzuladen.
+Diese Fähigkeit ermöglicht Dir weitere Talente dieses Schicksalspfades zu lernen, die diese als Voraussetzung benötigen.
+Sobald Du diese Fähigkeit gelernt hast, gilst Du als Arkaner Schütze und nicht mehr als Meisterschütze.
+
+=== Elementarer Pfeil
+*Voraussetzungen:* Arkaner Schütze +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* GE- +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]
+*Überanstrengung:* 1 +
+*Beschreibung:*
+Du lädst den nächsten Pfeil, Bolzen oder Wurfangriff mit elementarer Magie auf.
+Deine Attacke wird nochmal gewürfelt, jedoch änderst Du die xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] auf eine xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[elementare] Schadensart Deiner Wahl (Feuer, Wasser, Erde oder Luft).
+Der Einsatz dieser Fähigkeit kostet Dich außer der o.g. Überanstrenung auch 5 MP.
+
+=== Explodierender Pfeil
+*Voraussetzungen:* Arkaner Schütze +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* GE +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]
+*Überanstrengung:* 1 +
+*Beschreibung:*
+Du lädst den nächsten Pfeil, Bolzen oder Wurfangriff mit instabiler, arkaner Energie auf, die beim Aufprall eine Explosion verursacht.
+Wenn Du diese Fähigkeit einsetzt, würfele Deinen xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernangriff] nach den üblichen Regeln.
+Bei einem xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[Treffer] verursachst Du eine Explosion mit Radius 1,50 Meter.
+Dies entspricht einer xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_aoe[Wurfwaffe mit Flächenschaden].
+Du verursachst damit 2W6+2 (plus Deinen EN-Modifikator) xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Der Einsatz dieser Fähigkeit kostet Dich außer der o.g. Überanstrenung auch 5 MP.
+
+=== Aetherischer Pfeil
+*Voraussetzungen:* Arkaner Schütze +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* GE +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]
+*Überanstrengung:* 1 +
+*Beschreibung:*
+Wenn Du einen xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernangriff] durchführst, kannst Du die xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstung] Deines Ziels ignorieren.
+Der Einsatz dieser Fähigkeit kostet Dich außer der o.g. Überanstrenung auch 5 MP.
+
+=== Einschüchterndes Zielen
+*Voraussetzungen:* Meister Schütze 3 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* CH +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]
+*Überanstrengung:* - +
+*Beschreibung:*
+Du zeilst mit einer Fernkampfwaffe auf eine Kreatur und rufst laut "HALT".
+Würfle eine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Probe] auf xref:../../../core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektil] oder xref:../../../core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] jedoch mit Deinem xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH-Attibutsmodifikator].
+Das Ziel darf gegen Dein Ergebnis einen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] ablegen.
+Bei einem xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] verliert die Kreatur ihre xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] für den Rest der aktuellen Kampfphase.
+Mit Beginn ihres nächsten xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zuges] darf die Kreatur den Rettungswurf wiederholen.
+Der Rettungswurf gilt automatisch als bestanden, wenn Du Deine Waffe nicht mehr auf die Kreatur richtest.
+
+=== Scharfschütze
+*Voraussetzungen:* Meister Schütze 4 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* GE +
+*Kampf:* Aktivieren
+*Überanstrengung:* 1 +
+*Beschreibung:*
+Wenn eine xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Attack im Fernkampf] ausführst, darft Du diese Fähigkeit einsetzen, um die Auswirkungen von xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[Deckung], die Dein Ziel hat, weniger stark wirken zu lassen.
+Für diese Angriffsprobe werden die xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Mali], die aus der Deckung enstehen, halbiert (abgerundet, kann 0 ergeben).
+
+=== Laufen und Zielen
+*Voraussetzungen:* Meister Schütze 3 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* GE +
+*Kampf:* Aktivieren
+*Überanstrengung:* 1 +
+*Beschreibung:*
+Wenn Du diese Fähigkeit einsetzt, ignorierst Du für Deinen nächsten xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernangriff] die negativen Auswirkungen von xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_projectiles_modifiers_moving_and_firing[nicht stationärem Feuern].
+
+=== Verbesserter kritischer Treffer
+*Voraussetzungen:* Meister Schütze 10 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* Nein +
+*Verwandtes Attribut:* - +
+*Kampf:* Passiv
+*Überanstrengung:* - +
+*Beschreibung:*
+Wenn Du durch einen xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernangriff] einen xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_criticalhit[kritischen Treffer] erzielst, werden die Würfelanzahlen nicht verdoppelt (wie sonst), sondern verdreifacht.

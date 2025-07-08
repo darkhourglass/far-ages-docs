@@ -1,0 +1,36 @@
+= Übermenschliche Körperkontrolle
+
+*Voraussetzungen:* Sekundärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+*Typ:* Übernatürlich, Vampire +
+*CP:* tba +
+*Aktivierung:* xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_bloodcosts[Blut] 10
+Vampire mit dieser Fähigkeit können ihren untoten Körper zu Leistungen bringen, die jenseits des physikalisch Möglichen für jeden Sterblichen liegen.
+Aktiviert der Vampir diese Fähigkeit, erhält er eine Reihe von Boni, die im Folgenden beschrieben sind.
+Von diesen Boni muss er sich für eine begrenzte Anzahl abhängig von seiner Machtstufe entscheiden:
+|===
+|Machtstufe |max. Anzahl Boni
+
+|1-2
+|1
+
+|3-4
+|2
+
+|5-6
+|3
+
+|7-10
+|4
+
+|11+
+|5
+|===
+Folgende Boni stehen zur Auswahl:
+*Bewegung:* Der Vampir erhält einen Bonus auf seine BEW von +3,00 Metern
+*Reflexe:* Der Vampire erhält einen Vorteil auf jeden Reflex-Rettungwurf.
+*Stärke:* Der Vampire erhält einen Bonus von +300 auf seine MaxTL und erhält einen Vorteil auf jeden Körper-Rettungswurf
+*Durchschlagskraft:* Der Vampire erhält einen Bonus von +5 auf alle ST-basierten Proben.
+*Geschwindigkeit:* Der Vampir erhält 1 Aktion pro eigener Kampfphase zusätzlich.
+
+Einmal aktiviert, hält die Fähigkeit für eine Anzahl von Kampfphasen an, die gleich der Machtstufe des Vampirs ist.
+Während dieser Zeit kann die anfänglich gewählte Kombination von Boni nicht geändert werden.

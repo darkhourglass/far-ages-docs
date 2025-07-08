@@ -2,9 +2,8 @@
 
 
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
-* Secondary Type(s)
-* Templates
-* GK: X
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend]
+* GK: 6
 * CP: TBA
 
 == Beschreibung
@@ -13,66 +12,46 @@ Lore
 
 == Profil
 
-*ST:* XXX (+x) +
-*GE:* XXX (+x) +
-*KO:* XXX (+x) +
-*ER:* XXX (+x) +
-*EN:* XXX (+x) +
-*SB:* XXX (+x) +
-*CH:* XXX (+x) +
-
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
-
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
-
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
+*ST:* 6 (+2) +
+*GE:* 6 (+2) +
+*KO:* 8 (+2) +
+*ER:* 5 (+1) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 3 (+1) +
+*TP:* 85 +
+*MP:* 30 +
+*SP:* 45 +
+*BEW:* 12,00 Meter +
+*INI:* +3 +
+*MaxTL:* 360 +
+*MaxPOT:* 6 +
 
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
-*Immunitäten:* XXX +
+*Rüstung:* - +
+*Resistenzen:* - +
+*Immunitäten:* - +
 
 == Rettungswürfe
 
-*Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +
-*Magie:* EN+SB +
-*Reflex:* GE+ER +
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +3 +
+*Körper:* +4 +
+*Magie:* +2 +
+*Reflex:* +4 +
 
 == Offensiv
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* link:../skills/bestiary_skill_attack_slam.adoc[Hufschlag] +5 2W6 2x
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] +4 1W6+1 1x
 
 == Defensive
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] +5
 
 == Sonstiges
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
+* link:../skills/bestiary_skill_absurdly_strong.adoc[Absurd Stark]
 
 == Regeln
 

@@ -1,13 +1,27 @@
-= Name
+= Moroi
+Die Moroi sind eine geheimnissvolle und zurückgezogene Blutlinie unbekannten Ursprungs, die auch manchmal die "Geister" genannt werden, aufgrund ihres bleichen Hautbilds und ihrer Vorliebe für die Magie der Schatten.
 
-// TODO Beschreibung
-// Ghost, Phantom, Nightmares, Shadows, Move in Shadows (Teleport)
+Während link:./vampirc_bloodline_Bathori.adoc[Bathori] flamboyant in dekadenten Herrenhäusern und verlassenen Schlössern Leben, verbergen sich die Moroi in bescheidenen Unterschlüpfen weit weg von Augen der Sterblichen.
+Das verlassene Haus außerhalb des Dorfs, der alte Wachturm, die Krypta auf dem verlassenen Waldfriedhof sind typische Unterschlüpfe für Moroi.
+Moroi sind Meister der Heimlichkeit und nutzen Dunkelheit und Schatten, um unentdeckt zu bleiben.
+Sie sehen sich als überlegene Jäger und stille Eroberer.
+
 == Voraussetzungen
+Es muss die Schablone link:../../bestiary_template_undead_vampire.adoc[Vampir (Untod)] angewendet werden und diese Blutlinie beim Erschaffer vorliegen.
 
 == Attribute
 Der Vampir dieser Blutlinie erhält folgende Modifikationen auf seine Attributstufen:
+* +2 ST
+* +2 GE
+* +4 EN
+* +2 ER
+* -4 CH (Minimum: 0)
+
 == Talente und Fähigkeiten
 Ein Vampir dieser Blutlinie behält die Talente und Fähigkeiten seiner sterblichen Vergangenheit.
+Sollte der Charakter die folgenden Talente nicht als xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_professional_talents[Berufstalente] besitzten, so tut er dies nun:
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken]
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]
 
 == Vampirfähigkeiten
 Der Vampir dieser Blutlinie hat Zugriff auf folgende Vampirfähigkeiten
@@ -19,6 +33,7 @@ Der Vampir dieser Blutlinie hat Zugriff auf folgende Vampirfähigkeiten
 == Okkulte Schwächen
 Die Blutlinie dieses Vampirs besitzt folgende okkulten Schwächen:
 * link:../../../skills/specific/occult/skill_occult_weakness_to_sunlight.adoc[Schwäche gegen Sonnenlicht (Intensiv)]
+* link:../../../skills/specific/occult/skill_occult_pale.adoc[Bleich]
 
 == CP
 150

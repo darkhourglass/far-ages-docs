@@ -1,0 +1,74 @@
+= Fungussklave
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_fungus.adoc[Pilz]
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+_"Der verdorbene Horror der Kreatur wurde verstärkt, als wir erkannten, dass unter der verkrusteten, tumorartigen Kruste, die den Körper bedeckt, die bekannten Gesichtszüge von unserem verlorenen Kameraden Thamil hervorstachen. Ich erinnerte mich gleich an seine traurigen Augen, als wir wenige Nächte zuvor in der Taverne die Ballade von Daron hörten. Die gleichen Augen sah ich heute in der geschundenen Kreatur. Ich finde Erlösung in dem Gedanken, dass es Thamils Wunsch wäre, nicht ein solches Leben zu leben - als Träger einer boshaften Korruption. Später verbrannten wir alle Kokoons, die wir in der Höhle fanden. In einem fanden wir Thamils Brosche und Schwert."_
+Diese Kreatur hat eine wage Humanoide Form, die mit dicken, geschwörartigen Pilzauswüchsen überstäht ist.
+Genaue Beobachter können ihre vorherige Form aus dieser misshandelten und verzerrten Form ausmachen.
+Humanoide, die lange der Korruption der Sternenbestie ausgesetzt sind, können in eine solche Kreatur transformiert werden.
+Ein Kokoon aus hartem Myzel formt sich zu Beginn der Transformation um das Opfer, nachdem Gliedmaße und Gelenke verhärtet sind.
+Nach ein paar Tagen bricht der Kokoon auf und ein neuer Fungalsklave kommt hervor.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 6 (+2) +
+*ER:* 6 (+2) +
+*EN:* 3 (+1) +
+*SB:* 9 (+3) +
+*CH:* 3 (+1) +
+*TP:* 90 +
+*MP:* 30 +
+*SP:* 60 +
+*BEW:* 9,00 Meter +
+*INI:* +4 +
+*MaxTL:* 135 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5, alle Trefferzonen +
+*Resistenzen:*
+link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+*Immunitäten:* link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental] +
+link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +7 +
+*Körper:* +8 +
+*Magie:* +1 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen]
+* link:../skills/bestiary_skill_modification_cleave.adoc[Rundumschlag (Klauen)]
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen]
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken]
+* link:../skills/specific/starbeast/bestiary_skill_dominated_by_the_stars.adoc[Dominiert von den Sternen]
+
+== Regeln
+== Transformation
+Eine Kreatur, die in Kontakt mit der link:../../rules/advanced/corruptions/corruption_starbeast.adoc[Korruption der Sternenbestie] kommt kann in einen Fungalsklaven verwandelt werden.
+Dabei bleibt die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] gleich.
+Um einen größeren oder kleineren Fungalsklaven zu erschaffen können die Schablonen link:../templates/bestiary_template_sizemodification_giant.adoc[riesig] bzw. link:../templates/bestiary_template_sizemodification_small.adoc[Klein] benutzt werden.
+
+== Taktik
+Fungalsklaven sind keine sonderlich tiefgründigen Kreaturen, sondern werden einem außerirdischen Instinkt geleitet.
+Sie kämpfen oft unermüdlich ohne Rücksicht auf das eigene Leben und versuchen soviel Schaden wie möglich zu verursachen.
+Alte Beziehungen sind in der Regel vergessen.

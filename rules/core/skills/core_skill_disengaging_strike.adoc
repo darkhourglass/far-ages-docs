@@ -1,0 +1,14 @@
+= Freimachender Schlag
+
+*Voraussetzungen:* - +
+*Typ:* Bewegung, Passiv +
+*Überanstrengung:* - +
+*CP:* 100 +
+Wenn Du im xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] bist, kannst Du mit dieser Fähigkeit versuchen, Deinen Gegner durch ein geschicktes Manöver zu irritieren und Dich aus der Gefahrenzone zu bewegen.
+Du kannst einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Nahkampfangriff] mit Deinem xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Talent] regulär gegen einen Gegner ausführen, mit dem Du im Kampf gebunden bist.
+Bei einem xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg] kannst Du entscheiden, diese Fähigkeit einsetzen.
+In diesem Fall verursachst Du keinen xref:../core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden], dafür darft Du Dich mit Deiner xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] ohne Provokation von xref:../core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] aus der xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszeone] Deines Gegners bewegen.
+Diese Fähigkeit funktioniert auch, wenn DU mit mehrenen Gegnern im Kampf gebunden bist.
+In jedem Fall musst Du Platz für Deine Bewegung haben.
+
+Besitzt Du die Fähigkeit link:core_skill_pointblankshot.adoc[Kernschuss], kannst Du diese Fähigkeit auf mit xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffe] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] nutzen.

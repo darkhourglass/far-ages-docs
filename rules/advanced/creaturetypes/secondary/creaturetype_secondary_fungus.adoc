@@ -1,0 +1,12 @@
+= Pilz
+
+== Vorsetzung
+Keine zwingende, aber in der Regel sind link:../primary/creaturetype_primary_plant.adoc[Pflanzen] zu erwarten.
+== Regeln
+Ist die Kreatur mit diesem Kreaturentyp eine link:../primary/creaturetype_primary_plant.adoc[Pflanze], dann gelten nicht die Regeln zu xref:../primary/creaturetype_primary_plant.adoc#ref_primary_creaturetype_plants_rules_hibernate[Ruhezustand], sondern die Kreatur regeneriert ihre Pools wie jede link:creaturetype_secondary_living.adoc[lebende] Kreatur durch xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[rasten].
+=== Rettungswürfe
+Pilzkreaturen erhalten folgende Modifikationen auf ihre Rettungswürfe:
+* xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] -1
+* xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] -1
+* xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin] +3
+* xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +3

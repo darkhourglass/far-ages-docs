@@ -1,0 +1,18 @@
+= Illusionäre Nebel Verbreitung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Illusion, Geist +
+*Vorbereitung:* 5 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* +
+Du erschaffst im Wirkungsbereich einen dichten, schweren Nebel, der die Sicht obfuskiert.
+Alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_when_to_roll[Proben], die auch Sicht basieren, erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++1 POT, +5 MP: Radius +3,00 Meter
++3 POT, +10 MP: Der Nebel beginnt zu glitzern (Malus erhöht sich auf -10)

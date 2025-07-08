@@ -1,14 +1,25 @@
 = Riesig
 
-// TODO Beschreibung
+[quote, Wain]
+_"Eine monströse Größe hat keinen inneren Wert, es sei denn, übermäßiges Verbluten wird als Tugend angesehen."_
+Die Kreatur ist deutlich größer als andere Vertreter ihrer Art.
 
 == Voraussetzungen
+Jede Kreatur die nicht den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos] hat und deren xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] unter 9 liegt, kann diese Schablone erhalten.
+Die einmalige Anwendung dieser Schablone erhöht die xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] der Kreatur um 1.
+Mit dieser Schablone kann die GK nicht über 10 steigen, GK 10 ist das Maximum.
+Wenn der SL dies wünscht oder benötigt, kann er die Schablone nutzen, um die GK mehrfach zu erhöhen.
 
 == Attribute
-
+Für jede Erhöhung der GK um +1 ändern sich die Attribute der Kreatur wie folgt:
+* +4 ST
+* -2 GE (min 1)
+* +4 KO
 == Talente
+Die Kreatur behält ihre Talente.
 
 == Fähigkeiten
+Die Kreatur behält ihre Fähigkeiten.
 
 == CP
 

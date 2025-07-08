@@ -1,0 +1,42 @@
+= Angehöriger der Wilden Jagd
+
+Die Kreatur ist Teil des übernatürlichen Phänomens der link:../../lore/supernaturals/lore_supernaturals_wild_hunt.adoc[Wilden Jagd].
+Einzelne Angehörige der legen ihr sterbliches Leben ab und wechseln in eine Dimension zwischen dem Aether und Empyrium, wo die Wilde Jagd wartet, bis sie die Materielle welt wieder betreten kann.
+Die Haut der Kreatur nimmt eine gräulich, blasse Färbung an und ihre Augen werden schwarz, die nur noch das Mondlicht reflektieren.
+Wie alle Teilnehmer reitet sie auf einem Pferd aus purem Schatten, um den Nachthimmel zu durchqueren.
+Kreaturen mit dieser Schablone sind mehr Mitglieder einer übernatürlichen Armee anstelle einer Jagdgesellschaft.
+
+
+== Voraussetzungen
+Die Kreatur muss folgende Voraussetzungen erfüllen:
+
+* Die Wilde Jagd nimmt vor allem link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide] auf.
+* Die Kreatur muss den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend] haben.
+* Die Kreatur darf nicht den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] haben.
+
+Die Kreatur muss außerdem von der Wilden Jagd gefangen und aufgenommen worden.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen. Sie erhält außerdem folgende Boni:
+* +2 ST
+* +4 ER
+* +2 SB
+
+== Talente
+
+Die Kreatur behält alle ihre Talente und erhält einen Bonus von +3 auf die folgenden Talente:
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben]
+
+
+== Fähigkeiten
+
+Die Kreatur lernt folgende Fähigkeiten, sobald sie diese Schablone erhält.
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
+* link:../skills/specific/thewildhunt/bestiary_skill_thewildhunt_shadowhorse.adoc[Schattenpferd]
+
+== CP

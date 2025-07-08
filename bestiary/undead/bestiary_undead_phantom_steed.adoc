@@ -1,0 +1,108 @@
+= Phantom Ross
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6)
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos]
+* *GK:* 6
+* *CP:* TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 12 (+4) +
+*GE:* 6 (+2) +
+*KO:* 9 (+3) +
+*ER:* 6 (+2) +
+*EN:* 9 (+3) +
+*SB:* 3 (+1) +
+*CH:* 3 (+1) +
+*TP:* 125 +
+*MP:* 90 +
+*SP:* - +
+*BEW:* <<ref_phantom_steed_rule_ghostwalk, Geistwandeln>> 12,00 Meter +
+*INI:* +4 +
+*MaxTL:* 240 +
+*MaxPOT:* 12 +
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc#ref_secondary_creaturetype_incorporal_rules_skill_body_damage_immunity[Schadensimmunität (Körper)]
+
+== Rettungswürfe
+*Aufmerksamkeit:*+ +3 +
+*Disziplin:* +5 +
+*Körper:* +12 +
+*Magie:* +9 +
+*Reflex:* +4 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] 8 2W4+1
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8 2W6 1x
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 7
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* <<ref_phantom_steed_rule_ghostwalk,Geistwandeln>>
+* <<ref_phantom_steed_rule_creature_of_the_night,Kreatur der Nacht>>
+
+== Regeln
+
+[[ref_phantom_steed_rule_ghostwalk]]
+=== Geistwandeln
+Das Phantom Ross bewegt sich nicht nur in der materiellen Welt, sondern auch in der aetherischen.
+Daher gleitet es problemlos durch physische Hindernisse, es ist nicht von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwierigen Gelände] betroffen.
+Außerdem kann es ohne Einschränkung über Geländemerkmale reiten, als wären sie flacher Grund wie Wasser, Lava und andere gefährliche Flüssigkeiten, sowie Schluchten und Gräben.
+All diese Hindernisse müssen jedoch innerhalb einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegungsaktion] zu überqueren sein oder das Phantom Ross kann sie nicht überqueren.
+Außerdem verursacht das Phantom Ross keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
+Ein <<ref_phantom_steed_rule_bound_to_rider,Reiter>> des Phantom Rosses kann diese Vorteile uneingeschränkt nutzen, auch wenn er nicht Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] teilt, solange er das Ross reitet.
+Außerdem erhält er einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5 auf alle xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten-Proben].
+
+[[ref_phantom_steed_rule_bound_to_rider]]
+=== Gebunden an Reiter
+Ein Phantom Ross kann einen Reiter gebunden sein, der als einziger das Ross reiten kann.
+Der Reiter wird entweder bei der <<ref_phantom_steed_rule_creation,Erschaffung>> festgelegt oder durch eine erfolgreiche Anwendung von link:../../compendiums/spells/spell_control_undead.adoc[Kontrolliere Untote] auf das Phantom Ross gesetzt.
+Der Reiter kann mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freien Aktion] das Phantom Ross rufen oder wegschicken.
+Das Ross verschwindet und erscheint in der Luft.
+Auch wenn das Ross keinen Körper mehr hat, kann es körperliche Reiter tragen, die an es gebunden sind.
+
+[[ref_phantom_steed_rule_creation]]
+=== Erschaffung
+Phantom Rosse können nur durch ein geheimes Ritual (link:../../compendiums/spells/spell_create_phantom_steed.adoc[Erschaffe Phantom Ross]) erschaffen werden.
+
+[[ref_phantom_steed_rule_creature_of_the_night]]
+=== Kreatur der Nacht
+Phantom Rösser existieren nur in der Dunkelheit, ein Aussetzen an Tages- oder Sonnenlicht lässt das Phantom Ross verschwinden.
+Es kann erst nach Sonnenuntergang wieder erscheinen.
+
+== Taktik
+
+
+
+
+
+
+

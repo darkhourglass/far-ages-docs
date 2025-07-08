@@ -1,0 +1,21 @@
+= Elementare Überbrückung
+
+*Materialkosten:* 60.000 +
+*Konstruktionszeit:* 10 Tage +
+*Zaubersprüche:* link:../../../spells/spell_elemental_transfusion.adoc[Elementare Transfusion] +
+*Mindestwurf:* 23 +
+*Montage:* - +
+*MP-Kosten:* 5 MP +
+*Machtstufe:* +1 +
+*Beschreibung:* +
+Mit diesem Zusatz kann der Golem jeden xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[elementaren] oder xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageetypes_aspectelemental[aspektelementaren] Schaden aus seiner xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary[Bewaffung] oder anderen Zusätzen gegen einen andere Schadensart tauschen.
+Der Zusatz benötigt einen link:../../../items/technomancy/devices/teechnomantic_devices_elemental_charger.adoc[elementaren Lader], der mit der Energieart aufgeladen ist, die der Golem nutzen für diesen Zusatz nutzen soll.
+Ein Technomant kann mit einer einfachen Probe auf xref:../../../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] den Lader für diesen Zusatz tauschen.
+Der Einsatz dieses Zusatzs ist eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion], die die Schadensart für die gesamte Kampfphase überschreibt und kostet 5 MP.
+
+.Elementare Überbrückung
+====
+Ein Golem mit diesem Zusatz erhält eine elementaren Lader mit Frost-Ladung.
+Der Golem besitzt als Bewaffnung einen link:../weaponry/golems_part_weaponary_flamethrower.adoc[Flammenwerfer] und einen link:golems_part_addon_armounted_flamethrower.adoc[armmontierter Flammenwerfer], beide verursachen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Mit diesem Zusatz kann der Golem mit beiden Waffen auch xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden] stattdessen verursachen.
+====

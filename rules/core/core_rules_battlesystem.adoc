@@ -950,6 +950,12 @@ Damit beträgt als -5*2=-10 für seine Angriffsproben mit diesem Schwert.
 Sollte er das Schwert zur xref:core_rules_talents_base.adoc#ref_talents_parade[Parade] nutzen wollen, gilt der Bonus ebenso.
 ====
 
+[[ref_core_battle_meleeweapons_modifiers_improvised_weapons]]
+==== Improvisierte Nahkampfwaffen
+In manchen Situationen sind Kreaturen ggf. gezwungen ihre Offensive zu improvisieren und verwenden Gegenstände als Nahkampfwaffen, die nicht auf diesen Zweck ausgelegt, vom Besenstiel bis Stuhl oder Bierhumpen ist alles inkludiert.
+Verwendet eine Kreatur einen Gegenstand, der keine ausgelegte Waffe ist, sondern nutzt somit eine *improvisierte Waffe*, so erh#lt sie einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5 auf ihre Angriffsprobe.
+Anhängig von der xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] des Gegenstandes verursacht dieser Schaden für die <<ref_core_battle_damage_damagerolls,Schadensprobe>> als ST-basierte Waffe, siehe dazu die folgene link:../tables/table_improvised_weapon_damage.adoc[Tabelle].
+
 [[ref_core_battle_melee_modifiers_reach]]
 ==== Nahkampfwaffen mit erhöhter Reichweite
 Manche Waffen, wie Speere, sind besonders lang, so dass sie den Kontrahenten auf Abstand halten können, bzw. diese angreifen können.
@@ -959,7 +965,7 @@ Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine <<re
 Allerdings können <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>> nur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
 
 Um diese Eigenschaft nutzen zu können, muss die Waffen dafür <<ref_core_battle_items_weapons_tag_reach,geeignet>> sein.
-Angegriffene Kreatoren können gegen diese Waffen keinen <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> einsetzen, wenn sie Waffen ohne diese Eigenschaft tragen oder aufgrund ihrer Größe eine grö0ere <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> besitzen.
+Angegriffene Kreatoren können gegen diese Waffen keinen <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> einsetzen, wenn sie Waffen ohne diese Eigenschaft tragen oder aufgrund ihrer Größe eine größere <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> besitzen.
 
 [[ref_core_battle_melee_modifiers_missingweapon]]
 ==== Der Kampf zwischen einem Gegner mit Waffen und einem Unbewaffneten
@@ -1062,13 +1068,13 @@ Analog zu einem <<ref_core_battle_attacktypes_aimedattack,gezielten Schlag>> im 
 Es gelten die gleichen Regeln.
 [[ref_core_battle_projectiles_modifiers_fire_from_a_crowd]]
 === Feuern aus dem Getümmel heraus
-Ist ein Charakter xref:./core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kamof gebunden] und möchte eine Projektilwaffe abfeuern, würfelt er seine Angriffsprobe mit xref:./core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
+Ist ein Charakter xref:./core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] und möchte eine Projektilwaffe abfeuern, würfelt er seine Angriffsprobe mit xref:./core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
 
 [[ref_core_battle_throwingweapons]]
 == Wurfwaffen
 Wurfwaffen wie Wurfäxte oder Wurfdolche werden wie <<ref_core_battle_projectiles,Projekilwaffen>> behandelt, jedoch werden sie mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] abgehandelt.
 Es gelten die im genannten Kapitel Regeln bezüglich <<ref_core_battle_projectiles_baserange,Reichweiten und Inkrementen>>, <<ref_core_battle_projectiles_minimalsuccesses,Mindestwürfe>> und alle <<ref_core_battle_projectiles_modifiers,Modifikatoren>>.
-Wurfwaffen haben nur eine <<ref_core_battle_projectiles_baserange,Grundreichweite>>, die Regeln bezüglich der Inkremente kommen nicht zum tragen.
+Wurfwaffen haben nur eine <<ref_core_battle_projectiles_baserange,Grundreichweite>>, die Regeln bezüglich der Inkremente werden nicht angewendet.
 Darüber hinaus gelten die Regeln in den folgenden Unterkapiteln.
 
 [[ref_core_battle_throwingweapons_modifiers_improvised_weapons]]
@@ -1597,6 +1603,7 @@ Dieser Schaden tritt nur auf, wenn das Opfer wirklich daran glaubt, verwundet wo
 Sollte das Ziel eines solchen Schadens in der Lage sein, die Illusion anzuzweifeln und darf eine xref:core_rules_magic_base.adoc#ref_core_magic_schools_illusionsm_doupt_illusion[Illusion Durchschauen-Probe] würfeln.
 Ist diese erfolgreich, nimmt er keinen Schaden.
 Sollte er überzeugt sein, dass er den Schaden erhält, wird eine <<ref_core_battle_damage_damagerolls,Schadensprobe>> gewürfelt.
+Wesen, die automatisch durch Illusionen hindurchschauen sind implizit gegen diese Schadensart immun.
 
 [[ref_core_battle_damage_damagetype_magical_necrotic]]
 ===== Nekrotisch
@@ -1831,7 +1838,7 @@ Alle Waffen mit der Information *Munition* erfordern, dass der Verwender, diese 
 Ein Charakter kann jede Kampfphase feuern, bis das Magazin leer ist.
 Magazin wird anstelle von Munition angegeben.
 
-Das *Nachladen* der Waffe oder eines Magazins wird als xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_maneuver[Manöver] oder xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[Freie Aktion] angegeben.
+Das *Nachladen* der Waffe oder eines Magazins wird als <<ref_core_battle_actions,Aktion>> oder <<ref_core_battle_freeactions,Freie Aktion>> angegeben.
 
 .Munition
 ====
@@ -1888,8 +1895,7 @@ Sofern keine weiteren Beschreibungen durch wie Waffe selbst gegeben sind, gilt d
 Waffen mit dieser Eigenschaft müssen immer in zwei Händen gehalten werden, wenn die angegebene <<ref_core_battle_items_weapons_size,Größe>> auf die xref:../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories_primary_hand[Primärhand] des Trägers passt.
 Er kann diesem Fall keine Waffe in der Sekundärhand führen.
 Es gelten die <<ref_core_battle_damage_damagerolls,Schadenswürfe>> für schwere Waffen.
-Außerdem können Waffen mit dieser Eigenschaft für <<ref_core_battle_attacktypes_knockdown,Angriffe zum Niederschlag>> genutzt werden.
-
+Der Einsatz einer schweren Waffe im <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zug>> gilt als <<ref_core_battle_actions_general_limited_action_and_reaction,limitierte Aktion>>
 [[ref_core_battle_items_weapons_tag_impact]]
 ==== Wucht
 *Gattungen:* Nahkampfwaffen, Projektilwaffen, Wurfwaffen
@@ -2002,10 +2008,16 @@ Rüstungen mit dieser Eigenschaft widerstehen dem Effekt <<ref_core_battle_items
 
 Schilde werden wie <<ref_core_battle_items_armor,Rüstungen>> dargestellt, allerdings werden als <<ref_core_battle_items_armor_hitzones,Trefferzonen>> immer "alle" angenommen.
 
+[[ref_core_battle_items_shields_as_improvised_weapons]]
+== Schilde als improvisierte Waffen
+Primär ermöglichen Schilde den Einsatz des Talents
+xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schild Verteidigung] als <<ref_core_battle_reaction_use_defensive_talent,Verteidigungs-Reaktion>>.
+Allerdings dürfen Schilde auch als <<ref_core_battle_meleeweapons_modifiers_improvised_weapons,improvisierte Waffen>> verwendet werden.
+
 [[ref_core_battle_items_shields_tags]]
 === Eigenschaften
 
-Schilde können alle <<ref_core_battle_items_armor_tags,Eigenschschaften von Rüstungen>> besitzen, sowie die folgenden als exklusive Eigenschaften.
+Schilde können alle <<ref_core_battle_items_armor_tags,Eigenschaften von Rüstungen>> besitzen, sowie die folgenden als exklusive Eigenschaften.
 
 [[ref_core_battle_items_shields_tag_grand_cover]]
 ==== Deckung geben
