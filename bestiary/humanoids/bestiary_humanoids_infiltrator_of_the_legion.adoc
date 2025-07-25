@@ -11,7 +11,7 @@ Lore
 
 == Profil
 [NOTE]
-Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind berücksichtigt.
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc[Transplanten der Legion] sind berücksichtigt.
 *ST:* 2 (+1) +
 *GE:* 7 (+2) +
 *KO:* 5 (+1) +
@@ -31,9 +31,9 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 *Rüstung:* Lederrüstung 6 Torso, Rücken, Lederarmschienen 5 Arme +
 *Resistenzen:*  +
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt])
 *Immunitäten:* +
-* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität]
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 == Rettungswürfe
 
 *Aufmerksamkeit:* ST+KO+3 +
@@ -64,14 +64,14 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_persuade[Überzeugen] 9
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_lockpick[Schloss knacken] 10
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_pickpocket[Taschendiebstahl] 8
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
-* link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 1
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/specific/theLegion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 1
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 == Regeln
 === Implante
 Inflitratoren werden vom Schwarm benutzt, um humanoide Gesellschaften auszuspionieren,daher ist ihre Implantateauswahl auf eher subtile Optionen beschränkt:
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_razoerblade_tongue[Rasierklingenzunge]
- xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_hidden_stinger[Versteckter Stachel]
-xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_poision_glands[Giftdrüsen]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_razoerblade_tongue[Rasierklingenzunge]
+ xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_hidden_stinger[Versteckter Stachel]
+xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_poision_glands[Giftdrüsen]
 == Taktik

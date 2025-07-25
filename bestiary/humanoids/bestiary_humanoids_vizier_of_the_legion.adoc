@@ -11,7 +11,7 @@ Viziere der Legion stellen den Hochadel innerhalb der Schwarmgesellschaft dar, i
 Der Schwarm der Legion ist durch den Willen von Legion geprägt, dennoch teilt sich der Schwarm in diverse Unterschwärme auf, die wiederum von einer link:bestiary_humanoids_broodmother_of_the_legion.adoc[Brutmutter] aufgebaut und von iheren Vizieren gelenkt werden.
 == Profil
 [NOTE]
-Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind berücksichtigt.
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc[Transplanten der Legion] sind berücksichtigt.
 *ST:* 31 (+10) +
 *GE:* 6 (+2) +
 *KO:* 42 (+14) +
@@ -30,9 +30,9 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 *Rüstung:* (Brust, Arme, Rücken: 7 Kettenpanzer, (Skorpionenkörper 7) +
 *Resistenzen:*  +
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt])
 *Immunitäten:* +
-* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität]
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 == Rettungswürfe
 *Aufmerksamkeit:* +5 +
 *Disziplin:* +6 +
@@ -48,7 +48,7 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * link:../../../bestiary/skills/bestiary_skill_move_rush.adoc[Eilig]
 * link:../../../bestiary/skills/bestiary_skill_move_fasttrack.adoc.adoc[Schnell]
 * link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] (Biss, Scorpionenschwanz, paralysierendes Gift, 13)** **
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_shadow_of_the_swarm[Schatten des Schwarms]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_shadow_of_the_swarm[Schatten des Schwarms]
 == Defensive
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 9
 == Sonstiges
@@ -61,9 +61,9 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Alchemie)] 12
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Akanes)] 12
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Gifte)] 12
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
-* link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 11
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/specific/theLegion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 11
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 * link:../skills/specific/bestiary_skill_retunie.adoc[Gefolgschaft] (2 link:bestiary_humanoids_elite_warrior_of_the_legion.adoc[Elite Krieger der Legion), 3 link:../animals/bestiary_animals_giant_scorpion.adoc[Riesenskorpione], Leibwächter)
 
@@ -77,10 +77,12 @@ Als Angehöriger des noblen Adels der Legion besitzt dieser Vizier eine Reihe vo
 * xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorponflesh_scorpopnflesh_transplant_stinger_and_tail[Scorpionenschwanz]
 * xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_swarm_overseer[Schwarmaufseher]
 * xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_shadow_of_the_swarm[Schatten des Schwarms]
+
 [[ref_bestiary_vizier_arkane_knowledge]]
 === Arkanes Wissen
-Veziere der Legion sind neben Aufgabe als Representaten einer König auch dafür zuständig, Implantate zu verpflanzen. Sie beherrschen daher außerdem die Zusatz-Zauberliste:
+Veziere der Legion sind neben Aufgabe als Representaten einer Königin auch dafür zuständig, Implantate zu verpflanzen. Sie beherrschen daher außerdem die Zusatz-Zauberliste:
 link:../../compendiums/supplementspelllists/compendium_supplementspelllist_fleshcrafting.adoc[Fleischformen]
+
 == Taktik
 Auch wenn ein Vizier nicht die gleiche Kampferfahrung wie ein link:bestiary_humanoids_elite_warrior_of_the_legion.adoc[Elite Krieger der Legion] besitzt, ist er ein gefährlicher Gegner, der nicht zu unterschätzen ist. Auch der Vezier nutzt die Vorteile seines hybriden Skorpionenkörper und seines giftigen Bisses, um Angreifer einzeln auszuschalten.
 Viziere besitzen auch magisches Potential, dass zwar nicht an das eines link:bestiary_humanoids_high_arkanist_of_the_legion.adoc[Hocharkanisten] herankommt, dennoch nutzen sie es effekiv zu ihrem Vorteil.

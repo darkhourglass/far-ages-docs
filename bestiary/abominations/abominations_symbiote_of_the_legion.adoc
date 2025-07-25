@@ -5,7 +5,7 @@
 * GK: 3
 
 == Beschreibung
-_WWor sind Legion"_
+_Wir sind Legion"_
 == Profil
 
 *ST:* 3 (+1) +
@@ -28,7 +28,7 @@ _WWor sind Legion"_
 // MAXTL= ST*15
 // MAXPOT=EN+3
 
-*BEW:* 9,ßß link:../skills/bestiary_skill_move_climb.adoc[Klettern] 12,00 +
+*BEW:* 9,00 link:../skills/bestiary_skill_move_climb.adoc[Klettern] 12,00 +
 *INI:* 7 +
 *MaxTL:* 45 +
 *MaxPOT:* 16 +
@@ -36,8 +36,8 @@ _WWor sind Legion"_
 *Aktionen:* 3 +
 *Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 +
 *Resistenzen:* XXX
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:./rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:./rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:../../rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
 *Immunitäten:* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität] +
 
 == Rettungswürfe
@@ -72,28 +72,30 @@ _WWor sind Legion"_
 * Fähigkeit 2
 
 == Regeln
-[ref_symbiote_of_the_lehopn_take_hot]
+[[ref_symbiote_of_the_lehopn_take_hot]]
 == Infiziere Wirt
-Der nat+rrliche Instinkt eines Symnioten ist es ssich, mit einem link./rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Wesen mit Wirbels#ule zu verbinden. Bevorzug sind link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide], denkbar sind auch link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiere].
-Um sich aue Wibelsule des zukübftigen Wirts zu verbinen, muss dieser xref:.../rules/core/core_rules_battlesystem.adoc#ref_core_2d10_condition_disabled[kampfungäjo] sein.
-Eine Probe ist dann nicht nätig. Sobakd der Smybiote in Position ist, beiß er sei Opfer zwischen Kopf und Halswirbekl und leg seine Tentakelum dessen Hirnsamm. Mit seinen widerhakenversehten Beiden krallet er sich im Fleisch um die Wibesäule fest. Innerhalb weniger Stunden bildet der Symbiot eine harte chitin Schale um sich un die Körüerstellen des Wirts, die er berührt.
-Jetzt ist der Wirt vollständig übernommen, Teil der Legion und die erhält die folgenden F#jihkeitem:
-* <<ref_symbiote_of_the_lehopn_hive_mind, Schwarmbewusstsein>>
-* <<ref_symbiote_of_the_lhopmn_bound_for_life_and_deatk, Hebunden für Leben und Tod>>
+Der natürliche Instinkt eines Symbioten ist es sich, mit einem link:.././rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Wesen über dessen Wirbelsäule zu verbinden. Bevorzugt sind link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide], denkbar sind auch link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiere].
+Um sich an die Wirbelsäule des zukünftigen Wirts zu verbineen, muss dieser xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_2d10_condition_disabled[kampfunfähig] sein.
+Eine Probe ist dann nicht nötig. Sobald der Symbiont in Position ist, beiß er sei Opfer zwischen Kopf und Halswirbel und leg seine Tentakel um dessen Hirnstamm. Mit seinen widerhakenversehten Beinen krallt er sich im Fleisch um die Wirbelsäule fest. Innerhalb weniger Stunden bildet der Symbiont eine harte chitin Schale um sich und die Körperstellen des Wirts, die er berührt.
+Jetzt ist der Wirt vollständig übernommen, Teil der Legion und die erhält die folgenden Fähigkeitem:
+* <<ref_symbiote_of_the_legion_hive_mind, Schwarmbewusstsein>>
+* <<ref_symbiote_of_the_legion_bound_for_life_and_death, Hebunden für Leben und Tod>>
 * link:../skills/bestiary_skill_abhorrent.adoc[Abscheulich] (link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer])
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:./rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:./rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:../../rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
 Die Pools für TP, MP und SP von Wirt un Symbiont werden zusammengelegt.
 Der Wirt hat keinen freien Willen mehr, sein Körper folgt nur dem WIllen des Symbioten.
-[ref_symbiote_of_the_lehopn_hive_mind]
+[[ref_symbiote_of_the_legion_hive_mind]]
 == Schwarmewusstsein
-Der Symbiot ist telpathisch permanent mit dem Schwarmbewusstsein Lgion vernumdem.
-Innerhaln von 9,00 Metern Umkreis erkennen sich alle Symbopten in ihren jeweiigen Wirten automatsicch.
-Jeder Symbiont ist außerdem dem Kpllektiben Willn Legions ausgeliefert.
-SOfern kein Implantat oder andere explizite Nennung dem individuellen Wirt oder Symbiont Freiheit erlaubt, muss er sich unterordnen.
-Ein regulärer Symbiont hat einen _*Schwarmstutus*_ von 1. Alle Schwarmmmithlieder mit einem hören Schwarmstatus können ihn befehligen.
-[ref_symbiote_of_the_lhopmn_bound_for_life_and_deatk]
+Der Symbiot ist telpathisch permanent mit dem Schwarmbewusstsein Legion verbunden.
+Innerhalb von 9,00 Metern Umkreis erkennen sich alle Symbioten in ihren jeweiligen Wirten automatisch.
+Jeder Symbiont ist außerdem dem kollektiven Willen Legions ausgeliefert.
+Sofern kein Implantat oder andere explizite Nennung dem individuellen Wirt oder Symbiont Freiheit erlaubt, muss er sich unterordnen.
+Ein regulärer Symbiont hat einen _*Schwarmstutus*_ von 1.
+Alle Schwarmmmitglieder mit einem hören Schwarmstatus können ihn befehligen.
+
+[[ref_symbiote_of_the_legion_bound_for_life_and_death]]
 == Hebunden für Leben und Tod
 Nach der Symbiose sind Symbiont und WIrt untrennlich verbunden.
 Erreicht einer von beiden den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Tod], dann stirbt der andere ebenso.

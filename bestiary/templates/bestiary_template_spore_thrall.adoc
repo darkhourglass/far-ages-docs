@@ -1,0 +1,48 @@
+= Sporen Diener
+
+
+Die außerirdischen Sporen der Sternenbestie haben diese Kreatur infiziert und zur beinahen Unkenntlichkeit entstellt.
+Die gesamte Physis der Kreatur wurde neu geschrieben, ihre inneren Organe ersetzt durch überirsche, pilzartige Gebilde.
+Die Haut der Kreatur hat eine metallik blaue Farbe angenommen.
+Leere, tote Augen starren auf andere Lebewesen mit aeonenalten Hass.
+Pilzartige Auswüchse übersähen den Körper der Kreatur.
+Gerade bei Humanoiden kann es vorkommen, dass das Gesicht noch erkennbar ist.
+Besonders verstörend für viele ist, dass die Sporen auch Leichname infizieren können und unter Umständen diese wiederbeleben.
+
+== Voraussetzungen
+Die Kreatur muss den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] haben bzw. gehabt haben, wenn diese Schablone auf ihren Leichnam angewendet wird und darf *nicht* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] sein.
+Der primäre Kreaturentyp der Kreatur darf *nicht* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze] sein.
+
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen und wie folgt angepasst:
+* + 3 ST
+* + 2 KO
+* - 3 CH (minimal 1)
+
+== Talente
+
+Die Kreatur behält alle ihre Talente, sofern sie nicht CH als verwandtes Attribut besitzen.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten. Sie erhält dazu:
+* link:../skills/specific/starbeast/bestiary_skill_dominated_by_the_stars.adoc[Dominiert von den Sternen]
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5, alle Trefferzonen
+* link:../skills/bestiary_skill_nauseatic.adoc[Widerwärtig] 3,00 Meter, 15
+== Regeln
+
+[[ref_spore_thrall_rules_primary_creaturetype]]
+=== Primärer Kreaturentyp
+Der primäre Kreaturentyp der Kreatur ändert sich in link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze].
+
+[[ref_spore_thrall_rules_primary_pseudo_undead]]
+=== Pseudo-Untot
+Wird der Leichnam einer Kreatur zu einem Sporen Diener, wird die Kreatur nicht zu einem Untoten, sondern auch in diesem Fall eine Pflanze.
+Die Kreatur kann jedoch als Ziel für Zaubersprüche gelten, die Untote betreffen, allerdings erhält die Kreatur in diesem Fall einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe] im Zusammenhang mit dem Zauber.
+Der Leichnam kann nicht mehr als Ziel verwendet werden, um einen Untoten zu erschaffen.
+
+== CP
++250

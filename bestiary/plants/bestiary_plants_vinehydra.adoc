@@ -1,0 +1,136 @@
+= Rankenhydra
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* *Progenitor:* unbekannt, möglicherweise Leviathan
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+_"Selbst die Natur verschwört sich gegen uns"_
+Eine Rankenhydra ist ein glücklicherweise seltenes aber boshaftes Pflanzenwesen.
+Seinen Namen verdankt diese Pflanze Ihrer Eigenschaft wie die monströse link:../monstrosities/bestiary_monstrosity_hydra.adoc[Hydra] viele Köpfe gleichzeitig auszubilden mit hoher Geschwindigkeit zu regenerieren.
+Der Körper einer Rankenhydra scheint aus knotigen, dicken Pflanzenranken zu bestehen, der den Körper einer normalen Hydra zu imitieren scheint.
+Es wird spekuliert, dass Rankenhyren eine Folge der aetherischen Verschmutzung des schwarzen Winter ist, die reguläre Flora verdorben hat und dadurch diese Wesen erwachten.
+Auf Al'vaha sind Rankenhydren selten und vollem an den tiefen, temperierten Wäldern von Kchurn und den Smaragddschungeln zu finden.
+
+== Profil
+
+== Profil
+
+*ST:* 7 (+3) +
+*GE:* 6 (+2) +
+*KO:* 8 (+3) +
+*ER:* 2 (+1) +
+*EN:* 3 (+1) +
+*SB:* 2 (+1) +
+*CH:* 1 (+1) +
+*TP:* 120 bis 320 (<<ref_bestiary_hydra_multiple_heads,siehe Beschreibung>>) +
+*MP:* 30 +
+*SP:* 30 +
+*BEW:* 12,00 Meter +
+*INI:* +3 +
+*MaxTL:* 105 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:* +
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure]
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde]
+link:../skills/bestiary_skill_damagevulnerability.adoc.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+*Immunitäten:*  +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +8 +
+*Körper:* +6 +
+*Magie:* +2 +
+*Reflex:* +3 +
+
+== Offensiv
+[NOTE]
+Die Rankenhydra setzt 1 Aktion für eine der folgenden Angriffe ein, kann diese jedoch sooft einsetzen, wie sie jeweils Köpfe hat.
+Dies kostet jeweils nur 1 Aktion.
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9 2W6+3 <<ref_bestiary_vinehydra_multiple_heads_snapping_maw,Schnapp Maul>>
+* link:../skills/bestiary_skill_attack_tentacles.adoc[Tentakel] 9 - <<ref_bestiary_vinehydra_multiple_heads_sticky_tentakel,Klebrige Tentakel>>
+* link:../skills/bestiary_skill_attack_web.adoc[Netz] 8 - <<ref_bestiary_vinehydra_multiple_heads_burroring_trap,Vergrabene Falle>>
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht] 9 2W6+3 1x
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8 (+2)
+
+== Sonstiges
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 10 (+2)
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_primary_creaturetype_plants_rules_hibernate[Ruhezustand]
+* link:../skills/bestiary_skill_fearless.adoc[Furchtlos]
+* link:../skills/bestiary_skill_senses_blindsense.adoc[Blindsinn (24,00 Meter)]
+* link:../skills/bestiary_skill_move_strider_forest.adoc[Waldwanderer]
+
+== Regeln
+
+[[ref_bestiary_vinehydra_multiple_heads]]
+=== Viele Köpfe
+Wie die monströse link:../monstrosities/bestiary_monstrosity_hydra.adoc[Hydra] und Namenspatin verfügt eine Rankenhydra über mehrere Köpfe, die aus ihrem Rumpf wachsen.
+
+Für diese gelten besondere Regeln:
+* Zu jedem Zeitpunkt kann eine Rankenhydra maximal 12 Köpfe besitzen.
+* Eine Rankenhydra kann drei unterschiedliche Typen von Kopf ausbilden, die weiter unter beschrieben werden.
+* Zu Beginn einer Begegnung besitzt die Rankenhydra eine vom SL bestimmte Zahl von Köpfen, maximal jedoch 12.
+Die Bestimmung kann zufällig durch 1W6+3 bestimmt werden. Jede Art von Kopf kann wie folgt einzeln bestimmt werden (1W6):
+** 1-2 <<ref_bestiary_vinehydra_multiple_heads_snapping_maw,Schnapp Maul>>
+** 3-4 <<ref_bestiary_vinehydra_multiple_heads_sticky_tentakel,Klebriger Tentakel>>
+** 5-6 <<ref_bestiary_vinehydra_multiple_heads_burroring_trap, vergrabene Falle>>
+
+* Jeder Kopf bietet der Hydra 20 Punkt auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool], der minimal 110 TP beträgt (90 plus 1 Kopf).
+Dabei handelt es sich nicht um xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_temporary[temporäre] Punkte.
+* Eine Hydra ohne Köpfe, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt] sofort, unabhängig von ihren verbliebenen TP.
+* Jeder einzele Kopf bietet der Rankenhydra einen speziellen Angriff, den sie sooft pro xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenem Zug] einsetzen kann, wie sie den jeweiligen Kopf ausgebildet hat:
+** <<ref_bestiary_vinehydra_multiple_heads_snapping_maw,Schnapp Maul>>: Biss-Angriff
+** <<ref_bestiary_vinehydra_multiple_heads_sticky_tentakel,Klebriger Tentakel>>: Tentakel-Angriff
+** <<ref_bestiary_vinehydra_multiple_heads_burroring_trap, vergrabene Falle>>: Netz-Angriff
+* Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielten Attacke] auf einen der Köpfe, kann ein Angreifer versuchen, diesen abzuschlagen.
+Dazu muss der Angreifer bei einem erfolgreichen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] mindestens 20 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] verursachen (die Anzahl entspricht den TPs eines Kopfes).
+* Zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] darf die Hydra, falls sie mindestens noch 1 Kopf hat, mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] 1 Kopf sofort regenerieren, bis zum oben genannten Maximum von 12 Köpfen.
+Ein regenerierter Kopf verschafft der Hydra 20 TP.
+* Die Rankenhydra hat einen verbesserten xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf].
+
+[[ref_bestiary_vinehydra_multiple_heads_snapping_maw]]
+==== Schnapp Maul
+Diese Kopfvariante einer Rankenhydra erinnert an die Falle eine Venusfliegenfalle.
+Im Gegensatz zur kleinen Pflanze, die nur für Wesen der Größe einer Fliege gefährlich werden kann, hat diese Kopfvariante eine maulartige Muskulatur, die von der Rankenhydra benutz wird, um größere Beute zu verschlingen.
+Bei einer erfolgreichen Attacke verbeißt sich die Rankenhydra bei einer erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierenden] ST-Probe.
+Ein Verlierer dieser Probe gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen] und erhält in jedem Zug der Hydra einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit der Biss-Attacke.
+Für jeden dieser Köpfe besitzt die Rankenhydra eine Biss-Attacke in ihrem Zug.
+[[ref_bestiary_vinehydra_multiple_heads_sticky_tentakel]]
+==== Klebrige Tentakel
+Dieser Kopf endet in einem gekrümmten Tentakel mit klebrigen Borsten.
+Das Vorbild aus der unkorrumpierten Natur ist der Sonnentau.
+Ein erfolgreicher Treffer mit diesem Angriff, verursacht keinen Schaden, allerdings muss eine angegriffene Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen den Angriffs-Wurf der Rankenhydra bestehen oder bleibt an den Borsten kleben und gilt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen].
+Zukünftige xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe], um den klebrigen Tentakel zu entkommen, erhalten jedoch einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil].
+Für jeden dieser Köpfe besitzt die Rankenhydra eine Tentakel-Attacke in ihrem Zug.
+[[ref_bestiary_vinehydra_multiple_heads_burroring_trap]]
+==== Vergrabene Falle
+Diese Kopfvariante kommt mit einem langen flexiblen Hals daher und wird von der Rankenhydra unter der Erde vergraben.
+Der Hals endet in einem kesselartigen Gefäß mit einem flexiblen Deckel.
+Das Gefäß reicht aus, um Kreaturen der GK 5 oder kleiner gefangenzuhalten.
+Dieser Kopf ähnelt einer Kannenpflanze.
+Eine Rankenhydra deren Kopf in der Erde vergraben ist, stellte eine xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_harards_traps[Falle], die nicht entschärft werden kann.
+Ein vergrabener Hydrakopf zeigt seinen dünnen Deckel, der sich vom Erdboden in Textur und Material abhebt, manche Rankenhydren verstecken diesen noch unter losem Pflanzenmaterial.
+Um die xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_harards_detect_trap[Falle zu entdecken] ist ein Mindestwurf von 16 zu erreichen.
+xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_harards_trigger_trap[Ausgelöst] wird diese Falle, wenn eine passende Kreatur auf den Deckel tritt.
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen eine Angriffsprobe (Netz) der Rankenhydra verhindert, dass die Kreatur die Auswirkungen dieser Falle zu spüren bekommt.
+Dieser Deckel klappt ein, gleichzeitig reißt die Rankenhydra ihren Kopf nach oben, damit die Kreatur in der Kanne landet.
+Dieser Angriff verursacht keinen Schaden, dennoch gilt die Kreatur xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gefangen].
+Beginnt eine Kreatur auf diese Weise gefangen ihren eigenen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug], erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 3W6+3 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden], da sich die Kanne mit Verdauungssäften füllt.
+Die Kreatur kann versuchen zu entkommen, in dem sie mit einer konkurrierenden ST-Probe den Kannendeckel aufstemmt oder mit einer scharfen Waffe mindestens durch einen Angriff 20 Schadenspunkte verursacht.
+Im Kampf kann eine Rankenhydra jeden unbesetzten Kopf dieser Art als Netz-Angriff nutzen.
+Ist die Zielkreatur nicht durch einen anderen Kopf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten], erhält die Rankenhydra einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf diesen Angriffswurf.
+* Ein Kopf, der durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] verloren wurde, kann erst nach Ablauf von 24 Stunden regeneriert werden.
+
+== Taktik
+Wie eine monströse link:../monstrosities/bestiary_monstrosity_hydra.adoc[Hydra] ist eine Rankenhydra kein taktisches oder stragetisches Genie.
+Sie verlässt sich auf ihre rohe Kraft und massiven Körper, um kleinere Wesen

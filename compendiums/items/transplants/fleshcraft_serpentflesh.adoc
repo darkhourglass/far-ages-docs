@@ -1,0 +1,62 @@
+=Schlangenfleisch Transplante
+
+== Voraussetzungen
+Um ein Transplant aus dieser Liste zu bekommen und halten zu können, muss die empfangende Kreatur vom Kreauren link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] sein.
+Schlangenfleisch Transplante sind ein geheimes Nebenprodukt der link:fleshcraft_scorpianflesh.adoc[Skorpionfleisch-Formung], die von einer rebellischen Splitterfraktion der link:../../../lore/worlds/alvaha/nations_and_factions/the_legion.adoc[Legion] praktiziert wird.
+Im Gegensatz zur Skorpionfleisch Transplantation benötigt eine Kreatur keinen link:../../../bestiary/abominations/abominations_symbiote_of_the_legion.adoc[Symbiont der Legion], um ein Transplant dieser Liste zu erhalten, dennoch ist es unwahrscheinlich, dass die Fleischformer aus xref:../../../lore/worlds/alvaha/nations_and_factions/the_legion.adoc#ref_thelegion_swarm_of_sutekh[Sutekhs Schwarm] nicht Verbündeten diese Geheimnisse verraten.
+
+[[serpentflesh_transplant_poision_glands]]
+== Giftdrüsen
+Mit diesem Transplant bilden sich in der Speiseröhre körpereigene Drüsen, die verschiedene Gifte enthalten können. Andere Transplantate dieser Liste benötigen diese als Voraussetzung.
+
+[[serpentflesh_scales]]
+== Schuppenpanzer
+Due Kreatur bekommt ein Organ verpflanzt, dass ihre Haut mit der Zeit zu einem dichten Schuppenpanzer verwandelt, der sie vor Schaden schützt.
+Dieses Transplantat deckt jede Trefferzone der Kreatur ab.
+Jede Trefferzone der Kreatur erhält  link:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung] von 3 Punkten.
+
+[[serpentflesh_transplant_poision_Bite]]
+== Giftiger Biss
+Für dieses Transplantat muss die Kreatur bereits <<serpentflesh_transplant_poision_glands,Giftdrüsen>> besitzen.
+Die Zähne der Kreatur werden mit Kanälen durchzogen, die mit den Giftdrüsen verbunden sind.
+Wie bei einer Schlange wachsen die Eckzähne der Kreatur zu einer dolchförmigen Spitze, die das Gift austeilen kann, wenn ein Biss erfolgt.
+Die Kreatur erhält eine neue link:../../skills/bestiary_skill_attack_bite.adoc[Biss-Attacke]mit einer *Angriffsstufe* von +7 plus ihren ST-Bonus. Der *Schaden* veträgt 1W6 plus den ST-Bonus. Der Biss kann 1x pro  xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eingesetzt werden. Zusätzlich wird dieser Angriff durch die Fähigkeit link:../../../bestiary/skills/bestiary_skill_poison.adoc[Gift] erweitert. Verursacht der Biss Schaden, wird ein link:../../compendiums/poisions/poisions_weakening_venom.adoc[schwächend] mit xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_strengh[Giftstärke] 13 freigesetzt.
+
+[[serpentflesh_transplant_razoerblade_tongue]]
+== Rasierklingenzunge
+Dieses Implantat basiert auf alchemistischen und arkanen Experiment und wurde von der Legion gestohlen.
+Die Zunge der Kreatur wird ersetzt durch eine lange, graue, fleischige Zunge, die sich um Hals der Kreatur zusammenrollen kann. Die Spitze der Zunge endet in einer blattformigen, breiten Spitze, die mit scharfen, zahnähnlichen Spitzen besetzt ist.
+Die Kreatur erhält eine neue Attacke mit Namen _Resierklingenzunge_ vom Typ link:../../../bestiary/skills/bestiary_skill_attack_stroke.adoc[Hieb] mit *Angriffstufe* 6 plus GE-Bonus der Kreatur, *Schaden* 2W6+GE-Bonus.
+Wenn die Attacke Schaden verursacht, erhält das Ziel außerdem den Zustand xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Blutend].
+Die Attack kann einmal pro eigenem Zug eingesetzt werden.
+
+[[serpentflesh_transplant_lower_body_tramsformation]]
+== Schlangenkörper
+Der Unterkörper der Kreatur wird ersetzt durch den Körper einer Riesenschlange.
+DIe GK der Kreatur erhöht sich um 1. Sie erhält folgende Boni auf ihre Attributesstufen: +10 ST, +8 KO.
+Der Schlangenkörper gilt als eigene Trefferzone mit link:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung] von 3 Punkten.
+DIe BEW der Kreatur wird auf 12,00 Meter festgesetzt.
+Die Kreatur erhält außerdem die folgenden Fähigkeiten:
+* link:../../../bestiary/skills/bestiary_skill_move_rush.adoc[Eilig]
+* link:../../../bestiary/skills/bestiary_skill_move_fasttrack.adoc.adoc[Schnell]
+
+[[serpentflesh_transplant_rattler]]
+== Klapperschlangenschwanz
+Eine Kreatur mit <<serpentflesh_transplant_lower_body_tramsformation,Schlangenkörper>> kann dieses Transplantat zusätzlich erhalten.
+Der Schwanz der Kreatur wird durch den Schwanz einer riesigen Klapperschlange ersetzt.
+Die Kreatur kann wie eine Klapperschlange diesen Körperteil einsetzen, um das charakteristische Klappern einer solchen Schlange zu imitieren.
+Die Kreatur erhält eine Fähigkeit mit Namen *Klappern*, die der Fähigkeit link:../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] entspricht.
+Die Angriffsstufe entspricht 6 + den CH-Modifikator der Kreatur.
+
+[[serpentflesh_transplant_additional_snakehead]]
+== Zusätzlicher Schlangenkopf
+Dieses Implantant transplantiert einen zusätzlichen Schlangenkopf an den Körper der empfangenden Kreatur.
+Dieser wird an einer passenden Stelle mit einem signifikanten Teil der Schlange verpflanzt, zum Beispiel am Nacken oder unter den Armen.
+Dieser Schlangenkopf ermöglicht der Kreatur eine zusätzliche link:../../../bestiary/skills/bestiary_skill_attack_bite.adoc[Biss]-Attacke pro xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] mit *Angriffstufe* 3 + ST-Modifikator und *Schaden* 1W8+ST-Modifikator.
+Das xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] der Kreatur erhöht sich um 20 Punkte.
+Als Spender kommen große Schlangen deren eigene GK maximal 2 Punkte unter der GK der empfangenen Kreatur liegen darf.
+Liegt die GK der verwendeten Schlange wenigstens bei 6 erhält die Biss-Attacke außerdem die Fähigkeit link:../../../bestiary/skills/bestiary_skill_reach.adoc[Reichweite] von 1,50 Metern.
+Ein Schlangenkopf dieser Art kann durch eine xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielte Attacke], die mindestens 20 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadenspunkte] verursacht abgetrennt werden.
+Das Implantat kann mehrfach an der gleichen Kreatur angebracht, jedesmal wird ein weiterer Kopf hinzugefügt.
+Die Inspiration erhielt Sutekh von Hydren.
+

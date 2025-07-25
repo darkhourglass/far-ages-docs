@@ -12,7 +12,7 @@ Ihr Gesicht ist bedeckt durch eine helmartige Panzer-Formation, die einen kleine
 
 == Profil
 [NOTE]
-Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind ber+clsucgtigt.
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc[Transplanten der Legion] sind berücksichtigt.
 *ST:* 10 (+3) +
 *GE:* 3 (+1) +
 *KO:* 11 (+3) +
@@ -31,9 +31,9 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 *Rüstung:* 12 (Alle Trefferzonen: ink:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung] 7 + 5 Schild) +
 *Resistenzen:* +
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt])
 *Immunitäten:* +
-* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität]
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 == Rettungswürfe
 *Aufmerksamkeit:* +5 +
 *Disziplin:* +2 +
@@ -50,16 +50,16 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athlethik]
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen]
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
-* link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 1
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/specific/theLegion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 1
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 == Regeln
 === Implante
 Alle Kriegssklaven der Legion erhalten die gleichen Implantate:
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse]
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_pinceers[Greifscheren]
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_plates[Panzerplatten] (alle Trefferzonen)
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_pinceers[Greifscheren]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_plates[Panzerplatten] (alle Trefferzonen)
 == Taktik
 Die Kriegssklaven der Legion sind vor allem Kanonenfutter und Masse, die zwischen wichtige Mitglieder des Schwarms und die Gegner geworfen werden.
 Trotz ihrer Klauen, die bereits für sich tödliche Waffen sind, werden die Kriegssklaven trainiert, mit Schild und Speer zu kämpfen, um Einheitentaktiken und Formationskampf einsetzen zu können.

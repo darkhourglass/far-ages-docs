@@ -10,7 +10,7 @@ Lore
 
 == Profil
 [NOTE]
-Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind ber+clsucgtigt.
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc[Transplanten der Legion] sind berücksichtigt.
 *ST:* 26 (+8) +
 *GE:* 6 (+2) +
 *KO:* 30 (+10) +
@@ -29,9 +29,9 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 *Rüstung:* (Skorpionenkörper 7) +
 *Resistenzen:*  +
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt])
 *Immunitäten:* +
-* link:../skills/bestiary_skill_immunity_to_poison.adoc[Goftimmunität]
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 == Rettungswürfe
 *Aufmerksamkeit:* +9 +
 *Disziplin:* +5 +
@@ -52,18 +52,18 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Alchemie)] 15
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Akanes)] 15
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Gifte)] 15
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
-* link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 8
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/specific/theLegion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 8
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 
 == Regeln
 === Implantate
 Hccharkanisten nehmen im Schwarm eine gesonderte Stellung ein, da sie durch ihr magisches Können einen Beitrag zum Erfolg des Schwarms beitragen. Daher kommen auch ihnen eine Reihe von Implantanten zu Gute:
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse] (2x GK 5 auf 6)
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_lower_body_tramsformation[Scropionenkörper]
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorponflesh_scorpopnflesh_transplant_stinger_and_tail[Scorpionenschwanz]
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_swarm_overseer[Schwarmaufseher]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse] (2x GK 5 auf 6)
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_lower_body_tramsformation[Scropionenkörper]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorponflesh_scorpopnflesh_transplant_stinger_and_tail[Scorpionenschwanz]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_swarm_overseer[Schwarmaufseher]
 [[ref_bestiary_higharkanist_spell_schools]]
 == Zauberschulen
 Die meisten Hocharkanisten waren in ihrem Leben vor dem Schwarm der Legion bereits Gelehrte auf dem Gebiet ihrer Zauberschulen.

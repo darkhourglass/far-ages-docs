@@ -111,41 +111,25 @@ Bei einem xref:ref_core_2d10_checks_successes[Erfolg] bleibt der Charakter von d
 Jede Beschreibung eines Giftes enthält einen *sekundären Effekt* und einen *primären Effekt*.
 Bei einem xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] tritt der primäre Effekt sofort ein.
 Im Fall eines xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzers] treten der primäre und der sekundäre Effekt sofort ein.
+Eine Liste von Giften findet sich unter dieser link:../../compendiums/compendium_poisions.adoc[Liste].
 
 [[ref_core_adventures_hazards_poisons_strengh]]
 ==== Giftstärke
+Jedes Gift hat eine Stärke, die mit einer Zahl angebenen ist, zum Beispiel 13.
+Diese Zahl stellt den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] dar, um dem <<ref_core_adventures_hazards_poisons_resist,Gift zu widerstehen>>.
 
-[[ref_core_adventures_hazards_poisons_caustic_venom]]
-==== Ätzendes Gift
+[NOTE]
+Unterschiedliche Quellen zum Beispiel Gift von Kreaturen können diesen Mindestwurf individuell vorgeben.
 
-// primary:  -1 WzE
-// secondary: 3W6 Säure Schaden
-
-[[ref_core_adventures_hazards_poisons_eroding_venom]]
-==== Erodierendes Gift
-
-// primary
-// secondary
-
-[[ref_core_adventures_hazards_poisons_paralyzing_venom]]
-==== Paralysierendes Gift
-
-// primary
-// secondary
-
-
-[[ref_core_adventures_hazards_poisons_weakening_venom]]
-==== Schwächendes Gift
-
-// primary
-// secondary
-// malus or disadvantage on saves
-[[ref_core_adventures_hazards_poisons_deadly_venom]]
-==== Tödliches Gift
-// primary
-// secondary
-// High damage values
-
+[[ref_core_adventures_hazards_poisons_duration]]
+== Gift Dauer
+Leidet eine Kreatur aufgrund eines Fehlschlags um einem <<ref_core_adventures_hazards_poisons_resist,Gift zu widerstehen>> unter primären oder sekundären Effekten eines Gifts, so halten diese Effekte in der Regel so lange an, wie das Gift im Körper der Kreatur verbleibt.
+Zaubersprüche können Gifte neutralisieren.
+Während einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[Rast] kann eine erfolgreiche Probe auf eines der folgenden Talente:
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Medizin)]
+genutzt werden, um ein Gegenmittel zu erstellen und auf diese Weise das  Gift zu neutralisieren.
+Alternativ kann der SL den Rettungswurf pro langer Rast wiederholen lassen und bei einem Erfolg hat sich der Charakter erholt.
 
 [[ref_core_adventures_hazards_heat]]
 === Hitze
@@ -331,6 +315,51 @@ Alle Effekte auf Kreaturen sind kumulativ, ein Sturm der Stärke 3 verursacht be
 [[ref_core_adventures_harards_missing_food_and_water]]
 === Unterernährung / Dehydrierung
 
+[[ref_core_adventures_harards_traps]]
+=== Fallen
+[quote, Wain]
+_"Merkwürdig ist die Kunst des Fallenmachers ... seine Wirksamkeit, die er nicht mit eigenen Augen bezeugt."_
+Die erfolgreichsten Schlachten sind die, die man nicht selbst führen muss und dennoch gewinnt.
+So stellen intelligente Wesen anderen Fallen, um sie abzulenken oder zu verletzen.
+Fallen umfassen einfache bis komplexe Mechnismen oder arkane Verzauberungen.
+[[ref_core_adventures_harards_detect_trap]]
+==== Falle entdecken
+Fallen können gefunden werden, in dem Sie durch eine erfolgreiche Probe in xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Entdecken] gefunden werden.
+In der Regel liegt ein konkreter xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für die <<ref_core_adventures_harards_traps_description,entsprechende Falle>> vor.
+Misslingt die Probe, kann die Falle nicht entdeckt wird, was eine <<ref_core_adventures_harards_trigger_trap,Auslösung>> wahrscheinlicher macht.
+Charaktere sollten ansagen, wenn sie ein bestimmtes Gebiet z.B. einen Raum oder Gang nach Fallen absuchen.
+
+[[ref_core_adventures_harards_disarm_trap]]
+==== Falle entschärften
+Eine Falle entschärfen, führt dazu, dass der <<ref_core_adventures_harards_trigger_trap,Auslöser>> keinen Effekt mehr verursacht.
+Dazu wird das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen] verwendet.
+In der Regel liegt ein konkreter xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für die <<ref_core_adventures_harards_traps_description,entsprechende Falle>> vor.
+Es können nur Fallen entschärft werden, die vorher <<ref_core_adventures_harards_detect_trap,entdeckt>> wurden.
+Bei einem Patzer in diese Probe wird die Falle versehentlich ausgelöst.
+
+[[ref_core_adventures_harards_set_trap]]
+==== Fallen stellen
+Charaktere und Kreaturen können Fallen auch konstruieren und scharf stellen.
+Dazu wird das Talent
+xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen] verwendet.
+Die <<ref_core_adventures_harards_traps_description,Beschreibung>> einer Falle enthält auch dazu einen Mindestwurf sowie Materialkosten, die aufgewendet werden müssen.
+Bei einem Misserfolg oder Patzer in dieser Probe können im Ermessen des SLs die Materialien für die Falle verloren gehen.
+
+[[ref_core_adventures_harards_trigger_trap]]
+==== Falle auslösen
+Jede Falle hat einen konkreten Auslöser, der in der <<ref_core_adventures_harards_traps_description,Beschreibung>> zu finden ist.
+Werden die Bedingungen für den Auslöser erfüllt, tritt der Effekt der Falle sofort ein.
+Eine Falle kann in der Regel einmal ausgelöst werden und muss dann erneut <<ref_core_adventures_harards_set_trap,gestellt>> werden.
+
+[[ref_core_adventures_harards_traps_description]]
+==== Beschreibungen einer Falle
+Fallen werden in einem link:../../compendiums/compendium_traps.adoc[Kompendium] zugefasst und jeder Eintrag folgt dem gleichen Muster.
+*Name:* Name oder Bezeichner der Falle
+*Auslöser:* Beschreibung, wann die Falle ausgelöst wird
+*Entdecken:* Mindestwurf für xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes Entdecken], um die Falle zu erkennen
+*Entschärfen:* Mindestwurf für xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_disarmtraps[Fallen entschärfen]
+*Konstruktion:* Mindestwurf/Kosten für xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen]
+*Effekt:* Beschreibung des Effekts, wenn die Falle ausgelöst wird.
 [[ref_core_adventures_items]]
 == Gegenstände
 

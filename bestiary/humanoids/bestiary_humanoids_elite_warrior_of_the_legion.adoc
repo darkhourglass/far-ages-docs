@@ -12,7 +12,7 @@ _Dieses Mitglied der Legion verkörpert die perfekte und verstärende Mischung a
 Der Elite Krieger der Legion ist der Apex-Kämpfer in den Reihen der Legion. Als Veteran unzähliger Schlachten hat er sich als würdig erwiesen, diverse Implantate zu erhalten und mehr Skorpion als Mensch zu werden.
 == Profil
 [NOTE]
-Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc[Transplanten der Legion] sind berücksichtigt.
+Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_of_the_legion.adoc[Symbionten] oder link:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc[Transplanten der Legion] sind berücksichtigt.
 *ST:* 32 (+10) +
 *GE:* 5 (+2) +
 *KO:* 37 (+12) +
@@ -31,7 +31,7 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 *Rüstung:* 13 (Alle Trefferzonen: ink:../../../bestiary/skills/bestiary_skill_naturalarmor.adoc[natürlicher Rüstung] 7 + 6 Turnschild) +
 *Resistenzen:*  +
 * link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
-* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#[[ref_core_battle_damage_damagetype_primary_interlect]]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (xref:.././rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt])
 *Immunitäten:* +
 * link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 == Rettungswürfe
@@ -57,19 +57,19 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athlethik] 18
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 8
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 12
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
-* link:../skills/specific/theöehion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
-* link:../skills/specific/theöehion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 6
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_vermin_command.adoc[Ungeziefer Herrschaft]
+* link:../skills/specific/theLegion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
+* link:../skills/specific/theLegion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 6
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
 == Regeln
 === Implante
 Als verdienter Veteran der Legion besitzt dieser Elitekämpfer eine Reihe von Implantaen, die seine bereits beeindruckende Kampfkraft noch deutlicher verbessern:
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse] (3x GK 5 auf 7)
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_lower_body_tramsformation[Scropionenkörper]
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_poision_glands[Giftdrüsen]
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_transplant_pinceers[Greifscheren]
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorpopnflesh_plates[Panzerplatten] (alle Trefferzonen)
-* xref:../../compendiums/items/transplants/fleshcraft_scorpoanflesh.adoc#scorponflesh_scorpopnflesh_transplant_stinger_and_tail[Scorpionenschwanz]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_chinious_growths[Chitinöse AuswÜchse] (3x GK 5 auf 7)
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_lower_body_tramsformation[Scropionenkörper]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_poision_glands[Giftdrüsen]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_transplant_pinceers[Greifscheren]
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorpopnflesh_plates[Panzerplatten] (alle Trefferzonen)
+* xref:../../compendiums/items/transplants/fleshcraft_scorpianflesh.adoc#scorponflesh_scorpopnflesh_transplant_stinger_and_tail[Scorpionenschwanz]
 == Taktik
 Nzr die besten und skrupelosesten Kämpfer in den Reihen der Legion, die unzählige Schlachten in vielen Dutzend Jahren erfahren haben, können sich zu der Elite zählen.
 Kämpfer dieses Ranges zeichnen sich durch effektive und brutale Strategien aus, bei denen sie ihre jahrlange Erfahrung mit unterschiedlichen Waffen und ihre durch Implantate verbesseren Köroer zu ihrem Vorteil nutzen und ihre Gegner gnadenlos bekämpfen.
