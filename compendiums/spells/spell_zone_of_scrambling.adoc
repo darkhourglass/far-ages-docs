@@ -1,0 +1,23 @@
+= Zone der Programm-Verwischung
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 12 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Metall, Geist +
+*Vorbereitung:* 7 +
+*Reichweite:* 18,00 Meter +
+*Anzahl der Ziele:* Radius 12,00 Meter+
+*Dauer:* 10 Kampfphasen +
+*Effekt:*
+Der Zauber erschafft eine Zone, in der Konstrukte ihre Programme verwirrt bekommen.
+Jedes Konstrukt mit einem xref:../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programm], dass sich in der Zone befindet, kann davon betroffen werden.
+
+Zu Beginn des xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugs] muss ein Konstrukt im Wirksbereich des Zaubers 1W10 würfeln.
+Bei einer 1 verliert es für diesen Zug eine seiner Aktionen.
+Wird eine 10 gewürfelt, kommt für die Dauer des Zaubers ein weiterer 1W10 hinzu, für den gewürfelt wird.
+Jeder weiterer W10 wird einzel ausgewertet.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++5 MP: Reichweite +6,00 Meter
++1 POT, +5 MP: Radius +3,00 Meter

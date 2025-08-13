@@ -1,0 +1,23 @@
+= Brücke (Element)
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Geste, 1 kleinen Stock +
+*Fokus:* Wasser, Erde +
+*Vorbereitung:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 48,00 Meter, siehe Beschreibung +
+*Dauer:* 10 +
+*Effekt:* +
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] springt der Stock aus Deiner Hand, landet in Reichweite von 12,00 Metern im Boden und verwandelt sich in eine Brücke, die einen sicheren Weg über eine Gefahr darstellt, wie im folgenden Absatz beschrieben.
+Der Zauber kann bestimmte *Elemente* überbrücken, die je Ausprägung aus verschiedenen ZauberspruchListen stammen können:
+*Wasser:* Eine Wasserfläche oder Flüssigkeit kann bis zu 48,00 Meter überbrückt werden
+*Luft:* Ein Abgrund kann bis zu 48,00 Meter überbückt werden
+*Lava:* Ein Feld von Lava kann bis zu 48,00 Meter überbrückt werden.
+Egal, welches ELement betroffen ist, die Brücke muss vollständig sein, also an einem Ende auf festen Grund stehen und am Ziel den selbigen erreichen.
+Auch wenn die Brücke aus Holz ist, ist sie für die Dauer des Zaubers feuerfest.
+Die Brücke verschwindet nach Ablauf der Dauer, auch wenn noch Kreaturen auf ihr gehen.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++1 POT, +10 MP: +12,00 Meter Brückenlänge

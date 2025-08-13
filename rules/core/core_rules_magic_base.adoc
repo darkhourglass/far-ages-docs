@@ -1026,17 +1026,43 @@ Runenmagie funktioniert sehr ähnlich wie die Spruchzauberei über arkane Sprach
 Im Gegensatz zu arkaner Sprache, die die Energie des Aethers durch den Körper des Magiers kanalisiert, wirkt die Runenmagie durch einen physikalischen Fokus, der eben jene Rune trägt.
 
 Ein Runenmagier "schreibt" somit seine Magie in Form von Runen auf einen Gegenstand oder eine Oberfläche und aktiviert diese nach bestimmten Kriterien.
-In Sinne der Regeln lernt ein Charakter Runenmagie wie eine Zauberschule über das Spruchzauberei-Talent und den link:../../compendiums/spelllists/compendium_spelllist_runes.adoc[Weg der Runen].
-Die Einträge in dieser Zauberspruchliste folgen dem üblichen Aufbau und den Regeln für Zaubersprüche.
+In Sinne der Regeln lernt ein Charakter Runenmagie wie eine Zauberschule über das Spruchzauberei-Talent und die link:../../compendiums/spelllists/compendium_spelllist_runes.adoc[Zauberliste der Runen].
+Die Einträge in dieser Liste bestehen aus regulären Zaubersprüchen, die nach den üblichen Regeln gelernt und gezaubert werden können, sowie aus <<ref_core_magic_schools_runes_rules,Runen>>.
 
-Es gelten dabei folgende, zusätzliche Regeln:
+[[ref_core_magic_schools_runes_rules]]
+====== Runen
+Für Runen gelten zusätzliche bzw. abweichende Regeln:
 
-* Jeder Eintrag in der Zauberspruchliste repräsentiert eine Rune, die ein Runenmagier nach den üblichen Regeln lernen kann.
+* Wie ein Zauber hat jede Rune eine <<ref_core_magic_rules_spellcasting_spellspecifics_potent,POT>>, die für die <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> relevant ist.
+* Eine Rune kann ein <<ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret,Arkanes Geheimniss>> sein.
+* Eine Rune wird durch einen Eintrag in der Zauberspruchliste repräsentiert, die ein Runenmagier nach den üblichen Regeln für <<ref_core_magic_schools_learning_spells,Zaubersprüche lernen>> kann.
 Sobald er eine Rune gelernt hat, kann er sie nach den hier aufgeführten Regeln einsetzen.
-* Jede Rune muss auf einen Gegenstand oder ein Objekt *geschrieben* werden.
-Die angegebene Vorbereitungszeit beschreibt diesen Prozess.
+* Eine Rune besitzt eine implizite <<ref_core_magic_rules_spellcasting_spellspecifics_preparation,Vorbereitungszeit>> von 1 Minute pro POT, d.h das Verwenden einer Rune ist immer gleichbedeutend zu einem <<ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals,Ritual>> mit Ausnahme der <<ref_core_magic_schools_runes_rules_spontaneous_rune_effekt,sponatanen Effekte>>.
+Diese Vorbereitungszeit beschreibt den Prozess, dass die Rune ggf. auf ein Objekt oder einen Gegensatz geschrieben wird.
 Im Gegensatz zu anderen Zaubersprüchen kann diese Vorbereitungszeit nicht verkürzt werden.
-* Erlaubt die Rune zusätzliche Effekte, müssen diese beim Vorgang des Schreibens berücksichtigt werden.
+* Runen haben in der Regel keine <<ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects,zusätzlichen Effekte>>
+
+
+
+
+[[ref_core_magic_schools_runes_rules_spontaneous_rune_effekt]]
+======= Spontaner Runeneffekt
+texttext
+
+[[ref_core_magic_schools_runes_rules_mastery_rune_effekt]]
+======= Runenmeistersschaft Effekt
+Der *Runenmeisterschafts Effekt* ist ein besonder mächtiger Effekt, der dem Runenmagier zu Verfügung steht, wenn er die Fähigkeit
+link:../../rules/core/skills/core_skill_runemastery.adoc[Runenmeisterschaft] für die jeweilige Rune gelernt hat.
+Da jede Meisterschaftseffekt einzigartig ist, gelten ausschließlich die in der Beschreibung der Runen vorliegenden Regeln.
+[[ref_core_magic_schools_runes_rules_wargear_rune_effekt]]
+======= Runeneffekt für Kriegsgeräte
+Der *Runeneffekt für Kriegsreräte* ist ein permanenter, offensiver oder defensiver Effekt, der auf bestimmte Gegenstände geschrieben werden kann.
+Zu Kriegsgeräten gehören Waffen aller Art, Rüstungen und Schilde, sofern dieser keine magischen oder technomantischen Gegenstände sind.
+Es gelten neben der Einschränkung auf bestimmte Gegenstände dieselben Regeln wie für <<ref_core_magic_schools_runes_rules_permanent_rune_effekt,permanente Effekte>>.
+[[ref_core_magic_schools_runes_rules_permanent_rune_effekt]]
+======= Permanenter Runeneffekt
+
+Sofern nicht explizit in ihrer Beschreibung ausgeschlossen, kann eine Rune auf jeden Gegenstand geschrieben werden. Manche Runen können nur auf bestimmte Gegenstandstypen (z.B. Waffen, Rüstungen etc.) und Materialien (z.B. Stein, Metall, etc.) geschrieben werden.
 * Wird eine Rune ausgelöst, wird die Spruchzauberei-Probe nach den üblichen Regeln gewürfelt.
 Möchte ein Runenmeister eine Rune bewusst auslösen, so muss er den Gegenstand, der die Rune trägt, berühren.
 Wird eine Rune aufgrund einer eingetretenen Bedingung ausgelöst, ist es nicht relevant, ob der Runenmeister anwesend ist.
@@ -1044,23 +1070,9 @@ Um die Stufen zu bestimmen, werden immer die Stufen des Runenmeisters genommen, 
 Es können nur *aktive* Runen ausgelöst werden.
 * Wurde eine Rune ausgelöst, gilt diese als *inaktiv* und kann nicht wieder ausgelöst werden.
 * Eine inaktive Rune kann von einem Runenmagier wieder aktiviert werden.
-Dazu muss er pro angebener POT der Rune 5 MP aufwenden.
+Dazu muss er pro angebender POT der Rune 5 MP aufwenden.
 Diese MP können aus seinem eigenen MP-Pool stammen oder aus einem Magiespeicher.
 Nur der Runenmagier, der die Rune zuerst geschrieben hat, kann dies ohne weitere Proben durchführen.
-* Ein Runenmagier kann ein fremde, inaktive Rune aktivieren, in dem er die o.g. MP aufwendet.
-Zusätzlich muss er eine Spruchzauberei-Probe ablegen, so als würde er die Rune schreiben.
-Hat er die Rune selbst gelernt, erhält keine Modifikatoren auf diese Probe.
-Kennt er die Rune hingegen nicht, so erhält die Probe einen Malus von *-5*.
-* Ein Runenmagier kann seine eigenen, aktiven Runen jederzeit deaktivieren und aktivieren.
-Solange diese Runen nicht ausgelöst wurden, können sie ohne MP-Aufwand wieder aktiviert werden.
-* Um eine Rune permanent auszuschalten, muss man diese *bannen*.
-Eine gebannte Rune kann nie wieder aktiviert werden.
-Es muss eine komplette neue Rune geschrieben werden.
-Ein Runenmagier kann seine eigenen Runen jederzeit bannen.
-* Ein Runenmagier kann eine fremde Rune bannen, in dem eine Spruchzauberei-Probe ablegt, so als würde er die Rune schreiben.
-Ein Runenmagier kann ausschließlich Runen bannen, die er gelernt hat.
-
-Sofern nicht explizit in ihrer Beschreibung ausgeschlossen, kann eine Rune auf jeden Gegenstand geschrieben werden. Manche Runen können nur auf bestimmte Gegenstandstypen (z.B. Waffen, Rüstungen etc.) und Materialien (z.B. Stein, Metall, etc.) geschrieben werden.
 
 Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier bestimmte Voraussetzungen erfüllen, im allgemeinen Wissen in Form von Talenten. Folgende Tabelle gibt dazu eine Übersicht.
 
@@ -1094,7 +1106,26 @@ Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier 
 |Oberflächen, Holz
 |Handwerk[Schnitzen] 1
 |
+
+|Oberflächen, Haut
+|Handwerk[Tatoowieren] 1
+|
 |===
+
+[[ref_core_magic_schools_runes_rules_ban_runes]]
+=======  Runen bannen
+* Ein Runenmagier kann ein fremde, inaktive Rune aktivieren, in dem er die o.g. MP aufwendet.
+Zusätzlich muss er eine Spruchzauberei-Probe ablegen, so als würde er die Rune schreiben.
+Hat er die Rune selbst gelernt, erhält keine Modifikatoren auf diese Probe.
+Kennt er die Rune hingegen nicht, so erhält die Probe einen Malus von *-5*.
+* Ein Runenmagier kann seine eigenen, aktiven Runen jederzeit deaktivieren und aktivieren.
+Solange diese Runen nicht ausgelöst wurden, können sie ohne MP-Aufwand wieder aktiviert werden.
+* Um eine Rune permanent auszuschalten, muss man diese *bannen*.
+Eine gebannte Rune kann nie wieder aktiviert werden.
+Es muss eine komplette neue Rune geschrieben werden.
+Ein Runenmagier kann seine eigenen Runen jederzeit bannen.
+* Ein Runenmagier kann eine fremde Rune bannen, in dem eine Spruchzauberei-Probe ablegt, so als würde er die Rune schreiben.
+Ein Runenmagier kann ausschließlich Runen bannen, die er gelernt hat.
 
 [[ref_core_magic_schools_shadowtricks]]
 ===== Schattentricks
@@ -1387,6 +1418,7 @@ Jedes Portal, egal welcher Art, besitzt folgende Eigenschaften:
 ==== Elementare Foki
 
 ==== Aspektelementare Foki
+==== Metall
 ==== Geist und Körper
 
 [[ref_core_magic_spell_foci_illusion]]

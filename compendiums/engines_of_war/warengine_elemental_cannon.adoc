@@ -1,7 +1,25 @@
 = Elementare Kanone
-*Kategorie:* mechanisch/technonantisch/arkan
-*Munition:* Projektil / MP Kosten
-*Magazin:* Laden+Anzahl / MP Maximum
-*Mannschaft:* X Spezialisten
-*Feuern/Laden:* x Aktionen
+*Kategorie:* technonantisch
+*Munition:* <<ref_warengine_elementaral_projectil,elementares Projektil (10 MP)><
+*Magazin:* 1 / 110 MP Maximum
+*Mannschaft:* 2 Spezialisten
+*Feuern/Laden:* 2/1 Aktionen
 *Beschreibung:*
+Die elementare Kanone ähnelt einer regulären Kanone in Aufbau und Bedienung.
+Allerdings besitzt die elementare Kanone eine Art Brennkammer, die komplizierten Schaltpulten bedient werden muss.
+Es werden zwei Charaktere mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] in dieser Kriegsmaschine, werden benötigt, um sie korrekt zu bedienen.
+Das Abfeuern eines <<ref_warengine_elementaral_projectil,elementaren Projektils>> kostet je 2 Aktion pro Spezialist.
+Dies symbolisiert, dass die Brennkammer angeheizt wird und ein Kanonenball aus elementarer Magie geformt  wird.
+
+Ein Magazin entspricht einer link:../../compendiums/golemworkshop/parts/core/golems_part_core_elementalmanifest.adoc.adoc[elementaren Zelle] der GK 5 und benötigt 1 Aktion beider Spezialisten um gewechselt zu werden.
+[NOTE]
+Die elementare Zelle regeneriert auch MP mit der Zeit.
+
+
+Die Maschine kann auch von einem Spezialisten bedient werden, jedoch kostet Feuern/Laden insgesamt 4 Aktionen.
+
+[[ref_warengine_elementaral_projectil]]
+== Elementares Projektil
+Ein elementares Projektil wird nach Regeln von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffen] abgewickelt mit einer *Grundreichweite* von 75 Metern, wobei die Probe mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen werden darf.
+Das Projektil verursacht bei einem Treffer 4W6+2 Schaden basierend auf dem Element des Magazins.
+Ein Projektil zieht 10 MP aus dem Magazin an.

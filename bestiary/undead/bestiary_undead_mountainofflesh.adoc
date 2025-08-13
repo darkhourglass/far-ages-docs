@@ -1,1 +1,132 @@
 = Fleischberg
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6)
+* *GK:* 6
+* *CP:* 500
+
+== Beschreibung
+_"Eine massige Gestalt wälzt sich aus der Dunkelheit der Gruft. Schwerfällige Beine tragen ihren voluminösen Umfang über den kalten Steinboden. Die kalte Luft ist erfüllt mit einer wütenden Hitze, die grunzend von der Kreatur ausgeht. Mächtige Muskeln heben sich unter der blutroten Haut ab, die wie ein Flickenteppich über den Körper der Kreatur gespannt ist. Ein schmerz und wutverzerrtes Gesicht starrt euch mit leeren Augen an."_
+Als Fleischberg oder manchmal auch Fleischgolem wird ein widerwärtiges, nekromantisches Konstrukt, ein erbauter Untoter, genannt, der manchen Nekromanten als Wächter dient.
+Glücklicherweise ist das <<ref_bestiary_rules_mountainofflesh_creation,Ritual zur Erschaffung>> dieser Monstrosität nicht weitverbreitet.
+Diejenigen Nekromanten, die es verwenden, nehmen viel Zeit und Arbeit auf sich, um die perfekten Körper zu finden, die benötigt werden, um den Fleischberg zusammenzusetzen.
+Jeder Fleischberg ist eine groteske Kombination verschiedenster Körper, die durch Magie zusammen animiert werden.
+
+== Profil
+
+*ST:* 12 (+4) +
+*GE:* 3 (+1) +
+*KO:* 9 (+3) +
+*ER:* 3 (+1) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 1 (+1) +
+
+*TP:* 135 +
+*MP:* 30 +
+*SP:* - +
+*BEW:* 9,00 Meter +
+*INI:* +2 +
+*MaxTL:* 720 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[natürlichen Rüstungsschutz] 3 (exterm dicke Haut und Knochenplatten, alle Trefferzonen) +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+* link:../skills/bestiary_skill_damageabsorption.adoc[Schadensabsorption](
+xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock]
+
+== Rettungswürfe
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +6 +
+*Körper:* +12 +
+*Magie:* +7 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 9, 2W6+4 2x
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen]  9, 2W6+4 1x
+* link:../skills/bestiary_skill_absurdly_strong.adoc[Absurd Stark]
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7
+* <<ref_bestiary_rules_mountainofflesh_empowered_by_lighting,Gestärkt durch Blitz und Donner>>
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* Talent 1
+* Talent 2
+* <<ref_bestiary_rules_mountainofflesh_frenzy,Raserei>>
+* <<ref_bestiary_rules_mountainofflesh_pseudo_undead,Pseudo Untot>>
+* <<ref_bestiary_rules_mountainofflesh_weak_to_frenzy,Raserei anfällig>>
+
+== Regeln
+
+[[ref_bestiary_rules_mountainofflesh_pseudo_undead]]
+=== Pseudo Untot
+Ein Fleischberg gilt als link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoter] der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6.
+Allerdings ist der Fleischberg von den folgenden Regeln nicht betroffen:
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_decay[Zerfall]
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle] liegt nur bei seinem <<ref_bestiary_rules_mountainofflesh_creation,Erschaffer>>, Zauber wie link:../../compendiums/spells/spell_control_undead.adoc[Kontrolliere Untoten] haben keine Wirkung.
+* ein Fleischberg xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] je 1W10 TP und MP xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange Rast].
+* ein Fleischberg kann trotz der grundlegenden Immunität von Untoten den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Raserei] erreichen, siehe seine <<ref_bestiary_rules_mountainofflesh_creation,Spezialregeln>> hierfür.
+
+[[ref_bestiary_rules_mountainofflesh_empowered_by_lighting]]
+=== Gestärkt durch Blitz und Donner
+Wird der Fleischberg durch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden] getroffen, greift zuerst seine Fähigkeit zur link:../skills/bestiary_skill_damageabsorption.adoc[Schadensabsorption].
+Gleichzeitig, wenn der Fleischberg durch die Schadensquelle bzw. die Absorption mehr TP regenerieren würde, als sein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] maximal erlaubt, erhält er die überschüssigen TP stattdessen auf sein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP-Pool] bis zu dessen Maximum.
+Außerdem verfällt der Fleischgolem in <<ref_bestiary_rules_mountainofflesh_frenzy,Raserei>>
+[[ref_bestiary_rules_mountainofflesh_frenzy]]
+=== Raserei
+Der Fleischberg kann den Zustand xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Raserei] erreichen, auch wenn er als Untoter immun wäre.
+Erreicht ein Fleischberg den Zustand, erhält er folgende Boni:
+* + 3,00 Meter auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW]
+* +1W6 auf alle xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schadenswürfe] mit reinem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden.
+* 3 Punkte auf seinen link:../skills/bestiary_skill_naturalarmor.adoc[natürlichen Rüstungsschutz]
+* Darf seine link:../skills/bestiary_skill_attack_claw.adoc[Klauen Attacke] als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] verwenden.
+Der Fleischberg bleibt in der Regel nur eine begrenzte Anzahl von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] in diesem Zustand und ist zwar gemäß der Regeln für den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_frenzy[Zustand].
+Der Fleischberg erleidet allerdings keine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung].
+
+[[ref_bestiary_rules_mountainofflesh_weak_to_frenzy]]
+== Raserei anfällig
+Neben dem <<ref_bestiary_rules_mountainofflesh_empowered_by_lighting,Auslöser durch Schock>> versucht der Fleischberg im Kampf bewusst in <<ref_bestiary_rules_mountainofflesh_frenzy,Raserei>> zu verfallen.
+Sein <<ref_bestiary_rules_mountainofflesh_creation,Erschaffer>> kann den Fleischberg durch ein Kommando in diesen Zustand versetzen.
+Dies kostet den Fleischberg 10 MP.
+Besitzt der Fleischberg nur noch 50% seines TP-Pools verfällt er außerdem in Rasierei.
+[[ref_bestiary_rules_mountainofflesh_creation]]
+=== Erschaffung
+Zunächst muss ein Erschaffer den Zauber link:../../compendiums/spells/spell_create_undead.adoc[Untoten erschaffen] kennen und einen Untoten der Machtstufe 6 nach den Regeln des Zaubers erschaffen.
+Das Wissen, wie ein Fleischberg animiert wird, kann vom SL analog zu einem xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret[arkanes Geheimnis] behandelt werden.
+D.h. bevor ein Charakter einen Fleischberg mit dem o.g. Zauber erschaffen kann, muss er sich das Wissen aneignen.
+Teil der Erschaffung ist das Lernen, wie man frische Leichenteile korrekt zusammennäht, um den Körper des Fleischbergs zusammenzustellen.
+Es werden insgesamt Körper von bis zu 4 Kreaturen der GK 5 benötigt.
+Die Summe aller GKs aller Körper muss mindestens 20 ergeben.
+Gleichzeitig muss eine alchemistische Lösung erstellt werden (siehe xref:../../rules/core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_potions[Tränke bräuen] mit Mindestwurf 18, Kosten für seltene Zutaten bei 18.000 Silbermünzen), die in den Körper gepumpt wird.
+Um den Fleischberg zu animieren, muss der Zauber als Ritual von 1 Stunde ausgesprochen werden und dem Körper mindestens 20 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden] aus einer beliebigen Quelle hinzugefügt werden.
+Der Charakter, der den Fleischberg animiert, gilt als sein xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontroller].
+Die Kreatur gehorcht nur ihm bedingungslos.
+[quote, unbekannt]
+Es lebt!
+
+== Taktik
+Wie viele Untote ist auch ein Fleischberg kein intellektuelles oder taktisch kluges Wesen und bevorzugt rohe Gewalt über subtilen Methoden.
+Ein Fleischberg beschützt seinen Meister fast ohne Rücksicht auf eigene Gefahr.
+Instinktiv weiß ein Fleischberg allerdings von seiner besonderen Wechselwirkung mit Blitz und Donner und kann einen expliziten Kontakt mit dieser Angriffsart suchen.

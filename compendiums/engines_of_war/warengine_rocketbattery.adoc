@@ -1,7 +1,20 @@
 = Raketenbatterie
-*Kategorie:* mechanisch/technonantisch/arkan
-*Munition:* Projektil / MP Kosten
-*Magazin:* Laden+Anzahl / MP Maximum
-*Mannschaft:* X Spezialisten
-*Feuern/Laden:* x Aktionen
+*Kategorie:* technonantisch
+*Munition:* <<ref_warengine_rocket,Rakete>>
+*Magazin:* 6
+*Mannschaft:* 2 Spezialisten
+*Feuern/Laden:* 1/1 Aktionen
 *Beschreibung:*
+Eine Raketenbatterie gehört zu den modernsten Kriegsmaschinen aus den Schmieden der Technomantie.
+Eine Batterie hält bis zu 6 Raketen gleichzeitig.
+Es werden 2 Charaktere mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] in dieser Kriegsmaschine, werden benötigt, um sie korrekt zu bedienen.
+Um eine Rakete ins Magazin zu laden ist 1 Aktion pro Besatzungsmitglied nötig.
+Ist mindestens 1 Rakete geladen, kann die Besatzung mit Einsatz 1 Aktion pro Mitglied einen der folgenden Feuermodi nutzen:
+*Einzelschuss:* Es wird 1 <<ref_warengine_rocket,Rakete>> abgeschossen
+*Salve:* Es werden alle geladenen <<ref_warengine_rocket,Raketen>> abgeschossen. Alle Angriffsproben werden mit Vorteil gewürfelt.
+
+[[ref_warengine_rocket]]
+== Rakete
+Eine Rakete wird nach Regeln von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffen] abgewickelt mit einer *Grundreichweite* von 100 Metern, wobei die Probe mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen werden darf.
+Das Rakete verursacht bei einem Treffer 6W6+3 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Im Ermessen des SLs können auch andere Schadensarten genutzt werden.

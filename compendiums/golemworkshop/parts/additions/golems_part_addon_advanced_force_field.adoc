@@ -1,0 +1,19 @@
+= Verbessertes Kraftfeld
+
+*Materialkosten:* 85.000 +
+*Konstruktionszeit:* 26 Tage +
+*Zaubersprüche:* link:../../../spells/spell_form_of_invulnerability.adoc[Form der Unverwundbarkeit] +
+*Mindestwurf:* 25 +
+*Montage:* Zusatz +
+*MP-Kosten:* 5 MP +
+*Machtstufe:* 2 +
+*Beschreibung:* Dieser Zusatz ist eine verbesserte Version des Zusatzes link:golems_part_addon_force_field.adoc[Kraftfeld].
+Mit dieser Version kann der Golem ein Kraft erzeugen, dass eine Ausdehnung von einem Radius von 1,50 Metern um sich herum hat und somit verbündete Kreaturen mit dem Kraftfeld schützen kann.
+
+Der Golem muss eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und 5 MP einsetzen, um das Kraftfeld zu aktivieren.
+Das Kraftfeld hält bis zum Ende seiner nächsten xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase].
+Solange das Kraftfeld aktiv ist, kann der Golem es auch für den Einsatz von 1 MP um eine weitere Kampfphase verlängern.
+Alle Kreaturen im o.g. Radius und der Golem werden geschützt.
+Ein Kraftfeld hält unabhängig von seiner Dauer insgesamt 55 Punkte xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schaden] ab.
+Immer, wenn der Golem oder eine der geschützten Kreaturn Schaden erhält, werden diese zunächst dem Kraftfeld angerechnet und erst dann von seinen TP abgezogen.
+Werden diese TP aufgebraucht, bricht das Kraftfeld zusammen und der Golem muss es wieder aktivieren.

@@ -1,0 +1,13 @@
+= Selbstreperatur Modul
+
+*Materialkosten:* 60.000 +
+*Konstruktionszeit:* 8 Tage +
+*Zaubersprüche:* link:../../../spells/spell_repair_construct.adoc[Repariere Konstrukt] +
+*Mindestwurf:* 18 +
+*Montage:* Zusatz +
+*MP-Kosten:* 5 +
+*Machtstufe:* +1 +
+*Beschreibung:*
+Dieser Zusatz erlaubt es dem Konstrukt, im Einsatz, erhaltene Schäden zu reparieren.
+Mit Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] im xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] kann das Konstrukt 5 MP einsetzen, um sofort 1W10+1 TP zu regenerieren.
+Das Kontrukt kann nicht mehr TP erhalten, als es sein Pool maximal erlaubt.

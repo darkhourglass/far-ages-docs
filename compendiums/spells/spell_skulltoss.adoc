@@ -1,0 +1,23 @@
+= Schädelwurf
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten, 1 Schädel +
+*Fokus:* Ebon, Geist, Schatten +
+*Vorbereitung:* 5 +
+*Reichweite:* 18,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:*
+Während der Vorbereitung musst Du einen Schädel einer einst lebendigen, körperlichen Kreatur halten und Deine Beschwörung zu diesem Aufsagen.
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] schleuderst Du den Schädel auf eine Zielkreatur in Reichweite.
+Die Augenhöhlen des Schädels flammen in einem fahlblauen Licht auf und die Kieferknochen fangen an zu beißen.
+Die betroffene Kreatur erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] mit 2W6+1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischen] Schaden.
+Verliert die Kreatur dadurch TP, erleidet sie zusätzlich einen Verlust von 1W3+1 SP.
+Der Schädel wird im Sinne einer xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_ingredients[Zutat] verbraucht.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++5 MP: Reichweite +6,00 Meter +
++1 POT, +10 MP: Schaden +1W6 nekrotischen Schaden +

@@ -1,8 +1,23 @@
 = Dregil (Vampire Sklave)
 
-// TODO Beschreibung
+In einer alten Sprache bedeutet *Dregil* "Sklave", eine Sprache, die nur von sehr alten Wesen noch gesprochen wird, in der Regel link:bestiary_template_undead_vampire.adoc[Vampiren].
+Nicht alle Unsterblichen erwachen nach dem Kontakt mir einem xref:bestiary_template_undead_vampire.adoc#ref_undead_vampire_skills_vampir_sire[Erschaffer] zu einem ebenbürtigen Untoten.
+Der Untot lässt sich schwach, verkümmert und wild zurück.
+Vampire dieser Art werden von ihren anderen, erfolgreicheren Verwandten verächtlich *Dregil* genannt.
+Dregil unterscheiden sich von anderen Vampiren durch verwildertes Aussehen: ihre Haut ist fleckig, die Haare zerzaust, ihre Statur gekrümmt, die Augen blutunterlaufen und wild blickend.
+Sie können kaum noch sprechen und geben keifende oder grunzende Laute von sich.
+Auch besitzen Dregils kaum welche der ikonischen Vampirfähigkeiten, nur ihr Durst nach Blut und Verderben ist ungebrochen.
+
 
 == Voraussetzungen
+Es gelten die gleichen Voraussetzungen wie für einen link:bestiary_template_undead_vampire.adoc[Vampiren].
+Eine Kreatur, die ein Dregil werden soll, folgt den Regeln der xref:bestiary_template_undead_vampire.adoc#ref_undead_vampire_skills_vampir_sire[Erschaffung] von Vampiren, allerdings mit folgenden Ausnahmen:
+Die xref:bestiary_template_undead_vampire.adoc#ref_undead_vampire_skills_undead_powerlevel[Machtstufe] des Dregils ist formal 0.
+Ein Dregil erhält nur die Attributsanpassungen seiner xref:bestiary_template_undead_vampire.adoc#ref_undead_vampire_skills_vampir_bloodline[Blutlinie], jedoch keine Fähigkeiten oder Talente.
+Danach kommen die Anpassungen in den folgenden Kapiteln zum Tragen.
+[NOTE]
+Die genauen Gründe, warum aus einem Humanoiden ein Dregil wird und kein Vampir, sind nicht bekannt. Ist es der Wunsch des Sires, ein Fehler in der Transformation oder Zufall, ist nicht klar.
+Auf Al'vaha nahm die Anzahl der Dregil Verwandlungen im Schwarzen Winter drastisch zu.
 
 == Attribute
 
@@ -11,9 +26,14 @@ Die Attributsstufen der Kreatur werden übernommen.
 == Talente
 
 Die Kreatur behält alle ihre Talente.
+Als Dregil erhält die Kreatur außerdem folgende Boni von je +5 auf die Talentstufen von:
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen]
 
 == Fähigkeiten
 
-Die Kreatur übernimmt alle Fähigkeiten.
+Die Kreatur übernimmt alle Fähigkeiten und erhält als Dregil außerdem:
+link:../skills/bestiary_skill_attack_claw.adoc[Klauen] mit einer *Angriffstufe* von 4 + ST-Bonus, *Schaden:* 1W6 + ST-Bonus und *Anzahl* 2x pro eigene Zug einsetzbar.
 
 == CP
+100

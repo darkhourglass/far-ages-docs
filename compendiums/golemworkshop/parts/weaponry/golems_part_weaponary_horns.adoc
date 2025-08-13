@@ -1,0 +1,52 @@
+= Name
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:* siehe Beschreibung +
+*GK:* 5-8+
+*Montage:* Kopf +
+*Attribute:* +2 ST, +1 KO +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (ST) +
+*MP-Kosten:* - +
+*Machtstufe:* 1 +
+*Beschreibung:* +
+Nach dem Vorbild eines Stiers oder Büffels wurden dem Golem zwei gebogene mächtige Hörner auf dem Kopf montiert, die er als Waffe einsetzen kann.
+
+*Wichtig:* diese Waffe wird auf dem Kopf des Golems montiert und nimmer damit keinen Platz auf den Armen weg, wie es bei anderen Bewaffnungen der Fall ist.
+
+Der Golem erhält eine Kombination der Fähigkeiten link:../../../../bestiary/skills/bestiary_skill_attack_ram.adoc[Rammen] und link:../../../../bestiary/skills/bestiary_skill_attack_impale.adoc[Aufspießen].
+Der Golem nutzt zur xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] immer sein Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen].
+Es gelten die Regeln der Fähigkeit Rammen, um den Angriff durchzuführen.
+Bei erfolgreicher Angriffsprobe muss der Golem sich entscheiden:
+* Entweder kann er die angriffene Kreatur nach den Regeln der Ramme zu Boden werden
+* oder nach den Regeln der Aufspießenattacke gefangen nehmen
+Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] der Hörner wie folgt ab:
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus
+
+|5
+|2.500
+|3 Tage
+|15
+|1W6
+
+|6
+|4.000
+|3 Tage
+|15
+|1W6+1
+
+|7
+|5.500
+|4 Tage
+|15
+|2W6
+
+|8
+|8.000
+|5 Tage
+|15
+|2W6+2
+|===

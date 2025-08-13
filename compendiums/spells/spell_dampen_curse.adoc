@@ -1,0 +1,37 @@
+= Fluch abschwächen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* Nein/Ja, wenn Ziel Kreatur ist +
+*Komponenten:* Formel, Gesten, Symbole, Kräuter und Weihrauch im Wert von 500 Silber +
+*Fokus:* Geist, Körper, Aether+
+*Vorbereitung:* 1 Stunde (Ritual) +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 xref:../../rules/advanced/advanced_rules_curses.adoc#ref_curses_targets[verfluchtes Ziel] +
+*Dauer:* 24 Stunden +
+*Effekt:*
+Das Ziel dieses Rituals muss verflucht sein, kann aber darüber hinaus jeder Natur sein, dass ein Fluch auf ihm lasten kann, z.B. eine Kreatur, ein Gegenstand oder ein Ort.
+Das Ritual erfordert einen symbolischen Ritualkreis und das Verbrennen von bestimmten Kräutern.
+Das Ziel muss berührt werden können, im Fall eines Orts muss das Ritual auf dem Grund dieses Orts ausgeführt werden.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] wird die Stärke des FLuchs für die Dauer des Zaubers abgeschwächt wie folgt:
+|===
+|Fluchstärke |Abgeschwächt
+
+|Harmlos
+|Fluch hat gar keinen Effekt
+
+|Schwach
+|Harmlos
+
+|Stark
+|Schwach
+
+|Spuk
+|Fluch hat gar keinen Effekt
+
+|Todesfluch
+|Stark
+|===
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Stunde +

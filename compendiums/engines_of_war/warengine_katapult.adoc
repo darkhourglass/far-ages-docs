@@ -1,7 +1,18 @@
 = Katapult
-*Kategorie:* mechanisch/technonantisch/arkan
-*Munition:* Projektil / MP Kosten
-*Magazin:* Laden+Anzahl / MP Maximum
-*Mannschaft:* X Spezialisten
-*Feuern/Laden:* x Aktionen
+*Kategorie:* mechanisch
+*Munition:* <<ref_warengine_boulder,Geschoss>>
+*Magazin:* 1/1
+*Mannschaft:* 3 Spezialisten
+*Feuern/Laden:* 1/3 Aktionen
 *Beschreibung:*
+Ein Katapult ist eine frühe mechanische Kriegsmaschine, die durch Hebelkraft mit Gegengewichten schwere Geschosse über weite Distanzen abzufeuern.
+Es werden drei Charaktere mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] in dieser Kriegsmaschine, werden benötigt, um sie korrekt zu bedienen.
+Um ein Geschoss zu laden sind 3 Aktionen pro Besatzungsmitglied nötig.
+Ist die addierte ST-Stufen der Besatzung in Summe größer als 20, benötigt das Laden nur 2 Aktionen pro Besatzungsmitglied.
+Ein geladenes Katapult kann mit 1 Aktion <<ref_warengine_boulder,abgefeuert>> werden.
+[[ref_warengine_boulder]]
+== Geschoss
+Ein katapultiertes Geschoss wird nach Regeln von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons[Wurfwaffen] abgewickelt mit einer *Grundreichweite* von 300 Metern, wobei die Probe mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_core_battle_throwingweapons[Wurfwaffen] geworfen werden darf.
+Das Geschoss ist eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_aoe[Wurfwaffe mit Flächenschaden].
+Das Radius des Angriffs beträgt 3,00 Meter und verursacht 4W6+4 Schaden.
+Ein Geschoss, dass sein Ziel verfehlt, fliegt 6,00 Meter in eine zufällige Richtung.

@@ -1,0 +1,20 @@
+= Wasserstrahl
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* siehe Beschreibung +
+*Komponenten:* Formeln +
+*Fokus:* Wasser +
+*Vorbereitung:* 4 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* siehe Beschreibung +
+*Dauer:* 1 +
+*Effekt:*
+Du hebst Deine Hand und zeigst mit der Handfläche in eine Richtung von Dir weg.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] schießt mit hohem Druck ein Wasserstrahl in gerader Linie aus Deiner Hand.
+Jede Kreatur in direkter Linie bis zu 9,00 Meter entfernt, muss sich entscheiden:
+* *Ausweichen:* Die Kreatur legt einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungsswurf] gegen Deine Spruchzauberei-Probe ab und darf 1,50 Meter zu Seite treten.
+* *Durchalten:* Die Kreatur legt einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungsswurf] gegen Deine Spruchzauberei-Probe ab und darf an ihrer Stelle verbleiben.
+Missling in beiden Fällen der Rettungswurf, geht die Kreatur xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden].
+*Zusätzliche Effekte:* +
++1 POT, +10 MP, Reichweite +3,00 Meter

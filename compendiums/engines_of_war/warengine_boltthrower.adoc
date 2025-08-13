@@ -1,7 +1,21 @@
 = Speerschleuder
-*Kategorie:* mechanisch/technonantisch/arkan
-*Munition:* Projektil / MP Kosten
-*Magazin:* Laden+Anzahl / MP Maximum
-*Mannschaft:* X Spezialisten
-*Feuern/Laden:* x Aktionen
+*Kategorie:* mechanisch
+*Munition:* <<ref_bolthrower_spear,Speer>>
+*Magazin:* 1/1
+*Mannschaft:* 2 Spezialisten
+*Feuern/Laden:* 1/3 Aktionen
 *Beschreibung:*
+Eine Speerschleuder oder auch Ballista ist die Adaption der Mechanismen einer Armbrust in Größenkatorien einer Kriegsmaschine.
+Große Speere werden auf einen Bogen gelegt und durch eine Kurbel gespannt.
+Durch Neigen und Drehen der Maschine wird gezielt.
+Durch einen Hebel wird die Spannung entladen und der Speer nach vorne katapultiert.
+Unter den rein mechanischen Kriegsmaschinen ist die Speerschleuder eine der Gefährlichsten und Flexibelsten, da sie für viele gefährlich werden kann.
+Ein guter Treffer kann ein Regiment gepanzter Reiter  oder einen Kriegsgolem ausschalten
+Es werden zwei Charaktere mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] in dieser Kriegsmaschine, werden benötigt, um sie korrekt zu bedienen.
+Um einen Speer zu laden sind 3 Aktionen pro Besatzungsmitglied nötig.
+Ein geladener Speer kann mit 1 Aktion <<ref_bolthrower_spear,abgefeuert>> werden.
+[[ref_bolthrower_spear]]
+== Spear
+Ein Speer wird nach Regeln von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffen] abgewickelt mit einer *Grundreichweite* von 200 Metern, wobei die Probe mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen werden darf.
+Das Projektil verursacht bei einem Treffer 6W6+3 Schaden.
+Der Angriff gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_armorpiercing[rüstungsbrechend].

@@ -1,0 +1,79 @@
+= Schrott Golem
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* GK: 5
+
+== Beschreibung
+
+Diese Kreatur erscheint mehr wie eine Parodie auf die Ingeneuerkunst der Technomantie.
+Einzel- und Schrottteile formen eine lose humanoide Form, die sich schlurfend und klappernd vorwärts bewegt.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 3 (+1) +
+*KO:* 6 (+2) +
+*ER:* 3 (+1) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 3 (+1) +
+*TP:* 105 +
+*MP:* 30 +
+*SP:* - +
+*BEW:* 9,00 +
+*INI:* +2 +
+*MaxTL:* 135 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 (alle Trefferzonen) +
+*Resistenzen:* +
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Intellekt]
+
+*Immunitäten:* +
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +3 +
+*Körper:* +11 +
+*Magie:* +9 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] +6 1W6+3 2x
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] +6 1W10+3
+* link:../skills/bestiary_skill_attack_gore.adoc[Aufspießen] +6 1W8+3 1x (Hörner)
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild Verteidiung] 7 (bewegliche Schrotteile)
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
+* link:../skills/specific/constructs/bestiary_skill_constructs_magical_construct.adoc[Magisches Konstrukt]
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* <<ref_scrapgolem_limited_existence,Limitierte Existenz>>
+== Regeln
+
+[[ref_scrapgolem_limited_existence]]
+=== Limitierte Existenz
+Ein Schrott Golem ist ein Konstrukt mit limitierter Lebensdauer, meistens aufgrund des Einsatzes von Magie, die einem Haufen von alter Metallteile eine Art von Faux Leben beschert.
+Aufgrund dieser Natur kann ein Schrott golem auch als link:../skills/specific/constructs/bestiary_skill_constructs_magical_construct.adoc[magisches Konstrukt] nicht xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[rasten].
+
+== Taktik

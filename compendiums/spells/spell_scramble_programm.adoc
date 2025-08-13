@@ -1,0 +1,20 @@
+= Verwirre Programm
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Metall, Geist +
+*Vorbereitung:* 7 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
+*Dauer:* 10 Kampfphasen +
+*Effekt:*
+Als Ziel für diesen Zauber gilt jedes Konstrukt mit einem xref:../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_programming[Programm].
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] integrierst Du in dieses Programm kleinere Bugs und Glitches, die das Konstrukt in Ausführung seines Programms verhindern.
+Zu Beginn des xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugs] muss das Konstrukt 1W10 würfeln.
+Bei einer 1 verliert es für diesen Zug eine seiner Aktionen.
+Wird eine 10 gewürfelt, kommt für die Dauer des Zaubers ein weiterer 1W10 hinzu, für den gewürfelt wird.
+Jeder weiterer W10 wird einzel ausgewertet.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

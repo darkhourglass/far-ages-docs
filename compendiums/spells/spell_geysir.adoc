@@ -1,0 +1,19 @@
+= Geysir
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Feuer, Wasser +
+*Vorbereitung:* 6 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* Radius 3,00 Meter +
+*Dauer:* Sofort +
+*Effekt:*
+Im Wirkungsbereich des Zaubers entsteht eine hohe Wasserfontaine aus heißem Wasser, ein Geysir.
+Der Zauber kann nur über natürlichem Grund gewirkt werden.
+Aller Kreaturen im Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser-Schaden] + 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Jede Kreatur muss außerdem einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen Deine Spruchzauberei-Probe bestehen oder werden xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_onground[zu Boden] geworfen.
+*Zusätzliche Effekte:* +
++5 MP: Reichweite +3,00 Meter +
++2 POT, +10 MP: Radius +1,50 Meter

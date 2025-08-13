@@ -509,8 +509,8 @@ Folge Tabelle zeigt einige beispielhafte Härte-Werte für verschiedene Matriali
 
 [[ref_core_adventures_obstacles_destroy_object_intergrety]]
 ==== Integrität
-Wie Kreaturen xref:./core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools], insbesondere TO, besitzen, um ihre körperliche Verfassung darzustellen, besitzen Objekte *Integritäts-Punkte*.
-Erriechen diese den Wert 0, ist das Objekt zerstört.
+Wie Kreaturen xref:./core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools], insbesondere TP, besitzen, um ihre körperliche Verfassung darzustellen, besitzen Objekte *Integritäts-Punkte*.
+Erreichen diese den Wert 0, ist das Objekt zerstört.
 Als Daumenregel und falls nicht explizit angegeben, besitzt ein Objekt pro Punkt in xref:./core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 10 Integritäts-Punkte.
 [[ref_core_adventures_obstacles_destroy_object_patially]]
 ==== Teil-Objekte zerstören
@@ -518,7 +518,8 @@ Nicht immer stellt sich die Frage, ob ein bestimmtes Objekt zerstört werden sol
 So könnte zum Beispiel ein Teil-Abschnitt einer Mauer eingerissen werden.
 In diesem Fall nur dieser Teil des Objekts betrachtet, mit eigenem Härte-Wert und Integritäts-Punktepool.
 Inwiefern die Zerstörung des Teils zum Kollaps des Rests beträgt, liegt im Ermessen des SL.
-IV.Ausrüstung und Geld
+
+== Ausrüstung und Geld
 
 Nicht nur Geschick, Talent und Magie bestimmen das Überleben eines
 Abenteurers, sondern auch die richtige Ausrüstung. Dazu zählen neben

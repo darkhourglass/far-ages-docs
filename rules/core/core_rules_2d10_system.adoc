@@ -1043,6 +1043,7 @@ Der Zustand wird automatisch aufgehoben, sobald TP-Pool des Charakters einen Wer
 
 Erhält ein Charakter in diesem Zustand einen weiteren Verlust, bleibt der Pool bei 0, aber der Charakter muss einen <<ref_core_2d10_death_save_deathsave,Todesrettungswurf>> würfeln.
 
+Der Zustand endet nach einer <<ref_core_2d10_regeneration_long_rest,langen Rast>> und wenn der Charakter wieder mehr als 0 TP hat.
 [[ref_core_2d10_death_save_deathsave]]
 === Todesrettungswurf
 Ein Todesrettungswurf ist ein besonderer <<ref_core_2d10_checks_saves,Rettungswurf>>, den ein Charakter würfeln muss, wenn er <<ref_core_2d10_death_condition_deathsdoor,dem Tode nahe>> ist und weiteren Schaden erhält.

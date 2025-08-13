@@ -1,0 +1,49 @@
+= Frostklinge
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* link:../../../spells/spell_deadly_icicle.adoc[Tödlicher Eiszapfen] +
+*Mindestwurf:* siehe Beschreibung +
+*GK:* 5-8 +
+*Montage:* Arme +
+*Attribute:* +1 ST, +1 EN +
+*Talente:* *Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 (ST) +
+*MP-Kosten:* 5 +
+*Machtstufe:* 2 +
+*Beschreibung:* +
+Diese Bewaffnung ersetzt eine Hand des Golems, benötigt zur Montage also einen freien Arm.
+Die Bewaffnung enthält eine Vorrichtung, um eine Klinge aus purem Eis zu formen.
+Um also diese Klinge zu aktivieren, muss der Golem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] und 5 MP einsetzen.
+Die Frostklinge bleibt aktiv, bis der Golem die Klinge mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freien Aktion] deaktiviert.
+Die Klinge für eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Attacke im Nahkampf] verwendet werden, die der Golem mit seinem Talent xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] würfelt.
+Der Schadensbonus und andere Werte hängen von der xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[Größenkategorie] des Golems und damit dem zu verbauenden Gerät wie folgt ab:
+
+|===
+|GK |Materialkosten |Konstruktionszeit |Mindestwurf |Schadensbonus
+
+|5
+|9.500
+|6 Tage
+|17
+|2W6+2
+
+|6
+|12.000
+|8 Tage
+|18
+|3W6
+
+|7
+|18.500
+|9 Tage
+|19
+|3W6+2
+
+|8
+|22.000
+|12 Tage
+|21
+|3W6+3
+|===
+Der angegebene Schadenbonus erhält außerdem einen Bonus in Höhe des xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN] xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] des Golems.
+Jeder Schaden der Frostklinge ist vom Typ xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost].

@@ -1,0 +1,96 @@
+= Waldkobold
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* GK: 3
+* CP: 100
+
+== Beschreibung
+_"Oh, diese Augen, hier nimm mein Geld"_
+Der Waldkobold ist ein seltenes, possierliches, kleines Tier, dass für seine notorische Neigung wertvolle Dinge zu steheln, bekannt ist.
+Ein erwachsenes Tier erreicht eine Körpergröße von 30cm und ist bedeckt mit weichen, grauen Fell.
+Das Gesicht des Waldkobolds wird von zwei großen, schwarzen Augen und einer ebenso schwarzen runden Nase dominiert.
+Seine Ohren enden in zwei weiße flauschige Fellbüschel.
+Fast alle, die Waldkobolden begegnen, erzählen, wie unverschämt süß diese Wesen sind, so dass man ihnen ihre Missetaten kaum übelnehmen kann.
+Tatsächlich treibt unerklärlicher Instinkt Waldkobolde dazu, Humanoide zu bestehlen.
+Ein Waldkobold kann im Laufe seines Lebens eine große Menge an Kleinoden zusammenklauen.
+Es wird auch erzählt, dass manche Waldkobolde anfangen, Diebesgut gegen Nahrung zu tauschen.
+
+== Profil
+
+*ST:* 3 (+1) +
+*GE:* 9 (+3) +
+*KO:* 3 (+1) +
+*ER:* 6 (+2) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 9 (+3) +
+*TP:* 35 +
+*MP:* 30 +
+*SP:* 75 +
+
+*BEW:*  12,00 Meter, link:../skills/bestiary_skill_move_climb.adoc[Klettern] 12,00 Meter +
+*INI:* +5 +
+*MaxTL:* 45 +
+*MaxPOT:* 6 +
+
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:* - +
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +5 +
+*Körper:* +2 +
+*Magie:* +4 +
+*Reflex:* +5 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 4 1W3 2x
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 4 1W3 1x
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 11
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenens erkennen] 11
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 11
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_pickpocket[Taschendiebstahl] 17
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 11
+* link:../skills/bestiary_skill_highly_intelligent_animal.adoc[Außergewöhnlich intelligentes Tier]
+* link:../skills/bestiary_skill_move_fasttrack.adoc[Schnell]
+* link:../skills/bestiary_skill_move_nimble.adoc[Flink]
+* <<ref_bestiary_forest_kobold_very_cute, unglaublich süß>>
+* <<ref_bestiary_forest_kobold_natural_cleptomanic, natürlicher Kleptomane>>
+
+== Regeln
+
+[[ref_bestiary_forest_kobold_natural_cleptomanic]]
+=== Natürlicher Kleptomane
+Der Waldkobold ist durch seine Natur unerklärlicherweise dazu gezwungen, anderen Wesen wertvolle Gegenstände zu stehlen.
+Entdeckt ein Waldkobold einen Humanoiden oder eine Gruppe von Humanoiden in seinem Jagdgebiet, die wertvolle Gegenstände sichtbar tragen, z.B. Amulette, Ringe, Ohrringe oder polierte Rüstungen, wird er versuchen, sie zu bestehlen, wenn sie beispielsweise rasten.
+
+[[ref_bestiary_forest_kobold_very_cute]]
+=== Unglaublich Süß
+Der Waldkobold ist in seinem Erscheinungsbild herzzerreißend süß, dass es schon übernatürlich wirkt, da fast jeder Humanoide diesem Charme erliegen kann.
+Möchte ein Humanoide einen Waldkobold angreifen, muss er einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] gegen 18 bestehen oder erleidet einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf diese Angriffsprobe.
+
+[[ref_bestiary_forest_kobold_variant_at_see]]
+=== Variante: Seekobold
+In Weltmeeren hat sich eine verwandte Kreatur, der Seekobold entwickelt.
+Dieser ist nicht so flauschig, die der Waldkobold, sondern hat eine eher stromlinienförmige Form mit Flossen und einer glänzenden Schuppenhaut.
+Dennoch ist aufgrund der Gesichtszüge und Wesenszüge eine eindeutige Verwandtschaft festzustellen.
+Seekobolde stehlen genauso von Humanoiden nahe der Küsten oder von kleinen Fischerbooten.
+Die Variante hat das identische Profil, erhält allerdings den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_aquatic.adoc[Aquatisch] und erhält dadurch die Fähigkeit link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] anstelle von link:../skills/bestiary_skill_move_climb.adoc[Klettern] sowie die Fähigkeit link:../skills/bestiary_skill_gills.adoc.adoc[Kiemen].
+== Taktik
+Waldkobolde sind keine aggressiven Wesen und vermeiden körperliche Auseinandersetzungen.
+Wird ein Waldkobold zum Kampf gezwungen, wird er seine Agilität nutzen, um so schnell wie möglich vom Aggressor wegzukommen.
+Diese Agilität und seine Fähigkeiten zur Heimlichkeit wird der Waldkobold auch nutzen, um Humanoide auszurauben.
+Der Waldkobold ist intelligent genug, um eine Tasche oder Rucksack zu identifzieren, zu öffnen und Gegenstände mit Wert zu selektieren: Schmuck, Gold und Edelsteine.
+Ein Waldkobold ist frech und dreist, um an sein Ziel zu kommen, aber nicht lebensmüde.
+Manche Waldkobolde versuchen sich auch als Händler und bieten Teile ihre Diebsgutes im Austausch gegen andere Gegenstände oder Nahrung an.

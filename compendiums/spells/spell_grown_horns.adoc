@@ -1,0 +1,17 @@
+= Hörner Wachstum
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein/ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Körper, Wachstum +
+*Vorbereitung:* 7 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendige] Kreatur +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Der Zielkreatur wachsen zwei große, gebogene Hörner aus der Stirn.
+Die Zielkreatur erhält die Fähigkeit link:../../bestiary/skills/bestiary_skill_attack_ram.adoc[Rammen] mit *Angriffstufe* 7 + ST-Bonus der Zielkreatur und *Schaden* 2W6 + ST-Bonus der Zielkreatur.
+Der Zauber wirkt nicht auf Kreaturen, die natürlicherweise schon Hörner haben, wie zum Beispiel link:../../rules/core/races/core_races_taures.adoc[Tauren].
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

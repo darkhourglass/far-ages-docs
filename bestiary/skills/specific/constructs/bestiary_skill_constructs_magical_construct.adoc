@@ -1,0 +1,14 @@
+= Magisches Konstrukt
+
+*Voraussetzungen:* Kreaturentypen link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[magisch] und link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+*Typ:* Übernatürlich +
+*Überanstrengung:* - +
+*CP:* 50 +
+Dieses Konstrukt wurde nicht in den Schmieden der Technomanten gebaut, sondern entstand durch magische Rituale.
+Damit unterscheidet es sich von den meisten Konstrukten, die mechanik und arkaner Technologie basieren in den folgenden Punkten:
+* es hat formal keine xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_powerlevel[Machtstufe]
+* Effekte und Zauber, die Konstrukte mit Machtstufe als Ziel haben, können auf dieses Konstrukt nicht angewendet werden, siehe  xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_powerlevel_nonexistant[Konstrukte ohne Machtstufe].
+* Das Konstrukt benötigt keinen xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_controll_and_behavior[Kontroller]
+* Das Konstrukt kann wie jede andere Kreatur xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[rasten] und so Pools auffüllen.
+Das Konstukt kann nicht Ziel des Zauber link:../../../../compendiums/spells/spell_repair_construct.adoc[Repariere Konstrukt] sein.
+* Das Konstrukt hat und verliert keine SP.

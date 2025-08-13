@@ -1,0 +1,18 @@
+= Provisorischer Golem
+
+*Arkanes Geheimnis:* Nein  +
+*POT:* 13 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten, 1 Haufen Schrott (50 Kilo) +
+*Fokus:* Metall, Aether, Körper +
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Haufen Schrott +
+*Dauer:* 24 Stunden +
+*Effekt:* +
+Mit diesem Ritual hauchst Du einem Haufen Schrott, dessen Gewicht mindesten 50 kg betragen muss und zu über 80% aus Metall bestehen muss, ein magsiches Pseudo-Leben ein.
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] animiert der Schrotthaufen sich zu einem link:../../bestiary/constructs/bestiary_constructs_scrapgolem.adoc[Schrottgolem], der Dein Verbündeter ist.
+Du bist kein xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc#ref_primary_creaturetype_constructs_rules_controll_and_behavior[Kontroller] für den Schrottgolem, allerdings erkennt das Konstrukt Dich als Verbündeten an und verteidigt Dich, wenn nötig, und befolgt Deine Befehle.
+Am Ende der Dauer des Zaubers, fällt der Schrottgolem in sich zusammen und die Schrotteile brechen auseinander.
+*Zusätzliche Effekte:* +
++1 POT, +10 MP: Dauer +1 Stunde +

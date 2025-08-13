@@ -1,0 +1,7 @@
+= Nachtjäger
+
+*Voraussetzungen:* link:bestiary_skill_senses_darkvision.adoc[Dunkelsicht] +
+*Typ:* Passiv +
+*Überanstrengung:* - +
+*CP:* 200 +
+Wenn sich die Kreatur in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit] (Nacht oder Schatten) befindet, erhält sie einen Bonus von +3 auf ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadenswürfe].

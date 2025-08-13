@@ -1,0 +1,21 @@
+= Zone der völligen Windstille
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Luft +
+*Vorbereitung:* 8 +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Der Zauber erzeugt eine Zone, in der jede Windbewegung unterdrückt wird.
+Die Effekte von xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms[Stürmen] wirken in dem Wirkungsbereich des Zaubers nicht.
+Dies inkludiert auch Auswirkungen von xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_snowstorms[Schneestürmen]
+ und xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_sandstorms[Sandstürmen].
+Magische erzeugte Windstöße oder Stürme überwinden die Zone, wenn ihre POT höher ist, als die dieses ausgesprochenen Zaubers.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++2 POT, +10 MP: Radius +3,00 Meter
++ 4 POT, +30 MP: Dauer wird auf 24 Stunden gesetzt

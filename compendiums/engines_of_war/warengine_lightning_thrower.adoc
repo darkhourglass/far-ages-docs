@@ -1,7 +1,22 @@
 = Blitzwerfer
-*Kategorie:* mechanisch/technonantisch/arkan
-*Munition:* Projektil / MP Kosten
-*Magazin:* Laden+Anzahl / MP Maximum
-*Mannschaft:* X Spezialisten
-*Feuern/Laden:* x Aktionen
+*Kategorie:* technomantisch
+*Munition:* <<ref_warengine_lighting_projectil,Blitz-Projektil (20 MP) >>
+*Magazin:* 1 / 110 MP
+*Mannschaft:* 2 Spezialisten
+*Feuern/Laden:* 1/1 Aktionen
 *Beschreibung:*
+Diese stationäre Kriegsmaschine sieht aus wie eine große Antenne mit vielen Kondensatoren und Spulen, die auf ihr montiert sind.
+Diese Antenne ist auf einem drehbaren Turm montiert, der durch Kurbeln rotiert werden kann, auch die Ausrichtung der Antenne lässt sich anpassen.
+Dem Namen entsprechend verschießt diese Maschine magische Blitze.
+Es werden zwei Charaktere mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] in dieser Kriegsmaschine, werden benötigt, um sie korrekt zu bedienen.
+Das Abfeuern eines <<ref_warengine_lighting_projectil,Blitzprojektils>> kostet je 1 Aktion pro Spezialist.
+
+Ein Magazin entspricht einer link:../../compendiums/golemworkshop/parts/core/golems_part_core_basiccells.adoc[Standardzelle] der GK 5 und benötigt 1 Aktion beider Spezialisten um gewechselt zu werden.
+
+Die Maschine kann auch von einem Spezialisten bedient werden, jedoch kostet Feuern/Laden jeweils 2 Aktionen.
+
+[[ref_warengine_lighting_projectil]]
+== Blitz-Projektil
+Ein Blitz-Projektil wird nach Regeln von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffen] abgewickelt mit einer *Grundreichweite* von 150 Metern, wobei die Probe mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen werden darf.
+Das Projektil verursacht bei einem Treffer 8W6+4 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schockschaden].
+Ein Projektil zieht 20 MP aus dem Magazin an.

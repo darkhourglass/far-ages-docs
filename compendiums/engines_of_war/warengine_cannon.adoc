@@ -1,7 +1,16 @@
 = Kanone
-*Kategorie:* mechanisch/technonantisch/arkan
-*Munition:* Projektil / MP Kosten
-*Magazin:* Laden+Anzahl / MP Maximum
-*Mannschaft:* X Spezialisten
-*Feuern/Laden:* x Aktionen
+*Kategorie:* mechanisch
+*Munition:* <<ref_warengine_cannonball,Kanonenkugel>>
+*Magazin:* 1/1
+*Mannschaft:* 2 Spezialisten
+*Feuern/Laden:* 1/3 Aktionen
 *Beschreibung:*
+Diese Kanone ist ein langes Rohr auf einem fahrbaren Gestell, die von einem Schwarzpulver basierten Zünder eine schwere Kanonenkugel über weitere Distanzen abfeuern kann.
+Es werden 2 Charaktere mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] in dieser Kriegsmaschine, werden benötigt, um sie korrekt zu bedienen.
+Um eine Kanonenkugel zu laden sind 3 Aktionen pro Besatzungsmitglied nötig.
+Eine geladene Kanone kann mit 1 Aktion <<ref_bolthrower_spear,abgefeuert>> werden.
+[[ref_warengine_cannonball]]
+== Kanonenkugel
+Eine Kanonenkugel wird nach Regeln von xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffen] abgewickelt mit einer *Grundreichweite* von 300 Metern, wobei die Probe mit dem Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_specialist[Spezialist] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] geworfen werden darf.
+Das Projektil verursacht bei einem Treffer 6W6+3 Schaden.
+Der Einschlag einer Kanonenkugel verursacht in einem Radius von 3,00 Metern einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] bei allen Kreaturen in diesem Effektbereich mit 3W6+2 Schaden.

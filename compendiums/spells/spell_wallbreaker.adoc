@@ -1,0 +1,19 @@
+= Wandbrecher
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten, 2 Steine +
+*Fokus:* Erde +
+*Vorbereitung:* 7 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Wand +
+*Dauer:* Sofort +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] haust Du 2 Steine einander, eine kleine Staubwolke entsteht, die Du in Richtung der Wand pustest, die das Ziel Deiner Zauber sein soll.
+Die Wand nimmt sofort 1W10 Schaden an xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object_intergrety[Integritätspunkten] ohne Berücksichtigung ihrer xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object_hardness[Härte].
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++5 MP: Reichweite +6,00 Meter
++1 POT, +10 MP: +1W10 Schaden an Integrität der Wand

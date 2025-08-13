@@ -1,0 +1,23 @@
+= Geschütztes Lagerfeuer
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Feuer, Schatten +
+*Vorbereitung:* 5 Minuten (Ritual) +
+*Reichweite:* 3,00 Meter +
+*Anzahl der Ziele:* 1 Feuer, siehe Beschreibung +
+*Dauer:* siehe Beschreibung +
+*Effekt:* +
+Als Ziel für diesen Zauberspruch darfst Du ein reguläres Feuer in Reichweite wählen, dass maximal die Größe eines Lagerfeuers hat.
+Im Ermessen des SL können dies auch andere nicht-magische Feuerquellen sein, wie Fackeln, ein Ofen oder Schmiedefeuer.
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] zum Ende des Rituals, erzeugst Du eine Kuppel mit einer Ausdehnung von 6,00 Metern aus gewobener Schatten- und Feuermagie um das Zielfeuer.
+Dies hat die folgendene Vorteile:
+* Äußere Einflüsse wie Regen oder Wind beeinflussen das Feuer nicht mehr.
+Das Feuer kann also durch Regen nicht gelöscht werden und Wind entfacht es nicht weiter.
+* Das Feuer ist außerhalb des Radius von 6,00 Metern unsichtbar und wird erst für eine Kreatur sichtbar, wenn sie diesen Radius betritt. Es handelt sich dabei um keine Illusion, sondern einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[Unsichtbarkeitseffekt].
+Kreaturen im Radius um das Feuer sind normal sichtbar.
+Der Effekt des Zaubers dauert an, bis das Feuer heruntergebrannt ist und endet damit automatisch.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

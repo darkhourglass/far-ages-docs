@@ -1,0 +1,20 @@
+= Aetherische Dornen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 11 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Aether, Schatten +
+*Vorbereitung:* 5 +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* Selbst +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Dein aetherisches Selbst verwandelt sich in eine beeindruckend geschützte Gestalt mit scharfen Dornen.
+Dies ist nicht auf der materiellen Ebene zu erkennen.
+Immer wenn Du während der Dauer des Zaubers Ziel eines Zaubers wirst, sowohl direkt oder als Teil eines Wirkungsbereichs, sorgen die Dornen für eine Reflexion der arkanen Energie des gegnerischen Zaubers zum Ursprung, so als würde der Zaubernde sich an einem Rosenstrauch stechen.
+Der Zauberende muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen 3+POT dieses Zaubers ablegen oder erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[autotmatischen Treffer] mit 1W6+1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[aetherischen] Schaden
+Dies gilt nur, wenn der Zaubernde eine Kreatur ist, eine andere Quelle eines magischen Effekts, die nicht verwundert werden kann, wird durch die ätherischen Dornen nicht betroffen.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++10 MP: Schaden +1W6 aetherisch
