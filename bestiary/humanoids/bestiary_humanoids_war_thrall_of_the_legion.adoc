@@ -40,6 +40,7 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 *Körper:* +9 +
 *Magie:* +5 +
 *Reflex:* +2 +
+
 == Offensiv
 * link:../../../bestiary/skills/bestiary_skill_attack_claw.adoc[Klauen] 10, 2W6+4, 2x
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] Speer +9, 2W6+3
@@ -54,6 +55,8 @@ Alle Profilanpassungen auf Basis des link:../abominations/abominations_symbiote_
 * link:../skills/specific/theLegion/nestiary_skill_thelefion_jhive_mind.adoc[Schwarmbewusstsein]
 * link:../skills/specific/theLegion/bestiary_skill_thelegion_swarmstatus.adoc[Schwarmstatus] 1
 * link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit]  (xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+* link:../skills/bestiary_skill_regeneration.adoc[Regeneration] 5
+
 == Regeln
 === Implante
 Alle Kriegssklaven der Legion erhalten die gleichen Implantate:

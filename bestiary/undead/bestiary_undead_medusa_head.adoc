@@ -1,0 +1,98 @@
+= Medusa Kopf
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 3)
+* *GK:* 2
+* *CP:* TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 4 (+2) +
+*GE:* 6 (+3) +
+*KO:* 6 (+2) +
+*ER:* 6 (+2) +
+*EN:* 6 (+2) +
+*SB:* 6 (+2) +
+*CH:* 3 (+1) +
+*TP:* 55 +
+*MP:* 60 +
+*SP:* - +
+*BEW:* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 12,00 Meter +
+*INI:* +5 +
+*MaxTL:* 60 +
+*MaxPOT:* 9 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[natürliche Rüstung] 3 (nekrotisches Fleisch, alle Trefferzonen) +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +6 +
+*Körper:*  +9 +
+*Magie:* +9 +
+*Reflex:* +4 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] (8, 1W6+2, link:../skills/bestiary_skill_poison.adoc[Gift], link:../../compendiums/poisions/poisions_paralyzing_venom.adoc.adoc[paralysierend (15)] 1x)
+* link:../skills/bestiary_skill_attack_ram.adoc[Rammen] (8, 1W6+3 ,1x)
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 4
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../skills/bestiary_skill_natural_levitation.adoc[Natürliche Levitation]
+
+== Regeln
+
+[[ref_bestiary_rules_medusa_head_cursed_in_death]]
+=== Verflucht im Tod
+Die untote Blasphemie, die ein Medusa Kopf ohne Körper ist, behält Aspekte des Fluchs, der über lebenden Medusen liegt.
+Ein untoter Medusa Kopf wird sein Spiegelbild, sobald er es sehen könnte, meiden, muss also in seinem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] seine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] einsetzen, um sein Spiegelbild nicht mehr zu sehen.
+Diese Einschränkung erfolgt automatisch, der Medusa Kopf kann keinen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf] einsetzen, um diesem Zwang zu entkommen.
+
+[[ref_bestiary_rules_medusa_head_creation]]
+=== Erschaffung
+Wie bei vielen untoten Monströsitäten ist auch die Erschaffung eines untoten Medusa Kopfs ein Geheimnis, dass nur wenigen Nekormanten bekannt ist, überhaupt zu existieren.
+Es kann vom SL daher wie ein xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret[arkanes Geheimnis] behandelt werden.
+Ein Nekromant, der dieses Geheimnis kennt, benötigt die Kenntnis des Zauber link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untote], um einen Untoten der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 3 zu erschaffen, sowie den unversehrten Körper einer link:../monstrosities/bestiary_monstrosity_medusa.adoc[Medusa].
+Das Ritual sieht die Entfernung des Kopfs vom Leichnam vor und dessen Trocknung und Balsamierung in verschiedenen magischen Lehmen und Bandagen.
+Bei der erfolgreichen Reanimierung, beginnt die nekromantische Magie den Kopf fliegen zu lassen.
+
+== Taktik
+Ein untoter Medusa Kopf verliert zum Glück viel von der Gefahr einer lebenden Meduas.
+Dennoch sind die Schlangenköpfe immer noch giftig.
+Die nekromantische Verwandlung ändert dieses Gift zu einem paralyisierenden Gift werden, was Medusa Köpfe sehr gefährlich macht, wenn diese Attacken gegen lebende Kreaturen platzieren können.
+Ein Medusa Kopf ist flink und wendig, daher können mehrere dieser Kreaturen ihre Gegner schnell umzingeln.
+Nekromanten nutzen diese Abscheulichkeiten als Verteidigungsinstrumente und Wächter für ihre Zufluchten.
+
+
+
+
+
+
+

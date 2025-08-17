@@ -1034,26 +1034,34 @@ Die Einträge in dieser Liste bestehen aus regulären Zaubersprüchen, die nach 
 Für Runen gelten zusätzliche bzw. abweichende Regeln:
 
 * Wie ein Zauber hat jede Rune eine <<ref_core_magic_rules_spellcasting_spellspecifics_potent,POT>>, die für die <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> relevant ist.
-* Eine Rune kann ein <<ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret,Arkanes Geheimniss>> sein.
+* Eine Rune kann ein <<ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret,Arkanes Geheimnis>> sein.
 * Eine Rune wird durch einen Eintrag in der Zauberspruchliste repräsentiert, die ein Runenmagier nach den üblichen Regeln für <<ref_core_magic_schools_learning_spells,Zaubersprüche lernen>> kann.
 Sobald er eine Rune gelernt hat, kann er sie nach den hier aufgeführten Regeln einsetzen.
-* Eine Rune besitzt eine implizite <<ref_core_magic_rules_spellcasting_spellspecifics_preparation,Vorbereitungszeit>> von 1 Minute pro POT, d.h das Verwenden einer Rune ist immer gleichbedeutend zu einem <<ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals,Ritual>> mit Ausnahme der <<ref_core_magic_schools_runes_rules_spontaneous_rune_effekt,sponatanen Effekte>>.
+* Eine Rune besitzt eine implizite <<ref_core_magic_rules_spellcasting_spellspecifics_preparation,Vorbereitungszeit>> von 1 Minute pro POT, d.h das Verwenden einer Rune ist immer gleichbedeutend zu einem <<ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals,Ritual>> mit Ausnahme der <<ref_core_magic_schools_runes_rules_spontaneous_rune_effekt,spontanen Effekte>>.
 Diese Vorbereitungszeit beschreibt den Prozess, dass die Rune ggf. auf ein Objekt oder einen Gegensatz geschrieben wird.
 Im Gegensatz zu anderen Zaubersprüchen kann diese Vorbereitungszeit nicht verkürzt werden.
 * Runen haben in der Regel keine <<ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects,zusätzlichen Effekte>>
-
-
-
+* Jede Rune hat unterschiedliche Effekte, die genutzt werden können, wenn die Rune gelernt wird, außer der <<ref_core_magic_schools_runes_rules_mastery_rune_effekt,Runenmeisterschaftsseffekt>>.
+* <<ref_core_magic_rules_spellcasting_spell_botches,Zauberpatzer>> treten bei Runenmagie nicht ein.
+* Runen können nicht als <<ref_core_magic_rules_spellcasting_cast_spell_as_reaction,Reaktion>> gezaubert werden.
+* Runen können nicht für <<ref_core_magic_base_spell_like_abilities,zauberähnliche Fähigkeiten>> genutzt werden.
+* Lernt ein Runenmagier eine Rune, kann er diese Effekte einsetzen, sofern die Beschreibungen dies zulassen. Die Kategorien dieser Effekte werden im Folgenden beschrieben.
 
 [[ref_core_magic_schools_runes_rules_spontaneous_rune_effekt]]
 ======= Spontaner Runeneffekt
-texttext
-
+Um einen *spontanen Runeneffekt* zu erzeugen, zeichnet der Runenmagier die Rune in die Luft und spricht eine magische Anrufung.
+Das erzeugt einen <<ref_core_magic_rules_spellcasting_spellspecifics_effect,magischen Effekt>>, wie als würde ein Zauber ausgesprochen.
+Dieser Vorgang entspricht dem Einsatz von
+<<ref_core_magic_rules_spellcasting_components_formulas,Formel>> und <<ref_core_magic_rules_spellcasting_components_gestures,Gesten>>.
+Dazu ist auch eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> auf xref:./core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei (Runenmagie)] nach den üblichen Regeln abhängig von der POT der Rune nötig.
+Die Rune hat in der Regel keine <<ref_core_magic_rules_spellcasting_spell_preparation,Vorbereitung>>, bzw. formal eine von 1, um einen spontanen Runeneffekt zu erzeugen.
+Eventuell kosten sponatane Runeneffekte MP, die der Runenmagier bezahlen muss.
+Alle sonstigen Angaben wie Reichweite, Ziele sind in der Beschreibung des spontanen Effekts hinterlegt.
 [[ref_core_magic_schools_runes_rules_mastery_rune_effekt]]
 ======= Runenmeistersschaft Effekt
 Der *Runenmeisterschafts Effekt* ist ein besonder mächtiger Effekt, der dem Runenmagier zu Verfügung steht, wenn er die Fähigkeit
 link:../../rules/core/skills/core_skill_runemastery.adoc[Runenmeisterschaft] für die jeweilige Rune gelernt hat.
-Da jede Meisterschaftseffekt einzigartig ist, gelten ausschließlich die in der Beschreibung der Runen vorliegenden Regeln.
+Da jeder Meisterschaftseffekt einzigartig ist, gelten ausschließlich die in der Beschreibung der Runen vorliegenden Regeln.
 [[ref_core_magic_schools_runes_rules_wargear_rune_effekt]]
 ======= Runeneffekt für Kriegsgeräte
 Der *Runeneffekt für Kriegsreräte* ist ein permanenter, offensiver oder defensiver Effekt, der auf bestimmte Gegenstände geschrieben werden kann.
@@ -1061,20 +1069,8 @@ Zu Kriegsgeräten gehören Waffen aller Art, Rüstungen und Schilde, sofern dies
 Es gelten neben der Einschränkung auf bestimmte Gegenstände dieselben Regeln wie für <<ref_core_magic_schools_runes_rules_permanent_rune_effekt,permanente Effekte>>.
 [[ref_core_magic_schools_runes_rules_permanent_rune_effekt]]
 ======= Permanenter Runeneffekt
-
-Sofern nicht explizit in ihrer Beschreibung ausgeschlossen, kann eine Rune auf jeden Gegenstand geschrieben werden. Manche Runen können nur auf bestimmte Gegenstandstypen (z.B. Waffen, Rüstungen etc.) und Materialien (z.B. Stein, Metall, etc.) geschrieben werden.
-* Wird eine Rune ausgelöst, wird die Spruchzauberei-Probe nach den üblichen Regeln gewürfelt.
-Möchte ein Runenmeister eine Rune bewusst auslösen, so muss er den Gegenstand, der die Rune trägt, berühren.
-Wird eine Rune aufgrund einer eingetretenen Bedingung ausgelöst, ist es nicht relevant, ob der Runenmeister anwesend ist.
-Um die Stufen zu bestimmen, werden immer die Stufen des Runenmeisters genommen, die er beim Schreiben der Rune hatte.
-Es können nur *aktive* Runen ausgelöst werden.
-* Wurde eine Rune ausgelöst, gilt diese als *inaktiv* und kann nicht wieder ausgelöst werden.
-* Eine inaktive Rune kann von einem Runenmagier wieder aktiviert werden.
-Dazu muss er pro angebender POT der Rune 5 MP aufwenden.
-Diese MP können aus seinem eigenen MP-Pool stammen oder aus einem Magiespeicher.
-Nur der Runenmagier, der die Rune zuerst geschrieben hat, kann dies ohne weitere Proben durchführen.
-
-Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier bestimmte Voraussetzungen erfüllen, im allgemeinen Wissen in Form von Talenten. Folgende Tabelle gibt dazu eine Übersicht.
+Eine Rune kann mit dem *permanenten Runeneffekt* auf Gegenstände und Objekte geschrieben werden.
+* Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier bestimmte Voraussetzungen erfüllen, im allgemeinen Wissen in Form von Talenten. Folgende Tabelle gibt dazu eine Übersicht.
 
 |===
 |Gegenstand oder Material |Benötigte Talente und Stufe |Bemerkung
@@ -1111,21 +1107,22 @@ Um eine Rune auf einen bestimmten Gegenstand zu schreiben, muss der Runenmagier 
 |Handwerk[Tatoowieren] 1
 |
 |===
+* Um den permanten Runeneffekt erfolgreich auf ein Objekt zu schreiben, muss der Runenmeister eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> ablegen.
+Bei einem Erfolg wirkt der permanente Runeneffekt wie beschrieben.
+
+[[ref_core_magic_schools_runes_rules_spelleffects]]
+===== Runen mit Zaubereffekten
+Manche der vorherigen Effektbeschreibungen können die Formulierung enthalten: "Diese Rune erzeugt den Effekt des Zaubers BEISPIEL".
+In diesem Fall wird die Rune nach den in diesen Kapitel vorgestellten <<ref_core_magic_schools_runes_rules,Regeln>> geschrieben und ausgelöst.
+Der <<ref_core_magic_rules_spellcasting_spellspecifics_effect,Effekt>> des genannten Zaubers wird ausgeführt ohne Berücksichtigung der sonstigen Zauberspezifika, außer wenn dieser von POT des zauber abhängt, in diesem Fall wird die POT der Rune verwendet.
 
 [[ref_core_magic_schools_runes_rules_ban_runes]]
 =======  Runen bannen
-* Ein Runenmagier kann ein fremde, inaktive Rune aktivieren, in dem er die o.g. MP aufwendet.
-Zusätzlich muss er eine Spruchzauberei-Probe ablegen, so als würde er die Rune schreiben.
-Hat er die Rune selbst gelernt, erhält keine Modifikatoren auf diese Probe.
-Kennt er die Rune hingegen nicht, so erhält die Probe einen Malus von *-5*.
-* Ein Runenmagier kann seine eigenen, aktiven Runen jederzeit deaktivieren und aktivieren.
-Solange diese Runen nicht ausgelöst wurden, können sie ohne MP-Aufwand wieder aktiviert werden.
-* Um eine Rune permanent auszuschalten, muss man diese *bannen*.
-Eine gebannte Rune kann nie wieder aktiviert werden.
-Es muss eine komplette neue Rune geschrieben werden.
-Ein Runenmagier kann seine eigenen Runen jederzeit bannen.
-* Ein Runenmagier kann eine fremde Rune bannen, in dem eine Spruchzauberei-Probe ablegt, so als würde er die Rune schreiben.
-Ein Runenmagier kann ausschließlich Runen bannen, die er gelernt hat.
+Jede Rune kann wie ein Zauber <<ref_core_magic_dispel_magic,gebannt>> werden.
+Die in dem Kapitel vorgestellten Regeln gelten auch für Runen, die entweder  <<ref_core_magic_schools_runes_rules_permanent_rune_effekt,permanent>> oder auf <<ref_core_magic_schools_runes_rules_wargear_rune_effekt,Objekten>> geschrieben wurden und somit länger aktiv sind.
+Für <<ref_core_magic_schools_runes_rules_spontaneous_rune_effekt,spontane Runeneffekte>> gelten die Regeln für den <<ref_core_magic_counter_spell,spontanen Magiebann>>.
+
+
 
 [[ref_core_magic_schools_shadowtricks]]
 ===== Schattentricks
@@ -1353,7 +1350,8 @@ Um eine Kreatur genauer zu untersuchen, muss die Probe mindestens den Wert aus d
 |15
 |Du erkennst anhand des Abdrucks im Aether den primären Kreaturentyp der Kreatur ohne Probleme.
 |===
-Sekundäre Kreaturntypen können im Ermessen des SLs erkannt werden. In der Regel wird der Typ link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] automatisch mit erkennt. Alle anderen erfordern ein Ergebnis mit +5 pro weiteren Typ.
+Sekundäre Kreaturntypen können im Ermessen des SLs erkannt werden. In der Regel wird der Typ link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] automatisch mit erkannt.
+Alle anderen erfordern ein Ergebnis mit +5 pro weiteren Typ.
 [[ref_core_magic_identrify_spells]]
 === Zauber identifizieren
 In diversen Situationen kann es nötig sein, dass ein geübter Anwender durch Beobachtung und Wissen einen Zauberspruch identifizieren will. Ziel der Identification ist in der Regel, Name des Zaubers, seine Wirkung, die Zauberschule und eventuelle Gegenmaßnahmen.
@@ -1389,15 +1387,15 @@ Der Wurf wird durch folgende xref:./core_rules_2d10_system.adoc#ref_core_2d10_ch
 === Magiebann
 Als *Magiebann* bezeichnet man den erfolgreichen Versuch, einen aktiven Zauberspruch, der zuvor beobachtet und <<ref_core_magic_identrify_spells,identifiziert>> wurde.
 [NOTE]
-Als aktiven Zauberspruch verstehen wir hier jeden Zauberspruch dessen Effekt über die Dauer _sofort_ hinausgeht, also eine bestimmte Anzahl von Kampfrunden andauert oder sogar _permanent_ ist.
+Als aktiven Zauberspruch definieren, wir hier jeden Zauberspruch dessen Effekt über die Dauer _sofort_ hinausgeht, also eine bestimmte Anzahl von Kampfrunden andauert oder sogar _permanent_ ist.
 Jeder, der wenigstens 1 Stufe im Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] bestizt, kennt die theoretischen Grundlagen, um das Gewebe eines Zauberspruches im Aether zu lösen und den Effekt zu bannen.
 ZUnächst muss der Effekt im Aether <<ref_core_magic_aether_perception,wahrgenommen>> werden und dann <<ref_core_magic_identrify_spells,identifiziert>>.
-Sund diese Voraussetzungen erfüllt, kann die Kreatur eine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] ablegen, die auch *Magie-Bann-Probe* genant wird.
+Sund diese Voraussetzungen erfüllt, kann die Kreatur eine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] ablegen, die auch *Magie-Bann-Probe* genannt wird.
 Um den Zauber dann erfolgreich zu bannen, muss der Mindestwurf 5+POT des Effekts erreicht werden.
 [[ref_core_magic_counter_spell]]
 == Spontaner Magiebann
 Als *spontaner Magiebann* wird ein <<ref_core_magic_dispel_magic,Magiebann>> bezeichnet, der also xref:./core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] auf eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei_Probe>> versucht wird und bei Erfolg den Zauberspruch verhindert.
-Um einen solchen Magiebann zu wirken, muss ein Magier dies explizit als xref:./core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeit] besitzten.
+Um einen solchen Magiebann zu wirken, muss ein Magier dies explizit als xref:./core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeit] besitzen.
 Es gelten die Regeln, um einen Magiebann zu wirken, jedoch muss der Magier eine Reaktion einsetzen, die gegen sein Maximum pro Kampfphase zählt.
 Ein spontaner Magiebann ist immer eine xref:./core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Reaktion].
 

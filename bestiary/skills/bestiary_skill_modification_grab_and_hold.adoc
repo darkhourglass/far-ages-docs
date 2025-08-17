@@ -1,0 +1,12 @@
+= Greifen und Halten (Attacke)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, Modifikation +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur kann die angegebene *Attacke* nutzen, um seinen Gegner zu packen und festzuhalten.
+Beispielsweise nutzt sie Tenkatel oder vergleichbare Greifwerkzeuge.
+
+Zum Einsatz dieser Fähigkeit würfelt die Kreatur eine normale xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Angriffsprobe] mit dieser Attacke gegen eine Zielkreatur, deren GK gleich oder geringer der Kreatur ist.
+Bei einem erfolgreichen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] kann die Kreatur auf eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schadensprobe] verzichten und stattdessen nach den Regeln zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen] eine konkurrierende ST-Probe erzwingen und versucht die ZielKreatur zu xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[halten].

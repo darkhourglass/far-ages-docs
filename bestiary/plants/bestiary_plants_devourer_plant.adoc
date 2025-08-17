@@ -1,0 +1,85 @@
+= Verschlinger Pflanze
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+_"Wir flüchteten, nachdem die dumpfen Schreie verstummten und keine Bewegungen im Inneren der Pflanzen mehr zusehen gewesen sind.
+Alpträume jagen mich heute noch, der Wald wurde zum Sperrgebiet erklärt."_
+
+Die Verschlingerpflanze wächst auf Al'vaha nach der arkanen Schockwelle des Schwarzen Winters nun häufiger und ihre Präsenz macht ganze Gebiete zu einem lebensfeindlichen und teilweise von Tieren entvölkerten Orten.
+Man kann ein Gebiet, dass von Verschlingerpflanzen infiziert wurde, daran identifizieren, dass es leergefegt ist, mit tierischen Leben, insbesondere den kleineren Nagern und Vögeln, sowie regelmäßige Ansammlungen von Fell- und Knochenresten, die in einem dicken ätzenden Schleim eingetaucht sind.
+Die Verschlingerpflanze selbst besteht aus einem Sack-artigen Körper, der an Wurzeln fest im Boden verwachsen ist.
+Auf dessen Spitze befindet sich eine flexible Öffnung, die mit einem Maul zu vergleichen ist.
+Kreisförmig um die Spitze der Pflanze angeordnet wachsen große, leuchtend bunte Blätter wie ein Kranz, um von den ebenso angeordneten Fangtentaklen abzulenken, die die Verschlingerpflanze immer bereit zum Angriff hat.
+Wanderer durch Gebiete von Verschlingerpflanzen sollten äußersts vorsichtig vorgehen und die Pflanzen weitläufig meiden, da Humanoide auch angriffern werden.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 6 (+2) +
+*ER:* 9 (+3) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 6 (+2) +
+*TP:* 100 +
+*MP:* 30 +
+*SP:* - +
+*BEW:* - / link:../skills/bestiary_skill_rooted.adoc[Verwurzelt] +
+*INI:* +4 +
+*MaxTL:* - +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 3 (roboste Außenhülle, alle Trefferzonen) +
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damagevulnerability.adoc[Schadenanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* link:../skills/bestiary_skill_damageresistence.adoc.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure]
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +4 +
+*Körper:* +5 +
+*Magie:* +3 +
+*Reflex:* +4 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_tentacles.adoc[Tentakel] 8 1W6 3x
+* link:../skills/bestiary_skill_modification_grab_and_hold.adoc[Greifen und Halten (Tentakel)]
+* <<ref_bestiary_devourer_plant_rules_devour,Verschlingen>>
+* link:../skills/bestiary_skill_attack_range.adoc[Spucke Überreste] 8 6,00 Meter 2W6, 1x
+
+== Defensive
+
+== Sonstiges
+
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_primary_creaturetype_plants_rules_hibernate[Ruhezustand]
+* link:../skills/bestiary_skill_rooted.adoc[Verwurzelt]
+* link:../skills/bestiary_skill_regeneration.adoc[Regeneration (5)]
+
+== Regeln
+
+[[ref_bestiary_devourer_plant_rules_devour]]
+=== Verschlingen
+Die Verschlingerpflanze kann eine von ihren Tentakeln gehaltene Kreatur versuchen zu verschlingen.
+Dazu muss sie in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[ihrem Zug] eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Aktion] gegen eine Kreatur unter den o.g. Voraussetzungen einsetzen.
+Um sich gegen diese Aktion zu wehren, würfeln die Pflanze und Ihr Opfer eine erneute konkurrierende ST-Probe, siehe xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen].
+Gewinnt Pflanze, wird die Kreatur ins Innere ihres Verdauungssacks gezogen.
+Die Verschlingerpflanze kann in Summe nur Kreaturen GK 6 oder geringer gleichzeitig in ihrem Körper festhalten.
+Beispielsweise können zwei Kreaturen der Gk 3 (3+3<=6) oder 1 Kreatur der GK gefangen sein.
+Zu Beginn ihres xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugs] nehmen gefangene Kreaturen einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden].
+Einen Kreatur, die auf diese Weise auf 0 TP reduziert wird, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt sofort], da sie bis auf ein paar unverdauliche Teile aufgelöst wurde.
+Eine gefange Kreatur kann befreit werden oder sich selbst befreien, wenn innerhalb einer Kampfphase mindesten 20 Schadenspunkte gegen die Trefferzone Verdauungssack der Verschlingerpflanze verursacht wurde.
+Eine Verschlingerpflanze hat zu jedem Zeitpunkt bis zu 3 Überreste von kleineren Tieren vorrätig, die sie spucken kann.
+
+== Taktik
+Eine Verschlingerpflanze ist mehr als gefährliches Hindernis als eine intelligent agierende Kreatur, da sie sich nicht bewegt und inaktiv bleibt, bis eine passende Beute in Reichweite ihrer Tentakel gelangt.
+Dies sind in der Regel link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tiere] oder auch link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoide], deren GK 5 oder kleiner ist.

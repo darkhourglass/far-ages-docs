@@ -1,0 +1,22 @@
+= Flammenschlag
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Feuer +
+*Vorbereitung:* 4 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* bis zu 3 Kreaturen +
+*Dauer:* Sofort +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] spreitzt Du Deine Finger und zeigst auf bis zu 3 unterschiedliche Kreaturen, die Ziele dieses Zaubers werden.
+Aus Deinen Fingern schlagen weite Flammenbögen, die auf die Ziele zuspringen.
+Jedes Ziel darf einen eigenen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen Deine Spruchzauberei-Probe ablegen.
+Bei einem Misserfolg erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 3W6+3 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Du darfst auch eine Kreatur mit mehreren Flammenschlägen anvisieren.
+Für jeden einzelenn Schlag wird der o.g. Rettungswurf durchgeführt.
+*Zusätzliche Effekte:* +
++5 MP: Reichweite +6,00 Meter
++1 MP: Dauer +1 Kampfphase +
++2 POT, +10 MP: Ziele +1 Kreatur

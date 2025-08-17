@@ -1,0 +1,18 @@
+= Flimmern
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein/Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Schatten +
+*Vorbereitung:* 7 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> umgibst Du die Zielkreatur mit einem magischen Geflecht aus aetherischer und Schattenmagie, das die Kreatur verschwimmen lässt und teilweise von dieser Ebene der Existenz abschottet.
+Für die Dauer des Zauber besitzt die Kreatur folgende Fähigkeiten:
+* im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] darf sie eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] einsetzen, um sich 9,00 Meter zu einem freien, sichtbaren Punkt zu xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_spell_foci_teleport[teleportieren].
+* im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_others_turn[Zug anderer] gilt die Kreatur als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar]. Sie darf keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] durchführen.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
