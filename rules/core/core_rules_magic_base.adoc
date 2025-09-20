@@ -1110,10 +1110,13 @@ Eine Rune kann mit dem *permanenten Runeneffekt* auf Gegenstände und Objekte ge
 * Um den permanten Runeneffekt erfolgreich auf ein Objekt zu schreiben, muss der Runenmeister eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> ablegen.
 Bei einem Erfolg wirkt der permanente Runeneffekt wie beschrieben.
 
+[NOTE]
+Manche Runen haben unter Umständen nur einen der genannten Effekte und können für andere Effekte nicht genutzt werden, beispielsweise könnte eine Rune nur auf eine Waffe geschrieben werden (Effekt für Kriegsgerät) und nicht auf Objekt (Permanenter Effekt).
+
 [[ref_core_magic_schools_runes_rules_spelleffects]]
 ===== Runen mit Zaubereffekten
 Manche der vorherigen Effektbeschreibungen können die Formulierung enthalten: "Diese Rune erzeugt den Effekt des Zaubers BEISPIEL".
-In diesem Fall wird die Rune nach den in diesen Kapitel vorgestellten <<ref_core_magic_schools_runes_rules,Regeln>> geschrieben und ausgelöst.
+In diesem Fall wird die Rune nach den in diesen Kapiteln vorgestellten <<ref_core_magic_schools_runes_rules,Regeln>> geschrieben und ausgelöst.
 Der <<ref_core_magic_rules_spellcasting_spellspecifics_effect,Effekt>> des genannten Zaubers wird ausgeführt ohne Berücksichtigung der sonstigen Zauberspezifika, außer wenn dieser von POT des zauber abhängt, in diesem Fall wird die POT der Rune verwendet.
 
 [[ref_core_magic_schools_runes_rules_ban_runes]]

@@ -1,0 +1,80 @@
+= Lindwurm
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc[Drachisch]
+* GK: 8
+* CP: TBA
+
+== Beschreibung
+
+
+Eine wenig schmeichelhafte Beschreibung für diese Kreatur ist "schuppiges Ungeziefer der Lüfte", in Anlehnung an ihren Ursprung als entfernter Verwandter der Drachen und die Aggression und Wildheit ihrer Natur.
+Ähnlich abwertend werden Lindwürmer auch als "Drachen der Schande" bezeichnet, da ihnen die Majestät ihrer Vorfahren fehlt.
+Lindwürmer sind große, echsenartige Kreaturen mit einem langen, schlangenförmigen Körper, der von zwei kurzen Beinen getragen wird.
+Ihr Körper endet nach Hinten in einem Schwanz mit langen Stachel und nach vorne in einem drachenähnlichen Kopf mit einem Maul voller scharfer Zähne.
+Lindwürmer besitzen zwei kurze Arme, mit denen sie Beute beim Zerteilen festhalten können und zwei mächtige Flügel, um durch die Lüfte zu gleiten.
+Die meisten Lindwürmer bevorzugen hohe Gipfel, um von diesen aus zu jagen, da es ihnen leichter fällt, in die Luft zu springen und zu gleiten, als vom Boden aufzusteigen.
+Lindwürmer sind ausschließlich Fleischfresser und jagen kleinere und schwächere Kreaturen am Boden.
+Neben Herden von Vieh sind auch die Humanoiden Besitzer Ziel von Lindwürmern, eine Population dieser Wesen ruft in der Regel eine Intervention herauf.
+Selten agieren Lindwürmer als Aasfresser.
+Gruppen von Lindwürmern werden von einem dominanten Weibchen angeführt, die als Einzige Eier legen darf.
+Eier anderer Weibchen enden als Futter für die Anführerin.
+Einzelgängerische Lindwürmer sind in der Regel Männchen.
+In allen Fällen sind Lindwürmer aggressiv und territorial.
+Lindwürmer meiden Drachen und gehen Ihnen aus dem Weg, soweit dass sie bereit sind, ihre Jagdgründe und Nistplätze aufzugeben, nur um nicht in der Nähe eines Drachen zu sein.
+
+== Profil
+
+*ST:* 12 (+4) +
+*GE:* 7 (+2) +
+*KO:* 9 (+3) +
+*ER:* 8 (+2) +
+*EN:* 5 (+1) +
+*SB:* 7 (+2) +
+*CH:* 5 (+1) +
+*TP:* 135 +
+*MP:* 50 +
+*SP:* 50 +
+*BEW:* Boden: 15,00 Meter +
+link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 9,00 Meter +
+*INI:* +4 +
+*MaxTL:* 180 +
+*MaxPOT:* 8 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 5 (dichte Schuppen, alle Trefferzonen) +
+*Resistenzen:* - +
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +5 +
+*Körper:* +12 +
+*Magie:* +3 +
+*Reflex:* +5 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_impale.adoc[Schwanzdorn-Aufspießen] 9 3W6+4 1x
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9 2W6+4 2x
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 9 1W6+4 2x
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_senses_keensenses.adoc[Geschärfte Sinne (Geruch)]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 8
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc#ref_secondary_creaturetype_draconic_rules_skills_descendent_blood[Verwandtes Blut]
+
+== Regeln
+
+[[ref_bestiary_wvyern_variants]]
+=== Varianten
+Lindwürmer sind sehr anpassungsfähig und einige Gruppen haben neue Unterarten gebildet, die bestimmte Landstriche für ihr Überleben vereinahmt haben.
+Das hier vorgestellte Profil gilt für all diese Lindwürmer und wird nach den u.g. Vorgaben angepasst, wenn Lindwürmer in den jeweiligen Umweltbedingungen angetroffen werden:
+* *Wüste:* link:../skills/bestiary_skill_apated_to_heat.adoc[Hitze angepasst]
+* *Arktis:* link:../skills/bestiary_skill_apated_to_cold.adoc[Kälte angepasst]
+* *Wald:* link:../skills/bestiary_skill_move_strider_forest.adoc[Waldwanderer]

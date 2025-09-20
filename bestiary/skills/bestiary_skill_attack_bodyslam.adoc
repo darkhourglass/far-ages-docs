@@ -1,0 +1,17 @@
+= Körpereinsatz (Angriffsstufe, Schaden, Anzahl)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, ST, +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur nutzt die Masse ihres Körpers als Angriff gegenüber Kreaturen, deren GK geringer ist als die der Kreatur selbst.
+
+Eine solche Attacke erfolgt als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_basicrole[Probe] mit der angegebenen *Angriffsstufe*.
+Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
+Der Schadenswurf erfolgt mit dem angegebenen *Schaden*.
+Zusätzlich zu diesem Schaden erhält die Kreatur einen Bonus von +1 für jeden Punkt, die die eigene GK über der des Ziels liegt.
+
+Die angegebene *Anzahl* gibt an, wie oft die Kreatur im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] diese Fähigkeit einsetzen kann.
+Jeder einzelne Einsatz kostet eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Ist die Anzahl nicht explizit angegeben, kann die Kreatur die Fähigkeit nur einmal pro eigenem Zug einsetzen.

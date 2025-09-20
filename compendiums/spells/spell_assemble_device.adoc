@@ -1,0 +1,21 @@
+= Gerät zusammensetzen
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 17 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten, ein technonatisches oder mechnisches Gerät +
+*Fokus:* Geist, Maschine +
+*Vorbereitung:* 12 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:*  ein technonatisches oder mechnisches Gerät +
+*Dauer:* Sofort +
+*Effekt:* +
+Technomanten nutzen diesen Zauber gerne in der Herstellung von technomantischen oder mechnanischen Geräten.
+Er wirkt nicht auf Konstrukte.
+Der Zauber wird in der Regel auf ein Gerät angewendet, welches sich im Stadiums der Zusammensetzung befindet, siehe dazu die Regeln zu xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[ein Gerät erschaffen].
+Der Technomant darf noch nicht seine xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Talent-Probe] auf Technonantie abgelegt haben, um das Gerät zu vollenden.
+Der Mindestwurf für seine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] ist nach den üblichen Regeln 8 +POT dieses Zaubers (i.d.R also 25), außer der Mindestwurf für das Gerät ist höher, dann gilt dieser.
+Ein Erfolg, Misserfolg oder Patzer in der Spruchzauberei-Probe verhält sich analog zu einem Ergebnis in der abschließenden Technomantie-Probe, siehe xref:../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_constructs[Herstellen von Geräten und Konstrukten].
+Ist ein Gerät kaputt und der Technonant hat alle Ersatzteile zur Hand, kann dieser Zauber auch genutzt werden, um das Gerät zu reparieren, der Mindestwurf entspricht dem des Herstellens des Gerätes.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

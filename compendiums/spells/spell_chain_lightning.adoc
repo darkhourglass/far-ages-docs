@@ -1,0 +1,23 @@
+= Kettenblitz
+
+*Arkanes Geheimnis:* Nein  +
+*POT:* 7 +
+*Rettungswurf:* ja, siehe Beschreibung +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Luft +
+*Vorbereitung:* 6 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1+ Kreaturen +
+*Dauer:* Sofort +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] schickst Du aus Deiner Hand einen Blitz auf die erste Zielkreatur in Reichweite.
+Dieser erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden].
+Verliert die Kreatur wenigstens 1 TP durch diesen Zauber, springt der Blitz augenblicklich weiter zu einer weiteren Kreatur Deiner Wahl, innerhalb der Reichweite, diesmal ausgehend von der Zielkreatur.
+Diese Kreatur darf einen eigenen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen das Ergebnis Deiner  Spruchzauberei-Probe ablegen.
+Bei einem Erfolg hat der Zauber keinen weiteren Effekt.
+Bei einem Misserfolg erleidet die Kreatur den gleichen Treffer wie die erste Kreatur.
+Ebenso kann der Kettenblitz weiterspringen.
+Der Kettenblitz springt maximal soweit wie Du Stufen in Deinem EN-Attribut hat.
+*Zusätzliche Effekte:* +
++2 MP: Reichweite +3,00 Meter +
++1 POT, +5 MP: Schaden +1W6+1 Schock

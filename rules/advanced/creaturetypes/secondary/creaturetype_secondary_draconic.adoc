@@ -1,0 +1,34 @@
+= Drachisch
+
+Auch unter dem wachsamen Auge des Gottdrachen Allschwinge, dass keine Fehler oder Abweichungen vom Kurs und Plan des Progenitors zulässt, können unvorgesehene Entwicklungen stattfinden.
+Durch eine Laune der Natur, Einfluss der kosmischen Prinzipien oder abtrünnige und experimentierfreudige Drachen, entstehen manchmal Wesen, die das Blut der Drachen in sich tragen, aber keine solchen sind.
+
+[[ref_secondary_creaturetype_aquatic_rules]]
+== Regeln
+
+Kreaturen mit diesem sekundären Kreaturentyp haben link:../primary/creaturetype_primary_dragon.adoc[Drachen] als entfernte Verwandte.
+Dies zeigt sich in Aussehen, Verhalten und manchmal auch Fähigkeiten.
+Es gelten folgende Regeln für drachische Kreaturen.
+
+[[ref_secondary_creaturetype_draconic_rules_skills]]
+=== Fähigkeiten
+
+Jede drachische Kreatur erhält folgende Fähigkeiten:
+
+[[ref_secondary_creaturetype_draconic_rules_skills_powerlevel]]
+==== Machtstufe
+Wie echte Drachen eine xref:../primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel[Machtstufe] haben, haben drachische Kreaturen die Anlage, die ihre weit entfernte Progenitor für seine Kinde vorgesehen hat.
+Allerdings nicht in der Ausprägung, die bei Drachen vorliegt.
+Dies äußert sich dadurch, dass die folgenden Regeln gelten:
+* <<ref_secondary_creaturetype_draconic_rules_skills_descendent_blood,Verwandtes Blut>>
+* <<ref_secondary_creaturetype_draconic_rules_skills_impotented_blood,Impotentes Blut>>
+
+[[ref_secondary_creaturetype_draconic_rules_skills_descendent_blood]]
+===== Verwandtes Blut
+Für die Bestimmung von Zielen und Effekten, die auf den Kreaturentyp link:../primary/creaturetype_primary_dragon.adoc[Drachen] gelten drachische Kreaturen unabhängig von ihrem eigenen primären Kreaturentyp auch als Drache der Machtstufe 0.
+
+[[ref_secondary_creaturetype_draconic_rules_skills_impotented_blood]]
+==== Impotentes Blut
+Drachische Kreaturen können keine Machtstufe im Sinne der Machtstufe von Drachen erhalten, lernen somit keine
+* speziellen xref:../primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills[Drachenfähigkeiten]
+* oder allgemeine xref:../primary/creaturetype_primary_dragon.adoc#ref_primary_creaturetype_dragons_rules_skills[Fähigkeiten] von Drachen.

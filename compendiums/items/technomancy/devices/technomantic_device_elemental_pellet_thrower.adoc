@@ -1,0 +1,50 @@
+= Elementarer Schrotwerfer
+
+*Materialkosten:* siehe Beschreibung +
+*Konstruktionszeit:* siehe Beschreibung +
+*Zaubersprüche:* - +
+*Mindestwurf:* 19 +
+*Preis:* siehe Beschreibung +
+*Beschreibung:* +
+Dieses Gerät wird durch einen Griff mit Abzug in einer Hand gehalten. E
+Es besteht aus einem breiten Lauf, der mit einem kleinen Tank am anderen Ende des Gerärts verbunden ist.
+Bedienelemente und Klappen für austauschbare Teile befinden sich an der Seite.
+Manche Träge verwenden Schultergurte, um die die sperrigen Schrotwerfer besser handhaben zu können.
+Jeder Schrot Werfer wird inklusive einer Energiezelle mit 50 MP hergestellt.
+Diese kann durch einen geübten Handgriff wie ein xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Magazin] gewechselt werden kann.
+Das Abfeuern des Schrotwerfers entspricht dem Einsatz einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektilwaffe] mit einer *Grundreichweite* von 9,00 Metern.
+Das Schrotprojektil verursacht Schaden in Abhängigkeit der GK des Schrotwerfers.
+Die folgende Tabelle zeigt alle GK abhängigen Wert eines Schrotwerfers.
+|===
+|GK|Materialkosten |Konstruktionszeit |Preis |Schaden
+
+|4
+|10.000
+|4 Tage
+|12.000
+|1W6+2
+
+|5
+|10.000
+|4 Tage
+|12.000
+|1W6+3
+
+|6
+|12.000
+|5 Tage
+|16.000
+|2W6
+
+|7
+|13.000
+|6 Tage
+|17.000
+|2W6+2
+|===
+Jeder Schrotwerfer benötigt einen link:technomantic_devices_elemental_charger.adoc[Elementaren Lader], dessen Ladung die Schadensart des Schrotprojektils bestimmt.
+Der Lader wird am Gerät ähnlich wie die Energiezelle durch einen einfachen Verschlussmechanimus angeschlossen und kann getauscht werden (1 Aktion).
+Kreaturen können nur Schrotwerfer passend zu ihrer eigenen GK effektiv einsetzen, sonst gelten die Regeln für Gegenstände mit unpassender xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_oversized_items[GK].
+Ein Schrotwerfer kann jedoch auf eine link:technomantic_devices_golem_armor.adoc[Golemrüstung] montiert werden und ignoriert dann maximal 1 Punkt GK Unterschied.
+Eine Kreatur mit GK 5 in einer Golemrüstung mit GK 5 kann also ohne Probleme einen Schrotwerfer der GK 6 nutzen.
+

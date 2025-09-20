@@ -1,0 +1,26 @@
+= Enterhaken
+
+*Materialkosten:* 12.000 +
+*Konstruktionszeit:* 11 Tage +
+*Zaubersprüche:* tba +
+*Mindestwurf:* 18 +
+*GK:* 5+
+*Montage:* 1 Arm +
+*Attribute:* +1 GE +
+*Talente:* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] +3 +
+*MP-Kosten:* 3 MP +
+*Machtstufe:* +1 +
+*Beschreibung:* +
+Diese Bewaffnung besteht aus einem extrem stabilen Haken aus robusten Metall, der an einem ebenso robusten Seil befestigt ist.
+Ein Mechnismus in der Hand des Golems feuert den Haken zielgenau ab.
+Um einen bestimmten Punkt zu treffen, muss eine Probe auf xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] bestanden werden mit einer Reichweite von maximal 9,00 Meter (dies ist die Länge des Seils).
+Bei einem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg] verhakt sich der Haken am anvisierten Punkt oder das Seil hat sich um etwas herumgewickelt und mit dem Haken selbst verknotet.
+Als Ziel gelten Objekte nach Ermessen des SL oder auch andere Kreaturen.
+Kreaturen gelten als xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten].
+Der Golem darf dann in seinem xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen, um das Seil um 3,00 Meter aufzurollen.
+Dies kann folgende Effekte haben:
+* Der Golem bewegt sich 3,00 Meter auf das Ziel zu bewegen, wenn es keine Kreatur ist.
+* Wenn das Ziel eine Kreatur ist, zieht der Golem, sie 3,00 Meter an sich heran. Diese Bewegung verursacht keine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] und ist nicht beeinflusst durch die BEW der Kreatur.
+Eine xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurierende] xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST-Probe] kann vom SL auferlegt werden, um die Bewegung zu verhindern.
+Eine gefangene Kreatur darf die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_breakfree[Befreien-Aktion] einsetzen.
+Sie muss einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen 17 bestehen, um das Seil von sich zu lösen.

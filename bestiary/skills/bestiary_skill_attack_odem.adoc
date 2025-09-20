@@ -8,7 +8,7 @@
 Die Kreatur besitzt eine Atemwaffe, die sie gegen ihre Gegner einsetzen kann.
 Besonders bekannt für diese Art des Angriffs sind xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drachen] mit ihrem feurigen Atem.
 
-Die Atemattacke kann als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] in einer Kampfphase eingesetzt werden.
+Die Atemattacke kann als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limierte] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] in einer Kampfphase eingesetzt werden.
 
 Die Angriffsprobe wird mit der angegebenen *Angriffsstufe* gewürfelt.
 Diese enthält bereits alle Boni aus den Attributen und Talenten der Kreatur.
@@ -26,3 +26,7 @@ Bei einem Erfolg können sie den versuchten Schaden halbieren.
 Ein Drache hat eine Atemattacke (14, 4W10+8, Feuer, 9,00).
 Für seine Angriffsprobe würfelt er 2W10+14 und spuckt einen 9,00 Meter Kegel Feuer, der 4W10+8 Schaden verursacht.
 ====
+
+== Legendär
+Eine link:../templates/bestiary_template_legendary.adoc[legendäre] Kreatur darf diese Fähigkeit als xref:../templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre] Aktion einsetzen.
+Diese bleibt allerdings xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiert].

@@ -1,0 +1,85 @@
+= Krakenhai
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_aquatic.adoc[Aquatisch], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* GK: 7
+* CP: TBA
+
+== Beschreibung
+
+Die entsetzlichen Kreaturen, die als Krakenhaie bekannt sind, jagen in Weltmeeren und Küstenbereichen nahe humanoider Siedlungen.
+Kriegsmarinen werden mobilisiert, wenn Sichtungen von Krakenhaien berichtet werden.
+Diese Scheusale haben die Größe und ungefähre Körperform eines großen, weißen Hais.
+Allerdings enden ihre seitlichen Schwimmflossen in langen Schwimmtentakeln wie bei einem Oktopus, allerdings ohne Saugnäpfe.
+Mit mehr Saufnäpfen versehen hingegen und sind die Tentakel eines Krakenhais, die sich wie ein Kranz um sein Blutegel ähnliches, rundes Maul befinden, dass sich anstelle eines typischen Haimauls an der Front des Kopfs befindet.
+Über dieser widernatürlichen Gesicht thronen auf zwei beweglichen Muskel tief schwarze kugelförmige Augen, die vor boshafter Intelligenz und Heimtücke leuchten.
+Trotz ihrer Größe sind Krakenhaie leise Schwimmer und nutzen die Dunkelheit der Tiefe zu ihrem Vorteil, um ihren Opfern aufzulauern.
+Sie können extrem schnell vorwärts schwimmen und greifen ihre Opfer plötzlich und aus dem Hinterhalt an.
+Sie versuchen, ihre Opfer mit ihren Tentakeln zu greifen und in die Tiefe zu ziehen, um sie dort zu ersticken, zu Tode beißen und dann schlussendlich in verzehrbare Stücke zu reißen.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 9 (+3) +
+*ER:* 6 (+2) +
+*EN:* 3 (+1) +
+*SB:* 5 (+1) +
+*CH:* 7 (+2) +
+*TP:* 105 +
+*MP:* 30 +
+*SP:* 60 +
+*BEW:* link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 9,00 +
+*INI:* 4 +
+*MaxTL:* 135 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[natürliche Rüstung] 5 (alle Trefferzonen) +
+*Resistenzen:* +
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+
+
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +3 +
+*Körper:* +9 +
+*Magie:* +6 +
+*Reflex:* +4 +
+
+== Offensiv
+
+* Maultentakel: link:../skills/bestiary_skill_attack_tentacles.adoc[Tentakel] 8 1W6+2 3x <<ref_bestiary_squidshark_suckers,Saufnäpfe>>
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8 1W8+2 1x
+* Grauenhaftes Grollen (link:../skills/bestiary_skill_fear.adoc[Furcht] 7 1x)
+* link:../skills/bestiary_skill_aquaqic_predator.adoc[Aquatisch Jäger]
+* link:../../rules/core/skills/core_skill_backstab.adoc[Hinterhältiger Angriff]
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 5 (+2)
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 6 (+2)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 5 (+2)
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht]
+* link:../skills/bestiary_skill_move_nimble.adoc[Flink]
+* link:../skills/bestiary_skill_gills.adoc.adoc[Kiemen]
+* link:../skills/bestiary_skill_move_swim_boost.adoc[Schwimmschub]
+
+== Regeln
+
+[[ref_bestiary_squidshark_suckers]]
+=== Saugnäpfe
+Greift ein Krakenhai mit den Tentakeln seines Kopfs an, kann er versuchen, sein Opfer mit den Saugnäpfen festzuhalten.
+Bei einer erfolgreichen Attacke mit den Tentakeln kann der Krakenhai als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] sofort einen Versuch in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[Raufen und Ringen] durchführen, um die angegriffene Kreatur zu xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[halten].
+Ein so festgehaltene Kreatur ist gegenüber dem Biss-Angriff hilflos und kann sich nicht verteidigen.
+== Taktik
+Krankenhai sind keine subtilen Wesen, allerdings auch keine unvorsichtigen.
+Sie lauern in Deckung von dunklem Wasser, hinter Felsen und großen Wasserpflanzen.
+Sie nutzen ihren Schwimmsschub und äquatische Jäger Fähigkeiten, um Überraschungsangriffe zu starten, womit auch ihr hinterhältiger Angriff zum Tragen kommen.
+So können sie bereits in der ersten Runde beträchtlichen Schaden anrichten.
+In einer längeren Auseinandersetzung versuchen Krakenhai ihre Opfer zu umgehen oder flankieren, um sie von der Seite anzugreifen.
+Krakenhai hassen instinktiv link:../../rules/core/races/core_races_triton_landdweller.adoc[Tritonen] und link:../../rules/core/races/core_races_elves_general.adoc[Elfen] jeglicher Natur und greifen diese direkt an.

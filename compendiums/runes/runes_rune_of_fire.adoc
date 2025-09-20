@@ -1,0 +1,19 @@
+= Feuerrune
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Spontaner Runeneffekt:* +
+Du zeichnest die Feuerrune in die Luft und Deinen Fingerspitzen folgen kleine Flammen.
+Schlussendlich scheint die Rune in einem gleißenden Licht und ein Flammenschlag aus dem Nichts scheint eine von Dir bestimmte Zielkreatur zu treffen.
+Du würfelst nach den üblichen Regeln eine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe].
+Bei einem Erfolg erhält die Zielkreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] mit 2W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+*Runenmeistersschaft Effekt:* +
+Die Runenmeisterschaft verstärkt die Effekte der Feuerrune wie folgt:
+Alle Schadensboni werden um 1W6 erhöht.
+Alle Resistenzen werden zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageimmunity[Schadensimmunitäten].
+*Runeneffekt für Kriegsgeräte:* +
+Auf Waffen gemeißelt, versucht die Feuerrune zusätzlich 1W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] zu ihrem sonstigen Schadensbonus.
+Auf eine Rüstung oder Schild gemeißelt verleiht die Feuerrune ihrem Träger xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+*Permanenter Runeneffekt:* +
+Wird eine Feuerrune auf eine Oberfläche oder Gegenstand gemeißelt, gibt sie ein schützendes Feld von 3,00 Meter Radius aus, dass jeder Kreatur xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageresistence[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] verleiht, solange sie sich im Radius befindet.
+Gleichzeitig sind entflammbare Objekte geschützt.

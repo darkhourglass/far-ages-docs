@@ -16,16 +16,50 @@ Der Schwertmeister kann ohne Einschränkungen Stufen in diesem Schicksalspfad le
 
 == Stufe 1
 
-Der Schwertmeister lernt auf Stufe 1 eine der folgenden Fähigkeiten:
+Der Schwertmeister lernt auf *Stufe 1* eine der folgenden Fähigkeiten:
 
 * <<ref_swordmaster_disarm>>
 * <<ref_swordmaster_provoke>>
 * <<ref_swordmaster_trip>>
 
+Auf *Stufe 2* muss der Schwermeister die Fähigkeit <<ref_swordmaster_specialisation,Schwertmeister Spezialisierung>> lernen.
+
 == Maximale Stufe
+Der Schicksalspfad des Schwertmeisters gibt keine maximale Stufe vor.
 
 == Fähigkeiten
+Folgende Fähigkeiten können Schwertmeister pro Stufe lernen, vorausgesetzt, sie erfüllen die weiteren Voraussetzungen.
+* link:../../../core/skills/core_skill_disengaging_strike.adoc[Freimachender Schlag]
+* link:../../../core/skills/core_skill_suave_defense.adoc[Charmante Verteidigung]
 
+[[ref_swordmaster_specialisation]]
+=== Schwertmeister Spezialisierung
+*Voraussetzungen:* Schwertmeister 2 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:* +
+Mit Stufe 2 spezialisiert sich der Schwertmeister in eine Richtung, wie er seinen Schicksalspfad weiter verfeinern möchte.
+Diese Wahl ist einmalig und final.
+Jede Option bringt ihren eigenen Kampfstil und Intepretation auf den Schicksalpfad mit.
+Dies hat zur Folge, dass manche in diesem Dokument vorgestellten Fähigkeiten nur dann gelernt werden können, wenn die Spezialisierung übereinstimmt.
+Fähigkeiten nur mit Anmerkung Schwertmeister können von allen Spezialisierungen gelernt werden.
+
+[[ref_swordmaster_specialisation_true_artist]]
+==== Wahrer Künstler
+Dieser Schwertmeister begreift den Kampf nicht nur als Sieg über seinen Gegner, sondern als Kunstform.
+Sicherlich ist das Gewinnen des Kampfes eine Motivation, aber wo bleibt die Erfüllung, wenn es nicht mit Stil und Würde erfolgt.
+
+[[ref_swordmaster_specialisation_duellist]]
+==== Duellist
+Der *Duellist* fokussiert das Wissen und Können eines Schwertmeisters auf die direkte Herausforderung und Auseinandersetzung mit einem einzigen Kontrahenten.
+
+[[ref_swordmaster_specialisation_swashbuckler]]
+==== Säbelrassler
+Der *Säbelrassler* betritt das Schlachtfeld aus einer Position der Überlegenheit und Dominanz.
+Sein Kampf beginnt nicht nur mit gezückten Klingen, sondern mit einem entwaffenden Grinsen im Gesicht.
+Er kämpft mit scharfer Klinge und Zunge.
 [[ref_swordmaster_agile_warrior]]
 === Agiler Kämpfer
 *Voraussetzungen:* Schwertmeister 2 +
@@ -50,7 +84,7 @@ Diese Entscheidung gilt auch für seinen Kontrahenten.
 
 [[ref_swordmaster_challange]]
 === Herausforderung
-*Voraussetzungen:* Schwertmeister 3, Provokation +
+*Voraussetzungen:* Schwertmeister/Duellist 3, Provokation +
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
@@ -78,7 +112,7 @@ Die Boni sind kumulativ.
 
 [[ref_swordmaster_provoke]]
 === Provokation
-*Voraussetzungen:* Schwertmeister 1 +
+*Voraussetzungen:* Schwertmeister 3 +
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +

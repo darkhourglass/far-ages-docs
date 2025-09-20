@@ -9,7 +9,7 @@
 *Machtstufe:* +1 +
 *Beschreibung:* +
 Mit diesem Zusatz kann der Golem jeden xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[elementaren] oder xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damageetypes_aspectelemental[aspektelementaren] Schaden aus seiner xref:../../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary[Bewaffung] oder anderen Zusätzen gegen einen andere Schadensart tauschen.
-Der Zusatz benötigt einen link:../../../items/technomancy/devices/teechnomantic_devices_elemental_charger.adoc[elementaren Lader], der mit der Energieart aufgeladen ist, die der Golem nutzen für diesen Zusatz nutzen soll.
+Der Zusatz benötigt einen link:../../../items/technomancy/devices/technomantic_devices_elemental_charger.adoc[elementaren Lader], der mit der Energieart aufgeladen ist, die der Golem nutzen für diesen Zusatz nutzen soll.
 Ein Technomant kann mit einer einfachen Probe auf xref:../../../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_talent_technomancy[Technomantie] den Lader für diesen Zusatz tauschen.
 Der Einsatz dieses Zusatzs ist eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_freeactions[freie Aktion], die die Schadensart für die gesamte Kampfphase überschreibt und kostet 5 MP.
 

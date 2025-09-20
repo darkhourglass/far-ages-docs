@@ -1,0 +1,19 @@
+= Rune des Windes
+
+*Arkanes Geheimnis:*  +
+*POT:*  +
+*Spontaner Runeneffekt:* +
+Der spontane Runeneffekt der Windrune erzeugt den Effekt des Zaubers link:../../compendiums/spells/spell_gust_of_wind.adoc[Windstoß].
+*Runenmeistersschaft Effekt:* +
+Der Meisterschaftseffekt der Windrune bietet einen Bonus auf Wurfwaffen.
+Wurfwaffen mit dieser Rune fliegen automatisch in die Hand ihres Besitzers zurück.
+Der permanente Runeneffekt weitet sich auf einen Radius von 18,00 Metern.
+*Runeneffekt für Kriegsgeräte:* +
+Die Windrune hat auf unterschiedlichen Ausrüstungsgegenstände unterschiedliche Auswirkungen:
+* Nahkampfwaffen: Die Windrune erhöht die Wucht mit der die Waffe geschwungen werden kann, der Träger erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf seine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_knockdown[Angriffe zum Niederschlag].
+* Waffen mit Reichweite (Projektil, Wurf) erhalten einen Bonus von +6,00 Metern auf ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles_baserange[Grundreichweite].
+* Rüstungen und Schilde mit der Windrune fühlen sich für den Träger leichter und flexibler zu tragen an. Der xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_initiative_malus[Initiative-Malus] der Ausrüstung wird halbiert (aufgerundet).
+*Permanenter Runeneffekt:* +
+Die Windrune kann auf Oberflächen und Objekten für ihren permanenten Runeneffekt gemeiselt werden.
+In einem Radius von 6,00 Metern wird die Stärke von xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_storms[Stürmen] um 1 reduziert.
+Außerhalb des Radius tobt ein Sturm ungehindert.

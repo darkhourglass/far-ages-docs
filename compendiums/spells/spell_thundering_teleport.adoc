@@ -4,15 +4,15 @@
 *POT:* 10 +
 *Rettungswurf:* Nein +
 *Komponenten:* Formel +
-*Fokus:* Bewegeung, Teleportation +
+*Fokus:* Bewegung, Teleportation +
 *Vorbereitung:* 3 +
 *Reichweite:* 12,00 Meter +
 *Anzahl der Ziele:* Selbst, siehe Beschreibung +
 *Dauer:* Sofort +
 *Effekt:* +
-Mit erfolreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] verschwimmt Dein Körper und ändert sich zu einem Blitz, der in der Luft verschwindet.
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] verschwimmt Dein Körper und ändert sich zu einem Blitz, der in der Luft verschwindet.
 Du erscheinst sofort innerhalb der Reichweite an einem Punkt, den Du sehen kannst.
 Du materialisiert Dich in einem herabstürzenden Blitz mit einem lauten Donnerschlag.
-Alle Kreaturen in einem Umkreis von 3,00 Metern um Deinen Einschlagspunkt, erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schcck-Schaden].
+Alle Kreaturen in einem Umkreis von 3,00 Metern um Deinen Einschlagpunkt, erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden].
 *Zusätzliche Effekte:* +
 +5 MP, +1 POT: Reichweite +6,00 Meter

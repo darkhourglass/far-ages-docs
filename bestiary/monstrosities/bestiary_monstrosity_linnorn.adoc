@@ -1,0 +1,80 @@
+= Linnorn
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc[Drachisch]
+* Templates
+* GK: X
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+
+== Profil
+
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +10 +
+*MP:* XXX +
+*SP:* XXX +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:* XXX +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +3 +
+*Körper:* ST+KO +5 +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_odem.adoc[Odem] 8, 2W6, <<ref_bestiary_linnorn_rules_odemattack,Linnorn Odemangriff>>, 9,00 Meter
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8, 3W6 1x
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 7
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8, 3W6 2x
+* link:../skills/bestiary_skill_attack_tail_swipe.adoc[Schwanzschlag] 8, 3W6
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht (30,00 Meter)]
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc#ref_secondary_creaturetype_draconic_rules_skills_descendent_blood[Verwandtes Blut]
+
+== Regeln
+
+[[ref_bestiary_linnorn_rules_odemattack]]
+=== Linnorn Odemangriff

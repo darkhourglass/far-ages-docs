@@ -1,0 +1,26 @@
+= Beherrsche (Kreaturentyp)
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Ja (siehe Beschreibung)+
+*Komponenten:* Formeln +
+*Fokus:* Geist +
+*Vorbereitung:* 4 +
+*Reichweite:* 3,00 Mete +
+*Anzahl der Ziele:* 1 Kreatur mit passenden *Kreaturentyp* +
+*Dauer:* 10 Kampfphasen+
+*Effekt:* +
+Du versucht eine Kreatur, deren Kreaturentyp, sowohl primär wie auch sekundär definierbar, mit dem Parameter _Kreaturentyp_ übereinstimmt, mit Magie zu kontrollieren.
+Dazu musst Du die Kreatur sehen können und sie Dich auch und wahrnehmen.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] übernimmst Du die Kontrolle über die Kreatur.
+Sie kann sich gegen dieser Zauber mit einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-] oder xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-]Rettungswurf wehren, jenachem welcher Bonus höher ist.
+Bist Du xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[erfolgreich], kann die Kreatur in ihrem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] keine Aktionen nach eigenem Willen ausführen, sondern führt nur die Aktionen aus, die Du vorgibst.
+Der Zauber hat allerdings den Preis, dass auch Du während seiner Dauer auch in Deinem Zug, die Kontrolle aufrechterhalten musst.
+Formal ist dies eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_continueaction[Aktion weiterführen].
+Wirst Du daran gehindert, dies in Deinem Zug zu tun, endet der Zauber frühzeitig.
+Außerdem kannst Du der Kreatur keine Aktionen auferlegen, die ihre natürlichen Fähigkeiten nicht ermöglichen (eine Kreatur ohne Flügel kann nicht fliegen) oder ihr Überleben und körperliche Unversehrtheit gefährden.
+In einem solchen Fall endet der Zauber automatisch.
+Ebenso kann der SL bei Aktionen, die gegen den Ehrenkodex der Kreatur gehen, einen erneuten Rettungswurf verlangen, z.B. wenn die Kreatur ihre Geliebten verletzen soll.
+Besteht die Kreatur einen solchen Rettungswurf, endet der Zauber auch frühezeitig.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

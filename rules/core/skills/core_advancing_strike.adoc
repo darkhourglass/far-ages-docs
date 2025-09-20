@@ -1,0 +1,12 @@
+= Vorrückender Angriff
+
+*Voraussetzungen:* - +
+*Typ:* Bewegung, Passiv +
+*Überanstrengung:* 1 +
+*CP:* 100 +
+Eine Kreatur mit dieser Eigenschaft kann ein besonderes Manöver im Kampf einsetzen, um schnell von einem Ort zum anderen zu wechseln und den Abstand zu Kontrahenten zu verringern.
+Die Kreatur muss dazu nicht bereits xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden sein], muss eine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden] einsetzen.
+Sie kann sich mit nur dieser Aktion auf eine andere Kreatur zu bewegen, die maximal ihre xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] von ihr entfernt ist.
+Die Bewegung endet mit einer regulären xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Attacke im Nahkampf] gegen die Zielkreatur.
+Die Bewegung verursacht keine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
+Der Weg der Kreatur zur Zielkreatur muss ohne jegliche Hindernisse und sichtbar sein.

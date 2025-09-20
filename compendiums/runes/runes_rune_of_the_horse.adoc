@@ -1,0 +1,19 @@
+= Rune des Pferdes
+
+*Arkanes Geheimnis:*  +
+*POT:*  +
+*Spontaner Runeneffekt:* +
+Der spontane Runeneffekte repliziert den Effekt des Zaubers link:../../compendiums/spells/spell_summon_spirit_animal.adoc[Beschwöre Geistertier], allerdings wird automatisch ein link:../../bestiary/templates/bestiary_template_spirit_animal.adoc[Geist]-link:../../bestiary/animals/bestiary_animals_horse.adoc[Pferd] beschwören, dass dem Runenmagier gehorcht und reiten lässt.
+Die Dauer des Runeneffekt beträgt im Gegensatz zum Zauber 2 Stunden.
+*Runenmeistersschaft Effekt:* +
+Die Meisterschaft über die Rune des Pferdes bietet folgende Verbesserungen:
+- Spontaner Runeneffekt: die Beschwörung hält nun 8 Stunden und der Runenmagier darf bis zu 4 weitere Geisterpferde für seine Verbündeten rufen, wenn er dies wünscht.
+- alle anderen Effekte: werden die verzauberten Objekte getragen ohne, dass der Träge zu Pferde ist, durchdringt die Kraft eines Pferdes ihn und er erhält einen Bonus von +3,00 Meter auf seine xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] am Boden solange er die Gegenstände trägt.
+Der Effekt ist nicht kumulativ, wenn mehrere Gegenstände getragen werden.
+*Runeneffekt für Kriegsgeräte:* +
+Wird eine Pferderune auf eine Waffe gemeißelt, die für einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_mountedcharge[berittenen Sturmangriff] geeignet ist, erhält der Verwender einen zusätzlichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadenprobe].
+Wird die Rune des Pferdes auf Rüstung oder Schilde gemeißelt, ist der Träger immun gegenüber xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_falling[Fallschaden], wenn er vom Reittier fällt.
+Alle Boni für Kreisgeräte gelten nur, wenn die Kreatur, die die Ausrüstung verwendet, auf einem Pferd reitet.
+*Permanenter Runeneffekt:* +
+Der permanente Runeneffekt der Pferderune kann auch Kleidung und Objekten zum Reiten angebracht werden, z.B. Zaumzeug, Satteln und Reitstiefeln.
+Träger bzw. Besitzer dieser Objekte erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle Proben im Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten], solange sie die Ausrüstung mit einem passenden Reittier (einem Pferd) nutzen.

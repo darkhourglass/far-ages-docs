@@ -283,6 +283,9 @@ Befindet sich der Charakter in der Kampfphase xref:core_rules_2d10_system.adoc#r
 Dies erfordert gegebenenfalls eine zusätzliche Probe, zum Beispiel im Fall von <<ref_core_battle_attacktypes_unarmed_combat_brawl,Raufen und Ringen>>.
 Im Zweifel entscheidet der SL über die nötige Probe.
 
+[NOTE]
+Eventuell können andere Auslöser von Gefangenschaft eine andere Probe oder Rettungswurf erfordern.
+
 [[ref_core_battle_action_move]]
 ==== Bewegung
 Der Charakter kann mit dieser Aktion seine xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW-Rate] verwenden, wenn er nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] ist.
@@ -1370,6 +1373,7 @@ Folgende Übersicht gibt Auskunft über die Berechnungen:
 * Natürliche Waffen: *Attributsbonus ST (Charakter) + SB*
 * Unbewaffneter Kampf: *Attributsbonus ST (Charakter) + SB*
 * <<ref_core_battle_hits_automatic_hit,Automatischer Treffer>>: *SB*
+* Spruchzauberei: <<ref_core_battle_damage_damagerolls_spells,Schadenwürfe bei Zaubersprüchen>>
 
 Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für natürliche Waffen.
 Sofern nicht anders angegeben, wird die Attributsstufe für ST des Charakters verwendet, wenn mit natürlichen Waffen oder unbewaffneten Kampf ein Treffer erzielt wird.

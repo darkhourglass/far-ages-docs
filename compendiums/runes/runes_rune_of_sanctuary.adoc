@@ -1,0 +1,23 @@
+= Rune der Zuflucht
+
+Alle Effekte dieser Rune wirken auf Zielkreaturen, deren primärer Kreaturentypen aus dieser Liste stammt:
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Monstrosität]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote]
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Spontaner Runeneffekt:* +
+Du richtest den spontanen Runeneffekt gegen eine passende Zielkreatur in Sichtweite mit maximal 9,00 Meter Reichweite.
+Die Kreatur muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] bestehen oder müssen Ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] darauf verwenden, sich mindestens 18,00 Meter von Dir wegzubewegen.
+Es müssen mindestens 1W3+1 Kampfphasen vergehen, bis Sie sich wieder nähern dürfen.
+*Runenmeistersschaft Effekt:* +
+Mit Runenmeisterschaft dieser Rune erhalten betroffene Zielkreaturn einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswurf], um dem Effekt der Rune zu widerstehen.
+
+*Runeneffekt für Kriegsgeräte:* +
+Immer wenn eine passende Zielkreatur von einer Waffe mit dieser Rune xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[getroffen] wird, muss sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen 15 bestehen oder muss sich wie beim spontanen Effekt von Dir wegbewegen.
+
+*Permanenter Runeneffekt:* +
+Die Rune kann auf Objekte und Oberflächen geschrieben werden und sichert so ein Gebiet mit Radius 6,00 Metern vor Kreaturen der o.g. Kreaturentypen.
+Beginnt eine Kreatur xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] im Gebiet der Rune, muss sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen 15 bestehen oder muss sich wie beim spontanen Effekt aus dem Gebiet hinausbewegen.

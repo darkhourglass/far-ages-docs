@@ -1,0 +1,11 @@
+= Runentatoo
+
+*Voraussetzungen:* link:core_skill_runelore.adoc[Runenlehre], xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei(Runenmagie)] 7, xref:../core_rules_talents_base.adoc#ref_talents_art[Kunst (Tätowieren)] 5 +
+*Typ:* Bewegung, Passiv +
+*Überanstrengung:* - +
+*CP:* 100 +
+Du kannst Runen nach den vorgestellten xref:../core_rules_magic_base.adoc#ref_core_magic_schools_runes[Regeln] auf Deine Haut oder die einer anderen freiwilligen Kreatur tatowieren.
+Dabei kannst Du eine der beiden Optionen wählen:
+(1) die Rune ihren xref:../core_rules_magic_base.adoc#ref_core_magic_schools_runes_rules_permanent_rune_effekt[permanenten Effekt] oder xref:../core_rules_magic_base.adoc#ref_core_magic_schools_runes_rules_wargear_rune_effekt[Kriegsgerät Effekt] auf der Zielkreatur wirken lassen.
+(2) Mit einer xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] darf die Zielkreatur den xref:../core_rules_magic_base.adoc#ref_core_magic_schools_runes_rules_spontaneous_rune_effekt[spontanen Runeneffekt] auslösen, indem sie die Rune berührt und ein magisches Wort ausspricht.
+Nach diesem einmaligen Einsatz verblasst die Rune auf der Haut der Zielkreatur und kann nicht wieder eingesetzt werden.

@@ -1,0 +1,17 @@
+= Flammenblitz
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 5 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Feuer +
+*Vorbereitung:* 3 +
+*Reichweite:* 9,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort +
+*Effekt:* +
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] zuckt aus Deiner Hand ein Blitz aus gleißenden Flammen.
+Die Zielkreatur wird von diesen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[getroffen] und erhält 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+*Zusätzliche Effekte:* +
++5 MP: Reichweite +6,00 Meter
++2 POT, +10 MP: Schaden +1W6 Feuer

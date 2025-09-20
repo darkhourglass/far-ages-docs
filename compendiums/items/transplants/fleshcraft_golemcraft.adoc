@@ -1,0 +1,165 @@
+= Mechanische Transplantate
+
+[quote, Lokai Meisterschmied der Technomantengilde von Aleth, 5 Jahre nach dem Schwarzen Winter]
+Das Fleisch ist etwas, was überwunden werden muss.
+
+
+Seine Körperteile durch mechanische bzw. technomantische Geräte zu ersetzen, stammt wenig überraschend aus den Gedanken und Ideen einiger eher fanatisch veranlagten Technomanten.
+Begonnen hat alles harmlos mit der Idee verlorene Gliedmaße wie Arme und Beine insbesondere bei Kriegsveteranen zu ersetzen.
+Mit dem Fortschritt in der Entwicklung von komplexen Geräten und Konstrukten wurden auch Transplantate beliebter bzw. diese Technologie erhielt mehr Aufmerksamkeit bis zu dem Punkt, dass sich eine Bewegung von Ingeneurin fand, deren erklärtes Ziel es war, die Technik so weit zu verbessern, dass die freiwillige Transplantation normal wurde.
+Auch offene Gesellschaften schauen arwöhnisch auf Personen, die mehr Maschine sind als Humanoider.
+
+[[ref_transplants_golemcraft_requirements]]
+== Voraussetzungen
+Nur xref:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendige] Kreaturen können mechanische Transplantate.
+Jedes Transplantat ist auch ein xref:../../../rules/core/core_rules_technomancy.adoc#ref_core_technomancy_rules_creating_devices[technomantisches Gerät], dass zuerst hergestellt werden muss.
+Daher enthält jeder Eintrag dieser Liste die notwendigen Angaben als würde man ein technomantisches Gerät nach den Regeln des passenden Kapitels herstellen wollen.
+Wurde ein Transplant erfolgreich hergestellt, muss es in einer aufwändigen Operation der Zielkreatur eingesetzt werden, ggf. um vorhandene Gliedmaßen und Organe vorher zu entfernen.
+Folgende Zaubersprüche werden in der Regel für den OP benötigt:
+* link:../../../compendiums/spells/spell_statis.adoc[Stasis]
+* link:../../../compendiums/spells/spell_zone_germ_neutralisation.adoc[Zone der Erreger Neutralisation]
+Es muss ein gelehrter Mediziner oder Arzt (xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Medizin)] 8 oder höher) die OP durchführen.
+Eine xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_talentchecks[Talent-Probe] auf xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Medizin)] mit einem xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] von 5 + den angegeben Mindestwurf zum Herstellen des Transplantats.
+.Mindestwurf Medizin
+====
+Das Implantat <<ref_transplants_golemcraft_mechanical_arm,Mechanischer Arm>> hat eineb Mindestwurf von 15, um das Gerät herzustellen.
+Die Operation zum Einsetzen hat damit einen Mindestwurf von 5+15=20.
+====
+Ein xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg] beendet die OP mit einem funktionierenden neuen Implantat im Körper der Zielkreatur, dass gemäß seiner Beschreibung funktioniert.
+Ein xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] oder gar xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] können gravierende und tödliche Folgen für den Patienten haben.
+
+[[ref_transplants_golemcraft_transplants]]
+== Mechanische Transplantate
+Alle mechanischen Transplante folgen den hier vorgestellten Regeln.
+[NOTE]
+Im Rahmen dieses Dokuments werden die Begriffe der technomantischen und mechanischen Transplantate synonym verwendet.
+
+[[ref_transplants_golemcraft_transplants_general_rules]]
+== Allgemeine Eigenschaften
+
+[[ref_transplants_golemcraft_transplants_bioenergy]]
+=== Bioenergie
+Transplante gelten als technomantische Geräte, sie benötigen allerdings keine eigene Energiequelle, sondern funktionieren solange, wie ihr Träge mindesten 1 Punkt in seinem xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP] hat.
+
+[[ref_transplants_golemcraft_transplants_corruption]]
+=== Korruption
+Für jedes Transplantat nach dem Ersten, dass die Kreatur je erhalten hat, erhält sie immer xref:../../../rules/advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_receive_corruptionpoints[1 Punkt Korruption].
+Werden spezifische Korruptionen verwendet, handelt es sich um xref:../../../rules/advanced/corruptions/corruption_mechanical.adoc[Mechanische Korruption].
+
+[[ref_transplants_golemcraft_transplants_size]]
+=== Größe
+Alle Angaben und Regeln der Transplantate gehen von einer xref:../../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5 aus, d.h. alle passen auf einen Körper bzw. Humanoiden mit dieser Größe.
+Kleinere oder Größere Kreaturen können auch mit passenden Transplantaten versorgt werden, allerdings kostet jeder volle Punkt über oder unter der GK 5 10% mehr Material und 1 Tag mehr Zeit.
+Der angegebene Mindestwurf erhöht sich um 2 Punkte.
+
+[[ref_transplants_golemcraft_transplants_hide_transplants]]
+=== Transplantate verdecken
+Technomantische Transpantate sind sehr offensichtliche körperliche Veränderungen.
+Ein Charakter kann dazu geneigt sein, z.B. in Situationen, in denen er auf anderen Kreaturen trifft, die solchen Transplantaten kritisch gegenüber stehen, dieser verbergen zu wollen.
+Er erhält einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -2 für jedes einzelne Transplantat auf alle Proben, die seine Natur verbergen sollen.
+
+[[ref_transplants_golemcraft_mechanical_arm]]
+=== Mechanischer Arm
+*Materialkosten:* 12.500 +
+*Konstruktionszeit:* 13 Tage +
+*Zaubersprüche:* - +
+*Mindestwurf:* 15 +
+*Preis:* 15.000 +
+*Beschreibung:* +
+Ein mechanischer Arm seinem natürlichen Vorbild nachempfunden, mit starken und robusten verbindenden Teilen zwischen den Gelenken.
+Eine Installation beginnt an der Schulter.
+Wie ein gewachsener Arm besitzt ein mechanischer Arm bewegliches Schulter-, Ellenbogen- und Handgelenk.
+Eine Kreatur mit einem mechanischen Arm hält einen dauerhaften xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks[Proben], die das xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST-Attribut] beinhalten.
+Jeder mechanische Arm kann entweder ein linker oder ein rechter Arm werden, dies muss bei der Herstellung nicht berücksichtigt werden, allerdings offensichtlich beider Einsetzung.
+Eine Kreatur, die beide Arme ersetzt bekommen hat, erhält auf o.g. Proben außerdem einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil].
+Ein mechanischer Arm besitzt keine Hand von sich aus, es können aber <<ref_transplants_golemcraft_mechanical_arms_specialized_hands,mechanische Hände>> problemlos auf das Handgelenk gesetzt und ausgetauscht werden.
+Dieses ist sogar durch den Träger selbst machbar.
+
+[[ref_transplants_golemcraft_mechanical_arms_specialized_hands]]
+=== Spezialisierte Hände
+*Materialkosten:* 7.000 +
+*Konstruktionszeit:* 20 Tage +
+*Zaubersprüche:*  - +
+*Mindestwurf:* 18 +
+*Preis:* 21.000 +
+*Beschreibung:* +
+Auf das Handgelenk eines <<ref_transplants_golemcraft_mechanical_arm,mechnischen Arms>> kann eine künstliche Hand montiert werden, eins der wohl komplexesten Konstrukte in dieser Liste.
+Diese simple, mechanische Hand ist dem Golem Equivalent, siehe link:../../golemworkshop/parts/weaponry/golems_part_weaponary_hand.adoc[Hand] anempfunden und kann vom Träger eine seine natürlichen Hände verwendet werden.
+Der Träger kann seine Hand wechseln und andere Hände aufsetzen.
+Die Technomanten waren sehr kreativ und effekiv stehen aus der Liste der xref:../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary[Golem-Bewaffnungen] alle als Implantat zur Verfügung mit folgenden Einschränkungen:
+* sie haben nicht die Eigenschaft xref:../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_heavy[schwer] oder xref:../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_weaponary_mounted_on_arms[auf Arm montiert].
+* Es sind keine 2-Hand Waffen.
+Es sind die gewünschten Golemerweiterungen zu bauen mit einem Aufschlag von 10% auf Materialkosten und Preis.
+Es wird angenommen, dass die GK der Golembewaffnung auf die der Zielkreatur passt.
+Die Golembewaffnung bietet keine zusätzlichen Boni auf Attibute oder Talente.
+
+[[ref_transplants_golemcraft_mechanical_leg]]
+=== Mechanisches Bein
+*Materialkosten:* 5.000 +
+*Konstruktionszeit:* 13 Tage +
+*Zaubersprüche:*  - +
+*Mindestwurf:* 15 +
+*Preis:* 11.000 +
+*Beschreibung:* +
+Wie mechanische Arme sind mechanische Beine der Funktionalität ihrer organischen Vorbilder nachempfunden.
+Jedes mechanische Bein kann entweder ein linkes oder ein rechtes Bein werden, dies muss bei der Herstellung nicht berücksichtigt werden, allerdings offensichtlich beider Einsetzung.
+Eine Kreatur, die beide Beiden ersetzt bekommen hat, erhält auf alle xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_knockdown[Rettungswürfe gegen Niederschlag] einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil].
+Mechanische Beine sind allerdings auch etwas lauter und Träger eines solchen Implantats erhalten einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen-Proben].
+
+[[ref_transplants_golemcraft_golem_heart]]
+=== Golemherz
+*Materialkosten:* 18.000 +
+*Konstruktionszeit:* 32 Tage +
+*Zaubersprüche:* tba +
+*Mindestwurf:* 21 +
+*Preis:* 34.000 +
+*Beschreibung:* +
+Ein sehr seltenes Transplantat ist das Golemherz, ein technomantisches Gerät, dass für eine lebende Kreatur deren Herz ersetzen kann.
+Nur wenigen ist die Existenz dieser Technologie bekannt und noch weniger können einen solchen Gegenstand bauen.
+Das Golemherz wird entgegen seines Namens in der Regel nicht in Golems eingesetzt.
+Eine Kreatur, die ein Golemherz besitzt, kann in ihrem xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] mit dem Namen *Adrenalinschub*: die Kreatur erhält sofort 1W10 xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP] zurück, jedoch nicht über ihre Maximal dieses Pools hinaus. Sie verliert außerdem eventuelle Stufen im Zustand xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
+
+[[ref_transplants_golemcraft_golem_lung]]
+=== Golemlunge
+*Materialkosten:* 17.000 +
+*Konstruktionszeit:* 29 Tage +
+*Zaubersprüche:* tba +
+*Mindestwurf:* 21 +
+*Preis:* 32.000 +
+*Beschreibung:* +
+Nicht weniger mysteriös und unbekannt wie das <<ref_transplants_golemcraft_golem_heart,Golemherz>> ist dieses Implantat mit dem Namen Golemlunge.
+Es ersetzt bei einer lebenden Kreatur beide Lungenflügen und funktioniert wie eine organische Lunge.
+Die Kreatur erhält einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +5 auf alle xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe], um einem luftgetragenen Gift, Krankheit oder Effekt (wie Gas) und dem Zustand xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_nauseated[Übelkeit] zu widerstehen.
+Außerdem kann die Kreatur unter Wasser atmen.
+
+[[ref_transplants_golemcraft_plating]]
+=== Panzerung
+*Materialkosten:* 15.000 +
+*Konstruktionszeit:* 13 Tage +
+*Zaubersprüche:* link:../../spells/spell_steelskin.adoc[Haut aus Stahl] +
+*Mindestwurf:* 18 +
+*Preis:* 29.000 +
+*Beschreibung:* +
+Dieses Transplantat ersetzt Teile der Haut der Zielkreatur mit Platten aus Metall.
+Die Herstellung und Implantation ist sehr speziell.
+Glücklicherweise unter Betäubung wird die Haut der Zielkreatur entfernt und durch flüssigen Stahl ersetzt.
+Mithilfe von Magie und technomantischer Stabilisatoren erhärtet dieser Stahl und kann benutzt werden, um die eigentlichen Platten zu montieren.
+Weniger aufwändig, aber mit gleichem Effekt können auch künstliche Glieder wie <<ref_transplants_golemcraft_mechanical_arm,Arme>> oder <<ref_transplants_golemcraft_mechanical_leg,Beine>> mit Panzerung versehen werden.
+Dieses Transplantat steht für die einmalige Abdeckung einer einzelnen xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzone.]
+Mehrfache Implantierung eines Transplantant ist möglich und kann somit weitere xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen]  abdecken.
+Dies gilt als xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_naturalarmor[natürliche Rüstung] auf allen bedeckten xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] mit 5 Rüstungspunkten.
+Da diese Transplantattechnik sehr schwer ist, erhält die Kreatur einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf ihre xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_initiativebonus[Initiative].
+Eine Kreatur fühlt keinen Hautkontakt mehr durch die Panzerung, ist jedoch wie jede andere lebende Kreatur betroffen durch exterme Temperaturen wie xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_cold[Kälte] und xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_heat[Hitze].
+
+[[ref_transplants_golemcraft_golem_addition_adapter]]
+=== Golem Zusatz Adapter
+*Materialkosten:* 12.000 +
+*Konstruktionszeit:* 5 Tage +
+*Zaubersprüche:* link:../../spells/spell_steelskin.adoc[Haut aus Stahl] +
+*Mindestwurf:* 18 +
+*Preis:* 17.000 +
+*Beschreibung:* +
+Der Adapter erlaubt der Kreatur einen regulären xref:../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions[Golem-zusätze], der nicht xref:../../../rules/advanced/advanced_rules_golemworkshop.adoc#ref_golemworkshop_creation_steps_additions_heavy[schwer] ist und die gleiche GK wie sie selbst hat, in ihren Körper zu installieren und nach der Beschreibung des Zusatzes zu nutzen.
+Der Zusatz muss separat hergestellt werden.
+Kostet der Einsatz des Zusatzes MP, muss die Kreatur diese aus ihrem eigenen Pool bezahlen.
+Jede Kreatur kann maximal soviele Apapter gleichzeitig besitzen und nutzen, wie sie Stufen in EN besitzt.

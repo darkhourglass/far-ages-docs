@@ -32,6 +32,18 @@ Je höher diese Zahl, umso stärker ist der Drache und umso gefährlichere <<ref
 Drachen erhalten Machtstufen üblicherweise, wenn sie älter werden.
 Seltener sind obskure Quellen wie arkane Rituale oder der persönliche Segen des Gottdrachen.
 
+[[ref_primary_creaturetype_dragons_rules_powerlevel_optional_determination]]
+==== Optional: Machtstufe eines Drachen bestimmen
+Grundsätzlich ist die Machtstufe eines konkreten Drachen festgelegt, zum Beispiel im Bestiarium Eintrag für den link:../../../../bestiary/dragons/bestiary_dragons_regular_dragon.adoc[gewöhnlichen Drachen] oder für link:../../../../lore/iconics/characters/lore_iconics_characters_flametail.adoc[Flammenschweif].
+Möchte der SL die Machtstufe eines Drachen festlegen, kann er natürlich einen passenden Wert wählen.
+Zusätzlich bietet dieses Kapitel eine kurze Anleitung, wie man die Machtstufe eines Drachen anhand bestimmter Vorgaben bestimmen kann.
+Drachen werden mit der Zeit größer, älter und stärker (und manchmal auch gemeiner).
+Dies reflektiert sich in ihrer Machtstufe.
+Ein Drache hat eine Machtstufe von 1/2 seiner GK (abgerundet, minimal 1) plus 1 Stufe pro volle 100 Jahre seines Lebens.
+.Machtstufen eines Drache bestimmen
+====
+Ein Drache mit GK 6 und einem Leben von 600 Jahren hat eine Machtstufe von 6*1/2 = 3 + 6*1 = 9.
+====
 [[ref_primary_creaturetype_dragons_rules_powerlevel_dragonskills]]
 ==== Drachenfähigkeiten
 Drachen besitzen ein riesiges Arsenal von außergewöhnlichen und manchmal übernatürlichen Fähigkeiten, die sie aufgrund ihrer Machtstufe erhalten können.

@@ -1,4 +1,18 @@
-= Rune des Zerschmetterns
+= Rune des Zerschmetterns (Primärer Kreaturentyp)
+[NOTE]
+Diese Rune hat einen Parameter. Wenn Du die Rune verwendest, musst Du den Parameter konkret spezifizieren, z.B. Rune des Untote Zerschmetterns.
 
-// weapon rune
-// +X damage to creature type
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Spontaner Runeneffekt:* +
+Du kannst diese Rune in die Luft zeichnen, um eine Kreatur mit passenden *primären Kreaturentyp* in Sichtweite mit maximal 9,00 Metern Entfernung durch einen hellen Blitz anzugreifen.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] (gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf]) erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] mit 1W6+ Dein EN-Bonus xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden.
+*Runenmeistersschaft Effekt:* +
+Die Schadenswürfel für alle Effekte steigen auf 3W6+1+ Dein EN-Bonus.
+*Runeneffekt für Kriegsgeräte:* +
+Diese Rune kann nur auf eine Waffe geschmiedet werden.
+Verursacht ein Treffer mit dieser Waffe Schaden bei einer Kreatur mit passendem *primären Kreaturentyp*, erhält die Kreatur zusätzlich 1W6+ Dein EN-Bonus xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden.
+*Permanenter Runeneffekt:* +
+Wird diese Rune auf eine Oberfläche geschrieben oder in einen Torrahmen können Kreaturen des passenden Typs, diesen Raum nicht willentlich durchqueren.
+Um ihre BEW einzusetzen, um die verzauberte Fläche zu durchqueren ist ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen Deine
+xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] zu bestehen.

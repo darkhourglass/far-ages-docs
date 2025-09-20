@@ -1,0 +1,13 @@
+= Projektil Parade
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] 10 +
+*Typ:* Verteidigung +
+*Überanstrengung:* 2 +
+*CP:* 300 +
+Du hast Deine Reflexe so trainiert, dass Du als xref:../core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Verteidigung] gegen xref:../core_rules_battlesystem.adoc#ref_core_battle_projectiles[Projektile] Dein xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade-Talent] benutzen darfst.
+Du kannst nur Projektile abwehren, deren GK gleich oder kleiner Deiner eigenen GK sind.
+Die xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] wird normal gewürfelt und Du kannst Dich entscheiden, diese Fähigkeit einzusetzen.
+Dies kostet Dich 2 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
+Du darfst als Reaktion eine Probe auf xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] würfeln.
+Als xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] gilt das Ergebnis der o.g. Angriffsprobe.
+Bei einem xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg] wehrst Du das Projektil ab und erhältst somit keinen xref:../core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer].
+Bei einem xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] oder schlechter wird der xref:../core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] nach den Regeln ausgeführt.
