@@ -2,75 +2,72 @@
 
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
 * link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc[Drachisch]
-* Templates
-* GK: X
-* CP: TBA
+* GK: 9
+* CP: 12000
 
 == Beschreibung
+_"Ich haben immer noch das schreckliche Donnergrollende Brüllen un den beißenden, ätzenden Atem im Gedächnis. Die Bestie zeigte keine Angst, als sie unsere schwer bewaffnete Karavane das zweite Mal angriff. Ihre Klauen waren noch blutig und fleischfetzen hingen an ihren Fängen, von ihrer letzer Beuten - armer Betlan, das war keine Art zu gehen. Selbst die gepanzerten Ritter des Ambosses in ihren technomantischen Rüstungen waren kaum ein Hindernis. Mühelos riss sie mit ihren Klauen die Panzerplatten von dem Kampfgolems und biss die verzweifelten Piloten in Zwei. Erst als der Schatten der Triumph, die von Erstfeuer herbeigeeilt kam, auf sie viel, harrte sie kurz aus, die Situation abschätzend.
+Vielleicht war es unser Glück, dass die Bestie in einem Anflug von Arroganz den Kampfkoloss nicht als Gefahr einschätzte. Nach nur wenigen Augenblicken lag sie von einer 12 Meter langen Lanze durchbohrt im eigenen fauligen Blut und hat ihren letzten Atemzug. Dennoch kostete dieser Tag uns 5 Ritter.  "_
 
-Lore
-
+Die Ungeheuer, die unter dem Namen Linnorn bekannt sind, sind tatsächlich ein entfernter Nebenzweig der Drachenfamilie, wahrscheinlich jedoch ohne die Einwirkung des Gottdrachen Allschwinge als Progenitor.
+Welchen Ursprung Linnorns wirklich haben, ist weites gehend unbekannt, allerdings sind ihre Verbindungen zu den Drachen offensichtlich.
+Ein Linnorn ist eine große, schlangenförmige Echse mit einem großen Drachenähnlichen Kopf und mehreren Beinpaaren (6 bis 8 wurden bereits beobachtet), die den Linnorn über den Boden tragen.
+Linnorns haben keine Flügel, können somit nicht fliegen, allerdings besitzen sie eine Odemattacke wie ihre Drachenvorfahren.
+Linnorns wachsen am Nackenkamm vom Kopf bis zum Schwanzende lange, flexible Dornen, die an Leguane erinnern.
+Manchmal als "wilde Drachen" bezeichnet, Linnorns sind aggressiv und bösartig.
+Sie jagen und töten aus Vergnügen heraus und lassen ihre Beute leiden.
+Letzteres scheint ihnen besonders wichtig zu sein, denn sie greifen gerne Humanoide an.
+Es wurde bereits von Linnorns berichtet, die nach und nach Humanoide der gleichen Familie entführen und die Eltern zusehen lassen, wie sie ihre Kinder massakrieren.
+Auch wenn Linnorns wild und unzivilisiert wirken, haben sie eine diabolische Intelligenz und beobachten ihre ausgewählten Opfer lange, um besonders effektive Pläne zu schmieden, sie zu überfallen.
+Drachen reagieren selten freundlich auf die Anwesenheit eines Linnorn, auch wenn sie diese nicht aktiv angreifen, da sogar Drachen den scharfen Klauen der Linnorns mit Respekt und Abstand begegnen, versuchen Drachen Linnorns aktiv auszulöschen, wenn ihnen die Möglichkeit gegeben wird.
 
 == Profil
 
-*ST:* XXX (+x) +
-*GE:* XXX (+x) +
-*KO:* XXX (+x) +
-*ER:* XXX (+x) +
-*EN:* XXX (+x) +
-*SB:* XXX (+x) +
-*CH:* XXX (+x) +
-
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +10 +
-*MP:* XXX +
-*SP:* XXX +
-
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
-
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
+*ST:* 12 (+4) +
+*GE:* 5 (+2) +
+*KO:* 12 (+4) +
+*ER:* 8 (+3) +
+*EN:* 6 (+2) +
+*SB:* 8 (+3) +
+*CH:* 12 (+4) +
+*TP:* 150 +
+*MP:* 60 +
+*SP:* 100 +
+*BEW:* 21,00 Meter +
+*INI:* +5 +
+*MaxTL:* 180 +
+*MaxPOT:* 9 +
 
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
-*Immunitäten:* XXX +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 7 (harte Schuppen, alle Trefferzonen) +
+*Resistenzen:* +
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
+*Immunitäten:* +
+link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
 
 == Rettungswürfe
 
-*Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +3 +
-*Körper:* ST+KO +5 +
-*Magie:* EN+SB +
-*Reflex:* GE+ER +3 +
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +10 +
+*Körper:* +13 +
+*Magie:* +5 +
+*Reflex:* +8 +
 
 == Offensiv
 
-* link:../skills/bestiary_skill_attack_odem.adoc[Odem] 8, 2W6, <<ref_bestiary_linnorn_rules_odemattack,Linnorn Odemangriff>>, 9,00 Meter
-* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8, 3W6 1x
+* link:../skills/bestiary_skill_attack_odem.adoc[Odem] 8,  <<ref_bestiary_linnorn_rules_odemattack,Linnorn Odemangriff 2W6+4>>, 9,00 Meter
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9, 3W6+4 1x
 * link:../skills/bestiary_skill_fear.adoc[Furcht] 7
-* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8, 3W6 2x
-* link:../skills/bestiary_skill_attack_tail_swipe.adoc[Schwanzschlag] 8, 3W6
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 9, 3W6+4 2x
+* link:../skills/bestiary_skill_attack_tail_swipe.adoc[Schwanzschlag] 8, 3W6+4
 
 == Defensive
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
 
 == Sonstiges
 
-* Talent 1
-* Talent 2
+* <<ref_bestiary_linnorn_rules_wake_of_destruction,Schneise der Zerstörung>>
 * link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht (30,00 Meter)]
 * xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc#ref_secondary_creaturetype_draconic_rules_skills_descendent_blood[Verwandtes Blut]
 
@@ -78,3 +75,17 @@ Lore
 
 [[ref_bestiary_linnorn_rules_odemattack]]
 === Linnorn Odemangriff
+Linnorns haben die ikonische Odemattacke ihrer drachischen Verfahren geerbt, jedoch sind sie weit vor deren feuerspeienden Majestät entfernt.
+Wie ihre Form ist auch ihr Odem verdorben.
+Der Odemangriff wird nach den Regeln der link:../skills/bestiary_skill_attack_odem.adoc[Attacke] abgedeckt.
+Sein Schadenwurf besteht jedoch aus:
+1W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] plus 1W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden].
+
+[[ref_bestiary_linnorn_rules_wake_of_destruction]]
+=== Schneise der Zerstörung
+Ein Linnorn ist die Personifizierung der Vernichtung und setzt seinen Körper ein, um alles in seinem Weg umzuwalzen.
+Alle Hindernisse und Objekte, die der Linnorn mit seiner Bewegung berührt, erhalten sofort einen Treffer mit Schadenspunkten in Höhe seiner ST-Stufe plus GK.
+Im Fall des hier vorgestellten Profils wären dies 9+12=21 Punkte.
+Siehe auch xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object[Objekte zerstören].
+Natürliche Hindernisse, die zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwierigem Gelände] gehören, werden plattgewalzt im Ermessen des SLs.
+Die Regeln für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] betreffen Linnorns nicht, da sie einfach durch jede Blockade durchbrechen.

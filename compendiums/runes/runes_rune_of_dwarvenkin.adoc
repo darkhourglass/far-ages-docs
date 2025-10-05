@@ -1,0 +1,18 @@
+= Rune der Zwerge
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Spontaner Runeneffekt:* +
+Der spontane Runeneffekt kanalisiert den Zorn und Groll der Zwerge in einen speerförmigen Blitz arkaner Energie.
+Der Runenmagier richtet den Effekt gegen eine lebende Kreatur in Reichweite von 9,00 Metern, die kein link:../../rules/core/races/core_races_dwarfs.adoc[Zwerg] ist.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] erhält die Kreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6+ST xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[phyischen Schaden].
+*Runenmeistersschaft Effekt:* +
+Wird eine meisterschaftliche Rune für Kriegsgeräte auf eine Wurfaxt oder Wurfhammer geschrieben, erhält diese Waffe einen zusätzlichen Effekt: Zum Abschluss des Angriffs, spätestens zum Ende der aktuellen Kampfphase fliegt die Waffe automatisch in die Hand des Werfers zurück, dass dieser eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_readyitem[Aktion] einsetzen muss.
+*Runeneffekt für Kriegsgeräte:* +
+Die Rune des Zwergenvolks für Kriegsgeräte bietet Synergie mit den traditionellen Waffen und Rüstungen der Zwerge wie folgt:
+* Bonus von +2 auf den xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schadensbonus] für Äxte, Hämmer oder Armbrüste.
+* Bonus von +2 auf xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstungspunkte] auf Plattenrüstungen und Schilde
+*Permanenter Runeneffekt:* +
+Die Rune der Zwerge kann permanent auf Oberflächen gemeißelt werden oder auf Kleidungs- bzw. Schmuckstücke wie Amulette.
+Kreaturen im Umkreis von 6,00 Metern um eine Rune der Zwerge erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswürfe], um den Folgen von Alkohol zu widerstehen.
+Die permanente Rune der Zwerge kann auch auf Werkzeuge gemeißelt werden, auf denen sie ihren Verwendern einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf alle xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_craft[Handwerks-] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_art[Kunst-Proben] bietet, wenn die Werkzeuge zu einem passenden Handwerk oder Kunstwerk verwendet werden.
