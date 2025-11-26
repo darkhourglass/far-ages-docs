@@ -1097,12 +1097,18 @@ Wird ein Charakter aus zwei oder mehr unterschiedlichen Quellen durch den gleich
 Alle Zustände laufen individuell ab, jedoch erleidet der Charakter den Effekt des Zustands nur einmal.
 * Der Zustand besitzt ein Stufensystem, beispielsweise <<ref_core_2d10_condition_dazed,Benommenheit>>.
 In diesem Fall addiert jede Quelle eine Stufe hinzu.
-
+Jeder Zustand hat eine oder mehre *Kategorien*, die eine zusätzliche Beschreibung ermöglichen.
+Zum einen können <<ref_core_2d10_conditions_immunity,Zustandsimmunitäten>> auf bestimmte Kategorien angewendet werden, womit eine Kreatur allen Zuständen derselben Kategorie widersteht.
+Folgende Kategorien können auftreten:
+* *Körper:* Diese Gruppe von Zuständen beeinflusst den Körper einer Kreatur, schränkt ihre Handlungsfähigkeiten ein.
+* *Verstand:* Diese Gruppe von Zuständen beeinflusst das Denken, die Sinne und die Moral der Kreatur. Sie ist dadurch eventuell zu Handlungen gezwungen, die sie sonst nicht ausführen würde.
+* *Taktisch:* Diese Gruppe von Zuständen ist dazu da, um Situationen im Kampf darzustellen. Eine Kreatur ist gegenüber diesen Zuständen nur mit einer einzelnen expliziten Immunität geschützt, aber nie im Sinne einer Gruppenimmunität.
+* *Kumulativ:* Dieser Zustand kann mehrfach auf den gleichen Charakter angewendet werden. Die Beschreibung kann den kumulativen Effekt explizit beschreiben oder es wird davon ausgegangen, das mehrere Zustände des gleichen Typs gleichzeitig wirken.
 In den folgenden Kapiteln werden die Zustände ausführlich erläutert.
 
 [[ref_core_2d10_condition_onground]]
 === Am Boden
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Viele Ereignisse können dazu führen, dass ein Charakter zu Boden geht, zum Beispiel durch einen xref:core_rules_battlesystem.adoc#ref_core_battle_attacktypes_knockdown[Niederschlag].
 Charakter gilt am Boden, wenn er liegt.
@@ -1114,7 +1120,7 @@ Der Charakter muss die Aktionen xref:core_rules_battlesystem.adoc#ref_core_battl
 
 [[ref_core_2d10_condition_corned]]
 === Bedrängt
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Ein Charakter gilt als bedrängt, wenn insgesamt mindestens 3 weitere Charaktere oder Kreaturen mit ihm <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> sind.
 Ein bedrängter Charakter erhält <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen].
@@ -1131,7 +1137,7 @@ Um den Zustand zu verlassen, muss der betroffene Charakter mit weniger Kreaturen
 
 [[ref_core_2d10_condition_threatened]]
 === Bedroht
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Ein Charakter gilt als bedroht, wenn er sich in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines anderen Charakters oder einer Kreatur befindet, allerdings mit dieser nicht <<ref_core_2d10_condition_bondedincombat,im Nahkampf gebunden>> ist.
 Dieser Zustand hat keine direkten Auswirkungen, jedoch kann bestimmte Effekte von diesem abhängig sein.
@@ -1139,7 +1145,7 @@ Der Zustand wird beendet, wenn der Charakter sich aus der Bedrohungszone herausb
 
 [[ref_core_2d10_condition_dazed]]
 === Benommen
-*Kategorie:* Körper
+*Kategorie:* Körper, Kumulativ
 
 Verletzungen, starke Schmerzen oder auch viele magische Effekte verursachen *Benommenheit*.
 Dabei unterscheiden die Regeln nicht, ob ein Charakter beispielsweise einen Schlag an den Kopf bekommen hat und dadurch nur Weiß vor den Augen sieht oder ob er durch einen Zauberspruch seine Umwelt nur noch eingeschränkt wahrnimmt.
@@ -1162,7 +1168,7 @@ Außerhalb des Kampfs entfernt eine <<ref_core_2d10_regeneration_short_break,kur
 
 [[ref_core_2d10_condition_immobile]]
 === Bewegungsunfähig
-*Kategorie:* -
+*Kategorie:* Körper
 
 Ein bewegungsunfähiger Charakter hat eine effektive BEW-Rate von 0, die nicht weiter modifiziert werden kann.
 Er kann normal agieren, als beispielsweise weiterhin xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] durchführen, solange diese keine BEW erfordern.
@@ -1184,61 +1190,34 @@ Auch diese Kreaturen können diesen Zustand erhalten, allerdings muss die verurs
 Der Zustand endet nach einer bestimmten Anzahl von Kampfphasen.
 Sollte diese nicht gegeben sein, so dauert die Blindheit 1W10 minus die ER-Stufe Kampfphasen des Charakters an (Minimum 1).
 
+[[ref_core_2d10_condition_bleeding]]
+=== Blutend
+*Kategorie:* Körper, kumulativ
+Durch Waffengewalt, dorniges Gestrüpp oder scharfe Zähne und Klauen von Ungeheuern können Kreaturen tiefe Wunden geschlagen werden, die schwer Bluten.
+Zu Beginn des xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zuges] erhält ein blutender Charakter eine festgelegte Anzahl von Schadenspunkten für die xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch].
+Sind keine Schadenswürfel angegeben, werden 1W3+1 Schadenspunkte angenommen.
+Ein Verband bzw. eine Wundbehandlung kann die Blutung stoppen und den Zustand beenden.
+Unter der Annahme, es ist Verbandsmaterial vorhanden, kann ein Charakter mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_survival[Überleben] oder xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Medizin)] gegen einen <<ref_core_2d10_checks_miniumroll,Mindeszwurf>> von 15 eine blutende Wunde verbinden.
+Viele Kreaturen sind immun gegenüber dieses Zustands, da sie übernatürlich sind und beispielsweise kein Blut besitzen.
+Als Daumenregel gilt, dass nur link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen diesen Zustand erhalten können.
+
 [[ref_core_2d10_condition_burning]]
 === Brennend
-*Kategorie:* -
-
-Ein brennender Charakter erhält zu Beginn xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seines Zuges] eine festgelegte Anzahl von Schadenspunkten für die angegebene xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart].
-Ist keine angegeben, wird 1W3 Schadenspunkte angenommen.
+*Kategorie:* Körper, kumulativ
+Ein brennender Charakter erhält zu Beginn xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seines Zuges] eine festgelegte Anzahl von Schadenspunkten für die xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer].
+Sind keine Schadenswürfel angegeben, werden 1W3+1 Schadenspunkte angenommen.
 Es gelten die üblichen Regeln für die Bestimmung oder Reduktion von xref:core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden].
 
 Mit diesem Zustand ist jedoch nicht ausschließlich das Brennen durch xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] gemeint, sondern der Zustand kann jede xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] verwenden.
 Die folgende Tabelle zeigt eine beispielhafte Liste für Namen des Zustandes je nach Schadensart.
+Die Aktion xref:core_rules_battlesystem.adoc#ref_core_battle_action_breakfree[Befreien] kann genutzt werden, um sich vom Feuer zu befreien, z.B. durch Wälzen am Boden oder ersticken der Flammen.
+Dies liegt im Ermessen des SLs und der Stärke des Feuers.
+Im Zweifel darf der SL einen <<ref_core_2d10_checks_saves_fortitude,Körperrettungswurf>> gegen die zuletzt erhaltene Schadenszahl würfeln, um festzustellen, ob das Feuer erfolgreich ausgeht.
 
-|===
-|Schadensart |Name
-
-|Physisch
-|Blutend
-
-|Feuer
-|Brennend
-
-|Frost
-|TODO
-
-|Säure
-|TODO
-
-|Schock
-|TODO
-
-|Aetherisch
-|TODO
-
-|Magie
-|TODO
-
-|Mental
-|TODO
-
-|Nekrotisch
-|Verrottend
-
-|Illusionär
-|TODO
-|===
-
-Unabhängig von dem Namen, welcher in diesem Fall rein deskriptiv ist, gelten für alle Varianten die gleichen Regeln.
-
-Neben dem oben genannten Schaden pro Kampfphase kann dieser Zustand Voraussetzung für die Anwendung andere Regeln sein.
-
-Der Zustand dauert normalerweise eine bestimmte Anzahl von Kampfphasen.
-Sollte diese nicht gegeben sein, so dauert der Zustand 1W10 minus die KO-Stufe Kampfphasen des Charakters an (Minimum 1).
 
 [[ref_core_2d10_condition_exhausted]]
 === Erschöpft
-*Kategorie:* Körper
+*Kategorie:* Körper, kumulativ
 
 Abenteuer haben ein anstrengendes Leben.
 Viele unterschiedliche Auslöser können die körperliche Leistungsfähigkeit eines Charakters beeinträchtigen, beispielsweise intensives xref:core_rules_adventures.adoc#ref_core_adventures_journies[Reisen] oder <<ref_core_2d10_condition_frenzy,Kampfrausch>>.
@@ -1261,6 +1240,16 @@ Besteht er diesen Rettungswurf nicht, wird er <<ref_core_2d10_condition_unconsci
 
 Um eine oder mehrere Stufen Erschöpfung zu entfernen, muss der Charakter sich <<ref_core_2d10_regeneration,erholen>>.
 Je länger die Ruhezeit, um so mehr Stufen können entfernt werden.
+
+[[ref_core_2d10_condition_freezing]]
+=== Frierend
+*Kategorie:* Körper
+Exterme kalte Wetterverhältnisse und elementare Zaubersprüche können den Körper der Kreatur in diesen Zustand versetzen.
+Der Körper beginnt zu zittern, eine natürliche Schutzreaktion auf eine zu geringe Außentemperatur.
+In diesem Zustand erhält die Kreatur einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf ihren <<ref_core_2d10_characters_attributes_secondary_initiativebonus,INI-Bonus>>, sowie auf ihre <<ref_core_2d10_characters_attributes_secondary_movementrate,BEW>> -1,50 Meter.
+
+Grundsätzlich sind link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen ohne angemessen Schutz durch winterfeste Kleidung von diesem Zustand betroffen.
+Der Zustand endet, wenn die Kreatur minedestens eine <<ref_core_2d10_regeneration_short_break,kurze Rast>> in einer Umgebung durchführt, die nicht zu kalt ist.
 
 [[ref_core_2d10_condition_fearful]]
 === Furcht erfüllt
@@ -1285,9 +1274,17 @@ Möchte der Charakter für seine zweite oder dritte Aktion etwas anderes einsetz
 
 Während seiner Flucht erhält der Charakter einen <<ref_core_2d10_checks_disadvantage,Nachteil>> auf alle <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> und darf keine xref:core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe] ausführen.
 
+[[ref_core_2d10_condition_shocked]]
+=== Geschockt
+*Kategorie:* Körper, kumulativ
+Für die Dauer des Zustands erhält die Kreatur einen <<ref_core_2d10_checks_situationalmodifiers_malus,Malus>> von -3 auf alle <<ref_core_2d10_checks_saves,Rettungswürfe>>.
+Im xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugen] darf die Kreatur eine xref:core_rules_battlesystem.adoc#ref_core_battle_action_breakfree[Aktion] einsetzen, um den Zustand abzuschütteln.
+Dazu ist keine Probe nötig, das Opfer der Aktion ist ausreichend.
+Eine kumulative Aussetzung dieses Zustands, erhöht den Malus und die Anzahl der nötigen Aktionen zum Abschütteln entsprechend.
+
 [[ref_core_2d10_condition_held]]
 === Gefangen / Gehalten
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Ob durch seinen Kontrahenten am Mantel gehalten oder in den Klauen eines Drachen, ein Charakter kann in die prekäre Situation kommen, gefangen zu sein.
 
@@ -1298,7 +1295,7 @@ Um diesen Zustand zu beenden, muss er das Manöver xref:core_rules_battlesystem.
 
 [[ref_core_2d10_condition_bondedincombat]]
 === Im Nahkampf gebunden
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Ein Charakter gilt als im Nahkampf gebunden, wenn er in der xref:core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] eines Gegners steht und mindestens eine Angriffsprobe gewürfelt wurde.
 Es können aufgrund einer einzelnen Angriffsprobe sowohl <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angreifer>> wie <<ref_core_2d10_checks_concurrentrolls_defendingroll,Verteidiger>> im Nahkampf gebunden werden, wenn beide zum Zeitpunkt der Probe in der Bedrohungszone des jeweils anderen stehen.
@@ -1307,7 +1304,7 @@ Der Zustand hat keine besonderen Auswirkungen, außer dass andere Regeln auf ihm
 
 [[ref_core_2d10_condition_disabled]]
 === Kampfunfähig
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Kampfunfähige Charaktere können in einer Kampfphase nicht agieren, das bedeutet ihnen stehen keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] und xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] zur Verfügung.
 
@@ -1386,7 +1383,7 @@ Er muss für die nächsten 1W10 - seine KO (Minimum 1) xref:core_rules_battlesys
 
 [[ref_core_2d10_condition_encumbered]]
 === Überlastet
-*Kategorie:* -
+*Kategorie:* Körper
 
 Ein Charakter ist *überlastet*, wenn er zu viel Gewicht mit sich trägt.
 Üblicherweise wird dieser Zustand erreicht, wenn ein Charakter seine <<ref_core_characters_charactercreation_secondary_calculate_maxcarringcapacity,maximale Traglast>> übertrifft.
@@ -1399,7 +1396,7 @@ Sollte der Charakter bereits Stufen in Erschöpfung besitzen, wird diese virtuel
 
 [[ref_core_2d10_condition_surprised]]
 === Überrascht
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Ein *überraschter* Charakter kann in xref:core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] keine xref:core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] ansagen.
 Alle xref:core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] erhalten einen <<ref_core_2d10_checks_disadvantage,Nachteil>>.
@@ -1407,7 +1404,7 @@ Der Zustand endet üblicherweise nach einer Kampfphase.
 
 [[ref_core_2d10_condition_invisible]]
 === Unsichtbar
-*Kategorie:* -
+*Kategorie:* Taktisch
 
 Ob durch Magie oder einen genialen, optischen Trick, verschwinden unsichtbare Charaktere aus dem Sichtfeld der Umgebung.
 Unsichtbare Charaktere können nicht direktes Ziel einer <<ref_core_2d10_checks_concurrentrolls_attackingroll,Angriffsprobe>> oder Interaktion sein.

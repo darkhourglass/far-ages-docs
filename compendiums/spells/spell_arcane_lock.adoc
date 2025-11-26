@@ -1,0 +1,22 @@
+= Arkanes Schloss
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Aether, Geist +
+*Vorbereitung:* 5 Minuten (Ritual) +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 mechanisches Schloss +
+*Dauer:* 24 Stunden +
+*Effekt:* +
+Du verzauberst mit diesem Ritual ein mechanisches Schloss (z.B. von einer Tür, einem Schrank oder Tresor) so, dass es sich nur öffnen lässt, wenn der Öffende eine bestimmte Voraussetzung erfüllt.
+Diese Voraussetzung ist von Dir mit der xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] festzulegen, beispielsweise:
+* eine bestimmte Klopfsequenz ist einzuhalten
+* ein Passwort oder ein Satz ist aufzusagen
+* ein konkreter Schlüssel ist einzusetzen
+Auch wenn das Schloss mit anderen Schlüsseln zu öffnen wäre, muss die Voraussetzung durch den Öffenden erfüllt werden, sonst bleibt das Schloss verschlossen.
+Der Zauber hält mutwillige Zerstörung nicht auf, allerdings erhalten Proben auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_lockpick[Schlösser knacken] für dieses Schloss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5.
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +6 Stunden +

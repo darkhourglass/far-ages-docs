@@ -1,0 +1,21 @@
+= Zone der Rache (Kreaturentyp)
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein/Ja, siehe Beschreibung +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Aether, Geist+
+*Vorbereitung:* 5 Minuten (Ritual) +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 8 Stunden +
+*Effekt:* +
+Mit diesem Ritual erschaffst Du bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] eine Zone, in der der parametrisierte *Kreaturentyp* besonders geschützt wird.
+Befindet sich eine Kreatur mit dem passenden Kreaturentyp in der Zone, dann wird jedes Mal, wenn sie xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden] erhält, der durch eine andere Kreatur in derselben Zone verursacht wird, durch die Magie ein Teil dieses Schadens auf den Angreifer zurückgeschlagen.
+Besitzt der Angreifer einen anderen Kreaturentyp, dann erhält er bei erfolgreicher xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schadens-Probe] gegenüber eine Kreatur mit passenden Kreaturentyp einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 50% (abgerundet, minimum 1) des angerichteten Schadens, allerdings mit der Schadensart xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aetherisch].
+Der Angreifer darf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] ablegen, um den Schaden zu ignorieren.
+Der Mindestwurf folgt den üblichen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_magicdefence[Regeln].
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +4 Stunden +
++1 POT, +10 MP: Radius +3,00 Meter +

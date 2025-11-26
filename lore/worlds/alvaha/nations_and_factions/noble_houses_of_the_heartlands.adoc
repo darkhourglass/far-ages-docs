@@ -9,13 +9,13 @@ Jedes Haus ist eine zentralistische Organisation, die Macht über einen bestimmt
 Die Häuser oder auch der Adel ist ein eigener gesellschaftlicher Stand, der mit einer gewissen Überlegenheit gegenüber allen nicht-adeligen einhergeht.
 In der Regel kann ein Angehöriger aus einem Haus auf viele Kontakte, Geschäftsbeziehungen, Verbindungen und eine Menger weltlicher Ressourcen zurückgreifen, die anderen für hunderte von Jahren harter Arbeit verwehrt blieben.
 Adelige sind sich in der Regel dieses Status bewusst und pflegen ihn nach innen wie nach außen.
-Innerhalb der Häuser und Familien herrscht ein Intrigenspiel, um mehr Einfluss bei wichtigen Geschäften, welches durch ein höfisches Spiel mit der Etiquette übertont wird.
+Innerhalb der Häuser und Familien herrscht ein Intrigenspiel, um mehr Einfluss bei wichtigen Geschäften, welches durch ein höfisches Spiel mit der Etiquette überbetont wird.
 Nach außen versuchen Adelige ein ehrenhaftes und würdevolles Images aufzubauen, um als guter Geschäftspartner aufzutreten und andere von sich zu überzeugen.
 Adelige erwarten normalerweise eine besondere Behandlung, die ihrem Stand gerecht wird.
 Nicht-Adelige werden in der Regel nicht sonderlich beachtet, wobei auch auf Al'vaha der Adelsstand nur solange hingenommen wird, wie der Schein gewart wird.
 Degenerierte, brutale und tyrannische Adelige haben auch schon das andere Ende Mistgabeln und Fackeln zu spüren bekommen oder wurden von Konkurrenten anderer Häuser ausgeschaltet.
 Die Zugehörigkeit zu einem Haus können Spielercharakter über die folgenden Hintergründe erhalten:
-* link:../../../../rules/core/backrounds/core_backrounds_aristocrat.adoc[Aristrokrat]
+* link:../../../../rules/core/backrounds/core_backrounds_aristocrat.adoc[Aristokrat]
 * link:../../../../rules/core/backrounds/core_backrounds_noble.adoc[Adeliger]
 
 == Namensgebung und Familien
@@ -41,46 +41,74 @@ So findet man im Bund das loyale Haus der Feder und im Bündnisstaat das freie H
 Die in diesem Kapitel aufgelisteten Häuser gelten als *aktive Häuser*, d.h sie sind in allen politischen Staaten als Haus anerkannt nicht illegal erklärt worden.
 
 [NOTE]
-Charaktere können aus einem Haus stmmen oder sich im Rahmen einer Kampagne einem Haus anschließen, siehe dazu die spezifischn link:../rules/joining_a_house.adoc[Regeln für die Alvaha-Kampagnenwelt].
+Charaktere können aus einem Haus stammen oder sich im Rahmen einer Kampagne einem Haus anschließen, siehe dazu die spezifischen link:../rules/joining_a_house.adoc[Regeln für die Alvaha-Kampagnenwelt].
 
 [[ref_house_of_the_sails]]
 === Haus der Segel
-*Wappen:*
-*Familien:*
+*Wappen:* Ein Schiff mit offenen Segel auf offener See auf braunen Grund
+*Familien:* Menschen (Silbersegel, Windfänger, Oroku), Elfen (Hathiel, Liathandriel), Orks (Tharkos, Zedra)
+*Assoziation:* ausschließlich freies Haus
 
 [[ref_house_of_the_quill]]
 === Haus der Feder
-*Wappen:*
+*Wappen:* Ein Tintenfass und Federkiel vor grünem Grund
 *Familien:*
+*Assoziation:* freies Haus / loyal
+Während andere Häuser oft ihre Machtstellung aus dem Monopol auf eine Handelsware, Dienstleistung ziehen, besetzt das Haus der Feder die Verwaltung eines Staats in Aufgaben der Bürokratie.
+Dies stammt auf dem ewigen Reich als die Häuser als merkantile Aristokrakengesellschaften gegründet wurden und das Haus der Feder diese Lücke entdeckte und sich spezialisierte.
+Mitglieder des Hauses der Feder besetzen öffentliche Ämter, Beamtenstellen, Verwaltungen und so ziemlich alles, was in der Organisation eines Staates, einer Stadt oder gar kleinen Gemeinde die Notwendigkeit von Buchführung und Formularen erfordert.
+Jedes Mitglied ist trainiert in xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_read_write[Lesen und Schreiben], viele folgen Professionen wie der des link:../../../../rules/core/professions/core_professions_scholar.adoc[Scholaren].
+Charaktere können mit dem Haus der Feder in Kontakt kommen, wenn sie bürokratische Dienstleistungen in Anspruch nehmen müssen, zum Beispiel: Verlängerung ihrer Idenfikationspapiere, die Beantragung von Ausnahmgenehmigungen für verschiedenen sanktionierten Tätigkeiten wie
+* Verwendung von Magie in der Öffentlichkeit
+* Tragen von magischen Gegenständen
+* Das Töten seltener und gefährlicher Kreaturen
+Neben der Bürokratie besitzt das Haus der Feder ein weiteres Standbein, nämlich das des Rechts.
+Anwälte und Rechtsberater stammen fast ausschließlich aus dem Haus der Feder und bieten ihre Dienste für viel Geld an.
+Die wahre Macht liegt jedoch in dem stehenden Heer von link:../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_justicar.adoc[Justikaren], die ausschließlich vom Haus der Feder berufen und eingesetzt werden können.
 
 [[ref_house_of_the_pale_lion]]
 === Haus des weißen Löwen
 *Wappen:*
 *Familien:*
+*Assoziation:* ausschließlich loyales Haus
 
 [[ref_house_of_the_coin]]
 === Haus der Münze
 *Wappen:*
 *Familien:*
+*Assoziation:* freies Haus / loyal
 
 [[ref_house_of_the_wheel]]
 === Haus des Rades
 *Wappen:*
 *Familien:*
+*Assoziation:* freies Haus / loyal
 
 [[ref_house_of_the_bear]]
 === Haus des Bären
 *Wappen:* die Silhouetten eines schwarzen und weißen Bären, auf den Hinterbeinen in Kampfposition zueinander gewandt
 *Familien:*
+*Assoziation:* freies Haus / loyal
 
 [[ref_house_of_the_forge]]
 === Haus der Schmiede
 *Wappen:* Ein grauer Amboss auf rotem Untergrund
-*Familien:*
-== Untergangende Häuser
+*Familien:* Menschen (Madanii),  Zwerge (Ohkazun, Khazuk, Lhak), Orks (Urosh), Trolle (Khuf, Faji)
+*Assoziation:* freies Haus / loyal
+
+== Untergegangende Häuser
+Als *untergegangene Häuser* bezeichnet man die Häuser, die in keiner der aktuellen Nationen als offizielles Haus anerkannt sind.
+Teilweise sind sie sogar illegal.
+Angehörige dieser Häuser haben in der Regel keine gesellschaftliche, wirtschaftliche oder politische Macht.
+Mit Erlaubnis des SL dürfen Charaktere auch xref:../rules/joining_a_house.adoc[Teil eines untergegangenen Hauses] werden.
+[[ref_house_of_the_crossed_blades]]
 === Haus der gekreuzten Klingen
 *Wappen:*
 *Familien:*
+*Assoziation:* untergegangen / frei
+
+[[ref_house_of_the_skull]]
 === Haus der Schädel
-*Wappen:*
+*Wappen:* drei Schädel auf schwarzem Hintergrund
 *Familien:*
+*Assoziation:* untergegangen / frei

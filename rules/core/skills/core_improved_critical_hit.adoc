@@ -1,0 +1,16 @@
+= Verbesserter kritischer Treffer (Waffe)
+
+*Voraussetzungen:* link:core_skill_weapontraining_melee.adoc[Nahkampfwaffentraining (Waffe)] oder link:core_skill_weapontraining_projectile.adoc[Projektilwaffentraining (Waffe)] oder link:core_skill_weapontraining_throwing.adoc[Wurfwaffentraining (Waffe)] +
+*Typ:* Angriff, Passiv +
+*Überanstrengung:* - +
+*CP:* 100 +
+Erzielst Du mit der *Waffe* für die Du diese Fähigkeit gelernt hast, einen xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls_criticalhit[kritischen Treffer] greift diese automatisch, Du musst sie nicht explizit aktivieren.
+Der xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensbonus] aus Deinem Attribut zählt doppelt.
+Bei Waffen, bei denen kein Schadensbonus durch ein Attibut gewährt wird, erhälst Du einen einmaligen Bonus von +3 Schadenspunkten.
+
+.Verbesserter kritischer Treffer
+====
+Ein Langbogen hat einen Schadensbonud von 2W6+ST. Bei einem kritischen Treffen verdoppeln sich die variablen Anteile, also aus 2W6 wird 4W6. Mit dieser Fähigkeit verdoppelt sich auch der Bonus aus dem ST-Attribut. Insgesamt wird die Schadenprobe also gewürfelt mit 4W6+2*ST.
+====
+
+Du kannst diese Fähigkeit mehrmals für unterschiedliche Waffen lernen.

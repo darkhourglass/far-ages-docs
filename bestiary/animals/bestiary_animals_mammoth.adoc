@@ -1,0 +1,78 @@
+= Mammut
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig]
+* Templates
+* GK: 7
+* CP: TBA
+
+== Beschreibung
+//hatte eine Schulterhöhe von 2,8 bis 3,7 m und entsprach damit jener der heute lebenden Elefanten, das Gewicht variierte von 5 bis 8 t. Andere Arten konnte
+Lore
+
+== Profil
+
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +
+*MP:* XXX +
+*SP:* XXX +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:* XXX +
+link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +
+*Körper:* ST+KO +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+* link:../skills/bestiary_skill_apated_to_cold.adoc[Kälte angepasst]
+* Fähigkeit 2
+
+== Regeln
+
+== Taktik

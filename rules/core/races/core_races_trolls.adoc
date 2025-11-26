@@ -1,4 +1,15 @@
 = Trolle
+*Physis:*
+
+*Werte und Kultur:*
+
+*Bevorzuge Berufungen:* Trolle bevorzugen körperliche Berufe und im Handwerk.
+Trolle werden aufgrund ihrer körperlichen Überlegenheit oft in Berufen gefunden, die den Kampf nicht scheuen, so auch in der Stadtwache (selten widerspricht man dem Stadtwächer, der 3 Köpfe größer ist), als Laibwächter, Karavanenbegleiter.
+Selten zieht es Trolle in denkende oder forschende Berufe, aber auch dies nicht unmöglich.
+
+[TIP]
+Trolle sind leidenschaftliche Kämpfer und kritische Denker. Ein Widerspruch, der sie zu äußerlich ruhigen und zurückgezogenen Individuen macht, die für ihre Erscheinung erstaunlich leise und bedacht sprechen und gelegentlich ein Buch über Poesie lesen.
+
 
 *Attribute:* +1 ST, -1 GE, +2 KO, -1 CH +
 *Talente:* - +
@@ -15,8 +26,7 @@
 
 [[ref_core_races_troll_fast_tissue_repair]]
 == Schnelle Wundheilung
-Erhalten Trolle den Zustand xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_burning[Brennend], so endet dieser 1 Kampfphase früher.
-Dadurch kann es vorkommen, dass der Zustand gar nicht eintritt, da die Dauer auf 0 Kampfphasen reduziert wird.
+Erhalten Trolle den Zustand xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bleeding[Blutend], so endet sofort nach einer Kampfphase.
 
 [[ref_core_races_troll_sponatenous_regeneration]]
 == Spontane Regeneration

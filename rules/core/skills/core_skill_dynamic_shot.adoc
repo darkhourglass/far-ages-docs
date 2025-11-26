@@ -1,0 +1,7 @@
+= Dynamischer Schuss (Waffe)
+
+*Voraussetzungen:* link:core_skill_trick_shot.adoc[Trickschuss], link:core_skill_weapontraining_projectile.adoc[Projektilwaffentraining (Waffe)] oder link:core_skill_weapontraining_throwing.adoc[Wurfwaffentraining (Waffe)] +
+*Typ:* Angriff +
+*Überanstrengung:* 1 +
+*CP:* 100 +
+Wenn Du in xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinem zug] in die Situation des  xref:../core_rules_battlesystem.adoc#ref_core_battle_projectiles_modifiers_moving_and_firing[nicht stationäres Feuern] kommst, kannst Du diese Fähigkeit nutzen, um den daraus erwachsenen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf Deine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Angriffsprobe im Fernkampf] zu ignorieren.

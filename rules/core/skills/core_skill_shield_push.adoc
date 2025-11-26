@@ -1,0 +1,13 @@
+= Schildstoß
+
+*Voraussetzungen:* link:core_skill_improved_shield_bash.adoc[Verbesserter Schildschlag], xref:../core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] 7 +
+*Typ:* Bewegung, Angriff +
+*Überanstrengung:* 1 +
+*CP:* 150 +
+Setzt Du die Fähigkeit link:core_skill_improved_shield_bash.adoc[verbesserter Schildschlag] ein, kannst Du Dich entscheiden, anstelle einer xref:../core_rules_battlesystem.adoc#ref_core_battle_damage[Schadensprobe] diese Fähigkeit einzusetzen.
+In diesem Fall musst Du den zusätzlichen xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden] hinnehmen und auf die Schadensprobe verzichten.
+Stattdessen würfelst Du mit Deinem Ziel eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[konkurrierende] xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST-Probe]. Die Proben werden wie folgt modifziert:
+* Du erhältst einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] in Höhe der GK Deines Schildes.
+* Dein Ziel erhält einen Bonus in Höhe seiner eigenen GK.
+Bist Du xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[erfolgreich], muss das Ziel 1,50 Meter von Dir zurückweichen. Diese Bewegung verursacht keine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
+Bei einem xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] passiert nichts.

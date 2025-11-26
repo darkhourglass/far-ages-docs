@@ -1,14 +1,14 @@
 = Trickschuss
 
-*Voraussetzungen:* Projektilwaffen 3 oder Wurfwaffen 3 +
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 3 oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] Wurfwaffen 3 +
 *Typ:* Verbesserung (Angriff) +
 *Überanstrengung:* - +
 *CP:* 100 +
 
 Mit einem Trickschuss demonstriert Du Deine überragenden Fähigkeiten mit Pfeil und Bogen (oder vergleichbaren Waffen).
-Führst Du eine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielten Attacke] mit einem der Talente xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] durch, darfst Du entscheiden, ob Du den Trickschuss einsetzt.
+Führst Du einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Angriff im Fernkampf] mit einem der Talente xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] durch, darfst Du entscheiden, ob Du den Trickschuss einsetzt.
 
-In diesem Fall setzt Du formal eine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielten Attacke] ein, jedoch erleidest Du nicht den angegebenen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] auf die Angriffsprobe.
+In diesem Fall setzt Du formal eine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielte Attacke] ein, jedoch erleidest Du nicht den angegebenen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] auf die Angriffsprobe.
 Im Fall einer erfolgreichen Probe, wird keine Schadensprobe gewürfelt, stattdessen erhält das Ziel 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen], xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_nondeadly_damage[nicht-tödlichen] Schaden auf die entsprechende Trefferzone, der durch keine Rüstung reduziert werden kann.
 Nur xref:../core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_unbreakable[unnachgiebige] Rüstung schützt vor diesem Schaden.
 

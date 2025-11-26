@@ -1,0 +1,9 @@
+= Ausweichende Parade und Riposte
+
+*Voraussetzungen:* link:core_skill_riposte.adoc[Riposte], link:core_skill_disengaging_defense.adoc[Freimachende Verteidigung], xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] 6 +
+*Typ:* Bewegung, Verteidigung, Passiv +
+*Überanstrengung:* 2 +
+*CP:* 100 +
+Nutzt Du Deine Fähigkeit link:core_skill_disengaging_defense.adoc[Freimachende Verteidigung] in Kombination mit dem Talent xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade], dann darfst Du eine Position wählen, so dass Du mit Deinem Kontrahenten xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Nahkampf gebunden] bleibst.
+Du kannst nach dieser Bewegung sofort die link:core_skill_riposte.adoc[Riposte] einsetzen.
+Für jede Fähigkeit musst Du einzeln xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengensschaden] hinnehmen.

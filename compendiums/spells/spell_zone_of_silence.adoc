@@ -1,0 +1,21 @@
+= Zone der Stille
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* nein, siehe Beschreibung +
+*Komponenten:* Formlen, Gesten, eine kleine Silberglocke +
+*Fokus:* Geist, Schatten, Stille +
+*Vorbereitung:* 30 Minuten (Ritual) +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* 12 Stunden +
+*Effekt:* +
+Dieses Ritual erschafft eine Zone der absoluten Stille, in die kein Ton hinein oder heraustreten kann.
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] werden im Wirkungsbereich alle Geräusche unterdrückt bzw. sind nur gedämpft zu hören.
+Kreaturen, die sich gleichzeitig in der Zone aufhalten, können sich normal unterhalten.
+Proben auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen], um in der Zone auf Kreaturen außerhalb der Zone oder anderes herum: außerhalb der Zone auf Kreaturen in der Zone, zu überlisten, erhalten einen Bonus von +5.
+xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Verbale Komponenten] eines Zauberspruches können nicht genutzt werden, außer der Zaubernde besteht einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen diesen Zauber.
+
+*Zusätzliche Effekte:* +
++10 MP: Dauer +6 Stunden +
++10 MP, +1 POT: Radius +6 Meter +

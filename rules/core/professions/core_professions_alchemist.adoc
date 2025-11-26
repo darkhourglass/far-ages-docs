@@ -25,6 +25,10 @@ Dieser wirkt nun in dem Effektradius der Bombe.
 Einmal pro Tag darf der Alchemist eine Bombe ohne Materialkosten herstellen.
 Ansonsten kosten Bomben pro POT des gewählten Zauberspruches 1000 Goldmünzen.
 
+Alchemisten können mit dieser Fähigkeit auch reguläre link:../../../compendiums/items/mundane/compendium_mundaneitems_bomb.adoc[Bomben] bauen.
+Dabei gelten die Regeln für das Erschaffen von xref:../../core/core_rules_magic_items.adoc[magischen Gegenständen].
+Als Talent darf xref:../../core/core_rules_talents_base.adoc#ref_talents_knowledge[Alchemie] verwendet werden.
+Also xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] gilt die Formel 8+ 1 pro volle 100 Silbermünzen im Preis der Bombe.
 [[ref_core_professions_alchemist_poison_resist]]
 == Gift-Resistent
 Ein Alchemist erhält einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] auf alle Proben, um einem xref:../core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Giften zu widerstehen].

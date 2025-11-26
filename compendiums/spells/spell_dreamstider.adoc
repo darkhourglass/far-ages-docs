@@ -4,7 +4,7 @@
 *POT:* 13 +
 *Rettungswurf:* Nein +
 *Komponenten:* Formeln, Gesten, Räucherwerk im Wert von 100 Silbermünzen +
-*Fokus:* Geist +
+*Fokus:* Geist, xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_spell_foci_dream[Traum] +
 *Vorbereitung:* 10 Minuten (Ritual) +
 *Reichweite:* Selbst +
 *Anzahl der Ziele:* - +
@@ -15,7 +15,7 @@ Kerzen verbrennen Kräuter, die den Ort dieses Rituals in einen wohlriechenden e
 Bevor Du die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] ablegst, musst Du Dich hinlegen.
 Bei erfolgreicher Probe schläfst Du sofort ein und betritst mit Deinem Geist den Teil des Aether, der das xref:../../lore/cosmology/outers/lore_cosmology_outers_the_aether.adoc#ref_lore_aether_dreams[Traumsilber] genannt wird.
 In diesem Teil des Aethers sammeln sich alle Träume aller schlafenden Kreaturen.
-Durch dieses Ritual ist es Dir möglich, Träume von kreaturen zu beobachten und zu betreten.
+Durch dieses Ritual ist es Dir möglich, Träume von Kreaturen zu beobachten und zu betreten.
 Um den Traum einer bestimmten kreatur zu betreten, musst Du diese Kreatur persönlich kennen oder einen Gegenstand von Ihr besitzen, der Teil des Rituals ist.
 Würfle eine weitere xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] gegen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] der Ziel-Kreatur.
 Gewinnt sie, kannst Du ihren Traum nicht betreten und Du musst einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] bestehen, sonst wachst sofort auf und der Effekt endet.

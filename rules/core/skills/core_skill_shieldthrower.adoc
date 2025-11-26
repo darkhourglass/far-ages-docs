@@ -1,0 +1,10 @@
+= Schildwurf
+
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] 4, xref:../core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] 4 +
+*Typ:* Bewegung, Passiv +
+*Überanstrengung:* - +
+*CP:* 100 +
+Du hast gelernt, Deinen Schild zu werfen und ihn somit noch vielseitiger zu verwenden.
+Dabei gelten die Regeln für xref:../core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_modifiers_improvised_weapons[improvisierte Wurfwaffen], siehe auch xref:../core_rules_battlesystem.adoc#ref_core_battle_items_shields_as_improvised_weapons[Schilder als Improvisierte Waffen]
+Der Schaden wird über folgende link:../../tables/table_improvised_weapon_damage.adoc[Tabelle] ermittelt in Abhängigkeit von GK des Schilds.
+Der Malus für das Verwenden xref:../core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_modifiers_improvised_weapons[improvisierte Wurfwaffen] reduziert sich dank dieser Fähigkeit von -5 auf -2 für Deine Angriffsprobe.

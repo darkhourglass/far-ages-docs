@@ -1,0 +1,12 @@
+= Schwerer Schlag (Waffe)
+
+*Voraussetzungen:* link:core_skill_weapontraining_melee.adoc[Nahkampfwaffentraining (Waffe)], xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6 +
+*Typ:* Angriff +
+*Überanstrengung:* 1 +
+*CP:* 150 +
+Mit diese Fähigkeit kannst Du Deine ganze Kraft und die Wucht Deiner Waffe in einen Schwung konzentrieren.
+Bevor Du einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Angriff im Nahkampf] mit der passenden Waffe durchführst, musst Du entscheiden, ob Du die FÄhigkeit einsetzen möchtest.
+Tust Du dies, erhält Dein Kontrahent einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -X auf die Probe in seinem xref:../core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Verteidiungstalent].
+Dabei entspricht X seinem xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] in ST.
+Du kannst diese Fähigkeit nur für Nahkampfwaffen mit der Eigenschaft xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_2_hands_required[zweihändig] lernen.
+Du kannst die Fähigkeit für unterschiedliche Waffen mehrfach lernen.

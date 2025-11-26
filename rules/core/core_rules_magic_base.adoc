@@ -381,6 +381,9 @@ Die Angabe „Ja“ unter *Rettungswurf* gibt an, dass ein xref:core_rules_2d10_
 Sofern nicht anders angegeben, wird die Probe mit dem Rettungswurf xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] gewürfelt.
 Die Angabe „Nein“ gibt an, dass keinen Rettungswurf erlaubt (oder nötig) ist.
 
+[TIP]
+Der Mindestwurf für einen Rettungswurf ist in der Regel bestimmt durch die Formel 8 + <<ref_core_magic_rules_spellcasting_spellspecifics_potent,POT>>, vergleiche das Kapitel zur <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>>.
+
 Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“ beziehen sich darauf, dass der Zauberspruch unterschiedliche <<ref_core_magic_rules_spellcasting_spellspecifics_targets,Ziele>> ansprechen kann, zum Beispiel „Selbst/Berührung“.
 Die Reichweite „Selbst“ erfordert keinen Rettungswurf.
 Wirkt man einen Zauberspruch auf ein anderes Wesen, kann es freiwillig auf den Rettungswurf verzichten.
@@ -1430,7 +1433,19 @@ Jedes Portal, egal welcher Art, besitzt folgende Eigenschaften:
 
 [[ref_core_magic_spell_foci_teleport]]
 ==== Teleport
+Ein Zauber mit dem Fokus *Teleport* beschreibt ein einzigartiges Phänemon in der arkanen Wissenschaft.
+Ein Teleport bedeutet, dass das Ziel (Kreatur wie Objekt) des Zaubers von einem Ort zu einem Anderen in einem Augenblick reist, ohne die Distanz in der physischen Welt abzulegen.
+Es verschwindet in Luft und erscheint am Zielort genauso leicht.
+Alle Teleport-Zauber teilen sich folgende Regeln:
+*Erzwungene Sicherheit:* Ein Teleport-Zauber darf nicht darin enden, dass eine teleportierte Kreatur oder ein Objekt Schaden nimmt.
+Wird das Ziel eines Zaubers mit diesem Fokus also in einer gefährlichen Situation transportiert, z.B. in einer Wand stecken würde, über einer tiefen Schlucht oder einem Lavafeld materialisiert, gilt der Zauber automatisch als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] bei der <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>>.
+
 ==== Schatten
 ==== Ebon
 
 ==== Ordnung und Chaos
+
+[[ref_core_magic_spell_foci_dream]]
+==== Traum
+Zauber mit dem Fokus *Traum* beeinflussen xref:../../lore/cosmology/outers/lore_cosmology_outers_the_aether.adoc#ref_lore_aether_dreams[Träume und das Traumsilber].
+In der Regeln könne nur link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen träumen, sofern das <<ref_core_magic_rules_spellcasting_spellspecifics_targets,Ziel>> nicht explizit etwas anderes erlaubt.

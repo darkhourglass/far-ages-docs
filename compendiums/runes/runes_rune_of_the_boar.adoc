@@ -1,0 +1,16 @@
+= Rune des Ebers
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Spontaner Runeneffekt:* +
+Der spontane Runeneffekte repliziert den Effekt des Zaubers link:../../compendiums/spells/spell_summon_spirit_animal.adoc[Beschwöre Geistertier], allerdings wird automatisch ein link:../../bestiary/templates/bestiary_template_spirit_animal.adoc[Geist]-Ebers beschwören, dass dem Runenmagier gehorcht und reiten lässt.
+Die Dauer des Runeneffekt beträgt im Gegensatz zum Zauber 2 Stunden.
+*Runenmeistersschaft Effekt:* +
+Alle numerischen Boni erhöhen sich von +3 auf +5.
+Das beschworene Geistertier des spontanen Runeneffekts verleibt 6 Stunden.
+*Runeneffekt für Kriegsgeräte:* +
+Waffen mit dieser Rune benötigen die Eigenschaft xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_impact[Wucht], um zu wirken.
+Jeder xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_knockdown[Angriff zum Niederschlag] erhält einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3.
+Auf Rüstung und Kleidung geschmiedet, bietet diese Rune dem Träger einen Bonus von +3 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe], um einen Niederschlag zu wiederstehen.
+*Permanenter Runeneffekt:* +
+Alle Kreaturen, im Umkreis von 3,00 Metern um eine Rune des Ebers, sich aufhalten, erhalten einen Bonus von +3 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe], um einen Niederschlag zu wiederstehen.

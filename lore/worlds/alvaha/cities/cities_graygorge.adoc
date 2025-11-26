@@ -1,18 +1,69 @@
 = Grauklamm
 == Einführung
-_"first impression lore"_
+_"Die Bergbau Siedlung Grauklamm liegt am Ende eines beschwerlichen Weges den Titanengrad hinauf in deinem u-förmigen Tal, so dass sie perfekt in einen Kessel steiler Felswände eingeschlossen ist. Ruinen Cear Zhal der Titanen lauern drohend von der Spitze der Klamm ins Tal. Im Tal drängen sich steinerne Häuser mit Lehm- und Strohdächern eng zusammen, also würden sie die unwirtliche Bergwelt als Gemeinschaft abwehren wollen. Schwere Regenwolken drängen sich am Himmel zusammen und massiver Regen fällt auf die kleine Siedlung fast konstant herab."_
 
+
+_"Wisst ihr, was wirklich das Schlimmste an diesem Ort ist?
+Ist es der gelegentliche wandernde Linnorn oder der Schwarm Lindwürmer - dieses fliegende Ungeziefer hat mich ein perfekt gesundes Bein gekostet or die gruseligen Dinge, die aus dem Schoß des Berges durch die alten Tunnel der ersten Völker an die Oberfläche kriechen?
+Die Wahrheit ist, keine von diesen.
+Es ist dieser titanenverfluchte Regen.
+Einmal traf ich auf einen Ranger der dunkelhäutigen Elfen aus dem Süden.
+Er erzählte mir, er stammt aus einer Stadt tief in einem Wald, der so nass ist, dass sie ihn sogar den Regenwald nennen.
+Und sogar dieser Elf sagte mir, sie hätten weniger Regen als wir."_
+- Glukin, Bergarbeiter aus Grauklamm
 
 .Bevölkerung
 ****
-Gesamt (Menschen: Zwerge: Elfen: Orks: Trolle: Sonstige: )
+Gesamt 1400 (Menschen:200 Zwerge:600 Elfen:10 Orks:90 Trolle:300 Sonstige:400)
 ****
 
 
 == Geschichte
 
 == Viertel
-// Gruf des Eisenschmieds (ingrimm)
+[[ref_cities_graygorge_draygorge_settlement]]
+=== Die Siedlung Grauklamm
 
-// Cear Zhal
+[[ref_cities_graygorge_tomb_of_the_ironsmith]]
+=== Gruft des Eisenschmiedes
+Die Grauklamm birgt ein uraltes Geheimnis.
+Als noch die Aesari und Venari <<ref_cities_graygorge_cear_zahl,Cear Zahl>> bewohnten und tief in die Eingeweide der Berge gruben, errichtete der Titan xref:../../../progenitors/lore_progenitors_titans.adoc#ref_lore_titans_ingrimm[Ingrimm] ein geheimes Labor in diesen Schächten.
+Mit Einsetzen der Korruption durch die Sternenbestie ersann Ingrimm seinen fleischlichen Körper schrittweise durch einen Mechnanischen zu ersetzen.
+Am Ende dieser Verwandlung stand der Eisenschmied //TODO: link, eine fürchterliche Amalgamation aus Fleisch und Metall.
+Wahrscheinlich mit dem letzten Rest Verstand befahl Ingrimm den letzen verbliebenen Getreuen, die Kammern und Gänge zu versiegeln und zu vergessen.
+Heute wissen nur wenige in der Schmiede- und Technomantengilde über diese geheimen Kammern und die verborgene Gefahr in ihnen Bescheid.
+Dennoch kursieren Gerüchte über namenlose Schrecken, gigantische Reichtümer und verborgenes Wissen, die sich in den lichtlosen Kavernen unter den Bergen befinden und immer wieder risikofreudige Abenteurer nach Grauklamm bringen.
+Sie werden tatsächlich von den Autoritäten, die von der Existenz des Eisenschmiedes wissen und dessen eventuell unfreiwillige Freilassung unbedingt verhindern wollen, nicht aufgehalten, es lauern noch ganz andere Gefahren in den Tiefen, so dass Wenige zurückkehren oder je in die Nähe der Gruft des Eisenschmiedes gelangen.
+
+[[ref_cities_graygorge_cear_zahl]]
+=== Cear Zahl, Thron des Schmiedes
+*Cear Zahl* oder auch der Thron des Schmiedes - bezogen auf den Titanten Ingrimmm, ist eine uralte Ruine der Aesari, der ersten Kinder der Titanen.
+Cear Zahl liegt direkt auf den Berggipfeln der Grauklamm und wacht fast drohend über dem Tal, in dem die Siedlung liegt.
+Schwindelerregende Türme aus grauem Stein ragen in den regenwolken verhangenen Himmel.
+Selbst mit bloßem Auge erkennt man vom Tal aus die detaillierten Fresken und komplexe Architektur des Baus.
+Cear Zahl ist kaum zu Fuß erreichbar, es gibt keinen Weg über die Berge zu seinen Toren.
+Die letzten Aufzüge sind seit Jahrzehnten außer Betrieb und verrottet.
+Dennoch schafften es ca. 10 Jahr vor dem schwarzen Winter Abenteurer nach Cear Zahl und haben den Erzählungen nach das Geheimnis des Titaniums zurückgebracht, jenem Metall, dass die link:../nations_and_factions/smithingguild_of_titanspine.adoc[Schmiedegilde]
+
 == Wichtige Personen
+[[ref_cities_graygorge_persons_druas_forman_of_mountainers_gild]]
+=== Druas, Vorstand der Bergwerkergilde
+*Volk:* link:../../../../rules/core/races/core_races_dwarfs.adoc[Zwerg]
+*Alter:* 65
+*Profession:* link:../../../../rules/core/professions/core_professions_scholar.adoc[Scholar]
+*Position:* Druas Ti'Ohkazun, ein Adliger aus dem Haus der Schmiede übernahme vor ungefähr 10 Jahren den Vorstand der Gilde der Bergwerker, Bergleute und Minenarbeiter in Grauklamm.
+Sein Vorgänger starb nach dem schwarzen Winter in den Gängen tief unter dem Berg bei einem Einsturz von Gestein.
+Druas rotes Haar auf dem Kopf und im Gesicht ist bereits mit leichten gräulichen Akzenten versetzt, von Altersmüdigkeit ist bei sehr energetischen Persönlichkeit nicht zu finden.
+Druas nimmt seine Position sehr ernst und unterstützt keine Vorhaben, die Mitglieder seiner Gilde in Gefahr bringen oder ihnen wirtschaftlich schaden würden.
+Dennoch ist Druas kein weltfremder oder abhobener Adeliger, er kennt das Handwerk sehr genau selbst und ist ein ausgezeichneter Schmied.
+Er bewohnt ein einfaches aber solides Haus in Grauklamm, dass eine vollausgestattete Schmiede und ein Büro enthält.
+
+[[ref_cities_graygorge_persons_stonebreaker_turak]]
+=== Turak Steinbrecher
+*Volk:* link:../../../../rules/core/races/core_races_trolls.adoc[Troll]
+*Alter:* 32
+*Profession:*  link:../../../../rules/core/professions/core_professions_warrior.adoc[Krieger]
+*Position:* Werden größere Mengen an Gestein aus den Minen getragen, wenn neue Stollen gegraben werden, komme diese zu den Steinbrechern, einer Berufsgruppe schwer arbeitender Personen, die täglich große Brocken Stein auseinanderhauen und nach eingeschlossenen Mineralieren und Rohstoffen durchsuchen bzw. nutzbarren Baumaterial sortieren.
+Der Troll Turak ti'Faji ist der derzeitige Vorarbeiter dieser Profession in Grauklamm und eine beeindruckende Gestalt.
+Sogar für einen Troll groß und muskelbepackt von der lebenslangen Arbeit im Steinbruch, mit wachen Aufen und wildem schwarzen Haar.
+Turak ist außerdem ein erfahrener Kämpfer, der jederzeit zur Verteidiung von Grauklam bereit ist und aus einer verschworenen Gruppe von Steinbrechern eine kleine Milizgruppe formen kann.

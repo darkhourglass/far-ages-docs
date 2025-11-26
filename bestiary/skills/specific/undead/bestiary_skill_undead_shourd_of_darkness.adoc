@@ -1,0 +1,11 @@
+= Mantel der Finsternis
+
+*Voraussetzungen:* Primärer Kreaturentyp link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] +
+*Typ:* Passiv, Übernatürlich +
+*CP:* 200 +
+Die Kreatur erzeugt eine permanente Aura aus Dunkelheit, die sich um sie herum ausbreietet und sich mit ihr mitbewegt.
+Die Aura hat einen Radius von 6,00 Metern und dieser Bereich gilt als xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Dunkelheit der Stufe 2], d.h. alle Wesen, die auf Sicht angewiesen sind, erleiden einen Malus von -10 auf ihre Würfe zum Erfolg.
+
+[[ref_bestiary_skill_undead_shroud_of_darkness_legendary]]
+== Legendär
+Die legendäre Version dieser Fähigkeit erzeugt eine besonders mächtige Variante der Dunkelheit: der Radius der Aura erhöht sich auf 12,00 Meter und es herrscht Dunkelheit der Stufe 4 (absolute Finsterniss).

@@ -1,0 +1,32 @@
+= Entfernung und Projektil Fehlschlag
+
+Diese Tabelle wird genutzt eine xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] im xref:../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernkampf] einen xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] oder xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzer] erzeugt.
+In einem solchen Fall würfelt der missliche Schütze 1W10 und addiert zu diesem Wurf seine xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe], die er zum Angriff genutzt hat. Eine eventuelle xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_steps[Attributsstufe] wird nicht hinzugezogen.
+Das Ergebnis wird in der folgenden Tabelle abgelesen.
+Ein Patzer modifiziert diese Probe mit einem xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5.
+xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_bonusdice[Bonuswürfel] werden nicht gewürfelt.
+.Entfernung und Projektil Fehlschlag
+====
+Ein Schütze mit einem Bogen würfelt bei einer Angriffsprobe einen Misserfolg.
+Sein xref:../core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen-Talent] hat eine Stufe 4.
+Der Schütze würfelt 1W10, erhält eine 3 und addiert 4 für ein Ergebnis von 7.
+Laut Tabelle schlägt das Projektil 3,00 Meter vom eigentlichen Ziel entfernt in einem Objekt ein.
+====
+|===
+|Ergebnis |Beschreibung
+
+|1
+|In einer außergewöhnlichen Kombination von Ungeschick, Pech und wilder Physik schlägt das Projektil gegen Dich. Behandle einen xref:../core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] gegen Dich mit dieser Waffe.
+
+|2-4
+|Dein Projektil trifft die nächste Kreatur mit maximal Abstand von 3,00 Metern zu dem ursprünglichen Ziel, im Zweifel auch Deine Verbündeten.
+
+|5-6
+|Dein Projektil trifft die nächste Kreatur mit maximal Abstand von 3,00 Metern zu Dir, im Zweifel auch Deine Verbündeten.
+
+|7-8
+|Das Projektil bleibt in einem Objekt mit maximal 3,00 Metern Abstand stecken und richtet keinen Schaden an. Wenn kein passendes Objekt vorhanden ist, steckt das Projektil im Boden fest.
+
+|9+
+|Das Projektil fliegt harmlos über dem eigentlichen Ziel hinweg und verschwindet in der Ferne.
+|===

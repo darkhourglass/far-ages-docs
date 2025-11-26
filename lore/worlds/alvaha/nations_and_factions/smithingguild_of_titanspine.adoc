@@ -1,13 +1,27 @@
-== Schmiedguilden des Titanengrads
-Die Schmiedestädte des Titanengrads sind drei Siedlungen in den Bergmassiven, die traditionel von den Zwergen der Herzlande gebaut und bewohnt wurden.
-Die Organisation hinter diesen immensen Projekten ist die Schmiedegilde des Titanengrads.
-Die Schmiedegilde besteht zum Großteil aus den Familien des xref:./noble_houses_of_the_heartlands.adoc#ref_house_of_the_forge[Hauses der Schmiede] sowie einer Armee von Protegees, die in besonderer Tradition, ihren Beitritt zum Haus vererben dürfen.
-Die Gilde ist bekannt für ihr exzellenten Metalllegierungen, die Grundlage für technomantische Konstrukte, Waffen und Rüstungen sind.
+== Schmiedegilden des Titanengrades
+Die Schmiedestädte des Titanengrades sind drei Siedlungen in den Bergmassiven, die traditionell von den Zwergen der Herzlande gebaut und bewohnt wurden.
+Die Organisation hinter diesen immensen Projekten ist die Schmiedegilde des Titanengrades.
+Zum Großteil besteht die Schmiedegilde aus den Familien des xref:./noble_houses_of_the_heartlands.adoc#ref_house_of_the_forge[Hauses der Schmiede] sowie einer Armee von Protegees, die in besonderer Tradition, ihren Beitritt zum Haus vererben dürfen.
+Die Gilde ist bekannt für ihr exzellenten Metalllegierungen, die Grundlage für technomantische Konstrukte, Waffen und Rüstungen sind, insbesondere dem <<ref_lore_smithingguilds_rules_titanium,*Titanium*>>.
 Die Gilde hütet ihre Geheimnisse sehr genau.
 Die wichtigsten Siedlungen im Einflussbereich der Schmiedegilde sind:
 * link:../cities/cities_firstfire.adoc[Erstfeuer]
 * link:../cities/cities_ironford.adoc[Eisenfurt]
 * link:../cities/cities_graygorge.adoc[Grauklamm]
 
+[[ref_lore_smithingguilds_rules_titanium]]
+== Regeln zu Titanium
+Charaktere, die die Schmiede der Gilde in den Städten des Titanengrades besuchen oder Händler in anderen Städten treffen können Gegenstände aus diesem besonderen Material erwerben.
+Folgende Kategorien sind vorgesehen:
+* link:../../../../compendiums/items/mundane/compendium_mundaneitems_meleeweapons.adoc[Nahkampfwaffen]
+* link:../../../../compendiums/items/mundane/compendium_mundaneitems_armor.adoc[Rüstung]
+* link:../../../../compendiums/items/mundane/compendium_mundaneitems_throwingweapons.adoc[Wurfwaffen]
+* link:../../../../compendiums/items/mundane/compendium_mundaneitems_shields.adoc[Schilde]
+Waffen gelten als eine Version ihrerselbst nur 1 GK größer und als xref:../../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_masterweapons[exzellente Waffe] ohne, dass die Waffe wirklich 1 GK größer ist, siehe dazu xref:../../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_items_change_size[Anpassung der GK für Gegenstände].
+.Langschwert aus Titanium
+====
+Möchte ein Charakter mit GK 5 ein Langschwert aus Titanium erwerben, hat dieses die Werte eines Langwschwerts der GK 6 (Schaden 1W10 statt 1W8) sowie den Bonus für exzellente Waffen (+1 auf Angriffsproben).
+====
+Der Preis aller Gegenstände ist um 150% höher als der reguläre Listenpreis.
 
 

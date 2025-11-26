@@ -1,0 +1,23 @@
+= Zauber überladen (Zauberspruch)
+
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] 4 xref:../core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] 5 +
+*Typ:* Magie +
+*Überanstrengung:* 2 +
+*CP:* 300 +
+Du hast gelernt einen Dir bekannten *Zauberspruch* zu überladen.
+Du erhältst eine neue xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] mit namen *Überladen* für xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinen eigenen Zug].
+Diese Aktion kostet Dich 2 xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
+Die Aktion gilt für den betroffenen Zauber als 1 Kampfphase xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions_spell_preparation[Vorbereitung].
+Du kannst die Aktion auch nach vollendeter xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_preparation[Vorbereitung].
+Für jede Überladen-Aktion bis zur xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] erhöht sich ein variabler Teil des xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_effect[Effekts] des Zaubers um einen weiteren Einzel-Würfel.
+Allerdings erhält die xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] auch einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -1 pro Überladen-Aktion.
+Du kannst keine xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects[zusätzlichen Effekte] einsetzen oder die xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing[Vorbereitung reduzieren].
+.Beispiel
+====
+Der Zauber link:../../../compendiums/spells/spell_fireball.adoc[Feuerball] verursacht 4W6 Feuer-Schade bei einer Vorbereitung von 3.
+Ein Zauberer mit dieser Fähigkeit entscheidet sich für eine Vorbereitung von 4 Überladen-Aktionen.
+Dadurch erhöht sich der variable Anzeil von 4W6 um 4 weitere 1W6 auf 8W6.
+Die Spruchzauberei-Probe erhält einen Malus von insgesamt -4 und der Zauberer erleidet insgesamt 8 Überanstrengungsschaden.
+====
+Du kannst diese Fähigkeit nur für Zauberlernen, deren Vorbereitung in Kampfphasen gemessen wird, also nicht für xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals[Rituale].
+Diese Fähigkeit kannst Du für unterschiedliche Zaubersprüche lernen.

@@ -1,20 +1,5 @@
 = Magische Fähigkeiten
 
-== Durchschlagender Zauber I
-
-*Voraussetzungen:* Spruchzauberei 8 +
-*CP-Kosten:* 300 +
-*Beschreibung:* Diese Fähigkeit hilft einem Zauberer dabei, die gegnerische Verteidigung gegen Zauber besser zu durchdringen.
-Bei jedem Zauberspruch, den der Zauberer ausspricht und der Magieabwehr-Proben zulässt, erhalten die Magieabwehr-Proben einen Malus von -2 Würfel.
-Die Fähigkeit kann nicht auf Zaubersprüche angewendet werden, die der Zauberer durch Magie Abkoppeln verankert hat oder die er aus einem Gegenstand oder von einer Spruchrolle wirkt.
-Ebenso hat die Fähigkeit keine Wirkung bei Zaubersprüchen, die keine Magieabwehr-Proben zulassen.
-
-== Durchschlagender Zauber II
-
-*Voraussetzungen:* Spruchzauberei 12, Durchschlagender Zauber I +
-*CP-Kosten:* 400 +
-*Beschreibung:* Der Malus auf die Magie-Abwehrproben steigt auf -4 Würfel.
-
 == Elementemeisterschaft [Energieart]
 
 *Voraussetzungen:* Spruchzauberei 10 +
@@ -48,42 +33,6 @@ Der Zauberspruch muss dazu als Ziel eine Kreatur anvisieren und mindestens die R
 Außerdem muss der Zauberer dafür sorgen, dass der Zauberspruch auf 0 Kampfrunden verkürzt wird.
 Ein Zauberer, der gerade einen Zauberspruch vorbereitet, kann wie bei Gelegenheitsangriffen diese Fähigkeit nicht einsetzen.
 
-== Gegenzauber
-
-[quote, Byhragast „Eisauge“]
-„Um Magie zu verstehen, muss man wissen, was ist, wenn sie nicht mehr da ist.“
-
-*Voraussetzungen:* Spruchzauberei 5, Wissen[Arkanes] 5 +
-*CP-Kosten:* 300 +
-*Beschreibung:* Gegenzauber sind Bannsprüche, die spontan oder in Vorbereitung auf einen gerade ausgesprochenen bzw. festen (z.B. durch die  Fähigkeit Magie Abkoppeln plazierten) Zauberspruch gewirkt werden.
-Diese Fähigkeit wird auf Spruchzauberei angewendet.
-
-Diese Fähigkeit generiert eine Art Negativ des Zauberspruches, auf den es angewendet wird.
-Dieses Negativ in Kombination mit dem Zauberspruch hebt diesen auf und macht ihn damit unwirksam.
-Zauberer benutzen diese Fähigkeit, um spontan effiziente Bannzauber zu wirken.
-
-Um Gegenzauber anzuwenden, muss ein Zauberspruch, egal ob dieser von einem anderen Zauberer ausgeht oder von einer Falle oder einem Gegenstand, vom Magier in einem Umkreis von 9 Metern sein Ziel finden.
-Der Magier muss den Zauber wahrnehmen können.
-
-Gegenzauber kann auf zwei Arten angewendet werden.
-Entweder sagt ein Zauberer per Kampfmanöver Defensiv Zaubern an, dass er andere Zaubersprüche kontern möchte oder er nutzt Gegenzauber als spontane Aktion.
-
-Im ersten Fall bleibt der Zauberer solange beim Defensiv Zaubern, wie er wünscht.
-Er kann dann pro Kampfphase diese Fähigkeit einmal für einen Zauberspruch einsetzen, der von einem Zauberer im eigenen Wahrnehmungsbereich ausgesprochen wird, d.h. dieser macht eine Spruchzauberei-Probe.
-
-Im zweiten Fall unterbricht der Zauberer seine derzeitige Handlung (wenn er eine durchführt) und benutzt diese Fähigkeit gegen eine Spruchzauberei-Probe, die in der aktuellen Kampfphase durchgeführt wird.
-Er kann auch das Vorbereiten eines Zauberspruches unterbrechen, erleidet jedoch dann Verbrennen.
-
-Außerdem erhält er einen Malus von -2 auf die Würfe zum Erfolg auf die Spruchzauberei-Probe zum Gegenzauber.
-
-In jedem Fall führt er nachdem der gegnerische Zauberer seine Spruchzauberei-Probe abgelegt hat, eine Probe in Gegenzauber durch.
-
-Die Fähigkeit wirkt und hebt den gegnerischen Zauber auf genau dann wenn die Gegenzauber-Probe genauso viele oder mehr Erfolge erzielte, wie die Spruchzauberei-Probe des Gegners.
-Es ist dabei unerheblich, wie viele Erfolge der Gegner zum Wirken des Zaubers wirklich benötigt hätte.
-
-Würfelt der Charakter weniger Erfolge, dann war der Gegenzauber nicht erfolgreich und der Zauber wirkt normal.
-
-Gegenzauber benötigen nie Vorbereitung.
 
 == Hinterhältiger Zauber
 *Voraussetzungen:* Spruchzauberei 1, Hinterhältiger Angriff +

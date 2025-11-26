@@ -1,0 +1,15 @@
+= Bomben
+
+
+|===
+|Name |Attribut |Größe |Schadensbonus |Gewicht |Preis |Grundreichweite |Eigenschaften
+
+|Einfache Brandbombe
+|GE
+|4
+|4W4+2 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+|1
+|150
+|6
+|xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_one_time_use[Einmalige Verwendung], xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_aoe[Fläche 1,50 Meter]
+|===

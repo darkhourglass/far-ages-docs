@@ -1,0 +1,19 @@
+= Zweifachschnitt
+
+*Voraussetzungen:* link:core_skill_weapontraining_melee.adoc[Waffentraining (Nahkampf)], xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 5 +
+*Typ:* Angriff, xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_twoweaponfighting[Kampf mit 2 Waffen] +
+*Überanstrengung:* 2 +
+*CP:* 150 +
+Führst Du nach den Regeln für den xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_twoweaponfighting[Kampf mit 2 Waffen] eine Waffe in Deiner Primär- und Sekundärhand, kannst Du diese Fähigkeit einsetzen.
+Es handelt sich dabei um einen Angriff mit der Primärhand, siehe das enstprechende xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_twoweaponfighting[Kapitel].
+Für diesen Angriff ziehst Du beide Waffen in beiden Händen gleichzeitig in einer schneidenden Bewegung über Dein Ziel.
+Trotzdem wird dieser Angriff als eine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Nahkampfattacke] und somit 1 Aktion gewertet, gegen den sich das Ziel mit einer xref:../core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Verteidigung] wehren kann.
+Bei einer erfolgreichen Attacke, wird die xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensprobe] aus beiden Waffen addiert, allerdings erhältst Du nur den Schadensbonus aus der Primärwaffe.
+
+.Zweifachschnitt
+====
+Ein Charakter trägt zwei Waffen:
+Primärhand: eine Hand-Axt mit 1W4+1+ST als Schadenbonus
+Sekundärhand: ein Dolch mit 1W4+GE als Schadensbonus
+Bei einer erfolgreichen Attacke mit dieser Fähigkeit, ergibt sich eine Schadensprobe aus der Addition beider Waffe: 2W4+1+ST. Der GE-Attributsbonus der Sekundärwaffe wird nicht berücksichtig.
+====

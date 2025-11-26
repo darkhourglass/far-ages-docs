@@ -1,0 +1,17 @@
+= Schnellschütze (Projektil- oder Wurfwaffe)
+
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] oder xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] plus link:core_skill_weapontraining_projectile.adoc[Waffentraining (Projektilwaffe)] oder link:core_skill_weapontraining_throwing.adoc[Waffentraining (Wurfwaffe)] +
+*Typ:* Bewegung, Passiv +
+*Überanstrengung:* 2 +
+*CP:* 200 +
+Du hast gelernt, mit einer *Projektil-* oder *Wurfwaffe* exterm schnell und effektiv zu schießen.
+Direkt nach einer Aktion xref:../core_rules_battlesystem.adoc#ref_core_battle_action_readyitem[Nachladen] kannst Du die Fähigkeit einsetzen. In Deinem xref:../core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[nächsten eigenen Zug] kannst Du alle Deine xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] auf eine xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Attacke im Fernkampf] nutzen, ohne eine Aktion zum xref:../core_rules_battlesystem.adoc#ref_core_battle_action_readyitem[Nachladen] einzusetzen.
+Diese musst Du jedoch vor dem nächsten Einsatz Deiner Waffe einsetzen.
+Diese Fähigkeit kann nur für gewöhnliche Waffen gelernt werden, nicht für magische oder technomantische.
+Ebenso sind Waffen mit der Eigenschaft xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_ammunition[Magazin] oder xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_mechanical[mechanisch] ausgeschlossen.
+Du kannst diese Fähigkeit nur für ein konkrete Projektil- oder Wurfwaffe lernen, die mit dem Waffentraining korrespondiert.
+Du kannst diese Fähigkeit für unterschiedliche Waffen auch mehrfach lernen.
+
+[TIP]
+Um diese Fähigkeit optimal zu integrieren, sollten Spielercharaktere angehalten sein, zu beschreiben, wie sie ihre Waffen handhaben.
+Ein Bogenschütze könnte 3 Pfeile in seiner Hand halten so in den Bogen spannen, dass er den untersten Pfeil einzeln abfeuern kann und die restlichen Pfeile geschickt nachrutschen lässt.

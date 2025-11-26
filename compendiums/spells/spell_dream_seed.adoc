@@ -1,0 +1,24 @@
+= Traumsaat
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein/Ja, siehe Beschreibung +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Geist, Schatten, xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_spell_foci_dream[Traum] +
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Reichweite:* Selbst +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* 24 Stunden +
+*Effekt:* +
+Im ersten Schritt erschafft Du in einem Ritual eine Traumsaat.
+Diese ist eine hell leuchentende, warme Saatförmige Flamme, die Du mit Dir herumtragen kannst.
+Du musst beim Ritual den Traum, der in der Saat aufbewahrt wird, beschreiben.
+Innerhalb der Dauer des Zaubers kannst Du die Saat einer link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen einpflanzen, in dem Du die Traumsaat die Kreatur berühren lässt.
+In diesem Moment steht der Kreatur ein xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] zu.
+Besteht sie diesen nicht, verschwindet die Traumsaat in ihrem Körper und sobald sie schläft, träumt sie den Traum, den Du ersonnen hast.
+Am Ende des Traums erhält sie ein link:spell_wizardsmark.adoc[Zauberer-Zeichen] von Dir.
+Sie gilt damit als Ziel für andere Zauber, die ein Zauberer-Zeichen als Voraussetzung benötigen.
+
+Vergibst Du den Traumsaat nicht innerhalb der Dauer des Zaubers, verschwindet er wirkungslos.
+*Zusätzliche Effekte:* +
++10 MP: Dauer +1 Stunde +

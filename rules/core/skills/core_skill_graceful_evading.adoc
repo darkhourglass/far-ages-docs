@@ -1,0 +1,7 @@
+= Graziles Ausweichen
+
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik] 4, xref:../core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 4 +
+*Typ:* Verteidigung +
+*Überanstrengung:* 1 +
+*CP:* 500 +
+Wenn Du eine xref:../core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] einsetzt, um einen xref:../core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Angriff zu verteidigen] und dabei xref:../core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] verwendest, erhältst Du einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] in Höhe von 1/2 Deiner xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Stufe] (abgerundet, minimum 1) in xref:../core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik].

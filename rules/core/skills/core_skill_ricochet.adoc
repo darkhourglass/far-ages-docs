@@ -1,0 +1,14 @@
+= Ricochet (Waffe)
+
+*Voraussetzungen:* link:core_skill_weapontraining_throwing.adoc[Waffentraining (Waffe)] und xref:../core_rules_talents_base.adoc#ref_talents_throwingweapons[Wurfwaffen] 6 oder link:core_skill_weapontraining_projectile.adoc[Waffentraining (Waffe)] und xref:../core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 6 +
+*Typ:* Angriff, Fernkampf +
+*Überanstrengung:* 1 +
+*CP:* 150 +
+Bei Einsatz der *Waffe*, die eine Wurf- oder Projektilwaffe sein muss, d.h. wenn Du einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Fernkampfangriff] durchführst, musst Du entscheiden, ob Du diese Fähigkeit einsetzen möchtest.
+Wenn Du dies tust, versucht Du durch Ausnutzen der aktuellen Gegebenheiten und physikalischen Gesetze, das Projektil oder Wurfgeschoss von Deinem ursprünglichen Ziel weiterspringen zu lassen.
+Du führst zunächst den Angriff gegen ein Ziel nach den üblichen Regeln durch, erhälst dafür allerdings einen einmaligen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3.
+Du führst den Angriff bis zur xref:../core_rules_battlesystem.adoc#ref_core_battle_damage[Schadensprobe] durch.
+Ist die xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] erfolgreich, kannst Du diese Fähigkeit einsetzen, unabhängig von dem Ergebnis der Schadensprobe.
+Setzt Du diese Fähigkeit ein, prallt Dein Projektil bzw. Wurfgeschoss ab und trifft ein weiteres Ziel in einem maximalen Abstand zum ersten Ziel von 1/2 der xref:../core_rules_battlesystem.adoc#ref_core_battle_projectiles_baserange[Grundreichweite] in Metern (abgerundet, minimum 1,50 Meter).
+Gegen dieses Ziel führst Du eine weitere xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] ohne zusätzlichen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers[Modifikator] oder Einsatz einer dedizierten xref:../core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+Die Schadensprobe wird normal gewürfelt.

@@ -1,0 +1,12 @@
+= Betäunde Verteidigung
+
+*Voraussetzungen:*  ein Verteidigungstalent mindestens auf Stufe 4 +
+*Typ:* Bewegung, Verteidigung, Passiv +
+*Typ:* Bewegung, Passiv, Verteidigung +
+*Überanstrengung:* 1 +
+*CP:* 100 +
+Wenn Du Dich gegen einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Angriff im Nahkampf] xref:../core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[verteidigst], darfst Du entscheiden, ob Du diese Fähigkeit einsetzen willst.
+Tust es, versucht Du den Angriff Deines Gegners so anzufangen, dass die Wucht des Angriffs auf ihn zurückgeleitet wird.
+Dies ist in der Kombination mit einer Nahkampfwaffe und xref:../core_rules_talents_base.adoc#ref_talents_parade[Parade] oder einem Schild und xref:../core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] möglich.
+Ist Deine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe] erfolgreich, wehrst Du wie sonst den Angriff ab, zusätzlich muss Dein Kontrahent einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] bestehen, oder erhält xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[1 Stufe Benommenheit].
+Der xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] für diesen Rettungswurf wird bestimmt durch eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST-Probe] von Dir plus die GK Deiner Verteidigungswaffe.

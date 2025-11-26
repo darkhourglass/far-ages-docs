@@ -1,0 +1,26 @@
+= Ketten der Justiz
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Gesten, 1 Paar Ketten, 1 Edikt +
+*Fokus:* Aether, Schatten, Geist+
+*Vorbereitung:*  +
+*Reichweite:* 6,00 Meter +
+*Anzahl der Ziele:*  1 im Edit benannte Kreatur +
+*Dauer:* 6 Monate bzw. wie im Edikt beschrieben+
+*Effekt:* +
+Zum Wirken dieses Zauberspruches ist ein *Edikt* nötig.
+Dabei handelt es sich um ein offizielles Schriftstück, dass von einem Richter und einem Zeugen aus dem Haus der Feder unterschrieben werden muss.
+Das Edikt beinhaltet Informationen über ein Verbrechen, den überführten Täter und dessen Strafe.
+Das Edikt muss sich innerhalb der Gesetze und Rechte der ausstellenden Authorität bewegen.
+Als Ziel dieses Zaubers kann nur die im Edikt benannte Kreatur gewählt werden.
+Der Zauberer muss das Edikt vorlesen, sonst gilt die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg] ohne weitere Konsequenzen für Zauberer und Ziel.
+Bei einer erfolgreichen Spruchzauberei-Probe wickeln sich die Ketten um Arme und Beine der Kreatur und können nicht mehr entfernt werden.
+Die Kreatur ist ab jetzt gezwungen, den Auflagen bzw. der Strafe des Edikts zu folgen.
+Die Auflagen eines Edikts können lauten:
+* Die Zielkreatur darf eine konkrete Provinz, Stadt oder ein Gebäude nicht betreten
+* Die Zielkreatur hat eine Arbeit oder Aufgabe zu erledigen
+* Die Zielkreatur muss einer Verpflichtung gegenüber einer anderen Kreatur nachkommen
+Sollte die Kreatur der Auflage zu widerhandeln, muss sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] bestehen oder erleidet einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aether-Schaden].
+*Zusätzliche Effekte:* +
