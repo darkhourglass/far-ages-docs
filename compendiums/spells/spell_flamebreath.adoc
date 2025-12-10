@@ -1,0 +1,20 @@
+= Flammenatem
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten, Alkohol, Steichholz +
+*Fokus:* Feuer +
+*Vorbereitung:* 2 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Kegel 6,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* +
+Du musst in der Vorbereitung einen Schluck Alkohol trinken und ein Streichholz oder vergleichbares Stück Holz zum Brennen bringen.
+Mit der xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] pustet Du gegen die Flamme des Streichholzes.
+Dein Atem verwandelt sich in lodernde Flammen, die in einem Kegel von 6,00 Metern sich von Dir aus ausbreiten.
+Alle Kreaturen in diesem Wirkungsbereich erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 3W6+3 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden].
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen 8+POT halbiert den Schaden (abgerundet, minimal 1).
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Schaden +1W6+1 Feuer
++5 MP, +1 POT: Kegel +1,50 Meter

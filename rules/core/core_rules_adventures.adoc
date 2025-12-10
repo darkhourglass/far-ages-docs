@@ -522,6 +522,12 @@ So könnte zum Beispiel ein Teil-Abschnitt einer Mauer eingerissen werden.
 In diesem Fall nur dieser Teil des Objekts betrachtet, mit eigenem Härte-Wert und Integritäts-Punktepool.
 Inwiefern die Zerstörung des Teils zum Kollaps des Rests beträgt, liegt im Ermessen des SL.
 
+[[ref_core_adventures_travelling]]
+== Reisen
+
+[[ref_core_adventures_travelling_speed]]
+=== Reisegeschwindigkeit und Reisezeiten
+
 == Ausrüstung und Geld
 
 Nicht nur Geschick, Talent und Magie bestimmen das Überleben eines
@@ -541,7 +547,7 @@ erwähnt, dass auch diese Welt einer eigenen Dynamik unterzogen ist. Die
 angegebenen Preise können je nach Gegend, Jahreszeit und Qualität
 schwanken. Einige Richtlininen werden auch in diesem Kapitel gegeben.
 
-Im Laufe der Zeit hat es drei große Geldsysteme gegeben, die noch heute
+Im Laufe der Zeit hat es mehrere große Geldsysteme gegeben, die noch heute
 die wirtschaftliche Landschaft prägen.
 
 Bis zum Untergang des ersten Bündnis-Staates existierte ein schlichtes
@@ -562,9 +568,6 @@ sind nicht mehr als Zahlungsmittel akzeptiert, jedoch zahlen Künstler
 und Sammler durchaus entsprechende Summen. Ein Pfund Jadestein kann
 durchaus 500 Silbermünzen wert sein.
 
-Im untergegangen Saddricia finden sich heute die größten Vorkommen von
-Jadesteinen.
-
 Das Ewige Reich schließlich erfand das *erste Münzsystem* aus fünf
 verschiedenen Münzarten: Zinn, Kupfer, Silber, Gold und Platin. Dabei
 war die Umrechung kompliziert, denn auch hier schwankten die Preise der
@@ -581,7 +584,7 @@ Die Prägegenehmigung rotierte nämlich in einem ebenso komplizierten
 Zyklus, so dass innerhalb einer Herrschaftsperiode mehrere verschiedene
 Münzprägungen zustande kamen, deren Wert meistens von dem Standort der
 prägenden Schmiede abhängig war. Im Kompetenzgerangel des
-absolutistischen Systems Hralons war es einfach nicht möglichen einen
+absolutistischen Systems war es einfach nicht möglichen einen
 festen und damit stabilen Prägungsort festzulegen.
 
 In der heutigen Zeit besitzen die Münzen immer noch einen Wert. Zinn-
@@ -633,165 +636,24 @@ Landbevölkerung kommen Argumente hinsichtlich des Geldverfalls und "dem
 kleinen Mann das Geld hinterrücks aus der Tasche ziehen" gut an.
 
 Offiziell ist dieses System das einzig Gültige.
-
-IV.I.Waffen
-
-// TODO moved to seperate file
-
-IV.II.Rüstung und Schilde
-
-// TODO moved to seperate file
-
+== Listen der Ausrüstung
+* link:../../compendiums/items/mundane/compendium_mundaneitems_meleeweapons.adoc[Nahkampfwaffen]
+* link:../../compendiums/items/mundane/compendium_mundaneitems_projectileweapons.adoc[Projektilwaffen]
+* link:../../compendiums/items/mundane/compendium_mundaneitems_throwingweapons.adoc[Wurfwaffen]
+* link:../../compendiums/items/mundane/compendium_mundaneitems_armor.adoc[Rüstungen]
+* link:../../compendiums/items/mundane/compendium_mundaneitems_shields.adoc[Schilde]
+* link:../../compendiums/items/mundane/compendium_mundaneitems_bomb.adoc[Bomben]
 IV.III.Abenteurerausrüstung
-
 Dieser Abschnitt gibt Auskunft über andere, praktische
 Abenteurerausrüstung wie Kletterhacken usw.
-
-[cols=",,,",]
-|===
-|Rucksack (40) |5(voll: Größe) |2+Inhalt |15
-|Großer Rucksack (60) |5(voll: Größe) |4+Inhalt |25
-|Sattel |14 |6 |50
-|Satteltaschen(40) |10(voll: Größe) |2+Inhalt |15
-|Schlafsack |5(zusammengerollt) |2 |2
-|Fackel |2 |0.5 |1
-|Wasserschlauch |1(voll: 4) |0.1(4) |1
-|Zündzeug |1 |0.1 |4
-|Kletterhacken |1 |0.5 |2
-a|
-Seil
-
-5
-
-10
-
-20
-
-a|
-
-5
-
-10
-
-20
-
-a|
-
-2
-
-3
-
-4
-
-a|
-
-4
-
-6
-
-12
-
-a|
-Bandage
-
-(1x verwendbar)
-
-|2 |0.5 |4
-|Kochtopf |3 |1 |2
-|Gürtel |1 |0.5 |2
-|Gürteltasche(10) |1 |0.1+Inhalt |1
-|Laterne |5 |2 |5
-|Handwerkzeug (Holz) |10 |5 |25
-|Handwerkzeug (Stein) |10 |5 |25
-|Handwerkzeug (Schmiede) |20 |15 |50
-|Malwerkzeug (Pinsel und Leinwand) |15 |4 |15
-|Angel und Angelhaken |10 |2 |4
-|Kleidung(Arm) |15(gefaltet) |4 |2
-|Kleidung(Reisender) |15(gefaltet) |4 |7
-|Kleidung(Reich) |15(gefaltet) |4 |15
-a|
-Instrument:
-
-Harfe
-
-Flöte
-
-Trommel
-
-Banjo
-
-Horn
-
-a|
-
-5
-
-2
-
-10
-
-10
-
-5
-
-a|
-
-2
-
-0.5
-
-4
-
-2
-
-1
-
-a|
-
-20
-
-10
-
-18
-
-35
-
-15
-
-|Wochenration(Einfach) |3 |1 |3
-|Wochenration(Normal) |5 |2 |5
-a|
-Köcher
-
-(20 Pfeile/Bolzen)
-
-|8 a|
-
-Voll: 2
-
-|4
-|Sack(30) |1(voll: Größe) |0.5+Inhalt |1
-|Fässchen Tinte und Feder |3 |0.2 |25
-|Pergament(eine Seite) |1 |0.1 |0.5
-|Zelt(2 Personen) |15(gefaltet) |4 |20
-|Zelt(4 Personen) |25(gefaltet) |6 |45
-|Öl (1 Liter) |- |2 |5
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-|===
-
+* link:../../compendiums/items/mundane/compendium_mundaneitems_gear.adoc[Ausrüstung]
 Als besonderen Service bieten manche Händler Paketpreise an:
 
 Rucksack(40), Schlafsack, Wasserschlau, Zündzeug, Bandage und 2 Fackeln
 werden im Abenteurerpaket zusammengefasst und kosten 25 Silber bei einem
 Gewicht von 5,7 bis 9,7(im Falle voller Schläuche).
 
-IV.IV.Waren- und Dienstleistungen
+== Waren- und Dienstleistungen
 
 Getränke:
 
@@ -947,6 +809,7 @@ Bänker10% des Einlagerungswertes
 
 Pfandleiher50-75% des Gesamtwertes
 
+== Siedlungen und Handelsware
 
 // TODO -> d10 system adoc
 === Heilung von Verletzungen

@@ -1,0 +1,163 @@
+= Knochenhydra
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 8)
+* *GK:* 7
+* *CP:* 19800
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 9 (+3) +
+*ER:* 6 (+2) +
+*EN:* 3 (+1) +
+*SB:* 2 (+1) +
+*CH:* 2 (+1) +
+*TP:* 114 bis 354 <<ref_bestary_bonehydra_heads,siehe Beschreibung>> +
+*MP:* 30 +
+*SP:* - +
+*BEW:* 9,00 MEter +
+*INI:* +2 +
+*MaxTL:* 135 +
+*MaxPOT:* 6 +
+
+*Aktionen:* 3 +
+*Rüstung:* *Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 6 (dicke Knochenplatten, alle Trefferzonen) + +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +7 bis +29 <<ref_bestary_bonehydra_heads,siehe Beschreibung>> +
+*Körper:* +11 +
+*Magie:* +7 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9 (1W6+4) <<ref_bestary_bonehydra_heads,siehe Beschreibung>>
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 (2W10+3) 2x
+
+== Defensive
+
+* link:../skills/bestiary_skill_dodge.adoc[Ducken]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 6 (+2)
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 8
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten]
+* link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura]
+
+== Regeln
+[[ref_bestary_bonehydra_heads]]
+== Knochenhyra Köpfe
+Nach dem Vorbild der link:../monstrosities/bestiary_monstrosity_hydra.adoc[Hydra] hat auch die Knochenhydra zahlreichen Köpfe, die wie Schlangen aus Knochen aus ihrem Rumpf wachsen.
+Für diese gelten besondere Regeln, die im Folgenden zusammengefasst sind:
+* Zu jedem Zeitpunkt kann eine Knochenhydra maximal 12 Köpfe besitzen.
+* Zu Beginn einer Begegnung besitzt die Knochenhydra eine vom SL bestimmte Zahl von Köpfen, maximal jedoch 12.
+Die Bestimmung kann zufällig durch 1W6+3 bestimmt werden.
+* Jeder Kopf bietet der Knochenhydra 20 Punkt auf ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool], der minimal 134 TP beträgt (114 plus 1 Kopf).
+Dabei handelt es sich nicht um xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_temporary[temporäre] Punkte.
+* Eine Knochenhydra ohne Köpfe, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[stirbt] sofort, unabhängig von ihren verbliebenen TP.
+* Die Knochenhydra kann ihre Attacke link:../skills/bestiary_skill_attack_bite.adoc[Biss] pro Kampfphase sooft einsetzen, wie sie Köpfe hat.
+* Solange die Knochenhydra mehr als einen Kopf besitzt, kann sie pro eigener xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] eine zusätzliche xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_dogde[Reaktion] einsetzen, um einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] durchzuführen.
+* Die Knochenhydra erhält pro Kopf einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +2 auf alle xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswürfe].
+* Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[gezielten Attacke] auf einen der Köpfe, kann ein Angreifer versuchen, diesen abzuschlagen.
+Dazu muss der Angreifer bei einem erfolgreichen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] mindestens 20 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkte] verursachen (die Anzahl entspricht den TPs eines Kopfes).
+* Zu Beginn ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphase] darf die Knochenhydra, falls sie mindestens noch 1 Kopf hat, mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] 1 Kopf und den Einsatz von 5 MP sofort regenerieren, bis zum oben genannten Maximum von 12 Köpfen.
+Ein regenerierter Kopf verschafft der Knochenhydra 20 TP.
+* Eine Knochenhydra kann unterschiedliche Typen von Köpfen ausbilden, jeder mit einer eigenen Spezialattacke. Diese kann anstelle des link:../skills/bestiary_skill_attack_bite.adoc[Bisses] eingesetzt werden.
+Muss ein Kopf bestimmt werden, z.B. bei der initialen Begegnung oder im Fall eines regenierenden Kopfs, kann der Typ des Kopfes zufällig bestimmt werden (W11):
+** 1-2 Kopf mit <<ref_bestiary_bonehydra_head_type_necrotic_bomb,nekrotischer Bombe>>
+** 3-4 Kopf mit <<ref_bestiary_bonehydra_head_type_fire_odem,Feuerodem>>
+** 5-6 Kopf mit <<ref_bestiary_bonehydra_head_type_reanimate_corpse,reanimiere Leichnam>>
+** 7-8 Kopf mit <<ref_bestiary_bonehydra_head_type_draining_bite,Energieraubende Biss>>
+* 9-10 Kopf mit <<ref_bestiary_bonehydra_head_type_bonespear_spit,Knochenspeer spucken>>
+* 11-12 Kopf ohne Spezialangriff, nur mit Biss.
+Nicht alle Knochenhydren können alle Kopfvarianten ausbilden, siehe dazu das Kapitel zur <<ref_bestiary_bonehydra_creation,Erschaffung>> einer Knochenhydra.
+[[ref_bestiary_bonehydra_head_type_necrotic_bomb]]
+=== Nekrotische Bombe
+Dieser Kopf ist umgeben von grünlichen, fahlen Flammen.
+Anstelle des Bisses für einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Attacke] kann dieser Kopf einen Ball fauliger, nekrotischer Energie hochwürgen und wie ein Wurfgeschoss gegen seine Opponenten einsetzt.
+Diese nekrotische Bombe explodiert in einer kleineb Explosion fauliger Energie.
+Es gelten die Regeln für einen Angriff auf link:../skills/bestiary_skill_attack_range.adoc[Entfernung](9, 6,00 Meter) mit einem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_throwingweapons_aoe[Flächenschaden] von 1,50 Metern Radius und 3W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischen] Schaden].
+Kreaturen im Wirkungsbreich dürfen einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen den Angriffswurf der Hydra ablegen, um den Schaden zu halbieren (abgerundet, minimal 1).
+
+[[ref_bestiary_bonehydra_head_type_fire_odem]]
+=== Feuerodem
+Dieser Kopf besitzt eine besondere feuerspeichend Attacke, die anstelle des Bisses für einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Attacke] genutzt werden kann.
+Dabei handelt sich um eine link:../skills/bestiary_skill_attack_odem.adoc[Odem-Attacke] (7, 3W6+3, Feuer, 9,00 Meter).
+Dieser Kopf ist oft der einer großen Echse.
+
+[[ref_bestiary_bonehydra_head_type_reanimate_corpse]]
+=== Reanimiere Leiche
+Die Hydra kann einen Leichnam in ihrer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] in einen Untoten verwandeln, der ihr dient.
+Solange ein Kopf dieses Typs existiert, hat die Hydra eine link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (8 mit link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] (link:../templates/bestiary_template_undead_zombie.adoc[Zombie] mit maximaler Machtstufe von 5)).
+Die so erschaffenen Untoten zählen zu der Fähigkeit link:../skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten].
+Sollte die Hydra ihr Limit an kontrollierbaren Untoten erreicht haben, kann sie diesen Kopf nicht einsetzen.
+[[ref_bestiary_bonehydra_head_type_draining_bite]]
+=== Energieraubender Biss
+Zusätzlich zu dem Schaden durch die link:../skills/bestiary_skill_attack_bite.adoc[Biss-Attacke] dieses Kopfes, verliert das Opfer außerdem 1W6+2 MP, die die Hydra zu ihrem eigenen Pool hinzufügen kann.
+Der Typ von Kopf hat in der Regel deutlich spitze Fangzähne, die an Vampire erinnern.
+
+[[ref_bestiary_bonehydra_head_type_bonespear_spit]]
+=== Knochenspeer Spucken
+Anstelle des Bisses für eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Attacke] formt sich in diesem Kopf ein Speer aus Knochen, der vorwärts gespuckt wird.
+Es gelten die Regeln für einen Angriff auf link:../skills/bestiary_skill_attack_range.adoc[Entfernung](9, 9,00 Meter) und 3W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen Schaden].
+[[ref_bestiary_bonehydra_creation]]
+== Knochenhydra erschaffen
+Um eine Knochenhydra zu erschaffen, muss ein Charakter den Zauber link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] für einen Untoten der Machtstufe 7 aussprechen.
+Das Geheimnis aus einem Haufen von Knochen eine Knochenhydra zu erschaffen, muss entdeckt werden, vergleichbar mit einem xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret[arkanen Geheimnis].
+Der Charakter muss neben dem geheimen Wissen Knochen Kreaturen zusammensuchen, deren GK in Summe mindesten 24 ergibt.
+Damit die Knochenhydra bestimmte <<ref_bestary_bonehydra_heads,Köpfe>> ausbilden kann, sind je Typ weitere Zutaten nötig:
+* <<ref_bestiary_bonehydra_head_type_necrotic_bomb,Nekrotische Bombe>>: Leichnam einer Kreatur mit xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei (Nekromantie) ab Stufe 8
+* <<ref_bestiary_bonehydra_head_type_fire_odem,Feuerodem>> der Leichnam einer Kreatur, die die Fähigkeit link:../skills/bestiary_skill_attack_odem.adoc[Odem] bessen hat.
+* <<ref_bestiary_bonehydra_head_type_reanimate_corpse,Renimiere Leiche>>: zusätzlich muss ein Leichnam eines link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoiden], der das Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] (xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_necromancy[Nekormantie]) mindestens auf xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe] 7 beherrscht hat, verwendet werden.
+* <<ref_bestiary_bonehydra_head_type_draining_bite,Energieraubender Biss>>. der Leichnam einer Kreatur mit Typ link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc[Vampir]
+* <<ref_bestiary_bonehydra_head_type_bonespear_spit,Knochenspeer spucken>>: keine besonderen Voraussetzungen
+
+[[ref_bestary_bonehydra_Detach_head]]
+== Kopf loslösen
+Eine Knochenhydra besitzt eine außergewöhnliche Fähigkeit, die aus ihrer untoten Natur erwächst.
+Die Knochenhydra darf mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexen Aktion] einen ihrer Köpfe ablösen.
+Dieser kann sich eigenständig bewegen und agieren, dabei formt der knochige Hals einen schlangenförmigen mumifizierten Körper.
+Der Kopf agiert als eigenständige Kreatur während der Initiative der Knochenhydra mit einer xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] von 9,00 Metern.
+Der Kopf besitzt basierend auf seinem Typ die passende Attacke und eine Biss-Attacke.
+wie die Hydra besitzt der Kopf link:../skills/bestiary_skill_naturalarmor.adoc[natürliche Rüstung] in Höhe von 6.
+Der Kopf besitzt wie jeder <<ref_bestary_bonehydra_heads,Kopf>> 20 TP.
+Ein so abgetrennter Kopf zählt auch zu dem Maximum der Köpfe, die eine Knochenhydra besitzen darf.
+Erst wenn der Kopf zerstört wurde, kann die Hydra ihn regenerieren.
+Der Kopf kann sich jederzeit mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] an die Hydra wiederangliedern.
+Solange der Kopf abgetrennt ist, verliert die Hydra 20 ihrer TP.
+Stirbt die Hydra, xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death_instant_death[sterben sofort] alle Köpfe, die auf diese Weise individuell unterwegs sind.
+
+== Taktik
+Die Knochenhydra ist wie viele Untote kein taktisches Genie, wenn sie nicht gerade von einem intelligenten Kontrolleuer gesteuert wird.
+Dennoch kann eine Knochenhydra das Schlachtfeld lesen und nutzt die Fähigkeit, ihre Köpfe zu verteilen, um Situationen zu erschaffen, die einzelene Kontrahenten einkesseln.
+
+
+
+
+
+

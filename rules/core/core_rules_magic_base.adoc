@@ -569,7 +569,7 @@ Grundsätzlich sind Boni aus unterschiedlichen Gegenständen, Zaubern und Talent
 Möchte ein Charakter eine Spruchrolle einsetzen, dann muss er in der Lage sein, diese laut vorlesen zu können.
 Zauber, die üblicherweise <<ref_core_magic_rules_spellcasting_components,Komponenten>> wie Zutaten benötigen, benötigen diese beim Wirken durch Spruchrollen nicht.
 
-Der Anwender benötigt keine Vorbereitung und in diesem speziellen Fall kann ein Charakter eine Probe auf das Attribut EN als ungeübte Anwendung des Talentes xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] durchführen, sollte er das Talent nicht besitzen.
+Der Anwender benötigt keine Vorbereitung und es gelten die Regeln für <<ref_magic_rules_spellcasting_laymansmagic,Leihenmagie>>.
 
 Des Weiteren entfällt die Beschränkung durch die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[maximale Magiepotenz].
 Jedoch kann der Charakter für den Zauberspruch keine <<ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing,zusätzlichen Effekte>> nutzen.
@@ -586,9 +586,7 @@ Der Charakter kann die Spruchrolle auch benutzen, um den Zauberspruch gemäß de
 [[ref_core_magic_rules_spellcasting_grimoire]]
 ==== Zaubersprüche aus einem Grimoire wirken
 Zaubersprüche in einem *Grimoire* können auf besonders machtvolle Weise benutzt werden.
-Ein Grimoire funktioniert wie eine <<ref_core_magic_rules_spellcasting_scrolls,Spruchrolle>>.
-Ein Anwender, der die genannten Voraussetzungen erfüllt, braucht die Zauber nur vorzulesen, die Vorbereitung entfällt und würfelt direkt die Spruchzauberei-Probe.
-Analog zu <<ref_core_magic_rules_spellcasting_scrolls,Spruchrollen>> ist auch hier eine ungeübte Anwendung erlaubt.
+Ein Grimoire funktioniert wie eine <<ref_core_magic_rules_spellcasting_scrolls,Spruchrolle>> und es gelten die Regeln für <<ref_magic_rules_spellcasting_laymansmagic,Leihenmagie>>.
 
 Die Zaubersprüche in einem Grimoire verbrauchen sich jedoch nicht.
 Stattdessen ist der Zauberspruch nach Verwendung, unabhängig vom Erfolg, für eine Anzahl von Kampfphasen inaktiv, die der POT des gewirkten Zauberspruches entspricht.
@@ -605,13 +603,19 @@ Diese Zauber sind im Gegensatz zu einer  <<ref_core_magic_rules_spellcasting_scr
 Zum Verwenden und Aussprechen eines Zauberspruches aus einem Stecken, folgt man den gleichen Regeln wie Spruchrollen.
 Jeder Zauberstecken definiert entweder ist eine feste Anzahl von Anwendungen oder besitzt einen eigenen Pool an <<ref_core_magic_base_items_with_mp,MP>>, aus dem der Zauberspruch gesprochen wird.
 
-Wenn nicht anders erwähnt, muss der Anwender dann eine Spruchzauberei-Probe oder eine Energie-Probe ablegen.
+Wenn nicht anders erwähnt, muss der Anwender dann eine Spruchzauberei-Probe oder eine Energie-Probe ablegen, wie unter <<ref_magic_rules_spellcasting_laymansmagic,Leihenmagie>> beschrieben.
 Manche Zauberstecken und magische Gegenstände entfachen ihre Wirkung einfach auf Kommando.
 
 Zauberstecken vernichten sich nicht bei der Benutzung, sondern reduzieren ihre Anzahl an Verwendungen oder verfügbare MP.
 
 Bei einem Patzer tritt das normale Verbrennen ein.
 Zur Bestimmung der Auswirkung des Patzers wird in der link:../tables/table_magic_spellfailure_items.adoc[Tabelle] die Spalte *MP-Basiert* verwendet.
+
+[[ref_magic_rules_spellcasting_laymansmagic]]
+==== Leihenmagie
+Als *Leihenmagie* wird das Wirken von Zaubern mithilfe von <<ref_core_magic_rules_spellcasting_scrolls,Spruchrollen>>, <<ref_core_magic_rules_spellcasting_grimoire,Grimoiren>> und <<ref_magic_rules_spellcasting_rods,Zauberstecken>> genannt, da nicht unbedingt eine Ausbildung in xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] nötig ist, um eine Spruchrolle vorzulesen.
+In diesem speziellen Fall kann ein Charakter eine Probe auf das Attribut EN als ungeübte Anwendung des Talentes xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] durchführen, sollte er das Talent nicht besitzen.
+Diese Probe erhält jedoch einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von 3.
 
 [[ref_core_magic_base_arcanetrick]]
 ==== Arkane Tricks

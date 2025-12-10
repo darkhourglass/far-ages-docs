@@ -1,0 +1,20 @@
+= Rückenwind
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein/Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Körper, Luft+
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* bis zu 5 link link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen +
+*Dauer:* 24 Stunden+
+*Effekt:* +
+Mit diesem Ritual kannst Du bis zu 5 lebendige Kreaturen inklusive Dir verzaubern.
+Mystische Energien durchströmen die Körper der Kreaturen, lassen ihre Muskeln leicht agieren und sogar der Wind ist immer in ihrem Rücken.
+Für die Dauer des Zaubers erhalten sie daher folgende Bonus:
+* im xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] einer Kampfphase erhalten sie einen Bonus von +3,00 Metern auf ihre xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
+* xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_travelling_speed[Reisegeschwindigkeiten] reduzieren sich um 10%
+Am Ende der Dauer des Zaubers muss jede Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] gegen 15 bestehen oder sie erhält 1 Stufe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung].
+*Zusätzliche Effekte:* +
++5 MP: Anzahl der Ziele + 1 lebende Kreatur +

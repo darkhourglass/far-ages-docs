@@ -1,0 +1,19 @@
+= Blitznova
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Geste +
+*Fokus:* Bewegung +
+*Vorbereitung:* 4 +
+*Reichweite:* - +
+*Anzahl der Ziele:* Radius 6,00 Meter +
+*Dauer:* Sofort +
+*Effekt:* Der Magier schnipst mit der Spruchzauberei-Probe mit seinen Fingern.
+Aus seiner Hand entsteht eine arkane Welle von Blitzen, die sich vom Magier aus kreisförmig ausdehnt.
+
+Jede Kreatur im Wirkungsbereich erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 4W10 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock-Schaden].
+Ein erfolgreicher xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] gegen die Spruchzauberei-Probe halbiert diesen Schaden. +
+*Zusätzliche Effekte:* +
++5 MP, +1 POT: Radius +3,00 Meter +
++5 MP, +1 POT: Schaden +2W10 Schock +
