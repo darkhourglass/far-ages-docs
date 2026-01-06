@@ -1,0 +1,83 @@
+= Kernunnus, Herr der Wilden Jagd
+
+* link:../../../rules/advanced/creaturetypes/primary/creaturetype_primary_empyrean.adoc[Empyrean]
+* link:../../../rules/advanced/creaturetypes/secondary/creatruretype_secondary_cosmic.adoc[Kosmisch]
+* link:../../../bestiary/templates/bestiary_template_legendary.adoc[Legendär]
+* GK: X
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+// +6, +4 und +2 auf 3
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +
+*MP:* XXX +
+*SP:* XXX //+20 +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:*  +
+* link:../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+// alle +5
+*Aufmerksamkeit:* ER+SB +6 +
+*Disziplin:* SB+CH +
+*Körper:* ST+KO +
+*Magie:* EN+SB +3 +
+*Reflex:* GE+ER +3 +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+* link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../../../bestiary/skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
+* link:../../../bestiary/skills/specific/thewildhunt/bestiary_skill_thewildhunt_shadowhorse.adoc[Schattenpferd]
+
+== Regeln
+
+== Taktik

@@ -1,0 +1,30 @@
+= Graben (Typ, Bewegungsrate)
+
+*Voraussetzungen:* - +
+*Typ:* Bewegung +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur besitzt eine natürliche oder auch magische Fähigkeit, sich durch den Boden und Erdreich zu graben.
+Die Kreatur könnte beispielsweise kräftige Grabwerkzeuge besitzen oder eine korrosive Säure über ihren Körper absondern.
+Die Fähigkeit steht für unterschiedliche *Typen* von Untergrund zur Verfügung:
+* *Weich (1):* Die Kreatur kann sich durch weichen, lockeren Grund graben, wie Sand, Kiesel, lockere Erde.
+* *Solide (2):* Die Kreatur kann sich durch festen Grund graben, wie Lehm und Erde.
+* *Fels (3):* Die Kreatur kann sich durch massives Gestein graben.
+* *Geschmolzen (4):* Geschmolzenes Gestein umfasst Lava und Magma. Nur wenige, extra geschützte Kreaturen können sich durch diesen Typs Untergrunds bewegen.
+Eine Kreatur, die sich durch den Typ Fels (3) graben kann, kann sich auch durch Untergrund des Typs (2) und (1) graben.
+Die Fähigkeit stellt der Kreatur die folgenden xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktionen] für den eigenen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] zur Verfügung:
+* *Eingraben:*
+Die Kreatur kann eine Aktion einsetzen, um sich den Untergrund des passenden Typs einzugraben.
+Mir einer Aktion vergräbt sich die Kreatur bis zu 3 Punkte ihrer GK.
+Ist die Kreatur größer, muss sie mehrere Aktionen einsetzen, bis sie vollständig unter der Erdoberfläche ist.
+Beispielsweise muss eine Kreatur mit GK 8 diese Aktion 3-Mal einsetzen.
+Während die Kreatur eingegraben ist, gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_coverage[unter totale Deckung] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_invisible[unsichtbar].
+In diesem Zustand kann sie die anderen Aktionen Bewegung und Ausgraben verwenden.
+link:../templates/bestiary_template_legendary.adoc[legendäre] Kreaturen können sich mit einer Eingraben-Aktion vollständig eingraben.
+* *Bewegung:*
+Ist die Kreatur vollständig eingegraben, kann sie eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegungsaktion] nutzen, um sich durch den Untergrund des angegebenen Typs zu graben.
+So nutzt die Kreatur die vollständig angegebene *Bewegungsrate*, jedoch maximal ihre reguläre BEW.
+* *Ausgraben:*
+Mit dieser Aktion erscheint die Kreatur wieder an der Oberfläche.
+link:../templates/bestiary_template_legendary.adoc[legendäre] Kreaturen können alle diese Aktionen als legendäre Aktionen nutzen.

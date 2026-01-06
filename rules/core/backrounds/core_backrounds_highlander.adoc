@@ -1,0 +1,13 @@
+= Hochlandbewohner
+
+// TODO Beschreibung
+
+*Attribute:* - +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_athletics[Athletik], xref:../core_rules_talents_base.adoc#ref_talents_survival[Überleben] +
+*Eigenschaften:* <<ref_core_backrounds_highlander_mountainwalk,Bergsteiger>> +
+*Fortitudo:* 3 +
+
+[[ref_core_backrounds_highlander_mountainwalk]]
+== Bergsteiger
+Du bist es gewohnt, Dich in hügeligen, steinigen und unsicheren Gelände Dich sicher zu bewegen.
+Du erhältst keinen Malus auf Deine xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] aufgrund von xref:../core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwierigem Gelände], wenn dieses Teil des Hochlandes ist.

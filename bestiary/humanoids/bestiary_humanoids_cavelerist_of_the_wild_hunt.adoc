@@ -1,0 +1,81 @@
+= Reiter der wilden Jagd
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+* link:../../rules/advanced/creaturetypes/secondary/creatruretype_secondary_supernatural.adoc[Übernatürlich]
+* link:../templates/bestiary_template_scion_of_thewildhunt.adoc[Angehöriger der Wilden Jagd]
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* XXX (+x) +2 +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +4 +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +2 +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +
+*MP:* XXX +
+*SP:* XXX +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +
+*Körper:* ST+KO +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] +3
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] +3
+* Talent 1
+* Talent 2
+* link:../skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
+* link:../skills/specific/thewildhunt/bestiary_skill_thewildhunt_shadowhorse.adoc[Schattenpferd]
+
+== Regeln
+
+== Taktik

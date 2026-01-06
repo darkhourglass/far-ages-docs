@@ -12,7 +12,7 @@ Adelige sind sich in der Regel dieses Status bewusst und pflegen ihn nach innen 
 Innerhalb der Häuser und Familien herrscht ein Intrigenspiel, um mehr Einfluss bei wichtigen Geschäften, welches durch ein höfisches Spiel mit der Etiquette überbetont wird.
 Nach außen versuchen Adelige ein ehrenhaftes und würdevolles Images aufzubauen, um als guter Geschäftspartner aufzutreten und andere von sich zu überzeugen.
 Adelige erwarten normalerweise eine besondere Behandlung, die ihrem Stand gerecht wird.
-Nicht-Adelige werden in der Regel nicht sonderlich beachtet, wobei auch auf Al'vaha der Adelsstand nur solange hingenommen wird, wie der Schein gewart wird.
+Nicht-Adelige werden in der Regel nicht sonderlich beachtet, wobei auch auf Al'vaha der Adelsstand nur solange hingenommen wird, wie der Schein gewahrt wird.
 Degenerierte, brutale und tyrannische Adelige haben auch schon das andere Ende Mistgabeln und Fackeln zu spüren bekommen oder wurden von Konkurrenten anderer Häuser ausgeschaltet.
 Die Zugehörigkeit zu einem Haus können Spielercharakter über die folgenden Hintergründe erhalten:
 * link:../../../../rules/core/backrounds/core_backrounds_aristocrat.adoc[Aristokrat]
@@ -46,43 +46,46 @@ Charaktere können aus einem Haus stammen oder sich im Rahmen einer Kampagne ein
 [[ref_house_of_the_sails]]
 === Haus der Segel
 *Wappen:* Ein Schiff mit offenen Segel auf offener See auf braunen Grund
-*Familien:* Menschen (Silbersegel, Windfänger, Oroku), Elfen (Hathiel, Liathandriel), Orks (Tharkos, Zedra)
+*Familien:* Menschen (_Silbersegel_, Windfänger, Oroku), Elfen (Hathiel, Liathandriel), Orks (Tharkos, Zedra)
 *Assoziation:* ausschließlich freies Haus
 
 [[ref_house_of_the_quill]]
 === Haus der Feder
 *Wappen:* Ein Tintenfass und Federkiel vor grünem Grund
-*Familien:*
+*Familien:* Menschen (_Hadalhar_, Imagan), Elfen (Elejmandii), Zwerge (Dhuzuf, Akrikzu)
 *Assoziation:* freies Haus / loyal
 Während andere Häuser oft ihre Machtstellung aus dem Monopol auf eine Handelsware, Dienstleistung ziehen, besetzt das Haus der Feder die Verwaltung eines Staats in Aufgaben der Bürokratie.
 Dies stammt auf dem ewigen Reich als die Häuser als merkantile Aristokrakengesellschaften gegründet wurden und das Haus der Feder diese Lücke entdeckte und sich spezialisierte.
 Mitglieder des Hauses der Feder besetzen öffentliche Ämter, Beamtenstellen, Verwaltungen und so ziemlich alles, was in der Organisation eines Staates, einer Stadt oder gar kleinen Gemeinde die Notwendigkeit von Buchführung und Formularen erfordert.
 Jedes Mitglied ist trainiert in xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_read_write[Lesen und Schreiben], viele folgen Professionen wie der des link:../../../../rules/core/professions/core_professions_scholar.adoc[Scholaren].
-Charaktere können mit dem Haus der Feder in Kontakt kommen, wenn sie bürokratische Dienstleistungen in Anspruch nehmen müssen, zum Beispiel: Verlängerung ihrer Idenfikationspapiere, die Beantragung von Ausnahmgenehmigungen für verschiedenen sanktionierten Tätigkeiten wie
+Charaktere können mit dem Haus der Feder in Kontakt kommen, wenn sie bürokratische Dienstleistungen in Anspruch nehmen müssen, zum Beispiel: Verlängerung ihrer Idenfikationspapiere, die Beantragung von Genehmigungen für verschiedenen sanktionierten Tätigkeiten wie
 * Verwendung von Magie in der Öffentlichkeit
 * Tragen von magischen Gegenständen
 * Das Töten seltener und gefährlicher Kreaturen
 Neben der Bürokratie besitzt das Haus der Feder ein weiteres Standbein, nämlich das des Rechts und dessen Verteidigung.
 Anwälte und Rechtsberater stammen fast ausschließlich aus dem Haus der Feder und bieten ihre Dienste für viel Geld an.
 Die wahre Macht liegt jedoch in dem stehenden Heer von link:../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_justicar.adoc[Justikaren], die ausschließlich vom Haus der Feder berufen und eingesetzt werden können.
-
+Auch der Ritterordern der link:../rules/knightlyOrders/knights_of_the_scroll.adoc[Ritter der Schriftrolle] steht dem Haus der Feder nah.
 [[ref_house_of_the_pale_lion]]
 === Haus des weißen Löwen
 *Wappen:*
-*Familien:*
+*Familien:* Menschen (Agrenn, Daschowren), Zwerge (Dur'Amk, Ungoz), Orks (_Grenem_, Orun, Nevachi), Trolle (Ghan,Lem)
 *Assoziation:* ausschließlich loyales Haus
-
+// Krieger, Wachen, Duelle, Sicherheit
 [[ref_house_of_the_coin]]
 === Haus der Münze
 *Wappen:*
-*Familien:*
+*Familien:* Menschen (Ankestar), Elfen (Imahganji, _Chavesthiel_), Zwerge (_Kall'Juga_, Kall'Imares)
 *Assoziation:* freies Haus / loyal
-
+// Bankwesen, Kredit, Finanzen, Geldgeschäfte
 [[ref_house_of_the_wheel]]
 === Haus des Rades
-*Wappen:*
-*Familien:*
+*Wappen:* ein goldenes Speichenrad auf grünem Grund
+*Familien:* Menschen(Atardis, Kalaved), Zwerge (Donaan, Shakoghz), Trolle (_Udun_)
 *Assoziation:* freies Haus / loyal
+Das Haus des Rades fokussiert seine Interessen und Tätigkeiten im Bereich des Transportwesens.
+Das Haus des Rades organisiert Handelsrouten und Karavanen, sorgt für den Schutz und Transport von Waren jeder Natur.
+Zwischen den großen Städten der Herzlande bewegen sich regelmäßige Karavanen hin und her, Wagen um Wagen beladen mit Gütern und auch Passagieren, die sich den Transport leisten können.
 
 [[ref_house_of_the_bear]]
 === Haus des Bären
@@ -93,8 +96,18 @@ Die wahre Macht liegt jedoch in dem stehenden Heer von link:../../../../rules/ad
 [[ref_house_of_the_forge]]
 === Haus der Schmiede
 *Wappen:* Ein grauer Amboss auf rotem Untergrund
-*Familien:* Menschen (Madanii),  Zwerge (Ohkazun, Khazuk, Lhak), Orks (Urosh), Trolle (Khuf, Faji)
+*Familien:* Menschen (Madanii),  Zwerge (_Ohkazun_, Khazuk, Lhak), Orks (_Urosh_), Trolle (Khuf, Faji)
 *Assoziation:* freies Haus / loyal
+Das *Haus der Schmiede* ist eine einzigartige Verbindung zweier großer Familien von Zwergen und Orks.
+Das Haus der Schmiede bündelt Handwerks und Handelsleistungen rund um das Schmieden und Bearbeiten von Metall.
+Traditionel steht das Haus der Gilde der Technomanten nahe, einem der großen Kunden und Kooperationspartner des Hauses.
+Ähnlich eine Gilde hat das Haus der Schmiede immer kritisches Auge auf alle Dienstleistungen und Angebote bezüglich Schmieden und Metallurgy.
+Auch wenn das Haus unabhängige Schmiede neben ihren eigenen Geschäften akzeptiert, entstehenen Spannungen, wenn Schmiede aus dem Haus und unabhängige Schmiede lange in unmittelbarer Nachbarschaft existieren.
+Schmiede, die dem Haus angehören, werden an strengen Qualitätsstandards gemessen.
+Mitglieder, die in ihren Schmieden diesen Standards nicht entsprechen, müssen den Betrieb schließen.
+Das Haus der Schmiede besteht allerdings nicht auf seinem Monopol und bietet auch die Ausbildung zum Schmied für vielversprechende Kandidaten aus den eigenen Reihen wie auch für Associés an.
+Das Haus der Schmiede ist politisch, wirtschaftlich und auch militärisch eines der mächtigsten Häuser der Herzlande.
+Die militärische Macht stammt auf dem Ritterordern der link:../rules/knightlyOrders/anvilguardians.adoc[Ambosswächter], der eine gemeinsame militärische Organisiation des Hauses der Schmiede und der Technomantengilde ist.
 
 == Untergegangende Häuser
 Als *untergegangene Häuser* bezeichnet man die Häuser, die in keiner der aktuellen Nationen als offizielles Haus anerkannt sind.
@@ -103,7 +116,7 @@ Angehörige dieser Häuser haben in der Regel keine gesellschaftliche, wirtschaf
 Mit Erlaubnis des SL dürfen Charaktere auch xref:../rules/joining_a_house.adoc[Teil eines untergegangenen Hauses] werden.
 [[ref_house_of_the_crossed_blades]]
 === Haus der gekreuzten Klingen
-*Wappen:*
+*Wappen:* zwei gekreutze Schwerter auf rotem Grund
 *Familien:*
 *Assoziation:* untergegangen / frei
 

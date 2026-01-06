@@ -1,0 +1,19 @@
+= Schützender Schild
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Metal, Schatten +
+*Vorbereitung:* 5 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt] +
+*Dauer:* 10 Kampfphasen +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] erschaffst Du um das Ziel-Konstrukt eine unsichtbare, schützende Barriere, die das Konstrukt vor Schaden schützt.
+Der Schild hat einen eigenen Pool von 80 Schadenspunkten, die zuerst abgezogen werden, bevor das Konstrukt durch beliebige Quelle TP verliert.
+Der Effekt endet wenn der Pool des Schildes aufgebraucht ist oder die Dauer des Zaubers überschritten wird.
+Im letzten Fall verschwindet der Schild, auch wenn sein Pool noch punkte enthält.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++1 POT, +5 MP: initialer Pool des Schildes +10 Punkte

@@ -1,0 +1,17 @@
+= Gefrorener Angriff
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Stille, Körper +
+*Vorbereitung:* 3 +
+*Reichweite:* Deine BEW +
+*Anzahl der Ziele:* Selbst +
+*Dauer:* Sofort +
+*Effekt:* +
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] formt sich eine Sphere aus eisiger Energie um Dich und katapultiert Dich vorwärts.
+Dies gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_charge[Stormangriff], der mit Deiner xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] durchgeführt wird, wobei zusätzliche Effekte dieses Zaubers die Reichweite erhöhen können.
+Jeder xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Nahkampfangriff] in dieser xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Zug] von Dir verursacht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost-Schaden].
+*Zusätzliche Effekte:* +
++1 POT, +5 MP: Angriffsreichweite +,3,00 Meter

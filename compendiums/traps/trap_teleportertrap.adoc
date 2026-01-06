@@ -1,0 +1,8 @@
+== Teleporter Falle
+
+*Auslöser:* Bodenplatte
+*Entdecken:* 17
+*Entschärfen:* 18
+*Konstruktion:* link:../spells/spell_teleport_other.adoc[Andere Teleportieren], 4000 Silber
+*Effekt:* Tritt eine Kreatur auf die Bodenplatte wird Sie Ziel des Zauberspruchs link:../spells/spell_teleport_other.adoc[Andere Teleportieren], der sie zu einem vom Fallensteller bestimmten Ort teleportiert, der innerhalb der Reichweite des Zaubers liegen muss.
+Dieser Ort wird mit erfolgreicher Konstruktion der Falle festgelegt.

@@ -1,0 +1,84 @@
+= Name
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc#ref_primary_creaturetype_demons_rules_powerlevel[Machtstufe] X)
+// no secondary type
+* Templates
+* GK: X
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5 +10
+//MP=EN*10 +20
+//SP=(SB+CH)*5 +10
+*TP:* XXX +
+*MP:* XXX +
+*SP:* XXX +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aetherisch]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +6 +
+*Körper:* ST+KO +6 +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* link:../skills/specific/demon/bestiary_skill_demon_cosmic_alignment.adoc[Kosmische Ausrichtung]
+* link:../skills/specific/demon/bestiary_skill_demon_voidborn.adoc[Geboren aus der Leere]
+* link:../skills/specific/demon/bestiary_skill_demon_demonic_dominance.adoc[Dämonische Dominanz]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+
+== Regeln
+
+== Taktik

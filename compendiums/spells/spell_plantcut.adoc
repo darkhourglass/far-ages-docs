@@ -1,0 +1,18 @@
+= Pflanzenschnitt
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 1 (Arkaner Trick) +
+*Rettungswurf:* Nein +
+*Komponenten:* Gesten +
+*Fokus:* Wachstum +
+*Vorbereitung:* 1 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Pflanze, die keine link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Kreatur] ist +
+*Dauer:* sofort +
+*Effekt:* +
+Als Ziel des Zauber gilt nur eine nicht-magische Pflanze, die keine Kreatur ist.
+Mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] musst Du eine der folgenden Optionen wählen, was mit der Pflanze durch den Zauber passieren soll:
+* *Formschnitt:* Der Zauber schneidet die Pflanze nach Deinen Wünschen in Form.
+* *Ernte:* Der Zauber schneidet alle ernterelevanten Teil der Pflanze ab, z.B. Früchte, Blätte, Blüten.
+* *Wegschnitt:* Die Pflanze wird zurückgeschnitten, so dass sie kein Hindernis mehr darstellt.
+*Zusätzliche Effekte:* +

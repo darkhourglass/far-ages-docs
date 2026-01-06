@@ -1,0 +1,92 @@
+= Ritter der Schriftrolle
+
+[quote, unbekannt]
+"Die Feder schneidet tiefer als das Schwert"
+
+Der Orden der *Ritter der Schriftrolle* gehört zu den ältesten Ritterordern der Herzlande.
+Der Legende nach gründete eine Gruppe von Abenteuern und Archäologen den Ordern nach einer erfolgreichen Expedition in die nördlichen Länder und die Reklamation eines wichtigen Artefakts der Titanen. //TODO
+Der Orden wurde gegründet, als die Gruppe ihre Erkenntnisse als Buch veröffentlichen wollte und sowohl dieses Wissen als auch gefundene Artefakte schützen wollte.
+Nachdem dieser Grundstein gelegt wurde, folgten weitere Expeditionen in unbekannte Gefahren, die alle dokumentiert wurden.
+Der Orden mit Nähe zum xref:../../nations_and_factions/noble_houses_of_the_heartlands.adoc#ref_house_of_the_quill[Haus der Feder] gehört heute zu den bekanntesten Organisationen, die Expeditionen organisieren und ist für Abenteurer durchaus interessant.
+Gleichzeitig unterhält der Orden Bibliotheken und Universitäten, um diejenigen, die es sich leisten können, zu unterrichten.
+Die primäre Ambition des Ordens ist das Sammeln und der Schutz von Wissen, bevorzugt Altes und Verlorenes, allerdings bietet der Orden auch Forschern moderner Ideen ein Zuhause.
+Der Orden unterhält eine Universität und Bibliothek in link:../../cities/cities_stratum_cityofarts.adoc[Stratum], die Laien ausbilden kann in xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_read_write[Lesen/schreiben] und der Fähigkeit link:../../../../../rules/core/skills/spellcasting/core_skill_arcane_initiate.adoc[Arkaner Eingeweihter].
+
+== Wappen des Ordens
+Die Ritter der Schriftrolle tragen als Wappen eine stilisierte, zusammengerollte Schriftrolle auf silbernen Grund.
+
+== Salbung des Ordens
+Um ein Mitglied der Ritter der Schriftrolle zu werden, muss ein Charakter dem xref:../../../../rules/core/core_rules_charactercreation.adoc#ref_core_character_advanced_rules_paragon_paths_mastery[Schicksalspfad] des link:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc[Ordensritters] einschlagen.
+Die xref:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_requirement_anointment[Salbung] erfolgt nur, wenn eine der folgenden Voraussetzungen erfüllt ist:
+* der Charakter hat mindestens 3 unterschiedliche xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen-Talente] mit Stufe 5 oder höher.
+* der Charakter hat das Talent xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_research[Forschen] auf Stufe 3 oder höher
+
+== Ordensränge und Ausrüstung
+Die xref:../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_rank[Ränge] im Orden der Schriftrolle weichen vom Standard leicht ab und sind inklusive der verfügbaren xref:../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_wargear[Ausrüstung] in der folgenden Tabelle aufgelistet:
+
+|===
+|Rang |Name |Verfügbare Ausrüstung
+
+|1
+|Knappe / Novize / Lektor
+|Schreibutensilien und ein leeres, gebundenes Buch
+
+|2
+|Archivar
+|Ordenswappen und Ausrüstung für Reisen
+
+|3
+|Ritter
+|Reittier, Rüstung und Bewaffnung
+
+|4
+|Prokurist
+|Spruchrolle in Wert von bis zu 500 Silbermünzen
+
+|5
+|Investigator
+|Spruchrollen in Wert von bis zu 1.000 Silbermünzen
+
+|6
+|Meister Investigator
+|Persönliches Grimoire
+
+|7
+|Lord Kämmerer
+|Exzellente Ausrüstung
+|===
+== Ordenstraining
+Der Orden bietet seinen Mitgliedern xref:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_training[Training] an.
+Für jede Wahl des Trainings kann:
+* eines der folgenden Talente um 1 Stufe erhöht werden, auch wenn es kein Berufstalent ist:
+
+** xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_research[Forschen]
+** xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_read_write[Lesen/Schreiben]
+** xref:../../../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] (ein Wissensgebiet inklusive Arkanes)
+
+* eine der folgenden Fähigkeiten kann gelernt werden, wenn die Voraussetzungen erfüllt sind:
+** link:../../../../../rules/core/skills/spellcasting/core_skill_arcane_initiate.adoc[Arkane Eingeweihter]
+
+== Ideale des Orderns
+Die xref:../../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_templar.adoc#ref_templar_orders_ideale[Ideale] der Ritter der Schriftrolle werden in wenigen Regeln zusammengefasst:
+
+* *Bewahrung:*
+
+** Wissen in schriftlicher Form gehört in eine Bibliothek - vorzugsweise in eine des Orderns
+** Artefakte und mächtige Gegenstände sind zu sichern - um nicht zu sagen, sie gehören in ein Museum
+** Wissen ist Macht: es ist die Aufgabe des Ordens, Wissen, dass die Gesellschaft voranbringt, öffentlich zu machen und gefährliches Wissen zu beschützen
+
+*  *Achtung:*
+** Der Orden der Schriftrolle ist kein militärischer Orden - die Teilnahme an militärischen Aktionen ist untersagt, außer in Selbstverteidigung
+** Jeder Ritter setzt sich für den Schutz von Zivilisten aktiv wie passiv ein
+** Der Orden lehnt Konzepte wie Sklaverei, Tyrannei und Korruption ab und bekämpft diese
+
+== Divisionen
+Der Orden der Schriftrolle unterhält unterschiedliche *Divisionen*:
+* Die *Skriptoren* arbeiten an der Kopie und Restauration von alten Dokumenten, um diese in verschiedenen Bibliotheken auf dem Kontinent verteilen zu können. Die Skriptoren verwalten auch das Hauptgewölbe, in dem alle Originale gesichert werden.
+* Die *Karthographen* ziehen durch die Lande und markieren auf ihren Karten Orte, Küstenlinien, vergessene Straßen, Flüsse und Seen.
+* Die *Sucher* gehören zu den nach Außen bekanntesten Rittern, da die Sucher diejenigen sind, die ausgesandt werden, um Artefakte, Bücher und Schriftrollen zu sichern oder alte Ruinen zu erkunden.
+* Die *Runenschmiede* rekrutieren sich aus Mitgliedern, die die gleichnamige Berufung beherrschen. Die Runenschmiede beschäftigen sich mit verlorenen Wissen rund um Runen und die Überlieferungen der Titanen, insbesondere der Entzifferung ihrer komplexen Runensprache. Die Runenschmiede besitzen die wohl umfangreichste Sammlung von Schriftstücken und Runentafeln der Titanen auf ganz Al'vaha.
+* Die *Hospitaler* haben sich einem besonderen Wissensgebiet verschrieben: der Heilung und Medizin. Neben intensiven Studien organisierne und betreiben Hospitaler Krankenhäuser, um Kranke zu behandeln. Eine Gebühr wird nur von Reichen und Adeligen erhoben. In Zeiten von Hunger verteilen Hospitaler auch Essen unter den Bedürftigen.
+Alle Divisionen sind als offizielle Teile des Ordens anerkannt.
+Jede Division wird intern von ihren Mitgliedern verwaltet und angeführt von einem Meister Investigator (Rang 6).

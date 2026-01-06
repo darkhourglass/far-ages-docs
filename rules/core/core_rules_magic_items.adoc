@@ -6,16 +6,16 @@
 Legenden um mächtige magische Gegenstände, wie Schwerter oder Rüstungen mit klangvollen Namen, die von großen, strahlenden Helden geführt werden, gehören zu den verbreiteten Unterhaltungsmöglichkeiten für das Volk.
 
 Neben dieser romantischen Seite gibt es tatsächlich auch die wissenschaftliche Seite, die sich mit der Herstellung dieser Gegenstände beschäftigt.
-Zauberer, deren Fähigkeiten über viele Jahre hin gewachsen sind, können dieses Talent lernen und begeben sich auf einen mühsamen Pfad bis zur wahren Meisterung.
+Zauberer, deren Fähigkeiten über viele Jahre hin gewachsen sind, können dieses <<ref_magic_items_createmagicalitem_talent,Talent>> lernen und begeben sich auf einen mühsamen Pfad bis zur wahren Meisterung.
 
-Die Ernüchterung kommt dann, wenn bemerkt wird, dass dieses Talent dazu benutzt wird, „einfache“ magische Gegenstände zu erschaffen, die wenig Legendäres an sich haben.
+Die Ernüchterung kommt dann, wenn bemerkt wird, dass dieses <<ref_magic_items_createmagicalitem_talent,Talent>> dazu benutzt wird, „einfache“ magische Gegenstände zu erschaffen, die wenig Legendäres an sich haben.
 
 Die meisten Magier, die kommerziell magische Gegenstände herstellen, konzentrieren sich meistens auf die einfachen Gegenstände, denn auch die Magier wissen, dass die wenigsten Kunden überhaupt die Beträge für mächtige Gegenstände entrichtet können und dass solche Gegenstände nicht selten gestohlen werden.
 
 Im Laden eines Magiers findet man Spruchrollen, Tränke, zwei bis drei Zauberstecken, kleine Magiespeicher, abgestimmte kleine und mittlere magische Kristalle und Zutaten.
 Grimoire findet man so gut wie niemals in Läden zum Verkauf, jedoch kann es vorkommen, dass Magier ein Grimoire von jemand anders kaufen, wenn sie darin einen ihnen unbekannten Spruch finden.
 
-Magische Gegenstände, auf denen Effekte geprägt werden, sind üblicherweise nicht zu verkaufen, bzw. man findet sie nicht in einem typischen Magier-Laden.
+Magische Gegenstände, auf denen Effekte geprägt werden, sind üblicherweise nicht zu verkaufen, bzw. man findet sie nicht in einem typischen xref:core_rules_adventures.adoc#ref_core_adventures_settlements_sample_services_mage[Magier-Laden].
 
 Die geprägten Gegenstände finden sich meistens in Kunstgalerien reicher Kaufleute und Adeliger.
 Der Großteil erhielt diese Gegenstände im Laufe des Ewigen Reiches, welches einer der größten Produzenten solcher Gegenstände war.
@@ -40,30 +40,28 @@ Die Machtstufen stehen für die Rarität des Gegenstandes und beeinflussen die R
 Die folgende link:../tables/magic/table_magic_items_powerlevels.adoc[Tabelle] gibt die Übersicht der Eigenschaften pro Machtstufe.
 Diese werden in den folgenden Kapiteln im Details beschrieben.
 
-Machtstufe
-Bezeichnung
-Mindestwurf für Herstellung
-Dauer der Herstellung
-Identifikation (Proben, Mindestwurf)
-Wert
-Zerstörung
-Beseelung möglich
+* *Machtstufe:* Die konkrete Angabe der Machtstufe ab Wert 1
+* *Bezeichnung:* Eine Bezeichnung, die die Seltenheit des Gegenstands beschreiben soll und ist direkt zur Machtstufe verbunden.
+* *Mindestwurf für Herstellung:* Mindestwurf für die <<ref_magic_items_createmagicalitem_talent,Talent-Probe>>
+* *Dauer der Herstellung:* Angabe einer Zeiteinheit, die es benötigt, einen Gegenstand dieser Machtstufe herzustellen.
+* *Identifikation (Proben, Mindestwurf):* Anzahl und Mindestwurf der Proben zur <<ref_magic_items_identification,Identifikaion>> eines Gegenstandes dieser Machtstufe
+* *Wert:* der Marktwert des Gegenstandes in Silbermünzen
+* *Zerstörung:* Anzahl der für die <<ref_magic_items_destruction_and_repair,Zerstörung>> nötigen Vorfälle
+* *Beseelung möglich:* ist eine <<ref_magic_items_soulenchanting,Beseelung>> möglich.
 
 [[ref_magic_items_usage]]
 == Verwendung von magischen Gegenständen
-
 Sofern ein Gegenstand keine besonderen Voraussetzungen zur Benutzung benötigt, kann diesen jeder ohne Einschränkungen nutzen.
 Ein Schwert kann in die Hand genommen werden, eine Rüstung angezogen und ein Ring über den Finger gezogen werden und die Wirkung des Gegenstandes tritt ein.
 
-Andererseits können magische Gegenstände auch zusätzliche Voraussetzungen erfordern, um sie benutzen zu können.
-Diese Voraussetzungen sind in der Beschreibung des magischen Gegenstandes angegeben.
+Andererseits können magische Gegenstände auch zusätzliche Voraussetzungen erfordern, um sie benutzen zu können, siehe dazu das Kapitel zur <<ref_magic_items_identification_bounding,Bindung>>
 
 Ein Charakter muss einen Gegenstand, neben eventuellen Voraussetzungen, an passender Stelle am Körper tragen, um ihn nutzen zu können.
 Ein magischer Schild muss zum Beispiel wie ein regulärer Schild in der Hand geführt werden, um seine Wirkung zu entfalten.
 Umgeschnallt auf dem Rücken wirkt dieser nicht.
 
+[[ref_magic_items_max_items_bonus]]
 === Maximale Boni von magischen Gegenständen
-
 Gleiche Boni aus gleicher Quelle von magischen Gegenständen sind nicht kumulativ, es zählt immer nur der höchste Bonus.
 
 Bei Rüstungen werden pro Trefferzone kumulativ betrachtet.
@@ -94,12 +92,12 @@ Insgesamt darf sich der Charakter für die Trefferzonen, die sie Plattenrüstung
 Ein Ring, der wiederum +1 auf den Rüstungsschutz auf allen Trefferzonen bietet, zählt nicht, denn das Amulett hat einen höheren Bonus.
 ====
 
+[[ref_magic_items_destruction_and_repair]]
 === Magische Gegenstände zerstören und reparieren
-
 Gerade Waffen und Rüstungen leiden unter den starken Belastungen eines Kampfes und profane, nicht-magische Varianten dieser Ausrüstungsgegenstände sind des Öfteren Opfer solcher Umstände und werden zerstört.
 
 Dasselbe Schicksal kann magischen Gegenständen passieren, jedoch sind sie sehr viel resistenter als ihre nicht-magischen Konterparts.
-Jedes Mal, wenn ein Effekt (zum Beispiel ein Patzer im Angriffstalent oder die Auswirkung eines Zauberspruches) den Gegenstand zerstören würde, notiert sich der Träger des Gegenstandes dies, zum Beispiel in Form einer Strichliste.
+Jedes Mal, wenn ein Effekt oder Ereignis (zum Beispiel ein Patzer im Angriffstalent oder die Auswirkung eines Zauberspruches) den Gegenstand zerstören würde, notiert sich der Träger des Gegenstandes dies, zum Beispiel in Form einer Strichliste.
 
 Hat der Gegenstand mehr „Striche“ als seine Machtstufe, dann ist er zerstört.
 
@@ -108,18 +106,16 @@ Hat der Gegenstand mehr „Striche“ als seine Machtstufe, dann ist er zerstör
 Ein Charakter trägt ein magisches Schwert mit Machtstufe 5, dann kann dieses Schwert 5-mal „zerstört“ werden, bevor es endgültig zerstört wird.
 ====
 
-Ein Charakter kann natürlich magische Gegenstände auch reparieren bzw.reparieren lassen, jedoch kostet dies für jeden „Strich“, den es zu entfernen gilt, 25% des Originalwertes in Silbermünzen.
-Ein Charakter, der magische Gegenstände reparieren will, benötigt das Talent „Magischen Gegenstand Herstellen“ mindestens auf Stufe 5.
-Für die Entfernung eines Striches sind 3 Erfolge nötig.
+Ein Charakter kann natürlich magische Gegenstände auch reparieren bzw. reparieren lassen, jedoch kostet dies für jeden „Strich“, den es zu entfernen gilt, 25% des Originalwertes in Silbermünzen.
+Ein Charakter, der magische Gegenstände reparieren will, benötigt das Talent „Magischen Gegenstand Herstellen“ mindestens auf Talent-Stufe 5.
+Für die Entfernung eines Striches ist eine Probe gegen den Wert 13 + Machtstufe des Gegenstandes nötig.
 
 [[ref_magic_items_identification]]
 == Identifikation von magischen Gegenständen
-Um einen Gegenstand gefahrlos zu nutzen, sollte man genau wissen, wie er funktioniert.
+Um einen verzauberten Gegenstand gefahrlos zu nutzen, sollte man genau wissen, wie er funktioniert.
 Nicht jeder Gegenstand ist hilfreich oder gutartig, manche sind verflucht oder funktionieren gefährlich anders als erwartet, wenn sie falsch genutzt werden.
 
-Jeder magische Gegenstand besitzt eine Angabe zur *Identifikation*, die aus zwei Teilen besteht: der benötigen *Anzahl an Proben* und der *Anzahl der nötigen Erfolge* pro Probe.
-Diese Angabe erfolgt als Zahlenpaar, zum Beispiel 1/5, wobei die erste Zahl immer die Anzahl der nötigen Proben und die zweite Zahl die Anzahl der nötigen Erfolge.
-In diesem Beispiel ist daher nur eine Probe mit 5 Erfolgen nötig.
+Jeder magische Gegenstand besitzt eine Angabe zur *Identifikation*, die aus zwei Teilen besteht: der benötigen *Anzahl an Proben* und dem *Mindestwurf* pro Probe.
 
 Sind alle Proben zur Identifikation erfolgreich, kennt der Charakter den Gegenstand vollständig, das heißt, er ist über alle Fähigkeiten und Voraussetzungen informiert, zum Beispiel:
 
@@ -139,23 +135,61 @@ Ob die Probe zulässig ist, kann aus der Beschreibung des Gegenstandes hervorgeh
 
 .Identifikation von Gegenständen
 ====
-Solvar, der Barde, entdeckt in einer Gruft ein magisches Schwert (3/4).
+Solvar, der Barde, entdeckt in einer Gruft ein magisches Schwert der Machtstufe 2 (Idientifikation 1, 15).
 Anhand seines Talents Wissen(Legenden) folgert sich Solvar, dass dies das Kriegergrabmal von Z'khur, dem Bluttrinker vom Arta-Berg ist.
 Z'khur führte ein besonderes Schwert mit sich, dass das Blut seiner Feinde trank und Z'khur deswegen unbesiegbar machte.
 Vielleicht ist diese Legende bereits ein Hinweis auf die Wirkung des Schwertes.
 Diese Information erhält Solvar nach Ermessen des SL nach einer Talentprobe auf sein Wissenstalent.
 
-Eine spätere Untersuchung mit Aether Wahrnehmung (damit insgesamt die zweite Probe zur Identifikation) enthüllt, dass die Energien, die in dem Schwert wohnen, starken nekromantischen Ursprungs ist.
+Eine alternative Untersuchung mit Aether Wahrnehmung (damit insgesamt die zweite Probe zur Identifikation) enthüllt, dass die Energien, die in dem Schwert wohnen, starken nekromantischen Ursprungs ist.
 Dies könnte durchaus auf diese Fähigkeiten schließen lassen.
-Solvar ist der Lösung um einiges näher, er benötigt noch eine weitere Probe, um das Schwert vollständig identifiziert zu haben.
 ====
+
+[[ref_magic_items_identification_bounding]]
+=== Bindung
+Manche Gegenstände und Artefakte erfordern den Aufbau einer *Bindung* zu ihrem Träger oder Verwender.
+Diese ist als Eigenschaft in der Beschreibung des Gegenstandes in der Regel explizit angegeben.
+Diese Bindung ist beispielsweise ein permanentes Opfer von xref:core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP].
+Solange die Bindung zwischen Gegenstand und Träger besteht, reduziert sich dessen maximaler TP-Pool um diesen Wert.
+Löst der Träger die Bindung zum Gegenstand auf, kann er diese Differenz wieder regenegieren.
+Andere Pools funktionieren analog.
+Sowohl das Aufbauen wie das Abbauen einer Bindung zu einem magischen Gegenstand ist ein Ritual, das ca. 10 Minuten Konzentration erfordert.
+[[ref_magic_items_artefacts]]
+== Artefakte
+Als gesonderte Kategorie magischer Gegenstände sind *Artefakte* zu sehen, die sich in folgenden Punkten unterscheiden:
+1. Artefakte können und werden nicht gezielt hergestellt. Stattdessen entwickeln sich Artefakte im Laufe der Zeit durch Legendenbildung zu dem Stand, an dem sie heute sind.
+2. Artefakte sind einzigartig und keine Massenproduktion
+3. Artefakte können nicht einfach aufgehoben und genutzt werden, jedes Artefakt ist ein Abenteuer für sich
+4. Artefakte werden als Gegenstand mit <<ref_magic_items_powerlevel,Machtstufe 8+>> behandelt.
+Artefakte, die <<ref_magic_items_artefacts_identification,identifiziert>> wurden, können nach den gleichen Richtlinien wie magischen Gegenstände <<ref_magic_items_usage,verwendet>> werden.
+[[ref_magic_items_artefacts_identification]]
+== Artefakte identifzieren
+Um Artefakte zu identifizieren, müssen <<ref_magic_items_artefacts_identification_obtain_key_information,Schlüsselinformationen>> über das Artefakt gesammelt werden.
+Das Sammeln dieser Schlüsselinformationen ist die <<ref_magic_items_identification_bounding,Bindung>>, die ein potentieller Träger aufbringen muss, um das Artefakt verwenden zu können.
+[[ref_magic_items_artefacts_identification_obtain_key_information]]
+=== Schlüsselinformationen finden
+*Schlüsselinformationen* sind explizite Details über die Geschichte eines Artefakts, die seine Geschichte darstellen und notwendig sind, die magischen Effekte des Artefakts zu erwecken.
+Im Gegensatz zur <<ref_magic_items_identification,Identifkation>> magischer Gegenstände und deren Effekte, sind Schüsselinformationen nicht zu erwürfeln, sondern müssen aus dem Spiel heraus entdeckt werden.
+Es können Proben helfen, die Charaktere in die Richtung zu lenken und bei der Art der Information helfen: was muss herausgefunden werden?
+
+[NOTE]
+Nicht nur das Finden eines mächtigen Artefakts kann die Belohnung für ein Abenteuer sein, sondern auch das Finden einer Schlüsselinformation und das schrittweise entdecken der Geschichte des Artefakts und dessen Effekten.
+
+Die folgende Liste enthält Beispiele für typische Schlüsselinformationen:
+* Der Name des Artefakts - dies ist in der Regel auch die erste Schlüsselinformation, die jemand zu erfahren hat
+* Der Ort der initialen Herstellung
+* Besondere Taten und Ereignisse, die mit dem Artefakt erfolgt sind, zum Beispiel die Bezwingnung eines Monsters
+Jedes Artefakte enthält in seiner Beschreibung eine Liste von Schlüsselinformationen, die über das Artefakt zu finden sind.
+Jede Schlüsselinformation besitzt auch eine Beschreibung eines Effekts auf die Verwendung des Artefakts.
+D.h. erst die Aufdeckung der Schlüsselinformation gibt den magischen Effekt frei.
+Effekte aus verschiedenen Schlüsselinformationen sind kumulativ, also erst wenn alle Schlüsselinformationen gefunden wurden, hat das Artefakt sein volles Potenzial erreicht.
 
 [[ref_magic_items_createmagicalitem]]
 == Magische Gegenstände Herstellen
-
+In diesem Kapitel wird das <<ref_magic_items_createmagicalitem_talent,Talent>> beschrieben, dass xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_talents[gelernt] werden muss, um magische Gegenstände herzustellen.
+Die folgenden <<ref_magic_items_createmagicalitem_usages,Unterkapitel>> zeigen bestimmte Gegenstandskategorien auf, die üblicherweise damit abgedeckt werden können.
 [[ref_magic_items_createmagicalitem_talent]]
 === Talentbeschreibung
-
 *Voraussetzungen:* Artefaktkunde, Spruchzauberei 5, Aether Wahrnehmung 5, Wissen[Arkanes] 5 +
 *Mindestwurf:* SMW +
 *Ungeübte Anwendung:* Nein +
@@ -164,20 +198,21 @@ Solvar ist der Lösung um einiges näher, er benötigt noch eine weitere Probe, 
 *Beschreibung:* Mit diesem Talent kann ein Charakter magische Gegenstände herstellen.
 Solche Gegenstände zeichnen dadurch aus, dass Sie einen permanenten magischen Effekt in sich tragen.
 
-Charaktere lernen dieses Talent mit dem SGM ihres Spruchzauberei-Talents.
+Charaktere lernen dieses Talent nur als xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_professional_talents[Berufstalent], wenn sie xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] als Berufstalent haben.
 
+[[ref_magic_items_createmagicalitem_usages]]
+=== Anwendungen
 Die folgenden Kapitel beschreiben im Detail die konkreten Anwendungen und Regeln zu diesem Talent.
 
 In diesem Abschnitt wird nur eine kurze Übersicht gegeben, welche Möglichkeiten das Talent Magische Gegenstände Herstellen bietet und welche verwandten Teilgebiete es gibt.
-
 [[ref_magic_items_createmagicalitem_scrolls]]
-=== Spruchrollen
-Um eine *Spruchrolle herzustellen*, benötigt der Zauberer die Fähigkeit xref:core_rules_magic_skills.adoc#ref_skills_magic_writemagic[Zauberbuch Schreiben] und das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], sowie Pergament und Schreib-Utensilien.
-Um die Spruchrolle nun herzustellen muss er eine Spruchzauberei-Probe abgelegen, so als würde er den Zauber regulär aussprechen, jedoch tritt der Effekt nicht ein, sondern wird in die Spruchrolle übertragen.
+==== Spruchrollen
+Um eine *xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_scrolls[Spruchrolle] herzustellen*, benötigt der Zauberer das Talent xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei], sowie Pergament und Schreib-Utensilien.
+Um die Spruchrolle nun herzustellen, muss er eine Spruchzauberei-Probe abgelegen, so als würde er den Zauber regulär aussprechen, jedoch tritt der Effekt nicht ein, sondern wird in die Spruchrolle übertragen.
 Für jede Spruchrolle benötigt der Zauberer eine Stunde Zeit.
 
 Der Zauberer kann xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing[zusätzliche Effekte] für diesen Zauberspruch verwenden.
-Erhöhen diese die POT des Zauberspruches, so muss die Anzahl der Erfolge entsprechend angepasst werden.
+Erhöhen diese die POT des Zauberspruches, so muss der Mindestwurf entsprechend angepasst werden.
 Diese können nach Beschreiben der Spruchrolle nicht mehr verändert werden.
 
 Der Zauberer kann jede Sprache verwenden, die er beherrscht.
@@ -186,20 +221,19 @@ Er kann die Spruchrolle in „normaler“ Sprache verfassen, aber auch eine arka
 Der Wert einer Schriftrolle berechnet sich aus POT*50 Silbermünzen.
 
 [[ref_magic_items_createmagicalitem_grimoire]]
-=== Grimoire
-Gerade für Zauberer ist es interessant zu wissen, wie man ein *Grimoire herstellt*.
-Ein Grimoire ist ein mächtiges, magisches Buch, dass Zaubersprüche enthält, die von anderen Zauberern gelernt werden können, aber auch wie bei einer Spruchrolle ausgesprochen werden können.
+==== Grimoire
+Gerade für Zauberer ist es interessant zu wissen, wie man ein *xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_grimoire[Grimoire] herstellt*.
+Ein xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_grimoire[Grimoire] ist ein mächtiges, magisches Buch, dass Zaubersprüche enthält, die von anderen Zauberern gelernt werden können, aber auch wie bei einer Spruchrolle ausgesprochen werden können.
 
 Um ein Grimoire zu schreiben, sind die gleichen Voraussetzungen nötig, wie beim Schreiben einer <<ref_magic_items_createmagicalitem_scrolls, Spruchrolle>>.
-Jedes Mal wenn der Zauberer einen Zauberspruch das Grimoire schreibt, gelten die gleichen Regeln, wie im Kapitel zum Schreiben der Spruchrolle beschrieben.
+Jedes Mal, wenn der Zauberer einen Zauberspruch das Grimoire schreibt, gelten die gleichen Regeln, wie im Kapitel zum Schreiben der Spruchrolle beschrieben.
 Zusätzlich gilt, dass der Zauberer ein Grimoire nur in Arkaner Sprache verfassen kann.
-Er würfelt eine Spruchzauberei-Probe und muss dabei nötigen Erfolge erreichen, um den Zauberspruch auszusprechen plus die Anzahl der Zaubersprüche, die schon in das Buch eingebunden sind.
+Er würfelt eine Spruchzauberei-Probe und muss dabei den nötigen Mindestwurf erreichen, um den Zauberspruch auszusprechen plus die Anzahl der Zaubersprüche, die schon in das Buch eingebunden sind.
 Der Zauberer muss nicht das ganze Grimoire fertig geschrieben haben, sondern kann die folgenden Schritte auch in Etappen durchführen.
 
 Grundsätzlich können diese Aufzeichnungen genutzt werden, um Zaubersprüche zu lernen und um Zaubersprüche wie Spruchrollen aus dem Grimoire zu lesen.
 
 Vorsicht ist geboten bei der Herstellung, denn ein Patzer bedeutet, dass das Grimoire komplett vernichtet wird.
-Bei einem Ergebnis von 20 oder höher bei dem Wurf auf Zauberpatzer, lässt das Grimoire außerdem alle enthaltenen Zaubersprüche einmal frei.
 Manche Grimoire sind jedoch so mächtig, dass sie nicht zerstört werden, sondern äußert unangenehme Verwünschungen, Verwüstungen oder ähnliches anrichten.
 
 Der Wert in Silbermünzen eines verzauberten Grimoire ergibt sich aus der Summe über die POT aller Sprüchen multipliziert mit 500.
@@ -213,14 +247,14 @@ Der Wert berechnet sich daher (2*5 + 6 + 8)*250 = 12000 Silbermünzen.
 ====
 
 [[ref_magic_items_createmagicalitem_rods]]
-=== Zauberstecken
-*Zauberstecken* sind magische Gegenstände (welche nicht zwangsläufig einem Stab oder Stecken ähneln müssen), die Zaubersprüche enthalten, die sogar ein ungeübter Anwender aktivieren kann.
+==== Zauberstecken
+*xref:core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken]* sind magische Gegenstände (welche nicht zwangsläufig einem Stab oder Stecken ähneln müssen), die Zaubersprüche enthalten, die sogar ein ungeübter Anwender aktivieren kann.
 Die Zaubersprüche wurden in die Struktur des Steckens gewoben und werden mit Energie aus magischen Kristallen gewirkt.
 Sie haben den Vorteil gegenüber Spruchrollen, das sie nicht vernichtet werden, wenn sie einmal benutzt wurden.
 Stattdessen können sie sogar aufgeladen und weiter benutzt werden.
 
 Zunächst benötigt der Zauberer einen entsprechenden Stecken, bzw. im allgemeinen Fall einen Gegenstand, der mindestens POT*1000 Silberstücke (Grundkosten) wert sein muss.
-Mindestens die Hälfte dieses Preises muss für einen (oder mehrere) magische Kristalle ausgegeben werden, die in diesen Gegenstand eingearbeitet werden.
+Mindestens die Hälfte dieses Preises muss für einen (oder mehrere) magische Kristalle bzw. <<ref_magic_items_createmagicalitem_mpstorages,MP-Speicher>> ausgegeben werden, die in diesen Gegenstand eingearbeitet werden.
 Diese Kristalle sind der Kraftpool des Zauberspruches, denn die in den Kristallen enthaltenden MP werden später für das Aussprechen des Zauberspruches benötigt.
 
 Wichtig ist, dass der Zauberer vorher die MP bestimmt, die der Zauberspruch benötigt.
@@ -230,8 +264,8 @@ Diese dienen nämlich nachher als Aktivierungskosten für den Zauberspruch und d
 Sollen mehrere Zaubersprüche in einen Zauberstecken verankert werden, so wird die POT von diesen addiert, um die Grundkosten zu berechnen.
 Die Anzahl der Kampfphasen zur Vorbereitung*POT müssen getrennt berechnet werden (diesmal aber mit der POT des jeweiligen Zaubers).
 
-Ist der Gegenstand besorgt und mit den Kristallen versehen, muss der Zauberer eine Probe auf Magische Gegenstände Herstellen ablegen.
-Er muss eine Probe pro Zauberspruch, der im Zauberstecken abgelegt wird, ablegen, als würde er den Zauberspruch mit Spruchzauberei aussprechen.
+Ist der Gegenstand besorgt und mit den Kristallen versehen, muss der Zauberer eine Probe auf <<ref_magic_items_createmagicalitem_talent,Magische Gegenstände Herstellen>> ablegen.
+Er muss eine Probe pro Zauberspruch, der im Zauberstecken abgelegt wird, ablegen, als würde er den Zauberspruch mit xref:core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei] aussprechen.
 Pro Zauberspruch benötigt der Zauberer 1 Woche Zeit zur Herstellung des Zaubersteckens.
 
 Sind die Zaubersprüche erfolgreich eingesetzt, dann muss der Charakter eine weitere Probe in „Magischen Gegenstand Herstellen“ ablegen.
@@ -270,11 +304,11 @@ Zusätzlich benötigt der Zauberspruch keine Spruchzauberei-Probe mehr.
 Ein Zauberer möchte den Zauberspruch Feuerball in einem Zauberstecken verankern.
 Dieser Zauber hat eine POT von 5, somit kostet der Stecken 5000 Silbermünzen in der Herstellung und davon müssen 2500 Silbermünzen für magische Kristalle ausgegeben werden.
 
-Der SL teilt dem Spieler mit, dass er für 2500 Silbermünzen einen Kristall findet, der 75 MP speichern kann.
+Der SL teilt dem Spieler mit, dass er für 7500 Silbermünzen einen Kristall findet, der 70 MP speichern kann.
 Da der Zauberspruch 3 Kampfphasen zur Vorbereitung braucht, ergeben sich aus der 3*POT Aktivierungskosten in Höhe von 15.
 Somit reicht der Kristall für fünf Anwendungen, bevor er wieder aufgeladen werden muss.
 
-Als erstes muss der Zauberer eine Probe auf Magischen Gegenstand Herstellen würfeln, so als würde er Feuerball aussprechen.
+Als Erstes muss der Zauberer eine Probe auf Magischen Gegenstand Herstellen würfeln, so als würde er Feuerball aussprechen.
 Gelingt diese Probe, so macht der Zauberer eine weitere Probe.
 Der Zauberer würfelt guten Erfolg, was dem Stecken zusätzlich die Fähigkeit zur Regeneration von 1W8 MP pro Tag gibt.
 
@@ -284,7 +318,7 @@ Der endgültige Wert des Gegenstandes berechnet sich durch 5000*2,10 = 10500 Sil
 ====
 
 [[ref_magic_items_createmagicalitem_potions]]
-=== Tränke und Gebräue
+==== Tränke und Gebräue
 Eine Gruppe, die man nie unterschätzen sollte, sind die *Tränke und Gebräue*
 
 Diese Kategorie umfasst alle Flüssigkeiten, die in vielfältiger Form einen magischen bzw. alchemistischen Effekt hervorrufen.
@@ -296,55 +330,94 @@ Im Gegensatz dazu sind Flaschen, die wichtige, manchmal lebensrettende Gebräue 
 
 Magische Tränke werden öfters aus einfachen Materialien zusammengemischt und dann verzaubert.
 Ihre Kraft erwächst also aus der Magie, während andere Tränke durch geschicktes Vermengen von Zutaten entstehen.
-Im letzteren Fall greift die Alchemie-Fähigkeit, die das Wissen und die Praxis liefert, die dazu nötig ist.
+Im letzteren Fall greift die link:skills/core_skill_alchemy.adoc[Alchemie-Fähigkeit], die das Wissen und die Praxis liefert, die dazu nötig ist.
 
 Manche Tränke erfordern explizit die Kenntnis eines Zauberspruches oder die Verwendung von besonderen Materialien.
 
-Ein Charakter kann diese Gegenstände sowohl durch die besondere Fähigkeit link:skills/core_skill_alchemy.adoc[Alchemie] und das Talent xref:core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Brauen)] als auch durch Magischen Gegenstand Herstellen erschaffen.
+Ein Charakter kann diese Gegenstände sowohl durch die besondere Fähigkeit link:skills/core_skill_alchemy.adoc[Alchemie] und das Talent xref:core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Brauen)] als auch durch <<ref_magic_items_createmagicalitem_talent,Magischen Gegenstand Herstellen>> erschaffen.
 Der Alchemist muss zum Herstellen eines Trankes zunächst dessen Herstellungskosten aufwenden, die 50% des finalen Wertes betragen.
-Wie andere Gegenstände besitzt ein Trank eine link:../tables/magic/table_magic_items_powerlevels.adoc[Machtstufe], die Anzahl der nötigen Erfolge in der Herstellungsprobe vorgibt sowie die Dauer.
+Wie andere Gegenstände besitzt ein Trank eine link:../tables/magic/table_magic_items_powerlevels.adoc[Machtstufe], die Mindestwurf in der Herstellungsprobe vorgibt sowie die Dauer der Herstellung.
 
 [[ref_magic_items_createmagicalitem_mpstorages]]
-=== Speicher von Magiepunkten
-
+==== Speicher von Magiepunkten
 Auch wenn das Talent Magische Gegenstände Herstellen dazu gedacht ist, eben jene zu erschaffen, bietet es eine weitere nützliche Verwendung.
-Im Herstellungsprozess von vielen magischen Gegenständen (und Technomantischen) sind Magische Kristalle unerlässlich.
+Im Herstellungsprozess von vielen magischen Gegenständen (und Technomantischen) sind **Magische Kristall**e und *Magiespeicher* unerlässlich.
 
-Mit dem Talent lassen sich auch *Magische Kristalle konfigurieren*, so dass sie ihre MP abgeben können und so für die weitere Verarbeitung genutzt werden können, z.B. zur Herstellung von Zauberstecken oder als Motor für technomantische Geräte.
-Die Anzahl der nötigen Erfolge mit dem Talent Magischen Gegenstand Herstellen ergibt sich aus der Anzahl an MP, die der Kristall aufnehmen kann.
-
-//TODO also see golemparts -> core -> basiccell
-//TODO also see golemparts -> addon -> additional cell
-
-[cols=",,,,",options="header"]
+Mit dem <<ref_magic_items_createmagicalitem_talent,Talent>> lassen sich auch *Magische Kristalle konfigurieren*, so dass sie ihre MP abgeben können und so für die weitere Verarbeitung genutzt werden können, z.B. zur Herstellung von <<ref_magic_items_createmagicalitem_rods,Zauberstecken>> oder als Motor für technomantische Geräte.
+Der Mindestwurf mit dem Talent Magischen Gegenstand Herstellen ergibt sich aus der Anzahl an MP, die der Kristall aufnehmen kann bzw. hängt von dessen Größe und Kapazität ab.
 |===
-|Enthaltende MP |Erfolgsgrad |Wert^1^ |Wert^2^  |Wert^3^
-|50 und weniger |Durchschnitt |750 |500 |250
-|51-100 |Gut |3000 |2000 |1000
-|101-250 |Sehr Gut |12000 |8000 |4000
-|251-500 |Hervorragend |48000 |32000 |16000
-|501-1000 |Außergewöhnlich |192000 |128000 |64000
-|weitere 1000 |+1 auf den Grad |*4 |*4 |*4
+|GK |MP |Wert |Mindestwurf
+
+|1
+|50
+|2.500
+|15
+
+
+|2
+|50
+|4.000
+|15
+
+
+|3
+|70
+|7500
+|16
+
+
+|4
+|90
+|10.000
+|17
+
+
+|5
+|110
+|13.000
+|17
+
+
+|6
+|140
+|20.000
+|17
+
+
+|7
+|250
+|28.000
+|18
+
+
+|8
+|400
+|40.000
+|19
+
+
+|9
+|750
+|64.000
+|20
+
+
+|10
+|1000
+|80.000
+|21
 |===
 
-^1^ maximal eine Menschenfaust groß
-
-^2^ maximal einen menschlichen Kopf groß
-
-^3^ maximal einen menschlichen Torso groß
-
-Die konfigurieten Kristalle lassen sich nun zu *Speichern von Magiepunkten* verwenden.
+Die konfigurierten Kristalle lassen sich nun zu *Speichern von Magiepunkten* verwenden.
 
 Diese spezielle Art von Gegenständen bieten üblicherweise keine magischen Fähigkeiten, außer der ureigenen Magie der Kristalle, die in ihnen verarbeitet wurden.
 Üblicherweise regenerieren sie keine MP, aber ein Zauberer kann eine bestimmte Zahl von MP in ihnen speichern und die Gespeicherten nutzen, so als wären sie seine Eigenen.
 
 [[ref_magic_items_createmagicalitem_magicalitems]]
-=== Magische Gegenstände
+==== Magische Gegenstände nach Rezepten
 Eine weitere große Gruppe sind die *Rezepte*.
-Rezepte sind sinnigerweise keine Gegenstände, aber mit ihrer Hilfe lassen sich bestimmte Gegenstände herstellen, die nicht durch Prägungen dargestellt werden können.
-Derartige Gegenstände sind beispielsweise spezialisierte Entwicklungen von Magiern, die mit ihrem Wissen, ihren Zaubersprüchen und Prägungen lange experimentiert und geforscht haben, bis sie etwas völlig neues geschaffen haben.
-Rezepte sind daher Anleitungen, um bestimmte magische Gegenstände herzustellen.
-Die Einträge sind wie folgt aufgebaut:
+Rezepte sind sinnigerweise keine Gegenstände, aber mit ihrer Hilfe lassen sich bestimmte Gegenstände herstellen, sdondern sind Anleitungen.
+Ein Rezept ist wie folgt aufgebaut:
 
 *Name:* Name des Gegenstands (nachdem er mit dem Rezept hergestellt wurde) +
 *Speziell:* Besondere Zutaten, um den Gegenstand zu erschaffen. +
@@ -353,25 +426,15 @@ Die Einträge sind wie folgt aufgebaut:
 Ist keine Angabe gemacht, ist keine Bindung nötig. +
 *CP:* CP-Kosten, um das Rezept zu lernen. +
 *Beschreibung:* Beschreibt, welcher Effekt regeltechnisch auf dem Gegenstand nach diesem Rezept liegt.
-
-//TODO: link
-Eine Liste von Rezepten findet sich in der Dokumentenkollektion Kompendium Magischer Gegenstände.
+Eine Liste von Rezepten findet sich in der Dokumentenkollektion link:../../compendiums/items/magical/compendium_magical_items.adoc[Kompendium magischer Gegenstände].
 
 [[ref_magic_items_createmagicalitem_fleshcrafting]]
-=== Transplantate
-
-Ein Charakter muss das Talent <<ref_magic_items_fleshcrafting_talent, Fleischformen>> beherrschen, um ein Transplantat herzustellen und zu
-Die ausführlichen Regeln finden sich im folgenden <<ref_magic_items_soulenchanting, Kapitel>>.
-
-[[ref_magic_items_createmagicalitem_artefacts]]
-=== Artefakte
-*Artefakte* sind einzigartige und üblicherweise mächtige, magische Gegenstände.
-Sie können beinahe beliebige Effekte erzeugen, auch von anderen Gegenständen bekannte, jedoch ist es unmöglich, sie herzustellen.
-In den meisten Fällen ist ihr Geheimnis zur Herstellung schon lange verloren.
-Im Allgemeinen gelten alle Gegenstände mit link:../tables/magic/table_magic_items_powerlevels.adoc[Machtstufe 7] oder höher als Artefakt.
+==== Transplantate
+Ein Charakter muss das Talent <<ref_magic_items_fleshcrafting_talent,Fleischformen>> beherrschen, um ein *Transplantat* herzustellen und zu
+Die ausführlichen Regeln finden sich im folgenden <<ref_magic_items_fleshcrafting,Kapitel>>.
 
 [[ref_magic_items_createmagicalitem_soulenchanting]]
-=== Intelligente und beseelte Gegenstände
+==== Intelligente und beseelte Gegenstände
 
 Unter *Intelligenten* bzw. *beseelten Gegenständen* versteht man Gegenstände, die die Seele einer ehemals lebendigen Kreatur in sich tragen und damit deren Persönlichkeit und deren Wissen für die Ewigkeit konserviert haben.
 Solche Gegenstände sind äußerst mächtig, denn meistens besitzen sie die Fähigkeiten der Person, die sie in sich führen und natürlich deren Wissen sowie weitere magische Eigenschaften.
@@ -379,8 +442,7 @@ Ein Charakter muss das Talent <<ref_magic_items_soulenchanting_talent,Beseelung>
 Die ausführlichen Regeln finden sich im folgenden <<ref_magic_items_soulenchanting,Kapitel>>.
 
 [[ref_magic_items_createmagicalitem_rules]]
-== Erweitere Regeln zum Herstellen von magischen Gegenständen
-
+==== Erweitere Regeln zum Herstellen von magischen Gegenständen
 [quote, Byhragast „Eisauge“]
 „Die Meisten von euch haben diesem Tage sicher sehr entgegengefiebert.
 Endlich könnt auch ihr legendäre Schwerter für epische Schlachten und schöne Helden herstellen...
@@ -388,7 +450,7 @@ Nun, fangen wir mit etwas einfachem an.
 Wie wäre es mit einem Leuchtenden Stein?“
 
 In diesem Kapitel werden allgemeine Regeln vorstellt, die auf alle bisher vorgestellten Gegenstandsarten angewendet werden können, um diese herzustellen.
-Sofern nicht anders erwähnt, sind die Regeln auf den Talenteinsatz von <<ref_magic_items_createmagicalitem_talent, Magische Gegenstände herstellen>> und vergleichbare Substitute (zum Beispiel <<ref_magic_items_createmagicalitem_potions, Tränke brauen) gleich anzuwenden.
+Sofern nicht anders erwähnt, sind die Regeln auf den Talenteinsatz von <<ref_magic_items_createmagicalitem_talent, Magische Gegenstände herstellen>>  anzuwenden.
 
 [[ref_magic_items_createmagicalitem_prequisites]]
 === Voraussetzungen

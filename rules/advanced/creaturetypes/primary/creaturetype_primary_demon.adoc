@@ -3,7 +3,10 @@
 [[ref_primary_creaturetype_demons_pools]]
 == Pools
 
-Dämonen erhalten keinen zusätzlichen Bonus auf ihre Pools.
+Dämonen erhalten folgende zusätzlichen Boni auf ihre Pools:
+* TP: +10
+* MP: +20
+* SP: +10
 
 [[ref_primary_creaturetype_demons_saves]]
 == Rettungswürfe
@@ -15,3 +18,22 @@ Dämonen erhalten folgende zusätzlichen Boni auf ihre Rettungswürfe:
 
 [[ref_primary_creaturetype_demons_rules]]
 == Regeln
+[[ref_primary_creaturetype_demons_rules_powerlevel]]
+=== Machtstufe
+Alle Dämonen besitzen eine *Machtstufe*, die in Werten von 1 bis 10 oder höher.
+Die Machtstufe hat formal kein Maximum, je höher sie ist, umso mächtiger ist der Dämon im Vergleich zu anderen Dämonen und nimmt ggf. eine höhere Stellung in der Hierarchie ein.
+Die Machtstufe beeinflusst auch dämonenspezische Fähigkeiten.
+[[ref_primary_creaturetype_demons_rules_skills]]
+=== Fähigkeiten
+Alle Dämonen erhalten aufgrund ihres primären Kreaturentyps folgende Fähigkeiten:
+
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../../../../bestiary/skills/specific/demon/bestiary_skill_demon_voidborn.adoc[Geboren aus der Leere]
+* link:../../../../bestiary/skills/specific/demon/bestiary_skill_demon_demonic_dominance.adoc[Dämonische Dominanz]
+* link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] für die folgenden _Schadensarten_:
+** xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+** xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
+** xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Atherisch]
+** xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]

@@ -1,0 +1,22 @@
+= Verbinde Konstrukte
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formlen, Gesten +
+*Fokus:* Metal, Geist +
+*Vorbereitung:* 7 +
+*Reichweite:* 18,00 Meter +
+*Anzahl der Ziele:* 2 link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukte] +
+*Dauer:* 1 Stunde+
+*Effekt:* +
+Also dieses Zauberspruches wählst Du 2 Konstrukte in Reichweite und in direkter Sichtlinie sowohl zu Dir als auch zu einander.
+Beide Konstrukte dürfen einen individuellen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegen Deine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] ablegen.
+Gelingt wenigstens 1 Rettungswurf, misslingt dieser Zauber insgesamt.
+Gelingt Dir die Spruchzauberei-Probe, formst Du ein Band zwischen beiden Konstrukten, so dass sie wie eins agieren.
+Dies hat zwei Effekte je nach Situation:
+* Steht ein Konstrukt unter Deiner Kontrolle, so tut es das zweite auch
+* Das Konstrukt mit geringer Machtstufe folgt dem Programm und Befehlen des Konstrukts mit höherer Machtstufe
+Endet der Zauberspruch folgen beide Konstrukte wieder unabhängig voneinander ihren Programmen und Befehlen.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Stunde +

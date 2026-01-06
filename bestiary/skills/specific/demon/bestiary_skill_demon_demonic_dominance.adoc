@@ -1,0 +1,10 @@
+= Dämonische Dominanz
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc[Dämon] +
+*Typ:* Passiv, Übernatürlich, Dämon +
+*Überanstrengung:* - +
+*CP:* - +
+Auch wenn Dämonen des Chaos Struktur und Hierarchie ablehnen, liegt es in der Natur aller Dämonen miteinander in Konkurrenz zustehen und auf Basis ihrer Machtstufe Hierarchien zu bilden.
+Ein Dämon, der seine Dominanz einem anderen Dämon aufzwingen will, würfelt eine Probe, die einen Bonus erhält, der aus seinem xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] in xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_charisma[CH] plus seiner xref:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_demon.adoc#ref_primary_creaturetype_demons_rules_powerlevel[Machtstufe] entspricht.
+Der betroffene Dämon darf einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungwurf] gegen diese Probe ablegen.
+Bei einem Erfolg muss der unterlegene Dämon dem Höhergestellten gehorchen.

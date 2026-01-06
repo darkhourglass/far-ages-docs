@@ -1,0 +1,72 @@
+= Bogenschütze der wilden Jagd
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+* link:../../rules/advanced/creaturetypes/secondary/creatruretype_secondary_supernatural.adoc[Übernatürlich]
+* link:../templates/bestiary_template_scion_of_thewildhunt.adoc[Angehöriger der Wilden Jagd]
+* GK: 5
+* CP: 2200+
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 4 (+1) +
+*GE:* 5 (+1) +
+*KO:* 3 (+1) +
+*ER:* 7 (+2)  +
+*EN:* 2 (+1) +
+*SB:* 3 (+1) +
+*CH:* 2 (+1) +
+*TP:* 50 +
+*MP:* 20 +
+*SP:* 25 +
+*BEW:* 9,00 Meter +
+*INI:* +3 +
+*MaxTL:* 60 +
+*MaxPOT:* 5 +
+
+*Aktionen:* 3 +
+*Rüstung:* 5 Lederrüstung (alle Trefferzonen) +
+*Resistenzen:* - +
+*Immunitäten:* +
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +2 +
+*Körper:* +2 +
+*Magie:* +2 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 7+1 (Kurzbogen, 1W6, 25 Meter)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6+1 (Kurzschwert 1W6)
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] +3
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] +3
+* Talent 1
+* Talent 2
+* link:../skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
+* link:../skills/specific/thewildhunt/bestiary_skill_thewildhunt_shadowhorse.adoc[Schattenpferd]
+
+== Regeln
+
+== Taktik

@@ -17,6 +17,7 @@
 // vereister Boden schwieriges Gelände
 // gefrorenes Wasser schwieriges Gelände
 // tiefer Schnee schwieriges Gelände
+// erfieren
 <<ref_core_adventures_hazards_snowstorms,Schneestürme>>
 [[ref_core_adventures_terrain_snow_ice_swamps]]
 === Sümpfe
@@ -528,6 +529,7 @@ Inwiefern die Zerstörung des Teils zum Kollaps des Rests beträgt, liegt im Erm
 [[ref_core_adventures_travelling_speed]]
 === Reisegeschwindigkeit und Reisezeiten
 
+[[ref_core_adventures_travelling_gear_and_money]]
 == Ausrüstung und Geld
 
 Nicht nur Geschick, Talent und Magie bestimmen das Überleben eines
@@ -634,8 +636,8 @@ neugewonnene Freiheit dar, Gegner hingegen benutzen dies, um gegen die
 Oberen des neuen Bündnis-Staates zu wettern. Gerade in der einfachen
 Landbevölkerung kommen Argumente hinsichtlich des Geldverfalls und "dem
 kleinen Mann das Geld hinterrücks aus der Tasche ziehen" gut an.
-
 Offiziell ist dieses System das einzig Gültige.
+[[ref_core_adventures_travelling_gear_overview]]
 == Listen der Ausrüstung
 * link:../../compendiums/items/mundane/compendium_mundaneitems_meleeweapons.adoc[Nahkampfwaffen]
 * link:../../compendiums/items/mundane/compendium_mundaneitems_projectileweapons.adoc[Projektilwaffen]
@@ -643,151 +645,428 @@ Offiziell ist dieses System das einzig Gültige.
 * link:../../compendiums/items/mundane/compendium_mundaneitems_armor.adoc[Rüstungen]
 * link:../../compendiums/items/mundane/compendium_mundaneitems_shields.adoc[Schilde]
 * link:../../compendiums/items/mundane/compendium_mundaneitems_bomb.adoc[Bomben]
-IV.III.Abenteurerausrüstung
-Dieser Abschnitt gibt Auskunft über andere, praktische
-Abenteurerausrüstung wie Kletterhacken usw.
 * link:../../compendiums/items/mundane/compendium_mundaneitems_gear.adoc[Ausrüstung]
-Als besonderen Service bieten manche Händler Paketpreise an:
 
-Rucksack(40), Schlafsack, Wasserschlau, Zündzeug, Bandage und 2 Fackeln
-werden im Abenteurerpaket zusammengefasst und kosten 25 Silber bei einem
-Gewicht von 5,7 bis 9,7(im Falle voller Schläuche).
 
-== Waren- und Dienstleistungen
+[[ref_core_adventures_settlements]]
+== Siedlungen und Handelsware
+Auf der Welt von Al'vaha und vielen anderen Welten versammeln sich Völker und es entstehen aus unterschiedlichen Gründen Siedlungen.
+Siedlungen entstehen an Orten mit guten Voraussetzungen: Zugang zu Wasser und fruchtbaren Böden, natürlichen Ressourcen und Zugang zu bestehender Infrastruktur wie Straßen zu Land und Wasser.
+In diesem Kapitel geht es darum, ein einfaches System vorzustellen, um Siedlungen zu kategorisieren, um Spielen und SLs zu helfen, sich vorzustellen, was sie von einer Siedlung erwarten können, wenn sie diese besuchen.
+Die folgenden Unterkapitel beschrieben Eigenschaften einer Siedlung, die
 
-Getränke:
+[[ref_core_adventures_settlements_size]]
+== Größe
+Die *Größe* einer Siedlung wird anhand der Bewohnerzahl gemessen und anhand der hier vorgestellten Einheiten eingeteilt.
+[[ref_core_adventures_settlements_size_hamlet]]
+* *Dorf:* Ein Dorf ist eine winzige ländliche Gemeinde, die erst vor wenigen Generationen gegründet wurde. Es leben nur wenige Dutzende Humanoide in wenigen Höfen oder Häusern hier, eine Durchmischung verschiedener Völker ist sehr selten.
+Dörfer sind an abgelegenen Straßen und Kreuzungen denkbar.
+Die Bewohner sind ver
+[[ref_core_adventures_settlements_size_village]]
+* *Stadt:* Diejenigen Dörfer, die ein paar harte Winter und sonstige Gefahren überstehen, können durch weise Wirtschaft und attraktive Lage weitere Bewohner anlocken und so zu einer Stadt heranwachsen.
+Städte bieten mehr Schutz und Komfort durch verbesserte Infrastuktur, mehr Dienstleistungen und Menge an Bewohnern.
+In Städten leben 1.000 bis 5.000 Humanoider mit einer höheren Wahrscheinlichkeit einer bunten Mischung von Völkern.
+[[ref_core_adventures_settlements_size_metropolis]]
+* *Metropole:* Ab einer Bewohnerzahl von 10.000 und einer entsprechenden Ausdehnung werden Städte zu Metropolen, einem lebendingen Zentrum der Kultur, Wissenschaft, Handel, Handwerk und Militär, einer ganzen Region.
 
-Krug mit Bier oder Met1-5
+[[ref_core_adventures_settlements_wealth]]
+== Reichtum
+Der *Reichtum* einer Siedlung beschreibt eine abstrakte Skala, die helfen soll, einzuordnen, wie wirtschaftlich erfolgreich die Siedlung und ihre Bewohner sind.
+Dies hat Implikationen auf die Lebensbedingungen der Bewohner, die verfügbaren Handelswaren, Dienstleistungen und reisenden Händler, für die sich auch Besucher interessieren könnten.
+Zwei essenzielle Faktoren werden durch die Einteilung definiert:
+* *Täglicher Bedarf:* eine Angabe in einer Währung, die definiert, wie viel ein Bewohner pro Tag ausgeben muss, um seine Existenz in der Siedlung zu sichern.
+* *Warenwert:* eine Angabe in einer Währung, die darstellen soll, was Händler und Handwerker vorort an Waren im Durchschnitt maximal umschlagen.
+[[ref_core_adventures_settlements_wealth_poor]]
+* *Arm:* Viele Siedlungen beginnen mit Nichts und einige von Ihnen bleiben in einfachen Verhältnissen.
+Arme Siedlungen existieren weitab von Handelsrouten, wertvollen Rohstoffen.
+Die Gebäude bestehen aus einfachen Materialen wie Steinen, Baumstämmen mit Strohdächern.
+Die meisten Bewohner sind Selbstversorger durch Land-, Forst oder Jagdwirtschaft.
+Der Aufwand am täglichen Bedarf ist gedeckt durch 1 halbes Silberstück und der maximale Warenwert liegt bei 5 Silberstücken.
+[[ref_core_adventures_settlements_wealth_average]]
+* *Durchschnitt:* Mit der Zeit können arme Siedlungen ihre Situation verbessern.
+Händler kommen häufiger vorbei und bringen den Warenfluss in Gang.
+Straßen werden befestigt, Baumaterialen verfeinern sich und Handwerker bieten ein breiteres Angebot an.
+Erste einfache Bildungseinrichtungen enstehen.
+Der Aufwand des täglichen Bedarfs liegt bei 2-3 Silberstücken und maximale Warenwert steigt auf 50 Silbermünzen.
+[[ref_core_adventures_settlements_wealth_rich]]
+* *Reich:* Reiche Siedlungen haben wirtschaftlichen Erfolg, die Bewohner können ein bequemes Leben führen und Besucher mit hochqualitativen Dienstleistungen und Bildungseinrichtungen rechnen.
+Auch das Stadtbild zeigt die Unterschiede zu ärmeren Städten deutlich: Straßen und Gehwege sind gepflastert, Häuser sind modern und komfortabel, es gibt eine Wasserversorgung und umfassende Hygienemaßnahmen.
+Die Bewohner tragen gute Kleidung ohne Löcher und Flicken.
+Der Aufwand des täglichen Bedarfs liegt bei 15 Silberstücken und maximale Warenwert steigt auf 500 Silbermünzen.
+[[ref_core_adventures_settlements_wealth_extravangt]]
+* *Extravagant:* Irgendwann kommt der Punkt, an dem Reichtum zum Überfluss wird.
+Siedlungen, die in diese Kategorie fallen, dürften für Besucher ein überwältigender Sinneseindruck sein von zur Schau gestellter Extravanz und geschäftigen Treiben.
+Siedlungen dieser Kategorie ziehen kommerzielle und innovationsgetriebene Unternehmer an.
+Die Künste und Wissenschaften der Region
+Auf dieser Stufe des Reichtums angekommen, wächst der tägliche Aufwand auf 20 Silbermünzen und der maximale Warenwert steigt auf 11.000 Silbermünzen.
 
-Wein(Karaffe)10-15
+[[ref_core_adventures_settlements_tradegoods]]
+== Handelswaren
+Mit der Kategorie *Handelswaren* wird dargestellt, was für Güter und insbesondere Dienstleistungen zu erwarten sind.
+Dabei kann es sich um Handelswaren handeln, die von örtlichen Geschäftsleuten bzw. Handwerkern hergestellt wurden, aber auch von reisenden Händlern über Karavanen herangeschafft wurden und auf Marktplätzen angeboten werden.
+Der <<ref_core_adventures_settlements_wealth,Reichtum>> der Siedlung bestimmt, welchen Wert diese Waren haben können.
+[[ref_core_adventures_settlements_tradegoods_simple]]
+* *Einfach:*
+[[ref_core_adventures_settlements_tradegoods_common]]
+* *Gewöhnlich:*
+[[ref_core_adventures_settlements_tradegoods_scarce]]
+* *Selten:*
+[[ref_core_adventures_settlements_tradegoods_exotic]]
+* *Exotisch:*
 
-Wein(Glas)3-8
+[[ref_core_adventures_settlements_crafts]]
+== Handwerk
+Analog und ergänzend zu <<ref_core_adventures_settlements_tradegoods,Handelswaren>> bestimmt die Kategorie *Handwerk*, welche örtlichen Handwerker anwesend sein können, um Besuchern und Bewohnern ihre Dienste anzubieten.
+[[ref_core_adventures_settlements_crafts_simple]]
+* *Einfach:*
+[[ref_core_adventures_settlements_crafts_common]]
+* *Gewöhnlich:*
+[[ref_core_adventures_settlements_crafts_scarce]]
+* *Selten:*
 
-1l Milch1
+[[ref_core_adventures_settlements_services]]
+== Dienstleistungen
+Ergänzend zu <<ref_core_adventures_settlements_crafts,Handwerkern>> und <<ref_core_adventures_settlements_tradegoods,Handelswaren>> runden *Dienstleistungen* den Eindruck und die Attraktivität einer Siedlung ab.
+Siehe auch das Kapitel <<ref_core_adventures_settlements_sample_services,Beispiele>>.
+In allen Kategorien ohne explizite Erwähnung finden sich auch <<ref_core_adventures_settlements_sample_services_tavern,Tavernen>>, <<ref_core_adventures_settlements_sample_services_sleeping,Gaststädten und Übernachtungsservices>>.
+[[ref_core_adventures_settlements_services_simple]]
+* *Einfach:* Einfache Dienstleistungen beeinhalten grundlegende Arbeiten mit einfachen und häufigen Materialen wie Hufeisenschmiede, Werkzeugmacher, Leder- und Textflicker plus Reinigung, Fassbauer, Zimmerer.
+[[ref_core_adventures_settlements_services_common]]
+* *Gewöhnlich:* Gewöhnliche Dienstleistungen erweitern das Angebot der einfachen Dienstleistungen um kundenindividuelle Aufträge und Handmerker mit längerer Erfahrung und höherer Qualität.
+Hinzu kommen Angebote im Bereich Nahrungsproduktion wie Bierbrauen, Bäcker, Pasterie, Post und Briefboten.
+[[ref_core_adventures_settlements_services_scarce]]
+* *Selten:* Seltene Dienstleistungen finden sich in Gebieten mit entsprechender Nachfrage und erfordern oft geschultes Personal. Dazu gehören öffentliche Bäder, Papierherstellung und Buchbindung, die Dienste eines Alchemisten, Technomanten, Scholaren oder Zauberkundigen.
+An Handelsrouten bilden sich Karavansereien.
+[[ref_core_adventures_settlements_services_exotic]]
+* *Exotisch:* Exotische Dienstleistungen umfassen mehr als nur seltene Dienstleistungen, die Spezialisten erfordern. Dazu gehört beispielsweise Artefaktkundige, Reperaturwerkstädten für Golems.
 
-Essen:
+[[ref_core_adventures_settlements_sample_services]]
+== Beispiele für Dienstleistungen
 
-Einfaches Essen1
+[[ref_core_adventures_settlements_sample_services_tavern]]
+=== Taverne
+Als *Taverne* werden Gasthäuser und Wirtschaften bezeichnet, die ihren Besuchern Essen und Getränke servieren.
+Die folgenden Tabellen zeigen eine Übersicht, was Besucher einer Siedlung mit entsprechender Kategorie in Dienstleistung erwarten können.
+.Essen
+|===
+|Kategorie |Beschreibung |Kosten (Silbermünzen)
 
-Durchschnittliches Essen3
+|Einfach
+|Brot, Wasser, Milch, Met
+|2 Silber pro Posten
 
-Gutes Essen5
+|Durchschnitt
+|Wie Einfach mit Wurst, Käse, Pilzen
+|3 Silber pro Posten
 
-Exquisites Essen15+
+|Selten
+|Wie einfach und Durchschnitt zusätzlich mit Wein, Steaks, Schnitzel
+|5 Silber pro Posten
 
-1 Laib Brot2
+|Exotisch
+|Hohe Qualität in allen denkbaren Speisen und Getränken
+|7 Silber pro Posten
+|===
 
-Übernachtungen:
+.Getränke
+|===
+|Kategorie |Beschreibung| Kosten (Silbermünzen)
 
-Schlafsaal1
+|Einfach
+|Wasser, Bier
+|1 Silber pro Posten
 
-Stall0.5
+|Durchschnitt
+|Milch und Tee, Wein und Bier
+|2 Silber pro Posten
 
-Unterbringung eines Reittiers4
+|Selten
+|wie Durchschnitt mit hoher Qualität
+|3 Silber pro Posten
 
-Einfaches Zimmer mit 1 Bett2
+|Exotisch
+|wie selten mit mehr Auswahl, z.B, auch Kaffee
+|5 Silber pro Posten
+|===
 
-Einfaches Zimmer mit 2 Betten oder ein großes Bett4
+[[ref_core_adventures_settlements_sample_services_sleeping]]
+=== Übernachtung und Unterbringung
+Manche <<ref_core_adventures_settlements_sample_services_tavern,Tavernen>> bieten auch Möglichkeiten der Übernachtung an.
+Die Bequemlichkeit und der Luxus hängt von der Kategorie der vorhandenen Dienstleistung ab und natürlich wie viel die Besucher bereits sind zu bezahlen.
+In der Regel bieten Gaststätten mit Übernachtungsmöglichkeiten auch Ställe für Reittiere an.
+Alle Bettenangaben sind für Humanoide der GK 5 gedacht.
+Größere Betten sind seltener und kosten 25% mehr.
 
-Durchschnittliches Zimmer mit 1 Bett3
+.Übernachtungen
+|===
+|Kategorie |Beschreibung| Kosten (Silbermünzen)
 
-Durchschnittliches Zimmer mit 2 Betten oder ein großes Bett6
+|Einfach
+|Schlafsaal
+|1 pro Person
 
-Durchschnittliches Zimmer mit 1 Bett und Bad5
+|Durchschnitt
+|1 Zimmer mit 2 bis 3 Betten
+|2 pro Person
 
-Durchschnittliches Zimmer mit 2 Betten oder ein großes Bett und Bad10
+|Selten
+|Wie Durchschnitt mit Bademöglichkeit
+|4 pro Person
 
-Gutes Zimmer mit 1 Bett und Bad12
+|Exotisch
+|1 Zimmer mit 4-5 Betten und Bademöglichkeit inklusive Frühstück
+|6 pro Person
+|===
+[[ref_core_adventures_settlements_sample_services_smith]]
+=== Schmied
+Die Profession des *Schmiedes* wird in fast allen Kategorien gebraucht.
+Schmieden ist ein traditionelles Handwerk, dass die Verarbeitung von Metall zu Gebrauchsgegenständen umfasst.
+Dabei ist die Herstellung von Waffen und Rüstungen nicht unbedingt enthalten.
+Die meisten Schmiede bieten eine
 
-Gutes Zimmer mit 2 Betten oder ein großes Bett und Bad20
+Die folgende Tabelle gibt eine grobe Übersicht über verfügbare Dienstleistungen eines Schmiedes abhängig von der Kategorie der Dienstleistung.
+Die Spalte *Talentstufe* deutet an, welches xref:./core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe] der Schmied in xref:./core_rules_talents_base.adoc#ref_talents_craft[Handwerk (Schmied)] haben sollte, um die Dienstleistung anbieten zu können.
 
-Luxus-Zimmer mit 1 Bett und Bad mit Frühsrück50+
+.Dienstleistungen eines Schmiedes
+|===
+|Tätigkeit |Dienstleistung |Kosten |Talentstufe
 
-Luxus-Zimmer mit 2 Betten oder ein großes Bett und Bad mit Frühstück75+
+|Rüstung reparieren
+|Durchschnitt
+|40
+|4
 
-Schmied:
+|Rüstung dekorieren
+|Selten
+|25
+|6
 
-Rüstung reparieren40
+|Waffen reparieren
+|Einfach
+|10
+|4
 
-Rüstung dekorieren25
+|Waffen schärfen
+|Einfach
+|5
+|2
 
-Waffen reparieren40
+|Hufeisen beschlagen5
+|Einfach
+|12
+|2
 
-Waffen schärfen15
+|Herstellung von Rüstungen und Waffen
+|Selten
+|Listenpreis
+|7
 
-Waffen dekorieren20
+|<<ref_core_adventures_items_masterweapons,exellente>> Herstellung von Rüstungen und Waffen,
+|Exotisch
+|Listenpreis
+|10
+|===
 
-Hufeisen beschlagen5
+[[ref_core_adventures_settlements_sample_services_runner]]
+=== Bote
+*Kategorie:* <<ref_core_adventures_settlements_services_simple,einfach>>
+*Boten* bieten sich in vielen größeren Siedlungen an, um Nachrichten, Gegenstände, Sendungen von einem Ort zu einem Anderen zu bringen.
+Die Kosten dafür hängen von der Distanz ab, die zurückgelegt werden muss:
+|===
+|Lieferung nach |Kosten (Silbermünzen)
 
-Bote:
+|Innerhalb einer Stadt
+|5
 
-Innerhalb einer Stadt5
+|Zwischen zwei Städten über Straßen verbunden
+|10 pro 2 Kilometer
 
-Zwischen zwei Städten (ohne Portalreisen)40+
+|Zwischen zwei Städten in unterschiedlichen Ländern
+|100
 
-Schreiber:
+|Zwischen zwei Städten auf unterschiedlichen Kontinenten
+|300
+|===
+Die Kosten können noch Aufschläge erhalten nach folgenden Kriterien:
+* *schwere* und *sperrige* Gegenstände erfordern zusätzliche Transportkapazitäten wie Kutschen: +250 Silbermünzen
+* *Gefahren* auf der Strecke: bis zu 500 Silbermünzen
+* *Zoll-* und *Bürokratische Verfahren* sind zu berücksichtigen: +50 Silbermünzen
 
-Abschrift(pro Seite)2
+[[ref_core_adventures_settlements_sample_services_scribe]]
+=== Schreiber
+*Kategorie:* <<ref_core_adventures_settlements_services_common,durchschnitt>>
+Humanoide mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_read_write[Lesen/Schreiben] mit xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufe] 3 oder höher können ihre Fähigkeit als *Schreiber* anbieten.
+Die Siedlung muss dazu Bildungseinrichtungen besitzen, die dieses Talent vermitteln, um adequate Spezialisten auszubilden.
+link:professions/core_professions_scholar.adoc[Scholare] und <<ref_core_adventures_settlements_sample_services_scholar,Gelehrte>> überschneiden ihre Angebote an dieser Stelle oft.
 
-Übersetzung(pro Seite)5
+.Dienstleistungen eines Schreibers
 
-Diktat(pro Wort)0.1
+|===
+|Dienstleistung |Kosten (Silbermünzen)
 
-Weiser:
+|Abschrift
+|2 pro Seite
 
-Je nach Informtion20-200
+|Übersetzung
+|5 pro Seite
 
-Bibliothekzugang:
+|Diktat
+|1 Kupfer pro Wort
+|===
 
-Große Stadt10-25
 
-Kleine Stadt5-10
+[[ref_core_adventures_settlements_sample_services_scholar]]
+=== Gelehrter
+*Kategorie:* <<ref_core_adventures_settlements_services_scarce,Selten>>
+Humanoide der Berufung link:professions/core_professions_scholar.adoc[Scholare] bieten ihre Dienste an, in dem sie im Auftrag geziehlt das Talent xref:core_rules_talents_base.adoc#ref_talents_research[Forschen] oder xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen] einsetzen.
+Je nach Information, die gesucht wird, kostet der Dienst eines Scholaren 20 bis 200 Silbermünzen.
 
-Transport:
+[[ref_core_adventures_settlements_sample_services_library_access]]
+=== Bibliothekszugang
+*Kategorie:* <<ref_core_adventures_settlements_services_scarce,Selten>>
+*Bibliotheken* sind ein Ort des Wissens und der Wissenschaften.
+Öffentliche Bibliotheken entstehen in der Regel erst ab einer Siedlung der Kategorie <<ref_core_adventures_settlements_size_village,Stadt>> und einer Dienstleistungsqualität von <<ref_core_adventures_settlements_services_scarce,selten>>.
+Eine Zugangsgebühr von 10 bis 15 Silbermünzen kann verlangt werden.
+Kleinere Siedlungen können eifrige Sammler von Dokumenten und Büchern beherbergen, die ihr Wissen für ein kleineres Geld teilen.
+Bibliotheken können genutzt werden, um xref:core_rules_talents_base.adoc#ref_talents_research[Forschen-Proben] zu ermöglichen.
 
-Karavane(je 10 Kilometer)5
+[[ref_core_adventures_settlements_sample_services_transportation]]
+=== Transport und Karavanen
+*Kategorie:* <<ref_core_adventures_settlements_services_common,Durchschnitt>>
+Händler formen *Karavanen*, um in einer Gruppe sicher längere Strecken zurückzulegen.
+Die Logistik einer Karavane beinhaltet Transportgeräte wie Planwagen, Kutschen, Träger und Wächter.
+Nicht selten kümmern sich Anbieter, wie das xref:../../lore/worlds/alvaha/nations_and_factions/noble_houses_of_the_heartlands.adoc#ref_house_of_the_wheel[Haus des Rades] auf Al'vaha, um diese Art der Dienstleistung.
+Karavanen folgen in der Regel festen Routen, die sie regelmäßig bereisen.
+Gegen eine Gebühr können weitere Reisende sich Karavanen anschließen, in der Regel müssen sie jedoch sich selbst um Verpflegung, Unterkunft und Bewegung z.B. zu Pferd bemühen.
+.Transport und Karavane
+|===
+|Dienstleistung |Kosten
 
-Schiff(unterschiedlich je nach Reisedauer)50+
+|Karavane per Land anschließen
+|5 pro 10 Kilometer
 
-Spezialbote120+
+|Karavane per Land als Passagier mit Logis anschließen
+|20 pro 10 Kilometer
 
-Stadtführer:
+|Reise per Schiff Selbstversorgt
+|ab 50 per Person
 
-Einzelne Information1-5
+|Reise per Schiff als Passagier
+|ab 100 pro Person
+|===
 
-Stadtrundgang15+
+[[ref_core_adventures_settlements_sample_services_guide]]
+=== Stadtführer
+*Kategorie:* <<ref_core_adventures_settlements_services_common,durchschnitt>>
+*Stadtführer* sind versierte und lokal versierte Bewohner einer Siedlung, die sich darauf spezialisiert haben, Fremde durch die Siedlung zu führen.
+Viele kennen jede Ecke, besondere Orte und lokale Gerüchte.
 
-Magier:
+.Dienstleistungen Stadtführer
+|===
+|Dienstleisung |Kosten (Silbermünzen)
 
-Magische Heilung200
+|Gerücht, Tipp
+|1
 
-Fluch von einer Person nehmen5000+
+|Führung zu bestimmten Ort
+|5
 
-Fluch von einem Gegenstand nehmen7500+
+|Stadtrundgang0000
+|25
+|===
 
-Magischen Kristall wiederauffüllen(keine Technomantischen)25 pro MP
+[[ref_core_adventures_settlements_sample_services_mage]]
+=== Zauberkundiger
+*Kategorie:* <<ref_core_adventures_settlements_services_scarce,Selten>>
+Praktizierer der arkanen Künste sind wie viele andere Humanoide auch daran gebunden, ihren Lebensunterhalt zu verdienen.
+Daher ist es durchaus denkbar, dass ein Magiekundiger in einer hinreichend großen und reichen Siedlung seine Dienste anbietet.
+Für die Dienste sind xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_talents_steps[Talentstufen] in den Talenten xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] und xref:core_rules_talents_base.adoc#ref_talents_knowledge[Wissen (Arkanes)] mit Stufe 7 nötig.
+Das Ladengeschäft eines Magiers ist immer ein außergewöhnlicher Ort, voll mit unscheinbaren Dingen, die vielleicht ein großes Wunder beeinhalten, Büchern und Schriftrollen.
+Und natürlich mit Gleichgesinnten und Interessierten.
 
-Magische Sprache übersetzen1000+
+.Dienstleistungen eines Zauberkundigen
 
-Zauberspruch lehren100*POT
+|===
+|Dienstleistung |Beschreibung |Kosten (Silbermünzen)
 
-Magischen Gegenstand identifizieren100-250
+|Magischen Kristall wiederauffüllen
+|Der Magier kann MP von xref:core_rules_magic_base.adoc#ref_core_magic_base_items_with_mp_magicalitems[magischen Gegenständen] aber keine xref:core_rules_magic_base.adoc#ref_core_magic_base_items_with_mp_technomanticalitems[Technomantischen] aufladen. Üblicherweise halten Anbieter dieser Dienstleistung aufgeladene Kristalle bereit und tauschen die MP direkt, die Dienstleistung umfasst aber auch den nutzen des eigenene Pools.
+|5 pro MP
 
-Technomant:
+|Magische Sprache übersetzen
+|Um eine konkrete magische Sprache zu übersetzen, muss der Zauberkundige diese beherrschen.
+|1000
 
+|Zauberspruch lehren
+|Nach den xref:core_rules_magic_base.adoc#ref_core_magic_schools_learning_spells[Regeln] kann ein Magier einen ihm bekannten Zauberspruch anderen beibringen. Diese müssen die Voraussetzungen erfüllen.
+|100*POT
+
+|Zauberspruch ausprechen
+|Der Magier kann einen ihm bekannten Zauberspruch aussprechen.
+|200 + 100*POT + Zutaten
+|===
+
+
+[[ref_core_adventures_settlements_sample_services_mage_cursebreaker]]
+==== Fluchbrecher
+*Kategorie:* <<ref_core_adventures_settlements_services_exotic,Exotisch>>
+Manche Zauberkundige spezialisieren sich als *Fluchbrecher*. link:../advanced/advanced_rules_curses.adoc[Flüche] sind teils uralte, mächtige, arkane Zauber, die übernatürlichen Ursprungs sind und die Zeiten überdauern.
+Es gelten die Regeln zu xref:../advanced/advanced_rules_curses.adoc#ref_curses_breaking[Flüche brechen].
+Der Zauberkundige muss die beschriebenen Voraussetzungen erfüllen.
+
+.Dienstleistungen Fluchbrecher
+|===
+|Dienstleistung |Kosten (Silbermünzen)
+
+|Fluch identifizieren
+|500+
+
+|Fluch von einer Person nehmen
+|5000+
+
+|Fluch von einem Gegenstand nehmen
+|7500+
+|===
+[[ref_core_adventures_settlements_sample_services_mage_artefactexpert]]
+=== Artefaktexperte
+*Kategorie:* <<ref_core_adventures_settlements_services_exotic,Exotisch>>
+link:core_rules_magic_items.adoc[Kapitel zu magischen Gegenständen]
+.Dienstleistungen Artefaktexperte
+|===
+|Dienstleistung |Kosten (Silbermünzen)
+|Magischen Gegenstand identifizieren
+|100-250
+
+|Artefakt identifizieren
+|500
+
+|Schlüsselinformation herausfinden
+|2000+
+|===
+
+
+[[ref_core_adventures_settlements_sample_services_technomant]]
+=== Technomant
+*Kategorie:* <<ref_core_adventures_settlements_services_scarce,Selten>>
 Technomantisches Gerät reparieren1000+
 
 Magischen Kristall wiederauffüllen25 pro MP
-
+Zauberspruch ausprechen 100*POT
 Technomantische Proteste(Arm oder Bein)7500
 
-Alchemist:
-
+[[ref_core_adventures_settlements_sample_services_technomant_golemmechanist]]
+==== Golemmachinist
+*Kategorie:* <<ref_core_adventures_settlements_services_exotic,Exotisch>>
+[[ref_core_adventures_settlements_sample_services_alchemist]]
+=== Alchemist
+*Kategorie:* <<ref_core_adventures_settlements_services_scarce,Selten>>
 Trank brauen250-2000
-
 Trank identifizieren50-100
+Zauberspruch ausprechen 100*POT
 
-Heiler:
+[[ref_core_adventures_settlements_sample_services_healer]]
+=== Heiler
+*Kategorie:* <<ref_core_adventures_settlements_services_scarce,Selten>>
 
 Verletzung heilen und behandeln20
 
@@ -795,25 +1074,25 @@ Krankheit behandeln30+
 
 Gift behandeln30+
 
-Portalreisen:
+[[ref_core_adventures_settlements_sample_services_portal_journeys]]
+=== Portalreisen
 
 Betreten eines kommerziellen Portals: 10-50
 
-Reitiere:
+[[ref_core_adventures_settlements_sample_services_mounts]]
+=== Reitiere
 
 Pferd:500
 
-Finanzen:
+=== Finanzen
 
 Bänker10% des Einlagerungswertes
 
 Pfandleiher50-75% des Gesamtwertes
 
-== Siedlungen und Handelsware
 
-// TODO -> d10 system adoc
 === Heilung von Verletzungen
-
+// TODO -> d10 system adoc
 Die Heilung von Verletzungen ist vom Verletzungsgrad abhängig.
 Je stärker eine Trefferzone verletzt ist, umso länger dauert die Heilung.
 Die folgende Tabelle gibt Auskunft über die nötigen Voraussetzungen, wann eine Verletzung heilen kann:

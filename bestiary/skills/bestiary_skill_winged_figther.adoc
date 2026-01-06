@@ -1,0 +1,13 @@
+= Geflügelter Kämpfer
+
+*Voraussetzungen:* Kreatur hat Flügel und link:bestiary_skill_move_flight.adoc[Flugfähigkeit] +
+*Typ:* Angriff, Bewegung +
+*Überanstrengung:* siehe Beschreibung +
+*CP:* 200 +
+Eine fliegende Kreatur mit dieser Fähigkeit hat gelernt, ihre Flugfähigkeit und ihre Flüg effektiv im Kampf einzusetzen, um ihre natürlichen Vorteile gegenüber bodengebundenen Opponenten weiter auszubauen.
+Durch diese Fähigkeit stehen ihr in der Kampfphase folgende Optionen zur Verfügung:
+* *Flügelschlag:* In xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinem Zug] darfst Du einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Nahkampfangriff] einsetzen, in dem Du einen passenden Gegner mit Deinem Flügel schlägst. Dies gilt als link:bestiary_skill_attack_slam.adoc[Wucht-Angriff] mit einer *Angriffsstufe* von 5 + Dein ST-Bonus, der *Schaden* ist von Deiner link:../../rules/tables/table_unarmed_combat_damage_by_size.adoc[GK] abhängig.
+* *Flügelverteidigung:* Du hast gelernt, die Wucht Deiner Flügel einzusetzen, um eingehende Angriffe abzuwehren. Du kannst immer eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Verteidigung] einsetzen, solange Du Flügel hast.
+Du kannst den Verteidigungswurf mit einem Deiner Verteidigungstalente würfeln.
+Sollte die Verteidigung misslingen, wirst Du auf der Trefferzone Flügel getroffen.
+* *Flugangriff:* Dein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_aimedattack[Flugangriff] ist nicht xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiert]. Jeder Flugangriff in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[Deinem Zug] nach dem Ersten, kostet Dich 1 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengungsschaden].
