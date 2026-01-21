@@ -1,0 +1,77 @@
+= Blutrünstiger Steppenläufer
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc[Pflanze]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+== Profil
+
+*ST:* 6 (+2) +
+*GE:* 9 (+3) +
+*KO:* 6 (+2) +
+*ER:* 9 (+3) +
+*EN:* 6 (+2) +
+*SB:* 3 (+1) +
+*CH:* 3 (+1) +
+*TP:* 75 +
+*MP:* 60 +
+*SP:* 30 +
+*BEW:* 9,00 Meter +
+*INI:* +5 +
+*MaxTL:* 90 +
+*MaxPOT:* 9 +
+*Aktionen:* 3 +
+*Rüstung:* +
+*Resistenzen:* +
+link:../skills/bestiary_skill_damagevulnerability.adoc[Schadensanfälligkeit] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+
+*Immunitäten:* +
+link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +2 +
+*Körper:* +4 +
+*Magie:* +3 +
+*Reflex:* +6 +
+
+== Offensiv
+
+* <<ref_bestiary_tumbleweed_rules_blood_sucking,Blut saugen>>
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen]
+
+
+== Sonstiges
+
+* xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_plant.adoc#ref_primary_creaturetype_plants_rules_hibernate[Ruhezustand] (wenn Lebend)
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
+* link:../skills/bestiary_skill_no_zone_of_control.adoc[Keine Bedrohungszone]
+
+== Regeln
+[[ref_bestiary_tumbleweed_rules_engulf]]
+=== Umschlingen
+Diese Kreatur kann in den xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_occupiedspaces[Platz] einer anderen Kreatur eindringen, sofern deren GK 5 oder weniger beträgt.
+Das dornige, aber biegsame Gewebe des Steppenläufers umschlingt leicht den Körper anderer.
+Der Steppenläufer benötigt dazu nur eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegungs-Aktion], um den xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_occupiedspaces[Platz] der Zielkreatur sich zu bewegen.
+Diese Bewegung provoziert keinen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriff] bei der Zielkreatur.
+Die  Zielkreatur darf in ihrem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_breakfree[Befreien-Aktion] einsetzen und sich aus dem Dickicht befreien und befindet sich am Ende dieser Aktion neben dem Steppenläufer.
+
+[[ref_bestiary_tumbleweed_rules_blood_sucking]]
+=== Blut saugen
+Beginnt der Steppenläufer seinen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] auf einem Platz mit einer <<ref_bestiary_tumbleweed_rules_engulf,umschlungenen Kreatur>>, kann er deren Blut saugen, falls sie welches besitzt, d.h. in der Regel muss sie link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend] sein.
+Für den Steppenläufer ist dies eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und verursacht bei der Zielkreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[physischen] Schaden.
+Der Steppenläufer erhält dadurch selbst 1W4+1 TP in seinen Pool zurück.
+
+== Taktik

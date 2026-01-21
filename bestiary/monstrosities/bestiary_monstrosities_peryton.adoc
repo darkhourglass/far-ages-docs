@@ -1,0 +1,71 @@
+= Peryton
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* Templates
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+_"Aus der Ferne hörten wir nicht nur die entsetzen Schreie, sondern auch das Reißen von Fleisch und das Brechen der Knochen. Als wir endlich der Lichtung und dem Hof nahe kamen, konnten wir nur getrocknetes Blut am Boden finden und die Spuren eines Hirsches im lockeren Boden."_
+
+Selten vereinen sich Schönheit und Schrecken in gleichen Maßen in einem Lebewesen. Der Körper des Perytons ist der eines prächtigen Hirsches auf dessen Rücken ein paar anmutiger Flügel wächst.
+Das Peryton besitzt am ganzen Körper ein Gefieder von tief jadegrüne Färbung.
+Seine Flügel hingegen weisen eine graduelle Mischung aus Jade durchmischt mit Rot, Orange und Weiß auf.
+Die Hinterläufe sind die eines Vogels mit scharfen Klauen, während das fordere Beinpaar, das eines Rotwildes ist.
+Ebenso endet der Kopf in einem Antlitz eines Hirsches mit beeindruckenden Hörnern.
+Es heißt, Perytons stammen von einem verlorenen Kontinent, der mittlerweile im Meer versunken ist.
+Ihr Überleben bringt nur wenig Grund zur Freude, denn diese majestetischen Wesen sind aggressive Fleischfresser, die auch vor Humnoiden keinen Halt machen und schwache, unvorbereitete Reisende überfallen, um sie in Stücke zu reißen.
+Manche Legenden sprechen davon, dass der Schatten eines Perytons der eines Menschen mit Flügeln ist und erst zu seinem realen Schatten wird, wenn es zum ersten Mal das Fleisch eines Humanoiden gefressen hat.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:* 6 (+2) +
+*ER:* 8 (+2) +
+*EN:* 9 (+3) +
+*SB:* 6 (+2) +
+*CH:* 9 (+3) +
+*TP:* 100 +
+*MP:* 90 +
+*SP:* 75 +
+*BEW:* Boden 12,00 Meter, link:../skills/bestiary_skill_move_flight.adoc[Fliegen 24,00 Meter] +
+*INI:* +4 +
+*MaxTL:* 135 +
+*MaxPOT:* 12 +
+*Aktionen:* 3 +
+*Rüstung:* - +
+*Resistenzen:* - +
+*Immunitäten:* - +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +8 +
+*Körper:* +10 +
+*Magie:* +5 +
+*Reflex:* +7 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 6 2W6+3 2x
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 6 2W6+3 2x
+* link:../skills/bestiary_skill_modification_rend.adoc[Zerreisen (Klauen)]
+* link:../../rules/core/skills/core_skill_backstab.adoc[Hinterhältiger Angriff]
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7+2
+* link:../skills/bestiary_skill_spell_resistant.adoc[Zauber-Resistent]
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_move_strider_forest.adoc[Waldwanderer]
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 6+2
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 6+2
+
+== Regeln
+
+== Taktik

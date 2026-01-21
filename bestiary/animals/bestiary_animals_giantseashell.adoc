@@ -1,0 +1,80 @@
+= Riesige Meeresschale
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_aquatic.adoc[Aquatisch]
+* GK: 7
+* CP: TBA
+
+== Beschreibung
+
+
+Diese Kreaturen sind verwandt mit Muscheln und somit im Endeffekt sehr große Weichtiere, die sich in einer harten Muschelschale verstecken und schützen.
+Ausgewachsene Tiere erreichen eine Körperlänge von 2 Metern und wiegen um die 600 Kilogramm.
+Auffällig sind die langen, fleischigen Tentakeln, die aus der Muschelöffnung ragen und deren Spitzen an korrallenblüten erinnern, letzeres als Tarnung und Lockmittel für Beute.
+Meeresschalen sind keine inherent aggressiven Kreaturen, dennoch können sie eine Gefahr darstellen, wenn man sich in ihren Tentakeln verfängt.
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 3 (+1) +
+*KO:* 12 (+4) +
+*ER:* 6 (+2) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 3 (+1) +
+*TP:* 120 +
+*MP:* 30 +
+*SP:* 45 +
+*BEW:* 3,00 Meter +
+link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 6,00 Meter
+*INI:* +2 +
+*MaxTL:* 180 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor_unbreakable.adoc[Unnachgiebige natürliche Rüstung: 12 (harte Schale, alle Trefferzonen)] +
+*Resistenzen:* +
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch]
+*Immunitäten:* +
+link:../skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +3 +
+*Körper:* +5 +
+*Magie:* +3 +
+*Reflex:* +3 +
+
+== Offensiv
+
+* <<ref_giantseashell_rules_sticky_tentakles,Klebrige Tentakel>> 9
+* <<ref_giantseashell_rules_digest_prey,Beute verdauen>> 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure]
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 5
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild-Verteidigung] 8
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] 8
+* link:../skills/bestiary_skill_gills.adoc.adoc[Kiemen]
+* link:../skills/bestiary_skill_move_swim_boost.adoc[Schwimmschub]
+* link:../skills/bestiary_skill_senses_blindsense.adoc[Blindsinn 18,00 Meter]
+
+== Regeln
+
+[[ref_giantseashell_rules_sticky_tentakles]]
+=== Klebrige Tentakel
+Die Riesenmeeresschale jagt nicht aktiv, sondern hält seine Tentakel in die Meeresströmung und wartet, dass sich Beute in diesen verfängt.
+Jede link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur, die in die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] der Riesenmeereschale eintritt, muss einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeits-Rettungswurf] gegen die Verstecken-Probe der Meeresschale ablegen.
+Misslingt dieser Rettungswurf, übersieht die Kreatur die Tentakel und die Riesenmeereschale darf sofort einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Nahkampfangriff] mit ihren Tentakeln würfeln.
+Die betroffene Kreatur darf sich mit einem xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] verteidigen.
+Misslingt auch dieser, wird die Kreatur xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten].
+Dieser Zustand kann durch konkurriende ST-Proben aufgehoben werden.
+
+[[ref_giantseashell_rules_digest_prey]]
+=== Beute verdauen
+Jede Kreatur, die von der Meeresschale zu Beginn xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[ihres Zuges] xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten] wird, erhält einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden].
+
+== Taktik

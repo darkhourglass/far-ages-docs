@@ -3,46 +3,40 @@
 * link:../../../rules/advanced/creaturetypes/primary/creaturetype_primary_empyrean.adoc[Empyrean]
 * link:../../../rules/advanced/creaturetypes/secondary/creatruretype_secondary_cosmic.adoc[Kosmisch]
 * link:../../../bestiary/templates/bestiary_template_legendary.adoc[Legendär]
-* GK: X
-* CP: TBA
+* GK: 5
+* CP: 29900+
 
 == Beschreibung
 
 Lore
+Kernunnus hat die Gestalt eines kräftigen, kampferprobten Menschen mit einer für die die Wilde Jagd typischen, blassen Haut, die Knochen zeigt.
+Kernunnus Augen glühen in einem frostblauen Licht und ihn umgibt eine Aura aus Dunkelheit, Eis und Macht.
+Als unangefochtener Anführer der wilden Jagd ist er üblicherweise nur mit einer Heerschar aus Angehörigen der Wilden Jagd antreffen, einen Kreuzzug gegen die Lebenden führend.
 
 == Profil
-// +6, +4 und +2 auf 3
-*ST:* XXX (+x) +
-*GE:* XXX (+x) +
-*KO:* XXX (+x) +
-*ER:* XXX (+x) +
-*EN:* XXX (+x) +
-*SB:* XXX (+x) +
-*CH:* XXX (+x) +
 
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX //+20 +
-
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
-
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
-
+*ST:* 12 (+4) +
+*GE:* 10 (+3) +
+*KO:* 12 (+4) +
+*ER:* 10 (+3) +
+*EN:* 6 (+2) +
+*SB:* 9 (+3) +
+*CH:* 9 (+3) +
+*TP:* 135 +
+*MP:* 60 +
+*SP:* 110 +
+*BEW:* 9,00 Meter +
+*INI:* +6 +
+*MaxTL:* 180 +
+*MaxPOT:* 9 +
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
+*Rüstung:* 7 (alle Trefferzonen, excellente Lederrüstung) +
+*Resistenzen:* +
+* link:../../../bestiary/skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch]
 *Immunitäten:*  +
 * link:../../../bestiary/skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../../../bestiary/skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../../../bestiary/skills/bestiary_skill_damagerimmunity.adoc[Schadensimmunität] xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]
 
 == Rettungswürfe
 // alle +5
@@ -54,30 +48,83 @@ Lore
 
 == Offensiv
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 10 + ST (Bastardschwert 2W6/3W6)
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 12 + ST (Langbogen, 2W8+2)
+* link:../../../rules/core/skills/core_skill_weapontraining_projectile.adoc[Projektilwaffentraining (Langbogen)]
+* link:../../../rules/core/skills/core_skill_advancing_strike.adoc[Vorrückender Schlag]
+* link:../../../rules/core/skills/core_skill_backstab.adoc[Hinterhältiger Angriff]
+* link:../../../rules/core/skills/core_skill_battlesense.adoc[Kampfsinn]
+* link:../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht] 7
 
 == Defensive
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] 10 + ST
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 10 + GE
 
 == Sonstiges
-
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
+* link:../../../bestiary/skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht (36,00 Meter]
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] 12+3+1
+* <<rules_skills_kernunnus_bringer_of_the_rauhnacht,Bringer der Rauhnacht>>
+* <<rules_skills_kernunnus_lord_of_the_wild_hunt,Anführer der Wilden Jagd>>
+* <<rules_skills_kernunnus_recruitement,Rekrutierung>>
+* <<rules_skills_kernunnus_shadowsportal,Schattenportale>>
 * link:../../../../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
 * link:../../../bestiary/skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
 * link:../../../bestiary/skills/specific/thewildhunt/bestiary_skill_thewildhunt_shadowhorse.adoc[Schattenpferd]
 
 == Regeln
+
+[[rules_skills_kernunnus_bringer_of_the_rauhnacht]]
+=== Bringer der Rauhnacht
+Rauhnächte sind die kältesten, dunkelsten und magischten Nächte im Winter, wenn der Schleier zwischen materiellen Welt und den Schatten am dünnsten ist.
+Kernunnus besitzt eine mystische Verbindung zu diesen Momenten der Kälte und Finsternis und bringt diese mit sich, wenn er die materielle Welt betritt.
+In einem Radius von 36,00 Meter um Kernunnus herrschen die Effekte:
+* link:../../../compendiums/spells/spell_total_darkness.adoc[Totale Finsternis]
+* link:../../../compendiums/spells/spell_freezing_moon.adoc[Eiskalter Mond]
+
+Diese Effekte sind magischer Natur, aber können nicht gebannt werden, solange Kernunnus anwesend ist.
+Außerdem xref:../../../rules/core/core_rules_adventures.adoc#ref_core_adventures_terrain_snow_ice_frost[schneit und friert] es in einem Radius von 1 Meile um Kernunnus.
+Verlässt der Herr der Wilden Jagd ein Gebiet, kehrt dessen normales Wetter zurück.
+
+[[rules_skills_kernunnus_lord_of_the_wild_hunt]]
+=== Anführer der Wilden Jagd
+Kernunnus hält absolute Kontrolle über die Wilde Jagd und damit über jeden Teilnehmer.
+Es ist quasi unmöglich Kernunnus ohne die Wilde Jagd anzutreffen bzw. umgekehrt.
+Wird Kernunnus angetroffen, funktioniert diese Fähigkeit wie die link:../../../bestiary/skills/specific/bestiary_skill_retunie.adoc[Gefolgschaft] von
+* 2 link:../../../bestiary/humanoids/bestiary_humanoids_archer_of_the_wild_hunt.adoc[Bogenschütze der Wilden Jagd]
+* 3 link:../../../bestiary/humanoids/bestiary_humanoids_cavelerist_of_the_wild_hunt.adoc[Reiter der Wilden Jagd]
+in der Rolle Leibwächter.
+In xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] darf Kernunnus eine xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] oder xref:../../../bestiary/templates/bestiary_template_legendary.adoc#ref_template_legendary_skill_legendary_actions[legendäre Aktion] einsetzen, um Verstärkung zu rufen.
+Dazu würfelt der SL 1W10 und konsuliert für das Ergebnis die folgende Tabelle:
+
+|===
+|Ergebnis 1W10|Verstärkung für Kernunnus
+
+|1-2
+|1 Bogenschütze der Wilden Jagd
+
+|3-4
+|2 Bogenschützen der Wilden Jagd
+
+|5-7
+|1 Bogenschütze und 1 Reiter der Wilden Jagd
+
+|8-9
+|1W3 Bogenschützen der Wilden Jagd
+
+|10
+|1W4 Bogenschützen und 1W3 Reiter der Wilden Jagd
+|===
+Die Verstärkung erscheint in 18,00 Metern Sichtweite von Kernunnus und kann ab dem nächsten Zug in die Initiative Reihenfolge eingreifen.
+
+[[rules_skills_kernunnus_recruitement]]
+=== Rekrutierung
+Alle Kreaturen, die die xref:../../../bestiary/templates/bestiary_template_scion_of_thewildhunt.adoc#ref_bestiary_template_scion-of_the_wildhunt_requirements[Voraussetzungen] erfüllen, um die Schablone link:../../../bestiary/templates/bestiary_template_scion_of_thewildhunt.adoc[Angehöriger der Wilden Jagd] zu erhalten (also hauptsächlich lebende Humanoide) und sich mindestens 6 xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase[Kampfphasen] in direkter Konfrontation mit Kernunnus oder anderen Angehörigen der Wilden Jagd mit Kernunnus in der Nähe befinden, können sie von diesen xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_unarmed_combat_brawl[gefangen werden] und für mindestens 4 weitere Kampfphasen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_held[gehalten] werden.
+Erfolgt dies, werden die Kreaturen zu Teilnehmern der Wilden Jagd.
+Sie erhalten die Schablone link:../../../bestiary/templates/bestiary_template_scion_of_thewildhunt.adoc[Angehöriger der Wilden Jagd].
+
+[[rules_skills_kernunnus_shadowsportal]]
+=== Schattenportal
+Kernunnus kann wie andere Angehörige des Wilden Jagd die Fähigkeit link:../../../bestiary/skills/specific/thewildhunt/bestiary_skill_thewildhunt_dimensionshift.adoc[Dimensionaler Wechsel] nutzen, jedoch als *Schattenportal*. Dieses ermöglicht das Übertreten von bis zu 30 Kreaturen gleichzeitig mit einer einzigen Aktion, die alle Angehörige der wilden Jagd sein müssen.
 
 == Taktik

@@ -4,7 +4,7 @@
 * link:../../rules/advanced/creaturetypes/secondary/creatruretype_secondary_supernatural.adoc[Übernatürlich]
 * link:../templates/bestiary_template_scion_of_thewildhunt.adoc[Angehöriger der Wilden Jagd]
 * GK: 5
-* CP: TBA
+* CP: 6100+
 
 == Beschreibung
 
@@ -12,67 +12,51 @@ Lore
 
 == Profil
 
-*ST:* XXX (+x) +2 +
-*GE:* XXX (+x) +
-*KO:* XXX (+x) +
-*ER:* XXX (+x) +4 +
-*EN:* XXX (+x) +
-*SB:* XXX (+x) +2 +
-*CH:* XXX (+x) +
-
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
-
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
-
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
-
+*ST:* 9 (+3) +
+*GE:* 5 (+1) +
+*KO:* 5 (+1) +
+*ER:* 7 (+2) +
+*EN:* 2 (+1) +
+*SB:* 5 (+2) +
+*CH:* 2 (+1) +
+*TP:* 85 +
+*MP:* 20 +
+*SP:* 35 +
+*BEW:* 9,00 Meter +
+*INI:* +3-1 +
+*MaxTL:* 135 +
+*MaxPOT:* 5 +
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
+*Rüstung:* 9 Lederüstung+Reiterschild (alle Trefferzonen) +
+*Resistenzen:*  +
 *Immunitäten:* +
 * link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
 * link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
 == Rettungswürfe
 
-*Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +
-*Magie:* EN+SB +
-*Reflex:* GE+ER +
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +3 +
+*Körper:* +4 +
+*Magie:* +3 +
+*Reflex:* +3 +
 
 == Offensiv
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 7+3 (Lanze, 3W6+3)
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 7+3 (Flegel, 3W6+3)
+* link:../../rules/core/skills/core_skill_improved_charge.adoc[Verbesserter Sturmangriff]
+
 
 == Defensive
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidiung] 7+3 (Reiterschild)
 
 == Sonstiges
 
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] +3
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] +3
-* Talent 1
-* Talent 2
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] 8+3+1
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] 4+3+2
+* link:../skills/specific/thewildhunt/bestiary_skill_thewildhunt_dimensionshift.adoc[Dimensionaler Wechsel]
 * link:../skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
 * link:../skills/specific/thewildhunt/bestiary_skill_thewildhunt_shadowhorse.adoc[Schattenpferd]
 

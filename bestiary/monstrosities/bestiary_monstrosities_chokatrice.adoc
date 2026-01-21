@@ -1,0 +1,79 @@
+= Schreckhahn (Basilisk)
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* GK: 6
+* CP: TBA
+
+== Beschreibung
+
+
+Diese als Schreckhahn bekannte Kreatur ist eine verwandte Chimäre des Basilisken. //Todo: link
+Der Körper der Kreatur ist der einer schlangenförmigen Echse mit den Hinterbeinen und Kopf eines Hahns.
+Zwei ledrige Flügel tragen die Kreatur durch die Lüfte.
+Besonders gefürchtet ist der Schreckhahn durch seinen giftigen Atem, der Opfen lähmen kann, während die Kreatur ohne Verteidigung die Opfer zerreißt.
+
+== Profil
+
+*ST:* 6 (+2) +
+*GE:* 8 (+2) +
+*KO:* 8 (+2) +
+*ER:* 9 (+3) +
+*EN:* 9 (+3) +
+*SB:* 6 (+2) +
+*CH:* 9 (+3) +
+*TP:* 76 +
+*MP:* 90 +
+*SP:* 75 +
+*BEW:* 9,00 Meter, link:../skills/bestiary_skill_move_flight.adoc[Fliegen, 12,00 Meter] +
+*INI:* +5 +
+*MaxTL:* 90 +
+*MaxPOT:* 12 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] (3, dicke Haut, alle Trefferzonen +
+*Resistenzen:* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresizenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch] +
+*Immunitäten:* +
+link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +8 +
+*Körper:* +9 +
+*Magie:* +5 +
+*Reflex:* +9 +
+
+== Offensiv
+
+* <<ref_bestiary_cockatrice_paralizing_odem,Paralysierender Atem>> 11, 9,00 Meter 1x
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] +7 1W10+2, 2x
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] +8 2W6+2 1x
+
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8+2
+* link:../skills/bestiary_skill_move_nimble.adoc[Flink]
+
+== Sonstiges
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] 6+3
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 6+2
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc#ref_secondary_creaturetype_magical_rules_magical_nature[Magische Natur]
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht] 36,00 Meter
+
+== Regeln
+
+[[ref_bestiary_cockatrice_paralizing_odem]]
+=== Paralysierender Atem
+Der Basilisk kann eine Wolke übelriechenden, gräulich, grünen Dampf ausstoßen.
+Es handelt sich um eine link:../skills/bestiary_skill_attack_odem.adoc[Odem-Attacke] mit 9,00 Metern Reichweite.
+Alle link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreaturen im Wirkungsbereich müssen einen xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_hazards_poisons_resist[Gift widerstehen Rettungswurf] ablegen.
+Dieser hat den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[Standardmindestwurf], der modifiziert wird durch den xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad], den der Basilisk in seiner Angriffsprobe erzielt hat.
+Der Mindestwurf steigt um 3 Punkte für jeden Erfolgsgrad über Durchschnitt.
+Bei einem fehlgeschlagenen Rettungswurf wird die Kreatur _paralysiert_, was die kombination der Zustände xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_immobile[unbeweglich] und xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_disabled[kampfunfähig] ist.
+Dieser Zustand endet, sobald die Kreatur einen erfolgreichen Rettungswurf ablegt.
+Diesen darf sie zu Beginn xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[des eigenen Zuges] würfeln.
+
+== Taktik

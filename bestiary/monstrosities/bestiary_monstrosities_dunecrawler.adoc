@@ -1,0 +1,67 @@
+= Dünenkriecher
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vermin.adoc[Ungeziefer], link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebendig]
+* GK: 6
+* CP: 5000
+
+== Beschreibung
+
+Lore
+Dieses übergroße Insekt gleicht einer Mischung aus Sandkäfer und Tausendfüßler.
+Seine Körperlänge misst fast 6,00 Meter und hat wie ein regulärer Käfer drei Sektionen.
+Der Kopf endet in 2 massiven Mandibeln und die Beine in großen klauenartigen Schaufel, die der Dünenkriecher zum Buddeln gebraucht.
+Die größte Gefahr geht auch von genau dieser Fähigkeit aus, denn der Dünenkriecher kann sich erstaunlich schnell vergraben und schnell durch Sand bewegen, um seine Opfer zu überraschen.
+
+== Profil
+
+*ST:* 14 (+3) +
+*GE:* 9 (+2) +
+*KO:* 6 (+2) +
+*ER:* 9 (+3) +
+*EN:* 3 (+1) +
+*SB:* 6 (+2) +
+*CH:* 6 (+2) +
+*TP:* 130 +
+*MP:* 30 +
+*SP:* 60 +
+*BEW:* 9,00 Meter,
+ * link:../skills/bestiary_skill_move_climb.adoc[Klettern, 6,00 Meter], +
+ * link:../skills/bestiary_skill_move_burrow.adoc[Graben, 12,00 Meter] +
+* link:../skills/bestiary_skill_move_swim.adoc.adoc[Schwimmn, 12,00 Meter] +
+*INI:* +5 +
+*MaxTL:* 310 +
+*MaxPOT:* 6 +
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] (5, Chitinpanzer, alle Trefferzonen) +
+*Resistenzen:* +
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aether]
+*Immunitäten:* +
+link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+link:../skills/bestiary_skill_immunity_to_knockdown.adoc[Immun gegenüber Niederschlag]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* +7 +
+*Körper:* +10 +
+*Magie:* +3 +
+*Reflex:* +8 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_bite.adoc[Mandibeln] 10, 2W6+3 3x
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 10, 2W6+3 1x*
+* link:../skills/bestiary_skill_poison.adoc[Gift (Klauen, paralysiered)]
+
+== Defensive
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] 8
+
+== Sonstiges
+* link:../skills/bestiary_skill_move_strider_sand.adoc[Sandwanderer]
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht 12,00 Meter]
+
+== Regeln
+
+== Taktik

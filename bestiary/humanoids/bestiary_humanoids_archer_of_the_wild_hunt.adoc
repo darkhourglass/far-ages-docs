@@ -46,13 +46,12 @@ Lore
 
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_projectileweapons[Projektilwaffen] 7+1 (Kurzbogen, 1W6, 25 Meter)
 * xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 6+1 (Kurzschwert 1W6)
-* Fähigkeit 1
-* Fähigkeit 2
-...
+* link:../../rules/core/skills/core_skill_weapontraining_projectile.adoc[Projekilwaffentraining (Kurzbogen)]
+
 
 == Defensive
 
-* Talent 1
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7+1
 * Talent 2
 * Fähigkeit 1
 * Fähigkeit 2
@@ -60,11 +59,10 @@ Lore
 
 == Sonstiges
 
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] +3
-* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] +3
-* Talent 1
-* Talent 2
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten] 6+3+1
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_survival[Überleben] 7+3+2
 * link:../skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
+* link:../skills/specific/thewildhunt/bestiary_skill_thewildhunt_dimensionshift.adoc[Dimensionaler Wechsel]
 * link:../skills/specific/thewildhunt/bestiary_skill_thewildhunt_shadowhorse.adoc[Schattenpferd]
 
 == Regeln
