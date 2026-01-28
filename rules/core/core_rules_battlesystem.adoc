@@ -7,7 +7,7 @@
 [quote, Gratak „Eisenbieger“, Veteran und Ausbilder beim 3.Regiment des Hauses der Gekreuzten Klingen]
 _"Ihr seid der erbärmlichste Haufen, den ich je gesehen habe."_
 
-Der Kampf ist ein beständiges und wichtiges Element in der Spielwelt von Far Ages.
+Der Kampf ist ein regelmäßiges und wichtiges Element in der Spielwelt von Far Ages.
 Wie groß die Rolle ist, die der Kampf in der Kampagne spielt, liegt sicherlich in der Entscheidung des SL und seiner Einschätzung der Gruppe.
 
 Aber auch diejenigen, die wenige Kämpfe in ihren Abenteuern bevorzugen, können diese Regeln nutzen.
@@ -86,7 +86,7 @@ Als *Überraschungsangriff* wird der <<ref_core_battle_cycle_start,Beginn eines 
 Eine Seite könnte im Kampf als Überraschungsangriff beispielsweise in den folgenden Situationen erfolgreich initialisieren:
 
 * Die Angreifer legen sich mit erfolgreichen Proben auf xref:core_rules_talents_base.adoc#ref_talents_hide[Verstecken] oder xref:core_rules_talents_base.adoc#ref_talents_sneak[Schleichen] auf die Lauer und initialisieren die erste Kampfphase.
-* Je nach Spielsituation kann der SL erlauben, die Verteidiger Proben in xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit-Rettungswürfen] versuchen zu lassen, die Ergebnisse der Angreifer zu schlagen.
+* Je nach Spielsituation kann der SL erlauben, die Verteidiger Proben in xref:core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes erkennen] oder xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_alertness[Aufmerksamkeit-Rettungswürfen] zu würfeln, um die Ergebnisse der Angreifer zu schlagen.
 * Hierbei können manche Verteidiger weiterhin xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_surprised[überrascht] sein und ein Teil nicht.
 
 Die maßgebliche Entscheidung, dass ein Überraschungsangriff vorliegt, liegt beim SL.
@@ -133,6 +133,7 @@ Damit ergibt sich folgende Initiativereihenfolge: Kraag, Teliskin, Me'ander.
 
 [NOTE]
 Nach den Standardregeln wird die Initiativereihenfolge einmal zu Beginn des Kampfs bestimmt.
+Es können allerdings auch Gruppen entscheiden, die INI-Reihenfolge zu Beginn einer neuen Kampfphase neu zu würfeln, um den Ablauf des Kampfs aufzulockern.
 
 [[ref_core_battle_cycle_battlephase]]
 === Ablauf der Kampfphase
@@ -255,7 +256,7 @@ Die Differenzierung der Begriffe _Attacke_ und _Angriff_ erfolgt dadurch, ob der
 Ist er dies nicht, führt er einen _Angriff_ durch, üblicherweise mit dem Einsatz eines Teils seiner xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW].
 Ein Angreifer, der bereits gebunden ist, kann keinen Angriff durchführen, sondern nur eine _Attacke_.
 
-Üblicherweise bedarf über diese Differenzierung keine weitere Unterscheidung.
+Üblicherweise bedarf es hier keine weitere Unterscheidung, beide Begriff sind synonym.
 Es gelten immer automatisch alle Regeln für Angriffe wie für Attacken, außer es wird explizit dahingehend unterschieden.
 
 [NOTE]

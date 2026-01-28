@@ -1,0 +1,27 @@
+= Draugr
+
+
+Draugr haben in Kontrast zu anderen Untoten leuchtende, eisblaue Augen und eine schwarze, vertrocknete, ledrige Haut.
+Der Legende nach entstehen Draugr, wenn man Verstorbene falsch bestattet.
+
+== Voraussetzungen
+Die Kreatur muss den primären Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] besitzen und darf nicht link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[körperlos] besitzen.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen und sie erhält folgenden Boni:
+* +2 ST
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten und erhält die folgenden hinzu:
+
+* link:../skills/specific/undead/bestiary_skill_undead_restless_dead.adoc[Rastloser Tote]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] Frost
+
+== CP
++50

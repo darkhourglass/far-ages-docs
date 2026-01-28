@@ -15,23 +15,26 @@ Der Teil dieses Pakts, der vom Patron ausgeht, kann bestenfalls als fragwürdig 
 
 Die Motivation eines Wesens, welches weit außerhalb menschlicher Vorstellungskraft existiert, einem Sterblichen bei seiner eigenen Ambition zu helfen, ist selten direkt begreiflich.
 Jeder Paktmagier muss sich bewusst sein, dass er am kürzeren Ende seines Geschäfts steht.
-Den meisten ist dies erschreckenderweise bewusst.
+Den Meisten ist dies erschreckenderweise bewusst und sie scheinen dies für die versprochene Macht einzugehen.
 
 == Voraussetzungen
 
 Um Paktmagier Stufe 1 zu lernen, muss ein Charakter folgende Voraussetzungen erfüllen:
 
 * Spruchzauberei auf Stufe 5
-* Hat einen Pakt mit einem übernatürlichen Patron geschlossen. Eine Auswahl von passenden Wesen findet sich weiter unten. Wie der Pakt zustande kommt, liegt im Ermessen des SL.
+* Hat einen Pakt mit einem übernatürlichen Patron geschlossen.
+Eine Auswahl von passenden Wesen findet sich <<ref_pactmage_sample_patrons_list,weiter unten>> in diesem Dokument.
+Wie der Pakt zustande kommt, liegt im Ermessen des SL oder ergibt sich aus der Beschreibung des Patrons.
 * Manche Partone können weitere Voraussetzungen verlangen, z.B. eine spezielle Ausprägung von Spruchzauberei.
 
 == Stufen lernen
 
-Paktmagier können ohne weitere Einschränkungen Stufen lernen mit der Ausnahme der Paktgeheimnisse.
+Paktmagier können ohne weitere Einschränkungen Stufen lernen mit der Ausnahme der *Paktgeheimnisse*.
 Ein Paktgeheimnis ist eine vom Patron abhängige Fähigkeit oder Talent, welches der Paktmagier ausschließlich von diesem Patron lernen kann.
 
-Wenn der Paktmagier ein Paktgeheimnis lernen möchte, muss er in Kontakt mit seinem Patron treten und um das Geheimnis bitten.
-Es liegt im Ermessen des Patrons (und in diesem Fall des SLs), ob dieser das Geheimnis verrät. Im Normalfall sollte der Patron vom Magier eine Gegenleistung erwarten, z.B. eine Aufgabe erledigen oder ein Opfer bringen.
+Wenn der Paktmagier ein Paktgeheimnis lernen möchte, muss er in  <<ref_pactmage_ritualofcontact,Kontakt mit seinem Patron treten>> und um das Geheimnis bitten.
+Es liegt im Ermessen des Patrons (und in diesem Fall des SLs), ob dieser das Geheimnis verrät.
+Im Normalfall sollte der Patron vom Magier eine Gegenleistung erwarten, z.B. eine Aufgabe erledigen oder ein Opfer bringen.
 
 == Stufe 1
 
@@ -68,6 +71,7 @@ Für jeden weiteren Erfolgsgrad erhöht sich dieser Schaden um 2W6.
 *Kampf:* - +
 *Beschreibung:*
 
+[[ref_pactmage_pactsecret]]
 === Paktgeheimnis
 *Voraussetzungen:* Paktmagier 1 +
 *Mindestwurf:* - +
@@ -78,6 +82,7 @@ Für jeden weiteren Erfolgsgrad erhöht sich dieser Schaden um 2W6.
 Paktgeheimnisse ohne Voraussetzungen (außer der erforderlichen Aufgabe oder Opfer) kann der Paktmagier beliebig lernen.
 Bei anderen Paktgeheimnissen müssen die Voraussetzungen, z.B. erforderliche Stufen in Attributen oder Talenten zuerst erfüllt werden.
 
+[[ref_pactmage_pactknowledge]]
 === Paktwissen [Talent]
 *Voraussetzungen:* Paktmagier 1 +
 *Mindestwurf:* - +
@@ -92,11 +97,12 @@ In diesem Fall erhält er jedoch keine Stufe dazu, sondern der SGM des Talents s
 Das Erlernen von Paktwissen zählt nicht als Paktgeheimnis, es ist daher keine Aufgabe oder Opfer nötig.
 Er kann diese Fähigkeit mehrfach lernen, jedes Mal für ein anderes Talent aus der Liste seines Patrons.
 
-== Patrone
+[[ref_pactmage_sample_patrons_list]]
+== Liste beispielhafter Patrone
 
 Folgende Einträge beschreiben ein paar mögliche Patrone für Paktmagier.
 Diese Wesen sind allesamt äußert mächtige, übernatürliche Entitäten, die in den dunklen Ecken des Multiversums jenseits sterblicher Vorstellung existieren.
-Die Gründe, warum sie Sterbliche unter Ihren "Schutz" nehmen und sie ihrer Macht teilhaben lassen, ist bestenfalls zweifelhaft. +
+Die Gründe, warum sie Sterbliche unter Ihren "Schutz" nehmen und sie ihrer Macht teilhaben lassen, sind bestenfalls zweifelhaft.
 Die Einträge beschreiben Paktwissen und Paktgeheimnisse, sowie mögliche Forderungen, die der Patron im Austausch für sein Wissen bzw. Geheimnisse fordern könnte.
 Im letzen Fall darf der SL jederzeit natürlich eigene Ideen einbringen.
 Entscheidend ist jedoch, dass der Eindruck entsteht, dass der Spielercharakter einen spürbaren  Einsatz erbringen muss.
@@ -108,7 +114,7 @@ Ihre Geschichte findet sich in den jeweiligen Dokumenten:
 * link:../../../../lore/demonlords/chaos/lore_demonlords_chaos_dhzyal_blazing_shadow.adoc[ D'hzyal, der lodernde Schatten]
 * link:../../../../lore/supernaturals/lore_supernaturals_wild_hunt.adoc[Die Wilde Jagd]
 * link:../../../../lore/supernaturals/lore_supernaturals_rogwn_devouring_swarm.adoc[Rogwan, der Verschlinger-Schwarm]
-* link:../../../../lore/supernaturals/lore_supernaturals_athoth_keeper_of_secrets.adoc[Atoth, der Hüter der Geheimnisse]
+* link:../../../../lore/demonlords/others/lore_demonlords_others_athoth_lord_of_forbidden_knowledge.adoc[Atoth, Herr des verbotenen Wissens]
 * link:../../../../lore/supernaturals/lore_supernaturals_hylia_feyqueen_of_sommer.adoc[Hylia, Feenkönigin des Sommers]
 * link:../../../../lore/supernaturals/lore_supernaturals_szarfael_the_undying_king.adoc[Szar'fael, der unsterbliche König]
 * xref:../../../../lore/supernaturals/lore_supernaturals_witchgods.adoc#ref_lore_witchgods_baphomet[Baphomet]
