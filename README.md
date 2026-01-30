@@ -1,5 +1,5 @@
 # far-ages-docs
-This projected started many years ago during my active time as a pen&paper player. 
+This project started many years ago during my active time as a pen&paper player. 
 Maybe like many others i enyods telling stories, theorycrafting and worldbuilding. 
 Thus i start writing my on P&P RPG. 
 Yes, i it is kind of klischee. 
