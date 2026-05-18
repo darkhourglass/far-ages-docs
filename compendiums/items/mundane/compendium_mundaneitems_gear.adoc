@@ -1,4 +1,5 @@
 = Ausrüstung
+
 |===
 |Name |Gewicht|Preis
 
@@ -25,19 +26,20 @@
 |Kleidung(Arm) |4 |2
 |Kleidung(Reisender) |4 |7
 |Kleidung(Reich) |4 |15
-|Harfe| | |
-|Flöte| | |
-|Trommel| | |
-|Banjo| | |
-|Horn| | |
+|Harfe|2 |45
+|Flöte|1 |30
+|Trommel|1 |15
+|Banjo|2 |25
+|Horn|2 |15
 |Wochenration(Einfach) |1 |3
 |Wochenration(Normal) |2 |5
-|Köcher| | |
-|(20 Pfeile/Bolzen)| | |
+|Köcher|2 |4
+|(20 Pfeile/Bolzen)| |
 |Sack(30) |0.5+Inhalt |1
 |Fässchen Tinte und Feder |0.2 |25
 |Pergament(eine Seite) |0.1 |0.5
 |Zelt(2 Personen) |4 |20
 |Zelt(4 Personen) |6 |45
 |Öl (1 Liter)  |2 |5
+|Wasserabweisende Buchtasche  |1 |25
 |===

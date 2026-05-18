@@ -1,0 +1,16 @@
+= Verdreh die Klinge
+
+*Voraussetzungen:* link:core_skill_weapontraining_melee.adoc[Waffentraining (Nahkampfwaffe)] +
+*Typ:* Angriff +
+*Überanstrengung:* 3 + 1 xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
+*CP:* 100 +
+
+Wenn Du mit der für dein Waffentraining gewählten *Nahkampfwaffe* eine erfolreiche xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Attacke im Nahkampf] führst
+und wenigstens 1 xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadenspunkt] verursachst, darfst Du entscheiden, diese Fähigkeit einzusetzen.
+Dies kostet neben den o.g. Überanstrengungspunkten auch 1 Deiner Aktionen.
+Tust Du das, darfst Du sofort eine weitere xref:../core_rules_battlesystem.adoc#ref_core_battle_damage[Schadensprobe] würfeln.
+Rüstung und Resistenzen der Kreatur zählen normal.
+Sie verliert diese Schadenspunkte sofort.
+
+[NOTE]
+Die Fähgikeit funktioniert für alle Nahkampfwaffen - diese müssen trotz des Namens keine Klinge besitzen.

@@ -1,0 +1,20 @@
+= Verhexe Schicksal (Angriffsstufe)
+
+*Voraussetzungen:* - +
+*Typ:* Okkult, Übennatürlich +
+*Überanstrengung:* - +
+*Beschreibung:*
+
+
+Die Kreatur kann mit einer erfolgreichen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] mit der angegebenen *Agriffsstufe* gegen einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] das Schicksal einer link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreatur verhexen.
+Bei einem Erfolg erhält die Zielkreatur 1W6+1 Verhextes Schicksals Punkte (z.B. in Form von Spielchips).
+Solange die Zielkreatur mindestens 1 solchen Punkt besitzt, unterliegt sie folgendem Effekt:
+xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe] müssen mit xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] gewürfelt werden.
+Gelingt dieser Rettungswurf trotz Nachteil, verliert die Kreatur 1 Punkt verhextes Schicksal.
+
+Kreaturen, die Punkte verhextes Schicksal besitzen, können nicht Ziel dieser Fähigkeit werden.
+
+Der Einsatz gilt als 1 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion].
+
+*Wissen(Okkultes):* 15
+*CP:* tba +

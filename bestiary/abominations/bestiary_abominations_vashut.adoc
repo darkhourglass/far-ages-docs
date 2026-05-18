@@ -1,0 +1,132 @@
+= Vashut
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_abomination.adoc[Scheusal]
+* link:../../rules/advanced/creaturetypes/secondary/creatruretype_secondary_cosmic.adoc[Kosmisch]
+* Templates
+* GK: 7
+* CP: TBA
+
+== Beschreibung
+
+_"Die Luft war erfüllt von einem schweren, erdrückenen Geruch nach abgestandenen Wasser und verrotteten Pflanzenresten wie im teifesten Sumpf.
+Die Kreatur, deren massiver Körper aus der Dunkelheit ragte, war die schlimmste vorstellbarer Mischung aus Schnecke und Kröte.
+Ein langezogener, schleimiger Körper kroch langsam voran, ein überdimensionaler Kopf mit den Zügen einer Kröte.
+Drei krankgelblich leuchtende Augen lugten auf flexiblen Stehlen hervor.
+Das Maul der Kreatur war deutlich größer als der Rest der Anantomie vermuten ließ und mit scharfen Zähnen versehen"_
+
+Die Kreatur Vashut ist kosmischer Alptraum aus den Kindheitsjahren des Multiversums.
+Seither ist Vashut verbannt in eine Taschendimension tief in der astralen See.
+Diese namenlose Dimension ist gefüllt mit brackigem, düsterem Wasser, dass aus einem modrigen See stammen könnte, daher auch sein Beiname *Einwohner des Sees*.
+In dieser lichtlosen, nassen Kälte wartet Vashut Jahrtausende auf eine Gelegenheit die materielle Welt zu terrorisieren.
+Vashuts Einfluss kann durch Gewässer erfolgen, die durch magische rituale oder günstig stehende Sterne mit seiner eigenen Heimat verbunden sind.
+Vashut überschwemmt benachbarte Länder mit Untoten und Alpträumen.
+
+== Profil
+
+*ST:* 15 (+5) +
+*GE:* 6 (+2) +
+*KO:* 12 (+4) +
+*ER:* 9 (+3) +
+*EN:* 15 (+5) +
+*SB:* 9 (+3) +
+*CH:* 6 (+2) +
+
+*TP:* 165 +
+*MP:* 150 +
+*SP:* 75 +
+
+*BEW:* Am Boden: 9,00 Meter,  link:../skills/bestiary_skill_move_swim.adoc[Schwimmen 12,00 Meter] +
+*INI:* +5 +
+*MaxTL:* 225 +
+*MaxPOT:* 18 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 8, alle Trefferzonen +
+*Resistenzen:*  +
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz (Wasser)]
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz (Nekrotisch)]
+
+*Immunitäten:*  +
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +5 +
+*Körper:* +12 +
+*Magie:* +11 +
+*Reflex:* +5 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 2W8+5 1x
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8 2W8+5 1x
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei (Nekromantie)] 8
+* link:../skills/bestiary_skill_modification_swallow_whole.adoc[Vollständig verschlingen]
+* link:../skills/bestiary_skill_attack_odem.adoc[Brackwassser-Spucke] 8 2W6+7 Nekrotisch 6,00 Meter
++ link:../skills/specific/occult/skill_occult_jinx_fate#.adoc[VErhexe Schicksal] 12
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 8
+
+
+== Sonstiges
+
+* Talent 1
+* link:../skills/bestiary_skill_aura_of_madness.adoc[Aura des Wahnsinns 6,00 Meter Erdrückend]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../skills/bestiary_skill_ageless_body.adoc[Zeitloser Körper]
+*link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 * link:../../compendiums/spells/spell_open_the_silvery_gates.adoc[Öffne das silberne Tor]
+*link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 12 * link:../../compendiums/spells/spell_Dreamweaver.adoc[Traumweber]
+* link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura 9,00 Meter]
+
+== Regeln
+
+
+[[ref_bestiary_vashut_the_drownend]]
+== Die Ertrunkenen
+
+Alle Untoten, die durch die magische Fähigkeit von Vashut link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untoten] erschafften wurden, stehen automatisch unter seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle].
+Vashut erschafft link:../templates/bestiary_template_undead_drowned.adoc[ertrunkene] link:../templates/bestiary_template_undead_zombie.adoc[Zombies] mit xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 5.
+
+[[ref_bestiary_vashut_inhabitant_of_tHe_lake]]
+== Einwohner des Sees
+Vashut existiert hauptsächlich in einer Taschendimension im Aether, die nur aus lichtlosem, trüben, grünschwarzem Brackwasser besteht, wie man es in entlegenen Seen im tiefen Wald oder Sumof findet.
+
+Vashut regeneriert 10 TP und 10 MP jede volle Stunde, die er sich hier aufhält.
+
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirbt] Vashut auf der materiellen Ebene, kehrt er zurück in seine eigene Dimension.
+Vashut stribt für immer, wenn er in dieser Dimension getötet wird.
+
+Vashut kann die Materielle Welt betreten oder durch seine magischen Fähigkeiten beeinflussen, wenn diese durch einen vergleichbaren Körper aus Wasser diese Dimension berührt.
+Es liegt im Ermessen des SLs, dies zu bestimmen.
+
+Vashut benötigt keine Luft zum Atmen und kann unter Wasser nicht ertrinken.
+
+[[ref_bestiary_vashut_invocation_of_vashut]]
+=== Anrufung des Vashut
+Es existiert ein xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_arcanesecret[geheimes] xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals[Ritual], dass genutzt werden kann, um Vashut es zu ermöglichen, die materielle Ebene zu beeinflussen.
+Nur wenige wissen davon und noch weniger sind wahnsinnig genug Vashut zu kontaktieren.
+Aufzeichnungen des Rituals sind nur in obskuren, okkulten Quellen zu finden.
+Ein Zauberer, der das Ritual gelernt hat, kann es mit einer Vorbereitung von 1 Stunden als Zauber der POT 19 aussprechen.
+Bei einem Erfolg, verbindet sich Vashuts Heimatdimension mit dem nächst gelegenen stillen gewässer, das groß genug sein muss, um Vashuts Körper aufzunehmen.
+Vashut kann nun zwischen diesem Gewässer und seiner Heimat <<ref_bestiary_vashut_step_between_the_lakes,wechseln>>.
+
+
+[[ref_bestiary_vashut_step_between_the_lakes]]
+=== Übergang zwsichen den Seen
+Ist ein Körper Wasser mit seiner Heimatdimension <<ref_bestiary_vashut_invocation_of_vashut,verbunden>>, kann Vashut mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexen Aktion] in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] zwischen beiden Existenzebenen wechseln.
+Dazu ist keine Probe nötig.
+
+
+== Taktik
+Als ewige, kosmische Entität, kann es sich Vashut erlauben, das lange Spiel zu spielen.
+Direkte Konfrontationen meidet er.
+Vashut versucht subtil seinen Einfluss durch Träume, die er Humanoiden in der Nähe seines Sees schickt, zu gewinnen.
+In der Regel baut Vashut einen Kult um sich herum auf, da er einen stetigen Fluss an Opfern wünscht.
+In direkter Konfrontation schickt Vashut seine untoten Diener vor, um sich selbst in eine flankierende Position zu bringen und humanoide Angreifer zu beißen und zu verschlingen.

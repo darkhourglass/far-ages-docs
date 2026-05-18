@@ -1,0 +1,69 @@
+= Arkane Knochen
+
+// TODO Beschreibung
+
+== Voraussetzungen
+
+Die kreatur hat bereits die Schablone link:bestiary_template_undead_skeleton.adoc[Skelett] erhalten.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen und erhalten folgende Boni:
+
++ 2 EN
+
+Außerdem steigt die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] des Skeletts um +1.
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten und erhält folgende Fähigkeiten hinzu:
+
+
+[[ref_template_arcane_bones_arcane_bolt]]
+=== Arkaner Bolzen
+Die Kreatur behält trotz ihrer untoten Natur die Fähigkeit arkane Energie aus dem Aether zu ziehen und zu einem Bolzen konzentrierter Arkaner Energie zu formen und auf ihre Feinde zu werfen.
+Dies funktioniert vergleichbar zu der Fähigkeit link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] mit *Angriffstufe* 1/2 xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] der kreatur (abgerundet, min 1) + ihr EN-Bonus.
+Der *Zauberspruch* ist ein einzigartiger Effekt, der wie folgt beschrieben ist:
+
+*Arkanes Geheimnis:* - +
+*POT:* 3 +
+*Rettungswurf:* Magie +
+*Komponenten:* - +
+*Fokus:* - +
+*Vorbereitung:* 1 +
+*Reichweite:* 12,00 Meter +
+*Anzahl der Ziele:* 1 Kreatur +
+*Dauer:* Sofort+
+*Effekt:* +
+Die Zielkreatur erhält bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Prone] einen
+xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 1W6+1W10+EN-Bonus Schadenspunkten mit passender <<ref_template_arcane_bones_arcane_bolt_damagetype,Schadensart>>
+
+*Zusätzliche Effekte:* +
+-
+
+Der gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] und kostet keine MP.
+
+[[ref_template_arcane_bones_arcane_bolt_damagetype]]
+==== Schadensart
+Die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart] des arkanen Bolzen eines jeden Arkanen Knochen einzigartig.
+Der Erschaffer der Arkanen Knochen muss die Schadensart mit Erschaffung einmal festlegen. Diese kann nicht mehr geändert werden. Es stehen diese Opionen zur Vefügung:
+
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer]
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost]
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock]
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure]
+
+
+[[ref_template_arcane_bones_creatiom]]
+==== Erschaffung
+Ein Nekromant kann ein link:bestiary_template_undead_skeleton.adoc[Skelett] unter seiner xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel_control[Kontrolle] in einen arkanen Knochen verwandeln, wenn er die passenden Voraussetzungen schafft:
+Zunächst muss er das passende xref:../../rules/core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_magicalitems[Rezept] lernen, um einen Rippen- bzw. Fingerknochen zu schmieden und mit Runen zu versehen.
+Diese haben eine Materialwert von 2.000 Silber und eine Machtstufe von 5.
+Sind beide Knochen hergestellt, kann der Nekromant sie beim Skelett tauschen und muss noch einmal erfolgreich den Zauber link:../../compendiums/spells/spell_create_undead.adoc[Erschaffe Untote] aussprechen.
+
+
+== CP

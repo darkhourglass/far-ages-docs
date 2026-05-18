@@ -1,0 +1,18 @@
+= Verstärke Hölzernes Objekt
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 6 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten, 20 ml Baumharz +
+*Fokus:* Wachstum +
+*Vorbereitung:* 5 MInuten (Ritual) +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Objekt aus Holz +
+*Dauer:* 24 Stunden+
+*Effekt:* +
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] fließt das Baumharz wie von Geistehand in die Ritzen des Holzes und verhärtrt dort.
+Der Zauberspruch schützt Objekte aus Holz für seine Dauer besser vor xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object[Zerstörung],
+Das Objekt erhält einen Bonus von +6 auf seine xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object_hardness[Härte].
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Stunde +
++ 10 MP, +1 POT: weitere +6 Punkte Härte

@@ -4,6 +4,7 @@
 
 == Stufe 1
 * link:../../spells/spell_analyze_remains.adoc[Analysiere Überreste]
+* link:../../spells/spell_corpse_flame.adoc[Leichenflamme]
 * link:../../spells/spell_detect_undead.adoc[Untote aufspüren]
 
 == Stufe 2
@@ -24,6 +25,7 @@
 * link:../../spells/spell_spirit_echo.adoc[Echo der Toten]
 * link:../../spells/spell_preserve_undead.adoc[Untoten präservieren]
 * link:../../spells/spell_invisible_to_undead.adoc[Unsichtbar für Untote]
+* link:../../spells/spell_corpse_to_dust.adoc[Leichnam zu Staub]
 
 == Stufe 5
 
@@ -33,6 +35,7 @@
 
 == Stufe 6
 
+* link:../../spells/spell_analyze_souljar.adoc[Analysiere Seelengefäß]
 * link:../../spells/spell_harm_living.adoc[Verletze lebende Kreatur]
 * link:../../spells/spell_skulltoss.adoc[Schädelwurf]
 * link:../../spells/spell_zone_of_revenge.adoc[Zone der Rache] (link:../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote])
@@ -45,10 +48,12 @@
 == Stufe 8
 * link:../../spells/spell_forge_corpse.adoc[Fälsche Leiche]
 * link:../../spells/spell_liquify_brain.adoc[Verflüssige das Gehirn]
+* link:../../spells/spell_corpsedust.adoc[Leichnamsstaub]
 
 == Stufe 9
 * link:../../spells/spell_zone_of_eternal_undeath.adoc[Zone der Ewigen Untoten]
 * link:../../spells/spell_horrifying_wail.adoc[Erschreckendes Klagen]
+
 == Stufe 10
 
 * link:../../spells/spell_nekrogenesis.adoc[Nekrogenesis]

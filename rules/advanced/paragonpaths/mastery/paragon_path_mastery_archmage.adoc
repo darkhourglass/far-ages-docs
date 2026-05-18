@@ -40,6 +40,43 @@ Folgende Fähigkeiten können Erzmagier pro Stufe lernen, vorausgesetzt, sie erf
 *Verwandtes Attribut:* EN +
 *Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes[Aktion] +
 *Beschreibung:*
+tba
+
+[[ref_archmage_meditation]]
+== Meditation
+*Voraussetzungen:* Erzmagier 1 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Überanstrengung:* - +
+*Beschreibung:*
+Wenn der Erzmagier eine xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_short_break[kurze Pause] nutzt, 1W10 MP zu regenerieren, regeneriert er stattdessen 10 MP.
+Er muss dazu in eine tiefe Meditation sinken. Während diese Meditation verliert er etwas Sensibilität gegenüber seiner Umgebung, er erhält daher einen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -5 auf alle Proben in xref:../../../core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes entdecken].
+
+[[ref_archmage_arcaen_training]]
+=== Arkanes Training
+*Voraussetzungen:* Erzmagier 1 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Beschreibung:*
+Mit dieser Fähigkeit erweitert der Erzmagier sein Wissen und seine Handhabung über Magie. Er kann ohne zusätzliche CP-Kosten, aber unter Berücksichtigung der xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_skills_requirements[Voraussetzungen] eine der folgenden Fähigkeiten lernen:
+
+* link:../../../core/skills/spellcasting/core_skill_arcane_initiate.adoc[Arkane Eingeweihter]
+* link:../../../core/skills/spellcasting/core_skill_counterspell.adoc[Gegenzauber]
+* link:../../../core/skills/spellcasting/core_skill_dominant_spell.adoc[Dominanter Zauber (Zauberspruch)]
+* link:../../../core/skills/spellcasting/core_skill_reactive_spell.adoc[Reaktiver Zauber (Zauberspruch)]
+* link:../../../core/skills/spellcasting/core_skill_runelore.adoc[Runenlehre]
+* link:../../../core/skills/spellcasting/core_skill_runemastery.adoc[Runenmeisterschaft]
+* link:../../../core/skills/spellcasting/core_skill_runetattoo.adoc[Runentatoo]
+* link:../../../core/skills/spellcasting/core_skill_spell_matrix.adoc[Zauber Matrix (Zauberspruch]
+* link:../../../core/skills/spellcasting/core_skill_spell_overload.adoc[Zauber überladen (Zauberspruch)]
+* link:../../../core/skills/spellcasting/core_skill_spell_training.adoc[Zauber Training (Zauberspruch)]
+
+Der Erzmagier kann arkanes Training mehrfach lernen, muss aber jedes Mal eine andere Fähigkeit aus der o.g. Liste wählen, mit Ausnahme jener Fähigkeiten, die selbst mehrfach gelernt werden können.
+
 
 [[ref_archmage_aethertransfusion]]
 === Aethertransfusion
@@ -48,6 +85,7 @@ Folgende Fähigkeiten können Erzmagier pro Stufe lernen, vorausgesetzt, sie erf
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* - +
 *Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
+*Überanstrengung:* - +
 *Beschreibung:* Der Erzmagier hat Verständnis für die Ströme der Magie im Aether perfektioniert.
 Einmal pro Tag kann der Erzmagier die Aethertransfusion einsetzen.
 Er xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration[regeneriert] sofort 3W10 xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
@@ -61,6 +99,7 @@ Jedes Mal erhält der Erzmagier eine zusätzliche, tägliche Anwendung und die r
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* - +
+*Überanstrengung:* - +
 *Beschreibung:* Das Verständnis des Erzmagiers für die Komplexität von Zaubersprüchen wird geschärft.
 Der Erzmagier erhält einen permanenten Bonus auf seine Attributseigenschaften xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxPOT] von +1 und xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[MP] von +20.
 Er kann diese Fähigkeit mehrfach lernen, die Effekte sind kumulativ.
@@ -72,7 +111,9 @@ Er kann diese Fähigkeit mehrfach lernen, die Effekte sind kumulativ.
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* - +
-*Beschreibung:* Mit Erlernen dieser Fähigkeit addiert der Erzmagier seine Stufen im Talent Erzmagier zu allen Magieabwehr-Proben.
+*Überanstrengung:* - +
+*Beschreibung:* Mit Erlernen dieser Fähigkeit addiert der Erzmagier seine Stufen im Talent Erzmagier
+xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie_Rettungswürfen].
 
 [[ref_archmage_conjureduplicate]]
 === Duplikat beschwören
@@ -80,6 +121,7 @@ Er kann diese Fähigkeit mehrfach lernen, die Effekte sind kumulativ.
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* Nein +
 *Verwandtes Attribut:* - +
+*Überanstrengung:* - +
 *Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] +
 *Beschreibung:* Der Erzmagier hat gelernt, die seine Essenz als aetherische Energie zu manifestieren, um seine Feinde zu verwirren.
 Mit dem Einsatz eines Kampfmanövers und 10 MP kann der Erzmagier eine visuell perfekte Kopie seines Erscheinungsbildes in einem Umkreis von 15 Meter erschaffen.
@@ -97,14 +139,6 @@ Das Duplikat existiert so lange bis der Auftrag ausgeführt wurde, jedoch maxima
 Das Duplikat besitzt keine TP, MP oder SP.
 D.h. das Duplikat kann keine Zaubersprüche verkürzen oder zusätzliche Effekte einsetzen.
 
-[[ref_archmage_powerfullcounterspell]]
-=== Mächtiger Gegenzauber
-*Voraussetzungen:* Erzmagier 5 +
-*Mindestwurf:* SMW +
-*Ungeübte Anwendung:* Nein +
-*Verwandtes Attribut:* EN +
-*Kampf:* xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] +
-*Beschreibung:*
 
 [[ref_archmage_spellmastery]]
 === Zauberverständnis [Zauberspruch]
@@ -113,6 +147,137 @@ D.h. das Duplikat kann keine Zaubersprüche verkürzen oder zusätzliche Effekte
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* - +
+*Überanstrengung:* - +
 *Beschreibung:* Durch das intensive Studieren eines Zauberspruches ist der Erzmagier so vertraut mit diesem, dass sein Aussprechen zu einer Leichtigkeit wird.
 Für den gewählten Zauberspruch reduziert sich die Vorbereitung auf 1 Kampfrunde.
 Die Fähigkeit kann mehrfach gelernt werden, jedoch immer für einen anderen Zauberspruch.
+
+[[ref_archmage_arcane_ritual]]
+=== Riualisierte Arkana
+*Voraussetzungen:* Erzmagier 5 +
+*Mindestwurf:* SMW +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Überanstrengung:* - +
+*Beschreibung:* Mit dieser Fähigkeit kann ein Erzmagier die Wirkungsdauer eines Zauber durch ein Ritual deutlich verlängern.
+Die Fähigkeit kann angewendet werden, wnn der Erzmagier einen Zauber aussprechen will, dessen xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_duration[Dauer] in Kampfphasen gemessen wird.
+Er kann diesen Zauber als xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals[Ritual] xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_preparation[vorbereiten]. Die Ritual-Dauer hängt dabei von der xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_potent[POT] des Zaubers ab:
+
+
+|===
+|POT |Ritual Dauer
+
+|1
+|1 Minute
+
+|2
+|1 Minute
+
+|3
+|3 Minuten
+
+|4
+|3 Minuten
+
+|5
+|5 Minuten
+
+|6
+|5 Minuten
+
+|7
+|10 Minuten
+
+|8
+|15 Minuten
+
+|9
+|30 Minuten
+
+|10+
+|1 Stunde
+|===
+
+Die ist die Ritual-Vorbereitung und die xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] erfolgreich, ändert sich die Dauer des Zauber von Kampfphasen auf Stunden.
+
+.Riualisierte Arkana
+====
+Der Zauber link:../../../../compendiums/spells/spell_fun_with_doors.adoc[Spaß mit Türen] hat eine Dauer von 10 Kampfphasen und einer POT von 9.
+Mit dieser Fähgikeit ändert sich seine Vorbereitung auf 30 Minuten (Ritual) und seine Dauer auf 10 Stunden.
+====
+
+[HINT]
+Der Erzmagier darf im Rahmen dieser Fähigkeit die POT des Zaubers durch zusätzliche Effekte erhöhen und muss diese nutzen, um die dauer des Rituals zu ermitteln.
+Die POT auf andere Weise zu erhöhen ist nicht möglich.
+
+
+[[ref_archmage_display_magic_ban_expert]]
+=== Magebann Experte
+*Voraussetzungen:* <<ref_archmage_arkanemight,Arkaner Wille>>, link:../../../core/skills/spellcasting/core_skill_counterspell.adoc[Gegenzauber] +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Überanstrengung:* - +
+*Beschreibung:* Mit Erlernen dieser Fähigkeit addiert der Erzmagier seine Stufen im Talent Erzmagier zu allen Proben zum xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_dispel_magic[Magiebann].
+
+
+[[ref_archmage_display_spell_mirror]]
+=== Zauberspiegel
+*Voraussetzungen:* <<ref_archmage_display_magic_ban_expert,Magebann Experte>> +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktion] +
+*Überanstrengung:* 5 +
+*Beschreibung:* Bei einem erfolgreichen xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_dispel_magic[Magiebann] darfst Du diese Fähigkeit für 5 Punkte xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung] einsetzen und den gebannten Zauber auf den Zaubernden zurückwerfen.
+Zauber mit einem konkreten Ziel, zielen auf den Zaubernden.
+Zauber mit einem Ziel Punkt, versetzen diesen auf den Zaubernden.
+
+[[ref_archmage_display_personal_enchantment]]
+=== Persönliche Verzauberung
+*Voraussetzungen:* Erzmagier 6 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals[Ritual], siehe Beschreibung
+*Überanstrengung:* - +
+*Beschreibung:*
+Der Erzmagier darf einen beliebigen ihm bekannten Zauberspruch mit dem Ziel "Selbst" als Ritual mit einer Dauer von 4 Stunden aussprechen.
+Dann wird die Dauer des Zauberspruches "Permananet".
+Der Erzmagier kann eine betehende persönliche Verzauberung jederzeit durch eine Andere ersetzen, wenn er das Ritual durchführt.
+
+
+[[ref_archmage_energy_manipulation]]
+=== Energie Manipulation
+*Voraussetzungen:* Erzmagier 9 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* - +
+*Überanstrengung:* 4 +
+*Beschreibung:*
+Der Erzmagier darf diese Fähigkeit einsetzen, wenn er einen Zauber xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[aussspricht],
+der eine xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes_elemental[elementare Schadensart], also Feuer, Wasser, Erde oder Luft verursacht.
+Die Fähgikeit ändert die Schadensart aller durch den Zauber erzeugten xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagepoints[Schadensproben]
+in xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physikal].
+
+
+[[ref_archmage_spell_manipulation]]
+=== Zauber Manipulation
+*Voraussetzungen:* Erzmagier 10, <<ref_archmage_display_magic_ban_expert,Magiebann-Experte>> +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reakion] +
+*Überanstrengung:* 5 +
+*Beschreibung:*
+Mit dieser Fähigkeit kann der Erzmagier die Zaubersprüche anderer, die in seiner Gegenwart zaubern, subtil manipulieren.
+Möchte er diese Fähigkeit einsetzen, muss er zunächst einen erfolgreichen xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_counter_spell[spontanen Magiebann] würfeln.
+Der betroffene Zauber wird nicht genannt, allerdings darf der Erzmagier eine der folgenen xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics[Eigensschaften] manipulieren:
+
+*Ziele:* Der Erzmagier darf ein neues valides Ziel innerhalb der Reichweite wählen. Existiert kein passenden Ziel, hat die Manipulation keine Wirkung.
+*Dauer:* Die Dauer des Zaubeeffekts wird halbiert.
+*Zusätzliche Effekte:* Ein für diesen Zauber gewählter zusätzlicher Effekt ist unwirksam.
+

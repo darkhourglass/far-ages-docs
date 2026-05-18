@@ -1,0 +1,21 @@
+= Analysiere Seelengefäß
+
+*Arkanes Geheimnis:* 6 +
+*POT:* 9 +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Ebon, Aether +
+*Vorbereitung:* 5 Minuten (Ritual) +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../items/magical/misc/magical_item_souljar.adoc[Seelengefäß] oder 1 link:../items/magical/misc/magical_item_organjar.adoc[Organgefäß] +
+*Dauer:* Sofort+
+*Effekt:* +
+Dieses Ritual lässt Dich Informationen über ein link:../items/magical/misc/magical_item_souljar.adoc[Seelengefäß] oder ein link:../items/magical/misc/magical_item_organjar.adoc[Organgefäß], dass Du berühren musst, herausfinden.
+Deine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] wird durch einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] des Besitzers des Objekts kontestiert.
+Bei einem Erfolg erfährst Du folgende Informationen:
+
+* Namen des Besitzers
+* Status des Besitzers (Lebendig oder Untoter existiert noch, ungefähre Entfernung und Richtung reletiv zu Dir)
+* Macht des Besitzers (Grobe Einordnung der Machtstufe - SL Ermessen)
+
+*Zusätzliche Effekte:* +

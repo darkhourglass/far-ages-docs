@@ -1,0 +1,21 @@
+= Mannwalds praktisches Grimoire
+
+*Speziell:* 1 xref:../../../../rules/core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_grimoire[Grimoire] +
+*Machtstufe:* 8 +
+*Bindung:* 3 TP, 5 MP +
+*CP:* 100 +
+*Beschreibung:*
+
+Benannt nach dem legendären Erzmagier Mannwald, der als Erster diese Form von Grimoire entwickelte.
+Glücklicherweise ist das Rezept für diesen Gegenstand erhalten geblieben und viele Magier nutzen das praktische Grimoire.
+Mannwalds praktisches Grimiore kann zum xref:../../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_grimoire[Zaubern vom Grimoire] genutzt werden.
+Initial nach Herstellung ist das Grimpoire leer.
+Wird ein bestehendes praktisches Grimoire gefunden oder erworben, befinden sich 2W10+2 zufällige Zaubersprüch ein ihm.
+Die eigentliche Fähigkeit von Mannwalds praktischem Grimoire besteht darin, dasss es in der Lage ist, Seiten und inhalte flexible auszutauschen.
+Der Besitzer, der eine Bindung zu dem Grimoire hat, kann in einem 10 minütigen Ritual einmal pro Tag eine der folgenden Änderungen an seinem Grimoire vornehmen:
+
+* Eine bestehende Seite kann entnommen werden und wird zu einer xref:../../../../rules/core/core_rules_magic_items.adoc#ref_magic_items_createmagicalitem_scrolls[Spruchrolle]. Der Zauber kann dann nicht mehr aus dem Grimoire gewirkt werden.
+* Ein bestehende Spruchrolle wird zu einer neuen Seite des Grimoires. Die Spruchrolle verschwindet und der Zauber kann aus dem Grimoire gewirkt werden.
+
+[TIPP]
+Wenn der SL dies wünscht, kann jedes Grimoire eine limitierte Anzahl von Seiten haben, z.B. 500, so dass der Besitzer des Grimoire den aktuellen Stand des Grimoires notieren muss.

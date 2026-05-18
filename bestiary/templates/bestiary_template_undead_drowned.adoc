@@ -1,0 +1,24 @@
+= Ertrunkene
+
+// TODO Beschreibung
+
+== Voraussetzungen
+
+
+Die Kreatur muss vom primären Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot]sein.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen.
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten und erhält folgende hinzu:
+
+* link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] BEW+6,00 Meter
+
+== CP

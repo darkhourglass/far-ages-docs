@@ -1,0 +1,34 @@
+= Schreckensattacke (Nahkampfwaffe)
+
+*Voraussetzungen:*
+    link:core_skill_weapontraining_melee.adoc[Waffentraining (Nahkampfwaffe)] +
+    xref:../../core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] 5
+*Typ:* Angriff +
+*Überanstrengung:* 2 +
+*CP:* 100 +
+Wenn Du mit der gewählten *Nahkampfwaffe* einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Angriff im Nahkampf] erfolgreich durchführst, darfst Du diese Fähigkeit als xref:../core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen.
+In diesem Fall darfst Du eine xref:../../core/core_rules_talents_base.adoc#ref_talents_intimidate[Einschüchtern] xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[gegen] einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_discipline[Disziplin-Rettungswurf] der Kreatur, die Ziel Deines Angriffs ist, werfen.
+Abhängig vom xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[Erfolgsgrad] verliert das Ziel xref:../core_rules_2d10_system.adoc#ref_core_2d10_pools_sp[SP]:
+
+
+|===
+|Erfolgsgrad |SP_Verlust bei Ziel
+
+|Patzer oder Misserfolg
+|0
+
+|Durchschnitt
+|1W6
+
+|Sehr gut
+|1W6+1
+
+|Meisterlich / Kritisch
+|1W10
+
+|Heldenhaft
+|1W10+1
+
+|Legendär
+|2W10
+|===

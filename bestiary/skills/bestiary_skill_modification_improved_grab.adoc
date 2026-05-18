@@ -1,0 +1,16 @@
+= Verbesserter Griff (Attacke)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, Modifikation +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur kann die angegebene *Attacke* für einen gefährlichen Angriff nutzen, um die Verteidigung seines Gegners zu durchbrechen.
+Beispielsweise nutzt sie scharfe Zähne oder Klauen, die durch Schwachstellen in Rüstung dringen.
+
+Dazu würfelt die Kreatur eine normale xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_attacks[Angriffsprobe] mit dieser Attacke.
+Diese Attacke erhält die Eigenschaft, die xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reactions[Reaktionen] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Verteidigung] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_suppress_reaction[auszusetzen].
+
+Zerreißen ist eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitierte Aktion].
+Die Limitierung bezieht sich dabei nicht auf die originale Fähigkeit.
+Es ist daher möglich, dass die Kreatur ihre Aktionen auf einen Angriff mit Zerreißen und 2 weitere reguläre Attacken ausführt.

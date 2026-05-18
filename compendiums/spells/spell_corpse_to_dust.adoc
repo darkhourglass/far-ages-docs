@@ -1,0 +1,21 @@
+= Leichname zu Staub
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein/Ja, siehe Beschreibung +
+*Komponenten:* Formlen, GEsten +
+*Fokus:* Ebon, Körper +
+*Vorbereitung:* 4 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Leichnam +
+*Dauer:* Sofort+
+*Effekt:* +
+Du berührst den Leichnam einer ehemals link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendigen] Kreatur.
+Diese zerfällt bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] sofort zu feinem Staub.
+Damit kann der Leichman nicht weiterverwendet werden, um z.B. link:spell_create_undead.adoc[Untote zu erschaffen].
+
+Du kannst diesen Zauber auch gegen einen link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoten] wirken, der in diesem Fall einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] ablegen darf.
+Bei einem Erfolg Deiner Spruchzauberei-Probe, erhält das Ziel einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_inevitable[unabwendbaren Schaden].
+
+
+*Zusätzliche Effekte:* +

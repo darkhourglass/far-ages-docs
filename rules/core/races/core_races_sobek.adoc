@@ -1,0 +1,47 @@
+= Sobek
+
+*Physis:*
+
+*Werte und Kultur:*
+Sobek wertschätzen Zuverlässigkeit und Bodenständigkeit.
+Sobek integrieren sich in die Gesellschaft anderer Völker als Arbeiter, Handwerker und Kämpfer.
+Reine Sobek Gruppen haben in der Regeln einen Schamanen als weltlichen und spirituellen Führer.
+Sobek Siedlungen liegen traditionell nahe zum Meer und Sobek Wirtschaft dreht sich um Meeresfischerei, die Sicherung der Küste und küstennaher Gewösser vor gefährlichen, wasserbasierten Monstern.
+Gerade in Bezug auf letzeren Punkt sind Sobek oft mit link:core_races_triton_landdweller.adoc[Tritonen] und link:core_races_chelonias.adoc[Chelonias].
+
+*Bevorzuge Berufungen:*
+* link:../professions/core_professions_shaman.adoc[Schamane]
+* link:../professions/core_professions_hunter.adoc[Jäger]
+* link:../professions/core_professions_warrior.adoc[Krieger]
+
+[TIP]
+How to play a race like this?
+
+*Attribute:* +1 ST, + 1 KO +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen], xref:../core_rules_talents_base.adoc#ref_talents_unarmed_combat[Unbewaffneter Kampf] +
+*Fähigkeiten:* - +
+*Pool-Steigerung:* +2/+1/+1 +
+*Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie] +
+*GK:* 5 +
+*Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
+*Sekundäre Typen:* link:../../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] +
+*Generation:* 4 oder höher +
+*Progenitor:* unbekannt, möglicherweise Yig +
+*Eigenschaften:* <<skill_sobek_waterborn,Wasseraffin>>, <<skill_sobek_cannibal_past,Kannibalistische Vergangenheit>>. link:../skills/races/core_skill_races_naturalarmor.adoc[Natürliche Rüsrtung (1, Alle trefferzonen) +
+*Fortitudo:* 3 +
+
+
+
+
+[[skill_sobek_waterborn]]
+== Wasseraffin
+Auch wenn Sobek primär Landgänger sind und auch auf dem Land leben, haben sie noch genug Anlagen aus ihrer aquarinen Vergangenheit.
+Jeder Sobek kann so-viele Stunden wie er KO-Stufen hat unter Wasser tauchen und mit seine BEW+3,00 MEter xref:../core_rules_battlesystem.adoc#ref_core_battle_movementtypes_swimming[schwimmen].
+
+
+[[skill_sobek_cannibal_past]]
+== Kannibalistischer Vergangenheit
+In der Vergangenheit des Volkes der Sobek gab es Fälle von Kannibalismus, nicht nur unter Sobek, sondern auch anderer humanoider VÖlker.
+Gerüchteweise leben Sobek in abgeschiedenen Exklaven noch nach diesen alten Traditionen.
+Jeder Sobek, der wissentlich oder unwissendlich humanoides Fleisch (egal welches Volk) verzehrt, muss einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-rettungswurf] bestehen oder erhält 1 Punkt xref:../../advanced/advanced_rules_corruption.adoc#ref_corruptions_rules_receive_corruptionpoints[Kanker].
+

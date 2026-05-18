@@ -1,0 +1,105 @@
+= Flammenschatten
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] X)
+* Secondary Type(s) xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 5
+* *GK:* 5
+* *CP:* TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* XXX (+x) +
+*GE:* XXX (+x) +
+*KO:* XXX (+x) +
+*ER:* XXX (+x) +
+*EN:* XXX (+x) +
+*SB:* XXX (+x) +
+*CH:* XXX (+x) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +
+*MP:* XXX +
+*SP:* - +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* link:../skills/bestiary_skill_move_levitation.adoc[Levithation] 9,00 Meter +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +3 +
+*Körper:* ST+KO +5 +
+*Magie:* EN+SB +5 +
+*Reflex:* GE+ER +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* link:../skills/bestiary_skill_magicability.adoc[Magsiche Fähigkeit] 9 link:../../compendiums/spells/spell_flaming_bolt.adoc[Flammenblitz]
+* link:../skills/bestiary_skill_magicability.adoc[Magsiche Fähigkeit] 9 link:../../compendiums/spells/spell_wall_of_flames.adoc[Flammenwand]
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* <<ref_flameshadow_skill_fire_and_shadow, Feuer und Schatten>>
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* Talent 1
+* Talent 2
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 9 link:../../compendiums/spells/spell_control_fire.adoc[Kontrolliere Feuer]
+* link:../skills/specific/bestiary_skill_leaves_no_corpse.adoc[Hinterlässt keinen Leichnam]
+
+== Regeln
+
+
+[[ref_flameshadow_skill_fire_and_shadow]]
+=== Feuer und Schatten
+
+== Taktik
+
+
+
+
+
+
+

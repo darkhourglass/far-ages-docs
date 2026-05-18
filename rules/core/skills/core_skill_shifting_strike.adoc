@@ -1,0 +1,12 @@
+= Wechselnder Schlag
+
+*Voraussetzungen:* xref:../core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik] 5, link:core_skill_weapontraining_melee.adoc[Waffentraining (Nahkampfwaffe)] +
+*Typ:* Bewegung, Angriff +
+*Überanstrengung:* 2 +
+*CP:* 100 +
+Mit dieser Fähigkeit kann der Charakter ein flinkes Manöver durchführen, um seine Position zu wechseln und mehrere Gegner anzugreifen.
+Um die Fähigkeit einzusetzen, muss er sich zunächst mit einer Kreatur xref:../core_rules_2d10_system.adoc#ref_core_2d10_condition_bondedincombat[im Kampf gebunden] befinden.
+Mit einer xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] führt der Cherakter zunächst einen regulären Angriff im xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Nahkampf] gegen die andere Kreatur aus.
+Danach darf der Charakter ohne den Einsatz einer weiteren Aktion 1/2 seiner BEW (abgerundet, minimum 1,50 Meter) nutzen, um ohne Provokation von xref:../core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffen], um in Nahkampfreichweite mit einer anderen Kreatur zu kommen.
+Der Charakter darf diese Kreatur auch angreifen, dies kostet jedoch Aktionen.
+Der Weg von der aktuellen Position des CHarakters zur nächsten Kreatur darf nicht blockiert sein.

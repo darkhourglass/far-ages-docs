@@ -66,12 +66,19 @@ Neben der Bürokratie besitzt das Haus der Feder ein weiteres Standbein, nämlic
 Anwälte und Rechtsberater stammen fast ausschließlich aus dem Haus der Feder und bieten ihre Dienste für viel Geld an.
 Die wahre Macht liegt jedoch in dem stehenden Heer von link:../../../../rules/advanced/paragonpaths/mastery/paragon_path_mastery_justicar.adoc[Justikaren], die ausschließlich vom Haus der Feder berufen und eingesetzt werden können.
 Auch der Ritterordern der link:../rules/knightlyOrders/knights_of_the_scroll.adoc[Ritter der Schriftrolle] steht dem Haus der Feder nah.
+
+// sample services:
+// zertificate of authentency for mag. items
+// zertificate of termination: you are allowed to kill that dragon
+// perso
+
 [[ref_house_of_the_pale_lion]]
 === Haus des weißen Löwen
 *Wappen:*
 *Familien:* Menschen (Agrenn, Daschowren), Zwerge (Dur'Amk, Ungoz), Orks (_Grenem_, Orun, Nevachi), Trolle (Ghan,Lem)
 *Assoziation:* ausschließlich loyales Haus
 // Krieger, Wachen, Duelle, Sicherheit
+
 [[ref_house_of_the_coin]]
 === Haus der Münze
 *Wappen:* Blaues Wappen mit einem Stapel Münzen
@@ -79,6 +86,16 @@ Auch der Ritterordern der link:../rules/knightlyOrders/knights_of_the_scroll.ado
 *Assoziation:* freies Haus / loyal
 
 // Bankwesen, Kredit, Finanzen, Geldgeschäfte
+// Dienst: Geld einzahlen > Schein > Geld woanders auszahlen
+
+Das Haus der Münze unterhält ein Banksystem mit Filianen (Münzhäusern) in den meisten großen Städten der Herzlande über politische Grenzen hinweg.
+Dort kann jeder ein Konto eröffnen und beliebige Mengen von Silber einzahlen.
+Er erhält dann einen Münzschein mit dem Siegel des Haus der Münze.
+Mit diesem Münzschein kann er zu einem andern Münzhaus gehen und sich einen Teilbetrag auszahlen lassen.
+Dier Service steht nur Charakteren mit gültigem Ausweis zur Verfügung.
+
+
+
 [[ref_house_of_the_wheel]]
 === Haus des Rades
 *Wappen:* ein goldenes Speichenrad auf grünem Grund
@@ -90,9 +107,15 @@ Zwischen den großen Städten der Herzlande bewegen sich regelmäßige Karavanen
 
 [[ref_house_of_the_bear]]
 === Haus des Bären
-*Wappen:* die Silhouetten eines schwarzen und weißen Bären, auf den Hinterbeinen in Kampfposition zueinander gewandt
+*Wappen:* die Silhouetten eines schwarzen und weißen Bären, auf den Hinterbeinen in Kampfposition zueinander gewandt umgeben von einem Krank ausgrünen Blättern
 *Familien:*
 *Assoziation:* freies Haus / loyal
+Das *Haus des Bären* gründete sich aus einem Zusammenschluss von Söldnern und Abenteurern, die in der Anfangszeit des Ewigen Reiches für ihre Taten bekannt wurden:
+das Auslöschen gefährlicher Kreaturen und den Schutz der einfachen Landbevölkerung.
+Genau diese Nische besetzte das Haus mit Gründung und Integration in den merkantilen Adel des Ewigen Reiches und bedient auch heute noch den Bedarf nach außergewöhnlichen Missionen mit hohem Risiko.
+Das Haus des Bären bietet für einen moderaten Preis Kämpfer, Spezialisten und Magiekundige an, um Missionen zu erfüllen, natürlich nur im Rahmen der Gesetze.
+Nach dem Schwarzen winter und dem Fall des Ewigen Reiches hat sich der freie Teil des Hauses in einigen gefährlichen Teilen der Welt niedergelassen und versucht Gebiete zu sicheren Siedlung zu befriedn, wie beispielsweise:
+* link:../unique_places_and_people/unique_place_fort_kanwood.adoc[Fort Kanwald]
 
 [[ref_house_of_the_forge]]
 === Haus der Schmiede
@@ -137,5 +160,17 @@ Daher besteht das Haus nur aus Associes und einem festen Kern an Anführeren, Ge
 Das Haus der Schädel war im ewigen Reich für das schmutzige Geschäft der unauffälligen Beseitigung von unliebsamen Köpfen zuständig.
 Auch als Haus der Assassinen und Meuchler bekannt, wurde das Haus der Schädel mit Fall des ewigen Reichen sowohl im hegemonalen Bund und neuen Bündnis-Staat verboten und aufgelöst.
 Trotzdem existieren geheimen Zellen von verwandten Geistern, die im Sinne des alten Geschäftsmodells handeln.
-Diese sind allesamt als kriminelle Origanisationen zu sehen und jede nachweisliche Zugehörigkeit und Partipizierung an einer solchen Gruppe hat harte Konsequenzen.
+Diese sind allesamt als kriminelle Organisation zu sehen und jede nachweisliche Zugehörigkeit und Partipizierung an einer solchen Gruppe hat harte Konsequenzen.
 Alle ehemaligen Familien des Hauses tragen nach außen eine Fassade harmloser Adeliger, nur wenige erinnern sich und praktizieren die alten Wege.
+
+[[ref_house_of_the_horse]]
+=== Haus des Pferdes
+*Wappen:* ein schwarzer Pferdekopf auf hellgrünem Grund
+*Familien:*
+*Assoziation:* untergegangen
+im ewigen Reich war das Haus des Pferdes die Einrichtung, zu der jeder ging, der ein Pferd benötigt.
+Das Haus spezialisierte sich in Zucht und Training für Pferde aller Zwecke: als Arbeits- und Lasttier oder im Kriegsdienst.
+Während der Zeit im ewigen Reich kamen Gerüchte auf, das Obere des Hauses sich in fragwürdigen Praktiken der Blutmagie und des Fleischformen übten.
+Die Existenz dieser Gerüchte haben ausgereicht, dass das Haus aufgelöst wurde und sich auch nach dem Fall des ewigen Reiches nicht mehr erholt hat.
+Auch in modernen Zeiten wird hinter vorgehaltener Hand immer wieder über geheime Labore und ungewöhnliche Vorgänge in den ehemaligen Adelshäusern geflüstert.
+<<ref_house_of_the_bear,Das Haus des Bären>> hat das Geschäft der Pferdezucht und Ausbildung übernommen.

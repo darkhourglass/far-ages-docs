@@ -1,0 +1,29 @@
+= Schattenboten
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formlen, Gesten, Pergament und Tinte +
+*Fokus:* Schatten, Aether +
+*Vorbereitung:* 10 Minuten (Ritual) +
+*Reichweite:* siehe Beschreibung +
+*Anzahl der Ziele:* - +
+*Dauer:* 24 Stunden+
+*Effekt:* +
+MIt diesem Ritual beschwörst Du eine Gestalt aus purem Schatten.
+Die Gestalt kann ein Tier sein, z.B. ein Rabe, eine Katze oder ein Wolf oder alternativ von Humanoider Form, bei der sie Dir ähnelt.
+Für das Ritual musst Du auf einem Pergamenet mit Tinte eine Nachricht vorbereiten, die nicht mehr als 120 Wort enthalten kann.
+MIt erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] übergibst Du dem Schattenboten die Nachricht und befiehlst ihm einmal initial das Ziel für seine Nachricht.
+Als Ziel kannst Du eine Kreatur oder einen Ort wählen, die Dir bekannt sind.
+Innerhalb der Dauer des Zauber wird der Schattenbote versuchen, das Ziel zu erreichen (er kann xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes_flying[Fliegen] mit einer BEW von 24,00 Metern).
+Am Ziel angekommen, verweilt der Schattenboten und wiederholt regelmäßig die Nachricht - er spricht dabei eine Dir bekannte Sprache, die Du mit der Nachricht festlegen musst.
+Ist das Ziel ein Ort, bleibt der Schattenbote im Umkreis von 12,00 Metern und gibt die Nachricht an vorbeizeihende Humnanoide weiter.
+Der Schattenbote besitzt kein Profil und keine Kampffähigkeiten.
+Nimmt der Schattenbote durch eine einzelne Aktion mehr als 5 Punkte Schaden, löst er sich auf, so als wäre der Zauber abgelaufen.
+Du nimmst wahr, wenn der Schattenbote sich auflöst und Du erhältst ein wages Bild von den Empfängern Deiner Nachricht.
+Der Schattenbote kann außerdem nicht selbst sprechen oder Gespräche führen, nur die vorher festgelegte Nachricht aufsagen.
+
+Du kannst immer nur 1 aktiven Schattenboten haben.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Stunde +

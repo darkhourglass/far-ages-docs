@@ -1,0 +1,18 @@
+= Überrennen (BEW, Angriffsstufe, Schaden)
+
+*Voraussetzungen:* GK 6 oder höher +
+*Typ:* Angriff, Bewegung, Komplexe Aktion +
+*Überanstrengung:* - +
+*CP:* 200 +
+
+Die Kreatur kann ihre Körperkraft und Beweglichkeit einsetzen, um Gegner zu überrennen.
+Zu Beginn der Aktion kann die Kreatur die angegebene *BEW* einsetzen, um sich zu Bewegen.
+Diese Bewegung verursacht keine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacks_of_opportunity[Gelegenheitsangriffe].
+Alle Kreaturen, die im Pfad dieser Bewegung stehen, können mit der *Angriffsstufe* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[angegriffen] werden.
+Gegen das Ergebnis der Angriffsprobe darf jede betroffene Kreatur einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungswurf] werfden.
+Bei einem Misserfolg erhält sie einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit dem angegebenen **Schaden*.
+Der Schaden ist, sofern nicht explizit anders angegeben vom Typ xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_physical[Physisch].
+
+sollte die kreatur ein xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_mounted_combat[Reittier] sein, muss der Reiter eine xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_riding[Reiten-Probe] gegen den Mindestwurf 18 ablegen, um das Manöver mit seinem Reittier durchführen zu können.
+Ein ausgeführtes Überennnen-Manöver ist für die Kreatur und einen potentiellen Reiter eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion].
+

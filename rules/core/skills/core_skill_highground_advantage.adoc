@@ -1,0 +1,10 @@
+= Höhenunerschied Vorteil
+
+*Voraussetzungen:* link:core_skill_weapontraining_projectile.adoc[Projektilwaffentraining (Waffe)] oder link:core_skill_weapontraining_throwing.adoc[Wurfwaffentraining (Waffe)] +
+*Typ:* Passiv +
+*Überanstrengung:* +
+*CP:* 100 +
+
+Wenn Du bei einem xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_rangedattack[Angriff im Fernkampf] einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Bonus] aufgrund von
+eines xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_height[Höhenunterschieds] auf Deine Angriffsprobe erhältest, erhälst Du den gleichen Bonus von +3,00 Meter auf Deine xref:../core_rules_battlesystem.adoc#ref_core_battle_projectiles_baserange[Grundreichweite].
+Du kannst die Fähigkeit nur einsetzen, wenn Du die Waffe aus Deinem Waffentraining nutzt.

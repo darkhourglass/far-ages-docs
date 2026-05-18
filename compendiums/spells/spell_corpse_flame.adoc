@@ -1,0 +1,24 @@
+= Leichenflamme
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 4 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Ebon, Körper, Feuer +
+*Vorbereitung:* 3 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 Leichnam bzw. Teil eines Leichnames +
+*Dauer:* 10 Kampfphasen+
+*Effekt:* +
+Als Ziel dieses Zauber gilt eine Leiche oder der Teil einer Leiche, z.B. ein Arm, Bein oder Schädel, den Du mit diesem Zauber in Brand setzen kannst.
+
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] beginnt das Leichenteil in einem hellen, blauen, geruch- und qualm-losen Feuer zu brennen.
+Das Feuer verursacht keinen Schaden oder andere brennbare Materialien in Brand setzen.
+Das Feuer spendet jedoch xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_melee_modifiers_darkness[Fackellicht] für die Dauer des Zaubers.
+
+Am ende der Dauer zerfällt der Teil zu Asche.
+
+Der Zauber hat keinen Effekt auf link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote].
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +

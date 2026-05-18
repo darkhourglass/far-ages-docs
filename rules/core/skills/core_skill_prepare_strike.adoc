@@ -1,0 +1,18 @@
+= Vorbereiteter Schlag (Nahkampfwaffe)
+
+*Voraussetzungen:* link:core_skill_weapontraining_melee.adoc[Waffentraining (Nahkampfwaffe)] +
+*Typ:* Angriff, komplexe Aktion +
+*Überanstrengung:* 3 +
+*CP:* 100 +
+
+Die Beherrschung Deiner Nahkampfwaffe ist soweit gestiegen, dass Du in sekundenschnelle auch unter dem Druck einer Kampfsituation
+Deine Waffenführung wird präziser, gezielter und tödlicher.
+Du kann unter Einsatz der o.g. xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung]
+und einer xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexten Aktion] einen xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Angriff im Nahkampf] durchführen.
+Dieser folgt den normalen Regeln, erhält jedoch einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -1.
+Bei einem xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] verursachst Du zusätzliche Schaden in Höhe der Würfel Deiner Waffe.
+
+.Vorbereiteter Schlag
+=====
+Ein vorbereiteter Schlag mit einem Breitschwert (Schaden: 3W8) verursacht zusätzliche 3W8 Schaden.
+====

@@ -38,6 +38,16 @@ Drachen reagieren selten freundlich auf die Anwesenheit eines Linnorn, auch wenn
 *MaxTL:* 180 +
 *MaxPOT:* 9 +
 
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* 12,00 Meter +
+*INI:* +5 +
+*MaxTL:* 180 +
+*MaxPOT:* 9 +
+
 *Aktionen:* 3 +
 *Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 7 (harte Schuppen, alle Trefferzonen) +
 *Resistenzen:* +

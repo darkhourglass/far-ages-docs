@@ -1,0 +1,102 @@
+= Grabhügel Gespenst
+
+
+_"Eine gespentische Gestalt schwebt langsam durch den dicken Nebel. Ihre weißen Haare stehen wie ein Kranz aus Flammen vom Kopf ab.
+In pechschwarzen Augen brennnen 2 rote Sterne aus Wut."_
+
+Noch bevor die Titanen kamen und auch lange nach ihrer Ankunft begruben die Völker ihre Toten in Hügelgräbern, den sogeannten *Kairns*.
+Die spirituellen Orten gehörten den Lebenden zur Andacht wie den Toten zur ewigen Ruhe.
+
+
+
+== Voraussetzungen
+Um ein Grabhügel Gespenst zu werden, muss die Kreatur folgende Voraussetzungen erfüllen:
+
+* der primäre Kreaturentyp der Kreatur muss einer der Folgenden sein:
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_dragon.adoc[Drache]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_animal.adoc[Tier]
+** link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* sie muss den sekundären Kreaturtyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebend] besitzen
+* sie darf nicht bereits den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos] besitzen
+Warum die Kreatur ein Gespenst und den jeweiligen Grabhügel heimsucht wird, ist dem SL überlassen.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen mit folgenden Anpassungen:
+
++ 1 GE
++ 2 EN
++ 3 CH
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten und erhält die folgenden dazu:
+
+=== Untot
+Die Kreatur erhält den primären Kreaturentyp link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
+Zu Bestimmung der xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe], siehe den nachfolgenden <<ref_template_cairn_wraith_powerlevel,Abschnitt>>.
+
+=== Körperlos
+Die Kreatur erhält den sekundären Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_incorporal.adoc[Körperlos].
+
+[[ref_template_cairn_wraith_powerlevel]]
+=== Machtstufe
+Als Untoter hat auch jedes Grabhügel-Gespenst eine Machtstufe, die mit einer Zahl von 0 bis 10 gemessen wird,  in der Regel nicht deutlich über 10.
+Zu Bestimmung der Machtstufe kann der SL die Formel 5+EN-Stufe der Kreatur benutzen.
+Dabei kann der Wert 10 überschritten werden.
+
+.Machtstufe bei Grabhügel-Gespenstern
+====
+Eine Kreatur mit einer EN-Stufe von 3 erhält diese Schablone.
+Damit beträgt ihre Machtstufe 5+3=8.
+====
+
+=== Energieentzug
+Die Kreatur erhält die Fähigkeit link:../skills/bestiary_skill_attack_energydrain.adoc[Energieentzug] auf dem Pool xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_mp[MP].
+Die *Reichweite* ist Berührung und die *Angriffsstufe* entspricht der Machtstufe des Geists.
+Der *Schaden* wird mit  2W6+EN-Bonus berechnet.
+
+[[ref_template_cairn_wraith_skill_energy_conversion]]
+=== Energieumwandlung
+Wie alle Untoten können Grabhügel-Gespenster nicht xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_regeneration_rest[rasten], um verlorene TP zu regenerieren.
+Stattdessen können sie eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_complexactions[komplexe Aktion] einsetzen, um 5 MP in 1 TP pro Machtstufe direkt umzuwandeln.
+
+[[ref_template_cairn_wraith_kill_occult_weakness]]
+=== Okkulte Schwächen
+Ähnlich wie link:bestiary_template_undead_ghost.adoc[Geister] haben Grabhügel-Gespenster Anfälligkeiten, die nur im Okkultismus bekannt sind und durch folgende Fähigkeiten repräsentiert werden:
+* link:../skills/specific/occult/skill_occult_Weakness_to_salt.adoc[Schwäche gegenüber Salz]
+* Analog zu link:../skills/specific/occult/skill_occult_anchored_to_remains.adoc[Gebunden an die eigenen Überreste] wird genutzt: <<ref_template_cairn_wraith_kill_occult_weakness_bound_to_old_runes,Gebunden an die alten Runen>>
+
+
+[[ref_template_cairn_wraith_kill_occult_weakness_bound_to_old_runes]]
+=== Gebunden an die alten Runen
+Heute ist das Geheimnis wie und warum Grabhügel-Gespenster entstehen, verloren.
+Die Nekromanten haben effektiv keine Ahnung.
+Nur gerüchte kursieren über Steine mit alten Runen, die Verstorbenen ins Grab gelegt werden und deren Magie führt dazu, dass der Verstorene als Grabhügel-Gespenst aufersteht.
+Das Wissen über diese Runen ging mit der Zeit verloren.
+Ein Grabhügel-Gespenst wird vernichtet, wenn diese Steine zerschmettert werden.
+Es ist denkbar, dass die alten Völker, die die Grabhügel anlegten, Grabhügel-Gespenster erschufen, um die Gräber zu bewachen und um Misstäter über den Tod hinaus zu bestrafen.
+Das Grabhügel-Gespenst ist auch räumlich an die Runen gebunden - wer die Steine einsteckt und an einem anderen Ort unterbringt, fängt sich einen Spuk ein.
+
+[[ref_template_cairn_wraith_fog_aura]]
+=== Nebelaura
+
+Jedes Grabhügel-Gespenst erzeugt den Effekt des Zaubers link:../../compendiums/spells/spell_fog.adoc[Nebel] zentriert um sich.
+Dies ist ein permanenter, magischer Effekt, der nicht gebannt werden kann.
+
+[[ref_template_cairn_wraith_lord_of_grave_fog]]
+=== Grabnebelfürst
+Die Magie, die Grabhügel-Gespenster an die sterbliche Welt bindet, erzeugt auch keinen dichten Nebel, der
+unter der Kontrolle des Gespensts liegt.
+In xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[seinem Zug] darf das Gespenst eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion] einsetzen, um einen der folgenden Effekte zu verwenden:
+
+* für 5 MP: einen zusätzlichen Effekt des Zaubers Nebel einsetzen
+* für 10 MP: Den Effekt Nebel durch link:../../compendiums/spells/spell_freezing_fog.adoc[Frostnebel] ersetzen und umgekehrt
+
+== CP
++125

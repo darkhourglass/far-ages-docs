@@ -1,0 +1,104 @@
+= Meeres Linnorn
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig],
+link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc[Drachisch],
+link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_aquatic.adoc[Aquatisch]
+* GK: 9
+* CP: 12000
+
+== Beschreibung
+_"Ob ich Panzerschiffe überlegen finde. Lasst mich Euch erzöhlen von einem Meere Linnorn, der ein stolzes Panzerschiff unserer Flott wie eine einfache Konservendose aufriss und die Besatzung verschlang.
+Nur eine Woche später wurde ich Zeuge, wie ein 'unterlegenes' Kriegsschiff aus Holz der Armada von Niohögg die gleiche Bestie stellte. Bewaffnet nur mit 3 Speerschleudern und einer Besatzung von 20 SObek Jägern.
+Am Ende des Tages war der Meeres Linnorn tot und die Sobek machten Ketten aus seinen Zähnen, Werkzeuge aus seinen Knochen und ein Festmahl aus dem Rest."_
+
+Der Meeres Linnorn ist eine an das Leben im Wasser angepasste Variante des link:bestiary_monstrosity_linnorn.adoc[Linnorn].
+Er ist genauso bösartig und gefährlich wie seine an Land lebendenen Verwandten.
+Körperlich ähnelt der Meeres Linnorn mit seinem langgezogenen, schuppigen Körper und mit Rezzähnen besetzen Maul den anderen Linnorns.
+Wo die Landvariante kräftige, klauenbewährte Beine zur Fortbeweggung nutzt, besitzt der Meeres Linnorn langgezogene Breite Schwimmflossen, die Paddel ähneln.
+Mit diesen bewegt er sich unter Wasser rasend schnell und kann wie Schildkröten langsame, kriechende Bewegungen an Land durchführen.
+Meeres-Linnorn jagen neben der Tiefsee auch nahe der Küste, wo ihre hybride Natur zu Vorteil wird.
+
+
+
+== Profil
+
+*ST:* 12 (+4) +
+*GE:* 5 (+2) +
+*KO:* 12 (+4) +
+*ER:* 8 (+3) +
+*EN:* 6 (+2) +
+*SB:* 8 (+3) +
+*CH:* 12 (+4) +
+*TP:* 150 +
+*MP:* 60 +
+*SP:* 100 +
+*BEW:* 21,00 Meter +
+*INI:* +5 +
+*MaxTL:* 180 +
+*MaxPOT:* 9 +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* an Land: 3,00 Meter, link:../skills/bestiary_skill_move_swim.adoc[Schwimmen] 21,00 Meter +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 7 (harte Schuppen, alle Trefferzonen) +
+*Resistenzen:* +
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental]
+link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure], xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser]
+
+*Immunitäten:* +
+link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +6 +
+*Disziplin:* +10 +
+*Körper:* +13 +
+*Magie:* +5 +
+*Reflex:* +8 +
+
+== Offensiv
+
+* link:../skills/bestiary_skill_attack_odem.adoc[Odem] 8,  <<ref_bestiary_linnorn_rules_odemattack,Linnorn Odemangriff 2W6+4>>, 9,00 Meter
+* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 9, 3W6+4 1x
+* link:../skills/bestiary_skill_fear.adoc[Furcht] 7
+* link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 9, 3W6+4 2x
+* link:../skills/bestiary_skill_attack_tail_swipe.adoc[Schwanzschlag] 8, 3W6+4
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] 7
+
+== Sonstiges
+
+* <<ref_bestiary_linnorn_rules_wake_of_destruction,Schneise der Zerstörung>>
+* link:../skills/bestiary_skill_senses_darkvision.adoc[Dunkelsicht (30,00 Meter)]
+* xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_draconic.adoc#ref_secondary_creaturetype_draconic_rules_skills_descendent_blood[Verwandtes Blut]
+* link:../skills/bestiary_skill_gills.adoc.adoc[Kiemen]
+
+== Regeln
+
+[[ref_bestiary_linnorn_rules_odemattack]]
+=== Linnorn Odemangriff
+Linnorns haben die ikonische Odemattacke ihrer drachischen Verfahren geerbt, jedoch sind sie weit vor deren feuerspeienden Majestät entfernt.
+Wie ihre Form ist auch ihr Odem verdorben.
+Der Odemangriff wird nach den Regeln der link:../skills/bestiary_skill_attack_odem.adoc[Attacke] abgedeckt.
+Sein Schadenwurf besteht jedoch aus:
+1W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer-Schaden] plus 1W6+2 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure-Schaden].
+
+[[ref_bestiary_linnorn_rules_wake_of_destruction]]
+=== Schneise der Zerstörung
+Ein Linnorn ist die Personifizierung der Vernichtung und setzt seinen Körper ein, um alles in seinem Weg umzuwalzen.
+Alle Hindernisse und Objekte, die der Linnorn mit seiner Bewegung berührt, erhalten sofort einen Treffer mit Schadenspunkten in Höhe seiner ST-Stufe plus GK.
+Im Fall des hier vorgestellten Profils wären dies 9+12=21 Punkte.
+Siehe auch xref:../../rules/core/core_rules_adventures.adoc#ref_core_adventures_obstacles_destroy_object[Objekte zerstören].
+Natürliche Hindernisse, die zu xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwierigem Gelände] gehören, werden plattgewalzt im Ermessen des SLs.
+Die Regeln für xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movement_difficultterrian[schwieriges Gelände] betreffen Linnorns nicht, da sie einfach durch jede Blockade durchbrechen.

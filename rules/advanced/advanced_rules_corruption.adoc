@@ -12,18 +12,18 @@ Dieses Kapitel präsentiert Regeln, die Spieler und Spielleiter Ihre Spielrunden
 
 [NOTE]
 Die vorgestellten Regeln sind optional bzw. gehören zu den erweiterten Konzepten von Far Ages.
-Sie sollen diejenigen Spieler unterstützen, die in ihrem Spiel mit düsteren Thematiken beschäftigen möchten und einen stärkeren Horror-Aspekt in ihren Runden einbringen möchten.
+Sie sollen diejenigen Spieler unterstützen, die in ihrem Spiel mit düsteren Themen beschäftigen möchten und einen stärkeren Horror-Aspekt in ihren Runden einbringen möchten.
 
 [[ref_corruptions_rules]]
 == Regeln
 
-Die Verderbnis eines Charakters (und auch eines NPCs) wird in der Einheit *Korruptionspunkte* (oder einfach Korruption) gemessen.
+Die Verderbnis eines Charakters (und auch eines NPCs) wird in der Einheit *Korruptionspunkte* (oder einfach Korruption oder *Kanker*) gemessen.
 Zu Beginn des Spiels hat ein Charakter im Normalfall 0 Korruptionspunkte.
 
 Je mehr Korruptionspunkte ein Charakter erhält, umso schwerer wird es für ihn, seine geistige Gesundheit zu behalten.
 
-Außerdem kann eine hohe Anzahl von Korruptionspunkten zu körperlichen und geistigen Veränderungen, sogenannte *Korruptionen*, führen.
-Korruptionen sind Mutationen vielfältiger Natur, die zeigen sollen, dass ein Charakter, der sich den übernatürlichen Mächten zu häufig aussetzt, früher oder später seinen Preis bezahlt.
+Außerdem kann eine hohe Anzahl von Korruptionspunkten zu körperlichen und geistigen Veränderungen, sogenannte *Korruptionen* oder *Kankers*, führen.
+Korruptionen oder Kankers sind Mutationen vielfältiger Natur, die zeigen sollen, dass ein Charakter, der sich den übernatürlichen Mächten zu häufig aussetzt, früher oder später seinen Preis bezahlt.
 
 [[ref_corruptions_rules_receive_corruptionpoints]]
 === Korruptionspunkte erhalten
@@ -33,6 +33,17 @@ Ein Charakter könnte einen Handel mit einem Dämonen eingehen, er könnte verbo
 In jedem Fall ist der Erhalt eines Korruptionspunkts explizit erwähnt, zum Beispiel durch eine Formulierung wie: _"Der Charakter erhält 1 Korruptionspunkt"_.
 
 Das Erhalten eines Korruptionspunkts hat zunächst keine direkten Auswirkungen, jedoch erhöht sich die Gefahr langfristiger Folgen, die im übernächsten <<ref_corruptions_rules_receive_corruptions,Kapitel>> beschrieben werden.
+
+==== Optional: Das Multiversum vergibt nicht
+Mit dieser optionalen Regel können Spielgruppen bei Bedarf den Einfluss von Kanker zu erhöhen.
+Handlungen von Charakteren, die man als unmoralisch und korrupt verstehen kann, werden im Multiversum bestraft, so dass Charaktere auch so mehr Kankerpunkt erhalten können.
+Far Ages nutzt kein klassisches Gesinnungs- oder Karmasystem.
+Typische Handlungen, die einen oder mehrere Korruptionspunkte verdienen könnten sein:
+* unnötige und excessive Gewalt gegenüber Tieren und Unschuldigen
+* Einen Schwur brechen
+* durch Lug und Betrug anderen schaden
+* Mitschuldig werden an einer Katastrophe
+
 
 [[ref_corruptions_rules_corruptionspoints]]
 === Auswirkungen von Korruptionspunkten
@@ -97,6 +108,7 @@ Folgende Korruptionen stehen außerdem zur Verfügung:
 * link:./corruptions/corruption_demonic_general.adoc[Dämonisch (Allgemein)]
 * link:./corruptions/corruption_demonic_chaos.adoc[Dämonisch (Chaos)]
 * link:./corruptions/corruption_demonic_order.adoc[Dämonisch (Ordnung)]
+* link:./corruptions/corruption_revelation.adoc[Erkenntnis]
 * link:./corruptions/corruption_bodymodifications.adoc[Körperlich]
 * link:./corruptions/corruption_mechanical.adoc[Mechanisch]
 * link:./corruptions/corruption_necrotic.adoc[Nekrotisch]
