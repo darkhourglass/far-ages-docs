@@ -1,0 +1,22 @@
+= Zepter des Todeskönigs
+
+*Speziell:* Magischer Kritstall mit 300 MP (ca 38.000)+
+Kentniss von link:../../../spells/spell_thunderbolt.adoc[Blitzschlag] und link:../../../spells/spell_absorb_magic.adoc[Absorbiere Magie]
+*Machtstufe:* 7 (mystisch) +
+*Bindung:* Träger muss link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] sein+
+*CP:* 500 +
+*Beschreibung:*
+Dieses schaurige Stück magische Kunst wird oft in den Händen vvon mächtigen Untoten gefunden.
+Auf einem aus ebenholz geschnitzen  Stab trohnt ein abgetrennter und geteerter Kopf eines Humanoiden, der im Todesschrei erstarrte.
+
+Mit einer xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion] darf der Besitzer in xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug]
+das Zepter den Zauber link:../../../spells/spell_thunderbolt.adoc[Blitzschlag] wie aus einen xref:../../../../rules/core/core_rules_magic_base.adoc#ref_magic_rules_spellcasting_rods[Zauberstecken] zaubern.
+Der Einsatz kostet 24 MP vom internen Speicher des Zepters.
+
+Der Träger des Zepters erhält außerdem eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[Bonus-Aktion]:
+Der Träger darf mit der Bonus-aktion eine xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Attacke im Nahkampf] ausführen.
+Bei einem xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits[Treffer] verursacht das Zepter beim Ziel 2W8+2 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt-Schaden].
+Jeder auf diese Weise verlorene MP werden in den Sopeicher des Zepters bis zu dessen Maximum von 300 MP übertragen.
+
+Alle Kreaturen, die keine Untoten sind und da Zepter berühren, erhalten zu Beginn ihres Zuges sofort einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer]
+mit 2W6+7 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischen Schaden].

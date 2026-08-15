@@ -1,0 +1,10 @@
+=Magisches Störfeld
+
+*Gattungen:* Alle Gegenstände +
+*Beschreibung:* +
+Gegenstände aus einem passenden Metal können die Eigeenschaft *magisches Störfeld* mitbringen.
+Diese Eigenschaft führt dazu, dass der Aether um die Kreatur, die den Gegenstand an sich trägt, sich verzerrt und magische Energien dadurch nicht mehr wie gewohnt fließen können.
+Die Kreatur erhält daher einen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3 auf ihre xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magierettungswürfe].
+Allerdings hat sie einen analogen xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von -3 auf ihre Proben in xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] und alle xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_energy[EN-basierten] Proben, um einen xref:../../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Zauber zu wirken].
+
+Die Eigenschaft kann auf allen Gegenstandstypen auftauchen, und wenn eine Kreatur mehrere Gegenstände mit magischen Störfeld trägt, kumulieren sich sich die o.g. Boni und Mali.

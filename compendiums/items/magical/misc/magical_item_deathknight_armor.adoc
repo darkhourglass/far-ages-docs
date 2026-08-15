@@ -1,0 +1,16 @@
+= Rüstung des Todesritters
+
+*Speziell:* Metal im Wert von 20.000 +
+*Machtstufe:* 4 (Außergewöhnlich) +
+*Bindung:* Träger muss link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] sein+
+*CP:* 500 +
+*Beschreibung:*
+Diese furchterregende nachtschwarze Rüstung ist mit Ikonorgrafie des Todes überzogen und bedeckt ganzen Körper überlicherweise den eines mächtigen Untoten wie
+
+Besitzt der Träger der Rüstung die Fähigkeit link:../../../../bestiary/skills/bestiary_skill_fear.adoc[Furcht], erhält sie für diese einen xref:../../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3, wenn die Kreatur diese Rüstung trägt und sie gegen link:../../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen einsetzt.
+Die Rüstung gewährt auf allen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_hitzones[Trefferzonen] 5 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_tag_unbreakable[unnachgiebigene]
+xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_items_armor_armorpoints[Rüstungspunkte].
+Die Rüstung besitzt außerdem die Eigenschaft link:../../tags/item_tag_magicinterference.adoc[Magisches Störfeld].
+
+Alle Kreaturen, die keine Untoten sind und die Rüstung anlegen, erhalten zu Beginn ihres Zuges sofort einen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer]
+mit 2W6+7 xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[nekrotischen Schaden].

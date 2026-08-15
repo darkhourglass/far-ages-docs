@@ -64,6 +64,7 @@ Lore
 * link:../skills/bestiary_skill_move_rush.adoc[Eilig]
 * <<ref_bestiary_animals_lunar_stag_rules_moonlight,Mondlicht>>
 * <<ref_bestiary_animals_lunar_stag_rules_moonphase,Mondphase>>
+* <<ref_bestiary_animals_lunar_stag_rules_aura_of_sleep, Aura de Schlafs>>
 
 == Regeln
 
@@ -106,3 +107,11 @@ Stärkere Mitglieder der Gruppe werden Gegner im direkten Nahkampf binden, währ
 
 Seine Fähigkeit <<ref_bestiary_animals_lunar_stag_rules_moonphase,Mondphase>> nutzt ein Manihrynn üblicherweise für zwei Situationen: um aus einer gefährlichen Situation zu fliehen oder um seine Position im Kampf zu verbessern.
 Letzteres allerdings nur, wenn er den Kampf dadurch deutlich zu seinen Gunsten wenden kann.
+
+
+[[ref_bestiary_animals_lunar_stag_rules_aura_of_sleep]]
+=== Aura des Schlafs
+Manihyrnn umgibt ein konstanter Magisher Effekt, der link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] kreaturene, die schlfen müssen, betreffen kann.
+Die Aura hat einen Radius on 200 Metern um den Manihyrrn herum.
+Alle bereits schlafenden Wesen erhalten einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] auf all Probem, die sie würfeln müssen, um aus dem Schlaf aufzuwachen.
+Es ist außerdem leichter einschlafen, um wach zu blieben, ehalten Proben auch den o.g. Nachteil.

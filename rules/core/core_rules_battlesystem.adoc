@@ -700,6 +700,13 @@ Manchmal muss man sich mit Fäusten wehren.
 Es handelt sich bei diesem Angriffstyp um eine Probe auf das Talent xref:ref_talents_unarmed_combat[unbewaffneter Kampf].
 Es gelten die gleichen Regeln wie bei einer <<ref_core_battle_attacktypes_meleeattack,Attacke im Nahkampf>> sowie zu <<ref_core_battle_melee_and_unarmed,Nah- und unbewaffneter Kampf>>.
 
+[[ref_core_battle_attacktypes_natural_attacks]]
+== Natürliche Attacke
+Manche Kreaturen können *natüliche attacken* oder *natürliche Angriffe* besitzen, die im <<ref_core_battle_attacktypes_meleeattack,Nahkampf>> oder <<ref_core_battle_attacktypes_rangedattack,fernkampf>> eingesetzt werden können.
+Dies können Klauen, Bisse, Schläge mit Schwänzen oder Flüglen sein.
+Eine natürliche Attacke gilt immer als <<ref_core_battle_melee_modifiers_missingweapon,bewaffnet>>.
+
+
 [[ref_core_battle_melee_and_unarmed]]
 == Nahkampf und unbewaffneter Kampf
 Nahkampf beschreibt die direkte Auseinandersetzung mit dem Kontrahenten.
@@ -718,6 +725,10 @@ In diesem Fall ist auch eine Verteidigungsprobe nicht notwendig, ein Konter alle
 Ein Verteidigungswurf muss sowohl den Mindestwurf als auch den Angriffswurf erreichen, um erfolgreich zu sein.
 
 Ist nach allen Varianten der Angreifer in seiner Probe xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[erfolgreich], gilt der Angriff als <<ref_core_battle_hits,Treffer>>.
+
+
+
+
 
 [[ref_core_battle_melee_and_unarmed_zoneofcontroll]]
 === Bedrohungszone
@@ -977,6 +988,7 @@ Diese Situation ist meistens für den Unbewaffneten von Nachteil.
 Dieser erhält für seine Angriffswürfe einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] von *-5*.
 Dies gilt, wenn der Unbewaffnete das Talent xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneter Kampf] einsetzt.
 Außerdem löst der Angriff des Unbewaffneten einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>> aus.
+Kreaturen mit <<ref_core_battle_attacktypes_natural_attacks, naürlichen Attacken>> gelten im sinne dieser Regel immer als bewaffnet.
 
 [[ref_core_battle_projectiles]]
 == Projektilwaffen
@@ -1928,6 +1940,7 @@ Die Eigenschaft kann als Verdeigung unterdrücken odr als Konter unterdrücken a
 *Gattungen:* Nahkampfwaffen
 Die Eigenschaft hebt die Eigenschaft <<ref_core_battle_items_weapons_tag_suppress_defence_or_retailation, Verteidigung oder Konter unterdrücken>> auf.
 Angegriffene, die eine Waffe mit dieser Eigenschaft tragen, dürfen Reaktionen einsetzen, gegen Angreifer mit Waffen der anderen Eigenschaft.
+
 [[ref_core_battle_items_armor]]
 == Rüstungen
 

@@ -1,0 +1,21 @@
+= Absorbiere Magie
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 8 +
+*Rettungswurf:* Ja +
+*Komponenten:* formlen +
+*Fokus:* Aether, Ebon+
+*Vorbereitung:* 2 +
+*Reichweite:* Berührung +
+*Anzahl der Ziele:* 1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebende] Kretur +
+*Dauer:* sofort+
+*Effekt:* +
+
+Bei erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[spruchzauberei-Probe] erhält di ZielKreatur einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer]
+mit 1w6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_interlect[Interlekt Schaden].
+Für jeden so verlorenen MP erhälst Du sofort 1 MP in deinen eigenen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_pool_mp[Pool], aber nicht über Dein Maximum hinaus.
+
+Der Zauber wirkt nur bei link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebende] Kreaturen, nicht bei Kreaturen, nur weil sie MP besitzen.
+
+*Zusätzliche Effekte:* +
++5 MP, +2 pOT: +1 1w6 Schaden+ +

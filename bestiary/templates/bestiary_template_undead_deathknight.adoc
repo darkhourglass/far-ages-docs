@@ -1,0 +1,62 @@
+= Todesritter
+
+// TODO Beschreibung
+
+Die glücklicherweise seltenen Untoten mit dem plakativen Namen Todesritter wurden vermutlich zuerst von mächtigen link:bestiary_template_undead_scourge.adoc[Geißeln] geschaffen, um als Wächter, Laibwache und General für Armeen einfacher untoter zu dienen.
+
+
+== Voraussetzungen
+
+Die Kreatur, auf die diese Schablone angewendet wird, muss ein link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebdender] link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoider] sein, dessen xref:../../rules/core/core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] maximal 6 sein darf.
+Die Verzauberung eines Leichnams  zum Todesritter ist spezialisiert auf genau diese Rollen, sie verstärkt Angriffskratf und vrleiht Macht über niedere Untote.
+Gliechzezeitig werden Todesritter mit besondere Rüstung und den besten Waffen ausgestattet, weswegen sie gefährliche Gegner sein können.
+Wie viele mächtige Untote behalten Todesritter Teile ihrer Persönlichkeit und Interelligenz, was ihre Gefährlihekit weiter erhöht.
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen und verändern sich wie folgt:
+
+* ST +4
+* KO +4
+* ER +2
+* EN +2
+
+== Talente
+
+Die Kreatur behält alle ihre Talente mit folgenden Besonderheiten:
+
+* Sie verliert alle Stufen in xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei]
+* Sie erhält einen Bonus von +3 Stufen auf xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen]
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten und erhält die folgenen hinzu:
+
+* Der primäre Kreaturntyp ändert sich auf <<ref_template_undead_deathknight_skill_undead,Untot und die Kreatur ehält eine Machtstufe>>.
+* link:../skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten]
+* link:../skills/specific/undead/bestiary_skill_undead_restless_dead.adoc[Ruhelose Tote]
+* link:../skills/specific/undead/bestiary_skill_undead_unholy_toughness.adoc[Unheilige Widerstandskraft]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] link:../../compendiums/spells/spell_harm_living.adoc[Verletze lebende Kreatur]
+// +60 TP
+
+Die Kreatur verliert außerdem alle link:../skills/bestiary_skill_magicability.adoc[Magischen Fähigkeiten], außer denen, die durch diese Schablone hinzugefügt werden.
+Alle link:../skills/bestiary_skill_magicability.adoc[Magischen Fähigkeiten] dieser Schablone haben eine *angriffstufe* von 4 plus den EN-Modifikator der Kreatur.
+
+[[ref_template_undead_deathknight_creation]]
+=== Einen Todesritter erschafffen
+Um einen Todesritter zu erschaffen, muss ein Nekromant oder eine andere Kreatur in der Lage sein Untote der <<ref_template_undead_deathknight_skill_undead,Machrstufe>> 9 zu erschaffen.
+Dazu braucht es üblicherweise den Zauberspruch link:../../compendiums/spells/spell_nekrogenesis.adoc[Nekrogenesis].
+Die Kenntnis des Rituals muss explizit erforscht werden: der Leichnam der Zielkretur muss in einer link:../../compendiums/items/magical/misc/magical_item_deathknight_armor.adoc[Rüstung für Todesritter], die explizit für diese Kreatur hergestellt worden ist, begraben werden und mindestens 24 Stundn in frischer Grabeserde verweilen, bevor Nekrogenesis gezaubert werden kann.
+
+[[ref_template_undead_deathknight_skill_undead]]
+=== Untot
+Der primäre Kreaturentyp der Kreatur ändert sich in link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot].
+Sie verliert den Kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebend].
+Der Todesritter lernt alle xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_skills[Fähigkeiten] von Untoten.
+
+Die xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] des Todesritters beträgt 9.
+
+
+
+== CP
+600

@@ -1,0 +1,25 @@
+= Windschritt
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 9 +
+*Rettungswurf:* Nein/Ja +
+*Komponenten:* Formel, Gesten +
+*Fokus:* Luft, Körper +
+*Vorbereitung:* 3 +
+*Reichweite:* Selbst/Berührung +
+*Anzahl der Ziele:* Selbst/1 link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebende] Kreatur +
+*Dauer:* 5 Kampfphasen +
+*Effekt:* +
+Während die Zielkreatur unter dem Effekt es Windschrittes steht, darf sie in xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[ihrem Zug] ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_action_move[Bewegungsaktions] wie folgt einsetzen:
+* Bis zu 12,00 Meter in eine  beliebige unblockierte Richtung xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes_jump[Springen]
+* 12.00 Meter zur Bewegung am xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_movementtypes_onground[am Boden.]
+
+Andere Bewegungsarten wie Schwimmen oder Klettern sind nicht betroffen.
+In beidem Fällen musst Du am Ende der Bewegung mit Deinen Füßen auf festen Untergrund landen.
+Die Aktion gilt als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_actions_general_limited_action_and_reaction[limitiet.]
+
+Die Kreatur erhält außer dem einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +10 auf alle Proben im Talent xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_acrobatics[Akrobatik] oder xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Athletik], sondern diese mit einer der o.g. gewählten Bewegunenen zu tun haben.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++ 5MP, +2 POT: Bewegungn +3,00 Meter

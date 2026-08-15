@@ -154,6 +154,7 @@ Solange die Bindung zwischen Gegenstand und Träger besteht, reduziert sich dess
 Löst der Träger die Bindung zum Gegenstand auf, kann er diese Differenz wieder regenegieren.
 Andere Pools funktionieren analog.
 Sowohl das Aufbauen wie das Abbauen einer Bindung zu einem magischen Gegenstand ist ein Ritual, das ca. 10 Minuten Konzentration erfordert.
+
 [[ref_magic_items_artefacts]]
 == Artefakte
 Als gesonderte Kategorie magischer Gegenstände sind *Artefakte* zu sehen, die sich in folgenden Punkten unterscheiden:
@@ -162,10 +163,12 @@ Als gesonderte Kategorie magischer Gegenstände sind *Artefakte* zu sehen, die s
 3. Artefakte können nicht einfach aufgehoben und genutzt werden, jedes Artefakt ist ein Abenteuer für sich
 4. Artefakte werden als Gegenstand mit <<ref_magic_items_powerlevel,Machtstufe 8+>> behandelt.
 Artefakte, die <<ref_magic_items_artefacts_identification,identifiziert>> wurden, können nach den gleichen Richtlinien wie magischen Gegenstände <<ref_magic_items_usage,verwendet>> werden.
+
 [[ref_magic_items_artefacts_identification]]
 == Artefakte identifzieren
 Um Artefakte zu identifizieren, müssen <<ref_magic_items_artefacts_identification_obtain_key_information,Schlüsselinformationen>> über das Artefakt gesammelt werden.
 Das Sammeln dieser Schlüsselinformationen ist die <<ref_magic_items_identification_bounding,Bindung>>, die ein potentieller Träger aufbringen muss, um das Artefakt verwenden zu können.
+
 [[ref_magic_items_artefacts_identification_obtain_key_information]]
 === Schlüsselinformationen finden
 *Schlüsselinformationen* sind explizite Details über die Geschichte eines Artefakts, die seine Geschichte darstellen und notwendig sind, die magischen Effekte des Artefakts zu erwecken.
@@ -188,6 +191,7 @@ Effekte aus verschiedenen Schlüsselinformationen sind kumulativ, also erst wenn
 == Magische Gegenstände Herstellen
 In diesem Kapitel wird das <<ref_magic_items_createmagicalitem_talent,Talent>> beschrieben, dass xref:core_rules_charactercreation.adoc#ref_core_characters_spendcp_talents[gelernt] werden muss, um magische Gegenstände herzustellen.
 Die folgenden <<ref_magic_items_createmagicalitem_usages,Unterkapitel>> zeigen bestimmte Gegenstandskategorien auf, die üblicherweise damit abgedeckt werden können.
+
 [[ref_magic_items_createmagicalitem_talent]]
 === Talentbeschreibung
 *Voraussetzungen:* Artefaktkunde, Spruchzauberei 5, Aether Wahrnehmung 5, Wissen[Arkanes] 5 +

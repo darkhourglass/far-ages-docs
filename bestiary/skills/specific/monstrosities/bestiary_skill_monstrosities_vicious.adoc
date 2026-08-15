@@ -1,0 +1,8 @@
+= Brutal
+
+*Voraussetzungen:* link:../../../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer] als primärer Kreaturentyp+
+*Typ:* passiv +
+*Überanstrengung:* - +
+*CP:* 0 (Inhärent)+
+
+für xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_attacktypes_natural_attacks[natürluche Angriffe] ehält diese Kreatur einen Bonus von +1 auf die xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensproben].

@@ -1,0 +1,92 @@
+= Todesritter (Tauren Krieger)
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 9)
+* Secondary Type(s)
+* link:../templates/bestiary_template_undead_deathknight.adoc[Todesritter]
+* *GK:* 6
+* *CP:* 15ßß
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 2 (+1) +
+*KO:* 7 (+2) +
+*ER:* 3 (+1) +
+*EN:* 3 (+1) +
+*SB:* 2 (+1) +
+*CH:* 1 (+1) +
+
+*TP:* 105 +
+*MP:* 30 +
+*SP:* - +
+
+*BEW:* 9,00  Meter +
+*INI:* +2 +
+*MaxTL:* 135 +
+*MaxPOT:* 6 +
+
+*Aktionen:* 3 +
+*Rüstung:* 7 (alle Trefferzonen, link:../../compendiums/items/magical/misc/magical_item_deathknight_armor.adoc[Rüstung der Todesritter] und ein Schild) +
+*Resistenzen:*
+
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +5 +
+*Körper:* +10 +
+*Magie:* +7 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwwffen (Streikolben)] 8, 2w6+3 2x
+* link:../skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten]
+* link:../skills/specific/undead/bestiary_skill_undead_restless_dead.adoc[Ruhelose Tote]
+* link:../skills/specific/undead/bestiary_skill_undead_unholy_toughness.adoc[Unheilige Widerstandskraft]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] 5, link:../../compendiums/spells/spell_harm_living.adoc[Verletze lebende Kreatur]
+
+
+== Defensive
+
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidiung] 8
+* link:../skills/specific/undead/bestiary_skill_undead_unholy_toughness.adoc[Unheilige Widerstandskraft]
+
+
+== Sonstiges
+
+* link:../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* link:../skills/specific/undead/bestiary_skill_undead_lord_of_the_dead.adoc[Herr der Toten]
+* link:../skills/specific/undead/bestiary_skill_undead_restless_dead.adoc[Ruhelose Tote]
+
+
+== Regeln
+
+
+== Taktik
+
+
+
+
+
+
+

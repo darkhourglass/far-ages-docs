@@ -1,0 +1,14 @@
+= Kräftige Schildblock
+
+*Voraussetzungen:* link:core_skill_improved_shield_bash.adoc[Verbesserter Schildschlag] +
+*Typ:* Verteididung, Reaktion +
+*Überanstrengung:* 3 +
+*CP:* 100 +
+Bei einer erfolgreichen xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Verteidigung] mit Deinem Talent xref:../../core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidiung], kannst Du Dich als xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusreactions[Bonus-Reaktion] entschieden, diese Fähigkeit einzusetzen.
+Du musst die angegebene xref:../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung] einsetzen.
+Du setzt Deine ganz Stärke in die Abwehr des Schlages Deines Gegners und versuchst gleichzeitig durch geschickte Positionierung Deines Schildes
+di Wucht des Schlags zurpückzuschlagen.
+Du würfelst eine xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_strength[ST] xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_attributchecks[Probe]
+xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls[kontestiert] durch einen xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[ST-Rettungswurf] Deines Gegners.
+Ist Dein Gegner erfolgreich, passiert nichts weiter.
+Bist Du erfolgreich, erhält Dein Gegner 1 Stude xref:../../core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommmenheit].

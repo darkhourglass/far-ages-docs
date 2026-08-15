@@ -1054,6 +1054,25 @@ Im Gegensatz zu anderen Zaubersprüchen kann diese Vorbereitungszeit nicht verk�
 * Runen können nicht für <<ref_core_magic_base_spell_like_abilities,zauberähnliche Fähigkeiten>> genutzt werden.
 * Lernt ein Runenmagier eine Rune, kann er diese Effekte einsetzen, sofern die Beschreibungen dies zulassen. Die Kategorien dieser Effekte werden im Folgenden beschrieben.
 
+
+[[ref_core_magic_schools_runes_rules_rule_of_three]]
+====== Regel der Drei
+Jeder Gegenstand, ader mit Runen beschrieben wird, kann maximal 3 Runen erhalten.
+Das Schreiben einer vierten Rune xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[scheitert] automatisch.
+
+
+[[ref_core_magic_schools_runes_rules_rule_of_addition]]
+======= Regeln der Addition
+Unter der <<ref_core_magic_schools_runes_rules_rule_of_three,Regel der Drei>> ist es erlaubt, eine RUne mhrfach auf den gleichen Gegenstand zu schreiben.
+Er Runeneffekt wirkt kumulativ mit Entscheidung des SLs.
+Ansonsten gilt als Richtlinie, dass numerische Werte wie Boni sich addieren.
+Bietet die RUne eine Aktion pro eigenen Zug, erlaubt jede weitere Instanz der gleichen Rune einen weiteren Einsatz ihres Effekts pro Zug.
+
+[[ref_core_magic_schools_runes_rules_rule_of_enmity]]
+====== Runenfeindschaft
+Manche Runen haben in ihrer Beschreibung eine *Feinschaft* zu anderen RUnen angegeben.
+Gegenständ können nicht mit Runen beschrieben werden, die miteinander verfeindet sind.
+
 [[ref_core_magic_schools_runes_rules_spontaneous_rune_effekt]]
 ======= Spontaner Runeneffekt
 Um einen *spontanen Runeneffekt* zu erzeugen, zeichnet der Runenmagier die Rune in die Luft und spricht eine magische Anrufung.
@@ -1064,16 +1083,19 @@ Dazu ist auch eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe
 Die Rune hat in der Regel keine <<ref_core_magic_rules_spellcasting_spell_preparation,Vorbereitung>>, bzw. formal eine von 1, um einen spontanen Runeneffekt zu erzeugen.
 Eventuell kosten sponatane Runeneffekte MP, die der Runenmagier bezahlen muss.
 Alle sonstigen Angaben wie Reichweite, Ziele sind in der Beschreibung des spontanen Effekts hinterlegt.
+
 [[ref_core_magic_schools_runes_rules_mastery_rune_effekt]]
 ======= Runenmeistersschaft Effekt
 Der *Runenmeisterschafts Effekt* ist ein besonder mächtiger Effekt, der dem Runenmagier zu Verfügung steht, wenn er die Fähigkeit
 link:../../rules/core/skills/core_skill_runemastery.adoc[Runenmeisterschaft] für die jeweilige Rune gelernt hat.
 Da jeder Meisterschaftseffekt einzigartig ist, gelten ausschließlich die in der Beschreibung der Runen vorliegenden Regeln.
+
 [[ref_core_magic_schools_runes_rules_wargear_rune_effekt]]
 ======= Runeneffekt für Kriegsgeräte
 Der *Runeneffekt für Kriegsreräte* ist ein permanenter, offensiver oder defensiver Effekt, der auf bestimmte Gegenstände geschrieben werden kann.
 Zu Kriegsgeräten gehören Waffen aller Art, Rüstungen und Schilde, sofern dieser keine magischen oder technomantischen Gegenstände sind.
 Es gelten neben der Einschränkung auf bestimmte Gegenstände dieselben Regeln wie für <<ref_core_magic_schools_runes_rules_permanent_rune_effekt,permanente Effekte>>.
+
 [[ref_core_magic_schools_runes_rules_permanent_rune_effekt]]
 ======= Permanenter Runeneffekt
 Eine Rune kann mit dem *permanenten Runeneffekt* auf Gegenstände und Objekte geschrieben werden.
