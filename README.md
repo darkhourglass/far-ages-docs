@@ -1,8 +1,9 @@
 # far-ages-docs
 This project started many years ago during my active time as a pen&paper player. 
 Maybe like many others i enyods telling stories, theorycrafting and worldbuilding. 
-Thus i start writing my on P&P RPG. 
-Yes, i it is kind of klischee. 
+Thus i start writing my own P&P RPG. 
+Yes, it is kind of klischee.
+
 But it was a lot of fun for me. 
 The working title was "far ages", sorry to all native speakers of english, and thus it remained in lack of better idea. 
 My inspiration did come from various sources that i discovered and enjoyed over the years: first and foremost, the story of the eternal champion by Michael Moorcock (Elric was my Lord of th e Rings moment, regard getting into Fantasy as a genre), soon be followed by tabletop gaming with both Warhammer universes: Fantasy Battle and 40.000.

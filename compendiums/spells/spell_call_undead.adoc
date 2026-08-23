@@ -1,0 +1,19 @@
+= Rufe Untote
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 15 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Geste +
+*Fokus:* Ebon, Geist +
+*Vorbereitung:* 8 +
+*Reichweite:* Radius 1 Meile +
+*Anzahl der Ziele:*  alle link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untoten] in Reichweite +
+*Dauer:* 1 tun+
+*Effekt:* +
+Alle Untoten in Reichweite des Zaubers, deren xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] + 9 nieridger liegt als das Ergebnis Deiner xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzuberei-Probe] liegt, muss für die Dauer es Zauberspruches sich auf Deine Position zu bewegegen.
+Die Magie des Zaubers gibt dabei die Richtung vor. Betroffende Kreaturen vemeiden selbtstänig alle Gefahren und Hindernisse auf dem Weg zu Dir un umgehen diese.
+Die wirkung endet, wenn die kreaturen in sichtweit von Dir sind - in diesem Fall reagieren sie auf DIch ohne weitere Einschränkungen.
+Endet die Dauer de zubers, kehren die Kreatuen zu ihrm normalen verhalten zurück,
+
+*Zusätzliche Effekte:* +
++5 MP: Dauer +1 Stunde +

@@ -1,0 +1,8 @@
+= Verlangsamedes Gift
+*Giftstärke:* 17 +
+*Primärer Effekt:* +
+Die Kreatur verliert in ihrem xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zug] ihre xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusactions[bonus-Aktionen].
+Formal hat sie nun 0 Bonus-Aktionen pro Zug.
+
+*Sekundärer Effekt:* +
+Die xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_movementrate[BEW] der Kreatur wird halbiet (abgerundet).

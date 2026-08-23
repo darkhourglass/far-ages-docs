@@ -1,0 +1,17 @@
+= Erzwungene Gnade
+
+*Arkanes Geheimnis:* Nein +
+*POT:*9  +
+*Rettungswurf:* Ja +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Geist, Körper +
+*Vorbereitung:* 5 +
+*Reichweite:* 12,00 Mter +
+*Anzahl der Ziele:* 1 lebende Kreatur +
+*Dauer:* 9 Kampfphasen +
+*Effekt:* +
+FÜr die Dauer des Zauber kann die verzauberte kreatur kein andere Kretur in ihren xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools[Punkte-Pools] auf 0 oder weniger bringen.
+Immer wenn die verzauberte Kretur einen beliebigen Angriff gegen ein andere lebende Kreatur durchrührt und dabei einen der folgnden pools auf 0 oder nierige bingt: TP, MP, SP ,wird der Pool auf 1 reduziet.
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++1 POT, +5 MP Anzahl der Ziele: +1 lebende Kreatur

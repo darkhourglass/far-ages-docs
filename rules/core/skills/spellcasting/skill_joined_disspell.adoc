@@ -1,0 +1,14 @@
+= Gemeinsamer Magiebann
+
+*Voraussetzungen:* xref:../../core_rules_talents_base.adoc#ref_talents_spellcasting[Spuchzauberei] 5 +
+*Typ:* Magiebann, Magie +
+*Überanstrengung:* - +
+*CP:* 100 +
+
+Mit dieser Fähigkeit hast Du gelernt, Deine Konzentration mit Willen mit anderen zu teilen, um einen xref:../../../core/core_rules_magic_base.adoc#ref_core_magic_dispel_magic[Magiebann] gemeinsam zu versuchen.
+Bis zu 4 Kreaturen, die alle diese Fähigkeit besizten müssen, können die xref:../../../core/core_rules_magic_base.adoc[Magiebann-Probe] gemeinsam wüfeln und zwar auf eine der folgenden Weisen:
+
+(1) Vor der Magiebann-Probe wird ein _Leiter_ bestimmt, der mit seinem xref:../../../core/core_rules_talents_base.adoc#ref_talents_spellcasting[Talent] die Probe würfelt. Für jeden weiteren Teilenehmer, erhält der Leiter einen xref:../../../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_bonus[Bonus] von +3.
+(2) Alle Teilnehmer würfeln eine indiviuelle Magiebann-Probe und das höchste Ergebnis zählt. Es gibt in dieser Variante keine Boni.
+
+Diese muss vor der Probe festgelegt werden.
