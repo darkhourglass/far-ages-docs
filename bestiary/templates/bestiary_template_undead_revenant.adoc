@@ -1,0 +1,81 @@
+= WIedergänger
+
+// TODO Beschreibung
+
+Manchmal ist der Tod nicht das Ende: manche, die steben hbaen offene Rechnungn oder unerledigte angelegenheiten mi hohem emotionalen Invest.
+Wiedergänger sind selten Untote, die vom Grab auferstehen, ohne das ein nekromant sein Finger im Spiel haben muss.
+Geboren durch eineen gewaltätigen Tod steigen Wiedergänger aus dem Grab, um ihre unerledigten Aufgaben zu erfüllen.
+Dabei werden sie von nekrotisher ENergie erfüllt, die sie beonder stark und widerstndsfähig machen und für wandlende Leichen sehr gesickt.
+Wiedergänger behalten auch viel ihrer ursprünglichen Prsönlichkeit, Wissen und Motivionen.
+Auch wenn wiedergänger eine seltene Form von untoten sind, sind sie ähnlich gefürchtet wie link:bestiary_template_undead_scourge.adoc[Geißelen].
+
+Wiedergänger sehen aus wie zu Lebzeiten, jedoch können sie je nach Alter schon beginnen zu verrotten, ihre Haut wird ledrig und schrumplig.
+Ihre Augen sind milchig und glühend.
+
+== Voraussetzungen
+
+Kreatur hat den kreaturentyp link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] und  ist nicht link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_aetherial.adoc[Körperlos].
+
+== Attribute
+
+Die Attributsstufen der Kreatur werden übernommen. Sie erhält folgende Boni:
+
+St +4 +
+GE +2 +
+KO +4 +
+
+
+== Talente
+
+Die Kreatur behält alle ihre Talente.
+
+== Fähigkeiten
+
+Die Kreatur übernimmt alle Fähigkeiten.
+Sie erhält den Kreaturentpy link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] sowie alle damit assozozierten Fähigkeiten.
+
+Als Untoter erhält der Wiedergänger eine xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[machtstufe], die sich errechnt au 5 plus seinen Attributsbonus in CH. minimal jedoch 7.
+
+.Machttufe Wiedergänger
+====
+ein wiedergänger hat eine attributstufe on 6 in CH und somit einen Attributsbonus on +2.
+Seine Machtstufe beträgt somit 5+2=7.
+====
+
+Ein Wiedergänger erhält außerdem folgende fähigkreiten:
+
++ link:../skills/specific/undead/bestiary_skill_undead_restless_dead.adoc[Rastlose Tote] +
++ link:../skills/specific/undead/bestiary_skill_undead_unholy_toughness.adoc[Unhesilige Widerstandskraft] +
+* link:../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura]
+* link:../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (7+EN, link:../../compendiums/spells/spell_shadow_step.adoc[Schattenschritt]) +
+
+[ref_bestiary_revennt_rules]
+=== Regeln
+[ref_bestiary_revennt_rules_creation]
+==== Erschaffung
+Ein Wiedergänger kann nicht wie andere untote durch nekromantishe Zauber erschaffen werden.
+Wann und <<ref_bestiary_revennt_rules_obligation, warum>> in Leichnam als wiedergänger erwacht, liegt alleine beim SL.
+
+[ref_bestiary_revennt_rules_obligation]
+==== Pflicht
+WIedergänger ziehen ihre Kraft aus einer mystishen Vebindung zu ihrem voherigen Leben, der *pflicht*, die sie nicht in frieden ruhen lässt.
+Diese Pflicht ist so stark, dass der Tod die Kreatur, die der Wiedergänger einst war, nicht aufhalten kann, um sie zu erfüllen.
+Genau wie die Umstände seiner <<ref_bestiary_revennt_rules_creation,enttehung>> liegt es in der Entscheiung des SLs, welche pflicht den Wiederänge bindet.
+die olgenden Punkt in bipiele für Pflichten:
+
+* *Rache:* dIese pflicht kann sih überdecken mit anderen Beipielen wie _unrecht wieder gut machen_  oder _eine andere kreatur töten_ +
+* *Unrecht wieder gut machen:* +
+* *Schuld:* Der Wiedergänger hat zu Lebzeiten vielleicht ein Versprechen oder Schwur abgegebeen, eine Schuld abzubaun.
+* *Verlorenenes Gut zurückerhalten:* Der wiedergänge möcht unbedingt einn bstimmten Gegenstand zuückerhalten.
+* *Eine andere kreatur töten:* Der Wiedergänge muss ein bestimmte Kreatur töten, ein monster, einen feind der Familie oder konkurrenten.
+* *Wache halten:* Der Wiedergänger ist gezwungen einen Ort oder Gebäude zu bewachen, um zum Beispiel Plünderungen zu verhindern oder die ruhe anderer toten zu bewahren+
+* *Fluch:* Ein andereres mächtiges Wesen hat die Kreatur zu Lebzeiten verflucht, nach dem Tode aufzuerstehen.
+
+wird die pflicht ines wiedergängers erfüllt, entweder durch ihn selbst oder äußere umständ, verschwindet die mystishe Enegie, die ihn am Unleeben erhält.
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirb der Wiedergänger] dann, wird er endgütlig vernichtet und zerfällt zu Staub.
+ein Wiedergänger  spürt instinkiv, ob seine Pflicht erfüllt ist und wo das Ziel seiner Pflicht Erfüllung liegt.
+
+Gleichzeitig kann ein WIedergänger nicht vernichtet werden, solange seine Pflicht unerüllt ist.
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_death[Stirb der Wiedergänger], während seine Pflicht unerfüll ist, steht er nach Abluuf von 4 Stunden wieder intakt mit vollen punkte pools aus seinem Grab auf.
+
+== CP

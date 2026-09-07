@@ -1,0 +1,111 @@
+= Shewran, ewiger Wätcher
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 6)
+* Secondary Type(s)
+* link:../../../templates/bestiary_template_undead_revenant.adoc[Wiedergänger]
+* *GK:* 5
+* *CP:* 29.000
+
+== Beschreibung
+
+_"Der Zugang ist versperrt. Die Toten halten ihn."_
+
+Im trüben Fackellicht der alten Gruft erkennt man die wahre Natur Shewrans nicht sofort.
+Oberflächlich ist der Waldelf ein beachtlicher Krieger, in schwere Rüstung gekleidet mit einem verziehrten Schwert bewaffnet.
+Bei genauerer Betrachtung fällt auf, dass SHewrans Haut zu sehr nach altem Pergament aussieht und in seinen bleichen Augen weiße Flammen brennen.
+Spriht Shewran klingt seine Stimme nach dem Staub von Jahrhunderten.
+
+== Profil
+
+*ST:* 19 (+3) +
+*GE:* 13 (+3) +
+*KO:* 15 (+3) +
+*ER:* 7 (+1) +
+*EN:* 7 (+1) +
+*SB:* 7 (+1) +
+*CH:* 6 (+1) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* 225 +
+*MP:* 70 +
+*SP:* - +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* 9,00 Meter +
+*INI:* +3 +
+*MaxTL:* 285 +
+*MaxPOT:* 10 +
+
+*Aktionen:* 3 +
+*Rüstung:* 6 (schwarzholzvollplatte, alle trefferzonen) +
+*Resistenzen:*
+
+* link:../../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../../../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../../../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../../../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../../../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../../../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +2 +
+*Disziplin:* +5 +
+*Körper:* +11 +
+*Magie:* +7 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 8 (Glefe 2W6+6)
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 7 (Dolch 1W6+6)
+
+* link:../../../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (8, link:../../../../compendiums/spells/spell_shadow_step.adoc[Schattenschritt]) +
+
+== Defensive
+
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieeb Ausweichen] 7
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_parade[Parade] 6
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild Verteidigung] 8
++ link:../../../skills/specific/undead/bestiary_skill_undead_unholy_toughness.adoc[Unhesilige Widerstandskraft]
+
+
+== Sonstiges
+
+* link:../../../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent
+* link:../../../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../../../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper] +
++ link:../../../skills/specific/undead/bestiary_skill_undead_restless_dead.adoc[Rastlose Tote] +
+* link:../../../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura] +
+
+== Regeln
+
+== Shewarns Pflicht
+Als wiedergänger hat Shewarn ein xref:../../../templates/bestiary_template_undead_revenant.adoc#ref_bestiary_revennt_rules_obligation[Pflicht], die ihn in der sterblichen Welt festhält.
+Shewarn war Leibwächter von Lord Gweyir, einem wichtigen Adelsmitglied aus xref:../../../../lore/worlds/alvaha/cities/cities_AlQulsairus_cityofsnakes.adoc#ref_lore_alqualsairus_treetop_quarter[Alqualsairus].
+Auf einer Reise zu einer alten Gedenkstätte der Waldelfen im xref:../../../../lore/worlds/alvaha/nations_and_factions/eastern_empires.adoc#ref_lore_eastern_empires_emeraldgulf_emeraldjungle[Smarddschungel] wurde Gweyir von link:../../../abominations/bestiaey_abominations_nogir.adoc[Nogir] angegriffen und getötet.
+Gweyirs Familie schaffte es seinen Leichnam zu bergen und in der Familiengruft zu beerdigen.
+Shewarn war den Rest seines Lebens von Schuldgfühlen geplagt.
+Nach seinem Tod stig Shewarn aus seinem Grab, um auf Ewig Wache an Gweyir letzter ruhestätte zu halten und seeine Schuld abzubauen.
+
+== Taktik
+
+
+
+
+
+
+

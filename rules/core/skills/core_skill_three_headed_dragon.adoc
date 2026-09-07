@@ -1,0 +1,20 @@
+= Dreiköpiger Drache (Waffe)
+
+*Voraussetzungen:* link:core_skill_weapontraining_melee.adoc[Nahkampfwaffentrainin (Waffe)] +
+*Typ:* Bewegung, Angriff +
+*Überanstrengung:* 3 +
+*CP:* 150 +
+Du kannst diese Fähigkeit nur für eine *Waffe+ lernen, die eine stangenwaffe ist, wie z.B. ein Speer, Glefe Hellebarde oer Kampfstab, allerdings keine Lanze.
+
+Du kannst diese Fähigkeit einsetzen, wenn du einen xref:../core_rules_battlesystem.adoc#ref_core_battle_attacktypes_meleeattack[Angriff im Nahkampf] durchführen willst.
+Du kannt mit einer Aktion bis zu 3 Gegner in deiner xref:../core_rules_battlesystem.adoc#ref_core_battle_melee_and_unarmed_zoneofcontroll[Bedrohungszone] in xref:../core_rules_battlesystem.adoc#ref_core_battle_items_weapons_tag_reach[Reichweite] Deiner Stangenwwaffe angreifen.
+Du mussst jeden xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] einzeln abwickeln.
+DIe jeweilign xref:../core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadensproben] werden um 50% reduziert (vor Auswertung on Rütung unf Schadensresistnzen).
+
+
+[HINT]
+====
+
+Wenn der SL es erlaubt, kann diese Fähikeit für jede Nahkampfwaffe mit der Eigenschaft Richweite gelernt werden.
+
+====

@@ -1,0 +1,112 @@
+= Oworkon, der Verfluchte
+
+*  link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untot] (xref:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc#ref_primary_creaturetype_undead_rules_powerlevel[Machtstufe] 7)
+* Secondary Type(s)
+* link:../../../templates/bestiary_template_undead_revenant.adoc[Wiedergänger]
+* *GK:* 5
+* *CP:* 31.500
+
+== Beschreibung
+
+Oworkon ist eine beeindruckence erscheinung, gekleidet in feine Seide und hochwertigE Rüstung umgibt ihn ein Aura aus arkaner Macht und dem wissen von Jahrhunderten.
+Seine Untote Natur verbirgt Oworkon unter Schminke und einem gesichtsschleier.
+Wer genau hinschaut, ird erkennen, dass Risse suf seiner Haut nicht heilen und grauees Fleisch hervorschaut.
+Ebenso brennen seine bleichen Augen mit weiße Flamme.
+Nichts  verrät Oworkon schreckliche Schuld, die er auf sich lud und seit her in der ewig verrottenden Form verbringen muss.
+
+== Profil
+
+*ST:* 10 (+3) +
+*GE:* 9 (+3) +
+*KO:* 11 (+3) +
+*ER:* 11 (+1) +
+*EN:* 14 (+3) +
+*SB:* 9 (+3) +
+*CH:* 6 (+2) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* 95 +
+*MP:* 140 +
+*SP:* - +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* 9,00 Meter +
+*INI:* +6 +
+*MaxTL:* 150 +
+*MaxPOT:* 17 +
+
+*Aktionen:* 3 +
+*Rüstung:* 6 (schwarzholzvollplatte, alle trefferzonen) +
+*Resistenzen:*
+
+* link:../../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost])
+* link:../../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:*
+
+* link:../../../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../../../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../../../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../../../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../../../skills/bestiary_skill_immunity_to_knockdown.adoc.adoc[Immun gegenüber Niederschlag]
+* link:../../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+*Aufmerksamkeit:* +4 +
+*Disziplin:* +8 +
+*Körper:* +11 +
+*Magie:* +11 +
+*Reflex:* +4 +
+
+== Offensiv
+
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] 7 (Dolch 1W6+6)
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruhzauberei (Nekomantie)] (6+3=9)
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_spellcasting[Spruhzauberei (Dämonologie)] (6+3=9)
+* link:../../../skills/bestiary_skill_magicability.adoc[Magische Fähigkeit] (9, link:../../../../compendiums/spells/spell_shadow_step.adoc[Schattenschritt]) +
+
+== Defensive
+
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieeb Ausweichen] 7
++ link:../../../skills/specific/undead/bestiary_skill_undead_unholy_toughness.adoc[Unheilige Widerstandskraft]
+
+
+== Sonstiges
+
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_resist_spellburning[Verbrennen widerstehen] 9
+* xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_knowledge[Wissen(Arkanes)] 12
+* link:../../../skills/bestiary_skill_fear.adoc[Furcht], die Angriffsstufe ist entweder 1 + Machtstufe oder die Stufe im Talent
+* link:../../../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../../../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper] +
++ link:../../../skills/specific/undead/bestiary_skill_undead_restless_dead.adoc[Rastloser Tote] +
+* link:../../../skills/bestiary_skill_unholy_aura.adoc[Unheilige Aura] +
+
+== Regeln
+
+== Owokrons Pflicht
+Als wiedergänger hat Owokron ein xref:../../../templates/bestiary_template_undead_revenant.adoc#ref_bestiary_revennt_rules_obligation[Pflicht], die ihn in der sterblichen Welt festhält.
+Owokron wurde in  ein Adelshaus aus xref:../../../../lore/worlds/alvaha/cities/cities_AlQulsairus_cityofsnakes.adoc#ref_lore_alqualsairus_treetop_quarter[Alqualsairus] hiningeboren.
+Seit frühster jugend genoss Owokon eine umfangreiche Ausbilung.
+Ebenso früh zeigte sich Owokrons Talent und Begeisterung für die arkane Kunst.
+Nach seiner Ausbildung forschte Owokron selsbt und erwarb Wissen über Dämonologie und Nekomantie.
+Vor ca 200 Jahren versuchte sich Owokron in seinem geheimen Labor im Untergrund des xref:../../../../lore/worlds/alvaha/cities/cities_AlQulsairus_cityofsnakes.adoc#ref_lore_alqualsairus_elven_stone[Steinviertels von Alqualsairus]
+an einem folgenschweren Experiment, in dessen Zuge sich ein Portal in eine von Dämonen beherrschte Dimenion öffnete und ine Horde Dämonen sich über die unschuldig Bevölkerun ergoss.
+Als konsequnz dieses schrecklihen blutvergiesens wurde Owokron verflucht, sein wandelnder und ruheloser Leichnam muss das Portal zu dieser Hölle bewachen und keine Dämonn mehr hindurchlassen.
+
+== Taktik
+
+
+
+
+
+
+
