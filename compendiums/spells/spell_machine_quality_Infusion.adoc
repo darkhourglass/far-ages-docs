@@ -1,0 +1,25 @@
+= Maschinen Eigenschaft Infusion
+
+*Arkanes Geheimnis:* Nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* Formeln, Gesten +
+*Fokus:* Metall, Köper, Geist+
+*Vorbereitung:*  +
+*Reichweite:* selbst / Beührung +
+*Anzahl der Ziele:* 1 lebende Kreatur+
+*Dauer:* 5 Kampfphasen+
+*Effekt:* +
+
+Für die Dauer des zaubers erhält die Zielkreatur eine der folgenden Eigenshaften Deiner Wahl:
+
+* link:../../bestiary/skills/bestiary_skill_damageresistence.adoc[schadensresistenz] xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_pref_core_battle_damage_damagetype_primary_mental[Mental] +
+* link:../../bestiary/skills/bestiary_skill_naturalarmor.adoc[Natürliche Rüstung] 6 Punkte, lle Trefferzonen +
+* link:../../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)] +
+
+Du  musst die Eigenschaft mit beginn der Vorbereitung ansagen.
+
+*Zusätzliche Effekte:* +
++1 MP: Dauer +1 Kampfphase +
++10 MP, +1 POT: Anzahl ziele. +1 lebende Kreatur+
++20 MP, +2 POT:eine Eigenschaft mehr

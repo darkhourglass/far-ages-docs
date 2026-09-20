@@ -14,11 +14,13 @@ Ist die Spruchzauberei-Probe kein Erfolg, hat dieser Effekt wilder Magie keine A
 
 |20-24 | Der Zauber wird normal gewirkt, wenn die Spruchzauberei-Probe erfolgreich war. Hat der Zauber variable Komponenten wie eine Würfelanzahl, wird der erste Wurf so gewertet, als hätte jeder Würfel die maximale Augenzahl gezeigt.
 Wenn die Probe nicht erfolgreich war, verpufft der Zauber in einer Wolke aus weißen Federn.
+Dies führt nicht zu Bonuswürfeln bei der Shadensprpbe.
 
 |25 | Direkt neben Dir erscheint ein freundlicher Bär mit Zylinder und Monokel. Das Tier ist nicht aggressiv, wird aber entsprechend der Situation reagieren. Dein Zauber wirkt normal, wenn Deine Spruchzauberei-Probe insgesamt erfolgreich war.
 |26-31 | Direkt neben Dir erscheint rosaroter Elepfant, der sich freundlich bei Dir entschuldigt, dass er nicht früher gekommen ist und wandert summend davon. Dein Zauber wirkt normal, wenn Deine Spruchzauberei-Probe insgesamt erfolgreich war.
 
-|31-36 |
-
-|37+ |
+|31-36 | Neben Dir erscheint ein transluzenter, aetherischer Knabenchor, der ein Spottlied auf deine arkanen Fähigkeiten singt und dann verschwindet.
+dein Zauber wird normal gewirkt.
+|36-39 | Das nahegelegenste link:../../advanced/creaturetypes/primary/animal.adoc[Tier] erhält permanent die Schablon link:../../../bestiary/templates/bestiary_template_awakend.adoc[Erwacht.]
+|40+ |
 |===

@@ -1,0 +1,20 @@
+= UNterwassser Druckwelle
+
+*Arkanes Geheimnis:* nein +
+*POT:* 7 +
+*Rettungswurf:* Nein +
+*Komponenten:* formeln, Gesten +
+*Fokus:* Wasser +
+*Vorbereitung:* 3 +
+*Reichweite:* 0 +
+*Anzahl der Ziele:* Radius 12,00 Meter +
+*Dauer:* Sofort+
+*Effekt:* +
+*Zusätzliche Effekte:* +
+Mit xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] musst DU dih unter Wasser befinden, sonst gil diesee probe l xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg].
+BEI einem Erfolg erhalten all Kreturen im W irkungsbereich einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischn Treffer] mit 3w6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wassr-Schaden].
+Zuätzlich müssen sie einen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] oder ein xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_athletics[Atheletik (Schwimmen)]-Probe gegen Deine spruchzauberi-probe bestehen oder sie werden von der Druck welle 3,00 Meter weggedrückt.
+Die welle hat ihren Ursprung bei DIr und breitet sich regelmäßig bis zum o.g. radius aus.
+
+Der Effek des Zaubers wirkt nur unter Wasser. SOllte der o.g. Radius das Wassers velassen, in Kreaturen außerhalb des wasser nicht betroffen.
++1 POT, +10 MP: Radius +3,00 Meter

@@ -22,10 +22,27 @@ Auf Stufe 1 lernen alle Zauberlingen die Fähigkeit <<ref_spellblade_skill_levit
 
 [[ref_spellblade_skill_levitationhex]]
 === Levitations Magie
-*Voraussetzungen:*  +
+*Voraussetzungen:* Zauberklinge 1 +
 *Mindestwurf:* - +
 *Ungeübte Anwendung:* - +
 *Verwandtes Attribut:* - +
 *Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_actions[Aktion]
 *Überanstrengung:* +
 *Beschreibung:*
+
+
+
+[[ref_spellblade_skill_kintic_shield]]
+=== Kinetisches Schild
+*Voraussetzungen:*  Zauberklinge 1, xref:../../../core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild-Verteidigung] 2 +
+*Mindestwurf:* - +
+*Ungeübte Anwendung:* - +
+*Verwandtes Attribut:* - +
+*Kampf:* xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_reaction_use_defensive_talent[Nutze Verteidigungdtalent]
+*Überanstrengung:* +
+*Beschreibung:*
+Nutzt Du als reaktion zur Verteidigung Drin Talent xref:../../../core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schild-Verteidigung] musst Du keinen Schild in Deiner Hand tragen.
+Dsnk dieser Fähigkeit erscheint ein transparenter, blauleuhtender Schild passend in Deiner Hand.
+Dieser kinetische Schild ist stark genug, um eingehende Angiffe mit Waffen abzuwehren, bietet Dir jedoch keine zuätzlichen xref:../../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_armor[Rüstungspunkte].
+
+// Verb.kin Schild: +X Armor

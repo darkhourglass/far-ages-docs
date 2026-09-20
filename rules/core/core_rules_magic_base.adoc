@@ -1244,7 +1244,7 @@ Traut ihr nicht und lasst euch nicht von ihrer Kraft verführen.
 Sie bringt nichts Gutes."
 
 Als *wilde Magie* bezeichnen Magier beunruhigende Phänomene, die man überall im Multiversum findet.
-Magie ist ein unstetiger und unregelmäßiger Fluss von Energien, die sich in manchen Fällen im Aether zusammenballen.
+Magie ist ein unstetiger und unregelmäßiger Fluss von Energien, die sich in manchen Fällen im Aether zusammenballen und sich nicht entladen.
 
 
 [[ref_core_magic_schools_wild_magic_zones_of_wild_magic]]
@@ -1267,24 +1267,20 @@ Lebende Wesen, Tier wie Humanoide, die sich zu lange in einer solchen Zone aufha
 
 Unzählige Gerüchte und unerklärliche Phänomene lassen sich mehr oder weniger direkt auf wilde Magie zurückführen.
 
-[[ref_core_magic_schools_wild_magic_spellcasting]]
-====== Einsatz von Wilder Magie im Spiel
-Wilde Magie ist ein sehr mächtiges Stilmittel für eine Far Ages-Kampagne, da sie zufällig und unberechenbar erscheint.
-Jedoch sollte der SL ihren Einsatz genau planen.
-Wilde Magie kann jederzeit und überall auftreten, plötzlich erscheinen und ebenso plötzlich wieder verschwinden – zumindest sollte es so aussehen.
+Um herauszufinden, ob man in einer Zone wilder Magie ist, muss ein Charkter zuerst eine Probe in xref:../core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] (Mindestwurf 15) gefolgt on Wissen (Arkane) (Mindestwurf 23) bestehen.
 
-In diesem Kapitel wollen wir einige als Inspiration dienende Richtlinien vorstellen, die es einem SL ermöglichen, Spielercharaktere in Feldern wilder Magie mit einigen Überraschungen zu versorgen.
 
 [[ref_core_magic_schools_wild_magic_spells_in_wild_magic_zones]]
-===== Zaubersprüche in Zonen Wilder Magie wirken
+======= Zaubersprüche in Zonen Wilder Magie wirken
 Immer wenn ein Charakter xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] in einer <<ref_core_magic_schools_wild_magic_zones_of_wild_magic, Zone Wilder Magie>> einsetzen,  besteht die Gefahr, dass die wilde Magie die eigentlich zu wirkende Magie beeinflusst.
 Zeigt die Augenzahl der <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> in Summe einen Wert unter der <<ref_core_magic_rules_spellcasting_spellspecifics_potent,POT>> des gezauberten Zaubers liegt, entsteht ein zusätzlicher Effekt Wilder Magie.
 Dieser wird durch einen weiteren Wurf von 2W10 + POT
 so kann der SL mithilfe der folgenden xref:../tables/magic/tables_magic_wildmagic_effects.adoc[Tabelle] einen zufälligen Effekt bestimmen, der aufgrund der Spruchzauberei ausgelöst wird.
-Dieser Wurf wird außerdem noch wie folgt modifiziert:
-* -1: Die Spruchzauberei-Probe ist ingesamt erfolgfreich
-* +5+: Die Spruchzauberei-Probe ist ingesamt in Misserfolg
-* +10: Die Spruchzauberei-Probe ist ingesamt ein Parzer
+Dieser Wurf wird außerdem noch wie folgt modifiziert: +
+* -1: Die Spruchzauberei-Probe ist ingesamt erfolgfreich+
+* +5+: Die Spruchzauberei-Probe ist ingesamt in Misserfolg +
+* +10: Die Spruchzauberei-Probe ist ingesamt ein Parzer +
+
 .Wilde Magie
 ====
 Der Zauberspruch link:../../compendiums/spells/spell_fireball.adoc[Feuerball] unter Zunahme von zusätzlichen Effekten wird mit einer POT von 8 in einer Zone Wilder Magie ausgesprochen.
@@ -1295,8 +1291,74 @@ In diesem Beispiel wird 5,6 gewürfelt, somit 5+6+8=19.
 Der Effekt mit Wert 19 aus der o.g. Tabelle ist: TODO
 ====
 
+[[ref_core_magic_schools_wild_magic_spellcasting]]
+====== Einsatz von Wilder Magie im Spiel
+Wilde Magie ist ein sehr mächtiges Stilmittel für eine Far Ages-Kampagne, da sie zufällig und unberechenbar erscheint.
+Jedoch sollte der SL ihren Einsatz genau planen.
+Wilde Magie kann jederzeit und überall auftreten, plötzlich erscheinen und ebenso plötzlich wieder verschwinden – zumindest sollte es so aussehen.
+
+In diesem Kapitel wollen wir einige als Inspiration dienende Richtlinien vorstellen, die es einem SL ermöglichen, Spielercharaktere in Feldern wilder Magie mit einigen Überraschungen zu versorgen.
+
+[[ref_core_magic_schools_wild_magic_random_effekts]]
+====== Zufällige Effekte Wilder Magie
+Bestimmte Regeln und Situationen im Spiel können einn *zufälligen Effekt Wilder Magie* velangen.
+Dieses Kapitel gibt dem SL die Regeln und Baukasten, um diese Effekte zu bestimmen und zu leiten.
+
+Zuerst muss der SL mit Hilfe dieser link:../tables/magic/table_100_random_spells.adoc[Tabelle] und eienem W100 einen zufälligen Zauberspuch aussuchen.
+Es gelten dabei folgende besondeheiten:
+* <<ref_core_magic_rules_spellcasting_spellspecifics_preparation,Vorbereitungen>> sin nich nötig und nominell 0, dies gilt auch für <<ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals, Rituale>>. +
+
+* eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> ist nicht nötig und gilt virtuell als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg].+
+
+* <<ref_core_magic_rules_spellcasting_spellspecifics_save,Rttungswürfe>> werden gegen den Wert asus 5 plus POT gewürfelt. +
+
+* Der Zauber wählt sein <<ref_core_magic_rules_spellcasting_spellspecifics_targets,Ziel>> automatisch:
+** die nächste passende Kreatur oder freie stelle wird Ziel des Effekts.
+** Ist das Ziel eine konkrete kreatur mit festen Vorgaben wie ein konkreter primärer und/oder Kreaturentyp, dann wird die nächste Passende kreatur gewählt
+** Die kreatur musss in <<ref_core_magic_rules_spellcasting_spellspecifics_range,reichweite>> sein.
+* <<ref_core_magic_rules_spellcasting_spellspecifics_additionaleffects,zusätzliche Effekte>> kommen nicht zum einsatz. +
+* <<ref_core_magic_rules_spellcasting_spellspecifics_components,Komponenten>> werden nicht benöigt, auch wenn diese einen Wert haben. +
+* Ein <<ref_core_magic_dispel_magic, Magiebann>> funktioniert normal. +
+* Die Eigenschaft xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[MaxPOT] hat keinen Einfluss.
+* Erfordert der <ref_core_magic_rules_spellcasting_spellspecifics_effect, Effekt>> ds Zaubers eine bewusste Entschiedung durch einen spruchzauberer, ist der SL frei in der Auslegung des Effekts.
+
+
+[NOTE]
+Wilde Magi ist keine exakte Wissenschaft und manche Effktkombinationen sind nicht umsetzbar oder sinnvoll.
+Wir mcöchten Spieler und SL ermutigen, aus diesen Kombinationen trotzdm eine unterhaltsame erfahrung zu machen
+"Tendiere im Zweifel in Richtung des Großartigen."
+
+
+Wenn nach o.g. Regeln kein Ziel für den Zauber gefunden kann der SL einen der folgenden alterntivn effekt mit 1W6 erwürfeln oder aussuchen:
+|===
+|W6 |Ergebnis
+
+|1-3
+|<<ref_core_magic_schools_wild_magic_eplosion, Explosion Wilder Magie>>
+
+|4-6
+|<<ref_core_magic_schools_wild_magic_delay, verzögerter Effekt>>
+|===
+
+
+[[ref_core_magic_schools_wild_magic_eplosion]]
+====== Explosion wilder Magie
+Die Energie der wilden magie kann sich nicht in einem Zauber entladen, sondern nur in einer explision ungelenkter arkaner Energie.
+Diese Explosion betifft einen radius von 1,50 Metern pro POT des zufäliigen Zauber, minimal jedoch 6,00 Meter, maximal 12,00 Meter Radius.
+Sollte der Radius unklar sein, kann der SL diessn auch durch 2W6 Meter bestimmen.
+Alle Kreaturen im Wirkradius erhalten einen xref:core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischn Treffer] mit 3W6+POT xref:core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[aetherichen Schaden].
+Ein erfolgreicher xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] halbiert den Schaden (abgerundet, Minimum 1).
+
+[[ref_core_magic_schools_wild_magic_delay]]
+==== Verzögerter Effekt Wilder Magie
+Der vom SL ermittelte Effekt bleibt inaktiv, bis ein legitime Ziel in Reichweite kommt.
+Der inaktive Effekt bleibt entweder an Ort und Stelle und aktiviert, wenn ein legitimtes Ziel auftaucht.
+Alternativ folgt der Effekt einer nahstehenden lebenden Kreatur, die ihn mit sich herumträgt, bis in Reichweite ein legitmies Ziel autaucht.
+
+Wird ein Effekt über eine der beiden zuletzt beschriebenen Variantan ausgelöst, endet er auch.
+
 [[ref_core_magic_schools_wild_magic_learing_casting]]
-====== Zauberschule der wilden Magie
+======= Die Zauberschule der wilden Magie
 Neben der allgegenwärtigen Spruchzauberei, die die Magie in Rituale und Traditionen verfasst hat, haben sich seit vielen Generationen Magier auch damit beschäftigt, die beinahe unzähmbaren Energien der wilden Magie für sich zu nutzen.
 Diese Magier, die viele Namen tragen, wie Hexer, Wilder oder Scharlatane, ignorieren bewusst die magischen Traditionen der großen Spruchzauberei-Schulen und stürzen sich in die ungebändigte Macht der wilden Magie.
 
