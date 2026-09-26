@@ -1366,6 +1366,7 @@ Wir sprechen dann auch von dem Verlust von Trefferpunkten, statt von dem Erhalte
 
 Manche <<ref_core_battle_damage_damagetypes,Schadenarten>> können auch andere Pools betreffen, so dass die Schadenspunkte aus diesen Würfen von dem jeweiligen Pool abgezogen werden.
 
+
 [[ref_core_battle_damage_damagerolls]]
 === Schadenswürfe
 Der *Schadenswurf* besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6) und einer festen Komponente (zum Beispiel +3) und dient der Ermittlung der <<ref_core_battle_damage_damagepoints,Schadenspunkte>>.
@@ -1400,6 +1401,12 @@ Sein Attributsbonus in Stärke beträgt 2 und er führt ein Langschwert mit eine
 Die Schadenspunkte durch diesen Treffer betragen daher: 2W6+2.
 ====
 
+[hint]
+====
+Schadenswüfe könnn wie alle andern Proben auch positive und negtive Faktoren beeiflusst werden.
+Die Faktorn werde immer nach der Auwertung de Würfel eingerechnet.
+Ein schadenswurf kann kein negativn Wert ezeugen, sonden it minimal 0.
+====
 [[ref_core_battle_damage_damagerolls_criticalhit]]
 ==== Kritische Treffer
 Erreicht eine Angriffsprobe bei einem erfolgreichen <<ref_core_battle_hits,Treffer>> oder <<ref_core_battle_hits_automatic_hit,automatischen Treffer>> mindestens einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_tiersofsuccess[kritischen Erfolgsgrad], gilt dieser als Treffer als *kritischer Treffer*.
