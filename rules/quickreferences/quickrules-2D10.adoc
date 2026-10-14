@@ -1,0 +1,106 @@
+= Kurzregelreferenz
+
+[NOTE]
+====
+Diese Dokument dient neben vergleichbaren Dokumenten als Schnellreferenz für wichtige teile des Regelsystems.
+Di relevanten Hauptdokumente sind verlinkt.
+====
+
+
+[TIP]
+====
+
+Die volldtändigen Regeln finden sich im Dokument der link:../core/core_rules_2d10_system.adoc[Basis-Regeln].
+
+====
+
+== Charakter oder Kreaturen?
+in vielen Kapiteln ist von Charakteren un kreaturen die Rede.
+Aus Sicht der Regeln sind beide Begriffe synonym.
+Charaktere sind auch immer kreaturen und Kreaturen sind Charaktere bzw. Nicht-Spielercharaktere.
+
+== Eine Probe Würfeln
+Eine *Probe* besteht aus dem Würfeln von 2W10 (auch Basiswurf genannt) plus der Addiion aller relevnter Boni wie:
+
+* Talenttufen
+* ATTRIBUTSBonus
+* Situations-Boni oder Mali
+* boni aus anderen Quellen wi z.b.: Fähigkeiten, Beruf, Volk oder Hintergrund
+
+Damit eine probe als *erfolg* gilt, muss ein _mindestwurf_ erreicht werden.
+Der Mindestwurf bestimmt sich aus der Spielsituaion (z.b. Beschreibung eines talents) oder wird vom SL festgelegt.
+
+it kein Mindestwurf orgegegeben, gilt der *Standardmindestwurf* von 13.
+
+Eine Probe gilt als *Misserfolg*, wenn der festgelegete Mindestwurf nicht erreicht wurde.
+Die mit der Probe simulierte Aktion gelingt der ausführenden kreatur nicht.
+Ein *Patzer* liegt vor, wenn die Augenzahl der Würfel des Basiswurfs 3 oder weniger zeigt.
+in dem Fall gilt die probe als misserfolgt, unabhäniging dsvon ob Augen plus Boni den Mindestwurf erreichen.
+Ein Patzer kann in bestimmten Situarionen noch zusätzliche Probleme verursachen.
+
+=== Vor- und nachteil
+
+=== Rettungswürfe
+*rettungswürfe* sind Proben, die von kreaturen gewürfelt werden, um sich negative Folgen von äußereen Einflüssen zu schützen.
+rttungswürfe erfolgen in der regel instinktiv und auch dann, wenn eine Kreatur nicht am Zug ist.
+
+Es wird zwischen den folgenden Kategorien von Rettungswürfen unterschieden:
+
+* Attributsrettungswürfe basieren nur einem Attibut, z.B. Stärke, nutz nur den basiswurf plus den jewiligen Attetributsbonus.+
+* der rettungswurf ein namentlich genannter Standardrettungswurf, der aus 2 verschiedenen attributen bestehen kann.
+
+Wann welcher Rettungswurf relevant ist, hängt von der Spielsituation ab: manche Rettungswürfe sind im Kontext von Zaubersprüchen vorgegegeben.
+Ansonst legt der SL einen passsenden Rettungswurf fest.
+
+
+|===
+|Name |Attibutsboni
+
+|Aufmerksamkeit
+|ER+SB
+
+
+|Disziplin
+|<SB+CH
+
+
+|Körper
+|ST+KO
+
+
+|Magie
+|ER +SB
+
+
+|Reflex
+|ER + GE
+|===
+
+
+== Erfolgsgrade
+
+
+|Differenz zum Mindestwurf |Erfolgsgrad
+
+|+0 bis +4
+|Durchschnitt
+
+|+5 bis +9
+|Sehr gut
+
+|+10 bis +14
+|Meisterlich / Kritisch
+
+|+15 bis +19
+|Heldenhaft
+
+|+20 und mehr
+|Legendär
+|===
+
+.Erfolgsgrade
+====
+Bei einer Probe mit Mindestwurf 15 würfelt ein Charakter eine 16.
+Mit einem Bonus von +4 ergibt sich ein Endergebnis von 20, das 5 Punkte über der nötigen 15 liegt.
+Damit ist die Probe ein _sehr guter_ Erfolg.
+====

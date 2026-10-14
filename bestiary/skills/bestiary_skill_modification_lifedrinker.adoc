@@ -1,0 +1,13 @@
+=Lebenstrinker (Attacke, TP)
+
+*Voraussetzungen:* - +
+*Typ:* Angriff, Modifikation +
+*Überanstrengung:* - +
+*CP:* tba +
+
+Die Kreatur kann die angegebene *Attacke* nutzen, um drm Ziel lebenskraft abzusaugen.
+ist die *Attacke* erfolgreich und kommt es zu einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagerolls[Schadeensprobe],
+wird dieunter *TP* angegebene Zahl oder Würfelkombination zusätzlich om TP-Pool des Angegriffenen abgezogen.
+die angreifende Kreatur erhält diese Punkte in ihren eigenn TP-Pool, aber nicht übr ihr Maximum.
+Diese zusätzlichen würfel sind nicht Teil der o.g. schadenspobe, gelten aber als xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[schadenswürfel].
+nur Kreaturen mit dm Typ link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebendig] können ziel dieser Fähigkeit sein.

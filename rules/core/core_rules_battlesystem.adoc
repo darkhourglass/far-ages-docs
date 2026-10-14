@@ -1368,9 +1368,8 @@ Manche <<ref_core_battle_damage_damagetypes,Schadenarten>> können auch andere P
 
 
 [[ref_core_battle_damage_damagerolls]]
-=== Schadenswürfe
-Der *Schadenswurf* besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6) und einer festen Komponente (zum Beispiel +3) und dient der Ermittlung der <<ref_core_battle_damage_damagepoints,Schadenspunkte>>.
-
+=== Schadenswurf und Schadenswürfel
+Der *_Schadenswurf_* besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6) , auch *_schadenswürfel_* genannt, und einer festen Komponente (zum Beispiel +3) und dient der Ermittlung der <<ref_core_battle_damage_damagepoints,Schadenspunkte>>.
 Um den Schadenswurf zu bestimmen, sind folgende Komponenten zu beachten:
 
 * xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_bonus[Attributsbonus] des zugehörigen Attributs, wie zum Beispiel ST oder GE
@@ -1392,6 +1391,8 @@ Folgende Übersicht gibt Auskunft über die Berechnungen:
 
 Der Kampf mit natürlichen Waffen wie Klauen oder Bissen wird zwar über das Talent unbewaffneter Kampf abgewickelt, jedoch gilt für diesen die Schadenberechnung für natürliche Waffen.
 Sofern nicht anders angegeben, wird die Attributsstufe für ST des Charakters verwendet, wenn mit natürlichen Waffen oder unbewaffneten Kampf ein Treffer erzielt wird.
+
+Alle schadenswürfel könnn <<ref_core_battle_damage_damagerolls_bonusdice, Bonuswürfel>> erzeugen.
 
 .Schadenswürfe
 ====

@@ -1,0 +1,35 @@
+= Kreaturentypen
+
+Jede Kreatur besitzt einen oder mehrere +kreaturentypen*.
+Ein Kreaturentyp ist eine Art übergreifende Beschreibung und Kategoriesierung, in der Kreaturen mit gleichem Typ identische Eigenhaften miteinander teilen.
+Dies drückt sich in einer Menge von Regeln aus,die durch die Gesamtschnittmenge aller kreaturentypen grbildet wird.
+
+es gibt <<ref_rules_creaturetypes_primary, Primärere kretuentypen>> und <<ref_rules_creaturetypes_secondary, sekundäre kreaturentypen>>, die in den folgenden Kapitel beschrieben werden.
+
+
+[[ref_rules_creaturetypes_primary]]
+=== Primärer Kreaturentyp
+Der *primäre kreaturentyp* einer Kreatur ist die definiernde Basis für die Kreatur,eine Art exestentieller Basis.
+Jede Kreatur hat genau einen primären Typ.
+der primäre Typ definiert eine Reihe von Regeln, die für diese Kreatur gelten, neben zu allen xref  link:../core/core_rules_2d10_system.adoc[Basis-Regeln].
+
+Der Primäre Kreaturentyp ht Vorrang vor allen <<ref_rules_creaturetypes_secondary, sekundären Typen>>, d.h. Regeln, die in sekundären Typen beschrieben sind und dir, denen des primären Typen widersprechen, kommen nicht zur Anwendung.
+
+[[ref_rules_creaturetypes_secondary]]
+== Sekunddäre kreaturentypen
+Ein *sekundärer Kreaturentyp* it im Vergleich zu einem primären Typ nur ein kleine zusätzliche Klassifikation, die zusätzliche Regeln ergänzen können.
+Jede Kreatur kann keinen oder mehrere sekundäre kreaturentypen haben.
+Regeln aus sekundären kreaturen, die sich iderprechn
+
+== Auswirkungen auf Profile
+
+Alle kreaturentypen, primäre und skundäre, könnn profile on Kreaturen beeinflussen in den olgenden katagorien:
+
+* bonisauf xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_attribute_steps[Attibutsstufen] +
+* Boni auff xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves[Rettungswürfe] +
+* zuästzliche xref:../core/core_rules_2d10_system.adoc#ref_core_2d10_characters_skills[Fähigkeiten]
+
+Alle Modifikartionen sind bei Kreaturen aus dem link:../bestiary/index.adoc[Bestiaerium] bereits verrechnet.
+Spielercharaktere müssen Modifikstoren au ihren kreaturentypn selbst verrechnen.
+
+

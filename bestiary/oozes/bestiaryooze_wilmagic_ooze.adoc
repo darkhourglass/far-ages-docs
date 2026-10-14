@@ -3,43 +3,48 @@
 * link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_ooze.adoc[Schleime]
 * Secondary Type(s)
 * Templates
-* GK: X
+* GK: 5
 * CP: TBA
 
 == Beschreibung
 
-Lore
+_"Die unförmige Masse schleicht wie eine solide Flamme aus aetherisher Energie unaufhaltsm vorwärts.
+Die Luft der nahen Umgebung ist bedrohlich sufgeladen mit instabilen asetherischen Energien, die droht auszubrechen unchaotish suzubrechen.
+"_
+
+
+
+Diese seltenen Schleime sind fleischgewordene wilde Magie, die aus dem Aether blutete und einen köper formte.
+Wie die konfrontration mit der wilden Magie selbst, ist eine Begegnung mit disem Schleim eine unvorhersehbare, chaotische.
+Der Schleim wird nicht nur durch WIlde Magie geboren, sondern trägt diese während seiner Existenz mit.
+So erleben andere Kreaturen, insbesondere die,die Spruhzaubererei wirken, in der Nähe des Schleims instabile Magie und Effekte Wilder Magie.
 
 == Profil
 
-*ST:* XXX (+x) +
-*GE:* XXX (+x) +
-*KO:* XXX (+x) +
-*ER:* XXX (+x) +
-*EN:* XXX (+x) +
-*SB:* XXX (+x) +
-*CH:* XXX (+x) +
+*ST:* 8 (+2) +
+*GE:* 7 (+2) +
+*KO:* 12 (+4) +
+*ER:* 9 (+3) +
+*EN:* 15 (+5) +
+*SB:* 12 (+4) +
+*CH:* 7 (+2) +
 
-//TP=TP-Bonus (GK) + (ST+KO)*5
-//MP=EN*10
-//SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
+*TP:* 120 +
+*MP:* 250 +
+*SP:* 95 +
 
-// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
-// INI= GE+ER
-// MAXTL= ST*15
-// MAXPOT=EN+3
 
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
+*BEW:* 9,00 Meter +
+*INI:* +5 +
+*MaxTL:* 120  +
+*MaxPOT:* 28 +
 
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
+*Rüstung:* - +
+*Resistenzen:*
+ <<ref_wildmagic_ooze_adaptive_resistence, Adaptive Resistenz>> +
+* link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] (* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aetherisch])
+
 *Immunitäten:*
 
 * link:../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
@@ -50,15 +55,15 @@ Lore
 
 == Rettungswürfe
 
-*Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +8 +
-*Magie:* EN+SB +3 +
-*Reflex:* GE+ER +
+*Aufmerksamkeit:* +7 +
+*Disziplin:* +6 +
+*Körper:* +14 +
+*Magie:* +12 +
+*Reflex:* +5 +
 
 == Offensiv
 
-* Talent 1
+* link:../skills/bestiary_skill_attack_slam.adoc[Wucht]+ (2W6+2) xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_aether[Aether-Shaden]
 * Talent 2
 * <<ref_wildmagic_ooze_create_wild_magic, Ezeuge Wilde Magie>> 7
 * Fähigkeit 2
@@ -66,10 +71,9 @@ Lore
 
 == Defensive
 
-* Talent 1
-* Talent 2
-* Fähigkeit 1
-* Fähigkeit 2
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb Ausweichen] + 20 +
+* link:../skills/bestiary_skill_attack_tentacles.adoc[Tentakel] 8 (2W6+"-Attributsbonus) 3x
+* link:../skills/bestiary_skill_magicability.adoc[Magischee Fähigkit] 8 link:../../compendiums/spells/spell_flaming_bolt.adoc[FLammenblitz]
 ...
 
 == Sonstiges
@@ -78,18 +82,39 @@ Lore
 * link:../skills/bestiary_skill_senses_blindsense.adoc[Blindsinn] mit einer Reichweite von 30,00 Metern, falls nicht anders angegeben
 * link:../skills/bestiary_skill_engulfing.adoc[Umschlingend]
 * link:../bestiary/skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
-* Talent 1
-* Talent 2
-* <<<ref_wildmagic_ooze_wild_magic_nexus, Nexus wilder Magie>>>
-* Fähigkeit 2
+* <<<ref_wildmagic_ooze_wild_magic_nexus, Nexus wilder Magie 12,00 Meter>>
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[Verborgenes entdecken] +11
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[Verstecken] +10
 
 == Regeln
 
 
 [[ref_wildmagic_ooze_create_wild_magic]]
 === Erzeuge Wilde Magie
+Immer wenn eine Kreatur im Radius des <<<ref_wildmagic_ooze_wild_magic_nexus, Nexus Wilder Magie>> einen zauber aussspricht bzw. eine xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei-Probe] durchfüht, kann der Schleim eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_additionalactions_bonusreactions[Bonus-Reaktion] einsetzen, um einen xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_random_effekts[zufälligen effekt wilder Magi zu erzwingen].
+Die o.g. Probe gilt dann automatish als xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misserfolg], also der Zauber misslingt.
 
 [[ref_wildmagic_ooze_wild_magic_nexus]]
-=== Nexus wilder Magie
+=== Nexus wilder Magie (Radius)
+Die unkontrollierten Energien des Aethers, die den Wilde magi Schleim zuerst formten, wirken weiter in unmittelbarer Nähe des schleims.
+Diese Umgebung im angegebnen *Radius* gilt als xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_zones_of_wild_magic[Zone Wilder Magie] zentriert um dn Schleim.
+Es gelten die xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_spells_in_wild_magic_zones[Regeln zum Ausssprechen von Zaubern in Zonen wilder Magie].
+DIESER Effekt bleibt immer um den Sschleim betstehen und zieht mit ihm mit.
+Der Nexus verschwindet, wenn der schleim stirbt.
+
+[[ref_wildmagic_ooze_adaptive_resistence]]
+=== Adaptive Resistenz
+Nimmt der Wilde Magie Schleim in einer beliebigen kampfphase Schaden durch eine xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetypes[Schadensart], erhält er für die nacholgenden 2W6+2 kampfphasen di Fähigkeit link:../skills/bestiary_skill_damageresistence.adoc[Schadensresisstenz] für genau diese Schadensart.
+Diese Fähigkeit kommt nur bei folgendn Schadensarten zum Einsatz:
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_air[Luft] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_water[Wasser] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_fire[Feuer] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_elemental_earth[Erde] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_acid[Säure] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_frost[Frost] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_magma[Magma] +
+* xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock] +
+
 
 == Taktik

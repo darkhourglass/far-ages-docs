@@ -48,7 +48,7 @@ link:../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz] xref:../.
 
 == Offensiv
 
-* link:../skills/bestiary_skill_attack_bite.adoc[Biss] 8 2W6+5 <<ref_bestiary_skill_bloodsucker,Blutsauger>>, 1x
+* link:../skills/bestiary_skill_modification_lifedrinker.adoc[lebenstrinker8 biss, 2w6+5]
 * link:../skills/bestiary_skill_attack_claw.adoc[Klauen] 8 2W8+5 2x
 * <<ref_bestiary_skill_hypnotic_light,Hypnotisches Licht>> 12 1x
 * <<ref_bestiary_skill_eldritch_instrument,Übernatürliches Instrument>> 12 1x
@@ -110,10 +110,6 @@ Mit einer xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_att
 Durch den Schmerz erhält die Sirene sofort 1 Stufe xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
 Sie kann diese Fähigkeit nicht mehr einsetzen, bis innerhalb von 7 Tagen die Wunden geheilt sind und die Sirine durch ein magisches Ritual das Organ wieder anwachsen lässt oder ein neues Organ ausgebildet wird.
 
-[[ref_bestiary_skill_bloodsucker]]
-=== Blutsauger
-Verursacht die Sirine mit ihrer link:../skills/bestiary_skill_attack_bite.adoc[Biss] Attacke xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage[Schaden] an einer link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebenden] Kreautr, so erhält sie sofort 1W6+1 Punkte auf ihr eigenes  xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_pools_tp[TP-Pool] zurück.
-Die Sirine kann nicht über ihr Maximum TP erhalten.
 
 [[ref_bestiary_skill_enthrallment]]
 === Versklavung

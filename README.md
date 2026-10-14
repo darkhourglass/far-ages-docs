@@ -10,7 +10,7 @@ My inspiration did come from various sources that i discovered and enjoyed over 
 My favorite roleplaying games should became Earthdawn, Call of Cthulhu and Vampire the Masqerade. 
 Unsurprisingly, far ages turned out to be an cauldron for al those.
 Initially conzepted as a "multiverse-tool", where new worlds can be build just by picking the right tools, the main world presented here became Al'vaha, a sinkhole for post apokalyptic, dark fantasy and magitek-punk themes - which are my favs to be honest.
-Far Ages also received a lot revisions, most notably during the Corone Crisis its transformation into this Ascii-Doc structure. 
+Far Ages also received a lot revisions, most notably during the Corona Crisis its transformation into this Ascii-Doc structure. 
 Early versions where D100 based with stats bases on elements like Fire, Earth, Air and Water. This changed to a W10 based, successes counting system. Which reminded me of Warhammer 40.000 - in this tabletop you throw as many dice as shots are fired for your squats. This is genius for immersion - i could not better relate to my Space Marines firing at the Heretics by throwing 20 dice at once. 
 This did not last long for a Pen&Pater. 
 Today the system is mostly inspired by the grandfather of fantasy games: D&D. I am not ashamed to credit this big system as inspiration for the latest installment that is writting down in this repository. I wanted fast-paced action, flexible builds and clear concepts for rules. I hope this worked out. 
