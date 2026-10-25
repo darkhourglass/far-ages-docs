@@ -1,0 +1,125 @@
+= Charaktere
+
+=Attribute
+
+Jedes profil einer kreatur bz. Charakters basiert auf 6 ATTRIBUTEN:
+
++ strärke (ST)
+
+* GEschick (GE)
+
+* Konstitution (KO)
+
+* Erkenntnis (ER)
+
+* Energie (EN)
+
++ Selbstbeherrschung (SB)
+
++ CHarism (CH)
+
+Jedes Attribut wird in Stufen on 0,1,2,... gemessen
+Attributsstufen können minimal 0 erreichen:
+
+* Olche Attribute gelten nomiell als 1, wenn es zur Berechnung der Attributseigenschaften kommt.
+Alle Proben, die ein Attribut mit Stufe 0 beinhalten erhalten einen Nachteil.
+=== Attributseigenschaften
+
+==== Attributsbonus
+Für jedes Attribut gibt es abhängig von seinen Stufen einen *Attributsbonus*.
+Dieser wird als eine positive Zahl ab +1, +2, +3 und so weiter dargestellt.
+
+Für jede 3 Attributsstufen ab Stufe 1 besitzt ein Charakter einen Bonus von +1.
+
+Die folgende Tabelle zeigt diese Entwicklung für die ersten 12 Attributststufen:
+
+|===
+|Attributsstufe |Attributsbonus
+
+|0
+|0
+
+|1-3
+|+1
+
+|4-6
+|+2
+
+|7-9
+|+3
+
+|10-12
+|+4
+
+|+3 - +3
+|+1
+|===
+
+
+=== Schnelldurchlauf Charaktererschaffung
+
+1) wähle ein kombinAtion aus vOlk Beruf und Hintergrund
+2) Initiale Attribute: wähle ein Attribut, dass auf Stufe  beginnt.
+3)  Wähle  Attribute, die auf ufe 1 starten.
+4) wende Attributdmodifikatoreen aus Volk, Beruf und Hintergund an.
+
+[NOTE]
+====
+Ein Charakter darf in keinem Attibut di Stufe 0 haben.
+sollte es dazu kommen, muss di kombinazion sus initialeSTufen, beruf, volk und hintergrund angepasst werden.
+====
+
+[NoTE]
+====
+Talente aus volk, Beruf und Hintergrund zählen als talente mit SGM!
+====
+
+5) Kombiniere alle Pool-Steigeungen
+6) Vergebe 4 freie talentstufen uf Berufstalnente (bzw. 2:1 für andere)
+7) Initial gelente zauber: bis zu 2 arkane Tricks und 1 stufe 2 Zauber
+8) bestimme Attributsbonus (+1 pro 3 Stufen)
+9) bestimme Attributseignschaften
+
+=== CP Einsetzen
+
+vollständigess xref:../core/core_rules_charactercreation.adoc#ref_core_characters_spendcp[Kapitel]
+
+***Pool-Steigerungen **(+tp/+MP/+SP)
+
+Jede Steigerung kostet 100 CP multipliziert mit der Anzahl der zu erreichenden bzw. bereits erfolgten Pool-Steigerungen. Nach einer Steigerung addiert der Charakter die gegebene Zahl von TP, MP und SP zu seinem aktuellen Wert hinzu und kann diese Punkte normal nutzen.
+
+* ***Attributsstufen steigern**
+
+Das Steigern von Attributen repräsentiert eine Verbesserung des Charakters auf körperlicher oder geistiger Ebene.
+
+Steigerungen von Attributsstufen können nur schrittweise erfolgen. Das heißt, möchte man ein Attribut um mehr als eine Stufe steigern, so muss man jede Steigerung einzeln mit CP bezahlen.
+
+Jede Steigerung eines Attributs um eine Stufe kostet die Ziel-Stufe multipliziert mit 200 CP.
+
+* **Talentstufen steigern**
+ede neue Stufe kostet die Ziel-Stufe multipliziert mit 100 CP für Berufstalente. Wie Attributsstufen müssen Talentstufen einzeln bezahlt werden. Ein Charakter kann also ein Talent nicht von 3 direkt auf Stufe 5 steigern, sondern muss zuerst Stufe 4 bezahlen und dann Stufe 5. Allgemeine Talente erhalten einen Modifikator von x2 auf diese CP-Kosten.
+das Ergebnis 2ird noch mit dem SGN (STeigerungsmodiikatoe 1o oder 2) mulitpliziert, um die kosten zu ermitteln.
+
+* ** Zauber lernen**
+
+Generell muss ein Charakter die Voraussetzungen erfüllen, um den Zauberspruch zu lernen. Diese sind wie folgt:
+
+* Die Talentstufe des Charakters in Spruchzauberei muss gleich oder höher sein als die angegebene Stufe in der Zauberspruchliste.+
+
+* Der Charakter muss den Zauberspruch in einem Grimoire oder auf einer Spruchrolle in arkaner Sprache vorliegen haben.+
+
+* Alternativ muss er einen Zauberer finden, der ihm diesen Zauberspruch lehrt.
+
+Der Zauberer kann keine Zaubersprüche lernen, wenn er die passende Zauberschule nicht beherrscht.
+Die CP-Kosten eines Zauberspruches berechnen aus POT des Zauberspruchs multipliziert mit 50.
+
+* *Besondere fähigkeit* lernen
+
+Lehrer finden und CP ausgeben: Trainingsdauer it 1 Woch peo 10 CP KOsten der Fähigkeit
+
+* * Neue Talente* lernen
+
+ein bisher unbekanntes Talent uf Stufe 1 lernen kostet:
+
+* Berufstalent: 200 CP
+* anderes: 400 CP2

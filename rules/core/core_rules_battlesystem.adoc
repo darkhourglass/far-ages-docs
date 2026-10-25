@@ -304,36 +304,6 @@ Man spricht dabei auch:
 Es gelten weiterhin die Regeln für <<ref_core_battle_movement,Bewegung>>.
 Der Einsatz dieser Aktion verursacht einen <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriff>>.
 
-[[ref_core_battle_action_block]]
-==== Blocken
-Gut gerüstete Charaktere können eine defensive Haltung einnehmen, um Angriffe besser abwehren zu können.
-
-Die Aktion gewährt einen *Block-Wert*, der den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[Mindestwurf] für den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffswurf] eines <<ref_core_battle_attacktypes_meleeattack,Nahkampfangriffes>> auf den Charakter ersetzt, sofern der Block-Wert über 12 liegt.
-
-Der Block-Wert wird aus der Summe aller <<ref_core_battle_items_armor_armorpoints,Rüstungspunkte>> gebildet, die der Charakter aktuell ausgerüstet hat.
-Die Aktion kann mehrfach in einem <<ref_core_battle_cycle_battlephase_own_turn,Zug>> verwendet werden, um den Block-Wert weiter zu erhöhen.
-Allerdings erhöhen weitere Anwendungen dieser Aktionen den Block-Wert nur um die Hälfte der Rüstungspunkte (abgerundet, minimal 1).
-Einmal angewendet, verbleibt der Block-Wert bis zum Beginn des nächsten <<ref_core_battle_cycle_battlephase_own_turn,eigenen Zugs>>.
-
-Solange ein Charakter oder eine Kreatur einen Block-Wert verwendet, gelten folgende Einschränkungen:
-
-* die Reaktion <<ref_core_battle_reaction_dogde,Ducken>> kann nicht genutzt werden
-* <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> und <<ref_core_battle_reaction_execute_attack_of_opportunity,Gelegenheitsangriffe>> werden mit xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_disadvantage[Nachteil] gewürfelt.
-* das Talent xref:core_rules_talents_base.adoc#ref_talents_evade[Ausweichen] nicht xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[verwendet] werden.
-* Die Aktionen <<ref_core_battle_actions_retreat,Zurückweichen>> und <<ref_core_battle_actions_support,Unterstützen>> können nicht verwendet werden.
-
-Nur Charaktere und Kreaturen mit <<ref_core_battle_damage_armor,Rüstungspunkten>> (beispielsweise dank getragener <<ref_core_battle_items_armor,Rüstung>> und <<ref_core_battle_items_shields,Schilde>>) können diese Aktion einsetzen.
-<<ref_core_battle_damage_naturalarmor,Natürliche Rüstung>> erlaubt diese Aktion *nicht* und kann grundsätzlich nicht mit einbezogen werden.
-
-.Blocken
-====
-Die Stadtwache Dhroga trägt ihre typische Ausrüstung: einen Brustpanzer mit 6 Rüstungspunkten, einen Vollhelm mit 5 Rüstungspunkten und schließlich noch einen Rundschild mit 3 Rüstungspunkten.
-Verwendet Dhroga in ihrem Zug die Aktion Blocken zum ersten Mal, erhält sie einen Block-Wert von 6+5+3=14, also 2 Punkte über dem Standardmindestwurf.
-
-Verwendet sie Blocken ein weiteres Mal in der aktuellen Kampfphase, erhält sie weitere 14/2=7 Punkte für ihren Block-Wert, der auf 21 steigt.
-Nutzt Dhroga auch noch ihre dritte Aktion, beträgt ihr Block Wert sogar 28 Punkte.
-====
-
 [[ref_core_battle_action_readyitem]]
 ==== Gegenstand vorbereiten
 Um einen Gegenstand zu <<ref_core_battle_actions_useitem,verwenden>>, muss sich dieser zuerst in der Hand des Charakters befinden.
@@ -746,9 +716,9 @@ Folgende Tabelle zeigt alle Bedrohungszonen und die sogenannte Größenbasis, al
 
 |===
 |Größenkategorie
-|Maximale Basis {empty}[Kachel]
-|Anzahl der Halbkreise für die Bedrohungszone {empty}[Kachel]
-|Radius des Halbkreises für die Bedrohungszone {empty}[Meter]
+|Maximale Basis [Kachel]
+|Anzahl der Halbkreise für die Bedrohungszone [Kachel]
+|Radius des Halbkreises für die Bedrohungszone[Meter]
 
 |1
 |1x1
@@ -1034,7 +1004,7 @@ Befindet das Ziel innerhalb der <<ref_core_battle_projectiles_baserange,Grundrei
 Sollte dieser nicht bekannt sein, gilt der xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[Standardmindestwurf].
 Pro Inkrement über der Grundreichweite erhöht sich der Mindestwurf um 5 Punkte.
 
-.Mindestwürfe im Fernkampf
+Mindestwürfe im Fernkampf
 ====
 Ein Schütze hat drei Gegner zur Auswahl, die er mit seinem Kurzbogen (Grundreichweite 25,00 Meter) anvisieren könnte.
 

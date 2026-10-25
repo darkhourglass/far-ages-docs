@@ -1,0 +1,229 @@
+= Schnellreferenz: Kämpfe
+:toc:
+:toclevels: 4
+
+== Kampfphasen und züge
+
+Ein Kampf läutf in *Kampfphasen* ab.
+In einer Kampfphase führen alle Teilnehmer nacheinande ihte *Züge* aus.
+Eine kampfphase endet, wenn alle Züge durchgeührt sind.
+
+u Beginn eines Kampfs und vor der ersten Kampfphase bestimmt jeder Teilnehmer seinen Initiativewert (oder auch einfach nur Initiative).
+[NOTE]
+
+2w10 + INI
+
+
+
+
+
+=== Aktionen
+Wer am Zug ist, hat bis zu *3 Aktionen*Diese sind zu beginn des zuges anzusagen.
+
+Folgende Akionen sind verfügbar:
+
+* Angreifen+
+** nAhkampf, wenn in direkter Nähe oer bereits im Kampf gebunden.
+** Fenkampf
++* sturmangriff: nutze BEW in direkter freier Linie und führe Attacke aus (1 Aktion aber limitiert!(Bewegung löt AoO aus). darf nicht bereits im Kampf gebunden sein.
++ bewegung+
+** nutze BEW am Boden, kann AoO auslösen+
+** unterstütze ALLIERTEN: PROBE ERHÄLT VORTEIL+
+** Gegentand vorbereiten+
+** Gegenstand einsetzen +
+ **zauber vorbereiten
+** AKtion fortführen
+** AKtion abwarten+
+++ Zauber abbrechen+
+** Aufsthen/Befreien: bendet <zuSTände "am Boden" bzw. "gfangen/gehalten".
+
+Aktionen können *limitiert* sein, d.h. max. 1x pro eigenem Zug einsetzbar.
+*komplexe Aktionen* kosten alle regulären Aktionen des eigenen Zuges.
+
+** Zurükweichen mit 1/2 BEW
+
+== Reaktionen
+Reaktionen werden nicht im eigenen zug eingesetzt, sondern im zug iner anderen kreatur.
+Analog zu Aktionen hat jede kreatur *3 Reaktion* zwischen Ende eine eigenen Zugs un Beginn des Nächsten.
+Folgende Reakttionen gibt es:
+
+* Einsatz eines verteidungstalents (Hieb auswichen, SShildverteidigung oder Parade)
+* Ducken: einstzbarbei Rettungswurf -> Vorteil erhalten, verliere alle Reaktionen
+* AoO durchführen
+* Konter
+
+
+=== Bonusaktionen und Reaktionen
+Pro eigenem zug besitzt jede kreatuer 1 *Bonus-Aktion* und 1 *bonus-Reaktion*.
+Sie muss dazu eine Fähigkeit besitzen, die explizit eine Bonus-Aktion bzw. Reaktion beschreibt.
+besitzt eine kreatur mehrere fähigkeiten, die Bonus-AKtionen gewährn, musss sie sich entscheiden.
+
+
+[TIP]
+====
+Diese Regel beschränkt nicht die Anzahl der Fähigkeiten, die eine Kreatur haben darf, die ihr Bonus-Aktionen bz. Reaktionen gewähren, sonden deren Einsatz im Zug.
+====
+
+==== Fernkampf
+die folgendn Regeln gelten im Fernkampf,sowohl mim Einsatz von projektilwaffen (z.B.: Bögn, Armbrüste) wie auch Wurfwaffen (wurfbeil, wurfmesser).
+um ein Angriffspobe im fernksmpf durchzuführen, mussder schütze sein ziel in direkter unblockierter Sichtlinie erreichn können.
+ziele können sich in deckung befinden, siehe ug. kapitel zu Modifikatoren von Angriffsproben.
+Die Angriffsprobe wird als einfache Probe gewürfelt, ein Erfolg bedeutet einen Treffer.
+jede fernkampfwaffe hat eine *<Grundreichweite*.
+<sind Schütze und Ziel innerhalb der Grundreicheite erhält die o.g. Angriffsprobe keinen Malus.
+Für jedes brgonnr Vielfache der Grundreichweite( in sog. Inkrement) erhält die Probe einen Malus on -5 bz. der Mindestwurf steigt um 5.
+
+<<.Mindestwürfe im Fernkampf
+====
+Ein Schütze hat drei Gegner zur Auswahl, die er mit seinem Kurzbogen (Grundreichweite 25,00 Meter) anvisieren könnte.
+
+Der erste Gegner steht 17 Meter entfernt.
+Damit steht er noch innerhalb der Grundreichweite, womit der Mindestwurf 13 beträgt.
+
+Der zweite Gegner befindet sich bereits 56 Meter entfernt und steht damit zweimal die Grundreichweite plus sechs Meter entfernt.
+Insgesamt muss der Schütze daher insgesamt viermal die Grundreichweite überwinden, benötigt also mindestens 12+2*5=22.
+
+Der dritte Gegner steht sehr weit entfernt.
+Die Distanz beträgt ganze 120 Meter.
+Das sind insgesamt vier Inkremente über Grundreichweite.
+Damit ergibt sich ein Mindestwurf von 12+4*5=32, den der Schütze mindestens erreichen muss.
+====
+
+==== Modifikatoren von Angriffsproben
+
+
+|===
+|Situation|Mofikator|anwendbar bei|INFO
+
+|ziel hat Deckung: 25/50%/75%/100% Deckung
+| -5/-10/-15/-20
+|Nah- und Fernkampf
+|
+
+
+
+
+|Größenunterschied
+|-10 bis +10
+|Nah- und Fernkampf
+|Differenz der GKs: wenn Gegner kleinerMalus, sonst Bonus
+|Höhenunterschied
+|Angreifer erhält Vorteil
+|Nah- und Fernkampf
+|Ein Angreifer muss  mindestens um die Hälfte der Körperlänge des Gegners höher stehen.
+
+|Kampf mit 2 Waffen
+|primärhand:-5, Zweithand:-10,
+| Nahkampf
+|der Angriff mit der Zweithand gilt als Bonus-Aktion.
+|Improvisierte Nahkampfwaffen
+| Nahkampf
+|-5
+|Nahkampfwaffen mit erhöhter Reichweite
+|-5
+|Fern- und Nahkampf
+|
+|gzielte Attacke
+|-5
+|
+|mit Ansage konkrete Trefferzone bei Ziel angreifen
+
+| Feuer ins kampfgetümmel
+|-5
+| fernkampf
+|ziel ist im kampf gebunden
+|Zu große Ausrüstungsgegenstände
+|-5 pro Punkt GK über zugelassener GK
+|
+|
+|
+|
+|
+|Nah - und Fernkampf
+|Feuern auf Nicht-Stationäre Ziele
+|-5
+| fernkampf
+| Ziel hat in aktueller kampfphase bereits seine BEW eingesetzt
+
+
+|Feuern aus Getümmel heraus
+|Nachteil
+| Fernkampf
+|Schütze ist im kampf gebunden
+
+
+|Nicht-Stationäres Feuern
+|-5
+|Fernkampf
+|SChütze hat bereits seine BEW eingestzt in eigenen zug
+|Improvisierte Wurf- oder Nahkampfwaffen
+|-5
+| Nahkampf, Fermkampf
+|
+
+|Zu große Ausrüstungsgegenstände
+|
+|-5 pro Punkt über zugelassener GK
+|Nahkampf, Fermkampf
+|
+|===
+
+
+=== Treffer und Schadenspoben
+Eine erfolgreiche Angriffsprobe führt zu einem *Treffer*.Ein treffer führt zu einer *Schadensprobe*
+
+
+Der Schadenswurf besteht aus einer Kombination auf Würfeln (zum Beispiel 2W6) , auch _Schadenswürfel_ genannt, und einer festen Komponente (zum Beispiel +3) und dient der Ermittlung der Schadenspunkte. Um den Schadenswurf zu bestimmen, sind folgende Komponenten zu beachten:
+
+*Attributsbonus des zugehörigen Attributs, wie zum Beispiel ST oder GE (abhängig von Waffe)
+
+* Schadensbonus der Waffe, abgekürzt SB
+
+Folgende Übersicht gibt Auskunft über die Berechnungen:
+
+*Nahkampfwaffen: Attributsbonus (Waffe) + SB
+
+* Nahkampfwaffen (schwer): Attributsbonus (Waffe) *2 + SB
+
+*Nahkampfwaffen (berittener Angriff): Attributsbonus (Waffe) *2 + + SB
+
+*Nahkampfwaffen (berittener Angriff, schwer): Attributsbonus (Waffe) *4 + SB
+
+*Projektilwaffen: Attributsbonus (Waffe) + SB
+
+*Projektilwaffen (mechanisch): SB
+
+*Wurfwaffen: Attributsbonus (Waffe) + SB
+
+**nbewaffneter Kampf: Attributsbonus ST (Charakter) + SB
+
+*Automatischer Treffer: SB
+*Spruchzauberei: Eeffekt abhängig
+
+Schadenswürfe sind nach oben offen.
+
+Sofern nicht anders definiert odr durch eine grzielte Attacke anvisiert, wird immer die *Standradtrefferzone* _torso_ getroffen.
+
+
+.beispiel: Schadenswurf
+====
+Kraag greift einen durch Nekromantie erschaffenen Untoten an. Bei seiner Angriffsprobe im Nahkampf erreicht er einen Treffer und kann damit eine Schadensprobe würfeln. Sein Attributsbonus in Stärke beträgt 2 und er führt ein Langschwert mit einem Schadensbonus von +2W6. Die Schadenspunkte durch diesen Treffer betragen daher: 2W6+2.
+====
+
+Schadenswürfe können wie alle andern Proben auch positive und negtive Faktoren beeiflusst werden. Die Faktorn werde immer nach der Auwertung de Würfel eingerechnet. Ein Schadenswurf kann kein negativn Wert ezeugen, sonden ist minimal 0.
+
+
+
+===Krirtische Treffer
+
+
+Erreicht eine Angriffsprobe bei einem erfolgreichen Treffer oder automatischen Treffer mindestens einen kritischen Erfolgsgrad (mdw+10 bis mdw-14), gilt dieser als Treffer als** kritischer Treffer**. Für diesen wird der variable Schadensbonus in seiner Würfelanzahl verdoppelt.
+
+
+.Bispiel: Kritische Treffer
+))===
+Hätte Kraag einen kritischen Erfolgsgrad erreicht, dürfte er für seinen Schadenswurf 4W6+2 anstelle von 2W6+2 würfeln. Der statische Schadensbonus wird nicht verdoppelt.
+Wurde außerdem durch einen kritischen Treffer Schaden verursacht, verliert die betroffene Kreatur zusätzlich 1W6 SP. Dies gilt als mentaler Schaden. Kreaturen, die keine SP besitzen oder verlieren können, sind von dieser Konsequenz eines kritischen Treffers gefeit.
+====
+
+

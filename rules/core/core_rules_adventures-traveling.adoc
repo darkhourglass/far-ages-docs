@@ -1,0 +1,127 @@
+= Abenteuer (Reisen)
+// Travel per Day, travel too much, exhaustion
+// food per day / water per day
+
+
+
+2 liter Wassser für leb. kretur mit gk 5
++1 Liter pro 3 gk größer.
+
+== Zufällige umgebung
+
+
+|===
+|ErgebnisxWy |Umgbung |wetter Modifikator | Gefahren modifikator
+
+|Column 1, row 1
+|Tempereirter wald
+|-2
+| 0
+
+|
+|Grasßland
+|-3
+| 0
+
+|Column 1, row 3
+|Hügel
+|-3
+| +1
+
+|Column 1, row 4
+|SUmpf oder moor
+|+1
+| 0
+
+|Column 1, row 5
+|Tundra
+|0
+| +1
+
+|Column 1, row 6
+|Wüste
+|+1
+| 0
+
+|
+|Eis und schnee
+|+2
+| 0
+|===
+
+
+=== Wetterbedingungen
+
+
+|===
+|xwy+Wettermodifikstor|Wetter |Effekt
+
+|0
+|harmlos
+|Die Reise verläuft ohne verkomplizieung und der Tag geht gefahlos vorbei
+
+|1
+|DIchtdr Nebel
+|-5 auf proben, die Sicht erfordern
+
+|Column 1, row 3
+|Column 2, row 3
+|Column 3, row 3
+
+|Column 1, row 4
+|Column 2, row 4
+|Column 3, row 4
+
+|Column 1, row 5
+|Column 2, row 5
+|Column 3, row 5
+
+|Column 1, row 6
+|Column 2, row 6
+|Column 3, row 6
+
+|Column 1, row 7
+|Column 2, row 7
+|Column 3, row 7
+
+|schwerer Stuem
+|umgbungsspezifischer Sturm(Sand, Schnee, Gewitter)
+|Column 3, row 8
+|===
+
+=== Zufälige gefahren
+
+
+
+|===
+|xWy |Kreaturentyp
+
+|Column 1, row 1
+|Humanoid
+
+|Column 1, row 2
+|Tier
+
+|Column 1, row 3
+|konstrukt
+
+|Column 1, row 4
+|Drache
+
+|Column 1, row 5
+|Dämon
+|
+|Elementar
+|
+|Monströität
+|
+|Elementar
+|
+|Schleim
+|
+|Pflanze
+|
+|Untote
+
+
+|===

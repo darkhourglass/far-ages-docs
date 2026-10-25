@@ -1,5 +1,6 @@
 = Magie
-
+:toc:
+:toclevels: 4
 [[ref_core_magic_lore]]
 == Was ist Magie?
 
@@ -569,7 +570,7 @@ Grundsätzlich sind Boni aus unterschiedlichen Gegenständen, Zaubern und Talent
 Möchte ein Charakter eine Spruchrolle einsetzen, dann muss er in der Lage sein, diese laut vorlesen zu können.
 Zauber, die üblicherweise <<ref_core_magic_rules_spellcasting_components,Komponenten>> wie Zutaten benötigen, benötigen diese beim Wirken durch Spruchrollen nicht.
 
-Der Anwender benötigt keine Vorbereitung und es gelten die Regeln für <<ref_magic_rules_spellcasting_laymansmagic,Leihenmagie>>.
+Der Anwender benötigt keine Vorbereitung (außer bei Ritualen) und es gelten die Regeln für <<ref_magic_rules_spellcasting_laymansmagic,Leihenmagie>>.
 
 Des Weiteren entfällt die Beschränkung durch die xref:core_rules_2d10_system.adoc#ref_core_2d10_characters_attributes_secondary_maxmagicpotential[maximale Magiepotenz].
 Jedoch kann der Charakter für den Zauberspruch keine <<ref_core_magic_rules_spellcasting_additionaleffects_reducepreparing,zusätzlichen Effekte>> nutzen.
@@ -1070,7 +1071,7 @@ Bietet die RUne eine Aktion pro eigenen Zug, erlaubt jede weitere Instanz der gl
 
 [[ref_core_magic_schools_runes_rules_rule_of_enmity]]
 ====== Runenfeindschaft
-Manche Runen haben in ihrer Beschreibung eine *Feinschaft* zu anderen RUnen angegeben.
+Manche Runen haben in ihrer Beschreibung eine *Feinschaft* zu anderen Runen angegeben.
 Gegenständ können nicht mit Runen beschrieben werden, die miteinander verfeindet sind.
 
 [[ref_core_magic_schools_runes_rules_spontaneous_rune_effekt]]

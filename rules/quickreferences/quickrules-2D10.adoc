@@ -25,7 +25,7 @@ Eine *Probe* besteht aus dem Würfeln von 2W10 (auch Basiswurf genannt) plus der
 * Talenttufen
 * ATTRIBUTSBonus
 * Situations-Boni oder Mali
-* boni aus anderen Quellen wi z.b.: Fähigkeiten, Beruf, Volk oder Hintergrund
+* boni aus anderen Quellen wi z.b.: Fähigkeiten, Beruf, Volk oder Hintergrund.
 
 Damit eine probe als *erfolg* gilt, muss ein _mindestwurf_ erreicht werden.
 Der Mindestwurf bestimmt sich aus der Spielsituaion (z.b. Beschreibung eines talents) oder wird vom SL festgelegt.
@@ -38,11 +38,31 @@ Ein *Patzer* liegt vor, wenn die Augenzahl der Würfel des Basiswurfs 3 oder wen
 in dem Fall gilt die probe als misserfolgt, unabhäniging dsvon ob Augen plus Boni den Mindestwurf erreichen.
 Ein Patzer kann in bestimmten Situarionen noch zusätzliche Probleme verursachen.
 
-=== Vor- und nachteil
+=== Varianten von Proben
+Proben werdn *einfach* genannt, nur eine kreatur für das Ergebnis verantwortlich ist und all äußeren Einslüsse durch situarionsmodifikatoren dargestellt sind.
+Dem gegenübr sin *konkurrierende Proben* dann relevant wenn zwei kreaturen um den Erfolg konkurrieren.
+in diesem Fall würfeln beide Kreturen in konkurrenz und die kreatur mit dem höchstn Egebnis gewinnt.
+beide müssen den mindestwurf erreichn.
+
+=== Bonuswürfel
+Der Basiswurf einer probe und andere Proben können nah oben offen gewürfelt werden.
+d.h. zeigt in beliebiger Würfel sein höhste zahl, wir dies zum Ergebnis addiert und der würfel eneut geworfen und das Ergbnis wird auh zur probe aaddiert.
+
+Dies gilt nicht für wenn ein w100 gnutzt wird.
+
+==== Vor- und Nachteil
+Proben jeder Art können mit *Vorteil* oder *Nachteil* gewürfelt werden.
+Dies wird vom SL festgelegt.
+in beiden fällen wird der _basisswurf_ mit 3W10 statt den üblichen 2W10 gwürflt und wie folgt modifiziert:+
+
+* beim Vorteil werden nur die beiden höchsten Augen ausgewertet und zum basiswurf adddiert+
++ beim nachteilwerden nur die beiden niedrigsetn Augen ausgewertetund zum basiswurf adddiert+
 
 === Rettungswürfe
 *rettungswürfe* sind Proben, die von kreaturen gewürfelt werden, um sich negative Folgen von äußereen Einflüssen zu schützen.
 rttungswürfe erfolgen in der regel instinktiv und auch dann, wenn eine Kreatur nicht am Zug ist.
+
+ein vor- oder nachteil muss vor allen Modifikatoren und Bonuswürfel ausgewertet werden.
 
 Es wird zwischen den folgenden Kategorien von Rettungswürfen unterschieden:
 
@@ -77,9 +97,9 @@ Ansonst legt der SL einen passsenden Rettungswurf fest.
 |===
 
 
-== Erfolgsgrade
+=== Erfolgsgrade
 
-
+|===
 |Differenz zum Mindestwurf |Erfolgsgrad
 
 |+0 bis +4
@@ -96,11 +116,79 @@ Ansonst legt der SL einen passsenden Rettungswurf fest.
 
 |+20 und mehr
 |Legendär
+
 |===
+
 
 .Erfolgsgrade
 ====
 Bei einer Probe mit Mindestwurf 15 würfelt ein Charakter eine 16.
 Mit einem Bonus von +4 ergibt sich ein Endergebnis von 20, das 5 Punkte über der nötigen 15 liegt.
 Damit ist die Probe ein _sehr guter_ Erfolg.
+====
+
+
+[[ref_core_2d10_pools_conditions_and_thresholds]]
+=== Pool vhänigige Schwellen
+Über jeden Pool hinweg sind *Schwellen* definiert, die, sobald sie erreicht werden, automatisch <<ref_core_2d10_conditions,Zustände>> auslösen können.
+Dies sind in der Regel allerdings keine Zustände, die direkt mit dem Erreichen der Schwelle und Wiederherstellen des Pools verbunden bleiben.
+Die Schwelle beschreibt eher einen Punkt des Übergangs
+
+Es können Charaktere und Kreaturen gegenüber den ausgelösten Zuständen <<ref_core_2d10_conditions_immunity,immun>> sein.
+In diesem Fall hat das Erreichen der Schwelle in dem jeweiligen Pool keine Auswirkung.
+Manche Kreaturen haben in Pools gar keine Punkte, zum Beispiel besitzen link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_undead.adoc[Untote] keine <<ref_core_2d10_pools_sp,SP>>.
+In diesem Fall sind Kreaturen immer gegenüber den Folgen der Zustände <<ref_core_2d10_conditions_immunity,immun>> und der jeweiligen Schwelle.
+
+Erreicht ein Pool den Wert 0, treten die unter Schwelle 4 aufgeführten Effekte oder Zustände automatisch ein.
+
+[NOTE]
+Die Schwellen sind für jeden Pool gleich, jedoch sind die Zustände unterschiedlich.
+
+Die Regeln und Parameter für alle Schwellen sind über die folgenden zwei Tabellen verteilt.
+Die erste Tabelle zeigt alle Schwellen und welche Prozentwerte der Pools für sie gelten.
+Der hier angegebene Mindestwurf bezieht sich auf dem Rettungswurf aus der zweiten Tabelle, der mit dem auch dort vorgegebenen Rettungswurf zu erreichen ist.
+Misslingt dieser Rettungswurf, erhält der Charakter eine Stufe des angegebenen Zustands.
+
+|===
+|Schwelle |Prozent |Mindestwurf
+|1
+|51-100%
+|-
+
+|2
+|26-50%
+|15
+
+|3
+|1-25%
+|25
+
+|4
+|0
+|-
+|===
+
+|===
+|Pool |Rettungswurf |Zustand |Schwelle 4
+|TP
+|Körper
+|Benommen
+|Tod
+
+|MP
+|Magie
+|Erschöpft
+|Ohnmächtig
+
+|SP
+|Disziplin
+|Furcht erfüllt
+|Panisch
+|===
+
+.Schwellen
+====
+Ein Charakter hat eine Pool-Aufteilung wie folgt: TP 60, MP 30 und SP 20.
+Fällt sein TP-Pool auf 30, erreicht er 50% und somit Schwelle 2.
+Damit muss der Charakter einen Körper-Rettungswurf gegen den Mindestwurf 15 bestehen oder er erhält eine Stufe Benommenheit.
 ====

@@ -1,0 +1,202 @@
+= Schnellreferenz Magie
+:toc:
+:toclevels: 4
+== beschreischung eines Zauberspruches
+
+.Bispiel eines Zauberspruches
+====
+Name: link:../../compendiums/spells/spell_fireball.adoc[feuerball]
+Arkanes Geheimnis: Nein+
+POT: 5+
+Rettungswurf: Nein+
+Komponenten: Formel, Gesten+
+Fokus: Feuer+
+Vorbereitung: 3+
+Reichweite: 15,00 Meter+
+Anzahl der Ziele: Radius 3,00 Meter+
+Dauer: Sofort +
+Effekt: Du beschwörst magisches Feuer, das sich in Deinen Händen zu einer flammenden Kugel formt. Am Ende der Beschwörung löst sich der Ball und fliegt in einer elliptischen Bahn davon. Wenn er auf dem Boden einschlägt, zerberstet er zu einem Inferno mit einem Radius von 3 Metern um den Einschlagpunkt.
+Jede Kreatur im Zielradius erleidet 4W6 Feuerschaden. Alle Kreaturen dürfen einen Reflex-Rettungswurf gegen das Ergebnis Deiner Spruchzauberei-Probe würfeln. Bei einem Erfolg werden die Schadenspunkte halbiert (Minimum 1).
+Zusätzliche Effekte:+
++5 MP: Reichweite: +6,00 Meter+
++5 MP: Flächenschaden: +3,00 Meter+
++10 MP, +1POT: erhöhe Feuerschaden um 2W6+
+====
+
+
+== Erläuterung der Einträge
+
+*Name*: Jeder Zauberspruch hat einen Namen.
+
+*Arkanes Geheimnis*: Manche Zaubersprüche sind arkane Geheimnisse und existieren vielleicht noch den Legenden. Dies bedeutet, dass sie äußerst selten sind und das Wissen um Ihre Inkantation ist größtenteils verloren.
+Eine Angabe "Ja" in diesem Eintrag bedeutet, dass der Zauberspruch nicht frei gelernt werden kann, sondern seine Entdeckung ein eigenes Abenteuer ist.
+Wie ein Charakter ein arkanes Geheimnis entdeckt und lernt, ist dem Spiel und SL überlassen. Der Zauberspruch wird mit den üblichen CP erlernt.
+
+*Magiepotenz:* Die Magiepotenz(POT) ist eine Angabe über die Macht des Zauberspruches.
+
+*Rettungswurf:* Dieses Feld gibt an, ob bei dem Zauberspruch ein Rettungwurf erlaubt ist. Die Details finden sich einem gesonderten Kapitel, s.u.
+
+
+*Komponenten:* Die meisten Zaubersprüche benötigen bestimmte Komponenten. Diese sind angegeben als Formeln, Gesten und Zutaten.
+
+
+*Fokus:* Jeder Zauberspruch hat mindestens einen Zauberfokus und kann beliebig viele haben. Viele besondere Fähigkeiten für Magier basieren auf Zauberfoki und der Verbesserung der Spruchzauberei. Manche Zauberfoki bringen auch besondere Regeln mit sich.
+
+
+*Vorbereitung:* Diese Zahl ist die Anzahl der Aktionen, die der Charakter zur Vorbereitung des Zauberspruches braucht.
+
+Nur wenn die Vorbereitung die Angabe Ritual enthält, so ist die Verkürzung nicht möglich. In diesem Fall können auch Zeitangaben, wie zum Beispiel "1 Stunde" angegeben sein. Der Zauberer muss die Zeit am Stück einsetzen, an deren Ende die Spruchzauberei-Probe steht. Sofern nicht anders angegeben, muss er es von vorne beginnen, sollte er die Zeit nicht am Stück einsetzen können. Ein unterbrochenes Ritual führt nicht zum Verbrennen.
+
+
+*Reichweite:* Diese beiden Angaben definieren das Aktionsfeld des Zauberspruches. Die Reichweite ist normalerweise in Metern angegeben. Wie bei Bewegungsraten kann man Reichweiten in Kacheln umrechnen.
+
+Die Reichweite definiert, wie weit das Ziel (eins oder mehrere) maximal vom Zauberenden entfernt sein darf, um vom Zauberspruch betroffen zu sein.
+
+Die Einträge Berührung und Selbst stehen für spezielle Reichweiten. Berührung heißt, dass der Zauberer das Ziel mit seiner Hand berühren muss (der Zauber und das Ziel stehen nebeneinander bzw. an angrenzenden Kachel) und Selbst ist die „Reichweite“, wenn der Zauberspruch auf den Zauberer selbst angewendet wird. Die Einträge Selbst und Berührung implizieren immer ein Ziel.
+
+Zaubersprüche, die eine Reichweitenangabe und als Anzahl der Ziele 1 besitzen können von dem Zauberer auch mit der Reichweite Selbst oder Berührung gezaubert werden, wenn er dies wünscht.
+
+
+*Anzahl der Ziele:* Die Anzahl der Ziele ist im Allgemeinen eine Zahl und eine Angabe der erlaubten Ziele (zum Beispiel 1 Kreatur). Innerhalb der Reichweite des Zauberspruches kann der Magier daher entsprechend viele Ziele durch eine Zauberwirkung anvisieren. Sofern nicht anders
+
+Viele Zaubersprüche, wie zum Beispiel Feuerball, erlauben einen Reflex-Rettungswurf oder vergleichbaren Rettungswurf, um den Schaden aus dem Zauberspruch zu reduzieren. Diese Form des Rettungswurfs ist Teil des Effekts und damit nicht durch die Angabe unter Rettungswurf abgedeckt.
+
+
++Effekt:* Was der Zauerwirklich bewirkt, wenn die spruchzauberei-Probe erfolgreich ist.
+
+=== Zauber vorbereiten und aussprechen
+er grundsätzliche Ablauf des Zauberns ist das sogenannte *Vorbereiten* und das schlussendliche Wirken der Magie. Eine Vorbereitung ist von Nöten, da die magischen Energien nicht in fertigen Zaubern vorliegen und der Zauberer seine Zauber erst einmal zusammensetzen muss. Dieser Vorgang ist unterschiedlich ritualisiert, einige Zauber benötigen Beschwörungsgesänge, andere wiederum das Rezitieren magischer Formeln, wieder andere erfordern Gesten oder bestimmte Handlungen und Zutaten.
+
+Am Anfang seiner Kampfphase kann ein Magier das Vorbereiten eines Zaubers ansagen. Er muss dazu den Namen des Zauberspruches, eventuell ein Ziel, falls dies gefordert ist, und die Dauer der Vorbereitung nennen. Außerdem sind zusätzliche Effekte, die angewendet werden sollen, zu nennen.
+
+Der Zauberer muss diese Aktion so lange fortlaufend und ohne Unterbrechung verwenden, bis die angegebene Zahl der Vorbereitung erreicht ist. Das Vorbereiten selbst benötigt keine Probe.
+Im Allgemeinen kann die Vorbereitung nicht pausiert werden, siehe dazu auch die nachfolgenden Kapitel zu _Verbrennen_ und die Akrion _Abbrechen von Zaubersprüchen_.
+Die letzte Aktion zum Vorbereiten umfasst die Probe zur Spruchzauberei. Anders gesagt, die letzte Aktion zum Vorbereiten ist durch die Anwendung von Spruchzauberei mit abgedeckt.
+
+Es ist im Rahmen der Regeln möglich Reaktionen und freie Aktionen einzusetzen.
+
+Example 1. Vorbereiten von Zaubersprüchen
+====
+Der Zauberspruch Feuerball hat eine Vorbereitung von 3. Zu Beginn seines Zuges sagt ein Magier die Vorbereitung dieses Zauberspruches an. Er benötigt damit 2-mal die Aktion Vorbereiten und, um den dritten und letzten Punkt an Vorbereitung zur erfüllen, die Spruchzauberei-Probe. Unter der Annahme, dass der Magier seine 3 Aktionen zur Verfügung hat, kann er diesen Zauberspruch im gleichen Zug ansagen, vorbereiten und aussprechen.
+
+Zaubersprüche mit einem Wert von 1 bei der Vorbereitung, erfordern nicht den Einsatz der Aktion Vorbereiten, sondern es kann direkt die Spruchzauberei-Probe gewürfelt werden.
+====
+
+wird die Vorbereitung unterbrochen z.B. weil der Zauberer nicht die akTion _Vorbereiten_ einsetzen kann, kommt es zum _Verbrennen_.
+
+
+[NOTE] MIT DER Aktion __Vorbereitung abbrechen__ kann ein Zauberer die Vorbereitung eines Zaubers gefahrlos abbrechen.
+
+===  Zusätzliche Effekte, Verkürzen und MP
+Zauber können in ihrer Beschreibung zusätzliche Effekte aufführen,die der Zauberer bei Ansage der vorbereitung mit ansagn muss, dass er si nutzenwill.
+zUSÄTZTLiche Effekte können die pot des Zauberss ehöhen, mit Auswirkung auf die Spruchzauberei-probe.
+angegebene mP müsssen vom Zauber bei der Spruchzauberi-probe bezahlt werden.
+=== Spruchzauberei-Probe
+Einen Zauber wird dem Talent _Spruchzauberei_ gewirkt -in wenigen Ausnahmefällen auch als ungeübte Anwendung nur auf EN gewürfeltt werden.  Dies ist im Normalfall eine einfache Probe, deren Mindestwurf durch die Formel 8 + POT des Zauberspruches bestimmt wird. Es gilt die finale POT, die nach der Bestimmung der Verkürzung und zusätzlichen Effekte feststeht.
+
+Um die Vorbereitung zu *verkürzen*, kann der Zauberer MP verwenden. Die Kosten für die Verkürzung berechnen sich, in dem der Zauberer für jeden Punkt, um die er die Vorbereitung verkürzen will, POT-viele MP ausgibt. Ex müssen alle Effekte, die die POT erhöhen, zuerst bestimmt werden, bevor der Zauberer entscheiden kann, ob er den Zauberspruch verkürzen möchte.
+
+[NOTE]
+In dem Moment der Spruchzauberei-Probe muss dieMaxPOT des Zauberers kleiner oder gleich der POTdes Zauberspruches inklusiver aller zusätzlichen Effekte sein.
+
+Bei einem _Erfolg_ tritt der _Effekt_ des Zaubers ein, bei einem _Misserfolg_ passiert nichts.
+
+=== Rettungswürfe
+Viele Zaubersprüche erlauben es dem Ziel, sich gegen den magischen Angriff zu verteidigen. Die Angabe „Ja“ unter Rettungswurf gibt an, dass ein Rettungswurf erlaubt ist. Sofern nicht anders angegeben, wird die Probe mit dem Rettungswurf _Magie_ gewürfelt.
+Die Angabe „Nein“ gibt an, dass keinen Rettungswurf erlaubt (oder nötig) ist.
+Einträge, die mehrere Antworten bieten, beispielsweise „Nein/Ja“ beziehen sich darauf, dass der Zauberspruch unterschiedliche Ziele ansprechen kann, zum Beispiel „Selbst/Berührung“.
+Die Reichweite „Selbst“ erfordert keinen Rettungswurf.
+Wirkt man einen Zauberspruch auf ein anderes Wesen, kann es freiwillig auf den Rettungswurf verzichten.
+Ist das Ziel des Zauberspruches eine einzige Kreatur, die sich mit dem Rettungswurf gegen den Effekt des Zauberspruches verteidigt, so muss sie den Verteidigungswurf bestehen und hat damit den Effekt abgewehrt.
+Betrifft der Zauberspruch mehrere Kreaturen, so muss jedes Ziel einen individuellen Rettungswurf ablegen.
+Dadurch kann es vorkommen, dass manche Ziele durch Zauberspruch betroffen werden und manche nicht.
+In keinem Fall zählt der Zauberspruch als Misserfolg, der Effekt tritt nur nicht ein für ziele, deren Rettungswurf erfolgreich war.
+
+=== Zauber von Spruchollen wirken
+
+Spruchrollen sind einmalig einsetzbar und ermöglichen den Einsatz von Magie auch für Charaktere ohne magische Ausbildung. Möchte ein Charakter eine Spruchrolle einsetzen, dann muss er in der Lage sein, diese laut vorlesen zu können. Zauber, die üblicherweise Komponenten wie Zutaten benötigen, benötigen diese beim Wirken durch Spruchrollen nicht.
+
+Der Anwender benötigt keine Vorbereitung(außer bei Ritualen) und es gelten die Regeln für _Leihenmagie_.
+
+Des Weiteren entfällt die Beschränkung durch die maximale Magiepotenz. Jedoch kann der Charakter für den Zauberspruch keine zusätzlichen Effekte nutzen.
+
+Im Fall des Erfolges wirkt der Zauberspruch sofort, ie Spruhrolle wird verbraucht.
+
+=== zauber aus Grimoire wirken
+Zaubersprüche in einem Grimoire können auf besonders machtvolle Weise benutzt werden.
+Ein Grimoire funktioniert wie eine Spruchrolle und es gelten die Regeln für _Leihenmagie_.
+im Gegensatz zu Spuchrollen verbrauchn sih Grimoire nicht.
+
+=== Zauberstecken nutzen
+
+=== Leihenmagie
+Als *Leihenmagie* wird das Wirken von Zaubern mit Hilfe von Spruchrollen, Grimoiren und Zauberstecken genannt, da nicht unbedingt eine Ausbildung in Spruchzauberei nötig ist, um eine Spruchrolle vorzulesen. In diesem speziellen Fall kann ein Charakter eine Probe auf das Attribut EN als ungeübte Anwendung des Talentes Spruchzauberei durchführen, sollte er das Talent nicht besitzen.
+Diese Probe erhält jedoch einen Malus von -3.
+
+== Magisch kritalle und MP-Speicher verwenden
+Ein magischr kristall Speicher Magie in Form von MP.
+in charakter mit mincdestens einer talentstufe in Spruchzaubererei kann die MP aus dem Kristall mit denn des eigenen Pools tauaschen.
+
+=== Arkane Tricks
+
+Es gibt Zaubersprüche, die sehr simpel sind und dadurch einfach und ohne wenig Risiko gewirkt werden.
+Üblicherweise sind diese Zauber die Ersten, die Zauberer aus seiner Zauberschule lernt.
+Jede <<ref_core_magic_schools_of_magic,Zauberspruchliste>> besitzt eine eigene Sektion, die zu dieser Liste gehörige Arkane Tricks auflistet.
+
+=== Magische Gegenstände mit MP
+
+Die nächste große Gruppe sind die Magischen Gegenstände mit MP. Diese Gegenstände imitieren Zaubersprucheffekte, insbesondere Zauberstecken.
+
+Diese Gegenstände ermöglichen es normalerweise nicht, außer es ist explizit in der Gegenstandsbeschreibung angegeben, die MP abzuziehen, allerdings andersherum ist dies möglich. Ein Magier kann also einen solchen Gegenstand problemlos aufladen.
+
+Example 8. Gegenstände mit Magiepunkten
+====
+Ein Zauberstecken, der einen Feuerball generiert, hat einen MP-Speicher von maximal 100 MP. Nach ein paar Verwendungen befinden sich nur noch 40 MP in dem Stecken. Ghato Steinhaut, seines Zeichens Elementarist und Besitzer des Zaubersteckens, entscheidet sich den Stecken wieder aufzuladen. Dazu nimmt er ihn in die Hand und überträgt von seinen eigenen MP 60 auf den Stecken. Damit hat dieser wieder seine vollen 100 MP.
+====
+
+== Arkane Tricks
+
+Arkane Tricks unterscheiden sich zu Zaubersprüchen in folgenden Punkten:
+
+* Ein Arkaner Trick hat immer POT 1 und Vorbereitung 1.
+* Die Voraussetzungen zum _Lernen_ eines Arkanen Tricks sind vereinfacht: Der Zauberer kann jeden arkanen Trick einer Zauberschule lernen, sobald er mindestens eine Talentstufe besitzt.
+* Ein Arkaner Trick kostet immer 50 CP zum Lernen.
+* Ein Arkaner Trick verursacht nie einen _Zauberpatzer_ und _Verbrennen_.
+Dies gilt auch, wenn er aus einem Gegenstand gewirkt wird.
+
+== Verbrennen
+[quore, unbekannt]
+uuuugh
+
+Wird ein zauber vorbereitet, sammlen sich magiche ENERGIEN im Aether.
+Ein geübter SPruchzauberer kann diese formen und leiten, so dass ein magicher Effekt entsteht.
+Werden eie aetherichen ENergien unkontrolliert abgeleitet, können sie den KAörper des Zauberers durchdringen und verletzen.
+dDIES nennt man *VERBRENNEN*.in folgenden Situationn kommt es zum verbrennen:
+*
+
+EIN ZAUBERER  in einer solcehn Situstion MUSS eine probe in __Verbrennen widerstehe__n gegen 8+6=14 ablegen. Schlägt auch diese fehl, erhält er POT*W3 Aether-Schaden.
+
+=== Zauberpatzer
+
+[quote, Byhragast „Eisauge“]
+„Achtet darauf, dass ihre eure Gedanken beisammen haltet.
+Ansonsten droht euch das Schicksal des armen Habryn...
+ja, richtig, das war der Vorfall mit den vielen Tentakeln letzte Woche."
+
+Würfelt ein Zauberer bei seiner Spruchzauberei-Probe zu einemPatzer, dann tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein.
+Dazu werden 2W10 gewürfelt und das Ergebnis mit der POT addiert.
+link:../../rules/tables/magic/../spellftable_magic_spellfailure_general.adoc[Tabelle] abgeglichen.
+Dieser Wurf ist keine Probe somit entstehen keine  Bonuswürfel.
+
+==== MaxPOT erhöhen
+Mit dieser  Regel kann ein Zauberer temporär seine *MaxPOT erhöhen*, um einen Zauberspruch auszusprechen, für den er normalerweise zu wenig _maximale Magiepotenz (MaxPOT)_ hat – für einen Preis.
+
+Die Erhöhung der maximalen Magiepotenz muss mit dem Ansagen des Zauberspruches (also inklusive zusätzlicher Effekte und Verkürzen) genannt werden.
+
+Die POT gilt so lange als erhöht, wie der Zauberer vorbereitet und die Spruchzauberei-Probe durchführt.
+Spätestens dann endet die Erhöhung.
+Die Erhöhung endet auch bei Unterbrechungen der Vorbereitung.
+Kommt es zum Verbrennen oder zu einem Zauberpatzer zählt die erhöhte POT.
+
+Dadurch ist es möglich, Zauber mit höherer POT auszusprechen, jedoch ist dies gefährlich.
+Erhöht der Zauberer seine MaxPOT um mindestens 1 Punkt, muss die Spruchzauberei-Probe als _Nachteil_ gewürfelt werden, was die Wahrscheinlichkeit auf _Patzer_ erhöht.

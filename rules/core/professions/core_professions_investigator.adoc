@@ -1,16 +1,26 @@
 = Forscher
 
-*Attribute:* +
-*Talente:* +
+*Attribute:* +1 ER, +2 SB, + 1 CH+
+*Talente:* forschen, Shleichen, VerborgenesEntdecken, Lesn/Schreiben, überzeugen, 2 freie wissensgebiete+
 *Fähigkeiten:* +
-*Pool-Steigerung:* +X/+X/+X +
-*Rettungswürfe:* TBA +
-*Startausrüstung:* +
-*Eigenschaften:* +
-*Fortitudo:* +
+*Pool-Steigerung:* +0/+1/+2 +
+*Rettungswürfe:* Aufmerksamkeit, disziplin +
+*Startausrüstung:* Schreibutnsilien, ein leeres Buch, Laterne, Werkzeuge, Lupe, Kreide, Seil +
+*Eigenschaften:*<<investigato_skill_offical_inquery, offizielle ermittlung>>, +
+<<investigato_skill_offical_combinaion_specialist, kombiniere, Kombinere>> +
+<<investigato_skill_i_have_seen_enough, Ich hab gnug gesehen>>
 
-== X
+*Fortitudo:* 2+
 
-== X
+[[ref-investigato_skill_offical_inquery]]
+== offiielle ermittlung
+nutze Überzeugen probe, um an scher zugängliche informstionrn zu kommen:
+Crime scene morgue,geheime Bibliothek
 
-== X
+[[ref-investigato_skill_offical_combinaion_specialist]]
+== Kombiniere, Kombieniere
+1x Tag erhalte Tipp von SL zu Informationen, die du schon hast abr Lückn haben.
+
+[[investigato_skill_i_have_seen_enough]]
+== Ich hab grnug gesehen
+-1 SP weniger verlieren, wenn SP verloren wird (minimal 0)
