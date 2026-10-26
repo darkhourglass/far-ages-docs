@@ -11,40 +11,39 @@
 
 
 |===
-|ErgebnisxWy |Umgbung |wetter Modifikator | Gefahren modifikator
+|Ergebnis 3W6 |Umgbung |wetter Modifikator | Gefahren modifikator
 
-|Column 1, row 1
-|Tempereirter wald
+|8+
+|Wald
 |-2
 | 0
 
-|
-|Grasßland
+|7
+|Graßland
 |-3
 | 0
 
-|Column 1, row 3
-|Hügel
+|6|Hügel
 |-3
 | +1
 
-|Column 1, row 4
-|SUmpf oder moor
+|5
+|Sumpf oder moor
 |+1
 | 0
 
-|Column 1, row 5
+|4
 |Tundra
 |0
 | +1
 
-|Column 1, row 6
-|Wüste
+|3
+|Wüste (Wierd)
 |+1
 | 0
 
-|
-|Eis und schnee
+|2
+|Eis und schnee (Wierd)
 |+2
 | 0
 |===
@@ -54,14 +53,14 @@
 
 
 |===
-|xwy+Wettermodifikstor|Wetter |Effekt
+|Ergwbnis xwy+WettermodifikAtor|Wetter |Effekt
 
 |0
 |harmlos
 |Die Reise verläuft ohne verkomplizieung und der Tag geht gefahlos vorbei
 
 |1
-|DIchtdr Nebel
+|DIchtder Nebel
 |-5 auf proben, die Sicht erfordern
 
 |Column 1, row 3

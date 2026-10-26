@@ -1,5 +1,8 @@
 = Spielercharaktere
 
+:toc:
+:toclevels: 4
+
 Dieses Dokument beschreibt die Erstellung eines xref:core_rules_2d10_system.adoc#ref_core_2d10_characters[Spielercharakters] im Regelsystem von Far Ages.
 Es erklärt die Begriffe des <<ref_core_characters_charactercreation_race,Volkes>>, der <<ref_core_characters_charactercreation_profession,Berufung>> und des <<ref_core_characters_charactercreation_backround,Hintergrunds>>.
 Weiterhin werden für weitere Abenteuer die Regeln zum <<ref_core_characters_spendcp,Steigern>> aufgeführt.
@@ -646,7 +649,6 @@ Erst die Stufen ab 2 erlauben in diesem Fall, die Fähigkeiten frei zu wählen.
 Weiterhin können Schicksalspfade vorgeben, ob sie eine maximale Stufe vorgeben.
 Ist dies der Fall, kann der Charakter nur entsprechend viele Stufen in diesem Schicksalspfad lernen.
 
-//TODO
 .Schicksalspfade
 ====
 Me'ander möchte nach einem langen und intensivem Studium der Magie die Meisterschaft des Erzmagiers beschreiten.

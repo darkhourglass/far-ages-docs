@@ -1,8 +1,12 @@
 = Charaktere
 
-=Attribute
+:toc:
+:toclevels: 4
 
-Jedes profil einer kreatur bz. Charakters basiert auf 6 ATTRIBUTEN:
+
+== Attribute
+
+Jedes Profil einer Kreatur bzw. Charakters basiert auf 6 Attributen:
 
 + strärke (ST)
 
@@ -56,17 +60,19 @@ Die folgende Tabelle zeigt diese Entwicklung für die ersten 12 Attributststufen
 |===
 
 
-=== Schnelldurchlauf Charaktererschaffung
+== Schnelldurchlauf Charaktererschaffung
 
-1) wähle ein kombinAtion aus vOlk Beruf und Hintergrund
-2) Initiale Attribute: wähle ein Attribut, dass auf Stufe  beginnt.
-3)  Wähle  Attribute, die auf ufe 1 starten.
-4) wende Attributdmodifikatoreen aus Volk, Beruf und Hintergund an.
+1) wähle ein kombination aus volk Beruf und Hintergrund+
+2) Initiale Attribute: wähle ein Attribut, dass auf Stufe 3 beginnt.+
+3)  Wähle 2 Attribute, die auf auf 1 starten.+
+4) alle andereenAttribute beginnen auf Stufe 2.+
+5) wende Attributdmodifikatoreen aus Volk, Beruf und Hintergund an.+
+
 
 [NOTE]
 ====
-Ein Charakter darf in keinem Attibut di Stufe 0 haben.
-sollte es dazu kommen, muss di kombinazion sus initialeSTufen, beruf, volk und hintergrund angepasst werden.
+Ein Charakter darf in keinem Attibut der Stufe 0 haben.
+sollte es dazu kommen, muss die kombination sus initialen Stufen aus, beruf, volk und Hintergrund angepasst werden.
 ====
 
 [NoTE]
@@ -74,11 +80,11 @@ sollte es dazu kommen, muss di kombinazion sus initialeSTufen, beruf, volk und h
 Talente aus volk, Beruf und Hintergrund zählen als talente mit SGM!
 ====
 
-5) Kombiniere alle Pool-Steigeungen
+5) Kombiniere alle Pool-Steigerungen
 6) Vergebe 4 freie talentstufen uf Berufstalnente (bzw. 2:1 für andere)
 7) Initial gelente zauber: bis zu 2 arkane Tricks und 1 stufe 2 Zauber
-8) bestimme Attributsbonus (+1 pro 3 Stufen)
-9) bestimme Attributseignschaften
+8) bestimme _Attributsbonus_ (+1 pro 3 Stufen)
+9) bestimme _Attributseignschaften_
 
 === CP Einsetzen
 
@@ -122,4 +128,42 @@ Lehrer finden und CP ausgeben: Trainingsdauer it 1 Woch peo 10 CP KOsten der Fä
 ein bisher unbekanntes Talent uf Stufe 1 lernen kostet:
 
 * Berufstalent: 200 CP
-* anderes: 400 CP2
+* anderes: 400 CP
+
+==== Attributsigenschaften
+*Attributseigenschften* sind zusätzliche Spielerwerte, die aus den Stufen von _Attributen_ berechnet werden.
+
+
+|===
+|Eigenschaft |Berrechnung |Kurzinfo
+|TP
+|(ST+KO)*5 + TP-Bonus der GK
+|Der Pool der Trefferpunkte (TP) bestimmt die menge an physischen Schaden
+
+| MP
+| EN * 10
+|Der Pool der Magiepunkte (MP) steööt für Spruchzauberer eine kraftreserve da, um ihre Zauber zu verstärken.
+
+|SP
+|(SB+CH)*5.
+|Der Pool der Stabilitätspunke (SP)
+|Column 4, row 3
+
+|bew
+|GK-Basis + (GE-5) * 1,50
+|Column 3, row 4
+|bewgungsrate am Boden in Metern
+
+|INI-Bonus
+|GE+ER
+|Column 3, row 5
+|Column 4, row 5
+
+|Maximale Traglast (MaxTL)
+| ST*15
+|Angabe wieviel Gewicht in Charakter gleichzeitig tragen kann.
+|maximale Magiepotenz (MaxPOT)
+|EN+3
+|eine wichtige Angabe für Magier
+|===
+

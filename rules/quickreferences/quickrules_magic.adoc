@@ -168,14 +168,16 @@ Dies gilt auch, wenn er aus einem Gegenstand gewirkt wird.
 [quore, unbekannt]
 uuuugh
 
-Wird ein zauber vorbereitet, sammlen sich magiche ENERGIEN im Aether.
+Wird ein zauber vorbereitet, sammlen sich magiche Energienn im Aether.
 Ein geübter SPruchzauberer kann diese formen und leiten, so dass ein magicher Effekt entsteht.
 Werden eie aetherichen ENergien unkontrolliert abgeleitet, können sie den KAörper des Zauberers durchdringen und verletzen.
 dDIES nennt man *VERBRENNEN*.in folgenden Situationn kommt es zum verbrennen:
-*
 
-EIN ZAUBERER  in einer solcehn Situstion MUSS eine probe in __Verbrennen widerstehe__n gegen 8+6=14 ablegen. Schlägt auch diese fehl, erhält er POT*W3 Aether-Schaden.
+* Petzer bei Spruchzauberei-Probe+
+* vorbereitung wird unterbrochen
 
+EIN ZAUBERER  in einer solchen Situstion MUSS eine probe in __Verbrennen widerstehen_ gegen 8+pot=ablegen. Schlägt auch diese fehl, erhält er POT*W3 Aether-Schaden.
+Unabhänging vom Erfolgdieser Probe, ist die vorbereitung verloren
 === Zauberpatzer
 
 [quote, Byhragast „Eisauge“]
@@ -183,12 +185,12 @@ EIN ZAUBERER  in einer solcehn Situstion MUSS eine probe in __Verbrennen widerst
 Ansonsten droht euch das Schicksal des armen Habryn...
 ja, richtig, das war der Vorfall mit den vielen Tentakeln letzte Woche."
 
-Würfelt ein Zauberer bei seiner Spruchzauberei-Probe zu einemPatzer, dann tritt sofort neben dem Verbrennen ein *Zauberpatzer* ein.
+Würfelt ein Zauberer bei seiner Spruchzauberei-Probe zu einem _Patzer_, dann tritt sofort neben dem _Verbrennen_ ein *Zauberpatzer* ein.
 Dazu werden 2W10 gewürfelt und das Ergebnis mit der POT addiert.
 link:../../rules/tables/magic/../spellftable_magic_spellfailure_general.adoc[Tabelle] abgeglichen.
-Dieser Wurf ist keine Probe somit entstehen keine  Bonuswürfel.
+Dieser Wurf ist keine Probe somit entstehen keine  _Bonuswürfel_.
 
-==== MaxPOT erhöhen
+=== MaxPOT erhöhen
 Mit dieser  Regel kann ein Zauberer temporär seine *MaxPOT erhöhen*, um einen Zauberspruch auszusprechen, für den er normalerweise zu wenig _maximale Magiepotenz (MaxPOT)_ hat – für einen Preis.
 
 Die Erhöhung der maximalen Magiepotenz muss mit dem Ansagen des Zauberspruches (also inklusive zusätzlicher Effekte und Verkürzen) genannt werden.
