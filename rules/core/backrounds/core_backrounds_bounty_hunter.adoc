@@ -2,11 +2,14 @@
 
 // TODO Beschreibung
 
-*Attribute:* - +
-*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen] +
+*Attribute:* 1 ST, 1 ER, 1 CH +
+*Talente:* xref:../core_rules_talents_base.adoc#ref_talents_settraps[Fallen stellen], xref:../core_rules_talents_base.adoc#ref_talents_hide[verstecken] +
 *Eigenschaften:* <<ref_core_backrounds_bounty_hounter_guerilla_tactics,Guerilla Taktik>> +
+*startkapital:* 2W6+
 *Fortitudo:* 4 +
 
 [[ref_core_backrounds_bounty_hounter_guerilla_tactics]]
 == Guerilla Taktik
-// Jeder Beruf hat ein "Spezial", hier als Unterkapitel zu beschreiben
+bist du erfolgreich xref:../core_rules_talents_base.adoc#ref_talents_hide[versteckt], kannst Du für eine xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angtriffsprobe]
+einen xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_advantage[Vorteil] erhalten.
+Dust kannst diese fähiigkeit einmal am Tag einstzen.
