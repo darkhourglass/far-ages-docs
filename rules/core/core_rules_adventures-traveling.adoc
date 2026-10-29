@@ -1,22 +1,45 @@
 = Abenteuer (Reisen)
+:toc:
+toclevels: 4
 // Travel per Day, travel too much, exhaustion
 // food per day / water per day
 
+Ob zu Fuß, zu Pferderücken oder als Teil einer Karavane, um von einem ort zum anderen zu kommen, ist manchmal eine *Reise* nötig.
+
+Die Dauer der Reise un in welchen *Etappen* sie durchührbar ist, liegt im Ermessen des SLs.
+dieses Dokument geht davon aus, dasss die Reise in Etappen aufgeteilt ist und jede Etappe druch diese Regeln gestaltet werden kann.
+Der Einfachheit nehmen wir an, eine Etappe ist in Tag.
+pro Etappe ist eine probe auf xref:core_rules_talents_base.adoc#ref_talents_survival[Überleben] nötig, um auf dem Weg zu bleiben.
+
+== Verflgegung und Rast
+pro Etappe benötigen link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen Wasser und Nahrung.
+Die Rationen in der link:../../compendiums/items/mundane/compendium_mundaneitems_gear.adoc[Aurüstungsliste] sind Kreatureen der GK 5 ausgelegt:
+*pro volle3 GK größer:
+** +1 liter wasser pro Etappe
+**++2,5 Tagesrationen pro Etappe
 
 
-2 liter Wassser für leb. Kreatur mit GK 5
-+1 Liter pro 3 GK größer.
+xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[körperRettungswurf]bestehen oder erhalten 1 stufe xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung].
+pro fehlender Portion Wasser und Essen erhält der o.g.Rettungswurf einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] on -3.
 
-== Zufällige umgebung
+== Eine Etappe
+Am ende der Etappe wird eine xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange Rast] benötigt, bevor die nächsdte etappe
+Der SL kan von Party pro Etappe bis zu 4 erfolgreiche proben verlangen: diese solltn durch diespieler erzählen und festgelegt werden.
+diese proben werden durch das WEtter beeinflusst, siehe _Wetter Modifikator._
+daher sollte die umgbung und das Wetter vorheer ermittelt werden.
 
+=== Zufällige umgebung
+jede Etappe findet in einer Umgbung statt, die zufällig bestimmt werden kann.
+Der SL kann auch die Spieler ürfeln lassen.
+unpassende ERgbnise dürfen wiedeholt werden.
 
 |===
-|Ergebnis 3W6 |Umgbung |wetter Modifikator | Gefahren Modifikator
+|Ergebnis 3W6 |Umgebung |Wetter Modifikator | Gefahren Modifikator
 
 |8+
 |Wald
 |-2
-| 0
+| -1
 
 |7
 |Graßland
@@ -48,47 +71,74 @@
 | 0
 |===
 
+Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen verwendet.
 
 === Wetterbedingungen
 
 
 |===
-|Ergwbnis xwy+WettermodifikAtor|Wetter |Effekt
+|Ergwbnis xwy+Wettermodifikator|Wetter |Effekt
 
 |0
 |harmlos
-|Die Reise verläuft ohne verkomplizieung und der Tag geht gefahlos vorbei
+|Die Reise verläuft ohne komplikation und der Tag geht gefahlos vorbei
 
 |1
-|DIchtder Nebel
+|DIchter Nebel
 |-5 auf proben, die Sicht erfordern
 
-|Column 1, row 3
-|Column 2, row 3
-|Column 3, row 3
+|2
+|Regen
+|-2
 
-|Column 1, row 4
-|Column 2, row 4
-|Column 3, row 4
+|4
+|Sturm
+|-3
 
-|Column 1, row 5
-|Column 2, row 5
+|5
+|unwetter
 |Column 3, row 5
 
-|Column 1, row 6
+|6
 |Column 2, row 6
-|Column 3, row 6
+|-4
 
-|Column 1, row 7
-|Column 2, row 7
-|Column 3, row 7
+|7
+|
+|-5
 
-|schwerer Stuem
-|umgbungsspezifischer Sturm(Sand, Schnee, Gewitter)
-|Column 3, row 8
+|8
+|umgbungsspezifischer Sturm(Sand, Schnee)
+| -6
 |===
 
-=== Zufälige gefahren
+=== Zufällige Ereignisse
+
+|===
+|xWy+gefahrenmodifikator|Ereignis
+
+|1
+|ein wagenrad bricht und muss repariert werden
+
+|2
+|Die Straße wird versperrt durch einen Erdrutsch oder einen umgekippten Baum.
+
+|3
+|eine Handelskarawane kreuzt den Weg
+
+| 4
+|ein zirkus zieht durch die Lande
+
+|5
+|eine Gefahr tritt ein
+|6
+|bichts passsiert
+|7+
+| die Gruppe trift einen mysteriösen ReisendeN
+|===
+
+
+=== Zufällige Gefahren
 
 
 
