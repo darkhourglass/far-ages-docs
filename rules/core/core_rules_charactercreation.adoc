@@ -581,8 +581,9 @@ Auch dieser Malus ist auf -1 begrenzt.
 * Die <<ref_core_characters_charactercreation_sizecategories,GK>> des Charakters ist die des ersten Volkes
 * Das Halb-Blut besitzt alle sekundären Kreaturentypen beider Völker
 * Besitzt das zweite Volk mindestens eine oder mehrere besondere Eigenschaften, kann der Spieler maximal eine dieser Eigenschaften auswählen und übernehmen.
+* Rettungswürfe undPool-Steigerungen werden on dem ersten Volk übernommen.
 
-Alle Attributsboni werden mit den Attributsboni aus Beruf und Hintergrund verrechnet.
+Alle Attributsboni werden wie sonst  mit den Attributsboni aus Beruf und Hintergrund verrechnet.
 
 Das <<ref_core_characters_charactercreation_fortitudo,Fortitudo>> eines Halb-Bluts berechnet sich aus der Addition beider Werte der gewählten Völker geteilt durch 2 (abgerundet, minimal 1).
 
