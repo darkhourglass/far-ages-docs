@@ -8,29 +8,32 @@ Ob zu Fuß, zu Pferderücken oder als Teil einer Karavane, um von einem ort zum 
 
 Die Dauer der Reise un in welchen *Etappen* sie durchührbar ist, liegt im Ermessen des SLs.
 dieses Dokument geht davon aus, dasss die Reise in Etappen aufgeteilt ist und jede Etappe druch diese Regeln gestaltet werden kann.
-Der Einfachheit nehmen wir an, eine Etappe ist in Tag.
-pro Etappe ist eine probe auf xref:core_rules_talents_base.adoc#ref_talents_survival[Überleben] nötig, um auf dem Weg zu bleiben.
+Der Einfachheit nehmen wir an, eine Etappe ist 1 Tag.
+Pro Etappe ist eine probe auf xref:core_rules_talents_base.adoc#ref_talents_survival[Überleben] nötig, um auf dem Weg zu bleiben.
 
 == Verflgegung und Rast
 pro Etappe benötigen link:../advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreaturen Wasser und Nahrung.
 Die Rationen in der link:../../compendiums/items/mundane/compendium_mundaneitems_gear.adoc[Aurüstungsliste] sind Kreatureen der GK 5 ausgelegt:
 *pro volle3 GK größer:
+
 ** +1 liter wasser pro Etappe
+
 **++2,5 Tagesrationen pro Etappe
+
 
 
 xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[körperRettungswurf]bestehen oder erhalten 1 stufe xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung].
 pro fehlender Portion Wasser und Essen erhält der o.g.Rettungswurf einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] on -3.
 
 == Eine Etappe
-Am ende der Etappe wird eine xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange Rast] benötigt, bevor die nächsdte etappe
+Am ende der Etappe wird eine xref:core_rules_2d10_system.adoc#ref_core_2d10_regeneration_long_rest[lange Rast] benötigt, bevor die nächste Etappe
 Der SL kan von Party pro Etappe bis zu 4 erfolgreiche proben verlangen: diese solltn durch diespieler erzählen und festgelegt werden.
 diese proben werden durch das WEtter beeinflusst, siehe _Wetter Modifikator._
 daher sollte die umgbung und das Wetter vorheer ermittelt werden.
 
 === Zufällige umgebung
-jede Etappe findet in einer Umgbung statt, die zufällig bestimmt werden kann.
-Der SL kann auch die Spieler ürfeln lassen.
+jede Etappe findet in einer Umgebung statt, die zufällig bestimmt werden kann.
+Der SL kann auch die Spieler Würfeln lassen.
 unpassende ERgbnise dürfen wiedeholt werden.
 
 |===
@@ -42,11 +45,12 @@ unpassende ERgbnise dürfen wiedeholt werden.
 | -1
 
 |7
-|Graßland
+|Grasland
 |-3
 | 0
 
-|6|Hügel
+|6
+|Hügel
 |-3
 | +1
 
@@ -61,12 +65,12 @@ unpassende ERgbnise dürfen wiedeholt werden.
 | +1
 
 |3
-|Wüste (Wierd)
+|Wüste (wyld & Wyrd)
 |+1
 | 0
 
 |2
-|Eis und schnee (Wierd)
+|Eis und schnee (Wyld & Wyrd)
 |+2
 | 0
 |===
@@ -77,11 +81,11 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 
 
 |===
-|Ergwbnis xwy+Wettermodifikator|Wetter |Effekt
+|Ergwbnis 2w6 + Wettermodifikator|Wetter|Effekt
 
 |0
 |harmlos
-|Die Reise verläuft ohne komplikation und der Tag geht gefahlos vorbei
+|
 
 |1
 |DIchter Nebel
@@ -89,23 +93,23 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 
 |2
 |Regen
-|-2
+|-2  auf proben, die Sicht erfordern
 
 |4
 |Sturm
-|-3
+|-3 auf proben, die Sicht erfordern
 
 |5
-|unwetter
-|Column 3, row 5
+|Unwetter
+|-5  auf proben, die Sicht erfordern
 
 |6
 |Column 2, row 6
-|-4
+|-4 auf proben, die Sicht erfordern
 
 |7
-|
-|-5
+| Gewitter und Sturm
+|-5auf proben, die Sicht erfordern
 
 |8
 |umgbungsspezifischer Sturm(Sand, Schnee)
@@ -118,7 +122,7 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 |xWy+gefahrenmodifikator|Ereignis
 
 |1
-|ein wagenrad bricht und muss repariert werden
+|ein Wagenrad bricht und muss repariert werden
 
 |2
 |Die Straße wird versperrt durch einen Erdrutsch oder einen umgekippten Baum.
@@ -130,11 +134,14 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 |ein zirkus zieht durch die Lande
 
 |5
+|eine Brücke suf dem weg der gruppe ist marode
+
+|5
 |eine Gefahr tritt ein
 |6
 |bichts passsiert
 |7+
-| die Gruppe trift einen mysteriösen ReisendeN
+| die Gruppe trift einen mysteriösen Reisenden
 |===
 
 
@@ -143,34 +150,56 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 
 
 |===
-|xWy |Kreaturentyp
+|1W12 |Kreaturentyp
 
-|Column 1, row 1
+|1
 |Humanoid
 
-|Column 1, row 2
+|2
 |Tier
 
-|Column 1, row 3
+|3
 |konstrukt
 
-|Column 1, row 4
+|4
 |Drache
 
-|Column 1, row 5
+|5
 |Dämon
-|
+|6
 |Elementar
-|
+|7
 |Monströität
-|
+|8
 |Elementar
-|
+|9
 |Schleim
-|
+|10
 |Pflanze
-|
+|11
 |Untote
+|12
+|2x Würfeln
+
+
+|===
+|2W6 |Gefahrenintensität
+
+|7
+|normal
+
+|8
+|schwer
+
+|9
+|extrem
+
+|10,11
+|tödlich
+
+|12
+|TPK
+|===
 
 
 |===
