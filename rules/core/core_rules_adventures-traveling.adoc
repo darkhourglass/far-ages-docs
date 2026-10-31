@@ -16,13 +16,11 @@ pro Etappe benötigen link:../advanced/creaturetypes/secondary/creaturetype_seco
 Die Rationen in der link:../../compendiums/items/mundane/compendium_mundaneitems_gear.adoc[Aurüstungsliste] sind Kreatureen der GK 5 ausgelegt:
 *pro volle3 GK größer:
 
-** +1 liter wasser pro Etappe
+* 1 liter Wasser pro Etappe extra
 
-**++2,5 Tagesrationen pro Etappe
+* 2,5 Tagesrationen pro Etappe extra
 
-
-
-xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[körperRettungswurf]bestehen oder erhalten 1 stufe xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung].
+am Ende der etappe ist ein xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[körperRettungswurf]zu bestehen oder die reisende kreaturerhältet 1 stufe xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_exhausted[Erschöpfung].
 pro fehlender Portion Wasser und Essen erhält der o.g.Rettungswurf einen xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_situationalmodifiers_malus[Malus] on -3.
 
 == Eine Etappe
@@ -122,7 +120,7 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 |xWy+gefahrenmodifikator|Ereignis
 
 |1
-|ein Wagenrad bricht und muss repariert werden
+|
 
 |2
 |Die Straße wird versperrt durch einen Erdrutsch oder einen umgekippten Baum.
@@ -133,8 +131,6 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 | 4
 |ein zirkus zieht durch die Lande
 
-|5
-|eine Brücke suf dem weg der gruppe ist marode
 
 |5
 |eine Gefahr tritt ein
@@ -163,11 +159,9 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 
 |4
 |Drache
-
-|5
-|Dämon
 |6
-|Elementar
+| gefährliches Ereignis
+
 |7
 |Monströität
 |8
@@ -180,7 +174,7 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 |Untote
 |12
 |2x Würfeln
-
+|===
 
 |===
 |2W6 |Gefahrenintensität
@@ -199,7 +193,44 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 
 |12
 |TPK
+
 |===
+
+text
+
+== Zufälliges grfährchliches ErEignis
 
 
 |===
+|xWy + Gefahrenmodiikstor |Ereignis |Effekt
+
+|3
+|Karawane verletzt
+|gefährt oder Reittier erleide Schaden oder verletzung.
+Reparatue und versorgung nötig.
+
+|4
+|weg versperrt
+|Ein erdutsch oder umgekippter Baumversperrt den Wegund musss weggeräumt werden.
+
+|5
+|Verlust
+|Die GRuppe verliert einen zufälligen Ggegenstand (spieler oder Karawaneninventar)
+
+|6
+|Wilde Magie
+|die Ettappe führt durch eine Zone wilder Magie
+
+|7
+|Wilde Magie
+|ein xref:../core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_random_effekts[zufälliger effekt ilder magie] tritt ein
+
+|Column 1, row 6
+|Column 2, row 6
+|Column 3, row 6
+
+|Column 1, row 7
+|Column 2, row 7
+|Column 3, row 7
+|===
+

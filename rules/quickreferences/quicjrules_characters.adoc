@@ -142,26 +142,23 @@ ein bisher unbekanntes Talent uf Stufe 1 lernen kostet:
 
 | MP
 | EN * 10
-|Der Pool der Magiepunkte (MP) steööt für Spruchzauberer eine kraftreserve da, um ihre Zauber zu verstärken.
+|Der Pool der Magiepunkte (MP) stellt für Spruchzauberer eine kraftreserve da, um ihre Zauber zu verstärken.
 
 |SP
 |(SB+CH)*5.
 |Der Pool der Stabilitätspunke (SP)
-|Column 4, row 3
 
-|bew
+|BEW
 |GK-Basis + (GE-5) * 1,50
-|Column 3, row 4
 |bewgungsrate am Boden in Metern
 
 |INI-Bonus
 |GE+ER
-|Column 3, row 5
-|Column 4, row 5
+| Initiative
 
 |Maximale Traglast (MaxTL)
 | ST*15
-|Angabe wieviel Gewicht in Charakter gleichzeitig tragen kann.
+|Angabe wieviel _Gewicht_ in Charakter gleichzeitig tragen kann.
 |maximale Magiepotenz (MaxPOT)
 |EN+3
 |eine wichtige Angabe für Magier
