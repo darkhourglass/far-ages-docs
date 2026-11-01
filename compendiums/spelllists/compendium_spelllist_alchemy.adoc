@@ -6,26 +6,26 @@
 * link:../spells/spell_sculpt_stone_and_rock.adoc[Stein und Fels formen]
 
 == Stufe 1
-* link:../spells/spell_analyse_liquid.adoc[Analysieren Flüssigkeit]
-* link:../spells/spell_hot_fumes.adoc[Heißer Dampf]
+* link:../spells/spell_analyse_liquid.adoc[Analysieren Flüssigkeit] (xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
+* link:../spells/spell_hot_fumes.adoc[Heißer Dampf](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 * link:../spells/spell_glue_together.adoc[Kleben]
-* link:../spells/spell_under_water_breathing.adoc[Unter Wasser atmen]
+* link:../spells/spell_under_water_breathing.adoc[Unter Wasser atmen](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 * link:../spells/spell_loosen_screw.adoc[Schraube lösen]
 * link:../spells/spell_preserve_writing.adoc[Bewahre Schriftstück]
 
 == Stufe 2
 * link:../spells/spell_enumerate.adoc[Aufzählen]
-* link:../spells/spell_identify_material.adoc[Identifiziere Material]
-* link:../../spells/spell_zone_of_rest.adoc[Zone der Rast]
+* link:../spells/spell_identify_material.adoc[Identifiziere Material](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
+* link:../../spells/spell_zone_of_rest.adoc[Zone der Rast](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 
 == Stufe 3
 
-* link:../spells/spell_smelt.adoc[Schmelzen]
+* link:../spells/spell_smelt.adoc[Schmelzen](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 * link:../spells/spell_seeker.adoc[Sucher]
 
 == Stufe 4
 
-* link:../spells/spell_damage_resistence.adoc[Feuerresistenz]
+* link:../spells/spell_damage_resistence.adoc[Feuerresistenz](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 * link:../spells/spell_blast_of_acid.adoc[Säurestoß]
 * link:../spells/spell_enlarge_reduce_object.adoc[Objekt vergrößern / verkleinern]
 * link:../spells/spell_reactive_armor.adoc[Reaktive Rüstung]
@@ -37,17 +37,18 @@
 
 == Stufe 6
 
-* link:../spells/spell_detect_material.adoc[Material aufspüren]
+* link:../spells/spell_detect_material.adoc[Material aufspüren](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 
 == Stufe 7
-* link:../spells/spell_aetherial_thorns.adoc[Aetherische Dornen]
+* link:../spells/spell_aetherial_thorns.adoc[Aetherische Dornen](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 
 == Stufe 8
 
-* link:../spells/spell_burning_blood.adoc[Brennendes Blut]
+* link:../spells/spell_burning_blood.adoc[Brennendes Blut](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
 
 == Stufe 9
 * link:../spells/spell_statis.adoc[Stasis]
+
 == Stufe 10
 
-* link:../spells/spell_simulacrum.adoc[Simulakrum]
+* link:../spells/spell_simulacrum.adoc[Simulakrum](xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[Formula])
