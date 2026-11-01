@@ -1271,8 +1271,11 @@ Unzählige Gerüchte und unerklärliche Phänomene lassen sich mehr oder weniger
 Um herauszufinden, ob man in einer Zone wilder Magie ist, muss ein Charkter zuerst eine Probe in xref:../core/core_rules_talents_base.adoc#ref_talents_aether_perception[Aether Wahrnehmung] (Mindestwurf 15) gefolgt on Wissen (Arkane) (Mindestwurf 23) bestehen.
 
 
+
 [[ref_core_magic_schools_wild_magic_spells_in_wild_magic_zones]]
-======= Zaubersprüche in Zonen Wilder Magie wirken
+
+=== Zaubersprüche in Zonen Wilder Magie wirken
+
 Immer wenn ein Charakter xref:core_rules_talents_base.adoc#ref_talents_spellcasting[Spruchzauberei] in einer <<ref_core_magic_schools_wild_magic_zones_of_wild_magic, Zone Wilder Magie>> einsetzen,  besteht die Gefahr, dass die wilde Magie die eigentlich zu wirkende Magie beeinflusst.
 Zeigt die Augenzahl der <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> in Summe einen Wert unter der <<ref_core_magic_rules_spellcasting_spellspecifics_potent,POT>> des gezauberten Zaubers liegt, entsteht ein zusätzlicher Effekt Wilder Magie.
 Dieser wird durch einen weiteren Wurf von 2W10 + POT
@@ -1293,7 +1296,7 @@ Der Effekt mit Wert 19 aus der o.g. Tabelle ist: TODO
 ====
 
 [[ref_core_magic_schools_wild_magic_spellcasting]]
-====== Einsatz von Wilder Magie im Spiel
+==== Einsatz von Wilder Magie im Spiel
 Wilde Magie ist ein sehr mächtiges Stilmittel für eine Far Ages-Kampagne, da sie zufällig und unberechenbar erscheint.
 Jedoch sollte der SL ihren Einsatz genau planen.
 Wilde Magie kann jederzeit und überall auftreten, plötzlich erscheinen und ebenso plötzlich wieder verschwinden – zumindest sollte es so aussehen.
@@ -1301,7 +1304,7 @@ Wilde Magie kann jederzeit und überall auftreten, plötzlich erscheinen und ebe
 In diesem Kapitel wollen wir einige als Inspiration dienende Richtlinien vorstellen, die es einem SL ermöglichen, Spielercharaktere in Feldern wilder Magie mit einigen Überraschungen zu versorgen.
 
 [[ref_core_magic_schools_wild_magic_random_effekts]]
-====== Zufällige Effekte Wilder Magie
+=== Zufällige Effekte Wilder Magie
 Bestimmte Regeln und Situationen im Spiel können einn *zufälligen Effekt Wilder Magie* velangen.
 Dieses Kapitel gibt dem SL die Regeln und Baukasten, um diese Effekte zu bestimmen und zu leiten.
 
@@ -1310,6 +1313,7 @@ Es gelten dabei folgende besondeheiten:
 * <<ref_core_magic_rules_spellcasting_spellspecifics_preparation,Vorbereitungen>> sin nich nötig und nominell 0, dies gilt auch für <<ref_core_magic_rules_spellcasting_spellspecifics_preparation_rituals, Rituale>>. +
 
 * eine <<ref_core_magic_rules_spellcasting_roll,Spruchzauberei-Probe>> ist nicht nötig und gilt virtuell als xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_successes[Erfolg].+
+* Es entsteht ein effekt wiler Magie nach folgender link:../tables/magic/table_magic_wildmagic_effects.adoc[Tabelle].
 
 * <<ref_core_magic_rules_spellcasting_spellspecifics_save,Rttungswürfe>> werden gegen den Wert asus 5 plus POT gewürfelt. +
 
@@ -1343,7 +1347,7 @@ Wenn nach o.g. Regeln kein Ziel für den Zauber gefunden kann der SL einen der f
 
 
 [[ref_core_magic_schools_wild_magic_eplosion]]
-====== Explosion wilder Magie
+==== Explosion wilder Magie
 Die Energie der wilden magie kann sich nicht in einem Zauber entladen, sondern nur in einer explision ungelenkter arkaner Energie.
 Diese Explosion betifft einen radius von 1,50 Metern pro POT des zufäliigen Zauber, minimal jedoch 6,00 Meter, maximal 12,00 Meter Radius.
 Sollte der Radius unklar sein, kann der SL diessn auch durch 2W6 Meter bestimmen.
