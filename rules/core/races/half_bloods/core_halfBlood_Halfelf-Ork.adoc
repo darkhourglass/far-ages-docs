@@ -8,10 +8,13 @@
 [TIP]
 How to play a race like this?
 
-*Attribute:* +
-*Talente:* - +
-*Fähigkeiten:* - +
-Pool-Steigerung: +1/+1/+1+
+*Attribute:*+1 ST +
+*Talente:* -
+
+*Fähigkeiten:* -
+
+Pool-Steigerung: +1/+1/+1
+
 *Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex] +
 *GK:* 5 +
 *Primärer Typ:* link:../../advanced/creaturetypes/primary/creaturetype_primary_humanoid.adoc[Humanoid] +
@@ -19,9 +22,9 @@ Pool-Steigerung: +1/+1/+1+
 *Generation:* 4 oder höher +
 *Progenitor:*  +
 *Eigenschaften: * +
-*Fortitudo:* +
+*Fortitudo:2* +
 
 == Fähigkeiten
 
-* link:../skills/races/core_skill_races_keen_eyes.adoc[Scharfe Augen] +
-*xref:../core_races_orcs.adoc#ref_core_races_orcs_skill_adrenalin_surge[Adrenalin Rauasch]
+* link:.././../../core/skills/races/core_skill_races_keen_eyes.adoc[Scharfe Augen] +
+*xref:../core_races_orcs.adoc#ref_core_races_orcs_skill_adenalin_surge[Adrenalin Rausch]
