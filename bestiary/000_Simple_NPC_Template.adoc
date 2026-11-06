@@ -1,0 +1,86 @@
+= name
++ *volk:*
+* *Beruf:*
+* *Hintergrund:*
+
+== Attribute
+
+
+|===
+|Attribut |Stufe|Bonus
+
+|Stärke (ST)
+|Column 2, row 1
+|
+
+|Geschick (GE)
+|Column 2, row 2
+|
+
+|Ckonstitution (Ko)
+|Column 2, row 3
+|
+
+|erkenntis (ER)
+|Column 2, row 4
+|
+
+|Energie (EN)
+|
+|
+|
+|===
+
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* ER+SB +
+*Disziplin:* SB+CH +
+*Körper:* ST+KO +
+*Magie:* EN+SB +
+*Reflex:* GE+ER +
+
+== POOLs
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* XXX +
+*MP:* XXX +
+*SP:* XXX +
+
+== zusätzliche Werte
+
+
+ Bew:
+//GK-Basis + (GE-5) * 1,50 (min 0)
+
+ *INI* GE+ER
+
+ *MAXTL* ST*15
+
+ *MAXPOTENt* EN+3
+
+
+*BEW:* XXX +
+*INI:* XXX +
+*MaxTL:* XXX +
+*MaxPOT:* XXX +
+
+*Aktionen:* 3 +
+*Rüstung:* XXX +
+*Resistenzen:* XXX +
+*Immunitäten:* XXX +
+
+== Fähigkeiten und Talente
+
+=== Offensiv
+
+* talent 1
+* talent 3
+
+=== Defensiv
+
+* talent 1
+* talent 3
+

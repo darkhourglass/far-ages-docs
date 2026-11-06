@@ -1,0 +1,93 @@
+= Animiertes Bierfass
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_construct.adoc[Konstrukt]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_magical.adoc[Magisch]
+* Templates
+* GK: 5
+* CP: TBA
+
+== Beschreibung
+
+Lore
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 3 (+1) +
+*KO:* 3 (+1) +
+*ER:* 3 (+1) +
+*EN:* 3 (+1) +
+*SB:*  (+1) +
+*CH:*  (+1) +
+
+*TP:* 105 +
+*MP:*30 +
+*SP:* - +
+*BEW:* 9,00 Meter+
+*INI:* +2 +
+*MaxTL:* 135 +
+*MaxPOT:*6 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../../skills/bestiary_skill_naturalarmor.adoc[natürliche rüstung] 5 (alle Trfferzonen) +
+*Resistenzen:* +
+
+* link:../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_illusionary[Illusionär])
+* link:../../skills/bestiary_skill_damageresistence.adoc[Schadensresistenz](xref:../../../core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[Schock])
+
+*Immunitäten:* +
+
+* link:../../skills/bestiary_skill_immunity_to_poison.adoc[Giftimmunität]
+* link:../../skills/bestiary_skill_immunity_to_diseases.adoc[Krankheitsimmunität]
+* link:../../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Körper)]
+* link:../../skills/bestiary_skill_immunity_to_conditions.adoc[Immun gegenüber Zuständen (Verstand)]
+* link:../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_primary_mental[Mental])
+* link:../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_magical_necrotic[Nekrotisch])
+* link:../../skills/bestiary_skill_damagerimmunity.adoc.adoc[Schadensimmunität](xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_strain[Überanstrengung])
+
+== Rettungswürfe
+
+*Aufmerksamkeit:*+2 +
+*Disziplin:* +2 +
+*Körper:* +10 +
+*Magie:* +8 +
+*Reflex:* +2 +
+
+== Offensiv
+
+* link:../../skills/bestiary_skill_attack_slam.adoc[Körpereinsatz ](5+3, 2W6+3 2x)
+* link:../../skills/bestiary_skill_attack_range.adoc[bierkrugwurf](5+3,3,00 Meter, 1w6+3, 3x) (jedes animirte Bierfass besitzt einen unendlichen Vorrat an Bierkügen, die es werfen kann. Es gelten dîe REgeln zu Wurfwaffen. Ein geworfener bierkrug verschwindet sofort bei Aufprall)
+
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Defensive
+
+* xref:../../../rules/core/core_rules_talents_base.adoc#ref_talents_shield_defense[Schilverteidigung] 5+3 (das animierte Fass nutzt seinen Deckel als Schild)
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* link:../skills/specific/constructs/bestiary_skill_constructs_magical_construct.adoc[Magisches Konstrukt]
+* link:../skills/bestiary_skill_unswayable.adoc[Unbeeinflussbar]
+* link:../skills/bestiary_skill_immutable_body.adoc[Unveränderlicher Körper]
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+
+== Regeln
+
+[[ref_bestiary_aanimated_keg_aura-of-tipsiness]]
+== Aura der Trunkenheit
+Zu Beginn des xref:../../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_cycle_battlephase_own_turn[eigenen Zugs]
+muss jede link:../../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[lebende] Kreatur im radius on 9,00 metern um diese Kreatur.
+winwn xref:../../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper-Rettungswurf] bestehen oder erhalten einen malus von -3 auf alle Proben.
+Dieser malus bleibt bestehen, bis der o.g. rettungswurf bestanden wird.
+
+== Taktik
