@@ -1,6 +1,7 @@
 = Kampf
 
 :toc:
+:toclevels: 6
 
 == Einleitung
 
@@ -714,65 +715,12 @@ Ebenso erhöht sich die Basis der Wesen ab der Größenkategorie 7 regelmäßig 
 
 Folgende Tabelle zeigt alle Bedrohungszonen und die sogenannte Größenbasis, also wie viele Kästchen eine Kreatur der jeweiligen Größenkategorie einnimmt.
 
-|===
-|Größenkategorie
-|Maximale Basis [Kachel]
-|Anzahl der Halbkreise für die Bedrohungszone [Kachel]
-|Radius des Halbkreises für die Bedrohungszone[Meter]
 
-|1
-|1x1
-|0
-|0
 
-|2
-|1x1
-|0
-|0
-
-|3
-|1x1
-|1
-|1,50
-
-|4
-|1x1
-|1
-|1,50
-
-|5
-|1x1
-|1
-|1,50
-
-|6
-|2x2
-|2
-|3,00
-
-|7
-|3x3
-|3
-|4,50
-
-|8
-|4x4
-|4
-|6,00
-
-|9
-|5x5
-|5
-|7,50
-
-|10
-|6x6
-|6
-|9,00
-|===
+link:../tables/table_zones_of_control.adoc[tabelle]
 
 Man beachte, dass die Halbkreise verkürzte Seiten an den Flanken der Kreatur haben.
-Dadurch erhält die Kreatur circa einen 105 Grad Sichtradius und hat an ihren Seiten „Blinke Flecken“.
+Dadurch erhält die Kreatur einen 105 Grad Sichtradius und hat an ihren Seiten „Blinke Flecken“.
 Manche Kreaturen besitzen einen größeren oder kleinen Sichtradius und entsprechende Bedrohungszonen.
 
 Für größere Kreaturen (ab GK 6) kommen als Bedrohungszone weitere Halbkreise infrage.
@@ -785,6 +733,7 @@ Sie können auch nur Kreaturen angreifen, die sich auf demselben Kästchen befin
 Innerhalb dieser Bedrohungszonen kann der Charakter jedes Wesen im Nahkampf und unbewaffneten Kampf angreifen.
 Ebenso erhält er für bestimmte Aktionen seiner Gegner <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>>, wenn diese innerhalb seiner Bedrohungszonen stehen.
 
+
 [[ref_core_battle_melee_and_unarmed_shields]]
 === Einsatz von Schilden
 Schilde können im Nahkampf eingesetzt werden, um eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_defendingroll[Verteidigungsprobe] gegen Angriffe mit xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen] oder xref:core_rules_talents_base.adoc#ref_talents_unarmed_combat[unbewaffneten Kampf] mit dem Talent xref:core_rules_talents_base.adoc#ref_talents_shield_defense[Schildverteidigung] zu ermöglichen.
@@ -792,14 +741,14 @@ Schilde können im Nahkampf eingesetzt werden, um eine xref:core_rules_2d10_syst
 [NOTE]
 In Ermessen des SLs können Schilde auch für andere Verteidigungsproben genutzt werden.
 
+
 Schilde werden mit der xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories_secondary_hand[sekundären Hand] des Charakters geführt.
 Für Schild dabei, dass ihre <<ref_core_battle_items_armor_size,Größe>> 1 Punkt größer sein darf, als es die Sekundärhand des Charakters erlaubt, ohne dass es zu <<ref_core_battle_melee_modifiers_oversized_items,Einschränkungen>> kommt.
 
-.Schilde
-====
+[TIP]
 Ein link:races/core_races_humans.adoc[Mensch] hat die xref:core_rules_charactercreation.adoc#ref_core_characters_charactercreation_sizecategories[GK] 5 und kann somit in seiner Sekundärhand Gegenstände der Größe 4 tragen.
 Im Fall von Schilden können diese Größe von 5 haben.
-====
+
 
 Darüber hinaus findet sich in nachfolgenden <<ref_core_battle_items_shields,Kapitel>> eine Übersicht über Schilde als Ausrüstungsgegenstände.
 
@@ -1681,31 +1630,11 @@ xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_failures[Misslingt] der Re
 Er kann dann wieder <<ref_core_battle_action_standup>>,aufstehen>>.
 Im Fall eines xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_botches[Patzers] erhält der Charakter außerdem eine Stufe xref:core_rules_2d10_system.adoc#ref_core_2d10_condition_dazed[Benommenheit].
 
-Die folgende Tabelle fasst die Zahlen zu Fallschaden und Mindestwürfen abhängig von der Falldistanz zusammen.
+Die folgende link:../tables/table_falldamage.afoc[Tabelle] fasst die Zahlen zu Fallschaden und Mindestwürfen abhängig von der Falldistanz zusammen.
 
-
-|===
-|Falldistanz |Mindestwurf |Fallschaden
-
-|bis zu 3,00 Meter
-|12
-|-
-
-|3,00 - 6,00 Meter
-|14
-|2W10
-
-|6,00 - 9,00 Meter
-|18
-|3W10
-
-|+3,00 Meter
-|+2
-|+1W10
-|===
 
 [[ref_core_battle_items_weapons]]
-== Waffen
+=== Waffen
 In diesem Kapitel werden allgemeine Regeln zu Waffen vorgestellt.
 Eine umfangreiche Auswahl findet sich in den weiter unten verwiesenen Kompendien.
 Jede Beschreibung einer Waffe ist nach dem gleichen Muster aufgebaut:
@@ -2017,8 +1946,9 @@ Allerdings dürfen Schilde auch als <<ref_core_battle_meleeweapons_modifiers_imp
 
 Schilde können alle <<ref_core_battle_items_armor_tags,Eigenschaften von Rüstungen>> besitzen, sowie die folgenden als exklusive Eigenschaften.
 
+
 [[ref_core_battle_items_shields_tag_grand_cover]]
-==== Deckung geben
+=== Deckung geben
 
 Schilde mit dieser Eigenschaft sind besonders massiv und eignen sich dazu, dahinter in Deckung zu gehen.
 Ein Charakter kann einmal pro Kampfphase einen beliebigen <<ref_core_battle_attacktypes,Angriff>> deklarieren, in dem sein Schild <<ref_core_battle_melee_modifiers_coverage,Deckung>> bietet.
@@ -2042,8 +1972,8 @@ Die Effektivität der Deckung hängt von der Differenz der beiden Größenangabe
 |Totale Deckung
 |===
 
+
 .Deckung geben
-====
 Ein Charakter der GK 5 trägt einen Turmschild der GK 6.
 Die Differenz beträgt somit 1 und der Turmschild gibt dem Charakter geringe Deckung und damit -5 auf eine gegnerische Angriffsprobe pro Kampfphase.
 ====

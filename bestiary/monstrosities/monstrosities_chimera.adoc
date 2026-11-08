@@ -1,0 +1,118 @@
+= Chimäre
+
+* link:../../rules/advanced/creaturetypes/primary/creaturetype_primary_monstrosity.adoc[Ungeheuer]
+* link:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_living.adoc[Lebenig]
+* GK: 6
+* CP: 800
+
+== Beschreibung
+
+// Elan! STop doing dramatic musical cues for the dead chimera!
+Lore
+
+chimären sind künstlich geschaffene Monster, die neben mermalen unterschiedlicher kreturen wahrscheinlih auch link:bestiary_monstrosity_hydra.adoc[hydra-Blut] in sich tragen, waa ihnen eine mähtig nastüliche wundheilung verleiht.
+Ähnlich wie h<ydren können chimären mehrere köpfe besitzen und diese auch nachwachsen lassen.
+
+
+== Profil
+
+*ST:* 9 (+3) +
+*GE:* 6 (+2) +
+*KO:*9 (+3) +
+*ER:* 6 (+2) +
+*EN:*6 (+2) +
+*SB:* 9 (+3) +
+*CH:* 6 (+2) +
+
+//TP=TP-Bonus (GK) + (ST+KO)*5
+//MP=EN*10
+//SP=(SB+CH)*5
+*TP:* 125 +
+*MP:*60 +
+*SP:*60 +
+
+// BEW= GK-Basis + (GE-5) * 1,50 (min 0)
+// INI= GE+ER
+// MAXTL= ST*15
+// MAXPOT=EN+3
+
+*BEW:* link:../skills/bestiary_skill_move_flight.adoc[Fliegen] 12,00 meter und 9,00 meter am Boden+
+*INI:* +4+ +
+*MaxTL:* 135 +
+*MaxPOT:*9 +
+
+*Aktionen:* 3 +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[natürliche Rüstung] 3 alle Trefferzonen +
+*Resistenzen:* link:../skills/bestiary_skill_damageresistence.adoc[scadeenrsesistnz] Interllekt, Mental +
+*Immunitäten:* link:../skills/bestiary_skill_damagerimmunity.adoc[SChadensimmunität] Erde +
+
+== Rettungswürfe
+
+*Aufmerksamkeit:* +5 +
+*Disziplin:* S+8 +
+*Körper:* +11 +
+*Magie:* +5 +
+*Reflex:* +7 +
+
+== Offensiv
+
+* Talent 1
+* Talent 2
+* link:../skills/specific/monstrosities/bestiary_skill_monstrosities_vicious.adoc[Brutal]
+* <<ref_bestiary_chimra_multipleheads_goathead, ziegenkopf>> 3+3 2W6+5 1x
+* link:../skills/bestiary_skill_attack_claw.adoc[klauen]2+3, 1W10+5 2x
+...
+
+== Defensive
+
+* Talent 1
+* Talent 2
+* Fähigkeit 1
+* Fähigkeit 2
+...
+
+== Sonstiges
+
+* Talent 1
+* Talent 2
+* link:../skills/bestiary_skill_regeneration.adoc[Regeneration (1W10+1 TP]
+* Fähigkeit 2
+
+== Regeln
+
+[[ref_bestisry-chimra_multipleheads]]
+=== mehrfache Köpfe
+
+xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_projectiles_modifiers_aimedattack[gezielter Angriff]mit 20 TP Schaden (kann über mehrere angrifffe erfolgen).
+die chimäre verliert die fähigkeiten undangriffe des jeweiligen kopfes.
+regeniert die chimäre mindestensd 20<tp wächt ihr ein neuer zufälliger Kopf:
+
+|===
+|2W10 |Kopf
+
+|2-4
+|<<ref_bestiary_chimra_multipleheads_lionhead, löwenkopf>
+
+|5-7
+|C<<ref_bestiary_chimra_multipleheads_goathead, ziegenkopf>>
+
+|8-9
+|<<ref_bestiary_chimra_multipleheads_snakehead, vipernkopf>>
+
+|10
+|nochmal würfeln
+|===
+Einr chimäre kann im Ernessen des SL mehrfach db gleichen Typ Kopf besitzen oder alternativ einen kopf gezielt auswählen.
+
+
+[[ref_bestiary_chimra_multipleheads_lionhead]]
+=== Löwenkopf
+
+[[ref_bestiary_chimra_multipleheads_goathead]]
+=== Ziegenkopf
+Die chimäre ehält den angriff
+link:../skills/bestiary_skill_attack_ram.adoc[Rammen] mit angegebner Angriffssstufe und schadenswürfel.
+[[ref_bestiary_chimra_multipleheads_snakehead]]
+==== Vipernkopf
+mit diesen kopf erhält di chimäre die fähigkeit
+link:../skills/bestiary_skill_poison.adoc[Gift] für alle Attacken mit link:../../compendiums/poisions/poisions_paralyzing_venom.adoc[paralysierendn Gift].
