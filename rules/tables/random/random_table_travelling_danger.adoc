@@ -6,24 +6,21 @@
 |1w10+gefahrenmodifikato |Ereignis |Effekt
 
 |1
-|nichts passiert
-|ow 1
+|ruhige Etappe
+|nichts passsiert
 
-|2
-|Column 2, row 2
-|gerfährt odr tier erleidet Schaden oder verletzung: reparatue bzw. Versorgung nötig.
 
-|3
-|Column 2, row 3
-|Column 3, row 3
+|2 oder 3
+|notfalll
+|eine peron braucht Hilfe
 
 |4
-|Column 2, row 4
-|Column 3, row 4
+|vereltzung
+|gerfährt odr tier erleidet Schaden oder verletzung: reparatue bzw. Versorgung nötig.
 
 |5
-|Column 2, row 5
-|Column 3, row 5
+|Verlust:
+|ie GRuppe verliert einen zufälligen Ggegenstand (spieler oder Karawaneninventar)
 
 |6
 |Column 2, row 6
@@ -45,5 +42,6 @@
 |DIE ETAPPE führt durch eine ZONE wilder Magiw
 |11
 |WIlde Magie
-|ein xref:../:../../../../rulesV/core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_random_effekts[zufälliger effekt wilder Magie] tritt ein
+|ein xref:../../core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_random_effekts[zufälliger effekt wilder Magie] tritt ein
 |===
+
