@@ -6,7 +6,7 @@ toclevels: 4
 
 Ob zu Fuß, zu Pferderücken oder als Teil einer Karavane, um von einem ort zum anderen zu kommen, ist manchmal eine *Reise* nötig.
 
-Die Dauer der Reise un in welchen *Etappen* sie durchührbar ist, liegt im Ermessen des SLs.
+Die Dauer der Reise und in welchen *Etappen* sie durchührbar ist, liegt im Ermessen des SLs.
 dieses Dokument geht davon aus, dasss die Reise in Etappen aufgeteilt ist und jede Etappe druch diese Regeln gestaltet werden kann.
 Der Einfachheit nehmen wir an, eine Etappe ist 1 Tag.
 Pro Etappe ist eine probe auf xref:core_rules_talents_base.adoc#ref_talents_survival[Überleben] nötig, um auf dem Weg zu bleiben.
@@ -31,8 +31,8 @@ daher sollte die umgbung und das Wetter vorheer ermittelt werden.
 
 === Zufällige umgebung
 jede Etappe findet in einer Umgebung statt, die zufällig bestimmt werden kann.
-Der SL kann auch die Spieler Würfeln lassen.
-unpassende ERgbnise dürfen wiedeholt werden.
+Der SL kann auch die Spieler Würfelne lassen.
+unpassende Ergbnise dürfen wiedeholt werden.
 
 |===
 |Ergebnis 3W6 |Umgebung |Wetter Modifikator | Gefahren Modifikator
@@ -73,17 +73,19 @@ unpassende ERgbnise dürfen wiedeholt werden.
 | 0
 |===
 
-Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen verwendet.
+Die Modifikatoren für Wetter und Gefahren werden in den folgenden Abshnitten verwendet.
 
 === Wetterbedingungen
 
+für jede etappe kann zufälliges wetter bestimmt werden.
+Dazu wird der _WEttermodiikator_ der Umgebung bnötigt.
 
 |===
 |Ergwbnis 2w6 + Wettermodifikator|Wetter|Effekt
 
 |0
 |harmlos
-|
+|-
 
 |1
 |DIchter Nebel
@@ -102,7 +104,7 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 |-5  auf proben, die Sicht erfordern
 
 |6
-|Column 2, row 6
+|Starker Regen
 |-4 auf proben, die Sicht erfordern
 
 |7
@@ -116,37 +118,13 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 
 === Zufällige Ereignisse
 
-|===
-|xWy+gefahrenmodifikator|Ereignis
 
-|1
-|
-
-|2
-|Die Straße wird versperrt durch einen Erdrutsch oder einen umgekippten Baum.
-
-|3
-|eine Handelskarawane kreuzt den Weg
-
-| 4
-|ein zirkus zieht durch die Lande
-
-
-|5
-|eine Gefahr tritt ein
-|6
-|bichts passsiert
-|7-8
-| die Gruppe trift einen mysteriösen Reisenden
-
-
-
-|10 Geheimnisnacht
-|Ein zufäliiger Chrarkter ehält in der kommenden Nacht eine Traumprophzeihung. Er kann keine positiven Effekt aus der Rast zur nächsten Etappe ziehen.
-|===
+Der SL kann das Auftreren eines Ereignisses auch abhänigig machen, ob die o.g. Proben erfolgreich waren.
+siehe link:../tables/random/ranom_table_traveling_event2.adoc[tabelle] für zufällige Ereignisse.
 
 
 === Zufällige Gefahren
+
 
 
 
@@ -201,45 +179,63 @@ Die Modifikatoren für Wetter und gefahren werden in den folgenddn Kapitelen ver
 
 |===
 
-text
 
-== Zufälliges grfährliches Ereignis
+== Zufälliges gefährliches Ereignis
 
+
+siehe link:../tables/random/random_table_travelling_danger.adoc[tabelle] für zuällige GEAHREN.
 
 |===
-|xWy + Gefahrenmodiikstor |Ereignis |Effekt
+|1W10 + GefahrenmodiFikator |Ereignis |Effekt
 
-|3
+|1
 |Karawane verletzt
-|gefährt oder Reittier erleide Schaden oder verletzung.
-Reparatue und versorgung nötig.
+|gerfährt odr tier erleidet Schaden oder verletzung: reparatue bzw. Versorgung nötig.
 
-|4
-|weg versperrt
-|Ein erdutsch oder umgekippter Baumversperrt den Wegund musss weggeräumt werden.
-
-|5
+|2
 |Verlust
 |Die GRuppe verliert einen zufälligen Ggegenstand (spieler oder Karawaneninventar)
 
-|6
+|3
 |Wilde Magie
 |die Ettappe führt durch eine Zone wilder Magie
 
-|7
+|4
 |Wilde Magie
-|ein xref:../core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_random_effekts[zufälliger effekt ilder magie] tritt ein
+|ein xref:../core/core_rules_magic_base.adoc#ref_core_magic_schools_wild_magic_random_effekts[zufälliger effekt wilder Magie] tritt ein
 
-|Column 1, row 6
+|5
 |Column 2, row 6
 |Column 3, row 6
 
-|Column 1, row 7
-|Column 2, row 7
+|&
 |Column 3, row 7
+|
+
+|7
+|
+|
+
+|8
+|
+|)
+|
+
+|10
+|
+|
+|11
+|
+|
+
+|12
+|
+|
+|
 |===
 
-=== Das Scicksal herausfordern
+
+== Das Scicksal herausfordern
 
 
 |===
@@ -249,17 +245,17 @@ Reparatue und versorgung nötig.
 |Column 2, row 1
 
 |2
-|Column 2, row 2
+|Dämon
 
 | 3
-|Column 2, row 3
+|Monster
 
 |4
-|Column 2, row 4
+|HOrror  ODER Spuk
 
 | 5
-|Column 2, row 5
+|untoter Horror
 
 |6
-|kosmixh
+|kosmischer HORROR
 |===
