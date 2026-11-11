@@ -78,7 +78,7 @@ Die Modifikatoren für Wetter und Gefahren werden in den folgenden Abshnitten ve
 === Wetterbedingungen
 
 für jede etappe kann zufälliges wetter bestimmt werden.
-Dazu wird der _WEttermodiikator_ der Umgebung bnötigt.
+Dazu wird der _WEttermodifikator_ der Umgebung bnötigt.
 
 |===
 |Ergwbnis 2w6 + Wettermodifikator|Wetter|Effekt
@@ -185,16 +185,7 @@ siehe link:../tables/random/ranom_table_traveling_event2.adoc[tabelle] für zuf�
 
 siehe link:../tables/random/random_table_travelling_danger.adoc[tabelle] für zuällige GEAHREN.
 
-|===
-|1W10 + GefahrenmodiFikator |Ereignis |Effekt
 
-|1
-|Karawane verletzt
-|gerfährt odr tier erleidet Schaden oder verletzung: reparatue bzw. Versorgung nötig.
-
-|2
-|Verlust
-|Die GRuppe verliert einen zufälligen Ggegenstand (spieler oder Karawaneninventar)
 
 
 

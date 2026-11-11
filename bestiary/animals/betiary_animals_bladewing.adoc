@@ -29,44 +29,44 @@ Auch wenn diese gchichte nicht timmt, kann eine meute on 15 klingenflügeln mit 
 //TP=TP-Bonus (GK) + (ST+KO)*5
 //MP=EN*10
 //SP=(SB+CH)*5
-*TP:* XXX +
-*MP:* XXX +
-*SP:* XXX +
+*TP:* 45 +
+*MP:* 40 +
+*SP:* 35 +
 
 // BEW= GK-Basis + (GE-5) * 1,50 (min 0)
 // INI= GE+ER
 // MAXTL= ST*15
 // MAXPOT=EN+3
 
-*BEW:* XXX +
-*INI:* XXX +
-*MaxTL:* XXX +
-*MaxPOT:* XXX +
+*BEW:* link:../skills/bestiary_skill_move_flight.adoc[<fligen 1,00Meter], am BOden 6,00 Meter  +
+*INI:* +3 +
+*MaxTL:* 60 +
+*MaxPOT:* 7 +
 
 *Aktionen:* 3 +
-*Rüstung:* XXX +
-*Resistenzen:* XXX +
-*Immunitäten:* XXX +
+*Rüstung:* link:../skills/bestiary_skill_naturalarmor.adoc[nstürliche Rüstung](4, alle Trefferzonen) +
+*Resistenzen:*  +
+*Immunitäten:* +
 
 == Rettungswürfe
 
-*Aufmerksamkeit:* ER+SB +
-*Disziplin:* SB+CH +
-*Körper:* ST+KO +
-*Magie:* EN+SB +
-*Reflex:* GE+ER +
+*Aufmerksamkeit:* +3 +
+*Disziplin:* +3 +
+*Körper:* +4 +
+*Magie:* +3 +
+*Reflex:* +3 +
 
 == Offensiv
 
-* Talent 1
-* Talent 2
+*link:../skills/bestiary_skill_attack_claw.adoc[klauen]6+1, 2W6+1 2x
+* link:../skills/bestiary_skill_attack_bite.adoc[biss]6+1 1<w10+1 1x
 * Fähigkeit 1
 * Fähigkeit 2
 ...
 
 == Defensive
 
-* Talent 1
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_evade[Hieb ausweichen]5+1
 * Talent 2
 * Fähigkeit 1
 * Fähigkeit 2
@@ -74,9 +74,10 @@ Auch wenn diese gchichte nicht timmt, kann eine meute on 15 klingenflügeln mit 
 
 == Sonstiges
 
-* Talent 1
+* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_hide[verstecken]5+1
++* xref:../../rules/core/core_rules_talents_base.adoc#ref_talents_discoverhidden[verborgenrs entdecken]5+1
 * Talent 2
-* Fähigkeit 1
+* link:../skills/bestiary_skill_move_nimble.adoc[flink]
 * Fähigkeit 2
 
 == Regeln
