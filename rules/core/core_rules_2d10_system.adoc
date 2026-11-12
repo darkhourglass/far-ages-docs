@@ -1021,7 +1021,7 @@ Das Ergebnis wird als SP regeneriert.
 
 [[ref_core_2d10_regeneration_long_rest]]
 === Lange Rast
-Eine *lange Rast* dauert 24 Stunden (oder 1 Tag) und erfordert mindestens 8 Stunden Schlaf innerhalb dieser Zeit.
+Eine *lange Rast* dauert 24 Stunden (oder mind.1 Tag oder Nacht) und erfordert mindestens 8 Stunden Schlaf innerhalb dieser Zeit.
 Es gelten die gleichen Regeln wie für die reguläre <<ref_core_2d10_regeneration_rest,Rast>>.
 Bei einer erfolgreichen langen Rast regeneriert der Charakter alle verlorenen TP und MP.
 Er verliert außerdem alle Stufen von <<ref_core_2d10_condition_exhausted,Erschöpfung>>.
