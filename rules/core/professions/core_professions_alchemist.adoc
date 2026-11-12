@@ -7,6 +7,7 @@
 *Rettungswürfe:* xref:../core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_fortitude[Körper] +
 *Startausrüstung:* Alchmieausrüstung, einfache Roben, Lederschürze, Augenschutz, Handschuhe, Dolch +
 *Eigenschaften:* <<ref_core_professions_alchemist_create_bombs,Bomben herstellen>>, <<ref_core_professions_alchemist_poison_resist,Gift-Resistent>>, <<ref_core_professions_alchemist_potion_knowledge,Wissen über Substanzen>> +
+<<<ref_core_professions_alchemist_alchemical_censer, lchdmistisches Räuchergefäß<<>><
 *Fortitudo:* 4 +
 
 [[ref_core_professions_alchemist_create_bombs]]
@@ -44,3 +45,10 @@ Das Identifizieren von magischen Tränken folgt den üblichen xref:../core_rules
 
 Sofern nicht anders angegeben, erfolgt die Identifikation sofort.
 Sollte der Alchemist die Flüssigkeit nicht identifizieren können, kann er es erst nach Ablauf von 24 Stunden noch einmal versuchen.
+[[ref_core_professions_alchemist_alchemical_censer]]
+=====Alchdmistisches Räuchergefäß
+jeder alchemist trägt ein räuchdergefäß mit sich, dass er schwenken kann und magische Effekte durch rauch verteilen. jeder dem Alechemist bekannte Zauber dessen xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_spellspecifics_targets[Wirkungsbereich] als Radius angegeben ist und auf Kreaturen in diesem wirkt, kann sls xref:../../core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_components_formulas[formula]gezaubert werden.
+der Alchemister verbrennt die Zutaten für den Zauber im Räuchergefäß.
+Sonst gelten die üblichen Regeln für das Wirken eines Zaubers.
+bei erfolgreicher spruchzaubereiprobe nebelt das Räucher gefäß den Wirkungsbereich ein und verteilt den Effekt des Zaubers wie üblich.
+der Alchmist nimmt das gefäß mit und somit gilt der Effekt des Zaubers immer zentriert um den Alchemisten.
