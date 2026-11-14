@@ -1,0 +1,23 @@
+= Name
+
+*Materialkosten:*24.0000 +
+*Konstruktionszeit:* 8 tage+
+*Zaubersprüche:*  link:../../../spells/spell_energytransfer.adoc[Energietransfer]  +
+*Mindestwurf:* +
+*Preis:* 12.0000+
+*Beschreibung:* +
+
+
+grundreichweite: 28,00 Meter
+Schade: 2w6+1
+Tags: Präzise, mechanich, 2h-Waffe
+
+*Laden:*ein <Bolzen aetherischer Energie wird geladen. Dies kostet 1 MP au dm internen Speicher.
+*Feuern:* nach den Regeln für fernkasmpf mit projektilWaffen wird der bolzen gefeuert.
+
+die Armbrusst hat 30 MP internen Speicher
+
+Jede Aktion muss mit einer erfolgreichern Probe af xref:../../../../rules/core/core_rules_talents_base.adoc#ref_talents_use_technomantic_device[technomantisches Gerät] begleitet werde.
+Bei einem misserfolg kann die Aktion in diesem Zug nicht genutzt werden.
+
+Bei einem Patzer in einer der o.g. aktionen kommt es zu einerlink:../../../../rules/tables/table_constructs_general_mishaps.adoc[fehlfunktion].
