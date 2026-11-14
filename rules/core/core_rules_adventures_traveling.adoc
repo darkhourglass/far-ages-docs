@@ -29,6 +29,18 @@ Der SL kan von Party pro Etappe bis zu 4 erfolgreiche proben verlangen: diese so
 diese proben werden durch das WEtter beeinflusst, siehe _Wetter Modifikator._
 daher sollte die umgbung und das Wetter vorheer ermittelt werden.
 
+Jede Etappe besteht aus:
+
+* zufälliger umgebung
+
+* zufälligem Wetter
+
++ zufälligem Ereignis
+
+
+[NOTE]
+Die zufällige Gefahr ist Teil des Ereignisses bzw. ein mögliches Ereignis
+
 === Zufällige umgebung
 jede Etappe findet in einer Umgebung statt, die zufällig bestimmt werden kann.
 Der SL kann auch die Spieler Würfelne lassen.
