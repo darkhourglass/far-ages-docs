@@ -180,13 +180,21 @@ Es können Proben helfen, die Charaktere in die Richtung zu lenken und bei der A
 Nicht nur das Finden eines mächtigen Artefakts kann die Belohnung für ein Abenteuer sein, sondern auch das Finden einer Schlüsselinformation und das schrittweise entdecken der Geschichte des Artefakts und dessen Effekten.
 
 Die folgende Liste enthält Beispiele für typische Schlüsselinformationen:
+
 * Der Name des Artefakts - dies ist in der Regel auch die erste Schlüsselinformation, die jemand zu erfahren hat
+
 * Der Ort der initialen Herstellung
+
 * Besondere Taten und Ereignisse, die mit dem Artefakt erfolgt sind, zum Beispiel die Bezwingnung eines Monsters
+
 Jedes Artefakte enthält in seiner Beschreibung eine Liste von Schlüsselinformationen, die über das Artefakt zu finden sind.
+
 Jede Schlüsselinformation besitzt auch eine Beschreibung eines Effekts auf die Verwendung des Artefakts.
+
 D.h. erst die Aufdeckung der Schlüsselinformation gibt den magischen Effekt frei.
+
 Effekte aus verschiedenen Schlüsselinformationen sind kumulativ, also erst wenn alle Schlüsselinformationen gefunden wurden, hat das Artefakt sein volles Potenzial erreicht.
+
 
 [[ref_magic_items_createmagicalitem]]
 == Magische Gegenstände Herstellen
