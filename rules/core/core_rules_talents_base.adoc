@@ -238,6 +238,22 @@ Magisch verschlossene Türen lassen sich damit nicht öffnen.
 Wie kreativ und heimlich der Charakter vorgeht, kann er selbst entscheiden und sollte sein Verhalten der jeweiligen Situation anpassen.
 Der SL kann den xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_miniumroll[Mindestwurf] entsprechend modifizieren.
 Ein Misserfolg bedeutet, dass der Charakter das gewünschte Objekt nicht erreichen konnte, ein Patzer lässt den Dieb auf frischer Tat auffliegen.
+[[ref_talents_disGuise]]
+=== Verkleiden
+*Mindestwurf:* xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_standardminiumroll[SMW] +
+*Ungeübte Anwendung:* Ja +
+*Verwandtes Attribut:* ch +
+*Kampf:* xref:core_rules_battlesystem.adoc#ref_core_battle_actions_usetalent[Aktion] +
+*Beschreibung:* as Talent gewährt dem Charakter die Fähigkeit sein Äußeres zu verändern:
+Schminken: man kann sein Gesicht durch Schminke verändern und tarnen, Maskieren: Mit Hilfe von Perücken, Falschen Bärten und ähnlichem kann der Charakter sein Äußeres verändern.
+Täuschen: andere Kleidung, Auftreten und Stimmlage kann der Charakter andere täuschen.
+Bei jeder Probe merkt sich der Charakter die erwürfelten Erfolge. Jemand, der identifizieren möchte, muss mindestensrin höheres <ergebnis in einer eine der folgenden -Proben erwürfeln:
+
+* <<ref_talents_insight, Motiv erkennen>>
+
+*<<ref_talents_discoverhidden, Verborgenes entdecken>>
+
+Der SL kann Würfel von der Probe abziehen, wenn die Verkleidung unzureichend ist, oder die darzustellende Person zu sehr von dem Schauspieler verschieden ist. Kombinationen der Talente Überzeugen und Verkleiden sind möglich.
 
 [[ref_talents_discoverhidden]]
 === Verborgenes Entdecken

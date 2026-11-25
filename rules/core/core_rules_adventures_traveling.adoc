@@ -49,15 +49,12 @@ unpassende Ergbnise dürfen wiedeholt werden.
 |===
 |Ergebnis 3W6 |Umgebung |Wetter Modifikator | Gefahren Modifikator
 
-|7+
+|7
 |Wald
 |-2
 | -1
 
-|8
-|Grasland
-|-3
-| 0
+
 
 |9
 |Hügel
@@ -68,20 +65,35 @@ unpassende Ergbnise dürfen wiedeholt werden.
 |Sumpf oder Moor
 |+1
 | 0
-
+|11, 12, 13
+|Grasland
+|-3
+| 0
 |11
 |Tundra
 |0
 | +1
 
-|12-13
+|12, 13
 |Pilzwald
 |0
 | +1
 
-|14+
+
+|14
 |Weg/Straße führt durch eine Schlucht
 |+1
+|+1
+|15
+|Weg/Straße führt durch Farmland
+|+1
+|+1
+|
+|
+|
+|+1
+|18
+|
 |+1
 |===
 

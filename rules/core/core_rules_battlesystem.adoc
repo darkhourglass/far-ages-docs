@@ -896,7 +896,8 @@ Manche Waffen, wie Speere, sind besonders lang, so dass sie den Kontrahenten auf
 Mit solchen Waffen kann ein Charakter Gegner angreifen, die in gerader Linie vor ihm stehen und 1,50 Meter (eine Kachel) entfernt stehen.
 Er erhält dafür keinen Malus, auch nicht, wenn dieser Angriff über seine <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> hinaus gehen würde.
 
-Allerdings können <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>> nur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
+Allerdings können <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>> könnrnnur dann mit solchen Waffen geführt werden, wenn sie in Bedrohungszonen hereinreichen.
+Formsl erhöht sich die bedrohungszone mit einsatz winer solchen Waffe nivcht.
 
 Um diese Eigenschaft nutzen zu können, muss die Waffen dafür <<ref_core_battle_items_weapons_tag_reach,geeignet>> sein.
 Angegriffene Kreatoren können gegen diese Waffen keinen <<ref_core_battle_reaction_execute_retaliation_attacks,Konter>> einsetzen, wenn sie Waffen ohne diese Eigenschaft tragen oder aufgrund ihrer Größe eine größere <<ref_core_battle_melee_and_unarmed_zoneofcontroll,Bedrohungszone>> besitzen.
