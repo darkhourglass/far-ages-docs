@@ -185,7 +185,7 @@ Trotzdem lockt dieser abscheuliche Akt mit gewissen Vorteilen:
 
 * der Diablarist erlangt Wissen über die xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-Fähigkeiten] des Ausgesaugten und kann diese lernen, wenn er aufgrund seiner Machtstufe weitere Fähigkeiten aufnehmen kann.
 
-* Der Diablarist kann seine eigene Machtstufe um 1 erhöhen, wenn der Ausgesaugte mindestens 1 Machtstufe höher als war.
+* Der Diablarist kann seine eigene Machtstufe um 1 erhöhen, wenn der Ausgesaugte mindestens 1 Machtstufe höher alsder diablerist war.
 
 
 [[ref_undead_vampire_skills_vampir_create_bloodbond]]
@@ -196,27 +196,39 @@ Empfangende Wesen des Blutbandes sind durch den Vampir leichter zu beeinflussen.
 Sie erhalten einen Nachteil auf alle Rettungswürfe, um den Einfluss des Vampirs zu widerstehen.
 Gleichzeitig macht das Blut auch süchtig und viele gegen somit freiwillig einen solchen Bund ein.
 
+
 [[ref_undead_vampire_skills_vampir_healing]]
 ===== Heilungskräfte
 Vampir Blut hat enorme Heilungskräfte.
 Ein Vampir, der freiwillig sein Blut auf Wunden einer lebenen Kreatur reibt, erzielt damit, dass sich zum einen die Wunden sofort schließen und die Kreatur 1W10 TP regeneriert.
 Vampire nutzen diese Fähigkeit auch, um ihre Bissmale zu verschleiern.
 
+
 [[ref_undead_vampire_skills_vampir_general_properties]]
 ==== Allgemeine Eigenschaften von Vampiren
 In diesem Kapitel werden Eigenschaften von Vampiren zusammengefasst, die nicht als Regeln, sondern als erzählerische Werkzeuge genutzt werden können.
+
 * Vampire haben charaktertische Fangzähne, die sie aber nur benötigen, wenn sie Blut trinken, also beim Einsatz von <<ref_undead_vampire_skills_vampir_energydrain,Energieentzug>>.
+
+
 * Die Augen von Vampiren reflektieren Licht stärker und scheinen daher zu glühen.
+
+
 
 * Vampire, die nicht kürzlich Blut getrunken haben, sind kalt und blass wie eine Leiche.
 
+
 Vampire, die kürzlich Blut getrunken haben, haben dagegeben eine rosarote Hautfärbung, bleiben aber kalt.
+
 
 * Vampire schwitzen oder frieren nicht
 
+
 * Vampire, die geköpft werden oder deren Körper vollständig verbrannt wird, können nicht wiederauferstehen (siehe <<ref_undead_vampire_skills_vampir_burial_ground,Grabstätte>>)
 
+
 * Vampire altern nicht, sie behalten die Form vom Tag ihrer Vampirwerdung
+
 
 
 [[ref_undead_vampire_cp]]
