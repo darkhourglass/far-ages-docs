@@ -123,11 +123,16 @@ Nach 24 Stunden erwacht die Kreatur als Vampir.
 ==== Blutlinie
 Der Vampir gehört einer Blutlinie von Vampiren an, die verschiedene Aspekte definiert:
 * Anpassungen bei Attributsstufen
+
 * Zusätzliche Talente und Fähigkeiten
-* eine Vorbestimmung von xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-Fähigkeiten].
+
+* eine Vorbestimmung von
+xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-Fähigkeiten].
+
 * Bestimmte xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_occult_weaknesses[okkulte Schwächen] zusätzlich zu den <<ref_undead_vampire_skills_vampir_occult_weaknesses,allgemeinen>>.
+
 Die Blutlinie eines Vampirs ist immer die seines <<ref_undead_vampire_skills_vampir_sire,Erschaffers>>.
-Folgende Blutlinien stehen zur Auswahl:
+Folgende Blutlinien rxidtieren:
 * link:vampire_bloodlines/specific/vampirc_bloodline_Bathori.adoc[Bathori]
 
 * link:vampire_bloodlines/specific/vampirc_bloodline_Moroi.adoc[Moroi]
@@ -139,6 +144,7 @@ Folgende Blutlinien stehen zur Auswahl:
 
 Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit erhält, greift zuerst die Vorgabe der Blutlinie.
 Erhält er eine weitere Fähigkeit aufgrund seiner Machtstufe, besteht dann eine freie Wahl.
+
 
 [[ref_undead_vampire_skills_vampir_occult_weaknesses]]
 === Allgemeine okkulte Schwächen untoter Vampire
@@ -176,8 +182,11 @@ Erst wenn der Erschaffer seine Nachkommen freispricht, verschwindet diese Macht 
 Als *Diablerie* wird der Akt bezeichnet, mit dem ein Vampir einen anderen Vampir aussaugt und somit dessen Tod verursacht sowie Blut trinkt.
 In der Vampirgesellschaft wird dies als schweres Verbrechen gesehen und nach Diablaristen werden oft gejagt und selbst vernichtet.
 Trotzdem lockt dieser abscheuliche Akt mit gewissen Vorteilen:
+
 * der Diablarist erlangt Wissen über die xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire.adoc#ref_secondary_creaturetype_vampire_rules_powerlevel_additional_skills[Vampir-Fähigkeiten] des Ausgesaugten und kann diese lernen, wenn er aufgrund seiner Machtstufe weitere Fähigkeiten aufnehmen kann.
+
 * Der Diablarist kann seine eigene Machtstufe um 1 erhöhen, wenn der Ausgesaugte mindestens 1 Machtstufe höher als war.
+
 
 [[ref_undead_vampire_skills_vampir_create_bloodbond]]
 ===== Blutband schließen
