@@ -108,7 +108,8 @@ Alle Vampire sind auf mystische Art dem Tod verbunden, auch wenn sie als wandeln
 Geht die Sonne auf, muss ein Vampir schlafen gehen und er kann erst wieder aufstehen,  wenn die Sonne untergegangen ist.
 Der Vampir muss dabei nicht zwingend in einem Sarg liegen, allerdings bieten diese tagsüber in der Regel Schutz vor zufälligen Sonnenstrahlen.
 Der Sarg oder die Gruft, in der der Vampir schläft, als *Grabstätte* bezeichnet, ist der Ort, an dem er seine Fähigkeit link:../skills/bestiary_skill_energyexchange.adoc[Energieaustausch] nutzen kann.
-Gleichzeitig gilt die Grabstätte als link:../../compendiums/items/magical/misc/magical_item_souljar.adoc[Seelengefäß], dass jedoch nicht Einsatz zerfällt.
+Gleichzeitig gilt die Grabstätte als link:../../compendiums/items/magical/misc/magical_item_souljar.adoc[Seelengefäß], dass jedoch nicht bei Einsatz zerfällt.
+d.h. ein Vampir, der
 [[ref_undead_vampire_skills_vampir_sire]]
 ==== Erschaffer
 Eine Kreatur kann diese Schablone nur erhalten, in dem sie von einer anderen Kreatur, die diese Schablone schon besitzt, verwandelt wird.
@@ -122,6 +123,8 @@ Nach 24 Stunden erwacht die Kreatur als Vampir.
 [[ref_undead_vampire_skills_vampir_bloodline]]
 ==== Blutlinie
 Der Vampir gehört einer Blutlinie von Vampiren an, die verschiedene Aspekte definiert:
+
+
 * Anpassungen bei Attributsstufen
 
 * Zusätzliche Talente und Fähigkeiten
@@ -133,13 +136,20 @@ xref:../../rules/advanced/creaturetypes/secondary/creaturetype_secondary_vampire
 
 Die Blutlinie eines Vampirs ist immer die seines <<ref_undead_vampire_skills_vampir_sire,Erschaffers>>.
 Folgende Blutlinien rxidtieren:
+
+
 * link:vampire_bloodlines/specific/vampirc_bloodline_Bathori.adoc[Bathori]
+
+
 
 * link:vampire_bloodlines/specific/vampirc_bloodline_Moroi.adoc[Moroi]
 
+
 * link:vampire_bloodlines/specific/vampirc_bloodline_Nosferatu.adoc[Nosferatu]
 
+
 * link:vampire_bloodlines/specific/vampirc_bloodline_Strigoi.adoc[Strigoi]
+
 
 
 Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit erhält, greift zuerst die Vorgabe der Blutlinie.
