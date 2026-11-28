@@ -129,9 +129,13 @@ Der Vampir gehört einer Blutlinie von Vampiren an, die verschiedene Aspekte def
 Die Blutlinie eines Vampirs ist immer die seines <<ref_undead_vampire_skills_vampir_sire,Erschaffers>>.
 Folgende Blutlinien stehen zur Auswahl:
 * link:vampire_bloodlines/specific/vampirc_bloodline_Bathori.adoc[Bathori]
+
 * link:vampire_bloodlines/specific/vampirc_bloodline_Moroi.adoc[Moroi]
+
 * link:vampire_bloodlines/specific/vampirc_bloodline_Nosferatu.adoc[Nosferatu]
+
 * link:vampire_bloodlines/specific/vampirc_bloodline_Strigoi.adoc[Strigoi]
+
 
 Jedes Mal, wenn der Vampir aufgrund seiner Machtstufe eine Fähigkeit erhält, greift zuerst die Vorgabe der Blutlinie.
 Erhält er eine weitere Fähigkeit aufgrund seiner Machtstufe, besteht dann eine freie Wahl.
@@ -139,9 +143,13 @@ Erhält er eine weitere Fähigkeit aufgrund seiner Machtstufe, besteht dann eine
 [[ref_undead_vampire_skills_vampir_occult_weaknesses]]
 === Allgemeine okkulte Schwächen untoter Vampire
 Alle Vampire haben folgende okkulte Schwächen fix:
+
 * link:../skills/specific/occult/skill_occcut_the_hunger.adoc[Der Hunger (Blut)]
+
 * link:../skills/specific/occult/skill_occult_weakness_to_sunlight.adoc[Schwäche gegen Sonnenlicht (Mittel)]
+
 * link:../skills/specific/occult/skill_occult_stake_to_the_heart.adoc[Pfahl durchs Herz]
+
 Okkulte Schwächen der Blutlinie kommen hinzu.
 Jeder Vampire teilt außerdem <<ref_undead_vampire_skills_vampir_general_properties,allgemeine Eigenschaften>>, die mit dem Vampirismus einhergehen.
 [[ref_undead_vampire_skills_vampir_power_of_the_blood]]

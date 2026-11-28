@@ -1,0 +1,23 @@
+= Kugelblitz
+
+*Arkanes Geheimnis:*  +
+*POT:*  +
+*Rettungswurf:*  +
+*Komponenten:*  +
+*Fokus:* +
+*Vorbereitung:*  +
+*Reichweite:9,00 Meter,siehe Beschreibung*  +
+*Anzahl der Ziele:* Radius 6,00 Meter, siehe Beschreibung +
+*Dauer:* sofort
+*Effekt:* +
+in DeinenHandfklächen formt sich ein Ball aus elektrischer Energie.
+mit erfolgreicher xref:../../rules/core/core_rules_magic_base.adoc#ref_core_magic_rules_spellcasting_roll[Spruchzauberei_Probe]schleuderst Du diesen in gerader Sichtlinie   bis zu 9,000 Meter von Dir weg.
+Alle Kreaturen in diesem pfad Müssen einen Xref:.../../core/core_rules_3D10.sdoc
+xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_magic[Magie-Rettungswurf] gegn <deine Spruchzauberei-Probe bestehen oder erhalten einen xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_hits_automatic_hit[automatischen Treffer] mit 2W6 xref:../../rules/core/core_rules_battlesystem.adoc#ref_core_battle_damage_damagetype_aspectelemental_shock[schock-Schaden].
+der Kuglblitz explodiert am Ende sseines Weges in einem Radius von 6,00 Metern un trifft in diese Bereich auch alle Kreaturen automatisch für 2W6 Schock-Schaden.
+mir einem erfolgreichen xref:../../rules/core/core_rules_2d10_system.adoc#ref_core_2d10_checks_saves_reflex[Reflex-Rettungwurf]gegen Deine Spruchzauberei-Probe.
+halbiert diesen erlittenen Schasden ( halbiert, abgerundet, minium 1).
+
+*Zusätzliche Effekte:* +
++ 5 MMP: Reichweite: +3,00 Meter
++ 2POT, + 10 MP: schaden +2W6 shovk für beide varanten des Treffers

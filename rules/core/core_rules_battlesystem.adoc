@@ -563,7 +563,8 @@ Weiterhin gelten die Regeln für <<ref_core_battle_projectiles,Projektilwaffen>>
 [[ref_core_battle_attacktypes_meleeattack]]
 === Attacke im Nahkampf
 Mit dieser Aktion greift der Charakter einen Gegner in unmittelbarer Reichweite an.
-Eine Nahkampf-Attacke erfordert, dass der Charakter eine passende <<ref_core_battle_items_weapons,Waffe>> trägt.
+Eine Nahkampf-Attacke erfordert, dass der Charakter eine passende <<ref_core_battle_items_weapons,Waffe>> trägtoder <<ref_core_battle_attacktypes_natural_attacks. natürliche Attacken>>> besitz.
+
 
 Er muss außerdem eine xref:core_rules_2d10_system.adoc#ref_core_2d10_checks_concurrentrolls_attackingroll[Angriffsprobe] würfeln.
 Diese erfolgt über den Einsatz von xref:core_rules_talents_base.adoc#ref_talents_meleeweapons[Nahkampfwaffen].
@@ -703,7 +704,7 @@ Ist nach allen Varianten der Angreifer in seiner Probe xref:core_rules_2d10_syst
 
 [[ref_core_battle_melee_and_unarmed_zoneofcontroll]]
 === Bedrohungszone
-Welche Gegner ein Charakter angreifen kann, bestimmt seine *Bedrohungszone*.
+Welche Gegner ein Charakter angreifen kann, bestimmt seine *Bedrohungszone*und ob biede Kreaturen unnmittelbar nebeneinander stehen (Basis an Basis)
 Die nebenstehende Abbildung zeigt die Bedrohungszonen eines Charakters der Größenkategorie 5 in grauer Farbe.
 //TODO image
 
@@ -713,11 +714,11 @@ Größere Wesen haben meistens auch größere Bedrohungszonen, das heißt, sie h
 Daher gilt, dass jede Größenkategorie von 7 oder höher einen zusätzlichen Halbring pro Größenkategorie um die Basis der Kreatur hat.
 Ebenso erhöht sich die Basis der Wesen ab der Größenkategorie 7 regelmäßig pro Größenkategorie.
 
-Folgende Tabelle zeigt alle Bedrohungszonen und die sogenannte Größenbasis, also wie viele Kästchen eine Kreatur der jeweiligen Größenkategorie einnimmt.
+Folgende link:../tables/table_zones_of_control.adoc[tabelle] zeigt alle Bedrohungszonen und die sogenannte Größenbasis, also wie viele Kästchen eine Kreatur der jeweiligen Größenkategorie einnimmt.
 
 
 
-link:../tables/table_zones_of_control.adoc[tabelle]
+
 
 Man beachte, dass die Halbkreise verkürzte Seiten an den Flanken der Kreatur haben.
 Dadurch erhält die Kreatur einen 105 Grad Sichtradius und hat an ihren Seiten „Blinke Flecken“.
@@ -732,6 +733,7 @@ Sie können auch nur Kreaturen angreifen, die sich auf demselben Kästchen befin
 
 Innerhalb dieser Bedrohungszonen kann der Charakter jedes Wesen im Nahkampf und unbewaffneten Kampf angreifen.
 Ebenso erhält er für bestimmte Aktionen seiner Gegner <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>>, wenn diese innerhalb seiner Bedrohungszonen stehen.
+eine uone gilt nur als bedroht, wenn die bedrohnende Kreatur  <<ref_core_battle_attacks_of_opportunity,Gelegenheitsangriffe>> ausführen darf.
 
 
 [[ref_core_battle_melee_and_unarmed_shields]]
@@ -1188,6 +1190,8 @@ Provozieren mehr Gegner Gelegenheitsangriffe, nach dem Charakter seine verfügba
 Es kann auf das Ausführen eines Gelegenheitsangriffs verzichtet werden.
 
 Ein Gelegenheitsangriff gilt als <<ref_core_battle_attacktypes,Angriff>> und <<ref_core_battle_reaction_execute_attack_of_opportunity,Reaktion>>.
+<witerhin muss die Kreatur in der Lage sein eine <<ref_core_battle_attacktypes_meleeattack, <attacke im Nahkampf>>> gegen die Zielkreatur ausführen Können.
+
 
 [[ref_core_battle_hits]]
 == Treffer
